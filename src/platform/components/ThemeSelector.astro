@@ -1,0 +1,78 @@
+<div class="theme-selector" aria-label="Tema visual">
+  <button type="button" data-theme-choice="system">Sistema</button>
+  <button type="button" data-theme-choice="light">Claro</button>
+  <button type="button" data-theme-choice="dark">Oscuro</button>
+</div>
+
+<script>
+  type ThemeChoice = 'system' | 'light' | 'dark';
+
+  const storageKey = 'aprendo-theme';
+  const choices = document.querySelectorAll<HTMLButtonElement>('[data-theme-choice]');
+
+  const readPreference = (): ThemeChoice => {
+    try {
+      const stored = localStorage.getItem(storageKey);
+      return stored === 'light' || stored === 'dark' ? stored : 'system';
+    } catch {
+      return 'system';
+    }
+  };
+
+  const persistPreference = (choice: ThemeChoice) => {
+    try {
+      if (choice === 'system') localStorage.removeItem(storageKey);
+      else localStorage.setItem(storageKey, choice);
+    } catch {
+      // Theme selection still works for the current page if storage is unavailable.
+    }
+  };
+
+  const applyTheme = (choice: ThemeChoice) => {
+    if (choice === 'system') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.dataset.theme = choice;
+
+    persistPreference(choice);
+
+    choices.forEach((button) => {
+      button.setAttribute('aria-pressed', String(button.dataset.themeChoice === choice));
+    });
+  };
+
+  choices.forEach((button) => {
+    button.addEventListener('click', () => {
+      const choice = button.dataset.themeChoice;
+      if (choice === 'system' || choice === 'light' || choice === 'dark') applyTheme(choice);
+    });
+  });
+
+  applyTheme(readPreference());
+</script>
+
+<style>
+  .theme-selector {
+    display: inline-flex;
+    gap: 0.2rem;
+    padding: 0.2rem;
+    border: 1px solid var(--border);
+    border-radius: 0.7rem;
+    background: var(--surface-2);
+  }
+
+  button {
+    min-height: 2.75rem;
+    padding: 0.5rem 0.75rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  button[aria-pressed="true"] {
+    background: var(--surface);
+    box-shadow: 0 0 0 1px var(--border);
+    font-weight: 700;
+  }
+</style>
