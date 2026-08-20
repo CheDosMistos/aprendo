@@ -1,8 +1,14 @@
-<div class="theme-selector" aria-label="Tema visual">
-  <button type="button" data-theme-choice="system">Sistema</button>
-  <button type="button" data-theme-choice="light">Claro</button>
-  <button type="button" data-theme-choice="dark">Oscuro</button>
-</div>
+<details class="settings-menu">
+  <summary>Configuración</summary>
+  <div class="settings-panel">
+    <span class="settings-label">Tema</span>
+    <div class="theme-selector" aria-label="Tema visual">
+      <button type="button" data-theme-choice="system">Sistema</button>
+      <button type="button" data-theme-choice="light">Claro</button>
+      <button type="button" data-theme-choice="dark">Oscuro</button>
+    </div>
+  </div>
+</details>
 
 <script>
   type ThemeChoice = 'system' | 'light' | 'dark';
@@ -50,20 +56,50 @@
 </script>
 
 <style>
-  .theme-selector {
+  .settings-menu {
+    position: relative;
+    font-size: 0.875rem;
+  }
+
+  summary {
+    min-height: 2.75rem;
     display: inline-flex;
-    gap: 0.2rem;
-    padding: 0.2rem;
+    align-items: center;
+    padding: 0.5rem 0.65rem;
+    cursor: pointer;
+    color: var(--text-muted);
+  }
+
+  .settings-panel {
+    display: grid;
+    gap: 0.45rem;
+    margin-top: 0.35rem;
+    padding: 0.75rem;
     border: 1px solid var(--border);
     border-radius: 0.7rem;
+    background: var(--surface);
+  }
+
+  .settings-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-muted);
+  }
+
+  .theme-selector {
+    display: inline-flex;
+    gap: 0.15rem;
+    padding: 0.15rem;
+    border: 1px solid var(--border);
+    border-radius: 0.6rem;
     background: var(--surface-2);
   }
 
   button {
     min-height: 2.75rem;
-    padding: 0.5rem 0.75rem;
+    padding: 0.45rem 0.65rem;
     border: 0;
-    border-radius: 0.5rem;
+    border-radius: 0.45rem;
     background: transparent;
     color: var(--text);
     font: inherit;
