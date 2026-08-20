@@ -15,11 +15,25 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Check project
+        run: npm run check
+
+      - name: Build site
+        run: npm run build
 
       - name: Configure SSH
         env:
@@ -52,7 +66,7 @@ jobs:
             --delete-delay \
             --delay-updates \
             -e "ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/known_hosts" \
-            site/ \
+            dist/ \
             "$VPS_USER@$VPS_HOST:/var/www/aprendo.molacomer.com/"
 
       - name: Verify deployed files on VPS

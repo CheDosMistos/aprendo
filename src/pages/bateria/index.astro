@@ -1,0 +1,27 @@
+---
+import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import { bateriaCourse } from '@courses/bateria/course.config';
+---
+
+<BaseLayout title={`${bateriaCourse.title} — Aprendo`} description={bateriaCourse.description}>
+  <div class="stack">
+    <section>
+      <p class="eyebrow">Aprendo · Batería</p>
+      <h1>{bateriaCourse.title}</h1>
+      <p>El esqueleto de la nueva interfaz está listo. El contenido real de la Unidad 1 se incorporará después de validar esta base en tablet.</p>
+    </section>
+
+    <section class="grid" aria-label="Estado del curso">
+      <article class="card">
+        <p class="eyebrow">Ahora</p>
+        <h2>Base de la plataforma</h2>
+        <p>Diseño responsive, tema claro/oscuro y estructura compartida para futuros cursos.</p>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Después</p>
+        <h2>Unidad 1</h2>
+        <p>Migraremos la primera unidad cuando esta interfaz haya sido validada en el dispositivo principal.</p>
+      </article>
+    </section>
+  </div>
+</BaseLayout>

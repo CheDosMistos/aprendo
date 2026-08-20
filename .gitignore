@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+backups/
+.DS_Store

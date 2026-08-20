@@ -1,0 +1,48 @@
+---
+import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import { bateriaCourse } from '@courses/bateria/course.config';
+---
+
+<BaseLayout title="Aprendo">
+  <div class="stack">
+    <section>
+      <p class="eyebrow">Plataforma de aprendizaje</p>
+      <h1>Aprendo</h1>
+      <p>Una interfaz sencilla para estudiar, practicar y mantener el progreso sin administrar el sistema.</p>
+    </section>
+
+    <section class="grid" aria-label="Cursos">
+      <article class="card course-card">
+        <div>
+          <p class="eyebrow">Curso activo</p>
+          <h2>{bateriaCourse.title}</h2>
+          <p>{bateriaCourse.description}</p>
+        </div>
+        <a class="primary-link" href={bateriaCourse.route}>Entrar al curso</a>
+      </article>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .course-card {
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .primary-link {
+    width: fit-content;
+    min-height: 3rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.65rem 1rem;
+    border-radius: 0.65rem;
+    background: var(--accent);
+    color: var(--accent-contrast);
+    font-weight: 750;
+    text-decoration: none;
+  }
+</style>
