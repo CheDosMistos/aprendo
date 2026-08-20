@@ -1,5 +1,4 @@
 ---
-import ThemeSelector from '@platform/components/ThemeSelector.astro';
 import '@platform/styles/global.css';
 
 interface Props {
@@ -37,13 +36,20 @@ const {
         <nav aria-label="Principal">
           <a href="/bateria/">Batería</a>
         </nav>
-        <ThemeSelector />
       </div>
     </header>
 
     <main class="container main-content">
       <slot />
     </main>
+
+    {Astro.slots.has('footer') && (
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <slot name="footer" />
+        </div>
+      </footer>
+    )}
   </body>
 </html>
 
@@ -58,10 +64,10 @@ const {
   }
 
   .header-inner {
-    min-height: 4.5rem;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
+    min-height: 4rem;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
   }
 
@@ -89,11 +95,21 @@ const {
     padding-block: clamp(2rem, 5vw, 4rem);
   }
 
-  @media (max-width: 42rem) {
-    .header-inner {
-      grid-template-columns: 1fr auto;
-    }
+  .site-footer {
+    margin-top: auto;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+  }
 
+  .footer-inner {
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-block: 0.65rem;
+  }
+
+  @media (max-width: 42rem) {
     nav {
       display: none;
     }
