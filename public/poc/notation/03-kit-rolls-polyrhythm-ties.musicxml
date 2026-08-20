@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="4.0">
-  <work><work-title>Aprendo alphaTab PoC 03</work-title></work>
-  <identification><creator type="composer">Fixture técnico original de Aprendo</creator></identification>
   <part-list>
     <score-part id="P1">
       <part-name>Drumset</part-name>
@@ -27,35 +25,35 @@
       <attributes><divisions>12</divisions><time><beats>6</beats><beat-type>8</beat-type></time><clef><sign>percussion</sign><line>2</line></clef></attributes>
       <direction placement="above"><direction-type><words>6/8 · kit extendido</words></direction-type><sound tempo="72"/></direction>
       <note><unpitched><display-step>A</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I49"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>x</notehead><beam number="1">begin</beam></note>
-      <note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I50"/><voice>1</voice><type>eighth</type><stem>up</stem><beam number="1">continue</beam></note>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><beam number="1">end</beam></note>
+      <note><unpitched><display-step>E</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I50"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">continue</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam></note>
       <note><unpitched><display-step>F</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I51"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>x</notehead><beam number="1">begin</beam></note>
-      <note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>6</duration><instrument id="P1-I45"/><voice>1</voice><type>eighth</type><stem>up</stem><beam number="1">continue</beam></note>
+      <note><unpitched><display-step>A</display-step><display-octave>4</display-octave></unpitched><duration>6</duration><instrument id="P1-I45"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">continue</beam></note>
       <note><unpitched><display-step>D</display-step><display-octave>4</display-octave></unpitched><duration>6</duration><instrument id="P1-I44"/><voice>1</voice><type>eighth</type><stem>down</stem><notehead>x</notehead><beam number="1">end</beam></note>
       <backup><duration>36</duration></backup>
-      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>18</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><dot/><stem>down</stem></note>
-      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>18</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><dot/><stem>down</stem></note>
+      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>18</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><dot/><stem>down</stem><notehead>normal</notehead></note>
+      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>18</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><dot/><stem>down</stem><notehead>normal</notehead></note>
     </measure>
     <measure number="2">
       <attributes><time><beats>4</beats><beat-type>4</beat-type></time></attributes>
       <direction placement="above"><direction-type><words>two-note tremolo · buzz roll</words></direction-type></direction>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>half</type><time-modification><actual-notes>2</actual-notes><normal-notes>1</normal-notes><normal-type>half</normal-type></time-modification><stem>up</stem><notations><ornaments><tremolo type="start">2</tremolo></ornaments></notations></note>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>half</type><time-modification><actual-notes>2</actual-notes><normal-notes>1</normal-notes><normal-type>half</normal-type></time-modification><stem>up</stem><notations><ornaments><tremolo type="stop">2</tremolo></ornaments></notations></note>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>24</duration><instrument id="P1-I38"/><voice>1</voice><type>half</type><stem>up</stem><notations><ornaments><tremolo type="unmeasured">0</tremolo></ornaments></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>half</type><time-modification><actual-notes>2</actual-notes><normal-notes>1</normal-notes><normal-type>half</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><notations><ornaments><tremolo type="start">2</tremolo></ornaments></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>half</type><time-modification><actual-notes>2</actual-notes><normal-notes>1</normal-notes><normal-type>half</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><notations><ornaments><tremolo type="stop">2</tremolo></ornaments></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>24</duration><instrument id="P1-I38"/><voice>1</voice><type>half</type><stem>up</stem><notehead>normal</notehead><notations><ornaments><tremolo type="unmeasured">0</tremolo></ornaments></notations></note>
     </measure>
     <measure number="3">
       <direction placement="above"><direction-type><words>polirritmo 3:2 · tie across barline</words></direction-type><sound tempo="88"/></direction>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>8</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>quarter</normal-type></time-modification><stem>up</stem><notations><tuplet type="start" number="1"/></notations></note>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>8</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>quarter</normal-type></time-modification><stem>up</stem></note>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>8</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>quarter</normal-type></time-modification><stem>up</stem><notations><tuplet type="stop" number="1"/></notations></note>
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>24</duration><tie type="start"/><instrument id="P1-I38"/><voice>1</voice><type>half</type><stem>up</stem><notations><tied type="start"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>8</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>quarter</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><notations><tuplet type="start" number="1" bracket="yes" show-number="actual"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>8</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>quarter</normal-type></time-modification><stem>up</stem><notehead>normal</notehead></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>8</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>quarter</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><notations><tuplet type="stop" number="1"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>24</duration><tie type="start"/><instrument id="P1-I38"/><voice>1</voice><type>half</type><stem>up</stem><notehead>normal</notehead><notations><tied type="start"/></notations></note>
       <backup><duration>48</duration></backup>
-      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>12</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><stem>down</stem></note>
-      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>12</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><stem>down</stem></note>
+      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>12</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><stem>down</stem><notehead>normal</notehead></note>
+      <note><unpitched><display-step>F</display-step><display-octave>4</display-octave></unpitched><duration>12</duration><instrument id="P1-I36"/><voice>2</voice><type>quarter</type><stem>down</stem><notehead>normal</notehead></note>
       <note><rest/><duration>24</duration><voice>2</voice><type>half</type></note>
     </measure>
     <measure number="4">
-      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>24</duration><tie type="stop"/><instrument id="P1-I38"/><voice>1</voice><type>half</type><stem>up</stem><notations><tied type="stop"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>24</duration><tie type="stop"/><instrument id="P1-I38"/><voice>1</voice><type>half</type><stem>up</stem><notehead>normal</notehead><notations><tied type="stop"/></notations></note>
       <note><rest/><duration>24</duration><voice>1</voice><type>half</type></note>
     </measure>
   </part>
