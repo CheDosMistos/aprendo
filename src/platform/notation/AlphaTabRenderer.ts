@@ -19,7 +19,7 @@ export class AlphaTabRenderer implements NotationRenderer {
       player: {
         enablePlayer: true,
         soundFont: '/soundfont/sonivox.sf2',
-        scrollElement: host.parentElement,
+        scrollElement: host.parentElement ?? host,
       },
     });
 
