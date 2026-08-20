@@ -1,0 +1,243 @@
+---
+import BaseLayout from '@platform/layouts/BaseLayout.astro';
+
+const fixtures = [
+  {
+    id: 'basic',
+    label: 'Kit + flams/drags/rolls',
+    url: '/poc/notation/01-basic-grace-rolls.musicxml',
+  },
+  {
+    id: 'meters',
+    label: 'Tuplets + métricas irregulares',
+    url: '/poc/notation/02-tuplets-meters-noteheads.musicxml',
+  },
+] as const;
+---
+
+<BaseLayout title="PoC de notación — Aprendo">
+  <div class="stack lab-stack">
+    <header>
+      <p class="eyebrow">Laboratorio técnico · alphaTab 1.8.4</p>
+      <h1>Prueba de notación de batería</h1>
+      <p>
+        Esta página no forma parte del curso. Renderiza MusicXML 4.0 original de Aprendo para comprobar
+        percusión, voces, grace notes, rolls, noteheads, tuplets, métricas irregulares y playback.
+      </p>
+    </header>
+
+    <section class="lab-panel" aria-label="Controles de la prueba">
+      <div class="fixture-picker" role="group" aria-label="Partitura de prueba">
+        {fixtures.map((fixture, index) => (
+          <button
+            type="button"
+            class="fixture-button"
+            data-fixture-url={fixture.url}
+            aria-pressed={index === 0 ? 'true' : 'false'}
+          >
+            {fixture.label}
+          </button>
+        ))}
+      </div>
+
+      <div class="transport" role="group" aria-label="Reproducción">
+        <button type="button" id="play-pause" disabled>Reproducir / pausar</button>
+        <button type="button" id="stop" disabled>Parar</button>
+      </div>
+
+      <p id="notation-status" class="status" aria-live="polite">Preparando renderer…</p>
+    </section>
+
+    <section class="score-shell" aria-label="Partitura renderizada">
+      <div id="notation-host" class="notation-host"></div>
+    </section>
+
+    <section class="lab-panel checklist">
+      <h2>Qué estamos comprobando</h2>
+      <div class="check-grid">
+        <div>
+          <h3>Fixture 1</h3>
+          <p>Dos voces, kick/snare/hi-hat, acento, ghost note, flam + kick, drag, open hi-hat y tremolo.</p>
+        </div>
+        <div>
+          <h3>Fixture 2</h3>
+          <p>5/4, 7/8, 11/8, beaming 2+2+3, noteheads x/diamond/triangle, sticking y tuplets 3:2, 5:4 y 7:4.</p>
+        </div>
+      </div>
+      <p class="pending">
+        La aceptación final requerirá repetir esta prueba con MusicXML exportado por la versión concreta de
+        MuseScore que usemos para autoría; estos fixtures sólo validan primero la integración y el importador.
+      </p>
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  import { AlphaTabRenderer } from '@platform/notation/AlphaTabRenderer';
+
+  const host = document.querySelector<HTMLElement>('#notation-host');
+  const status = document.querySelector<HTMLElement>('#notation-status');
+  const playPause = document.querySelector<HTMLButtonElement>('#play-pause');
+  const stop = document.querySelector<HTMLButtonElement>('#stop');
+  const fixtureButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-fixture-url]')];
+
+  if (!host || !status || !playPause || !stop || fixtureButtons.length === 0) {
+    throw new Error('Notation PoC UI is incomplete.');
+  }
+
+  const renderer = new AlphaTabRenderer(host, {
+    onStatusChange: (state, message) => {
+      status.dataset.state = state;
+      status.textContent = message ?? state;
+    },
+    onPlaybackReady: (ready) => {
+      playPause.disabled = !ready;
+      stop.disabled = !ready;
+    },
+  });
+
+  const loadFixture = (button: HTMLButtonElement) => {
+    const sourceUrl = button.dataset.fixtureUrl;
+    if (!sourceUrl) return;
+
+    fixtureButtons.forEach((candidate) => {
+      candidate.setAttribute('aria-pressed', String(candidate === button));
+    });
+
+    if (!renderer.load(sourceUrl)) {
+      status.dataset.state = 'error';
+      status.textContent = 'alphaTab rechazó el origen de la partitura.';
+    }
+  };
+
+  fixtureButtons.forEach((button) => {
+    button.addEventListener('click', () => loadFixture(button));
+  });
+
+  playPause.addEventListener('click', () => renderer.playPause());
+  stop.addEventListener('click', () => renderer.stop());
+
+  loadFixture(fixtureButtons[0]);
+  window.addEventListener('pagehide', () => renderer.dispose(), { once: true });
+</script>
+
+<style>
+  .lab-stack {
+    padding-bottom: 4rem;
+  }
+
+  .lab-panel,
+  .score-shell {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .lab-panel {
+    padding: var(--space-4);
+  }
+
+  .fixture-picker,
+  .transport {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .transport {
+    margin-top: 0.75rem;
+  }
+
+  button {
+    min-height: 2.75rem;
+    border: 1px solid var(--border);
+    border-radius: 0.65rem;
+    padding: 0.55rem 0.85rem;
+    background: var(--surface-2);
+    color: var(--text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  button[aria-pressed='true'] {
+    border-color: var(--accent);
+    box-shadow: inset 0 0 0 1px var(--accent);
+    font-weight: 700;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+  }
+
+  .status {
+    margin: 0.75rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  .status[data-state='error'] {
+    color: #b42318;
+  }
+
+  .score-shell {
+    overflow: auto;
+    background: #fff;
+  }
+
+  .notation-host {
+    min-width: min(100%, 42rem);
+    min-height: 24rem;
+    padding: 1rem;
+    color: #111;
+  }
+
+  :global(.at-cursor-bar) {
+    background: rgba(23, 78, 166, 0.12);
+  }
+
+  :global(.at-cursor-beat) {
+    width: 3px;
+    background: #174ea6;
+  }
+
+  :global(.at-highlight *) {
+    fill: #174ea6;
+    stroke: #174ea6;
+  }
+
+  .check-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    gap: 1rem;
+  }
+
+  h3 {
+    margin-bottom: 0.35rem;
+    font-size: 1rem;
+  }
+
+  .pending {
+    margin-bottom: 0;
+    font-size: 0.92rem;
+  }
+
+  @media (max-width: 42rem) {
+    .lab-panel {
+      padding: 0.85rem;
+    }
+
+    .fixture-picker,
+    .transport {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    button {
+      width: 100%;
+    }
+
+    .notation-host {
+      padding: 0.5rem;
+    }
+  }
+</style>
