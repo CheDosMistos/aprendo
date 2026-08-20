@@ -55,14 +55,48 @@ jobs:
             site/ \
             "$VPS_USER@$VPS_HOST:/var/www/aprendo.molacomer.com/"
 
-      - name: Verify production over HTTPS
+      - name: Verify deployed files on VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
 
-          curl --fail --silent --show-error --location \
-            --retry 5 --retry-delay 2 --retry-all-errors \
-            https://aprendo.molacomer.com/ > /dev/null
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            'test -f /var/www/aprendo.molacomer.com/index.html && test -f /var/www/aprendo.molacomer.com/bateria/index.html'
 
-          curl --fail --silent --show-error --location \
-            --retry 5 --retry-delay 2 --retry-all-errors \
-            https://aprendo.molacomer.com/bateria/ > /dev/null
+      - name: Verify HTTPS protection
+        run: |
+          set -euo pipefail
+
+          headers_file="$(mktemp)"
+          trap 'rm -f "$headers_file"' EXIT
+
+          status="$(curl \
+            --silent \
+            --show-error \
+            --dump-header "$headers_file" \
+            --output /dev/null \
+            --write-out '%{http_code}' \
+            --retry 5 \
+            --retry-delay 2 \
+            --retry-connrefused \
+            --connect-timeout 10 \
+            --max-time 20 \
+            https://aprendo.molacomer.com/)"
+
+          if [ "$status" != "401" ]; then
+            echo "Expected HTTP 401 from protected site, got $status" >&2
+            exit 1
+          fi
+
+          if ! grep -qi '^www-authenticate: Basic' "$headers_file"; then
+            echo "Expected Basic authentication challenge header" >&2
+            exit 1
+          fi
