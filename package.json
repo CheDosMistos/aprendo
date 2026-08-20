@@ -10,10 +10,12 @@
     "check": "astro check"
   },
   "dependencies": {
+    "@coderline/alphatab": "1.8.4",
     "astro": "7.2.3"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
+    "@coderline/alphatab-vite": "1.8.4",
     "typescript": "6.0.3"
   },
   "engines": {
