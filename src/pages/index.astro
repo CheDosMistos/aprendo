@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import ThemeSelector from '@platform/components/ThemeSelector.astro';
 import { bateriaCourse } from '@courses/bateria/course.config';
 ---
 
@@ -22,6 +23,8 @@ import { bateriaCourse } from '@courses/bateria/course.config';
       </article>
     </section>
   </div>
+
+  <ThemeSelector slot="footer" />
 </BaseLayout>
 
 <style>
