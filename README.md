@@ -1,5 +1,7 @@
 # Aprendo
 
-Repositorio de despliegue para `https://aprendo.molacomer.com`.
+Aplicación web de aprendizaje desplegada en `https://aprendo.molacomer.com`.
 
-Por el momento, el desarrollo activo se centra en `/bateria/`.
+El primer curso activo es `/bateria/`; la plataforma se diseña para reutilizar sus herramientas en futuros cursos como `/escalada/`.
+
+La arquitectura acordada está documentada en [`ARCHITECTURE.md`](ARCHITECTURE.md).
