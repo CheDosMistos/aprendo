@@ -1,0 +1,72 @@
+---
+import { render } from 'astro:content';
+import CourseArticleLayout from '@courses/bateria/components/CourseArticleLayout.astro';
+import {
+  getBateriaContent,
+  routeFor,
+  unitEntries,
+  type BateriaContentEntry,
+} from '@courses/bateria/contentRegistry';
+
+interface NavItem {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  entry: BateriaContentEntry;
+  previous?: NavItem;
+  next?: NavItem;
+}
+
+export async function getStaticPaths() {
+  const entries = await getBateriaContent();
+  const pages = entries.filter((entry) => entry.data.kind !== 'unit');
+
+  return pages.map((entry) => {
+    const unit = unitEntries(entries, entry.data.phase, entry.data.unit);
+    const overview = unit.find((candidate) => candidate.data.kind === 'unit');
+    const sessions = unit.filter((candidate) => candidate.data.kind !== 'unit');
+    const index = sessions.findIndex((candidate) => candidate.data.contentId === entry.data.contentId);
+    const previousEntry = index > 0 ? sessions[index - 1] : overview;
+    const nextEntry = index >= 0 && index < sessions.length - 1 ? sessions[index + 1] : undefined;
+
+    return {
+      params: {
+        unit: entry.data.unitSlug,
+        slug: entry.data.slug,
+      },
+      props: {
+        entry,
+        previous: previousEntry
+          ? { href: routeFor(previousEntry), label: previousEntry.data.title }
+          : undefined,
+        next: nextEntry
+          ? { href: routeFor(nextEntry), label: nextEntry.data.title }
+          : undefined,
+      },
+    };
+  });
+}
+
+const { entry, previous, next } = Astro.props;
+const { Content } = await render(entry);
+const unitLabel = `Fase ${entry.data.phase} · Unidad ${entry.data.unit}`;
+const kindLabel = entry.data.kind === 'diagnostic'
+  ? 'Diagnóstico'
+  : entry.data.kind === 'checkpoint'
+    ? 'Cierre'
+    : 'Lección';
+---
+
+<CourseArticleLayout
+  title={entry.data.title}
+  summary={entry.data.summary}
+  unitLabel={unitLabel}
+  kindLabel={kindLabel}
+  duration={entry.data.duration}
+  previous={previous}
+  next={next}
+>
+  <Content />
+</CourseArticleLayout>
