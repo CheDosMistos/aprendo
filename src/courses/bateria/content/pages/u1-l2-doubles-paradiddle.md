@@ -21,8 +21,8 @@ published: true
 
 Distinguir golpes dobles controlados y comenzar correctamente:
 
-- **Double Stroke Open Roll**;
-- **Single Paradiddle**.
+- **Double Stroke Open Roll** — *«redoble abierto de golpes dobles»*;
+- **Single Paradiddle** — *«paradiddle simple»*.
 
 También vas a comprobar si recuerdas algo de la Lección 1 sin calentarlo inmediatamente antes.
 
@@ -36,6 +36,8 @@ Después comprueba la fuente oficial. Esto no es un examen: queremos distinguir 
 
 ## 2. Singles y doubles — unos 6 minutos
 
+**Singles** — *«golpes simples»* — y **doubles** — *«golpes dobles»* — describen cómo se distribuyen los golpes entre las manos.
+
 Toca corcheas de dos maneras:
 
 1. alternando continuamente una mano y otra;
@@ -47,7 +49,7 @@ Un **double** es un par de golpes consecutivos con la misma mano dentro de una e
 
 ## 3. Double Stroke Open Roll — unos 6 minutos
 
-<a href="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" target="_blank" rel="noopener noreferrer">Abre la fuente oficial PAS</a> y busca **Double Stroke Open Roll**.
+[Abre la fuente oficial PAS](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf) y busca **Double Stroke Open Roll**.
 
 Observa su estructura exacta y trabaja lentamente. Escucha especialmente el segundo golpe de cada double.
 
@@ -60,6 +62,8 @@ Si ese segundo golpe pierde claridad, no concluyas automáticamente que tienes u
 
 Aísla unas pocas repeticiones y vuelve al rudimento completo.
 
+**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Double Stroke Open Roll](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-double-stroke-open-roll/)
+
 ## 4. Single Paradiddle — unos 6 minutos
 
 Busca **Single Paradiddle** en la fuente oficial.
@@ -69,6 +73,8 @@ Distingue dos cosas: **el ritmo** y **el orden de manos**. El paradiddle utiliza
 Empieza lentamente y prueba el inicio con ambas manos cuando resulte cómodo.
 
 No estudies todavía Double Paradiddle ni Triple Paradiddle; llegarán en la Unidad 2.
+
+**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Single Paradiddle](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-single-paradiddle/)
 
 ## 5. Lectura — 3–4 minutos
 
