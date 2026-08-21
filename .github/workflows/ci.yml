@@ -33,3 +33,10 @@ jobs:
 
       - name: Build site
         run: npm run build
+
+      - name: Verify runtime build
+        run: |
+          set -euo pipefail
+          test -f dist/client/index.html
+          test -f dist/client/bateria/index.html
+          test -f dist/server/entry.mjs
