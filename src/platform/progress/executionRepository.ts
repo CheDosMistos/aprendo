@@ -36,7 +36,11 @@ export interface InsertExecutionRecord {
 }
 
 export class ExecutionRepository {
-  constructor(private readonly database: DatabaseSync) {}
+  private readonly database: DatabaseSync;
+
+  constructor(database: DatabaseSync) {
+    this.database = database;
+  }
 
   getUserId(stableKey: string): number {
     const row = this.database
