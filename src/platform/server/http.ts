@@ -30,7 +30,7 @@ export function assertSameOrigin(request: Request): void {
   }
 
   const referer = request.headers.get('referer');
-  if (!origin && referer && new URL(referer).origin !== requestOrigin) {
+  if (!origin && referer && safeOrigin(referer) !== requestOrigin) {
     throw new ApiRequestError('Cross-origin writes are not allowed.', 403);
   }
 }
@@ -41,15 +41,18 @@ export async function readJsonBody(request: Request): Promise<unknown> {
     throw new ApiRequestError('Content-Type must be application/json.', 415);
   }
 
-  const declaredLength = Number(request.headers.get('content-length'));
-  if (Number.isFinite(declaredLength) && declaredLength > MAX_JSON_BODY_BYTES) {
-    throw new ApiRequestError('Request body is too large.', 413);
+  const declaredLengthHeader = request.headers.get('content-length');
+  if (declaredLengthHeader !== null) {
+    const declaredLength = Number(declaredLengthHeader);
+    if (!Number.isFinite(declaredLength) || declaredLength < 0) {
+      throw new ApiRequestError('Invalid Content-Length header.');
+    }
+    if (declaredLength > MAX_JSON_BODY_BYTES) {
+      throw new ApiRequestError('Request body is too large.', 413);
+    }
   }
 
-  const text = await request.text();
-  if (Buffer.byteLength(text, 'utf8') > MAX_JSON_BODY_BYTES) {
-    throw new ApiRequestError('Request body is too large.', 413);
-  }
+  const text = await readBoundedText(request, MAX_JSON_BODY_BYTES);
 
   try {
     return JSON.parse(text) as unknown;
@@ -64,4 +67,47 @@ export function apiErrorResponse(error: unknown): Response {
   }
 
   return jsonResponse({ error: 'Internal server error.' }, 500);
+}
+
+async function readBoundedText(request: Request, maxBytes: number): Promise<string> {
+  if (!request.body) return '';
+
+  const reader = request.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let totalBytes = 0;
+
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      if (!value) continue;
+
+      totalBytes += value.byteLength;
+      if (totalBytes > maxBytes) {
+        await reader.cancel('Request body too large');
+        throw new ApiRequestError('Request body is too large.', 413);
+      }
+
+      chunks.push(value);
+    }
+  } finally {
+    reader.releaseLock();
+  }
+
+  const bytes = new Uint8Array(totalBytes);
+  let offset = 0;
+  for (const chunk of chunks) {
+    bytes.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+
+  return new TextDecoder('utf-8', { fatal: true }).decode(bytes);
+}
+
+function safeOrigin(value: string): string | null {
+  try {
+    return new URL(value).origin;
+  } catch {
+    return null;
+  }
 }
