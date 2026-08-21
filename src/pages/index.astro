@@ -1,51 +1,531 @@
 ---
-import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import HomeLayout from '@platform/layouts/HomeLayout.astro';
 import ThemeSelector from '@platform/components/ThemeSelector.astro';
 import { bateriaCourse } from '@courses/bateria/course.config';
+import { getBateriaContent, routeFor } from '@courses/bateria/contentRegistry';
+
+const entries = await getBateriaContent();
+const continueItems = entries
+  .filter((entry) => entry.data.kind !== 'unit')
+  .map((entry) => ({ contentId: entry.data.contentId, route: routeFor(entry) }));
+const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
 ---
 
-<BaseLayout title="Aprendo">
-  <div class="stack">
-    <section>
-      <p class="eyebrow">Plataforma de aprendizaje</p>
-      <h1>Aprendo</h1>
-      <p>Una interfaz sencilla para estudiar, practicar y mantener el progreso sin administrar el sistema.</p>
-    </section>
+<HomeLayout
+  title="Aprendo"
+  description="Aprendo: entra al curso de batería, continúa tu progreso y accede a tus lecciones."
+>
+  <section
+    class="home-cover"
+    data-home-cover
+    data-course-id={bateriaCourse.id}
+    data-course-route={bateriaCourse.route}
+    data-continue-items={JSON.stringify(continueItems)}
+  >
+    <div class="cover-inner">
+      <header class="home-header">
+        <a class="home-brand" href="/" aria-label="Aprendo, inicio">
+          <svg class="brand-star" aria-hidden="true"><use href="/home/icons.svg#star"></use></svg>
+          <span>Aprendo</span>
+        </a>
 
-    <section class="grid" aria-label="Cursos">
-      <article class="card course-card">
-        <div>
-          <p class="eyebrow">Curso activo</p>
-          <h2>{bateriaCourse.title}</h2>
-          <p>{bateriaCourse.description}</p>
+        <div class="header-decoration" aria-label="Accesos todavía no disponibles">
+          <button class="icon-button" type="button" disabled title="Notificaciones no disponibles">
+            <svg aria-hidden="true"><use href="/home/icons.svg#bell"></use></svg>
+            <span class="sr-only">Notificaciones no disponibles</span>
+          </button>
+          <button class="avatar-button" type="button" disabled title="Perfil no disponible">
+            <svg aria-hidden="true"><use href="/home/icons.svg#user"></use></svg>
+            <span class="sr-only">Perfil no disponible</span>
+          </button>
         </div>
-        <a class="primary-link" href={bateriaCourse.route}>Entrar al curso</a>
-      </article>
-    </section>
-  </div>
+      </header>
 
-  <ThemeSelector slot="footer" />
-</BaseLayout>
+      <div class="hero-copy">
+        <h1>Aprendo, aprendo, aprendo ...</h1>
+        <p>Cada golpe te acerca a tu mejor versión.<br />Sigue practicando. Sigue aprendiendo.</p>
+      </div>
 
-<style>
-  .course-card {
-    min-height: 15rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1.5rem;
+      <div class="primary-actions" aria-label="Acciones principales">
+        <a class="action action-primary" href={bateriaCourse.route}>
+          <svg aria-hidden="true"><use href="/home/icons.svg#drum"></use></svg>
+          <span>Entrar al curso de batería</span>
+          <svg class="chevron" aria-hidden="true"><use href="/home/icons.svg#chevron"></use></svg>
+        </a>
+
+        <a class="action action-continue" data-continue-link href={initialContinueRoute}>
+          <svg aria-hidden="true"><use href="/home/icons.svg#play"></use></svg>
+          <span class="action-copy">
+            <strong>Continuar donde lo dejaste</strong>
+            <small>Ir a tu lección actual</small>
+          </span>
+          <svg class="chevron" aria-hidden="true"><use href="/home/icons.svg#chevron"></use></svg>
+        </a>
+      </div>
+
+      <div class="home-tools" aria-label="Accesos de Aprendo">
+        <a class="tool-card" href={bateriaCourse.route}>
+          <span class="tool-icon tool-icon-purple">
+            <svg aria-hidden="true"><use href="/home/icons.svg#book"></use></svg>
+          </span>
+          <span class="tool-copy"><strong>Lecciones</strong><small>Explora las unidades</small></span>
+          <svg class="chevron" aria-hidden="true"><use href="/home/icons.svg#chevron"></use></svg>
+        </a>
+
+        <a class="tool-card inactive-link" href="#" aria-disabled="true">
+          <span class="tool-icon tool-icon-green">
+            <svg aria-hidden="true"><use href="/home/icons.svg#tools"></use></svg>
+          </span>
+          <span class="tool-copy"><strong>Práctica</strong><small>Rutinas y ejercicios</small></span>
+        </a>
+
+        <a class="tool-card inactive-link" href="#" aria-disabled="true">
+          <span class="tool-icon tool-icon-blue">
+            <svg aria-hidden="true"><use href="/home/icons.svg#chart"></use></svg>
+          </span>
+          <span class="tool-copy"><strong>Mi progreso</strong><small>Vista aún no disponible</small></span>
+        </a>
+
+        <section class="settings-card" aria-labelledby="settings-title">
+          <div class="settings-heading">
+            <span class="tool-icon tool-icon-neutral">
+              <svg aria-hidden="true"><use href="/home/icons.svg#gear"></use></svg>
+            </span>
+            <span class="tool-copy">
+              <strong id="settings-title">Configuración</strong>
+              <small>Ajusta tu experiencia</small>
+            </span>
+          </div>
+          <ThemeSelector variant="segmented" />
+        </section>
+      </div>
+    </div>
+  </section>
+</HomeLayout>
+
+<script>
+  import { resolveContinueDestination } from '@platform/progress/continueDestination';
+  import type { CourseProgressSummary } from '@platform/progress/types';
+
+  interface ProgressResponse {
+    summary?: CourseProgressSummary;
   }
 
-  .primary-link {
-    width: fit-content;
-    min-height: 3rem;
+  interface ContinueItem {
+    contentId: string;
+    route: string;
+  }
+
+  const cover = document.querySelector<HTMLElement>('[data-home-cover]');
+  const continueLink = cover?.querySelector<HTMLAnchorElement>('[data-continue-link]');
+
+  if (cover && continueLink) {
+    const courseId = cover.dataset.courseId ?? '';
+    const courseRoute = cover.dataset.courseRoute ?? '/bateria/';
+
+    let items: ContinueItem[] = [];
+    try {
+      items = JSON.parse(cover.dataset.continueItems ?? '[]') as ContinueItem[];
+    } catch {
+      items = [];
+    }
+
+    if (courseId) {
+      fetch(`/api/progress/${courseId}/?limit=1`)
+        .then(async (response) => {
+          if (!response.ok) throw new Error('Progress read failed');
+          return response.json() as Promise<ProgressResponse>;
+        })
+        .then((body) => {
+          continueLink.href = resolveContinueDestination(body.summary, items, courseRoute);
+        })
+        .catch(() => {
+          // Keep the safe initial destination rendered in the HTML.
+        });
+    }
+  }
+
+  for (const link of document.querySelectorAll<HTMLAnchorElement>('.inactive-link')) {
+    link.addEventListener('click', (event) => event.preventDefault());
+  }
+</script>
+
+<style>
+  .home-cover {
+    --cover-gutter: clamp(1rem, 3vw, 2.5rem);
+    --home-panel: color-mix(in srgb, var(--surface) 90%, transparent);
+    --home-panel-2: color-mix(in srgb, var(--surface-2) 88%, transparent);
+    min-height: 100vh;
+    color: #fff;
+    background-image:
+      linear-gradient(90deg, rgba(8, 5, 14, 0.82) 0%, rgba(8, 5, 14, 0.55) 40%, rgba(8, 5, 14, 0.16) 72%),
+      linear-gradient(0deg, rgba(5, 5, 8, 0.88) 0%, rgba(5, 5, 8, 0.18) 50%, rgba(5, 5, 8, 0.35) 100%),
+      url('/home/hero.svg');
+    background-position: center, center, 54% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cover-inner {
+    width: min(100% - (2 * var(--cover-gutter)), 86rem);
+    min-height: 100vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    padding-block: clamp(1rem, 2.5vw, 2rem);
+  }
+
+  .home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .home-brand {
+    min-height: 2.75rem;
     display: inline-flex;
     align-items: center;
-    padding: 0.65rem 1rem;
-    border-radius: 0.65rem;
-    background: var(--accent);
-    color: var(--accent-contrast);
-    font-weight: 750;
+    gap: 0.7rem;
+    color: #fff;
+    font-size: clamp(1.15rem, 2vw, 1.5rem);
+    font-weight: 850;
     text-decoration: none;
+  }
+
+  .brand-star {
+    width: 1.7rem;
+    height: 1.7rem;
+    color: #ffbb28;
+  }
+
+  .header-decoration {
+    display: flex;
+    gap: 0.7rem;
+  }
+
+  .icon-button,
+  .avatar-button {
+    width: 2.9rem;
+    height: 2.9rem;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 50%;
+    background: rgba(10, 8, 14, 0.45);
+    color: #fff;
+  }
+
+  .icon-button:disabled,
+  .avatar-button:disabled {
+    opacity: 0.78;
+  }
+
+  .icon-button svg,
+  .avatar-button svg {
+    width: 1.35rem;
+    height: 1.35rem;
+  }
+
+  .hero-copy {
+    width: min(47rem, 64%);
+    margin-top: clamp(4rem, 10vh, 8rem);
+  }
+
+  .hero-copy h1 {
+    max-width: 9.8ch;
+    margin: 0 0 1.35rem;
+    color: #ffc42f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Arial Black', sans-serif;
+    font-size: clamp(3.2rem, 7.2vw, 7.1rem);
+    font-weight: 900;
+    font-style: italic;
+    line-height: 0.82;
+    letter-spacing: -0.045em;
+    text-wrap: balance;
+    transform: skew(-4deg) rotate(-1.5deg);
+    transform-origin: left center;
+    -webkit-text-stroke: clamp(1px, 0.16vw, 3px) #141015;
+    text-shadow: 0.04em 0.05em 0 #141015, 0 0.08em 0.18em rgba(0, 0, 0, 0.75);
+  }
+
+  .hero-copy p {
+    max-width: 36rem;
+    margin: 0;
+    color: #fff;
+    font-size: clamp(1rem, 1.55vw, 1.28rem);
+    font-weight: 560;
+    line-height: 1.4;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+  }
+
+  .primary-actions {
+    width: min(54rem, 74%);
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: 1rem;
+    margin-top: clamp(1.5rem, 3vw, 2.2rem);
+  }
+
+  .action {
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 0.9rem 1.15rem;
+    border-radius: 0.85rem;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 0 0.55rem 1.4rem rgba(0, 0, 0, 0.22);
+  }
+
+  .action > svg:not(.chevron) {
+    width: 1.9rem;
+    height: 1.9rem;
+    flex: 0 0 auto;
+  }
+
+  .action .chevron {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    flex: 0 0 auto;
+  }
+
+  .action-primary {
+    background: #ffb525;
+    color: #18120a;
+  }
+
+  .action-primary:hover {
+    background: #ffc343;
+  }
+
+  .action-continue {
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    background: rgba(12, 10, 14, 0.68);
+    color: #fff;
+    backdrop-filter: blur(10px);
+  }
+
+  .action-copy,
+  .tool-copy {
+    min-width: 0;
+    display: grid;
+    gap: 0.16rem;
+  }
+
+  .action-copy small,
+  .tool-copy small {
+    font-size: 0.82rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  .action-copy small {
+    color: rgba(255, 255, 255, 0.74);
+  }
+
+  .home-tools {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: auto;
+    padding-top: clamp(2rem, 4vh, 4rem);
+  }
+
+  .tool-card,
+  .settings-card {
+    min-height: 9.1rem;
+    padding: 1rem;
+    border: 1px solid color-mix(in srgb, var(--border) 82%, transparent);
+    border-radius: 0.9rem;
+    background: var(--home-panel);
+    color: var(--text);
+    box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+  }
+
+  .tool-card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: end;
+    gap: 0.8rem;
+    text-decoration: none;
+  }
+
+  .tool-card:hover:not(.inactive-link) {
+    border-color: var(--accent);
+  }
+
+  .inactive-link {
+    cursor: default;
+  }
+
+  .inactive-link .tool-copy {
+    opacity: 0.66;
+  }
+
+  .tool-icon {
+    width: 2.85rem;
+    height: 2.85rem;
+    display: grid;
+    place-items: center;
+    align-self: start;
+    border-radius: 0.7rem;
+    background: var(--home-panel-2);
+  }
+
+  .tool-icon svg {
+    width: 1.65rem;
+    height: 1.65rem;
+  }
+
+  .tool-icon-purple { color: #9b63e8; }
+  .tool-icon-green { color: #45b96a; }
+  .tool-icon-blue { color: #4da7ec; }
+  .tool-icon-neutral { color: var(--muted); }
+
+  .tool-copy strong {
+    font-size: 1.02rem;
+  }
+
+  .tool-copy small {
+    color: var(--muted);
+  }
+
+  .tool-card > .chevron {
+    width: 1.1rem;
+    height: 1.1rem;
+    color: var(--muted);
+    align-self: center;
+  }
+
+  .settings-card {
+    display: grid;
+    align-content: space-between;
+    gap: 1rem;
+  }
+
+  .settings-heading {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  @media (max-width: 70rem) {
+    .hero-copy {
+      width: 61%;
+    }
+
+    .primary-actions {
+      width: 78%;
+    }
+
+    .home-tools {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tool-card,
+    .settings-card {
+      min-height: 7.2rem;
+    }
+  }
+
+  @media (max-width: 42rem) {
+    .home-cover {
+      min-height: 100svh;
+      background-image:
+        linear-gradient(0deg, rgba(7, 5, 10, 0.96) 0%, rgba(7, 5, 10, 0.55) 47%, rgba(7, 5, 10, 0.3) 100%),
+        url('/home/hero.svg');
+      background-position: center, 67% top;
+      background-size: cover;
+    }
+
+    .cover-inner {
+      min-height: 100svh;
+    }
+
+    .hero-copy {
+      width: 100%;
+      margin-top: clamp(5.5rem, 26vh, 11rem);
+    }
+
+    .hero-copy h1 {
+      max-width: 8.5ch;
+      font-size: clamp(3.3rem, 15vw, 5.1rem);
+    }
+
+    .hero-copy p {
+      font-size: 1rem;
+    }
+
+    .primary-actions {
+      width: 100%;
+      grid-template-columns: 1fr;
+      gap: 0.7rem;
+    }
+
+    .action {
+      min-height: 4.3rem;
+    }
+
+    .home-tools {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.65rem;
+      margin-top: 1.4rem;
+      padding-top: 0;
+    }
+
+    .tool-card,
+    .settings-card {
+      min-height: 7.5rem;
+      padding: 0.85rem;
+    }
+
+    .tool-card {
+      grid-template-columns: 1fr auto;
+      align-content: space-between;
+    }
+
+    .tool-card .tool-icon {
+      grid-column: 1;
+    }
+
+    .tool-card .tool-copy {
+      grid-column: 1;
+    }
+
+    .tool-card > .chevron {
+      grid-column: 2;
+      grid-row: 1 / 3;
+    }
+
+    .settings-card {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 25rem) {
+    .home-tools {
+      grid-template-columns: 1fr;
+    }
+
+    .settings-card {
+      grid-column: auto;
+    }
   }
 </style>
