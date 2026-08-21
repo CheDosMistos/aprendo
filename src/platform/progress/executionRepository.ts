@@ -94,7 +94,7 @@ export class ExecutionRepository {
       SELECT *
       FROM practice_executions
       WHERE user_id = ? AND course_id = ?
-      ORDER BY completed_at DESC, created_at DESC
+      ORDER BY completed_at DESC, created_at DESC, rowid DESC
       LIMIT ?
     `).all(userId, courseId, safeLimit) as unknown as ExecutionRow[];
 
