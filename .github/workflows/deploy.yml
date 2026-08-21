@@ -147,7 +147,7 @@ jobs:
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
             "$VPS_USER@$VPS_HOST" \
-            'set -euo pipefail; sudo /usr/bin/systemctl restart aprendo.service; for attempt in 1 2 3 4 5 6 7 8 9 10; do if sudo /usr/bin/systemctl is-active --quiet aprendo.service && response=$(curl --fail --silent --show-error --max-time 3 http://127.0.0.1:4321/api/health); then printf "%s\n" "$response"; printf "%s\n" "$response" | grep -q '"status":"ok"'; test -f /var/lib/aprendo/aprendo.sqlite; exit 0; fi; sleep 1; done; sudo /usr/bin/systemctl status aprendo.service --no-pager || true; exit 1'
+            'set -euo pipefail; sudo /usr/bin/systemctl restart aprendo.service; for attempt in 1 2 3 4 5 6 7 8 9 10; do if /usr/bin/systemctl is-active --quiet aprendo.service && response=$(curl --fail --silent --show-error --max-time 3 http://127.0.0.1:4321/api/health/); then printf "%s\n" "$response"; printf "%s\n" "$response" | grep -q '"status":"ok"'; test -f /var/lib/aprendo/aprendo.sqlite; exit 0; fi; sleep 1; done; /usr/bin/systemctl status aprendo.service --no-pager || true; exit 1'
 
       - name: Verify deployed static files on VPS
         env:
