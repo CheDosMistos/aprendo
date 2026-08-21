@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import Metronome from '@platform/components/Metronome.astro';
 
 interface NavItem {
   href: string;
@@ -42,22 +43,30 @@ const {
       {duration && <p class="duration">{duration}</p>}
     </header>
 
-    <article class="course-article">
-      <slot />
-    </article>
+    <div class="learning-layout">
+      <div class="learning-main">
+        <article class="course-article">
+          <slot />
+        </article>
 
-    <slot name="after" />
+        <slot name="after" />
 
-    {(previous || next) && (
-      <nav class="lesson-nav" aria-label="Navegación de la unidad">
-        <div>
-          {previous && <a href={previous.href}>← {previous.label}</a>}
-        </div>
-        <div class="next-link">
-          {next && <a href={next.href}>{next.label} →</a>}
-        </div>
-      </nav>
-    )}
+        {(previous || next) && (
+          <nav class="lesson-nav" aria-label="Navegación de la unidad">
+            <div>
+              {previous && <a href={previous.href}>← {previous.label}</a>}
+            </div>
+            <div class="next-link">
+              {next && <a href={next.href}>{next.label} →</a>}
+            </div>
+          </nav>
+        )}
+      </div>
+
+      <div class="learning-tools">
+        <Metronome />
+      </div>
+    </div>
   </div>
 </BaseLayout>
 
@@ -70,7 +79,7 @@ const {
 
 <style>
   .course-page {
-    width: min(100%, 76rem);
+    width: min(100%, 94rem);
     margin-inline: auto;
   }
 
@@ -127,6 +136,23 @@ const {
     font-weight: 650;
   }
 
+  .learning-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 72ch) minmax(16rem, 18rem);
+    justify-content: space-between;
+    align-items: start;
+    gap: clamp(2rem, 4vw, 5rem);
+  }
+
+  .learning-main {
+    min-width: 0;
+  }
+
+  .learning-tools {
+    position: sticky;
+    top: 1rem;
+  }
+
   .course-article {
     max-width: 72ch;
     font-size: 1rem;
@@ -180,6 +206,25 @@ const {
 
   .next-link {
     text-align: right;
+  }
+
+  @media (max-width: 64rem) {
+    .learning-layout {
+      grid-template-columns: minmax(0, 1fr) minmax(15rem, 17rem);
+      gap: 1.5rem;
+    }
+  }
+
+  @media (max-width: 56rem) {
+    .learning-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .learning-tools {
+      position: static;
+      order: -1;
+      margin-bottom: 0.5rem;
+    }
   }
 
   @media (max-width: 42rem) {
