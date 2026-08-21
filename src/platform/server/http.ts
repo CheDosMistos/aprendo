@@ -1,12 +1,12 @@
 const MAX_JSON_BODY_BYTES = 16 * 1024;
 
 export class ApiRequestError extends Error {
-  constructor(
-    message: string,
-    public readonly status = 400,
-  ) {
+  readonly status: number;
+
+  constructor(message: string, status = 400) {
     super(message);
     this.name = 'ApiRequestError';
+    this.status = status;
   }
 }
 
