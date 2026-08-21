@@ -283,11 +283,36 @@ const statusId = `practice-status-${contentId}`;
   summary {
     width: fit-content;
     min-height: 2.75rem;
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    gap: 0.45rem;
+    padding: 0.55rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 0.55rem;
+    background: var(--surface-2);
     color: var(--text);
     font-weight: 650;
     cursor: pointer;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: '＋';
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  details[open] summary::after {
+    content: '−';
+  }
+
+  summary:hover {
+    border-color: color-mix(in srgb, var(--border) 55%, var(--text));
   }
 
   .optional-fields {
