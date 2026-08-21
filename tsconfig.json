@@ -1,7 +1,9 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "baseUrl": ".",
+    "types": ["node"],
     "paths": {
       "@platform/*": ["src/platform/*"],
       "@courses/*": ["src/courses/*"]
