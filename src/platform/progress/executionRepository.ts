@@ -108,7 +108,9 @@ export class ExecutionRepository {
     const contentRows = this.database.prepare(`
       SELECT content_id, MAX(completed_at) AS last_completed_at
       FROM practice_executions
-      WHERE user_id = ? AND course_id = ? AND next_action != 'stop'
+      WHERE user_id = ?
+        AND course_id = ?
+        AND next_action IN ('continue', 'continue_review')
       GROUP BY content_id
       ORDER BY last_completed_at
     `).all(userId, courseId) as Array<{ content_id: string }>;
