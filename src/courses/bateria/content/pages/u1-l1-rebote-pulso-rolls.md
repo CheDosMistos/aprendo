@@ -7,7 +7,7 @@ unitSlug: unidad-1
 slug: leccion-1-rebote-pulso-rolls
 kind: lesson
 order: 2
-title: Lección 1 — Rebote, pulso y primeros rolls
+title: Lección 1 — Rebote, pulso y primeros redobles
 summary: Mantén golpes simples relajados sobre un pulso estable y comienza correctamente Single Stroke Roll y Multiple Bounce Roll.
 duration: 25–30 min · versión mínima 10–15 min
 competencies: [A1, A2, A3, A6, B1, B2, C1, C2, E1, G1, K1]
@@ -21,14 +21,16 @@ published: true
 
 Mantener golpes simples relajados sobre un pulso estable y comenzar correctamente:
 
-- **Single Stroke Roll**;
-- **Multiple Bounce Roll**.
+- **Single Stroke Roll** — *«redoble de golpes simples»*;
+- **Multiple Bounce Roll** — *«redoble de rebote múltiple / redoble cerrado»*.
 
 ## 1. Preparación — unos 3 minutos
 
 Haz golpes suaves y observa postura, hombros, manos y rebote.
 
 Busca control sin rigidez. Si al aumentar la velocidad empiezas a apretar, vuelve a una velocidad cómoda.
+
+**Vídeo:** [Vic Firth / Dr. John Wooton — agarre y golpes básicos](https://www.youtube.com/watch?v=4aAE65zt82A)
 
 ## 2. Pulso: una y dos notas por pulso — unos 6 minutos
 
@@ -44,7 +46,7 @@ Lo que cambia es la subdivisión, no el pulso.
 
 ## 3. Single Stroke Roll — unos 6 minutos
 
-<a href="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" target="_blank" rel="noopener noreferrer">Abre la fuente oficial PAS</a> y busca **Single Stroke Roll**.
+[Abre la fuente oficial PAS](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf) y busca **Single Stroke Roll**.
 
 Trabájalo lentamente. Tu prioridad no es la velocidad. Observa:
 
@@ -55,6 +57,8 @@ Trabájalo lentamente. Tu prioridad no es la velocidad. Observa:
 
 Si una mano altera claramente el sonido o el tiempo, aísla el problema durante unas pocas repeticiones y vuelve pronto al patrón completo.
 
+**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Single Stroke Roll](https://ae.vicfirth.com/education/40-essential-rudiments/essential-rudiments-single-stroke-roll/)
+
 ## 4. Multiple Bounce Roll — unos 6 minutos
 
 Busca **Multiple Bounce Roll** en la misma fuente oficial.
@@ -62,6 +66,8 @@ Busca **Multiple Bounce Roll** en la misma fuente oficial.
 Aquí el rebote tiene un papel mayor. Aprende a iniciar y controlar una sucesión de rebotes sin apretar para fabricar cada golpe.
 
 Escucha si el resultado es continuo o se corta. No busques densidad o velocidad máxima.
+
+**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Multiple Bounce Roll](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-multiple-bounce-roll/)
 
 ## 5. Oído y creatividad — 2–3 minutos
 

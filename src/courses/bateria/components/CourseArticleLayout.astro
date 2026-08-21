@@ -61,6 +61,13 @@ const {
   </div>
 </BaseLayout>
 
+<script>
+  for (const link of document.querySelectorAll<HTMLAnchorElement>('.course-article a')) {
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+  }
+</script>
+
 <style>
   .course-page {
     width: min(100%, 76rem);

@@ -19,7 +19,12 @@ published: true
 
 ## Objetivo
 
-Introducir **Flam** y **Drag** y empezar a relacionar la altura de las baquetas con acentos, notas principales y notas de adorno.
+Introducir:
+
+- **Flam** — *«apoyatura simple»*;
+- **Drag** — *«apoyatura doble»*.
+
+También vas a empezar a relacionar la altura de las baquetas con acentos, notas principales y notas de adorno.
 
 En algunos rudimentos aparece un golpe principal acompañado de uno o más golpes muy próximos y más pequeños llamados **notas de adorno** (*grace notes*). No deben sonar como varios golpes iguales y separados.
 
@@ -42,12 +47,14 @@ Haz golpes suaves a diferentes alturas sin convertir cada diferencia de altura e
 
 Puedes utilizar estos cuatro nombres cuando ayuden a describir el movimiento:
 
-- **full stroke:** comienza alto y termina alto;
-- **down stroke:** comienza alto y termina bajo;
-- **up stroke:** comienza bajo y termina alto;
-- **tap:** comienza bajo y termina bajo.
+- **full stroke** — *«golpe completo»*: comienza alto y termina alto;
+- **down stroke** — *«golpe descendente»*: comienza alto y termina bajo;
+- **up stroke** — *«golpe ascendente»*: comienza bajo y termina alto;
+- **tap** — *«golpe bajo»*: comienza bajo y termina bajo.
 
 No necesitas convertir estos nombres en un examen teórico. Sirven para entender cómo una mano puede preparar el siguiente golpe.
+
+**Vídeo:** [Vic Firth / Dr. John Wooton — agarre y cuatro golpes básicos](https://www.youtube.com/watch?v=4aAE65zt82A)
 
 Después toca corcheas alternadas y haz más fuertes únicamente las notas que coinciden con los pulsos 1 y 3. Las demás deben ser más suaves.
 
@@ -55,7 +62,7 @@ La idea no es medir centímetros exactos. Busca una diferencia sonora clara sin 
 
 ## 3. Flam — unos 7 minutos
 
-<a href="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" target="_blank" rel="noopener noreferrer">Abre la fuente oficial PAS</a> y busca **Flam**.
+[Abre la fuente oficial PAS](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf) y busca **Flam**.
 
 Observa la relación entre la nota de adorno y la nota principal.
 
@@ -73,6 +80,8 @@ Evita dos extremos:
 
 No necesitas medir una distancia temporal exacta. Practica ambos lados.
 
+**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Flam](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-flam/)
+
 ## 4. Drag — unos 7 minutos
 
 Busca **Drag** en la misma fuente oficial.
@@ -86,6 +95,8 @@ Si las dos notas pequeñas se vuelven rígidas o quedan demasiado separadas:
 - reduce el tempo;
 - vuelve a observar el rebote;
 - evita apretar la baqueta para obligarlas a salir.
+
+**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Drag](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-drag/)
 
 ## 5. Escucha — unos 2 minutos
 
