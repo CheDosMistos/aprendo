@@ -1,0 +1,596 @@
+<aside class="metronome" data-metronome aria-label="Metrónomo">
+  <div class="metronome-head">
+    <div>
+      <p class="metronome-kicker">Herramienta</p>
+      <h2>Metrónomo</h2>
+    </div>
+    <button class="mute-button" type="button" data-mute aria-pressed="false" title="Silenciar metrónomo">Sonido</button>
+  </div>
+
+  <div class="tempo-display">
+    <button class="step-button" type="button" data-step="-1" aria-label="Bajar 1 BPM">−</button>
+    <label class="bpm-field">
+      <span class="sr-only">Tempo en pulsaciones por minuto</span>
+      <input data-bpm type="number" inputmode="numeric" min="30" max="300" step="1" value="80" aria-label="BPM" />
+      <span>BPM</span>
+    </label>
+    <button class="step-button" type="button" data-step="1" aria-label="Subir 1 BPM">+</button>
+  </div>
+
+  <div class="tempo-shortcuts">
+    <button type="button" data-half>÷2</button>
+    <button class="play-button" type="button" data-play aria-pressed="false"><span data-play-icon>▶</span><span data-play-label>Iniciar</span></button>
+    <button type="button" data-double>×2</button>
+  </div>
+
+  <label class="field">
+    <span>Tempo tradicional</span>
+    <select data-preset>
+      <option value="">Personalizado</option>
+      <option value="40">Grave · 40</option>
+      <option value="50">Largo · 50</option>
+      <option value="60">Larghetto · 60</option>
+      <option value="66">Adagio · 66</option>
+      <option value="76">Andante · 76</option>
+      <option value="96">Moderato · 96</option>
+      <option value="112">Allegretto · 112</option>
+      <option value="144">Allegro · 144</option>
+      <option value="168">Vivace · 168</option>
+      <option value="184">Presto · 184</option>
+      <option value="208">Prestissimo · 208</option>
+    </select>
+  </label>
+
+  <div class="two-fields">
+    <label class="field">
+      <span>Compás</span>
+      <select data-meter>
+        <option>2/4</option>
+        <option>3/4</option>
+        <option selected>4/4</option>
+        <option>5/4</option>
+        <option>6/8</option>
+        <option>7/8</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Subdivisión</span>
+      <select data-subdivision>
+        <option value="1">Pulso</option>
+        <option value="2">Corcheas</option>
+        <option value="3">Tresillos</option>
+        <option value="4">Semicorcheas</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="beat-row" data-beats aria-label="Indicador visual del compás"></div>
+
+  <div class="options-row">
+    <label class="toggle">
+      <input type="checkbox" data-accent checked />
+      <span>Acentuar primer pulso</span>
+    </label>
+  </div>
+
+  <label class="volume-field">
+    <span>Volumen</span>
+    <input data-volume type="range" min="0" max="1" step="0.01" value="0.7" />
+  </label>
+
+  <button class="tap-button" type="button" data-tap>Tap tempo <kbd>T</kbd></button>
+  <p class="metronome-help">Espacio: iniciar/parar · ←/→: ±1 BPM</p>
+</aside>
+
+<script>
+  interface StoredMetronomeState {
+    bpm: number;
+    preset: string;
+    meter: string;
+    subdivision: number;
+    accent: boolean;
+    volume: number;
+    muted: boolean;
+  }
+
+  const STORAGE_KEY = 'aprendo-metronome-settings';
+  const MIN_BPM = 30;
+  const MAX_BPM = 300;
+  const LOOKAHEAD_MS = 25;
+  const SCHEDULE_AHEAD_SECONDS = 0.1;
+
+  const root = document.querySelector<HTMLElement>('[data-metronome]');
+
+  if (root) {
+    const bpmInput = root.querySelector<HTMLInputElement>('[data-bpm]')!;
+    const presetSelect = root.querySelector<HTMLSelectElement>('[data-preset]')!;
+    const meterSelect = root.querySelector<HTMLSelectElement>('[data-meter]')!;
+    const subdivisionSelect = root.querySelector<HTMLSelectElement>('[data-subdivision]')!;
+    const accentInput = root.querySelector<HTMLInputElement>('[data-accent]')!;
+    const volumeInput = root.querySelector<HTMLInputElement>('[data-volume]')!;
+    const playButton = root.querySelector<HTMLButtonElement>('[data-play]')!;
+    const playIcon = root.querySelector<HTMLElement>('[data-play-icon]')!;
+    const playLabel = root.querySelector<HTMLElement>('[data-play-label]')!;
+    const muteButton = root.querySelector<HTMLButtonElement>('[data-mute]')!;
+    const beatsEl = root.querySelector<HTMLElement>('[data-beats]')!;
+    const tapButton = root.querySelector<HTMLButtonElement>('[data-tap]')!;
+
+    let audioContext: AudioContext | null = null;
+    let schedulerTimer: number | null = null;
+    let isPlaying = false;
+    let nextNoteTime = 0;
+    let beatIndex = 0;
+    let subdivisionIndex = 0;
+    let tapTimes: number[] = [];
+
+    const clampBpm = (value: number) => Math.min(MAX_BPM, Math.max(MIN_BPM, Math.round(value)));
+
+    const meterBeats = () => {
+      const numerator = Number.parseInt(meterSelect.value.split('/')[0] ?? '4', 10);
+      return Number.isFinite(numerator) ? numerator : 4;
+    };
+
+    const subdivision = () => {
+      const value = Number.parseInt(subdivisionSelect.value, 10);
+      return [1, 2, 3, 4].includes(value) ? value : 1;
+    };
+
+    const state = (): StoredMetronomeState => ({
+      bpm: clampBpm(Number(bpmInput.value) || 80),
+      preset: presetSelect.value,
+      meter: meterSelect.value,
+      subdivision: subdivision(),
+      accent: accentInput.checked,
+      volume: Math.min(1, Math.max(0, Number(volumeInput.value) || 0)),
+      muted: muteButton.getAttribute('aria-pressed') === 'true',
+    });
+
+    const saveState = () => {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state()));
+      } catch {}
+    };
+
+    const restoreState = () => {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        const stored = JSON.parse(raw) as Partial<StoredMetronomeState>;
+        if (typeof stored.bpm === 'number') bpmInput.value = String(clampBpm(stored.bpm));
+        if (typeof stored.preset === 'string' && [...presetSelect.options].some((option) => option.value === stored.preset)) presetSelect.value = stored.preset;
+        if (typeof stored.meter === 'string' && [...meterSelect.options].some((option) => option.value === stored.meter)) meterSelect.value = stored.meter;
+        if (typeof stored.subdivision === 'number' && [1, 2, 3, 4].includes(stored.subdivision)) subdivisionSelect.value = String(stored.subdivision);
+        if (typeof stored.accent === 'boolean') accentInput.checked = stored.accent;
+        if (typeof stored.volume === 'number') volumeInput.value = String(Math.min(1, Math.max(0, stored.volume)));
+        if (typeof stored.muted === 'boolean') muteButton.setAttribute('aria-pressed', String(stored.muted));
+      } catch {}
+    };
+
+    const updateMuteLabel = () => {
+      const muted = muteButton.getAttribute('aria-pressed') === 'true';
+      muteButton.textContent = muted ? 'Silenciado' : 'Sonido';
+    };
+
+    const renderBeats = () => {
+      const count = meterBeats();
+      beatsEl.replaceChildren();
+      for (let index = 0; index < count; index += 1) {
+        const dot = document.createElement('span');
+        dot.className = 'beat-dot';
+        dot.dataset.beat = String(index);
+        dot.setAttribute('aria-hidden', 'true');
+        beatsEl.append(dot);
+      }
+    };
+
+    const setVisualBeat = (index: number) => {
+      for (const dot of beatsEl.querySelectorAll<HTMLElement>('.beat-dot')) {
+        dot.classList.toggle('is-current', Number(dot.dataset.beat) === index);
+      }
+    };
+
+    const setBpm = (value: number, clearPreset = true) => {
+      bpmInput.value = String(clampBpm(value));
+      if (clearPreset) presetSelect.value = '';
+      saveState();
+    };
+
+    const scheduleClick = (time: number, beat: number, sub: number) => {
+      if (!audioContext) return;
+      const muted = muteButton.getAttribute('aria-pressed') === 'true';
+      const masterVolume = muted ? 0 : Number(volumeInput.value);
+      const isMainBeat = sub === 0;
+      const isAccent = isMainBeat && beat === 0 && accentInput.checked;
+      const oscillator = audioContext.createOscillator();
+      const gain = audioContext.createGain();
+
+      oscillator.type = 'square';
+      oscillator.frequency.value = isAccent ? 1320 : isMainBeat ? 920 : 620;
+      gain.gain.setValueAtTime(Math.max(0.0001, masterVolume * (isAccent ? 0.75 : isMainBeat ? 0.55 : 0.28)), time);
+      gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.035);
+      oscillator.connect(gain);
+      gain.connect(audioContext.destination);
+      oscillator.start(time);
+      oscillator.stop(time + 0.04);
+
+      if (isMainBeat) {
+        const delay = Math.max(0, (time - audioContext.currentTime) * 1000);
+        window.setTimeout(() => setVisualBeat(beat), delay);
+      }
+    };
+
+    const advance = () => {
+      const bpm = clampBpm(Number(bpmInput.value) || 80);
+      const parts = subdivision();
+      const secondsPerSubdivision = (60 / bpm) / parts;
+      nextNoteTime += secondsPerSubdivision;
+      subdivisionIndex += 1;
+      if (subdivisionIndex >= parts) {
+        subdivisionIndex = 0;
+        beatIndex = (beatIndex + 1) % meterBeats();
+      }
+    };
+
+    const scheduler = () => {
+      if (!audioContext || !isPlaying) return;
+      while (nextNoteTime < audioContext.currentTime + SCHEDULE_AHEAD_SECONDS) {
+        scheduleClick(nextNoteTime, beatIndex, subdivisionIndex);
+        advance();
+      }
+    };
+
+    const stop = () => {
+      isPlaying = false;
+      if (schedulerTimer !== null) window.clearInterval(schedulerTimer);
+      schedulerTimer = null;
+      playButton.setAttribute('aria-pressed', 'false');
+      playIcon.textContent = '▶';
+      playLabel.textContent = 'Iniciar';
+      setVisualBeat(-1);
+    };
+
+    const start = async () => {
+      if (!audioContext) audioContext = new AudioContext();
+      if (audioContext.state === 'suspended') await audioContext.resume();
+      isPlaying = true;
+      beatIndex = 0;
+      subdivisionIndex = 0;
+      nextNoteTime = audioContext.currentTime + 0.05;
+      playButton.setAttribute('aria-pressed', 'true');
+      playIcon.textContent = '❚❚';
+      playLabel.textContent = 'Parar';
+      scheduler();
+      schedulerTimer = window.setInterval(scheduler, LOOKAHEAD_MS);
+    };
+
+    const togglePlayback = () => {
+      if (isPlaying) stop();
+      else void start();
+    };
+
+    const tap = () => {
+      const now = performance.now();
+      if (tapTimes.length && now - tapTimes[tapTimes.length - 1] > 2000) tapTimes = [];
+      tapTimes.push(now);
+      tapTimes = tapTimes.slice(-6);
+      if (tapTimes.length < 2) return;
+      const intervals = tapTimes.slice(1).map((time, index) => time - tapTimes[index]);
+      const average = intervals.reduce((sum, interval) => sum + interval, 0) / intervals.length;
+      setBpm(60000 / average);
+    };
+
+    restoreState();
+    updateMuteLabel();
+    renderBeats();
+
+    playButton.addEventListener('click', togglePlayback);
+    tapButton.addEventListener('click', tap);
+
+    for (const button of root.querySelectorAll<HTMLButtonElement>('[data-step]')) {
+      button.addEventListener('click', () => setBpm((Number(bpmInput.value) || 80) + Number(button.dataset.step)));
+    }
+
+    root.querySelector<HTMLButtonElement>('[data-half]')?.addEventListener('click', () => setBpm((Number(bpmInput.value) || 80) / 2));
+    root.querySelector<HTMLButtonElement>('[data-double]')?.addEventListener('click', () => setBpm((Number(bpmInput.value) || 80) * 2));
+
+    bpmInput.addEventListener('change', () => setBpm(Number(bpmInput.value) || 80));
+    bpmInput.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        setBpm(Number(bpmInput.value) || 80);
+        bpmInput.blur();
+      }
+    });
+
+    presetSelect.addEventListener('change', () => {
+      if (presetSelect.value) bpmInput.value = String(clampBpm(Number(presetSelect.value)));
+      saveState();
+    });
+
+    meterSelect.addEventListener('change', () => {
+      beatIndex = 0;
+      subdivisionIndex = 0;
+      renderBeats();
+      saveState();
+    });
+
+    subdivisionSelect.addEventListener('change', () => {
+      subdivisionIndex = 0;
+      saveState();
+    });
+
+    accentInput.addEventListener('change', saveState);
+    volumeInput.addEventListener('input', saveState);
+    muteButton.addEventListener('click', () => {
+      const next = muteButton.getAttribute('aria-pressed') !== 'true';
+      muteButton.setAttribute('aria-pressed', String(next));
+      updateMuteLabel();
+      saveState();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      const target = event.target as HTMLElement | null;
+      const editing = target?.matches('input, select, textarea, [contenteditable="true"]');
+      if (editing) return;
+      if (event.code === 'Space') {
+        event.preventDefault();
+        togglePlayback();
+      } else if (event.key === 'ArrowLeft') {
+        setBpm((Number(bpmInput.value) || 80) - 1);
+      } else if (event.key === 'ArrowRight') {
+        setBpm((Number(bpmInput.value) || 80) + 1);
+      } else if (event.key.toLowerCase() === 't') {
+        tap();
+      }
+    });
+
+    window.addEventListener('pagehide', stop);
+  }
+</script>
+
+<style>
+  .metronome {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    background: var(--surface);
+    box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.08);
+    color: var(--text);
+  }
+
+  .metronome-head,
+  .tempo-display,
+  .tempo-shortcuts,
+  .two-fields,
+  .options-row,
+  .volume-field {
+    display: flex;
+    align-items: center;
+  }
+
+  .metronome-head {
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .metronome-kicker {
+    margin: 0 0 0.1rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .metronome h2 {
+    margin: 0;
+    font-size: 1.15rem;
+  }
+
+  button,
+  select,
+  input {
+    font: inherit;
+  }
+
+  button,
+  select {
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text);
+  }
+
+  button {
+    min-height: 2.65rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  button:hover {
+    border-color: var(--accent);
+  }
+
+  .mute-button {
+    min-height: 2rem;
+    padding: 0.3rem 0.55rem;
+    font-size: 0.75rem;
+  }
+
+  .mute-button[aria-pressed='true'] {
+    opacity: 0.62;
+  }
+
+  .tempo-display {
+    justify-content: center;
+    gap: 0.55rem;
+    padding: 0.65rem 0 0.8rem;
+  }
+
+  .step-button {
+    width: 2.8rem;
+    flex: 0 0 2.8rem;
+    font-size: 1.5rem;
+  }
+
+  .bpm-field {
+    display: grid;
+    place-items: center;
+    gap: 0.05rem;
+  }
+
+  .bpm-field input {
+    width: 4.5ch;
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--text);
+    font-size: clamp(2.6rem, 5vw, 3.5rem);
+    font-weight: 850;
+    line-height: 1;
+    text-align: center;
+    -moz-appearance: textfield;
+  }
+
+  .bpm-field input:focus {
+    outline: 0;
+    border-bottom-color: var(--accent);
+  }
+
+  .bpm-field input::-webkit-inner-spin-button,
+  .bpm-field input::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+
+  .bpm-field span:last-child {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 750;
+    letter-spacing: 0.08em;
+  }
+
+  .tempo-shortcuts {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .play-button {
+    background: var(--accent);
+    color: var(--accent-contrast, #111);
+  }
+
+  .field,
+  .volume-field {
+    display: grid;
+    gap: 0.35rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 650;
+  }
+
+  .field select {
+    width: 100%;
+    min-height: 2.5rem;
+    padding: 0.45rem 0.55rem;
+    border-radius: 0.65rem;
+  }
+
+  .two-fields {
+    align-items: end;
+    gap: 0.6rem;
+    margin-top: 0.65rem;
+  }
+
+  .two-fields > * {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .beat-row {
+    min-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0.9rem 0 0.55rem;
+  }
+
+  .beat-row :global(.beat-dot) {
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: var(--surface-2);
+    transition: transform 70ms ease, background 70ms ease;
+  }
+
+  .beat-row :global(.beat-dot.is-current) {
+    transform: scale(1.28);
+    border-color: var(--accent);
+    background: var(--accent);
+  }
+
+  .options-row {
+    margin-bottom: 0.75rem;
+  }
+
+  .toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--text);
+    font-size: 0.82rem;
+  }
+
+  .toggle input {
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--accent);
+  }
+
+  .volume-field {
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 0.65rem;
+  }
+
+  .volume-field input {
+    width: 100%;
+    accent-color: var(--accent);
+  }
+
+  .tap-button {
+    width: 100%;
+    margin-top: 0.85rem;
+  }
+
+  kbd {
+    margin-left: 0.3rem;
+    padding: 0.08rem 0.3rem;
+    border: 1px solid var(--border);
+    border-radius: 0.3rem;
+    background: var(--surface);
+    font-size: 0.72rem;
+  }
+
+  .metronome-help {
+    margin: 0.65rem 0 0;
+    color: var(--muted);
+    font-size: 0.7rem;
+    line-height: 1.35;
+    text-align: center;
+  }
+
+  @media (max-width: 56rem) {
+    .metronome {
+      max-width: 42rem;
+      margin-inline: auto;
+    }
+  }
+</style>
