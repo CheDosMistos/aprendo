@@ -6,6 +6,10 @@ export interface TrackableContent {
   title: string;
 }
 
+export function isKnownCourse(courseId: string): boolean {
+  return courseId === 'bateria';
+}
+
 export async function resolveTrackableContent(
   courseId: string,
   contentId: string,
