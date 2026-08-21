@@ -1,0 +1,195 @@
+---
+import BaseLayout from '@platform/layouts/BaseLayout.astro';
+
+interface NavItem {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  title: string;
+  summary: string;
+  unitLabel: string;
+  kindLabel?: string;
+  duration?: string;
+  previous?: NavItem;
+  next?: NavItem;
+}
+
+const {
+  title,
+  summary,
+  unitLabel,
+  kindLabel,
+  duration,
+  previous,
+  next,
+} = Astro.props;
+---
+
+<BaseLayout title={`${title} — Curso de batería`} description={summary}>
+  <div class="course-page">
+    <nav class="breadcrumbs" aria-label="Ruta">
+      <a href="/bateria/">Batería</a>
+      <span aria-hidden="true">›</span>
+      <span>{unitLabel}</span>
+    </nav>
+
+    <header class="article-header">
+      <p class="eyebrow">{unitLabel}{kindLabel ? ` · ${kindLabel}` : ''}</p>
+      <h1>{title}</h1>
+      <p class="summary">{summary}</p>
+      {duration && <p class="duration">{duration}</p>}
+    </header>
+
+    <article class="course-article">
+      <slot />
+    </article>
+
+    <slot name="after" />
+
+    {(previous || next) && (
+      <nav class="lesson-nav" aria-label="Navegación de la unidad">
+        <div>
+          {previous && <a href={previous.href}>← {previous.label}</a>}
+        </div>
+        <div class="next-link">
+          {next && <a href={next.href}>{next.label} →</a>}
+        </div>
+      </nav>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .course-page {
+    width: min(100%, 76rem);
+    margin-inline: auto;
+  }
+
+  .breadcrumbs {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+
+  .breadcrumbs a,
+  .course-article :global(a),
+  .lesson-nav a {
+    color: #0000ee;
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+
+  :global(:root[data-theme='dark']) .breadcrumbs a,
+  :global(:root[data-theme='dark']) .course-article :global(a),
+  :global(:root[data-theme='dark']) .lesson-nav a {
+    color: #8ab4f8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme])) .breadcrumbs a,
+    :global(:root:not([data-theme])) .course-article :global(a),
+    :global(:root:not([data-theme])) .lesson-nav a {
+      color: #8ab4f8;
+    }
+  }
+
+  .article-header {
+    max-width: 60rem;
+    margin-bottom: 2rem;
+  }
+
+  .summary {
+    max-width: 62ch;
+    font-size: clamp(1rem, 1.4vw, 1.15rem);
+  }
+
+  .duration {
+    width: fit-content;
+    margin: 0;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--text);
+    font-size: 0.88rem;
+    font-weight: 650;
+  }
+
+  .course-article {
+    max-width: 72ch;
+    font-size: 1rem;
+    line-height: 1.72;
+  }
+
+  .course-article :global(h2) {
+    margin-top: 2.4rem;
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.35rem, 2vw, 1.7rem);
+  }
+
+  .course-article :global(h3) {
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.08rem;
+  }
+
+  .course-article :global(p),
+  .course-article :global(li) {
+    color: var(--text);
+  }
+
+  .course-article :global(ul),
+  .course-article :global(ol) {
+    padding-left: 1.35rem;
+  }
+
+  .course-article :global(blockquote) {
+    margin: 1.5rem 0;
+    padding: 0.25rem 1rem;
+    border-left: 0.25rem solid var(--border);
+    color: var(--muted);
+  }
+
+  .lesson-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .lesson-nav a {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 650;
+  }
+
+  .next-link {
+    text-align: right;
+  }
+
+  @media (max-width: 42rem) {
+    .course-page {
+      width: 100%;
+    }
+
+    .article-header {
+      margin-bottom: 1.35rem;
+    }
+
+    .lesson-nav {
+      grid-template-columns: 1fr;
+    }
+
+    .next-link {
+      text-align: left;
+    }
+  }
+</style>
