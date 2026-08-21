@@ -25,71 +25,86 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     <div class="cover-inner">
       <header class="home-header">
         <a class="home-brand" href="/" aria-label="Aprendo, inicio">
-          <svg class="brand-star" aria-hidden="true"><use href="/home/icons.svg#star"></use></svg>
+          <svg class="brand-star" aria-hidden="true"><use href="/ui/icons.svg#star"></use></svg>
           <span>Aprendo</span>
         </a>
 
-        <div class="header-decoration" aria-label="Accesos todavía no disponibles">
-          <button class="icon-button" type="button" disabled title="Notificaciones no disponibles">
-            <svg aria-hidden="true"><use href="/home/icons.svg#bell"></use></svg>
+        <nav class="header-decoration" aria-label="Accesos no disponibles todavía">
+          <a class="icon-button inactive-link" href="#" aria-disabled="true" title="Notificaciones no disponibles">
+            <svg aria-hidden="true"><use href="/ui/icons.svg#bell"></use></svg>
             <span class="sr-only">Notificaciones no disponibles</span>
-          </button>
-          <button class="avatar-button" type="button" disabled title="Perfil no disponible">
-            <svg aria-hidden="true"><use href="/home/icons.svg#user"></use></svg>
+          </a>
+          <a class="avatar-button inactive-link" href="#" aria-disabled="true" title="Perfil no disponible">
+            <svg aria-hidden="true"><use href="/ui/icons.svg#user"></use></svg>
             <span class="sr-only">Perfil no disponible</span>
-          </button>
-        </div>
+          </a>
+        </nav>
       </header>
 
       <div class="hero-copy">
-        <h1>Aprendo, aprendo, aprendo ...</h1>
+        <h1>
+          <span>Aprendo,</span>
+          <span>aprendo,</span>
+          <span>aprendo ...</span>
+        </h1>
         <p>Cada golpe te acerca a tu mejor versión.<br />Sigue practicando. Sigue aprendiendo.</p>
       </div>
 
       <div class="primary-actions" aria-label="Acciones principales">
         <a class="action action-primary" href={bateriaCourse.route}>
-          <svg aria-hidden="true"><use href="/home/icons.svg#drum"></use></svg>
+          <svg aria-hidden="true"><use href="/ui/icons.svg#drum"></use></svg>
           <span>Entrar al curso de batería</span>
-          <svg class="chevron" aria-hidden="true"><use href="/home/icons.svg#chevron"></use></svg>
+          <svg class="chevron" aria-hidden="true"><use href="/ui/icons.svg#chevron"></use></svg>
         </a>
 
         <a class="action action-continue" data-continue-link href={initialContinueRoute}>
-          <svg aria-hidden="true"><use href="/home/icons.svg#play"></use></svg>
+          <svg aria-hidden="true"><use href="/ui/icons.svg#play"></use></svg>
           <span class="action-copy">
             <strong>Continuar donde lo dejaste</strong>
             <small>Ir a tu lección actual</small>
           </span>
-          <svg class="chevron" aria-hidden="true"><use href="/home/icons.svg#chevron"></use></svg>
+          <svg class="chevron" aria-hidden="true"><use href="/ui/icons.svg#chevron"></use></svg>
         </a>
       </div>
 
       <div class="home-tools" aria-label="Accesos de Aprendo">
         <a class="tool-card" href={bateriaCourse.route}>
           <span class="tool-icon tool-icon-purple">
-            <svg aria-hidden="true"><use href="/home/icons.svg#book"></use></svg>
+            <svg aria-hidden="true"><use href="/ui/icons.svg#book"></use></svg>
           </span>
-          <span class="tool-copy"><strong>Lecciones</strong><small>Explora las unidades</small></span>
-          <svg class="chevron" aria-hidden="true"><use href="/home/icons.svg#chevron"></use></svg>
+          <span class="tool-copy">
+            <strong>Lecciones</strong>
+            <small>Explora los módulos</small>
+          </span>
+          <svg class="chevron" aria-hidden="true"><use href="/ui/icons.svg#chevron"></use></svg>
         </a>
 
         <a class="tool-card inactive-link" href="#" aria-disabled="true">
           <span class="tool-icon tool-icon-green">
-            <svg aria-hidden="true"><use href="/home/icons.svg#tools"></use></svg>
+            <svg aria-hidden="true"><use href="/ui/icons.svg#tools"></use></svg>
           </span>
-          <span class="tool-copy"><strong>Práctica</strong><small>Rutinas y ejercicios</small></span>
+          <span class="tool-copy">
+            <strong>Práctica</strong>
+            <small>Rutinas y ejercicios</small>
+          </span>
+          <svg class="chevron" aria-hidden="true"><use href="/ui/icons.svg#chevron"></use></svg>
         </a>
 
         <a class="tool-card inactive-link" href="#" aria-disabled="true">
           <span class="tool-icon tool-icon-blue">
-            <svg aria-hidden="true"><use href="/home/icons.svg#chart"></use></svg>
+            <svg aria-hidden="true"><use href="/ui/icons.svg#chart"></use></svg>
           </span>
-          <span class="tool-copy"><strong>Mi progreso</strong><small>Vista aún no disponible</small></span>
+          <span class="tool-copy">
+            <strong>Mi progreso</strong>
+            <small>Revisa tu avance</small>
+          </span>
+          <svg class="chevron" aria-hidden="true"><use href="/ui/icons.svg#chevron"></use></svg>
         </a>
 
         <section class="settings-card" aria-labelledby="settings-title">
           <div class="settings-heading">
             <span class="tool-icon tool-icon-neutral">
-              <svg aria-hidden="true"><use href="/home/icons.svg#gear"></use></svg>
+              <svg aria-hidden="true"><use href="/ui/icons.svg#gear"></use></svg>
             </span>
             <span class="tool-copy">
               <strong id="settings-title">Configuración</strong>
@@ -140,7 +155,7 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
           continueLink.href = resolveContinueDestination(body.summary, items, courseRoute);
         })
         .catch(() => {
-          // Keep the safe initial destination rendered in the HTML.
+          // The server-rendered route remains a safe fallback.
         });
     }
   }
@@ -158,9 +173,9 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     min-height: 100vh;
     color: #fff;
     background-image:
-      linear-gradient(90deg, rgba(8, 5, 14, 0.82) 0%, rgba(8, 5, 14, 0.55) 40%, rgba(8, 5, 14, 0.16) 72%),
-      linear-gradient(0deg, rgba(5, 5, 8, 0.88) 0%, rgba(5, 5, 8, 0.18) 50%, rgba(5, 5, 8, 0.35) 100%),
-      url('/home/hero.svg');
+      linear-gradient(90deg, rgba(8, 5, 14, 0.82) 0%, rgba(8, 5, 14, 0.54) 38%, rgba(8, 5, 14, 0.12) 73%),
+      linear-gradient(0deg, rgba(5, 5, 8, 0.9) 0%, rgba(5, 5, 8, 0.16) 50%, rgba(5, 5, 8, 0.34) 100%),
+      url('/home/hero.webp');
     background-position: center, center, 54% center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -191,6 +206,7 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     font-size: clamp(1.15rem, 2vw, 1.5rem);
     font-weight: 850;
     text-decoration: none;
+    text-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
   }
 
   .brand-star {
@@ -201,6 +217,7 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
 
   .header-decoration {
     display: flex;
+    align-items: center;
     gap: 0.7rem;
   }
 
@@ -215,11 +232,12 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     border-radius: 50%;
     background: rgba(10, 8, 14, 0.45);
     color: #fff;
+    text-decoration: none;
+    backdrop-filter: blur(8px);
   }
 
-  .icon-button:disabled,
-  .avatar-button:disabled {
-    opacity: 0.78;
+  .avatar-button {
+    background: rgba(29, 17, 34, 0.72);
   }
 
   .icon-button svg,
@@ -234,20 +252,23 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
   }
 
   .hero-copy h1 {
-    max-width: 9.8ch;
+    max-width: 10ch;
     margin: 0 0 1.35rem;
     color: #ffc42f;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Arial Black', sans-serif;
-    font-size: clamp(3.2rem, 7.2vw, 7.1rem);
+    font-size: clamp(3.2rem, 7.2vw, 7rem);
     font-weight: 900;
     font-style: italic;
-    line-height: 0.82;
+    line-height: 0.8;
     letter-spacing: -0.045em;
-    text-wrap: balance;
     transform: skew(-4deg) rotate(-1.5deg);
     transform-origin: left center;
     -webkit-text-stroke: clamp(1px, 0.16vw, 3px) #141015;
     text-shadow: 0.04em 0.05em 0 #141015, 0 0.08em 0.18em rgba(0, 0, 0, 0.75);
+  }
+
+  .hero-copy h1 span {
+    display: block;
   }
 
   .hero-copy p {
@@ -257,7 +278,7 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     font-size: clamp(1rem, 1.55vw, 1.28rem);
     font-weight: 560;
     line-height: 1.4;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.78);
   }
 
   .primary-actions {
@@ -364,7 +385,7 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
   }
 
   .inactive-link .tool-copy {
-    opacity: 0.66;
+    opacity: 0.78;
   }
 
   .tool-icon {
@@ -428,11 +449,11 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
 
   @media (max-width: 70rem) {
     .hero-copy {
-      width: 61%;
+      width: 62%;
     }
 
     .primary-actions {
-      width: 78%;
+      width: 80%;
     }
 
     .home-tools {
@@ -449,9 +470,9 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     .home-cover {
       min-height: 100svh;
       background-image:
-        linear-gradient(0deg, rgba(7, 5, 10, 0.96) 0%, rgba(7, 5, 10, 0.55) 47%, rgba(7, 5, 10, 0.3) 100%),
-        url('/home/hero.svg');
-      background-position: center, 67% top;
+        linear-gradient(0deg, rgba(7, 5, 10, 0.96) 0%, rgba(7, 5, 10, 0.56) 48%, rgba(7, 5, 10, 0.28) 100%),
+        url('/home/hero.webp');
+      background-position: center, 67% center;
       background-size: cover;
     }
 
@@ -461,12 +482,12 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
 
     .hero-copy {
       width: 100%;
-      margin-top: clamp(5.5rem, 26vh, 11rem);
+      margin-top: clamp(5.5rem, 25vh, 10rem);
     }
 
     .hero-copy h1 {
       max-width: 8.5ch;
-      font-size: clamp(3.3rem, 15vw, 5.1rem);
+      font-size: clamp(3.15rem, 14.5vw, 5rem);
     }
 
     .hero-copy p {
@@ -480,7 +501,7 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     }
 
     .action {
-      min-height: 4.3rem;
+      min-height: 4.35rem;
     }
 
     .home-tools {
@@ -501,10 +522,7 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
       align-content: space-between;
     }
 
-    .tool-card .tool-icon {
-      grid-column: 1;
-    }
-
+    .tool-card .tool-icon,
     .tool-card .tool-copy {
       grid-column: 1;
     }
