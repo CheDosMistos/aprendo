@@ -1,0 +1,388 @@
+---
+interface NavItem {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  courseId: string;
+  contentId: string;
+  kind: 'diagnostic' | 'lesson';
+  next?: NavItem;
+}
+
+const { courseId, contentId, kind, next } = Astro.props;
+const isDiagnostic = kind === 'diagnostic';
+const statusId = `practice-status-${contentId}`;
+---
+
+<section class="practice-checkin" aria-labelledby="practice-checkin-title">
+  <h2 id="practice-checkin-title">Registrar esta práctica</h2>
+
+  <form
+    data-practice-checkin
+    data-course-id={courseId}
+    data-content-id={contentId}
+    aria-describedby={statusId}
+  >
+    <fieldset>
+      <legend>Resultado</legend>
+      <div class="choice-grid">
+        <label class="choice">
+          <input type="radio" name="result" value="ok" required />
+          <span>
+            <strong>{isDiagnostic ? 'Diagnóstico completado' : 'Ha salido bien'}</strong>
+            <small>{isDiagnostic ? 'Puedo seguir con la unidad.' : 'Puedo continuar.'}</small>
+          </span>
+        </label>
+
+        <label class="choice">
+          <input type="radio" name="result" value="partial" required />
+          <span>
+            <strong>{isDiagnostic ? 'Completado con algo pendiente' : 'He avanzado, pero queda algo'}</strong>
+            <small>Seguiré y lo revisaré.</small>
+          </span>
+        </label>
+
+        <label class="choice">
+          <input type="radio" name="result" value="repeat" required />
+          <span>
+            <strong>{isDiagnostic ? 'Quiero repetirlo' : 'Necesito repetir'}</strong>
+            <small>Volveré a esta sesión.</small>
+          </span>
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Salud y carga</legend>
+      <div class="choice-grid health-grid">
+        <label class="choice compact">
+          <input type="radio" name="health" value="none" required />
+          <span><strong>Sin molestias</strong></span>
+        </label>
+
+        <label class="choice compact">
+          <input type="radio" name="health" value="discomfort" required />
+          <span>
+            <strong>Molestia</strong>
+            <small>O fatiga que degrada el movimiento.</small>
+          </span>
+        </label>
+
+        <label class="choice compact">
+          <input type="radio" name="health" value="stop_signal" required />
+          <span>
+            <strong>Parar</strong>
+            <small>Dolor, hormigueo, entumecimiento o pérdida de fuerza.</small>
+          </span>
+        </label>
+      </div>
+    </fieldset>
+
+    <details>
+      <summary>Añadir detalles</summary>
+      <div class="optional-fields">
+        <label>
+          <span>Duración aproximada (min)</span>
+          <input type="number" name="durationMinutes" min="1" max="600" inputmode="numeric" />
+        </label>
+
+        <label>
+          <span>Problema principal</span>
+          <textarea name="problem" rows="2" maxlength="500"></textarea>
+        </label>
+
+        <label>
+          <span>Nota</span>
+          <textarea name="note" rows="2" maxlength="2000"></textarea>
+        </label>
+      </div>
+    </details>
+
+    <div class="save-row">
+      <button type="submit">Guardar práctica</button>
+      <p id={statusId} class="save-status" data-save-status role="status" aria-live="polite"></p>
+    </div>
+
+    {next && (
+      <a class="next-action" data-next-action href={next.href} hidden>
+        Siguiente: {next.label} →
+      </a>
+    )}
+  </form>
+</section>
+
+<script>
+  interface ExecutionResponse {
+    execution?: {
+      nextAction?: 'continue' | 'continue_review' | 'repeat' | 'stop';
+    };
+  }
+
+  const form = document.querySelector<HTMLFormElement>('[data-practice-checkin]');
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const status = form.querySelector<HTMLElement>('[data-save-status]');
+    const nextActionLink = form.querySelector<HTMLAnchorElement>('[data-next-action]');
+    const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+    if (!status || !submitButton) return;
+
+    const data = new FormData(form);
+    const result = data.get('result');
+    const health = data.get('health');
+    if (typeof result !== 'string' || typeof health !== 'string') return;
+
+    const payload: Record<string, string | number> = {
+      courseId: form.dataset.courseId ?? '',
+      contentId: form.dataset.contentId ?? '',
+      result,
+      health,
+    };
+
+    const duration = data.get('durationMinutes');
+    if (typeof duration === 'string' && duration !== '') payload.durationMinutes = Number(duration);
+
+    const problem = data.get('problem');
+    if (typeof problem === 'string' && problem.trim()) payload.problem = problem.trim();
+
+    const note = data.get('note');
+    if (typeof note === 'string' && note.trim()) payload.note = note.trim();
+
+    submitButton.disabled = true;
+    submitButton.textContent = 'Guardando…';
+    status.textContent = '';
+    if (nextActionLink) nextActionLink.hidden = true;
+
+    try {
+      const response = await fetch('/api/progress/executions/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+
+      const body = await response.json() as ExecutionResponse;
+      if (!response.ok || !body.execution?.nextAction) throw new Error('Progress write failed');
+
+      const messages = {
+        continue: 'Guardado. Puedes continuar.',
+        continue_review: 'Guardado. Continúa y revisa lo pendiente.',
+        repeat: 'Guardado. Repite esta sesión.',
+        stop: 'Guardado. Detén la carga por ahora.',
+      } as const;
+
+      status.textContent = messages[body.execution.nextAction];
+      submitButton.textContent = 'Guardado';
+
+      for (const control of form.querySelectorAll<HTMLInputElement | HTMLTextAreaElement | HTMLButtonElement>('input, textarea, button')) {
+        control.disabled = true;
+      }
+
+      if (
+        nextActionLink &&
+        (body.execution.nextAction === 'continue' || body.execution.nextAction === 'continue_review')
+      ) {
+        nextActionLink.hidden = false;
+      }
+    } catch {
+      status.textContent = 'No se ha podido guardar. Inténtalo otra vez.';
+      submitButton.disabled = false;
+      submitButton.textContent = 'Guardar práctica';
+    }
+  });
+</script>
+
+<style>
+  .practice-checkin {
+    max-width: 72ch;
+    margin-top: 3rem;
+    padding: clamp(1rem, 3vw, 1.5rem);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .practice-checkin h2 {
+    margin-bottom: 1.25rem;
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+  }
+
+  form {
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  fieldset {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  legend {
+    margin-bottom: 0.65rem;
+    font-weight: 750;
+  }
+
+  .choice-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  .choice {
+    min-height: 4.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    padding: 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 0.65rem;
+    background: var(--surface-2);
+    cursor: pointer;
+  }
+
+  .choice:has(input:checked) {
+    border-color: var(--accent);
+    box-shadow: inset 0 0 0 1px var(--accent);
+  }
+
+  .choice input {
+    width: 1.15rem;
+    height: 1.15rem;
+    margin: 0.15rem 0 0;
+    flex: 0 0 auto;
+  }
+
+  .choice span {
+    display: grid;
+    gap: 0.2rem;
+  }
+
+  .choice strong {
+    color: var(--text);
+    line-height: 1.3;
+  }
+
+  .choice small {
+    color: var(--muted);
+    line-height: 1.35;
+  }
+
+  .compact {
+    min-height: 3.8rem;
+  }
+
+  details {
+    border-top: 1px solid var(--border);
+    padding-top: 0.9rem;
+  }
+
+  summary {
+    width: fit-content;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    font-weight: 650;
+    cursor: pointer;
+  }
+
+  .optional-fields {
+    display: grid;
+    gap: 0.9rem;
+    margin-top: 0.75rem;
+  }
+
+  .optional-fields label {
+    display: grid;
+    gap: 0.35rem;
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  input[type='number'],
+  textarea {
+    width: 100%;
+    min-height: 2.75rem;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 0.55rem;
+    background: var(--bg);
+    color: var(--text);
+    font: inherit;
+  }
+
+  input[type='number'] {
+    max-width: 10rem;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  .save-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+  }
+
+  button {
+    min-height: 2.9rem;
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--accent);
+    border-radius: 0.6rem;
+    background: var(--accent);
+    color: var(--accent-contrast);
+    font: inherit;
+    font-weight: 750;
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: default;
+    opacity: 0.7;
+  }
+
+  .save-status {
+    min-height: 1.5rem;
+    margin: 0;
+    color: var(--text);
+    font-weight: 650;
+  }
+
+  .next-action {
+    width: fit-content;
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    color: #0000ee;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+
+  :global(:root[data-theme='dark']) .next-action {
+    color: #8ab4f8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme])) .next-action {
+      color: #8ab4f8;
+    }
+  }
+
+  @media (max-width: 48rem) {
+    .choice-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .choice,
+    .compact {
+      min-height: 3.5rem;
+    }
+  }
+</style>

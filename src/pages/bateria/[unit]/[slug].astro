@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import CourseArticleLayout from '@courses/bateria/components/CourseArticleLayout.astro';
+import PracticeCheckIn from '@courses/bateria/components/PracticeCheckIn.astro';
 import {
   getBateriaContent,
   routeFor,
@@ -57,6 +58,10 @@ const kindLabel = entry.data.kind === 'diagnostic'
   : entry.data.kind === 'checkpoint'
     ? 'Cierre'
     : 'Lección';
+const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'lesson'
+  ? entry.data.kind
+  : undefined;
+const showU1CheckIn = entry.data.phase === 1 && entry.data.unit === 1 && checkInKind !== undefined;
 ---
 
 <CourseArticleLayout
@@ -69,4 +74,14 @@ const kindLabel = entry.data.kind === 'diagnostic'
   next={next}
 >
   <Content />
+
+  {showU1CheckIn && checkInKind && (
+    <PracticeCheckIn
+      slot="after"
+      courseId={entry.data.courseId}
+      contentId={entry.data.contentId}
+      kind={checkInKind}
+      next={next}
+    />
+  )}
 </CourseArticleLayout>
