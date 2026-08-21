@@ -92,7 +92,7 @@ export class ExecutionRepository {
       WHERE user_id = ? AND course_id = ?
       ORDER BY completed_at DESC, created_at DESC
       LIMIT ?
-    `).all(userId, courseId, safeLimit) as ExecutionRow[];
+    `).all(userId, courseId, safeLimit) as unknown as ExecutionRow[];
 
     return rows.map(mapExecution);
   }
