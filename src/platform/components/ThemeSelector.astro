@@ -1,14 +1,41 @@
-<details class="settings-menu">
-  <summary>Configuración</summary>
-  <div class="settings-panel">
-    <span class="settings-label">Tema</span>
+---
+interface Props {
+  variant?: 'menu' | 'segmented';
+}
+
+const { variant = 'menu' } = Astro.props;
+---
+
+{variant === 'menu' ? (
+  <details class="settings-menu">
+    <summary>Configuración</summary>
+    <div class="settings-panel">
+      <span class="settings-label">Tema</span>
+      <div class="theme-selector" aria-label="Tema visual">
+        <button type="button" data-theme-choice="system">Sistema</button>
+        <button type="button" data-theme-choice="light">Claro</button>
+        <button type="button" data-theme-choice="dark">Oscuro</button>
+      </div>
+    </div>
+  </details>
+) : (
+  <div class="settings-inline">
     <div class="theme-selector" aria-label="Tema visual">
-      <button type="button" data-theme-choice="system">Sistema</button>
-      <button type="button" data-theme-choice="light">Claro</button>
-      <button type="button" data-theme-choice="dark">Oscuro</button>
+      <button type="button" data-theme-choice="system">
+        <svg aria-hidden="true"><use href="/ui/icons.svg#monitor"></use></svg>
+        <span>Sistema</span>
+      </button>
+      <button type="button" data-theme-choice="light">
+        <svg aria-hidden="true"><use href="/ui/icons.svg#sun"></use></svg>
+        <span>Claro</span>
+      </button>
+      <button type="button" data-theme-choice="dark">
+        <svg aria-hidden="true"><use href="/ui/icons.svg#moon"></use></svg>
+        <span>Oscuro</span>
+      </button>
     </div>
   </div>
-</details>
+)}
 
 <script>
   type ThemeChoice = 'system' | 'light' | 'dark';
@@ -56,7 +83,8 @@
 </script>
 
 <style>
-  .settings-menu {
+  .settings-menu,
+  .settings-inline {
     position: relative;
     font-size: 0.875rem;
   }
@@ -67,7 +95,7 @@
     align-items: center;
     padding: 0.5rem 0.65rem;
     cursor: pointer;
-    color: var(--text-muted);
+    color: var(--muted);
   }
 
   .settings-panel {
@@ -83,7 +111,7 @@
   .settings-label {
     font-size: 0.8rem;
     font-weight: 700;
-    color: var(--text-muted);
+    color: var(--muted);
   }
 
   .theme-selector {
@@ -91,24 +119,51 @@
     gap: 0.15rem;
     padding: 0.15rem;
     border: 1px solid var(--border);
-    border-radius: 0.6rem;
+    border-radius: 0.65rem;
     background: var(--surface-2);
+  }
+
+  .settings-inline .theme-selector {
+    width: 100%;
   }
 
   button {
     min-height: 2.75rem;
     padding: 0.45rem 0.65rem;
     border: 0;
-    border-radius: 0.45rem;
+    border-radius: 0.5rem;
     background: transparent;
     color: var(--text);
     font: inherit;
     cursor: pointer;
   }
 
+  .settings-inline button {
+    min-width: 0;
+    flex: 1 1 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    padding-inline: 0.45rem;
+  }
+
+  .settings-inline svg {
+    width: 1rem;
+    height: 1rem;
+    flex: 0 0 auto;
+  }
+
   button[aria-pressed="true"] {
     background: var(--surface);
     box-shadow: 0 0 0 1px var(--border);
     font-weight: 700;
+  }
+
+  @media (max-width: 28rem) {
+    .settings-inline button {
+      gap: 0.25rem;
+      font-size: 0.78rem;
+    }
   }
 </style>

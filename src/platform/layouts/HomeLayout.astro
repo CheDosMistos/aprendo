@@ -1,0 +1,48 @@
+---
+import '@platform/styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = 'Aprendo, plataforma personal de aprendizaje.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title}</title>
+    <script is:inline>
+      (() => {
+        try {
+          const theme = localStorage.getItem('aprendo-theme');
+          if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+        } catch {}
+      })();
+    </script>
+  </head>
+  <body class="home-body">
+    <main class="home-main">
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style>
+  :global(body.home-body) {
+    display: block;
+    background: #0c0b10;
+  }
+
+  .home-main {
+    min-height: 100vh;
+  }
+</style>
