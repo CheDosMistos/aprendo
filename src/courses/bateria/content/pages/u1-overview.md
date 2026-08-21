@@ -27,12 +27,12 @@ Esta unidad está pensada para volver a tocar con comodidad y reconstruir una ba
 
 Los seis rudimentos de esta unidad son:
 
-- **Single Stroke Roll**
-- **Multiple Bounce Roll**
-- **Double Stroke Open Roll**
-- **Single Paradiddle**
-- **Flam**
-- **Drag**
+- **Single Stroke Roll** — *«redoble de golpes simples»*
+- **Multiple Bounce Roll** — *«redoble de rebote múltiple / redoble cerrado»*
+- **Double Stroke Open Roll** — *«redoble abierto de golpes dobles»*
+- **Single Paradiddle** — *«paradiddle simple»*
+- **Flam** — *«apoyatura simple»*
+- **Drag** — *«apoyatura doble»*
 
 La meta inicial no es dominarlos. Queremos que puedas reconocerlos, consultar su forma oficial, comprender qué movimiento requieren y empezar a ejecutarlos lentamente con control razonable.
 
@@ -68,14 +68,14 @@ Para lectura usarás [Lectura — negras y corcheas](/bateria/materiales/u1/lect
 
 Para la forma exacta de los rudimentos utiliza la fuente normativa de la Percussive Arts Society:
 
-<a href="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" target="_blank" rel="noopener noreferrer">PAS — International Drum Rudiments</a>
+[PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-El curso no reconstruye la partitura oficial. Si existe cualquier duda sobre sticking, ritmo, acentos, grace notes o rolls, prevalece PAS.
+El curso no reconstruye la partitura oficial. Si existe cualquier duda sobre orden de manos (*sticking*), ritmo, acentos, notas de adorno (*grace notes*) o redobles (*rolls*), prevalece PAS.
 
 ## Orden de la unidad
 
 1. **Sesión 0 — Diagnóstico de reentrada**
-2. **Lección 1 — Rebote, pulso y primeros rolls**
+2. **Lección 1 — Rebote, pulso y primeros redobles**
 3. **Lección 2 — Golpes dobles y Single Paradiddle**
 4. **Lección 3 — Flam, Drag y control de alturas**
 5. **Lección 4 — Recuperación, lectura y aplicación musical**
