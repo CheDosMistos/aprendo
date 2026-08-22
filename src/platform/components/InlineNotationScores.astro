@@ -60,6 +60,13 @@
     const host = make('div', 'course-score__host');
     shell.append(host);
 
+    const sourceLink = element.dataset.scoreSourceUrl;
+    const isPasScore = sourceUrl.includes('/pas-') || sourceLink?.includes('pas.org');
+    const disclaimer = isPasScore ? make('p', 'course-score__disclaimer') : null;
+    if (disclaimer) {
+      disclaimer.textContent = 'Representación de estudio del curso. PAS International Drum Rudiments © 1984 Percussive Arts Society. La fuente oficial enlazada es la referencia normativa.';
+    }
+
     const footer = make('div', 'course-score__footer');
     const status = make('p', 'course-score__status');
     status.textContent = 'Preparando partitura…';
@@ -67,7 +74,6 @@
     footer.append(status);
 
     const links = make('div', 'course-score__links');
-    const sourceLink = element.dataset.scoreSourceUrl;
     if (sourceLink) {
       const link = make('a');
       link.href = sourceLink;
@@ -78,7 +84,9 @@
     }
     if (links.childElementCount) footer.append(links);
 
-    element.append(head, shell, footer);
+    element.append(head, shell);
+    if (disclaimer) element.append(disclaimer);
+    element.append(footer);
 
     let isPlaying = false;
     const renderer = new AlphaTabRenderer(host, {
@@ -218,6 +226,15 @@
     min-height: 11rem;
     padding: .6rem .75rem;
     color: #111;
+  }
+
+  .course-score__disclaimer {
+    max-width: none !important;
+    margin: 1.25rem .9rem !important;
+    color: var(--muted) !important;
+    font-size: .78rem;
+    font-weight: 400 !important;
+    line-height: 1.45;
   }
 
   .course-score__footer {
