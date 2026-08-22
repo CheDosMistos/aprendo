@@ -82,9 +82,9 @@ No estudies todavía Double Paradiddle ni Triple Paradiddle; llegarán en la Uni
 
 ## 5. Lectura — 3–4 minutos
 
-Trabaja con la partitura integrada y elige un fragmento que no hayas memorizado. El PDF sigue disponible como versión imprimible.
+Ahora trabaja **A3–A6** del mismo imprimible de U1. Estas cuatro líneas no aparecen en la lectura diagnóstica A1–A2 y mantienen exactamente el mismo vocabulario: negras y corcheas en 4/4.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-negras-corcheas.musicxml" data-score-title="Lectura — negras y corcheas" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-practica-a3-a6.musicxml" data-score-title="Lectura de práctica — A3–A6" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
 
 Haz:
 
