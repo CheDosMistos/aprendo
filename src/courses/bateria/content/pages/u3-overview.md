@@ -4,7 +4,7 @@ courseId: bateria
 phase: 1
 unit: 3
 unitSlug: unidad-3
-slug: introduccion
+slug: unidad-3-introduccion
 kind: unit
 order: 0
 title: Rolls con resolución, flams, drags y tresillos
