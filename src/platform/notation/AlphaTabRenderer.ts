@@ -26,6 +26,17 @@ export class AlphaTabRenderer implements NotationRenderer {
     const hideScoreHeader = options.hideScoreHeader ?? false;
     this.referenceBpm = options.referenceBpm ?? 120;
 
+    const hiddenElements = new Map<alphaTab.NotationElement, boolean>([
+      [alphaTab.NotationElement.ScoreTitle, false],
+      [alphaTab.NotationElement.ScoreSubTitle, false],
+      [alphaTab.NotationElement.ScoreArtist, false],
+      [alphaTab.NotationElement.ScoreAlbum, false],
+      [alphaTab.NotationElement.ScoreWords, false],
+      [alphaTab.NotationElement.ScoreMusic, false],
+      [alphaTab.NotationElement.ScoreWordsAndMusic, false],
+      [alphaTab.NotationElement.ScoreCopyright, false],
+    ]);
+
     this.api = new alphaTab.AlphaTabApi(host, {
       core: {
         engine: 'svg',
@@ -35,20 +46,7 @@ export class AlphaTabRenderer implements NotationRenderer {
         scale: displayScale,
         stretchForce,
       },
-      notation: hideScoreHeader
-        ? {
-            elements: {
-              ScoreTitle: false,
-              ScoreSubTitle: false,
-              ScoreArtist: false,
-              ScoreAlbum: false,
-              ScoreWords: false,
-              ScoreMusic: false,
-              ScoreWordsAndMusic: false,
-              ScoreCopyright: false,
-            },
-          }
-        : undefined,
+      notation: hideScoreHeader ? { elements: hiddenElements } : undefined,
       player: {
         enablePlayer,
         soundFont: '/soundfont/sonivox.sf2',
