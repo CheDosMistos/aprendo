@@ -3,11 +3,13 @@ import type { NotationRenderer, NotationRendererCallbacks } from './NotationRend
 
 export interface AlphaTabRendererOptions {
   enablePlayer?: boolean;
+  referenceBpm?: number;
 }
 
 export class AlphaTabRenderer implements NotationRenderer {
   private readonly api: alphaTab.AlphaTabApi;
   private readonly callbacks: NotationRendererCallbacks;
+  private readonly referenceBpm: number;
 
   constructor(
     host: HTMLElement,
@@ -16,6 +18,7 @@ export class AlphaTabRenderer implements NotationRenderer {
   ) {
     this.callbacks = callbacks;
     const enablePlayer = options.enablePlayer ?? true;
+    this.referenceBpm = options.referenceBpm ?? 120;
 
     this.api = new alphaTab.AlphaTabApi(host, {
       core: {
@@ -45,6 +48,12 @@ export class AlphaTabRenderer implements NotationRenderer {
       this.api.playerReady.on(() => {
         this.callbacks.onPlaybackReady?.(true);
       });
+      this.api.playerStateChanged.on((args) => {
+        this.callbacks.onPlaybackStateChange?.(args.state === alphaTab.synth.PlayerState.Playing);
+      });
+      this.api.playerFinished.on(() => {
+        this.callbacks.onPlaybackStateChange?.(false);
+      });
     }
 
     this.api.error.on((error) => {
@@ -55,6 +64,7 @@ export class AlphaTabRenderer implements NotationRenderer {
 
   load(sourceUrl: string): boolean {
     this.callbacks.onPlaybackReady?.(false);
+    this.callbacks.onPlaybackStateChange?.(false);
     this.callbacks.onStatusChange?.('loading', 'Cargando MusicXML…');
     return this.api.load(sourceUrl);
   }
@@ -65,6 +75,11 @@ export class AlphaTabRenderer implements NotationRenderer {
 
   stop(): void {
     if (this.api.isReadyForPlayback) this.api.stop();
+  }
+
+  setPlaybackBpm(bpm: number): void {
+    if (!Number.isFinite(bpm) || this.referenceBpm <= 0) return;
+    this.api.playbackSpeed = Math.min(8, Math.max(0.125, bpm / this.referenceBpm));
   }
 
   dispose(): void {
