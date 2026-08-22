@@ -16,7 +16,7 @@ rudiments:
   - Single Stroke Seven
   - Double Paradiddle
   - Triple Paradiddle
-  - Single Paradiddle-Diddle
+  - Single Paradiddle-diddle
   - Five Stroke Roll
 published: true
 ---
