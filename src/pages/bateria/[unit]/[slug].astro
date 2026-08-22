@@ -61,7 +61,6 @@ const kindLabel = entry.data.kind === 'diagnostic'
 const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'lesson'
   ? entry.data.kind
   : undefined;
-const showU1CheckIn = entry.data.phase === 1 && entry.data.unit === 1 && checkInKind !== undefined;
 ---
 
 <CourseArticleLayout
@@ -75,7 +74,7 @@ const showU1CheckIn = entry.data.phase === 1 && entry.data.unit === 1 && checkIn
 >
   <Content />
 
-  {showU1CheckIn && checkInKind && (
+  {checkInKind && (
     <PracticeCheckIn
       slot="after"
       courseId={entry.data.courseId}
