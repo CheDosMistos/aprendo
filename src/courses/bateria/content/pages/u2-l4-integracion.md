@@ -75,7 +75,16 @@ Un buen diagnóstico puede terminar demostrando que la hipótesis inicial era in
 
 Solo si el pulso y la subdivisión se mantienen cómodos: toma una línea de corcheas en 4/4 y mueve **un acento** a otra posición sin cambiar el compás.
 
-Esto es una introducción breve a desplazamiento/agrupación. No es polirritmia y no genera un requisito de avance.
+Esto es una microexposición a **desplazamiento de acento dentro de 4/4**. Mover un acento no crea por sí mismo una nueva agrupación, y tampoco es polirritmia, polimetría ni modulación métrica. No genera un requisito de avance.
+
+## Rutina estándar
+
+- 5 min recuperación fría;
+- 6 min lectura nueva;
+- 4 min contraste 2/3;
+- 3 min creatividad;
+- 5 min diagnóstico/correctivo;
+- 2 min registro y siguiente paso.
 
 ## Al terminar
 
