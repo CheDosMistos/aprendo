@@ -16,7 +16,7 @@ rudiments:
   - Single Stroke Seven
   - Double Paradiddle
   - Triple Paradiddle
-  - Single Paradiddle-Diddle
+  - Single Paradiddle-diddle
   - Five Stroke Roll
 published: true
 ---
@@ -29,7 +29,7 @@ U2 continúa directamente desde U1. No reinicia técnica ni lectura: recupera un
 - **Single Stroke Seven**
 - **Double Paradiddle**
 - **Triple Paradiddle**
-- **Single Paradiddle-Diddle**
+- **Single Paradiddle-diddle**
 - **Five Stroke Roll**
 
 La meta sigue siendo construir una representación correcta. `INTRODUCIDO` es válido; `CONOCIDO` exige reconocer el rudimento, comprender su estructura y poder ejecutarlo lentamente con control razonable.
