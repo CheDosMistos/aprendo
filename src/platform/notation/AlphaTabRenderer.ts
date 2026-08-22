@@ -38,14 +38,14 @@ export class AlphaTabRenderer implements NotationRenderer {
       notation: hideScoreHeader
         ? {
             elements: {
-              scoreTitle: false,
-              scoreSubTitle: false,
-              scoreArtist: false,
-              scoreAlbum: false,
-              scoreWords: false,
-              scoreMusic: false,
-              scoreWordsAndMusic: false,
-              scoreCopyright: false,
+              ScoreTitle: false,
+              ScoreSubTitle: false,
+              ScoreArtist: false,
+              ScoreAlbum: false,
+              ScoreWords: false,
+              ScoreMusic: false,
+              ScoreWordsAndMusic: false,
+              ScoreCopyright: false,
             },
           }
         : undefined,
