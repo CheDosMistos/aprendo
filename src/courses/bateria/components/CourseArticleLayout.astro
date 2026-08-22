@@ -2,6 +2,7 @@
 import BaseLayout from '@platform/layouts/BaseLayout.astro';
 import Metronome from '@platform/components/MetronomeCompact.astro';
 import InlineNotationScores from '@platform/components/InlineNotationScores.astro';
+import RhythmDictationWidgets from '@courses/bateria/components/RhythmDictationWidgets.astro';
 
 interface NavItem { href: string; label: string; }
 interface Props { title:string; summary:string; unitLabel:string; kindLabel?:string; duration?:string; previous?:NavItem; next?:NavItem; }
@@ -32,6 +33,7 @@ const { title, summary, unitLabel, kindLabel, duration, previous, next } = Astro
     </div>
   </div>
   <InlineNotationScores />
+  <RhythmDictationWidgets />
 </BaseLayout>
 
 <script>

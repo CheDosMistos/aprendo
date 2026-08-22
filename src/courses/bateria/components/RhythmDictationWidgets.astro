@@ -1,0 +1,85 @@
+---
+---
+
+<script>
+  type AudioContextCtor = typeof AudioContext;
+
+  const setupRhythmDictations = () => {
+    const widgets = document.querySelectorAll<HTMLElement>('[data-rhythm-dictation]');
+
+    for (const widget of widgets) {
+      if (widget.dataset.ready === 'true') continue;
+      widget.dataset.ready = 'true';
+
+      const bpm = Number(widget.dataset.bpm ?? '72');
+      const subdivision = Number(widget.dataset.subdivision ?? '2');
+      const pattern = (widget.dataset.pattern ?? '').trim();
+      const answer = widget.dataset.answer ?? '';
+
+      widget.classList.add('rhythm-dictation');
+      widget.innerHTML = `<div class="rhythm-dictation__controls"><button type="button" data-dictation-play>Escuchar dictado</button><button type="button" data-dictation-answer>Mostrar respuesta</button></div><p class="rhythm-dictation__status" data-dictation-status>4 pulsos de entrada y después 1 compás. Escribe antes de revelar.</p><p class="rhythm-dictation__answer" data-dictation-answer-text hidden></p>`;
+
+      const play = widget.querySelector<HTMLButtonElement>('[data-dictation-play]');
+      const reveal = widget.querySelector<HTMLButtonElement>('[data-dictation-answer]');
+      const status = widget.querySelector<HTMLElement>('[data-dictation-status]');
+      const answerText = widget.querySelector<HTMLElement>('[data-dictation-answer-text]');
+
+      reveal?.addEventListener('click', () => {
+        if (!answerText) return;
+        answerText.hidden = !answerText.hidden;
+        answerText.textContent = answer;
+        reveal.textContent = answerText.hidden ? 'Mostrar respuesta' : 'Ocultar respuesta';
+      });
+
+      play?.addEventListener('click', async () => {
+        if (!pattern || !Number.isFinite(bpm) || bpm <= 0 || !Number.isInteger(subdivision) || subdivision <= 0) {
+          if (status) status.textContent = 'El dictado no está configurado correctamente.';
+          return;
+        }
+
+        const Ctor = window.AudioContext || (window as unknown as { webkitAudioContext?: AudioContextCtor }).webkitAudioContext;
+        if (!Ctor) {
+          if (status) status.textContent = 'Tu navegador no ofrece Web Audio.';
+          return;
+        }
+
+        const context = new Ctor();
+        await context.resume();
+        const quarter = 60 / bpm;
+        const slot = quarter / subdivision;
+        const start = context.currentTime + 0.08;
+
+        const click = (time: number, frequency: number, gainValue: number) => {
+          const osc = context.createOscillator();
+          const gain = context.createGain();
+          osc.frequency.value = frequency;
+          gain.gain.setValueAtTime(gainValue, time);
+          gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.045);
+          osc.connect(gain).connect(context.destination);
+          osc.start(time);
+          osc.stop(time + 0.05);
+        };
+
+        for (let beat = 0; beat < 4; beat += 1) click(start + beat * quarter, beat === 0 ? 1100 : 880, 0.12);
+        const phraseStart = start + 4 * quarter;
+        [...pattern].forEach((value, index) => {
+          if (value === '1') click(phraseStart + index * slot, 660, 0.16);
+        });
+
+        if (status) status.textContent = 'Escucha sin mirar la respuesta. Puedes repetir el estímulo antes de escribir.';
+        window.setTimeout(() => void context.close(), Math.ceil((4 * quarter + pattern.length * slot + 0.4) * 1000));
+      });
+    }
+  };
+
+  setupRhythmDictations();
+  document.addEventListener('astro:page-load', setupRhythmDictations);
+</script>
+
+<style is:global>
+  .rhythm-dictation{max-width:46rem;margin:1.25rem 0;padding:1rem;border:1px solid var(--border);border-radius:.85rem;background:var(--surface-2)}
+  .rhythm-dictation__controls{display:flex;flex-wrap:wrap;gap:.65rem}
+  .rhythm-dictation__controls button{min-height:2.6rem;padding:.55rem .8rem;border:1px solid var(--border);border-radius:.6rem;background:var(--surface);color:var(--text);font:inherit;font-weight:650;cursor:pointer}
+  .rhythm-dictation__status,.rhythm-dictation__answer{margin:.75rem 0 0;color:var(--muted)}
+  .rhythm-dictation__answer{font-weight:700;color:var(--text)}
+</style>
