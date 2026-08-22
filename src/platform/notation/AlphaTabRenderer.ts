@@ -1,12 +1,22 @@
 import * as alphaTab from '@coderline/alphatab';
 import type { NotationRenderer, NotationRendererCallbacks } from './NotationRenderer';
 
+export interface AlphaTabRendererOptions {
+  enablePlayer?: boolean;
+}
+
 export class AlphaTabRenderer implements NotationRenderer {
   private readonly api: alphaTab.AlphaTabApi;
   private readonly callbacks: NotationRendererCallbacks;
 
-  constructor(host: HTMLElement, callbacks: NotationRendererCallbacks = {}) {
+  constructor(
+    host: HTMLElement,
+    callbacks: NotationRendererCallbacks = {},
+    options: AlphaTabRendererOptions = {},
+  ) {
     this.callbacks = callbacks;
+    const enablePlayer = options.enablePlayer ?? true;
+
     this.api = new alphaTab.AlphaTabApi(host, {
       core: {
         engine: 'svg',
@@ -17,7 +27,7 @@ export class AlphaTabRenderer implements NotationRenderer {
         stretchForce: 0.8,
       },
       player: {
-        enablePlayer: true,
+        enablePlayer,
         soundFont: '/soundfont/sonivox.sf2',
         scrollElement: host.parentElement ?? host,
       },
@@ -31,9 +41,11 @@ export class AlphaTabRenderer implements NotationRenderer {
       this.callbacks.onStatusChange?.('ready', 'Partitura renderizada');
     });
 
-    this.api.playerReady.on(() => {
-      this.callbacks.onPlaybackReady?.(true);
-    });
+    if (enablePlayer) {
+      this.api.playerReady.on(() => {
+        this.callbacks.onPlaybackReady?.(true);
+      });
+    }
 
     this.api.error.on((error) => {
       const message = error instanceof Error ? error.message : String(error);

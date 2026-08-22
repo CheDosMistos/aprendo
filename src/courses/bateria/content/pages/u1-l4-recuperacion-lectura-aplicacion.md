@@ -55,7 +55,9 @@ Que algo **necesite refuerzo** es una señal de revisión, no un nuevo nivel de 
 
 ## 3. Lectura nueva — unos 6 minutos
 
-Abre [Lectura — negras y corcheas](/bateria/materiales/u1/lectura-negras-corcheas.pdf) y elige una línea nueva.
+Trabaja con la partitura integrada y elige un fragmento que no hayas memorizado. El PDF sigue disponible como versión imprimible.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-negras-corcheas.musicxml" data-score-title="Lectura — negras y corcheas" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
 
 Haz:
 

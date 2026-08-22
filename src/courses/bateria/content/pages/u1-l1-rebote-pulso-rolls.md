@@ -46,7 +46,9 @@ Lo que cambia es la subdivisión, no el pulso.
 
 ## 3. Single Stroke Roll — unos 6 minutos
 
-[Abre la fuente oficial PAS](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf) y busca **Single Stroke Roll**.
+Consulta esta representación de estudio y, ante cualquier duda de notación o sticking, abre la fuente oficial PAS. La representación integrada no sustituye el original.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/pas-01-single-stroke-roll.musicxml" data-score-title="1. Single Stroke Roll" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
 
 Trabájalo lentamente. Tu prioridad no es la velocidad. Observa:
 
@@ -61,7 +63,9 @@ Si una mano altera claramente el sonido o el tiempo, aísla el problema durante 
 
 ## 4. Multiple Bounce Roll — unos 6 minutos
 
-Busca **Multiple Bounce Roll** en la misma fuente oficial.
+Consulta la representación integrada y contrástala con la misma fuente oficial PAS.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/pas-04-multiple-bounce-roll.musicxml" data-score-title="4. Multiple Bounce Roll" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
 
 Aquí el rebote tiene un papel mayor. Aprende a iniciar y controlar una sucesión de rebotes sin apretar para fabricar cada golpe.
 

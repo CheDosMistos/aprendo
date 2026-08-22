@@ -49,7 +49,9 @@ Un **double** es un par de golpes consecutivos con la misma mano dentro de una e
 
 ## 3. Double Stroke Open Roll — unos 6 minutos
 
-[Abre la fuente oficial PAS](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf) y busca **Double Stroke Open Roll**.
+Consulta esta representación de estudio y, ante cualquier duda de notación o sticking, abre la fuente oficial PAS. La representación integrada no sustituye el original.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/pas-06-double-stroke-open-roll.musicxml" data-score-title="6. Double Stroke Open Roll" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
 
 Observa su estructura exacta y trabaja lentamente. Escucha especialmente el segundo golpe de cada double.
 
@@ -66,7 +68,9 @@ Aísla unas pocas repeticiones y vuelve al rudimento completo.
 
 ## 4. Single Paradiddle — unos 6 minutos
 
-Busca **Single Paradiddle** en la fuente oficial.
+Consulta la representación integrada y contrástala con la misma fuente oficial PAS.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/pas-16-single-paradiddle.musicxml" data-score-title="16. Single Paradiddle" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
 
 Distingue dos cosas: **el ritmo** y **el orden de manos**. El paradiddle utiliza golpes simples y un double, pero memorizar una secuencia de letras sin situarla en el tiempo no significa comprender el rudimento.
 
@@ -78,7 +82,9 @@ No estudies todavía Double Paradiddle ni Triple Paradiddle; llegarán en la Uni
 
 ## 5. Lectura — 3–4 minutos
 
-Abre [Lectura — negras y corcheas](/bateria/materiales/u1/lectura-negras-corcheas.pdf) y toca una línea que no hayas memorizado.
+Trabaja con la partitura integrada y elige un fragmento que no hayas memorizado. El PDF sigue disponible como versión imprimible.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-negras-corcheas.musicxml" data-score-title="Lectura — negras y corcheas" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
 
 Haz:
 

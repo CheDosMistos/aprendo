@@ -1,0 +1,157 @@
+<div class="notation-enhancer-anchor" hidden></div>
+
+<script>
+  import { AlphaTabRenderer } from '@platform/notation/AlphaTabRenderer';
+
+  const scoreElements = [...document.querySelectorAll<HTMLElement>('[data-notation-score]')];
+  const renderers: AlphaTabRenderer[] = [];
+
+  const make = <K extends keyof HTMLElementTagNameMap>(tag: K, className?: string) => {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    return element;
+  };
+
+  for (const element of scoreElements) {
+    const sourceUrl = element.dataset.scoreSrc;
+    if (!sourceUrl) continue;
+
+    element.classList.add('course-score');
+    element.replaceChildren();
+
+    const head = make('div', 'course-score__head');
+    const headingWrap = make('div');
+    const badge = make('p', 'course-score__badge');
+    badge.textContent = element.dataset.scoreBadge ?? 'Partitura';
+    const title = make('h3', 'course-score__title');
+    title.textContent = element.dataset.scoreTitle ?? 'Partitura';
+    headingWrap.append(badge, title);
+    head.append(headingWrap);
+
+    const shell = make('div', 'course-score__shell');
+    const host = make('div', 'course-score__host');
+    shell.append(host);
+
+    const footer = make('div', 'course-score__footer');
+    const status = make('p', 'course-score__status');
+    status.textContent = 'Preparando partitura…';
+    status.setAttribute('aria-live', 'polite');
+    footer.append(status);
+
+    const links = make('div', 'course-score__links');
+    const sourceLink = element.dataset.scoreSourceUrl;
+    if (sourceLink) {
+      const link = make('a');
+      link.href = sourceLink;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = element.dataset.scoreSourceLabel ?? 'Abrir fuente';
+      links.append(link);
+    }
+    if (links.childElementCount) footer.append(links);
+
+    element.append(head, shell, footer);
+
+    const renderer = new AlphaTabRenderer(host, {
+      onStatusChange: (state, message) => {
+        status.dataset.state = state;
+        status.textContent = message ?? state;
+      },
+    }, { enablePlayer: false });
+
+    if (!renderer.load(sourceUrl)) {
+      status.dataset.state = 'error';
+      status.textContent = 'No se ha podido cargar la partitura.';
+    }
+    renderers.push(renderer);
+  }
+
+  window.addEventListener('pagehide', () => {
+    for (const renderer of renderers) renderer.dispose();
+  }, { once: true });
+</script>
+
+<style is:global>
+  .course-score {
+    width: 100%;
+    max-width: none;
+    margin: 1rem 0 1.6rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--surface);
+  }
+
+  .course-score__head,
+  .course-score__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: .75rem .9rem;
+  }
+
+  .course-score__head {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .course-score__badge {
+    max-width: none !important;
+    margin: 0 0 .15rem !important;
+    color: var(--muted) !important;
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .045em;
+    text-transform: uppercase;
+  }
+
+  .course-score__title {
+    max-width: none !important;
+    margin: 0 !important;
+    font-size: 1rem !important;
+  }
+
+  .course-score__shell {
+    width: 100%;
+    overflow-x: auto;
+    background: #fff;
+  }
+
+  .course-score__host {
+    width: 100%;
+    min-height: 9rem;
+    padding: .6rem .75rem;
+    color: #111;
+  }
+
+  .course-score__footer {
+    min-height: 2.9rem;
+    border-top: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+
+  .course-score__status {
+    max-width: none !important;
+    margin: 0 !important;
+    font-size: .82rem;
+  }
+
+  .course-score__status[data-state='error'] {
+    color: #b42318 !important;
+  }
+
+  .course-score__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    font-size: .82rem;
+    font-weight: 700;
+  }
+
+  @media (max-width: 42rem) {
+    .course-score__host {
+      min-width: 34rem;
+      padding: .45rem;
+    }
+  }
+</style>
