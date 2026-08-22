@@ -32,10 +32,19 @@ const {
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="/">Aprendo</a>
-        <nav aria-label="Principal">
-          <a href="/bateria/">Batería</a>
-        </nav>
+        <a class="brand" href="/" aria-label="Aprendo, inicio">
+          <svg class="brand-star" aria-hidden="true"><use href="/ui/icons.svg#star"></use></svg>
+          <span>Aprendo</span>
+        </a>
+        <div class="header-actions">
+          <nav aria-label="Principal">
+            <a href="/bateria/">Batería</a>
+          </nav>
+          <button class="fullscreen-button" type="button" data-fullscreen title="Pantalla completa" aria-label="Entrar en pantalla completa" aria-pressed="false">
+            <svg class="fullscreen-enter" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <svg class="fullscreen-exit" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 8H3V3M16 8h5V3M8 16H3v5M16 16h5v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -50,6 +59,35 @@ const {
         </div>
       </footer>
     )}
+
+    <script>
+      const fullscreenButton = document.querySelector<HTMLButtonElement>('[data-fullscreen]');
+
+      const syncFullscreenButton = () => {
+        if (!fullscreenButton) return;
+        const active = Boolean(document.fullscreenElement);
+        fullscreenButton.setAttribute('aria-pressed', String(active));
+        fullscreenButton.setAttribute('aria-label', active ? 'Salir de pantalla completa' : 'Entrar en pantalla completa');
+        fullscreenButton.title = active ? 'Salir de pantalla completa' : 'Pantalla completa';
+      };
+
+      if (fullscreenButton) {
+        if (!document.fullscreenEnabled) {
+          fullscreenButton.hidden = true;
+        } else {
+          fullscreenButton.addEventListener('click', async () => {
+            try {
+              if (document.fullscreenElement) await document.exitFullscreen();
+              else await document.documentElement.requestFullscreen();
+            } catch {
+              // El navegador puede denegar fullscreen fuera de un gesto válido.
+            }
+          });
+          document.addEventListener('fullscreenchange', syncFullscreenButton);
+          syncFullscreenButton();
+        }
+      }
+    </script>
   </body>
 </html>
 
@@ -72,12 +110,24 @@ const {
   }
 
   .brand {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
     color: var(--text);
     font-size: 1.1rem;
     font-weight: 800;
     text-decoration: none;
   }
 
+  .brand-star {
+    width: 1.35rem;
+    height: 1.35rem;
+    color: #ffbb28;
+    flex: 0 0 auto;
+  }
+
+  .header-actions,
   nav {
     display: flex;
     align-items: center;
@@ -90,6 +140,32 @@ const {
     align-items: center;
     color: var(--text);
   }
+
+  .fullscreen-button {
+    width: 2.35rem;
+    height: 2.35rem;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 0.6rem;
+    background: var(--surface-2);
+    color: var(--text);
+    cursor: pointer;
+  }
+
+  .fullscreen-button:hover {
+    background: var(--surface);
+  }
+
+  .fullscreen-button svg {
+    width: 1.15rem;
+    height: 1.15rem;
+  }
+
+  .fullscreen-exit { display: none; }
+  .fullscreen-button[aria-pressed='true'] .fullscreen-enter { display: none; }
+  .fullscreen-button[aria-pressed='true'] .fullscreen-exit { display: block; }
 
   .main-content {
     padding-block: clamp(2rem, 5vw, 4rem);
@@ -110,8 +186,6 @@ const {
   }
 
   @media (max-width: 42rem) {
-    nav {
-      display: none;
-    }
+    nav { display: none; }
   }
 </style>
