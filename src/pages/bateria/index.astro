@@ -5,6 +5,12 @@ import { getBateriaContent, routeFor, unitEntries } from '@courses/bateria/conte
 
 const entries = await getBateriaContent();
 const units = entries.filter((entry) => entry.data.kind === 'unit');
+
+const sectionLabel = (kind: string) => {
+  if (kind === 'diagnostic') return 'Diagnóstico';
+  if (kind === 'checkpoint') return 'Cierre';
+  return 'Lección';
+};
 ---
 
 <BaseLayout title={`${bateriaCourse.title} — Aprendo`} description={bateriaCourse.description}>
@@ -17,18 +23,35 @@ const units = entries.filter((entry) => entry.data.kind === 'unit');
 
     <section class="unit-grid" aria-label="Unidades disponibles">
       {units.map((unit) => {
-        const sessions = unitEntries(entries, unit.data.phase, unit.data.unit)
+        const sections = unitEntries(entries, unit.data.phase, unit.data.unit)
           .filter((entry) => entry.data.kind !== 'unit');
-        const firstSession = sessions[0];
+        const firstSection = sections[0];
 
         return (
           <article class="unit-card">
             <p class="eyebrow">Fase {unit.data.phase} · Unidad {unit.data.unit}</p>
             <h2>{unit.data.title}</h2>
             <p>{unit.data.summary}</p>
+
+            {sections.length > 0 && (
+              <nav class="section-index" aria-label={`Secciones de la unidad ${unit.data.unit}`}>
+                <h3>Secciones</h3>
+                <ol>
+                  {sections.map((section) => (
+                    <li>
+                      <a href={routeFor(section)}>
+                        <span class="section-kind">{sectionLabel(section.data.kind)}</span>
+                        <span>{section.data.title}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              </nav>
+            )}
+
             <div class="unit-actions">
               <a class="primary-link" href={routeFor(unit)}>Ver unidad</a>
-              {firstSession && <a href={routeFor(firstSession)}>Empezar por {firstSession.data.title}</a>}
+              {firstSection && <a href={routeFor(firstSection)}>Empezar unidad</a>}
             </div>
           </article>
         );
@@ -62,6 +85,50 @@ const units = entries.filter((entry) => entry.data.kind === 'unit');
   .unit-card h2 {
     margin-bottom: 0.65rem;
     font-size: clamp(1.35rem, 2vw, 1.65rem);
+  }
+
+  .section-index {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .section-index h3 {
+    margin: 0 0 0.7rem;
+    font-size: 0.92rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+
+  .section-index ol {
+    display: grid;
+    gap: 0.45rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .section-index a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .section-index a:hover span:last-child,
+  .section-index a:focus-visible span:last-child {
+    text-decoration: underline;
+    text-underline-offset: 0.16em;
+  }
+
+  .section-kind {
+    min-width: 4.8rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 700;
   }
 
   .unit-actions {
@@ -99,5 +166,12 @@ const units = entries.filter((entry) => entry.data.kind === 'unit');
     color: var(--accent-contrast);
     font-weight: 750;
     text-decoration: none;
+  }
+
+  @media (max-width: 34rem) {
+    .section-index a {
+      grid-template-columns: 1fr;
+      gap: 0.05rem;
+    }
   }
 </style>
