@@ -4,7 +4,7 @@ courseId: bateria
 phase: 1
 unit: 1
 unitSlug: unidad-1
-slug: introduccion
+slug: unidad-1-introduccion
 kind: unit
 order: 0
 title: Reentrada y seis rudimentos fundamentales

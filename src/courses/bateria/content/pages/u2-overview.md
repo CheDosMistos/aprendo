@@ -4,7 +4,7 @@ courseId: bateria
 phase: 1
 unit: 2
 unitSlug: unidad-2
-slug: introduccion
+slug: unidad-2-introduccion
 kind: unit
 order: 0
 title: Singles agrupados, paradiddles y primer contraste binario/ternario
