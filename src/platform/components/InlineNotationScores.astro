@@ -3,8 +3,28 @@
 <script>
   import { AlphaTabRenderer } from '@platform/notation/AlphaTabRenderer';
 
+  interface StoredMetronomeState { bpm?: number; }
+  interface MetronomeBpmEventDetail { bpm?: number; }
+
+  const STORAGE_KEY = 'aprendo-metronome-settings';
+  const METRONOME_BPM_EVENT = 'aprendo:metronome-bpm';
+  const REFERENCE_BPM = 120;
   const scoreElements = [...document.querySelectorAll<HTMLElement>('[data-notation-score]')];
   const renderers: AlphaTabRenderer[] = [];
+  let currentBpm = 80;
+
+  const readStoredBpm = () => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return 80;
+      const state = JSON.parse(raw) as StoredMetronomeState;
+      return typeof state.bpm === 'number' && Number.isFinite(state.bpm) ? state.bpm : 80;
+    } catch {
+      return 80;
+    }
+  };
+
+  currentBpm = readStoredBpm();
 
   const make = <K extends keyof HTMLElementTagNameMap>(tag: K, className?: string) => {
     const element = document.createElement(tag);
@@ -26,7 +46,15 @@
     const title = make('h3', 'course-score__title');
     title.textContent = element.dataset.scoreTitle ?? 'Partitura';
     headingWrap.append(badge, title);
-    head.append(headingWrap);
+
+    const playButton = make('button', 'course-score__play');
+    playButton.type = 'button';
+    playButton.disabled = true;
+    playButton.setAttribute('aria-pressed', 'false');
+    playButton.setAttribute('aria-label', 'Reproducir partitura');
+    playButton.title = 'Reproducir partitura al BPM del metrónomo';
+    playButton.innerHTML = '<svg class="course-score__play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7Z" fill="currentColor"/></svg><svg class="course-score__pause-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="13.5" y="5" width="4" height="14" rx="1" fill="currentColor"/></svg>';
+    head.append(headingWrap, playButton);
 
     const shell = make('div', 'course-score__shell');
     const host = make('div', 'course-score__host');
@@ -52,12 +80,34 @@
 
     element.append(head, shell, footer);
 
+    let isPlaying = false;
     const renderer = new AlphaTabRenderer(host, {
       onStatusChange: (state, message) => {
         status.dataset.state = state;
         status.textContent = message ?? state;
       },
-    }, { enablePlayer: false });
+      onPlaybackReady: (ready) => {
+        playButton.disabled = !ready;
+        if (ready) renderer.setPlaybackBpm(currentBpm);
+      },
+      onPlaybackStateChange: (playing) => {
+        isPlaying = playing;
+        playButton.setAttribute('aria-pressed', String(playing));
+        playButton.setAttribute('aria-label', playing ? 'Pausar partitura' : 'Reproducir partitura');
+        playButton.title = playing ? 'Pausar partitura' : `Reproducir a ${Math.round(currentBpm)} BPM`;
+      },
+    }, { enablePlayer: true, referenceBpm: REFERENCE_BPM });
+
+    renderer.setPlaybackBpm(currentBpm);
+    playButton.addEventListener('click', () => {
+      renderer.setPlaybackBpm(currentBpm);
+      if (!isPlaying) {
+        for (const other of renderers) {
+          if (other !== renderer) other.stop();
+        }
+      }
+      renderer.playPause();
+    });
 
     if (!renderer.load(sourceUrl)) {
       status.dataset.state = 'error';
@@ -65,6 +115,16 @@
     }
     renderers.push(renderer);
   }
+
+  window.addEventListener(METRONOME_BPM_EVENT, (event) => {
+    const detail = (event as CustomEvent<MetronomeBpmEventDetail>).detail;
+    if (typeof detail?.bpm !== 'number' || !Number.isFinite(detail.bpm)) return;
+    currentBpm = detail.bpm;
+    for (const renderer of renderers) renderer.setPlaybackBpm(currentBpm);
+    for (const button of document.querySelectorAll<HTMLButtonElement>('.course-score__play:not([aria-pressed="true"])')) {
+      button.title = `Reproducir a ${Math.round(currentBpm)} BPM`;
+    }
+  });
 
   window.addEventListener('pagehide', () => {
     for (const renderer of renderers) renderer.dispose();
@@ -111,6 +171,42 @@
     font-size: 1rem !important;
   }
 
+  .course-score__play {
+    width: 2.55rem;
+    height: 2.55rem;
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: .65rem;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .course-score__play:disabled {
+    cursor: wait;
+    opacity: .45;
+  }
+
+  .course-score__play svg {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .course-score__pause-icon {
+    display: none;
+  }
+
+  .course-score__play[aria-pressed='true'] .course-score__play-icon {
+    display: none;
+  }
+
+  .course-score__play[aria-pressed='true'] .course-score__pause-icon {
+    display: block;
+  }
+
   .course-score__shell {
     width: 100%;
     overflow-x: auto;
@@ -119,7 +215,7 @@
 
   .course-score__host {
     width: 100%;
-    min-height: 9rem;
+    min-height: 11rem;
     padding: .6rem .75rem;
     color: #111;
   }
@@ -146,6 +242,20 @@
     gap: .75rem;
     font-size: .82rem;
     font-weight: 700;
+  }
+
+  .course-score .at-cursor-bar {
+    background: rgba(23, 78, 166, .1);
+  }
+
+  .course-score .at-cursor-beat {
+    width: 3px;
+    background: #174ea6;
+  }
+
+  .course-score .at-highlight * {
+    fill: #174ea6;
+    stroke: #174ea6;
   }
 
   @media (max-width: 42rem) {
