@@ -25,7 +25,16 @@ Introducir correctamente **Single Paradiddle-Diddle** y **Five Stroke Roll** y a
 
 Elige un rudimento de L1 o L2 que no hayas tocado inmediatamente antes. Haz una sola muestra y después comprueba la fuente PAS.
 
-## 2. Singles y doubles dentro del mismo pulso — 5–6 min
+## 2. Prerrequisitos locales
+
+Esta lección contiene dos ramas distintas:
+
+- para profundizar en **Single Paradiddle-Diddle / B2**, A4, A5 y B1 deben tener al menos una base **MÍNIMA**;
+- para profundizar en **Five Stroke Roll / B5**, B1, A3 y C2 deben tener al menos una base **MÍNIMA**.
+
+Si una de esas bases todavía es frágil, puedes hacer una exposición breve y correcta al rudimento, pero reduce volumen y profundidad en esa rama y mantén el correctivo del prerrequisito. Esto no bloquea las demás tareas de la lección.
+
+## 3. Singles y doubles dentro del mismo pulso — 5–6 min
 
 Antes del roll, comprueba que puedes cambiar la distribución de manos sin mover la rejilla temporal.
 
@@ -33,7 +42,7 @@ Antes del roll, comprueba que puedes cambiar la distribución de manos sin mover
 
 Primero alterna golpes; después toca pares con la misma mano. El espacio entre notas debe seguir siendo regular.
 
-## 3. Single Paradiddle-Diddle — 6 min
+## 4. Single Paradiddle-Diddle — 6 min
 
 Abre PAS y localiza **19. Single Paradiddle-diddle**:
 
@@ -43,7 +52,7 @@ Observa la estructura completa y las alternativas de mano indicadas por PAS. No 
 
 Si la secuencia de manos está memorizada pero no puedes situarla con claridad dentro del pulso, el problema todavía tiene una parte temporal.
 
-## 4. Five Stroke Roll — 6 min
+## 5. Five Stroke Roll — 6 min
 
 Localiza **7. Five Stroke Roll** en la misma fuente.
 
@@ -55,13 +64,15 @@ Aquí interesa especialmente distinguir:
 
 Si los doubles suenan razonablemente bien pero la resolución cae fuera de sitio, practicar más doubles por sí solo no resuelve el problema: vuelve a la subdivisión y a la referencia temporal.
 
-## 5. Oído e imitación — 3–4 min
+## 6. Oído e imitación — 3–4 min
 
 Usa un estímulo auditivo muy corto que no hayas visto escrito antes. Escucha, vocaliza y reproduce en el pad; **solo después** compara con la referencia.
 
+Como apoyo opcional puedes usar [Complete Rhythm Trainer](https://completerhythmtrainer.com/es/), que incluye ejercicios de imitación rítmica. El recurso es externo y no es obligatorio para continuar.
+
 Esto cuenta como E3 únicamente cuando el estímulo es realmente independiente. Repetir un patrón que acabas de construir tú mismo es memoria/transferencia, no una prueba auditiva independiente.
 
-## 6. Teoría F1
+## 7. Teoría F1
 
 Explica en una frase cada concepto:
 
