@@ -5,10 +5,13 @@
 
   interface StoredMetronomeState { bpm?: number; }
   interface MetronomeBpmEventDetail { bpm?: number; }
+  interface StoredNotationView { mode?: 'fit' | 'scroll'; scale?: number; }
 
   const STORAGE_KEY = 'aprendo-metronome-settings';
+  const VIEW_STORAGE_KEY = 'aprendo-notation-view';
   const METRONOME_BPM_EVENT = 'aprendo:metronome-bpm';
   const REFERENCE_BPM = 120;
+  const MOBILE_QUERY = window.matchMedia('(max-width: 42rem)');
   const scoreElements = [...document.querySelectorAll<HTMLElement>('[data-notation-score]')];
   const renderers: AlphaTabRenderer[] = [];
   let currentBpm = 80;
@@ -24,7 +27,30 @@
     }
   };
 
+  const readView = (): Required<StoredNotationView> => {
+    const fallback = { mode: 'fit' as const, scale: MOBILE_QUERY.matches ? 0.85 : 1 };
+    try {
+      const raw = localStorage.getItem(VIEW_STORAGE_KEY);
+      if (!raw) return fallback;
+      const stored = JSON.parse(raw) as StoredNotationView;
+      const mode = stored.mode === 'scroll' ? 'scroll' : 'fit';
+      const scale = typeof stored.scale === 'number' && Number.isFinite(stored.scale)
+        ? Math.min(1.4, Math.max(0.7, stored.scale))
+        : fallback.scale;
+      return { mode, scale };
+    } catch {
+      return fallback;
+    }
+  };
+
+  const writeView = (view: Required<StoredNotationView>) => {
+    try {
+      localStorage.setItem(VIEW_STORAGE_KEY, JSON.stringify(view));
+    } catch {}
+  };
+
   currentBpm = readStoredBpm();
+  let view = readView();
 
   const make = <K extends keyof HTMLElementTagNameMap>(tag: K, className?: string) => {
     const element = document.createElement(tag);
@@ -32,20 +58,47 @@
     return element;
   };
 
+  const iconButton = (label: string, title: string, html: string) => {
+    const button = make('button', 'course-score__view-button');
+    button.type = 'button';
+    button.setAttribute('aria-label', label);
+    button.title = title;
+    button.innerHTML = html;
+    return button;
+  };
+
   for (const element of scoreElements) {
     const sourceUrl = element.dataset.scoreSrc;
     if (!sourceUrl) continue;
 
     element.classList.add('course-score');
+    element.dataset.viewMode = view.mode;
     element.replaceChildren();
 
     const head = make('div', 'course-score__head');
-    const headingWrap = make('div');
+    const headingWrap = make('div', 'course-score__heading');
     const badge = make('p', 'course-score__badge');
     badge.textContent = element.dataset.scoreBadge ?? 'Partitura';
     const title = make('h3', 'course-score__title');
     title.textContent = element.dataset.scoreTitle ?? 'Partitura';
     headingWrap.append(badge, title);
+
+    const headActions = make('div', 'course-score__head-actions');
+    const viewControls = make('div', 'course-score__view-controls');
+    viewControls.setAttribute('aria-label', 'Controles de visualización de la partitura');
+
+    const fitButton = iconButton('Ajustar partitura al ancho', 'Ajustar al ancho', 'Ajustar');
+    fitButton.classList.add('course-score__view-button--text');
+    const actualButton = iconButton('Ver partitura al 100%', 'Vista 100% con desplazamiento horizontal', '100%');
+    actualButton.classList.add('course-score__view-button--text');
+    const zoomOutButton = iconButton('Reducir partitura', 'Reducir', '−');
+    const zoomInButton = iconButton('Ampliar partitura', 'Ampliar', '+');
+    const fullscreenButton = iconButton(
+      'Ver partitura a pantalla completa',
+      'Pantalla completa',
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H4a1 1 0 0 0-1 1v4M16 3h4a1 1 0 0 1 1 1v4M8 21H4a1 1 0 0 1-1-1v-4M16 21h4a1 1 0 0 0 1-1v-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    );
+    viewControls.append(fitButton, actualButton, zoomOutButton, zoomInButton, fullscreenButton);
 
     const playButton = make('button', 'course-score__play');
     playButton.type = 'button';
@@ -54,9 +107,12 @@
     playButton.setAttribute('aria-label', 'Reproducir partitura');
     playButton.title = 'Reproducir partitura al BPM del metrónomo';
     playButton.innerHTML = '<svg class="course-score__play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7Z" fill="currentColor"/></svg><svg class="course-score__pause-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="13.5" y="5" width="4" height="14" rx="1" fill="currentColor"/></svg>';
-    head.append(headingWrap, playButton);
+    headActions.append(viewControls, playButton);
+    head.append(headingWrap, headActions);
 
     const shell = make('div', 'course-score__shell');
+    shell.setAttribute('tabindex', '0');
+    shell.setAttribute('aria-label', 'Partitura. Desliza horizontalmente si hay contenido fuera de pantalla.');
     const host = make('div', 'course-score__host');
     shell.append(host);
 
@@ -88,11 +144,28 @@
     if (disclaimer) element.append(disclaimer);
     element.append(footer);
 
+    const updateScrollCue = () => {
+      const canScroll = shell.scrollWidth > shell.clientWidth + 4;
+      const atEnd = shell.scrollLeft + shell.clientWidth >= shell.scrollWidth - 4;
+      shell.dataset.scrollable = String(canScroll && !atEnd);
+    };
+
+    const applyMode = (mode: 'fit' | 'scroll') => {
+      view = { ...view, mode };
+      element.dataset.viewMode = mode;
+      fitButton.setAttribute('aria-pressed', String(mode === 'fit'));
+      actualButton.setAttribute('aria-pressed', String(mode === 'scroll'));
+      if (mode === 'fit') shell.scrollLeft = 0;
+      writeView(view);
+      requestAnimationFrame(updateScrollCue);
+    };
+
     let isPlaying = false;
     const renderer = new AlphaTabRenderer(host, {
       onStatusChange: (state, message) => {
         status.dataset.state = state;
         status.textContent = message ?? state;
+        if (state === 'ready') requestAnimationFrame(updateScrollCue);
       },
       onPlaybackReady: (ready) => {
         playButton.disabled = !ready;
@@ -104,9 +177,47 @@
         playButton.setAttribute('aria-label', playing ? 'Pausar partitura' : 'Reproducir partitura');
         playButton.title = playing ? 'Pausar partitura' : `Reproducir a ${Math.round(currentBpm)} BPM`;
       },
-    }, { enablePlayer: true, referenceBpm: REFERENCE_BPM });
+    }, {
+      enablePlayer: true,
+      referenceBpm: REFERENCE_BPM,
+      displayScale: view.scale,
+      stretchForce: MOBILE_QUERY.matches ? 0.62 : 0.8,
+      hideScoreHeader: true,
+    });
 
+    const applyScale = (nextScale: number) => {
+      view = { ...view, scale: Math.min(1.4, Math.max(0.7, Math.round(nextScale * 10) / 10)) };
+      renderer.setDisplayScale(view.scale);
+      writeView(view);
+      requestAnimationFrame(updateScrollCue);
+    };
+
+    applyMode(view.mode);
     renderer.setPlaybackBpm(currentBpm);
+
+    fitButton.addEventListener('click', () => applyMode('fit'));
+    actualButton.addEventListener('click', () => applyMode('scroll'));
+    zoomOutButton.addEventListener('click', () => applyScale(view.scale - 0.1));
+    zoomInButton.addEventListener('click', () => applyScale(view.scale + 0.1));
+    shell.addEventListener('scroll', updateScrollCue, { passive: true });
+
+    fullscreenButton.addEventListener('click', async () => {
+      try {
+        if (document.fullscreenElement === element) {
+          await document.exitFullscreen();
+        } else if (element.requestFullscreen) {
+          await element.requestFullscreen();
+        }
+      } catch {}
+    });
+
+    document.addEventListener('fullscreenchange', () => {
+      fullscreenButton.setAttribute('aria-label', document.fullscreenElement === element
+        ? 'Salir de pantalla completa'
+        : 'Ver partitura a pantalla completa');
+      requestAnimationFrame(updateScrollCue);
+    });
+
     playButton.addEventListener('click', () => {
       renderer.setPlaybackBpm(currentBpm);
       if (!isPlaying) {
@@ -163,6 +274,10 @@
     border-bottom: 1px solid var(--border);
   }
 
+  .course-score__heading {
+    min-width: 0;
+  }
+
   .course-score__badge {
     max-width: none !important;
     margin: 0 0 .15rem !important;
@@ -179,28 +294,58 @@
     font-size: 1rem !important;
   }
 
+  .course-score__head-actions,
+  .course-score__view-controls {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+  }
+
+  .course-score__view-button,
   .course-score__play {
-    width: 2.55rem;
     height: 2.55rem;
     flex: 0 0 auto;
     display: grid;
     place-items: center;
-    padding: 0;
+    padding: 0 .72rem;
     border: 1px solid var(--border);
     border-radius: .65rem;
+    background: var(--surface-2);
+    color: var(--text);
+    cursor: pointer;
+    font: inherit;
+    font-size: .82rem;
+    font-weight: 750;
+  }
+
+  .course-score__view-button:not(.course-score__view-button--text) {
+    width: 2.55rem;
+    padding: 0;
+    font-size: 1.15rem;
+  }
+
+  .course-score__view-button[aria-pressed='true'] {
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: inset 0 0 0 1px var(--accent);
+  }
+
+  .course-score__view-button svg,
+  .course-score__play svg {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .course-score__play {
+    width: 2.55rem;
+    padding: 0;
     background: var(--accent);
     color: #fff;
-    cursor: pointer;
   }
 
   .course-score__play:disabled {
     cursor: wait;
     opacity: .45;
-  }
-
-  .course-score__play svg {
-    width: 1.2rem;
-    height: 1.2rem;
   }
 
   .course-score__pause-icon {
@@ -218,14 +363,27 @@
   .course-score__shell {
     width: 100%;
     overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    -webkit-overflow-scrolling: touch;
     background: #fff;
+    scrollbar-gutter: stable;
+  }
+
+  .course-score__shell[data-scrollable='true'] {
+    box-shadow: inset -1.2rem 0 1rem -1.1rem rgba(17, 24, 39, .45);
   }
 
   .course-score__host {
     width: 100%;
     min-height: 11rem;
-    padding: .6rem .75rem;
+    padding: .45rem .55rem;
     color: #111;
+    box-sizing: border-box;
+  }
+
+  .course-score[data-view-mode='scroll'] .course-score__host {
+    width: 34rem;
+    min-width: 34rem;
   }
 
   .course-score__disclaimer {
@@ -275,10 +433,50 @@
     stroke: #174ea6;
   }
 
+  .course-score:fullscreen {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    overflow: auto;
+    background: var(--surface);
+  }
+
+  .course-score:fullscreen .course-score__shell {
+    min-height: calc(100vh - 8rem);
+  }
+
   @media (max-width: 42rem) {
+    .course-score__head {
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: .65rem;
+    }
+
+    .course-score__head-actions {
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .course-score__view-controls {
+      min-width: 0;
+      overflow-x: auto;
+      padding-bottom: .1rem;
+    }
+
+    .course-score__view-button,
+    .course-score__play {
+      height: 2.35rem;
+    }
+
+    .course-score__view-button:not(.course-score__view-button--text),
+    .course-score__play {
+      width: 2.35rem;
+    }
+
     .course-score__host {
-      min-width: 34rem;
-      padding: .45rem;
+      padding: .25rem .2rem;
     }
   }
 </style>
