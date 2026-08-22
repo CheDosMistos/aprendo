@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
 <score-partwise version="4.0">
-  <work><work-title>PAS 6 - Double Stroke Open Roll</work-title></work>
-  <identification><creator type="composer">Aprendo - representación de estudio verificada contra PAS</creator><rights>PAS International Drum Rudiments © 1984 Percussive Arts Society. Fuente normativa enlazada en la lección.</rights></identification>
   <part-list><score-part id="P1"><part-name>Snare Drum</part-name><score-instrument id="P1-I1"><instrument-name>Snare Drum</instrument-name></score-instrument><midi-instrument id="P1-I1"><midi-channel>10</midi-channel><midi-unpitched>39</midi-unpitched></midi-instrument></score-part></part-list>
   <part id="P1">
     <measure number="1"><attributes><divisions>2</divisions><time print-object="no"><beats>2</beats><beat-type>4</beat-type></time><clef><sign>percussion</sign><line>2</line></clef><staff-details><staff-lines>5</staff-lines></staff-details></attributes><sound tempo="120"/>
