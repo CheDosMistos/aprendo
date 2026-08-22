@@ -33,7 +33,7 @@ Mantén cuatro pulsos regulares. Primero coloca **dos golpes iguales por pulso**
 
 <div data-notation-score data-score-src="/bateria/notation/u2/binario-ternario.musicxml" data-score-title="Dos y tres partes por pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-La partitura incluye una primera ventana visual al tresillo. No necesitas leer tresillos con fluidez todavía: la lectura estructurada se profundizará en U3.
+La partitura incluye una primera ventana visual al **tresillo de corcheas dentro de 4/4**. Aquí el compás sigue siendo 4/4: lo que cambia es la subdivisión interna del pulso, de dos a tres partes iguales. No necesitas leer tresillos con fluidez todavía; la lectura estructurada se profundizará en U3.
 
 **Pregunta de control:** si pasas de 2 a 3 notas por pulso y el click sigue en el mismo sitio, ¿ha cambiado el pulso? La respuesta es **no**; ha cambiado la subdivisión.
 
