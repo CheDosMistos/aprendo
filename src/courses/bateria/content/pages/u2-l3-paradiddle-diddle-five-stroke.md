@@ -8,18 +8,18 @@ slug: leccion-3-paradiddle-diddle-five-stroke
 kind: lesson
 order: 3
 title: Lección 3 — Paradiddle-diddle y Five Stroke Roll
-summary: Introduce Single Paradiddle-Diddle y Five Stroke Roll y separa problemas de diddles, doubles, resolución temporal y memoria de estructura.
+summary: Introduce Single Paradiddle-diddle y Five Stroke Roll y separa problemas de diddles, doubles, resolución temporal y memoria de estructura.
 duration: 25–30 min
 competencies: [A3, A4, A5, A6, B1, B2, B5, C1, C2, E3, F1, K2, K4, K6]
 rudiments:
-  - Single Paradiddle-Diddle
+  - Single Paradiddle-diddle
   - Five Stroke Roll
 published: true
 ---
 
 ## Objetivo
 
-Introducir correctamente **Single Paradiddle-Diddle** y **Five Stroke Roll** y aprender a distinguir si un fallo es principalmente técnico, temporal o de memoria de estructura.
+Introducir correctamente **Single Paradiddle-diddle** y **Five Stroke Roll** y aprender a distinguir si un fallo es principalmente técnico, temporal o de memoria de estructura.
 
 ## 1. Recuperación — 2–3 min
 
@@ -29,7 +29,7 @@ Elige un rudimento de L1 o L2 que no hayas tocado inmediatamente antes. Haz una 
 
 Esta lección contiene dos ramas distintas:
 
-- para profundizar en **Single Paradiddle-Diddle / B2**, A4, A5 y B1 deben tener al menos una base **MÍNIMA**;
+- para profundizar en **Single Paradiddle-diddle / B2**, A4, A5 y B1 deben tener al menos una base **MÍNIMA**;
 - para profundizar en **Five Stroke Roll / B5**, B1, A3 y C2 deben tener al menos una base **MÍNIMA**.
 
 Si una de esas bases todavía es frágil, puedes hacer una exposición breve y correcta al rudimento, pero reduce volumen y profundidad en esa rama y mantén el correctivo del prerrequisito. Esto no bloquea las demás tareas de la lección.
@@ -42,7 +42,7 @@ Antes del roll, comprueba que puedes cambiar la distribución de manos sin mover
 
 Primero alterna golpes; después toca pares con la misma mano. El espacio entre notas debe seguir siendo regular.
 
-## 4. Single Paradiddle-Diddle — 6 min
+## 4. Single Paradiddle-diddle — 6 min
 
 Abre PAS y localiza **19. Single Paradiddle-diddle**:
 
@@ -90,7 +90,7 @@ Busca el **primer punto concreto** donde la ejecución deja de coincidir con la 
 
 - 3 min recuperación;
 - 6 min singles/doubles + C2;
-- 6 min Single Paradiddle-Diddle;
+- 6 min Single Paradiddle-diddle;
 - 6 min Five Stroke Roll;
 - 3–4 min oído/teoría;
 - 2 min registro digital.
