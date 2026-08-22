@@ -55,9 +55,9 @@ Que algo **necesite refuerzo** es una señal de revisión, no un nuevo nivel de 
 
 ## 3. Lectura nueva — unos 6 minutos
 
-Trabaja con la partitura integrada y elige un fragmento que no hayas memorizado. El PDF sigue disponible como versión imprimible.
+La lectura integrada usa ahora **A7–A8**, que no han aparecido en el diagnóstico ni en la Lección 2. Así esta sección cumple realmente su función de lectura nueva sin introducir figuras nuevas.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-negras-corcheas.musicxml" data-score-title="Lectura — negras y corcheas" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml" data-score-title="Lectura nueva — A7–A8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
 
 Haz:
 
