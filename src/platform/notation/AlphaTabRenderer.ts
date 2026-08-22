@@ -4,6 +4,9 @@ import type { NotationRenderer, NotationRendererCallbacks } from './NotationRend
 export interface AlphaTabRendererOptions {
   enablePlayer?: boolean;
   referenceBpm?: number;
+  displayScale?: number;
+  stretchForce?: number;
+  hideScoreHeader?: boolean;
 }
 
 export class AlphaTabRenderer implements NotationRenderer {
@@ -18,6 +21,9 @@ export class AlphaTabRenderer implements NotationRenderer {
   ) {
     this.callbacks = callbacks;
     const enablePlayer = options.enablePlayer ?? true;
+    const displayScale = options.displayScale ?? 1;
+    const stretchForce = options.stretchForce ?? 0.8;
+    const hideScoreHeader = options.hideScoreHeader ?? false;
     this.referenceBpm = options.referenceBpm ?? 120;
 
     this.api = new alphaTab.AlphaTabApi(host, {
@@ -26,9 +32,23 @@ export class AlphaTabRenderer implements NotationRenderer {
         fontDirectory: '/font/',
       },
       display: {
-        scale: 1,
-        stretchForce: 0.8,
+        scale: displayScale,
+        stretchForce,
       },
+      notation: hideScoreHeader
+        ? {
+            elements: {
+              scoreTitle: false,
+              scoreSubTitle: false,
+              scoreArtist: false,
+              scoreAlbum: false,
+              scoreWords: false,
+              scoreMusic: false,
+              scoreWordsAndMusic: false,
+              scoreCopyright: false,
+            },
+          }
+        : undefined,
       player: {
         enablePlayer,
         soundFont: '/soundfont/sonivox.sf2',
@@ -80,6 +100,13 @@ export class AlphaTabRenderer implements NotationRenderer {
   setPlaybackBpm(bpm: number): void {
     if (!Number.isFinite(bpm) || this.referenceBpm <= 0) return;
     this.api.playbackSpeed = Math.min(8, Math.max(0.125, bpm / this.referenceBpm));
+  }
+
+  setDisplayScale(scale: number): void {
+    if (!Number.isFinite(scale)) return;
+    this.api.settings.display.scale = Math.min(1.6, Math.max(0.65, scale));
+    this.api.updateSettings();
+    this.api.render();
   }
 
   dispose(): void {
