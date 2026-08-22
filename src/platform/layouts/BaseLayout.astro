@@ -40,6 +40,13 @@ const {
           <nav aria-label="Principal">
             <a href="/bateria/">Batería</a>
           </nav>
+          <button class="metronome-toggle" type="button" data-metronome-toggle aria-controls="course-metronome-panel" aria-expanded="false" aria-label="Mostrar metrónomo" title="Metrónomo" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8.2 3.5h7.6L19 20.5H5L8.2 3.5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+              <path d="M12 6.2 9.7 15.4M9 16.5h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+              <circle cx="9.55" cy="15.8" r="1.15" fill="currentColor"/>
+            </svg>
+          </button>
           <button class="fullscreen-button" type="button" data-fullscreen title="Pantalla completa" aria-label="Entrar en pantalla completa" aria-pressed="false">
             <svg class="fullscreen-enter" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <svg class="fullscreen-exit" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 8H3V3M16 8h5V3M8 16H3v5M16 16h5v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -62,6 +69,10 @@ const {
 
     <script>
       const fullscreenButton = document.querySelector<HTMLButtonElement>('[data-fullscreen]');
+      const metronomeToggle = document.querySelector<HTMLButtonElement>('[data-metronome-toggle]');
+      const metronomePanel = document.querySelector<HTMLElement>('#course-metronome-panel');
+      const metronomeBackdrop = document.querySelector<HTMLButtonElement>('[data-metronome-backdrop]');
+      const compactMetronomeMedia = window.matchMedia('(max-width: 56rem)');
 
       const syncFullscreenButton = () => {
         if (!fullscreenButton) return;
@@ -70,6 +81,39 @@ const {
         fullscreenButton.setAttribute('aria-label', active ? 'Salir de pantalla completa' : 'Entrar en pantalla completa');
         fullscreenButton.title = active ? 'Salir de pantalla completa' : 'Pantalla completa';
       };
+
+      const setMetronomeOpen = (open: boolean) => {
+        if (!metronomeToggle || !metronomePanel) return;
+        const canFloat = compactMetronomeMedia.matches;
+        const next = open && canFloat;
+        metronomePanel.classList.toggle('is-mobile-open', next);
+        metronomeBackdrop?.classList.toggle('is-open', next);
+        metronomeToggle.setAttribute('aria-expanded', String(next));
+        metronomeToggle.setAttribute('aria-label', next ? 'Ocultar metrónomo' : 'Mostrar metrónomo');
+        metronomeToggle.title = next ? 'Ocultar metrónomo' : 'Metrónomo';
+      };
+
+      const syncMetronomeToggle = () => {
+        if (!metronomeToggle) return;
+        const available = Boolean(metronomePanel) && compactMetronomeMedia.matches;
+        metronomeToggle.hidden = !available;
+        if (!available) setMetronomeOpen(false);
+      };
+
+      if (metronomeToggle && metronomePanel) {
+        metronomeToggle.addEventListener('click', () => {
+          setMetronomeOpen(metronomeToggle.getAttribute('aria-expanded') !== 'true');
+        });
+        metronomeBackdrop?.addEventListener('click', () => setMetronomeOpen(false));
+        compactMetronomeMedia.addEventListener('change', syncMetronomeToggle);
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && metronomeToggle.getAttribute('aria-expanded') === 'true') {
+            setMetronomeOpen(false);
+            metronomeToggle.focus();
+          }
+        });
+        syncMetronomeToggle();
+      }
 
       if (fullscreenButton) {
         if (!document.fullscreenEnabled) {
@@ -95,7 +139,7 @@ const {
   .site-header {
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 30;
     border-bottom: 1px solid var(--border);
     background: color-mix(in srgb, var(--bg) 90%, transparent);
     backdrop-filter: blur(14px);
@@ -141,10 +185,10 @@ const {
     color: var(--text);
   }
 
-  .fullscreen-button {
+  .fullscreen-button,
+  .metronome-toggle {
     width: 2.35rem;
     height: 2.35rem;
-    display: grid;
     place-items: center;
     padding: 0;
     border: 1px solid var(--border);
@@ -154,11 +198,17 @@ const {
     cursor: pointer;
   }
 
-  .fullscreen-button:hover {
+  .fullscreen-button { display: grid; }
+  .metronome-toggle { display: none; }
+
+  .fullscreen-button:hover,
+  .metronome-toggle:hover,
+  .metronome-toggle[aria-expanded='true'] {
     background: var(--surface);
   }
 
-  .fullscreen-button svg {
+  .fullscreen-button svg,
+  .metronome-toggle svg {
     width: 1.15rem;
     height: 1.15rem;
   }
@@ -185,7 +235,12 @@ const {
     padding-block: 0.65rem;
   }
 
+  @media (max-width: 56rem) {
+    .metronome-toggle:not([hidden]) { display: grid; }
+  }
+
   @media (max-width: 42rem) {
     nav { display: none; }
+    .header-actions { gap: .5rem; }
   }
 </style>
