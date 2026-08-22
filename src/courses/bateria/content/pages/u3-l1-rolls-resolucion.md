@@ -7,7 +7,7 @@ unitSlug: unidad-3
 slug: leccion-1-rolls-resolucion
 kind: lesson
 order: 1
-title: Lección 1 — Nine y Seven Stroke Roll: densidad y resolución
+title: "Lección 1 — Nine y Seven Stroke Roll: densidad y resolución"
 summary: Introduce Nine Stroke Roll y Seven Stroke Roll separando continuidad de doubles, duración de la frase y colocación de la resolución.
 duration: 25–30 min
 competencies: [A3, A6, B1, B5, C1, C2, C4, D1, K2, K4, K6]
