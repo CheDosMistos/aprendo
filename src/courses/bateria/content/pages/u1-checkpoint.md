@@ -17,7 +17,7 @@ rudiments:
   - Double Stroke Open Roll
   - Single Paradiddle
   - Flam
-  - Drag
+  - Drag (Ruff)
 published: true
 ---
 
