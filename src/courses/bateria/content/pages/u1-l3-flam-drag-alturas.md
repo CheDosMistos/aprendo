@@ -7,13 +7,13 @@ unitSlug: unidad-1
 slug: leccion-3-flam-drag-alturas
 kind: lesson
 order: 4
-title: Lección 3 — Flam, Drag y control de alturas
-summary: Introduce notas de adorno, Flam y Drag y relaciona la altura de las baquetas con acentos, notas principales y preparación del siguiente golpe.
+title: Lección 3 — Flam, Drag (Ruff) y control de alturas
+summary: Introduce notas de adorno, Flam y Drag (Ruff) y relaciona la altura de las baquetas con acentos, notas principales y preparación del siguiente golpe.
 duration: 25–30 min
 competencies: [A4, A5, A6, B1, B2, B4, B5, C1, C2, E1, K4]
 rudiments:
   - Flam
-  - Drag
+  - Drag (Ruff)
 published: true
 ---
 
@@ -22,7 +22,7 @@ published: true
 Introducir:
 
 - **Flam** — *«apoyatura simple»*;
-- **Drag** — *«apoyatura doble»*.
+- **Drag (Ruff)** — *«apoyatura doble»*.
 
 También vas a empezar a relacionar la altura de las baquetas con acentos, notas principales y notas de adorno.
 
@@ -84,11 +84,11 @@ No necesitas medir una distancia temporal exacta. Practica ambos lados.
 
 **Vídeo y audio:** [Vic Firth / Dr. John Wooton — Flam](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-flam/)
 
-## 4. Drag — unos 7 minutos
+## 4. Drag (Ruff) — unos 7 minutos
 
 Consulta la representación integrada y contrástala con la misma fuente oficial PAS.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/pas-31-drag.musicxml" data-score-title="31. Drag" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/pas-31-drag.musicxml" data-score-title="31. Drag (Ruff)" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
 
 La fuente PAS es la referencia para su notación y orden de manos; no reconstruyas el rudimento a partir de una descripción verbal.
 
@@ -114,6 +114,6 @@ La pregunta es:
 
 ## Al terminar
 
-Identifica cuál de los dos —Flam o Drag— necesita más atención y por qué.
+Identifica cuál de los dos —Flam o Drag (Ruff)— necesita más atención y por qué.
 
 Si la diferencia entre nota de adorno y nota principal sigue confusa, tiene sentido repetir esta lección. Si la idea está clara pero la ejecución todavía es irregular, puede quedar en revisión mientras continúas.
