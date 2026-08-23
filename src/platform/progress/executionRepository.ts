@@ -109,20 +109,32 @@ export class ExecutionRepository {
       WHERE user_id = ? AND course_id = ?
     `).get(userId, courseId) as { execution_count: number };
 
-    const contentRows = this.database.prepare(`
-      SELECT content_id, MAX(completed_at) AS last_completed_at
-      FROM practice_executions
-      WHERE user_id = ?
-        AND course_id = ?
-        AND next_action IN ('continue', 'continue_review')
-      GROUP BY content_id
-      ORDER BY last_completed_at
-    `).all(userId, courseId) as Array<{ content_id: string }>;
+    const latestRows = this.database.prepare(`
+      SELECT p.content_id, p.next_action
+      FROM practice_executions p
+      WHERE p.user_id = ?
+        AND p.course_id = ?
+        AND p.rowid = (
+          SELECT p2.rowid
+          FROM practice_executions p2
+          WHERE p2.user_id = p.user_id
+            AND p2.course_id = p.course_id
+            AND p2.content_id = p.content_id
+          ORDER BY p2.completed_at DESC, p2.created_at DESC, p2.rowid DESC
+          LIMIT 1
+        )
+      ORDER BY p.completed_at, p.rowid
+    `).all(userId, courseId) as Array<{ content_id: string; next_action: NextAction }>;
 
     return {
       courseId,
       executionCount: countRow.execution_count,
-      completedContentIds: contentRows.map((row) => row.content_id),
+      completedContentIds: latestRows
+        .filter((row) => row.next_action === 'continue')
+        .map((row) => row.content_id),
+      needsReviewContentIds: latestRows
+        .filter((row) => row.next_action === 'continue_review')
+        .map((row) => row.content_id),
       lastExecution: recent[0] ?? null,
     };
   }
