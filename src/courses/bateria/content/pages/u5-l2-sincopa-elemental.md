@@ -7,7 +7,7 @@ unitSlug: unidad-5
 slug: leccion-2-sincopa-elemental
 kind: lesson
 order: 2
-title: "Lección 2 — Síncopa elemental: pulso presente, ataque desplazado"
+title: "Lección 2 — Síncopa elemental: pulso estable, ataques fuera del tiempo fuerte"
 summary: Introduce síncopa elemental sobre una rejilla conocida de corcheas y la separa de agrupación, desplazamiento y cambio de compás.
 duration: 25–30 min
 competencies: [C1, C2, C3, C4, D1, D2, D6, E2, E3, F1, F2, G1, G2, K2, K4]
