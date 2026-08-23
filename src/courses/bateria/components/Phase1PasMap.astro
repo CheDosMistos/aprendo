@@ -1,0 +1,179 @@
+---
+import { PAS_RUDIMENTS } from '@courses/bateria/curriculum';
+
+interface Props { sourceContentId: string; }
+const { sourceContentId } = Astro.props;
+---
+
+<section class="pas-map" aria-labelledby="pas-map-title" data-pas-map data-source-content-id={sourceContentId}>
+  <div class="pas-map__head">
+    <div>
+      <p class="eyebrow">Mapa técnico · Fase 1</p>
+      <h2 id="pas-map-title">Estado de los 40 PAS</h2>
+      <p>Registra evidencia, no una nota. <strong>CONOCIDO</strong> es la meta inicial; FUNCIONAL y DOMINADO pueden llegar mucho después.</p>
+    </div>
+    <p class="pas-map__status" data-map-status role="status" aria-live="polite">Cargando estado…</p>
+  </div>
+
+  <div class="pas-map__legend" aria-label="Leyenda">
+    <span>NUEVO / ESTABILIZANDO = estado de trabajo</span>
+    <span>CONOCIDO / FUNCIONAL / DOMINADO = estado PAS</span>
+    <span>Retención se registra aparte</span>
+  </div>
+
+  <div class="pas-map__list">
+    {PAS_RUDIMENTS.map((rudiment, index) => (
+      <details class="pas-row" data-rudiment={rudiment}>
+        <summary>
+          <span class="pas-row__number">{index + 1}</span>
+          <strong>{rudiment}</strong>
+          <span class="pas-row__current" data-current-state>No observado</span>
+        </summary>
+        <form class="pas-row__form" data-skill-form>
+          <label>
+            <span>Estado</span>
+            <select name="state" required>
+              <option value="unavailable">No observado / no disponible</option>
+              <option value="new">Nuevo</option>
+              <option value="stabilizing">En estabilización</option>
+              <option value="known">Conocido</option>
+              <option value="functional">Funcional</option>
+              <option value="mastered">Dominado</option>
+            </select>
+          </label>
+          <label class="pas-row__check">
+            <input type="checkbox" name="retention" value="checked" />
+            <span>Retención comprobada tras separación</span>
+          </label>
+          <label>
+            <span>Variable limitante</span>
+            <select name="limitingVariable">
+              <option value="">Ninguna / no identificada</option>
+              <option value="time">Tiempo</option>
+              <option value="sound">Sonido</option>
+              <option value="relaxation">Relajación</option>
+              <option value="movement">Movimiento</option>
+              <option value="sticking">Sticking</option>
+              <option value="dynamics">Dinámica</option>
+              <option value="reading">Lectura</option>
+              <option value="memory">Memoria / recuperación</option>
+              <option value="understanding">Comprensión</option>
+              <option value="other">Otra</option>
+            </select>
+          </label>
+          <label>
+            <span>Correctivo concreto <small>(opcional)</small></span>
+            <textarea name="corrective" rows="2" maxlength="1000" placeholder="Ej.: aislar doubles izquierdos 2 min y volver al patrón completo"></textarea>
+          </label>
+          <div class="pas-row__actions">
+            <button type="submit">Guardar evidencia</button>
+            <span data-row-status role="status" aria-live="polite"></span>
+          </div>
+        </form>
+      </details>
+    ))}
+  </div>
+</section>
+
+<script>
+  interface SkillState {
+    skillId: string;
+    observation: 'available' | 'unstable' | 'unavailable';
+    workState: 'new' | 'stabilizing' | null;
+    masteryState: 'known' | 'functional' | 'mastered' | null;
+    retentionState: 'not_checked' | 'checked';
+    limitingVariable: string | null;
+    corrective: string | null;
+  }
+  interface StatesResponse { states?: SkillState[]; }
+  interface StateResponse { state?: SkillState; }
+
+  const map = document.querySelector<HTMLElement>('[data-pas-map]');
+  if (map) {
+    const sourceContentId = map.dataset.sourceContentId ?? '';
+    const mapStatus = map.querySelector<HTMLElement>('[data-map-status]');
+    const labels: Record<string, string> = {
+      unavailable: 'No observado', new: 'Nuevo', stabilizing: 'En estabilización',
+      known: 'Conocido', functional: 'Funcional', mastered: 'Dominado',
+    };
+
+    const stateKey = (state: SkillState) => state.masteryState ?? state.workState ?? 'unavailable';
+    const applyState = (row: HTMLElement, state: SkillState) => {
+      const key = stateKey(state);
+      const current = row.querySelector<HTMLElement>('[data-current-state]');
+      const select = row.querySelector<HTMLSelectElement>('select[name="state"]');
+      const retention = row.querySelector<HTMLInputElement>('input[name="retention"]');
+      const limiting = row.querySelector<HTMLSelectElement>('select[name="limitingVariable"]');
+      const corrective = row.querySelector<HTMLTextAreaElement>('textarea[name="corrective"]');
+      if (current) current.textContent = `${labels[key] ?? key}${state.retentionState === 'checked' ? ' · retenido' : ''}`;
+      if (select) select.value = key;
+      if (retention) retention.checked = state.retentionState === 'checked';
+      if (limiting) limiting.value = state.limitingVariable ?? '';
+      if (corrective) corrective.value = state.corrective ?? '';
+      row.dataset.skillState = key;
+    };
+
+    try {
+      const response = await fetch('/api/progress/skills/?courseId=bateria&skillType=rudiment');
+      const body = await response.json() as StatesResponse;
+      if (!response.ok) throw new Error('load failed');
+      const byId = new Map((body.states ?? []).map((state) => [state.skillId, state]));
+      for (const row of map.querySelectorAll<HTMLElement>('[data-rudiment]')) {
+        const id = row.dataset.rudiment ?? '';
+        const state = byId.get(id);
+        if (state) applyState(row, state);
+      }
+      if (mapStatus) mapStatus.textContent = 'Estado cargado.';
+    } catch {
+      if (mapStatus) mapStatus.textContent = 'No se pudo cargar el estado guardado.';
+    }
+
+    for (const form of map.querySelectorAll<HTMLFormElement>('[data-skill-form]')) {
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const row = form.closest<HTMLElement>('[data-rudiment]');
+        const rowStatus = form.querySelector<HTMLElement>('[data-row-status]');
+        const button = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+        if (!row || !rowStatus || !button) return;
+        const data = new FormData(form);
+        const rawState = String(data.get('state') ?? 'unavailable');
+        const payload: Record<string, string> = {
+          courseId: 'bateria', skillType: 'rudiment', skillId: row.dataset.rudiment ?? '',
+          sourceContentId, observation: rawState === 'unavailable' ? 'unavailable' : rawState === 'new' || rawState === 'stabilizing' ? 'unstable' : 'available',
+          retentionState: data.get('retention') === 'checked' ? 'checked' : 'not_checked',
+        };
+        if (rawState === 'new' || rawState === 'stabilizing') payload.workState = rawState;
+        if (rawState === 'known' || rawState === 'functional' || rawState === 'mastered') payload.masteryState = rawState;
+        const limitingVariable = String(data.get('limitingVariable') ?? '');
+        const corrective = String(data.get('corrective') ?? '').trim();
+        if (limitingVariable) payload.limitingVariable = limitingVariable;
+        if (corrective) payload.corrective = corrective;
+
+        button.disabled = true;
+        rowStatus.textContent = 'Guardando…';
+        try {
+          const response = await fetch('/api/progress/skills/', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload),
+          });
+          const body = await response.json() as StateResponse;
+          if (!response.ok || !body.state) throw new Error('save failed');
+          applyState(row, body.state);
+          rowStatus.textContent = 'Guardado.';
+        } catch {
+          rowStatus.textContent = 'No se pudo guardar.';
+        } finally {
+          button.disabled = false;
+        }
+      });
+    }
+  }
+</script>
+
+<style>
+  .pas-map{margin-top:3rem;padding:clamp(1rem,3vw,1.5rem);border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+  .pas-map__head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start}.pas-map__head h2{margin:.2rem 0 .4rem}.pas-map__head p{max-width:68ch}.pas-map__status{white-space:nowrap;color:var(--muted);font-size:.9rem}
+  .pas-map__legend{display:flex;flex-wrap:wrap;gap:.45rem .8rem;margin:1rem 0;padding:.8rem;border-radius:.6rem;background:var(--surface-2);color:var(--muted);font-size:.84rem}
+  .pas-map__list{display:grid;gap:.4rem}.pas-row{border:1px solid var(--border);border-radius:.6rem;background:var(--bg)}.pas-row summary{display:grid;grid-template-columns:2.2rem minmax(0,1fr) auto;gap:.6rem;align-items:center;min-height:3rem;padding:.55rem .75rem;cursor:pointer}.pas-row__number{color:var(--muted);font-variant-numeric:tabular-nums}.pas-row__current{color:var(--muted);font-size:.86rem}.pas-row[data-skill-state='known'] .pas-row__current,.pas-row[data-skill-state='functional'] .pas-row__current,.pas-row[data-skill-state='mastered'] .pas-row__current{color:var(--text);font-weight:700}
+  .pas-row__form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;padding:.85rem;border-top:1px solid var(--border)}.pas-row__form label{display:grid;gap:.3rem;font-weight:650}.pas-row__form select,.pas-row__form textarea{width:100%;min-height:2.6rem;padding:.55rem .65rem;border:1px solid var(--border);border-radius:.5rem;background:var(--surface);color:var(--text);font:inherit}.pas-row__check{display:flex!important;grid-column:span 1;align-items:center;grid-template-columns:auto 1fr!important}.pas-row__check input{width:1.1rem;height:1.1rem}.pas-row__actions{grid-column:1/-1;display:flex;gap:.7rem;align-items:center}.pas-row__actions button{min-height:2.65rem;padding:.55rem .85rem;border:1px solid var(--accent);border-radius:.55rem;background:var(--accent);color:var(--accent-contrast);font:inherit;font-weight:750;cursor:pointer}
+  @media(max-width:42rem){.pas-map__head{display:block}.pas-map__status{white-space:normal}.pas-row summary{grid-template-columns:1.8rem minmax(0,1fr);}.pas-row__current{grid-column:2}.pas-row__form{grid-template-columns:1fr}.pas-row__check{grid-column:auto}.pas-row__actions{grid-column:auto}}
+</style>
