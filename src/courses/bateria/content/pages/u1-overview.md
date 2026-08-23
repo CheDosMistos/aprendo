@@ -17,7 +17,7 @@ rudiments:
   - Double Stroke Open Roll
   - Single Paradiddle
   - Flam
-  - Drag
+  - Drag (Ruff)
 published: true
 ---
 
@@ -32,7 +32,7 @@ Los seis rudimentos de esta unidad son:
 - **Double Stroke Open Roll** — *«redoble abierto de golpes dobles»*
 - **Single Paradiddle** — *«paradiddle simple»*
 - **Flam** — *«apoyatura simple»*
-- **Drag** — *«apoyatura doble»*
+- **Drag (Ruff)** — *«apoyatura doble»*
 
 La meta inicial no es dominarlos. Queremos que puedas reconocerlos, consultar su forma oficial, comprender qué movimiento requieren y empezar a ejecutarlos lentamente con control razonable.
 
@@ -77,7 +77,7 @@ El curso no reconstruye la partitura oficial. Si existe cualquier duda sobre ord
 1. **Sesión 0 — Diagnóstico de reentrada**
 2. **Lección 1 — Rebote, pulso y primeros redobles**
 3. **Lección 2 — Golpes dobles y Single Paradiddle**
-4. **Lección 3 — Flam, Drag y control de alturas**
+4. **Lección 3 — Flam, Drag (Ruff) y control de alturas**
 5. **Lección 4 — Recuperación, lectura y aplicación musical**
 6. **Cierre de U1 — ¿puedo continuar?**
 
