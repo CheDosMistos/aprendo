@@ -11,7 +11,7 @@ title: "Lección 3 — Single Dragadiddle y Drag Paradiddle #1"
 summary: Combina dos familias ya conocidas —drag y diddle— sin reenseñarlas, usando puertas locales para alturas, doubles y acento.
 duration: 25–30 min
 competencies: [A3, A4, A5, A6, B1, B2, B4, B6, C1, C2, D1, D3, K2, K4, K6]
-rudiments: [Single Dragadiddle, Drag Paradiddle #1]
+rudiments: [Single Dragadiddle, "Drag Paradiddle #1"]
 published: true
 ---
 
