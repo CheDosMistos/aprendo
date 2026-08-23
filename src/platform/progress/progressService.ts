@@ -43,6 +43,7 @@ export class ProgressService {
       health: input.health,
       nextAction,
       durationMinutes: input.durationMinutes ?? null,
+      limitingVariable: input.limitingVariable ?? null,
       problem: input.problem ?? null,
       note: input.note ?? null,
       completedAt: this.now().toISOString(),

@@ -1,0 +1,107 @@
+---
+import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import { getBateriaContent, routeFor } from '@courses/bateria/contentRegistry';
+
+const entries = (await getBateriaContent()).filter((entry) => entry.data.kind !== 'unit');
+---
+
+<BaseLayout title="Progreso — Curso de batería" description="Estado de práctica, revisión, PAS, retención y correctivos del curso de batería.">
+  <main class="progress-page" data-progress-dashboard>
+    <header>
+      <p class="eyebrow">Aprendo · Batería</p>
+      <h1>Progreso y evidencia</h1>
+      <p class="lead">Esta vista separa <strong>haber practicado</strong>, <strong>tener algo pendiente</strong> y <strong>evidencia de habilidad</strong>. No calcula porcentajes de dominio.</p>
+      <p><a href="/bateria/">← Volver al curso</a></p>
+    </header>
+
+    <section class="summary-grid" aria-label="Resumen">
+      <article><span class="summary-value" data-completed-count>—</span><strong>sesiones disponibles</strong><small>Último registro = continuar</small></article>
+      <article><span class="summary-value" data-review-count>—</span><strong>sesiones en revisión</strong><small>Pueden convivir con avance</small></article>
+      <article><span class="summary-value" data-pas-known-count>—</span><strong>PAS al menos conocidos</strong><small>FUNCIONAL/DOMINADO cuentan aquí</small></article>
+      <article><span class="summary-value" data-retained-count>—</span><strong>PAS con retención comprobada</strong><small>Dimensión independiente</small></article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><div><p class="eyebrow">Ruta curricular</p><h2>Sesiones de Fase 1</h2></div><p class="status" data-progress-status role="status" aria-live="polite">Cargando…</p></div>
+      <div class="content-list">
+        {entries.map((entry) => (
+          <a href={routeFor(entry)} class="content-row" data-content-id={entry.data.contentId}>
+            <span class="content-state" data-content-state>Pendiente</span>
+            <span><strong>{entry.data.title}</strong><small>Fase {entry.data.phase} · U{entry.data.unit}</small></span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="two-col">
+      <article class="panel">
+        <p class="eyebrow">Correctivos</p>
+        <h2>Problemas activos identificados</h2>
+        <div data-correctives><p class="muted">Sin datos todavía.</p></div>
+      </article>
+      <article class="panel">
+        <p class="eyebrow">Historial</p>
+        <h2>Práctica reciente</h2>
+        <div data-recent><p class="muted">Sin registros todavía.</p></div>
+      </article>
+    </section>
+  </main>
+</BaseLayout>
+
+<script>
+  interface Execution { contentId:string; nextAction:'continue'|'continue_review'|'repeat'|'stop'; durationMinutes:number|null; problem:string|null; completedAt:string; }
+  interface ProgressResponse { summary?: { completedContentIds?:string[]; needsReviewContentIds?:string[] }; recent?:Execution[]; }
+  interface SkillState { skillId:string; masteryState:'known'|'functional'|'mastered'|null; retentionState:'not_checked'|'checked'; limitingVariable:string|null; corrective:string|null; updatedAt:string; }
+  interface SkillResponse { states?:SkillState[]; }
+
+  const root=document.querySelector<HTMLElement>('[data-progress-dashboard]');
+  if(root){
+    const labelForAction={continue:'Disponible',continue_review:'Revisión',repeat:'Repetir',stop:'Carga detenida'} as const;
+    const dateFmt=new Intl.DateTimeFormat('es-ES',{dateStyle:'medium'});
+    try{
+      const [progressResponse,skillsResponse]=await Promise.all([
+        fetch('/api/progress/bateria/?limit=20'),
+        fetch('/api/progress/skills/?courseId=bateria&skillType=rudiment'),
+      ]);
+      const progress=await progressResponse.json() as ProgressResponse;
+      const skills=await skillsResponse.json() as SkillResponse;
+      if(!progressResponse.ok||!skillsResponse.ok) throw new Error('load failed');
+      const completed=new Set(progress.summary?.completedContentIds??[]);
+      const review=new Set(progress.summary?.needsReviewContentIds??[]);
+      for(const row of root.querySelectorAll<HTMLElement>('[data-content-id]')){
+        const state=row.querySelector<HTMLElement>('[data-content-state]'); if(!state) continue;
+        const id=row.dataset.contentId??'';
+        if(completed.has(id)){state.textContent='Disponible';row.dataset.state='complete';}
+        else if(review.has(id)){state.textContent='Revisión';row.dataset.state='review';}
+      }
+      const states=skills.states??[];
+      const known=states.filter(s=>s.masteryState!==null).length;
+      const retained=states.filter(s=>s.retentionState==='checked').length;
+      setText('[data-completed-count]',String(completed.size)); setText('[data-review-count]',String(review.size));
+      setText('[data-pas-known-count]',`${known}/40`); setText('[data-retained-count]',`${retained}/40`);
+      setText('[data-progress-status]','Actualizado con tus registros.');
+
+      const correctives=root.querySelector<HTMLElement>('[data-correctives]');
+      const active=states.filter(s=>s.corrective||s.limitingVariable);
+      if(correctives&&active.length){ correctives.replaceChildren(...active.map(s=>{
+        const div=document.createElement('div');div.className='evidence-item';
+        const strong=document.createElement('strong');strong.textContent=s.skillId;
+        const p=document.createElement('p');p.textContent=[s.limitingVariable?`Variable: ${s.limitingVariable}`:'',s.corrective??''].filter(Boolean).join(' · ');
+        div.append(strong,p);return div;
+      }));}
+
+      const recent=root.querySelector<HTMLElement>('[data-recent]');
+      if(recent&&(progress.recent??[]).length){ recent.replaceChildren(...(progress.recent??[]).map(e=>{
+        const div=document.createElement('div');div.className='evidence-item';
+        const strong=document.createElement('strong');strong.textContent=`${labelForAction[e.nextAction]} · ${e.contentId}`;
+        const p=document.createElement('p');p.textContent=[dateFmt.format(new Date(e.completedAt)),e.durationMinutes?`${e.durationMinutes} min`:'',e.problem??''].filter(Boolean).join(' · ');
+        div.append(strong,p);return div;
+      }));}
+    }catch{setText('[data-progress-status]','No se pudo cargar el progreso.');}
+    function setText(selector:string,value:string){const node=root?.querySelector<HTMLElement>(selector);if(node)node.textContent=value;}
+  }
+</script>
+
+<style>
+.progress-page{width:min(100%,76rem);margin-inline:auto;display:grid;gap:1.25rem}.lead{max-width:72ch}.summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem}.summary-grid article{display:grid;gap:.25rem;padding:1rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.summary-value{font-size:clamp(1.6rem,4vw,2.5rem);font-weight:800;font-variant-numeric:tabular-nums}.summary-grid small,.muted{color:var(--muted)}.panel{padding:clamp(1rem,2.5vw,1.4rem);border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}.panel h2{margin:.2rem 0 1rem}.status{color:var(--muted);font-size:.9rem}.content-list{display:grid;gap:.35rem}.content-row{display:grid;grid-template-columns:7.2rem 1fr;gap:.8rem;align-items:center;min-height:3.6rem;padding:.6rem .7rem;border:1px solid var(--border);border-radius:.55rem;color:var(--text);text-decoration:none}.content-row:hover{border-color:var(--accent)}.content-row small{display:block;color:var(--muted);margin-top:.15rem}.content-state{width:fit-content;padding:.2rem .45rem;border-radius:999px;background:var(--surface-2);color:var(--muted);font-size:.78rem;font-weight:750}.content-row[data-state='complete'] .content-state{color:var(--text);border:1px solid var(--border)}.content-row[data-state='review'] .content-state{color:var(--text);border:1px dashed var(--accent)}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.evidence-item{padding:.75rem 0;border-top:1px solid var(--border)}.evidence-item:first-child{border-top:0}.evidence-item p{margin:.2rem 0 0;color:var(--muted);line-height:1.45}@media(max-width:56rem){.summary-grid{grid-template-columns:repeat(2,1fr)}.two-col{grid-template-columns:1fr}}@media(max-width:34rem){.summary-grid{grid-template-columns:1fr}.content-row{grid-template-columns:1fr;gap:.25rem}}
+</style>

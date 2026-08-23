@@ -1,0 +1,49 @@
+<details class="practice-recorder" data-practice-recorder>
+  <summary>Autoescucha breve</summary>
+  <div class="practice-recorder__body">
+    <p>Graba una muestra corta para escuchar tiempo, sonido y dinámica. <strong>No se sube al servidor</strong>: permanece únicamente en esta página y se pierde al recargarla.</p>
+    <div class="practice-recorder__actions">
+      <button type="button" data-record>Grabar</button>
+      <button type="button" data-stop disabled>Detener</button>
+      <button type="button" data-delete disabled>Borrar</button>
+    </div>
+    <p class="practice-recorder__status" data-recorder-status role="status" aria-live="polite">Preparado.</p>
+    <audio controls data-playback hidden></audio>
+  </div>
+</details>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-practice-recorder]')) {
+    const recordButton=root.querySelector<HTMLButtonElement>('[data-record]');
+    const stopButton=root.querySelector<HTMLButtonElement>('[data-stop]');
+    const deleteButton=root.querySelector<HTMLButtonElement>('[data-delete]');
+    const status=root.querySelector<HTMLElement>('[data-recorder-status]');
+    const playback=root.querySelector<HTMLAudioElement>('[data-playback]');
+    if(!recordButton||!stopButton||!deleteButton||!status||!playback) continue;
+    let recorder:MediaRecorder|null=null;let stream:MediaStream|null=null;let chunks:BlobPart[]=[];let objectUrl:string|null=null;
+
+    const cleanupStream=()=>{for(const track of stream?.getTracks()??[])track.stop();stream=null;};
+    const clearRecording=()=>{if(objectUrl)URL.revokeObjectURL(objectUrl);objectUrl=null;playback.removeAttribute('src');playback.hidden=true;deleteButton.disabled=true;status.textContent='Preparado.';};
+
+    recordButton.addEventListener('click',async()=>{
+      if(!navigator.mediaDevices?.getUserMedia||typeof MediaRecorder==='undefined'){status.textContent='La grabación no está disponible en este navegador.';return;}
+      clearRecording();chunks=[];
+      try{
+        stream=await navigator.mediaDevices.getUserMedia({audio:true});
+        recorder=new MediaRecorder(stream);
+        recorder.addEventListener('dataavailable',(event)=>{if(event.data.size)chunks.push(event.data);});
+        recorder.addEventListener('stop',()=>{
+          const blob=new Blob(chunks,{type:recorder?.mimeType||'audio/webm'});objectUrl=URL.createObjectURL(blob);playback.src=objectUrl;playback.hidden=false;deleteButton.disabled=false;status.textContent='Muestra lista. Escúchala antes de decidir qué corregir.';cleanupStream();
+        });
+        recorder.start();recordButton.disabled=true;stopButton.disabled=false;status.textContent='Grabando… prioriza una muestra corta y representativa.';
+      }catch{cleanupStream();status.textContent='No se pudo acceder al micrófono.';}
+    });
+    stopButton.addEventListener('click',()=>{if(recorder?.state==='recording')recorder.stop();recordButton.disabled=false;stopButton.disabled=true;});
+    deleteButton.addEventListener('click',clearRecording);
+    window.addEventListener('pagehide',()=>{cleanupStream();if(objectUrl)URL.revokeObjectURL(objectUrl);},{once:true});
+  }
+</script>
+
+<style>
+.practice-recorder{margin-top:.75rem;border:1px solid var(--border);border-radius:.65rem;background:var(--surface)}.practice-recorder summary{padding:.7rem .8rem;font-weight:750;cursor:pointer}.practice-recorder__body{padding:0 .8rem .8rem}.practice-recorder__body p{margin:.4rem 0 .7rem;color:var(--muted);font-size:.88rem;line-height:1.45}.practice-recorder__actions{display:flex;flex-wrap:wrap;gap:.4rem}.practice-recorder button{min-height:2.4rem;padding:.45rem .65rem;border:1px solid var(--border);border-radius:.5rem;background:var(--surface-2);color:var(--text);font:inherit;font-weight:650;cursor:pointer}.practice-recorder button:disabled{opacity:.5;cursor:default}.practice-recorder__status{min-height:1.2rem}.practice-recorder audio{width:100%;margin-top:.4rem}
+</style>

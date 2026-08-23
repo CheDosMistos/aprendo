@@ -24,6 +24,7 @@ function summary(nextAction: PracticeExecution['nextAction'], contentId = 'bat-f
       health: nextAction === 'stop' ? 'stop_signal' : 'none',
       nextAction,
       durationMinutes: null,
+      limitingVariable: null,
       problem: null,
       note: null,
       completedAt: '2026-08-21T08:00:00.000Z',

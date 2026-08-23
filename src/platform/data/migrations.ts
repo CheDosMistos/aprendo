@@ -85,6 +85,17 @@ const migrations: readonly Migration[] = [
       ) STRICT;
     `,
   },
+  {
+    version: 3,
+    name: 'structured_execution_feedback',
+    sql: `
+      ALTER TABLE practice_executions ADD COLUMN limiting_variable TEXT
+        CHECK (limiting_variable IS NULL OR limiting_variable IN (
+          'time', 'sound', 'relaxation', 'movement', 'sticking', 'dynamics',
+          'reading', 'memory', 'understanding', 'other'
+        ));
+    `,
+  },
 ];
 
 export function applyMigrations(database: DatabaseSync): void {
