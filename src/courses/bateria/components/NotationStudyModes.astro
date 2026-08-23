@@ -1,0 +1,63 @@
+<div hidden aria-hidden="true"></div>
+
+<script>
+  const ENHANCED = 'studyModeEnhanced';
+
+  const enhanceScore = (score: HTMLElement) => {
+    if (score.dataset[ENHANCED] === 'true') return;
+    const controls = score.querySelector<HTMLElement>('.course-score__view-controls');
+    const shell = score.querySelector<HTMLElement>('.course-score__shell');
+    if (!controls || !shell) return;
+
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'course-score__study-toggle course-score__view-button course-score__view-button--text';
+    button.textContent = 'Ocultar';
+    button.title = 'Ocultar la notación para intentar recordar, cantar o tocar antes de comprobar';
+    button.setAttribute('aria-pressed', 'false');
+
+    button.addEventListener('click', () => {
+      const hidden = score.dataset.studyHidden !== 'true';
+      score.dataset.studyHidden = String(hidden);
+      button.setAttribute('aria-pressed', String(hidden));
+      button.textContent = hidden ? 'Revelar' : 'Ocultar';
+      button.title = hidden ? 'Revelar la notación y comprobar el intento' : 'Ocultar la notación antes de intentar';
+      shell.setAttribute('aria-hidden', String(hidden));
+    });
+
+    controls.prepend(button);
+    score.dataset[ENHANCED] = 'true';
+  };
+
+  const enhanceAll = () => {
+    for (const score of document.querySelectorAll<HTMLElement>('.course-score')) enhanceScore(score);
+  };
+
+  enhanceAll();
+  document.addEventListener('astro:page-load', enhanceAll);
+  const observer = new MutationObserver(enhanceAll);
+  observer.observe(document.documentElement, { childList: true, subtree: true });
+</script>
+
+<style is:global>
+  .course-score[data-study-hidden='true'] .course-score__shell {
+    position: relative;
+    min-height: 7rem;
+    overflow: hidden;
+    background: var(--surface-2);
+  }
+  .course-score[data-study-hidden='true'] .course-score__shell > * {
+    visibility: hidden;
+  }
+  .course-score[data-study-hidden='true'] .course-score__shell::after {
+    content: 'Notación oculta · intenta contar, cantar o tocar antes de revelar';
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    color: var(--muted);
+    text-align: center;
+    font-weight: 700;
+  }
+</style>
