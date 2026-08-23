@@ -37,6 +37,10 @@ La partitura incluye una primera ventana visual al **tresillo de corcheas dentro
 
 **Pregunta de control:** si pasas de 2 a 3 notas por pulso y el click sigue en el mismo sitio, ¿ha cambiado el pulso? La respuesta es **no**; ha cambiado la subdivisión.
 
+### Comprobación antes de los singles agrupados
+
+Single Stroke Roll, pulso y subdivisión ya se trabajaron en U1, así que **no los reaprendas**. Haz solo una muestra breve: alterna golpes manteniendo la rejilla y termina voluntariamente un grupo sobre una referencia clara. Si la alternancia o el pulso se rompen de forma general, corrige esa base durante unas pocas repeticiones y vuelve al grupo; si están disponibles, continúa directamente.
+
 ## 3. Single Stroke Four — 6 min
 
 Abre la fuente normativa y localiza **2. Single Stroke Four**:
