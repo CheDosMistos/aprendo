@@ -15,8 +15,8 @@ rudiments:
   - Ten Stroke Roll
   - Eleven Stroke Roll
   - Single Dragadiddle
-  - Drag Paradiddle #1
-  - Drag Paradiddle #2
+  - "Drag Paradiddle #1"
+  - "Drag Paradiddle #2"
 published: true
 ---
 
@@ -52,7 +52,7 @@ Las partituras integradas en Aprendo son material propio y no representan los ci
 ## Orden de la unidad
 
 1. **Lección 1 — Ten y Eleven Stroke Roll: continuidad y cierre**
-2. **Lección 2 — Síncopa elemental: pulso presente, ataque desplazado**
+2. **Lección 2 — Síncopa elemental: pulso estable, ataques fuera del tiempo fuerte**
 3. **Lección 3 — Single Dragadiddle y Drag Paradiddle #1**
 4. **Lección 4 — Drag Paradiddle #2, oído y escritura**
 5. **Cierre de U5 — ¿puedo continuar?**
