@@ -30,5 +30,6 @@ export interface CourseProgressSummary {
   courseId: string;
   executionCount: number;
   completedContentIds: string[];
+  needsReviewContentIds: string[];
   lastExecution: PracticeExecution | null;
 }
