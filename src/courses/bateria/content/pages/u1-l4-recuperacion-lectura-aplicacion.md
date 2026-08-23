@@ -17,7 +17,7 @@ rudiments:
   - Double Stroke Open Roll
   - Single Paradiddle
   - Flam
-  - Drag
+  - Drag (Ruff)
 published: true
 ---
 
@@ -117,6 +117,6 @@ Comprueba que puedes localizar y reconocer en la fuente oficial:
 - Double Stroke Open Roll;
 - Single Paradiddle;
 - Flam;
-- Drag.
+- Drag (Ruff).
 
 No hace falta que los seis estén dominados ni que tengan exactamente el mismo nivel.

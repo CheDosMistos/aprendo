@@ -17,7 +17,7 @@ rudiments:
   - Double Stroke Open Roll
   - Single Paradiddle
   - Flam
-  - Drag
+  - Drag (Ruff)
 published: true
 ---
 
@@ -76,7 +76,7 @@ No necesitas repetir las líneas hasta memorizarlas: aquí interesa observar la 
 - Double Stroke Open Roll;
 - Single Paradiddle;
 - Flam;
-- Drag.
+- Drag (Ruff).
 
 No intentes aprenderlos todos ahora. Comprueba:
 

@@ -49,9 +49,9 @@ Un **double** es un par de golpes consecutivos con la misma mano dentro de una e
 
 ## 3. Double Stroke Open Roll — unos 6 minutos
 
-Consulta esta representación de estudio y, ante cualquier duda de notación o sticking, abre la fuente oficial PAS. La representación integrada no sustituye el original.
+Abre la fuente normativa y localiza **6. Double Stroke Open Roll**:
 
-<div data-notation-score data-score-src="/bateria/notation/u1/pas-06-double-stroke-open-roll.musicxml" data-score-title="6. Double Stroke Open Roll" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
+[PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
 Observa su estructura exacta y trabaja lentamente. Escucha especialmente el segundo golpe de cada double.
 
@@ -68,9 +68,7 @@ Aísla unas pocas repeticiones y vuelve al rudimento completo.
 
 ## 4. Single Paradiddle — unos 6 minutos
 
-Consulta la representación integrada y contrástala con la misma fuente oficial PAS.
-
-<div data-notation-score data-score-src="/bateria/notation/u1/pas-16-single-paradiddle.musicxml" data-score-title="16. Single Paradiddle" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
+En la misma fuente PAS localiza **16. Single Paradiddle**. PAS prevalece ante cualquier discrepancia de notación, sticking o acentos.
 
 Distingue dos cosas: **el ritmo** y **el orden de manos**. El paradiddle utiliza golpes simples y un double, pero memorizar una secuencia de letras sin situarla en el tiempo no significa comprender el rudimento.
 

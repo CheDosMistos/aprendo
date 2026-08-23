@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { COMPETENCY_ID_PATTERN, PAS_RUDIMENTS } from './courses/bateria/curriculum';
 
 const bateria = defineCollection({
   loader: glob({
@@ -19,8 +20,8 @@ const bateria = defineCollection({
     title: z.string().min(1),
     summary: z.string().min(1),
     duration: z.string().optional(),
-    competencies: z.array(z.string()).default([]),
-    rudiments: z.array(z.string()).default([]),
+    competencies: z.array(z.string().regex(COMPETENCY_ID_PATTERN)).default([]),
+    rudiments: z.array(z.enum(PAS_RUDIMENTS)).default([]),
     published: z.boolean().default(true),
   }),
 });
