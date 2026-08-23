@@ -11,7 +11,7 @@ title: "Cierre de U5 — ¿puedo continuar?"
 summary: Comprueba representación de los cinco PAS, síncopa elemental y combinación drag+diddle sin exigir perfección ni velocidad máxima.
 duration: 15–25 min
 competencies: [B2, B4, B5, B6, C1, C2, C3, D1, D2, D6, E2, E3, F2, K2, K4, K6]
-rudiments: [Ten Stroke Roll, Eleven Stroke Roll, Single Dragadiddle, Drag Paradiddle #1, Drag Paradiddle #2]
+rudiments: [Ten Stroke Roll, Eleven Stroke Roll, Single Dragadiddle, "Drag Paradiddle #1", "Drag Paradiddle #2"]
 published: true
 ---
 
