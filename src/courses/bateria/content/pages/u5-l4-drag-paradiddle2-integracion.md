@@ -11,7 +11,7 @@ title: "Lección 4 — Drag Paradiddle #2, oído y escritura"
 summary: Introduce Drag Paradiddle #2 y cierra U5 con lectura nueva, imitación auditiva y escritura de una célula sincopada.
 duration: 25–30 min
 competencies: [A4, A5, B2, B4, B6, C1, C2, C3, D1, D2, D6, E2, E3, E4, F1, F2, G1, G2, K2, K4, K6]
-rudiments: [Drag Paradiddle #2]
+rudiments: ["Drag Paradiddle #2"]
 published: true
 ---
 
