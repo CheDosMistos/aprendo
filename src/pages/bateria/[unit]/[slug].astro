@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import CourseArticleLayout from '@courses/bateria/components/CourseArticleLayout.astro';
 import PracticeCheckIn from '@courses/bateria/components/PracticeCheckIn.astro';
+import Phase1PasMap from '@courses/bateria/components/Phase1PasMap.astro';
 import {
   getBateriaContent,
   routeFor,
@@ -58,9 +59,10 @@ const kindLabel = entry.data.kind === 'diagnostic'
   : entry.data.kind === 'checkpoint'
     ? 'Cierre'
     : 'Lección';
-const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'lesson'
+const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'lesson' || entry.data.kind === 'checkpoint'
   ? entry.data.kind
   : undefined;
+const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
 ---
 
 <CourseArticleLayout
@@ -74,13 +76,17 @@ const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'les
 >
   <Content />
 
-  {checkInKind && (
-    <PracticeCheckIn
-      slot="after"
-      courseId={entry.data.courseId}
-      contentId={entry.data.contentId}
-      kind={checkInKind}
-      next={next}
-    />
+  {(showPhase1PasMap || checkInKind) && (
+    <div slot="after">
+      {showPhase1PasMap && <Phase1PasMap sourceContentId={entry.data.contentId} />}
+      {checkInKind && (
+        <PracticeCheckIn
+          courseId={entry.data.courseId}
+          contentId={entry.data.contentId}
+          kind={checkInKind}
+          next={next}
+        />
+      )}
+    </div>
   )}
 </CourseArticleLayout>
