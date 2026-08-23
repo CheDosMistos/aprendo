@@ -4,7 +4,7 @@ courseId: bateria
 phase: 1
 unit: 5
 unitSlug: unidad-5
-slug: cierre
+slug: unidad-5-cierre
 kind: checkpoint
 order: 5
 title: "Cierre de U5 — ¿puedo continuar?"
