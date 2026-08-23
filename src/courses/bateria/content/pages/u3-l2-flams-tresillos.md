@@ -23,9 +23,13 @@ Leer y sentir **tresillos de corchea en 4/4**, mover acentos dentro de esa rejil
 
 Haz una toma breve de **Flam** de U1. Observa si la grace note permanece baja y si la principal puede prepararse sin levantar tensión en hombro o antebrazo.
 
+Esto es una **comprobación**, no una nueva lección de Flam: grace note, alturas y movimientos básicos ya se introdujeron en U1. Si esa relación sigue disponible, pasa directamente al material nuevo. Si la grace note se aplana o la preparación genera tensión, usa unas pocas repeticiones del ejercicio preparatorio de esta lección y retesta antes de profundizar en los dos PAS.
+
 ## 2. Tresillo no significa compás ternario — 3 min
 
 En esta lección el compás sigue siendo **4/4**. Cada pulso se divide temporalmente en **tres partes iguales**. Eso es una subdivisión ternaria del pulso; no convierte 4/4 en un compás ternario.
+
+U2 ya presentó el contraste de dos y tres partes por pulso. Aquí no se reenseña el pulso desde cero: se comprueba que puedes mantenerlo y se amplía esa experiencia hacia **lectura estructurada de tresillos y acentos**. Si al contar tres partes el click se desplaza, vuelve brevemente al contraste 2/3 de U2 y regresa a esta sección.
 
 ## 3. Lectura de tresillos y acentos — 6 min
 
@@ -41,7 +45,7 @@ El compás y la subdivisión no cambian. Lo que cambia es la **posición del ace
 
 <div data-notation-score data-score-src="/bateria/notation/u3/preparacion-grace-principal.musicxml" data-score-title="Preparación de grace note y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-Este ejercicio **no es Flam, Flam Accent ni Flam Tap**. Solo aísla la preparación de una grace note antes de algunas notas principales para observar alturas y relajación.
+Este ejercicio **no es Flam, Flam Accent ni Flam Tap**. Solo aísla la preparación de una grace note antes de algunas notas principales para observar alturas y relajación. Si la comprobación inicial fue sólida, bastan unas pocas pasadas; no necesitas convertir este bloque en una reenseñanza de U1.
 
 ## 5. Flam Tap — 5 min
 
