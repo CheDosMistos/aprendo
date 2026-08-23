@@ -1,5 +1,5 @@
 ---
-contentId: bat-f1-u4-checkpoint
+contentId: bat-f1-u4-check
 courseId: bateria
 phase: 1
 unit: 4
