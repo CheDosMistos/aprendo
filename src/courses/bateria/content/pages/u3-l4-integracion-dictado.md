@@ -19,6 +19,10 @@ published: true
 
 Comprobar U3 sin convertir la sesión en seis mini-exámenes: leer material realmente nuevo, hacer un dictado corto sin ver la respuesta y recuperar una muestra de cada familia trabajada.
 
+## Antes de empezar — comprobación breve
+
+Esta lección **no vuelve a enseñar** negras, corcheas, silencios, acentos, tresillos ni el proceso VER → CONTAR → CANTAR → TOCAR → ESCUCHAR: todo ello ya apareció antes. Comprueba solo que puedes contar un compás sencillo y un tresillo manteniendo el pulso. Si uno falla, recupera durante 1–2 minutos la sección correspondiente de U2/U3 y vuelve; si está disponible, empieza directamente con la lectura nueva.
+
 ## 1. Lectura nueva — 7–8 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
@@ -30,6 +34,8 @@ No la memorices antes de leerla. Haz **VER → CONTAR → CANTAR → TOCAR → E
 ## 2. Primer dictado corto — 5 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
+
+Antes del primer intento, confirma que entiendes la tarea: escucharás una entrada y después un compás; debes conservar los ataques y escribirlos **sin ver la solución**. No necesitas aprender un concepto rítmico nuevo aquí: el reto nuevo es pasar de **sonido → retención → representación**.
 
 El widget produce **4 pulsos de entrada** y después **un compás de 4/4 subdividido en corcheas**. Escúchalo sin revelar la solución, escribe los ataques y solo después compara.
 

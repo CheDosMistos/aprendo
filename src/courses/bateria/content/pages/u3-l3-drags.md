@@ -27,6 +27,8 @@ Haz una muestra breve de **Drag (Ruff)** de U1. Si las dos grace notes dejan de 
 
 B4 se apoya en B1 y A4 como facilitadores. Una debilidad de doubles puede influir, pero no convierte automáticamente la familia drag en una cadena bloqueada por B5.
 
+**No reaprendas Drag si ya está disponible.** Usa la muestra inicial para decidir: si el ornamento, el pulso y la preparación de alturas son reconocibles, continúa directamente. Si una de esas bases falla, aísla solo esa variable durante unas pocas repeticiones —rebote/double, grace notes o alturas— y retesta Drag antes de profundizar. La corrección local no obliga a repetir U1 ni toda la lección.
+
 ## 3. Lesson 25 — 7 min
 
 Localiza **34. Lesson 25** en PAS:
