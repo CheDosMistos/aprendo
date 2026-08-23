@@ -8,7 +8,7 @@ slug: unidad-10-introduccion
 kind: unit
 order: 0
 title: Recuperación, diagnóstico y cierre de Fase 1
-summary: Cierra Fase 1 sin añadir rudimentos: recuperación fría, mapa de estado de los 40 PAS, lectura nueva, oído, microcomposición y plan de transición a Fase 2.
+summary: "Cierra Fase 1 sin añadir rudimentos: recuperación fría, mapa de estado de los 40 PAS, lectura nueva, oído, microcomposición y plan de transición a Fase 2."
 duration: Unidad flexible · 3–4 sesiones de referencia
 competencies: [A1, A2, A3, A4, A5, A6, B1, B2, B3, B4, B5, B6, C1, C2, C3, C4, D1, D6, E1, E2, E3, E4, F1, F2, G1, G2, G3, G4, K1, K2, K3, K4, K5, K6, K7]
 rudiments: []
