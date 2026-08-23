@@ -62,9 +62,9 @@ La idea no es medir centímetros exactos. Busca una diferencia sonora clara sin 
 
 ## 3. Flam — unos 7 minutos
 
-Consulta esta representación de estudio y, ante cualquier duda de notación o sticking, abre la fuente oficial PAS. La representación integrada no sustituye el original.
+Abre la fuente normativa y localiza **20. Flam**:
 
-<div data-notation-score data-score-src="/bateria/notation/u1/pas-20-flam.musicxml" data-score-title="20. Flam" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
+[PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
 Observa la relación entre la nota de adorno y la nota principal.
 
@@ -86,11 +86,7 @@ No necesitas medir una distancia temporal exacta. Practica ambos lados.
 
 ## 4. Drag (Ruff) — unos 7 minutos
 
-Consulta la representación integrada y contrástala con la misma fuente oficial PAS.
-
-<div data-notation-score data-score-src="/bateria/notation/u1/pas-31-drag.musicxml" data-score-title="31. Drag (Ruff)" data-score-badge="PAS · REPRESENTACIÓN DE ESTUDIO DEL CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Abrir fuente oficial PAS"></div>
-
-La fuente PAS es la referencia para su notación y orden de manos; no reconstruyas el rudimento a partir de una descripción verbal.
+En la misma fuente PAS localiza **31. Drag (Ruff)**. PAS es la referencia para su notación y orden de manos; no reconstruyas el rudimento a partir de una descripción verbal.
 
 Empieza despacio. Prioriza claridad, relajación y relación entre la preparación de la mano y la nota principal.
 
