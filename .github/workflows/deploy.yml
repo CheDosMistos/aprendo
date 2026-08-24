@@ -122,7 +122,7 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             "set -euo pipefail; cd /opt/aprendo/runtime/releases/$RELEASE_SHA; export PATH=/opt/aprendo-node/bin:\$PATH; npm ci --omit=dev --no-audit --no-fund; test -f server/entry.mjs; test -d client/_astro"
 
-      - name: Upload activation helpers
+      - name: Upload deployment helpers
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -134,7 +134,7 @@ jobs:
             -o IdentitiesOnly=yes \
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
-            ops/backup-sqlite.py ops/activate-release.sh \
+            ops/backup-sqlite.py ops/activate-release.sh ops/verify-production-contract.sh \
             "$VPS_USER@$VPS_HOST:/tmp/"
 
       - name: Activate release with rollback
@@ -181,6 +181,21 @@ jobs:
              sudo -n /usr/bin/python3 /tmp/aprendo-configure-nginx-platform-proxy.py "$config"
              sudo -n /usr/sbin/nginx -t
              sudo -n /usr/bin/systemctl reload nginx'
+
+      - name: Verify versioned production contract
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            'set -euo pipefail; bash /tmp/verify-production-contract.sh'
 
       - name: Verify HTTPS platform login
         run: |
