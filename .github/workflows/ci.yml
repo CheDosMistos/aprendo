@@ -31,6 +31,31 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Test Nginx auth migration
+        run: |
+          set -euo pipefail
+          fixture="$(mktemp)"
+          cat > "$fixture" <<'NGINX'
+          server {
+              listen 443 ssl;
+              server_name aprendo.molacomer.com;
+              root /var/www/aprendo.molacomer.com;
+              auth_basic "Restricted";
+              auth_basic_user_file /etc/nginx/.htpasswd;
+              location /api/ {
+                  proxy_pass http://127.0.0.1:4321;
+              }
+              location / {
+                  try_files $uri $uri/ =404;
+              }
+          }
+          NGINX
+          python3 ops/configure-nginx-app-auth.py "$fixture"
+          ! grep -q 'auth_basic' "$fixture"
+          grep -q 'location / {' "$fixture"
+          grep -q 'proxy_pass http://127.0.0.1:4321;' "$fixture"
+          grep -q 'location /api/' "$fixture"
+
       - name: Build site
         run: npm run build
 
