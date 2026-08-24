@@ -102,14 +102,21 @@ const migrations: readonly Migration[] = [
     sql: `
       ALTER TABLE app_users ADD COLUMN username TEXT;
       ALTER TABLE app_users ADD COLUMN password_hash TEXT;
+      ALTER TABLE app_users ADD COLUMN role TEXT NOT NULL DEFAULT 'student'
+        CHECK (role IN ('student', 'admin'));
+      ALTER TABLE app_users ADD COLUMN avatar_version TEXT;
 
       UPDATE app_users
-      SET username = CASE WHEN stable_key = 'default' THEN 'admin' ELSE stable_key END
+      SET username = CASE WHEN stable_key = 'default' THEN 'mallo' ELSE stable_key END
       WHERE username IS NULL;
 
       UPDATE app_users
-      SET password_hash = 'scrypt$16384$8$1$ZyghCEq7VfXvdFwiy7RWXA$RIfEAqEs7h1OKggDwWt-32ZsvykRcifh3n3RUbadOJVnIA0svMeKRjUfLzb15Z_1m6QOBxi_QBllncvdUAPs1w'
+      SET password_hash = 'scrypt$16384$8$1$lnLshM-YpVOQZtoDDLl3cw$wO3EjcAiepsnIky7s-vT0HvwT0pDx4gNuCVqcsYQePm8CydACdFFLOytQxUiTBjpnzrSV2_bInlgjm2u-fGpTQ'
       WHERE stable_key = 'default' AND password_hash IS NULL;
+
+      UPDATE app_users
+      SET role = 'admin'
+      WHERE stable_key = 'default';
 
       CREATE UNIQUE INDEX idx_app_users_username
         ON app_users(username) WHERE username IS NOT NULL;
