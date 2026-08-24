@@ -21,6 +21,7 @@ const avatarUrl = user?.avatarVersion ? `/api/account/avatar/?v=${encodeURICompo
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <link rel="stylesheet" href="/home/home-polish.css" />
     <script is:inline>
@@ -69,6 +70,15 @@ const avatarUrl = user?.avatarVersion ? `/api/account/avatar/?v=${encodeURICompo
   :global(body.home-body) {
     display: block;
     background: #0c0b10;
+  }
+
+  :global(.home-header .brand-star) {
+    background: url('/favicon.svg') center / contain no-repeat;
+    color: transparent !important;
+  }
+
+  :global(.home-header .brand-star use) {
+    display: none;
   }
 
   :global(.home-header .icon-button),
