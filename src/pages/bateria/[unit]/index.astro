@@ -5,30 +5,20 @@ import {
   getBateriaContent,
   routeFor,
   unitEntries,
-  type BateriaContentEntry,
 } from '@courses/bateria/contentRegistry';
 
-interface Props {
-  entry: BateriaContentEntry;
-  sessions: BateriaContentEntry[];
+const entries = await getBateriaContent();
+const unitSlug = Astro.params.unit;
+const entry = entries.find((candidate) =>
+  candidate.data.kind === 'unit' && candidate.data.unitSlug === unitSlug,
+);
+
+if (!entry) {
+  return new Response(null, { status: 404, statusText: 'Not Found' });
 }
 
-export async function getStaticPaths() {
-  const entries = await getBateriaContent();
-
-  return entries
-    .filter((entry) => entry.data.kind === 'unit')
-    .map((entry) => ({
-      params: { unit: entry.data.unitSlug },
-      props: {
-        entry,
-        sessions: unitEntries(entries, entry.data.phase, entry.data.unit)
-          .filter((candidate) => candidate.data.kind !== 'unit'),
-      },
-    }));
-}
-
-const { entry, sessions } = Astro.props;
+const sessions = unitEntries(entries, entry.data.phase, entry.data.unit)
+  .filter((candidate) => candidate.data.kind !== 'unit');
 const { Content } = await render(entry);
 const unitLabel = `Fase ${entry.data.phase} · Unidad ${entry.data.unit}`;
 ---
