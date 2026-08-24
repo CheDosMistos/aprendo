@@ -31,6 +31,27 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Test SQLite backup helper
+        run: |
+          set -euo pipefail
+          source_db="${RUNNER_TEMP}/source.sqlite"
+          backup_db="${RUNNER_TEMP}/backup.sqlite"
+          python3 - "$source_db" <<'PY'
+          import sqlite3, sys
+          db = sqlite3.connect(sys.argv[1])
+          db.execute('CREATE TABLE proof (value TEXT NOT NULL)')
+          db.execute('INSERT INTO proof VALUES (?)', ('aprendo',))
+          db.commit()
+          db.close()
+          PY
+          python3 ops/backup-sqlite.py "$source_db" "$backup_db"
+          python3 - "$backup_db" <<'PY'
+          import sqlite3, sys
+          db = sqlite3.connect(sys.argv[1])
+          assert db.execute('SELECT value FROM proof').fetchone()[0] == 'aprendo'
+          db.close()
+          PY
+
       - name: Test Nginx auth migration
         run: |
           set -euo pipefail
