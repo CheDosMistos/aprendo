@@ -51,7 +51,12 @@ const hasError = Astro.url.searchParams.get('error') === '1';
             enterkeyhint="go"
             required
           />
-          {hasError && <span class="auth-error" aria-hidden="true">×</span>}
+          {hasError && (
+            <>
+              <span class="auth-error" aria-hidden="true">×</span>
+              <span class="auth-error-message" role="alert">Usuario o contraseña incorrectos.</span>
+            </>
+          )}
         </div>
       </form>
     </main>
@@ -155,6 +160,17 @@ const hasError = Astro.url.searchParams.get('error') === '1';
     color: #e12626;
     font: 700 4.5rem/1 system-ui, sans-serif;
     text-shadow: 0 1px 10px light-dark(rgb(255 255 255 / .8), rgb(0 0 0 / .65));
+  }
+  .auth-error-message {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   @keyframes login-mark-spin {

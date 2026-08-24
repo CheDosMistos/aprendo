@@ -42,6 +42,7 @@ const avatarUrl = user?.avatarVersion ? `/api/account/avatar/?v=${encodeURICompo
       if (avatarButton) {
         avatarButton.href = '/cuenta/';
         avatarButton.removeAttribute('aria-disabled');
+        avatarButton.setAttribute('aria-label', 'Mi cuenta');
         avatarButton.title = 'Mi cuenta';
         avatarButton.classList.remove('inactive-link');
         const sr = avatarButton.querySelector<HTMLElement>('.sr-only');
