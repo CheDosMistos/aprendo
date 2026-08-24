@@ -82,6 +82,15 @@ jobs:
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
+          scp \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            ops/backup-sqlite.py \
+            "$VPS_USER@$VPS_HOST:/tmp/aprendo-backup-sqlite.py"
+
           ssh \
             -i ~/.ssh/deploy_key \
             -o BatchMode=yes \
@@ -92,10 +101,9 @@ jobs:
             'set -euo pipefail
              db=/var/lib/aprendo/aprendo.sqlite
              test -f "$db"
-             mkdir -p /var/lib/aprendo/backups
              stamp=$(date -u +%Y%m%dT%H%M%SZ)
              target="/var/lib/aprendo/backups/pre-auth-${stamp}.sqlite"
-             DB_SOURCE="$db" DB_TARGET="$target" /opt/aprendo-node/bin/node -e '\''const { DatabaseSync } = require("node:sqlite"); const source = process.env.DB_SOURCE; const target = process.env.DB_TARGET; const db = new DatabaseSync(source, { readOnly: false }); db.exec(`VACUUM INTO '\''${target.replaceAll("'", "''")} '\''`.replace(".sqlite '\''", ".sqlite'")); db.close();'\''
+             /usr/bin/python3 /tmp/aprendo-backup-sqlite.py "$db" "$target"
              test -s "$target"
              ls -1t /var/lib/aprendo/backups/pre-auth-*.sqlite 2>/dev/null | tail -n +4 | xargs -r rm -f'
 
