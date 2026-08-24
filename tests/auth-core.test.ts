@@ -24,6 +24,54 @@ test('seeded administrator authenticates as mallo with the temporary password', 
   } finally { database.close(); }
 });
 
+test('seeded basic users are classified as students with hashed passwords', () => {
+  const database = openDatabase({ path: ':memory:' });
+  applyMigrations(database);
+  try {
+    const rows = database.prepare(`
+      SELECT stable_key, username, display_name, role, password_hash
+      FROM app_users
+      WHERE stable_key IN ('tripo', 'jamono')
+      ORDER BY stable_key
+    `).all() as Array<{
+      stable_key: string;
+      username: string;
+      display_name: string;
+      role: string;
+      password_hash: string;
+    }>;
+
+    assert.deepEqual(
+      rows.map(({ stable_key, username, display_name, role }) => ({ stable_key, username, display_name, role })),
+      [
+        { stable_key: 'jamono', username: 'Jamoño', display_name: 'Jamoño', role: 'student' },
+        { stable_key: 'tripo', username: 'Tripo', display_name: 'Tripo', role: 'student' },
+      ],
+    );
+    for (const row of rows) assert.match(row.password_hash, /^scrypt\$16384\$8\$1\$/);
+  } finally { database.close(); }
+});
+
+test('Unicode letters are valid in editable user logins', () => {
+  const database = openDatabase({ path: ':memory:' });
+  applyMigrations(database);
+  database.prepare("UPDATE app_users SET password_hash = ? WHERE stable_key = 'jamono'")
+    .run(hashPassword('test-password', Buffer.alloc(16, 9)));
+  const auth = new AuthService(database, () => new Date('2026-08-24T08:00:00.000Z'));
+  try {
+    const user = auth.authenticate('Jamoño', 'test-password')!;
+    const updated = auth.updateCredentials({
+      userId: user.id,
+      currentPassword: 'test-password',
+      username: 'Jamoño',
+      newPassword: 'new-password',
+    });
+    assert.equal(updated.username, 'Jamoño');
+    assert.equal(updated.role, 'student');
+    assert.equal(auth.authenticate('Jamoño', 'new-password')?.stableKey, 'jamono');
+  } finally { database.close(); }
+});
+
 test('authentication creates an opaque expiring session for an existing user', () => {
   const database = openDatabase({ path: ':memory:' });
   applyMigrations(database);
