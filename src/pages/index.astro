@@ -29,14 +29,14 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
           <span>Aprendo</span>
         </a>
 
-        <nav class="header-decoration" aria-label="Accesos no disponibles todavía">
+        <nav class="header-decoration" aria-label="Accesos de usuario">
           <a class="icon-button inactive-link" href="#" aria-disabled="true" title="Notificaciones no disponibles">
             <svg aria-hidden="true"><use href="/ui/icons.svg#bell"></use></svg>
             <span class="sr-only">Notificaciones no disponibles</span>
           </a>
-          <a class="avatar-button inactive-link" href="#" aria-disabled="true" title="Perfil no disponible">
+          <a class="avatar-button" href="/cuenta/" title="Mi cuenta">
             <svg aria-hidden="true"><use href="/ui/icons.svg#user"></use></svg>
-            <span class="sr-only">Perfil no disponible</span>
+            <span class="sr-only">Mi cuenta</span>
           </a>
         </nav>
       </header>
@@ -181,13 +181,18 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     background-repeat: no-repeat;
   }
 
+  :global(html[data-theme='light']) .home-cover {
+    --home-panel: rgba(255, 255, 255, 0.92);
+    --home-panel-2: rgba(255, 255, 255, 0.86);
+  }
+
   .cover-inner {
-    width: min(100% - (2 * var(--cover-gutter)), 86rem);
+    width: min(1180px, calc(100% - (var(--cover-gutter) * 2)));
     min-height: 100vh;
-    margin-inline: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding-block: clamp(1rem, 2.5vw, 2rem);
+    padding: 1.25rem 0 2rem;
   }
 
   .home-header {
@@ -198,73 +203,59 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
   }
 
   .home-brand {
-    min-height: 2.75rem;
     display: inline-flex;
     align-items: center;
-    gap: 0.7rem;
-    color: #fff;
-    font-size: clamp(1.15rem, 2vw, 1.5rem);
-    font-weight: 850;
+    gap: 0.72rem;
+    color: inherit;
     text-decoration: none;
-    text-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    font-weight: 760;
+    letter-spacing: -0.02em;
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
   }
 
   .brand-star {
-    width: 1.7rem;
-    height: 1.7rem;
-    color: #ffbb28;
+    width: 1.35rem;
+    height: 1.35rem;
   }
 
   .header-decoration {
     display: flex;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.65rem;
   }
 
   .icon-button,
   .avatar-button {
-    width: 2.9rem;
-    height: 2.9rem;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
     display: grid;
     place-items: center;
-    padding: 0;
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    border-radius: 50%;
-    background: rgba(10, 8, 14, 0.45);
-    color: #fff;
+    color: rgba(255, 255, 255, 0.92);
+    background: rgba(16, 13, 24, 0.48);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(10px);
     text-decoration: none;
-    backdrop-filter: blur(8px);
-  }
-
-  .avatar-button {
-    background: rgba(29, 17, 34, 0.72);
   }
 
   .icon-button svg,
   .avatar-button svg {
-    width: 1.35rem;
-    height: 1.35rem;
+    width: 1.25rem;
+    height: 1.25rem;
   }
 
   .hero-copy {
-    width: min(47rem, 64%);
-    margin-top: clamp(4rem, 10vh, 8rem);
+    width: min(650px, 100%);
+    margin-top: clamp(4rem, 13vh, 8.5rem);
   }
 
   .hero-copy h1 {
-    max-width: 10ch;
-    margin: 0 0 1.35rem;
-    color: #ffc42f;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 'Arial Black', sans-serif;
-    font-size: clamp(3.2rem, 7.2vw, 7rem);
-    font-weight: 900;
-    font-style: italic;
-    line-height: 0.8;
-    letter-spacing: -0.045em;
-    transform: skew(-4deg) rotate(-1.5deg);
-    transform-origin: left center;
-    -webkit-text-stroke: clamp(1px, 0.16vw, 3px) #141015;
-    text-shadow: 0.04em 0.05em 0 #141015, 0 0.08em 0.18em rgba(0, 0, 0, 0.75);
+    margin: 0;
+    font-size: clamp(3.25rem, 9vw, 7rem);
+    line-height: 0.91;
+    letter-spacing: -0.07em;
+    font-weight: 860;
+    text-wrap: balance;
   }
 
   .hero-copy h1 span {
@@ -272,80 +263,81 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
   }
 
   .hero-copy p {
+    margin: 1.55rem 0 0;
     max-width: 36rem;
-    margin: 0;
-    color: #fff;
-    font-size: clamp(1rem, 1.55vw, 1.28rem);
-    font-weight: 560;
-    line-height: 1.4;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.78);
+    font-size: clamp(1rem, 2vw, 1.22rem);
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.82);
   }
 
   .primary-actions {
-    width: min(54rem, 74%);
     display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
-    gap: 1rem;
-    margin-top: clamp(1.5rem, 3vw, 2.2rem);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: clamp(2rem, 6vh, 3.6rem);
+  }
+
+  .action,
+  .tool-card,
+  .settings-card {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 18px 55px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
   }
 
   .action {
-    min-height: 5rem;
+    min-height: 86px;
+    border-radius: 24px;
+    padding: 1.05rem 1.2rem;
     display: flex;
     align-items: center;
-    gap: 0.9rem;
-    padding: 0.9rem 1.15rem;
-    border-radius: 0.85rem;
-    font-weight: 800;
+    gap: 1rem;
     text-decoration: none;
-    box-shadow: 0 0.55rem 1.4rem rgba(0, 0, 0, 0.22);
+    color: inherit;
+    transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
   }
 
-  .action > svg:not(.chevron) {
-    width: 1.9rem;
-    height: 1.9rem;
-    flex: 0 0 auto;
+  .action:hover,
+  .tool-card:hover,
+  .avatar-button:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.28);
   }
 
-  .action .chevron {
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-left: auto;
+  .action svg,
+  .tool-icon svg,
+  .chevron {
+    width: 1.28rem;
+    height: 1.28rem;
     flex: 0 0 auto;
   }
 
   .action-primary {
-    background: #ffb525;
-    color: #18120a;
-  }
-
-  .action-primary:hover {
-    background: #ffc343;
+    background: color-mix(in srgb, var(--accent) 90%, #2b1845 10%);
   }
 
   .action-continue {
-    border: 1px solid rgba(255, 255, 255, 0.42);
-    background: rgba(12, 10, 14, 0.68);
-    color: #fff;
-    backdrop-filter: blur(10px);
+    background: rgba(19, 15, 27, 0.72);
   }
 
-  .action-copy,
-  .tool-copy {
-    min-width: 0;
+  .action-copy {
     display: grid;
     gap: 0.16rem;
+    min-width: 0;
+  }
+
+  .action-copy strong,
+  .tool-copy strong {
+    font-size: 1rem;
   }
 
   .action-copy small,
   .tool-copy small {
-    font-size: 0.82rem;
-    font-weight: 500;
-    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.67);
   }
 
-  .action-copy small {
-    color: rgba(255, 255, 255, 0.74);
+  .chevron {
+    margin-left: auto;
   }
 
   .home-tools {
@@ -353,86 +345,60 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0.9rem;
     margin-top: auto;
-    padding-top: clamp(2rem, 4vh, 4rem);
+    padding-top: clamp(2.4rem, 7vh, 5.5rem);
   }
 
   .tool-card,
   .settings-card {
-    min-height: 9.1rem;
-    padding: 1rem;
-    border: 1px solid color-mix(in srgb, var(--border) 82%, transparent);
-    border-radius: 0.9rem;
-    background: var(--home-panel);
-    color: var(--text);
-    box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(12px);
+    min-height: 124px;
+    border-radius: 22px;
+    background: rgba(19, 15, 27, 0.64);
   }
 
   .tool-card {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: end;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
     gap: 0.8rem;
+    color: inherit;
     text-decoration: none;
-  }
-
-  .tool-card:hover:not(.inactive-link) {
-    border-color: var(--accent);
-  }
-
-  .inactive-link {
-    cursor: default;
-  }
-
-  .inactive-link .tool-copy {
-    opacity: 0.78;
+    transition: transform 150ms ease, border-color 150ms ease;
   }
 
   .tool-icon {
-    width: 2.85rem;
-    height: 2.85rem;
+    width: 42px;
+    height: 42px;
+    border-radius: 14px;
     display: grid;
     place-items: center;
-    align-self: start;
-    border-radius: 0.7rem;
-    background: var(--home-panel-2);
+    flex: 0 0 auto;
   }
 
-  .tool-icon svg {
-    width: 1.65rem;
-    height: 1.65rem;
-  }
+  .tool-icon-purple { background: rgba(139, 92, 246, 0.22); }
+  .tool-icon-green { background: rgba(34, 197, 94, 0.18); }
+  .tool-icon-blue { background: rgba(59, 130, 246, 0.18); }
+  .tool-icon-neutral { background: rgba(255, 255, 255, 0.1); }
 
-  .tool-icon-purple { color: #9b63e8; }
-  .tool-icon-green { color: #45b96a; }
-  .tool-icon-blue { color: #4da7ec; }
-  .tool-icon-neutral { color: var(--muted); }
-
-  .tool-copy strong {
-    font-size: 1.02rem;
-  }
-
-  .tool-copy small {
-    color: var(--muted);
-  }
-
-  .tool-card > .chevron {
-    width: 1.1rem;
-    height: 1.1rem;
-    color: var(--muted);
-    align-self: center;
+  .tool-copy {
+    display: grid;
+    gap: 0.18rem;
+    min-width: 0;
   }
 
   .settings-card {
+    padding: 1rem;
     display: grid;
-    align-content: space-between;
-    gap: 1rem;
+    gap: 0.72rem;
   }
 
   .settings-heading {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.8rem;
+  }
+
+  .inactive-link {
+    cursor: default;
   }
 
   .sr-only {
@@ -447,103 +413,29 @@ const initialContinueRoute = continueItems[0]?.route ?? bateriaCourse.route;
     border: 0;
   }
 
-  @media (max-width: 70rem) {
-    .hero-copy {
-      width: 62%;
-    }
-
-    .primary-actions {
-      width: 80%;
-    }
-
+  @media (max-width: 900px) {
+    .primary-actions,
     .home-tools {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-
-    .tool-card,
-    .settings-card {
-      min-height: 7.2rem;
-    }
   }
 
-  @media (max-width: 42rem) {
-    .home-cover {
-      min-height: 100svh;
-      background-image:
-        linear-gradient(0deg, rgba(7, 5, 10, 0.96) 0%, rgba(7, 5, 10, 0.56) 48%, rgba(7, 5, 10, 0.28) 100%),
-        url('/home/hero.webp');
-      background-position: center, 67% center;
-      background-size: cover;
-    }
-
+  @media (max-width: 620px) {
     .cover-inner {
-      min-height: 100svh;
+      padding-top: 0.85rem;
     }
 
     .hero-copy {
-      width: 100%;
-      margin-top: clamp(5.5rem, 25vh, 10rem);
+      margin-top: 3.5rem;
     }
 
-    .hero-copy h1 {
-      max-width: 8.5ch;
-      font-size: clamp(3.15rem, 14.5vw, 5rem);
-    }
-
-    .hero-copy p {
-      font-size: 1rem;
-    }
-
-    .primary-actions {
-      width: 100%;
-      grid-template-columns: 1fr;
-      gap: 0.7rem;
-    }
-
-    .action {
-      min-height: 4.35rem;
-    }
-
-    .home-tools {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 0.65rem;
-      margin-top: 1.4rem;
-      padding-top: 0;
-    }
-
-    .tool-card,
-    .settings-card {
-      min-height: 7.5rem;
-      padding: 0.85rem;
-    }
-
-    .tool-card {
-      grid-template-columns: 1fr auto;
-      align-content: space-between;
-    }
-
-    .tool-card .tool-icon,
-    .tool-card .tool-copy {
-      grid-column: 1;
-    }
-
-    .tool-card > .chevron {
-      grid-column: 2;
-      grid-row: 1 / 3;
-    }
-
-    .settings-card {
-      grid-column: 1 / -1;
-    }
-  }
-
-  @media (max-width: 25rem) {
+    .primary-actions,
     .home-tools {
       grid-template-columns: 1fr;
     }
 
-    .settings-card {
-      grid-column: auto;
+    .home-tools {
+      padding-top: 2rem;
     }
   }
 </style>
