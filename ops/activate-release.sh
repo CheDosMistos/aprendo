@@ -11,9 +11,10 @@ case "$release_sha" in
   *[!A-Za-z0-9._-]*|'') echo "invalid release identifier" >&2; exit 2 ;;
 esac
 
-root="${APRENDO_ROOT:-/opt/aprendo}"
-releases_dir="${APRENDO_RELEASES_DIR:-$root/releases}"
-runtime_link="${APRENDO_RUNTIME_LINK:-$root/runtime}"
+runtime_dir="${APRENDO_RUNTIME_DIR:-/opt/aprendo/runtime}"
+releases_dir="${APRENDO_RELEASES_DIR:-$runtime_dir/releases}"
+current_link="${APRENDO_CURRENT_LINK:-$runtime_dir/current}"
+server_link="${APRENDO_SERVER_LINK:-$runtime_dir/server}"
 data_dir="${APRENDO_DATA_DIR:-/var/lib/aprendo}"
 db_path="${APRENDO_DB_PATH:-$data_dir/aprendo.sqlite}"
 backup_dir="${APRENDO_BACKUP_DIR:-$data_dir/backups}"
@@ -62,7 +63,27 @@ restore_database() {
   /usr/bin/python3 "$backup_helper" "$backup" "$db_path"
 }
 
-mkdir -p "$releases_dir" "$backup_dir"
+switch_current() {
+  local target="$1"
+  local next_link="$runtime_dir/.current-next-$$"
+  rm -f "$next_link"
+  ln -s "$target" "$next_link"
+  mv -Tf "$next_link" "$current_link"
+}
+
+ensure_server_link() {
+  if [ -L "$server_link" ]; then
+    return 0
+  fi
+  if [ -e "$server_link" ]; then
+    echo "server path is not a symlink after legacy migration" >&2
+    return 1
+  fi
+  ln -s current/server "$server_link"
+}
+
+mkdir -p "$runtime_dir" "$releases_dir" "$backup_dir"
+test -w "$runtime_dir"
 test -d "$release"
 test -f "$release/server/entry.mjs"
 test -f "$release/package.json"
@@ -70,42 +91,30 @@ test -f "$release/package-lock.json"
 
 previous=""
 legacy=""
-if [ -L "$runtime_link" ]; then
-  previous="$(readlink -f "$runtime_link")"
-elif [ -d "$runtime_link" ]; then
-  legacy="$releases_dir/legacy-$(date -u +%Y%m%dT%H%M%SZ)"
-  previous="$legacy"
-elif [ -e "$runtime_link" ]; then
-  echo "runtime path exists but is neither a directory nor a symlink" >&2
+if [ -L "$current_link" ]; then
+  previous="$(readlink -f "$current_link")"
+elif [ -e "$current_link" ]; then
+  echo "current path exists but is not a symlink" >&2
   exit 1
 fi
 
 backup=""
 switched=0
-service_stopped=0
+service_started_new=0
 
 rollback() {
   local status=$?
   trap - ERR
   set +e
-  if [ "$service_stopped" -eq 0 ]; then
+  if [ "$service_started_new" -eq 1 ]; then
     run_systemctl stop "$service_name"
   fi
-  if [ "$switched" -eq 1 ]; then
-    rm -f "$runtime_link"
-    if [ -n "$previous" ] && [ -d "$previous" ]; then
-      rollback_link="$root/.runtime-rollback-$$"
-      rm -f "$rollback_link"
-      ln -s "$previous" "$rollback_link"
-      mv -Tf "$rollback_link" "$runtime_link"
-    fi
-  elif [ -n "$legacy" ] && [ -d "$legacy" ] && [ ! -e "$runtime_link" ]; then
-    rollback_link="$root/.runtime-rollback-$$"
-    ln -s "$legacy" "$rollback_link"
-    mv -Tf "$rollback_link" "$runtime_link"
+  if [ -n "$previous" ] && [ -d "$previous" ]; then
+    switch_current "$previous"
+    ensure_server_link
   fi
   restore_database "$backup"
-  if [ -e "$runtime_link" ]; then
+  if [ -n "$previous" ] && [ -d "$previous" ]; then
     run_systemctl start "$service_name"
     wait_for_health || true
   fi
@@ -114,7 +123,6 @@ rollback() {
 trap rollback ERR
 
 run_systemctl stop "$service_name"
-service_stopped=1
 
 if [ -f "$db_path" ]; then
   stamp="$(date -u +%Y%m%dT%H%M%SZ)"
@@ -123,24 +131,32 @@ if [ -f "$db_path" ]; then
   test -s "$backup"
 fi
 
-if [ -n "$legacy" ]; then
-  mv "$runtime_link" "$legacy"
+# One-time conversion of the historical mutable runtime into an immutable legacy release.
+if [ -z "$previous" ]; then
+  legacy="$releases_dir/legacy-$(date -u +%Y%m%dT%H%M%SZ)"
+  mkdir "$legacy"
+  shopt -s dotglob nullglob
+  for item in "$runtime_dir"/*; do
+    [ "$item" = "$releases_dir" ] && continue
+    [ "$item" = "$current_link" ] && continue
+    mv "$item" "$legacy/"
+  done
+  shopt -u dotglob nullglob
+  previous="$legacy"
+  switch_current "$previous"
+  ensure_server_link
 fi
 
-next_link="$root/.runtime-next-$$"
-rm -f "$next_link"
-ln -s "$release" "$next_link"
-mv -Tf "$next_link" "$runtime_link"
+switch_current "$release"
 switched=1
-
+ensure_server_link
 run_systemctl start "$service_name"
-service_stopped=0
+service_started_new=1
 wait_for_health
 
 trap - ERR
 
-# Keep the active release, the previous release and the three newest other releases.
-current="$(readlink -f "$runtime_link")"
+current="$(readlink -f "$current_link")"
 mapfile -t candidates < <(find "$releases_dir" -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | awk '{print $2}')
 kept=0
 for candidate in "${candidates[@]}"; do
