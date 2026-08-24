@@ -1,6 +1,5 @@
 import type { APIRoute } from 'astro';
-import { COMPETENCY_ID_PATTERN, PAS_RUDIMENT_SET } from '@courses/bateria/curriculum';
-import { isKnownCourse } from '@courses/courseRegistry';
+import { isKnownCourse, validateCourseSkill } from '@courses/courseRegistry';
 import {
   ApiRequestError,
   apiErrorResponse,
@@ -32,7 +31,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     assertSameOrigin(request);
     if (!locals.user) throw new ApiRequestError('Authentication required.', 401);
     const body = await readJsonBody(request);
-    validateCourseSkill(body);
+    assertKnownCourseSkill(body);
     const state = getRuntime().skillsFor(locals.user.stableKey).record(body);
     return jsonResponse({ state }, 201);
   } catch (error) {
@@ -48,17 +47,15 @@ function parseSkillType(value: string): SkillType {
   throw new ApiRequestError('Invalid skillType.');
 }
 
-function validateCourseSkill(value: unknown): void {
+function assertKnownCourseSkill(value: unknown): void {
   if (typeof value !== 'object' || value === null || Array.isArray(value)) throw new ApiRequestError('Invalid skill evidence.');
   const input = value as Record<string, unknown>;
-  if (input.courseId !== 'bateria') throw new ApiRequestError('Unknown course.', 404);
-  if (input.skillType === 'rudiment') {
-    if (typeof input.skillId !== 'string' || !PAS_RUDIMENT_SET.has(input.skillId)) throw new ApiRequestError('Unknown PAS rudiment.', 422);
-    return;
+  if (typeof input.courseId !== 'string') throw new ApiRequestError('Unknown course.', 404);
+  if (typeof input.skillType !== 'string') throw new ApiRequestError('Invalid skillType.');
+  if (typeof input.skillId !== 'string') throw new ApiRequestError('Invalid skillId.', 422);
+
+  const validation = validateCourseSkill(input.courseId, input.skillType, input.skillId);
+  if (!validation.valid) {
+    throw new ApiRequestError(validation.message ?? 'Invalid course skill.', validation.status ?? 400);
   }
-  if (input.skillType === 'competency') {
-    if (typeof input.skillId !== 'string' || !COMPETENCY_ID_PATTERN.test(input.skillId)) throw new ApiRequestError('Unknown battery competency.', 422);
-    return;
-  }
-  throw new ApiRequestError('Invalid skillType.');
 }

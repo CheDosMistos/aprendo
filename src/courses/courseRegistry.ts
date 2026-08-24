@@ -1,4 +1,5 @@
 import { getBateriaContent } from '@courses/bateria/contentRegistry';
+export { validateCourseSkill } from '@courses/courseSkillRegistry';
 
 export interface TrackableContent {
   courseId: string;
