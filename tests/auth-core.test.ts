@@ -42,6 +42,51 @@ test('fresh databases contain no usable bootstrap passwords', () => {
   } finally { database.close(); }
 });
 
+test('database uniqueness matches the case-insensitive username lookup', () => {
+  const database = openDatabase({ path: ':memory:' });
+  applyMigrations(database);
+  try {
+    assert.throws(() => {
+      database.prepare(`
+        INSERT INTO app_users (stable_key, display_name, username, role)
+        VALUES (?, ?, ?, 'student')
+      `).run('case-duplicate', 'Duplicate', 'MALLO');
+    }, /UNIQUE constraint failed/);
+
+    const version = database.prepare('SELECT max(version) AS version FROM schema_migrations').get() as { version: number };
+    assert.equal(version.version, 7);
+  } finally { database.close(); }
+});
+
+test('username collation migration fails atomically if an old database already contains a case collision', () => {
+  const database = openDatabase({ path: ':memory:' });
+  applyMigrations(database);
+  try {
+    // Recreate the exact pre-v7 invariant so this fixture represents a database
+    // that had already reached schema v6 before this migration existed.
+    database.exec(`
+      DELETE FROM schema_migrations WHERE version = 7;
+      DROP INDEX idx_app_users_username;
+      CREATE UNIQUE INDEX idx_app_users_username
+        ON app_users(username) WHERE username IS NOT NULL;
+    `);
+    database.prepare(`
+      INSERT INTO app_users (stable_key, display_name, username, role)
+      VALUES (?, ?, ?, 'student')
+    `).run('case-duplicate', 'Duplicate', 'MALLO');
+
+    assert.throws(() => applyMigrations(database), /UNIQUE constraint failed/);
+
+    const version7 = database.prepare('SELECT version FROM schema_migrations WHERE version = 7').get();
+    assert.equal(version7, undefined);
+    const oldIndex = database.prepare(`
+      SELECT sql FROM sqlite_master WHERE type = 'index' AND name = 'idx_app_users_username'
+    `).get() as { sql: string };
+    assert.doesNotMatch(oldIndex.sql, /COLLATE NOCASE/);
+    assert.equal((database.prepare('SELECT count(*) AS total FROM app_users WHERE username IN (?, ?)').get('mallo', 'MALLO') as { total: number }).total, 2);
+  } finally { database.close(); }
+});
+
 test('Unicode letters are valid in editable user logins', () => {
   const database = openDatabase({ path: ':memory:' });
   applyMigrations(database);
