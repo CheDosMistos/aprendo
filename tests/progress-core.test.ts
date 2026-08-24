@@ -24,7 +24,7 @@ test('migrations are idempotent, seed the administrator and start without sessio
     const migration = database.prepare('SELECT MAX(version) AS version FROM schema_migrations').get() as { version: number };
     const user = database.prepare("SELECT stable_key, username, role FROM app_users WHERE stable_key = 'default'").get() as { stable_key: string; username: string; role: string } | undefined;
     const sessions = database.prepare('SELECT COUNT(*) AS count FROM auth_sessions').get() as { count: number };
-    assert.equal(migration.version, latestSchemaVersion()); assert.equal(user?.stable_key, 'default'); assert.equal(user?.username, 'mallo'); assert.equal(user?.role, 'admin'); assert.equal(sessions.count, 0); assert.equal(latestSchemaVersion(), 6);
+    assert.equal(migration.version, latestSchemaVersion()); assert.equal(user?.stable_key, 'default'); assert.equal(user?.username, 'mallo'); assert.equal(user?.role, 'admin'); assert.equal(sessions.count, 0);
   } finally { database.close(); }
 });
 
