@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import test from 'node:test';
-import { validateCourseSkill } from '../src/courses/courseRegistry.ts';
+import { validateCourseSkill } from '../src/courses/courseSkillRegistry.ts';
 
-test('course registry owns battery-specific skill validation', () => {
+test('course skill registry owns battery-specific skill validation', () => {
   assert.deepEqual(validateCourseSkill('bateria', 'rudiment', 'Flam'), { valid: true });
   assert.equal(validateCourseSkill('bateria', 'rudiment', 'Not a PAS rudiment').status, 422);
   assert.deepEqual(validateCourseSkill('bateria', 'competency', 'A1'), { valid: true });
