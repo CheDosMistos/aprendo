@@ -1,0 +1,61 @@
+name: Browser E2E
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  browser-e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Build site
+        run: npm run build
+
+      - name: Install Chromium and WebKit
+        run: npx playwright install --with-deps chromium webkit
+
+      - name: Run browser journeys
+        env:
+          HOST: 127.0.0.1
+          PORT: 4323
+          APRENDO_DB_PATH: ${{ runner.temp }}/aprendo-e2e.sqlite
+          APRENDO_AVATAR_DIR: ${{ runner.temp }}/aprendo-e2e-avatars
+          E2E_USERNAME: e2e-admin
+          E2E_PASSWORD: ci-e2e-password-2026
+          PLAYWRIGHT_BASE_URL: http://localhost:4323
+        run: |
+          set -euo pipefail
+          printf '%s' "$E2E_PASSWORD" | npm run provision-user -- \
+            --stable-key e2e-admin \
+            --username "$E2E_USERNAME" \
+            --display-name 'E2E administrator' \
+            --role admin
+
+          node dist/server/entry.mjs > "${RUNNER_TEMP}/aprendo-e2e-runtime.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true; cat "${RUNNER_TEMP}/aprendo-e2e-runtime.log" || true' EXIT
+
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            if curl --fail --silent --max-time 2 http://127.0.0.1:4323/api/health/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent --max-time 2 http://127.0.0.1:4323/api/health/ >/dev/null
+
+          npm run test:e2e
