@@ -6,6 +6,15 @@ export default defineConfig({
   site: 'https://aprendo.molacomer.com',
   output: 'server',
   trailingSlash: 'always',
+  security: {
+    checkOrigin: true,
+    allowedDomains: [
+      {
+        hostname: 'aprendo.molacomer.com',
+        protocol: 'https',
+      },
+    ],
+  },
   adapter: node({
     mode: 'standalone',
   }),
