@@ -49,7 +49,7 @@ export class AuthService {
       FROM app_users
       WHERE username = ? COLLATE NOCASE
       LIMIT 1
-    `).get(normalizedUsername) as UserRow | undefined;
+    `).get(normalizedUsername) as unknown as UserRow | undefined;
 
     const valid = verifyPassword(password, row?.password_hash ?? DUMMY_PASSWORD_HASH);
     if (!row?.password_hash || !valid) return null;
@@ -88,7 +88,7 @@ export class AuthService {
       JOIN app_users u ON u.id = s.user_id
       WHERE s.token_hash = ? AND s.expires_at > ?
       LIMIT 1
-    `).get(tokenHash, this.now().toISOString()) as SessionUserRow | undefined;
+    `).get(tokenHash, this.now().toISOString()) as unknown as SessionUserRow | undefined;
 
     if (!row) return null;
     this.database.prepare('UPDATE auth_sessions SET last_seen_at = ? WHERE token_hash = ?')
@@ -114,7 +114,7 @@ export class AuthService {
     const row = this.database.prepare(`
       SELECT id, stable_key, username, display_name, password_hash, role, avatar_version
       FROM app_users WHERE id = ?
-    `).get(input.userId) as UserRow | undefined;
+    `).get(input.userId) as unknown as UserRow | undefined;
     if (!row?.password_hash || !verifyPassword(input.currentPassword, row.password_hash)) {
       throw new Error('La contraseña actual no es correcta.');
     }
@@ -136,7 +136,7 @@ export class AuthService {
     const updated = this.database.prepare(`
       SELECT id, stable_key, username, display_name, password_hash, role, avatar_version
       FROM app_users WHERE id = ?
-    `).get(input.userId) as UserRow;
+    `).get(input.userId) as unknown as UserRow;
     return mapUser(updated);
   }
 
