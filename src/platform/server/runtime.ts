@@ -1,5 +1,6 @@
 import type { DatabaseSync } from 'node:sqlite';
 import { AuthService } from '@platform/auth/authService';
+import { LoginRateLimiter } from '@platform/auth/loginRateLimiter';
 import { openDatabase } from '@platform/data/database';
 import { applyMigrations, latestSchemaVersion } from '@platform/data/migrations';
 import { ProgressService } from '@platform/progress/progressService';
@@ -8,6 +9,7 @@ import { SkillEvidenceService } from '@platform/progress/skillEvidence';
 interface RuntimeState {
   database: DatabaseSync;
   auth: AuthService;
+  loginRateLimiter: LoginRateLimiter;
   progress: ProgressService;
   skills: SkillEvidenceService;
   progressFor(userStableKey: string): ProgressService;
@@ -26,6 +28,7 @@ export function getRuntime(): RuntimeState {
     runtime = {
       database,
       auth: new AuthService(database),
+      loginRateLimiter: new LoginRateLimiter(),
       progress: new ProgressService(database),
       skills: new SkillEvidenceService(database),
       progressFor: (userStableKey) => new ProgressService(database, { userStableKey }),
