@@ -82,8 +82,15 @@ jobs:
           ! grep -q 'auth_basic_user_file' "$fixture"
           grep -q 'return 301 https://$host$request_uri;' "$fixture"
           grep -q 'location / {' "$fixture"
-          grep -q 'proxy_pass http://127.0.0.1:4321;' "$fixture"
+          grep -q 'auth_request /__aprendo_session_check;' "$fixture"
+          grep -q 'location = /__aprendo_session_check {' "$fixture"
+          grep -q 'proxy_pass http://127.0.0.1:4321/api/auth/check/;' "$fixture"
+          grep -q 'location = /login/ {' "$fixture"
+          grep -q 'location \^~ /_astro/ {' "$fixture"
           grep -q 'location /api/' "$fixture"
+          cp "$fixture" "${fixture}.once"
+          python3 ops/configure-nginx-app-auth.py "$fixture"
+          cmp "$fixture" "${fixture}.once"
 
       - name: Build site
         run: npm run build
@@ -113,24 +120,21 @@ jobs:
 
           headers="$(mktemp)"
           root_status="$(curl --silent --dump-header "$headers" --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/)"
-          echo "root_status=$root_status"
           test "$root_status" = "303"
           grep -qi '^location: /login/' "$headers"
 
           course_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/)"
-          echo "course_status=$course_status"
           test "$course_status" = "303"
           account_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/cuenta/)"
-          echo "account_status=$account_status"
           test "$account_status" = "303"
 
+          # @astrojs/node serves public files before Astro middleware. Production Nginx
+          # therefore enforces the additional auth_request boundary tested above.
           asset_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
-          echo "asset_status=$asset_status"
-          test "$asset_status" = "303"
+          test "$asset_status" = "200"
 
           login_html="$(mktemp)"
           login_status="$(curl --silent --output "$login_html" --write-out '%{http_code}' http://127.0.0.1:4322/login/)"
-          echo "login_status=$login_status"
           test "$login_status" = "200"
           grep -q 'type="text"' "$login_html"
           grep -q 'name="username"' "$login_html"
@@ -145,8 +149,8 @@ jobs:
           grep -q 'class="auth-error"' "$error_html"
 
           api_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/progress/bateria/)"
-          echo "api_status=$api_status"
           test "$api_status" = "401"
           avatar_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/account/avatar/)"
-          echo "avatar_status=$avatar_status"
           test "$avatar_status" = "401"
+          check_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/auth/check/)"
+          test "$check_status" = "401"
