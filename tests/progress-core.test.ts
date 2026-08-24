@@ -22,8 +22,8 @@ test('migrations are idempotent and seed the internal user', () => {
   try {
     applyMigrations(database); applyMigrations(database);
     const migration = database.prepare('SELECT MAX(version) AS version FROM schema_migrations').get() as { version: number };
-    const user = database.prepare("SELECT stable_key FROM app_users WHERE stable_key = 'default'").get() as { stable_key: string } | undefined;
-    assert.equal(migration.version, latestSchemaVersion()); assert.equal(user?.stable_key, 'default'); assert.equal(latestSchemaVersion(), 3);
+    const user = database.prepare("SELECT stable_key, username FROM app_users WHERE stable_key = 'default'").get() as { stable_key: string; username: string } | undefined;
+    assert.equal(migration.version, latestSchemaVersion()); assert.equal(user?.stable_key, 'default'); assert.equal(user?.username, 'admin'); assert.equal(latestSchemaVersion(), 4);
   } finally { database.close(); }
 });
 
