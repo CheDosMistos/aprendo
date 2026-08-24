@@ -4,12 +4,17 @@ import type { DatabaseSync } from 'node:sqlite';
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000;
 const SCRYPT_KEY_LENGTH = 64;
 const DUMMY_PASSWORD_HASH = 'scrypt$16384$8$1$ZyghCEq7VfXvdFwiy7RWXA$RIfEAqEs7h1OKggDwWt-32ZsvykRcifh3n3RUbadOJVnIA0svMeKRjUfLzb15Z_1m6QOBxi_QBllncvdUAPs1w';
+const USERNAME_PATTERN = /^[A-Za-z0-9._-]{3,40}$/;
+
+export type UserRole = 'student' | 'admin';
 
 export interface AuthUser {
   id: number;
   stableKey: string;
   username: string;
   displayName: string | null;
+  role: UserRole;
+  avatarVersion: string | null;
 }
 
 interface UserRow {
@@ -18,6 +23,8 @@ interface UserRow {
   username: string;
   display_name: string | null;
   password_hash: string | null;
+  role: UserRole;
+  avatar_version: string | null;
 }
 
 interface SessionUserRow extends UserRow {
@@ -38,9 +45,9 @@ export class AuthService {
     if (!normalizedUsername || !password || normalizedUsername.length > 80 || password.length > 512) return null;
 
     const row = this.database.prepare(`
-      SELECT id, stable_key, username, display_name, password_hash
+      SELECT id, stable_key, username, display_name, password_hash, role, avatar_version
       FROM app_users
-      WHERE username = ?
+      WHERE username = ? COLLATE NOCASE
       LIMIT 1
     `).get(normalizedUsername) as UserRow | undefined;
 
@@ -75,7 +82,8 @@ export class AuthService {
     if (!token || token.length > 256) return null;
     const tokenHash = hashToken(token);
     const row = this.database.prepare(`
-      SELECT u.id, u.stable_key, u.username, u.display_name, u.password_hash, s.expires_at
+      SELECT u.id, u.stable_key, u.username, u.display_name, u.password_hash,
+             u.role, u.avatar_version, s.expires_at
       FROM auth_sessions s
       JOIN app_users u ON u.id = s.user_id
       WHERE s.token_hash = ? AND s.expires_at > ?
@@ -86,6 +94,54 @@ export class AuthService {
     this.database.prepare('UPDATE auth_sessions SET last_seen_at = ? WHERE token_hash = ?')
       .run(this.now().toISOString(), tokenHash);
     return mapUser(row);
+  }
+
+  updateCredentials(input: {
+    userId: number;
+    currentPassword: string;
+    username: string;
+    newPassword?: string;
+    currentSessionToken?: string;
+  }): AuthUser {
+    const username = input.username.trim();
+    if (!USERNAME_PATTERN.test(username)) {
+      throw new Error('El login debe tener entre 3 y 40 caracteres y usar solo letras, números, punto, guion o guion bajo.');
+    }
+    if (input.newPassword !== undefined && input.newPassword.length > 0 && (input.newPassword.length < 4 || input.newPassword.length > 128)) {
+      throw new Error('La nueva contraseña debe tener entre 4 y 128 caracteres.');
+    }
+
+    const row = this.database.prepare(`
+      SELECT id, stable_key, username, display_name, password_hash, role, avatar_version
+      FROM app_users WHERE id = ?
+    `).get(input.userId) as UserRow | undefined;
+    if (!row?.password_hash || !verifyPassword(input.currentPassword, row.password_hash)) {
+      throw new Error('La contraseña actual no es correcta.');
+    }
+
+    const collision = this.database.prepare(`
+      SELECT id FROM app_users WHERE username = ? COLLATE NOCASE AND id <> ? LIMIT 1
+    `).get(username, input.userId) as { id: number } | undefined;
+    if (collision) throw new Error('Ese login ya está en uso.');
+
+    const nextHash = input.newPassword ? hashPassword(input.newPassword) : row.password_hash;
+    this.database.prepare('UPDATE app_users SET username = ?, password_hash = ? WHERE id = ?')
+      .run(username, nextHash, input.userId);
+
+    if (input.newPassword && input.currentSessionToken) {
+      this.database.prepare('DELETE FROM auth_sessions WHERE user_id = ? AND token_hash <> ?')
+        .run(input.userId, hashToken(input.currentSessionToken));
+    }
+
+    const updated = this.database.prepare(`
+      SELECT id, stable_key, username, display_name, password_hash, role, avatar_version
+      FROM app_users WHERE id = ?
+    `).get(input.userId) as UserRow;
+    return mapUser(updated);
+  }
+
+  setAvatarVersion(userId: number, version: string | null): void {
+    this.database.prepare('UPDATE app_users SET avatar_version = ? WHERE id = ?').run(version, userId);
   }
 
   revokeSession(token: string | undefined): void {
@@ -134,5 +190,7 @@ function mapUser(row: UserRow): AuthUser {
     stableKey: row.stable_key,
     username: row.username,
     displayName: row.display_name,
+    role: row.role,
+    avatarVersion: row.avatar_version,
   };
 }
