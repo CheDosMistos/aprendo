@@ -38,6 +38,38 @@ const hasError = Astro.url.searchParams.get('error') === '1';
         {hasError && <span class="auth-error" aria-hidden="true">×</span>}
       </form>
     </main>
+
+    <script is:inline>
+      (() => {
+        const form = document.querySelector('form');
+        const username = form?.elements.namedItem('username');
+        const password = form?.elements.namedItem('password');
+
+        if (!(form instanceof HTMLFormElement)) return;
+        if (!(username instanceof HTMLInputElement)) return;
+        if (!(password instanceof HTMLInputElement)) return;
+
+        let submitting = false;
+
+        const submit = () => {
+          if (submitting) return;
+          submitting = true;
+          form.requestSubmit();
+          if (!form.checkValidity()) submitting = false;
+        };
+
+        password.addEventListener('keydown', (event) => {
+          if (event.key !== 'Enter' || event.isComposing) return;
+          event.preventDefault();
+          submit();
+        });
+
+        password.addEventListener('blur', () => {
+          if (username.value.trim() === '' || password.value === '') return;
+          submit();
+        });
+      })();
+    </script>
   </body>
 </html>
 
