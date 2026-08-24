@@ -96,8 +96,11 @@ jobs:
           ! grep -q '__aprendo_session_check' "$fixture"
           grep -q 'return 301 https://$host$request_uri;' "$fixture"
           grep -q 'location / {' "$fixture"
+          grep -q 'location /api/ {' "$fixture"
           grep -q 'proxy_pass http://127.0.0.1:4321;' "$fixture"
-          grep -q 'location /api/' "$fixture"
+          test "$(grep -c 'proxy_set_header X-Forwarded-Host $host;' "$fixture")" = "2"
+          test "$(grep -c 'proxy_set_header X-Forwarded-Proto $scheme;' "$fixture")" = "2"
+          test "$(grep -c 'proxy_set_header X-Forwarded-Port $server_port;' "$fixture")" = "2"
           cp "$fixture" "${fixture}.once"
           python3 ops/configure-nginx-platform-proxy.py "$fixture"
           cmp "$fixture" "${fixture}.once"
@@ -162,6 +165,36 @@ jobs:
           test "$login_post_status" = "303"
           session_cookie="$(sed -n 's/^set-cookie: \(aprendo_session=[^;]*\).*/\1/ip' "$login_headers" | head -n 1 | tr -d '\r')"
           test -n "$session_cookie"
+
+          forwarded_login_headers="$(mktemp)"
+          forwarded_login_status="$(curl \
+            --silent \
+            --dump-header "$forwarded_login_headers" \
+            --output /dev/null \
+            --write-out '%{http_code}' \
+            -X POST \
+            -H 'Origin: https://aprendo.molacomer.com' \
+            -H 'X-Forwarded-Host: aprendo.molacomer.com' \
+            -H 'X-Forwarded-Proto: https' \
+            -H 'X-Forwarded-Port: 443' \
+            -H 'Content-Type: application/x-www-form-urlencoded' \
+            --data 'username=mallo&password=1234' \
+            http://127.0.0.1:4322/api/auth/login/)"
+          test "$forwarded_login_status" = "303"
+
+          hostile_origin_status="$(curl \
+            --silent \
+            --output /dev/null \
+            --write-out '%{http_code}' \
+            -X POST \
+            -H 'Origin: https://evil.example' \
+            -H 'X-Forwarded-Host: evil.example' \
+            -H 'X-Forwarded-Proto: https' \
+            -H 'X-Forwarded-Port: 443' \
+            -H 'Content-Type: application/x-www-form-urlencoded' \
+            --data 'username=mallo&password=1234' \
+            http://127.0.0.1:4322/api/auth/login/)"
+          test "$hostile_origin_status" = "403"
 
           home_html="$(mktemp)"
           authenticated_root_status="$(curl --silent -H "Cookie: $session_cookie" --output "$home_html" --write-out '%{http_code}' http://127.0.0.1:4322/)"

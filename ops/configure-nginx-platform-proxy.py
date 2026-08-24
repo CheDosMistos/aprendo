@@ -14,7 +14,9 @@ proxy_http_version 1.1;
 proxy_set_header Host $host;
 proxy_set_header X-Real-IP $remote_addr;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-proxy_set_header X-Forwarded-Proto $scheme;"""
+proxy_set_header X-Forwarded-Host $host;
+proxy_set_header X-Forwarded-Proto $scheme;
+proxy_set_header X-Forwarded-Port $server_port;"""
 
 
 def matching_brace(text: str, open_brace: int) -> int:
@@ -55,6 +57,29 @@ def remove_old_managed_auth(block: str) -> str:
     return re.sub(pattern, "\n", block)
 
 
+def proxy_location(indent: str, route: str) -> str:
+    body_indent = indent + "    "
+    return (
+        f"{indent}location {route} {{\n"
+        + "\n".join(f"{body_indent}{line}" for line in PROXY_BODY.splitlines())
+        + f"\n{indent}}}"
+    )
+
+
+def replace_location(block: str, route: str) -> tuple[str, bool]:
+    match = re.search(
+        rf"(?m)^(?P<indent>[ \t]*)location[ \t]+{re.escape(route)}[ \t]*\{{",
+        block,
+    )
+    if not match:
+        return block, False
+
+    open_brace = block.find("{", match.start(), match.end())
+    close_brace = matching_brace(block, open_brace)
+    replacement = proxy_location(match.group("indent"), route)
+    return block[: match.start()] + replacement + block[close_brace + 1:], True
+
+
 def configure_server_block(block: str) -> str:
     block = remove_old_managed_auth(block)
 
@@ -71,28 +96,15 @@ def configure_server_block(block: str) -> str:
         raise RuntimeError("Invalid server block")
     block = block[: server_open + 1] + "\n    auth_basic off;" + block[server_open + 1:]
 
-    root_location = re.search(r"(?m)^(?P<indent>[ \t]*)location[ \t]+/[ \t]*\{", block)
-    if root_location:
-        open_brace = block.find("{", root_location.start(), root_location.end())
-        close_brace = matching_brace(block, open_brace)
-        indent = root_location.group("indent")
-        body_indent = indent + "    "
-        replacement = (
-            f"{indent}location / {{\n"
-            + "\n".join(f"{body_indent}{line}" for line in PROXY_BODY.splitlines())
-            + f"\n{indent}}}"
-        )
-        block = block[: root_location.start()] + replacement + block[close_brace + 1:]
-    else:
+    # Keep a dedicated /api/ location when it already exists, but make sure it
+    # forwards the public HTTPS origin exactly like the root proxy. This is
+    # required by Astro's CSRF origin check for form POSTs.
+    block, _ = replace_location(block, "/api/")
+
+    block, root_found = replace_location(block, "/")
+    if not root_found:
         closing = block.rfind("}")
-        indent = "    "
-        body_indent = indent + "    "
-        replacement = (
-            f"\n{indent}location / {{\n"
-            + "\n".join(f"{body_indent}{line}" for line in PROXY_BODY.splitlines())
-            + f"\n{indent}}}\n"
-        )
-        block = block[:closing] + replacement + block[closing:]
+        block = block[:closing] + "\n" + proxy_location("    ", "/") + "\n" + block[closing:]
 
     return block
 
