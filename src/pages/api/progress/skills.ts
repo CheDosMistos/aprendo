@@ -13,25 +13,27 @@ import type { SkillType } from '@platform/progress/skillEvidence';
 
 export const prerender = false;
 
-export const GET: APIRoute = ({ url }) => {
+export const GET: APIRoute = ({ url, locals }) => {
   try {
+    if (!locals.user) throw new ApiRequestError('Authentication required.', 401);
     const courseId = url.searchParams.get('courseId');
     if (!courseId || !isKnownCourse(courseId)) throw new ApiRequestError('Unknown course.', 404);
     const rawType = url.searchParams.get('skillType');
     const skillType = rawType === null ? undefined : parseSkillType(rawType);
-    return jsonResponse({ states: getRuntime().skills.listStates(courseId, skillType) });
+    return jsonResponse({ states: getRuntime().skillsFor(locals.user.stableKey).listStates(courseId, skillType) });
   } catch (error) {
     if (!(error instanceof ApiRequestError)) console.error('[api/progress/skills] read failed');
     return apiErrorResponse(error);
   }
 };
 
-export const POST: APIRoute = async ({ request }) => {
+export const POST: APIRoute = async ({ request, locals }) => {
   try {
     assertSameOrigin(request);
+    if (!locals.user) throw new ApiRequestError('Authentication required.', 401);
     const body = await readJsonBody(request);
     validateCourseSkill(body);
-    const state = getRuntime().skills.record(body);
+    const state = getRuntime().skillsFor(locals.user.stableKey).record(body);
     return jsonResponse({ state }, 201);
   } catch (error) {
     if (error instanceof ApiRequestError) return apiErrorResponse(error);
