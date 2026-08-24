@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Aprendo">
-  <g fill="#E652C8">
+  <g fill="#D14FB6">
     <rect x="0" y="0" width="28" height="28" rx="1.5"/>
     <rect x="36" y="0" width="28" height="28" rx="1.5"/>
     <rect x="72" y="0" width="28" height="28" rx="1.5"/>
@@ -9,5 +9,5 @@
     <rect x="36" y="72" width="28" height="28" rx="1.5"/>
     <rect x="72" y="72" width="28" height="28" rx="1.5"/>
   </g>
-  <rect x="36" y="36" width="28" height="28" rx="1.5" fill="#F5C400" transform="rotate(45 50 50)"/>
+  <rect x="36" y="36" width="28" height="28" rx="1.5" fill="#DDB324" transform="rotate(45 50 50)"/>
 </svg>
