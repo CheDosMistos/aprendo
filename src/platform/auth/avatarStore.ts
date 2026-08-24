@@ -5,13 +5,20 @@ const DEFAULT_AVATAR_DIR = '/var/lib/aprendo/avatars';
 export const MAX_AVATAR_BYTES = 50 * 1024;
 export const AVATAR_SIZE = 100;
 
+export class AvatarValidationError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'AvatarValidationError';
+  }
+}
+
 export function saveAvatar(userId: number, bytes: Uint8Array): string {
   if (bytes.byteLength < 24 || bytes.byteLength > MAX_AVATAR_BYTES) {
-    throw new Error('El avatar procesado no tiene un tamaño válido.');
+    throw new AvatarValidationError('El avatar procesado no tiene un tamaño válido.');
   }
   const dimensions = readWebpDimensions(bytes);
   if (!dimensions || dimensions.width !== AVATAR_SIZE || dimensions.height !== AVATAR_SIZE) {
-    throw new Error(`El avatar debe ser WebP de ${AVATAR_SIZE}×${AVATAR_SIZE} px.`);
+    throw new AvatarValidationError(`El avatar debe ser WebP de ${AVATAR_SIZE}×${AVATAR_SIZE} px.`);
   }
 
   const path = avatarPath(userId);
