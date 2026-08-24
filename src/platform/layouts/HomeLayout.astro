@@ -71,6 +71,11 @@ const avatarUrl = user?.avatarVersion ? `/api/account/avatar/?v=${encodeURICompo
     background: #0c0b10;
   }
 
+  :global(.home-header .icon-button),
+  :global(.home-header .avatar-button) {
+    border: 0;
+  }
+
   .home-main {
     min-height: 100vh;
   }
