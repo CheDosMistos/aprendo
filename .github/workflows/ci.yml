@@ -120,8 +120,15 @@ jobs:
           PORT: 4322
           APRENDO_DB_PATH: ${{ runner.temp }}/aprendo-auth-ci.sqlite
           APRENDO_AVATAR_DIR: ${{ runner.temp }}/aprendo-avatars
+          CI_TEST_PASSWORD: ci-only-password-2026
         run: |
           set -euo pipefail
+          printf '%s' "$CI_TEST_PASSWORD" | npm run provision-user -- \
+            --stable-key default \
+            --username mallo \
+            --display-name 'CI administrator' \
+            --role admin
+
           node dist/server/entry.mjs > "${RUNNER_TEMP}/aprendo-runtime.log" 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid" 2>/dev/null || true; cat "${RUNNER_TEMP}/aprendo-runtime.log" || true' EXIT
@@ -160,7 +167,8 @@ jobs:
             -X POST \
             -H 'Origin: http://127.0.0.1:4322' \
             -H 'Content-Type: application/x-www-form-urlencoded' \
-            --data 'username=mallo&password=1234' \
+            --data-urlencode 'username=mallo' \
+            --data-urlencode "password=$CI_TEST_PASSWORD" \
             http://127.0.0.1:4322/api/auth/login/)"
           test "$login_post_status" = "303"
           session_cookie="$(sed -n 's/^set-cookie: \(aprendo_session=[^;]*\).*/\1/ip' "$login_headers" | head -n 1 | tr -d '\r')"
@@ -178,7 +186,8 @@ jobs:
             -H 'X-Forwarded-Proto: https' \
             -H 'X-Forwarded-Port: 443' \
             -H 'Content-Type: application/x-www-form-urlencoded' \
-            --data 'username=mallo&password=1234' \
+            --data-urlencode 'username=mallo' \
+            --data-urlencode "password=$CI_TEST_PASSWORD" \
             http://127.0.0.1:4322/api/auth/login/)"
           test "$forwarded_login_status" = "303"
 
@@ -192,7 +201,8 @@ jobs:
             -H 'X-Forwarded-Proto: https' \
             -H 'X-Forwarded-Port: 443' \
             -H 'Content-Type: application/x-www-form-urlencoded' \
-            --data 'username=mallo&password=1234' \
+            --data-urlencode 'username=mallo' \
+            --data-urlencode "password=$CI_TEST_PASSWORD" \
             http://127.0.0.1:4322/api/auth/login/)"
           test "$hostile_origin_status" = "403"
 
