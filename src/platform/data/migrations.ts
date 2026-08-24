@@ -143,6 +143,39 @@ const migrations: readonly Migration[] = [
       DELETE FROM auth_sessions;
     `,
   },
+  {
+    version: 6,
+    name: 'seed_basic_patan_users',
+    sql: `
+      INSERT INTO app_users (stable_key, display_name, username, password_hash, role)
+      VALUES (
+        'tripo',
+        'Tripo',
+        'Tripo',
+        'scrypt$16384$8$1$m_xb5ZTDaCxYZ9_GqDrLIA$AbolOXsrueijT5F0W8z-7VLeAlhZZey2gMdIpinesW8IVDurzgLkFYQbXoot7e3YSbjAocgWpwFlSArJc4O-hg',
+        'student'
+      )
+      ON CONFLICT(stable_key) DO UPDATE SET
+        display_name = excluded.display_name,
+        username = excluded.username,
+        password_hash = excluded.password_hash,
+        role = excluded.role;
+
+      INSERT INTO app_users (stable_key, display_name, username, password_hash, role)
+      VALUES (
+        'jamono',
+        'Jamoño',
+        'Jamoño',
+        'scrypt$16384$8$1$XaM3KzlKl4kRpl9P68j7UQ$RIoSc4wbsEwxg98jfpDxgL36uXBohEhPO9E3npm-KcjQ7Ngi-Do9z3W3PjbwWHUVAn-HRFvDLpN0SFaTrtMkzw',
+        'student'
+      )
+      ON CONFLICT(stable_key) DO UPDATE SET
+        display_name = excluded.display_name,
+        username = excluded.username,
+        password_hash = excluded.password_hash,
+        role = excluded.role;
+    `,
+  },
 ];
 
 export function applyMigrations(database: DatabaseSync): void {

@@ -4,7 +4,7 @@ import type { DatabaseSync } from 'node:sqlite';
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000;
 const SCRYPT_KEY_LENGTH = 64;
 const DUMMY_PASSWORD_HASH = 'scrypt$16384$8$1$ZyghCEq7VfXvdFwiy7RWXA$RIfEAqEs7h1OKggDwWt-32ZsvykRcifh3n3RUbadOJVnIA0svMeKRjUfLzb15Z_1m6QOBxi_QBllncvdUAPs1w';
-const USERNAME_PATTERN = /^[A-Za-z0-9._-]{3,40}$/;
+const USERNAME_PATTERN = /^[\p{L}\p{N}._-]{3,40}$/u;
 
 export type UserRole = 'student' | 'admin';
 
