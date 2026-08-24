@@ -28,13 +28,26 @@ def matching_brace(text: str, open_brace: int) -> int:
 
 
 def find_server_block(text: str) -> tuple[int, int]:
+    candidates: list[tuple[int, int, str]] = []
     for match in re.finditer(r"(?m)^\s*server\s*\{", text):
         open_brace = text.find("{", match.start(), match.end())
         close_brace = matching_brace(text, open_brace)
         block = text[match.start(): close_brace + 1]
         if re.search(rf"(?m)^\s*server_name\s+[^;]*\b{re.escape(DOMAIN)}\b[^;]*;", block):
-            return match.start(), close_brace + 1
-    raise RuntimeError(f"No server block found for {DOMAIN}")
+            candidates.append((match.start(), close_brace + 1, block))
+
+    if not candidates:
+        raise RuntimeError(f"No server block found for {DOMAIN}")
+
+    for start, end, block in candidates:
+        if re.search(r"(?m)^\s*listen\s+[^;]*\b443\b[^;]*;", block):
+            return start, end
+
+    for start, end, block in candidates:
+        if re.search(r"(?m)^\s*ssl\s+on\s*;", block):
+            return start, end
+
+    return candidates[0][0], candidates[0][1]
 
 
 def configure_server_block(block: str) -> str:
