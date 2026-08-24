@@ -203,3 +203,19 @@ jobs:
 
           authenticated_account_status="$(curl --silent -H "Cookie: $session_cookie" --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/cuenta/)"
           test "$authenticated_account_status" = "200"
+
+          unit_html="$(mktemp)"
+          unit_status="$(curl --silent -H "Cookie: $session_cookie" --output "$unit_html" --write-out '%{http_code}' http://127.0.0.1:4322/bateria/unidad-1/)"
+          test "$unit_status" = "200"
+          grep -q '/bateria/unidad-1/sesion-0-diagnostico/' "$unit_html"
+
+          session_html="$(mktemp)"
+          session_status="$(curl --silent -H "Cookie: $session_cookie" --output "$session_html" --write-out '%{http_code}' http://127.0.0.1:4322/bateria/unidad-1/sesion-0-diagnostico/)"
+          test "$session_status" = "200"
+          grep -q 'Sesión 0' "$session_html"
+
+          missing_session_status="$(curl --silent -H "Cookie: $session_cookie" --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/unidad-1/sesion-inexistente/)"
+          test "$missing_session_status" = "404"
+
+          missing_unit_status="$(curl --silent -H "Cookie: $session_cookie" --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/unidad-999/)"
+          test "$missing_unit_status" = "404"
