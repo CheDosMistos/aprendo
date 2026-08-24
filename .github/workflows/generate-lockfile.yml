@@ -26,14 +26,45 @@ jobs:
       - name: Generate lockfile
         run: npm install --no-audit --no-fund
 
-      - name: Commit generated lockfile
+      - name: Switch CI and deploy to locked installs
         run: |
           set -euo pipefail
-          if git diff --quiet -- package-lock.json && git ls-files --error-unmatch package-lock.json >/dev/null 2>&1; then
+          python3 - <<'PY'
+          from pathlib import Path
+
+          ci = Path('.github/workflows/ci.yml')
+          ci_text = ci.read_text()
+          old = 'run: npm install --no-audit --no-fund'
+          assert ci_text.count(old) == 1, 'unexpected CI install command count'
+          ci.write_text(ci_text.replace(old, 'run: npm ci --no-audit --no-fund'))
+
+          deploy = Path('.github/workflows/deploy.yml')
+          deploy_text = deploy.read_text()
+          old_build = 'run: npm install --no-audit --no-fund'
+          assert deploy_text.count(old_build) == 1, 'unexpected deploy build install command count'
+          deploy_text = deploy_text.replace(old_build, 'run: npm ci --no-audit --no-fund')
+
+          old_rsync = '''            package.json \\
+            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/package.json"'''
+          new_rsync = '''            package.json package-lock.json \\
+            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/"'''
+          assert deploy_text.count(old_rsync) == 1, 'unexpected runtime manifest rsync block'
+          deploy_text = deploy_text.replace(old_rsync, new_rsync)
+
+          old_runtime = 'npm install --omit=dev --no-audit --no-fund'
+          assert deploy_text.count(old_runtime) == 1, 'unexpected runtime install command count'
+          deploy_text = deploy_text.replace(old_runtime, 'npm ci --omit=dev --no-audit --no-fund')
+          deploy.write_text(deploy_text)
+          PY
+
+      - name: Commit reproducible install inputs
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- package-lock.json .github/workflows/ci.yml .github/workflows/deploy.yml && git ls-files --error-unmatch package-lock.json >/dev/null 2>&1; then
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add package-lock.json
-          git commit -m 'Add npm dependency lockfile'
+          git add package-lock.json .github/workflows/ci.yml .github/workflows/deploy.yml
+          git commit -m 'Use reproducible npm installs'
           git push origin HEAD:${{ github.head_ref }}
