@@ -158,6 +158,15 @@ const migrations: readonly Migration[] = [
         role = excluded.role;
     `,
   },
+  {
+    version: 7,
+    name: 'username_uniqueness_matches_auth_lookup',
+    sql: `
+      DROP INDEX idx_app_users_username;
+      CREATE UNIQUE INDEX idx_app_users_username
+        ON app_users(username COLLATE NOCASE) WHERE username IS NOT NULL;
+    `,
+  },
 ];
 
 export function applyMigrations(database: DatabaseSync): void {
