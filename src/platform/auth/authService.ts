@@ -5,6 +5,8 @@ const SESSION_TTL_MS = 12 * 60 * 60 * 1000;
 const SCRYPT_KEY_LENGTH = 64;
 const DUMMY_PASSWORD_HASH = 'scrypt$16384$8$1$ZyghCEq7VfXvdFwiy7RWXA$RIfEAqEs7h1OKggDwWt-32ZsvykRcifh3n3RUbadOJVnIA0svMeKRjUfLzb15Z_1m6QOBxi_QBllncvdUAPs1w';
 const USERNAME_PATTERN = /^[\p{L}\p{N}._-]{3,40}$/u;
+export const MIN_NEW_PASSWORD_LENGTH = 15;
+export const MAX_NEW_PASSWORD_LENGTH = 128;
 
 export type UserRole = 'student' | 'admin';
 
@@ -107,8 +109,12 @@ export class AuthService {
     if (!USERNAME_PATTERN.test(username)) {
       throw new Error('El login debe tener entre 3 y 40 caracteres y usar solo letras, números, punto, guion o guion bajo.');
     }
-    if (input.newPassword !== undefined && input.newPassword.length > 0 && (input.newPassword.length < 4 || input.newPassword.length > 128)) {
-      throw new Error('La nueva contraseña debe tener entre 4 y 128 caracteres.');
+    if (
+      input.newPassword !== undefined
+      && input.newPassword.length > 0
+      && (input.newPassword.length < MIN_NEW_PASSWORD_LENGTH || input.newPassword.length > MAX_NEW_PASSWORD_LENGTH)
+    ) {
+      throw new Error(`La nueva contraseña debe tener entre ${MIN_NEW_PASSWORD_LENGTH} y ${MAX_NEW_PASSWORD_LENGTH} caracteres.`);
     }
 
     const row = this.database.prepare(`
