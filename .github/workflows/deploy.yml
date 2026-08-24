@@ -188,7 +188,8 @@ jobs:
           headers_file="$(mktemp)"
           login_file="$(mktemp)"
           account_headers="$(mktemp)"
-          trap 'rm -f "$headers_file" "$login_file" "$account_headers"' EXIT
+          asset_headers="$(mktemp)"
+          trap 'rm -f "$headers_file" "$login_file" "$account_headers" "$asset_headers"' EXIT
 
           status="$(curl \
             --silent \
@@ -218,3 +219,7 @@ jobs:
 
           api_status="$(curl --silent --show-error --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/api/progress/bateria/)"
           test "$api_status" = "401"
+
+          asset_status="$(curl --silent --show-error --dump-header "$asset_headers" --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
+          test "$asset_status" = "303"
+          grep -qi '^location: /login/' "$asset_headers"

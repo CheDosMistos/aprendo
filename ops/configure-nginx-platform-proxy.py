@@ -9,6 +9,12 @@ from pathlib import Path
 DOMAIN = "aprendo.molacomer.com"
 OLD_MANAGED_START = "# BEGIN APRENDO APP AUTH"
 OLD_MANAGED_END = "# END APRENDO APP AUTH"
+PRIVATE_ASSETS_START = "# BEGIN APRENDO PRIVATE COURSE ASSETS"
+PRIVATE_ASSETS_END = "# END APRENDO PRIVATE COURSE ASSETS"
+PRIVATE_ASSET_PREFIXES = (
+    "/bateria/notation/",
+    "/bateria/materiales/",
+)
 PROXY_BODY = """proxy_pass http://127.0.0.1:4321;
 proxy_http_version 1.1;
 proxy_set_header Host $host;
@@ -49,10 +55,10 @@ def find_https_server_block(text: str) -> tuple[int, int]:
     raise RuntimeError(f"No HTTPS server block found for {DOMAIN}")
 
 
-def remove_old_managed_auth(block: str) -> str:
+def remove_managed_block(block: str, start_marker: str, end_marker: str) -> str:
     pattern = (
-        rf"(?s)\n?[ \t]*{re.escape(OLD_MANAGED_START)}.*?"
-        rf"[ \t]*{re.escape(OLD_MANAGED_END)}[ \t]*\n?"
+        rf"(?s)\n?[ \t]*{re.escape(start_marker)}.*?"
+        rf"[ \t]*{re.escape(end_marker)}[ \t]*\n?"
     )
     return re.sub(pattern, "\n", block)
 
@@ -80,8 +86,41 @@ def replace_location(block: str, route: str) -> tuple[str, bool]:
     return block[: match.start()] + replacement + block[close_brace + 1:], True
 
 
+def private_assets_block(indent: str = "    ") -> str:
+    body_indent = indent + "    "
+    lines = [
+        f"{indent}{PRIVATE_ASSETS_START}",
+        f"{indent}location = /__aprendo_private_asset_session_check {{",
+        f"{body_indent}internal;",
+        f"{body_indent}proxy_pass http://127.0.0.1:4321/api/auth/check/;",
+        f"{body_indent}proxy_pass_request_body off;",
+        f"{body_indent}proxy_set_header Content-Length \"\";",
+        f"{body_indent}proxy_set_header Host $host;",
+        f"{body_indent}proxy_set_header X-Forwarded-Host $host;",
+        f"{body_indent}proxy_set_header X-Forwarded-Proto $scheme;",
+        f"{body_indent}proxy_set_header X-Forwarded-Port $server_port;",
+        f"{indent}}}",
+        f"{indent}location @aprendo_private_asset_login_redirect {{",
+        f"{body_indent}return 303 /login/;",
+        f"{indent}}}",
+    ]
+
+    for prefix in PRIVATE_ASSET_PREFIXES:
+        lines.extend([
+            f"{indent}location ^~ {prefix} {{",
+            f"{body_indent}auth_request /__aprendo_private_asset_session_check;",
+            f"{body_indent}error_page 401 = @aprendo_private_asset_login_redirect;",
+            *[f"{body_indent}{line}" for line in PROXY_BODY.splitlines()],
+            f"{indent}}}",
+        ])
+
+    lines.append(f"{indent}{PRIVATE_ASSETS_END}")
+    return "\n".join(lines)
+
+
 def configure_server_block(block: str) -> str:
-    block = remove_old_managed_auth(block)
+    block = remove_managed_block(block, OLD_MANAGED_START, OLD_MANAGED_END)
+    block = remove_managed_block(block, PRIVATE_ASSETS_START, PRIVATE_ASSETS_END)
 
     # Remove legacy Basic Auth directives, including a previous explicit `off`.
     block = re.sub(
@@ -106,6 +145,11 @@ def configure_server_block(block: str) -> str:
         closing = block.rfind("}")
         block = block[:closing] + "\n" + proxy_location("    ", "/") + "\n" + block[closing:]
 
+    closing = block.rfind("}")
+    if closing < 0:
+        raise RuntimeError("Invalid server block")
+    before_closing = block[:closing].rstrip()
+    block = before_closing + "\n\n" + private_assets_block() + "\n" + block[closing:]
     return block
 
 
