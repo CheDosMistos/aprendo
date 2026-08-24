@@ -90,7 +90,6 @@ test -f "$release/package.json"
 test -f "$release/package-lock.json"
 
 previous=""
-legacy=""
 if [ -L "$current_link" ]; then
   previous="$(readlink -f "$current_link")"
 elif [ -e "$current_link" ]; then
@@ -99,7 +98,6 @@ elif [ -e "$current_link" ]; then
 fi
 
 backup=""
-switched=0
 service_started_new=0
 
 rollback() {
@@ -111,12 +109,17 @@ rollback() {
   fi
   if [ -n "$previous" ] && [ -d "$previous" ]; then
     switch_current "$previous"
+    if [ ! -L "$server_link" ] && [ -e "$server_link" ]; then
+      rm -rf -- "$server_link"
+    fi
     ensure_server_link
   fi
   restore_database "$backup"
   if [ -n "$previous" ] && [ -d "$previous" ]; then
     run_systemctl start "$service_name"
     wait_for_health || true
+  elif [ -f "$server_link/entry.mjs" ]; then
+    run_systemctl start "$service_name"
   fi
   exit "$status"
 }
@@ -139,16 +142,24 @@ if [ -z "$previous" ]; then
   for item in "$runtime_dir"/*; do
     [ "$item" = "$releases_dir" ] && continue
     [ "$item" = "$current_link" ] && continue
-    mv "$item" "$legacy/"
+    cp -a "$item" "$legacy/"
   done
   shopt -u dotglob nullglob
+  test -f "$legacy/server/entry.mjs"
   previous="$legacy"
+
+  shopt -s dotglob nullglob
+  for item in "$runtime_dir"/*; do
+    [ "$item" = "$releases_dir" ] && continue
+    [ "$item" = "$current_link" ] && continue
+    rm -rf -- "$item"
+  done
+  shopt -u dotglob nullglob
   switch_current "$previous"
   ensure_server_link
 fi
 
 switch_current "$release"
-switched=1
 ensure_server_link
 run_systemctl start "$service_name"
 service_started_new=1
