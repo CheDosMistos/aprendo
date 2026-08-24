@@ -3,6 +3,7 @@ import type { DatabaseSync } from 'node:sqlite';
 
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000;
 const SCRYPT_KEY_LENGTH = 64;
+const DUMMY_PASSWORD_HASH = 'scrypt$16384$8$1$ZyghCEq7VfXvdFwiy7RWXA$RIfEAqEs7h1OKggDwWt-32ZsvykRcifh3n3RUbadOJVnIA0svMeKRjUfLzb15Z_1m6QOBxi_QBllncvdUAPs1w';
 
 export interface AuthUser {
   id: number;
@@ -40,7 +41,8 @@ export class AuthService {
       LIMIT 1
     `).get(normalizedUsername) as UserRow | undefined;
 
-    if (!row?.password_hash || !verifyPassword(password, row.password_hash)) return null;
+    const valid = verifyPassword(password, row?.password_hash ?? DUMMY_PASSWORD_HASH);
+    if (!row?.password_hash || !valid) return null;
     return mapUser(row);
   }
 
@@ -68,17 +70,18 @@ export class AuthService {
 
   resolveSession(token: string | undefined): AuthUser | null {
     if (!token || token.length > 256) return null;
+    const tokenHash = hashToken(token);
     const row = this.database.prepare(`
       SELECT u.id, u.stable_key, u.username, u.display_name, u.password_hash, s.expires_at
       FROM auth_sessions s
       JOIN app_users u ON u.id = s.user_id
       WHERE s.token_hash = ? AND s.expires_at > ?
       LIMIT 1
-    `).get(hashToken(token), this.now().toISOString()) as SessionUserRow | undefined;
+    `).get(tokenHash, this.now().toISOString()) as SessionUserRow | undefined;
 
     if (!row) return null;
     this.database.prepare('UPDATE auth_sessions SET last_seen_at = ? WHERE token_hash = ?')
-      .run(this.now().toISOString(), hashToken(token));
+      .run(this.now().toISOString(), tokenHash);
     return mapUser(row);
   }
 
