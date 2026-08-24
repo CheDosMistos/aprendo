@@ -89,13 +89,12 @@ def managed_locations() -> str:
 """
 
 
-def remove_managed_locations(block: str) -> str:
-    pattern = rf"(?s)\n?{re.escape(MANAGED_START)}.*?{re.escape(MANAGED_END)}\n?"
-    return re.sub(pattern, "\n", block)
-
-
 def configure_server_block(block: str) -> str:
-    block = remove_managed_locations(block)
+    # Once the managed v1 block is present the transform is already complete.
+    # This keeps routine deploys byte-for-byte idempotent.
+    if MANAGED_START in block and MANAGED_END in block:
+        return block
+
     block = re.sub(
         r"(?m)^\s*auth_basic(?:_user_file)?\s+[^;]*;\s*\n?",
         "",
