@@ -42,11 +42,12 @@ const avatarUrl = user.avatarVersion ? `/api/account/avatar/?v=${encodeURICompon
         </label>
         <label>
           <span>Nueva contraseña</span>
-          <input name="newPassword" type="password" autocomplete="new-password" minlength="4" maxlength="128" placeholder="Déjala vacía para mantenerla" />
+          <input name="newPassword" type="password" autocomplete="new-password" minlength="15" maxlength="128" placeholder="Déjala vacía para mantenerla" />
+          <small>Solo se aplica si decides cambiarla: mínimo 15 caracteres.</small>
         </label>
         <label>
           <span>Repetir nueva contraseña</span>
-          <input name="confirmPassword" type="password" autocomplete="new-password" minlength="4" maxlength="128" />
+          <input name="confirmPassword" type="password" autocomplete="new-password" minlength="15" maxlength="128" />
         </label>
         <div class="form-footer">
           <button type="submit">Guardar cambios</button>
@@ -220,6 +221,7 @@ const avatarUrl = user.avatarVersion ? `/api/account/avatar/?v=${encodeURICompon
   .account-card { padding: 1.25rem; border: 1px solid var(--border); border-radius: 1rem; background: var(--surface); }
   .account-card h2 { margin-top: 0; }
   .account-card label { display: grid; gap: .35rem; margin-top: .9rem; font-weight: 700; }
+  .account-card label small { color: var(--muted); font-weight: 400; }
   .account-card input { min-height: 2.9rem; padding: .65rem .8rem; border: 1px solid var(--border); border-radius: .6rem; background: var(--bg); color: var(--text); font: inherit; }
   .form-footer, .avatar-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .8rem; margin-top: 1.2rem; }
   button { min-height: 2.75rem; padding: .65rem 1rem; border: 1px solid var(--border); border-radius: .65rem; background: var(--text); color: var(--bg); font: inherit; font-weight: 800; cursor: pointer; }
