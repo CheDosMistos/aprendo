@@ -4,6 +4,7 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://aprendo.molacomer.com',
+  output: 'server',
   trailingSlash: 'always',
   adapter: node({
     mode: 'standalone',
