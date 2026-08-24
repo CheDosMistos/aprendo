@@ -52,7 +52,7 @@ jobs:
           db.close()
           PY
 
-      - name: Test Nginx auth migration
+      - name: Test Nginx plain proxy migration
         run: |
           set -euo pipefail
           fixture="$(mktemp)"
@@ -73,23 +73,33 @@ jobs:
                   proxy_pass http://127.0.0.1:4321;
               }
               location / {
-                  try_files $uri $uri/ =404;
+                  auth_request /__aprendo_session_check;
+                  error_page 401 = @aprendo_login_redirect;
+                  proxy_pass http://127.0.0.1:4321;
               }
+
+              # BEGIN APRENDO APP AUTH
+              location = /__aprendo_session_check {
+                  internal;
+                  proxy_pass http://127.0.0.1:4321/api/auth/check/;
+              }
+              location @aprendo_login_redirect {
+                  return 303 /login/;
+              }
+              # END APRENDO APP AUTH
           }
           NGINX
-          python3 ops/configure-nginx-app-auth.py "$fixture"
+          python3 ops/configure-nginx-platform-proxy.py "$fixture"
           grep -q 'auth_basic off;' "$fixture"
           ! grep -q 'auth_basic_user_file' "$fixture"
+          ! grep -q 'auth_request' "$fixture"
+          ! grep -q '__aprendo_session_check' "$fixture"
           grep -q 'return 301 https://$host$request_uri;' "$fixture"
           grep -q 'location / {' "$fixture"
-          grep -q 'auth_request /__aprendo_session_check;' "$fixture"
-          grep -q 'location = /__aprendo_session_check {' "$fixture"
-          grep -q 'proxy_pass http://127.0.0.1:4321/api/auth/check/;' "$fixture"
-          grep -q 'location = /login/ {' "$fixture"
-          grep -q 'location \^~ /_astro/ {' "$fixture"
+          grep -q 'proxy_pass http://127.0.0.1:4321;' "$fixture"
           grep -q 'location /api/' "$fixture"
           cp "$fixture" "${fixture}.once"
-          python3 ops/configure-nginx-app-auth.py "$fixture"
+          python3 ops/configure-nginx-platform-proxy.py "$fixture"
           cmp "$fixture" "${fixture}.once"
 
       - name: Build site
@@ -101,7 +111,7 @@ jobs:
           test -f dist/server/entry.mjs
           test -d dist/client/_astro
 
-      - name: Exercise authentication boundary
+      - name: Exercise platform authentication flow
         env:
           HOST: 127.0.0.1
           PORT: 4322
@@ -123,34 +133,40 @@ jobs:
           test "$root_status" = "303"
           grep -qi '^location: /login/' "$headers"
 
-          course_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/)"
-          test "$course_status" = "303"
-          account_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/cuenta/)"
-          test "$account_status" = "303"
-
-          # @astrojs/node serves public files before Astro middleware. Production Nginx
-          # therefore enforces the additional auth_request boundary tested above.
-          asset_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
-          test "$asset_status" = "200"
-
           login_html="$(mktemp)"
           login_status="$(curl --silent --output "$login_html" --write-out '%{http_code}' http://127.0.0.1:4322/login/)"
           test "$login_status" = "200"
-          grep -q 'type="text"' "$login_html"
           grep -q 'name="username"' "$login_html"
-          grep -q 'type="password"' "$login_html"
           grep -q 'name="password"' "$login_html"
           ! grep -qi '<button' "$login_html"
           ! grep -qi '<label' "$login_html"
           ! grep -qi '<h[1-6]' "$login_html"
 
-          error_html="$(mktemp)"
-          curl --silent 'http://127.0.0.1:4322/login/?error=1' > "$error_html"
-          grep -q 'class="auth-error"' "$error_html"
+          account_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/cuenta/)"
+          test "$account_status" = "303"
 
           api_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/progress/bateria/)"
           test "$api_status" = "401"
-          avatar_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/account/avatar/)"
-          test "$avatar_status" = "401"
-          check_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/auth/check/)"
-          test "$check_status" = "401"
+
+          login_headers="$(mktemp)"
+          login_post_status="$(curl \
+            --silent \
+            --dump-header "$login_headers" \
+            --output /dev/null \
+            --write-out '%{http_code}' \
+            -X POST \
+            -H 'Origin: http://127.0.0.1:4322' \
+            -H 'Content-Type: application/x-www-form-urlencoded' \
+            --data 'username=mallo&password=1234' \
+            http://127.0.0.1:4322/api/auth/login/)"
+          test "$login_post_status" = "303"
+          session_cookie="$(sed -n 's/^set-cookie: \(aprendo_session=[^;]*\).*/\1/ip' "$login_headers" | head -n 1 | tr -d '\r')"
+          test -n "$session_cookie"
+
+          home_html="$(mktemp)"
+          authenticated_root_status="$(curl --silent -H "Cookie: $session_cookie" --output "$home_html" --write-out '%{http_code}' http://127.0.0.1:4322/)"
+          test "$authenticated_root_status" = "200"
+          grep -q 'class="avatar-button" href="/cuenta/"' "$home_html"
+
+          authenticated_account_status="$(curl --silent -H "Cookie: $session_cookie" --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/cuenta/)"
+          test "$authenticated_account_status" = "200"

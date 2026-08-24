@@ -136,6 +136,13 @@ const migrations: readonly Migration[] = [
         ON auth_sessions(user_id, expires_at);
     `,
   },
+  {
+    version: 5,
+    name: 'require_fresh_platform_login',
+    sql: `
+      DELETE FROM auth_sessions;
+    `,
+  },
 ];
 
 export function applyMigrations(database: DatabaseSync): void {
