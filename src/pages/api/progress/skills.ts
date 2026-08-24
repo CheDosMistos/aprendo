@@ -9,7 +9,7 @@ import {
   readJsonBody,
 } from '@platform/server/http';
 import { getRuntime } from '@platform/server/runtime';
-import type { SkillType } from '@platform/progress/skillEvidence';
+import { SkillEvidenceValidationError, type SkillType } from '@platform/progress/skillEvidence';
 
 export const prerender = false;
 
@@ -37,8 +37,9 @@ export const POST: APIRoute = async ({ request, locals }) => {
     return jsonResponse({ state }, 201);
   } catch (error) {
     if (error instanceof ApiRequestError) return apiErrorResponse(error);
+    if (error instanceof SkillEvidenceValidationError) return jsonResponse({ error: error.message }, 400);
     console.error('[api/progress/skills] write failed');
-    return jsonResponse({ error: error instanceof Error ? error.message : 'Invalid skill evidence.' }, 400);
+    return apiErrorResponse(error);
   }
 };
 

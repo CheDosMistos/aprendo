@@ -1,4 +1,5 @@
 import type { APIRoute } from 'astro';
+import { AuthInputError } from '@platform/auth/authService';
 import { SESSION_COOKIE_NAME } from '@platform/auth/sessionCookie';
 import { ApiRequestError, apiErrorResponse, assertSameOrigin, jsonResponse, readJsonBody } from '@platform/server/http';
 import { getRuntime } from '@platform/server/runtime';
@@ -26,7 +27,9 @@ export const POST: APIRoute = async ({ request, cookies, locals }) => {
     return jsonResponse({ user: publicUser(updated) });
   } catch (error) {
     if (error instanceof ApiRequestError) return apiErrorResponse(error);
-    return jsonResponse({ error: error instanceof Error ? error.message : 'No se pudo actualizar la cuenta.' }, 400);
+    if (error instanceof AuthInputError) return jsonResponse({ error: error.message }, 400);
+    console.error('[api/account/profile] update failed');
+    return apiErrorResponse(error);
   }
 };
 
