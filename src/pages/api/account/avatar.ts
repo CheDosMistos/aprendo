@@ -10,11 +10,12 @@ export const GET: APIRoute = ({ locals }) => {
   if (!user) return jsonResponse({ error: 'Authentication required.' }, 401);
   const avatar = readAvatar(user.id);
   if (!avatar) return new Response(null, { status: 404, headers: { 'cache-control': 'no-store' } });
-  return new Response(avatar, {
+  const body = Uint8Array.from(avatar);
+  return new Response(body, {
     status: 200,
     headers: {
       'content-type': 'image/webp',
-      'content-length': String(avatar.byteLength),
+      'content-length': String(body.byteLength),
       'cache-control': 'private, no-store',
       'x-content-type-options': 'nosniff',
     },
