@@ -64,3 +64,42 @@ jobs:
           set -euo pipefail
           test -f dist/server/entry.mjs
           test -d dist/client/_astro
+
+      - name: Exercise authentication boundary
+        env:
+          HOST: 127.0.0.1
+          PORT: 4322
+          APRENDO_DB_PATH: ${{ runner.temp }}/aprendo-auth-ci.sqlite
+        run: |
+          set -euo pipefail
+          node dist/server/entry.mjs > "${RUNNER_TEMP}/aprendo-runtime.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true; cat "${RUNNER_TEMP}/aprendo-runtime.log" || true' EXIT
+
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            if curl --fail --silent --max-time 2 http://127.0.0.1:4322/api/health/ >/dev/null; then break; fi
+            sleep 1
+          done
+
+          headers="$(mktemp)"
+          root_status="$(curl --silent --dump-header "$headers" --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/)"
+          test "$root_status" = "303"
+          grep -qi '^location: /login/' "$headers"
+
+          login_html="$(mktemp)"
+          login_status="$(curl --silent --output "$login_html" --write-out '%{http_code}' http://127.0.0.1:4322/login/)"
+          test "$login_status" = "200"
+          grep -q 'type="text"' "$login_html"
+          grep -q 'name="username"' "$login_html"
+          grep -q 'type="password"' "$login_html"
+          grep -q 'name="password"' "$login_html"
+          ! grep -qi '<button' "$login_html"
+          ! grep -qi '<label' "$login_html"
+          ! grep -qi '<h[1-6]' "$login_html"
+
+          error_html="$(mktemp)"
+          curl --silent 'http://127.0.0.1:4322/login/?error=1' > "$error_html"
+          grep -q 'class="auth-error"' "$error_html"
+
+          api_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/progress/bateria/)"
+          test "$api_status" = "401"
