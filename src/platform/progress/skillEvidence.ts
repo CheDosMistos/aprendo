@@ -8,6 +8,13 @@ export type MasteryState = 'known' | 'functional' | 'mastered';
 export type RetentionState = 'not_checked' | 'checked';
 export type LimitingVariable = 'time' | 'sound' | 'relaxation' | 'movement' | 'sticking' | 'dynamics' | 'reading' | 'memory' | 'understanding' | 'other';
 
+export class SkillEvidenceValidationError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'SkillEvidenceValidationError';
+  }
+}
+
 export interface RecordSkillEvidenceInput {
   courseId: string;
   skillType: SkillType;
@@ -137,17 +144,17 @@ export class SkillEvidenceService {
 }
 
 export function validateSkillEvidence(value: unknown): RecordSkillEvidenceInput {
-  if (typeof value !== 'object' || value === null || Array.isArray(value)) throw new Error('Skill evidence payload must be an object.');
+  if (typeof value !== 'object' || value === null || Array.isArray(value)) throw new SkillEvidenceValidationError('Skill evidence payload must be an object.');
   const input = value as Record<string, unknown>;
   const required = (key: string, pattern = /^[a-zA-Z0-9][a-zA-Z0-9 ()#./_-]{0,119}$/) => {
     const candidate = input[key];
-    if (typeof candidate !== 'string' || !pattern.test(candidate.trim())) throw new Error(`Invalid ${key}.`);
+    if (typeof candidate !== 'string' || !pattern.test(candidate.trim())) throw new SkillEvidenceValidationError(`Invalid ${key}.`);
     return candidate.trim();
   };
   const enumValue = <T extends string>(key: string, allowed: readonly T[], optional = false): T | undefined => {
     const candidate = input[key];
     if (optional && (candidate === undefined || candidate === null || candidate === '')) return undefined;
-    if (typeof candidate !== 'string' || !allowed.includes(candidate as T)) throw new Error(`Invalid ${key}.`);
+    if (typeof candidate !== 'string' || !allowed.includes(candidate as T)) throw new SkillEvidenceValidationError(`Invalid ${key}.`);
     return candidate as T;
   };
   const correctiveRaw = input.corrective;
@@ -155,7 +162,7 @@ export function validateSkillEvidence(value: unknown): RecordSkillEvidenceInput 
     ? undefined
     : typeof correctiveRaw === 'string' && correctiveRaw.trim().length <= 1000
       ? correctiveRaw.trim()
-      : (() => { throw new Error('Invalid corrective.'); })();
+      : (() => { throw new SkillEvidenceValidationError('Invalid corrective.'); })();
 
   return {
     courseId: required('courseId', /^[a-z][a-z0-9-]{0,79}$/),
