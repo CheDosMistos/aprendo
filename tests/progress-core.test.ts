@@ -17,13 +17,13 @@ function createTestContext() {
   return { database, service };
 }
 
-test('migrations are idempotent and seed the internal user', () => {
+test('migrations are idempotent and seed the administrator', () => {
   const database = openDatabase({ path: ':memory:' });
   try {
     applyMigrations(database); applyMigrations(database);
     const migration = database.prepare('SELECT MAX(version) AS version FROM schema_migrations').get() as { version: number };
-    const user = database.prepare("SELECT stable_key FROM app_users WHERE stable_key = 'default'").get() as { stable_key: string } | undefined;
-    assert.equal(migration.version, latestSchemaVersion()); assert.equal(user?.stable_key, 'default'); assert.equal(latestSchemaVersion(), 3);
+    const user = database.prepare("SELECT stable_key, username, role FROM app_users WHERE stable_key = 'default'").get() as { stable_key: string; username: string; role: string } | undefined;
+    assert.equal(migration.version, latestSchemaVersion()); assert.equal(user?.stable_key, 'default'); assert.equal(user?.username, 'mallo'); assert.equal(user?.role, 'admin'); assert.equal(latestSchemaVersion(), 4);
   } finally { database.close(); }
 });
 

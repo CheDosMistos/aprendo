@@ -96,6 +96,46 @@ const migrations: readonly Migration[] = [
         ));
     `,
   },
+  {
+    version: 4,
+    name: 'platform_authentication',
+    sql: `
+      ALTER TABLE app_users ADD COLUMN username TEXT;
+      ALTER TABLE app_users ADD COLUMN password_hash TEXT;
+      ALTER TABLE app_users ADD COLUMN role TEXT NOT NULL DEFAULT 'student'
+        CHECK (role IN ('student', 'admin'));
+      ALTER TABLE app_users ADD COLUMN avatar_version TEXT;
+
+      UPDATE app_users
+      SET username = CASE WHEN stable_key = 'default' THEN 'mallo' ELSE stable_key END
+      WHERE username IS NULL;
+
+      UPDATE app_users
+      SET password_hash = 'scrypt$16384$8$1$lnLshM-YpVOQZtoDDLl3cw$wO3EjcAiepsnIky7s-vT0HvwT0pDx4gNuCVqcsYQePm8CydACdFFLOytQxUiTBjpnzrSV2_bInlgjm2u-fGpTQ'
+      WHERE stable_key = 'default' AND password_hash IS NULL;
+
+      UPDATE app_users
+      SET role = 'admin'
+      WHERE stable_key = 'default';
+
+      CREATE UNIQUE INDEX idx_app_users_username
+        ON app_users(username) WHERE username IS NOT NULL;
+
+      CREATE TABLE auth_sessions (
+        id TEXT PRIMARY KEY,
+        user_id INTEGER NOT NULL REFERENCES app_users(id) ON DELETE CASCADE,
+        token_hash TEXT NOT NULL UNIQUE,
+        expires_at TEXT NOT NULL,
+        created_at TEXT NOT NULL,
+        last_seen_at TEXT NOT NULL
+      ) STRICT;
+
+      CREATE INDEX idx_auth_sessions_token_hash
+        ON auth_sessions(token_hash);
+      CREATE INDEX idx_auth_sessions_user_expires
+        ON auth_sessions(user_id, expires_at);
+    `,
+  },
 ];
 
 export function applyMigrations(database: DatabaseSync): void {

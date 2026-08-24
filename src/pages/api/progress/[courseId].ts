@@ -5,15 +5,16 @@ import { getRuntime } from '@platform/server/runtime';
 
 export const prerender = false;
 
-export const GET: APIRoute = ({ params, url }) => {
+export const GET: APIRoute = ({ params, url, locals }) => {
   try {
     const courseId = params.courseId;
     if (!courseId || !isKnownCourse(courseId)) {
       throw new ApiRequestError('Unknown course.', 404);
     }
+    if (!locals.user) throw new ApiRequestError('Authentication required.', 401);
 
     const limit = parseLimit(url.searchParams.get('limit'));
-    const { progress } = getRuntime();
+    const progress = getRuntime().progressFor(locals.user.stableKey);
 
     return jsonResponse({
       summary: progress.summarize(courseId),

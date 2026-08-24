@@ -15,9 +15,10 @@ import {
 
 export const prerender = false;
 
-export const POST: APIRoute = async ({ request }) => {
+export const POST: APIRoute = async ({ request, locals }) => {
   try {
     assertSameOrigin(request);
+    if (!locals.user) throw new ApiRequestError('Authentication required.', 401);
 
     const body = await readJsonBody(request);
     const input = validateRecordExecutionInput(body);
@@ -27,7 +28,7 @@ export const POST: APIRoute = async ({ request }) => {
       throw new ApiRequestError('Unknown or non-trackable course content.', 422);
     }
 
-    const execution = getRuntime().progress.recordExecution(input);
+    const execution = getRuntime().progressFor(locals.user.stableKey).recordExecution(input);
     return jsonResponse({ execution }, 201);
   } catch (error) {
     if (error instanceof ProgressValidationError) {
