@@ -23,6 +23,8 @@ service_wrapper="${APRENDO_SYSTEMCTL_WRAPPER:-}"
 health_wrapper="${APRENDO_HEALTHCHECK_WRAPPER:-}"
 service_name="${APRENDO_SERVICE_NAME:-aprendo.service}"
 health_url="${APRENDO_HEALTH_URL:-http://127.0.0.1:4321/api/health/}"
+health_attempts="${APRENDO_HEALTH_ATTEMPTS:-10}"
+health_sleep="${APRENDO_HEALTH_SLEEP_SECONDS:-1}"
 
 run_systemctl() {
   if [ -n "$service_wrapper" ]; then
@@ -43,11 +45,11 @@ health_ok() {
 
 wait_for_health() {
   local attempt
-  for attempt in 1 2 3 4 5 6 7 8 9 10; do
+  for ((attempt = 1; attempt <= health_attempts; attempt += 1)); do
     if run_systemctl is-active --quiet "$service_name" && health_ok; then
       return 0
     fi
-    sleep 1
+    sleep "$health_sleep"
   done
   return 1
 }
