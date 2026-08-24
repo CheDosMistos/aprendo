@@ -1,4 +1,4 @@
-# Aprendo — Arquitectura v1.0
+# Aprendo — Arquitectura v1.1
 
 ## Objetivo
 
@@ -19,9 +19,9 @@ Regla principal: **hacerlo bien sin convertirlo en una plataforma innecesariamen
 ## Stack
 
 - **Astro + TypeScript** para interfaz, contenido y rutas servidor.
-- **Node.js** con el adaptador oficial de Astro en modo standalone cuando se active el backend.
+- **Node.js** con el adaptador oficial de Astro en modo standalone.
 - **SQLite** como almacenamiento persistente.
-- **Nginx** como proxy HTTPS y protección actual mediante Basic Auth.
+- **Nginx** como proxy HTTPS; la autenticación pertenece a Aprendo, no a Nginx.
 - **GitHub + GitHub Actions** para código, revisión y despliegue.
 
 No habrá un backend separado mientras Astro pueda resolver el problema limpiamente.
@@ -31,6 +31,7 @@ No habrá un backend separado mientras Astro pueda resolver el problema limpiame
 ```text
 src/
 ├── platform/
+│   ├── auth/
 │   ├── components/
 │   ├── layouts/
 │   ├── styles/
@@ -46,18 +47,21 @@ src/
 │   └── escalada/              # futuro
 └── pages/
     ├── index.astro
+    ├── login.astro
     ├── bateria/
     └── api/
 ```
 
-La estructura física definitiva se ajustará a las convenciones de Astro al inicializar el proyecto, manteniendo esta separación conceptual.
+La estructura física definitiva se ajustará a las convenciones de Astro, manteniendo esta separación conceptual.
 
 ## Rutas
 
-- `/` — entrada de Aprendo.
+- `/login/` — única entrada pública de usuario.
+- `/` — entrada autenticada de Aprendo.
 - `/bateria/` — curso de batería.
 - `/escalada/` — futuro curso de escalada.
 - `/api/` — operaciones dinámicas de la plataforma.
+- `/api/health/` — health check público sin datos de usuario.
 
 ## Diseño
 
@@ -88,15 +92,26 @@ El archivo de base de datos estará fuera del webroot, por ejemplo:
 /var/lib/aprendo/aprendo.sqlite
 ```
 
-La aplicación se diseñará para varios usuarios desde el modelo de datos, pero en v1 habrá un único usuario interno y **no habrá login, grupos ni interfaz de permisos**.
-
-Nginx Basic Auth seguirá protegiendo toda la aplicación hasta que exista autenticación propia.
+El modelo soporta varios usuarios y todo progreso/evidencia se asocia al usuario autenticado. No existe registro público ni gestión visible de usuarios en esta etapa.
 
 El registro de progreso será deliberadamente mínimo. Sólo se almacenará lo necesario para reconstruir el historial y decidir el siguiente paso; las notas serán opcionales y de texto.
 
 Principio: **registrar automáticamente lo que pueda deducirse y preguntar sólo lo que tenga valor real**.
 
 La aplicación accederá a SQLite mediante una pequeña capa de repositorios/servicios; los componentes de interfaz no ejecutarán SQL directamente.
+
+## Autenticación
+
+Aprendo posee su propia autenticación de plataforma.
+
+- Todas las páginas y APIs de usuario quedan bloqueadas por middleware de Astro.
+- `/login/`, su endpoint de autenticación, los assets necesarios y `/api/health/` son las únicas excepciones públicas.
+- No existe formulario de registro, recuperación de contraseña ni opción «recordarme».
+- Las contraseñas se almacenan mediante `scrypt`; nunca en texto plano.
+- Las sesiones usan tokens aleatorios opacos y SQLite sólo conserva un hash SHA-256 del token.
+- La cookie de sesión es `HttpOnly`, `Secure`, `SameSite=Strict` y de sesión de navegador.
+- La expiración servidor de una sesión es limitada y se comprueba en cada petición protegida.
+- Nginx termina HTTPS y reenvía las peticiones al runtime Node; no mantiene Basic Auth en producción una vez activada esta capa.
 
 ## Offline
 
@@ -106,7 +121,7 @@ Aprendo v1 será una aplicación web online.
 - No sincronización offline.
 - No resolución de conflictos entre dispositivos.
 
-Cualquier dispositivo conectado verá el mismo estado porque el VPS es la fuente de verdad.
+Cualquier dispositivo conectado verá el mismo estado del usuario porque el VPS es la fuente de verdad.
 
 ## Herramientas
 
@@ -148,18 +163,14 @@ No se utilizará Git ni el VPS como repositorio de vídeo.
 
 ## Seguridad
 
-V1 mantiene la protección actual de Nginx Basic Auth.
+- La autenticación propia sustituye a Nginx Basic Auth.
+- El middleware de aplicación es la frontera principal de acceso a páginas y APIs.
+- Los datos de progreso se resuelven siempre contra el usuario de la sesión actual.
+- Las escrituras mantienen comprobación same-origin además de sesión válida.
+- Nunca se almacenarán secretos, contraseñas en claro, SQLite, backups o datos personales dentro del repositorio de código.
+- La gestión de credenciales de usuarios existentes se realizará fuera de la interfaz pública mientras no exista una necesidad real de administración visible.
 
-La arquitectura no impedirá añadir posteriormente:
-
-- usuarios reales;
-- autenticación propia;
-- roles `student` y `admin`;
-- sesiones seguras.
-
-No se implementará esa funcionalidad hasta que exista una necesidad real.
-
-Nunca se almacenarán secretos, SQLite, backups o datos personales dentro del repositorio público/privado de código.
+La arquitectura permite añadir posteriormente roles como `student` y `admin` sin cambiar el modelo de cursos.
 
 ## Backups
 
@@ -175,8 +186,10 @@ Tests básicos centrados en permitir cambios seguros:
 - build;
 - lectura/escritura de SQLite;
 - migraciones;
+- autenticación y expiración de sesiones;
+- frontera de acceso sin sesión;
 - API básica;
-- lógica de progreso cuando exista;
+- lógica de progreso;
 - herramientas con lógica relevante.
 
 Observabilidad mínima:
@@ -192,14 +205,15 @@ No se perseguirá cobertura de tests alta ni un sistema complejo de monitorizaci
 
 GitHub Actions seguirá siendo el punto de despliegue.
 
-Cuando Aprendo pase de HTML estático a aplicación Node:
+Aprendo se ejecuta como aplicación Node renderizada en servidor:
 
-1. build;
-2. tests básicos;
-3. backup previo si existe una migración de datos;
-4. migraciones SQLite versionadas;
-5. despliegue;
-6. health check.
+1. check y tests;
+2. build;
+3. migraciones SQLite versionadas al arrancar;
+4. despliegue del runtime;
+5. health check directo;
+6. validación segura de la configuración Nginx;
+7. comprobación HTTPS de la frontera de autenticación.
 
 El despliegue nunca podrá borrar ni sobrescribir la base SQLite.
 
@@ -210,9 +224,9 @@ El despliegue nunca podrá borrar ni sobrescribir la base SQLite.
 - Microservicios.
 - PWA/offline.
 - CMS.
-- Login propio.
+- Registro público de usuarios.
+- Recuperación automática de contraseña.
 - Gestión visible de usuarios/roles.
-- Subida de fotos/audio/vídeo.
 - Hosting propio de vídeo.
 - Monitorización compleja.
 - Formularios extensos de progreso.
