@@ -229,3 +229,32 @@ jobs:
 
           missing_unit_status="$(curl --silent -H "Cookie: $session_cookie" --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/unidad-999/)"
           test "$missing_unit_status" = "404"
+
+          for attempt in 1 2 3 4; do
+            failed_login_status="$(curl \
+              --silent \
+              --output /dev/null \
+              --write-out '%{http_code}' \
+              -X POST \
+              -H 'Origin: http://127.0.0.1:4322' \
+              -H 'Content-Type: application/x-www-form-urlencoded' \
+              --data-urlencode 'username=rate-limit-fixture' \
+              --data-urlencode 'password=wrong' \
+              http://127.0.0.1:4322/api/auth/login/)"
+            test "$failed_login_status" = "303"
+          done
+
+          rate_headers="$(mktemp)"
+          rate_status="$(curl \
+            --silent \
+            --dump-header "$rate_headers" \
+            --output /dev/null \
+            --write-out '%{http_code}' \
+            -X POST \
+            -H 'Origin: http://127.0.0.1:4322' \
+            -H 'Content-Type: application/x-www-form-urlencoded' \
+            --data-urlencode 'username=rate-limit-fixture' \
+            --data-urlencode 'password=wrong' \
+            http://127.0.0.1:4322/api/auth/login/)"
+          test "$rate_status" = "429"
+          grep -qi '^retry-after: ' "$rate_headers"
