@@ -25,10 +25,13 @@ interface SessionUserRow extends UserRow {
 }
 
 export class AuthService {
-  constructor(
-    private readonly database: DatabaseSync,
-    private readonly now: () => Date = () => new Date(),
-  ) {}
+  private readonly database: DatabaseSync;
+  private readonly now: () => Date;
+
+  constructor(database: DatabaseSync, now: () => Date = () => new Date()) {
+    this.database = database;
+    this.now = now;
+  }
 
   authenticate(username: string, password: string): AuthUser | null {
     const normalizedUsername = username.trim();
