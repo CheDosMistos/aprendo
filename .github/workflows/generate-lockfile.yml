@@ -44,12 +44,10 @@ jobs:
           assert deploy_text.count(old_build) == 1, 'unexpected deploy build install command count'
           deploy_text = deploy_text.replace(old_build, 'run: npm ci --no-audit --no-fund')
 
-          old_rsync = '''            package.json \\
-            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/package.json"'''
-          new_rsync = '''            package.json package-lock.json \\
-            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/"'''
-          assert deploy_text.count(old_rsync) == 1, 'unexpected runtime manifest rsync block'
-          deploy_text = deploy_text.replace(old_rsync, new_rsync)
+          old_manifest = 'package.json \\\n            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/package.json"'
+          new_manifest = 'package.json package-lock.json \\\n            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/"'
+          assert deploy_text.count(old_manifest) == 1, 'unexpected runtime manifest rsync block'
+          deploy_text = deploy_text.replace(old_manifest, new_manifest)
 
           old_runtime = 'npm install --omit=dev --no-audit --no-fund'
           assert deploy_text.count(old_runtime) == 1, 'unexpected runtime install command count'
