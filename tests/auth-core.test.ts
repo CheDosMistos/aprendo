@@ -12,43 +12,33 @@ test('scrypt password hashes verify without storing plaintext', () => {
   assert.equal(verifyPassword('incorrect', encoded), false);
 });
 
-test('seeded administrator authenticates as mallo with the temporary password', () => {
+test('fresh databases contain no usable bootstrap passwords', () => {
   const database = openDatabase({ path: ':memory:' });
   applyMigrations(database);
   const auth = new AuthService(database, () => new Date('2026-08-24T08:00:00.000Z'));
   try {
-    assert.equal(auth.authenticate('mallo', 'wrong-password'), null);
-    const user = auth.authenticate('mallo', '1234');
-    assert.equal(user?.stableKey, 'default');
-    assert.equal(user?.role, 'admin');
-  } finally { database.close(); }
-});
-
-test('seeded basic users are classified as students with hashed passwords', () => {
-  const database = openDatabase({ path: ':memory:' });
-  applyMigrations(database);
-  try {
     const rows = database.prepare(`
-      SELECT stable_key, username, display_name, role, password_hash
+      SELECT stable_key, username, role, password_hash
       FROM app_users
-      WHERE stable_key IN ('tripo', 'jamono')
+      WHERE stable_key IN ('default', 'tripo', 'jamono')
       ORDER BY stable_key
     `).all() as Array<{
       stable_key: string;
       username: string;
-      display_name: string;
       role: string;
-      password_hash: string;
+      password_hash: string | null;
     }>;
 
     assert.deepEqual(
-      rows.map(({ stable_key, username, display_name, role }) => ({ stable_key, username, display_name, role })),
+      rows.map(({ stable_key, username, role, password_hash }) => ({ stable_key, username, role, password_hash })),
       [
-        { stable_key: 'jamono', username: 'Jamoño', display_name: 'Jamoño', role: 'student' },
-        { stable_key: 'tripo', username: 'Tripo', display_name: 'Tripo', role: 'student' },
+        { stable_key: 'default', username: 'mallo', role: 'admin', password_hash: null },
+        { stable_key: 'jamono', username: 'Jamoño', role: 'student', password_hash: null },
+        { stable_key: 'tripo', username: 'Tripo', role: 'student', password_hash: null },
       ],
     );
-    for (const row of rows) assert.match(row.password_hash, /^scrypt\$16384\$8\$1\$/);
+    assert.equal(auth.authenticate('mallo', 'anything'), null);
+    assert.equal(auth.authenticate('Tripo', 'anything'), null);
   } finally { database.close(); }
 });
 
@@ -64,11 +54,11 @@ test('Unicode letters are valid in editable user logins', () => {
       userId: user.id,
       currentPassword: 'test-password',
       username: 'Jamoño',
-      newPassword: 'new-password',
+      newPassword: 'a-stronger-test-password',
     });
     assert.equal(updated.username, 'Jamoño');
     assert.equal(updated.role, 'student');
-    assert.equal(auth.authenticate('Jamoño', 'new-password')?.stableKey, 'jamono');
+    assert.equal(auth.authenticate('Jamoño', 'a-stronger-test-password')?.stableKey, 'jamono');
   } finally { database.close(); }
 });
 
@@ -100,26 +90,51 @@ test('authentication creates an opaque expiring session for an existing user', (
   }
 });
 
-test('user can change login and password while keeping the current session', () => {
+test('existing short passwords remain valid until the user voluntarily changes them', () => {
   const database = openDatabase({ path: ':memory:' });
   applyMigrations(database);
+  const legacyHash = hashPassword('1234', Buffer.alloc(16, 11));
+  database.prepare('UPDATE app_users SET password_hash = ? WHERE username = ?').run(legacyHash, 'mallo');
   const auth = new AuthService(database, () => new Date('2026-08-24T08:00:00.000Z'));
   try {
     const user = auth.authenticate('mallo', '1234')!;
+    assert.ok(user);
+
+    assert.throws(() => auth.updateCredentials({
+      userId: user.id,
+      currentPassword: '1234',
+      username: 'mallo',
+      newPassword: 'abcd',
+    }), /15/);
+    assert.equal(auth.authenticate('mallo', '1234')?.stableKey, 'default');
+
     const currentSession = auth.createSession(user.id);
     const otherSession = auth.createSession(user.id);
     const updated = auth.updateCredentials({
       userId: user.id,
       currentPassword: '1234',
       username: 'mallo2',
-      newPassword: 'abcd',
+      newPassword: 'a-stronger-passphrase',
       currentSessionToken: currentSession.token,
     });
     assert.equal(updated.username, 'mallo2');
     assert.equal(auth.authenticate('mallo', '1234'), null);
-    assert.equal(auth.authenticate('mallo2', 'abcd')?.role, 'admin');
+    assert.equal(auth.authenticate('mallo2', 'a-stronger-passphrase')?.role, 'admin');
     assert.ok(auth.resolveSession(currentSession.token));
     assert.equal(auth.resolveSession(otherSession.token), null);
+  } finally { database.close(); }
+});
+
+test('reapplying migrations never rewrites an existing password hash', () => {
+  const database = openDatabase({ path: ':memory:' });
+  applyMigrations(database);
+  const legacyHash = hashPassword('old', Buffer.alloc(16, 12));
+  database.prepare('UPDATE app_users SET password_hash = ? WHERE username = ?').run(legacyHash, 'mallo');
+  try {
+    applyMigrations(database);
+    const row = database.prepare('SELECT password_hash FROM app_users WHERE username = ?').get('mallo') as { password_hash: string };
+    assert.equal(row.password_hash, legacyHash);
+    assert.equal(verifyPassword('old', row.password_hash), true);
   } finally { database.close(); }
 });
 
