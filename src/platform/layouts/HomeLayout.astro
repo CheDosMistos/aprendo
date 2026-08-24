@@ -45,6 +45,11 @@ const avatarUrl = user?.avatarVersion ? `/api/account/avatar/?v=${encodeURICompo
         avatarButton.classList.remove('inactive-link');
         const sr = avatarButton.querySelector<HTMLElement>('.sr-only');
         if (sr) sr.textContent = 'Mi cuenta';
+        avatarButton.addEventListener('click', (event) => {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          window.location.assign('/cuenta/');
+        }, { capture: true });
         const avatarUrl = document.body.dataset.accountAvatar;
         if (avatarUrl) {
           const image = document.createElement('img');
