@@ -57,6 +57,11 @@ def configure_server_block(block: str) -> str:
         block,
     )
 
+    server_open = block.find("{")
+    if server_open < 0:
+        raise RuntimeError("Invalid server block")
+    block = block[:server_open + 1] + "\n    auth_basic off;" + block[server_open + 1:]
+
     location = re.search(r"(?m)^(?P<indent>\s*)location\s+/\s*\{", block)
     if location:
         open_brace = block.find("{", location.start(), location.end())
