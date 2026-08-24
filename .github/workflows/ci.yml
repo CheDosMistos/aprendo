@@ -57,7 +57,8 @@ jobs:
           }
           NGINX
           python3 ops/configure-nginx-app-auth.py "$fixture"
-          ! grep -q 'auth_basic' "$fixture"
+          grep -q 'auth_basic off;' "$fixture"
+          ! grep -q 'auth_basic_user_file' "$fixture"
           grep -q 'return 301 https://$host$request_uri;' "$fixture"
           grep -q 'location / {' "$fixture"
           grep -q 'proxy_pass http://127.0.0.1:4321;' "$fixture"
@@ -77,6 +78,7 @@ jobs:
           HOST: 127.0.0.1
           PORT: 4322
           APRENDO_DB_PATH: ${{ runner.temp }}/aprendo-auth-ci.sqlite
+          APRENDO_AVATAR_DIR: ${{ runner.temp }}/aprendo-avatars
         run: |
           set -euo pipefail
           node dist/server/entry.mjs > "${RUNNER_TEMP}/aprendo-runtime.log" 2>&1 &
@@ -95,6 +97,8 @@ jobs:
 
           course_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/)"
           test "$course_status" = "303"
+          account_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/cuenta/)"
+          test "$account_status" = "303"
 
           asset_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
           test "$asset_status" = "303"
@@ -116,3 +120,5 @@ jobs:
 
           api_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/progress/bateria/)"
           test "$api_status" = "401"
+          avatar_status="$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:4322/api/account/avatar/)"
+          test "$avatar_status" = "401"
