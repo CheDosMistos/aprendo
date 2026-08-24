@@ -148,7 +148,8 @@ def configure_server_block(block: str) -> str:
     closing = block.rfind("}")
     if closing < 0:
         raise RuntimeError("Invalid server block")
-    block = block[:closing] + "\n\n" + private_assets_block() + "\n" + block[closing:]
+    before_closing = block[:closing].rstrip()
+    block = before_closing + "\n\n" + private_assets_block() + "\n" + block[closing:]
     return block
 
 
