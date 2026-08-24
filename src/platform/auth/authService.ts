@@ -10,6 +10,13 @@ export const MAX_NEW_PASSWORD_LENGTH = 128;
 
 export type UserRole = 'student' | 'admin';
 
+export class AuthInputError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'AuthInputError';
+  }
+}
+
 export interface AuthUser {
   id: number;
   stableKey: string;
@@ -107,14 +114,14 @@ export class AuthService {
   }): AuthUser {
     const username = input.username.trim();
     if (!USERNAME_PATTERN.test(username)) {
-      throw new Error('El login debe tener entre 3 y 40 caracteres y usar solo letras, números, punto, guion o guion bajo.');
+      throw new AuthInputError('El login debe tener entre 3 y 40 caracteres y usar solo letras, números, punto, guion o guion bajo.');
     }
     if (
       input.newPassword !== undefined
       && input.newPassword.length > 0
       && (input.newPassword.length < MIN_NEW_PASSWORD_LENGTH || input.newPassword.length > MAX_NEW_PASSWORD_LENGTH)
     ) {
-      throw new Error(`La nueva contraseña debe tener entre ${MIN_NEW_PASSWORD_LENGTH} y ${MAX_NEW_PASSWORD_LENGTH} caracteres.`);
+      throw new AuthInputError(`La nueva contraseña debe tener entre ${MIN_NEW_PASSWORD_LENGTH} y ${MAX_NEW_PASSWORD_LENGTH} caracteres.`);
     }
 
     const row = this.database.prepare(`
@@ -122,13 +129,13 @@ export class AuthService {
       FROM app_users WHERE id = ?
     `).get(input.userId) as unknown as UserRow | undefined;
     if (!row?.password_hash || !verifyPassword(input.currentPassword, row.password_hash)) {
-      throw new Error('La contraseña actual no es correcta.');
+      throw new AuthInputError('La contraseña actual no es correcta.');
     }
 
     const collision = this.database.prepare(`
       SELECT id FROM app_users WHERE username = ? COLLATE NOCASE AND id <> ? LIMIT 1
     `).get(username, input.userId) as { id: number } | undefined;
-    if (collision) throw new Error('Ese login ya está en uso.');
+    if (collision) throw new AuthInputError('Ese login ya está en uso.');
 
     const nextHash = input.newPassword ? hashPassword(input.newPassword) : row.password_hash;
     this.database.prepare('UPDATE app_users SET username = ?, password_hash = ? WHERE id = ?')
