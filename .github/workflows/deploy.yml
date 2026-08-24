@@ -100,12 +100,14 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             'set -euo pipefail
              db=/var/lib/aprendo/aprendo.sqlite
-             test -f "$db"
-             stamp=$(date -u +%Y%m%dT%H%M%SZ)
-             target="/var/lib/aprendo/backups/pre-auth-${stamp}.sqlite"
-             /usr/bin/python3 /tmp/aprendo-backup-sqlite.py "$db" "$target"
-             test -s "$target"
-             ls -1t /var/lib/aprendo/backups/pre-auth-*.sqlite 2>/dev/null | tail -n +4 | xargs -r rm -f'
+             mkdir -p /var/lib/aprendo/backups
+             if [ -f "$db" ]; then
+               stamp=$(date -u +%Y%m%dT%H%M%SZ)
+               target="/var/lib/aprendo/backups/pre-login-${stamp}.sqlite"
+               /usr/bin/python3 /tmp/aprendo-backup-sqlite.py "$db" "$target"
+               test -s "$target"
+               ls -1t /var/lib/aprendo/backups/pre-login-*.sqlite 2>/dev/null | tail -n +4 | xargs -r rm -f
+             fi'
 
       - name: Deploy Node runtime with rsync
         env:
@@ -142,7 +144,7 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             'set -euo pipefail; cd /opt/aprendo/runtime; export PATH=/opt/aprendo-node/bin:$PATH; npm install --omit=dev --no-audit --no-fund'
 
-      - name: Restart and verify authenticated Aprendo runtime
+      - name: Restart and verify Aprendo runtime
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -157,7 +159,7 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             'set -euo pipefail; sudo -n /usr/bin/systemctl restart aprendo.service; for attempt in 1 2 3 4 5 6 7 8 9 10; do if /usr/bin/systemctl is-active --quiet aprendo.service && response=$(curl --fail --silent --show-error --max-time 3 http://127.0.0.1:4321/api/health/); then printf "%s\n" "$response" | grep -q '\''"status":"ok"'\''; root_status=$(curl --silent --output /dev/null --write-out "%{http_code}" http://127.0.0.1:4321/); login_status=$(curl --silent --output /dev/null --write-out "%{http_code}" http://127.0.0.1:4321/login/); test "$root_status" = "303"; test "$login_status" = "200"; test -f /var/lib/aprendo/aprendo.sqlite; exit 0; fi; sleep 1; done; /usr/bin/systemctl status aprendo.service --no-pager || true; exit 1'
 
-      - name: Switch Nginx from Basic Auth to Aprendo sessions
+      - name: Configure Nginx as plain platform proxy
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -169,8 +171,8 @@ jobs:
             -o IdentitiesOnly=yes \
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
-            ops/configure-nginx-app-auth.py \
-            "$VPS_USER@$VPS_HOST:/tmp/aprendo-configure-nginx-app-auth.py"
+            ops/configure-nginx-platform-proxy.py \
+            "$VPS_USER@$VPS_HOST:/tmp/aprendo-configure-nginx-platform-proxy.py"
 
           ssh \
             -i ~/.ssh/deploy_key \
@@ -182,24 +184,17 @@ jobs:
             'set -euo pipefail
              config="$(sudo -n /usr/sbin/nginx -T 2>&1 | awk '\''/^# configuration file / { file=$4; sub(/:$/, "", file) } /server_name[[:space:]][^;]*aprendo\.molacomer\.com/ { print file; exit }'\'')"
              test -n "$config"
-             backup="${config}.pre-aprendo-app-auth"
-             sudo -n /usr/bin/python3 /tmp/aprendo-configure-nginx-app-auth.py "$config"
-             if ! sudo -n /usr/sbin/nginx -t; then
-               test -f "$backup"
-               sudo -n /bin/cp "$backup" "$config"
-               sudo -n /usr/sbin/nginx -t
-               exit 1
-             fi
+             sudo -n /usr/bin/python3 /tmp/aprendo-configure-nginx-platform-proxy.py "$config"
+             sudo -n /usr/sbin/nginx -t
              sudo -n /usr/bin/systemctl reload nginx'
 
-      - name: Verify HTTPS application login
+      - name: Verify HTTPS platform login
         run: |
           set -euo pipefail
           headers_file="$(mktemp)"
           login_file="$(mktemp)"
-          asset_headers="$(mktemp)"
-          material_headers="$(mktemp)"
-          trap 'rm -f "$headers_file" "$login_file" "$asset_headers" "$material_headers"' EXIT
+          account_headers="$(mktemp)"
+          trap 'rm -f "$headers_file" "$login_file" "$account_headers"' EXIT
 
           status="$(curl \
             --silent \
@@ -216,23 +211,16 @@ jobs:
 
           test "$status" = "303"
           grep -qi '^location: /login/' "$headers_file"
-          if grep -qi '^www-authenticate: Basic' "$headers_file"; then
-            echo "Legacy Basic Auth is still active" >&2
-            exit 1
-          fi
+          ! grep -qi '^www-authenticate: Basic' "$headers_file"
 
           login_status="$(curl --silent --show-error --output "$login_file" --write-out '%{http_code}' https://aprendo.molacomer.com/login/)"
           test "$login_status" = "200"
           grep -q 'name="username"' "$login_file"
           grep -q 'name="password"' "$login_file"
 
+          account_status="$(curl --silent --show-error --dump-header "$account_headers" --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/cuenta/)"
+          test "$account_status" = "303"
+          grep -qi '^location: /login/' "$account_headers"
+
           api_status="$(curl --silent --show-error --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/api/progress/bateria/)"
           test "$api_status" = "401"
-
-          asset_status="$(curl --silent --show-error --dump-header "$asset_headers" --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
-          test "$asset_status" = "303"
-          grep -qi '^location: /login/' "$asset_headers"
-
-          material_status="$(curl --silent --show-error --dump-header "$material_headers" --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/bateria/materiales/u1/lectura-negras-corcheas.pdf)"
-          test "$material_status" = "303"
-          grep -qi '^location: /login/' "$material_headers"
