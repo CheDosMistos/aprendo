@@ -74,9 +74,55 @@ jobs:
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
             "$VPS_USER@$VPS_HOST" \
-            'set -euo pipefail; test -x /opt/aprendo-node/bin/node; test -x /opt/aprendo-node/bin/npm; test -x /usr/bin/python3; test -x /usr/sbin/nginx; test -d /opt/aprendo/runtime; test -w /opt/aprendo/runtime; test -d /var/lib/aprendo; test -w /var/lib/aprendo; /opt/aprendo-node/bin/node --version'
+            'set -euo pipefail
+             test -x /opt/aprendo-node/bin/node
+             test -x /opt/aprendo-node/bin/npm
+             test -x /usr/bin/python3
+             test -x /usr/sbin/nginx
+             test -d /opt/aprendo/runtime
+             test -w /opt/aprendo/runtime
+             test -d /var/lib/aprendo
+             test -w /var/lib/aprendo
+             mkdir -p /opt/aprendo/runtime/releases
+             test -w /opt/aprendo/runtime/releases
+             /opt/aprendo-node/bin/node --version'
 
-      - name: Back up SQLite before schema migration
+      - name: Prepare immutable release
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          RELEASE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            "set -euo pipefail; release=/opt/aprendo/runtime/releases/$RELEASE_SHA; rm -rf -- \"\$release\"; mkdir -p \"\$release\""
+
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/known_hosts" \
+            dist/ \
+            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/releases/$RELEASE_SHA/"
+
+          rsync -az \
+            -e "ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/known_hosts" \
+            package.json package-lock.json \
+            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/releases/$RELEASE_SHA/"
+
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            "set -euo pipefail; cd /opt/aprendo/runtime/releases/$RELEASE_SHA; export PATH=/opt/aprendo-node/bin:\$PATH; npm ci --omit=dev --no-audit --no-fund; test -f server/entry.mjs; test -d client/_astro"
+
+      - name: Upload activation helpers
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -88,51 +134,14 @@ jobs:
             -o IdentitiesOnly=yes \
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
-            ops/backup-sqlite.py \
-            "$VPS_USER@$VPS_HOST:/tmp/aprendo-backup-sqlite.py"
+            ops/backup-sqlite.py ops/activate-release.sh \
+            "$VPS_USER@$VPS_HOST:/tmp/"
 
-          ssh \
-            -i ~/.ssh/deploy_key \
-            -o BatchMode=yes \
-            -o IdentitiesOnly=yes \
-            -o StrictHostKeyChecking=yes \
-            -o UserKnownHostsFile=~/.ssh/known_hosts \
-            "$VPS_USER@$VPS_HOST" \
-            'set -euo pipefail
-             db=/var/lib/aprendo/aprendo.sqlite
-             mkdir -p /var/lib/aprendo/backups
-             if [ -f "$db" ]; then
-               stamp=$(date -u +%Y%m%dT%H%M%SZ)
-               target="/var/lib/aprendo/backups/pre-login-${stamp}.sqlite"
-               /usr/bin/python3 /tmp/aprendo-backup-sqlite.py "$db" "$target"
-               test -s "$target"
-               ls -1t /var/lib/aprendo/backups/pre-login-*.sqlite 2>/dev/null | tail -n +4 | xargs -r rm -f
-             fi'
-
-      - name: Deploy Node runtime with rsync
+      - name: Activate release with rollback
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
-        run: |
-          set -euo pipefail
-          rsync -az \
-            --delete-delay \
-            --delay-updates \
-            --exclude node_modules \
-            --exclude package.json \
-            -e "ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/known_hosts" \
-            dist/ \
-            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/"
-
-          rsync -az \
-            -e "ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/known_hosts" \
-            package.json package-lock.json \
-            "$VPS_USER@$VPS_HOST:/opt/aprendo/runtime/"
-
-      - name: Install production runtime dependencies
-        env:
-          VPS_HOST: ${{ secrets.VPS_HOST }}
-          VPS_USER: ${{ secrets.VPS_USER }}
+          RELEASE_SHA: ${{ github.sha }}
         run: |
           set -euo pipefail
           ssh \
@@ -142,22 +151,7 @@ jobs:
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
             "$VPS_USER@$VPS_HOST" \
-            'set -euo pipefail; cd /opt/aprendo/runtime; export PATH=/opt/aprendo-node/bin:$PATH; npm ci --omit=dev --no-audit --no-fund'
-
-      - name: Restart and verify Aprendo runtime
-        env:
-          VPS_HOST: ${{ secrets.VPS_HOST }}
-          VPS_USER: ${{ secrets.VPS_USER }}
-        run: |
-          set -euo pipefail
-          ssh \
-            -i ~/.ssh/deploy_key \
-            -o BatchMode=yes \
-            -o IdentitiesOnly=yes \
-            -o StrictHostKeyChecking=yes \
-            -o UserKnownHostsFile=~/.ssh/known_hosts \
-            "$VPS_USER@$VPS_HOST" \
-            'set -euo pipefail; sudo -n /usr/bin/systemctl restart aprendo.service; for attempt in 1 2 3 4 5 6 7 8 9 10; do if /usr/bin/systemctl is-active --quiet aprendo.service && response=$(curl --fail --silent --show-error --max-time 3 http://127.0.0.1:4321/api/health/); then printf "%s\n" "$response" | grep -q '\''"status":"ok"'\''; root_status=$(curl --silent --output /dev/null --write-out "%{http_code}" http://127.0.0.1:4321/); login_status=$(curl --silent --output /dev/null --write-out "%{http_code}" http://127.0.0.1:4321/login/); test "$root_status" = "303"; test "$login_status" = "200"; test -f /var/lib/aprendo/aprendo.sqlite; exit 0; fi; sleep 1; done; /usr/bin/systemctl status aprendo.service --no-pager || true; exit 1'
+            "set -euo pipefail; APRENDO_BACKUP_HELPER=/tmp/backup-sqlite.py bash /tmp/activate-release.sh $RELEASE_SHA"
 
       - name: Configure Nginx as plain platform proxy
         env:
