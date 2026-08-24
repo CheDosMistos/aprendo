@@ -13,7 +13,7 @@ const hasError = Astro.url.searchParams.get('error') === '1';
   </head>
   <body>
     <main>
-      <form method="post" action="/api/auth/login/" data-error={hasError ? 'true' : 'false'} autocomplete="on">
+      <form method="post" action="/api/auth/login/" autocomplete="on">
         <input
           type="text"
           name="username"
@@ -73,7 +73,6 @@ const hasError = Astro.url.searchParams.get('error') === '1';
     border-color: light-dark(#777, #999);
     box-shadow: 0 0 0 2px light-dark(rgb(0 0 0 / .07), rgb(255 255 255 / .09));
   }
-  form[data-error='true'] input { border-color: #d52b2b; }
   .auth-error {
     position: absolute;
     inset: 0;
