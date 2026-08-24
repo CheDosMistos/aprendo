@@ -25,3 +25,9 @@ test('login shows the Aprendo mark centered at about 100px with a 20rpm center r
   assert.match(source, /from \{ transform: rotate\(45deg\); \}/);
   assert.match(source, /to \{ transform: rotate\(405deg\); \}/);
 });
+
+test('login fields stay vertically centered while the mark is centered in the space above them', () => {
+  assert.match(source, /grid-template-rows:\s*minmax\(0, 1fr\) auto minmax\(0, 1fr\)/);
+  assert.match(source, /\.login-mark\s*\{[^}]*grid-row:\s*1;[^}]*align-self:\s*center/s);
+  assert.match(source, /\.fields\s*\{[^}]*grid-row:\s*2;/s);
+});
