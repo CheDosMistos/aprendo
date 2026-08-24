@@ -37,6 +37,12 @@ jobs:
           fixture="$(mktemp)"
           cat > "$fixture" <<'NGINX'
           server {
+              listen 80;
+              server_name aprendo.molacomer.com;
+              return 301 https://$host$request_uri;
+          }
+
+          server {
               listen 443 ssl;
               server_name aprendo.molacomer.com;
               root /var/www/aprendo.molacomer.com;
@@ -52,6 +58,7 @@ jobs:
           NGINX
           python3 ops/configure-nginx-app-auth.py "$fixture"
           ! grep -q 'auth_basic' "$fixture"
+          grep -q 'return 301 https://$host$request_uri;' "$fixture"
           grep -q 'location / {' "$fixture"
           grep -q 'proxy_pass http://127.0.0.1:4321;' "$fixture"
           grep -q 'location /api/' "$fixture"
