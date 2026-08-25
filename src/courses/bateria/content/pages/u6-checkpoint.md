@@ -19,6 +19,8 @@ published: true
 
 Decidir si U7 puede abrirse sin convertir U6 en un examen de velocidad. El cierre busca representación correcta, control lento suficiente y diagnóstico útil.
 
+Reutiliza evidencia reciente y todavía representativa. Cuando el estado sea dudoso, antiguo o contradictorio, remuestrea una tarea corta.
+
 ## MÍNIMO PARA AVANZAR
 
 Puedes continuar si:
@@ -32,6 +34,13 @@ Puedes continuar si:
 - puedes transformar un motivo cambiando una sola variable y explicar el cambio.
 
 No se exige que los tres PAS sean `FUNCIONALES`.
+
+## Condiciones de evidencia
+
+- Una lectura cuenta como **nueva** solo si no fue practicada ni mostrada previamente como solución.
+- Recuperar un PAS después de separación puede informar de retención; tocarlo justo después de estudiarlo no.
+- Una muestra solo actualiza las habilidades realmente observadas; otras competencias implicadas por la página conservan su evidencia previa.
+- Una toma atípica genera diagnóstico y retest antes de degradar un estado previamente estable.
 
 ## COMPETENTE
 
@@ -62,6 +71,16 @@ Sin ser requisito:
 ## Si aparece un cuello de botella
 
 No reinicies U6 completa. Corrige la variable responsable durante un bloque breve y retesta el conjunto. Si aparece dolor o tensión creciente, reduce carga o detente.
+
+## Decisión
+
+**CONTINUAR** — la base para U7 está disponible.
+
+**CONTINUAR + CORRECTIVO** — una debilidad localizada debe seguir apareciendo, pero no invalida U7.
+
+**REDUCIR NOVEDAD** — un prerrequisito central necesita otra exposición antes de añadir complejidad.
+
+**DETENER CARGA** — aparece una señal de salud que exige parar o reducir.
 
 ## Registro final
 
