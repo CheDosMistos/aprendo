@@ -13,7 +13,7 @@ const bateria = defineCollection({
     courseId: z.literal('bateria'),
     phase: z.number().int().positive(),
     unit: z.number().int().positive(),
-    unitSlug: z.string().regex(/^unidad-\d+$/),
+    unitSlug: z.string().regex(/^(?:unidad-\d+|fase-\d+-unidad-\d+)$/),
     slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
     kind: z.enum(['unit', 'diagnostic', 'lesson', 'checkpoint']),
     order: z.number().int().nonnegative(),
