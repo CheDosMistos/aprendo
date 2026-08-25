@@ -8,7 +8,7 @@ test('development, package engine and workflows share the Node 24 contract', () 
   const readme = readFileSync('README.md', 'utf8');
   const ci = readFileSync('.github/workflows/ci.yml', 'utf8');
   const deploy = readFileSync('.github/workflows/deploy.yml', 'utf8');
-  const browser = readFileSync('.github/workflows/browser-e2e.yml', 'utf8');
+  const browser = readFileSync('.github/workflows/e2e.yml', 'utf8');
 
   assert.equal(nvmVersion, '24.15.0');
   assert.equal(packageJson.engines?.node, `>=${nvmVersion}`);
