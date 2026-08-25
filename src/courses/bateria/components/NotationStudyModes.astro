@@ -9,20 +9,40 @@
     const shell = score.querySelector<HTMLElement>('.course-score__shell');
     if (!controls || !shell) return;
 
+    const firstSight = score.dataset.scoreFirstSight === 'true';
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'course-score__study-toggle course-score__view-button course-score__view-button--text';
-    button.textContent = 'Ocultar';
-    button.title = 'Ocultar la notación para intentar recordar, cantar o tocar antes de comprobar';
-    button.setAttribute('aria-pressed', 'false');
+    button.textContent = firstSight ? 'Empezar' : 'Ocultar';
+    button.title = firstSight
+      ? 'Revelar por primera vez la notación e iniciar el intento de lectura'
+      : 'Ocultar la notación para intentar recordar, cantar o tocar antes de comprobar';
+    button.setAttribute('aria-pressed', firstSight ? 'true' : 'false');
 
-    button.addEventListener('click', () => {
-      const hidden = score.dataset.studyHidden !== 'true';
+    const setHidden = (hidden: boolean) => {
       score.dataset.studyHidden = String(hidden);
       button.setAttribute('aria-pressed', String(hidden));
+      shell.setAttribute('aria-hidden', String(hidden));
+    };
+
+    if (firstSight) {
+      score.dataset.studyFirstSight = 'true';
+      setHidden(true);
+    }
+
+    button.addEventListener('click', () => {
+      if (firstSight && score.dataset.firstSightStarted !== 'true') {
+        score.dataset.firstSightStarted = 'true';
+        setHidden(false);
+        button.textContent = 'Ocultar';
+        button.title = 'Ocultar la notación antes de otro intento de recuperación';
+        return;
+      }
+
+      const hidden = score.dataset.studyHidden !== 'true';
+      setHidden(hidden);
       button.textContent = hidden ? 'Revelar' : 'Ocultar';
       button.title = hidden ? 'Revelar la notación y comprobar el intento' : 'Ocultar la notación antes de intentar';
-      shell.setAttribute('aria-hidden', String(hidden));
     });
 
     controls.prepend(button);
@@ -59,5 +79,11 @@
     color: var(--muted);
     text-align: center;
     font-weight: 700;
+  }
+  .course-score[data-score-first-sight='true'][data-study-hidden='true']:not([data-first-sight-started='true']) .course-score__shell::after {
+    content: 'Primera vista · pulsa Empezar cuando estés preparado para ver la partitura';
+  }
+  .course-score[data-score-first-sight='true']:not([data-first-sight-started='true']) .course-score__play {
+    display: none;
   }
 </style>
