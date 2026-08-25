@@ -19,6 +19,8 @@ published: true
 
 Cerrar la fase de **introducción** de PAS. Después de U9 ya no aparecen rudimentos nuevos: U10 recuperará, diagnosticará y completará el mapa de estados.
 
+Reutiliza evidencia reciente que siga siendo representativa. Si un estado es antiguo, dudoso o contradictorio, remuestrea una tarea corta.
+
 ## MÍNIMO PARA AVANZAR
 
 Puedes continuar si:
@@ -30,6 +32,12 @@ Puedes continuar si:
 - mantienes C1/C2 suficientemente disponibles para afrontar recuperación global.
 
 No se exige que los tres PAS sean `FUNCIONALES`.
+
+## Validez del muestreo
+
+Las muestras observadas sostienen la decisión de progresión y el diagnóstico de esos PAS. **No actualizan automáticamente el tercero**: conserva evidencia previa si sigue siendo representativa o queda pendiente de remuestreo si existe duda.
+
+La retención requiere separación respecto a la práctica específica. Una toma aislada atípica genera diagnóstico y retest antes de degradar un estado previamente estable.
 
 ## Ventanas U9 — NO SON PUERTA DE EXAMEN
 
@@ -51,6 +59,8 @@ Además del mínimo:
 - mantienes grace notes bajas y preparación de alturas coherente en una muestra de flam;
 - lees una línea nueva con cambio de densidad sin memorizarla primero.
 
+La lectura cuenta como **nueva** únicamente si no fue practicada ni mostrada antes como solución.
+
 ## AVANZADO
 
 Sin ser requisito:
@@ -67,6 +77,37 @@ Sin ser requisito:
 - que todos los PAS estén ya `CONOCIDOS`;
 - que no existan pendientes para U10.
 
+## Estados: tres dimensiones distintas
+
+No mezcles adquisición, dominio y retención en una sola escala.
+
+**ESTADO DE TRABAJO**
+- `NUEVO`;
+- `EN ESTABILIZACIÓN`;
+- sin estado de trabajo activo cuando ya no describe la prioridad actual.
+
+**ESTADO PAS**
+- sin nivel demostrado todavía;
+- `CONOCIDO`;
+- `FUNCIONAL`;
+- `DOMINADO`.
+
+**RETENCIÓN**
+- no comprobada;
+- comprobada tras separación.
+
+`NUEVO` y `EN ESTABILIZACIÓN` **no son niveles anteriores a `CONOCIDO` dentro de una misma escala**. Son estados de trabajo separados del estado PAS.
+
+## Decisión
+
+**CONTINUAR** — la base necesaria para U10 está disponible.
+
+**CONTINUAR + CORRECTIVO** — uno o más PAS necesitan mantenimiento, pero la recuperación global puede comenzar.
+
+**REDUCIR NOVEDAD** — un prerrequisito central de tiempo/técnica necesita estabilización antes del cierre global; U10 no añade PAS nuevos y puede adaptarse a ese diagnóstico.
+
+**DETENER CARGA** — aparece una señal de salud que exige parar o reducir.
+
 ## Registro final
 
-Marca los tres PAS como `NUEVO`, `EN ESTABILIZACIÓN` o `CONOCIDO` según evidencia y anota retención por separado. U10 utilizará este registro para el mapa completo.
+Para cada PAS registra **por separado** estado de trabajo, estado PAS y retención según la evidencia disponible. U10 utilizará ese mapa sin convertir las tres dimensiones en una sola puntuación.
