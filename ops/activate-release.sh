@@ -17,6 +17,7 @@ current_link="${APRENDO_CURRENT_LINK:-$runtime_dir/current}"
 server_link="${APRENDO_SERVER_LINK:-$runtime_dir/server}"
 data_dir="${APRENDO_DATA_DIR:-/var/lib/aprendo}"
 db_path="${APRENDO_DB_PATH:-$data_dir/aprendo.sqlite}"
+avatar_dir="${APRENDO_AVATAR_DIR:-$data_dir/avatars}"
 backup_dir="${APRENDO_BACKUP_DIR:-$data_dir/backups}"
 backup_helper="${APRENDO_BACKUP_HELPER:-/tmp/aprendo-backup-sqlite.py}"
 release="$releases_dir/$release_sha"
@@ -63,6 +64,15 @@ restore_database() {
   /usr/bin/python3 "$backup_helper" "$backup" "$db_path"
 }
 
+restore_avatars() {
+  local snapshot="$1"
+  [ -n "$snapshot" ] || return 0
+  [ -d "$snapshot" ] || return 1
+  rm -rf -- "$avatar_dir"
+  mkdir -p "$avatar_dir"
+  cp -a "$snapshot"/. "$avatar_dir"/
+}
+
 switch_current() {
   local target="$1"
   local next_link="$runtime_dir/.current-next-$$"
@@ -98,6 +108,7 @@ elif [ -e "$current_link" ]; then
 fi
 
 backup=""
+avatar_backup=""
 service_started_new=0
 
 rollback() {
@@ -115,6 +126,7 @@ rollback() {
     ensure_server_link
   fi
   restore_database "$backup"
+  restore_avatars "$avatar_backup"
   if [ -n "$previous" ] && [ -d "$previous" ]; then
     run_systemctl start "$service_name"
     wait_for_health || true
@@ -129,9 +141,17 @@ run_systemctl stop "$service_name"
 
 if [ -f "$db_path" ]; then
   stamp="$(date -u +%Y%m%dT%H%M%SZ)"
-  backup="$backup_dir/pre-deploy-${release_sha:0:12}-${stamp}.sqlite"
+  backup_prefix="$backup_dir/pre-deploy-${release_sha:0:12}-${stamp}"
+  backup="$backup_prefix.sqlite"
+  avatar_backup="$backup_prefix.avatars"
   /usr/bin/python3 "$backup_helper" "$db_path" "$backup"
   test -s "$backup"
+  rm -rf -- "$avatar_backup"
+  mkdir -p "$avatar_backup"
+  if [ -d "$avatar_dir" ]; then
+    cp -a "$avatar_dir"/. "$avatar_backup"/
+  fi
+  test -d "$avatar_backup"
 fi
 
 # One-time conversion of the historical mutable runtime into an immutable legacy release.
@@ -180,6 +200,10 @@ for candidate in "${candidates[@]}"; do
   fi
 done
 
-ls -1t "$backup_dir"/pre-deploy-*.sqlite 2>/dev/null | tail -n +6 | xargs -r rm -f
+mapfile -t expired_backups < <(ls -1t "$backup_dir"/pre-deploy-*.sqlite 2>/dev/null | tail -n +6)
+for expired in "${expired_backups[@]}"; do
+  rm -f -- "$expired"
+  rm -rf -- "${expired%.sqlite}.avatars"
+done
 
 echo "Activated release $release_sha"

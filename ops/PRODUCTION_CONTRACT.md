@@ -13,10 +13,20 @@ La producción debe cumplir estas condiciones:
 - `aprendo.service` está activo.
 - El endpoint interno `http://127.0.0.1:4321/api/health/` responde con estado `ok`.
 - SQLite persiste en `/var/lib/aprendo/aprendo.sqlite`.
+- Los avatares persisten en `/var/lib/aprendo/avatars` y forman parte del mismo estado lógico que SQLite.
+- Antes de activar un release, con el servicio parado, el despliegue crea una copia coherente de SQLite y un snapshot de avatares con el mismo prefijo en `/var/lib/aprendo/backups`.
+- Si la activación falla, SQLite y el snapshot de avatares se restauran juntos antes de volver a arrancar el release anterior.
+- La retención de copias pre-deploy elimina cada pareja SQLite/avatares de forma conjunta.
 - Nginx tiene el host `aprendo.molacomer.com`, escucha HTTPS y proxifica a `127.0.0.1:4321`.
 - Los prefijos privados `/bateria/notation/` y `/bateria/materiales/` están protegidos por la sesión de la aplicación en Nginx.
 
 `ops/verify-production-contract.sh` comprueba estas condiciones sobre la configuración efectiva. El despliegue debe ejecutar esa comprobación después de activar el release y recargar Nginx.
+
+## Política de datos persistentes
+
+SQLite y los avatares se consideran una única unidad de restauración porque `avatar_version` vive en la base de datos mientras el fichero WebP vive en el filesystem. No debe restaurarse deliberadamente una copia histórica de uno sin el snapshot correspondiente del otro.
+
+Las copias pre-deploy son protección operativa de rollback, no una estrategia completa de disaster recovery externa. Una copia fuera del VPS puede añadirse en el futuro sin cambiar esta regla de coherencia.
 
 ## Infraestructura deliberadamente externa
 
