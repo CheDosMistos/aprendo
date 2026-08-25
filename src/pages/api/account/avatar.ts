@@ -1,25 +1,31 @@
 import type { APIRoute } from 'astro';
 import { AvatarValidationError, MAX_AVATAR_BYTES, readAvatar, removeAvatar, saveAvatar } from '@platform/auth/avatarStore';
 import { ApiRequestError, apiErrorResponse, assertSameOrigin, jsonResponse } from '@platform/server/http';
+import { logServerError } from '@platform/server/logging';
 import { getRuntime } from '@platform/server/runtime';
 
 export const prerender = false;
 
 export const GET: APIRoute = ({ locals }) => {
-  const user = locals.user;
-  if (!user) return jsonResponse({ error: 'Authentication required.' }, 401);
-  const avatar = readAvatar(user.id);
-  if (!avatar) return new Response(null, { status: 404, headers: { 'cache-control': 'no-store' } });
-  const body = Uint8Array.from(avatar);
-  return new Response(body, {
-    status: 200,
-    headers: {
-      'content-type': 'image/webp',
-      'content-length': String(body.byteLength),
-      'cache-control': 'private, no-store',
-      'x-content-type-options': 'nosniff',
-    },
-  });
+  try {
+    const user = locals.user;
+    if (!user) return jsonResponse({ error: 'Authentication required.' }, 401);
+    const avatar = readAvatar(user.id);
+    if (!avatar) return new Response(null, { status: 404, headers: { 'cache-control': 'no-store' } });
+    const body = Uint8Array.from(avatar);
+    return new Response(body, {
+      status: 200,
+      headers: {
+        'content-type': 'image/webp',
+        'content-length': String(body.byteLength),
+        'cache-control': 'private, no-store',
+        'x-content-type-options': 'nosniff',
+      },
+    });
+  } catch (error) {
+    logServerError({ endpoint: '/api/account/avatar', operation: 'read', error });
+    return apiErrorResponse(error);
+  }
 };
 
 export const POST: APIRoute = async ({ request, locals }) => {
@@ -39,7 +45,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
   } catch (error) {
     if (error instanceof ApiRequestError) return apiErrorResponse(error);
     if (error instanceof AvatarValidationError) return jsonResponse({ error: error.message }, 400);
-    console.error('[api/account/avatar] write failed');
+    logServerError({ endpoint: '/api/account/avatar', operation: 'write', error });
     return apiErrorResponse(error);
   }
 };
@@ -54,7 +60,7 @@ export const DELETE: APIRoute = ({ request, locals }) => {
     locals.user = { ...user, avatarVersion: null };
     return new Response(null, { status: 204 });
   } catch (error) {
-    if (!(error instanceof ApiRequestError)) console.error('[api/account/avatar] delete failed');
+    if (!(error instanceof ApiRequestError)) logServerError({ endpoint: '/api/account/avatar', operation: 'delete', error });
     return apiErrorResponse(error);
   }
 };

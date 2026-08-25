@@ -7,6 +7,7 @@ import {
   jsonResponse,
   readJsonBody,
 } from '@platform/server/http';
+import { logServerError } from '@platform/server/logging';
 import { getRuntime } from '@platform/server/runtime';
 import {
   ProgressValidationError,
@@ -36,7 +37,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     }
 
     if (!(error instanceof ApiRequestError)) {
-      console.error('[api/progress/executions] progress write failed');
+      logServerError({ endpoint: '/api/progress/executions', operation: 'write', error });
     }
 
     return apiErrorResponse(error);
