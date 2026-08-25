@@ -41,7 +41,7 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
 
-async function exposeMetronomeIfCompact(page: Page): Promise<void> {
+async function exposePracticeToolsIfCompact(page: Page): Promise<void> {
   const toggle = page.locator('[data-metronome-toggle]');
   if (await toggle.isVisible()) await toggle.click();
 }
@@ -71,7 +71,7 @@ test('invalid credentials expose an accessible authentication error', async ({ p
 test('metronome global keyboard shortcuts do not steal Space from focused controls', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/unidad-1/sesion-0-diagnostico/');
-  await exposeMetronomeIfCompact(page);
+  await exposePracticeToolsIfCompact(page);
 
   const play = page.getByRole('button', { name: 'Iniciar metrónomo' });
   const increase = page.getByRole('button', { name: 'Subir 1 BPM' });
@@ -79,6 +79,29 @@ test('metronome global keyboard shortcuts do not steal Space from focused contro
   await increase.focus();
   await page.keyboard.press('Space');
   await expect(play).toHaveAttribute('aria-pressed', 'false');
+});
+
+test('compact trigger accurately exposes the complete practice tools panel', async ({ page }, testInfo) => {
+  await login(page, testInfo);
+  await page.goto('/bateria/unidad-1/sesion-0-diagnostico/');
+
+  const compact = await page.evaluate(() => window.matchMedia('(max-width: 56rem)').matches);
+  test.skip(!compact, 'compact viewport only');
+
+  const toggle = page.locator('[data-metronome-toggle]');
+  await expect(toggle).toBeVisible();
+  await expect(toggle).toHaveAttribute('aria-label', 'Mostrar herramientas de práctica');
+  await toggle.click();
+  await expect(toggle).toHaveAttribute('aria-label', 'Ocultar herramientas de práctica');
+
+  const panel = page.getByRole('complementary', { name: 'Herramientas de práctica' });
+  await expect(panel).toBeVisible();
+  await expect(panel.getByRole('heading', { name: 'Metrónomo' })).toBeVisible();
+  await expect(panel.getByText('Autoescucha breve')).toBeVisible();
+  await expect(panel.getByRole('link', { name: /Progreso y evidencia/ })).toBeVisible();
+
+  await page.keyboard.press('Escape');
+  await expect(toggle).toHaveAttribute('aria-label', 'Mostrar herramientas de práctica');
 });
 
 test('core authenticated pages do not create horizontal overflow at the project viewport', async ({ page }, testInfo) => {
