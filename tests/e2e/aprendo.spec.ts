@@ -82,12 +82,15 @@ test('metronome global keyboard shortcuts do not steal Space from focused contro
 });
 
 test('compact trigger accurately exposes the complete practice tools panel', async ({ page }, testInfo) => {
-  test.skip(testInfo.project.name === 'chromium-desktop', 'compact viewport only');
   await login(page, testInfo);
   await page.goto('/bateria/unidad-1/sesion-0-diagnostico/');
 
-  const toggle = page.getByRole('button', { name: 'Mostrar herramientas de práctica' });
+  const compact = await page.evaluate(() => window.matchMedia('(max-width: 56rem)').matches);
+  test.skip(!compact, 'compact viewport only');
+
+  const toggle = page.locator('[data-metronome-toggle]');
   await expect(toggle).toBeVisible();
+  await expect(toggle).toHaveAttribute('aria-label', 'Mostrar herramientas de práctica');
   await toggle.click();
   await expect(toggle).toHaveAttribute('aria-label', 'Ocultar herramientas de práctica');
 
