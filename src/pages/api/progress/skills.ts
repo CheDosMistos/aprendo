@@ -7,6 +7,7 @@ import {
   jsonResponse,
   readJsonBody,
 } from '@platform/server/http';
+import { logServerError } from '@platform/server/logging';
 import { getRuntime } from '@platform/server/runtime';
 import { SkillEvidenceValidationError, type SkillType } from '@platform/progress/skillEvidence';
 
@@ -21,7 +22,9 @@ export const GET: APIRoute = ({ url, locals }) => {
     const skillType = rawType === null ? undefined : parseSkillType(rawType);
     return jsonResponse({ states: getRuntime().skillsFor(locals.user.stableKey).listStates(courseId, skillType) });
   } catch (error) {
-    if (!(error instanceof ApiRequestError)) console.error('[api/progress/skills] read failed');
+    if (!(error instanceof ApiRequestError)) {
+      logServerError({ endpoint: '/api/progress/skills', operation: 'read', error });
+    }
     return apiErrorResponse(error);
   }
 };
@@ -37,7 +40,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
   } catch (error) {
     if (error instanceof ApiRequestError) return apiErrorResponse(error);
     if (error instanceof SkillEvidenceValidationError) return jsonResponse({ error: error.message }, 400);
-    console.error('[api/progress/skills] write failed');
+    logServerError({ endpoint: '/api/progress/skills', operation: 'write', error });
     return apiErrorResponse(error);
   }
 };
