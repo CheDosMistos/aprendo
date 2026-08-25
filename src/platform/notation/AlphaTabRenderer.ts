@@ -1,4 +1,4 @@
-import * as alphaTab from '@coderline/alphatab';
+import type * as AlphaTab from '@coderline/alphatab';
 import type { NotationRenderer, NotationRendererCallbacks } from './NotationRenderer';
 
 export interface AlphaTabRendererOptions {
@@ -10,9 +10,13 @@ export interface AlphaTabRendererOptions {
 }
 
 export class AlphaTabRenderer implements NotationRenderer {
-  private readonly api: alphaTab.AlphaTabApi;
+  private api: AlphaTab.AlphaTabApi | null = null;
   private readonly callbacks: NotationRendererCallbacks;
   private readonly referenceBpm: number;
+  private pendingSourceUrl: string | null = null;
+  private playbackBpm: number;
+  private displayScale: number;
+  private disposed = false;
 
   constructor(
     host: HTMLElement,
@@ -21,93 +25,127 @@ export class AlphaTabRenderer implements NotationRenderer {
   ) {
     this.callbacks = callbacks;
     const enablePlayer = options.enablePlayer ?? true;
-    const displayScale = options.displayScale ?? 1;
+    this.displayScale = options.displayScale ?? 1;
     const stretchForce = options.stretchForce ?? 0.8;
     const hideScoreHeader = options.hideScoreHeader ?? false;
     this.referenceBpm = options.referenceBpm ?? 120;
+    this.playbackBpm = this.referenceBpm;
 
-    const hiddenElements = new Map<alphaTab.NotationElement, boolean>([
-      [alphaTab.NotationElement.ScoreTitle, false],
-      [alphaTab.NotationElement.ScoreSubTitle, false],
-      [alphaTab.NotationElement.ScoreArtist, false],
-      [alphaTab.NotationElement.ScoreAlbum, false],
-      [alphaTab.NotationElement.ScoreWords, false],
-      [alphaTab.NotationElement.ScoreMusic, false],
-      [alphaTab.NotationElement.ScoreWordsAndMusic, false],
-      [alphaTab.NotationElement.ScoreCopyright, false],
-    ]);
+    void import('@coderline/alphatab')
+      .then((alphaTab) => {
+        if (this.disposed) return;
 
-    this.api = new alphaTab.AlphaTabApi(host, {
-      core: {
-        engine: 'svg',
-        fontDirectory: '/font/',
-      },
-      display: {
-        scale: displayScale,
-        stretchForce,
-      },
-      notation: hideScoreHeader ? { elements: hiddenElements } : undefined,
-      player: {
-        enablePlayer,
-        soundFont: '/soundfont/sonivox.sf2',
-        scrollElement: host.parentElement ?? host,
-      },
-    });
+        const hiddenElements = new Map<AlphaTab.NotationElement, boolean>([
+          [alphaTab.NotationElement.ScoreTitle, false],
+          [alphaTab.NotationElement.ScoreSubTitle, false],
+          [alphaTab.NotationElement.ScoreArtist, false],
+          [alphaTab.NotationElement.ScoreAlbum, false],
+          [alphaTab.NotationElement.ScoreWords, false],
+          [alphaTab.NotationElement.ScoreMusic, false],
+          [alphaTab.NotationElement.ScoreWordsAndMusic, false],
+          [alphaTab.NotationElement.ScoreCopyright, false],
+        ]);
 
-    this.api.renderStarted.on(() => {
-      this.callbacks.onStatusChange?.('loading', 'Renderizando partitura…');
-    });
+        const api = new alphaTab.AlphaTabApi(host, {
+          core: {
+            engine: 'svg',
+            fontDirectory: '/font/',
+          },
+          display: {
+            scale: this.displayScale,
+            stretchForce,
+          },
+          notation: hideScoreHeader ? { elements: hiddenElements } : undefined,
+          player: {
+            enablePlayer,
+            soundFont: '/soundfont/sonivox.sf2',
+            scrollElement: host.parentElement ?? host,
+          },
+        });
+        this.api = api;
 
-    this.api.renderFinished.on(() => {
-      this.callbacks.onStatusChange?.('ready', 'Partitura renderizada');
-    });
+        api.renderStarted.on(() => {
+          this.callbacks.onStatusChange?.('loading', 'Renderizando partitura…');
+        });
 
-    if (enablePlayer) {
-      this.api.playerReady.on(() => {
-        this.callbacks.onPlaybackReady?.(true);
+        api.renderFinished.on(() => {
+          this.callbacks.onStatusChange?.('ready', 'Partitura renderizada');
+        });
+
+        if (enablePlayer) {
+          api.playerReady.on(() => {
+            this.callbacks.onPlaybackReady?.(true);
+          });
+          api.playerStateChanged.on((args) => {
+            this.callbacks.onPlaybackStateChange?.(args.state === alphaTab.synth.PlayerState.Playing);
+          });
+          api.playerFinished.on(() => {
+            this.callbacks.onPlaybackStateChange?.(false);
+          });
+        }
+
+        api.error.on((error) => {
+          const message = error instanceof Error ? error.message : String(error);
+          this.callbacks.onStatusChange?.('error', message);
+        });
+
+        this.applyPlaybackBpm();
+        const sourceUrl = this.pendingSourceUrl;
+        this.pendingSourceUrl = null;
+        if (sourceUrl && !api.load(sourceUrl)) {
+          this.callbacks.onStatusChange?.('error', 'No se ha podido cargar la partitura.');
+        }
+      })
+      .catch(() => {
+        if (!this.disposed) {
+          this.callbacks.onPlaybackReady?.(false);
+          this.callbacks.onStatusChange?.('error', 'No se ha podido inicializar el motor de notación.');
+        }
       });
-      this.api.playerStateChanged.on((args) => {
-        this.callbacks.onPlaybackStateChange?.(args.state === alphaTab.synth.PlayerState.Playing);
-      });
-      this.api.playerFinished.on(() => {
-        this.callbacks.onPlaybackStateChange?.(false);
-      });
-    }
-
-    this.api.error.on((error) => {
-      const message = error instanceof Error ? error.message : String(error);
-      this.callbacks.onStatusChange?.('error', message);
-    });
   }
 
   load(sourceUrl: string): boolean {
     this.callbacks.onPlaybackReady?.(false);
     this.callbacks.onPlaybackStateChange?.(false);
     this.callbacks.onStatusChange?.('loading', 'Cargando MusicXML…');
-    return this.api.load(sourceUrl);
+    if (!sourceUrl) return false;
+    if (this.api) return this.api.load(sourceUrl);
+    this.pendingSourceUrl = sourceUrl;
+    return true;
   }
 
   playPause(): void {
-    if (this.api.isReadyForPlayback) this.api.playPause();
+    if (this.api?.isReadyForPlayback) this.api.playPause();
   }
 
   stop(): void {
-    if (this.api.isReadyForPlayback) this.api.stop();
+    if (this.api?.isReadyForPlayback) this.api.stop();
   }
 
   setPlaybackBpm(bpm: number): void {
     if (!Number.isFinite(bpm) || this.referenceBpm <= 0) return;
-    this.api.playbackSpeed = Math.min(8, Math.max(0.125, bpm / this.referenceBpm));
+    this.playbackBpm = bpm;
+    this.applyPlaybackBpm();
   }
 
   setDisplayScale(scale: number): void {
     if (!Number.isFinite(scale)) return;
-    this.api.settings.display.scale = Math.min(1.6, Math.max(0.65, scale));
+    this.displayScale = Math.min(1.6, Math.max(0.65, scale));
+    if (!this.api) return;
+    this.api.settings.display.scale = this.displayScale;
     this.api.updateSettings();
     this.api.render();
   }
 
   dispose(): void {
-    this.api.destroy();
+    this.disposed = true;
+    this.pendingSourceUrl = null;
+    this.api?.destroy();
+    this.api = null;
+  }
+
+  private applyPlaybackBpm(): void {
+    if (!this.api) return;
+    this.api.playbackSpeed = Math.min(8, Math.max(0.125, this.playbackBpm / this.referenceBpm));
   }
 }
