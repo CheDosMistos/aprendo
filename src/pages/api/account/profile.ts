@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { AuthInputError } from '@platform/auth/authService';
 import { SESSION_COOKIE_NAME } from '@platform/auth/sessionCookie';
 import { ApiRequestError, apiErrorResponse, assertSameOrigin, jsonResponse, readJsonBody } from '@platform/server/http';
+import { logServerError } from '@platform/server/logging';
 import { getRuntime } from '@platform/server/runtime';
 
 export const prerender = false;
@@ -28,7 +29,7 @@ export const POST: APIRoute = async ({ request, cookies, locals }) => {
   } catch (error) {
     if (error instanceof ApiRequestError) return apiErrorResponse(error);
     if (error instanceof AuthInputError) return jsonResponse({ error: error.message }, 400);
-    console.error('[api/account/profile] update failed');
+    logServerError({ endpoint: '/api/account/profile', operation: 'update', error });
     return apiErrorResponse(error);
   }
 };
