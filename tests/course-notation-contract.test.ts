@@ -39,8 +39,11 @@ function validateMeasureDurations(xml: string, file: string) {
     beats = tagNumber(measure, 'beats') ?? beats;
     beatType = tagNumber(measure, 'beat-type') ?? beatType;
 
-    assert.ok(divisions && beats && beatType, `${file}: measure ${index + 1} lacks inherited divisions/time`);
-    const expected = divisions * beats * 4 / beatType;
+    assert.ok(divisions !== null && beats !== null && beatType !== null, `${file}: measure ${index + 1} lacks inherited divisions/time`);
+    const currentDivisions: number = Number(divisions);
+    const currentBeats: number = Number(beats);
+    const currentBeatType: number = Number(beatType);
+    const expected: number = currentDivisions * currentBeats * 4 / currentBeatType;
     assert.ok(Number.isInteger(expected), `${file}: measure ${index + 1} has a non-integral expected duration`);
 
     let cursor = 0;
