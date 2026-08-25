@@ -38,7 +38,9 @@ test('U1 and U2 checkpoints use controlled first-sight material', () => {
   const studyModes = read('src/courses/bateria/components/NotationStudyModes.astro');
   assert.ok(studyModes.includes("score.dataset.scoreFirstSight === 'true'"));
   assert.ok(studyModes.includes("button.textContent = firstSight ? 'Empezar' : 'Ocultar'"));
-  assert.ok(studyModes.includes(".course-score[data-score-first-sight='true']:not([data-first-sight-started='true']) .course-score__play"));
+  assert.ok(studyModes.includes("score.dataset.firstSightCompleted = 'false'"));
+  assert.ok(studyModes.includes("button.textContent = 'Finalizar intento'"));
+  assert.ok(studyModes.includes(".course-score[data-score-first-sight='true'][data-first-sight-completed='false'] .course-score__play"));
 });
 
 test('checkpoint first-sight MusicXML measures are metrically complete', () => {

@@ -34,7 +34,7 @@ No hagas un maratón de doce rudimentos. Tres muestras son suficientes para obte
 
 La siguiente lectura no aparece en las lecciones anteriores de U2. Combina únicamente vocabulario ya presentado: negras, corcheas y silencios elementales en 4/4.
 
-<div data-notation-score data-score-src="/bateria/notation/u2/lectura-transferencia.musicxml" data-score-title="Lectura de transferencia U2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u2/lectura-transferencia.musicxml" data-score-title="Lectura de transferencia U2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Trabaja:
 

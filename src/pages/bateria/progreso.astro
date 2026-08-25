@@ -57,6 +57,7 @@ const entries = (await getBateriaContent()).filter((entry) => entry.data.kind !=
   const root=document.querySelector<HTMLElement>('[data-progress-dashboard]');
   if(root){
     const labelForAction={continue:'Disponible',continue_review:'Revisión',repeat:'Repetir',stop:'Carga detenida'} as const;
+    const limitingVariableLabels:Record<string,string>={time:'Tiempo / estabilidad temporal',sound:'Sonido',relaxation:'Tensión innecesaria / economía',movement:'Movimiento',sticking:'Sticking',dynamics:'Dinámica',reading:'Lectura',memory:'Recuperación / memoria',understanding:'Comprensión',other:'Otra'};
     const dateFmt=new Intl.DateTimeFormat('es-ES',{dateStyle:'medium'});
     try{
       const [progressResponse,skillsResponse]=await Promise.all([
@@ -86,7 +87,8 @@ const entries = (await getBateriaContent()).filter((entry) => entry.data.kind !=
       if(correctives&&active.length){ correctives.replaceChildren(...active.map(s=>{
         const div=document.createElement('div');div.className='evidence-item';
         const strong=document.createElement('strong');strong.textContent=s.skillId;
-        const p=document.createElement('p');p.textContent=[s.limitingVariable?`Variable: ${s.limitingVariable}`:'',s.corrective??''].filter(Boolean).join(' · ');
+        const variable=s.limitingVariable?(limitingVariableLabels[s.limitingVariable]??s.limitingVariable):'';
+        const p=document.createElement('p');p.textContent=[variable?`Variable: ${variable}`:'',s.corrective??''].filter(Boolean).join(' · ');
         div.append(strong,p);return div;
       }));}
 

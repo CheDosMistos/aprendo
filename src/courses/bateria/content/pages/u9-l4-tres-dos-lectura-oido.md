@@ -64,7 +64,7 @@ Haz esta tarea si 3:2 no ha consumido ya la sesión.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u9/lectura-cambios-densidad.musicxml" data-score-title="Lectura nueva: cambios de densidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u9/lectura-cambios-densidad.musicxml" data-score-title="Lectura nueva: cambios de densidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Haz VER → CONTAR → CANTAR → TOCAR → ESCUCHAR. No memorices primero.
 

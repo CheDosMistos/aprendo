@@ -57,7 +57,7 @@ Que algo **necesite refuerzo** es una señal de revisión, no un nuevo nivel de 
 
 La lectura integrada usa ahora **A7–A8**, que no han aparecido en el diagnóstico ni en la Lección 2. Así esta sección cumple realmente su función de lectura nueva sin introducir figuras nuevas.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml" data-score-title="Lectura nueva — A7–A8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml" data-score-title="Lectura nueva — A7–A8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible" data-score-first-sight="true"></div>
 
 Haz:
 

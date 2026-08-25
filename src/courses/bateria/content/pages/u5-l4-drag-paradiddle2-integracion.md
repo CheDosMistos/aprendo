@@ -40,7 +40,7 @@ Antes de tocar, compara visualmente #1 y #2. Explica qué cambia sin apoyarte en
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u5/lectura-sincopada-nueva.musicxml" data-score-title="Lectura sincopada nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u5/lectura-sincopada-nueva.musicxml" data-score-title="Lectura sincopada nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 No memorices la línea antes de leerla. Haz **VER → CONTAR → CANTAR → TOCAR → ESCUCHAR**. Usa inicialmente una sola mano; después alterna si la lectura sigue estable.
 
