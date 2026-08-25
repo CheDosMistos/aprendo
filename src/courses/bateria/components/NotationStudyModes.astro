@@ -10,12 +10,13 @@
     if (!controls || !shell) return;
 
     const firstSight = score.dataset.scoreFirstSight === 'true';
+    const feedbackAfterAttempt = score.dataset.scoreFeedback === 'after-attempt';
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'course-score__study-toggle course-score__view-button course-score__view-button--text';
     button.textContent = firstSight ? 'Empezar' : 'Ocultar';
     button.title = firstSight
-      ? 'Revelar por primera vez la notación e iniciar el intento de lectura'
+      ? 'Revelar por primera vez la notación e iniciar el intento sin playback'
       : 'Ocultar la notación para intentar recordar, cantar o tocar antes de comprobar';
     button.setAttribute('aria-pressed', firstSight ? 'true' : 'false');
 
@@ -27,6 +28,7 @@
 
     if (firstSight) {
       score.dataset.studyFirstSight = 'true';
+      score.dataset.firstSightCompleted = 'false';
       setHidden(true);
     }
 
@@ -34,6 +36,13 @@
       if (firstSight && score.dataset.firstSightStarted !== 'true') {
         score.dataset.firstSightStarted = 'true';
         setHidden(false);
+        button.textContent = 'Finalizar intento';
+        button.title = 'Marca el primer intento como finalizado y habilita el playback para comprobar';
+        return;
+      }
+
+      if (firstSight && score.dataset.firstSightCompleted !== 'true') {
+        score.dataset.firstSightCompleted = 'true';
         button.textContent = 'Ocultar';
         button.title = 'Ocultar la notación antes de otro intento de recuperación';
         return;
@@ -46,6 +55,22 @@
     });
 
     controls.prepend(button);
+
+    if (feedbackAfterAttempt && !firstSight) {
+      score.dataset.feedbackLocked = 'true';
+      const feedbackButton = document.createElement('button');
+      feedbackButton.type = 'button';
+      feedbackButton.className = 'course-score__view-button course-score__view-button--text';
+      feedbackButton.textContent = 'Habilitar audio';
+      feedbackButton.title = 'Intenta contar, cantar o tocar antes de habilitar el playback';
+      feedbackButton.addEventListener('click', () => {
+        score.dataset.feedbackLocked = 'false';
+        feedbackButton.textContent = 'Audio habilitado';
+        feedbackButton.disabled = true;
+      });
+      controls.append(feedbackButton);
+    }
+
     score.dataset[ENHANCED] = 'true';
   };
 
@@ -83,7 +108,8 @@
   .course-score[data-score-first-sight='true'][data-study-hidden='true']:not([data-first-sight-started='true']) .course-score__shell::after {
     content: 'Primera vista · pulsa Empezar cuando estés preparado para ver la partitura';
   }
-  .course-score[data-score-first-sight='true']:not([data-first-sight-started='true']) .course-score__play {
+  .course-score[data-score-first-sight='true'][data-first-sight-completed='false'] .course-score__play,
+  .course-score[data-feedback-locked='true'] .course-score__play {
     display: none;
   }
 </style>

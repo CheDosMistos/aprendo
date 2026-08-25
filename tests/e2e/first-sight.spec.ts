@@ -34,7 +34,7 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
 
-test('first-sight checkpoint score stays hidden until the attempt starts', async ({ page }, testInfo) => {
+test('first-sight score keeps notation hidden before start and playback locked through the first attempt', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/unidad-1/cierre-unidad-1/');
 
@@ -50,5 +50,11 @@ test('first-sight checkpoint score stays hidden until the attempt starts', async
   await score.getByRole('button', { name: 'Empezar' }).click();
   await expect(score).toHaveAttribute('data-first-sight-started', 'true');
   await expect(shell).toHaveAttribute('aria-hidden', 'false');
+  await expect(play).toBeHidden();
+  await expect(score.getByRole('button', { name: 'Finalizar intento' })).toBeVisible();
+
+  await score.getByRole('button', { name: 'Finalizar intento' }).click();
+  await expect(score).toHaveAttribute('data-first-sight-completed', 'true');
   await expect(score.getByRole('button', { name: 'Ocultar' })).toBeVisible();
+  await expect(play).toBeVisible();
 });
