@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { isKnownCourse } from '@courses/courseRegistry';
 import { ApiRequestError, apiErrorResponse, jsonResponse } from '@platform/server/http';
+import { logServerError } from '@platform/server/logging';
 import { getRuntime } from '@platform/server/runtime';
 
 export const prerender = false;
@@ -22,7 +23,7 @@ export const GET: APIRoute = ({ params, url, locals }) => {
     });
   } catch (error) {
     if (!(error instanceof ApiRequestError)) {
-      console.error('[api/progress] progress read failed');
+      logServerError({ endpoint: '/api/progress/[courseId]', operation: 'read', error });
     }
     return apiErrorResponse(error);
   }
