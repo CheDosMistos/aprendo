@@ -20,8 +20,10 @@ test('first sight keeps playback unavailable until the first attempt is explicit
   assert.match(modes, /feedbackLocked = 'true'/);
 });
 
-test('cold-reading tasks from U3 through U10 explicitly use controlled first sight', async () => {
+test('cold-reading tasks from U1 through U10 explicitly use controlled first sight', async () => {
   const paths = [
+    'src/courses/bateria/content/pages/u1-l4-recuperacion-lectura-aplicacion.md',
+    'src/courses/bateria/content/pages/u2-l4-integracion.md',
     'src/courses/bateria/content/pages/u3-l4-integracion-dictado.md',
     'src/courses/bateria/content/pages/u4-l4-integracion-lectura-oido.md',
     'src/courses/bateria/content/pages/u5-l4-drag-paradiddle2-integracion.md',
