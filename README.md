@@ -8,10 +8,12 @@ La arquitectura acordada está documentada en [`ARCHITECTURE.md`](ARCHITECTURE.m
 
 ## Desarrollo
 
-Requiere Node.js 22 o superior.
+Requiere Node.js 24.15.0 o superior. `.nvmrc` fija esa versión mínima canónica para desarrollo; CI y despliegue usan la línea Node 24.
+
+Con el lockfile versionado, instala exactamente el grafo resuelto con:
 
 ```bash
-npm install
+npm ci
 npm run check
 npm run dev
 ```
