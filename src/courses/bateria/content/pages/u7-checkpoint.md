@@ -19,6 +19,8 @@ published: true
 
 Decidir si U8 puede abrirse sin exigir perfección. Los cuatro PAS sí forman parte del mapa rudimental que debe avanzar hacia `CONOCIDO`; **5/4 y desplazamiento elemental son ventanas de exposición y no generan una puerta adicional de examen**.
 
+Reutiliza evidencia reciente y representativa. Si un registro es antiguo, dudoso o contradictorio, remuestrea una tarea corta.
+
 ## MÍNIMO PARA AVANZAR
 
 Puedes continuar si:
@@ -30,6 +32,12 @@ Puedes continuar si:
 - C1/C2 siguen disponibles en material sencillo de referencia.
 
 No se exige que los cuatro PAS sean `FUNCIONALES`.
+
+## Validez del muestreo
+
+Las dos muestras ayudan a decidir progresión entre familias distintas, pero **solo actualizan directamente los PAS observados**. Los otros conservan evidencia previa si sigue siendo representativa.
+
+Recuperación tras separación puede informar de retención. Una toma atípica debe diagnosticarse y retestarse antes de degradar un estado estable.
 
 ### Ventanas U7: observar, no examinar
 
@@ -50,6 +58,8 @@ Además del mínimo:
 - mantienes relajación y contraste dinámico razonables;
 - como evidencia adicional, puedes leer una línea corta de 5/4 o mostrar una célula desplazada sin perder la referencia.
 
+Si la línea de 5/4 se usa como evidencia de **lectura nueva**, debe ser material no practicado ni mostrado previamente como solución.
+
 ## AVANZADO
 
 Sin ser requisito:
@@ -69,6 +79,16 @@ Sin ser requisito:
 ## Si aparece un cuello de botella
 
 No reinicies U7 completa. Aplica un correctivo corto a la variable responsable y retesta. Una dificultad de flam/drag no bloquea lectura, oído, tiempo o Triple Stroke Roll si esas ramas siguen disponibles.
+
+## Decisión
+
+**CONTINUAR** — la base para U8 está disponible.
+
+**CONTINUAR + CORRECTIVO** — una debilidad localizada seguirá en mantenimiento, pero no invalida U8.
+
+**REDUCIR NOVEDAD** — un prerrequisito central necesita otra exposición antes de añadir complejidad.
+
+**DETENER CARGA** — aparece una señal de salud que exige parar o reducir.
 
 ## Registro final
 

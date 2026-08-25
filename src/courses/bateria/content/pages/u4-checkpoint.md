@@ -19,6 +19,8 @@ published: true
 
 Decidir si U5 puede abrirse sin convertir U4 en un examen de perfección. El criterio principal es **representación correcta + ejecución lenta controlable + diagnóstico útil**.
 
+No repitas por obligación una prueba que ya tenga evidencia reciente y representativa. Remuestrea solo cuando el estado sea antiguo, dudoso o contradictorio.
+
 ## MÍNIMO PARA AVANZAR
 
 Puedes continuar si, con PAS disponible para verificar detalles:
@@ -31,6 +33,12 @@ Puedes continuar si, con PAS disponible para verificar detalles:
 
 Un PAS puede seguir como `INTRODUCIDO` si no bloquea críticamente U5. No se exige que los cuatro sean `FUNCIONALES`.
 
+## Validez del muestreo
+
+La muestra de roll largo sirve para decidir si la rama puede continuar y para diagnosticar esa ejecución. **Solo actualiza directamente el PAS realmente observado.** Los demás PAS conservan su evidencia previa si sigue siendo representativa.
+
+Una toma aislada claramente atípica genera diagnóstico y retest antes de degradar un estado previamente estable. La retención solo se marca cuando existe separación suficiente respecto a la práctica específica.
+
 ## COMPETENTE
 
 Además del mínimo:
@@ -39,6 +47,8 @@ Además del mínimo:
 - lees una línea nueva corta con cambios/agrupaciones accesibles;
 - recuperas dos PAS de U4 después de separación sin calentarlos específicamente;
 - mantienes sonido y relajación razonables en ambas manos.
+
+Una línea cuenta como **nueva** solo si no fue practicada ni mostrada previamente como solución. Después del primer intento pasa a ser práctica de lectura.
 
 ## AVANZADO
 
@@ -59,6 +69,16 @@ Sin ser requisito:
 ## Si aparece un cuello de botella
 
 No reinicies U4 completa. Mantén un correctivo pequeño y específico mientras continúan las ramas que no dependan de él. Si el problema es dolor, tensión creciente u otra señal de salud, reduce carga o detente y registra la situación.
+
+## Decisión
+
+**CONTINUAR** — los prerrequisitos relevantes siguen disponibles.
+
+**CONTINUAR + CORRECTIVO** — existe una debilidad localizada, pero U5 puede abrirse.
+
+**REDUCIR NOVEDAD** — un cuello de botella central hace prematuro añadir la siguiente dificultad.
+
+**DETENER CARGA** — aparece una señal de salud que exige parar o reducir.
 
 ## Registro final
 

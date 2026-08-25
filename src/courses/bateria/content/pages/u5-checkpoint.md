@@ -19,6 +19,8 @@ published: true
 
 Decidir si U6 puede abrirse con una base suficientemente clara. U5 no termina cuando todo sale perfecto; termina cuando el material nuevo está correctamente representado y los cuellos de botella importantes están identificados.
 
+Reutiliza evidencia reciente que siga siendo representativa. Remuestrea únicamente estados antiguos, dudosos o contradictorios.
+
 ## MÍNIMO PARA AVANZAR
 
 Puedes continuar si:
@@ -32,6 +34,12 @@ Puedes continuar si:
 
 No se exige que los cinco PAS sean `FUNCIONALES`.
 
+## Validez del muestreo
+
+La muestra de un roll y un PAS drag+diddle ayuda a comprobar dos ramas distintas, pero **no actualiza automáticamente los cinco PAS**. Cada estado individual cambia solo cuando existe evidencia que lo observe directamente; los demás conservan evidencia previa si sigue siendo representativa.
+
+La recuperación después de separación puede informar de retención. Una ejecución inmediatamente posterior a la práctica específica no.
+
 ## COMPETENTE
 
 Además del mínimo:
@@ -41,6 +49,8 @@ Además del mínimo:
 - lees una línea sincopada nueva sin depender de memoria;
 - escribes una célula sencilla y lo tocado coincide razonablemente con lo escrito;
 - mantienes relajación y dinámica controlable al combinar drag+diddle.
+
+La línea sincopada cuenta como **nueva** solo en el primer intento antes de práctica o exposición previa a la solución.
 
 ## AVANZADO
 
@@ -61,6 +71,16 @@ Sin ser requisito:
 ## Si aparece un cuello de botella
 
 No reinicies U5 completa. Mantén un correctivo breve sobre la variable responsable y continúa las ramas que no dependan de ella. Si aparece dolor o tensión creciente, reduce carga o detente.
+
+## Decisión
+
+**CONTINUAR** — la base necesaria para U6 está disponible.
+
+**CONTINUAR + CORRECTIVO** — existe una debilidad localizada que seguirá reapareciendo sin bloquear U6.
+
+**REDUCIR NOVEDAD** — un prerrequisito central necesita otra exposición antes de añadir complejidad.
+
+**DETENER CARGA** — aparece una señal de salud que exige parar o reducir.
 
 ## Registro final
 

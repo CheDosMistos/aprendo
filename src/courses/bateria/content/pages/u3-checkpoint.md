@@ -19,6 +19,8 @@ published: true
 
 U3 no se cierra por BPM ni por perfección. Se revisa si existe una representación suficientemente correcta para continuar y qué debe permanecer en estabilización.
 
+**No repitas una prueba por calendario si ya existe evidencia reciente y todavía representativa.** Cuando un estado sea dudoso, antiguo o contradictorio, elicita una muestra corta.
+
 ## ESENCIAL AHORA — mínimo para abrir U4
 
 - los seis PAS de U3 han sido **presentados desde PAS** o existe un motivo concreto para dejar alguno pendiente;
@@ -41,15 +43,26 @@ No se evalúa en U3. La capacidad de mover acentos con libertad, leer ternario c
 
 `INTRODUCIDO` es una etiqueta logística digital: presentado correctamente, todavía en adquisición. Los estados PAS del curso siguen siendo **CONOCIDO → FUNCIONAL → DOMINADO**; `INTRODUCIDO` no crea un cuarto estado.
 
+## Cómo interpretar la evidencia
+
+- una tarea observada solo actualiza las competencias o PAS que realmente permite inferir;
+- el resto conserva su evidencia previa si sigue siendo representativa;
+- hacerlo bien inmediatamente después de practicar no demuestra retención;
+- una lectura solo cuenta como material nuevo si no fue practicada ni mostrada previamente como solución;
+- una toma atípica invita a diagnóstico y retest antes de degradar un estado estable.
+
 ## Si algo falla
 
-Usa **SÍNTOMA → HIPÓTESIS → PRUEBA → CORRECCIÓN → EJERCICIO CORRECTIVO → RETEST**. No repitas toda U3 por defecto. Mantén el cuello de botella y abre U4 si el siguiente contenido puede introducirse con seguridad.
+Usa **SÍNTOMA → HIPÓTESIS → PRUEBA → CORRECCIÓN → EJERCICIO CORRECTIVO → RETEST**. No repitas toda U3 por defecto.
 
 ## Decisión
 
-- **AVANZAR** — base suficiente; pendientes no críticos pasan a mantenimiento/corrección.
-- **MANTENER** — una o dos tareas necesitan otra exposición antes de aumentar novedad.
-- **CORREGIR** — hay un cuello de botella concreto que afecta a un prerrequisito de U4.
-- **REDUCIR CARGA** — aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o deterioro técnico fuerte por fatiga.
+**CONTINUAR** — base suficiente; pendientes no críticos pasan a mantenimiento.
+
+**CONTINUAR + CORRECTIVO** — una debilidad localizada debe reaparecer, pero no invalida U4.
+
+**REDUCIR NOVEDAD** — un prerrequisito de U4 necesita otra exposición antes de aumentar complejidad.
+
+**DETENER CARGA** — aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o deterioro técnico fuerte por fatiga.
 
 U4 cambia el centro de gravedad hacia rolls más largos y primeros cambios de subdivisión. No necesitas «cerrar perfecto» U3 para continuar.
