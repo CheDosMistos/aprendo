@@ -58,6 +58,14 @@ test('unauthenticated navigation redirects to login and a real login reaches the
   await expect(page.getByRole('link', { name: /Sesión 0/i })).toBeVisible();
 });
 
+test('login keeps the #333333 background in light and dark color schemes', async ({ page }) => {
+  for (const colorScheme of ['light', 'dark'] as const) {
+    await page.emulateMedia({ colorScheme });
+    await page.goto('/login/');
+    await expect(page.locator('body')).toHaveCSS('background-color', 'rgb(51, 51, 51)');
+  }
+});
+
 test('invalid credentials expose an accessible authentication error', async ({ page }) => {
   await page.goto('/login/');
   await page.getByLabel('Usuario').fill('missing-e2e-user');
