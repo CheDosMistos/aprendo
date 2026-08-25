@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { loginClientSource } from '@platform/auth/loginRateLimiter';
 import { setSessionCookie } from '@platform/auth/sessionCookie';
 import { assertSameOrigin } from '@platform/server/http';
+import { logServerError } from '@platform/server/logging';
 import { getRuntime } from '@platform/server/runtime';
 
 export const prerender = false;
@@ -33,7 +34,8 @@ export const POST: APIRoute = async ({ request, cookies, redirect }) => {
     const session = runtime.auth.createSession(user.id);
     setSessionCookie(cookies, session.token);
     return redirect('/', 303);
-  } catch {
+  } catch (error) {
+    logServerError({ endpoint: '/api/auth/login', operation: 'authenticate', error });
     return redirect('/login/?error=1', 303);
   }
 };
