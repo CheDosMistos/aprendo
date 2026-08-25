@@ -52,7 +52,7 @@ Después marca `2+2+3` con la voz y vuelve a escuchar mentalmente la misma rejil
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u8/lectura-7-8-nueva.musicxml" data-score-title="Lectura nueva en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u8/lectura-7-8-nueva.musicxml" data-score-title="Lectura nueva en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Haz VER → CONTAR → CANTAR → TOCAR → ESCUCHAR. No memorices la línea antes de leerla.
 

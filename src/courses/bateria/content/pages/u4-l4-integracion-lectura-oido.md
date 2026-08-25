@@ -27,7 +27,7 @@ No reaprendas figuras, tresillos, acentos ni 3+3+2. Comprueba solo dos cosas: pu
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u4/lectura-u4-nueva.musicxml" data-score-title="Lectura U4 — cambios y agrupación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u4/lectura-u4-nueva.musicxml" data-score-title="Lectura U4 — cambios y agrupación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Haz **VER → CONTAR → CANTAR → TOCAR → ESCUCHAR**. La línea combina material ya conocido con cambios de densidad y un compás de agrupación 3+3+2. No memorices la partitura antes de leerla.
 

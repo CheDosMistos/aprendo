@@ -27,7 +27,7 @@ Marca dos pulsos principales de 6/8 y subdivide cada uno en tres. Si la organiza
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u6/lectura-6-8-nueva.musicxml" data-score-title="Lectura nueva en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u6/lectura-6-8-nueva.musicxml" data-score-title="Lectura nueva en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Haz **VER → CONTAR → CANTAR → TOCAR → ESCUCHAR**. No memorices la línea antes de leerla.
 

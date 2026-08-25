@@ -27,7 +27,7 @@ Esta lección **no vuelve a enseñar** negras, corcheas, silencios, acentos, tre
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u3/lectura-u3-nueva.musicxml" data-score-title="Lectura U3: binario, ternario, silencios y acentos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u3/lectura-u3-nueva.musicxml" data-score-title="Lectura U3: binario, ternario, silencios y acentos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 No la memorices antes de leerla. Haz **VER → CONTAR → CANTAR → TOCAR → ESCUCHAR**. La línea mezcla material binario, tresillos, silencios y acentos. Si un compás falla, identifica si el problema es D1/D3, C2 o ejecución técnica antes de repetirlo entero muchas veces.
 

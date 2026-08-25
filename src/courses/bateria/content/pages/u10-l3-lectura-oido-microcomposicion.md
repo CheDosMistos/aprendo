@@ -23,7 +23,7 @@ Comprobar que Fase 1 no se ha convertido en una lista de rudimentos: leer materi
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u10/lectura-cierre-4-4.musicxml" data-score-title="Lectura nueva de cierre — 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u10/lectura-cierre-4-4.musicxml" data-score-title="Lectura nueva de cierre — 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Usa el ciclo:
 
@@ -35,7 +35,7 @@ No memorices la línea antes de tocarla. Si falla, identifica si el problema es 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u10/lectura-cierre-6-8.musicxml" data-score-title="Lectura nueva de cierre — 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u10/lectura-cierre-6-8.musicxml" data-score-title="Lectura nueva de cierre — 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Esta tarea recupera una exposición anterior. No pretende convertir 6/8 en competencia funcional de salida.
 

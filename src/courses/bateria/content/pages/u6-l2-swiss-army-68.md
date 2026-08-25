@@ -51,7 +51,7 @@ La cantidad de corcheas por compás no basta para definir cómo se organiza el p
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u6/entrada-6-8.musicxml" data-score-title="Entrada al 6/8: dos grupos de tres" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u6/entrada-6-8.musicxml" data-score-title="Entrada al 6/8: dos grupos de tres" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt"></div>
 
 Haz **VER → CONTAR → CANTAR → TOCAR → ESCUCHAR**. Primero marca solo los dos pulsos principales; después toca todas las corcheas.
 

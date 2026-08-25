@@ -79,7 +79,7 @@ Haz este bloque solo si el núcleo de desplazamiento está suficientemente estab
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u7/lectura-5-4-nueva.musicxml" data-score-title="Lectura nueva en 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u7/lectura-5-4-nueva.musicxml" data-score-title="Lectura nueva en 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 No memorices la línea. Haz VER → CONTAR → CANTAR → TOCAR → ESCUCHAR.
 
