@@ -33,13 +33,17 @@ No se exige comprobar los 40 en una sola sesión.
 
 Comprueba que tu mapa contiene evidencia para los rudimentos introducidos en U1–U9. Si un registro es antiguo o dudoso, muestrea ese rudimento de nuevo; si la evidencia sigue siendo representativa, no repitas por obligación.
 
-Para cada PAS registra:
+Para cada PAS registra por separado:
 
-- `NUEVO / EN ESTABILIZACIÓN` — estado de trabajo, no estado PAS;
-- `CONOCIDO`;
-- `FUNCIONAL`;
-- `DOMINADO`;
-- `RETENCIÓN: no comprobada / comprobada tras separación`.
+- **estado de trabajo:** `NUEVO / EN ESTABILIZACIÓN / sin estado activo`;
+- **estado PAS:** sin nivel demostrado / `CONOCIDO / FUNCIONAL / DOMINADO`;
+- **retención:** no comprobada / comprobada tras separación.
+
+## Regla de actualización de evidencia
+
+Una muestra nueva puede actualizar evidencia previa cuando demuestra que el estado anterior ya no es representativo. Sin embargo, **una sola toma claramente atípica no obliga automáticamente a degradar un estado estable**: formula una hipótesis, repite una muestra corta en condiciones comparables y decide después.
+
+Una muestra parcial solo actualiza los PAS o competencias realmente observados. Los elementos no muestreados conservan su evidencia previa si sigue siendo representativa.
 
 ## MÍNIMO PARA CERRAR FASE 1
 
@@ -70,6 +74,8 @@ Documenta el estado real de:
 
 Una debilidad aislada en lectura, C3 o hábitos K **no prolonga automáticamente Fase 1**: estos ejes continúan desarrollándose en Fase 2.
 
+Completar este checkpoint no demuestra automáticamente todas las competencias listadas en su frontmatter. Solo cambia evidencia cuando una tarea o registro realmente la observa.
+
 ## Qué NO decide el cierre
 
 - BPM máximo;
@@ -81,7 +87,15 @@ Una debilidad aislada en lectura, C3 o hábitos K **no prolonga automáticamente
 
 ## Decisión final
 
-Clasifica cada asunto en una de estas rutas:
+**CONTINUAR** — Fase 2 puede ganar peso; el mantenimiento técnico continúa.
+
+**CONTINUAR + CORRECTIVO** — Fase 2 puede abrirse mientras unos pocos PAS o fundamentos siguen con correctivo selectivo.
+
+**REDUCIR NOVEDAD** — existe un cuello de botella técnico/temporal central que necesita estabilización antes de aumentar la complejidad de las tareas de Fase 2.
+
+**DETENER CARGA** — existe una señal de salud que exige parar o reducir.
+
+Después clasifica cada asunto en una de estas rutas de trabajo:
 
 **MANTENIMIENTO** — disponible y suficientemente estable.
 
