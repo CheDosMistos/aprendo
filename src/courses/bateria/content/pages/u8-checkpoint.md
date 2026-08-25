@@ -19,6 +19,8 @@ published: true
 
 Decidir si U9 puede abrirse sin exigir perfección. U8 debe dejar evidencia suficiente sobre los tres PAS y un diagnóstico separado de las ventanas de 7/8/agrupación.
 
+Reutiliza evidencia reciente y todavía representativa. Remuestrea únicamente cuando el estado sea antiguo, dudoso o contradictorio.
+
 ## MÍNIMO PARA AVANZAR
 
 Puedes continuar si:
@@ -30,6 +32,12 @@ Puedes continuar si:
 - mantienes activos C1/C2 lo suficiente para continuar el trabajo temporal general.
 
 No se exige que los tres PAS sean `FUNCIONALES`.
+
+## Validez del muestreo
+
+Las muestras observadas pueden sostener una decisión de progresión, pero **solo actualizan directamente los PAS realmente tocados**. El tercero conserva evidencia previa si sigue siendo representativa o queda pendiente de remuestreo si existe duda.
+
+La retención requiere separación. Una toma atípica se diagnostica y retesta antes de degradar automáticamente un estado estable.
 
 ## Ventanas de U8 — NO SON PUERTA DE EXAMEN
 
@@ -51,6 +59,8 @@ Además del mínimo:
 - distingues por explicación y ejecución básica compás, agrupación y desplazamiento;
 - mantienes relajación y contraste dinámico razonables.
 
+La línea cuenta como **nueva** únicamente si no fue practicada ni mostrada previamente como solución; después del primer intento pasa a ser práctica de lectura.
+
 ## AVANZADO
 
 Sin ser requisito:
@@ -70,6 +80,16 @@ Sin ser requisito:
 ## Si aparece un cuello de botella
 
 No reinicies U8 completa. Corrige el componente responsable y retesta. Una dificultad en ratamacues no bloquea lectura o flam+diddle si esas ramas siguen disponibles.
+
+## Decisión
+
+**CONTINUAR** — la base para U9 está disponible.
+
+**CONTINUAR + CORRECTIVO** — una debilidad localizada seguirá en mantenimiento sin bloquear U9.
+
+**REDUCIR NOVEDAD** — un prerrequisito central necesita otra exposición antes de añadir complejidad.
+
+**DETENER CARGA** — aparece una señal de salud que exige parar o reducir.
 
 ## Registro final
 
