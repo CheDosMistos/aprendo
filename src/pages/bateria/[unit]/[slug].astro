@@ -56,6 +56,7 @@ const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'les
   : undefined;
 const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
 const hasPasRudiments = entry.data.rudiments.length > 0;
+const embedsRudimentScores = hasPasRudiments && entry.data.rudimentNotation === 'per-rudiment';
 ---
 
 <CourseArticleLayout
@@ -68,7 +69,7 @@ const hasPasRudiments = entry.data.rudiments.length > 0;
   next={next}
 >
   <Content />
-  {hasPasRudiments && <RudimentNotationAutoEmbed rudiments={entry.data.rudiments} />}
+  {embedsRudimentScores && <RudimentNotationAutoEmbed rudiments={entry.data.rudiments} />}
   <CourseScoreReferences
     normativeReferenceUrl={hasPasRudiments ? PAS_NORMATIVE_URL : undefined}
     normativeReferenceLabel={hasPasRudiments ? 'PAS — International Drum Rudiments' : undefined}
