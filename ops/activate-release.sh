@@ -99,7 +99,8 @@ recover_historical_admin_credential() {
   /usr/bin/python3 "$backup_helper" "$db_path" "$recovery_backup"
   test -s "$recovery_backup"
 
-  /usr/bin/python3 - "$db_path" <<'PY'
+  local recovery_result
+  recovery_result="$(/usr/bin/python3 - "$db_path" <<'PY'
 import sqlite3
 import sys
 
@@ -148,6 +149,11 @@ try:
 finally:
     con.close()
 PY
+)"
+  printf '%s\n' "$recovery_result"
+  if [ "$recovery_result" != 'Recovered historical mallo credential.' ]; then
+    rm -f -- "$recovery_backup"
+  fi
 }
 
 mkdir -p "$runtime_dir" "$releases_dir" "$backup_dir"
