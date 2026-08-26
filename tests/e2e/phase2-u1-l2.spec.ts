@@ -51,8 +51,9 @@ test('Phase 2 U1 L2 renders readable notation and hearing choices without first-
   const dictations = page.locator('.rhythm-dictation');
   await expect(dictations).toHaveCount(2);
   const first = dictations.first();
+  const answer = 'Opción A — ataques en 1, 2, & de 2 y & de 3; es menos densa que la opción B.';
   await expect(first.getByRole('button', { name: 'Escuchar dictado' })).toBeVisible();
-  await expect(first.getByText('Opción A — ataques en 1, 2, & de 2 y & de 3.')).toBeHidden();
+  await expect(first.getByText(answer)).toBeHidden();
   await first.getByRole('button', { name: 'Mostrar respuesta' }).click();
-  await expect(first.getByText('Opción A — ataques en 1, 2, & de 2 y & de 3.')).toBeVisible();
+  await expect(first.getByText(answer)).toBeVisible();
 });
