@@ -112,7 +112,7 @@ Escucha antes de mirar la respuesta y elige qué opción corresponde al audio:
 - **B:** `X X · X · · X ·`
 - **C:** `· X X · X · · X`
 
-<div data-rhythm-dictation data-bpm="66" data-subdivision="2" data-pattern="10110100" data-answer="Opción A — ataques en 1, 2, & de 2 y & de 3."></div>
+<div data-rhythm-dictation data-bpm="66" data-subdivision="2" data-pattern="10110100" data-answer="Opción A — ataques en 1, 2, &amp; de 2 y &amp; de 3."></div>
 
 Después de elegir, **vocaliza o toca** la célula y explica al menos una posición concreta: dónde cae un ataque o dónde sigue avanzando el tiempo sin ataque.
 
@@ -122,7 +122,7 @@ Después de elegir, **vocaliza o toca** la célula y explica al menos una posici
 - **B:** `X X · · X · X ·`
 - **C:** `· X X · · X X ·`
 
-<div data-rhythm-dictation data-bpm="66" data-subdivision="2" data-pattern="11001010" data-answer="Opción B — ataques en 1, & de 1, 3 y 4; el pulso 2 queda completo en silencio."></div>
+<div data-rhythm-dictation data-bpm="66" data-subdivision="2" data-pattern="11001010" data-answer="Opción B — ataques en 1, &amp; de 1, 3 y 4; el pulso 2 queda completo en silencio."></div>
 
 No evalúes esta microtarea por rapidez de respuesta. La pregunta es si puedes pasar de **escuchar → localizar en la rejilla → vocalizar/tocar → explicar**.
 
@@ -135,6 +135,14 @@ Registra una evidencia breve, no una nota global de la lección:
 - principal variable limitante: lectura, pulso, subdivisión, ejecución, memoria o comprensión;
 - qué ayuda fue realmente útil;
 - siguiente acción concreta.
+
+Cierra la observación con la misma cadena usada en el sistema de evaluación:
+
+- **INFERENCIA:** qué parece estar disponible o frágil;
+- **EVIDENCIA:** qué fragmento o célula concreta sostiene esa impresión;
+- **TAREA:** lectura binaria por rejilla y/o discriminación auditiva;
+- **CONDICIONES:** tempo usado, click convencional, conteo hablado o retirado, partitura visible;
+- **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
 Completar la sesión **no actualiza automáticamente** C1, C2, D1, E1/E2 ni las competencias de práctica. La evidencia debe corresponder a lo que realmente observaste.
 
