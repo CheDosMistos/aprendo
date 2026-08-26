@@ -105,3 +105,34 @@ test('section duration badges drive a compact timer and the metronome', async ({
   expect(switchedSeconds).toBeLessThanOrEqual(360);
   await expect(metronomePlay).toHaveAttribute('aria-pressed', 'true');
 });
+
+test('hiding a timer cancels a metronome start that is still awaiting AudioContext resume', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'chromium-desktop', 'race regression needs one deterministic browser');
+
+  await page.addInitScript(() => {
+    class DelayedAudioContext {
+      state = 'suspended';
+      currentTime = 0;
+
+      async resume() {
+        await new Promise((resolve) => setTimeout(resolve, 300));
+        this.state = 'running';
+      }
+    }
+    Object.defineProperty(window, 'AudioContext', { configurable: true, value: DelayedAudioContext });
+  });
+
+  await login(page, testInfo);
+  await page.goto('/bateria/unidad-1/leccion-1-rebote-pulso-rolls/');
+
+  const badge = page.getByRole('button', { name: 'Temporizador de 3min para Preparación' });
+  const timer = page.locator('[data-practice-timer]');
+  const metronomePlay = page.locator('[data-metronome] [data-play]');
+
+  await badge.click();
+  await expect(timer).toBeVisible();
+  await badge.click();
+  await expect(timer).toBeHidden();
+  await page.waitForTimeout(450);
+  await expect(metronomePlay).toHaveAttribute('aria-pressed', 'false');
+});
