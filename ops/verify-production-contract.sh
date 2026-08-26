@@ -29,6 +29,31 @@ esac
 [ -f "$current_release/package-lock.json" ] || fail "current release has no package-lock.json"
 [ -f "$db_path" ] || fail "SQLite database is missing: $db_path"
 
+if ! /usr/bin/python3 - "$db_path" <<'PY'
+import sqlite3
+import sys
+
+path = sys.argv[1]
+connection = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+try:
+    row = connection.execute(
+        """
+        SELECT username, password_hash
+        FROM app_users
+        WHERE stable_key = 'default' AND role = 'admin'
+        LIMIT 1
+        """
+    ).fetchone()
+finally:
+    connection.close()
+
+if not row or not row[0] or not row[1] or not str(row[1]).startswith('scrypt$'):
+    raise SystemExit(1)
+PY
+then
+  fail "default administrator has no usable credential"
+fi
+
 "$systemctl_bin" is-active --quiet "$service_name" || fail "$service_name is not active"
 fragment="$($systemctl_bin show --property=FragmentPath --value "$service_name")"
 [ -n "$fragment" ] || fail "$service_name has no systemd unit fragment"
