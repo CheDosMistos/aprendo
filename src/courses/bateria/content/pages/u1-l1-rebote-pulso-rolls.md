@@ -30,7 +30,7 @@ Haz golpes suaves y observa postura, hombros, manos y rebote.
 
 Busca control sin rigidez. Si al aumentar la velocidad empiezas a apretar, vuelve a una velocidad cómoda.
 
-**Vídeo:** [Vic Firth / Dr. John Wooton — agarre y golpes básicos](https://www.youtube.com/watch?v=4aAE65zt82A)
+**Vídeo:** [Drumeo — How To Hold Drumsticks](https://www.youtube.com/watch?v=6nq-JeTUIEY)
 
 ## 2. Pulso: una y dos notas por pulso — unos 6 minutos
 
@@ -65,7 +65,7 @@ Trabájalo lentamente. Tu prioridad no es la velocidad. Observa:
 
 Si una mano altera claramente el sonido o el tiempo, aísla el problema durante unas pocas repeticiones y vuelve pronto al patrón completo.
 
-**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Single Stroke Roll](https://ae.vicfirth.com/education/40-essential-rudiments/essential-rudiments-single-stroke-roll/)
+**Vídeo:** [Drumeo — Single Stroke Roll](https://www.youtube.com/watch?v=ynIV2P_trYQ)
 
 ## 4. Multiple Bounce Roll — unos 6 minutos
 
@@ -75,7 +75,7 @@ Aquí el rebote tiene un papel mayor. Aprende a iniciar y controlar una sucesió
 
 Escucha si el resultado es continuo o se corta. No busques densidad o velocidad máxima.
 
-**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Multiple Bounce Roll](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-multiple-bounce-roll/)
+**Vídeo:** [Drumeo — Multiple Bounce Roll](https://www.youtube.com/watch?v=cBy0grsyz8U)
 
 ## 5. Oído y creatividad — 2–3 minutos
 
