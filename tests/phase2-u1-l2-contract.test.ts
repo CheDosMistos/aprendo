@@ -72,6 +72,8 @@ test('Phase 2 U1 L2 preserves the approved five-block timing and hearing transfe
 test('Phase 2 U1 L2 advancement remains evidence-based and does not use BPM as a gate', async () => {
   const markdown = await readFile(lessonPath, 'utf8');
 
+  assert.match(markdown, /INFERENCIA:[\s\S]*EVIDENCIA:[\s\S]*TAREA:[\s\S]*CONDICIONES:[\s\S]*DECISIÓN:/);
+  assert.match(markdown, /CONTINUAR.*CONTINUAR \+ CORRECTIVO.*REDUCIR NOVEDAD.*DETENER CARGA/s);
   assert.match(markdown, /## MÍNIMO PARA AVANZAR/);
   assert.match(markdown, /## COMPETENTE \/ FUNCIONAL/);
   assert.match(markdown, /## AVANZADO EN ESTA TAREA/);
