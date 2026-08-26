@@ -129,7 +129,9 @@ Compara esta recuperación con la primera vista sin mezclarlas:
 - si ambas pierden el pulso en silencios, vuelve a C1/C2 y a la rejilla temporal;
 - si el ritmo se entiende pero las manos interfieren, simplifica sticking antes de degradar D1.
 
-## 5. AMPLIACIÓN / VENTANA — 0–3 min
+## 5. AMPLIACIÓN / VENTANA
+
+**Duración curricular: 0–3 min.** Al ser una ventana opcional que puede omitirse por completo, no activa un temporizador de práctica propio.
 
 Haz este bloque **solo si el núcleo está suficientemente claro y no hay fatiga**.
 
