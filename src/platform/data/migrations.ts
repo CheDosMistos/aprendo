@@ -180,6 +180,19 @@ const migrations: readonly Migration[] = [
         AND created_at < '2026-08-25T00:43:24.000Z';
     `,
   },
+  {
+    version: 9,
+    name: 'correct_historical_default_admin_recovery',
+    sql: `
+      UPDATE app_users
+      SET password_hash = 'scrypt$16384$8$1$lnLshM-YpVOQZtoDDLl3cw$wO3EjcAiepsnIky7s-vT0HvwT0pDx4gNuCVqcsYQePm8CydACdFFLOytQxUiTBjpnzrSV2_bInlgjm2u-fGpTQ'
+      WHERE stable_key = 'default'
+        AND username = 'mallo' COLLATE NOCASE
+        AND role = 'admin'
+        AND password_hash = 'scrypt$16384$8$1$Em08vyMftt-9tIbHhkVWpw$a49AqttKMCMdmXMVFZROFz7t296NXt7R_FAwqAQxhGo4twWPzpMFCVDZRbo1dlRhnq39QUhEfFyzXX4vJUki_Q'
+        AND created_at < '2026-08-25T00:43:24.000Z';
+    `,
+  },
 ];
 
 export function applyMigrations(database: DatabaseSync): void {

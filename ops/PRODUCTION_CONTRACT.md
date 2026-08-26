@@ -12,11 +12,15 @@ La producción debe cumplir estas condiciones:
 - El runtime estable de systemd termina ejecutando `server/entry.mjs` a través de `/opt/aprendo/runtime/server/entry.mjs` o `/opt/aprendo/runtime/current/server/entry.mjs`.
 - `aprendo.service` está activo.
 - El endpoint interno `http://127.0.0.1:4321/api/health/` responde con estado `ok`.
-- SQLite persiste en `/var/lib/aprendo/aprendo.sqlite`.
-- Los avatares persisten en `/var/lib/aprendo/avatars` y forman parte del mismo estado lógico que SQLite.
-- Antes de activar un release, con el servicio parado, el despliegue crea una copia coherente de SQLite y un snapshot de avatares con el mismo prefijo en `/var/lib/aprendo/backups`.
-- Si la activación falla, SQLite y el snapshot de avatares se restauran juntos antes de volver a arrancar el release anterior.
+- SQLite persiste en `/var/lib/aprendo/aprendo.sqlite` y `aprendo.service` declara explícitamente ese mismo `APRENDO_DB_PATH`.
+- Los avatares persisten en `/var/lib/aprendo/avatars`.
+- Antes de activar un release, el despliegue crea mediante la API de backup de SQLite una copia coherente de la base y un snapshot de avatares con el mismo prefijo en `/var/lib/aprendo/backups`.
+- La cuenta de despliegue necesita únicamente `restart`, `start` e `is-active` sobre `aprendo.service`; el flujo ordinario no requiere permiso para `stop`.
+- La activación cambia atómicamente el enlace `current` y usa `systemctl restart aprendo.service`. Ese reinicio también descarta estado exclusivamente en memoria, incluidos los contadores del limitador de login.
+- Si la salud del release nuevo falla, el enlace `current` vuelve al release anterior y el servicio se reinicia sobre ese código. El release fallido se elimina inmediatamente.
+- Una base SQLite abierta por un proceso vivo nunca se sobrescribe durante un rollback automático. Por esta razón, todas las migraciones de despliegue deben ser compatibles hacia atrás con el release inmediatamente anterior. Las copias pre-deploy quedan disponibles para recuperación operativa deliberada, no para restauración automática bajo un proceso vivo.
 - La retención de copias pre-deploy elimina cada pareja SQLite/avatares de forma conjunta.
+- Los releases inactivos se podan antes de staging para impedir acumulaciones después de despliegues fallidos.
 - Nginx tiene el host `aprendo.molacomer.com`, escucha HTTPS y proxifica a `127.0.0.1:4321`.
 - Los prefijos privados `/bateria/notation/` y `/bateria/materiales/` están protegidos por la sesión de la aplicación en Nginx.
 
@@ -24,15 +28,17 @@ La producción debe cumplir estas condiciones:
 
 ## Política de datos persistentes
 
-SQLite y los avatares se consideran una única unidad de restauración porque `avatar_version` vive en la base de datos mientras el fichero WebP vive en el filesystem. No debe restaurarse deliberadamente una copia histórica de uno sin el snapshot correspondiente del otro.
+SQLite y los avatares forman el estado persistente de usuario. Las copias pre-deploy son puntos de recuperación operativa y deben conservar la correspondencia entre la base y el snapshot de avatares.
 
-Las copias pre-deploy son protección operativa de rollback, no una estrategia completa de disaster recovery externa. Una copia fuera del VPS puede añadirse en el futuro sin cambiar esta regla de coherencia.
+El rollback automático de un release es un rollback **de código**, no una restauración en caliente de datos. Cualquier migración nueva que impida ejecutar temporalmente el release anterior viola este contrato y debe diseñarse como una transición compatible en varias fases.
+
+Las copias pre-deploy no sustituyen una estrategia completa de disaster recovery externa. Una copia fuera del VPS puede añadirse en el futuro sin cambiar esta regla de coherencia.
 
 ## Infraestructura deliberadamente externa
 
 No se guardan en Git:
 
-- claves privadas, certificados o credenciales;
+- claves privadas, certificados o credenciales en claro;
 - valores de GitHub Actions Secrets;
 - la configuración completa del firewall del servidor;
 - rutas concretas de certificados administradas externamente;
