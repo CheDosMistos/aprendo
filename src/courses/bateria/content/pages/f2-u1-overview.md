@@ -55,7 +55,7 @@ La unidad conserva la arquitectura ya fijada:
 4. **Oído, escritura y primera vista** — cerrar el ciclo sonido ↔ notación con material nuevo.
 5. **Puerta de fluidez binaria** — checkpoint para decidir el siguiente paso.
 
-La unidad se integra por incrementos auditados. Que una lección esté publicada no altera el recorrido completo L1–L4 + CP ni convierte la unidad en cerrada antes del checkpoint.
+Las cinco piezas L1–L4 + CP forman ya el recorrido completo de 20.U1. Eso **cierra la arquitectura editorial de la unidad**, pero completar las páginas no equivale a “aprobar”: el checkpoint decide si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según evidencia y salud/carga.
 
 ## Regla de primera vista
 
