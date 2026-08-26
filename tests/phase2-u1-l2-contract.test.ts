@@ -38,6 +38,7 @@ test('Phase 2 U1 L2 keeps binary reading as the dominant task without adding rud
 
 test('Phase 2 U1 L2 uses one new original score plus L1 retrieval and does not claim formal first sight', async () => {
   const markdown = await readFile(lessonPath, 'utf8');
+  const score = await readFile(scorePath, 'utf8');
 
   await access(scorePath);
   assert.match(markdown, /f2-u1-lectura-entrada-a\.musicxml/);
@@ -46,6 +47,7 @@ test('Phase 2 U1 L2 uses one new original score plus L1 retrieval and does not c
   assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 0, 'L2 practice is not a formal first-sight sample');
   assert.match(markdown, /data-score-source-label="MusicXML — fuente del ejercicio"/);
   assert.match(markdown, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);
+  assert.doesNotMatch(score, /<rest\/><duration>1<\/duration><type>16th<\/type>/, 'Sixteenth-note rests belong to later density work, not this L2 score');
 });
 
 test('Phase 2 U1 L2 preserves the approved five-block timing and hearing transfer', async () => {
