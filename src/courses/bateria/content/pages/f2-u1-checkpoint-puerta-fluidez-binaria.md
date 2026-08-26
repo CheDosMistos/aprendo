@@ -1,5 +1,5 @@
 ---
-contentId: bat-f2-u1-cp
+contentId: bat-f2-u1-check
 courseId: bateria
 phase: 2
 unit: 1
