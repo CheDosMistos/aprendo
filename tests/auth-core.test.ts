@@ -54,7 +54,7 @@ test('database uniqueness matches the case-insensitive username lookup', () => {
     }, /UNIQUE constraint failed/);
 
     const version = database.prepare('SELECT max(version) AS version FROM schema_migrations').get() as { version: number };
-    assert.equal(version.version, 7);
+    assert.equal(version.version, 8);
   } finally { database.close(); }
 });
 
@@ -62,10 +62,8 @@ test('username collation migration fails atomically if an old database already c
   const database = openDatabase({ path: ':memory:' });
   applyMigrations(database);
   try {
-    // Recreate the exact pre-v7 invariant so this fixture represents a database
-    // that had already reached schema v6 before this migration existed.
     database.exec(`
-      DELETE FROM schema_migrations WHERE version = 7;
+      DELETE FROM schema_migrations WHERE version IN (7, 8);
       DROP INDEX idx_app_users_username;
       CREATE UNIQUE INDEX idx_app_users_username
         ON app_users(username) WHERE username IS NOT NULL;
@@ -180,6 +178,28 @@ test('reapplying migrations never rewrites an existing password hash', () => {
     const row = database.prepare('SELECT password_hash FROM app_users WHERE username = ?').get('mallo') as { password_hash: string };
     assert.equal(row.password_hash, legacyHash);
     assert.equal(verifyPassword('old', row.password_hash), true);
+  } finally { database.close(); }
+});
+
+test('historical default admin with a missing hash is recovered once without affecting fresh installs', () => {
+  const database = openDatabase({ path: ':memory:' });
+  applyMigrations(database);
+  try {
+    database.exec('DELETE FROM schema_migrations WHERE version = 8;');
+    database.prepare(`
+      UPDATE app_users
+      SET password_hash = NULL, created_at = ?
+      WHERE stable_key = 'default'
+    `).run('2026-08-21T08:00:00.000Z');
+
+    applyMigrations(database);
+
+    const row = database.prepare(`
+      SELECT password_hash FROM app_users WHERE stable_key = 'default'
+    `).get() as { password_hash: string | null };
+    assert.match(row.password_hash ?? '', /^scrypt\$16384\$8\$1\$/);
+    const version8 = database.prepare('SELECT version FROM schema_migrations WHERE version = 8').get();
+    assert.ok(version8);
   } finally { database.close(); }
 });
 
