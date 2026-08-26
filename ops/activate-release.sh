@@ -15,6 +15,7 @@ runtime_dir="${APRENDO_RUNTIME_DIR:-/opt/aprendo/runtime}"
 releases_dir="${APRENDO_RELEASES_DIR:-$runtime_dir/releases}"
 current_link="${APRENDO_CURRENT_LINK:-$runtime_dir/current}"
 server_link="${APRENDO_SERVER_LINK:-$runtime_dir/server}"
+rollback_target_file="${APRENDO_ROLLBACK_TARGET_FILE:-$runtime_dir/.rollback-target}"
 data_dir="${APRENDO_DATA_DIR:-/var/lib/aprendo}"
 db_path="${APRENDO_DB_PATH:-$data_dir/aprendo.sqlite}"
 avatar_dir="${APRENDO_AVATAR_DIR:-$data_dir/avatars}"
@@ -75,12 +76,24 @@ ensure_server_link() {
   ln -s current/server "$server_link"
 }
 
+record_rollback_target() {
+  local target="$1"
+  local next_file="$runtime_dir/.rollback-target-next-$$"
+  case "$target" in
+    "$releases_dir"/*) ;;
+    *) echo "rollback target points outside releases directory" >&2; return 1 ;;
+  esac
+  printf '%s\n' "$target" > "$next_file"
+  mv -Tf "$next_file" "$rollback_target_file"
+}
+
 mkdir -p "$runtime_dir" "$releases_dir" "$backup_dir"
 test -w "$runtime_dir"
 test -d "$release"
 test -f "$release/server/entry.mjs"
 test -f "$release/package.json"
 test -f "$release/package-lock.json"
+rm -f "$rollback_target_file" "$runtime_dir"/.rollback-target-next-*
 
 previous=""
 if [ -L "$current_link" ]; then
@@ -109,6 +122,7 @@ rollback() {
     wait_for_health || true
   fi
 
+  rm -f "$rollback_target_file" "$runtime_dir"/.rollback-target-next-*
   current="$(readlink -f "$current_link" 2>/dev/null || true)"
   if [ -d "$release" ] && [ "$release" != "$current" ] && [ "$release" != "$previous" ]; then
     rm -rf -- "$release"
@@ -164,6 +178,7 @@ if [ -z "$previous" ]; then
   ensure_server_link
 fi
 
+record_rollback_target "$previous"
 switch_current "$release"
 ensure_server_link
 switched=1
