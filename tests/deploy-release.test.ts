@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { execFileSync, spawnSync } from 'node:child_process';
-import { chmodSync, mkdirSync, readFileSync, readdirSync, readlinkSync, writeFileSync } from 'node:fs';
+import { chmodSync, existsSync, mkdirSync, readFileSync, readdirSync, readlinkSync, writeFileSync } from 'node:fs';
 import { mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
@@ -25,7 +25,7 @@ function createWrappers(root: string, runtime: string, dbPath: string, avatarFil
   const state = join(root, 'service-state');
   writeFileSync(state, 'active\n');
   const systemctl = join(root, 'fake-systemctl.sh');
-  writeFileSync(systemctl, `#!/usr/bin/env bash\nset -euo pipefail\ncmd="$1"\nstate=${JSON.stringify(state)}\ncurrent=${JSON.stringify(join(runtime, 'current'))}\ndb=${JSON.stringify(dbPath)}\navatar=${JSON.stringify(avatarFile)}\ncase "$cmd" in\n  stop) printf 'inactive\\n' > "$state" ;;\n  start)\n    printf 'active\\n' > "$state"\n    target="$(readlink -f "$current" 2>/dev/null || true)"\n    if [ -n "$target" ] && [ -f "$target/mutate-data" ]; then\n      python3 - "$db" <<'PY'\nimport sqlite3, sys\ndb = sqlite3.connect(sys.argv[1])\ndb.execute("UPDATE proof SET value = 'migrated'")\ndb.commit()\ndb.close()\nPY\n      mkdir -p "$(dirname "$avatar")"\n      printf 'new-avatar\\n' > "$avatar"\n    fi\n    ;;\n  is-active) grep -q '^active$' "$state" ;;\n  *) exit 2 ;;\nesac\n`);
+  writeFileSync(systemctl, `#!/usr/bin/env bash\nset -euo pipefail\ncmd="$1"\nstate=${JSON.stringify(state)}\ncurrent=${JSON.stringify(join(runtime, 'current'))}\ndb=${JSON.stringify(dbPath)}\navatar=${JSON.stringify(avatarFile)}\nactivate_current() {\n  printf 'active\\n' > "$state"\n  target="$(readlink -f "$current" 2>/dev/null || true)"\n  if [ -n "$target" ] && [ -f "$target/mutate-data" ]; then\n    python3 - "$db" <<'PY'\nimport sqlite3, sys\ndb = sqlite3.connect(sys.argv[1])\ndb.execute("UPDATE proof SET value = 'migrated'")\ndb.commit()\ndb.close()\nPY\n    mkdir -p "$(dirname "$avatar")"\n    printf 'new-avatar\\n' > "$avatar"\n  fi\n}\ncase "$cmd" in\n  restart|start) activate_current ;;\n  is-active) grep -q '^active$' "$state" ;;\n  stop) echo 'stop must not be used by deploy activation' >&2; exit 77 ;;\n  *) exit 2 ;;\nesac\n`);
   chmodSync(systemctl, 0o755);
 
   const health = join(root, 'fake-health.sh');
@@ -104,14 +104,14 @@ test('release activation converts the legacy mutable runtime and snapshots SQLit
   assert.equal(readFileSync(join(backupDir, avatarBackups[0], '1.webp'), 'utf8'), 'old-avatar\n');
 });
 
-test('failed release health rolls current release, SQLite and avatars back together', () => {
+test('failed release health rolls code back, retains the pre-deploy snapshot and removes the failed release', () => {
   const root = mkdtempSync(join(tmpdir(), 'aprendo-deploy-rollback-'));
   const runtime = join(root, 'runtime');
   mkdirSync(runtime, { recursive: true });
   const oldRelease = createRelease(runtime, 'release-old', true);
   execFileSync('ln', ['-s', oldRelease, join(runtime, 'current')]);
   execFileSync('ln', ['-s', 'current/server', join(runtime, 'server')]);
-  createRelease(runtime, 'release-bad', false, true);
+  const badRelease = createRelease(runtime, 'release-bad', false, true);
   const dataDir = join(root, 'data');
   const dbPath = join(dataDir, 'aprendo.sqlite');
   const avatarDir = join(dataDir, 'avatars');
@@ -126,6 +126,18 @@ test('failed release health rolls current release, SQLite and avatars back toget
 
   assert.notEqual(result.status, 0);
   assert.equal(resolve(readlinkSync(join(runtime, 'current'))), oldRelease);
-  assert.equal(readDatabase(dbPath), 'old');
-  assert.equal(readFileSync(avatarFile, 'utf8'), 'old-avatar\n');
+  assert.equal(existsSync(badRelease), false);
+
+  // A running SQLite database is never overwritten during rollback. Migrations
+  // therefore must be backward-compatible with the previous release.
+  assert.equal(readDatabase(dbPath), 'migrated');
+  assert.equal(readFileSync(avatarFile, 'utf8'), 'new-avatar\n');
+
+  const backupDir = join(dataDir, 'backups');
+  const databaseBackup = readdirSync(backupDir).find((name) => name.endsWith('.sqlite'));
+  const avatarBackup = readdirSync(backupDir).find((name) => name.endsWith('.avatars'));
+  assert.ok(databaseBackup);
+  assert.ok(avatarBackup);
+  assert.equal(readDatabase(join(backupDir, databaseBackup)), 'old');
+  assert.equal(readFileSync(join(backupDir, avatarBackup, '1.webp'), 'utf8'), 'old-avatar\n');
 });
