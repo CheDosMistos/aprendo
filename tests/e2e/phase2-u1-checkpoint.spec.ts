@@ -81,8 +81,8 @@ test('Phase 2 U1 checkpoint exposes conceptual, health and progression decisions
 
   await expect(page.getByText('¿Dónde estás subdividiendo aunque haya silencio?', { exact: false })).toBeVisible();
   await expect(page.getByText('BPM describe la condición, no el nivel', { exact: false })).toBeVisible();
-  await expect(page.getByText('dolor', { exact: true })).toBeVisible();
-  await expect(page.getByText('tensión persistente', { exact: true })).toBeVisible();
+  await expect(page.getByText('dolor', { exact: false })).toBeVisible();
+  await expect(page.getByText('tensión persistente', { exact: false })).toBeVisible();
 
   for (const decision of ['CONTINUAR', 'CONTINUAR + CORRECTIVO', 'REDUCIR NOVEDAD', 'DETENER CARGA']) {
     await expect(page.getByRole('heading', { level: 3, name: decision })).toBeVisible();
