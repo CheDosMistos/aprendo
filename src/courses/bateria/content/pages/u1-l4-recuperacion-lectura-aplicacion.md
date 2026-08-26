@@ -18,6 +18,7 @@ rudiments:
   - Single Paradiddle
   - Flam
   - Drag (Ruff)
+rudimentNotation: review-reference
 published: true
 ---
 
