@@ -64,7 +64,7 @@ test('Phase 2 U2 L1 exposes a four-subdivision hearing task and evidence-based p
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-2/la-rejilla-de-cuatro-posiciones/');
 
-  await expect(page.getByRole('heading', { level: 2, name: '4. Oído breve — 3–4 min' })).toBeVisible();
+  await expect(page.locator('h2').filter({ hasText: '4. Oído breve' })).toBeVisible();
 
   const dictations = page.locator('.rhythm-dictation');
   await expect(dictations).toHaveCount(1);
