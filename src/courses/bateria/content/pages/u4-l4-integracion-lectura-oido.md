@@ -47,6 +47,8 @@ Después revela la solución y explica por qué sigue siendo compatible con 4/4.
 
 Elige **dos** de los cuatro PAS de U4 al azar o por contraste. Tócalos sin calentarlos específicamente, consulta PAS y registra:
 
+[PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
+
 - representación: ¿puedo explicar ritmo, sticking y resolución?
 - ejecución: ¿qué ocurre con sonido, relajación y continuidad?
 - retención: ¿qué parte reapareció sin preparación?
