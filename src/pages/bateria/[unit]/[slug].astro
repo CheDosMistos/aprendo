@@ -3,6 +3,7 @@ import { render } from 'astro:content';
 import CourseArticleLayout from '@courses/bateria/components/CourseArticleLayout.astro';
 import PracticeCheckIn from '@courses/bateria/components/PracticeCheckIn.astro';
 import Phase1PasMap from '@courses/bateria/components/Phase1PasMap.astro';
+import CourseScoreReferences from '@platform/components/CourseScoreReferences.astro';
 import {
   getBateriaContent,
   routeFor,
@@ -13,6 +14,8 @@ interface NavItem {
   href: string;
   label: string;
 }
+
+const PAS_NORMATIVE_URL = 'https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf';
 
 const entries = await getBateriaContent();
 const unitSlug = Astro.params.unit;
@@ -51,6 +54,7 @@ const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'les
   ? entry.data.kind
   : undefined;
 const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
+const hasPasRudiments = entry.data.rudiments.length > 0;
 ---
 
 <CourseArticleLayout
@@ -63,6 +67,10 @@ const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
   next={next}
 >
   <Content />
+  <CourseScoreReferences
+    normativeReferenceUrl={hasPasRudiments ? PAS_NORMATIVE_URL : undefined}
+    normativeReferenceLabel={hasPasRudiments ? 'Referencia normativa PAS' : undefined}
+  />
 
   {(showPhase1PasMap || checkInKind) && (
     <div slot="after">
