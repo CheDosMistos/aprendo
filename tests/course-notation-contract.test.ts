@@ -122,8 +122,30 @@ function assignedRudiments(markdown: string): string[] {
   return values;
 }
 
-function markdownHeadings(markdown: string): string[] {
-  return [...markdown.matchAll(/^#{2,3}\s+(.+?)\s*$/gm)].map((match) => match[1] ?? '');
+function rudimentNotationPolicy(markdown: string): 'per-rudiment' | 'review-reference' {
+  return /^rudimentNotation:\s*review-reference\s*$/m.test(frontmatter(markdown))
+    ? 'review-reference'
+    : 'per-rudiment';
+}
+
+interface MarkdownSection {
+  heading: string;
+  body: string;
+}
+
+function markdownSections(markdown: string): MarkdownSection[] {
+  const headings = [...markdown.matchAll(/^#{2,3}\s+(.+?)\s*$/gm)];
+  return headings.map((match, index) => ({
+    heading: match[1] ?? '',
+    body: markdown.slice((match.index ?? 0) + match[0].length, headings[index + 1]?.index ?? markdown.length),
+  }));
+}
+
+function sectionCanHostRudiment(section: MarkdownSection, rudimentName: string): boolean {
+  const definition = findPasRudiment(rudimentName);
+  if (!definition) return false;
+  if (headingMatchesRudiment(section.heading, definition)) return true;
+  return section.body.includes(pasSourceUrl) && headingMatchesRudiment(section.body, definition);
 }
 
 test('course MusicXML uses complete percussion staves, explicit noteheads and original provenance', async () => {
@@ -194,16 +216,14 @@ test('published static course score references resolve and identify original mat
 
       const explicitSourceUrl = tag.match(/data-score-source-url="([^"]+)"/)?.[1];
       const explicitSourceLabel = tag.match(/data-score-source-label="([^"]+)"/)?.[1];
-      if (explicitSourceUrl) {
-        assert.ok(explicitSourceLabel, `${page}: explicit companion or normative URL must have a readable label`);
-      }
+      if (explicitSourceUrl) assert.ok(explicitSourceLabel, `${page}: explicit companion or normative URL must have a readable label`);
     }
   }
 
   assert.ok(references > 0, 'Expected published course score references');
 });
 
-test('Phase 1 introduces exactly the 40 PAS rudiments and every assignment resolves to the registry', async () => {
+test('Phase 1 contains exactly the 40 PAS rudiment identities and every assignment resolves to the registry', async () => {
   const pages = await filesWithExtension(contentRoot, '.md');
   const introduced = new Set<string>();
   const failures: string[] = [];
@@ -225,29 +245,37 @@ test('Phase 1 introduces exactly the 40 PAS rudiments and every assignment resol
   assert.deepEqual([...introduced].sort(), PAS_RUDIMENTS.map((definition) => definition.name).sort());
 });
 
-test('every PAS rudiment assignment has a matching lesson section for automatic score embedding', async () => {
+test('every taught PAS rudiment has a local score anchor; retrieval-only reviews are explicit and preserve PAS', async () => {
   const pages = await filesWithExtension(contentRoot, '.md');
   const failures: string[] = [];
-  let assignments = 0;
+  let taughtAssignments = 0;
+  let reviewLessons = 0;
 
   for (const page of pages) {
     const markdown = await readFile(page, 'utf8');
     const data = frontmatter(markdown);
     if (!/^phase:\s*1\s*$/m.test(data) || !/^kind:\s*lesson\s*$/m.test(data)) continue;
-    const headings = markdownHeadings(markdown);
+    const rudiments = assignedRudiments(markdown);
+    if (rudiments.length === 0) continue;
 
-    for (const name of assignedRudiments(markdown)) {
-      assignments += 1;
-      const definition = findPasRudiment(name);
-      if (!definition) continue;
-      if (!headings.some((heading) => headingMatchesRudiment(heading, definition))) {
-        failures.push(`${path.basename(page)}: '${name}' has no matching H2/H3 section`);
+    if (rudimentNotationPolicy(markdown) === 'review-reference') {
+      reviewLessons += 1;
+      if (!markdown.includes(pasSourceUrl)) failures.push(`${path.basename(page)}: review-reference lesson has no PAS link`);
+      continue;
+    }
+
+    const sections = markdownSections(markdown);
+    for (const name of rudiments) {
+      taughtAssignments += 1;
+      if (!sections.some((section) => sectionCanHostRudiment(section, name))) {
+        failures.push(`${path.basename(page)}: '${name}' has no named heading or explicit PAS section`);
       }
     }
   }
 
-  assert.ok(assignments >= 40, 'Expected at least one assignment for every PAS rudiment');
-  assert.deepEqual(failures, [], `Rudiment sections missing:\n${failures.join('\n')}`);
+  assert.ok(taughtAssignments >= 40, 'Expected per-rudiment score anchors for the taught PAS material');
+  assert.ok(reviewLessons > 0, 'Expected explicit retrieval-only review lessons');
+  assert.deepEqual(failures, [], `Rudiment score anchors missing:\n${failures.join('\n')}`);
 });
 
 test('rudiment score embedding is a per-rudiment contract, not a loose per-lesson score count', async () => {
@@ -256,11 +284,13 @@ test('rudiment score embedding is a per-rudiment contract, not a loose per-lesso
   const references = await readFile(scoreReferencesComponent, 'utf8');
 
   assert.match(page, /RudimentNotationAutoEmbed/);
+  assert.match(page, /entry\.data\.rudimentNotation === 'per-rudiment'/);
   assert.match(page, /rudiments=\{entry\.data\.rudiments\}/);
   assert.match(component, /data-score-rudiment/);
   assert.match(component, /\/bateria\/notation\/rudiments\//);
   assert.match(component, /Referencia normativa PAS/);
   assert.match(component, /existingPasStudy/);
+  assert.match(component, /pasLinkInside/);
   assert.match(references, /Abrir fuente MusicXML/);
   assert.ok(page.includes(pasSourceUrl), 'lesson page must expose the official PAS normative PDF');
 });
