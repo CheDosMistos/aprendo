@@ -92,6 +92,55 @@ ensure_server_link() {
   ln -s current/server "$server_link"
 }
 
+recover_historical_admin_credential() {
+  [ -f "$db_path" ] || return 0
+
+  local recovery_backup="$backup_dir/pre-auth-recovery-$(date -u +%Y%m%dT%H%M%SZ).sqlite"
+  /usr/bin/python3 "$backup_helper" "$db_path" "$recovery_backup"
+  test -s "$recovery_backup"
+
+  /usr/bin/python3 - "$db_path" <<'PY'
+import sqlite3
+import sys
+
+DB = sys.argv[1]
+CORRECT_1234_HASH = 'scrypt$16384$8$1$lnLshM-YpVOQZtoDDLl3cw$wO3EjcAiepsnIky7s-vT0HvwT0pDx4gNuCVqcsYQePm8CydACdFFLOytQxUiTBjpnzrSV2_bInlgjm2u-fGpTQ'
+INCORRECT_RECOVERY_HASH = 'scrypt$16384$8$1$Em08vyMftt-9tIbHhkVWpw$a49AqttKMCMdmXMVFZROFz7t296NXt7R_FAwqAQxhGo4twWPzpMFCVDZRbo1dlRhnq39QUhEfFyzXX4vJUki_Q'
+CUTOFF = '2026-08-25T00:43:24.000Z'
+
+con = sqlite3.connect(DB, timeout=5)
+try:
+    con.execute('BEGIN IMMEDIATE')
+    row = con.execute(
+        "SELECT username, role, password_hash, created_at FROM app_users WHERE stable_key = 'default' LIMIT 1"
+    ).fetchone()
+    if row is None:
+        con.rollback()
+        raise SystemExit('historical default admin row is missing')
+
+    username, role, password_hash, created_at = row
+    historical = (
+        isinstance(username, str)
+        and username.lower() == 'mallo'
+        and role == 'admin'
+        and isinstance(created_at, str)
+        and created_at < CUTOFF
+    )
+    if historical and (password_hash is None or password_hash == INCORRECT_RECOVERY_HASH):
+        con.execute(
+            "UPDATE app_users SET password_hash = ? WHERE stable_key = 'default'",
+            (CORRECT_1234_HASH,),
+        )
+        con.commit()
+        print('Recovered historical mallo credential.')
+    else:
+        con.rollback()
+        print('Historical mallo credential did not require recovery.')
+finally:
+    con.close()
+PY
+}
+
 mkdir -p "$runtime_dir" "$releases_dir" "$backup_dir"
 test -w "$runtime_dir"
 test -d "$release"
@@ -136,6 +185,11 @@ rollback() {
   exit "$status"
 }
 trap rollback ERR
+
+# Compatibility repair is deliberately performed before systemd activation.
+# It is a narrowly guarded, online SQLite update so the historical login can
+# be restored even if the VPS service-control privilege is currently broken.
+recover_historical_admin_credential
 
 run_systemctl stop "$service_name"
 
