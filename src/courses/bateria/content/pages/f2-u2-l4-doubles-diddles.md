@@ -69,7 +69,7 @@ La partitura siguiente contiene **cuatro compases originales en 4/4**. Usa únic
 
 <div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-title="20.U2.L4 — línea base para doubles/diddles" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-El `76 BPM` del MusicXML es sólo una referencia técnica de playback. **No es tempo objetivo ni criterio de avance.**
+El `120 BPM` del MusicXML es sólo una referencia técnica de playback. **No es tempo objetivo ni criterio de avance.**
 
 Antes de cambiar una sola mano:
 
@@ -166,7 +166,9 @@ Si la versión B rompe el tiempo, vuelve a la A y diagnostica si el problema es:
 
 **No conviertas automáticamente un fallo de textura en evidencia de que D1/C2 han fallado.** Primero retira la textura y retesta la línea base.
 
-## Ventana AVANZADO opcional — 0–3 min
+## Ventana AVANZADO opcional
+
+**Duración orientativa: 0–3 min.**
 
 Sobre una corriente **continua** de 16 semicorcheas, conserva 4/4 y acentúa internamente:
 
