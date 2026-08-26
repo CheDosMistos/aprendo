@@ -38,6 +38,8 @@ Sin practicarlos varias veces antes:
 3. intenta iniciarlos lentamente;
 4. después abre la fuente oficial y comprueba.
 
+[PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
+
 No necesitas probar los seis todos los días.
 
 ## 2. Revisa qué significa «CONOCIDO»

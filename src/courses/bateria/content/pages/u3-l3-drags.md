@@ -35,6 +35,12 @@ Localiza **34. Lesson 25** en PAS:
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
+`EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
+
+La célula siguiente coloca un ornamento de drag dentro de un compás sencillo para aislar **ornamento frente a pulso principal**. No reproduce Lesson 25 ni Single Drag Tap; usa PAS para verificar la forma exacta de ambos rudimentos.
+
+<div data-notation-score data-score-src="/bateria/notation/u3/preparacion-drag-contexto.musicxml" data-score-title="Preparación — drag dentro del pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Referencia normativa PAS"></div>
+
 Mira por separado ubicación de grace notes, notas principales, acentos, duración real de la célula y sticking. No reduzcas el patrón a letras R/L.
 
 ## 4. Single Drag Tap — 7 min

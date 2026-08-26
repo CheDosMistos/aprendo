@@ -66,6 +66,12 @@ Abre la fuente normativa y localiza **20. Flam**:
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
+`EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
+
+Esta preparación separa visualmente nota de adorno y nota principal y alterna el lado que lidera. **No es la partitura oficial de Flam ni de Drag**; comprueba ambas formas en PAS antes de practicarlas como rudimentos.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/preparacion-adorno-principal.musicxml" data-score-title="Preparación — adorno y nota principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf" data-score-source-label="Referencia normativa PAS"></div>
+
 Observa la relación entre la nota de adorno y la nota principal.
 
 Busca:
