@@ -34,10 +34,7 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
 
-test('first-sight score keeps notation hidden before start and playback locked through the first attempt', async ({ page }, testInfo) => {
-  await login(page, testInfo);
-  await page.goto('/bateria/unidad-1/cierre-unidad-1/');
-
+async function expectProtectedFirstSight(page: Page): Promise<void> {
   const score = page.locator('.course-score[data-score-first-sight="true"]');
   await expect(score).toBeVisible();
   const shell = score.locator('.course-score__shell');
@@ -57,4 +54,18 @@ test('first-sight score keeps notation hidden before start and playback locked t
   await expect(score).toHaveAttribute('data-first-sight-completed', 'true');
   await expect(score.getByRole('button', { name: 'Ocultar' })).toBeVisible();
   await expect(play).toBeVisible();
+}
+
+test('first-sight score keeps notation hidden before start and playback locked through the first attempt', async ({ page }, testInfo) => {
+  await login(page, testInfo);
+  await page.goto('/bateria/unidad-1/cierre-unidad-1/');
+  await expectProtectedFirstSight(page);
+});
+
+test('Phase 2 U1 L1 publishes on its phase-safe route with protected entry reading', async ({ page }, testInfo) => {
+  await login(page, testInfo);
+  await page.goto('/bateria/fase-2-unidad-1/punto-real-de-entrada/');
+  await expect(page.getByRole('heading', { level: 1, name: 'Punto real de entrada' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'MusicXML — fuente del ejercicio' })).toBeVisible();
+  await expectProtectedFirstSight(page);
 });

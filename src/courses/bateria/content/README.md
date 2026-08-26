@@ -13,6 +13,12 @@ Este directorio contiene el contenido curricular publicado en Markdown/MDX.
 - Los enlaces reconocidos de YouTube se abren mediante el visor modal general de Aprendo. Los clics modificados del navegador (Ctrl/Cmd/Shift/Alt o botón central) conservan su comportamiento habitual.
 - Mantener la presentación austera y sobria: el recurso audiovisual aparece como enlace textual breve y el embed solo se crea al abrir el visor.
 
+### Slugs de unidad por fase
+
+- Fase 1 conserva el contrato histórico `unidad-N` para no romper rutas publicadas ni progreso existente.
+- Desde Fase 2, `unitSlug` debe codificar también la fase: `fase-N-unidad-N`.
+- El `slug` de cada sesión sigue siendo independiente y debe ser único dentro de la colección según los tests de contenido.
+
 ### Duraciones de bloques prácticos
 
 - Un encabezado H2/H3 puede declarar un presupuesto de práctica con un sufijo como `— 6 min`, `— unos 6 minutos` o `— 2–3 min`.

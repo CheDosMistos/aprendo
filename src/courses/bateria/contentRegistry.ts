@@ -18,7 +18,9 @@ export async function getBateriaContent(): Promise<BateriaContentEntry[]> {
     }
     stableIds.add(entry.data.contentId);
 
-    const expectedUnitSlug = `unidad-${entry.data.unit}`;
+    const expectedUnitSlug = entry.data.phase === 1
+      ? `unidad-${entry.data.unit}`
+      : `fase-${entry.data.phase}-unidad-${entry.data.unit}`;
     if (entry.data.unitSlug !== expectedUnitSlug) {
       throw new Error(`Battery unitSlug mismatch for ${entry.data.contentId}: expected ${expectedUnitSlug}, got ${entry.data.unitSlug}`);
     }
