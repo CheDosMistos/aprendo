@@ -54,7 +54,7 @@ test('database uniqueness matches the case-insensitive username lookup', () => {
     }, /UNIQUE constraint failed/);
 
     const version = database.prepare('SELECT max(version) AS version FROM schema_migrations').get() as { version: number };
-    assert.equal(version.version, 8);
+    assert.equal(version.version, 9);
   } finally { database.close(); }
 });
 
@@ -62,8 +62,8 @@ test('username collation migration fails atomically if an old database already c
   const database = openDatabase({ path: ':memory:' });
   applyMigrations(database);
   try {
+    database.exec('DELETE FROM schema_migrations WHERE version IN (7, 8, 9);');
     database.exec(`
-      DELETE FROM schema_migrations WHERE version IN (7, 8);
       DROP INDEX idx_app_users_username;
       CREATE UNIQUE INDEX idx_app_users_username
         ON app_users(username) WHERE username IS NOT NULL;
@@ -181,11 +181,11 @@ test('reapplying migrations never rewrites an existing password hash', () => {
   } finally { database.close(); }
 });
 
-test('historical default admin with a missing hash is recovered once without affecting fresh installs', () => {
+test('historical default admin with a missing hash is recovered to the intended legacy credential once', () => {
   const database = openDatabase({ path: ':memory:' });
   applyMigrations(database);
   try {
-    database.exec('DELETE FROM schema_migrations WHERE version = 8;');
+    database.exec('DELETE FROM schema_migrations WHERE version IN (8, 9);');
     database.prepare(`
       UPDATE app_users
       SET password_hash = NULL, created_at = ?
@@ -198,8 +198,9 @@ test('historical default admin with a missing hash is recovered once without aff
       SELECT password_hash FROM app_users WHERE stable_key = 'default'
     `).get() as { password_hash: string | null };
     assert.match(row.password_hash ?? '', /^scrypt\$16384\$8\$1\$/);
-    const version8 = database.prepare('SELECT version FROM schema_migrations WHERE version = 8').get();
-    assert.ok(version8);
+    assert.equal(verifyPassword('1234', row.password_hash ?? ''), true);
+    const version9 = database.prepare('SELECT version FROM schema_migrations WHERE version = 9').get();
+    assert.ok(version9);
   } finally { database.close(); }
 });
 
