@@ -56,23 +56,6 @@ wait_for_health() {
   return 1
 }
 
-restore_database() {
-  local backup="$1"
-  [ -n "$backup" ] || return 0
-  [ -f "$backup" ] || return 1
-  rm -f "$db_path" "${db_path}-wal" "${db_path}-shm"
-  /usr/bin/python3 "$backup_helper" "$backup" "$db_path"
-}
-
-restore_avatars() {
-  local snapshot="$1"
-  [ -n "$snapshot" ] || return 0
-  [ -d "$snapshot" ] || return 1
-  rm -rf -- "$avatar_dir"
-  mkdir -p "$avatar_dir"
-  cp -a "$snapshot"/. "$avatar_dir"/
-}
-
 switch_current() {
   local target="$1"
   local next_link="$runtime_dir/.current-next-$$"
@@ -92,69 +75,6 @@ ensure_server_link() {
   ln -s current/server "$server_link"
 }
 
-recover_historical_admin_credential() {
-  [ -f "$db_path" ] || return 0
-
-  local recovery_backup="$backup_dir/pre-auth-recovery-$(date -u +%Y%m%dT%H%M%SZ).sqlite"
-  /usr/bin/python3 "$backup_helper" "$db_path" "$recovery_backup"
-  test -s "$recovery_backup"
-
-  local recovery_result
-  recovery_result="$(/usr/bin/python3 - "$db_path" <<'PY'
-import sqlite3
-import sys
-
-DB = sys.argv[1]
-CORRECT_1234_HASH = 'scrypt$16384$8$1$lnLshM-YpVOQZtoDDLl3cw$wO3EjcAiepsnIky7s-vT0HvwT0pDx4gNuCVqcsYQePm8CydACdFFLOytQxUiTBjpnzrSV2_bInlgjm2u-fGpTQ'
-CUTOFF = '2026-08-25T00:43:24.000Z'
-
-con = sqlite3.connect(DB, timeout=5)
-try:
-    con.execute('BEGIN IMMEDIATE')
-    has_users = con.execute(
-        "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'app_users'"
-    ).fetchone()
-    if not has_users:
-        con.rollback()
-        print('Authentication schema not present; historical recovery skipped.')
-        raise SystemExit(0)
-
-    row = con.execute(
-        "SELECT username, role, password_hash, created_at FROM app_users WHERE stable_key = 'default' LIMIT 1"
-    ).fetchone()
-    if row is None:
-        con.rollback()
-        print('Historical default admin row not present; recovery skipped.')
-        raise SystemExit(0)
-
-    username, role, password_hash, created_at = row
-    historical = (
-        isinstance(username, str)
-        and username.lower() == 'mallo'
-        and role == 'admin'
-        and isinstance(created_at, str)
-        and created_at < CUTOFF
-    )
-    if historical and password_hash != CORRECT_1234_HASH:
-        con.execute(
-            "UPDATE app_users SET password_hash = ? WHERE stable_key = 'default'",
-            (CORRECT_1234_HASH,),
-        )
-        con.commit()
-        print('Recovered historical mallo credential.')
-    else:
-        con.rollback()
-        print('Historical mallo credential did not require recovery.')
-finally:
-    con.close()
-PY
-)"
-  printf '%s\n' "$recovery_result"
-  if [ "$recovery_result" != 'Recovered historical mallo credential.' ]; then
-    rm -f -- "$recovery_backup"
-  fi
-}
-
 mkdir -p "$runtime_dir" "$releases_dir" "$backup_dir"
 test -w "$runtime_dir"
 test -d "$release"
@@ -172,41 +92,36 @@ fi
 
 backup=""
 avatar_backup=""
-service_started_new=0
+switched=0
 
 rollback() {
   local status=$?
   trap - ERR
   set +e
-  if [ "$service_started_new" -eq 1 ]; then
-    run_systemctl stop "$service_name"
-  fi
-  if [ -n "$previous" ] && [ -d "$previous" ]; then
+
+  if [ "$switched" -eq 1 ] && [ -n "$previous" ] && [ -d "$previous" ]; then
     switch_current "$previous"
     if [ ! -L "$server_link" ] && [ -e "$server_link" ]; then
       rm -rf -- "$server_link"
     fi
     ensure_server_link
-  fi
-  restore_database "$backup"
-  restore_avatars "$avatar_backup"
-  if [ -n "$previous" ] && [ -d "$previous" ]; then
-    run_systemctl start "$service_name"
+    run_systemctl restart "$service_name"
     wait_for_health || true
-  elif [ -f "$server_link/entry.mjs" ]; then
-    run_systemctl start "$service_name"
   fi
+
+  current="$(readlink -f "$current_link" 2>/dev/null || true)"
+  if [ -d "$release" ] && [ "$release" != "$current" ] && [ "$release" != "$previous" ]; then
+    rm -rf -- "$release"
+  fi
+
   exit "$status"
 }
 trap rollback ERR
 
-# Compatibility repair is deliberately performed before systemd activation.
-# It is a narrowly guarded, online SQLite update so the historical login can
-# be restored even if the VPS service-control privilege is currently broken.
-recover_historical_admin_credential
-
-run_systemctl stop "$service_name"
-
+# Snapshot persistent state while the current process remains online. SQLite's
+# backup API provides a coherent database copy. Deployment migrations are
+# required to remain backward-compatible so code rollback never rewrites a
+# live database underneath a running process.
 if [ -f "$db_path" ]; then
   stamp="$(date -u +%Y%m%dT%H%M%SZ)"
   backup_prefix="$backup_dir/pre-deploy-${release_sha:0:12}-${stamp}"
@@ -223,6 +138,8 @@ if [ -f "$db_path" ]; then
 fi
 
 # One-time conversion of the historical mutable runtime into an immutable legacy release.
+# The old Node process can keep serving from its already-open files until the
+# controlled restart below.
 if [ -z "$previous" ]; then
   legacy="$releases_dir/legacy-$(date -u +%Y%m%dT%H%M%SZ)"
   mkdir "$legacy"
@@ -249,8 +166,13 @@ fi
 
 switch_current "$release"
 ensure_server_link
-run_systemctl start "$service_name"
-service_started_new=1
+switched=1
+
+# The VPS deploy account is intentionally allowed to restart/start/is-active,
+# but not to stop the service. restart performs the required stop+start through
+# systemd without widening sudo privileges, and clears all process-local state
+# such as login rate-limit buckets.
+run_systemctl restart "$service_name"
 wait_for_health
 
 trap - ERR
@@ -263,12 +185,12 @@ for candidate in "${candidates[@]}"; do
     continue
   fi
   kept=$((kept + 1))
-  if [ "$kept" -gt 3 ]; then
+  if [ "$kept" -gt 1 ]; then
     rm -rf -- "$candidate"
   fi
 done
 
-mapfile -t expired_backups < <(ls -1t "$backup_dir"/pre-deploy-*.sqlite 2>/dev/null | tail -n +6)
+mapfile -t expired_backups < <(ls -1t "$backup_dir"/pre-deploy-*.sqlite 2>/dev/null | tail -n +4)
 for expired in "${expired_backups[@]}"; do
   rm -f -- "$expired"
   rm -rf -- "${expired%.sqlite}.avatars"
