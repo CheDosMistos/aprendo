@@ -8,7 +8,7 @@ slug: fase-2-unidad-1-introduccion
 kind: unit
 order: 0
 title: Transición y fluidez binaria
-summary: Convierte las bases de Fase 1 en lectura binaria realmente disponible: material nuevo, continuidad temporal, silencios, recuperación y diagnóstico sin volver a memorizar dibujos.
+summary: "Convierte las bases de Fase 1 en lectura binaria realmente disponible: material nuevo, continuidad temporal, silencios, recuperación y diagnóstico sin volver a memorizar dibujos."
 duration: Unidad flexible · 4 lecciones + cierre
 competencies: [C1, C2, D1, F1, B7, E1, E2, K2, K4, K6]
 rudiments: []
