@@ -4,11 +4,12 @@ import { mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { DatabaseSync } from 'node:sqlite';
 import test from 'node:test';
 
 const verifier = resolve('ops/verify-production-contract.sh');
 
-function fixture(privateAssets = true) {
+function fixture(privateAssets = true, adminCredential = true) {
   const root = mkdtempSync(join(tmpdir(), 'aprendo-production-contract-'));
   const runtime = join(root, 'runtime');
   const release = join(runtime, 'releases', 'fixture-sha');
@@ -23,7 +24,20 @@ function fixture(privateAssets = true) {
   chmodSync(nodeBin, 0o755);
 
   const dbPath = join(root, 'aprendo.sqlite');
-  writeFileSync(dbPath, 'fixture');
+  const database = new DatabaseSync(dbPath);
+  database.exec(`
+    CREATE TABLE app_users (
+      stable_key TEXT NOT NULL,
+      username TEXT,
+      role TEXT NOT NULL,
+      password_hash TEXT
+    );
+  `);
+  database.prepare(`
+    INSERT INTO app_users (stable_key, username, role, password_hash)
+    VALUES ('default', 'mallo', 'admin', ?)
+  `).run(adminCredential ? 'scrypt$fixture' : null);
+  database.close();
 
   const systemctl = join(root, 'systemctl');
   writeFileSync(systemctl, `#!/usr/bin/env bash
@@ -62,16 +76,23 @@ exit 2
   };
 }
 
-test('production contract verifier accepts the expected runtime and proxy shape', () => {
-  const { env } = fixture(true);
+test('production contract verifier accepts the expected runtime, credential, and proxy shape', () => {
+  const { env } = fixture(true, true);
   const result = spawnSync('bash', [verifier], { env, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
   assert.match(result.stdout, /production contract verified/i);
 });
 
 test('production contract verifier rejects a proxy that exposes private course assets', () => {
-  const { env } = fixture(false);
+  const { env } = fixture(false, true);
   const result = spawnSync('bash', [verifier], { env, encoding: 'utf8' });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /notation assets are not protected/i);
+});
+
+test('production contract verifier rejects a default admin without a usable credential', () => {
+  const { env } = fixture(true, false);
+  const result = spawnSync('bash', [verifier], { env, encoding: 'utf8' });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /default administrator has no usable credential/i);
 });
