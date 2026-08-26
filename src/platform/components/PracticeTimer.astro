@@ -1,4 +1,4 @@
-<div class="practice-timer" data-practice-timer hidden aria-live="polite">
+<div class="practice-timer" data-practice-timer hidden>
   <button class="practice-timer__toggle" type="button" data-practice-timer-toggle aria-pressed="false" aria-label="Pausar temporizador">
     <svg aria-hidden="true" viewBox="0 0 24 24">
       <path d="M7.3 4.2 4.8 6.7M16.7 4.2l2.5 2.5M12 7v5l3 1.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -9,7 +9,7 @@
       <span class="practice-timer__label" data-practice-timer-label>Práctica</span>
       <strong class="practice-timer__time" data-practice-timer-time>00:00</strong>
     </span>
-    <span class="practice-timer__state" data-practice-timer-state>En curso</span>
+    <span class="practice-timer__state" data-practice-timer-state aria-live="polite">En curso</span>
   </button>
 </div>
 
