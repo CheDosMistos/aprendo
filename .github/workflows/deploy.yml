@@ -78,7 +78,6 @@ jobs:
              test -x /opt/aprendo-node/bin/node
              test -x /opt/aprendo-node/bin/npm
              test -x /usr/bin/python3
-             test -x /usr/sbin/nginx
              test -d /opt/aprendo/runtime
              test -w /opt/aprendo/runtime
              test -d /var/lib/aprendo
@@ -102,7 +101,7 @@ jobs:
              echo "--- deploy sudo policy ---"
              sudo -n -l 2>&1 || true
 
-             echo "--- Aprendo disk footprint ---"
+             echo "--- Aprendo disk footprint before staging ---"
              df -h /
              du -sh /opt/aprendo-node /opt/aprendo/runtime /var/lib/aprendo 2>/dev/null || true
              du -sh /opt/aprendo/runtime/releases/* 2>/dev/null || true
@@ -155,9 +154,6 @@ jobs:
           release="$releases/$RELEASE_SHA"
           current="$(readlink -f "$runtime/current" 2>/dev/null || true)"
 
-          # Failed deploys can leave full release directories behind. Remove the
-          # target from any previous attempt, then keep current plus at most two
-          # recent non-current releases before allocating space for the new one.
           rm -rf -- "$release" "$runtime"/.current-next-*
           mapfile -t candidates < <(find "$releases" -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | awk '{print $2}')
           kept=0
@@ -225,35 +221,6 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             "set -euo pipefail; APRENDO_BACKUP_HELPER=/tmp/backup-sqlite.py bash /tmp/activate-release.sh $RELEASE_SHA"
 
-      - name: Configure Nginx as plain platform proxy
-        env:
-          VPS_HOST: ${{ secrets.VPS_HOST }}
-          VPS_USER: ${{ secrets.VPS_USER }}
-        run: |
-          set -euo pipefail
-          scp \
-            -i ~/.ssh/deploy_key \
-            -o BatchMode=yes \
-            -o IdentitiesOnly=yes \
-            -o StrictHostKeyChecking=yes \
-            -o UserKnownHostsFile=~/.ssh/known_hosts \
-            ops/configure-nginx-platform-proxy.py \
-            "$VPS_USER@$VPS_HOST:/tmp/aprendo-configure-nginx-platform-proxy.py"
-
-          ssh \
-            -i ~/.ssh/deploy_key \
-            -o BatchMode=yes \
-            -o IdentitiesOnly=yes \
-            -o StrictHostKeyChecking=yes \
-            -o UserKnownHostsFile=~/.ssh/known_hosts \
-            "$VPS_USER@$VPS_HOST" \
-            'set -euo pipefail
-             config="$(sudo -n /usr/sbin/nginx -T 2>&1 | awk '\''/^# configuration file / { file=$4; sub(/:$/, "", file) } /server_name[[:space:]][^;]*aprendo\.molacomer\.com/ { print file; exit }'\'')"
-             test -n "$config"
-             sudo -n /usr/bin/python3 /tmp/aprendo-configure-nginx-platform-proxy.py "$config"
-             sudo -n /usr/sbin/nginx -t
-             sudo -n /usr/bin/systemctl reload nginx'
-
       - name: Verify versioned production contract
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -269,7 +236,7 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             'set -euo pipefail; bash /tmp/verify-production-contract.sh'
 
-      - name: Verify HTTPS platform login
+      - name: Verify HTTPS platform boundary
         run: |
           set -euo pipefail
           headers_file="$(mktemp)"
@@ -310,3 +277,24 @@ jobs:
           asset_status="$(curl --silent --show-error --dump-header "$asset_headers" --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
           test "$asset_status" = "303"
           grep -qi '^location: /login/' "$asset_headers"
+
+      - name: Measure deployed footprint
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            'set -euo pipefail
+             echo "--- final Aprendo footprint ---"
+             df -h /
+             du -sh /opt/aprendo-node /opt/aprendo/runtime /var/lib/aprendo 2>/dev/null || true
+             du -sh /opt/aprendo/runtime/releases/* 2>/dev/null || true
+             echo "--- readable host footprint ---"
+             du -x -sh /usr /var /opt /home /boot /snap 2>/dev/null || true'

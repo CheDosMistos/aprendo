@@ -24,7 +24,13 @@ La producción debe cumplir estas condiciones:
 - Nginx tiene el host `aprendo.molacomer.com`, escucha HTTPS y proxifica a `127.0.0.1:4321`.
 - Los prefijos privados `/bateria/notation/` y `/bateria/materiales/` están protegidos por la sesión de la aplicación en Nginx.
 
-`ops/verify-production-contract.sh` comprueba estas condiciones sobre la configuración efectiva. El despliegue debe ejecutar esa comprobación después de activar el release y recargar Nginx.
+`ops/verify-production-contract.sh` comprueba el runtime, systemd, SQLite, credenciales estructuralmente utilizables, versión de esquema y salud interna. El workflow comprueba además el comportamiento HTTPS observable del proxy y de las rutas protegidas.
+
+## Nginx es infraestructura estable
+
+La configuración de Nginx no cambia con cada release de Aprendo y no se reescribe ni recarga desde el usuario de despliegue ordinario. El workflow verifica desde fuera que HTTPS, redirecciones, API y recursos privados siguen comportándose como exige la plataforma.
+
+Si una versión futura necesita cambiar Nginx, ese cambio debe hacerse mediante un procedimiento de infraestructura explícitamente privilegiado y verificable, separado del despliegue normal de la aplicación. No se amplían permisos `sudo` del usuario de deploy solo para que una tarea release-scoped modifique infraestructura estable.
 
 ## Política de datos persistentes
 

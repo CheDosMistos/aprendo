@@ -9,7 +9,7 @@ import test from 'node:test';
 
 const verifier = resolve('ops/verify-production-contract.sh');
 
-function fixture(privateAssets = true, adminCredential = true) {
+function fixture(privateAssets = true, adminCredential = true, schemaVersion = 9) {
   const root = mkdtempSync(join(tmpdir(), 'aprendo-production-contract-'));
   const runtime = join(root, 'runtime');
   const release = join(runtime, 'releases', 'fixture-sha');
@@ -32,11 +32,17 @@ function fixture(privateAssets = true, adminCredential = true) {
       role TEXT NOT NULL,
       password_hash TEXT
     );
+    CREATE TABLE schema_migrations (
+      version INTEGER PRIMARY KEY,
+      name TEXT NOT NULL
+    );
   `);
   database.prepare(`
     INSERT INTO app_users (stable_key, username, role, password_hash)
     VALUES ('default', 'mallo', 'admin', ?)
   `).run(adminCredential ? 'scrypt$fixture' : null);
+  database.prepare('INSERT INTO schema_migrations (version, name) VALUES (?, ?)')
+    .run(schemaVersion, 'fixture');
   database.close();
 
   const systemctl = join(root, 'systemctl');
@@ -76,23 +82,30 @@ exit 2
   };
 }
 
-test('production contract verifier accepts the expected runtime, credential, and proxy shape', () => {
-  const { env } = fixture(true, true);
+test('production contract verifier accepts the expected runtime, credential, schema and proxy shape', () => {
+  const { env } = fixture(true, true, 9);
   const result = spawnSync('bash', [verifier], { env, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
   assert.match(result.stdout, /production contract verified/i);
 });
 
 test('production contract verifier rejects a proxy that exposes private course assets', () => {
-  const { env } = fixture(false, true);
+  const { env } = fixture(false, true, 9);
   const result = spawnSync('bash', [verifier], { env, encoding: 'utf8' });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /notation assets are not protected/i);
 });
 
 test('production contract verifier rejects a default admin without a usable credential', () => {
-  const { env } = fixture(true, false);
+  const { env } = fixture(true, false, 9);
   const result = spawnSync('bash', [verifier], { env, encoding: 'utf8' });
   assert.notEqual(result.status, 0);
-  assert.match(result.stderr, /default administrator has no usable credential/i);
+  assert.match(result.stderr, /credential or database schema is not deployment-ready/i);
+});
+
+test('production contract verifier rejects a stale database schema', () => {
+  const { env } = fixture(true, true, 8);
+  const result = spawnSync('bash', [verifier], { env, encoding: 'utf8' });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /credential or database schema is not deployment-ready/i);
 });
