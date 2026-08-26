@@ -70,6 +70,7 @@ jobs:
           echo "--- current release ---"
           active="$(readlink -f /opt/aprendo/runtime/current 2>/dev/null || true)"
           printf 'active release: %s\n' "${active:-<none>}"
+          ls -ld /opt/aprendo /opt/aprendo/runtime /opt/aprendo/runtime/current /opt/aprendo/runtime/server 2>/dev/null || true
 
           echo "--- filesystem capacity ---"
           df -h /
@@ -98,8 +99,23 @@ jobs:
           ls -lh /var/lib/aprendo/aprendo.sqlite* 2>/dev/null || true
           du -h /var/lib/aprendo/aprendo.sqlite* 2>/dev/null || true
 
-          echo "--- other readable Aprendo paths ---"
-          find /opt /var/lib /var/log -xdev -maxdepth 4 -iname '*aprendo*' -print 2>/dev/null | sort -u || true
+          echo "--- other readable Aprendo paths and sizes ---"
+          while IFS= read -r path; do
+            [ -n "$path" ] || continue
+            if [ -d "$path" ]; then
+              du -sh "$path" 2>/dev/null || printf '?\t%s\n' "$path"
+            else
+              du -h "$path" 2>/dev/null || printf '?\t%s\n' "$path"
+            fi
+          done < <(find /opt /var/lib /var/log -xdev -maxdepth 4 -iname '*aprendo*' -print 2>/dev/null | sort -u)
+
+          echo "--- one-time Nginx migration helper readiness ---"
+          if [ -f /tmp/aprendo-configure-nginx-platform-proxy.py ]; then
+            ls -l /tmp/aprendo-configure-nginx-platform-proxy.py
+            sha256sum /tmp/aprendo-configure-nginx-platform-proxy.py
+          else
+            echo '<helper not present>'
+          fi
 
           echo "--- readable Nginx Aprendo references ---"
           for root in /etc/nginx/sites-enabled /etc/nginx/sites-available /etc/nginx/conf.d; do
