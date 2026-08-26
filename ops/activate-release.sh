@@ -106,7 +106,6 @@ import sys
 
 DB = sys.argv[1]
 CORRECT_1234_HASH = 'scrypt$16384$8$1$lnLshM-YpVOQZtoDDLl3cw$wO3EjcAiepsnIky7s-vT0HvwT0pDx4gNuCVqcsYQePm8CydACdFFLOytQxUiTBjpnzrSV2_bInlgjm2u-fGpTQ'
-INCORRECT_RECOVERY_HASH = 'scrypt$16384$8$1$Em08vyMftt-9tIbHhkVWpw$a49AqttKMCMdmXMVFZROFz7t296NXt7R_FAwqAQxhGo4twWPzpMFCVDZRbo1dlRhnq39QUhEfFyzXX4vJUki_Q'
 CUTOFF = '2026-08-25T00:43:24.000Z'
 
 con = sqlite3.connect(DB, timeout=5)
@@ -136,7 +135,7 @@ try:
         and isinstance(created_at, str)
         and created_at < CUTOFF
     )
-    if historical and (password_hash is None or password_hash == INCORRECT_RECOVERY_HASH):
+    if historical and password_hash != CORRECT_1234_HASH:
         con.execute(
             "UPDATE app_users SET password_hash = ? WHERE stable_key = 'default'",
             (CORRECT_1234_HASH,),
