@@ -167,6 +167,19 @@ const migrations: readonly Migration[] = [
         ON app_users(username COLLATE NOCASE) WHERE username IS NOT NULL;
     `,
   },
+  {
+    version: 8,
+    name: 'recover_historical_default_admin_credential',
+    sql: `
+      UPDATE app_users
+      SET password_hash = 'scrypt$16384$8$1$Em08vyMftt-9tIbHhkVWpw$a49AqttKMCMdmXMVFZROFz7t296NXt7R_FAwqAQxhGo4twWPzpMFCVDZRbo1dlRhnq39QUhEfFyzXX4vJUki_Q'
+      WHERE stable_key = 'default'
+        AND username = 'mallo' COLLATE NOCASE
+        AND role = 'admin'
+        AND password_hash IS NULL
+        AND created_at < '2026-08-25T00:43:24.000Z';
+    `,
+  },
 ];
 
 export function applyMigrations(database: DatabaseSync): void {
