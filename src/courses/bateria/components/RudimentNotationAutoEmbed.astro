@@ -63,8 +63,15 @@ const definitions = rudiments.map((name) => {
     return elements;
   };
 
+  const scoresInside = (elements: Element[]): HTMLElement[] => elements.flatMap((element) => {
+    const scores = [...element.querySelectorAll<HTMLElement>('[data-notation-score]')];
+    if (element instanceof HTMLElement && element.matches('[data-notation-score]')) scores.unshift(element);
+    return scores;
+  });
+
   if (root && article) {
     let inserted = 0;
+    let reused = 0;
     let missing = 0;
     const definitions = JSON.parse(root.dataset.definitions ?? '[]') as ClientDefinition[];
     const pasUrl = root.dataset.pasUrl ?? '';
@@ -76,9 +83,9 @@ const definitions = rudiments.map((name) => {
         continue;
       }
 
-      const existing = [...article.querySelectorAll<HTMLElement>('[data-score-rudiment]')]
+      const alreadyTagged = [...article.querySelectorAll<HTMLElement>('[data-score-rudiment]')]
         .find((score) => normalizeRudimentText(score.dataset.scoreRudiment ?? '') === normalizeRudimentText(definition.requestedName));
-      if (existing) continue;
+      if (alreadyTagged) continue;
 
       const heading = headings.find((candidate) => headingMatches(candidate.textContent ?? '', definition));
       if (!heading) {
@@ -87,6 +94,13 @@ const definitions = rudiments.map((name) => {
       }
 
       const section = sectionElements(heading);
+      const existingPasStudy = scoresInside(section).find((score) => score.dataset.scoreSourceUrl?.includes('pas.org'));
+      if (existingPasStudy) {
+        existingPasStudy.dataset.scoreRudiment = definition.requestedName;
+        reused += 1;
+        continue;
+      }
+
       const pasLink = section
         .flatMap((element) => [...element.querySelectorAll<HTMLAnchorElement>('a[href]')])
         .find((link) => link.href.includes('pas-rudiments.pdf'));
@@ -111,6 +125,7 @@ const definitions = rudiments.map((name) => {
     }
 
     root.dataset.inserted = String(inserted);
+    root.dataset.reused = String(reused);
     root.dataset.missing = String(missing);
     if (inserted > 0) window.dispatchEvent(new CustomEvent('aprendo:notation-scores-updated'));
   }
