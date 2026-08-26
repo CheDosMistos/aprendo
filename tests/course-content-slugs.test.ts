@@ -15,18 +15,31 @@ async function markdownFiles(dir: string): Promise<string[]> {
   return nested.flat();
 }
 
-test('battery content slugs are unique across the Astro collection', async () => {
+function frontmatterValue(source: string, key: string): string | undefined {
+  return source.match(new RegExp(`^${key}:\\s*([^\\n\\r]+)$`, 'm'))?.[1]?.trim();
+}
+
+test('battery content slugs are unique and unit slugs encode their phase safely', async () => {
   const files = await markdownFiles(contentRoot);
   const seen = new Map<string, string>();
 
   for (const file of files) {
     const source = await readFile(file, 'utf8');
-    const match = source.match(/^slug:\s*([^\n\r]+)$/m);
-    assert.ok(match, `${file}: expected a slug in frontmatter`);
+    const slug = frontmatterValue(source, 'slug');
+    const phase = Number(frontmatterValue(source, 'phase'));
+    const unit = Number(frontmatterValue(source, 'unit'));
+    const unitSlug = frontmatterValue(source, 'unitSlug');
 
-    const slug = match[1]!.trim();
+    assert.ok(slug, `${file}: expected a slug in frontmatter`);
+    assert.ok(Number.isInteger(phase) && phase > 0, `${file}: expected a positive phase`);
+    assert.ok(Number.isInteger(unit) && unit > 0, `${file}: expected a positive unit`);
+    assert.ok(unitSlug, `${file}: expected a unitSlug in frontmatter`);
+
     const previous = seen.get(slug);
     assert.equal(previous, undefined, `${file}: duplicate slug '${slug}' already used by ${previous}`);
     seen.set(slug, file);
+
+    const expectedUnitSlug = phase === 1 ? `unidad-${unit}` : `fase-${phase}-unidad-${unit}`;
+    assert.equal(unitSlug, expectedUnitSlug, `${file}: expected unitSlug '${expectedUnitSlug}'`);
   }
 });
