@@ -1,6 +1,6 @@
 import type * as AlphaTab from '@coderline/alphatab';
 import type { NotationRenderer, NotationRendererCallbacks } from './NotationRenderer';
-import { loadAlphaTabModule } from './notationPreload';
+import { loadAlphaTabModule, preloadNotationResources } from './notationPreload';
 
 export interface AlphaTabRendererOptions {
   enablePlayer?: boolean;
@@ -31,6 +31,10 @@ export class AlphaTabRenderer implements NotationRenderer {
     const hideScoreHeader = options.hideScoreHeader ?? false;
     this.referenceBpm = options.referenceBpm ?? 120;
     this.playbackBpm = this.referenceBpm;
+
+    // Start the expensive module + SoundFont work as soon as the lesson mounts,
+    // instead of letting the player discover those resources just before first use.
+    if (enablePlayer) preloadNotationResources([]);
 
     void loadAlphaTabModule()
       .then((alphaTab) => {
@@ -110,6 +114,11 @@ export class AlphaTabRenderer implements NotationRenderer {
     this.callbacks.onPlaybackStateChange?.(false);
     this.callbacks.onStatusChange?.('loading', 'Cargando MusicXML…');
     if (!sourceUrl) return false;
+
+    // Prime the authenticated MusicXML request while AlphaTab is still
+    // initializing. The later api.load(URL) can reuse the browser cache.
+    preloadNotationResources([sourceUrl]);
+
     if (this.api) return this.api.load(sourceUrl);
     this.pendingSourceUrl = sourceUrl;
     return true;
