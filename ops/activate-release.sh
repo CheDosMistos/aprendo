@@ -111,12 +111,21 @@ CUTOFF = '2026-08-25T00:43:24.000Z'
 con = sqlite3.connect(DB, timeout=5)
 try:
     con.execute('BEGIN IMMEDIATE')
+    has_users = con.execute(
+        "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'app_users'"
+    ).fetchone()
+    if not has_users:
+        con.rollback()
+        print('Authentication schema not present; historical recovery skipped.')
+        raise SystemExit(0)
+
     row = con.execute(
         "SELECT username, role, password_hash, created_at FROM app_users WHERE stable_key = 'default' LIMIT 1"
     ).fetchone()
     if row is None:
         con.rollback()
-        raise SystemExit('historical default admin row is missing')
+        print('Historical default admin row not present; recovery skipped.')
+        raise SystemExit(0)
 
     username, role, password_hash, created_at = row
     historical = (
