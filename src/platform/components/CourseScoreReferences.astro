@@ -21,12 +21,17 @@ const {
 
 <script>
   const applyCourseScoreDataSources = () => {
+    let pending = 0;
+
     for (const score of document.querySelectorAll<HTMLElement>('[data-notation-score]')) {
       const scoreSource = score.dataset.scoreSrc;
       if (!scoreSource) continue;
 
       const footer = score.querySelector<HTMLElement>('.course-score__footer');
-      if (!footer) continue;
+      if (!footer) {
+        pending += 1;
+        continue;
+      }
 
       let links = footer.querySelector<HTMLElement>('.course-score__links');
       if (!links) {
@@ -41,8 +46,7 @@ const {
       if (alreadyLinked) continue;
 
       // This is the actual data consumed by AlphaTab. Printable companions and
-      // normative external references remain separate links when a score
-      // declares them explicitly through data-score-source-url.
+      // normative external references remain distinct links.
       const link = document.createElement('a');
       link.href = scoreSource;
       link.target = '_blank';
@@ -51,12 +55,16 @@ const {
       link.dataset.courseScoreLink = 'data';
       links.append(link);
     }
+
+    return pending;
   };
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', applyCourseScoreDataSources, { once: true });
-  } else {
-    applyCourseScoreDataSources();
+  const pending = applyCourseScoreDataSources();
+  if (pending > 0) {
+    const observer = new MutationObserver(() => {
+      if (applyCourseScoreDataSources() === 0) observer.disconnect();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
   }
 </script>
 
