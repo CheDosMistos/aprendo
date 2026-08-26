@@ -26,7 +26,7 @@ test('Phase 2 U1 checkpoint has the approved progression-only contract', async (
   const markdown = await readFile(checkpointPath, 'utf8');
   const data = frontmatter(markdown);
 
-  assert.match(data, /^contentId:\s*bat-f2-u1-cp\s*$/m);
+  assert.match(data, /^contentId:\s*bat-f2-u1-check\s*$/m);
   assert.match(data, /^phase:\s*2\s*$/m);
   assert.match(data, /^unit:\s*1\s*$/m);
   assert.match(data, /^unitSlug:\s*fase-2-unidad-1\s*$/m);
