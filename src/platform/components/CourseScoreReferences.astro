@@ -1,3 +1,24 @@
+---
+interface Props {
+  normativeReferenceUrl?: string;
+  normativeReferenceLabel?: string;
+}
+
+const {
+  normativeReferenceUrl,
+  normativeReferenceLabel = 'Referencia normativa',
+} = Astro.props;
+---
+
+{normativeReferenceUrl && (
+  <p class="course-score-reference">
+    <strong>Referencia normativa de los rudimentos de esta lección:</strong>{' '}
+    <a href={normativeReferenceUrl} target="_blank" rel="noopener noreferrer">
+      {normativeReferenceLabel}
+    </a>
+  </p>
+)}
+
 <script>
   const applyCourseScoreDataSources = () => {
     for (const score of document.querySelectorAll<HTMLElement>('[data-notation-score]')) {
@@ -38,3 +59,10 @@
     applyCourseScoreDataSources();
   }
 </script>
+
+<style>
+  .course-score-reference {
+    margin: 1.25rem 0 0;
+    font-size: 0.95rem;
+  }
+</style>
