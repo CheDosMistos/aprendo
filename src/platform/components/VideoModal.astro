@@ -1,0 +1,139 @@
+<dialog class="video-modal" data-video-modal aria-label="Reproductor de vídeo">
+  <button class="video-modal__close" type="button" data-video-modal-close aria-label="Cerrar vídeo" title="Cerrar vídeo">
+    <svg aria-hidden="true" viewBox="0 0 24 24">
+      <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    </svg>
+  </button>
+  <iframe
+    class="video-modal__frame"
+    data-video-modal-frame
+    title="Vídeo"
+    src="about:blank"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></iframe>
+</dialog>
+
+<script>
+  import { getYouTubeVideoId, youtubePrivacyEmbedUrl } from '@platform/media/youtube';
+
+  const dialog = document.querySelector<HTMLDialogElement>('[data-video-modal]');
+  const frame = dialog?.querySelector<HTMLIFrameElement>('[data-video-modal-frame]');
+  const closeButton = dialog?.querySelector<HTMLButtonElement>('[data-video-modal-close]');
+  let opener: HTMLAnchorElement | null = null;
+  let previousOverflow = '';
+
+  const cleanUp = () => {
+    if (frame) {
+      frame.src = 'about:blank';
+      frame.title = 'Vídeo';
+    }
+    document.body.style.overflow = previousOverflow;
+    const trigger = opener;
+    opener = null;
+    trigger?.focus({ preventScroll: true });
+  };
+
+  const closeVideo = () => {
+    if (dialog?.open) dialog.close();
+  };
+
+  const openVideo = (link: HTMLAnchorElement, videoId: string) => {
+    if (!dialog || !frame) return;
+    opener = link;
+    previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    frame.title = link.textContent?.trim() || 'Vídeo de YouTube';
+    frame.src = youtubePrivacyEmbedUrl(videoId);
+    if (!dialog.open) dialog.showModal();
+    closeButton?.focus({ preventScroll: true });
+  };
+
+  document.addEventListener('click', (event) => {
+    if (!(event instanceof MouseEvent) || event.defaultPrevented || event.button !== 0) return;
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const target = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href]') : null;
+    if (!target || target.hasAttribute('download')) return;
+    const videoId = getYouTubeVideoId(target.href, window.location.href);
+    if (!videoId) return;
+
+    event.preventDefault();
+    openVideo(target, videoId);
+  });
+
+  closeButton?.addEventListener('click', closeVideo);
+  dialog?.addEventListener('click', (event) => {
+    if (event.target === dialog) closeVideo();
+  });
+  dialog?.addEventListener('close', cleanUp);
+</script>
+
+<style>
+  .video-modal {
+    width: 90vw;
+    height: 90dvh;
+    max-width: none;
+    max-height: none;
+    margin: auto;
+    padding: 0;
+    overflow: visible;
+    border: 0;
+    border-radius: 0.75rem;
+    background: #000;
+    box-shadow: 0 1.5rem 5rem rgb(0 0 0 / 45%);
+  }
+
+  .video-modal::backdrop {
+    background: rgb(0 0 0 / 82%);
+    backdrop-filter: blur(2px);
+  }
+
+  .video-modal__frame {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: inherit;
+    background: #000;
+  }
+
+  .video-modal__close {
+    position: fixed;
+    top: calc(5dvh + 0.75rem);
+    right: calc(5vw + 0.75rem);
+    z-index: 1;
+    width: 2.75rem;
+    height: 2.75rem;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid rgb(255 255 255 / 55%);
+    border-radius: 999px;
+    background: rgb(0 0 0 / 72%);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .video-modal__close:hover,
+  .video-modal__close:focus-visible {
+    background: rgb(0 0 0 / 92%);
+  }
+
+  .video-modal__close svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  @media (max-width: 42rem) {
+    .video-modal {
+      width: 92vw;
+      height: 88dvh;
+    }
+
+    .video-modal__close {
+      top: calc(6dvh + 0.55rem);
+      right: calc(4vw + 0.55rem);
+    }
+  }
+</style>
