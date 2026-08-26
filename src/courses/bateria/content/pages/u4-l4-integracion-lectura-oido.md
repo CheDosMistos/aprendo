@@ -12,6 +12,7 @@ summary: Integra lectura nueva, reconocimiento auditivo de 3+3+2, cambios de sub
 duration: 25–30 min
 competencies: [B5, B6, C1, C2, C3, D1, D3, E2, E3, F1, F2, J1, K4, K6]
 rudiments: [Thirteen Stroke Roll, Fifteen Stroke Roll, Seventeen Stroke Roll, Six Stroke Roll]
+rudimentNotation: review-reference
 published: true
 ---
 
