@@ -142,7 +142,7 @@ test('published course score references resolve and identify original material',
       const explicitSourceUrl = tag.match(/data-score-source-url="([^"]+)"/)?.[1];
       const explicitSourceLabel = tag.match(/data-score-source-label="([^"]+)"/)?.[1];
       if (explicitSourceUrl) {
-        assert.ok(explicitSourceLabel, `${page}: explicit companion/source URL must have a readable label`);
+        assert.ok(explicitSourceLabel, `${page}: explicit companion or normative URL must have a readable label`);
       }
     }
   }
@@ -150,21 +150,21 @@ test('published course score references resolve and identify original material',
   assert.ok(references > 0, 'Expected published course score references');
 });
 
-test('score UI exposes the rendered MusicXML data source and keeps PAS as a distinct normative reference', async () => {
+test('score UI exposes the rendered MusicXML source and keeps PAS as a distinct normative lesson reference', async () => {
   const component = await readFile(scoreReferencesComponent, 'utf8');
   const page = await readFile(lessonPage, 'utf8');
 
   assert.match(component, /const scoreSource = score\.dataset\.scoreSrc/);
   assert.match(component, /Abrir fuente MusicXML/);
-  assert.match(component, /data-course-score-reference/);
-  assert.match(component, /Material de estudio original del curso/);
+  assert.match(component, /normativeReferenceUrl/);
+  assert.match(component, /Referencia normativa de los rudimentos de esta lección/);
 
   assert.ok(page.includes(pasSourceUrl), 'rudiment pages must link the official PAS PDF');
   assert.match(page, /entry\.data\.rudiments\.length > 0/);
-  assert.match(page, /Referencia normativa PAS/);
+  assert.match(page, /PAS — International Drum Rudiments/);
 });
 
-test('lessons that teach PAS rudiments include embedded original study notation', async () => {
+test('lessons that teach PAS rudiments include embedded original study notation and the PAS normative link', async () => {
   const pages = await filesWithExtension(contentRoot, '.md');
   const failures: string[] = [];
   let rudimentLessons = 0;
@@ -177,6 +177,7 @@ test('lessons that teach PAS rudiments include embedded original study notation'
     rudimentLessons += 1;
     const scoreTags = [...markdown.matchAll(/<div\b[^>]*data-notation-score[^>]*>/g)].map((match) => match[0]);
     if (scoreTags.length === 0) failures.push(`${page}: no embedded original study notation`);
+    if (!markdown.includes(pasSourceUrl)) failures.push(`${page}: no official PAS normative link`);
   }
 
   assert.ok(rudimentLessons > 0, 'Expected Phase 1 lessons with PAS rudiments');
