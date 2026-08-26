@@ -60,12 +60,13 @@ function graceNote(hand: string): string {
 
 function beams(index: number, count: number, spec: UnitSpec): string {
   if (spec.beams === 0 || count === 1) return '';
-  const withinGroup = index % spec.groupSize;
-  const remaining = count - index;
-  const groupLength = Math.min(spec.groupSize, remaining + withinGroup);
-  const state = withinGroup === 0
+  const groupStart = Math.floor(index / spec.groupSize) * spec.groupSize;
+  const groupEnd = Math.min(groupStart + spec.groupSize, count) - 1;
+  if (groupStart === groupEnd) return '';
+
+  const state = index === groupStart
     ? 'begin'
-    : withinGroup === groupLength - 1 || index === count - 1
+    : index === groupEnd
       ? 'end'
       : 'continue';
   return Array.from({ length: spec.beams }, (_, beamIndex) => `<beam number="${beamIndex + 1}">${state}</beam>`).join('');
