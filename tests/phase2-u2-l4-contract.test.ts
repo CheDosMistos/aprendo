@@ -54,7 +54,7 @@ test('Phase 2 U2 L4 embeds protected recovery and the original application score
   assert.equal(occurrences(lesson, 'data-rhythm-dictation'), 0);
 });
 
-test('Phase 2 U2 L4 MusicXML is original, complete 4/4 percussion notation', () => {
+test('Phase 2 U2 L4 MusicXML is original, complete 4/4 percussion notation with compatible attack pairs', () => {
   assert.match(score, /<score-partwise version="4\.0">/);
   assert.match(score, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);
   assert.match(score, /<beats>4<\/beats><beat-type>4<\/beat-type>/);
@@ -62,12 +62,18 @@ test('Phase 2 U2 L4 MusicXML is original, complete 4/4 percussion notation', () 
   assert.match(score, /<sign>percussion<\/sign>/);
   assert.match(score, /<type>16th<\/type>/);
   assert.match(score, /<rest\/>/);
+  assert.doesNotMatch(score, /<tie\b|<tied\b|<dot\s*\/>|<time-modification>|<tuplet\b/);
 
   const measures = [...score.matchAll(/<measure number="(\d+)">([\s\S]*?)<\/measure>/g)];
   assert.equal(measures.length, 4);
   for (const [, number, body] of measures) {
     const durations = [...body.matchAll(/<duration>(\d+)<\/duration>/g)].map((match) => Number(match[1]));
     assert.equal(durations.reduce((sum, value) => sum + value, 0), 16, `measure ${number} must fill exactly 4/4`);
+
+    const noteBodies = [...body.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1]);
+    const attacks = noteBodies.map((noteBody) => !noteBody.includes('<rest/>'));
+    const hasCompatiblePair = attacks.some((attack, index) => attack && attacks[index + 1] === true);
+    assert.equal(hasCompatiblePair, true, `measure ${number} must contain at least one consecutive written attack pair for RR/LL application`);
   }
 });
 
