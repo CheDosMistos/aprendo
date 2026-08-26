@@ -6,6 +6,7 @@ import test from 'node:test';
 const notationRoot = path.resolve('public/bateria/notation');
 const contentRoot = path.resolve('src/courses/bateria/content/pages');
 const originalBadge = 'EJERCICIO ORIGINAL CREADO PARA ESTE CURSO';
+const pasSourceUrl = 'https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf';
 
 async function filesWithExtension(dir: string, extension: string): Promise<string[]> {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -86,6 +87,17 @@ function validateMeasureDurations(xml: string, file: string) {
   }
 }
 
+function frontmatter(markdown: string): string {
+  return markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? '';
+}
+
+function hasAssignedRudiments(markdown: string): boolean {
+  const data = frontmatter(markdown);
+  const inline = data.match(/^rudiments:\s*\[([^\]]*)\]/m)?.[1]?.trim();
+  if (inline) return inline.length > 0;
+  return /^rudiments:\s*$[\s\S]*?^\s+-\s+\S/m.test(data);
+}
+
 test('course MusicXML uses complete percussion staves, explicit noteheads and original provenance', async () => {
   const files = await musicXmlFiles(notationRoot);
   assert.ok(files.length > 0, 'Expected course MusicXML fixtures');
@@ -110,7 +122,7 @@ test('every course MusicXML measure closes on its written meter, including multi
   for (const file of files) validateMeasureDurations(await readFile(file, 'utf8'), file);
 });
 
-test('published course score references resolve and identify original material', async () => {
+test('published course score references resolve, identify original material and expose their source', async () => {
   const pages = await filesWithExtension(contentRoot, '.md');
   let references = 0;
 
@@ -124,8 +136,34 @@ test('published course score references resolve and identify original material',
       assert.ok(tag.includes(`data-score-badge="${originalBadge}"`), `${page}: local course score must expose its original-material badge`);
       assert.ok(src.startsWith('/bateria/notation/'), `${page}: unexpected local score path ${src}`);
       await access(path.resolve('public', src.slice(1)));
+
+      const sourceUrl = tag.match(/data-score-source-url="([^"]+)"/)?.[1];
+      const sourceLabel = tag.match(/data-score-source-label="([^"]+)"/)?.[1];
+      assert.ok(sourceUrl, `${page}: every embedded score must expose a source URL`);
+      assert.ok(sourceLabel, `${page}: every embedded score must expose a readable source label`);
     }
   }
 
   assert.ok(references > 0, 'Expected published course score references');
+});
+
+test('lessons that teach PAS rudiments include embedded original study notation linked to PAS', async () => {
+  const pages = await filesWithExtension(contentRoot, '.md');
+  let rudimentLessons = 0;
+
+  for (const page of pages) {
+    const markdown = await readFile(page, 'utf8');
+    const data = frontmatter(markdown);
+    if (!/^kind:\s*lesson\s*$/m.test(data) || !hasAssignedRudiments(markdown)) continue;
+
+    rudimentLessons += 1;
+    const scoreTags = [...markdown.matchAll(/<div\b[^>]*data-notation-score[^>]*>/g)].map((match) => match[0]);
+    assert.ok(scoreTags.length > 0, `${page}: PAS rudiment lesson must include embedded study notation`);
+    assert.ok(
+      scoreTags.some((tag) => tag.includes(`data-score-source-url="${pasSourceUrl}"`)),
+      `${page}: at least one embedded rudiment study score must link the normative PAS PDF`,
+    );
+  }
+
+  assert.ok(rudimentLessons > 0, 'Expected Phase 1 lessons with PAS rudiments');
 });
