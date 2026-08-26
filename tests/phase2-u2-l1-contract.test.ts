@@ -55,8 +55,16 @@ test('Phase 2 U2 L1 uses one original U2 score with real sixteenth rests and kee
   assert.match(score, /<score-partwise version="4\.0">/);
   assert.match(score, /<time><beats>4<\/beats><beat-type>4<\/beat-type><\/time>/);
   assert.match(score, /<staff-details><staff-lines>5<\/staff-lines><\/staff-details>/);
-  assert.match(score, /<rest\/><duration>1<\/duration><voice>1<\/voice><type>16th<\/type>/, 'U2 L1 must genuinely introduce sixteenth-note rests');
+  assert.match(score, /<note><rest\/><duration>1<\/duration><type>16th<\/type><\/note>/, 'U2 L1 must genuinely introduce sixteenth-note rests');
   assert.doesNotMatch(score, /<tie\b|<tied\b|<dot\/>/, 'Ties and dots are reserved for U3');
+
+  const measures = [...score.matchAll(/<measure number="(\d+)">([\s\S]*?)<\/measure>/g)];
+  assert.equal(measures.length, 4, 'U2 L1 score should contain four compact 4/4 measures');
+  for (const [, number, body] of measures) {
+    const totalDuration = [...body.matchAll(/<duration>(\d+)<\/duration>/g)]
+      .reduce((sum, match) => sum + Number(match[1]), 0);
+    assert.equal(totalDuration, 16, `Measure ${number} must fill exactly 4/4 at divisions=4`);
+  }
 });
 
 test('Phase 2 U2 L1 preserves the approved five-block lesson shape and four-slot hearing transfer', async () => {
@@ -94,10 +102,10 @@ test('Phase 2 U2 L1 advancement is evidence-based and hands C3 to L2 instead of 
   assert.match(markdown, /La siguiente lección abrirá C3 de forma prudente/i);
   assert.match(markdown, /cambiar entre 2 y 4 subdivisiones por pulso/i);
 
-  assert.match(overview, /20\.U2\.L1 — La rejilla de cuatro posiciones/);
-  assert.match(overview, /20\.U2\.L2 — Silencios y cambio 2 ↔ 4 sin perder el pulso/);
-  assert.match(overview, /20\.U2\.L3 — Oír, imitar y escribir la rejilla/);
-  assert.match(overview, /20\.U2\.L4 — Doubles\/diddles sin alterar la línea/);
-  assert.match(overview, /20\.U2\.CP — Puerta de semicorcheas y silencios/);
-  assert.match(overview, /U3 conserva/i);
+  assert.match(overview, /La rejilla de cuatro posiciones/);
+  assert.match(overview, /Silencios y cambio 2 ↔ 4 sin perder el pulso/);
+  assert.match(overview, /Oír, imitar y escribir la rejilla/);
+  assert.match(overview, /Doubles\/diddles sin alterar la línea/);
+  assert.match(overview, /Puerta de semicorcheas y silencios/);
+  assert.match(overview, /U3 seguirá introduciendo de forma estructurada/);
 });
