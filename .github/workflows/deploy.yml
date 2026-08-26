@@ -85,7 +85,28 @@ jobs:
              test -w /var/lib/aprendo
              mkdir -p /opt/aprendo/runtime/releases
              test -w /opt/aprendo/runtime/releases
-             /opt/aprendo-node/bin/node --version'
+             /opt/aprendo-node/bin/node --version
+
+             echo "--- effective aprendo.service ---"
+             /usr/bin/systemctl show aprendo.service --no-pager \
+               --property=MainPID,User,ExecStart,Environment,FragmentPath || true
+             pid="$(/usr/bin/systemctl show aprendo.service --property=MainPID --value 2>/dev/null || true)"
+             if [ -n "$pid" ] && [ "$pid" != "0" ]; then
+               printf "process cwd: "; readlink "/proc/$pid/cwd" 2>/dev/null || true
+               printf "process APRENDO_DB_PATH: "
+               tr "\0" "\n" < "/proc/$pid/environ" 2>/dev/null | grep "^APRENDO_DB_PATH=" || echo "<unset or unreadable>"
+               echo "open SQLite descriptors:"
+               ls -l "/proc/$pid/fd" 2>/dev/null | grep -E "sqlite|/var/lib/aprendo" || true
+             fi
+
+             echo "--- deploy sudo policy ---"
+             sudo -n -l 2>&1 || true
+
+             echo "--- Aprendo disk footprint ---"
+             df -h /
+             du -sh /opt/aprendo-node /opt/aprendo/runtime /var/lib/aprendo 2>/dev/null || true
+             du -sh /opt/aprendo/runtime/releases/* 2>/dev/null || true
+             du -sh /var/lib/aprendo/backups /var/lib/aprendo/avatars /var/lib/aprendo/aprendo.sqlite 2>/dev/null || true'
 
       - name: Prune inactive releases before staging
         env:
