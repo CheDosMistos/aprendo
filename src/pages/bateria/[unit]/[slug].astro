@@ -15,8 +15,6 @@ interface NavItem {
   label: string;
 }
 
-const PAS_NORMATIVE_URL = 'https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf';
-
 const entries = await getBateriaContent();
 const unitSlug = Astro.params.unit;
 const slug = Astro.params.slug;
@@ -54,7 +52,6 @@ const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'les
   ? entry.data.kind
   : undefined;
 const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
-const hasPasRudiments = entry.data.rudiments.length > 0;
 ---
 
 <CourseArticleLayout
@@ -67,10 +64,7 @@ const hasPasRudiments = entry.data.rudiments.length > 0;
   next={next}
 >
   <Content />
-  <CourseScoreReferences
-    normativeReferenceUrl={hasPasRudiments ? PAS_NORMATIVE_URL : undefined}
-    normativeReferenceLabel={hasPasRudiments ? 'Referencia normativa PAS' : undefined}
-  />
+  <CourseScoreReferences />
 
   {(showPhase1PasMap || checkInKind) && (
     <div slot="after">
