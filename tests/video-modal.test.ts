@@ -40,6 +40,7 @@ test('Aprendo mounts one general modal with the required close interactions', as
   assert.match(layout, /<VideoModal\s*\/>/);
   assert.match(modal, /width:\s*90vw/);
   assert.match(modal, /height:\s*90dvh/);
+  assert.match(modal, /\.video-modal::backdrop\s*{[^}]*background:\s*rgb\(0 0 0 \/ 50%\)/s);
   assert.match(modal, /data-video-modal-close/);
   assert.match(modal, /position:\s*fixed/);
   assert.match(modal, /top:\s*1rem/);
