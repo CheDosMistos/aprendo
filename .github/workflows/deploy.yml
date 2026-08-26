@@ -276,7 +276,7 @@ jobs:
 
           asset_status="$(curl --silent --show-error --dump-header "$asset_headers" --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
           test "$asset_status" = "303"
-          grep -qi '^location: /login/' "$asset_headers"
+          grep -Eqi '^location:[[:space:]]+(https://aprendo\.molacomer\.com)?/login/[[:space:]]*$' "$asset_headers"
 
       - name: Measure deployed footprint
         env:
