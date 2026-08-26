@@ -56,7 +56,9 @@ const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'les
   : undefined;
 const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
 const hasPasRudiments = entry.data.rudiments.length > 0;
-const embedsRudimentScores = hasPasRudiments && entry.data.rudimentNotation === 'per-rudiment';
+const embedsRudimentScores = entry.data.kind === 'lesson'
+  && hasPasRudiments
+  && entry.data.rudimentNotation === 'per-rudiment';
 ---
 
 <CourseArticleLayout
