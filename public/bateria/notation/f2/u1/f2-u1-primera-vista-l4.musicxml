@@ -32,7 +32,7 @@
         <clef><sign>percussion</sign><line>2</line></clef>
         <staff-details><staff-lines>5</staff-lines></staff-details>
       </attributes>
-      <direction placement="above"><direction-type><words>Primera vista · intento 1 sin playback</words></direction-type><sound tempo="72"/></direction>
+      <direction placement="above"><direction-type><words>Primera vista · intento 1 sin playback</words></direction-type><sound tempo="120"/></direction>
       <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><voice>1</voice><type>quarter</type><notehead>normal</notehead></note>
       <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>2</duration><voice>1</voice><type>eighth</type><notehead>normal</notehead><beam number="1">begin</beam></note>
       <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>2</duration><voice>1</voice><type>eighth</type><notehead>normal</notehead><beam number="1">end</beam></note>
