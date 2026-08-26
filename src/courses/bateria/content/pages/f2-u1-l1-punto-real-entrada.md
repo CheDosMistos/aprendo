@@ -60,7 +60,7 @@ Antes de pulsar **Empezar**:
 
 Cuando pulses **Empezar**:
 
-1. mira brevemente el compás completo antes de tocar;
+1. mira brevemente la línea completa antes de tocar;
 2. localiza el pulso de negra;
 3. identifica la subdivisión más pequeña que necesitas mantener;
 4. **cuenta o canta** si eso mejora tu representación;
@@ -89,7 +89,7 @@ Si un silencio hace que «desaparezca» el lugar del siguiente ataque, el proble
 
 ## 4. Una sola variación — 4–5 min
 
-Vuelve a la misma línea y cambia **una única condición**: toca de nuevo con sticking alternado, pero esta vez **empieza con izquierda**.
+Elige **dos o tres compases** de la misma línea y cambia **una única condición**: tócalos de nuevo con sticking alternado, pero esta vez **empieza con izquierda**.
 
 No cambies además el tempo, la dinámica y el patrón de acentos. Queremos saber si el ritmo sigue disponible cuando cambia la asignación de manos.
 
@@ -112,6 +112,8 @@ Completa mentalmente esta cadena antes de registrar la sesión:
 - **Tarea:** lectura binaria elemental de 4/4.
 - **Condiciones:** tempo usado, click convencional, sticking alternado, primera toma sin playback.
 - **Decisión:** continuar, continuar con correctivo o reducir novedad.
+
+Completar la sesión **no actualiza automáticamente** todas las competencias listadas ni cambia por sí solo el estado del PAS muestreado. La evidencia vale para lo que realmente hayas observado.
 
 En el registro de progreso de Aprendo elige **una variable limitante principal** si la hubo: lectura, tiempo/subdivisión, movimiento/tensión, memoria/recuperación, comprensión u otra observable.
 
