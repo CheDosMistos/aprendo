@@ -87,6 +87,32 @@ jobs:
              test -w /opt/aprendo/runtime/releases
              /opt/aprendo-node/bin/node --version'
 
+      - name: Prune inactive releases before staging
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            'set -euo pipefail
+             releases=/opt/aprendo/runtime/releases
+             current=/opt/aprendo/runtime/current
+             active=""
+             if [ -L "$current" ]; then active="$(readlink -f "$current")"; fi
+             for candidate in "$releases"/*; do
+               [ -d "$candidate" ] || continue
+               resolved="$(readlink -f "$candidate")"
+               if [ -n "$active" ] && [ "$resolved" = "$active" ]; then continue; fi
+               rm -rf -- "$candidate"
+             done
+             df -h /opt/aprendo/runtime /var/lib/aprendo'
+
       - name: Prepare immutable release
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
