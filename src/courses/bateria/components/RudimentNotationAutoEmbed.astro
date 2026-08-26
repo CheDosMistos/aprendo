@@ -42,13 +42,13 @@ const definitions = rudiments.map((name) => {
   const root = document.querySelector<HTMLElement>('[data-rudiment-auto-embed]');
   const article = root?.closest<HTMLElement>('.course-article');
 
-  const headingMatches = (heading: string, definition: ClientDefinition) => {
-    const normalizedHeading = ` ${normalizeRudimentText(heading)} `;
+  const textMatches = (text: string, definition: ClientDefinition) => {
+    const normalizedText = ` ${normalizeRudimentText(text)} `;
     const candidates = [definition.requestedName, definition.name, definition.pasName, ...(definition.aliases ?? [])]
       .filter((candidate): candidate is string => Boolean(candidate))
       .map(normalizeRudimentText)
       .sort((a, b) => b.length - a.length);
-    return candidates.some((candidate) => normalizedHeading.includes(` ${candidate} `));
+    return candidates.some((candidate) => normalizedText.includes(` ${candidate} `));
   };
 
   const sectionElements = (heading: Element): Element[] => {
@@ -62,6 +62,10 @@ const definitions = rudiments.map((name) => {
     }
     return elements;
   };
+
+  const pasLinkInside = (elements: Element[]): HTMLAnchorElement | undefined => elements
+    .flatMap((element) => [...element.querySelectorAll<HTMLAnchorElement>('a[href]')])
+    .find((link) => link.href.includes('pas-rudiments.pdf'));
 
   const scoresInside = (elements: Element[]): HTMLElement[] => elements.flatMap((element) => {
     const scores = [...element.querySelectorAll<HTMLElement>('[data-notation-score]')];
@@ -87,7 +91,17 @@ const definitions = rudiments.map((name) => {
         .find((score) => normalizeRudimentText(score.dataset.scoreRudiment ?? '') === normalizeRudimentText(definition.requestedName));
       if (alreadyTagged) continue;
 
-      const heading = headings.find((candidate) => headingMatches(candidate.textContent ?? '', definition));
+      let heading = headings.find((candidate) => textMatches(candidate.textContent ?? '', definition));
+      if (!heading) {
+        // Some later lessons use a generic heading such as "PAS". In that
+        // case the section itself must both name this rudiment and contain the
+        // official PAS link; unrelated reading/application sections cannot match.
+        heading = headings.find((candidate) => {
+          const elements = sectionElements(candidate);
+          return Boolean(pasLinkInside(elements))
+            && textMatches(elements.map((element) => element.textContent ?? '').join(' '), definition);
+        });
+      }
       if (!heading) {
         missing += 1;
         continue;
@@ -101,9 +115,7 @@ const definitions = rudiments.map((name) => {
         continue;
       }
 
-      const pasLink = section
-        .flatMap((element) => [...element.querySelectorAll<HTMLAnchorElement>('a[href]')])
-        .find((link) => link.href.includes('pas-rudiments.pdf'));
+      const pasLink = pasLinkInside(section);
       const anchor = pasLink?.closest('p') ?? heading;
 
       const intro = document.createElement('p');
