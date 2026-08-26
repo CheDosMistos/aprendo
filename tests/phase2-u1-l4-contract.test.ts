@@ -54,12 +54,14 @@ test('Phase 2 U1 L4 preserves the approved six-block structure and keeps the win
     '## 2. Escritura — 4–5 min',
     '## 3. Primera vista controlada — 6–8 min',
     '## 4. Recuperación — 4–5 min',
-    '## 5. AMPLIACIÓN / VENTANA — 0–3 min',
+    '## 5. AMPLIACIÓN / VENTANA',
     '## 6. Registro — 2 min',
   ]) {
     assert.ok(markdown.includes(heading), `Missing approved block: ${heading}`);
   }
 
+  assert.match(markdown, /Duración curricular: 0–3 min/);
+  assert.match(markdown, /no activa un temporizador de práctica propio/i);
   assert.match(markdown, /3 \+ 3 \+ 2/);
   assert.match(markdown, /siguen siendo 4\/4/i);
   assert.match(markdown, /agrupación/i);
@@ -114,6 +116,7 @@ test('Phase 2 U1 L4 first-sight MusicXML is original, metric-valid and stays ins
   assert.match(score, /<sign>percussion<\/sign>/);
   assert.match(score, /<staff-lines>5<\/staff-lines>/);
   assert.match(score, /<beats>4<\/beats><beat-type>4<\/beat-type>/);
+  assert.match(score, /<sound tempo="120"\/>/);
   assert.equal((score.match(/<measure number=/g) ?? []).length, 4);
   assert.doesNotMatch(score, /<rest\s*\/>\s*<duration>1<\/duration>/, 'L4 must not introduce sixteenth-note rests ahead of U2');
 
