@@ -43,6 +43,7 @@
       button.querySelector('span')!.textContent = parsed.badgeLabel;
 
       button.addEventListener('click', () => {
+        const alreadyLoaded = button.getAttribute('aria-pressed') === 'true';
         const detail: PracticeTimerSelection = {
           key: button.dataset.practiceTimerKey!,
           label: button.dataset.practiceLabel!,
@@ -50,7 +51,7 @@
           seconds: parsed.countdownSeconds,
         };
         window.dispatchEvent(new CustomEvent(PRACTICE_TIMER_SELECT_EVENT, { detail }));
-        window.dispatchEvent(new CustomEvent(PRACTICE_TOOLS_OPEN_EVENT));
+        if (!alreadyLoaded) window.dispatchEvent(new CustomEvent(PRACTICE_TOOLS_OPEN_EVENT));
       });
 
       heading.append(button);
