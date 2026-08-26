@@ -32,7 +32,8 @@ test('Phase 2 U2 L4 preserves the approved practice blocks and advanced grouping
   assert.match(lesson, /## 2\. Decodificación base — 5–6 min/);
   assert.match(lesson, /## 3\. Aplicación — 8–9 min/);
   assert.match(lesson, /## 4\. Transferencia — 4–5 min/);
-  assert.match(lesson, /## Ventana AVANZADO opcional — 0–3 min/);
+  assert.match(lesson, /## Ventana AVANZADO opcional\n/);
+  assert.match(lesson, /\*\*Duración orientativa: 0–3 min\.\*\*/);
   assert.match(lesson, /## 5\. Registro — 2 min/);
 
   assert.match(lesson, /`5 \+ 5 \+ 6`/);
@@ -60,6 +61,7 @@ test('Phase 2 U2 L4 MusicXML is original, complete 4/4 percussion notation with 
   assert.match(score, /<beats>4<\/beats><beat-type>4<\/beat-type>/);
   assert.match(score, /<staff-lines>5<\/staff-lines>/);
   assert.match(score, /<sign>percussion<\/sign>/);
+  assert.match(score, /<sound tempo="120"\/>/);
   assert.match(score, /<type>16th<\/type>/);
   assert.match(score, /<rest\/>/);
   assert.doesNotMatch(score, /<tie\b|<tied\b|<dot\s*\/>|<time-modification>|<tuplet\b/);
@@ -74,6 +76,10 @@ test('Phase 2 U2 L4 MusicXML is original, complete 4/4 percussion notation with 
     const attacks = noteBodies.map((noteBody) => !noteBody.includes('<rest/>'));
     const hasCompatiblePair = attacks.some((attack, index) => attack && attacks[index + 1] === true);
     assert.equal(hasCompatiblePair, true, `measure ${number} must contain at least one consecutive written attack pair for RR/LL application`);
+
+    for (const noteBody of noteBodies.filter((noteBody) => noteBody.includes('<unpitched>'))) {
+      assert.match(noteBody, /<notehead>normal<\/notehead>/, `measure ${number} unpitched attacks must declare the normal notehead explicitly`);
+    }
   }
 });
 
