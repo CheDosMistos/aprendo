@@ -1,0 +1,152 @@
+---
+import { findPasRudiment, PAS_RUDIMENTS_PDF } from '@courses/bateria/rudiments/pasRudiments';
+
+interface Props {
+  rudiments: string[];
+}
+
+const { rudiments } = Astro.props;
+const definitions = rudiments.map((name) => {
+  const definition = findPasRudiment(name);
+  if (!definition) return { requestedName: name, missing: true };
+  return {
+    requestedName: name,
+    missing: false,
+    name: definition.name,
+    pasName: definition.pasName ?? definition.name,
+    slug: definition.slug,
+    aliases: definition.aliases ?? [],
+  };
+});
+---
+
+<span
+  hidden
+  data-rudiment-auto-embed
+  data-definitions={JSON.stringify(definitions)}
+  data-pas-url={PAS_RUDIMENTS_PDF}
+></span>
+
+<script>
+  import { normalizeRudimentText } from '@courses/bateria/rudiments/pasRudiments';
+
+  interface ClientDefinition {
+    requestedName: string;
+    missing: boolean;
+    name?: string;
+    pasName?: string;
+    slug?: string;
+    aliases?: string[];
+  }
+
+  const root = document.querySelector<HTMLElement>('[data-rudiment-auto-embed]');
+  const article = root?.closest<HTMLElement>('.course-article');
+
+  const textMatches = (text: string, definition: ClientDefinition) => {
+    const normalizedText = ` ${normalizeRudimentText(text)} `;
+    const candidates = [definition.requestedName, definition.name, definition.pasName, ...(definition.aliases ?? [])]
+      .filter((candidate): candidate is string => Boolean(candidate))
+      .map(normalizeRudimentText)
+      .sort((a, b) => b.length - a.length);
+    return candidates.some((candidate) => normalizedText.includes(` ${candidate} `));
+  };
+
+  const sectionElements = (heading: Element): Element[] => {
+    const elements: Element[] = [];
+    const stopAtH3 = heading.tagName === 'H3';
+    let cursor = heading.nextElementSibling;
+    while (cursor) {
+      if (cursor.tagName === 'H2' || (stopAtH3 && cursor.tagName === 'H3')) break;
+      elements.push(cursor);
+      cursor = cursor.nextElementSibling;
+    }
+    return elements;
+  };
+
+  const pasLinkInside = (elements: Element[]): HTMLAnchorElement | undefined => elements
+    .flatMap((element) => [...element.querySelectorAll<HTMLAnchorElement>('a[href]')])
+    .find((link) => link.href.includes('pas-rudiments.pdf'));
+
+  const scoresInside = (elements: Element[]): HTMLElement[] => elements.flatMap((element) => {
+    const scores = [...element.querySelectorAll<HTMLElement>('[data-notation-score]')];
+    if (element instanceof HTMLElement && element.matches('[data-notation-score]')) scores.unshift(element);
+    return scores;
+  });
+
+  if (root && article) {
+    let inserted = 0;
+    let reused = 0;
+    let missing = 0;
+    const definitions = JSON.parse(root.dataset.definitions ?? '[]') as ClientDefinition[];
+    const pasUrl = root.dataset.pasUrl ?? '';
+    const headings = [...article.querySelectorAll<HTMLElement>('h2, h3')];
+
+    for (const definition of definitions) {
+      if (definition.missing || !definition.slug || !definition.name) {
+        missing += 1;
+        continue;
+      }
+
+      const alreadyTagged = [...article.querySelectorAll<HTMLElement>('[data-score-rudiment]')]
+        .find((score) => normalizeRudimentText(score.dataset.scoreRudiment ?? '') === normalizeRudimentText(definition.requestedName));
+      if (alreadyTagged) continue;
+
+      let heading = headings.find((candidate) => textMatches(candidate.textContent ?? '', definition));
+      if (!heading) {
+        // Some later lessons use a generic heading such as "PAS". In that
+        // case the section itself must both name this rudiment and contain the
+        // official PAS link; unrelated reading/application sections cannot match.
+        heading = headings.find((candidate) => {
+          const elements = sectionElements(candidate);
+          return Boolean(pasLinkInside(elements))
+            && textMatches(elements.map((element) => element.textContent ?? '').join(' '), definition);
+        });
+      }
+      if (!heading) {
+        missing += 1;
+        continue;
+      }
+
+      const section = sectionElements(heading);
+      const existingPasStudy = scoresInside(section).find((score) => score.dataset.scoreSourceUrl?.includes('pas.org'));
+      if (existingPasStudy) {
+        existingPasStudy.dataset.scoreRudiment = definition.requestedName;
+        reused += 1;
+        continue;
+      }
+
+      const pasLink = pasLinkInside(section);
+      const anchor = pasLink?.closest('p') ?? heading;
+
+      const intro = document.createElement('p');
+      intro.className = 'rudiment-score-intro';
+      intro.textContent = 'Estudio original de estructura, sticking y articulación. Consulta PAS para la forma normativa exacta.';
+
+      const score = document.createElement('div');
+      score.dataset.notationScore = '';
+      score.dataset.scoreRudiment = definition.requestedName;
+      score.dataset.scoreSrc = `/bateria/notation/rudiments/${definition.slug}.musicxml`;
+      score.dataset.scoreTitle = `Estudio — ${definition.name}`;
+      score.dataset.scoreBadge = 'EJERCICIO ORIGINAL CREADO PARA ESTE CURSO';
+      score.dataset.scoreSourceUrl = pasUrl;
+      score.dataset.scoreSourceLabel = 'Referencia normativa PAS';
+
+      anchor.insertAdjacentElement('afterend', intro);
+      intro.insertAdjacentElement('afterend', score);
+      inserted += 1;
+    }
+
+    root.dataset.inserted = String(inserted);
+    root.dataset.reused = String(reused);
+    root.dataset.missing = String(missing);
+    if (inserted > 0) window.dispatchEvent(new CustomEvent('aprendo:notation-scores-updated'));
+  }
+</script>
+
+<style>
+  .rudiment-score-intro {
+    margin: 0.75rem 0 0.5rem;
+    color: var(--muted);
+    font-size: 0.94rem;
+  }
+</style>

@@ -3,6 +3,7 @@ import { render } from 'astro:content';
 import CourseArticleLayout from '@courses/bateria/components/CourseArticleLayout.astro';
 import PracticeCheckIn from '@courses/bateria/components/PracticeCheckIn.astro';
 import Phase1PasMap from '@courses/bateria/components/Phase1PasMap.astro';
+import RudimentNotationAutoEmbed from '@courses/bateria/components/RudimentNotationAutoEmbed.astro';
 import CourseScoreReferences from '@platform/components/CourseScoreReferences.astro';
 import {
   getBateriaContent,
@@ -55,6 +56,9 @@ const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'les
   : undefined;
 const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
 const hasPasRudiments = entry.data.rudiments.length > 0;
+const embedsRudimentScores = entry.data.kind === 'lesson'
+  && hasPasRudiments
+  && entry.data.rudimentNotation === 'per-rudiment';
 ---
 
 <CourseArticleLayout
@@ -67,6 +71,7 @@ const hasPasRudiments = entry.data.rudiments.length > 0;
   next={next}
 >
   <Content />
+  {embedsRudimentScores && <RudimentNotationAutoEmbed rudiments={entry.data.rudiments} />}
   <CourseScoreReferences
     normativeReferenceUrl={hasPasRudiments ? PAS_NORMATIVE_URL : undefined}
     normativeReferenceLabel={hasPasRudiments ? 'PAS — International Drum Rudiments' : undefined}
