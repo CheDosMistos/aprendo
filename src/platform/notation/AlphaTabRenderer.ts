@@ -1,5 +1,6 @@
 import type * as AlphaTab from '@coderline/alphatab';
 import type { NotationRenderer, NotationRendererCallbacks } from './NotationRenderer';
+import { loadAlphaTabModule } from './notationPreload';
 
 export interface AlphaTabRendererOptions {
   enablePlayer?: boolean;
@@ -31,7 +32,7 @@ export class AlphaTabRenderer implements NotationRenderer {
     this.referenceBpm = options.referenceBpm ?? 120;
     this.playbackBpm = this.referenceBpm;
 
-    void import('@coderline/alphatab')
+    void loadAlphaTabModule()
       .then((alphaTab) => {
         if (this.disposed) return;
 
