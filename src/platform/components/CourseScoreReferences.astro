@@ -1,50 +1,5 @@
----
-interface Props {
-  normativeReferenceUrl?: string;
-  normativeReferenceLabel?: string;
-}
-
-const {
-  normativeReferenceUrl,
-  normativeReferenceLabel = 'Referencia normativa',
-} = Astro.props;
----
-
-{normativeReferenceUrl && (
-  <span
-    hidden
-    data-course-score-reference
-    data-reference-url={normativeReferenceUrl}
-    data-reference-label={normativeReferenceLabel}
-  ></span>
-)}
-
 <script>
-  const appendLink = (
-    links: HTMLElement,
-    href: string,
-    label: string,
-    kind: 'data' | 'reference',
-  ) => {
-    const absolute = new URL(href, window.location.href).href;
-    const duplicate = [...links.querySelectorAll<HTMLAnchorElement>('a')]
-      .some((anchor) => anchor.href === absolute);
-    if (duplicate) return;
-
-    const link = document.createElement('a');
-    link.href = href;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    link.textContent = label;
-    link.dataset.courseScoreLink = kind;
-    links.append(link);
-  };
-
-  const applyCourseScoreReferences = () => {
-    const pageReference = document.querySelector<HTMLElement>('[data-course-score-reference]');
-    const referenceUrl = pageReference?.dataset.referenceUrl;
-    const referenceLabel = pageReference?.dataset.referenceLabel ?? 'Referencia normativa';
-
+  const applyCourseScoreDataSources = () => {
     for (const score of document.querySelectorAll<HTMLElement>('[data-notation-score]')) {
       const scoreSource = score.dataset.scoreSrc;
       if (!scoreSource) continue;
@@ -59,26 +14,27 @@ const {
         footer.append(links);
       }
 
-      // The MusicXML is the actual data consumed by the score renderer. Keep
-      // this distinct from printable companions or normative external sources.
-      appendLink(links, scoreSource, 'Abrir fuente MusicXML', 'data');
+      const absolute = new URL(scoreSource, window.location.href).href;
+      const alreadyLinked = [...links.querySelectorAll<HTMLAnchorElement>('a')]
+        .some((anchor) => anchor.href === absolute);
+      if (alreadyLinked) continue;
 
-      if (referenceUrl) {
-        appendLink(links, referenceUrl, referenceLabel, 'reference');
-
-        if (referenceUrl.includes('pas.org') && !score.querySelector('.course-score__disclaimer')) {
-          const disclaimer = document.createElement('p');
-          disclaimer.className = 'course-score__disclaimer';
-          disclaimer.textContent = 'Material de estudio original del curso. La notación oficial PAS enlazada es la referencia normativa y prevalece ante cualquier discrepancia.';
-          score.insertBefore(disclaimer, footer);
-        }
-      }
+      // This is the actual data consumed by AlphaTab. Printable companions and
+      // normative external references remain separate links when a score
+      // declares them explicitly through data-score-source-url.
+      const link = document.createElement('a');
+      link.href = scoreSource;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = 'Abrir fuente MusicXML';
+      link.dataset.courseScoreLink = 'data';
+      links.append(link);
     }
   };
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', applyCourseScoreReferences, { once: true });
+    document.addEventListener('DOMContentLoaded', applyCourseScoreDataSources, { once: true });
   } else {
-    applyCourseScoreReferences();
+    applyCourseScoreDataSources();
   }
 </script>
