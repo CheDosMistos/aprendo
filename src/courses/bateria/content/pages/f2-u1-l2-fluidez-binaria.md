@@ -104,25 +104,25 @@ No retires dos ayudas a la vez si eso hace imposible saber qué provocó el fall
 
 Aquí cambias de representación: del símbolo al sonido. No necesitas escribir todavía un dictado formal; basta con reconocer dónde están los ataques y silencios dentro de una rejilla de corcheas.
 
-### Célula A
+### Célula A — densidad
 
-Escucha antes de mirar la respuesta y elige qué opción corresponde al audio:
+Escucha antes de mirar la respuesta y elige cuál de estas **dos** opciones corresponde al audio:
 
 - **A:** `X · X X · X · ·`
-- **B:** `X X · X · · X ·`
-- **C:** `· X X · X · · X`
+- **B:** `X X X X · X X ·`
 
-<div data-rhythm-dictation data-bpm="66" data-subdivision="2" data-pattern="10110100" data-answer="Opción A — ataques en 1, 2, &amp; de 2 y &amp; de 3."></div>
+<div data-rhythm-dictation data-bpm="66" data-subdivision="2" data-pattern="10110100" data-answer="Opción A — ataques en 1, 2, &amp; de 2 y &amp; de 3; es menos densa que la opción B."></div>
 
-Después de elegir, **vocaliza o toca** la célula y explica al menos una posición concreta: dónde cae un ataque o dónde sigue avanzando el tiempo sin ataque.
+Después de elegir, **vocaliza o toca** la célula, explica al menos una posición concreta y comprueba también cuál de las dos opciones contiene más ataques.
 
-### Célula B
+### Célula B — silencio en una posición concreta
 
-- **A:** `X · · X X · · X`
+- **A:** `X X X · X · · ·`
 - **B:** `X X · · X · X ·`
-- **C:** `· X X · · X X ·`
 
 <div data-rhythm-dictation data-bpm="66" data-subdivision="2" data-pattern="11001010" data-answer="Opción B — ataques en 1, &amp; de 1, 3 y 4; el pulso 2 queda completo en silencio."></div>
+
+Después de elegir, señala qué dos posiciones de corchea forman el pulso 2 y explica por qué ese pulso sigue existiendo aunque no tenga ataques.
 
 No evalúes esta microtarea por rapidez de respuesta. La pregunta es si puedes pasar de **escuchar → localizar en la rejilla → vocalizar/tocar → explicar**.
 
