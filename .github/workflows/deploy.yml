@@ -43,6 +43,13 @@ jobs:
           set -euo pipefail
           test -f dist/server/entry.mjs
           test -d dist/client/_astro
+          max_dist_kb=131072
+          dist_kb="$(du -sk dist | cut -f1)"
+          printf 'dist size: %s KiB (limit %s KiB)\n' "$dist_kb" "$max_dist_kb"
+          if [ "$dist_kb" -gt "$max_dist_kb" ]; then
+            echo "Build output exceeds the 128 MiB deployment budget." >&2
+            exit 1
+          fi
 
       - name: Configure SSH
         env:
@@ -133,13 +140,63 @@ jobs:
              done
              df -h /opt/aprendo/runtime /var/lib/aprendo'
 
+      - name: Guard production disk capacity
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            'set -euo pipefail
+             runtime=/opt/aprendo/runtime
+             current="$runtime/current"
+             min_free_kb=1048576
+             active_kb=0
+             if [ -L "$current" ]; then
+               active="$(readlink -f "$current")"
+               if [ -d "$active" ]; then active_kb="$(du -sk "$active" | cut -f1)"; fi
+             fi
+             required_kb=$((active_kb * 3))
+             if [ "$required_kb" -lt "$min_free_kb" ]; then required_kb="$min_free_kb"; fi
+             set -- $(df -Pk "$runtime" | tail -1)
+             available_kb="$4"
+             printf "disk guard: active=%s KiB available=%s KiB required=%s KiB\n" "$active_kb" "$available_kb" "$required_kb"
+             if [ "$available_kb" -lt "$required_kb" ]; then
+               echo "Insufficient free space for a safe Aprendo deployment." >&2
+               exit 1
+             fi'
+
       - name: Prepare immutable release
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
           RELEASE_SHA: ${{ github.sha }}
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+
+          cleanup_failed_stage() {
+            status=$?
+            trap - ERR
+            set +e
+            echo "Cleaning failed staged release $RELEASE_SHA"
+            ssh \
+              -i ~/.ssh/deploy_key \
+              -o BatchMode=yes \
+              -o IdentitiesOnly=yes \
+              -o StrictHostKeyChecking=yes \
+              -o UserKnownHostsFile=~/.ssh/known_hosts \
+              "$VPS_USER@$VPS_HOST" \
+              "set -euo pipefail; release=/opt/aprendo/runtime/releases/$RELEASE_SHA; current=\$(readlink -f /opt/aprendo/runtime/current 2>/dev/null || true); if [ \"\$release\" != \"\$current\" ]; then rm -rf -- \"\$release\"; fi" || true
+            exit "$status"
+          }
+          trap cleanup_failed_stage ERR
+
           ssh \
             -i ~/.ssh/deploy_key \
             -o BatchMode=yes \
@@ -188,7 +245,37 @@ jobs:
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
             "$VPS_USER@$VPS_HOST" \
-            "set -euo pipefail; cd /opt/aprendo/runtime/releases/$RELEASE_SHA; export PATH=/opt/aprendo-node/bin:\$PATH; npm ci --omit=dev --no-audit --no-fund; test -f server/entry.mjs; test -d client/_astro"
+            "RELEASE_SHA=$RELEASE_SHA bash -s" <<'REMOTE'
+          set -euo pipefail
+          runtime=/opt/aprendo/runtime
+          release="$runtime/releases/$RELEASE_SHA"
+          cd "$release"
+          export PATH=/opt/aprendo-node/bin:$PATH
+          export npm_config_cache="$release/.npm-cache"
+          npm ci --omit=dev --no-audit --no-fund
+          rm -rf -- "$npm_config_cache"
+          test -f server/entry.mjs
+          test -d client/_astro
+
+          max_release_kb=524288
+          release_kb="$(du -sk "$release" | cut -f1)"
+          printf 'installed release size: %s KiB (limit %s KiB)\n' "$release_kb" "$max_release_kb"
+          if [ "$release_kb" -gt "$max_release_kb" ]; then
+            echo "Installed release exceeds the 512 MiB deployment budget." >&2
+            exit 1
+          fi
+
+          min_remaining_kb=524288
+          set -- $(df -Pk "$runtime" | tail -1)
+          available_kb="$4"
+          printf 'free space after staging: %s KiB (minimum %s KiB)\n' "$available_kb" "$min_remaining_kb"
+          if [ "$available_kb" -lt "$min_remaining_kb" ]; then
+            echo "Staged release leaves insufficient free disk headroom." >&2
+            exit 1
+          fi
+          REMOTE
+
+          trap - ERR
 
       - name: Upload deployment helpers
         env:
@@ -202,7 +289,7 @@ jobs:
             -o IdentitiesOnly=yes \
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
-            ops/backup-sqlite.py ops/activate-release.sh ops/verify-production-contract.sh \
+            ops/backup-sqlite.py ops/activate-release.sh ops/rollback-release.sh ops/verify-production-contract.sh \
             "$VPS_USER@$VPS_HOST:/tmp/"
 
       - name: Activate release with rollback
@@ -221,12 +308,35 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             "set -euo pipefail; APRENDO_BACKUP_HELPER=/tmp/backup-sqlite.py bash /tmp/activate-release.sh $RELEASE_SHA"
 
-      - name: Verify versioned production contract
+      - name: Verify final production boundary with rollback
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
+          RELEASE_SHA: ${{ github.sha }}
         run: |
-          set -euo pipefail
+          set -Eeuo pipefail
+
+          rollback_final() {
+            status=$?
+            trap - ERR
+            set +e
+            echo "Final production verification failed; rolling back $RELEASE_SHA" >&2
+            ssh \
+              -i ~/.ssh/deploy_key \
+              -o BatchMode=yes \
+              -o IdentitiesOnly=yes \
+              -o StrictHostKeyChecking=yes \
+              -o UserKnownHostsFile=~/.ssh/known_hosts \
+              "$VPS_USER@$VPS_HOST" \
+              "set -euo pipefail; bash /tmp/rollback-release.sh $RELEASE_SHA"
+            rollback_status=$?
+            if [ "$rollback_status" -ne 0 ]; then
+              echo "WARNING: automatic final rollback failed with status $rollback_status" >&2
+            fi
+            exit "$status"
+          }
+          trap rollback_final ERR
+
           ssh \
             -i ~/.ssh/deploy_key \
             -o BatchMode=yes \
@@ -236,9 +346,6 @@ jobs:
             "$VPS_USER@$VPS_HOST" \
             'set -euo pipefail; bash /tmp/verify-production-contract.sh'
 
-      - name: Verify HTTPS platform boundary
-        run: |
-          set -euo pipefail
           headers_file="$(mktemp)"
           login_file="$(mktemp)"
           account_headers="$(mktemp)"
@@ -277,6 +384,17 @@ jobs:
           asset_status="$(curl --silent --show-error --dump-header "$asset_headers" --output /dev/null --write-out '%{http_code}' https://aprendo.molacomer.com/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml)"
           test "$asset_status" = "303"
           grep -Eqi '^location:[[:space:]]+(https://aprendo\.molacomer\.com)?/login/[[:space:]]*$' "$asset_headers"
+
+          trap - ERR
+          ssh \
+            -i ~/.ssh/deploy_key \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile=~/.ssh/known_hosts \
+            "$VPS_USER@$VPS_HOST" \
+            'rm -f /opt/aprendo/runtime/.rollback-target' \
+            || echo 'WARNING: could not clear finalized rollback metadata' >&2
 
       - name: Measure deployed footprint
         env:
