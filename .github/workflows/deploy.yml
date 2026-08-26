@@ -101,7 +101,32 @@ jobs:
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile=~/.ssh/known_hosts \
             "$VPS_USER@$VPS_HOST" \
-            "set -euo pipefail; release=/opt/aprendo/runtime/releases/$RELEASE_SHA; rm -rf -- \"\$release\"; mkdir -p \"\$release\""
+            "RELEASE_SHA=$RELEASE_SHA bash -s" <<'REMOTE'
+          set -euo pipefail
+          runtime=/opt/aprendo/runtime
+          releases="$runtime/releases"
+          release="$releases/$RELEASE_SHA"
+          current="$(readlink -f "$runtime/current" 2>/dev/null || true)"
+
+          # Failed deploys can leave full release directories behind. Remove the
+          # target from any previous attempt, then keep current plus at most two
+          # recent non-current releases before allocating space for the new one.
+          rm -rf -- "$release" "$runtime"/.current-next-*
+          mapfile -t candidates < <(find "$releases" -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | awk '{print $2}')
+          kept=0
+          for candidate in "${candidates[@]}"; do
+            if [ -n "$current" ] && [ "$candidate" = "$current" ]; then
+              continue
+            fi
+            kept=$((kept + 1))
+            if [ "$kept" -gt 2 ]; then
+              rm -rf -- "$candidate"
+            fi
+          done
+
+          mkdir -p "$release"
+          df -Pk "$runtime" /var/lib/aprendo
+          REMOTE
 
           rsync -az --delete \
             -e "ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/known_hosts" \
