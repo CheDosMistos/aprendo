@@ -8,6 +8,7 @@ import { DatabaseSync } from 'node:sqlite';
 import test from 'node:test';
 
 const activateScript = resolve('ops/activate-release.sh');
+const rollbackScript = resolve('ops/rollback-release.sh');
 const backupHelper = resolve('ops/backup-sqlite.py');
 
 function createRelease(runtime: string, name: string, healthy: boolean, mutateData = false): string {
@@ -95,6 +96,7 @@ test('release activation converts the legacy mutable runtime and snapshots SQLit
   assert.equal(resolve(readlinkSync(join(runtime, 'current'))), next);
   assert.equal(readlinkSync(join(runtime, 'server')), 'current/server');
   assert.equal(readDatabase(dbPath), 'old');
+  assert.equal(existsSync(join(runtime, '.rollback-target')), true);
 
   const backupDir = join(dataDir, 'backups');
   const databaseBackups = readdirSync(backupDir).filter((name) => name.endsWith('.sqlite'));
@@ -127,6 +129,7 @@ test('failed release health rolls code back, retains the pre-deploy snapshot and
   assert.notEqual(result.status, 0);
   assert.equal(resolve(readlinkSync(join(runtime, 'current'))), oldRelease);
   assert.equal(existsSync(badRelease), false);
+  assert.equal(existsSync(join(runtime, '.rollback-target')), false);
 
   // A running SQLite database is never overwritten during rollback. Migrations
   // therefore must be backward-compatible with the previous release.
@@ -140,4 +143,32 @@ test('failed release health rolls code back, retains the pre-deploy snapshot and
   assert.ok(avatarBackup);
   assert.equal(readDatabase(join(backupDir, databaseBackup)), 'old');
   assert.equal(readFileSync(join(backupDir, avatarBackup, '1.webp'), 'utf8'), 'old-avatar\n');
+});
+
+test('explicit final verification rollback restores the previous healthy release and removes the rejected release', () => {
+  const root = mkdtempSync(join(tmpdir(), 'aprendo-deploy-final-rollback-'));
+  const runtime = join(root, 'runtime');
+  mkdirSync(runtime, { recursive: true });
+  const oldRelease = createRelease(runtime, 'release-old', true);
+  const nextRelease = createRelease(runtime, 'release-next', true);
+  execFileSync('ln', ['-s', oldRelease, join(runtime, 'current')]);
+  execFileSync('ln', ['-s', 'current/server', join(runtime, 'server')]);
+
+  const dataDir = join(root, 'data');
+  const dbPath = join(dataDir, 'aprendo.sqlite');
+  const avatarDir = join(dataDir, 'avatars');
+  createDatabase(dbPath, 'old');
+  const avatarFile = createAvatar(avatarDir);
+  const wrappers = createWrappers(root, runtime, dbPath, avatarFile);
+  const env = baseEnv(runtime, dbPath, avatarDir, wrappers);
+
+  execFileSync('bash', [activateScript, 'release-next'], { env, stdio: 'pipe' });
+  assert.equal(resolve(readlinkSync(join(runtime, 'current'))), nextRelease);
+  assert.equal(existsSync(join(runtime, '.rollback-target')), true);
+
+  execFileSync('bash', [rollbackScript, 'release-next'], { env, stdio: 'pipe' });
+
+  assert.equal(resolve(readlinkSync(join(runtime, 'current'))), oldRelease);
+  assert.equal(existsSync(nextRelease), false);
+  assert.equal(existsSync(join(runtime, '.rollback-target')), false);
 });
