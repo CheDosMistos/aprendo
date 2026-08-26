@@ -64,7 +64,7 @@ Si ese segundo golpe pierde claridad, no concluyas automáticamente que tienes u
 
 Aísla unas pocas repeticiones y vuelve al rudimento completo.
 
-**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Double Stroke Open Roll](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-double-stroke-open-roll/)
+**Vídeo:** [Drumeo — Double Stroke Roll](https://www.youtube.com/watch?v=r89XcU9NZtA)
 
 ## 4. Single Paradiddle — unos 6 minutos
 
@@ -76,7 +76,7 @@ Empieza lentamente y prueba el inicio con ambas manos cuando resulte cómodo.
 
 No estudies todavía Double Paradiddle ni Triple Paradiddle; llegarán en la Unidad 2.
 
-**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Single Paradiddle](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-single-paradiddle/)
+**Vídeo:** [Drumeo — Single Paradiddle](https://www.youtube.com/watch?v=-imiZIrGwXE)
 
 ## 5. Lectura — 3–4 minutos
 
