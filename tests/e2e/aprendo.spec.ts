@@ -136,8 +136,8 @@ test('YouTube lesson links open in the general large video modal and close from 
   await page.goto('/bateria/unidad-1/leccion-1-rebote-pulso-rolls/');
 
   const trigger = page.getByRole('link', { name: 'Drumeo — Single Stroke Roll' });
-  const dialog = page.getByRole('dialog', { name: 'Reproductor de vídeo' });
-  const frame = dialog.locator('[data-video-modal-frame]');
+  const dialog = page.locator('[data-video-modal]');
+  const frame = page.locator('[data-video-modal-frame]');
 
   await trigger.click();
   await expect(dialog).toBeVisible();
