@@ -22,6 +22,7 @@ const bateria = defineCollection({
     duration: z.string().optional(),
     competencies: z.array(z.string().regex(COMPETENCY_ID_PATTERN)).default([]),
     rudiments: z.array(z.enum(PAS_RUDIMENTS)).default([]),
+    rudimentNotation: z.enum(['per-rudiment', 'review-reference']).default('per-rudiment'),
     published: z.boolean().default(true),
   }),
 });
