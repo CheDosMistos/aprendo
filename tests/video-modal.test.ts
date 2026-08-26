@@ -41,6 +41,9 @@ test('Aprendo mounts one general modal with the required close interactions', as
   assert.match(modal, /width:\s*90vw/);
   assert.match(modal, /height:\s*90dvh/);
   assert.match(modal, /data-video-modal-close/);
+  assert.match(modal, /position:\s*fixed/);
+  assert.match(modal, /top:\s*1rem/);
+  assert.match(modal, /right:\s*1rem/);
   assert.match(modal, /event\.target === dialog/);
   assert.match(modal, /dialog\?\.addEventListener\('close', cleanUp\)/);
   assert.match(modal, /frame\.src = 'about:blank'/);
