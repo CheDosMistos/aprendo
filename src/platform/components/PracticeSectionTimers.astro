@@ -1,0 +1,115 @@
+<script>
+  import { parsePracticeDurationHeading } from '@platform/practice/practiceDuration';
+  import {
+    PRACTICE_TIMER_SELECT_EVENT,
+    PRACTICE_TOOLS_OPEN_EVENT,
+    type PracticeTimerSelection,
+  } from '@platform/practice/practiceEvents';
+
+  const decoratePracticeHeadings = () => {
+    const headings = [...document.querySelectorAll<HTMLElement>('.course-article h2, .course-article h3')];
+
+    headings.forEach((heading, index) => {
+      if (heading.querySelector('[data-practice-timer-trigger]')) return;
+      const parsed = parsePracticeDurationHeading(heading.textContent ?? '');
+      if (!parsed) return;
+
+      // The duration suffix is an authoring token. Once parsed, the rendered
+      // heading contains a clean title plus a structured timer control.
+      heading.textContent = parsed.title;
+      heading.classList.add('practice-heading');
+
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'practice-duration-badge';
+      button.dataset.practiceTimerTrigger = '';
+      button.dataset.practiceSeconds = String(parsed.countdownSeconds);
+      button.dataset.practiceTimerKey = `${window.location.pathname}::${index}`;
+      button.dataset.practiceLabel = parsed.title.replace(/^\d+\.\s*/, '');
+      button.setAttribute('aria-pressed', 'false');
+      button.setAttribute(
+        'aria-label',
+        `Temporizador de ${parsed.badgeLabel} para ${button.dataset.practiceLabel}`,
+      );
+      button.title = `Temporizador · ${parsed.badgeLabel}`;
+      button.innerHTML = `
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M7.3 4.2 4.8 6.7M16.7 4.2l2.5 2.5M12 7v5l3 1.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="12" cy="13" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <path d="M8.5 20 7 22M15.5 20l1.5 2M6.2 2.5 3.5 5.2M17.8 2.5l2.7 2.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        <span></span>
+      `;
+      button.querySelector('span')!.textContent = parsed.badgeLabel;
+
+      button.addEventListener('click', () => {
+        const alreadyLoaded = button.getAttribute('aria-pressed') === 'true';
+        const detail: PracticeTimerSelection = {
+          key: button.dataset.practiceTimerKey!,
+          label: button.dataset.practiceLabel!,
+          badgeLabel: parsed.badgeLabel,
+          seconds: parsed.countdownSeconds,
+        };
+        window.dispatchEvent(new CustomEvent(PRACTICE_TIMER_SELECT_EVENT, { detail }));
+        if (!alreadyLoaded) window.dispatchEvent(new CustomEvent(PRACTICE_TOOLS_OPEN_EVENT));
+      });
+
+      heading.append(button);
+    });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', decoratePracticeHeadings, { once: true });
+  } else {
+    decoratePracticeHeadings();
+  }
+</script>
+
+<style is:global>
+  .course-article .practice-heading {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: .45rem .6rem;
+  }
+
+  .practice-duration-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .28rem;
+    min-height: 1.8rem;
+    padding: .18rem .48rem;
+    border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--border));
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 8%, var(--surface-2));
+    color: color-mix(in srgb, var(--accent) 72%, var(--text));
+    font: 700 .72rem/1 var(--font-sans);
+    letter-spacing: .01em;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .practice-duration-badge svg {
+    width: .9rem;
+    height: .9rem;
+    flex: 0 0 auto;
+  }
+
+  .practice-duration-badge:hover {
+    background: color-mix(in srgb, var(--accent) 13%, var(--surface-2));
+  }
+
+  .practice-duration-badge[aria-pressed='true'] {
+    border-color: color-mix(in srgb, var(--accent) 58%, var(--border));
+    background: color-mix(in srgb, var(--accent) 17%, var(--surface-2));
+    color: var(--text);
+  }
+
+  @media (max-width: 42rem) {
+    .practice-duration-badge {
+      min-height: 1.75rem;
+      padding-inline: .42rem;
+      font-size: .7rem;
+    }
+  }
+</style>

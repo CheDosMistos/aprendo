@@ -1,0 +1,268 @@
+<div class="practice-timer" data-practice-timer hidden>
+  <button class="practice-timer__toggle" type="button" data-practice-timer-toggle aria-pressed="false" aria-label="Pausar temporizador">
+    <svg aria-hidden="true" viewBox="0 0 24 24">
+      <path d="M7.3 4.2 4.8 6.7M16.7 4.2l2.5 2.5M12 7v5l3 1.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="12" cy="13" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M8.5 20 7 22M15.5 20l1.5 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <span class="practice-timer__copy">
+      <span class="practice-timer__label" data-practice-timer-label>Práctica</span>
+      <strong class="practice-timer__time" data-practice-timer-time>00:00</strong>
+    </span>
+    <span class="practice-timer__state" data-practice-timer-state aria-live="polite">En curso</span>
+  </button>
+</div>
+
+<script>
+  import {
+    METRONOME_COMMAND_EVENT,
+    PRACTICE_TIMER_SELECT_EVENT,
+    type MetronomeCommand,
+    type PracticeTimerSelection,
+  } from '@platform/practice/practiceEvents';
+
+  const root = document.querySelector<HTMLElement>('[data-practice-timer]');
+  const toggle = root?.querySelector<HTMLButtonElement>('[data-practice-timer-toggle]');
+  const label = root?.querySelector<HTMLElement>('[data-practice-timer-label]');
+  const time = root?.querySelector<HTMLElement>('[data-practice-timer-time]');
+  const state = root?.querySelector<HTMLElement>('[data-practice-timer-state]');
+
+  if (root && toggle && label && time && state) {
+    let currentKey: string | null = null;
+    let currentLabel = '';
+    let totalMs = 0;
+    let remainingMs = 0;
+    let deadline = 0;
+    let intervalId: number | null = null;
+    let running = false;
+    let ownsMetronome = false;
+
+    const metronomePlaying = () => (
+      document.querySelector<HTMLButtonElement>('[data-metronome] [data-play]')
+        ?.getAttribute('aria-pressed') === 'true'
+    );
+
+    const commandMetronome = (action: MetronomeCommand['action']) => {
+      const detail: MetronomeCommand = { action, source: 'practice-timer' };
+      window.dispatchEvent(new CustomEvent(METRONOME_COMMAND_EVENT, { detail }));
+    };
+
+    const startOwnedMetronome = () => {
+      if (metronomePlaying()) {
+        ownsMetronome = false;
+        return;
+      }
+      ownsMetronome = true;
+      commandMetronome('start');
+    };
+
+    const stopOwnedMetronome = () => {
+      if (!ownsMetronome) return;
+      commandMetronome('stop');
+      ownsMetronome = false;
+    };
+
+    const clearTicker = () => {
+      if (intervalId !== null) window.clearInterval(intervalId);
+      intervalId = null;
+    };
+
+    const formatTime = (milliseconds: number) => {
+      const seconds = Math.max(0, Math.ceil(milliseconds / 1000));
+      const minutes = Math.floor(seconds / 60);
+      const remainder = seconds % 60;
+      return `${String(minutes).padStart(2, '0')}:${String(remainder).padStart(2, '0')}`;
+    };
+
+    const syncTriggers = () => {
+      for (const trigger of document.querySelectorAll<HTMLButtonElement>('[data-practice-timer-trigger]')) {
+        trigger.setAttribute('aria-pressed', String(Boolean(currentKey) && trigger.dataset.practiceTimerKey === currentKey));
+      }
+    };
+
+    const render = (status?: 'running' | 'paused' | 'finished') => {
+      label.textContent = currentLabel || 'Práctica';
+      time.textContent = formatTime(remainingMs);
+      const resolved = status ?? (running ? 'running' : remainingMs <= 0 ? 'finished' : 'paused');
+      state.textContent = resolved === 'running' ? 'En curso' : resolved === 'finished' ? 'Finalizado' : 'Pausa';
+      toggle.setAttribute('aria-pressed', String(running));
+      toggle.setAttribute('aria-label', running ? `Pausar temporizador de ${currentLabel}` : `Reanudar temporizador de ${currentLabel}`);
+      root.dataset.state = resolved;
+      syncTriggers();
+    };
+
+    const finish = () => {
+      remainingMs = 0;
+      running = false;
+      clearTicker();
+      stopOwnedMetronome();
+      render('finished');
+    };
+
+    const updateFromClock = () => {
+      if (!running) return;
+      remainingMs = Math.max(0, deadline - performance.now());
+      if (remainingMs <= 0) finish();
+      else render('running');
+    };
+
+    const start = () => {
+      if (!currentKey) return;
+      if (remainingMs <= 0) remainingMs = totalMs;
+      running = true;
+      deadline = performance.now() + remainingMs;
+      startOwnedMetronome();
+      clearTicker();
+      intervalId = window.setInterval(updateFromClock, 200);
+      render('running');
+    };
+
+    const pause = () => {
+      if (!running) return;
+      remainingMs = Math.max(0, deadline - performance.now());
+      running = false;
+      clearTicker();
+      stopOwnedMetronome();
+      render(remainingMs <= 0 ? 'finished' : 'paused');
+    };
+
+    const hide = () => {
+      if (running) remainingMs = Math.max(0, deadline - performance.now());
+      running = false;
+      clearTicker();
+      stopOwnedMetronome();
+      currentKey = null;
+      currentLabel = '';
+      totalMs = 0;
+      remainingMs = 0;
+      root.hidden = true;
+      syncTriggers();
+    };
+
+    const load = (selection: PracticeTimerSelection) => {
+      if (currentKey === selection.key && !root.hidden) {
+        hide();
+        return;
+      }
+
+      const wasRunning = running;
+      const keptOwnership = ownsMetronome && metronomePlaying();
+      clearTicker();
+      currentKey = selection.key;
+      currentLabel = selection.label;
+      totalMs = selection.seconds * 1000;
+      remainingMs = totalMs;
+      root.hidden = false;
+
+      // Switching directly between active section badges should not interrupt
+      // an already running click that the timer itself owns.
+      if (wasRunning && keptOwnership) {
+        running = true;
+        ownsMetronome = true;
+        deadline = performance.now() + remainingMs;
+        intervalId = window.setInterval(updateFromClock, 200);
+        render('running');
+        return;
+      }
+
+      running = false;
+      ownsMetronome = false;
+      start();
+    };
+
+    toggle.addEventListener('click', () => {
+      if (running) pause();
+      else start();
+    });
+
+    window.addEventListener(PRACTICE_TIMER_SELECT_EVENT, (event) => {
+      if (!(event instanceof CustomEvent)) return;
+      const detail = event.detail as Partial<PracticeTimerSelection> | undefined;
+      if (!detail || typeof detail.key !== 'string' || typeof detail.label !== 'string' || typeof detail.seconds !== 'number') return;
+      if (!Number.isFinite(detail.seconds) || detail.seconds <= 0) return;
+      load(detail as PracticeTimerSelection);
+    });
+
+    window.addEventListener('pagehide', () => {
+      clearTicker();
+      stopOwnedMetronome();
+    });
+  }
+</script>
+
+<style>
+  .practice-timer {
+    margin-top: .6rem;
+    border: 1px solid var(--border);
+    border-radius: .75rem;
+    background: color-mix(in srgb, var(--surface-2) 70%, transparent);
+    overflow: hidden;
+  }
+
+  .practice-timer__toggle {
+    width: 100%;
+    min-height: 3rem;
+    display: grid;
+    grid-template-columns: 1.15rem minmax(0,1fr) auto;
+    align-items: center;
+    gap: .55rem;
+    padding: .45rem .62rem;
+    border: 0;
+    background: transparent;
+    color: var(--text);
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .practice-timer__toggle:hover {
+    background: color-mix(in srgb, var(--surface-2) 72%, var(--text) 3%);
+  }
+
+  .practice-timer__toggle > svg {
+    width: 1.05rem;
+    height: 1.05rem;
+    color: var(--muted);
+  }
+
+  .practice-timer__copy {
+    min-width: 0;
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+  }
+
+  .practice-timer__label {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--muted);
+    font-size: .73rem;
+    font-weight: 650;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .practice-timer__time {
+    flex: 0 0 auto;
+    font-size: 1rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: .03em;
+  }
+
+  .practice-timer__state {
+    color: var(--muted);
+    font-size: .68rem;
+    font-weight: 700;
+  }
+
+  .practice-timer[data-state='running'] {
+    border-color: color-mix(in srgb, var(--accent) 28%, var(--border));
+  }
+
+  .practice-timer[data-state='running'] .practice-timer__time {
+    color: color-mix(in srgb, var(--accent) 76%, var(--text));
+  }
+
+  .practice-timer[data-state='finished'] .practice-timer__state {
+    color: var(--text);
+  }
+</style>

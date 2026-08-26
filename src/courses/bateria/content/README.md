@@ -13,4 +13,12 @@ Este directorio contiene el contenido curricular publicado en Markdown/MDX.
 - Los enlaces reconocidos de YouTube se abren mediante el visor modal general de Aprendo. Los clics modificados del navegador (Ctrl/Cmd/Shift/Alt o botón central) conservan su comportamiento habitual.
 - Mantener la presentación austera y sobria: el recurso audiovisual aparece como enlace textual breve y el embed solo se crea al abrir el visor.
 
+### Duraciones de bloques prácticos
+
+- Un encabezado H2/H3 puede declarar un presupuesto de práctica con un sufijo como `— 6 min`, `— unos 6 minutos` o `— 2–3 min`.
+- Aprendo interpreta ese sufijo como **dato de práctica** y en la interfaz lo sustituye por el badge interactivo del temporizador (`⏰ 6min`, `⏰ 2–3min`). No debe escribirse manualmente HTML del badge en la lección.
+- En un rango, el badge conserva el rango publicado y la cuenta atrás utiliza el extremo superior como presupuesto máximo. Por ejemplo, `2–3 min` carga `03:00`.
+- El presupuesto temporal es una guía de organización, no una obligación de consumir todo el tiempo. Si el objetivo del bloque ya se ha logrado o repetir deja de aportar información, se aplica el sistema general de criterios de parada.
+- Reservar este sufijo para bloques que representan práctica temporizada real. No usarlo para encabezados descriptivos como `Si solo tienes 10–15 minutos`, que no deben convertirse automáticamente en temporizadores.
+
 La preferencia Drumeo se aplica a toda la Fase 1 y a nuevo contenido posterior. No implica añadir un vídeo por obligación cuando no aporta una demostración útil.

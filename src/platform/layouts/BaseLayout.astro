@@ -72,6 +72,8 @@ const {
     <VideoModal />
 
     <script>
+      import { PRACTICE_TOOLS_OPEN_EVENT } from '@platform/practice/practiceEvents';
+
       const fullscreenButton = document.querySelector<HTMLButtonElement>('[data-fullscreen]');
       const metronomeToggle = document.querySelector<HTMLButtonElement>('[data-metronome-toggle]');
       const metronomePanel = document.querySelector<HTMLElement>('#course-metronome-panel');
@@ -103,6 +105,8 @@ const {
         metronomeToggle.hidden = !available;
         if (!available) setMetronomeOpen(false);
       };
+
+      window.addEventListener(PRACTICE_TOOLS_OPEN_EVENT, () => setMetronomeOpen(true));
 
       if (metronomeToggle && metronomePanel) {
         metronomeToggle.addEventListener('click', () => {
