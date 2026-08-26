@@ -64,6 +64,12 @@ test('Phase 2 U1 L2 preserves the approved five-block timing and hearing transfe
   }
 
   assert.equal((markdown.match(/data-rhythm-dictation/g) ?? []).length, 2, 'Expected two brief hearing cells');
+  assert.equal((markdown.match(/- \*\*A:\*\*/g) ?? []).length, 2, 'Each hearing cell should expose option A');
+  assert.equal((markdown.match(/- \*\*B:\*\*/g) ?? []).length, 2, 'Each hearing cell should expose option B');
+  assert.equal((markdown.match(/- \*\*C:\*\*/g) ?? []).length, 0, 'Approved L2 hearing comparison uses two options');
+  assert.match(markdown, /Célula A — densidad/i);
+  assert.match(markdown, /menos densa que la opción B/i);
+  assert.match(markdown, /Célula B — silencio en una posición concreta/i);
   assert.match(markdown, /Escucha antes de mirar la respuesta/i);
   assert.match(markdown, /escuchar → localizar en la rejilla → vocalizar\/tocar → explicar/i);
   assert.match(markdown, /No evalúes esta microtarea por rapidez/i);
