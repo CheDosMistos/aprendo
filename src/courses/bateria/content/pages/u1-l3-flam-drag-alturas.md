@@ -54,7 +54,7 @@ Puedes utilizar estos cuatro nombres cuando ayuden a describir el movimiento:
 
 No necesitas convertir estos nombres en un examen teórico. Sirven para entender cómo una mano puede preparar el siguiente golpe.
 
-**Vídeo:** [Vic Firth / Dr. John Wooton — agarre y cuatro golpes básicos](https://www.youtube.com/watch?v=4aAE65zt82A)
+**Vídeo:** [Drumeo / John Wooton — los cuatro movimientos básicos](https://www.youtube.com/watch?v=8w3E7EhFRgQ)
 
 Después toca corcheas alternadas y haz más fuertes únicamente las notas que coinciden con los pulsos 1 y 3. Las demás deben ser más suaves.
 
@@ -88,7 +88,7 @@ Evita dos extremos:
 
 No necesitas medir una distancia temporal exacta. Practica ambos lados.
 
-**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Flam](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-flam/)
+**Vídeo:** [Drumeo — Flam](https://www.youtube.com/watch?v=5ujmfxvr0bQ)
 
 ## 4. Drag (Ruff) — unos 7 minutos
 
@@ -102,7 +102,7 @@ Si las dos notas pequeñas se vuelven rígidas o quedan demasiado separadas:
 - vuelve a observar el rebote;
 - evita apretar la baqueta para obligarlas a salir.
 
-**Vídeo y audio:** [Vic Firth / Dr. John Wooton — Drag](https://ae.vicfirth.com/education/40-essential-rudiments/40-essential-rudiments-drag/)
+**Vídeo:** [Drumeo — Drag (Ruff)](https://www.youtube.com/watch?v=QnMubw9P1Ow)
 
 ## 5. Escucha — unos 2 minutos
 
