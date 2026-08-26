@@ -50,6 +50,12 @@ Abre la fuente normativa y localiza **1. Single Stroke Roll**:
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
+`EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
+
+La célula siguiente **no reproduce la partitura PAS**. Úsala para preparar alternancia, igualdad entre manos y continuidad temporal; después contrasta la forma oficial del rudimento en PAS.
+
+<div data-notation-score data-score-src="/bateria/notation/u1/preparacion-alternancia-pulso.musicxml" data-score-title="Preparación — alternancia y pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+
 Trabájalo lentamente. Tu prioridad no es la velocidad. Observa:
 
 - alternancia clara entre manos;
