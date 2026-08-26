@@ -23,6 +23,8 @@ La regla central es:
 
 Trabajarás sobre una línea que ya has decodificado en L2. Así podemos observar una variable distinta: si eres capaz de cambiar **sticking, textura o dinámica** sin sustituir el ritmo escrito por una secuencia de manos memorizada.
 
+**ESENCIAL AHORA:** los bloques 1–5 con una sola transformación sencilla. **AMPLIACIÓN:** repetir después con liderazgo contrario u otra transformación ya disponible. **AVANZADO:** combinar cambios sólo en intentos separados y cuando siga siendo posible diagnosticar qué ocurre.
+
 ## 1. Recuperación PAS — 4–5 min
 
 Elige **una sola familia que ya esté disponible según evidencia reciente**:
