@@ -1,4 +1,5 @@
 ---
+import VideoModal from '@platform/components/VideoModal.astro';
 import '@platform/styles/global.css';
 
 interface Props {
@@ -67,6 +68,8 @@ const {
         </div>
       </footer>
     )}
+
+    <VideoModal />
 
     <script>
       const fullscreenButton = document.querySelector<HTMLButtonElement>('[data-fullscreen]');

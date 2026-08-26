@@ -124,3 +124,45 @@ test('core authenticated pages do not create horizontal overflow at the project 
     expect(dimensions.scrollWidth).toBeLessThanOrEqual(dimensions.clientWidth + 1);
   }
 });
+
+test('YouTube lesson links open in the general large video modal and close from X or backdrop', async ({ page }, testInfo) => {
+  await page.route('https://www.youtube-nocookie.com/**', (route) => route.fulfill({
+    status: 200,
+    contentType: 'text/html',
+    body: '<!doctype html><title>stub video</title>',
+  }));
+
+  await login(page, testInfo);
+  await page.goto('/bateria/unidad-1/leccion-1-rebote-pulso-rolls/');
+
+  const trigger = page.getByRole('link', { name: 'Drumeo — Single Stroke Roll' });
+  const dialog = page.locator('[data-video-modal]');
+  const frame = page.locator('[data-video-modal-frame]');
+
+  await trigger.click();
+  await expect(dialog).toBeVisible();
+  await expect(frame).toHaveAttribute('src', 'https://www.youtube-nocookie.com/embed/ynIV2P_trYQ?autoplay=1&rel=0');
+
+  const size = await dialog.evaluate((element) => {
+    const rect = element.getBoundingClientRect();
+    return {
+      widthRatio: rect.width / window.innerWidth,
+      heightRatio: rect.height / window.innerHeight,
+    };
+  });
+  expect(size.widthRatio).toBeGreaterThanOrEqual(0.88);
+  expect(size.widthRatio).toBeLessThanOrEqual(0.94);
+  expect(size.heightRatio).toBeGreaterThanOrEqual(0.85);
+  expect(size.heightRatio).toBeLessThanOrEqual(0.92);
+
+  await page.getByRole('button', { name: 'Cerrar vídeo' }).click();
+  await expect(dialog).toBeHidden();
+  await expect(frame).toHaveAttribute('src', 'about:blank');
+  await expect(trigger).toBeFocused();
+
+  await trigger.click();
+  await expect(dialog).toBeVisible();
+  await page.mouse.click(2, 2);
+  await expect(dialog).toBeHidden();
+  await expect(frame).toHaveAttribute('src', 'about:blank');
+});

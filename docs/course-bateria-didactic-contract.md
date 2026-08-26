@@ -24,6 +24,14 @@ Cuando proceda: **GUIADO → CON PISTAS → SIN PISTAS → NUEVO/TRANSFERENCIA**
 
 La evidencia de habilidad se registra únicamente cuando una tarea, recuperación o checkpoint la observa realmente.
 
+## Recursos audiovisuales
+
+- Para demostraciones pedagógicas en vídeo, la **fuente preferente es el canal oficial de YouTube de Drumeo (`@DrumeoOfficial`)** cuando exista una pieza adecuada al objetivo concreto de la lección.
+- La preferencia es audiovisual, no normativa: para los 40 rudimentos, **PAS sigue prevaleciendo** en nombre, ritmo, sticking, acentos, grace notes y rolls.
+- Antes de publicar se verifica que el vídeo procede realmente del canal esperado y que trata el concepto que se quiere demostrar.
+- Se priorizan vídeos abiertos, breves, concisos y centrados en una sola técnica o idea. Un vídeo de Drumeo no desplaza automáticamente a otra fuente si es más largo, general o menos pertinente.
+- Si Drumeo no ofrece una pieza suficientemente adecuada, puede utilizarse otra fuente reputada y verificable.
+
 ## Contrato de validez de checkpoints
 
 Diseña cada checkpoint en este orden:
