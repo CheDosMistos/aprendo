@@ -55,7 +55,7 @@ La unidad conserva la arquitectura ya fijada:
 4. **Oído, escritura y primera vista** — cerrar el ciclo sonido ↔ notación con material nuevo.
 5. **Puerta de fluidez binaria** — checkpoint para decidir el siguiente paso.
 
-Solo la primera lección se publica en este incremento; las siguientes se desarrollarán después de auditarla.
+La unidad se integra por incrementos auditados. Que una lección esté publicada no altera el recorrido completo L1–L4 + CP ni convierte la unidad en cerrada antes del checkpoint.
 
 ## Regla de primera vista
 
