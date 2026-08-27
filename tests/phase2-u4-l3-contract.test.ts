@@ -12,8 +12,12 @@ function frontmatter(markdown: string): string {
   return markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? '';
 }
 
+function noteBodies(xml: string): string[] {
+  return [...xml.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1]);
+}
+
 function rhythmicSignature(xml: string): string[] {
-  return [...xml.matchAll(/<note>([\s\S]*?)<\/note>/g)].map(([, body]) => {
+  return noteBodies(xml).map((body) => {
     const kind = body.includes('<rest/>') ? 'rest' : 'note';
     const duration = body.match(/<duration>(\d+)<\/duration>/)?.[1] ?? '';
     const type = body.match(/<type>([^<]+)<\/type>/)?.[1] ?? '';
@@ -69,17 +73,17 @@ test('Phase 2 U4 L3 application score preserves the complete L1 rhythmic signatu
   assert.equal(lyrics.length, 15, 'Every new attack, and only new attacks, should receive one hand label');
   assert.ok(lyrics.every((label) => label === 'R' || label === 'L'));
 
-  const tiedStops = [...textureScore.matchAll(/<note>([\s\S]*?<tie type="stop"\/>[\s\S]*?)<\/note>/g)];
+  const tiedStops = noteBodies(textureScore).filter((body) => body.includes('<tie type="stop"/>'));
   assert.equal(tiedStops.length, 4);
-  for (const [, body] of tiedStops) {
+  for (const body of tiedStops) {
     assert.doesNotMatch(body, /<lyric>/, 'A tied continuation is not a new attack and must not receive a hand label');
   }
 
   assert.doesNotMatch(textureScore, /<accent\b|<strong-accent\b|<dynamics\b/);
   assert.doesNotMatch(textureScore, /<time-modification>|<tuplet\b/);
 
-  const sounded = [...textureScore.matchAll(/<note>([\s\S]*?)<\/note>/g)].filter(([, body]) => !body.includes('<rest/>'));
-  for (const [, body] of sounded) assert.match(body, /<notehead>normal<\/notehead>/);
+  const sounded = noteBodies(textureScore).filter((body) => !body.includes('<rest/>'));
+  for (const body of sounded) assert.match(body, /<notehead>normal<\/notehead>/);
 
   const measures = [...textureScore.matchAll(/<measure number="(\d+)">([\s\S]*?)<\/measure>/g)];
   assert.equal(measures.length, 4);
