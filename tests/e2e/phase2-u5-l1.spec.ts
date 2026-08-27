@@ -33,7 +33,7 @@ test('Phase 2 U5 L1 renders a 4/4 triplet study with feedback-gated playback', a
   await page.goto('/bateria/fase-2-unidad-5/tres-partes-dentro-del-mismo-pulso/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Tres partes dentro del mismo pulso' })).toBeVisible();
-  await expect(page.getByText('TRES NOTAS DENTRO DEL PULSO NO SON TRES PULSOS', { exact: true })).toBeVisible();
+  await expect(page.getByText('TRES NOTAS DENTRO DEL PULSO NO SON TRES PULSOS.', { exact: true })).toBeVisible();
   await expect(page.getByText('Tresillo en 4/4 = tuplet dentro de métrica simple. No convierte el compás en 6/8.', { exact: true })).toBeVisible();
 
   const scores = page.locator('.course-score');
@@ -58,7 +58,7 @@ test('Phase 2 U5 L1 keeps pulse, ternary equality and later layers conceptually 
 
   await expect(page.locator('h2').filter({ hasText: '2. Sentir y cantar tres partes' })).toBeVisible();
   await expect(page.getByText('C1 — PULSO', { exact: false })).toBeVisible();
-  await expect(page.getByText('IGUALDAD TERNARIA', { exact: false })).toBeVisible();
+  await expect(page.getByText('IGUALDAD TERNARIA:', { exact: true })).toBeVisible();
   await expect(page.getByText('No vamos a entrenar todavía cambios 2↔3 como tarea central', { exact: false })).toBeVisible();
   await expect(page.getByText('No introduzcas todavía secuencias sistemáticas 2↔3, 2↔3↔4 ni 6/8.', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L2' })).toBeVisible();
