@@ -42,8 +42,8 @@ test('Phase 2 U4 L2 distinguishes timing from dynamics and reserves B7 for L3', 
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-4/la-misma-linea-otro-acento/');
 
-  await expect(page.getByText('mapa temporal', { exact: false })).toBeVisible();
-  await expect(page.getByText('mapa dinámico', { exact: false })).toBeVisible();
+  await expect(page.getByText('mapa temporal:', { exact: true })).toBeVisible();
+  await expect(page.getByText('mapa dinámico:', { exact: true })).toBeVisible();
   await expect(page.getByText('acento no significa golpear al máximo', { exact: false })).toBeVisible();
   await expect(page.getByText('error temporal', { exact: false }).first()).toBeVisible();
   await expect(page.getByText('error dinámico', { exact: false }).first()).toBeVisible();
