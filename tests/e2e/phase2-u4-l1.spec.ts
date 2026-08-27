@@ -65,6 +65,6 @@ test('Phase 2 U4 L1 exposes positional variety, recovery and preserves L2/L3 as 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige cero errores, un BPM concreto', { exact: false })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
-  await expect(page.getByText('la misma línea, otro acento', { exact: false })).toBeVisible();
+  await expect(page.getByText('la misma línea, otro acento', { exact: true })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
