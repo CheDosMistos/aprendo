@@ -10,9 +10,9 @@
   const STORAGE_KEY = 'aprendo-metronome-settings';
   const VIEW_STORAGE_KEY = 'aprendo-notation-view';
   const METRONOME_BPM_EVENT = 'aprendo:metronome-bpm';
+  const SCORES_UPDATED_EVENT = 'aprendo:notation-scores-updated';
   const REFERENCE_BPM = 120;
   const MOBILE_QUERY = window.matchMedia('(max-width: 42rem)');
-  const scoreElements = [...document.querySelectorAll<HTMLElement>('[data-notation-score]')];
   const renderers: AlphaTabRenderer[] = [];
   let currentBpm = 80;
 
@@ -67,9 +67,11 @@
     return button;
   };
 
-  for (const element of scoreElements) {
+  const enhanceScore = (element: HTMLElement) => {
+    if (element.dataset.notationEnhanced === 'true') return;
     const sourceUrl = element.dataset.scoreSrc;
-    if (!sourceUrl) continue;
+    if (!sourceUrl) return;
+    element.dataset.notationEnhanced = 'true';
 
     element.classList.add('course-score');
     element.dataset.viewMode = view.mode;
@@ -233,7 +235,17 @@
       status.textContent = 'No se ha podido cargar la partitura.';
     }
     renderers.push(renderer);
-  }
+  };
+
+  const enhanceAllScores = () => {
+    for (const element of document.querySelectorAll<HTMLElement>('[data-notation-score]')) enhanceScore(element);
+  };
+
+  enhanceAllScores();
+  window.addEventListener(SCORES_UPDATED_EVENT, enhanceAllScores);
+  document.addEventListener('astro:page-load', enhanceAllScores);
+  const scoreObserver = new MutationObserver(enhanceAllScores);
+  scoreObserver.observe(document.documentElement, { childList: true, subtree: true });
 
   window.addEventListener(METRONOME_BPM_EVENT, (event) => {
     const detail = (event as CustomEvent<MetronomeBpmEventDetail>).detail;
@@ -246,6 +258,9 @@
   });
 
   window.addEventListener('pagehide', () => {
+    scoreObserver.disconnect();
+    window.removeEventListener(SCORES_UPDATED_EVENT, enhanceAllScores);
+    document.removeEventListener('astro:page-load', enhanceAllScores);
     for (const renderer of renderers) renderer.dispose();
   }, { once: true });
 </script>
