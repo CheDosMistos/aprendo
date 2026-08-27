@@ -66,8 +66,9 @@ test('Phase 2 U3 L2 exposes the dotted-eighth model, writing transfer and L3 bou
   await page.goto('/bateria/fase-2-unidad-3/puntillo-mas-duracion-sin-mas-golpes/');
 
   await expect(page.locator('h2').filter({ hasText: '2. NÚCLEO' })).toBeVisible();
-  await expect(page.getByText('corchea con puntillo =', { exact: false })).toBeVisible();
-  await expect(page.getByText('2 + 1 = 3', { exact: false })).toBeVisible();
+  const dottedDefinition = page.getByRole('listitem').filter({ hasText: 'corchea con puntillo = 2 + 1 = 3 posiciones' });
+  await expect(dottedDefinition).toHaveCount(1);
+  await expect(dottedDefinition).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '4. Escritura breve' })).toBeVisible();
   await expect(page.getByText('Reescribe la misma duración', { exact: false })).toBeVisible();
 
