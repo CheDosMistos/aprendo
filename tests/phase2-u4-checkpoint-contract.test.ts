@@ -47,7 +47,7 @@ test('Phase 2 U4 checkpoint owns one exclusive first-sight asset distinct from L
   assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 1);
   assert.match(markdown, /f2-u4-checkpoint-a\.musicxml/);
   assert.ok(!markdown.includes(l4ScorePath), 'Checkpoint must not reuse the U4 L4 first-sight asset');
-  assert.match(markdown, /muestra breve \*\*nueva y exclusiva\*\*/);
+  assert.match(markdown, /lectura breve \*\*nueva y exclusiva\*\*/);
   assert.match(markdown, /Una repetición posterior es práctica\/relectura, no una segunda muestra independiente de primera vista/);
 });
 
