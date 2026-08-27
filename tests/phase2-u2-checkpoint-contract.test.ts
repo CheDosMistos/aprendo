@@ -49,7 +49,7 @@ test('Phase 2 U2 checkpoint includes hearing-to-writing and optional recent 2↔
     lesson,
     /data-score-src="\/bateria\/notation\/f2\/u2\/f2-u2-cambio-2-a-4-silencios\.musicxml"[^>]*data-score-feedback="after-attempt"/,
   );
-  assert.match(lesson, /Si tienes una muestra reciente y representativa de L2, \*\*reutilízala\*\*/);
+  assert.match(lesson, /Si tienes una muestra reciente y representativa de L2 donde alternaste densidades `2 ↔ 4`, \*\*reutilízala\*\*/);
   assert.match(lesson, /C3 no necesita ser FUNCIONAL para avanzar a U3/);
 });
 
