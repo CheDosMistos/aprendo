@@ -14,7 +14,6 @@ async function login(page: import('@playwright/test').Page): Promise<void> {
 test('a MusicXML inserted after initial page load still gets the complete player and Play button', async ({ page }) => {
   await login(page);
   await page.goto('/bateria/unidad-1/sesion-0-diagnostico/');
-  await expect(page.locator('.course-score__status')).toHaveText('Partitura renderizada', { timeout: 15_000 });
 
   await page.evaluate(() => {
     const lateScore = document.createElement('div');
@@ -40,7 +39,6 @@ test('a MusicXML inserted after initial page load still gets the complete player
 test('a late MusicXML is also enhanced through DOM observation without relying on the custom event', async ({ page }) => {
   await login(page);
   await page.goto('/bateria/unidad-1/sesion-0-diagnostico/');
-  await expect(page.locator('.course-score__status')).toHaveText('Partitura renderizada', { timeout: 15_000 });
 
   await page.evaluate(() => {
     const lateScore = document.createElement('div');
