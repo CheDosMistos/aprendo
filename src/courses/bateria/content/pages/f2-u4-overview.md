@@ -37,6 +37,8 @@ Si el checkpoint de U3 deja un `CONTINUAR + CORRECTIVO`, conserva ese correctivo
 
 Esta arquitectura de `4 lecciones + checkpoint` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y `20_U4_SINCOPA_II_ACENTOS_Y_LECTURA_APLICADA.md`. No son cinco días obligatorios.
 
+El **recorrido editorial de U4 queda completo** cuando estas cuatro lecciones y el checkpoint están publicados. Eso no significa que un alumno haya «aprobado U4» por abrir o completar las páginas: la progresión depende de la evidencia registrada y de la decisión del checkpoint.
+
 ## Modelo conceptual
 
 - **SÍNCOPA:** relación entre ataques/duraciones y una jerarquía métrica estable; no es sinónimo automático de cualquier offbeat.
