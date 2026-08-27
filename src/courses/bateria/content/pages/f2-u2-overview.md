@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: Semicorcheas y silencios como lenguaje
 summary: "Convierte la semicorchea en una rejilla temporal legible: ataques y silencios ocupan posiciones concretas, la subdivisión continúa aunque no haya golpe y la técnica se aplica sólo después de comprender la línea."
-duration: Unidad flexible · 4 lecciones + cierre
+duration: Unidad flexible · 4 lecciones + checkpoint
 competencies: [C1, C2, C3, C4, D1, D6, E2, E3, E4, F1, B7, K2, K4, K6]
 rudiments: []
 published: true
@@ -32,6 +32,8 @@ Si vienes con un correctivo localizado, U2 puede abrirse manteniéndolo visible.
 3. **Oír, imitar y escribir la rejilla** — comprobar que la representación funciona también desde el sonido.
 4. **Doubles/diddles sin alterar la línea** — aplicar textura de manos sólo después de decodificar el ritmo.
 5. **Puerta de semicorcheas y silencios** — decidir cuánta novedad puede abrir U3.
+
+El **recorrido editorial de U2 queda completo** cuando estas cuatro lecciones y el checkpoint están publicados. Eso no significa que un alumno haya “aprobado U2” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión del checkpoint.
 
 Son unidades de trabajo flexibles, no cinco días obligatorios. La retirada de ayuda conserva la progresión `GUIADO → CON PISTAS → SIN PISTAS → TRANSFERENCIA`; no es una escala de competencia.
 
