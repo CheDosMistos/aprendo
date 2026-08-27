@@ -1,5 +1,6 @@
 import type * as AlphaTab from '@coderline/alphatab';
 import type { NotationRenderer, NotationRendererCallbacks } from './NotationRenderer';
+import { ensurePercussionPlaybackMapping } from './ensurePercussionPlaybackMapping';
 import { loadAlphaTabModule, preloadNotationResources } from './notationPreload';
 
 export interface AlphaTabRendererOptions {
@@ -18,6 +19,7 @@ export class AlphaTabRenderer implements NotationRenderer {
   private playbackBpm: number;
   private displayScale: number;
   private disposed = false;
+  private loadRequestId = 0;
 
   constructor(
     host: HTMLElement,
@@ -97,9 +99,7 @@ export class AlphaTabRenderer implements NotationRenderer {
         this.applyPlaybackBpm();
         const sourceUrl = this.pendingSourceUrl;
         this.pendingSourceUrl = null;
-        if (sourceUrl && !api.load(sourceUrl)) {
-          this.callbacks.onStatusChange?.('error', 'No se ha podido cargar la partitura.');
-        }
+        if (sourceUrl) void this.loadSource(api, sourceUrl, this.loadRequestId);
       })
       .catch(() => {
         if (!this.disposed) {
@@ -115,12 +115,17 @@ export class AlphaTabRenderer implements NotationRenderer {
     this.callbacks.onStatusChange?.('loading', 'Cargando MusicXML…');
     if (!sourceUrl) return false;
 
+    const requestId = ++this.loadRequestId;
+
     // Prime the authenticated MusicXML request while AlphaTab is still
-    // initializing. The later api.load(URL) can reuse the browser cache.
+    // initializing. The normalized fetch below can reuse the browser cache.
     preloadNotationResources([sourceUrl]);
 
-    if (this.api) return this.api.load(sourceUrl);
-    this.pendingSourceUrl = sourceUrl;
+    if (this.api) {
+      void this.loadSource(this.api, sourceUrl, requestId);
+    } else {
+      this.pendingSourceUrl = sourceUrl;
+    }
     return true;
   }
 
@@ -150,8 +155,34 @@ export class AlphaTabRenderer implements NotationRenderer {
   dispose(): void {
     this.disposed = true;
     this.pendingSourceUrl = null;
+    this.loadRequestId += 1;
     this.api?.destroy();
     this.api = null;
+  }
+
+  private async loadSource(api: AlphaTab.AlphaTabApi, sourceUrl: string, requestId: number): Promise<void> {
+    if (!/\.musicxml(?:[?#]|$)/i.test(sourceUrl)) {
+      if (!api.load(sourceUrl)) this.reportLoadError();
+      return;
+    }
+
+    try {
+      const response = await fetch(sourceUrl, { credentials: 'same-origin' });
+      if (!response.ok) throw new Error('MusicXML request failed');
+      const xml = ensurePercussionPlaybackMapping(await response.text());
+      if (this.disposed || this.api !== api || requestId !== this.loadRequestId) return;
+      const bytes = new TextEncoder().encode(xml);
+      if (!api.load(bytes)) this.reportLoadError();
+    } catch {
+      if (this.disposed || this.api !== api || requestId !== this.loadRequestId) return;
+      // Preserve URL loading as a conservative fallback if normalization cannot run.
+      if (!api.load(sourceUrl)) this.reportLoadError();
+    }
+  }
+
+  private reportLoadError(): void {
+    this.callbacks.onPlaybackReady?.(false);
+    this.callbacks.onStatusChange?.('error', 'No se ha podido cargar la partitura.');
   }
 
   private applyPlaybackBpm(): void {
