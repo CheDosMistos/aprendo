@@ -3,6 +3,7 @@ import type { PasRudimentStudyDefinition, RudimentStudyUnit } from './pasRudimen
 const DIVISIONS = 24;
 const MEASURE_DURATION = DIVISIONS * 4;
 const ORIGINAL_BADGE = 'Aprendo - EJERCICIO ORIGINAL CREADO PARA ESTE CURSO';
+const INSTRUMENT_ID = 'P1-I1';
 
 interface UnitSpec {
   duration: number;
@@ -55,7 +56,7 @@ function parseStudyToken(token: string): { grace: string[]; main: 'R' | 'L'; lab
 }
 
 function graceNote(hand: string): string {
-  return `<note><grace slash="yes"/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><type>16th</type><notehead>normal</notehead><lyric><text>${escapeXml(hand.toLowerCase())}</text></lyric></note>`;
+  return `<note><grace slash="yes"/><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="${INSTRUMENT_ID}"/><type>16th</type><notehead>normal</notehead><lyric><text>${escapeXml(hand.toLowerCase())}</text></lyric></note>`;
 }
 
 function beams(index: number, count: number, spec: UnitSpec): string {
@@ -90,7 +91,7 @@ function mainNote(
     : articulation;
   const notation = parsed.label.endsWith('z') ? buzzDirection : articulation;
 
-  return `${grace}<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>${spec.duration}</duration><type>${spec.type}</type>${timeModification}<notehead>normal</notehead>${beams(index, count, spec)}${notation}<lyric><text>${escapeXml(parsed.label)}</text></lyric></note>`;
+  return `${grace}<note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="${INSTRUMENT_ID}"/><duration>${spec.duration}</duration><type>${spec.type}</type>${timeModification}<notehead>normal</notehead>${beams(index, count, spec)}${notation}<lyric><text>${escapeXml(parsed.label)}</text></lyric></note>`;
 }
 
 export function generateRudimentStudyMusicXml(definition: PasRudimentStudyDefinition): string {
@@ -115,7 +116,13 @@ export function generateRudimentStudyMusicXml(definition: PasRudimentStudyDefini
     <creator type="composer">${ORIGINAL_BADGE}</creator>
     <rights>Estudio original de estructura y sticking. No reproduce la partitura PAS; la fuente PAS enlazada es normativa.</rights>
   </identification>
-  <part-list><score-part id="P1"><part-name>Pad</part-name></score-part></part-list>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Pad</part-name>
+      <score-instrument id="${INSTRUMENT_ID}"><instrument-name>Practice Pad</instrument-name></score-instrument>
+      <midi-instrument id="${INSTRUMENT_ID}"><midi-channel>10</midi-channel><midi-unpitched>39</midi-unpitched></midi-instrument>
+    </score-part>
+  </part-list>
   <part id="P1">
     <measure number="1">
       <attributes><divisions>${DIVISIONS}</divisions><time><beats>4</beats><beat-type>4</beat-type></time><clef><sign>percussion</sign><line>2</line></clef><staff-details><staff-lines>5</staff-lines></staff-details></attributes>
