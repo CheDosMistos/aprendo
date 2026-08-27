@@ -1,26 +1,50 @@
-import { expect, test } from '@playwright/test';
+import { expect, test, type Page, type TestInfo } from '@playwright/test';
 
 const username = process.env.E2E_USERNAME ?? 'e2e-admin';
 const password = process.env.E2E_PASSWORD ?? 'ci-e2e-password-2026';
-const lessonUrl = '/bateria/unidad-1/leccion-1-rebote-pulso-rolls/';
+const baseUrl = process.env.PLAYWRIGHT_BASE_URL ?? 'http://localhost:4323';
+const lessonUrl = '/bateria/fase-2-unidad-1/fluidez-binaria-sin-memorizar-dibujos/';
 
-async function login(page: import('@playwright/test').Page): Promise<void> {
+async function login(page: Page, testInfo: TestInfo): Promise<void> {
+  if (testInfo.project.name === 'webkit-tablet') {
+    const response = await page.request.post(`${baseUrl}/api/auth/login/`, {
+      form: { username, password },
+      headers: { Origin: baseUrl },
+      maxRedirects: 0,
+    });
+    expect(response.status()).toBe(303);
+    const match = /(?:^|,\s*)aprendo_session=([^;]+)/i.exec(response.headers()['set-cookie'] ?? '');
+    expect(match?.[1]).toBeTruthy();
+    const url = new URL(baseUrl);
+    await page.context().addCookies([{
+      name: 'aprendo_session',
+      value: match![1],
+      domain: url.hostname,
+      path: '/',
+      httpOnly: true,
+      secure: false,
+      sameSite: 'Strict',
+    }]);
+    return;
+  }
+
   await page.goto('/login/');
   await page.getByLabel('Usuario').fill(username);
   await page.getByLabel('Contraseña').fill(password);
   await page.getByLabel('Contraseña').press('Enter');
-  await expect(page).toHaveURL(/\/$/);
+  await expect(page).toHaveURL(`${baseUrl}/`);
 }
 
-async function openNotationLesson(page: import('@playwright/test').Page): Promise<void> {
+async function openNotationLesson(page: Page): Promise<void> {
   await page.goto(lessonUrl);
-  const existing = page.locator('[data-score-rudiment="Single Stroke Roll"]');
-  await expect(existing).toHaveClass(/course-score/, { timeout: 15_000 });
+  await expect(page.getByRole('heading', { level: 1, name: 'Fluidez binaria sin memorizar dibujos' })).toBeVisible();
+  const existing = page.locator('.course-score').last();
+  await expect(existing).toBeVisible({ timeout: 15_000 });
   await expect(existing.locator('.course-score__status')).toHaveText('Partitura renderizada', { timeout: 15_000 });
 }
 
-test('a MusicXML inserted after initial page load still gets the complete player and Play button', async ({ page }) => {
-  await login(page);
+test('a MusicXML inserted after initial page load still gets the complete player and Play button', async ({ page }, testInfo) => {
+  await login(page, testInfo);
   await openNotationLesson(page);
 
   await page.evaluate(() => {
@@ -44,8 +68,8 @@ test('a MusicXML inserted after initial page load still gets the complete player
   await expect(lateScore.locator('.course-score__play')).toBeEnabled({ timeout: 15_000 });
 });
 
-test('a late MusicXML is also enhanced through DOM observation without relying on the custom event', async ({ page }) => {
-  await login(page);
+test('a late MusicXML is also enhanced through DOM observation without relying on the custom event', async ({ page }, testInfo) => {
+  await login(page, testInfo);
   await openNotationLesson(page);
 
   await page.evaluate(() => {
