@@ -7,7 +7,7 @@ unitSlug: fase-2-unidad-3
 slug: fase-2-unidad-3-introduccion
 kind: unit
 order: 0
-title: Duración: ligaduras, puntillos y síncopa I
+title: "Duración: ligaduras, puntillos y síncopa I"
 summary: "Separa ataque, duración escrita, pulso y marco métrico: una duración puede continuar sin un nuevo golpe, y la síncopa elemental aparece dentro de un 4/4 que sigue estable."
 duration: Unidad flexible · 4 lecciones + checkpoint
 competencies: [C1, C2, C3, D1, D2, D6, E2, E3, E4, F1, F2, K2, K4, K6]
