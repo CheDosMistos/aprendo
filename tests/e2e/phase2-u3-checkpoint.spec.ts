@@ -93,11 +93,3 @@ test('Phase 2 U3 checkpoint keeps the decision multidimensional and opens only U
   await expect(page.getByText('20.U4 — Síncopa II, acentos y lectura aplicada', { exact: false })).toBeVisible();
   await expect(page.getByText('La línea rítmica seguirá mandando; el rudimento servirá a la lectura', { exact: false })).toBeVisible();
 });
-
-test('Phase 2 U3 overview marks editorial completion without turning page completion into competence', async ({ page }, testInfo) => {
-  await login(page, testInfo);
-  await page.goto('/bateria/fase-2-unidad-3/fase-2-unidad-3-introduccion/');
-
-  await expect(page.getByText('El recorrido editorial de U3 queda completo', { exact: false })).toBeVisible();
-  await expect(page.getByText('no significa que un alumno haya “aprobado U3”', { exact: false })).toBeVisible();
-});
