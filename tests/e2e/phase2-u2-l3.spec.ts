@@ -60,6 +60,8 @@ test('Phase 2 U2 L3 renders protected retrieval and keeps dictation answers hidd
   const first = dictations.first();
   const answer = 'X · X X — un pulso: ataque en 1, silencio en e, ataques en & y a.';
   await expect(first.getByRole('button', { name: 'Escuchar dictado' })).toBeVisible();
+  await expect(first.locator('[data-dictation-status]')).toHaveText('4 pulsos de entrada y después 1 pulso. Escribe antes de revelar.');
+  await expect(dictations.nth(2).locator('[data-dictation-status]')).toHaveText('4 pulsos de entrada y después 2 pulsos. Escribe antes de revelar.');
   await expect(first.getByText(answer, { exact: true })).toBeHidden();
   await first.getByRole('button', { name: 'Mostrar respuesta' }).click();
   await expect(first.getByText(answer, { exact: true })).toBeVisible();
