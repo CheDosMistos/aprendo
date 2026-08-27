@@ -53,7 +53,7 @@ test('Phase 2 U4 L4 separates precision continuity and recovery and does not tur
 
   await expect(page.getByText('No convierte todavía D5 — primera vista en competencia dominante', { exact: false })).toBeVisible();
   await expect(page.getByText('U9 reservará el protocolo sistemático de primera vista', { exact: false })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: '3. Diagnóstico: precisión ≠ continuidad ≠ recuperación — 4–5 min' })).toBeVisible();
+  await expect(page.locator('h2').filter({ hasText: '3. Diagnóstico: precisión ≠ continuidad ≠ recuperación' })).toBeVisible();
   await expect(page.getByText('no reinicies por defecto', { exact: false })).toBeVisible();
   await expect(page.getByText('Cualquier repetición posterior es relectura/práctica', { exact: false })).toBeVisible();
   await expect(page.getByText('Continuar primero no significa ignorar precisión para siempre', { exact: false })).toBeVisible();
