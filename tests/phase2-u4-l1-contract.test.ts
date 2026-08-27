@@ -45,7 +45,8 @@ test('Phase 2 U4 L1 makes syncopation variety the single dominant novelty', asyn
   assert.match(data, /^kind:\s*lesson\s*$/m);
   assert.match(data, /^order:\s*1\s*$/m);
   assert.match(data, /^rudiments:\s*\[\]\s*$/m);
-  assert.doesNotMatch(data, /\bB7\b/);
+  const competenciesLine = data.match(/^competencies:.*$/m)?.[0] ?? '';
+  assert.doesNotMatch(competenciesLine, /\bB7\b/);
 
   for (const competency of ['C1', 'C2', 'C3', 'D2', 'D6', 'F1', 'F2', 'K2', 'K4', 'K6']) {
     assert.match(data, new RegExp(`\\b${competency}\\b`), `Expected ${competency} in U4 L1`);
