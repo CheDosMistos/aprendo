@@ -63,9 +63,9 @@ test('Phase 2 U4 checkpoint keeps accent, recovery and B7 evidence separated bef
   }
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U5' })).toBeVisible();
-  await expect(page.getByText('D5 funcional o primera vista avanzada', { exact: true })).toBeVisible();
-  await expect(page.getByText('tresillos ni cambios 2↔3↔4', { exact: true })).toBeVisible();
-  await expect(page.getByText('6/8', { exact: true })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'D5 funcional o primera vista avanzada' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'tresillos ni cambios 2↔3↔4' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: '6/8' })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
