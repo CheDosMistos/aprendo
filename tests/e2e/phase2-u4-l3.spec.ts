@@ -72,7 +72,7 @@ test('Phase 2 U4 L3 keeps decoding before texture and does not claim the U4 line
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige cero errores, un BPM concreto', { exact: false })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente B7', { exact: false })).toBeVisible();
-  await expect(page.getByText('leer, seguir y recuperarse', { exact: false })).toBeVisible();
+  await expect(page.getByText('leer, seguir y recuperarse', { exact: true })).toBeVisible();
   await expect(page.getByText('primera vista como competencia central seguirá reservada para U9', { exact: false })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
