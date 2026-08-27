@@ -52,7 +52,7 @@ test('Phase 2 U4 checkpoint keeps accent, recovery and B7 evidence separated bef
   await page.goto('/bateria/fase-2-unidad-4/puerta-de-sincopa-aplicada-y-continuidad/');
 
   await expect(page.locator('h2').filter({ hasText: '2. Explicación conceptual: acento ≠ ritmo' })).toBeVisible();
-  await expect(page.getByText('ACENTO ≠ RITMO', { exact: true })).toBeVisible();
+  await expect(page.getByText('ACENTO ≠ RITMO.', { exact: true })).toBeVisible();
   await expect(page.getByText('mapa temporal', { exact: true })).toBeVisible();
   await expect(page.getByText('mapa dinámico', { exact: true })).toBeVisible();
   await expect(page.getByText('B7 no es la inferencia principal de este checkpoint', { exact: false })).toBeVisible();
