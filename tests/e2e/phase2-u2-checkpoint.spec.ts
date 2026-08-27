@@ -83,10 +83,9 @@ test('Phase 2 U2 checkpoint uses recent 2↔4 evidence selectively and keeps pro
   await expect(recovery.getByRole('button', { name: 'Habilitar audio' })).toBeVisible();
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A U3' })).toBeVisible();
-  await expect(page.getByText('C3 funcional', { exact: false })).toBeVisible();
-  await expect(page.getByText('PAS adicionales', { exact: true })).toBeVisible();
-  await expect(page.getByText('síncopa formalmente dominada', { exact: true })).toBeVisible();
-  await expect(page.getByText('primera vista avanzada', { exact: true })).toBeVisible();
+  for (const criterion of ['C3 funcional;', 'PAS adicionales;', 'síncopa formalmente dominada;', 'primera vista avanzada.']) {
+    await expect(page.locator('li').filter({ hasText: new RegExp(`^${criterion.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`) })).toBeVisible();
+  }
 
   for (const decision of ['CONTINUAR', 'CONTINUAR + CORRECTIVO', 'REDUCIR NOVEDAD', 'DETENER CARGA']) {
     await expect(page.getByRole('heading', { level: 3, name: decision, exact: true })).toBeVisible();
@@ -97,13 +96,9 @@ test('Phase 2 U2 checkpoint exposes health/load stop signals without conflating 
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-2/puerta-de-semicorcheas-y-silencios/');
 
-  const healthSection = page.locator('h2').filter({ hasText: '5. Salud, carga y decisión' }).locator('xpath=following-sibling::*');
-  await expect(page.locator('li').filter({ hasText: /^dolor;$/ })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: /^hormigueo;$/ })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: /^entumecimiento;$/ })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: /^pérdida de fuerza;$/ })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: /^tensión persistente\.$/ })).toBeVisible();
+  for (const signal of ['dolor;', 'hormigueo;', 'entumecimiento;', 'pérdida de fuerza;', 'tensión persistente.']) {
+    await expect(page.locator('li').filter({ hasText: new RegExp(`^${signal.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`) })).toBeVisible();
+  }
   await expect(page.getByText('Completar este checkpoint', { exact: false })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente D1, C2, C3, E4', { exact: false })).toBeVisible();
-  void healthSection;
 });
