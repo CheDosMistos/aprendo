@@ -15,9 +15,19 @@
       const subdivision = Number(widget.dataset.subdivision ?? '2');
       const pattern = (widget.dataset.pattern ?? '').trim();
       const answer = widget.dataset.answer ?? '';
+      const stimulusBeats = Number.isInteger(subdivision) && subdivision > 0 && pattern
+        ? pattern.length / subdivision
+        : Number.NaN;
+      const stimulusLabel = Number.isFinite(stimulusBeats) && stimulusBeats > 0
+        ? stimulusBeats === 4
+          ? '1 compás'
+          : stimulusBeats === 1
+            ? '1 pulso'
+            : `${stimulusBeats} pulsos`
+        : 'el estímulo';
 
       widget.classList.add('rhythm-dictation');
-      widget.innerHTML = `<div class="rhythm-dictation__controls"><button type="button" data-dictation-play>Escuchar dictado</button><button type="button" data-dictation-answer>Mostrar respuesta</button></div><p class="rhythm-dictation__status" data-dictation-status>4 pulsos de entrada y después 1 compás. Escribe antes de revelar.</p><p class="rhythm-dictation__answer" data-dictation-answer-text hidden></p>`;
+      widget.innerHTML = `<div class="rhythm-dictation__controls"><button type="button" data-dictation-play>Escuchar dictado</button><button type="button" data-dictation-answer>Mostrar respuesta</button></div><p class="rhythm-dictation__status" data-dictation-status>4 pulsos de entrada y después ${stimulusLabel}. Escribe antes de revelar.</p><p class="rhythm-dictation__answer" data-dictation-answer-text hidden></p>`;
 
       const play = widget.querySelector<HTMLButtonElement>('[data-dictation-play]');
       const reveal = widget.querySelector<HTMLButtonElement>('[data-dictation-answer]');
