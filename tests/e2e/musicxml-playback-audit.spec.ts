@@ -24,7 +24,7 @@ test('a MusicXML inserted after initial page load still gets the complete player
     lateScore.dataset.scoreBadge = 'EJERCICIO ORIGINAL CREADO PARA ESTE CURSO';
     lateScore.dataset.scoreSourceUrl = '/bateria/notation/rudiments/04-multiple-bounce-roll.musicxml';
     lateScore.dataset.scoreSourceLabel = 'Abrir fuente MusicXML';
-    document.querySelector('main article')?.append(lateScore);
+    (document.querySelector('main') ?? document.body).append(lateScore);
     window.dispatchEvent(new CustomEvent('aprendo:notation-scores-updated'));
   });
 
@@ -47,7 +47,7 @@ test('a late MusicXML is also enhanced through DOM observation without relying o
     lateScore.dataset.scoreSrc = '/bateria/notation/u1/preparacion-alternancia-pulso.musicxml';
     lateScore.dataset.scoreTitle = 'Partitura heredada insertada dinámicamente';
     lateScore.dataset.scoreBadge = 'EJERCICIO ORIGINAL CREADO PARA ESTE CURSO';
-    document.querySelector('main article')?.append(lateScore);
+    (document.querySelector('main') ?? document.body).append(lateScore);
   });
 
   const lateScore = page.locator('#late-musicxml-observer-regression');
