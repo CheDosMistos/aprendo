@@ -4,6 +4,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { PAS_RUDIMENTS } from '../src/courses/bateria/rudiments/pasRudiments.ts';
 import { generateRudimentStudyMusicXml } from '../src/courses/bateria/rudiments/rudimentStudyMusicXml.ts';
+import { ensurePercussionPlaybackMapping } from '../src/platform/notation/ensurePercussionPlaybackMapping.ts';
 
 const notationRoot = path.resolve('public/bateria/notation');
 
@@ -53,24 +54,41 @@ function playbackMappingFailures(xml: string, label: string): string[] {
   return failures;
 }
 
-test('every integrated static course MusicXML has an explicit audible percussion mapping', async () => {
+function notationFingerprint(xml: string): string[] {
+  const values = [...xml.matchAll(/<(duration|type|beats|beat-type|actual-notes|normal-notes|notehead|text)>([^<]*)<\/\1>/g)]
+    .map((match) => `${match[1]}:${match[2]}`);
+  const markers = [...xml.matchAll(/<(dot|grace|tie|tied|accent|strong-accent)\b[^>]*\/?\s*>/g)]
+    .map((match) => match[0].replace(/\s+/g, ' '));
+  const beams = [...xml.matchAll(/<beam\b([^>]*)>([^<]*)<\/beam>/g)]
+    .map((match) => `beam:${match[1].replace(/\s+/g, ' ').trim()}:${match[2].trim()}`);
+  return [...values, ...markers, ...beams];
+}
+
+test('every integrated static course MusicXML becomes audibly mapped without changing musical notation', async () => {
   const files = await musicXmlFiles(notationRoot);
   assert.ok(files.length > 0, 'Expected integrated MusicXML course assets');
 
   const failures: string[] = [];
   for (const file of files) {
     const label = path.relative(process.cwd(), file);
-    failures.push(...playbackMappingFailures(await readFile(file, 'utf8'), label));
+    const source = await readFile(file, 'utf8');
+    const normalized = ensurePercussionPlaybackMapping(source);
+    assert.deepEqual(notationFingerprint(normalized), notationFingerprint(source), `${label}: playback normalization changed musical notation`);
+    assert.equal(ensurePercussionPlaybackMapping(normalized), normalized, `${label}: playback normalization must be idempotent`);
+    failures.push(...playbackMappingFailures(normalized, label));
   }
 
-  assert.deepEqual(failures, [], `MusicXML playback mapping failures:\n${failures.join('\n')}`);
+  assert.deepEqual(failures, [], `MusicXML playback mapping failures after normalization:\n${failures.join('\n')}`);
 });
 
-test('all generated PAS study MusicXML has an explicit audible percussion mapping', () => {
+test('all generated PAS study MusicXML is natively audible and normalization-safe', () => {
   const failures: string[] = [];
   for (const definition of PAS_RUDIMENTS) {
     const label = `PAS ${definition.pasNumber} — ${definition.name}`;
-    failures.push(...playbackMappingFailures(generateRudimentStudyMusicXml(definition), label));
+    const source = generateRudimentStudyMusicXml(definition);
+    const normalized = ensurePercussionPlaybackMapping(source);
+    assert.equal(normalized, source, `${label}: generated study should already contain complete playback metadata`);
+    failures.push(...playbackMappingFailures(source, label));
   }
 
   assert.deepEqual(failures, [], `Generated rudiment playback mapping failures:\n${failures.join('\n')}`);
