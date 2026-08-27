@@ -35,6 +35,8 @@ Si vienes con `CONTINUAR + CORRECTIVO`, conserva el correctivo localizado. Si la
 4. **Oír, escribir y transformar duración** — comprobar la representación desde el sonido, la escritura y una transformación controlada.
 5. **Puerta de duración y síncopa I** — decidir si D2/F1–F2 y C1/C2 están suficientemente disponibles para U4.
 
+El **recorrido editorial de U3 queda completo** cuando estas cuatro lecciones y el checkpoint están publicados. Eso no significa que un alumno haya “aprobado U3” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión del checkpoint.
+
 Esta arquitectura de `4 lecciones + checkpoint` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y la auditoría longitudinal U1→U2→U3. No son cinco días obligatorios.
 
 ## Modelo conceptual
