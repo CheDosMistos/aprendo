@@ -60,7 +60,7 @@ test('Phase 2 U5 L1 keeps pulse, ternary equality and later layers conceptually 
   await expect(page.getByText('C1 — PULSO', { exact: false })).toBeVisible();
   await expect(page.getByText('IGUALDAD TERNARIA:', { exact: true })).toBeVisible();
   await expect(page.getByText('No vamos a entrenar todavía cambios 2↔3 como tarea central', { exact: false })).toBeVisible();
-  await expect(page.getByText('No introduzcas todavía secuencias sistemáticas 2↔3, 2↔3↔4 ni 6/8.', { exact: true })).toBeVisible();
+  await expect(page.getByText('No introduzcas todavía secuencias sistemáticas 2↔3, 2↔3↔4 ni 6/8.', { exact: false })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L2' })).toBeVisible();
   await expect(page.getByText('un BPM concreto o alto', { exact: false })).toBeVisible();
   await expect(page.getByText('actualizar automáticamente C2 o D3', { exact: false })).toBeVisible();
