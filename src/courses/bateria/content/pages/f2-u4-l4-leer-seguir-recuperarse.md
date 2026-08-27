@@ -8,7 +8,7 @@ slug: leer-seguir-y-recuperarse
 kind: lesson
 order: 4
 title: "Leer, seguir y recuperarse"
-summary: "Afronta una línea sincopada nueva de la familia ya trabajada, conserva el marco temporal tras un error pequeño y separa precisión, continuidad y recuperación sin convertir todavía D5 en eje central."
+summary: "Afronta una línea sincopada nueva de la familia ya trabajada, conserva el marco temporal tras un error pequeño y separa precisión, continuidad y recuperación sin convertir todavía la primera vista en eje central."
 duration: 25–30 min
 competencies: [C1, C2, C3, D2, D6, F1, F2, K2, K4, K6]
 rudiments: []
