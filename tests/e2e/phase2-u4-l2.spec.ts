@@ -51,5 +51,5 @@ test('Phase 2 U4 L2 distinguishes timing from dynamics and reserves B7 for L3', 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige cero errores, gran volumen, un BPM concreto', { exact: false })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
-  await expect(page.getByText('la línea manda: aplicación B7 sobre lectura conocida', { exact: false })).toBeVisible();
+  await expect(page.getByText('la línea manda: aplicación B7 sobre lectura conocida', { exact: true })).toBeVisible();
 });
