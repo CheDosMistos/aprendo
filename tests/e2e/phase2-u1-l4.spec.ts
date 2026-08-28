@@ -34,12 +34,12 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
 
-test('Phase 2 U1 L4 protects first sight, keeps dictation answers hidden and delays recovery playback', async ({ page }, testInfo) => {
+test('Phase 2 U1 L4 protects the early new-reading window, keeps dictation answers hidden and delays recovery playback', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-1/oido-escritura-y-primera-vista/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Oído, escritura y primera vista' })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2 }).filter({ hasText: '3. Primera vista controlada' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2 }).filter({ hasText: '3. Ventana temprana de lectura nueva' })).toBeVisible();
   await expect(page.getByText('PRECISIÓN:', { exact: false })).toBeVisible();
   await expect(page.getByText('CONTINUIDAD / RECUPERACIÓN:', { exact: false })).toBeVisible();
 
