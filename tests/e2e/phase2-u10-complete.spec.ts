@@ -23,6 +23,14 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
 
+async function exposePracticeToolsIfCompact(page: Page): Promise<void> {
+  const toggle = page.locator('[data-metronome-toggle]');
+  if (await toggle.isVisible()) {
+    await toggle.click();
+    await expect(page.getByRole('complementary', { name: 'Herramientas de práctica' })).toBeVisible();
+  }
+}
+
 test('Phase 2 U10 overview frames reduced click as conditional temporal difficulty', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-10/');
@@ -35,6 +43,7 @@ test('U10 lesson exposes the four reference modes in the compact metronome and r
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-10/de-cada-pulso-a-2-y-4/');
   await expect(page.getByRole('heading', { level: 1, name: 'De cada pulso a 2 y 4' })).toBeVisible();
+  await exposePracticeToolsIfCompact(page);
 
   const reference = page.getByLabel('Densidad de referencia del metrónomo');
   await expect(reference).toBeVisible();
@@ -56,6 +65,7 @@ test('U10 lesson exposes the four reference modes in the compact metronome and r
 test('U10 reduced modes are disabled outside 4/4 and checkpoint preserves decision language', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-10/gap-un-compas-con-un-compas-sin/');
+  await exposePracticeToolsIfCompact(page);
   const meter = page.getByLabel('Compás', { exact: true });
   const reference = page.getByLabel('Densidad de referencia del metrónomo');
   await reference.selectOption('gap-one-bar');
