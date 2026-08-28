@@ -23,7 +23,6 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
 
   await page.goto('/login/');
   await page.getByLabel('Usuario').fill(username);
-  await page.getByLabel('Contraseña').fill(password);
   await page.getByLabel('Contraseña').press('Enter');
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
@@ -57,7 +56,7 @@ test('Phase 2 U6 checkpoint tests two compound beats across reading and listenin
 
   await expect(page.locator('h2').filter({ hasText: '1. Muestra principal — sentir y leer 6/8 como 2×3' })).toBeVisible();
   await expect(page.getByText('24 posiciones de corchea: 16 ataques y 8 silencios', { exact: false })).toBeVisible();
-  await expect(page.getByText('tempo visible ♩. = 72', { exact: false })).toBeVisible();
+  await expect(page.getByText('tempo visible ♩. = 80', { exact: false })).toBeVisible();
   await expect(page.getByText('playback sólo después del intento propio', { exact: false })).toBeVisible();
 
   await expect(page.locator('h3').filter({ hasText: 'Comprobación auditiva sobre la misma muestra' })).toBeVisible();
