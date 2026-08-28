@@ -61,9 +61,9 @@ test('U10 reduced modes are disabled outside 4/4 and checkpoint preserves decisi
   await reference.selectOption('gap-one-bar');
   await meter.selectOption('6/8');
   await expect(reference).toHaveValue('all');
-  await expect(reference.locator('option[value="two-four"]')).toBeDisabled();
-  await expect(reference.locator('option[value="half-time"]')).toBeDisabled();
-  await expect(reference.locator('option[value="gap-one-bar"]')).toBeDisabled();
+  await expect(reference.locator('option[value="two-four"]')).toHaveAttribute('disabled', '');
+  await expect(reference.locator('option[value="half-time"]')).toHaveAttribute('disabled', '');
+  await expect(reference.locator('option[value="gap-one-bar"]')).toHaveAttribute('disabled', '');
 
   await page.goto('/bateria/fase-2-unidad-10/puerta-referencia-interna-inicial/');
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de referencia interna inicial' })).toBeVisible();
