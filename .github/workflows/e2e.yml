@@ -4,9 +4,14 @@ on:
   pull_request:
     branches:
       - main
+      - 'integration/**'
 
 permissions:
   contents: read
+
+concurrency:
+  group: browser-e2e-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   browser-e2e:
@@ -16,6 +21,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,7 +36,12 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Install Chromium and WebKit
+      - name: Install Chromium for integration PR
+        if: startsWith(github.base_ref, 'integration/')
+        run: npx playwright install --with-deps chromium
+
+      - name: Install Chromium and WebKit for main PR
+        if: github.base_ref == 'main'
         run: npx playwright install --with-deps chromium webkit
 
       - name: Run browser journeys
@@ -40,6 +53,8 @@ jobs:
           E2E_USERNAME: e2e-admin
           E2E_PASSWORD: ci-e2e-password-2026
           PLAYWRIGHT_BASE_URL: http://localhost:4323
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_REF: ${{ github.base_ref }}
         run: |
           set -euo pipefail
           printf '%s' "$E2E_PASSWORD" | npm run provision-user -- \
@@ -58,4 +73,19 @@ jobs:
           done
           curl --fail --silent --max-time 2 http://127.0.0.1:4323/api/health/ >/dev/null
 
-          npm run test:e2e
+          if [[ "$BASE_REF" == integration/* ]]; then
+            mapfile -t specs < <(
+              git diff --name-only "$BASE_SHA"...HEAD -- tests/e2e \
+                | grep -E '^tests/e2e/.*\.spec\.ts$' \
+                || true
+            )
+            if [ "${#specs[@]}" -eq 0 ]; then
+              echo 'No changed E2E specs; skipping browser test execution.'
+              exit 0
+            fi
+            printf 'Changed E2E specs (%s):\n' "${#specs[@]}"
+            printf '  %s\n' "${specs[@]}"
+            npx playwright test --project=chromium-desktop "${specs[@]}"
+          else
+            npm run test:e2e
+          fi

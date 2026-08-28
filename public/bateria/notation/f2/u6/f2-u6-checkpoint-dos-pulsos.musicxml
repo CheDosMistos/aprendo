@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+  <work><work-title>20.U6.CP — puerta de dos pulsos compuestos</work-title></work>
+  <identification>
+    <creator type="composer">Aprendo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO</creator>
+    <rights>EJERCICIO ORIGINAL CREADO PARA ESTE CURSO.</rights>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Pad</part-name>
+      <score-instrument id="P1-I1"><instrument-name>Practice Pad</instrument-name></score-instrument>
+      <midi-instrument id="P1-I1"><midi-channel>10</midi-channel><midi-unpitched>39</midi-unpitched></midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>12</divisions>
+        <time><beats>6</beats><beat-type>8</beat-type></time>
+        <clef><sign>percussion</sign><line>2</line></clef>
+        <staff-details><staff-lines>5</staff-lines></staff-details>
+      </attributes>
+      <direction placement="above">
+        <direction-type><metronome><beat-unit>quarter</beat-unit><beat-unit-dot/><per-minute>80</per-minute></metronome></direction-type>
+        <sound tempo="120"/>
+      </direction>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead></note>
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">begin</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">end</beam></note>
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+    </measure>
+    <measure number="2">
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">begin</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">end</beam></note>
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">begin</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">end</beam></note>
+    </measure>
+    <measure number="3">
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">begin</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">end</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead></note>
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead></note>
+    </measure>
+    <measure number="4">
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead></note>
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+      <note><rest/><duration>6</duration><type>eighth</type></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">begin</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">continue</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><type>eighth</type><notehead>normal</notehead><beam number="1">end</beam></note>
+    </measure>
+  </part>
+</score-partwise>

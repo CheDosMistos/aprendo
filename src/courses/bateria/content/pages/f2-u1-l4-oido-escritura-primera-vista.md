@@ -8,9 +8,9 @@ slug: oido-escritura-y-primera-vista
 kind: lesson
 order: 4
 title: Oído, escritura y primera vista
-summary: "Cambia entre sonido, escritura y lectura nueva sin añadir vocabulario notacional: escucha y escribe células binarias, crea un compás válido y realiza una primera vista protegida registrando precisión y continuidad por separado."
+summary: "Cambia entre sonido, escritura y lectura nueva sin añadir vocabulario notacional: escucha y escribe células binarias, crea un compás válido y realiza una ventana temprana de lectura nueva protegida, sin convertirla todavía en evidencia formal D5."
 duration: 25–30 min
-competencies: [C1, C2, D1, D5, D6, E2, E3, E4, F1, K4, K5, K6]
+competencies: [C1, C2, D1, D6, E2, E3, E4, F1, K4, K5, K6]
 rudiments: []
 published: true
 ---
@@ -21,7 +21,9 @@ Esta lección no añade una nueva figura ni un nuevo rudimento. Comprueba si el 
 
 El núcleo es exactamente ese cambio. No conviertas cada modalidad en un objetivo distinto.
 
-**ESENCIAL AHORA:** dictado, escritura de un compás, una primera vista protegida, recuperación y registro. **AMPLIACIÓN:** la ventana 3+3+2 únicamente si el núcleo no ha consumido la carga disponible. **AVANZADO:** explicar con precisión dónde se produjo un error y recuperarse sin reiniciar automáticamente.
+**ESENCIAL AHORA:** dictado, escritura de un compás, una ventana temprana de lectura nueva, recuperación y registro. **AMPLIACIÓN:** la ventana 3+3+2 únicamente si el núcleo no ha consumido la carga disponible. **AVANZADO:** explicar con precisión dónde se produjo un error y recuperarse sin reiniciar automáticamente.
+
+> **VENTANA CURRICULAR:** aquí puedes experimentar el primer encuentro con una línea nueva y aprender a no contaminarla con playback o ensayo previo. **No se registra todavía como evidencia formal D5.** La competencia D5 —lectura a primera vista elemental— se introduce y observa formalmente en U9, cuando los prerrequisitos D1–D4 y C1/C2 permiten aislarla como dificultad central.
 
 ## 1. Dictado corto — 4–5 min
 
@@ -80,11 +82,11 @@ Después valida cuatro cosas:
 
 Finalmente cuenta/canta tu compás y tócalo. Si lo que tocas no coincide con lo que escribiste, decide primero si debes corregir **la ejecución** o **la escritura**. No arregles ambos a la vez sin diagnosticar cuál era el error.
 
-## 3. Primera vista controlada — 6–8 min
+## 3. Ventana temprana de lectura nueva — 6–8 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La siguiente línea es **material exclusivo de esta primera vista**. No aparece en L1–L3 y no debes escucharla antes del primer intento.
+La siguiente línea es **material exclusivo de esta ventana de lectura nueva**. No aparece en L1–L3 y no debes escucharla antes del primer intento.
 
 Antes de pulsar **Empezar**:
 
@@ -102,7 +104,9 @@ Cuando pulses **Empezar**:
 
 <div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-title="20.U1.L4 — primera vista controlada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-Pulsa **Finalizar intento** antes de usar playback. Después puedes escuchar la partitura y repetir libremente como feedback, pero esa repetición ya no cuenta como primera vista.
+El atributo técnico de primera vista mantiene la partitura oculta y bloquea playback hasta completar el primer intento. Aquí esa protección sirve para enseñar el procedimiento **sin convertir la muestra en una evaluación formal D5**.
+
+Pulsa **Finalizar intento** antes de usar playback. Después puedes escuchar la partitura y repetir libremente como feedback, pero esa repetición ya no cuenta como material nuevo.
 
 Registra dos observaciones distintas:
 
@@ -111,7 +115,7 @@ Registra dos observaciones distintas:
 
 Una lectura con un error pequeño y buena recuperación no es equivalente a una lectura que acierta los primeros compases y se detiene por completo ante el primer fallo.
 
-Si ya has visto esta partitura en una sesión anterior, **no vuelvas a contarla como material nuevo**. Úsala como práctica y reserva la inferencia de primera vista para una muestra exclusiva posterior.
+Si ya has visto esta partitura en una sesión anterior, **no vuelvas a contarla como material nuevo**. Úsala como práctica. La observación de esta ventana puede orientar correctivos de D1/C1/C2, pero **no actualiza D5**; U9 reservará esa inferencia para muestras formales realmente nuevas.
 
 ## 4. Recuperación — 4–5 min
 
@@ -123,7 +127,7 @@ Vuelve ahora a una tarea conocida de L2 sin practicarla inmediatamente antes. Us
 
 Haz una toma sin playback previo. Después habilita el audio sólo si necesitas comprobar duración o continuidad.
 
-Compara esta recuperación con la primera vista sin mezclarlas:
+Compara esta recuperación con la ventana de lectura nueva sin mezclarlas:
 
 - si la recuperación funciona y la lectura nueva no, la novedad/decodificación puede ser la variable principal;
 - si ambas pierden el pulso en silencios, vuelve a C1/C2 y a la rejilla temporal;
@@ -147,7 +151,7 @@ Puedes marcar el inicio de cada grupo en:
 
 El pulso de negra y el compás **siguen siendo 4/4**. Esto es una **agrupación** de ocho corcheas, no 7/8, no polirritmia y no polimetría.
 
-No lo evalúes ni lo uses como requisito para llegar al checkpoint. Si compite con dictado, escritura o primera vista, se elimina primero.
+No lo evalúes ni lo uses como requisito para llegar al checkpoint. Si compite con dictado, escritura o lectura nueva, se elimina primero.
 
 ## 6. Registro — 2 min
 
@@ -155,19 +159,19 @@ No conviertas haber terminado la página en evidencia automática. Registra mues
 
 - dictado: número de escuchas y principal discrepancia entre sonido y escritura;
 - escritura propia: si cerró correctamente el 4/4 y coincidió con lo que tocaste;
-- primera vista: **precisión** y **continuidad/recuperación** por separado;
+- lectura nueva: **precisión** y **continuidad/recuperación** por separado, como observación preliminar y no como D5 formal;
 - recuperación: qué permaneció disponible después de la separación;
 - variable limitante principal y siguiente acción.
 
 Usa la cadena:
 
 - **INFERENCIA:** qué parece disponible o frágil;
-- **EVIDENCIA:** qué dictado, compás escrito, primera vista o recuperación lo demuestra;
+- **EVIDENCIA:** qué dictado, compás escrito, lectura nueva o recuperación lo demuestra;
 - **TAREA:** cambio entre representación auditiva, escrita y ejecutada;
 - **CONDICIONES:** tempo, click, número de escuchas, playback bloqueado en el primer intento;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
-Completar la sesión **no actualiza automáticamente** C1, C2, D1, D5, D6, E2, E3 ni E4. La primera vista aporta evidencia de D5 sólo si el material era realmente nuevo y el primer intento permaneció protegido.
+Completar la sesión **no actualiza automáticamente** C1, C2, D1, D6, E2, E3 ni E4. Esta ventana tampoco actualiza D5: **U9 introduce formalmente D5** cuando la lectura nueva puede aislarse como dificultad central.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -175,26 +179,26 @@ Puedes pasar al checkpoint de 20.U1 cuando:
 
 - puedes escuchar una célula binaria corta y producir una representación escrita razonable después de las repeticiones que necesites;
 - puedes crear un compás propio que cierre correctamente en 4/4 y explicar dónde están sus ataques/silencios;
-- realizas una primera lectura realmente nueva sin escucharla ni practicarla antes;
+- realizas una lectura realmente nueva sin escucharla ni practicarla antes, tratándola como ventana de procedimiento y no como certificación D5;
 - distingues **precisión** de **continuidad/recuperación** al describir el intento;
 - puedes recuperar una tarea conocida sin convertir primero la recuperación en práctica masiva;
 - no aparece una señal de salud que obligue a detener o reducir carga.
 
-No se exige un BPM concreto, una primera vista perfecta ni completar la ventana 3+3+2.
+No se exige un BPM concreto, una lectura nueva perfecta ni completar la ventana 3+3+2.
 
 ## COMPETENTE / FUNCIONAL
 
-La transferencia empieza a ser funcional cuando puedes pasar entre **escuchar, escribir, leer y tocar** el mismo vocabulario básico sin que cada cambio de representación obligue a reaprenderlo desde cero, y cuando un error pequeño no destruye automáticamente la continuidad.
+La transferencia empieza a ser funcional cuando puedes pasar entre **escuchar, escribir, leer y tocar** el mismo vocabulario básico sin que cada cambio de representación obligue a reaprenderlo desde cero, y cuando un error pequeño no destruye automáticamente la continuidad. Esto describe la integración de representaciones de U1; **no declara D5 funcional**.
 
 ## AVANZADO EN ESTA TAREA
 
-Como ampliación, describe con lenguaje temporal exacto un error de la primera vista —por ejemplo, posición dentro del pulso, duración o pérdida de subdivisión— y diseña un correctivo de uno o dos compases que ataque únicamente esa variable.
+Como ampliación, describe con lenguaje temporal exacto un error de la lectura nueva —por ejemplo, posición dentro del pulso, duración o pérdida de subdivisión— y diseña un correctivo de uno o dos compases que ataque únicamente esa variable.
 
 ## Si algo se rompe
 
 - **oído correcto pero escritura incoherente:** vuelve a marcar cuatro pulsos y coloca primero los ataques antes de decidir figuras;
 - **la escritura cierra pero al tocar cambia:** compara compás por compás y decide si el error es D6 o ejecución;
-- **primera vista se convierte en ensayo:** detén repeticiones y deja de tratar esa partitura como evidencia de D5;
+- **la lectura nueva se convierte en ensayo:** detén repeticiones y deja de tratar esa partitura como material nuevo;
 - **un error provoca parada total:** reduce longitud y practica reentrada en un pulso claro sin perseguir exactitud perfecta;
 - **la recuperación conocida también colapsa:** vuelve a rejilla, pulso y subdivisión antes de aumentar densidad.
 

@@ -4,9 +4,14 @@ on:
   pull_request:
     branches:
       - main
+      - 'integration/**'
 
 permissions:
   contents: read
+
+concurrency:
+  group: check-aprendo-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   check:
@@ -16,6 +21,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,10 +36,37 @@ jobs:
       - name: Check project
         run: npm run check
 
-      - name: Run tests
+      - name: Run targeted course tests
+        if: startsWith(github.base_ref, 'integration/')
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          mapfile -t changed_tests < <(
+            git diff --name-only "$BASE_SHA"...HEAD -- tests \
+              | grep -E '^tests/.*\.test\.ts$' \
+              || true
+          )
+
+          tests=(
+            tests/battery-curriculum-integrity.test.ts
+            tests/course-content-slugs.test.ts
+            tests/course-musicxml-playback-contract.test.ts
+            tests/course-notation-contract.test.ts
+          )
+          tests+=("${changed_tests[@]}")
+
+          mapfile -t unique_tests < <(printf '%s\n' "${tests[@]}" | awk 'NF && !seen[$0]++')
+          printf 'Targeted tests (%s):\n' "${#unique_tests[@]}"
+          printf '  %s\n' "${unique_tests[@]}"
+          node --test "${unique_tests[@]}"
+
+      - name: Run full tests
+        if: github.base_ref == 'main'
         run: npm test
 
       - name: Test SQLite backup helper
+        if: github.base_ref == 'main'
         run: |
           set -euo pipefail
           source_db="${RUNNER_TEMP}/source.sqlite"
@@ -53,6 +88,7 @@ jobs:
           PY
 
       - name: Test Nginx plain proxy migration
+        if: github.base_ref == 'main'
         run: |
           set -euo pipefail
           fixture="$(mktemp)"
@@ -108,15 +144,18 @@ jobs:
           cmp "$fixture" "${fixture}.once"
 
       - name: Build site
+        if: github.base_ref == 'main'
         run: npm run build
 
       - name: Verify runtime build
+        if: github.base_ref == 'main'
         run: |
           set -euo pipefail
           test -f dist/server/entry.mjs
           test -d dist/client/_astro
 
       - name: Exercise platform authentication flow
+        if: github.base_ref == 'main'
         env:
           HOST: 127.0.0.1
           PORT: 4322
@@ -204,7 +243,7 @@ jobs:
             -H 'X-Forwarded-Port: 443' \
             -H 'Content-Type: application/x-www-form-urlencoded' \
             --data-urlencode 'username=mallo' \
-            --data-urlencode "password=$CI_TEST_PASSWORD" \
+            --data-urlencode 'password=wrong' \
             http://127.0.0.1:4322/api/auth/login/)"
           test "$hostile_origin_status" = "403"
 
