@@ -1,5 +1,5 @@
 ---
-contentId: bat-f2-u10-checkpoint
+contentId: bat-f2-u10-check
 courseId: bateria
 phase: 2
 unit: 10
