@@ -22,8 +22,8 @@
         <staff-details><staff-lines>5</staff-lines></staff-details>
       </attributes>
       <direction placement="above">
-        <direction-type><metronome><beat-unit>quarter</beat-unit><beat-unit-dot/><per-minute>60</per-minute></metronome></direction-type>
-        <sound tempo="90"/>
+        <direction-type><metronome><beat-unit>quarter</beat-unit><beat-unit-dot/><per-minute>80</per-minute></metronome></direction-type>
+        <sound tempo="120"/>
       </direction>
       <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>18</duration><type>quarter</type><dot/><notehead>normal</notehead></note>
       <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>18</duration><type>quarter</type><dot/><notehead>normal</notehead></note>
