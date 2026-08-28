@@ -23,7 +23,7 @@ El objetivo central es **D5 — lectura a primera vista elemental**, apoyada por
 
 ## Regla de validez de toda U9
 
-Una partitura sólo aporta evidencia de primera vista **en el primer encuentro válido**.
+Una partitura sólo aporta evidencia de primera vista **en el primer encuentro válido**. Tras ese primer encuentro, **ya no aporta nueva evidencia independiente de D5**.
 
 Cuando ya la has visto, analizado, tocado o escuchado:
 
