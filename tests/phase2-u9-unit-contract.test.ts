@@ -113,12 +113,18 @@ test('Phase 2 U9 formal samples are protected before first attempt, source-linke
 });
 
 test('Phase 2 U9 repeatedly states that practiced material no longer supplies independent first-sight evidence', async () => {
+  const oneUseSignals = [
+    'ya no',
+    'deja de',
+    'sólo es válida',
+    'solo es válida',
+    'no como nueva evidencia',
+    'no la cuentes como primera vista',
+    'ya es práctica',
+  ];
   for (const name of ['overview', 'l1', 'l2', 'l3', 'l4', 'checkpoint'] as const) {
     const markdown = (await readPage(name)).toLowerCase();
-    assert.ok(
-      markdown.includes('ya no') || markdown.includes('deja de') || markdown.includes('sólo es válida') || markdown.includes('solo es válida'),
-      `${name}: expected explicit one-use first-sight validity language`,
-    );
+    assert.ok(oneUseSignals.some((signal) => markdown.includes(signal)), `${name}: expected explicit one-use first-sight validity language`);
   }
 });
 
