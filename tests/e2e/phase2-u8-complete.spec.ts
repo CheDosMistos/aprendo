@@ -42,7 +42,7 @@ async function expectLoadedFeedbackScore(page: Page, sourceLabel: string, href: 
 
 test('Phase 2 U8 overview exposes the notation-first architecture and keeps D5/U10 outside the unit', async ({ page }, testInfo) => {
   await login(page, testInfo);
-  await page.goto('/bateria/fase-2-unidad-8/fase-2-unidad-8-introduccion/');
+  await page.goto('/bateria/fase-2-unidad-8/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Sextillos, rolls y ornamentaciones escritas' })).toBeVisible();
   await expect(page.getByText('VER EL SÍMBOLO → DECODIFICAR SU FUNCIÓN → EJECUTAR → RECONOCER/APLICAR LA FAMILIA.', { exact: true })).toBeVisible();
