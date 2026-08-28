@@ -31,7 +31,7 @@ test('Phase 2 U6 checkpoint asks the approved 6/8 gate inference without promoti
 
   assert.match(markdown, /¿D4\/F2 y C1\/C2 permiten abrir la siguiente ampliación del compás compuesto conservando 6\/8 como dos pulsos principales subdivididos en tres/);
   assert.match(markdown, /no demuestra E5 general/i);
-  assert.match(markdown, /no se registra esta tarea como primera vista formal D5/i);
+  assert.match(markdown, /Tampoco se registra esta tarea como primera vista formal D5/i);
   assert.match(markdown, /El BPM describe la \*\*condición\*\* de la muestra; no define el nivel/);
 });
 
@@ -58,8 +58,8 @@ test('Phase 2 U6 checkpoint score is a validated 4-bar 6/8 sample with correct c
   assert.match(score, /<score-partwise version="4\.0">/);
   assert.match(score, /<divisions>12<\/divisions>/);
   assert.match(score, /<time><beats>6<\/beats><beat-type>8<\/beat-type><\/time>/);
-  assert.match(score, /<metronome><beat-unit>quarter<\/beat-unit><beat-unit-dot\/><per-minute>72<\/per-minute><\/metronome>/);
-  assert.match(score, /<sound tempo="108"\/>/);
+  assert.match(score, /<metronome><beat-unit>quarter<\/beat-unit><beat-unit-dot\/><per-minute>80<\/per-minute><\/metronome>/);
+  assert.match(score, /<sound tempo="120"\/>/);
   assert.match(score, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);
   assert.match(score, /<midi-channel>10<\/midi-channel>/);
   assert.match(score, /<midi-unpitched>39<\/midi-unpitched>/);
