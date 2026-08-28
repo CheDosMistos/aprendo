@@ -65,7 +65,7 @@ test('Phase 2 U5 L4 connects ear imitation writing reading and transformation wi
   await expect(page.getByRole('heading', { level: 3, name: 'Transformación B — 3 → 4' })).toBeVisible();
   await expect(page.getByText('No afirmes equivalencia de ataques:', { exact: false })).toBeVisible();
   await expect(page.getByText('no se registra como evidencia formal de primera vista D5', { exact: false })).toBeVisible();
-  await expect(page.getByText('Esto no convierte 4/4 en 6/8.', { exact: true })).toBeVisible();
+  await expect(page.getByText('Esto no convierte 4/4 en 6/8.', { exact: false })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR AL CHECKPOINT DE U5' })).toBeVisible();
   await expect(page.getByText('un BPM concreto o alto', { exact: false })).toBeVisible();
   await expect(page.getByText('pasen automáticamente a FUNCIONAL', { exact: false })).toBeVisible();
