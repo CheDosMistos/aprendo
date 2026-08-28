@@ -19,7 +19,7 @@ La novedad no es una figura nueva. Es mantener la estructura al pasar de sonido 
 
 ## Estímulo A
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="4" data-pattern="10110100" data-answer="Dos pulsos de 4/4 sobre rejilla de semicorcheas: ataques en 1, &, a, 2 y & de 2 según la rejilla mostrada por Aprendo."></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="4" data-pattern="10110100" data-answer="Dos pulsos sobre rejilla de semicorcheas — patrón 1 0 1 1 | 0 1 0 0. Compara tus ocho posiciones de ataque/silencio."></div>
 
 Antes de revelar:
 
