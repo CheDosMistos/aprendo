@@ -16,7 +16,7 @@ concurrency:
 jobs:
   browser-e2e:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 14
 
     steps:
       - name: Checkout repository
@@ -29,6 +29,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
+          cache: npm
 
       - name: Install dependencies
         run: npm ci --no-audit --no-fund
@@ -36,8 +37,51 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Plan browser scope
+        id: plan
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          set -euo pipefail
+          mapfile -t changed_files < <(git diff --name-only "$BASE_SHA"...HEAD)
+          mapfile -t changed_specs < <(
+            printf '%s\n' "${changed_files[@]}" \
+              | grep -E '^tests/e2e/.*\.spec\.ts$' \
+              || true
+          )
+
+          full_suite=false
+          if [ "$BASE_REF" = 'main' ]; then
+            for file in "${changed_files[@]}"; do
+              case "$file" in
+                .github/workflows/*|playwright.config.ts|package.json|package-lock.json|src/platform/*|src/pages/api/*|src/pages/login/*|src/pages/cuenta/*|src/courses/bateria/components/*|src/courses/bateria/contentRegistry.ts|src/courses/bateria/course.config.ts|src/pages/bateria/\[unit\]/*)
+                  full_suite=true
+                  ;;
+              esac
+            done
+          fi
+
+          smoke_re='^tests/e2e/(aprendo|first-sight|battery-unit-cards)\.spec\.ts$'
+          printf '%s\n' "${changed_specs[@]}" | grep -Ev "$smoke_re" > "${RUNNER_TEMP}/changed-e2e-specs.txt" || true
+          if [ -s "${RUNNER_TEMP}/changed-e2e-specs.txt" ]; then
+            has_changed_specs=true
+          else
+            has_changed_specs=false
+          fi
+
+          echo "full_suite=$full_suite" >> "$GITHUB_OUTPUT"
+          echo "has_changed_specs=$has_changed_specs" >> "$GITHUB_OUTPUT"
+          printf 'Browser scope: base=%s full_suite=%s changed_specs=%s\n' "$BASE_REF" "$full_suite" "$has_changed_specs"
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
       - name: Install Chromium for integration PR
-        if: startsWith(github.base_ref, 'integration/')
+        if: startsWith(github.base_ref, 'integration/') && steps.plan.outputs.has_changed_specs == 'true'
         run: npx playwright install --with-deps chromium
 
       - name: Install Chromium and WebKit for main PR
@@ -53,10 +97,17 @@ jobs:
           E2E_USERNAME: e2e-admin
           E2E_PASSWORD: ci-e2e-password-2026
           PLAYWRIGHT_BASE_URL: http://localhost:4323
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
           BASE_REF: ${{ github.base_ref }}
+          FULL_SUITE: ${{ steps.plan.outputs.full_suite }}
+          HAS_CHANGED_SPECS: ${{ steps.plan.outputs.has_changed_specs }}
         run: |
           set -euo pipefail
+
+          if [[ "$BASE_REF" == integration/* ]] && [ "$HAS_CHANGED_SPECS" != 'true' ]; then
+            echo 'No changed E2E specs; skipping browser execution for integration PR.'
+            exit 0
+          fi
+
           printf '%s' "$E2E_PASSWORD" | npm run provision-user -- \
             --stable-key e2e-admin \
             --username "$E2E_USERNAME" \
@@ -74,18 +125,28 @@ jobs:
           curl --fail --silent --max-time 2 http://127.0.0.1:4323/api/health/ >/dev/null
 
           if [[ "$BASE_REF" == integration/* ]]; then
-            mapfile -t specs < <(
-              git diff --name-only "$BASE_SHA"...HEAD -- tests/e2e \
-                | grep -E '^tests/e2e/.*\.spec\.ts$' \
-                || true
-            )
-            if [ "${#specs[@]}" -eq 0 ]; then
-              echo 'No changed E2E specs; skipping browser test execution.'
-              exit 0
-            fi
-            printf 'Changed E2E specs (%s):\n' "${#specs[@]}"
+            mapfile -t specs < "${RUNNER_TEMP}/changed-e2e-specs.txt"
+            printf 'Changed integration E2E specs (%s):\n' "${#specs[@]}"
             printf '  %s\n' "${specs[@]}"
             npx playwright test --project=chromium-desktop "${specs[@]}"
-          else
+            exit 0
+          fi
+
+          if [ "$FULL_SUITE" = 'true' ]; then
+            echo 'High-risk/global change detected: running the complete browser suite.'
             npm run test:e2e
+            exit 0
+          fi
+
+          echo 'Running cross-browser smoke suite.'
+          npx playwright test \
+            tests/e2e/aprendo.spec.ts \
+            tests/e2e/first-sight.spec.ts \
+            tests/e2e/battery-unit-cards.spec.ts
+
+          if [ "$HAS_CHANGED_SPECS" = 'true' ]; then
+            mapfile -t specs < "${RUNNER_TEMP}/changed-e2e-specs.txt"
+            printf 'Running changed E2E specs on Chromium desktop (%s):\n' "${#specs[@]}"
+            printf '  %s\n' "${specs[@]}"
+            npx playwright test --project=chromium-desktop "${specs[@]}"
           fi
