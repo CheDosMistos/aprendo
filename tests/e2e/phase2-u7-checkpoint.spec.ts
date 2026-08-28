@@ -64,7 +64,8 @@ test('Phase 2 U7 checkpoint A/B isolates 2x3 versus 3x2 with the same six-positi
 
   await widgets.nth(1).getByRole('button', { name: 'Mostrar respuesta' }).click();
   await expect(widgets.nth(1).locator('[data-dictation-answer-text]')).toHaveText('3/4 prototípico — 3 pulsos principales × 2 subdivisiones: simple.');
-  await expect(page.getByText('A y B vuelven a usar el mismo patrón de seis posiciones, pero el count-in establece una relación distinta entre posiciones y pulso principal.', { exact: true })).toBeVisible();
+  await expect(page.locator('p').filter({ hasText: 'A y B vuelven a usar el mismo patrón de seis posiciones' })).toBeVisible();
+  await expect(page.locator('p').filter({ hasText: 'reconocer 2×3 frente a 3×2' })).toBeVisible();
 });
 
 test('Phase 2 U7 checkpoint exposes all four decisions and keeps U8 novelty outside the gate', async ({ page }, testInfo) => {
