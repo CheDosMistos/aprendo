@@ -83,8 +83,8 @@ test('Phase 2 U6 L1 MusicXML encodes real 6/8 with ordinary eighth notes and exa
   assert.match(score, /<divisions>12<\/divisions>/);
   assert.match(score, /<time><beats>6<\/beats><beat-type>8<\/beat-type><\/time>/);
   assert.doesNotMatch(score, /<time><beats>4<\/beats><beat-type>4<\/beat-type><\/time>/);
-  assert.match(score, /<metronome><beat-unit>quarter<\/beat-unit><beat-unit-dot\/><per-minute>60<\/per-minute><\/metronome>/);
-  assert.match(score, /<sound tempo="90"\/>/);
+  assert.match(score, /<metronome><beat-unit>quarter<\/beat-unit><beat-unit-dot\/><per-minute>80<\/per-minute><\/metronome>/);
+  assert.match(score, /<sound tempo="120"\/>/);
   assert.match(score, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);
   assert.match(score, /<midi-channel>10<\/midi-channel>/);
   assert.match(score, /<midi-unpitched>39<\/midi-unpitched>/);
@@ -128,10 +128,11 @@ test('Phase 2 U6 L1 preserves feedback-first study, explicit metronome unit and 
   assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 0);
   assert.equal((markdown.match(/data-score-source-label="MusicXML — fuente del ejercicio"/g) ?? []).length, 1);
   assert.match(markdown, /VER → CONTAR → CANTAR → TOCAR → ESCUCHAR/);
-  assert.match(markdown, /♩\. = 60/);
+  assert.match(markdown, /♩\. = 80/);
   assert.match(markdown, /♩\. = 54/);
-  assert.match(markdown, /60 pulsos principales de negra con puntillo por minuto/);
-  assert.match(markdown, /<sound tempo="90"\/>/);
+  assert.match(markdown, /80 pulsos principales de negra con puntillo por minuto/);
+  assert.match(markdown, /<sound tempo="120"\/>/);
+  assert.match(markdown, /no una velocidad prescrita para practicar/i);
   assert.match(markdown, /INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN/);
   assert.match(markdown, /CONTINUAR.*CONTINUAR \+ CORRECTIVO.*REDUCIR NOVEDAD.*DETENER CARGA/s);
   assert.match(markdown, /## MÍNIMO PARA AVANZAR A L2/);
