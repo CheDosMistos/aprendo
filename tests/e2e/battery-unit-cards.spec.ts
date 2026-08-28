@@ -1,0 +1,89 @@
+import { expect, test, type Page, type TestInfo } from '@playwright/test';
+
+const username = process.env.E2E_USERNAME ?? 'e2e-admin';
+const password = process.env.E2E_PASSWORD ?? 'ci-e2e-password-2026';
+const baseUrl = process.env.PLAYWRIGHT_BASE_URL ?? 'http://localhost:4323';
+
+async function login(page: Page, testInfo: TestInfo): Promise<void> {
+  if (testInfo.project.name === 'webkit-tablet') {
+    const response = await page.request.post(`${baseUrl}/api/auth/login/`, {
+      form: { username, password },
+      headers: { Origin: baseUrl },
+      maxRedirects: 0,
+    });
+    expect(response.status()).toBe(303);
+    const match = /(?:^|,\s*)aprendo_session=([^;]+)/i.exec(response.headers()['set-cookie'] ?? '');
+    expect(match?.[1]).toBeTruthy();
+    const url = new URL(baseUrl);
+    await page.context().addCookies([{
+      name: 'aprendo_session',
+      value: match![1],
+      domain: url.hostname,
+      path: '/',
+      httpOnly: true,
+      secure: false,
+      sameSite: 'Strict',
+    }]);
+    return;
+  }
+
+  await page.goto('/login/');
+  await page.getByLabel('Usuario').fill(username);
+  await page.getByLabel('Contraseña').fill(password);
+  await page.getByLabel('Contraseña').press('Enter');
+  await expect(page).toHaveURL(`${baseUrl}/`);
+}
+
+test('unit cards use two columns and one contextual action through pending, active and complete states', async ({ page }, testInfo) => {
+  await login(page, testInfo);
+
+  let completedIds: string[] = [];
+  await page.route(/\/api\/progress\/bateria\/\?limit=1$/, async (route) => {
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({ summary: { completedContentIds: completedIds, needsReviewContentIds: [] } }),
+    });
+  });
+
+  await page.goto('/bateria/');
+  const card = page.locator('[data-unit-card]').filter({ hasText: 'Fase 1 · Unidad 2' });
+  await expect(card).toHaveCount(1);
+  await expect(card.getByText('Secciones', { exact: true })).toHaveCount(0);
+  await expect(card.locator('[data-section-state]')).toHaveCount(0);
+
+  const rows = card.locator('[data-content-id]');
+  await expect(rows).toHaveCount(5);
+  await expect(rows.nth(0).locator('.section-kind')).toHaveText('Lección 1');
+  await expect(rows.nth(1).locator('.section-kind')).toHaveText('Lección 2');
+  await expect(rows.nth(4).locator('.section-kind')).toHaveText('Cierre');
+  await expect(rows.nth(0).locator('.section-title')).toHaveText('Singles agrupados y subdivisión');
+  await expect(rows.nth(4).locator('.section-title')).toHaveText('¿puedo continuar?');
+  await expect(rows.nth(0).locator('.section-title')).not.toContainText('Lección 1');
+
+  const firstGrid = await rows.nth(0).locator('a').evaluate((element) => getComputedStyle(element).gridTemplateColumns);
+  expect(firstGrid.trim().split(/\s+/)).toHaveLength(2);
+
+  const action = card.locator('[data-unit-action]');
+  await expect(action).toHaveCount(1);
+  await expect(action).toHaveText('Empezar unidad');
+  await expect(action).toHaveAttribute('href', await rows.nth(0).locator('a').getAttribute('href') ?? '');
+
+  const ids = await rows.evaluateAll((elements) => elements.map((element) => element.getAttribute('data-content-id') ?? ''));
+  completedIds = [ids[0]];
+  await page.reload();
+
+  const activeCard = page.locator('[data-unit-card]').filter({ hasText: 'Fase 1 · Unidad 2' });
+  const activeRows = activeCard.locator('[data-content-id]');
+  const activeAction = activeCard.locator('[data-unit-action]');
+  await expect(activeAction).toHaveText('Continuar unidad');
+  await expect(activeAction).toHaveAttribute('href', await activeRows.nth(1).locator('a').getAttribute('href') ?? '');
+
+  completedIds = ids;
+  await page.reload();
+
+  const completeCard = page.locator('[data-unit-card]').filter({ hasText: 'Fase 1 · Unidad 2' });
+  const completeAction = completeCard.locator('[data-unit-action]');
+  await expect(completeAction).toHaveText('Ver unidad');
+  await expect(completeAction).toHaveAttribute('href', '/bateria/unidad-2/');
+});
