@@ -111,7 +111,7 @@ Después habilita audio y úsalo como **feedback posterior**, no como patrón qu
 
 Todos los compases suman exactamente seis corcheas equivalentes.
 
-La marca de tempo del asset es `♩. = 60`. Esto significa **60 pulsos principales de negra con puntillo por minuto**. MusicXML usa además `<sound tempo="90"/>` como equivalencia técnica en negras para el reproductor. Ninguno de esos valores es criterio de aprobación.
+La marca de tempo del asset es `♩. = 80`. Esto significa **80 pulsos principales de negra con puntillo por minuto**. MusicXML usa además `<sound tempo="120"/>` como equivalencia técnica en negras y como referencia estándar de playback de los assets estáticos del curso. Ninguno de esos valores es criterio de aprobación ni una velocidad prescrita para practicar.
 
 ## 4. Pulso principal y bilateralidad — 4–5 min
 
