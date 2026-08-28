@@ -43,7 +43,7 @@ Condiciones:
 
 - compás real `6/8`;
 - unidad de pulso prototípica: **negra con puntillo**;
-- tempo visible `♩. = 72` y playback técnico `<sound tempo="108"/>`;
+- tempo visible `♩. = 80` y playback técnico `<sound tempo="120"/>`;
 - sticking libre y sencillo: esta puerta no evalúa una digitación concreta;
 - si usas click, haz que represente los **dos pulsos grandes** o registra claramente otra ayuda;
 - conteo o canto son ayudas válidas si quedan registradas;
