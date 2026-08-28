@@ -47,7 +47,7 @@ test('Phase 2 U6 L3 makes 3/4 versus 6/8 metric hierarchy the single dominant no
   assert.match(markdown, /6\/8 = 2 pulsos principales × 3 corcheas por pulso/);
   assert.match(markdown, /AGRUPACIÓN ≠ COMPÁS/);
   assert.match(markdown, /no estamos comparando dos velocidades distintas/i);
-  assert.match(markdown, /beaming[^\n]*no conviertas el beaming en la definición del compás/is);
+  assert.match(markdown, /Ver `2\+2\+2` o `3\+3` ayuda a leer la jerarquía, pero no conviertas el beaming en la definición del compás/i);
   assert.match(markdown, /Un patrón de acentos puede sugerir o reforzar una agrupación, pero no cambia por sí mismo/i);
   assert.match(markdown, /no tendrías evidencia suficiente para decidir cuál de las dos métricas se pretendía/i);
 });
