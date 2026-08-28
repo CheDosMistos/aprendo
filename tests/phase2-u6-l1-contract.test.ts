@@ -132,7 +132,7 @@ test('Phase 2 U6 L1 preserves feedback-first study, explicit metronome unit and 
   assert.match(markdown, /♩\. = 54/);
   assert.match(markdown, /80 pulsos principales de negra con puntillo por minuto/);
   assert.match(markdown, /<sound tempo="120"\/>/);
-  assert.match(markdown, /no una velocidad prescrita para practicar/i);
+  assert.match(markdown, /ni una velocidad prescrita para practicar/i);
   assert.match(markdown, /INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN/);
   assert.match(markdown, /CONTINUAR.*CONTINUAR \+ CORRECTIVO.*REDUCIR NOVEDAD.*DETENER CARGA/s);
   assert.match(markdown, /## MÍNIMO PARA AVANZAR A L2/);
