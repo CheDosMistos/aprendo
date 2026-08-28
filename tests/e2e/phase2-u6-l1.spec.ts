@@ -59,7 +59,7 @@ test('Phase 2 U6 L1 separates compound meter from 4/4 triplets and six equal pul
   await expect(page.getByText('COMPÁS 6/8 → 2 PULSOS PRINCIPALES → 3 CORCHEAS POR PULSO', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: '6/8 no es “4/4 sin el 3 del tresillo”' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'lees una línea elemental en 6/8 sin contar por defecto seis pulsos equivalentes' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'distingues corcheas ordinarias de 6/8 de tresillos `3:2` en 4/4' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'distingues corcheas ordinarias de 6/8 de tresillos 3:2 en 4/4' })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
 
