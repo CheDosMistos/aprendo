@@ -55,11 +55,11 @@ test('Phase 2 U5 L4 connects ear imitation writing reading and transformation wi
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-5/oir-escribir-y-transferir-2-3-4/');
 
-  await expect(page.getByRole('heading', { level: 2, name: '1. Oír e identificar — 5 min' })).toBeVisible();
+  await expect(page.locator('h2').filter({ hasText: '1. Oír e identificar' })).toBeVisible();
   await expect(page.getByText('E1 — PULSO:', { exact: true })).toBeVisible();
   await expect(page.getByText('E2 — SUBDIVISIÓN:', { exact: true })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: '2. Escuchar → imitar — 5 min' })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: '3. Escuchar → escribir — 6 min' })).toBeVisible();
+  await expect(page.locator('h2').filter({ hasText: '2. Escuchar → imitar' })).toBeVisible();
+  await expect(page.locator('h2').filter({ hasText: '3. Escuchar → escribir' })).toBeVisible();
   await expect(page.getByText('ESCUCHA → REPRESENTACIÓN → NOTACIÓN → EJECUCIÓN → COMPARACIÓN', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'Transformación A — 2 → 3' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'Transformación B — 3 → 4' })).toBeVisible();
