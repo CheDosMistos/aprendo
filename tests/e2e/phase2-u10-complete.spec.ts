@@ -56,7 +56,7 @@ test('U10 lesson exposes the four reference modes in the compact metronome and r
 test('U10 reduced modes are disabled outside 4/4 and checkpoint preserves decision language', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-10/gap-un-compas-con-un-compas-sin/');
-  const meter = page.getByLabel('Compás');
+  const meter = page.getByLabel('Compás', { exact: true });
   const reference = page.getByLabel('Densidad de referencia del metrónomo');
   await reference.selectOption('gap-one-bar');
   await meter.selectOption('6/8');
