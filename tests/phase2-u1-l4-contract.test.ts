@@ -22,7 +22,7 @@ async function countPageReferences(fragment: string): Promise<number> {
   return count;
 }
 
-test('Phase 2 U1 L4 is a representation-transfer lesson with no new PAS', async () => {
+test('Phase 2 U1 L4 is a representation-transfer lesson with no new PAS and no formal D5 assignment', async () => {
   const markdown = await readFile(lessonPath, 'utf8');
   const data = frontmatter(markdown);
 
@@ -35,12 +35,16 @@ test('Phase 2 U1 L4 is a representation-transfer lesson with no new PAS', async 
   assert.match(data, /^order:\s*4\s*$/m);
   assert.match(data, /^rudiments:\s*\[\]\s*$/m);
 
-  for (const competency of ['C1', 'C2', 'D1', 'D5', 'D6', 'E2', 'E3', 'E4', 'F1', 'K4', 'K5', 'K6']) {
+  for (const competency of ['C1', 'C2', 'D1', 'D6', 'E2', 'E3', 'E4', 'F1', 'K4', 'K5', 'K6']) {
     assert.match(data, new RegExp(`\\b${competency}\\b`), `Expected ${competency} in the L4 contract`);
   }
+  assert.doesNotMatch(data, /\bD5\b/, 'U1 may preview new-reading procedure but formal D5 starts in U9');
 
   assert.match(markdown, /no añade una nueva figura ni un nuevo rudimento/i);
   assert.match(markdown, /ESCUCHAR → RETENER\/CANTAR → ESCRIBIR → LEER → TOCAR → COMPROBAR/);
+  assert.match(markdown, /VENTANA CURRICULAR/);
+  assert.match(markdown, /No se registra todavía como evidencia formal D5/i);
+  assert.match(markdown, /U9.*introduce.*formalmente D5|D5.*se introduce.*formalmente en U9/i);
   assert.match(markdown, /ESENCIAL AHORA:/);
   assert.match(markdown, /AMPLIACIÓN:/);
   assert.match(markdown, /AVANZADO:/);
@@ -52,7 +56,7 @@ test('Phase 2 U1 L4 preserves the approved six-block structure and keeps the win
   for (const heading of [
     '## 1. Dictado corto — 4–5 min',
     '## 2. Escritura — 4–5 min',
-    '## 3. Primera vista controlada — 6–8 min',
+    '## 3. Ventana temprana de lectura nueva — 6–8 min',
     '## 4. Recuperación — 4–5 min',
     '## 5. AMPLIACIÓN / VENTANA',
     '## 6. Registro — 2 min',
@@ -93,21 +97,23 @@ test('Phase 2 U1 L4 writing task closes 4/4 without advancing sixteenth-note res
   assert.match(markdown, /si debes corregir \*\*la ejecución\*\* o \*\*la escritura\*\*/i);
 });
 
-test('Phase 2 U1 L4 first sight is exclusive, protected and scored separately for precision and continuity', async () => {
+test('Phase 2 U1 L4 early new-reading window is exclusive, protected and not formal D5 evidence', async () => {
   const markdown = await readFile(lessonPath, 'utf8');
 
-  assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 1, 'L4 should have exactly one formal first-sight score');
+  assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 1, 'L4 should use the protected first-encounter UI once');
   assert.match(markdown, /f2-u1-primera-vista-l4\.musicxml/);
   assert.equal(await countPageReferences('f2-u1-primera-vista-l4.musicxml'), 2, 'The exclusive L4 asset should only appear in the L4 score src and source URL');
-  assert.match(markdown, /material exclusivo de esta primera vista/i);
+  assert.match(markdown, /material exclusivo de esta ventana de lectura nueva/i);
   assert.match(markdown, /no debes escucharla antes del primer intento/i);
+  assert.match(markdown, /protección sirve para enseñar el procedimiento.*sin convertir la muestra en una evaluación formal D5/is);
   assert.match(markdown, /Pulsa \*\*Finalizar intento\*\* antes de usar playback/i);
   assert.match(markdown, /\*\*PRECISIÓN:\*\*/);
   assert.match(markdown, /\*\*CONTINUIDAD \/ RECUPERACIÓN:\*\*/);
   assert.match(markdown, /no vuelvas a contarla como material nuevo/i);
+  assert.match(markdown, /no actualiza D5/i);
 });
 
-test('Phase 2 U1 L4 first-sight MusicXML is original, metric-valid and stays inside U1 notation', async () => {
+test('Phase 2 U1 L4 protected MusicXML is original, metric-valid and stays inside U1 notation', async () => {
   const score = await readFile(firstSightPath, 'utf8');
 
   assert.match(score, /<score-partwise version="4\.0">/);
@@ -128,10 +134,10 @@ test('Phase 2 U1 L4 first-sight MusicXML is original, metric-valid and stays ins
   }
 });
 
-test('Phase 2 U1 L4 recovery is delayed practice, not another first-sight sample', async () => {
+test('Phase 2 U1 L4 recovery is delayed practice, not another protected new-reading sample', async () => {
   const markdown = await readFile(lessonPath, 'utf8');
 
-  assert.equal((markdown.match(/data-notation-score/g) ?? []).length, 2, 'L4 should contain one first-sight score and one recovery score');
+  assert.equal((markdown.match(/data-notation-score/g) ?? []).length, 2, 'L4 should contain one protected new-reading score and one recovery score');
   assert.match(markdown, /compases 7–8/i);
   assert.match(markdown, /f2-u1-rejilla-binaria-silencios\.musicxml/);
   assert.match(markdown, /data-score-feedback="after-attempt"/);
@@ -139,13 +145,14 @@ test('Phase 2 U1 L4 recovery is delayed practice, not another first-sight sample
   assert.match(markdown, /sin playback previo/i);
 });
 
-test('Phase 2 U1 L4 advancement prepares the checkpoint without creating a BPM gate', async () => {
+test('Phase 2 U1 L4 advancement prepares the checkpoint without creating a BPM or D5 gate', async () => {
   const markdown = await readFile(lessonPath, 'utf8');
 
   assert.match(markdown, /INFERENCIA:[\s\S]*EVIDENCIA:[\s\S]*TAREA:[\s\S]*CONDICIONES:[\s\S]*DECISIÓN:/);
   assert.match(markdown, /CONTINUAR.*CONTINUAR \+ CORRECTIVO.*REDUCIR NOVEDAD.*DETENER CARGA/s);
-  assert.match(markdown, /Completar la sesión \*\*no actualiza automáticamente\*\* C1, C2, D1, D5, D6, E2, E3 ni E4/i);
-  assert.match(markdown, /D5 sólo si el material era realmente nuevo/i);
+  assert.match(markdown, /Completar la sesión \*\*no actualiza automáticamente\*\* C1, C2, D1, D6, E2, E3 ni E4/i);
+  assert.match(markdown, /Esta ventana tampoco actualiza D5/i);
+  assert.match(markdown, /U9 introduce formalmente D5/i);
   assert.match(markdown, /## MÍNIMO PARA AVANZAR/);
   assert.match(markdown, /## COMPETENTE \/ FUNCIONAL/);
   assert.match(markdown, /## AVANZADO EN ESTA TAREA/);
