@@ -98,7 +98,7 @@ Un compás de semicorcheas ordinarias con alternancia:
 
 Un compás de sextillos con alternancia continua.
 
-Con sticking alterno, el líder de cada pulso cambiará naturalmente en grupos pares de seis sólo si la frase o el punto de inicio lo provoca; no conviertas el sticking en una regla métrica. Practica también comenzando con la mano izquierda.
+Con sticking alterno y grupos pares de seis, cada pulso vuelve a comenzar con la misma mano mientras la alternancia sea continua. Cambia deliberadamente la mano de inicio entre repeticiones para trabajar ambas orientaciones; no conviertas el sticking en una regla métrica.
 
 ### C. 4 ↔ 6
 
