@@ -71,7 +71,7 @@ test('Phase 2 U6 L4 separates transformation and internal regrouping from meter 
   await expect(page.locator('h2').filter({ hasText: '5. AMPLIACIÓN — reagrupación interna sin cambio métrico' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'métrica subyacente trabajada' })).toContainText('6/8');
   await expect(page.locator('li').filter({ hasText: 'agrupación/acento superpuesto' })).toContainText('2+2+2');
-  await expect(page.getByText('AGRUPACIÓN ≠ COMPÁS', { exact: true })).toBeVisible();
+  await expect(page.getByText('AGRUPACIÓN ≠ COMPÁS', { exact: true }).first()).toBeVisible();
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A U6.CP' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'primera vista formal D5 — U9' })).toBeVisible();
