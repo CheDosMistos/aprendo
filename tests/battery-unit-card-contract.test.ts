@@ -4,6 +4,12 @@ import test from 'node:test';
 
 const source = readFileSync(new URL('../src/pages/bateria/index.astro', import.meta.url), 'utf8');
 
+test('battery unit cards use a two-column card grid with a single-column compact fallback', () => {
+  assert.match(source, /\.unit-grid\{display:grid;grid-template-columns:repeat\(2,minmax\(0,1fr\)\);gap:1rem\}/);
+  assert.match(source, /@media\(max-width:48rem\).*\.unit-grid\{grid-template-columns:1fr\}/s);
+  assert.doesNotMatch(source, /repeat\(auto-fit,minmax\(min\(100%,22rem\),1fr\)\)/);
+});
+
 test('battery unit cards use a two-column section index without a visible section heading or state marker', () => {
   assert.doesNotMatch(source, /<h3>Secciones<\/h3>/);
   assert.doesNotMatch(source, /data-section-state/);
