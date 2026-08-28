@@ -112,7 +112,8 @@ const sectionTitle = (kind: string, title: string) => {
           if(unitState)unitState.textContent=needsReview?`${done}/${rows.length} · revisión`:`${done}/${rows.length}`;
           const nextRow=rows.find((row)=>row.dataset.state!=='complete');
           const nextLink=nextRow?.querySelector<HTMLAnchorElement>('a');
-          if(action){action.textContent='Continuar unidad';if(nextLink)action.href=nextLink.href;}
+          const nextHref=nextLink?.getAttribute('href');
+          if(action){action.textContent='Continuar unidad';if(nextHref)action.setAttribute('href',nextHref);}
         }
       }
       const status=home.querySelector<HTMLElement>('[data-course-status]');if(status)status.textContent=`${completed.size} sesiones disponibles · ${review.size} en revisión.`;
