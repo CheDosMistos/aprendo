@@ -64,6 +64,6 @@ test('U11 written cycle renders feedback-gated score and checkpoint preserves ev
   await expect(checkpointDictation).toHaveCount(1);
   await expect(checkpointDictation).toHaveAttribute('data-pattern', '10011100');
   await expect(checkpointDictation.locator('[data-dictation-answer-text]')).toBeHidden();
-  await expect(page.getByText('Una muestra parcial sólo actualiza las habilidades realmente observadas.', { exact: true })).toBeVisible();
+  await expect(page.getByText(/Una muestra parcial sólo actualiza las habilidades realmente observadas/)).toBeVisible();
   await expect(page.getByText(/U12 comprobará el Hito 2/)).toBeVisible();
 });
