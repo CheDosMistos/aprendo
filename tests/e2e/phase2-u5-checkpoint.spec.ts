@@ -80,7 +80,7 @@ test('Phase 2 U5 checkpoint separates subdivision from meter and keeps progressi
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U6' })).toBeVisible();
   await expect(page.getByText('un BPM fijo, universal o alto', { exact: false })).toBeVisible();
-  await expect(page.getByText('primera vista formal D5', { exact: false })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
 
   for (const decision of ['CONTINUAR', 'CONTINUAR + CORRECTIVO', 'REDUCIR NOVEDAD', 'DETENER CARGA']) {
