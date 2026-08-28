@@ -68,7 +68,7 @@ test('Phase 2 U7 L2 exposes pulse-unit conditions and continuity criteria', asyn
 
   await expect(page.locator('h2').filter({ hasText: '4. Continuidad a través de cuatro pulsos' })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '5. Metrónomo y unidad de pulso' })).toBeVisible();
-  await expect(page.locator('code').filter({ hasText: '♩. = 60' })).toBeVisible();
+  await expect(page.locator('code').filter({ hasText: '♩. = 60' }).first()).toBeVisible();
   await expect(page.getByText('Significa 60 pulsos principales por minuto y tres corcheas internas por pulso.', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L3' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'un BPM fijo o alto' })).toBeVisible();
