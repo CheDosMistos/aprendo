@@ -8,6 +8,7 @@ slug: fase-2-unidad-9-introduccion
 kind: unit
 order: 0
 title: "Primera vista I: continuidad y recuperación"
+summary: "Introduce D5 con material realmente nuevo, inspección breve, primer intento sin playback y evaluación separada de continuidad, recuperación y precisión."
 duration: Unidad flexible · 4 lecciones + checkpoint
 competencies: [C1, C2, C3, D5, K2, K4, K6]
 rudiments: []
