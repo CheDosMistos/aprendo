@@ -33,10 +33,13 @@ function measures(xml: string): string[] {
   return [...xml.matchAll(/<measure\b[^>]*>([\s\S]*?)<\/measure>/g)].map((match) => match[1] ?? '');
 }
 
+function noteBodies(measure: string): string[] {
+  return [...measure.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1] ?? '');
+}
+
 function metricDuration(measure: string): number {
   let total = 0;
-  for (const match of measure.matchAll(/<note>([\s\S]*?)<\/note>/g)) {
-    const note = match[1] ?? '';
+  for (const note of noteBodies(measure)) {
     if (note.includes('<grace')) continue;
     const duration = note.match(/<duration>(\d+)<\/duration>/)?.[1];
     assert.ok(duration, 'Every non-grace note/rest in the fixture must carry duration');
@@ -159,9 +162,9 @@ test('Phase 2 U8 L2 and L3 encode grace-note hierarchy without consuming metric 
   assert.deepEqual(flamBars.map(metricDuration), [48, 48]);
   assert.equal(count(flamBars[1] ?? '', /<grace slash="yes"\/>/g), 4);
   assert.equal(count(flamBars[1] ?? '', /<duration>12<\/duration><type>quarter<\/type>/g), 4);
-  for (const grace of (flamBars[1] ?? '').matchAll(/<note>([\s\S]*?<grace[\s\S]*?)<\/note>/g)) {
-    assert.doesNotMatch(grace[1] ?? '', /<duration>/);
-  }
+  const flamGraceNotes = noteBodies(flamBars[1] ?? '').filter((note) => note.includes('<grace'));
+  assert.equal(flamGraceNotes.length, 4);
+  for (const grace of flamGraceNotes) assert.doesNotMatch(grace, /<duration>/);
   assert.doesNotMatch(flam, /<time-modification>|<tremolo\b/);
 
   assert.deepEqual(dragBars.map(metricDuration), [48, 48]);
@@ -169,9 +172,9 @@ test('Phase 2 U8 L2 and L3 encode grace-note hierarchy without consuming metric 
   assert.equal(count(dragBars[1] ?? '', /<duration>12<\/duration><type>quarter<\/type>/g), 4);
   assert.equal(count(dragBars[1] ?? '', /<beam number="1">begin<\/beam>/g), 4);
   assert.equal(count(dragBars[1] ?? '', /<beam number="1">end<\/beam>/g), 4);
-  for (const grace of (dragBars[1] ?? '').matchAll(/<note>([\s\S]*?<grace[\s\S]*?)<\/note>/g)) {
-    assert.doesNotMatch(grace[1] ?? '', /<duration>/);
-  }
+  const dragGraceNotes = noteBodies(dragBars[1] ?? '').filter((note) => note.includes('<grace'));
+  assert.equal(dragGraceNotes.length, 8);
+  for (const grace of dragGraceNotes) assert.doesNotMatch(grace, /<duration>/);
   assert.doesNotMatch(drag, /<time-modification>|<tremolo\b/);
 });
 
