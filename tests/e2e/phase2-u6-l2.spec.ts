@@ -57,7 +57,7 @@ test('Phase 2 U6 L2 keeps silent positions inside the two-beat compound hierarch
 
   await expect(page.locator('h2').filter({ hasText: '2. Qué debe continuar durante un silencio' })).toBeVisible();
   await expect(page.getByText('X X · | · X X', { exact: true })).toBeVisible();
-  await expect(page.getByText('El 2 sigue existiendo aunque la primera corchea de ese segundo pulso sea silencio.', { exact: true })).toBeVisible();
+  await expect(page.locator('p').filter({ hasText: 'El 2 sigue existiendo aunque la primera corchea de ese segundo pulso sea silencio.' })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '4. Continuidad a través del silencio' })).toBeVisible();
   await expect(page.getByText('continuidad', { exact: false }).first()).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
