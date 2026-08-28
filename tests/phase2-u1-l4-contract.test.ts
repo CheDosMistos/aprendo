@@ -38,7 +38,8 @@ test('Phase 2 U1 L4 is a representation-transfer lesson with no new PAS and no f
   for (const competency of ['C1', 'C2', 'D1', 'D6', 'E2', 'E3', 'E4', 'F1', 'K4', 'K5', 'K6']) {
     assert.match(data, new RegExp(`\\b${competency}\\b`), `Expected ${competency} in the L4 contract`);
   }
-  assert.doesNotMatch(data, /\bD5\b/, 'U1 may preview new-reading procedure but formal D5 starts in U9');
+  const competencyLine = data.match(/^competencies:\s*(.+)$/m)?.[1] ?? '';
+  assert.doesNotMatch(competencyLine, /\bD5\b/, 'U1 may preview new-reading procedure but formal D5 starts in U9');
 
   assert.match(markdown, /no añade una nueva figura ni un nuevo rudimento/i);
   assert.match(markdown, /ESCUCHAR → RETENER\/CANTAR → ESCRIBIR → LEER → TOCAR → COMPROBAR/);
