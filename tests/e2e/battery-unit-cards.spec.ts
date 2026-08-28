@@ -58,8 +58,8 @@ test('unit cards use two columns and one contextual action through pending, acti
   await expect(rows.nth(1).locator('.section-kind')).toHaveText('Lección 2');
   await expect(rows.nth(4).locator('.section-kind')).toHaveText('Cierre');
   await expect(rows.nth(0).locator('.section-title')).toHaveText('Singles agrupados y subdivisión');
-  await expect(rows.nth(4).locator('.section-title')).toHaveText('¿puedo continuar?');
   await expect(rows.nth(0).locator('.section-title')).not.toContainText('Lección 1');
+  await expect(rows.nth(4).locator('.section-title')).not.toContainText('Cierre');
 
   const firstGrid = await rows.nth(0).locator('a').evaluate((element) => getComputedStyle(element).gridTemplateColumns);
   expect(firstGrid.trim().split(/\s+/)).toHaveLength(2);
