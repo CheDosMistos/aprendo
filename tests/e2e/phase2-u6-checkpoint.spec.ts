@@ -23,6 +23,7 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
 
   await page.goto('/login/');
   await page.getByLabel('Usuario').fill(username);
+  await page.getByLabel('Contraseña').fill(password);
   await page.getByLabel('Contraseña').press('Enter');
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
