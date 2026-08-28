@@ -114,7 +114,7 @@ Cada estímulo es un `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO` generado median
 
 <div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="101110" data-answer="3/4 prototípico — 3 pulsos principales × 2 subdivisiones: simple."></div>
 
-A y B vuelven a usar **el mismo patrón de seis posiciones**, pero el count-in establece una relación distinta entre posiciones y pulso principal. La prueba no consiste en contar seis sonidos: consiste en reconocer `2×3` frente a `3×2`.
+A y B vuelven a usar **el mismo patrón de seis posiciones**, pero el count-in establece una relación distinta entre posiciones y pulso principal. La prueba no consiste en contar posiciones o ataques aislados: consiste en reconocer `2×3` frente a `3×2`.
 
 ### Estímulo C
 
