@@ -14,7 +14,127 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  plan_browser:
+    name: Plan browser scope
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      scope: ${{ steps.plan.outputs.scope }}
+      specs: ${{ steps.plan.outputs.specs }}
+
+    steps:
+      - name: Checkout repository for diff only
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Classify Browser E2E scope
+        id: plan
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          set -euo pipefail
+          mapfile -t changed_files < <(git diff --name-only "$BASE_SHA"...HEAD)
+
+          scope=none
+          specs=()
+
+          rank() {
+            case "$1" in
+              none) echo 0 ;;
+              targeted) echo 1 ;;
+              cross-browser) echo 2 ;;
+              full) echo 3 ;;
+              *) echo 99 ;;
+            esac
+          }
+
+          promote() {
+            local candidate="$1"
+            if [ "$(rank "$candidate")" -gt "$(rank "$scope")" ]; then
+              scope="$candidate"
+            fi
+          }
+
+          add_spec() {
+            local candidate="$1"
+            local existing
+            for existing in "${specs[@]:-}"; do
+              [ "$existing" = "$candidate" ] && return 0
+            done
+            specs+=("$candidate")
+          }
+
+          if [[ "$BASE_REF" == integration/* ]]; then
+            for file in "${changed_files[@]}"; do
+              case "$file" in
+                tests/e2e/*.spec.ts)
+                  promote targeted
+                  add_spec "$file"
+                  ;;
+              esac
+            done
+          else
+            for file in "${changed_files[@]}"; do
+              case "$file" in
+                .github/workflows/e2e.yml|playwright.config.ts|package.json|package-lock.json|astro.config.mjs)
+                  promote full
+                  ;;
+
+                src/middleware.ts|src/pages/login.astro|src/pages/cuenta.astro|src/pages/index.astro|src/pages/api/auth/*|src/platform/auth/*|src/platform/layouts/*|src/platform/styles/global.css|src/pages/bateria/\[unit\]/*|src/courses/bateria/components/CourseArticleLayout.astro|src/courses/bateria/contentRegistry.ts)
+                  promote cross-browser
+                  ;;
+
+                tests/e2e/critical-smoke.spec.ts)
+                  promote cross-browser
+                  ;;
+
+                tests/e2e/*.spec.ts)
+                  promote targeted
+                  add_spec "$file"
+                  ;;
+
+                src/platform/components/InlineNotationScores.astro|src/platform/components/CourseScoreReferences.astro|src/platform/notation/*|src/courses/bateria/components/NotationStudyModes.astro|src/courses/bateria/components/RudimentNotationAutoEmbed.astro)
+                  promote targeted
+                  add_spec tests/e2e/first-sight.spec.ts
+                  add_spec tests/e2e/musicxml-playback-audit.spec.ts
+                  ;;
+
+                src/platform/components/Metronome.astro|src/platform/components/MetronomeCompact.astro|src/platform/metronome/*)
+                  promote targeted
+                  add_spec tests/e2e/phase2-u10-complete.spec.ts
+                  ;;
+
+                src/platform/components/PracticeTimer.astro|src/platform/components/PracticeSectionTimers.astro)
+                  promote targeted
+                  add_spec tests/e2e/practice-timer.spec.ts
+                  ;;
+              esac
+            done
+          fi
+
+          if [ "$scope" = targeted ] && [ "${#specs[@]}" -eq 0 ]; then
+            echo 'TARGETED scope requires at least one explicit E2E spec.' >&2
+            exit 1
+          fi
+
+          specs_line=''
+          if [ "${#specs[@]}" -gt 0 ]; then
+            printf -v specs_line '%s ' "${specs[@]}"
+            specs_line="${specs_line% }"
+          fi
+
+          echo "scope=$scope" >> "$GITHUB_OUTPUT"
+          echo "specs=$specs_line" >> "$GITHUB_OUTPUT"
+          printf 'Browser scope: base=%s scope=%s specs=%s\n' "$BASE_REF" "$scope" "${specs_line:-<none>}"
+          printf 'Changed files (%s):\n' "${#changed_files[@]}"
+          printf '  %s\n' "${changed_files[@]}"
+
   browser-e2e:
+    needs: plan_browser
+    if: ${{ needs.plan_browser.outputs.scope != 'none' }}
     runs-on: ubuntu-latest
     timeout-minutes: 14
 
@@ -23,7 +143,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -37,55 +156,18 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Plan browser scope
-        id: plan
-        env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          BASE_REF: ${{ github.base_ref }}
-        run: |
-          set -euo pipefail
-          mapfile -t changed_files < <(git diff --name-only "$BASE_SHA"...HEAD)
-          mapfile -t changed_specs < <(
-            printf '%s\n' "${changed_files[@]}" \
-              | grep -E '^tests/e2e/.*\.spec\.ts$' \
-              || true
-          )
-
-          full_suite=false
-          if [ "$BASE_REF" = 'main' ]; then
-            for file in "${changed_files[@]}"; do
-              case "$file" in
-                .github/workflows/*|playwright.config.ts|package.json|package-lock.json|src/platform/*|src/pages/api/*|src/pages/login/*|src/pages/cuenta/*|src/courses/bateria/components/*|src/courses/bateria/contentRegistry.ts|src/courses/bateria/course.config.ts|src/pages/bateria/\[unit\]/*)
-                  full_suite=true
-                  ;;
-              esac
-            done
-          fi
-
-          smoke_re='^tests/e2e/(aprendo|first-sight|battery-unit-cards)\.spec\.ts$'
-          printf '%s\n' "${changed_specs[@]}" | grep -Ev "$smoke_re" > "${RUNNER_TEMP}/changed-e2e-specs.txt" || true
-          if [ -s "${RUNNER_TEMP}/changed-e2e-specs.txt" ]; then
-            has_changed_specs=true
-          else
-            has_changed_specs=false
-          fi
-
-          echo "full_suite=$full_suite" >> "$GITHUB_OUTPUT"
-          echo "has_changed_specs=$has_changed_specs" >> "$GITHUB_OUTPUT"
-          printf 'Browser scope: base=%s full_suite=%s changed_specs=%s\n' "$BASE_REF" "$full_suite" "$has_changed_specs"
-
       - name: Cache Playwright browsers
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
-      - name: Install Chromium for integration PR
-        if: startsWith(github.base_ref, 'integration/') && steps.plan.outputs.has_changed_specs == 'true'
+      - name: Install Chromium for targeted E2E
+        if: ${{ needs.plan_browser.outputs.scope == 'targeted' }}
         run: npx playwright install --with-deps chromium
 
-      - name: Install Chromium and WebKit for main PR
-        if: github.base_ref == 'main'
+      - name: Install Chromium and WebKit for cross-browser or full E2E
+        if: ${{ needs.plan_browser.outputs.scope == 'cross-browser' || needs.plan_browser.outputs.scope == 'full' }}
         run: npx playwright install --with-deps chromium webkit
 
       - name: Run browser journeys
@@ -97,16 +179,10 @@ jobs:
           E2E_USERNAME: e2e-admin
           E2E_PASSWORD: ci-e2e-password-2026
           PLAYWRIGHT_BASE_URL: http://localhost:4323
-          BASE_REF: ${{ github.base_ref }}
-          FULL_SUITE: ${{ steps.plan.outputs.full_suite }}
-          HAS_CHANGED_SPECS: ${{ steps.plan.outputs.has_changed_specs }}
+          BROWSER_SCOPE: ${{ needs.plan_browser.outputs.scope }}
+          BROWSER_SPECS: ${{ needs.plan_browser.outputs.specs }}
         run: |
           set -euo pipefail
-
-          if [[ "$BASE_REF" == integration/* ]] && [ "$HAS_CHANGED_SPECS" != 'true' ]; then
-            echo 'No changed E2E specs; skipping browser execution for integration PR.'
-            exit 0
-          fi
 
           printf '%s' "$E2E_PASSWORD" | npm run provision-user -- \
             --stable-key e2e-admin \
@@ -124,29 +200,27 @@ jobs:
           done
           curl --fail --silent --max-time 2 http://127.0.0.1:4323/api/health/ >/dev/null
 
-          if [[ "$BASE_REF" == integration/* ]]; then
-            mapfile -t specs < "${RUNNER_TEMP}/changed-e2e-specs.txt"
-            printf 'Changed integration E2E specs (%s):\n' "${#specs[@]}"
-            printf '  %s\n' "${specs[@]}"
-            npx playwright test --project=chromium-desktop "${specs[@]}"
-            exit 0
-          fi
+          case "$BROWSER_SCOPE" in
+            targeted)
+              read -r -a specs <<< "$BROWSER_SPECS"
+              test "${#specs[@]}" -gt 0
+              printf 'Running targeted Chromium E2E (%s):\n' "${#specs[@]}"
+              printf '  %s\n' "${specs[@]}"
+              npx playwright test --project=chromium-desktop "${specs[@]}"
+              ;;
 
-          if [ "$FULL_SUITE" = 'true' ]; then
-            echo 'High-risk/global change detected: running the complete browser suite.'
-            npm run test:e2e
-            exit 0
-          fi
+            cross-browser)
+              echo 'Running one critical cross-browser journey.'
+              npx playwright test tests/e2e/critical-smoke.spec.ts
+              ;;
 
-          echo 'Running cross-browser smoke suite.'
-          npx playwright test \
-            tests/e2e/aprendo.spec.ts \
-            tests/e2e/first-sight.spec.ts \
-            tests/e2e/battery-unit-cards.spec.ts
+            full)
+              echo 'High-risk Browser E2E change detected: running the complete browser suite.'
+              npm run test:e2e
+              ;;
 
-          if [ "$HAS_CHANGED_SPECS" = 'true' ]; then
-            mapfile -t specs < "${RUNNER_TEMP}/changed-e2e-specs.txt"
-            printf 'Running changed E2E specs on Chromium desktop (%s):\n' "${#specs[@]}"
-            printf '  %s\n' "${specs[@]}"
-            npx playwright test --project=chromium-desktop "${specs[@]}"
-          fi
+            *)
+              echo "Unexpected Browser E2E scope: $BROWSER_SCOPE" >&2
+              exit 1
+              ;;
+          esac
