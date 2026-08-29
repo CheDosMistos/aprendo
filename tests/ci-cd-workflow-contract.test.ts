@@ -16,21 +16,53 @@ test('Check remains the exhaustive pre-merge validation gate and caches npm down
   assert.match(workflow, /Exercise platform authentication flow/);
 });
 
-test('Browser E2E uses a lean default while retaining a full-suite path for global changes', async () => {
+test('Browser E2E plans risk before installing Node, building or starting browsers', async () => {
+  const workflow = await read('.github/workflows/e2e.yml');
+  const plannerStart = workflow.indexOf('  plan_browser:');
+  const browserStart = workflow.indexOf('  browser-e2e:');
+
+  assert.ok(plannerStart >= 0 && browserStart > plannerStart, 'planner must precede browser execution');
+  const planner = workflow.slice(plannerStart, browserStart);
+  const browser = workflow.slice(browserStart);
+
+  assert.match(planner, /bash scripts\/plan-browser-e2e\.sh/);
+  assert.doesNotMatch(planner, /Setup Node\.js/);
+  assert.doesNotMatch(planner, /npm ci/);
+  assert.doesNotMatch(planner, /Build site/);
+  assert.doesNotMatch(planner, /playwright install/);
+
+  assert.match(browser, /needs:\s*plan_browser/);
+  assert.match(browser, /needs\.plan_browser\.outputs\.scope != 'none'/);
+  assert.match(browser, /Setup Node\.js/);
+  assert.match(browser, /cache:\s*npm/);
+  assert.match(browser, /Build site/);
+});
+
+test('Browser E2E has NONE, TARGETED, CROSS_BROWSER and FULL execution paths without universal journeys', async () => {
+  const workflow = await read('.github/workflows/e2e.yml');
+  const policy = await read('scripts/plan-browser-e2e.sh');
+
+  assert.match(policy, /scope=none/);
+  assert.match(policy, /promote targeted/);
+  assert.match(policy, /promote cross-browser/);
+  assert.match(policy, /promote full/);
+
+  assert.match(workflow, /Install Chromium for targeted E2E/);
+  assert.match(workflow, /npx playwright test --project=chromium-desktop/);
+  assert.match(workflow, /Install Chromium and WebKit for cross-browser or full E2E/);
+  assert.match(workflow, /tests\/e2e\/critical-smoke\.spec\.ts/);
+  assert.match(workflow, /High-risk Browser E2E change detected: running the complete browser suite/);
+  assert.match(workflow, /npm run test:e2e/);
+
+  assert.doesNotMatch(workflow, /tests\/e2e\/aprendo\.spec\.ts/);
+  assert.doesNotMatch(workflow, /tests\/e2e\/first-sight\.spec\.ts[\s\\]+tests\/e2e\/battery-unit-cards\.spec\.ts/);
+});
+
+test('Browser E2E keeps browser caching but only inside the conditional browser job', async () => {
   const workflow = await read('.github/workflows/e2e.yml');
 
-  assert.match(workflow, /cache:\s*npm/);
   assert.match(workflow, /actions\/cache@v4/);
   assert.match(workflow, /playwright-\$\{\{ runner\.os \}\}-\$\{\{ hashFiles\('package-lock\.json'\) \}\}/);
-  assert.match(workflow, /tests\/e2e\/aprendo\.spec\.ts/);
-  assert.match(workflow, /tests\/e2e\/first-sight\.spec\.ts/);
-  assert.match(workflow, /tests\/e2e\/battery-unit-cards\.spec\.ts/);
-  assert.match(workflow, /npx playwright test --project=chromium-desktop/);
-  assert.match(workflow, /High-risk\/global change detected: running the complete browser suite/);
-  assert.match(workflow, /npm run test:e2e/);
-  assert.match(workflow, /\.github\/workflows\/\*/);
-  assert.match(workflow, /src\/platform\/\*/);
-  assert.match(workflow, /src\/courses\/bateria\/components\/\*/);
 });
 
 test('Deploy rebuilds the validated tree but does not repeat pre-merge check and test suites', async () => {
