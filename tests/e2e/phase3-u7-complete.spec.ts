@@ -82,7 +82,7 @@ test('U7 L5 leaves development bars unwritten and removes only one aid at a time
   await expectOneScoreReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/El score fija el marco;.*no escribe tu improvisación/i)).toBeVisible();
-  await expect(article.getByText(/retira una ayuda/i)).toBeVisible();
+  await expect(article.getByRole('heading', { name: /Retira una ayuda/i })).toBeVisible();
   await expect(article.getByText(/No retires todas a la vez/i)).toBeVisible();
 });
 
