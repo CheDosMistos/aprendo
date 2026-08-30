@@ -57,7 +57,7 @@ Muestra la referencia. Corrige al menos una afirmación o confirma por qué tu d
 
 ## MÍNIMO PARA AVANZAR A U12
 
-- produces un mapa funcional;
+- construyes un mapa funcional;
 - reconoces un cambio tonal evidente y una llegada/retorno;
 - explicas intervalo, escala, acorde y centro tonal al nivel tratado;
 - identificas una relación básica bajo–batería sin reducirla a copia;
