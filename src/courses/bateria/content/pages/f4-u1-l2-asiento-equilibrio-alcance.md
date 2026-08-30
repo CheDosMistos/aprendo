@@ -4,7 +4,7 @@ courseId: bateria
 phase: 4
 unit: 1
 unitSlug: fase-4-unidad-1
-slug: fase-4-unidad-1-asiento-equilibrio-alcance
+slug: asiento-equilibrio-alcance
 kind: lesson
 order: 2
 title: "Asiento, equilibrio y alcance: configurar sin dogmas"
