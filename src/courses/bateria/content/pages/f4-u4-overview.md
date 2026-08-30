@@ -17,7 +17,7 @@ published: true
 
 ## Rama paralela: H3
 
-U4 no es “la segunda mitad” de U3. El mapa hace **H2 bombo y H3 hi-hat de pie ramas paralelas tras H1**.
+U4 no es “la segunda mitad” de U3. El mapa hace **H2 bombo y H3 hi-hat de pie ramas paralelas tras H1**. Esta unidad **no exige bombo** como prerrequisito.
 
 La novedad dominante es H3:
 
