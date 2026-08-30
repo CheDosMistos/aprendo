@@ -29,7 +29,7 @@ Este ejemplo es **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
 <div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l3-modelo-escritura.musicxml" data-score-title="30.U1.L3 — modelo de escritura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l3-modelo-escritura.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
 
-Léelo y tócala una vez antes de habilitar audio. Su función es mostrar el tamaño de la tarea, no darte una plantilla que debas copiar.
+Léelo y tócalo una vez antes de habilitar audio. Su función es mostrar el tamaño de la tarea, no darte una plantilla que debas copiar.
 
 ## 2. Diseña tu célula · 6–8 min
 
