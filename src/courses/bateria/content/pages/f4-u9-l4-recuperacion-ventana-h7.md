@@ -51,7 +51,7 @@ Aísla únicamente la unión necesaria y vuelve pronto a la frase completa.
 
 Sólo si H3/H4 permanecen estables, prueba este ejercicio preparado:
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l4-left-foot-window.musicxml" data-score-title="40.U9.L4 — AMPLIACIÓN: ostinato de pie izquierdo durante Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — AMPLIACIÓN"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l4-left-foot-window.musicxml" data-score-title="40.U9.L4 — AMPLIACIÓN: ostinato de pie izquierdo durante Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La única capa nueva es:
 
