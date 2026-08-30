@@ -1,0 +1,149 @@
+---
+---
+
+<script>
+  type AudioContextCtor = typeof AudioContext;
+  type Mode = 'mix' | 'melody' | 'harmony' | 'bass' | 'drums';
+
+  const setupMusicalContexts = () => {
+    const widgets = document.querySelectorAll<HTMLElement>('[data-musical-context]');
+
+    for (const widget of widgets) {
+      if (widget.dataset.ready === 'true') continue;
+      widget.dataset.ready = 'true';
+
+      const bpm = Number(widget.dataset.bpm ?? '72');
+      const melody = (widget.dataset.melody ?? '').split(',').map(Number).filter(Number.isFinite);
+      const chords = (widget.dataset.chords ?? '').split('|').filter(Boolean).map((bar) => bar.split(',').map(Number).filter(Number.isFinite));
+      const bassRoots = (widget.dataset.bassRoots ?? '').split('|').filter(Boolean).map(Number);
+      const bassPatterns = (widget.dataset.bassPatterns ?? '').split('|').filter(Boolean);
+      const drumPatterns = (widget.dataset.drumPatterns ?? '').split('|').filter(Boolean);
+      const answer = widget.dataset.answer ?? '';
+      const barCount = Math.max(chords.length, bassRoots.length, bassPatterns.length, drumPatterns.length);
+      const validPattern = (pattern: string) => pattern.length === 8 && /^[01]+$/.test(pattern);
+      const harmonyReady = chords.length > 0 && chords.every((chord) => chord.length > 0);
+      const bassReady = bassRoots.length > 0 && bassRoots.length === bassPatterns.length && bassPatterns.every(validPattern);
+      const drumsReady = drumPatterns.length > 0 && drumPatterns.every(validPattern);
+      const layeredReady = barCount > 0
+        && (!harmonyReady || chords.length === barCount)
+        && (!bassReady || bassRoots.length === barCount)
+        && (!drumsReady || drumPatterns.length === barCount);
+      const melodyReady = melody.length > 0;
+      const anyReady = melodyReady || layeredReady;
+
+      const buttons: Array<[Mode, string, boolean]> = [
+        ['mix', 'Escuchar mezcla', layeredReady && [harmonyReady, bassReady, drumsReady].filter(Boolean).length > 1],
+        ['melody', 'Escuchar secuencia tonal', melodyReady],
+        ['harmony', 'Sólo armonía', layeredReady && harmonyReady],
+        ['bass', 'Sólo bajo', layeredReady && bassReady],
+        ['drums', 'Sólo batería', layeredReady && drumsReady],
+      ];
+      const available = buttons.filter(([, , enabled]) => enabled);
+      const counters = new Map<Mode, number>();
+      for (const [mode] of available) counters.set(mode, 0);
+
+      widget.classList.add('musical-context');
+      widget.innerHTML = `<div class="musical-context__controls">${available.map(([mode, label]) => `<button type="button" data-context-play="${mode}">${label}</button>`).join('')}<button type="button" data-context-answer>Mostrar referencia</button></div><p class="musical-context__status" data-context-status>${anyReady ? 'Escucha antes de revelar. Describe primero qué cambia, qué vuelve y qué capa estás siguiendo.' : 'El contexto musical no está configurado correctamente.'}</p><p class="musical-context__counts" data-context-counts>Escuchas: 0</p><p class="musical-context__answer" data-context-answer-text hidden></p>`;
+
+      const status = widget.querySelector<HTMLElement>('[data-context-status]');
+      const countText = widget.querySelector<HTMLElement>('[data-context-counts]');
+      const reveal = widget.querySelector<HTMLButtonElement>('[data-context-answer]');
+      const answerText = widget.querySelector<HTMLElement>('[data-context-answer-text]');
+
+      const midiFrequency = (midi: number) => 440 * 2 ** ((midi - 69) / 12);
+      const tone = (context: AudioContext, midi: number, time: number, duration: number, type: OscillatorType, level: number) => {
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        oscillator.type = type;
+        oscillator.frequency.setValueAtTime(midiFrequency(midi), time);
+        gain.gain.setValueAtTime(level, time);
+        gain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
+        oscillator.connect(gain).connect(context.destination);
+        oscillator.start(time);
+        oscillator.stop(time + duration + 0.02);
+      };
+      const drum = (context: AudioContext, time: number, accent: boolean) => {
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        oscillator.type = 'triangle';
+        oscillator.frequency.setValueAtTime(accent ? 180 : 520, time);
+        oscillator.frequency.exponentialRampToValueAtTime(accent ? 70 : 260, time + 0.06);
+        gain.gain.setValueAtTime(accent ? 0.13 : 0.075, time);
+        gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.07);
+        oscillator.connect(gain).connect(context.destination);
+        oscillator.start(time);
+        oscillator.stop(time + 0.08);
+      };
+      const countIn = (context: AudioContext, start: number, quarter: number) => {
+        for (let beat = 0; beat < 4; beat += 1) tone(context, beat === 0 ? 84 : 81, start + beat * quarter, 0.04, 'sine', 0.055);
+      };
+      const updateCounts = () => {
+        const total = [...counters.values()].reduce((sum, value) => sum + value, 0);
+        widget.dataset.contextListenCount = String(total);
+        if (countText) countText.textContent = `Escuchas: ${total}`;
+      };
+
+      const play = async (mode: Mode) => {
+        if (!anyReady || !Number.isFinite(bpm) || bpm <= 0) {
+          if (status) status.textContent = 'El contexto musical no está configurado correctamente.';
+          return;
+        }
+        const Ctor = window.AudioContext || (window as unknown as { webkitAudioContext?: AudioContextCtor }).webkitAudioContext;
+        if (!Ctor) {
+          if (status) status.textContent = 'Tu navegador no ofrece Web Audio.';
+          return;
+        }
+        const context = new Ctor();
+        await context.resume();
+        counters.set(mode, (counters.get(mode) ?? 0) + 1);
+        updateCounts();
+        const quarter = 60 / bpm;
+        const eighth = quarter / 2;
+        const start = context.currentTime + 0.08;
+        countIn(context, start, quarter);
+        const musicStart = start + 4 * quarter;
+
+        if (mode === 'melody') {
+          melody.forEach((midi, index) => tone(context, midi, musicStart + index * quarter, quarter * 0.72, 'sine', 0.085));
+        } else {
+          for (let bar = 0; bar < barCount; bar += 1) {
+            const barStart = musicStart + bar * 4 * quarter;
+            if ((mode === 'mix' || mode === 'harmony') && harmonyReady) {
+              for (const midi of chords[bar] ?? []) tone(context, midi, barStart, 3.5 * quarter, 'triangle', 0.026);
+            }
+            if ((mode === 'mix' || mode === 'bass') && bassReady) {
+              const root = bassRoots[bar]; const pattern = bassPatterns[bar] ?? '';
+              if (Number.isFinite(root)) [...pattern].forEach((value, slot) => { if (value === '1') tone(context, root!, barStart + slot * eighth, eighth * 0.62, 'sine', 0.11); });
+            }
+            if ((mode === 'mix' || mode === 'drums') && drumsReady) {
+              [...(drumPatterns[bar] ?? '')].forEach((value, slot) => { if (value === '1') drum(context, barStart + slot * eighth, slot === 0 || slot === 4); });
+            }
+          }
+        }
+        if (status) status.textContent = mode === 'mix' ? 'Escucha relaciones entre capas; no busques que todas coincidan.' : 'Has aislado una capa como ayuda. Vuelve después a la mezcla para comprobar la relación.';
+        const duration = mode === 'melody' ? melody.length * quarter : barCount * 4 * quarter;
+        window.setTimeout(() => void context.close(), Math.ceil((4 * quarter + duration + 0.6) * 1000));
+      };
+
+      for (const button of widget.querySelectorAll<HTMLButtonElement>('[data-context-play]')) {
+        button.addEventListener('click', () => void play((button.dataset.contextPlay ?? 'mix') as Mode));
+      }
+      reveal?.addEventListener('click', () => {
+        if (!answerText) return;
+        const showing = answerText.hidden;
+        answerText.hidden = !showing;
+        answerText.textContent = showing ? answer : '';
+        reveal.textContent = showing ? 'Ocultar referencia' : 'Mostrar referencia';
+      });
+      widget.dataset.contextListenCount = '0';
+    }
+  };
+
+  setupMusicalContexts();
+  document.addEventListener('astro:page-load', setupMusicalContexts);
+</script>
+
+<style is:global>
+  .musical-context{max-width:54rem;margin:1.25rem 0;padding:1rem;border:1px solid var(--border);border-radius:.85rem;background:var(--surface-2)}
+  .musical-context__controls{display:flex;flex-wrap:wrap;gap:.65rem}.musical-context button{min-height:2.6rem;padding:.55rem .8rem;border:1px solid var(--border);border-radius:.6rem;background:var(--surface);color:var(--text);font:inherit;font-weight:650;cursor:pointer}.musical-context__status,.musical-context__counts,.musical-context__answer{margin:.75rem 0 0;color:var(--muted)}.musical-context__counts{font-size:.9rem;font-variant-numeric:tabular-nums}.musical-context__answer{white-space:pre-line;font-weight:650;color:var(--text)}
+</style>
