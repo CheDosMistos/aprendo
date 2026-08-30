@@ -43,6 +43,8 @@ Prueba R en caja / L en tom cuando tu disposición lo permita sin cruce o tensi�
 
 No hay premio por hacer la ruta más incómoda.
 
+**No se usa bombo ni hi-hat de pie en esta lección.** La transferencia se mantiene deliberadamente manual para que la superficie sea la única novedad motora relevante.
+
 ### D — Volver a caja
 
 Termina con la versión base. Si ahora la frase también falla en caja, probablemente cambiaste más que la superficie o acumulaste tensión.
