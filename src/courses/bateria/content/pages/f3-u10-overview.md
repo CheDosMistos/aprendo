@@ -4,7 +4,7 @@ courseId: bateria
 phase: 3
 unit: 10
 unitSlug: fase-3-unidad-10
-slug: index
+slug: fase-3-unidad-10-introduccion
 kind: unit
 order: 0
 title: "Siete: 7/8 funcional; 7/4 como ampliación"
