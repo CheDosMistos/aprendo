@@ -147,8 +147,8 @@ test('existing short passwords remain valid until the user voluntarily changes t
       userId: user.id,
       currentPassword: '1234',
       username: 'mallo',
-      newPassword: 'abcd',
-    }), /15/);
+      newPassword: '1234567',
+    }), /8/);
     assert.equal(auth.authenticate('mallo', '1234')?.stableKey, 'default');
 
     const currentSession = auth.createSession(user.id);
@@ -157,12 +157,12 @@ test('existing short passwords remain valid until the user voluntarily changes t
       userId: user.id,
       currentPassword: '1234',
       username: 'mallo2',
-      newPassword: 'a-stronger-passphrase',
+      newPassword: '12345678',
       currentSessionToken: currentSession.token,
     });
     assert.equal(updated.username, 'mallo2');
     assert.equal(auth.authenticate('mallo', '1234'), null);
-    assert.equal(auth.authenticate('mallo2', 'a-stronger-passphrase')?.role, 'admin');
+    assert.equal(auth.authenticate('mallo2', '12345678')?.role, 'admin');
     assert.ok(auth.resolveSession(currentSession.token));
     assert.equal(auth.resolveSession(otherSession.token), null);
   } finally { database.close(); }
