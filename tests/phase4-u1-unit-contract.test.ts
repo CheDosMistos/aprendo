@@ -15,6 +15,7 @@ const pages = {
 
 async function page(key: keyof typeof pages) { return readFile(path.join(root, pages[key]), 'utf8'); }
 function fm(markdown: string) { return markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? ''; }
+function plain(markdown: string) { return markdown.replace(/[*_`]/g, ''); }
 
 test('F4 U1 has overview, four lessons and checkpoint in order', async () => {
   const keys = Object.keys(pages) as (keyof typeof pages)[];
@@ -37,7 +38,7 @@ test('F4 U1 preserves the approved transfer principle and keeps U1 bounded', asy
 });
 
 test('L1 installs hearing and load safety before pedal technique', async () => {
-  const l1 = await page('l1');
+  const l1 = plain(await page('l1'));
   assert.match(l1, /nivel × duración × repetición de exposición/i);
   assert.match(l1, /usa protección auditiva adecuada en contextos ruidosos/i);
   assert.match(l1, /en electrónica, revisa también el nivel que llega a tus oídos/i);
@@ -46,7 +47,7 @@ test('L1 installs hearing and load safety before pedal technique', async () => {
 });
 
 test('L2 uses observable ergonomics instead of universal geometry', async () => {
-  const l2 = await page('l2');
+  const l2 = plain(await page('l2'));
   assert.match(l2, /Un ajuste sólo cuenta como mejora si mejora la tarea/i);
   assert.match(l2, /No se fijan centímetros, grados de rodilla ni alturas universales/i);
   assert.match(l2, /PROBLEMA → CAMBIO → EFECTO/);
