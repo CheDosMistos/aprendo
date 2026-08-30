@@ -19,6 +19,7 @@
       const answer = widget.dataset.answer ?? '';
       const answerScoreSrc = widget.dataset.answerScoreSrc ?? '';
       const answerScoreTitle = widget.dataset.answerScoreTitle ?? 'Solución escrita';
+      const explicitStimulusLabel = (widget.dataset.stimulusLabel ?? '').trim();
       const chunkBeats = Number(widget.dataset.chunkBeats ?? '0');
       const requestedChunkLabels = (widget.dataset.chunkLabels ?? '')
         .split('|')
@@ -27,7 +28,7 @@
       const stimulusBeats = Number.isInteger(subdivision) && subdivision > 0 && pattern
         ? pattern.length / subdivision
         : Number.NaN;
-      const stimulusLabel = Number.isFinite(stimulusBeats) && stimulusBeats > 0
+      const inferredStimulusLabel = Number.isFinite(stimulusBeats) && stimulusBeats > 0
         ? stimulusBeats === 4
           ? '1 compás'
           : stimulusBeats === 8
@@ -36,6 +37,7 @@
               ? '1 pulso'
               : `${stimulusBeats} pulsos`
         : 'el estímulo';
+      const stimulusLabel = explicitStimulusLabel || inferredStimulusLabel;
       const chunkSlots = Number.isInteger(chunkBeats) && chunkBeats > 0 && Number.isInteger(subdivision) && subdivision > 0
         ? chunkBeats * subdivision
         : 0;
