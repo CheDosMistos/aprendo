@@ -38,70 +38,76 @@ test('Phase 3 U5 overview defines G1 authorship and keeps systematic transformat
 test('U5 L1 renders three model motives and requires creation plus retrieval', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-5/crear-un-motivo-que-puedas-reconocer/');
-  const scores = page.locator('[data-notation-score]');
+  const article = page.locator('article.course-article');
+  const scores = article.locator('[data-notation-score]');
   await expect(scores).toHaveCount(1);
   await expectScoreReady(scores.first());
-  await expect(page.getByText(/Cada compás .* motivo independiente/i)).toBeVisible();
-  await expect(page.getByRole('heading', { name: '3. Recuperación con interferencia' })).toBeVisible();
-  await expect(page.getByText(/identidad.*continuidad/i)).toBeVisible();
+  await expect(article.getByText(/Cada compás .* motivo independiente/i)).toBeVisible();
+  await expect(article.getByRole('heading', { name: '3. Recuperación con interferencia' })).toBeVisible();
+  await expect(article).toContainText('identidad:');
+  await expect(article).toContainText('continuidad:');
 });
 
 test('U5 L2 renders A X Y and keeps the editorial classification hidden until requested', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-5/identidad-mismo-relacionado-o-nuevo/');
-  const scores = page.locator('[data-notation-score]');
+  const article = page.locator('article.course-article');
+  const scores = article.locator('[data-notation-score]');
   await expect(scores).toHaveCount(3);
   for (let index = 0; index < 3; index += 1) await expectScoreReady(scores.nth(index));
-  await expect(page.getByText('MISMO / RELACIONADO / NUEVO', { exact: true }).first()).toBeVisible();
+  await expect(article.getByText('MISMO / RELACIONADO / NUEVO', { exact: true }).first()).toBeVisible();
 
-  const details = page.locator('details');
-  await expect(details).not.toHaveAttribute('open', '');
-  await expect(page.getByText(/En el diseño del ejercicio, X funciona como A’/)).toBeHidden();
-  await details.locator('summary').click();
-  await expect(page.getByText(/En el diseño del ejercicio, X funciona como A’/)).toBeVisible();
-  await expect(page.getByText(/No demuestra una regla universal/)).toBeVisible();
+  const reference = article.locator('details').filter({ has: article.getByText('Mostrar análisis de referencia del ejercicio', { exact: true }) });
+  await expect(reference).not.toHaveAttribute('open', '');
+  await expect(article.getByText(/En el diseño del ejercicio, X funciona como A’/)).toBeHidden();
+  await reference.locator('summary').click();
+  await expect(article.getByText(/En el diseño del ejercicio, X funciona como A’/)).toBeVisible();
+  await expect(article.getByText(/No demuestra una regla universal/)).toBeVisible();
 });
 
 test('U5 L3 renders literal A A B A and separates contrast from difficulty', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-5/repeticion-contraste-y-retorno/');
-  const score = page.locator('[data-notation-score]');
+  const article = page.locator('article.course-article');
+  const score = article.locator('[data-notation-score]');
   await expect(score).toHaveCount(1);
   await expectScoreReady(score);
-  await expect(page.getByText('A → A → B → A', { exact: true }).first()).toBeVisible();
-  await expect(page.getByText(/contraste no significa “más notas” ni “más difícil”/i)).toBeVisible();
-  await expect(page.getByText(/andamiaje de esta tarea.*no una forma musical universal/i)).toBeVisible();
+  await expect(article.getByText('A → A → B → A', { exact: true }).first()).toBeVisible();
+  await expect(article.getByText(/contraste no significa “más notas” ni “más difícil”/i)).toBeVisible();
+  await expect(article.getByText(/andamiaje de esta tarea.*no una forma musical universal/i)).toBeVisible();
 });
 
 test('U5 L4 renders question response and separates memory continuity and relation', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-5/pregunta-respuesta-y-memoria-motivica/');
-  const score = page.locator('[data-notation-score]');
+  const article = page.locator('article.course-article');
+  const score = article.locator('[data-notation-score]');
   await expect(score).toHaveCount(1);
   await expectScoreReady(score);
-  await expect(page.getByText(/MEMORIA:/)).toBeVisible();
-  await expect(page.getByText(/CONTINUIDAD:/)).toBeVisible();
-  await expect(page.getByText(/RELACIÓN:/)).toBeVisible();
-  await expect(page.getByText(/Antecedente\/consecuente.*no es obligatorio/i)).toBeVisible();
+  await expect(article.getByText(/MEMORIA:/)).toBeVisible();
+  await expect(article.getByText(/CONTINUIDAD:/)).toBeVisible();
+  await expect(article.getByText(/RELACIÓN:/)).toBeVisible();
+  await expect(article.getByText(/Antecedente\/consecuente.*no es obligatorio/i)).toBeVisible();
 });
 
 test('U5 G1 checkpoint uses fresh C X material and does not require a G2 transformation', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-5/puerta-g1-hacia-transformacion/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Puerta G1 hacia transformación' })).toBeVisible();
-  await expect(page.getByText(/nuevo para este checkpoint/i)).toBeVisible();
-  await expect(page.getByText(/Conserva tu primera versión/i)).toBeVisible();
-  await expect(page.getByText('A → A → B → A', { exact: true })).toBeVisible();
+  const article = page.locator('article.course-article');
+  await expect(article.getByRole('heading', { level: 1, name: 'Checkpoint — Puerta G1 hacia transformación' })).toBeVisible();
+  await expect(article.getByText(/nuevo para este checkpoint/i)).toBeVisible();
+  await expect(article.getByText(/Conserva tu primera versión/i)).toBeVisible();
+  await expect(article.getByText('A → A → B → A', { exact: true })).toBeVisible();
 
-  const score = page.locator('[data-notation-score]');
+  const score = article.locator('[data-notation-score]');
   await expect(score).toHaveCount(1);
   await expectScoreReady(score);
-  const details = page.locator('details');
-  await expect(page.getByText(/El diseño pretendido es RELACIONADO/)).toBeHidden();
-  await details.locator('summary').click();
-  await expect(page.getByText(/El diseño pretendido es RELACIONADO/)).toBeVisible();
-  await expect(page.getByText(/no necesitas todavía demostrar G2/i)).toBeVisible();
-  await expect(page.getByText(/AVANZADO no es requisito para U6/)).toBeVisible();
+  const reference = article.locator('details').filter({ has: article.getByText('Mostrar referencia editorial del ejercicio', { exact: true }) });
+  await expect(article.getByText(/El diseño pretendido es RELACIONADO/)).toBeHidden();
+  await reference.locator('summary').click();
+  await expect(article.getByText(/El diseño pretendido es RELACIONADO/)).toBeVisible();
+  await expect(article.getByText(/no necesitas todavía demostrar G2/i)).toBeVisible();
+  await expect(article.getByText(/AVANZADO no es requisito para U6/)).toBeVisible();
 });
 
 test('U4 form widget remains intact and U5 does not introduce a creativity grader widget', async ({ page }, testInfo) => {
@@ -111,7 +117,8 @@ test('U4 form widget remains intact and U5 does not introduce a creativity grade
   await expect(page.locator('[data-form-block]').first()).toBeDisabled();
 
   await page.goto('/bateria/fase-3-unidad-5/identidad-mismo-relacionado-o-nuevo/');
-  await expect(page.locator('.rhythm-form')).toHaveCount(0);
-  await expect(page.locator('[data-motif-identity]')).toHaveCount(0);
-  await expect(page.locator('[data-notation-score]')).toHaveCount(3);
+  const article = page.locator('article.course-article');
+  await expect(article.locator('.rhythm-form')).toHaveCount(0);
+  await expect(article.locator('[data-motif-identity]')).toHaveCount(0);
+  await expect(article.locator('[data-notation-score]')).toHaveCount(3);
 });
