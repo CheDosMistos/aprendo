@@ -4,7 +4,7 @@ courseId: bateria
 phase: 4
 unit: 1
 unitSlug: fase-4-unidad-1
-slug: fase-4-unidad-1-antes-primer-golpe
+slug: antes-primer-golpe
 kind: lesson
 order: 1
 title: "Antes del primer golpe: contexto, seguridad y mapa funcional"
