@@ -21,6 +21,11 @@ async function login(page: Page, testInfo: TestInfo): Promise<void> {
   await expect(page).toHaveURL(`${baseUrl}/`);
 }
 
+async function expectPracticeCheckIn(page: Page): Promise<void> {
+  const checkIn = page.getByLabel('Registrar esta práctica');
+  await expect(checkIn.getByRole('heading', { name: 'Registrar esta práctica', exact: true })).toBeVisible();
+}
+
 test('F4 U1 overview exposes transfer principle and safe boundaries', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-1/');
   await expect(page.getByRole('heading', { level: 1, name: 'Entrada al kit: ergonomía, seguridad y mapa de superficies' })).toBeVisible();
@@ -38,7 +43,7 @@ test('F4 U1 L1 installs hearing safety before pedal technique', async ({ page },
   await expect(article.getByText(/nivel × duración × repetición de exposición/i)).toBeVisible();
   await expect(article.getByText(/Hoy no practicas técnica de pedal/)).toBeVisible();
   await expect(article.getByText(/no normalices tinnitus posterior/i)).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'Registrar esta práctica' })).toBeVisible();
+  await expectPracticeCheckIn(page);
 });
 
 test('F4 U1 L2 uses one-variable observable ergonomics', async ({ page }, testInfo) => {
@@ -49,7 +54,7 @@ test('F4 U1 L2 uses one-variable observable ergonomics', async ({ page }, testIn
   await expect(article.getByText(/No se fijan centímetros, grados de rodilla ni alturas universales/)).toBeVisible();
   await expect(article.getByText(/Heel-up, heel-down y otras técnicas pertenecen a U3\/U4/)).toBeVisible();
   await expect(article.getByText(/cambia una sola variable de montaje/i)).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'Registrar esta práctica' })).toBeVisible();
+  await expectPracticeCheckIn(page);
 });
 
 test('F4 U1 L3 compares surfaces without turning it into orchestration', async ({ page }, testInfo) => {
