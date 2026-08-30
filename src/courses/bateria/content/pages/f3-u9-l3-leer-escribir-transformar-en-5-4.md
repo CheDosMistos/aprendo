@@ -23,7 +23,7 @@ Leer, representar y transformar material sencillo sin perder el marco de 5/4.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l3-read-transform.musicxml" data-score-title="30.U9.L3 — A, A’ y retorno en 5/4"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l3-read-transform.musicxml" data-score-title="30.U9.L3 — A, A’ y retorno en 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 A’ contiene una **variación local**. La operación creativa no es nueva: lo nuevo es mantener la trazabilidad dentro de cinco pulsos.
 
