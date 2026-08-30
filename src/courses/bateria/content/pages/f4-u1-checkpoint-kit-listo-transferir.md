@@ -4,7 +4,7 @@ courseId: bateria
 phase: 4
 unit: 1
 unitSlug: fase-4-unidad-1
-slug: fase-4-unidad-1-kit-listo-transferir
+slug: kit-listo-transferir
 kind: checkpoint
 order: 5
 title: "Checkpoint — Kit listo para transferir"
