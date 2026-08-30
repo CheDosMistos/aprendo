@@ -79,6 +79,8 @@ La creatividad no se puntúa por rareza ni por cantidad de notas. Se observan po
 - explicación de identidad;
 - diferencia entre decisión consciente y accidente.
 
+**No hay un corrector automático de creatividad.** Aprendo aporta ejemplos, reproducción, notación, grabación y criterios observables; la decisión musical debe quedar explicada, no reducida a una respuesta secreta de la interfaz.
+
 ## Regla de avance
 
 Para entrar en U6 no necesitas una obra compleja. Necesitas **un motivo rastreable** sobre el que una transformación consciente pueda operar.
