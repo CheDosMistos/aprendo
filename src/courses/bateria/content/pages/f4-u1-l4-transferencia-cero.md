@@ -4,7 +4,7 @@ courseId: bateria
 phase: 4
 unit: 1
 unitSlug: fase-4-unidad-1
-slug: fase-4-unidad-1-transferencia-cero
+slug: transferencia-cero
 kind: lesson
 order: 4
 title: "Transferencia cero: misma célula, nuevo instrumento"
