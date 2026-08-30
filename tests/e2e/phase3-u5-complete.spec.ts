@@ -57,7 +57,8 @@ test('U5 L2 renders A X Y and keeps the editorial classification hidden until re
   for (let index = 0; index < 3; index += 1) await expectScoreReady(scores.nth(index));
   await expect(article.getByText('MISMO / RELACIONADO / NUEVO', { exact: true }).first()).toBeVisible();
 
-  const reference = article.locator('details').filter({ has: article.getByText('Mostrar análisis de referencia del ejercicio', { exact: true }) });
+  const reference = article.locator('details').filter({ hasText: 'Mostrar análisis de referencia del ejercicio' });
+  await expect(reference).toHaveCount(1);
   await expect(reference).not.toHaveAttribute('open', '');
   await expect(article.getByText(/En el diseño del ejercicio, X funciona como A’/)).toBeHidden();
   await reference.locator('summary').click();
@@ -94,7 +95,7 @@ test('U5 G1 checkpoint uses fresh C X material and does not require a G2 transfo
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-5/puerta-g1-hacia-transformacion/');
   const article = page.locator('article.course-article');
-  await expect(article.getByRole('heading', { level: 1, name: 'Checkpoint — Puerta G1 hacia transformación' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Puerta G1 hacia transformación' })).toBeVisible();
   await expect(article.getByText(/nuevo para este checkpoint/i)).toBeVisible();
   await expect(article.getByText(/Conserva tu primera versión/i)).toBeVisible();
   await expect(article.getByText('A → A → B → A', { exact: true })).toBeVisible();
@@ -102,7 +103,8 @@ test('U5 G1 checkpoint uses fresh C X material and does not require a G2 transfo
   const score = article.locator('[data-notation-score]');
   await expect(score).toHaveCount(1);
   await expectScoreReady(score);
-  const reference = article.locator('details').filter({ has: article.getByText('Mostrar referencia editorial del ejercicio', { exact: true }) });
+  const reference = article.locator('details').filter({ hasText: 'Mostrar referencia editorial del ejercicio' });
+  await expect(reference).toHaveCount(1);
   await expect(article.getByText(/El diseño pretendido es RELACIONADO/)).toBeHidden();
   await reference.locator('summary').click();
   await expect(article.getByText(/El diseño pretendido es RELACIONADO/)).toBeVisible();
