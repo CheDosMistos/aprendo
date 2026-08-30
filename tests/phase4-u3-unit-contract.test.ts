@@ -136,5 +136,5 @@ test('U2 manual boundary remains intact when U3 introduces kick', async () => {
   const u2 = plain(await readFile(path.join(pagesRoot, 'f4-u2-checkpoint-misma-idea-superficies.md'), 'utf8'));
   assert.match(u2, /MÍNIMO PARA AVANZAR A U3\/U4/);
   assert.match(u2, /H2 — técnica de bombo/);
-  assert.match(u2, /No hay pies obligatorios en U2/i);
+  assert.match(u2, /sin exigir todavía pies, groove o cuatro extremidades/i);
 });
