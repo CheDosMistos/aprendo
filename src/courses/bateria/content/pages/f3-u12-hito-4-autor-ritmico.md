@@ -1,5 +1,5 @@
 ---
-contentId: bat-f3-u12-hito
+contentId: bat-f3-u12-check
 courseId: bateria
 phase: 3
 unit: 12
