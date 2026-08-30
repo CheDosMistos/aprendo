@@ -5,7 +5,7 @@ phase: 3
 unit: 9
 unitSlug: fase-3-unidad-9
 slug: index
-kind: overview
+kind: unit
 order: 0
 title: "Cinco: 5/4 funcional; 5/8 como ampliación"
 summary: "Integra 5/4 en lectura, oído, escritura y creatividad sin confundir compás, agrupación, quintillo ni 5/8."
