@@ -45,4 +45,4 @@ Las letras A/B/C son etiquetas de trabajo, no propiedades “ocultas” del soni
 
 ## MÍNIMO PARA AVANZAR
 
-Produces un mapa razonable de la fuente y puedes señalar al menos una evidencia audible para un límite o retorno.
+Construyes un mapa razonable de la fuente y puedes señalar al menos una evidencia audible para un límite o retorno.
