@@ -29,6 +29,17 @@ test('Phase 3 U2 overview exposes segmentation and keeps transcription in U3', a
   await expect(page.getByText(/E6 — transcripción iterativa de una fuente — empieza en U3/)).toBeVisible();
 });
 
+test('U1 dictations keep their original no-chunk counter after the shared widget extension', async ({ page }, testInfo) => {
+  await login(page, testInfo);
+  await page.goto('/bateria/fase-3-unidad-1/una-idea-varias-representaciones/');
+
+  const widget = page.locator('.rhythm-dictation');
+  await expect(widget).toHaveCount(1);
+  await expect(widget.locator('[data-dictation-chunk-play]')).toHaveCount(0);
+  await expect(widget.locator('[data-dictation-listen-count]')).toHaveText('Escuchas: 0');
+  await expect(widget).toHaveAttribute('data-listen-count', '0');
+});
+
 test('U2 L1 unlocks chunks only after a full listen and counts help separately', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-2/escuchar-por-partes/');
