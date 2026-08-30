@@ -10,7 +10,7 @@ order: 4
 title: "Transferir un motivo propio al kit"
 summary: "Orquesta material que ya escribiste en Fase 3 sin inventar una partitura cerrada ni borrar la identidad del motivo."
 duration: 20–30 min
-competencies: [B8, G5, A8, G2, G5, D6, K2, K5, K7]
+competencies: [B8, G5, A8, G2, D6, K2, K5, K7]
 rudiments: []
 published: true
 ---
