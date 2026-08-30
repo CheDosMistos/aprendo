@@ -28,7 +28,7 @@ test('U12 has overview, four lessons and Hito 4 in order', async () => {
     assert.match(frontmatter, new RegExp(`^order:\\s*${order}$`, 'm'));
   }
   assert.match(fm(await page('hito')), /^kind:\s*checkpoint$/m);
-  assert.match(fm(await page('hito')), /^contentId:\s*bat-f3-u12-hito$/m);
+  assert.match(fm(await page('hito')), /^contentId:\s*bat-f3-u12-check$/m);
 });
 
 test('U12 preserves the approved Hito 4 literally and does not renumber Hito 3', async () => {
