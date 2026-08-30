@@ -60,7 +60,7 @@ Demuestra H3 MÍNIMO sin exigir bombo, groove, H4 o H7.
 
 ## Frontera
 
-Una primera tarea de tres extremidades puede aparecer en L4, pero **exposición no equivale a H4 MÍNIMO**. U6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
+Una primera tarea de tres extremidades puede aparecer en L4, pero **no certifica H4**: exposición no equivale a H4 MÍNIMO. U6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
 
 ## Criterio de salida
 
