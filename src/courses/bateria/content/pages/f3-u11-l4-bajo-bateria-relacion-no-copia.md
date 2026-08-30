@@ -44,7 +44,7 @@ Ninguna de ellas es obligatoria en toda música.
 
 ## Aplicación al pad
 
-Toca únicamente el skeleton de la capa percusiva o marca los límites de compás. No intentes representar bombo, caja y bajo simultáneamente con manos como sustituto del kit.
+Toca únicamente el esqueleto de la capa percusiva o marca los límites de compás. No intentes representar bombo, caja y bajo simultáneamente con manos como sustituto del kit.
 
 ## MÍNIMO PARA AVANZAR
 
