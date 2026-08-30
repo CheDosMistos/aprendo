@@ -4,7 +4,7 @@ courseId: bateria
 phase: 4
 unit: 1
 unitSlug: fase-4-unidad-1
-slug: fase-4-unidad-1-escuchar-superficies
+slug: escuchar-superficies
 kind: lesson
 order: 3
 title: "Escuchar el kit: rebote, ataque y respuesta de superficies"
