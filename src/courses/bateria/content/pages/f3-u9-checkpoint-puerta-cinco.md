@@ -23,7 +23,7 @@ La salida de U9 es **5/4 funcional básico; J3 continúa EN DESARROLLO** hasta i
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-cp-reading.musicxml" data-score-title="30.U9.CP — lectura nueva de 5/4"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-cp-reading.musicxml" data-score-title="30.U9.CP — lectura nueva de 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 No estudies esta partitura antes de la prueba de lectura.
 
