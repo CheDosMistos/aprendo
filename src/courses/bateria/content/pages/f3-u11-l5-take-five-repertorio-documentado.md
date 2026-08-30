@@ -62,4 +62,4 @@ Aprendo enlaza la grabación oficial. **No reproduce aquí la partitura, el audi
 
 ## MÍNIMO PARA AVANZAR
 
-Produces una ficha que separa claramente HECHO DOCUMENTADO de EJEMPLO ANALÍTICO y contiene un mapa útil para volver a escuchar la obra con intención.
+Construyes una ficha que separa claramente HECHO DOCUMENTADO de EJEMPLO ANALÍTICO y contiene un mapa útil para volver a escuchar la obra con intención.
