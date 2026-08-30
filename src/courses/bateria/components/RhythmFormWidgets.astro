@@ -1,0 +1,187 @@
+---
+---
+
+<script>
+  type AudioContextCtor = typeof AudioContext;
+  type Layer = 'low' | 'mid' | 'high';
+
+  const setupRhythmForms = () => {
+    const widgets = document.querySelectorAll<HTMLElement>('[data-rhythm-form]');
+
+    for (const widget of widgets) {
+      if (widget.dataset.ready === 'true') continue;
+      widget.dataset.ready = 'true';
+
+      const bpm = Number(widget.dataset.bpm ?? '76');
+      const subdivision = Number(widget.dataset.subdivision ?? '2');
+      const patterns: Record<Layer, string> = {
+        low: (widget.dataset.lowPattern ?? '').trim(),
+        mid: (widget.dataset.midPattern ?? '').trim(),
+        high: (widget.dataset.highPattern ?? '').trim(),
+      };
+      const patternLength = patterns.low.length;
+      const validPatterns = patternLength > 0
+        && patterns.mid.length === patternLength
+        && patterns.high.length === patternLength
+        && Number.isInteger(subdivision)
+        && subdivision > 0
+        && patternLength % (subdivision * 4) === 0;
+      const totalBars = validPatterns ? patternLength / (subdivision * 4) : 0;
+      const requestedBlockLengths = (widget.dataset.blockLengths ?? '')
+        .split('|')
+        .map((value) => Number(value.trim()))
+        .filter((value) => Number.isInteger(value) && value > 0);
+      const requestedBlockLabels = (widget.dataset.blockLabels ?? '')
+        .split('|')
+        .map((label) => label.trim())
+        .filter(Boolean);
+      const hasBlocks = requestedBlockLengths.length > 0
+        && requestedBlockLengths.reduce((sum, value) => sum + value, 0) === totalBars;
+      const blockLengths = hasBlocks ? requestedBlockLengths : [];
+      const blockLabels = blockLengths.map((_, index) => requestedBlockLabels[index] ?? `Bloque ${index + 1}`);
+      const blockStarts = blockLengths.map((_, index) => blockLengths.slice(0, index).reduce((sum, value) => sum + value, 0));
+      const answer = widget.dataset.answer ?? '';
+
+      let fullCount = 0;
+      let blockCount = 0;
+      const blockCounts = blockLengths.map(() => 0);
+      widget.dataset.formFullListenCount = '0';
+      widget.dataset.formBlockListenCount = '0';
+      widget.classList.add('rhythm-form');
+
+      const blockMarkup = hasBlocks
+        ? `<div class="rhythm-form__blocks"><span>Ayuda por bloques</span>${blockLabels.map((label, index) => `<button type="button" data-form-block data-block-index="${index}" disabled>${label} · 0</button>`).join('')}</div>`
+        : '';
+
+      widget.innerHTML = `<div class="rhythm-form__controls"><button type="button" data-form-play>Escuchar fuente completa</button><button type="button" data-form-answer>Mostrar mapa de referencia</button></div>${blockMarkup}<p class="rhythm-form__status" data-form-status>4 pulsos de entrada y después ${totalBars || '?'} compases. Propón límites antes de revelar el mapa.</p><p class="rhythm-form__counts" data-form-counts>Completas: 0${hasBlocks ? ' · bloques: 0' : ''}</p><p class="rhythm-form__answer" data-form-answer-text hidden></p>`;
+
+      const playFull = widget.querySelector<HTMLButtonElement>('[data-form-play]');
+      const reveal = widget.querySelector<HTMLButtonElement>('[data-form-answer]');
+      const status = widget.querySelector<HTMLElement>('[data-form-status]');
+      const counts = widget.querySelector<HTMLElement>('[data-form-counts]');
+      const answerText = widget.querySelector<HTMLElement>('[data-form-answer-text]');
+      const blockButtons = [...widget.querySelectorAll<HTMLButtonElement>('[data-form-block]')];
+
+      const updateCounts = () => {
+        widget.dataset.formFullListenCount = String(fullCount);
+        widget.dataset.formBlockListenCount = String(blockCount);
+        if (counts) counts.textContent = `Completas: ${fullCount}${hasBlocks ? ` · bloques: ${blockCount}` : ''}`;
+        blockButtons.forEach((button, index) => {
+          button.textContent = `${blockLabels[index]} · ${blockCounts[index] ?? 0}`;
+        });
+      };
+
+      const tone = (context: AudioContext, time: number, layer: Layer) => {
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        if (layer === 'low') {
+          oscillator.type = 'sine';
+          oscillator.frequency.setValueAtTime(108, time);
+          oscillator.frequency.exponentialRampToValueAtTime(60, time + 0.07);
+        } else if (layer === 'mid') {
+          oscillator.type = 'square';
+          oscillator.frequency.value = 440;
+        } else {
+          oscillator.type = 'triangle';
+          oscillator.frequency.value = 1950;
+        }
+        const level = layer === 'low' ? 0.16 : layer === 'mid' ? 0.095 : 0.055;
+        const duration = layer === 'high' ? 0.035 : 0.07;
+        gain.gain.setValueAtTime(level, time);
+        gain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
+        oscillator.connect(gain).connect(context.destination);
+        oscillator.start(time);
+        oscillator.stop(time + duration + 0.01);
+      };
+
+      const metronomeClick = (context: AudioContext, time: number, first: boolean) => {
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        oscillator.type = 'sine';
+        oscillator.frequency.value = first ? 1100 : 880;
+        gain.gain.setValueAtTime(0.085, time);
+        gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.04);
+        oscillator.connect(gain).connect(context.destination);
+        oscillator.start(time);
+        oscillator.stop(time + 0.05);
+      };
+
+      const playRange = async (startBar: number, bars: number, mode: 'full' | 'block', blockIndex = -1) => {
+        if (!validPatterns || !Number.isFinite(bpm) || bpm <= 0 || bars <= 0) {
+          if (status) status.textContent = 'La fuente formal no está configurada correctamente.';
+          return;
+        }
+        const Ctor = window.AudioContext || (window as unknown as { webkitAudioContext?: AudioContextCtor }).webkitAudioContext;
+        if (!Ctor) {
+          if (status) status.textContent = 'Tu navegador no ofrece Web Audio.';
+          return;
+        }
+        const context = new Ctor();
+        await context.resume();
+        const quarter = 60 / bpm;
+        const slot = quarter / subdivision;
+        const start = context.currentTime + 0.08;
+        const slotsPerBar = subdivision * 4;
+        const from = startBar * slotsPerBar;
+        const to = from + bars * slotsPerBar;
+
+        if (mode === 'full') {
+          fullCount += 1;
+          if (fullCount === 1) blockButtons.forEach((button) => { button.disabled = false; });
+        } else if (blockIndex >= 0 && blockIndex < blockCounts.length) {
+          blockCount += 1;
+          blockCounts[blockIndex] = (blockCounts[blockIndex] ?? 0) + 1;
+        }
+        updateCounts();
+
+        for (let beat = 0; beat < 4; beat += 1) metronomeClick(context, start + beat * quarter, beat === 0);
+        const phraseStart = start + 4 * quarter;
+        const layers: Layer[] = ['low', 'mid', 'high'];
+        for (let index = from; index < to; index += 1) {
+          const localIndex = index - from;
+          for (const layer of layers) {
+            if (patterns[layer][index] === '1') tone(context, phraseStart + localIndex * slot, layer);
+          }
+        }
+
+        if (status) status.textContent = mode === 'full'
+          ? 'Escucha el conjunto: propón límites, relaciones y una señal concreta antes de abrir ayudas.'
+          : `Ayuda utilizada: ${blockLabels[blockIndex]}. Vuelve después a la fuente completa para comprobar integración.`;
+        window.setTimeout(() => void context.close(), Math.ceil((4 * quarter + bars * 4 * quarter + 0.5) * 1000));
+      };
+
+      playFull?.addEventListener('click', () => void playRange(0, totalBars, 'full'));
+      blockButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          const index = Number(button.dataset.blockIndex ?? '-1');
+          if (!Number.isInteger(index) || index < 0 || index >= blockLengths.length) return;
+          void playRange(blockStarts[index] ?? 0, blockLengths[index] ?? 0, 'block', index);
+        });
+      });
+
+      reveal?.addEventListener('click', () => {
+        if (!answerText) return;
+        const showing = answerText.hidden;
+        answerText.hidden = !showing;
+        answerText.textContent = showing ? answer : '';
+        reveal.textContent = showing ? 'Ocultar mapa de referencia' : 'Mostrar mapa de referencia';
+      });
+    }
+  };
+
+  setupRhythmForms();
+  document.addEventListener('astro:page-load', setupRhythmForms);
+</script>
+
+<style is:global>
+  [data-hito-read-only] .course-score__play{display:none!important}
+  .rhythm-form{max-width:54rem;margin:1.25rem 0;padding:1rem;border:1px solid var(--border);border-radius:.85rem;background:var(--surface-2)}
+  .rhythm-form__controls,.rhythm-form__blocks{display:flex;flex-wrap:wrap;align-items:center;gap:.65rem}
+  .rhythm-form__blocks{margin-top:.75rem;padding-top:.75rem;border-top:1px solid var(--border)}
+  .rhythm-form__blocks span{width:100%;font-size:.9rem;font-weight:700;color:var(--muted)}
+  .rhythm-form button{min-height:2.6rem;padding:.55rem .8rem;border:1px solid var(--border);border-radius:.6rem;background:var(--surface);color:var(--text);font:inherit;font-weight:650;cursor:pointer}
+  .rhythm-form button:disabled{cursor:not-allowed;opacity:.5}
+  .rhythm-form__status,.rhythm-form__counts,.rhythm-form__answer{margin:.75rem 0 0;color:var(--muted)}
+  .rhythm-form__counts{font-size:.9rem;font-variant-numeric:tabular-nums}
+  .rhythm-form__answer{white-space:pre-line;font-weight:650;color:var(--text)}
+</style>
