@@ -2,6 +2,8 @@
 ---
 
 <script>
+  import { preloadNotationResources } from '@platform/notation/notationPreload';
+
   type AudioContextCtor = typeof AudioContext;
 
   const setupRhythmDictations = () => {
@@ -39,9 +41,13 @@
       const listenCountText = widget.querySelector<HTMLElement>('[data-dictation-listen-count]');
       const answerText = widget.querySelector<HTMLElement>('[data-dictation-answer-text]');
 
-      const answerScore = answerScoreSrc ? document.createElement('div') : null;
-      if (answerScore) {
-        answerScore.hidden = true;
+      if (answerScoreSrc) preloadNotationResources([answerScoreSrc]);
+      let answerScore: HTMLDivElement | null = null;
+
+      const ensureAnswerScore = () => {
+        if (!answerScoreSrc) return null;
+        if (answerScore) return answerScore;
+        answerScore = document.createElement('div');
         answerScore.setAttribute('data-dictation-answer-score', '');
         answerScore.setAttribute('data-notation-score', '');
         answerScore.dataset.scoreSrc = answerScoreSrc;
@@ -50,14 +56,20 @@
         answerScore.dataset.scoreSourceUrl = answerScoreSrc;
         answerScore.dataset.scoreSourceLabel = 'MusicXML — fuente del ejercicio original';
         widget.append(answerScore);
-      }
+        return answerScore;
+      };
 
       reveal?.addEventListener('click', () => {
         if (!answerText) return;
         const showing = answerText.hidden;
         answerText.hidden = !showing;
         answerText.textContent = showing ? answer : '';
-        if (answerScore) answerScore.hidden = !showing;
+        if (showing) {
+          const score = ensureAnswerScore();
+          if (score) score.hidden = false;
+        } else if (answerScore) {
+          answerScore.hidden = true;
+        }
         reveal.textContent = showing ? 'Ocultar respuesta' : 'Mostrar respuesta';
       });
 

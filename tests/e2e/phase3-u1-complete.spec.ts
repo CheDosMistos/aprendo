@@ -29,7 +29,7 @@ test('Phase 3 U1 overview exposes the representation loop and boundaries', async
   await expect(page.getByText(/Su trabajo estructurado empieza en U3/)).toBeVisible();
 });
 
-test('U1 L1 preloads an auditory notation answer but keeps it hidden until reveal', async ({ page }, testInfo) => {
+test('U1 L1 keeps the auditory notation answer absent until reveal while its resources preload', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-1/una-idea-varias-representaciones/');
 
@@ -43,11 +43,12 @@ test('U1 L1 preloads an auditory notation answer but keeps it hidden until revea
   await expect(widget.locator('[data-dictation-listen-count]')).toHaveText('Escuchas: 0');
 
   const answerScore = widget.locator('[data-dictation-answer-score]');
-  await expect(answerScore).toBeHidden();
-  await expect(answerScore.locator('.course-score__status')).toHaveText('Partitura renderizada', { timeout: 15_000 });
+  await expect(answerScore).toHaveCount(0);
 
   await widget.getByRole('button', { name: 'Mostrar respuesta' }).click();
+  await expect(answerScore).toHaveCount(1);
   await expect(answerScore).toBeVisible();
+  await expect(answerScore.locator('.course-score__status')).toHaveText('Partitura renderizada', { timeout: 15_000 });
   await expect(widget.locator('[data-dictation-answer-text]')).toBeVisible();
 });
 
@@ -58,7 +59,7 @@ test('U1 checkpoint keeps auditory answer hidden and protects the visual first a
   const widget = page.locator('.rhythm-dictation');
   await expect(widget).toHaveCount(1);
   await expect(widget).toHaveAttribute('data-pattern', '11001011');
-  await expect(widget.locator('[data-dictation-answer-score]')).toBeHidden();
+  await expect(widget.locator('[data-dictation-answer-score]')).toHaveCount(0);
 
   const protectedScore = page.locator('.course-score[data-score-first-sight="true"]');
   await expect(protectedScore).toHaveCount(1);

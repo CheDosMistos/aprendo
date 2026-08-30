@@ -112,11 +112,12 @@ test('L4 changes one attack only and checkpoint protects the independent visual 
   assert.match(cp, /DETENER CARGA/);
 });
 
-test('dictation widget supports visible listen count and a preloaded hidden notation answer', async () => {
+test('dictation widget supports visible listen count and preloads notation before lazy reveal', async () => {
   const component = await readFile(path.resolve('src/courses/bateria/components/RhythmDictationWidgets.astro'), 'utf8');
   assert.match(component, /data-dictation-listen-count/);
   assert.match(component, /widget\.dataset\.listenCount/);
+  assert.match(component, /preloadNotationResources\(\[answerScoreSrc\]\)/);
   assert.match(component, /data-dictation-answer-score/);
   assert.match(component, /data-notation-score/);
-  assert.match(component, /answerScore\.hidden = true/);
+  assert.match(component, /ensureAnswerScore/);
 });
