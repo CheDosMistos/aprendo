@@ -59,9 +59,9 @@ test('U12 L3 separates intention, representation and execution and preserves V0'
   await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-12/auditoria-autonoma-v0-v1/');
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Conserva V0/).first()).toBeVisible();
-  await expect(article.getByRole('heading', { name: 'INTENCIÓN' })).toBeVisible();
-  await expect(article.getByRole('heading', { name: 'REPRESENTACIÓN' })).toBeVisible();
-  await expect(article.getByRole('heading', { name: 'EJECUCIÓN' })).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'INTENCIÓN', exact: true })).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'REPRESENTACIÓN', exact: true })).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'EJECUCIÓN', exact: true })).toBeVisible();
   await expect(article.getByText(/V1 sólo existe si cambias deliberadamente/)).toBeVisible();
   await expect(article.getByText(/mantener V0 porque no existe razón suficiente/)).toBeVisible();
   await expect(article.getByText(/Registrar una ayuda no invalida la toma/)).toBeVisible();
