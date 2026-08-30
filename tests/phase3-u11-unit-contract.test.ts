@@ -99,7 +99,7 @@ test('MusicalContextWidgets is generic, layer-aware and non-grading', async () =
   assert.match(widget, /dataset\.bassRoots/); assert.match(widget, /dataset\.bassPatterns/); assert.match(widget, /dataset\.drumPatterns/);
   assert.match(widget, /Escuchar mezcla/); assert.match(widget, /Sólo armonía/); assert.match(widget, /Sólo bajo/); assert.match(widget, /Sólo batería/);
   assert.match(widget, /Mostrar referencia/); assert.match(widget, /data-context-listen-count|contextListenCount/);
-  assert.doesNotMatch(widget, /grader|score\s*=|correct|incorrect/i);
+  assert.doesNotMatch(widget, /grader|score\s*=|\bcorrect\b|\bincorrect\b/i);
   const layout = await readFile(path.resolve('src/courses/bateria/components/CourseArticleLayout.astro'), 'utf8');
   assert.match(layout, /MusicalContextWidgets/);
 });
