@@ -19,7 +19,7 @@ published: true
 
 U12 no trae una técnica creativa nueva. Su trabajo es **integrar con menos andamiaje** lo que ya has construido en Fase 3.
 
-> **Hito de Fase 3:** crear, escribir, tocar y explicar una breve pieza rítmica propia empleando desarrollo motívico y al menos una transformación consciente.
+> **Hito de Fase 3 aprobado:** Crear, escribir, tocar y explicar una breve pieza rítmica propia empleando desarrollo motívico y al menos una transformación consciente.
 
 Este cierre corresponde al **Hito global 4 — Autor rítmico**. El Hito global 3 — ciclo `leer → cantar/contar cuando proceda → tocar → escuchar → escribir` — ya tuvo su checkpoint en U4.
 
