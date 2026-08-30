@@ -62,7 +62,7 @@ test('U1 keeps recognition, imitation, dictation, transcription and analysis sep
   }
   assert.match(overview, /Su trabajo estructurado empieza en U3/);
   assert.match(overview, /no existe un número universal de escuchas para aprobar/i);
-  assert.match(overview, /no es el Hito global 3/i);
+  assert.match(overview, /sin convertirla en un examen de transcripción ni en el Hito global 3/i);
 });
 
 test('auditory tasks expose unique hidden-score stimuli matching their MusicXML', async () => {
