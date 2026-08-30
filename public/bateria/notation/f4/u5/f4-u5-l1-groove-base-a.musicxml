@@ -17,7 +17,7 @@
   <part id="P1">
     <measure number="1">
       <attributes><divisions>12</divisions><time><beats>4</beats><beat-type>4</beat-type></time><clef><sign>percussion</sign><line>2</line></clef><staff-details><staff-lines>5</staff-lines></staff-details></attributes>
-      <sound tempo="100"/>
+      <sound tempo="120"/>
       <note><unpitched><display-step>G</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><voice>1</voice><type>eighth</type><notehead>x</notehead><lyric><text>1</text></lyric></note>
       <note><unpitched><display-step>G</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><voice>1</voice><type>eighth</type><notehead>x</notehead><lyric><text>&amp;</text></lyric></note>
       <note><unpitched><display-step>G</display-step><display-octave>5</display-octave></unpitched><instrument id="P1-I1"/><duration>6</duration><voice>1</voice><type>eighth</type><notehead>x</notehead><lyric><text>2</text></lyric></note>
