@@ -81,8 +81,8 @@ test('F5 U2 L3 integrates known cues and prioritizes continuation', async ({ pag
   await expectNoScores(page);
   const article = page.locator('article.course-article');
   await expect(article.getByRole('table')).toHaveCount(1);
-  await expect(article.getByText(/compás 12: Fill A/i)).toBeVisible();
-  await expect(article.getByText(/compás 16: Variación B/i)).toBeVisible();
+  await expect(article.getByRole('cell', { name: /Compás 12: Fill A/i })).toBeVisible();
+  await expect(article.getByRole('cell', { name: /Compás 16: Variación B/i })).toBeVisible();
   await expect(article.getByText(/GROOVE → ANTICIPAR → EVENTO CONOCIDO → CONTINUAR/i)).toBeVisible();
   await expect(article.getByText(/No inventes un fill más difícil/i)).toBeVisible();
   await expectPracticeCheckIn(page);
@@ -106,7 +106,7 @@ test('F5 U2 checkpoint 5A certifies D7 minimum only', async ({ page }, testInfo)
   await expectNoScores(page);
   const article = page.locator('article.course-article');
   await expect(article.getByRole('table')).toHaveCount(1);
-  await expect(article.getByText(/D7 MÍNIMO en condición preparada/i)).toBeVisible();
+  await expect(article.getByText(/D7 MÍNIMO en condición preparada: sigue indicaciones elementales de forma y entradas/i)).toBeVisible();
   await expect(article.getByText(/score completo de U1 no visible durante la toma principal/i)).toBeVisible();
   await expect(article.getByText(/D7 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
   await expect(article.getByText(/sight-reading a primera vista/i)).toBeVisible();
