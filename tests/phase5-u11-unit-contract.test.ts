@@ -59,7 +59,7 @@ test('L3 treats partial information as a prepared musical task, not blind improv
   const t = plain(await page('l3'));
   assert.match(t, /INFORMACIÓN PARCIAL ≠ IMPROVISACIÓN A CIEGAS/i);
   assert.match(t, /TIEMPO → FORMA → ENTRADA\/CUE → DINÁMICA → GROOVE → DETALLE/i);
-  assert.match(t, /I6 aparece sólo como ventana/i);
+  assert.match(t, /ventana de interacción, no certificación de I6 funcional/i);
   assert.match(t, /No se evalúa densidad ni BPM/i);
 });
 
