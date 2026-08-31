@@ -51,6 +51,7 @@ test('L1 treats sixteenth notes as a grid rather than a genre definition', async
 test('L2 makes ghost notes subordinate to pulse, backbeat and dynamic hierarchy', async () => {
   const text = plain(await page('l2'));
   assert.match(text, /f5-u5-l2-dynamic-hierarchy\.musicxml/);
+  assert.match(text, /sin acento.*textura\/ghost-tap/is);
   assert.match(text, /BACKBEAT CLARO > TEXTURA SUAVE/i);
   assert.match(text, /PAS.*Ghost Note Funk/is);
   assert.match(text, /Checkpoint 5B no las exige/i);
@@ -93,7 +94,9 @@ test('U5 notation is original, 120-reference, five-line and metrically bounded',
   const grid = await readFile(path.join(notationRoot, files[0]), 'utf8');
   assert.equal((grid.match(/<type>16th<\/type>/g) ?? []).length, 16);
   const texture = await readFile(path.join(notationRoot, files[1]), 'utf8');
-  assert.match(texture, /notehead parentheses="yes"/);
+  assert.match(texture, /Sin acento = textura suave; acento = backbeat/);
+  assert.equal((texture.match(/<accent\/>/g) ?? []).length, 2);
+  assert.doesNotMatch(texture, /parentheses="yes"/);
   const h7 = await readFile(path.join(notationRoot, files[2]), 'utf8');
   const check = await readFile(path.join(notationRoot, files[3]), 'utf8');
   assert.equal((h7.match(/<measure number=/g) ?? []).length, 2);
