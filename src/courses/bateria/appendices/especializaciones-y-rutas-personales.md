@@ -1,4 +1,10 @@
-# Especializaciones y rutas personales
+# 00 — APÉNDICE: ESPECIALIZACIONES Y RUTAS PERSONALES
+
+Proyecto: Curso integral de batería / Aprendo  
+Versión: 1.0  
+Estado: APROBADO COMO MAPA CURRICULAR OPCIONAL
+
+## 1. PARA QUÉ SIRVE ESTE APÉNDICE
 
 Este apéndice responde a una pregunta sencilla:
 
@@ -8,11 +14,23 @@ No es una Fase 8, no sustituye el curso troncal y no crea un segundo currículo.
 
 La estructura es:
 
-**CURSO TRONCAL A–K → ÁREAS DE INTERÉS → MÓDULOS DE ESPECIALIZACIÓN → RUTAS PERSONALES RECOMENDADAS**
+**CURSO TRONCAL A–K**  
+→ **ÁREAS DE INTERÉS**  
+→ **MÓDULOS DE ESPECIALIZACIÓN**  
+→ **RUTAS PERSONALES RECOMENDADAS**
 
-La unidad principal es el **módulo**. Una ruta no contiene lecciones exclusivas: simplemente combina módulos existentes según un objetivo. Puedes estudiar un solo módulo, cursar una especialización parcialmente, combinar módulos de áreas distintas, seguir una ruta recomendada, modificarla, pausarla y retomarla después.
+La unidad principal es el módulo. Una ruta no contiene lecciones exclusivas: simplemente combina módulos existentes según un objetivo.
 
-## Tres momentos para entrar en una especialización
+Puedes:
+
+- estudiar un solo módulo;
+- cursar una especialización parcialmente;
+- combinar módulos de áreas distintas;
+- seguir una ruta recomendada;
+- modificarla;
+- pausarla y retomarla después.
+
+## 2. TRES MOMENTOS PARA ENTRAR EN UNA ESPECIALIZACIÓN
 
 ### PUEDES EXPLORARLO YA
 
@@ -28,150 +46,369 @@ Las bases relevantes ya son funcionales y puedes dedicar trabajo especializado s
 
 Estas etiquetas no son cursos, grados ni fechas. Se deciden por competencias y equipo.
 
-## Qué no necesitas estudiar como especialización aparte
+## 3. QUÉ NO NECESITAS ESTUDIAR COMO ESPECIALIZACIÓN APARTE
 
-El tronco ya contiene y desarrolla técnica general de manos, técnica funcional de bombo, velocidad y eficiencia como variables de técnica, lectura y charts, pulso y subdivisión, groove/pocket/microtiming, coordinación e independencia generales, oído/transcripción/análisis, improvisación y composición generales, orquestación rudimental, repertorio e interpretación de canciones y el eje J: agrupaciones, desplazamientos, métricas impares, tuplets, ciclos, polirritmia, polimetría y modulación métrica.
+El tronco ya contiene y desarrolla:
 
-Por ejemplo, **heel-toe, slide, swivel, Moeller o push-pull no son rutas independientes**: son técnicas o soluciones que pueden aparecer dentro del módulo que realmente las necesite.
+- técnica general de manos;
+- técnica funcional de bombo;
+- velocidad y eficiencia como variables de técnica;
+- lectura y charts;
+- pulso, subdivisión y metrónomo;
+- groove, pocket y microtiming;
+- coordinación e independencia generales;
+- oído, transcripción y análisis;
+- improvisación y composición generales;
+- orquestación rudimental;
+- repertorio e interpretación de canciones;
+- agrupaciones, métricas impares, tuplets, desplazamientos, polirritmia, polimetría y modulación métrica.
 
-## Explorar por área
+Por ejemplo, heel-toe, slide, swivel, Moeller o push-pull no son rutas independientes: son técnicas o soluciones que pueden aparecer dentro del módulo que realmente las necesite.
+
+## 4. EXPLORAR POR ÁREA
 
 ### A — Pies y configuraciones técnicas
 
-- **ESP-01 — Doble pedal: fundamentos y control bilateral.** Ergonomía de doble pedal, alternancia, equilibrio entre pies, dinámica y coordinación básica. Base troncal: H2/H4. El doble pedal no pertenece exclusivamente al metal.
-- **ESP-02 — Doble pedal: velocidad sostenible, resistencia y vocabulario avanzado.** Eficiencia a alta densidad, bursts, continuidad, resistencia contextual y vocabulario avanzado. Requiere ESP-01 funcional. Heel-toe, slide, swivel y técnicas similares son alternativas, no una checklist obligatoria.
+- ESP-01 — Doble pedal: fundamentos y control bilateral
+- ESP-02 — Doble pedal: velocidad sostenible, resistencia y vocabulario avanzado
 
 ### B — Vocabulario, coordinación y creatividad aplicada
 
-- **ESP-03 — Lenguaje lineal manos-pies.** Distribución de frases entre manos y pies, vocabulario lineal y conexión groove-fill. Base: B8/H4/H6. Inicio práctico: H4 mínimo.
-- **ESP-04 — Ostinatos como plataforma generativa.** Mantener una capa estable mientras otras improvisan, leen o transforman material. No sustituye H7. Inicio práctico: H7 mínimo.
-- **ESP-08 — Solo de drumset: forma y narrativa.** Desarrollo, contraste, espacio, densidad, clímax, textura y sentido formal. Base troncal: G3/G6/H6.
+- ESP-03 — Lenguaje lineal manos-pies
+- ESP-04 — Ostinatos como plataforma generativa
+- ESP-08 — Solo de drumset: forma y narrativa
 
 ### C — Implementos, texturas e instrumentación
 
-- **ESP-05 — Brushes: fundamentos y producción sonora.** Sweep, articulación, presión, contacto continuo, textura y coordinación específica. Necesita brushes y superficie adecuada. No pertenece exclusivamente al jazz.
-- **ESP-06 — Brushes: texturas y aplicación multiestilística.** Adaptación a distintos feels, métricas, repertorios y texturas. Requiere ESP-05 funcional.
-- **ESP-07 — Percusión auxiliar integrada al drumset.** Integración de shaker, pandereta, cowbell y pequeña percusión cuando formen parte de la función del baterista. No sustituye el estudio específico de instrumentos y tradiciones completas de percusión.
+- ESP-05 — Brushes: fundamentos y producción sonora
+- ESP-06 — Brushes: texturas y aplicación multiestilística
+- ESP-07 — Percusión auxiliar integrada al drumset
 
 ### D — Contextos profesionales de interpretación
 
-- **ESP-09 — Preparación rápida de repertorio y sustituciones.** Priorización, roadmaps, cues, simplificación inteligente y preparación con poco tiempo. Base: I3/I4/D7.
-- **ESP-10 — Interpretación en estudio y consistencia de toma.** Repetibilidad entre tomas, click, referencias, decisiones rápidas y continuidad.
-- **ESP-11 — Baterista remoto y autoproducido.** Preparación, grabación y entrega fiable de partes de batería desde casa. No es un curso general de mezcla o producción.
-- **ESP-12 — Musical theatre y show drumming.** Libros/charts largos, cues, cambios de estilo, continuidad y recuperación durante el show.
-- **ESP-13 — Working band, covers y function band.** Repertorio grande, adaptación a arreglos/cantantes, medleys, amplitud estilística y consistencia durante sets largos.
+- ESP-09 — Preparación rápida de repertorio y sustituciones
+- ESP-10 — Interpretación en estudio y consistencia de toma
+- ESP-11 — Baterista remoto y autoproducido
+- ESP-12 — Musical theatre y show drumming
+- ESP-13 — Working band, covers y function band
 
 ### E — Electrónica aplicada al acto de tocar
 
-- **ESP-14 — Batería electrónica como instrumento interpretativo.** Dinámica, zonas, sensibilidad, mapping, kits, monitorización, respuesta y latencia percibida desde la interpretación. No es una guía de compra.
-- **ESP-15 — Drumset híbrido: triggers, samples, loops y sincronía.** Triggers, pads, one-shots, loops, click/sync, cambios de escena y contingencia ante fallos.
+- ESP-14 — Batería electrónica como instrumento interpretativo
+- ESP-15 — Drumset híbrido: triggers, samples, loops y sincronía
 
 ### F — Lenguajes y estilos
 
-- **ESP-16 — Jazz: time, ride, articulación y fraseo.** Construcción de una base jazzística sólida de time y articulación. Inicio práctico: H5 mínimo y subdivisión ternaria suficientemente estable.
-- **ESP-17 — Jazz: comping e independencia conversacional.** Interacción con otras voces sin convertir la independencia en ejercicio desconectado. Base: ESP-16.
-- **ESP-18 — Jazz: repertorio, formas y navegación melódica.** Interpretación de formas, repertorio y relación entre batería y estructura musical. Base: ESP-16.
-- **ESP-19 — Jazz: trading, improvisación y soloing.** Improvisación dentro de lenguaje, forma e interacción jazzística. Base: ESP-16 y competencias creativas troncales.
-- **ESP-20 — Jazz moderno/post-bop.** Aplicación de vocabulario y recursos rítmicos más complejos. Puede requerir competencias concretas del eje J según el repertorio.
-- **ESP-21 — Funk, soul y R&B: articulación y lenguaje de groove.** Profundización de articulación, dinámica interna y lenguaje de groove más allá del nivel generalista. **Estado: en preparación.**
-- **ESP-22 — Hip-hop/neo-soul: beat, placement y traducción al kit.** Beat, placement, interpretación de referencias programadas y traducción al kit. **Estado: en preparación.**
-- **ESP-23 — Metal: lenguaje, articulación y arreglos.** Lenguaje de riff, articulación, dinámica, fills y organización del repertorio metal. El doble pedal puede ser útil, pero no es un prerrequisito universal.
-- **ESP-24 — Extreme metal: blast beats, coordinación y transiciones.** Familias de blast beats, coordinación, transiciones, alta densidad y continuidad musical. Base: ESP-23. El doble pedal se añade cuando el repertorio lo requiere.
-- **ESP-32 — Reggae/dub.** **Estado: en preparación.** Necesita investigación estilística y repertorial específica antes de convertirse en curso desarrollado.
-- **ESP-33 — Country.** **Estado: en preparación.** Necesita dossier estilístico específico antes del desarrollo de lecciones.
+- ESP-16 — Jazz: time, ride, articulación y fraseo
+- ESP-17 — Jazz: comping e independencia conversacional
+- ESP-18 — Jazz: repertorio, formas y navegación melódica
+- ESP-19 — Jazz: trading, improvisación y soloing
+- ESP-20 — Jazz moderno/post-bop
+- ESP-21 — Funk, soul y R&B: articulación y lenguaje de groove
+- ESP-22 — Hip-hop/neo-soul: beat, placement y traducción al kit
+- ESP-23 — Metal: lenguaje, articulación y arreglos
+- ESP-24 — Extreme metal: blast beats, coordinación y transiciones
+- ESP-32 — Reggae/dub
+- ESP-33 — Country
 
 ### G — Tradiciones y repertorios regionales
 
-- **ESP-27 — Música cubana: percusión, clave y traducción al drumset.** Funciones, clave cuando corresponda, capas, percusión de referencia y traducción al drumset. No se reduce a memorizar patterns.
-- **ESP-28 — Música cubana contemporánea: songo/timba y coordinación.** Profundiza música cubana contemporánea y coordinación específica. Base: ESP-27 y H7 suficiente para el material elegido.
-- **ESP-29 — Música brasileña: percusión y traducción al drumset.** Repertorios, articulaciones, feel, funciones de percusión y traducción al drumset. No se presume transferencia automática desde la música cubana.
-- **ESP-30 — Música brasileña: integración de percusión y ensemble.** Coordinación, interacción y adaptación de capas de percusión al drumset. Base: ESP-29.
-- **ESP-31 — New Orleans: historia, lenguaje y transferencia.** Lenguaje, historia, feel y transferencia musical de repertorios de New Orleans. No se reduce a un único groove.
+- ESP-27 — Música cubana: percusión, clave y traducción al drumset
+- ESP-28 — Música cubana contemporánea: songo/timba y coordinación
+- ESP-29 — Música brasileña: percusión y traducción al drumset
+- ESP-30 — Música brasileña: integración de percusión y ensemble
+- ESP-31 — New Orleans: historia, lenguaje y transferencia
 
 ### H — Integración avanzada
 
-- **ESP-25 — Fusion: repertorio e integración de lenguajes.** Integra varios lenguajes dentro de repertorio y situaciones musicales reales. No sustituye el estudio de los estilos que se fusionan.
-- **ESP-26 — Progressive: aplicación interpretativa y compositiva del eje J.** Aplicación musical de agrupaciones, métricas, polirritmia, polimetría, modulación y otros recursos ya estudiados en J. ESP-26 **no vuelve a enseñar J1–J9**.
+- ESP-25 — Fusion: repertorio e integración de lenguajes
+- ESP-26 — Progressive: aplicación interpretativa y compositiva del eje J
 
-## Encontrar una ruta según tu objetivo
+## 5. FICHAS BREVES DE LOS MÓDULOS
 
-### Quiero trabajar doble pedal
+### ESP-01 — DOBLE PEDAL: FUNDAMENTOS Y CONTROL BILATERAL
 
-**Esencial:** ESP-01. **Muy recomendado:** ESP-02. **Opcional:** ESP-03 y los módulos estilísticos donde quieras aplicarlo.
+**Aprendes:** ergonomía de doble pedal, alternancia, equilibrio entre pies, dinámica y coordinación básica.  
+**Sirve para:** ampliar el vocabulario de bombo en cualquier estilo que lo necesite.  
+**Base troncal:** H2/H4.  
+**Necesitas para empezar a practicar:** kit y doble pedal o dos bombos, H2 al menos en mínimo.  
+**Puedes explorarlo ya:** escucha, subdivisión, análisis y ergonomía conceptual.  
+**Relacionado con:** ESP-02, ESP-03, ESP-23, ESP-24, ESP-25, ESP-26.
 
-### Quiero mejorar groove / pocket
+### ESP-02 — DOBLE PEDAL AVANZADO
 
-**Esencial:** H5 + C7 del tronco. Después: ESP-21 o ESP-22 según la estética. Opcionales: ESP-03, ESP-31, ESP-32, ESP-33.
+**Aprendes:** eficiencia a alta densidad, bursts, continuidad, resistencia contextual y vocabulario avanzado.  
+**Necesitas:** ESP-01 funcional.  
+**Importante:** heel-toe, slide, swivel o técnicas similares son alternativas, no una checklist obligatoria.
 
-### Quiero más independencia
+### ESP-03 — LENGUAJE LINEAL MANOS-PIES
 
-**Esencial:** H7 del tronco. **Profundización:** ESP-04. Aplicaciones posibles: ESP-17, ESP-20, ESP-28.
+**Aprendes:** distribuir frases entre manos y pies, crear lenguaje lineal y conectar groove y fill.  
+**Base troncal:** B8/H4/H6.  
+**Inicio práctico:** H4 mínimo.
 
-### Quiero tocar extreme metal
+### ESP-04 — OSTINATOS COMO PLATAFORMA GENERATIVA
 
-**Esenciales:** ESP-23 + ESP-24. Añade ESP-01 si tu repertorio necesita doble pedal. Después: ESP-02, ESP-03 o ESP-26 según objetivo.
+**Aprendes:** mantener una capa estable mientras otras improvisan, leen o transforman material.  
+**No sustituye:** H7 Independencia.  
+**Inicio práctico:** H7 mínimo.
 
-### Quiero profundizar en jazz
+### ESP-05 — BRUSHES: FUNDAMENTOS
 
-**Esenciales:** ESP-16 + ESP-17 + ESP-18. **Muy recomendado:** ESP-19. Opcionales: ESP-05/06, ESP-20, ESP-08, ESP-31.
+**Aprendes:** sweep, articulación, presión, contacto continuo, textura y coordinación específica.  
+**Necesitas:** brushes y superficie adecuada.  
+**No pertenece exclusivamente al jazz.**
 
-### Quiero estudiar brushes
+### ESP-06 — BRUSHES MULTIESTILÍSTICOS
 
-**Esencial:** ESP-05. Después: ESP-06. Combínalo con cualquier lenguaje donde realmente quieras usar brushes; no únicamente Jazz.
+**Aprendes:** adaptar brushes a distintos feels, métricas, repertorios y texturas.  
+**Necesitas:** ESP-05 funcional.
 
-### Quiero profundizar en música cubana
+### ESP-07 — PERCUSIÓN AUXILIAR EN EL DRUMSET
 
-**Esencial:** ESP-27. **Muy recomendados:** ESP-28 + ESP-07. Opcionales: ESP-06, ESP-25.
+**Aprendes:** integrar pequeña percusión dentro de una parte de batería.  
+**Puede incluir:** shaker, pandereta, cowbell y recursos semejantes cuando formen parte de la función del baterista.  
+**No sustituye** el estudio específico de instrumentos y tradiciones completas de percusión.
 
-### Quiero profundizar en música brasileña
+### ESP-08 — SOLO DE DRUMSET: FORMA Y NARRATIVA
 
-**Esencial:** ESP-29. **Muy recomendados:** ESP-30 + ESP-07. Opcionales: ESP-06, ESP-25.
+**Aprendes:** construir solos con desarrollo, contraste, espacio, densidad, clímax y sentido formal.  
+**Base troncal:** G3/G6/H6.
 
-### Quiero Funk / Soul / R&B
+### ESP-09 — PREPARACIÓN RÁPIDA DE REPERTORIO Y SUSTITUCIONES
 
-**Esencial futuro:** ESP-21. **Muy recomendado:** ESP-03. Opcionales: ESP-22, ESP-13, ESP-25.
+**Aprendes:** priorizar, crear roadmaps, detectar cues, simplificar inteligentemente y preparar material con poco tiempo.  
+**Base troncal:** I3/I4/D7.
 
-### Quiero Hip-hop / Neo-soul en kit
+### ESP-10 — INTERPRETACIÓN EN ESTUDIO
 
-**Esencial futuro:** ESP-22. Según repertorio: ESP-14/15. Opcionales: ESP-21, ESP-03.
+**Aprendes:** mantener consistencia entre tomas, trabajar con click y referencias, tomar decisiones rápidas y sostener una interpretación reproducible.
 
-### Quiero Fusion
+### ESP-11 — BATERISTA REMOTO Y AUTOPRODUCIDO
 
-**Esencial:** ESP-25. Añade módulos de los lenguajes que realmente quieras mezclar.
+**Aprendes:** preparar, grabar y entregar partes de batería de forma fiable desde casa.  
+**No es:** un curso general de producción o mezcla.
 
-### Quiero Progressive
+### ESP-12 — MUSICAL THEATRE Y SHOW DRUMMING
 
-**Esencial:** seguir desarrollando el eje J del tronco + ESP-26. Muy útiles según repertorio: ESP-03 y ESP-04. Opcionales: ESP-25, ESP-20, ESP-02.
+**Aprendes:** seguir libros/charts largos, cues, cambios de estilo y continuidad de show.
 
-### Quiero desarrollar soloing
+### ESP-13 — WORKING BAND / COVERS / FUNCTION BAND
 
-**Esencial:** ESP-08. **Muy recomendados:** ESP-03 + ESP-04. Opcionales: ESP-19, ESP-02, ESP-26.
+**Aprendes:** gestionar repertorio grande, adaptarte a arreglos y cantantes, mantener consistencia durante sets largos y cambiar de lenguaje con rapidez.
 
-### Quiero prepararme para sesiones / estudio
+### ESP-14 — BATERÍA ELECTRÓNICA COMO INSTRUMENTO
 
-**Esenciales:** ESP-09 + ESP-10. Del tronco siguen siendo especialmente importantes D7, H8, I3 e I4. Opcionales: ESP-07, ESP-11, ESP-14, ESP-15 y los lenguajes que exija cada trabajo.
+**Aprendes:** controlar dinámica, zonas, sensibilidad, kits, mapping, monitorización y respuesta interpretativa.  
+**No es:** una guía de compra de baterías electrónicas.
 
-### Quiero grabar baterías remotamente
+### ESP-15 — DRUMSET HÍBRIDO
 
-**Esencial:** ESP-11. **Muy recomendado:** ESP-10. Opcionales: ESP-14/15.
+**Aprendes:** integrar triggers, samples, pads, loops, click/sync y cambios de escena en directo o estudio.
 
-### Quiero tocar musicales / shows
+### ESP-16 — JAZZ: TIME, RIDE, ARTICULACIÓN Y FRASEO
 
-**Esencial:** ESP-12. **Muy recomendados:** ESP-09 + ESP-07. Opcionales: ESP-15 y módulos estilísticos del repertorio.
+**Aprendes:** construir una base jazzística sólida de time y articulación.  
+**Inicio práctico:** H5 mínimo y subdivisión ternaria suficientemente estable.
 
-### Quiero tocar covers / function band
+### ESP-17 — JAZZ: COMPING E INDEPENDENCIA CONVERSACIONAL
 
-**Esenciales:** ESP-13 + ESP-09. Después: módulos de los estilos predominantes del repertorio.
+**Aprendes:** interactuar con otras voces sin convertir la independencia en un ejercicio desconectado de la música.  
+**Base:** ESP-16.
 
-### Quiero integrar electrónica
+### ESP-18 — JAZZ: REPERTORIO, FORMAS Y NAVEGACIÓN MELÓDICA
 
-**Esencial:** ESP-14. **Muy recomendado:** ESP-15. Opcionales frecuentes: ESP-11, ESP-22, ESP-12.
+**Aprendes:** interpretar formas, seguir repertorio y relacionar la batería con la estructura musical.  
+**Base:** ESP-16.
 
-### Quiero una ruta creativa / experimental
+### ESP-19 — JAZZ: TRADING, IMPROVISACIÓN Y SOLOING
 
-**Esencial:** seguir desarrollando G + J del tronco y ESP-08. Después combina libremente ESP-03, ESP-04, ESP-14, ESP-15, ESP-26 y los lenguajes que quieras hibridar.
+**Aprendes:** improvisar dentro de lenguaje, forma e interacción jazzística.  
+**Base:** ESP-16 y competencias creativas troncales.
 
-## Puedes combinar los módulos libremente
+### ESP-20 — JAZZ MODERNO / POST-BOP
+
+**Aprendes:** aplicar vocabulario y recursos rítmicos más complejos al jazz moderno.  
+**Puede requerir:** competencias concretas del eje J según el repertorio.
+
+### ESP-21 — FUNK, SOUL Y R&B
+
+**Objetivo:** profundizar articulación, dinámica interna y lenguaje de groove más allá del nivel generalista.  
+**Estado:** EN PREPARACIÓN. Su dossier estilístico debe completarse antes de desarrollar lecciones.
+
+### ESP-22 — HIP-HOP / NEO-SOUL
+
+**Objetivo:** estudiar beat, placement, interpretación de referencias programadas y traducción al kit.  
+**Estado:** EN PREPARACIÓN.
+
+### ESP-23 — METAL
+
+**Aprendes:** lenguaje de riff, articulación, arreglos, dinámica, fills y organización del repertorio metal.  
+**Importante:** el doble pedal puede ser útil, pero no es un prerrequisito universal.
+
+### ESP-24 — EXTREME METAL
+
+**Aprendes:** familias de blast beats, coordinación, transiciones, alta densidad y continuidad musical.  
+**Base:** ESP-23.  
+**Doble pedal:** se añade cuando el repertorio lo requiere.
+
+### ESP-25 — FUSION
+
+**Aprendes:** integrar varios lenguajes dentro de repertorio y situaciones musicales reales.  
+**No sustituye:** el estudio de los estilos que estás fusionando.
+
+### ESP-26 — PROGRESSIVE
+
+**Aprendes:** aplicar musicalmente agrupaciones, métricas, polirritmia, polimetría, modulación y otros recursos ya estudiados en J.  
+**Importante:** ESP-26 no vuelve a enseñar J1–J9.
+
+### ESP-27 — MÚSICA CUBANA
+
+**Aprendes:** comprender funciones, clave cuando corresponda, capas, percusión de referencia y traducción al drumset.  
+**No se reduce a memorizar patrones.**
+
+### ESP-28 — SONGO / TIMBA Y COORDINACIÓN
+
+Profundiza música cubana contemporánea y coordinación específica.  
+**Base:** ESP-27 y H7 suficiente para el material elegido.
+
+### ESP-29 — MÚSICA BRASILEÑA
+
+**Aprendes:** comprender repertorios, articulaciones, feel, funciones de percusión y traducción al drumset.  
+No se presupone que lo aprendido en música cubana sea intercambiable automáticamente.
+
+### ESP-30 — MÚSICA BRASILEÑA: INTEGRACIÓN Y ENSEMBLE
+
+Profundiza coordinación, interacción y adaptación de capas de percusión al drumset.  
+**Base:** ESP-29.
+
+### ESP-31 — NEW ORLEANS
+
+**Aprendes:** lenguaje, historia, feel y transferencia musical de repertorios de New Orleans.  
+No se reduce a un único groove.
+
+### ESP-32 — REGGAE / DUB
+
+**Estado:** EN PREPARACIÓN. Necesita investigación estilística y repertorial específica antes de convertirse en curso desarrollado.
+
+### ESP-33 — COUNTRY
+
+**Estado:** EN PREPARACIÓN. Necesita dossier estilístico específico antes del desarrollo de lecciones.
+
+## 6. ENCONTRAR UNA RUTA SEGÚN TU OBJETIVO
+
+### QUIERO TRABAJAR DOBLE PEDAL
+
+- Esencial: ESP-01.
+- Muy recomendado: ESP-02.
+- Opcional: ESP-03 + los estilos donde quieras aplicarlo.
+
+### QUIERO MEJORAR GROOVE / POCKET
+
+- Esencial: H5 + C7 del tronco.
+- Después: ESP-21 o ESP-22 según la estética.
+- Opcionales: ESP-03, ESP-31, ESP-32, ESP-33.
+
+### QUIERO MÁS INDEPENDENCIA
+
+- Esencial: H7 del tronco.
+- Profundización: ESP-04.
+- Aplicaciones posibles: ESP-17, ESP-20, ESP-28.
+
+### QUIERO TOCAR EXTREME METAL
+
+- Esenciales: ESP-23 + ESP-24.
+- Doble pedal: ESP-01 si tu repertorio lo necesita.
+- Después: ESP-02, ESP-03 o ESP-26 según objetivo.
+
+### QUIERO PROFUNDIZAR EN JAZZ
+
+- Esenciales: ESP-16 + ESP-17 + ESP-18.
+- Muy recomendado: ESP-19.
+- Opcionales: ESP-05/06, ESP-20, ESP-08, ESP-31.
+
+### QUIERO ESTUDIAR BRUSHES
+
+- Esencial: ESP-05.
+- Después: ESP-06.
+- Combínalo con cualquier lenguaje donde realmente quieras usar brushes; no únicamente Jazz.
+
+### QUIERO PROFUNDIZAR EN MÚSICA CUBANA
+
+- Esencial: ESP-27.
+- Muy recomendados: ESP-28 + ESP-07.
+- Opcionales: ESP-06, ESP-25.
+
+### QUIERO PROFUNDIZAR EN MÚSICA BRASILEÑA
+
+- Esencial: ESP-29.
+- Muy recomendados: ESP-30 + ESP-07.
+- Opcionales: ESP-06, ESP-25.
+
+### QUIERO FUNK / SOUL / R&B
+
+- Esencial futuro: ESP-21.
+- Muy recomendado: ESP-03.
+- Opcionales: ESP-22, ESP-13, ESP-25.
+
+### QUIERO HIP-HOP / NEO-SOUL EN KIT
+
+- Esencial futuro: ESP-22.
+- Según repertorio: ESP-14/15.
+- Opcionales: ESP-21, ESP-03.
+
+### QUIERO FUSION
+
+- Esencial: ESP-25.
+- Añade módulos de los lenguajes que realmente quieras mezclar.
+
+### QUIERO PROGRESSIVE
+
+- Esencial: seguir desarrollando el eje J del tronco + ESP-26.
+- Muy útiles según repertorio: ESP-03 y ESP-04.
+- Opcionales: ESP-25, ESP-20, ESP-02.
+
+### QUIERO DESARROLLAR SOLOING
+
+- Esencial: ESP-08.
+- Muy recomendados: ESP-03 + ESP-04.
+- Opcionales: ESP-19, ESP-02, ESP-26.
+
+### QUIERO PREPARARME PARA SESIONES / ESTUDIO
+
+- Esenciales: ESP-09 + ESP-10.
+- Muy importantes del tronco: D7, H8, I3, I4.
+- Opcionales: ESP-07, ESP-11, ESP-14, ESP-15 y los lenguajes que exija cada trabajo.
+
+### QUIERO GRABAR BATERÍAS REMOTAMENTE
+
+- Esencial: ESP-11.
+- Muy recomendado: ESP-10.
+- Opcionales: ESP-14/15.
+
+### QUIERO TOCAR MUSICALES / SHOWS
+
+- Esencial: ESP-12.
+- Muy recomendado: ESP-09 + ESP-07.
+- Opcionales: ESP-15 y módulos estilísticos del repertorio.
+
+### QUIERO TOCAR COVERS / FUNCTION BAND
+
+- Esenciales: ESP-13 + ESP-09.
+- Después: módulos de los estilos predominantes de tu repertorio.
+
+### QUIERO INTEGRAR ELECTRÓNICA
+
+- Esencial: ESP-14.
+- Muy recomendado: ESP-15.
+- Opcionales frecuentes: ESP-11, ESP-22, ESP-12.
+
+### QUIERO UNA RUTA CREATIVA / EXPERIMENTAL
+
+- Esencial: seguir desarrollando G + J del tronco y ESP-08.
+- Después combina libremente ESP-03, ESP-04, ESP-14, ESP-15, ESP-26 y los lenguajes que quieras hibridar.
+
+## 7. PUEDES COMBINAR LOS MÓDULOS LIBREMENTE
 
 Ejemplos completamente válidos:
 
@@ -184,9 +421,11 @@ Ejemplos completamente válidos:
 
 No necesitas identificarte con una única «rama» de baterista.
 
-## Cómo encajarlo en tu práctica
+## 8. CÓMO ENCAJARLO EN TU PRÁCTICA
 
-La referencia general del curso sigue siendo **25–30 minutos, 3–4 días por semana**. La especialización ocupa parte de esa práctica; no añade automáticamente otra sesión completa.
+La referencia general del curso sigue siendo 25–30 minutos, 3–4 días por semana.
+
+La especialización ocupa parte de esa práctica; no añade automáticamente otra sesión completa.
 
 Regla práctica:
 
@@ -195,11 +434,13 @@ Regla práctica:
 - combina con más libertad módulos de escucha, análisis, repertorio o tecnología;
 - puedes pausar un módulo sin generar deuda.
 
-Por ejemplo, doble pedal avanzado + extreme metal de alta densidad + ostinatos complejos como tres prioridades físicas simultáneas probablemente dispersaría demasiado una sesión corta. En cambio, doble pedal + análisis de repertorio brasileño o brushes + escucha de jazz pueden convivir mejor.
+Ejemplo: doble pedal avanzado + extreme metal de alta densidad + ostinatos complejos como tres prioridades físicas simultáneas probablemente dispersaría demasiado una sesión corta. En cambio, doble pedal + análisis de repertorio brasileño o brushes + escucha de jazz pueden convivir mejor.
 
-Esta es una **decisión curricular de organización**, no una proporción científica universal.
+Esta es una decisión curricular de organización, no una proporción científica universal.
 
-## Módulos todavía en investigación
+## 9. MÓDULOS TODAVÍA EN INVESTIGACIÓN
+
+El mapa puede mostrar módulos antes de que exista su curso completo.
 
 Actualmente requieren investigación específica antes de desarrollar sus lecciones:
 
@@ -208,9 +449,15 @@ Actualmente requieren investigación específica antes de desarrollar sus leccio
 - ESP-32 Reggae/Dub;
 - ESP-33 Country.
 
-También quedan como posibles ampliaciones futuras, todavía sin módulo aprobado, otras tradiciones caribeñas, repertorios sudamericanos no brasileños, tradiciones africanas/Afro-pop con división regional adecuada, Gospel y Big band si finalmente existe un hueco que no cubran D7 + Jazz + Show.
+También quedan como posibles ampliaciones futuras, todavía sin módulo aprobado:
 
-## Regla final
+- tradiciones caribeñas distintas de los bloques ya cubiertos;
+- repertorios sudamericanos no brasileños;
+- tradiciones africanas/Afro-pop, con división regional adecuada;
+- Gospel;
+- Big band, si finalmente existe un hueco que no cubran D7 + Jazz + Show.
+
+## 10. REGLA FINAL
 
 Una especialización solo existe cuando aporta una profundidad opcional que el tronco no garantiza suficientemente.
 
