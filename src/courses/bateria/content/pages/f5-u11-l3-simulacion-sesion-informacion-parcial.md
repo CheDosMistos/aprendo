@@ -10,7 +10,7 @@ order: 3
 title: "Simulación de sesión: responder con información parcial"
 summary: "Practica una situación preparada donde conoces forma, pulso y algunos cues, pero no recibes una partitura exhaustiva: debes priorizar continuidad y decisiones musicales razonables."
 duration: 25–30 min
-competencies: [I3, I4, D7, D5, H5, H6, F3, K2, K5, I6]
+competencies: [I3, I4, D7, D5, H5, H6, F3, K2, K5]
 rudiments: []
 published: true
 ---
