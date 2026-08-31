@@ -40,6 +40,12 @@ No pretende representar ningún estilo concreto. Utiliza material de Fase 4 para
 - cuatro extremidades cuando esa versión sea sostenible;
 - grabación y diagnóstico.
 
+### Qué representa la partitura
+
+El MusicXML de Pieza A es un **esqueleto formal mínimo**, no una partitura completa de todas las capas del kit. Escribe bombo/caja, cues de sección, una Variación B y un Fill A. La capa conocida de time/hi-hat/ride puede añadirse desde memoria según la versión sostenible elegida.
+
+Así la lectura ayuda a navegar la forma sin convertirse en una segunda dificultad dominante.
+
 ## Arquitectura
 
 ### L1 — Recuperar sin reaprender
