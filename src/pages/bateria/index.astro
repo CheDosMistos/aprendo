@@ -5,6 +5,7 @@ import { getBateriaContent, routeFor, unitEntries } from '@courses/bateria/conte
 
 const entries = await getBateriaContent();
 const units = entries.filter((entry) => entry.data.kind === 'unit');
+const phases = [...new Set(units.map((unit) => unit.data.phase))].sort((a, b) => a - b);
 
 const sectionLabel = (kind: string, lessonNumber?: number) => {
   if (kind === 'diagnostic') return 'Diagnóstico';
@@ -28,56 +29,76 @@ const sectionTitle = (kind: string, title: string) => {
         <h1>{bateriaCourse.title}</h1>
         <p>Estudia por unidades flexibles. La referencia de práctica es 25–30 minutos, 3–4 días por semana, sin deuda por calendario.</p>
       </div>
-      <a class="progress-link" href="/bateria/progreso/">Ver progreso y evidencia</a>
+      <nav class="course-links" aria-label="Herramientas del curso">
+        <a class="progress-link" href="/bateria/progreso/">Ver progreso y evidencia</a>
+        <a class="progress-link" href="/bateria/apendices/">Apéndices</a>
+      </nav>
     </section>
 
     <p class="course-status" data-course-status role="status" aria-live="polite">Cargando estado de práctica…</p>
 
-    <section class="unit-grid" aria-label="Unidades disponibles">
-      {units.map((unit) => {
-        const sections = unitEntries(entries, unit.data.phase, unit.data.unit).filter((entry) => entry.data.kind !== 'unit');
-        const firstSection = sections[0];
-        let lessonNumber = 0;
+    <div class="phase-groups">
+      {phases.map((phase) => {
+        const phaseUnits = units.filter((unit) => unit.data.phase === phase);
         return (
-          <article class="unit-card" data-unit-card data-unit-route={routeFor(unit)}>
-            <div class="unit-card__head">
-              <p class="eyebrow">Fase {unit.data.phase} · Unidad {unit.data.unit}</p>
-              <span class="unit-state" data-unit-state>Pendiente</span>
+          <section class="phase-group" data-phase-group={phase} aria-labelledby={`fase-${phase}-title`}>
+            <div class="phase-group__head">
+              <div>
+                <p class="eyebrow">Curso troncal</p>
+                <h2 id={`fase-${phase}-title`}>Fase {phase}</h2>
+              </div>
+              <span class="phase-count">{phaseUnits.length} {phaseUnits.length === 1 ? 'unidad' : 'unidades'}</span>
             </div>
-            <h2>{unit.data.title}</h2>
-            <p>{unit.data.summary}</p>
 
-            {sections.length > 0 && (
-              <nav class="section-index" aria-label={`Secciones de la unidad ${unit.data.unit}`}>
-                <ol>
-                  {sections.map((section) => {
-                    const number = section.data.kind === 'lesson' ? ++lessonNumber : undefined;
-                    return (
-                      <li data-content-id={section.data.contentId}>
-                        <a href={routeFor(section)}>
-                          <span class="section-kind">{sectionLabel(section.data.kind, number)}</span>
-                          <span class="section-title">{sectionTitle(section.data.kind, section.data.title)}</span>
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ol>
-              </nav>
-            )}
+            <div class="unit-grid" aria-label={`Unidades de la fase ${phase}`}>
+              {phaseUnits.map((unit) => {
+                const sections = unitEntries(entries, unit.data.phase, unit.data.unit).filter((entry) => entry.data.kind !== 'unit');
+                const firstSection = sections[0];
+                let lessonNumber = 0;
+                return (
+                  <article class="unit-card" data-unit-card data-unit-route={routeFor(unit)}>
+                    <div class="unit-card__head">
+                      <p class="eyebrow">Fase {unit.data.phase} · Unidad {unit.data.unit}</p>
+                      <span class="unit-state" data-unit-state>Pendiente</span>
+                    </div>
+                    <h3>{unit.data.title}</h3>
+                    <p>{unit.data.summary}</p>
 
-            <div class="unit-actions">
-              <a
-                class="primary-link"
-                data-unit-action
-                href={firstSection ? routeFor(firstSection) : routeFor(unit)}
-              >
-                {firstSection ? 'Empezar unidad' : 'Ver unidad'}
-              </a>
+                    {sections.length > 0 && (
+                      <nav class="section-index" aria-label={`Secciones de la unidad ${unit.data.unit}`}>
+                        <ol>
+                          {sections.map((section) => {
+                            const number = section.data.kind === 'lesson' ? ++lessonNumber : undefined;
+                            return (
+                              <li data-content-id={section.data.contentId}>
+                                <a href={routeFor(section)}>
+                                  <span class="section-kind">{sectionLabel(section.data.kind, number)}</span>
+                                  <span class="section-title">{sectionTitle(section.data.kind, section.data.title)}</span>
+                                </a>
+                              </li>
+                            );
+                          })}
+                        </ol>
+                      </nav>
+                    )}
+
+                    <div class="unit-actions">
+                      <a
+                        class="primary-link"
+                        data-unit-action
+                        href={firstSection ? routeFor(firstSection) : routeFor(unit)}
+                      >
+                        {firstSection ? 'Empezar unidad' : 'Ver unidad'}
+                      </a>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
-          </article>
+          </section>
         );
       })}
-    </section>
+    </div>
   </div>
 </BaseLayout>
 
@@ -122,5 +143,5 @@ const sectionTitle = (kind: string, title: string) => {
 </script>
 
 <style>
-  .course-home{width:min(100%,76rem);margin-inline:auto}.course-intro{display:flex;justify-content:space-between;gap:1.25rem;align-items:flex-end}.course-intro>div{max-width:72ch}.progress-link{min-height:2.8rem;display:inline-flex;align-items:center;padding:.6rem .9rem;border:1px solid var(--border);border-radius:.65rem;color:var(--text);font-weight:750;text-decoration:none;white-space:nowrap}.progress-link:hover{border-color:var(--accent)}.course-status{margin:0;color:var(--muted);font-size:.9rem}.unit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.unit-card{min-height:18rem;display:flex;flex-direction:column;padding:1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.unit-card[data-state='active']{border-color:color-mix(in srgb,var(--accent) 45%,var(--border))}.unit-card__head{display:flex;justify-content:space-between;gap:.7rem;align-items:flex-start}.unit-state{padding:.2rem .45rem;border-radius:999px;background:var(--surface-2);color:var(--muted);font-size:.75rem;font-weight:750}.unit-card[data-state='complete'] .unit-state{color:var(--text);border:1px solid var(--border)}.unit-card h2{margin-bottom:.65rem;font-size:clamp(1.35rem,2vw,1.65rem)}.section-index{margin-top:1.25rem;padding-top:1rem;border-top:1px solid var(--border)}.section-index ol{display:grid;gap:.45rem;margin:0;padding:0;list-style:none}.section-index a{display:grid;grid-template-columns:minmax(5.4rem,auto) minmax(0,1fr);gap:.55rem;align-items:baseline;color:inherit;text-decoration:none}.section-index a:hover .section-title,.section-index a:focus-visible .section-title{text-decoration:underline;text-underline-offset:.16em}.section-kind{color:var(--muted);font-size:.78rem;font-weight:700}.section-index li[data-state='complete'] .section-kind{color:var(--text)}.section-index li[data-state='review'] .section-kind{color:var(--accent)}.unit-actions{display:flex;align-items:center;margin-top:auto;padding-top:1.25rem}.primary-link{min-height:2.8rem;display:inline-flex;align-items:center;padding:.6rem .9rem;border-radius:.65rem;background:var(--accent);color:var(--accent-contrast);font-weight:750;text-decoration:none}@media(max-width:48rem){.course-intro{display:block}.progress-link{margin-top:.8rem}.unit-grid{grid-template-columns:1fr}}@media(max-width:34rem){.section-index a{grid-template-columns:5.4rem minmax(0,1fr);gap:.4rem}}
+  .course-home{width:min(100%,76rem);margin-inline:auto}.course-intro{display:flex;justify-content:space-between;gap:1.25rem;align-items:flex-end}.course-intro>div{max-width:72ch}.course-links{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap;justify-content:flex-end}.progress-link{min-height:2.8rem;display:inline-flex;align-items:center;padding:.6rem .9rem;border:1px solid var(--border);border-radius:.65rem;color:var(--text);font-weight:750;text-decoration:none;white-space:nowrap}.progress-link:hover{border-color:var(--accent)}.course-status{margin:0;color:var(--muted);font-size:.9rem}.phase-groups{display:grid;gap:2rem}.phase-group{display:grid;gap:1rem}.phase-group__head{display:flex;justify-content:space-between;gap:1rem;align-items:end;padding-bottom:.75rem;border-bottom:1px solid var(--border)}.phase-group__head h2{margin:0}.phase-count{color:var(--muted);font-size:.85rem;font-weight:700;white-space:nowrap}.unit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.unit-card{min-height:18rem;display:flex;flex-direction:column;padding:1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.unit-card[data-state='active']{border-color:color-mix(in srgb,var(--accent) 45%,var(--border))}.unit-card__head{display:flex;justify-content:space-between;gap:.7rem;align-items:flex-start}.unit-state{padding:.2rem .45rem;border-radius:999px;background:var(--surface-2);color:var(--muted);font-size:.75rem;font-weight:750}.unit-card[data-state='complete'] .unit-state{color:var(--text);border:1px solid var(--border)}.unit-card h3{margin-bottom:.65rem;font-size:clamp(1.35rem,2vw,1.65rem)}.section-index{margin-top:1.25rem;padding-top:1rem;border-top:1px solid var(--border)}.section-index ol{display:grid;gap:.45rem;margin:0;padding:0;list-style:none}.section-index a{display:grid;grid-template-columns:minmax(5.4rem,auto) minmax(0,1fr);gap:.55rem;align-items:baseline;color:inherit;text-decoration:none}.section-index a:hover .section-title,.section-index a:focus-visible .section-title{text-decoration:underline;text-underline-offset:.16em}.section-kind{color:var(--muted);font-size:.78rem;font-weight:700}.section-index li[data-state='complete'] .section-kind{color:var(--text)}.section-index li[data-state='review'] .section-kind{color:var(--accent)}.unit-actions{display:flex;align-items:center;margin-top:auto;padding-top:1.25rem}.primary-link{min-height:2.8rem;display:inline-flex;align-items:center;padding:.6rem .9rem;border-radius:.65rem;background:var(--accent);color:var(--accent-contrast);font-weight:750;text-decoration:none}@media(max-width:48rem){.course-intro{display:block}.course-links{justify-content:flex-start;margin-top:.8rem}.unit-grid{grid-template-columns:1fr}}@media(max-width:34rem){.phase-group__head{align-items:flex-start}.section-index a{grid-template-columns:5.4rem minmax(0,1fr);gap:.4rem}}
 </style>
