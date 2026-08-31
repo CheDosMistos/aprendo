@@ -1,0 +1,27 @@
+---
+import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import { Content as AppendixContent } from '@courses/bateria/appendices/especializaciones-y-rutas-personales.md';
+---
+
+<BaseLayout
+  title="Apéndices · Curso de batería — Aprendo"
+  description="Apéndices opcionales del curso de batería de Aprendo."
+>
+  <div class="appendix-page">
+    <header class="appendix-page__head">
+      <div>
+        <p class="eyebrow">Aprendo · Batería · Apéndices</p>
+        <p class="appendix-kicker">Apéndice 1</p>
+      </div>
+      <a class="back-link" href="/bateria/">Volver al curso</a>
+    </header>
+
+    <article class="appendix-content">
+      <AppendixContent />
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .appendix-page{width:min(100%,72rem);margin-inline:auto;display:grid;gap:1.5rem}.appendix-page__head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-end;padding-bottom:1rem;border-bottom:1px solid var(--border)}.appendix-page__head p{margin:0}.appendix-kicker{margin-top:.25rem!important;color:var(--muted);font-size:.9rem;font-weight:700}.back-link{min-height:2.8rem;display:inline-flex;align-items:center;padding:.6rem .9rem;border:1px solid var(--border);border-radius:.65rem;color:var(--text);font-weight:750;text-decoration:none;white-space:nowrap}.back-link:hover,.back-link:focus-visible{border-color:var(--accent)}.appendix-content{padding:clamp(1rem,2vw,1.75rem);border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.appendix-content :global(h1){margin-top:0;font-size:clamp(2rem,4vw,3rem)}.appendix-content :global(h2){margin-top:2.5rem;padding-top:.25rem;border-top:1px solid var(--border);font-size:clamp(1.45rem,2.4vw,1.9rem)}.appendix-content :global(h3){margin-top:1.5rem;font-size:1.15rem}.appendix-content :global(p),.appendix-content :global(li){max-width:78ch;line-height:1.7}.appendix-content :global(blockquote){margin:1rem 0;padding:.8rem 1rem;border-left:.22rem solid var(--accent);background:var(--surface-2);color:var(--text)}.appendix-content :global(ul){display:grid;gap:.45rem;padding-left:1.35rem}.appendix-content :global(strong){color:var(--text)}@media(max-width:40rem){.appendix-page__head{display:block}.back-link{margin-top:.8rem}.appendix-content{padding:1rem}}
+</style>
