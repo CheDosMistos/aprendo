@@ -21,7 +21,9 @@ Construir una primera representación útil de Pieza C combinando **escucha + fo
 
 <div data-notation-score data-score-src="/bateria/notation/f5/u11/f5-u11-pieza-c-reference.musicxml" data-score-title="50.U11 — Pieza C, referencia original" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-El playback es una **referencia sonora pedagógica original**, no un backing track comercial ni una transcripción de una canción existente.
+El playback es una **referencia formal-sonora pedagógica original**, no un backing track comercial ni una transcripción de una canción existente.
+
+El MusicXML es deliberadamente un **esqueleto de 32 compases**: marca duración, secciones y cambios de referencia sonora, pero **no prescribe una orquestación completa ni un groove golpe por golpe**. La versión tocable se construye con vocabulario ya aprendido para que la novedad de U11 siga siendo aprender repertorio combinando fuentes.
 
 ## 1. Primera escucha — todavía no leas el chart
 
