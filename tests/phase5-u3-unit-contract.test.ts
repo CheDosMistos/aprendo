@@ -61,7 +61,7 @@ test('L2 changes expressive energy without changing rhythmic vocabulary', async 
   assert.match(l2, /B: f/i);
   assert.match(l2, /El ritmo principal permanece igual/i);
   assert.match(l2, /No cambies simultáneamente bombo, fill, tempo y articulación/i);
-  assert.match(l2, /Más fuerte no significa/i);
+  assert.match(l2, /Intentar “sonar rock” golpeando más fuerte con todo el cuerpo/i);
 });
 
 test('L3 teaches punk as continuity and economy, not speed', async () => {
