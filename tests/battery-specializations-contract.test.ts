@@ -7,7 +7,7 @@ const pageSource = readFileSync(new URL('../src/pages/bateria/trayectorias.astro
 const homeSource = readFileSync(new URL('../src/pages/bateria/index.astro', import.meta.url), 'utf8');
 
 test('specialization appendix exposes exactly seven optional trajectories plus the progressive core route', () => {
-  const trackIds = [...dataSource.matchAll(/\n\s+id: '([^']+)',\n\s+title:/g)].map((match) => match[1]);
+  const trackIds = [...dataSource.matchAll(/\n    id: '([^']+)',\n    title:/g)].map((match) => match[1]);
   assert.deepEqual(trackIds, [
     'pies-doble-pedal',
     'rudimental-lineal-manos-pies',
