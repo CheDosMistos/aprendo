@@ -80,7 +80,7 @@ test('F5 U3 L3 teaches a sourced punk window without speed as definition', async
   await expect(article.getByText(/Marky Ramone/i)).toBeVisible();
   await expect(article.getByText(/Sex Pistols/i)).toBeVisible();
   await expect(article.getByText(/no define punk como “tocar muy rápido”/i)).toBeVisible();
-  await expect(article.getByText(/economía de movimiento/i)).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'Economía de movimiento', exact: true })).toBeVisible();
   await expect(article.getByText(/no forma parte del mínimo/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
