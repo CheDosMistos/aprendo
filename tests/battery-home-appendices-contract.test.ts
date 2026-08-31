@@ -19,11 +19,12 @@ test('battery home exposes appendices beside progress navigation', () => {
   assert.match(home, /href="\/bateria\/apendices\/">Apéndices<\/a>/);
 });
 
-test('appendices route renders the specialization appendix source', () => {
+test('appendices route renders the approved specialization appendix source', () => {
   assert.match(appendixPage, /Content as AppendixContent/);
   assert.match(appendixPage, /<AppendixContent \/>/);
-  assert.match(appendixContent, /^# Especializaciones y rutas personales/m);
-  assert.match(appendixContent, /ESP-01 — Doble pedal/);
-  assert.match(appendixContent, /ESP-26 — Progressive/);
-  assert.match(appendixContent, /Módulos todavía en investigación/);
+  assert.match(appendixContent, /^# 00 — APÉNDICE: ESPECIALIZACIONES Y RUTAS PERSONALES/m);
+  assert.match(appendixContent, /## 5\. FICHAS BREVES DE LOS MÓDULOS/);
+  assert.match(appendixContent, /ESP-01 — DOBLE PEDAL: FUNDAMENTOS Y CONTROL BILATERAL/);
+  assert.match(appendixContent, /ESP-26 — PROGRESSIVE/);
+  assert.match(appendixContent, /## 9\. MÓDULOS TODAVÍA EN INVESTIGACIÓN/);
 });
