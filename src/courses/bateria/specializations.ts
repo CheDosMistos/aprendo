@@ -38,7 +38,7 @@ export const SPECIALIZATION_TRACKS: readonly SpecializationTrack[] = [
     contents: ['Ergonomía y configuración', 'Singles por pie y leading foot', 'Balance bilateral y dinámica', 'Subdivisiones binarias y ternarias', 'Doubles seleccionados', 'Cambios de densidad y endurance contextual', 'Técnicas especializadas cuando resuelvan un problema real', 'Grooves, fills, repertorio y polirritmia aplicada'],
     transfer: ['C2 → subdivisión de pies', 'B1/B2 → patrones seleccionados', 'H5 → groove', 'D4/D5 → lectura', 'K2 → diagnóstico técnico'],
     resources: [
-      { title: 'Joe Franco — Double Bass Drumming', use: 'Sistema progresivo de double bass; seleccionar material según objetivo.', url: 'https://www.alfred.com/products/double-bass-drumming-00-df0001' },
+      { title: 'Joe Franco — Double Bass Drumming', use: 'Sistema progresivo de double bass; seleccionar material según objetivo.', url: 'https://www.alfred.com/products/double-bass-drumming-00-el03835' },
       { title: 'George Kollias — Double Bass / Extreme Double Bass', use: 'Contrastar material introductorio y avanzado del autor; no tratar su técnica como estándar universal.', url: 'https://hudsonmusic.com/instructors/george-kollias/' },
     ],
     progress: ['precisión', 'balance entre pies', 'sonido', 'dinámica', 'relajación', 'continuidad', 'recuperación', 'transferencia a groove/repertorio'],
@@ -143,7 +143,7 @@ export const SPECIALIZATION_TRACKS: readonly SpecializationTrack[] = [
     contents: ['Escucha y contexto', 'Patrones guía y clave cuando corresponda', 'Funciones instrumentales', 'Adaptación al drumset', 'Ostinatos', 'Coordinación de capas', 'Variación e improvisación', 'Repertorio/transcripción'],
     transfer: ['E5/F3 → forma', 'H4/H7 → capas', 'T3 → ostinatos', 'I3 → repertorio', 'D5/E6 → lectura y transcripción'],
     resources: [
-      { title: 'Ed Uribe — The Essence of Afro-Cuban Percussion & Drum Set', use: 'Método especializado para instrumentos, ritmos, song styles y aplicaciones al drumset.', url: 'https://www.alfred.com/products/the-essence-of-afro-cuban-percussion-drum-set-00-mmbk0023cd' },
+      { title: 'Ed Uribe — The Essence of Afro-Cuban Percussion & Drum Set', use: 'Método especializado para instrumentos, ritmos, song styles y aplicaciones al drumset.', url: 'https://www.alfred.com/products/the-essence-of-afro-cuban-percussion-drum-set-00-perc9620cd' },
     ],
     progress: ['feel', 'estabilidad de capas', 'articulación', 'forma', 'independencia', 'interacción', 'repertorio'],
   },
@@ -163,7 +163,7 @@ export const SPECIALIZATION_TRACKS: readonly SpecializationTrack[] = [
     contents: ['Escucha y contexto', 'Ritmos y song styles', 'Funciones de percusión', 'Adaptación al drumset', 'Ostinatos', 'Coordinación', 'Articulación y feel', 'Repertorio/transcripción'],
     transfer: ['E5/F3 → forma', 'H4/H7 → capas', 'T3 → ostinatos', 'I3 → repertorio', 'D5/E6 → lectura y transcripción'],
     resources: [
-      { title: 'Ed Uribe — The Essence of Brazilian Percussion & Drum Set', use: 'Método especializado para instrumentos, ritmos, song styles y aplicaciones al drumset.', url: 'https://www.alfred.com/products/the-essence-of-brazilian-percussion-drum-set-00-mmbk0024cd' },
+      { title: 'Ed Uribe — The Essence of Brazilian Percussion & Drum Set', use: 'Método especializado para instrumentos, ritmos, song styles y aplicaciones al drumset.', url: 'https://www.alfred.com/the-essence-of-brazilian-percussion-drum-set/p/00-EL03920CD/' },
     ],
     progress: ['feel', 'articulación', 'estabilidad de capas', 'forma', 'independencia', 'repertorio'],
   },
