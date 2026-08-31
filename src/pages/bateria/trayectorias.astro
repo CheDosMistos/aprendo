@@ -1,0 +1,159 @@
+---
+import BaseLayout from '@platform/layouts/BaseLayout.astro';
+import { PROGRESSIVE_CORE_ROUTE, SPECIALIZATION_ENTRY_STAGES, SPECIALIZATION_TRACKS } from '@courses/bateria/specializations';
+---
+
+<BaseLayout
+  title="Trayectorias de especialización — Curso de batería — Aprendo"
+  description="Mapa opcional de especializaciones de batería y sus puntos de entrada recomendados dentro del tronco común."
+>
+  <main class="specializations stack" data-specializations-page>
+    <header class="specializations__hero stack">
+      <p class="eyebrow">Aprendo · Batería · Apéndice curricular</p>
+      <h1>Trayectorias de especialización</h1>
+      <p class="lead">No necesitas terminar el curso para explorar una trayectoria, pero cada una tiene puntos de entrada recomendados.</p>
+      <p>Las trayectorias amplían el tronco común. No sustituyen tiempo, sonido, lectura, coordinación, repertorio ni práctica sostenible.</p>
+      <div class="hero-actions">
+        <a class="primary-link" href="#mapa">Ver mapa</a>
+        <a class="secondary-link" href="/bateria/">Volver al curso</a>
+      </div>
+    </header>
+
+    <section class="entry-legend" aria-labelledby="entry-title">
+      <div>
+        <p class="eyebrow">Cómo leer el apéndice</p>
+        <h2 id="entry-title">Tres momentos, no tres exámenes</h2>
+      </div>
+      <div class="entry-legend__grid">
+        <article><span class="stage stage--explore">{SPECIALIZATION_ENTRY_STAGES[0]}</span><p>Escucha, lectura, análisis o experimentos breves sin crear deuda técnica.</p></article>
+        <article><span class="stage stage--parallel">{SPECIALIZATION_ENTRY_STAGES[1]}</span><p>Ya puedes reservar una parte estable de la práctica semanal.</p></article>
+        <article><span class="stage stage--serious">{SPECIALIZATION_ENTRY_STAGES[2]}</span><p>La base permite aumentar carga, complejidad y repertorio.</p></article>
+      </div>
+    </section>
+
+    <section id="mapa" class="stack" aria-labelledby="map-title">
+      <div>
+        <p class="eyebrow">Mapa no lineal</p>
+        <h2 id="map-title">Elige por interés, entra por competencias</h2>
+        <p>Una misma base alimenta varias rutas. Puedes combinar una trayectoria técnica y otra estilística cuando la carga siga siendo sostenible.</p>
+      </div>
+      <nav class="track-index" aria-label="Índice de trayectorias">
+        {SPECIALIZATION_TRACKS.map((track, index) => (
+          <a href={`#${track.id}`}>
+            <span>T{index + 1}</span>
+            <strong>{track.title}</strong>
+          </a>
+        ))}
+        <a class="track-index__core" href="#ruta-progresiva">
+          <span>R-J</span>
+          <strong>Ruta progresiva del tronco</strong>
+        </a>
+      </nav>
+    </section>
+
+    <section class="practice-note" aria-labelledby="practice-title">
+      <div>
+        <p class="eyebrow">Carga paralela</p>
+        <h2 id="practice-title">El tronco sigue mandando</h2>
+      </div>
+      <p><strong>Rutina normal:</strong> la referencia oficial sigue siendo 25–30 min, 3–4 días/semana. Cuando ya cumples el punto de entrada, una trayectoria puede ocupar aproximadamente 5–7 min en las sesiones pertinentes (orientativamente 15–25 % de la semana).</p>
+      <p><strong>Rutina ampliada:</strong> con 40–50 min disponibles, una especialización puede crecer a unos 8–15 min. Estos repartos son decisiones curriculares, no proporciones científicamente óptimas.</p>
+    </section>
+
+    <section class="track-list" aria-label="Fichas de trayectorias">
+      {SPECIALIZATION_TRACKS.map((track, index) => (
+        <article id={track.id} class="track-card stack" data-track-id={track.id}>
+          <header class="track-card__header">
+            <div>
+              <p class="eyebrow">Trayectoria T{index + 1}</p>
+              <h2>{track.title}</h2>
+              <p class="track-summary">{track.summary}</p>
+            </div>
+            <div class="competencies" aria-label="Competencias relacionadas">
+              {track.competencies.map((competency) => <span>{competency}</span>)}
+            </div>
+          </header>
+
+          <div class="track-grid">
+            <section>
+              <h3>Para quién tiene sentido</h3>
+              <p>{track.forWhom}</p>
+            </section>
+            <section>
+              <h3>Qué NO significa</h3>
+              <ul>{track.notMeaning.map((item) => <li>{item}</li>)}</ul>
+            </section>
+          </div>
+
+          <section class="entry-path" aria-label={`Puntos de entrada de ${track.title}`}>
+            {SPECIALIZATION_ENTRY_STAGES.map((stage, stageIndex) => (
+              <article>
+                <span class:list={['stage', stageIndex === 0 && 'stage--explore', stageIndex === 1 && 'stage--parallel', stageIndex === 2 && 'stage--serious']}>{stage}</span>
+                <p>{track.entry[stage]}</p>
+              </article>
+            ))}
+          </section>
+
+          <div class="track-grid track-grid--details">
+            <section>
+              <h3>Qué estudiar</h3>
+              <ol>{track.contents.map((item) => <li>{item}</li>)}</ol>
+            </section>
+            <section>
+              <h3>Transferencia desde el tronco</h3>
+              <ul>{track.transfer.map((item) => <li>{item}</li>)}</ul>
+              <h3>Relación con fases</h3>
+              <ul>{track.phases.map((phase) => <li>{phase}</li>)}</ul>
+            </section>
+          </div>
+
+          <section>
+            <h3>Recursos de estudio</h3>
+            <div class="resource-list">
+              {track.resources.map((resource) => (
+                <article>
+                  <a href={resource.url} target="_blank" rel="noreferrer">{resource.title}</a>
+                  <p>{resource.use}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <h3>Cómo medir progreso</h3>
+            <p class="measure-list">{track.progress.join(' · ')}</p>
+          </section>
+        </article>
+      ))}
+    </section>
+
+    <section id={PROGRESSIVE_CORE_ROUTE.id} class="core-route stack" data-core-progressive-route>
+      <p class="eyebrow">Ruta del tronco · no trayectoria duplicada</p>
+      <h2>{PROGRESSIVE_CORE_ROUTE.title}</h2>
+      <p><strong>{PROGRESSIVE_CORE_ROUTE.classification}</strong></p>
+      <p>{PROGRESSIVE_CORE_ROUTE.note}</p>
+      <div class="route-sequence" aria-label="Secuencia de competencias de ritmo avanzado">
+        {PROGRESSIVE_CORE_ROUTE.sequence.map((step, index) => (
+          <><span>{step}</span>{index < PROGRESSIVE_CORE_ROUTE.sequence.length - 1 && <b aria-hidden="true">→</b>}</>
+        ))}
+      </div>
+      <p>Si quieres tocar progresivo, prioriza esta ruta junto con G2/G6, E5/F3, H7 e I3/I4. T2 y T3 son complementos opcionales especialmente útiles para lenguaje manos-pies e independencia.</p>
+    </section>
+
+    <section class="rules stack" aria-labelledby="rules-title">
+      <p class="eyebrow">Reglas comunes</p>
+      <h2 id="rules-title">Especializar no es saltarse fundamentos</h2>
+      <ul>
+        <li>BPM es una variable, nunca el único criterio de avance.</li>
+        <li>Los métodos son herramientas vinculadas a competencias; no se completan por fama.</li>
+        <li>Los 40 PAS siguen siendo normativa de manos/percusión según PAS; no se impone un objetivo 40/40 con pies.</li>
+        <li>Todo ejercicio nuevo del apéndice deberá marcarse <code>EJERCICIO ORIGINAL CREADO PARA ESTE CURSO</code> y validarse antes de publicarse.</li>
+        <li>Dolor persistente, hormigueo, entumecimiento o pérdida de fuerza implican reducir/detener carga y no “empujar” la técnica.</li>
+      </ul>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .specializations{width:min(100%,76rem);margin-inline:auto}.specializations__hero{padding:1.35rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.lead{max-width:70ch;font-size:clamp(1.12rem,2vw,1.35rem);font-weight:650}.hero-actions{display:flex;gap:.7rem;flex-wrap:wrap}.primary-link,.secondary-link{min-height:2.8rem;display:inline-flex;align-items:center;padding:.6rem .9rem;border-radius:.65rem;font-weight:750;text-decoration:none}.primary-link{background:var(--accent);color:var(--accent-contrast)}.secondary-link{border:1px solid var(--border);color:var(--text)}.entry-legend,.practice-note,.core-route,.rules{padding:1.2rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.entry-legend__grid,.entry-path{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem}.entry-legend article,.entry-path article{padding:.9rem;border-radius:.75rem;background:var(--surface-2)}.stage{display:inline-flex;padding:.25rem .5rem;border-radius:999px;border:1px solid var(--border);font-size:.72rem;font-weight:800;letter-spacing:.02em}.stage--parallel{border-color:color-mix(in srgb,var(--accent) 48%,var(--border))}.stage--serious{background:var(--accent);color:var(--accent-contrast);border-color:var(--accent)}.track-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}.track-index a{display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.6rem;padding:.8rem;border:1px solid var(--border);border-radius:.75rem;color:inherit;text-decoration:none;background:var(--surface)}.track-index a:hover{border-color:var(--accent)}.track-index span{font-weight:800;color:var(--muted)}.track-index__core{grid-column:1/-1}.track-list{display:grid;gap:1rem}.track-card{scroll-margin-top:1rem;padding:1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}.track-card__header{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start}.track-summary{max-width:68ch;font-size:1.05rem}.competencies{display:flex;flex-wrap:wrap;gap:.35rem;justify-content:flex-end;max-width:20rem}.competencies span{padding:.2rem .42rem;border-radius:.45rem;background:var(--surface-2);font-size:.75rem;font-weight:800}.track-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.track-grid section{min-width:0}.track-grid--details{padding-top:.25rem;border-top:1px solid var(--border)}.track-card h3{margin-bottom:.45rem;font-size:1rem}.track-card ul,.track-card ol,.rules ul{margin-top:.4rem;padding-left:1.3rem}.resource-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}.resource-list article{padding:.8rem;border:1px solid var(--border);border-radius:.7rem;background:var(--surface-2)}.resource-list a{font-weight:750;color:var(--text)}.resource-list p{margin:.35rem 0 0;color:var(--muted);font-size:.9rem}.measure-list{color:var(--muted)}.route-sequence{display:flex;gap:.45rem;align-items:center;flex-wrap:wrap}.route-sequence span{padding:.35rem .55rem;border-radius:.55rem;background:var(--surface-2);font-weight:750}.route-sequence b{color:var(--muted)}code{font-size:.88em}@media(max-width:48rem){.entry-legend__grid,.entry-path,.track-grid,.resource-list,.track-index{grid-template-columns:1fr}.track-index__core{grid-column:auto}.track-card__header{display:block}.competencies{justify-content:flex-start;max-width:none;margin-top:.7rem}}
+</style>
