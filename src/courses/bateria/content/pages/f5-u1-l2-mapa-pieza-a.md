@@ -21,6 +21,8 @@ Que la pieza deje de parecer una cadena de 24 compases iguales.
 
 <div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="50.U1 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
+La partitura es un **esqueleto formal mínimo**: muestra la base bombo/caja, cues de sección, la Variación B y el Fill A. No intenta escribir todas las capas del kit. Puedes añadir tu capa conocida de time/hi-hat/ride desde memoria si esa versión sigue siendo sostenible.
+
 ## Mapa
 
 `INTRO 4 → A 8 → B 8 → OUTRO 4`
