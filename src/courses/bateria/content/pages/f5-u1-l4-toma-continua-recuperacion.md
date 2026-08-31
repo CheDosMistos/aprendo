@@ -69,7 +69,7 @@ Vuelve al modo laboratorio únicamente para esa prioridad y después realiza otr
 
 ## Tempo
 
-104 BPM es referencia técnica del archivo. Redúcelo si mejora continuidad y anticipación.
+El MusicXML usa 120 BPM únicamente como metadato técnico del contrato actual del curso. Ajusta el tempo real si eso mejora continuidad, anticipación y relajación.
 
 **No existe BPM de aprobado.**
 
