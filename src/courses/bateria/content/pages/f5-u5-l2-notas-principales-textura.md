@@ -21,7 +21,7 @@ Mantener claras las notas estructurales mientras aparecen golpes de caja mucho m
 
 <div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l2-dynamic-hierarchy.musicxml" data-score-title="50.U5.L2 — Jerarquía dinámica" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-En el score, las notas de caja entre paréntesis representan **ghost/taps suaves** y los golpes de 2 y 4 son el backbeat destacado. El playback sirve para ubicación rítmica; **la diferencia dinámica real debes producirla tú**.
+En el score, las notas de caja **sin acento** funcionan como referencias de textura/ghost-tap y los golpes acentuados de 2 y 4 representan el backbeat. La partitura marca la jerarquía mediante acentos; el playback sirve para ubicación rítmica y **la diferencia dinámica real debes producirla tú**.
 
 ## Fuente y límite
 
@@ -39,7 +39,7 @@ Toca únicamente 2 y 4. Busca consistencia de sonido y rebote.
 
 ### B — textura audible
 
-Añade las notas entre paréntesis a volumen moderado para ubicar su lugar. No intentes hacerlas microscópicas todavía.
+Añade las notas de textura sin acento a volumen moderado para ubicar su lugar. No intentes hacerlas microscópicas todavía.
 
 ### C — jerarquía
 
