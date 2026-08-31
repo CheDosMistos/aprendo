@@ -52,7 +52,7 @@ test('F5 U4 L1 renders the triplet grid and separates 12/8 from shuffle', async 
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/12\/8 ≠ shuffle/i)).toBeVisible();
-  await expect(article.getByText(/compuesto cuaternario/i)).toBeVisible();
+  await expect(article.getByText(/compuesto cuaternario/i).first()).toBeVisible();
   await expect(article.getByText(/No afirman que todo shuffle tenga exactamente la misma microtemporización/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
@@ -84,7 +84,7 @@ test('F5 U4 L4 reveals Piece B form and renders its original score', async ({ pa
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByRole('table')).toHaveCount(1);
-  await expect(article.getByText(/INTRO 4 → A 8 → B 4 → A' 4 → OUTRO 4/i)).toBeVisible();
+  await expect(article.getByText(/INTRO 4 → A 8 → B 4 → A' 4 → OUTRO 4/i).first()).toBeVisible();
   await expect(article.getByText(/PULSO → FORMA → FEEL → BALANCE → DETALLE/i)).toBeVisible();
   await expect(article.getByText(/AMPLIACIÓN — half-time shuffle/i)).toBeVisible();
   await expect(article.getByText(/no declara blues dominado/i)).toBeVisible();
