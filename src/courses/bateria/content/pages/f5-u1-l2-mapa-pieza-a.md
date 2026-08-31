@@ -73,7 +73,7 @@ No pares automáticamente para volver al compás 1.
 
 ## Tempo
 
-El score usa 104 BPM como referencia técnica. Puedes bajarlo si necesitas más margen para anticipar forma.
+El score usa 120 BPM únicamente como metadato técnico exigido por el contrato actual del curso. Ajusta el tempo real para disponer del margen necesario para anticipar la forma.
 
 **No existe BPM de aprobado.**
 
