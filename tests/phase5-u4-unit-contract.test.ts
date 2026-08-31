@@ -88,7 +88,7 @@ test('U4 notation is original, audible and uses explicit 3:2 timing where needed
   const piece = await readFile(path.join(notationRoot, 'f5-u4-piece-b-form-i.musicxml'), 'utf8');
   for (const xml of [grid, core, piece]) {
     assert.match(xml, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);
-    assert.match(xml, /<sound tempo="90"\/>/);
+    assert.match(xml, /<sound tempo="120"\/>/);
     assert.match(xml, /<midi-unpitched>42<\/midi-unpitched>/);
   }
   for (const xml of [grid, core]) {
