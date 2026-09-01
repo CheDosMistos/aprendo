@@ -1,4 +1,4 @@
-export const COMPETENCY_ID_PATTERN = /^(?:A[1-8]|B[1-8]|C[1-7]|D[1-7]|E[1-7]|F[1-7]|G[1-6]|H[1-8]|I[1-4]|J[1-9]|K[1-8])$/;
+export const COMPETENCY_ID_PATTERN = /^(?:A[1-8]|B[1-8]|C[1-7]|D[1-7]|E[1-7]|F[1-7]|G[1-6]|H[1-8]|I[1-6]|J[1-9]|K[1-8])$/;
 
 export const PAS_RUDIMENTS = [
   'Single Stroke Roll',
