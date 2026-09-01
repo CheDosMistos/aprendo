@@ -116,7 +116,11 @@ No se bloquea el curso. Construye evidencia sólida con:
 - cambios de densidad/dinámica;
 - grabación continua y autoevaluación.
 
-Registra la interacción interpersonal real como **no observada todavía**, no como suspendida.
+Registra explícitamente:
+
+`INTERACCIÓN INTERPERSONAL REAL: NO OBSERVADA TODAVÍA`
+
+Eso significa que la evidencia interpersonal aún no existe; **no** significa que la unidad quede suspendida.
 
 ## Errores frecuentes
 
