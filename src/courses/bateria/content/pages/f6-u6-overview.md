@@ -10,7 +10,7 @@ order: 0
 title: "Interacción: bajo, cues, dinámica y arreglo"
 summary: "Entrena a escuchar información externa, interpretar su función y modificar tu ejecución sin perder tiempo ni forma, distinguiendo simulación de interacción interpersonal real."
 duration: Unidad flexible · 4 lecciones + checkpoint
-competencies: [I6, E5, F6, F7, H5, H6, C1, C2, C7, G2, G3]
+competencies: [I6, E5, F6, F7, H5, H6, C1, C2, G2, G3]
 rudiments: []
 published: true
 ---
@@ -29,7 +29,7 @@ Interacción no significa tocar muchas cosas a la vez ni «encajar» cada golpe 
 
 La relación bajo–batería puede incluir coincidencia, complementariedad, espacio, anticipaciones, articulación, densidad, dinámica y fraseo. **No existe una regla general “bombo = bajo”** ni una obligación de duplicar cada ataque.
 
-**INFERENCIA PEDAGÓGICA:** la escucha útil pregunta primero qué función cumple la información: ¿marca estabilidad, prepara una transición, abre espacio, refuerza una figura, cambia densidad o confirma la forma? Sólo después decide si conviene coincidir, complementar o permanecer estable.
+**INFERENCIA + DECISIÓN CURRICULAR RAZONADA:** la escucha útil pregunta primero qué función cumple la información: ¿marca estabilidad, prepara una transición, abre espacio, refuerza una figura, cambia densidad o confirma la forma? Sólo después decide si conviene coincidir, complementar, mantener o dejar espacio. Estas categorías organizan decisiones de práctica; no son una taxonomía científica universal.
 
 ## Cues: señal no equivale todavía a respuesta
 
@@ -49,12 +49,14 @@ Por eso distinguimos:
 - **respuesta funcional observable:** el alumno detecta y modifica su ejecución;
 - **interacción interpersonal:** dos personas pueden anticipar, reaccionar y reajustarse mutuamente.
 
-La literatura de coordinación musical describe la interacción conjunta mediante anticipación, atención y adaptación, incluida adaptación temporal mutua. Esto sostiene la frontera curricular: **pista fija ≠ compañero adaptativo**.
+**EVIDENCIA:** la literatura de coordinación musical describe anticipación, atención y adaptación como procesos centrales de la acción conjunta. Konvalinka et al. (2010) muestran diferencias entre coordinarse con una persona responsiva y una referencia no responsiva; Goebl & Palmer (2009) documentan ajustes bidireccionales frente a condiciones de feedback reducido en dúos de piano. Son tareas distintas de batería–bajo, por lo que su aplicación aquí es una **INFERENCIA** sobre la frontera ecológica, no una receta instrumental.
+
+**ESTÁNDAR DEL PROYECTO:** una pista fija puede certificar I6 MÍNIMO robusto y componentes funcionales observables, pero **no interacción interpersonal completa**.
 
 ## Arquitectura
 
 ### L1 — Escucha jerárquica: bajo, forma y función
-Separa pulso/subdivisión, línea de bajo, forma y eventos relevantes; decide cuándo coincidir, complementar o dejar espacio.
+Separa pulso/subdivisión, línea de bajo, forma y eventos relevantes; decide cuándo coincidir, complementar, mantener o dejar espacio.
 
 ### L2 — Cues: detectar, decidir, responder y seguir
 Entrena entradas, cortes, transiciones, cambios dinámicos y endings sin perder el siguiente punto de la forma.
@@ -70,14 +72,7 @@ Atiende a bajo, forma y señales y modifica al menos una decisión de ejecución
 
 ## Qué puede certificar una pista fija
 
-Puede aportar evidencia de:
-
-- selección de información relevante;
-- continuidad de pulso y forma mientras la atención se divide;
-- detección de una señal programada;
-- respuesta funcional a una entrada, corte, cambio de densidad/dinámica o figura;
-- memoria breve y respuesta en call/response pregrabado;
-- recuperación después de información parcial o inesperada previamente programada.
+Puede aportar evidencia de selección de información relevante, continuidad de pulso y forma, detección de señales programadas, respuesta funcional a cambios externos, memoria breve y recuperación ante información parcial.
 
 Con una batería de tareas suficientemente variada, esta evidencia puede sostener **I6 MÍNIMO robusto y componentes funcionales observables**, conforme al contrato superior de la unidad.
 
@@ -101,10 +96,14 @@ Referencia: **25–30 min, 3–4 días por semana**.
 ## Fuentes y estatus
 
 - **EVIDENCIA / REVISIÓN:** Keller, Novembre & Hove (2014), *Rhythm in joint action*, DOI `10.1098/rstb.2013.0394`: anticipación, atención y adaptación en coordinación interpersonal.
-- **EVIDENCIA / REVISIÓN:** Repp & Su (2013), *Sensorimotor synchronization*, DOI `10.3758/s13423-012-0371-2`: sincronización con ritmos externos e interpersonal.
-- **EVIDENCIA EMPÍRICA:** Bishop & Goebl (2018), DOI `10.1177/0305735617702971` y `10.1007/s00426-017-0893-3`: cues visuales de entrada y comunicación de beat/tempo.
-- **EVIDENCIA EMPÍRICA:** estudios de interacción con partner responsivo/no responsivo muestran que acoplamiento unidireccional y bidireccional son condiciones distintas; U6 no las trata como equivalentes.
-- **FUENTE INSTITUCIONAL:** Berklee trata forma, stop-time, kicks, intros/endings, articulación, dinámica y textura como variables de arreglo de la sección rítmica; se usa como apoyo profesional, no como ley universal de ejecución.
+- **EVIDENCIA / REVISIÓN:** Repp & Su (2013), *Sensorimotor synchronization*, DOI `10.3758/s13423-012-0371-2`: sincronización con ritmos externos e interpersonal; gran parte de esta literatura usa tapping, por lo que no prescribe protocolos de batería.
+- **EVIDENCIA EMPÍRICA:** Konvalinka et al. (2010): coordinación con partner responsivo/no responsivo y adaptación mutua; tarea de tapping, no ensemble completo.
+- **EVIDENCIA EMPÍRICA:** Goebl & Palmer (2009): ajustes bidireccionales/unidireccionales según feedback en dúos de piano; no específica de batería.
+- **EVIDENCIA EMPÍRICA:** Bishop & Goebl (2017/2018), DOI `10.1177/0305735617702971` y `10.1007/s00426-017-0893-3`: cues visuales de entrada, beat/tempo y situaciones de ambigüedad temporal; no establecen una gramática gestual universal.
+- **EVIDENCIA EMPÍRICA DIRECTA DE SECCIÓN RÍTMICA:** Hofmann, Wesolowski & Goebl (2017): timing y dinámica de bajo+batería en trío de jazz; útil contra la simplificación `tight = simultáneo`, pero no universalizable como receta de microtiming.
+- **EVIDENCIA EMPÍRICA CONTEXTUAL:** Faraco et al. (2024): selección auditiva y escucha estratégica en improvisación colectiva; su transferencia a esta jerarquía de escucha es una inferencia.
+- **EVIDENCIA EMPÍRICA:** MacRitchie et al. (2018): negociación de objetivos de tempo/dinámica en dúos de piano; apoya que estas dimensiones pueden ser objeto de ajuste interpersonal, no una respuesta única.
+- **FUENTE INSTITUCIONAL / TRADICIÓN PROFESIONAL:** Berklee incluye forma, stop-time, kicks, intros/endings, articulación, dinámica y textura en formación de rhythm section/arranging; documenta relevancia profesional, no superioridad experimental.
 - **DECISIÓN CURRICULAR RAZONADA:** entrenar la cadena detectar→función→decidir→responder→continuar y separar evidencia con pista de evidencia interpersonal.
 - **EJERCICIOS:** todo patrón, cue, estructura o simulación descrito específicamente en U6 es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
 
