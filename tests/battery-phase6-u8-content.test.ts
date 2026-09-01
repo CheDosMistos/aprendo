@@ -56,11 +56,11 @@ test('U8 integra timing entre voces con articulación dinámica y sonido',()=>{
   assert.match(docs[3],/RELACIÓN EXTERNA/);
   assert.match(docs[3],/RELACIÓN INTERNA/);
   assert.match(docs[3],/INTENCIÓN → CAMBIO TEMPORAL OBSERVADO → CAMBIO SONORO OBSERVADO/);
-  assert.match(docs[3],/no afirmar que una de ellas explica por sí sola el feel/i);
+  assert.match(docs[3],/afirmar que una de ellas explica por sí sola el feel/i);
 });
 
 test('U8 usa grabación y DAW como feedback descriptivo, no como juez',()=>{
-  assert.match(docs[4],/oído primero, medir después/i);
+  assert.match(docs[4],/escuchar primero, medir después/i);
   assert.match(docs[4],/Qué NO puede decidir por sí sola/i);
   assert.match(docs[4],/LO QUE OÍ → LO QUE MEDÍ\/OBSERVÉ → LO QUE INFIERO/);
   assert.match(docs[5],/no convierte waveform\/DAW en juez de groove/i);
