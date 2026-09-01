@@ -11,11 +11,11 @@ test('Phase 1 PAS plan contains the 40 canonical PAS rudiments exactly once', ()
   assert.deepEqual(PHASE_1_PAS_BY_UNIT[10], []);
 });
 
-test('competency ID vocabulary rejects unknown axis identifiers', () => {
-  for (const id of ['A1', 'B6', 'C4', 'D1', 'E3', 'F2', 'G6', 'H8', 'I4', 'J9', 'K8']) {
+test('competency ID vocabulary includes approved I5/I6 and rejects unknown axis identifiers', () => {
+  for (const id of ['A1', 'B6', 'C4', 'D1', 'E3', 'F2', 'G6', 'H8', 'I4', 'I5', 'I6', 'J9', 'K8']) {
     assert.match(id, COMPETENCY_ID_PATTERN);
   }
-  for (const id of ['A9', 'B9', 'L1', 'K9', 'C0', '']) {
+  for (const id of ['A9', 'B9', 'I7', 'L1', 'K9', 'C0', '']) {
     assert.doesNotMatch(id, COMPETENCY_ID_PATTERN);
   }
 });
