@@ -21,7 +21,7 @@ Responder a una señal musical sin convertir la respuesta en un evento aislado: 
 
 ## 1. Cinco etapas
 
-Para cualquier cue usa:
+**DECISIÓN CURRICULAR RAZONADA:** para cualquier cue usa:
 
 `DETECTAR → COMPRENDER FUNCIÓN → DECIDIR → RESPONDER → CONTINUAR LA FORMA`
 
@@ -29,45 +29,29 @@ Un corte bien tocado seguido de una reentrada perdida sigue siendo una respuesta
 
 ## 2. Qué señales aparecen aquí
 
-U6 puede trabajar con:
-
-- count-in;
-- pickup/anacrusa;
-- entrada o reentrada;
-- stop/corte;
-- figure o kick de arreglo;
-- transición;
-- cambio dinámico;
-- ending;
-- señal auditiva;
-- señal visual de otro músico o director cuando exista.
+U6 puede trabajar con count-in, pickup/anacrusa, entrada o reentrada, stop/corte, figure o kick de arreglo, transición, cambio dinámico, ending y señales auditivas o visuales cuando exista otro músico/director.
 
 U3 ya entrenó prioridad y navegación en charts. Aquí no se evalúa leer más símbolos: se evalúa **qué haces cuando la señal ocurre**.
 
 ## 3. Entradas y señales visuales
 
-La investigación sobre ensembles muestra que los músicos usan gestos visuales para coordinar entradas y que estos ganan importancia cuando el tiempo es ambiguo, por ejemplo tras pausas o cambios abruptos. Un cue útil puede comunicar tanto **cuándo** entrar como el tempo de partida.
+**EVIDENCIA:** Bishop & Goebl estudiaron cues de entrada en ensemble y mostraron que los gestos pueden comunicar posición del beat y tempo. La información visual resulta especialmente pertinente en condiciones temporalmente ambiguas, como inicios sin referencia sonora suficiente o reentradas tras pausas. Sus estudios no son una gramática universal de gestos ni están centrados en batería.
 
-No memorices una forma corporal universal. Aprende a buscar:
+Por eso, lo siguiente es **INFERENCIA + DECISIÓN CURRICULAR RAZONADA**, no una lista de rasgos universales del «cue correcto». En una situación concreta puedes buscar:
 
 - atención compartida antes del gesto;
-- preparación temporal;
-- trayectoria/periodicidad suficiente para inferir pulso;
-- punto de llegada claro;
+- preparación temporal que permita anticipar el inicio;
+- movimiento suficientemente informativo para inferir pulso o llegada;
+- punto de llegada interpretable;
 - confirmación auditiva una vez empieza la música.
+
+Si el audio ya resuelve la información necesaria, no es obligatorio buscar una señal visual adicional.
 
 ## 4. Simulación de cues programados
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — Semáforo de arreglo.**
 
-Crea o usa una pista de práctica original con una forma de 16–32 compases y 4–6 eventos programados, por ejemplo:
-
-- entrada tras count-in;
-- corte de un compás;
-- reentrada;
-- bajada dinámica;
-- figure de sección;
-- ending.
+Crea o usa una pista de práctica original con una forma de 16–32 compases y 4–6 eventos programados, por ejemplo entrada tras count-in, corte de un compás, reentrada, bajada dinámica, figure de sección y ending.
 
 Primera toma: no memorices el orden si es posible. Segunda toma: cambia el orden de los eventos o usa otra variante.
 
@@ -77,15 +61,7 @@ Para cada evento registra sólo:
 
 ## 5. Responder sin sobre-reaccionar
 
-Una señal puede pedir:
-
-- silencio;
-- ataque compartido;
-- cambio dinámico;
-- simplificación;
-- fill breve;
-- cambio de superficie;
-- mantener exactamente la capa actual.
+Una señal puede pedir silencio, ataque compartido, cambio dinámico, simplificación, fill breve, cambio de superficie o mantener exactamente la capa actual.
 
 El último caso importa: **detectar una señal no obliga a tocar una respuesta llamativa**.
 
@@ -96,7 +72,8 @@ El último caso importa: **detectar una señal no obliga a tocar una respuesta l
 - convertir cada transición en fill;
 - esperar una señal visual cuando el audio ya proporciona información suficiente;
 - mirar tanto al compañero que se abandona la escucha;
-- anticipar un corte por memoria en vez de responder a la evidencia presente.
+- anticipar un corte por memoria en vez de responder a la evidencia presente;
+- tratar un gesto corporal concreto como vocabulario universal.
 
 ## Rutina mínima
 
