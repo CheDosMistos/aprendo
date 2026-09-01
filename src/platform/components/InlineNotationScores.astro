@@ -49,6 +49,21 @@
     } catch {}
   };
 
+  const syncMetronomeBpm = (bpm: number) => {
+    const normalizedBpm = Math.round(bpm);
+    const bpmInput = document.querySelector<HTMLInputElement>('[data-metronome] [data-bpm]');
+    if (bpmInput) {
+      bpmInput.value = String(normalizedBpm);
+      bpmInput.dispatchEvent(new Event('change', { bubbles: true }));
+      return;
+    }
+
+    currentBpm = normalizedBpm;
+    window.dispatchEvent(new CustomEvent<MetronomeBpmEventDetail>(METRONOME_BPM_EVENT, {
+      detail: { bpm: normalizedBpm },
+    }));
+  };
+
   currentBpm = readStoredBpm();
   let view = readView();
 
@@ -162,6 +177,13 @@
       requestAnimationFrame(updateScrollCue);
     };
 
+    const playTitle = (renderer: AlphaTabRenderer) => {
+      const recommendedBpm = renderer.getRecommendedBpm();
+      return recommendedBpm !== null
+        ? `Reproducir a ${Math.round(recommendedBpm)} BPM recomendados`
+        : `Reproducir a ${Math.round(currentBpm)} BPM`;
+    };
+
     let isPlaying = false;
     const renderer = new AlphaTabRenderer(host, {
       onStatusChange: (state, message) => {
@@ -171,13 +193,19 @@
       },
       onPlaybackReady: (ready) => {
         playButton.disabled = !ready;
-        if (ready) renderer.setPlaybackBpm(currentBpm);
+        if (ready) {
+          renderer.setPlaybackBpm(currentBpm);
+          const recommendedBpm = renderer.getRecommendedBpm();
+          if (recommendedBpm !== null) element.dataset.recommendedBpm = String(recommendedBpm);
+          else delete element.dataset.recommendedBpm;
+          playButton.title = playTitle(renderer);
+        }
       },
       onPlaybackStateChange: (playing) => {
         isPlaying = playing;
         playButton.setAttribute('aria-pressed', String(playing));
         playButton.setAttribute('aria-label', playing ? 'Pausar partitura' : 'Reproducir partitura');
-        playButton.title = playing ? 'Pausar partitura' : `Reproducir a ${Math.round(currentBpm)} BPM`;
+        playButton.title = playing ? 'Pausar partitura' : playTitle(renderer);
       },
     }, {
       enablePlayer: true,
@@ -221,12 +249,14 @@
     });
 
     playButton.addEventListener('click', () => {
-      renderer.setPlaybackBpm(currentBpm);
       if (!isPlaying) {
+        const recommendedBpm = renderer.getRecommendedBpm();
+        if (recommendedBpm !== null) syncMetronomeBpm(recommendedBpm);
         for (const other of renderers) {
           if (other !== renderer) other.stop();
         }
       }
+      renderer.setPlaybackBpm(currentBpm);
       renderer.playPause();
     });
 
@@ -253,7 +283,11 @@
     currentBpm = detail.bpm;
     for (const renderer of renderers) renderer.setPlaybackBpm(currentBpm);
     for (const button of document.querySelectorAll<HTMLButtonElement>('.course-score__play:not([aria-pressed="true"])')) {
-      button.title = `Reproducir a ${Math.round(currentBpm)} BPM`;
+      const score = button.closest<HTMLElement>('[data-notation-score]');
+      const recommendedBpm = Number(score?.dataset.recommendedBpm);
+      button.title = Number.isFinite(recommendedBpm) && recommendedBpm > 0
+        ? `Reproducir a ${Math.round(recommendedBpm)} BPM recomendados`
+        : `Reproducir a ${Math.round(currentBpm)} BPM`;
     }
   });
 
