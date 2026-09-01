@@ -1,5 +1,5 @@
 ---
-contentId: bat-f6-u6-cp
+contentId: bat-f6-u6-check
 courseId: bateria
 phase: 6
 unit: 6
