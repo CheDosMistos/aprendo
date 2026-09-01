@@ -2,6 +2,10 @@
 
 <script>
   import { AlphaTabRenderer } from '@platform/notation/AlphaTabRenderer';
+  import {
+    resolveRecommendedTempoForPlay,
+    resolveRecommendedTempoReset,
+  } from '@platform/notation/recommendedTempoPolicy';
 
   interface StoredMetronomeState { bpm?: number; }
   interface MetronomeBpmEventDetail { bpm?: number; }
@@ -15,6 +19,8 @@
   const MOBILE_QUERY = window.matchMedia('(max-width: 42rem)');
   const renderers: AlphaTabRenderer[] = [];
   let currentBpm = 80;
+  let userSelectedBpm = false;
+  let syncingRecommendedTempo = false;
 
   const readStoredBpm = () => {
     try {
@@ -51,17 +57,22 @@
 
   const syncMetronomeBpm = (bpm: number) => {
     const normalizedBpm = Math.round(bpm);
-    const bpmInput = document.querySelector<HTMLInputElement>('[data-metronome] [data-bpm]');
-    if (bpmInput) {
-      bpmInput.value = String(normalizedBpm);
-      bpmInput.dispatchEvent(new Event('change', { bubbles: true }));
-      return;
-    }
+    syncingRecommendedTempo = true;
+    try {
+      const bpmInput = document.querySelector<HTMLInputElement>('[data-metronome] [data-bpm]');
+      if (bpmInput) {
+        bpmInput.value = String(normalizedBpm);
+        bpmInput.dispatchEvent(new Event('change', { bubbles: true }));
+        return;
+      }
 
-    currentBpm = normalizedBpm;
-    window.dispatchEvent(new CustomEvent<MetronomeBpmEventDetail>(METRONOME_BPM_EVENT, {
-      detail: { bpm: normalizedBpm },
-    }));
+      currentBpm = normalizedBpm;
+      window.dispatchEvent(new CustomEvent<MetronomeBpmEventDetail>(METRONOME_BPM_EVENT, {
+        detail: { bpm: normalizedBpm },
+      }));
+    } finally {
+      syncingRecommendedTempo = false;
+    }
   };
 
   currentBpm = readStoredBpm();
@@ -146,6 +157,16 @@
     status.setAttribute('aria-live', 'polite');
     footer.append(status);
 
+    const tempoRecommendation = make('p', 'course-score__tempo-recommendation');
+    tempoRecommendation.hidden = true;
+    const tempoRecommendationText = make('span');
+    const tempoResetButton = make('button', 'course-score__tempo-reset');
+    tempoResetButton.type = 'button';
+    tempoResetButton.textContent = 'Restablecer';
+    tempoResetButton.setAttribute('aria-label', 'Restablecer tempo recomendado de la partitura');
+    tempoRecommendation.append(tempoRecommendationText, document.createTextNode(' · '), tempoResetButton);
+    footer.append(tempoRecommendation);
+
     const links = make('div', 'course-score__links');
     if (sourceLink) {
       const link = make('a');
@@ -177,14 +198,10 @@
       requestAnimationFrame(updateScrollCue);
     };
 
-    const playTitle = (renderer: AlphaTabRenderer) => {
-      const recommendedBpm = renderer.getRecommendedBpm();
-      return recommendedBpm !== null
-        ? `Reproducir a ${Math.round(recommendedBpm)} BPM recomendados`
-        : `Reproducir a ${Math.round(currentBpm)} BPM`;
-    };
+    const playTitle = () => `Reproducir a ${Math.round(currentBpm)} BPM`;
 
     let isPlaying = false;
+    let hasPlayed = false;
     const renderer = new AlphaTabRenderer(host, {
       onStatusChange: (state, message) => {
         status.dataset.state = state;
@@ -196,16 +213,23 @@
         if (ready) {
           renderer.setPlaybackBpm(currentBpm);
           const recommendedBpm = renderer.getRecommendedBpm();
-          if (recommendedBpm !== null) element.dataset.recommendedBpm = String(recommendedBpm);
-          else delete element.dataset.recommendedBpm;
-          playButton.title = playTitle(renderer);
+          if (recommendedBpm !== null) {
+            const normalizedRecommendedBpm = Math.round(recommendedBpm);
+            element.dataset.recommendedBpm = String(normalizedRecommendedBpm);
+            tempoRecommendationText.textContent = `Tempo recomendado: ${normalizedRecommendedBpm} BPM`;
+            tempoRecommendation.hidden = false;
+          } else {
+            delete element.dataset.recommendedBpm;
+            tempoRecommendation.hidden = true;
+          }
+          playButton.title = playTitle();
         }
       },
       onPlaybackStateChange: (playing) => {
         isPlaying = playing;
         playButton.setAttribute('aria-pressed', String(playing));
         playButton.setAttribute('aria-label', playing ? 'Pausar partitura' : 'Reproducir partitura');
-        playButton.title = playing ? 'Pausar partitura' : playTitle(renderer);
+        playButton.title = playing ? 'Pausar partitura' : playTitle();
       },
     }, {
       enablePlayer: true,
@@ -248,10 +272,26 @@
       requestAnimationFrame(updateScrollCue);
     });
 
+    tempoResetButton.addEventListener('click', () => {
+      const decision = resolveRecommendedTempoReset(currentBpm, renderer.getRecommendedBpm());
+      if (!decision.syncMetronome) return;
+      userSelectedBpm = true;
+      hasPlayed = true;
+      syncMetronomeBpm(decision.bpm);
+      renderer.setPlaybackBpm(currentBpm);
+      if (!isPlaying) playButton.title = playTitle();
+    });
+
     playButton.addEventListener('click', () => {
       if (!isPlaying) {
-        const recommendedBpm = renderer.getRecommendedBpm();
-        if (recommendedBpm !== null) syncMetronomeBpm(recommendedBpm);
+        const decision = resolveRecommendedTempoForPlay(
+          currentBpm,
+          renderer.getRecommendedBpm(),
+          hasPlayed,
+          userSelectedBpm,
+        );
+        hasPlayed = decision.hasPlayed;
+        if (decision.syncMetronome) syncMetronomeBpm(decision.bpm);
         for (const other of renderers) {
           if (other !== renderer) other.stop();
         }
@@ -271,30 +311,40 @@
     for (const element of document.querySelectorAll<HTMLElement>('[data-notation-score]')) enhanceScore(element);
   };
 
+  const handleManualMetronomeChange = (event: Event) => {
+    const target = event.target;
+    if (syncingRecommendedTempo || !(target instanceof Element)) return;
+    if (target.matches('[data-metronome] [data-bpm], [data-metronome] [data-preset]')) {
+      userSelectedBpm = true;
+    }
+  };
+
+  const handleMetronomeBpm = (event: Event) => {
+    const detail = (event as CustomEvent<MetronomeBpmEventDetail>).detail;
+    if (typeof detail?.bpm !== 'number' || !Number.isFinite(detail.bpm)) return;
+    const nextBpm = Math.round(detail.bpm);
+    if (!syncingRecommendedTempo && nextBpm !== Math.round(currentBpm)) userSelectedBpm = true;
+    currentBpm = nextBpm;
+    for (const renderer of renderers) renderer.setPlaybackBpm(currentBpm);
+    for (const button of document.querySelectorAll<HTMLButtonElement>('.course-score__play:not([aria-pressed="true"])')) {
+      button.title = `Reproducir a ${Math.round(currentBpm)} BPM`;
+    }
+  };
+
   enhanceAllScores();
   window.addEventListener(SCORES_UPDATED_EVENT, enhanceAllScores);
   document.addEventListener('astro:page-load', enhanceAllScores);
+  document.addEventListener('change', handleManualMetronomeChange);
+  window.addEventListener(METRONOME_BPM_EVENT, handleMetronomeBpm);
   const scoreObserver = new MutationObserver(enhanceAllScores);
   scoreObserver.observe(document.documentElement, { childList: true, subtree: true });
-
-  window.addEventListener(METRONOME_BPM_EVENT, (event) => {
-    const detail = (event as CustomEvent<MetronomeBpmEventDetail>).detail;
-    if (typeof detail?.bpm !== 'number' || !Number.isFinite(detail.bpm)) return;
-    currentBpm = detail.bpm;
-    for (const renderer of renderers) renderer.setPlaybackBpm(currentBpm);
-    for (const button of document.querySelectorAll<HTMLButtonElement>('.course-score__play:not([aria-pressed="true"])')) {
-      const score = button.closest<HTMLElement>('[data-notation-score]');
-      const recommendedBpm = Number(score?.dataset.recommendedBpm);
-      button.title = Number.isFinite(recommendedBpm) && recommendedBpm > 0
-        ? `Reproducir a ${Math.round(recommendedBpm)} BPM recomendados`
-        : `Reproducir a ${Math.round(currentBpm)} BPM`;
-    }
-  });
 
   window.addEventListener('pagehide', () => {
     scoreObserver.disconnect();
     window.removeEventListener(SCORES_UPDATED_EVENT, enhanceAllScores);
+    window.removeEventListener(METRONOME_BPM_EVENT, handleMetronomeBpm);
     document.removeEventListener('astro:page-load', enhanceAllScores);
+    document.removeEventListener('change', handleManualMetronomeChange);
     for (const renderer of renderers) renderer.dispose();
   }, { once: true });
 </script>
@@ -450,7 +500,8 @@
     flex-wrap: wrap;
   }
 
-  .course-score__status {
+  .course-score__status,
+  .course-score__tempo-recommendation {
     max-width: none !important;
     margin: 0 !important;
     font-size: .82rem;
@@ -458,6 +509,22 @@
 
   .course-score__status[data-state='error'] {
     color: #b42318 !important;
+  }
+
+  .course-score__tempo-recommendation {
+    color: var(--muted) !important;
+  }
+
+  .course-score__tempo-reset {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--accent);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 750;
+    text-decoration: underline;
+    text-underline-offset: .15em;
   }
 
   .course-score__links {
