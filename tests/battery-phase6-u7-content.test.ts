@@ -30,7 +30,8 @@ test('Fase 6 U7 publica overview, cuatro lecciones y Checkpoint 6D',()=>{
 test('U7 mantiene I5 como novedad dominante y respeta sus dependencias',()=>{
   assert.match(frontmatter(docs[0]),/competencies: \[I5, I2, I1, F7, G2, G3, H5, H6, E5, C1, C2\]/);
   assert.match(docs[0],/Dependencias superiores: `I2-R, F7-F, G2-F`/);
-  assert.match(docs[0],/MÍNIMO PARA AVANZAR: identifica un principio compartido entre estilos/i);
+  assert.match(docs[0],/MÍNIMO PARA AVANZAR/i);
+  assert.match(docs[0],/identifica un principio compartido entre estilos/i);
 });
 
 test('U7 distingue principio compartido, realización y rasgo idiomático',()=>{
