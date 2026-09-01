@@ -1,6 +1,7 @@
 import type * as AlphaTab from '@coderline/alphatab';
 import type { NotationRenderer, NotationRendererCallbacks } from './NotationRenderer';
 import { ensurePercussionPlaybackMapping } from './ensurePercussionPlaybackMapping';
+import { readMusicXmlRecommendedBpm } from './musicXmlTempo';
 import { loadAlphaTabModule, preloadNotationResources } from './notationPreload';
 
 export interface AlphaTabRendererOptions {
@@ -14,7 +15,9 @@ export interface AlphaTabRendererOptions {
 export class AlphaTabRenderer implements NotationRenderer {
   private api: AlphaTab.AlphaTabApi | null = null;
   private readonly callbacks: NotationRendererCallbacks;
-  private readonly referenceBpm: number;
+  private readonly defaultReferenceBpm: number;
+  private scoreReferenceBpm: number;
+  private recommendedBpm: number | null = null;
   private pendingSourceUrl: string | null = null;
   private playbackBpm: number;
   private displayScale: number;
@@ -31,8 +34,9 @@ export class AlphaTabRenderer implements NotationRenderer {
     this.displayScale = options.displayScale ?? 1;
     const stretchForce = options.stretchForce ?? 0.8;
     const hideScoreHeader = options.hideScoreHeader ?? false;
-    this.referenceBpm = options.referenceBpm ?? 120;
-    this.playbackBpm = this.referenceBpm;
+    this.defaultReferenceBpm = options.referenceBpm ?? 120;
+    this.scoreReferenceBpm = this.defaultReferenceBpm;
+    this.playbackBpm = this.defaultReferenceBpm;
 
     // Start the expensive module + SoundFont work as soon as the lesson mounts,
     // instead of letting the player discover those resources just before first use.
@@ -115,6 +119,9 @@ export class AlphaTabRenderer implements NotationRenderer {
     this.callbacks.onStatusChange?.('loading', 'Cargando MusicXML…');
     if (!sourceUrl) return false;
 
+    this.recommendedBpm = null;
+    this.scoreReferenceBpm = this.defaultReferenceBpm;
+    this.applyPlaybackBpm();
     const requestId = ++this.loadRequestId;
 
     // Prime the authenticated MusicXML request while AlphaTab is still
@@ -137,8 +144,12 @@ export class AlphaTabRenderer implements NotationRenderer {
     if (this.api?.isReadyForPlayback) this.api.stop();
   }
 
+  getRecommendedBpm(): number | null {
+    return this.recommendedBpm;
+  }
+
   setPlaybackBpm(bpm: number): void {
-    if (!Number.isFinite(bpm) || this.referenceBpm <= 0) return;
+    if (!Number.isFinite(bpm) || this.scoreReferenceBpm <= 0) return;
     this.playbackBpm = bpm;
     this.applyPlaybackBpm();
   }
@@ -169,8 +180,14 @@ export class AlphaTabRenderer implements NotationRenderer {
     try {
       const response = await fetch(sourceUrl, { credentials: 'same-origin' });
       if (!response.ok) throw new Error('MusicXML request failed');
-      const xml = ensurePercussionPlaybackMapping(await response.text());
+      const sourceXml = await response.text();
       if (this.disposed || this.api !== api || requestId !== this.loadRequestId) return;
+
+      this.recommendedBpm = readMusicXmlRecommendedBpm(sourceXml);
+      this.scoreReferenceBpm = this.recommendedBpm ?? this.defaultReferenceBpm;
+      this.applyPlaybackBpm();
+
+      const xml = ensurePercussionPlaybackMapping(sourceXml);
       const bytes = new TextEncoder().encode(xml);
       if (!api.load(bytes)) this.reportLoadError();
     } catch {
@@ -186,7 +203,7 @@ export class AlphaTabRenderer implements NotationRenderer {
   }
 
   private applyPlaybackBpm(): void {
-    if (!this.api) return;
-    this.api.playbackSpeed = Math.min(8, Math.max(0.125, this.playbackBpm / this.referenceBpm));
+    if (!this.api || this.scoreReferenceBpm <= 0) return;
+    this.api.playbackSpeed = Math.min(8, Math.max(0.125, this.playbackBpm / this.scoreReferenceBpm));
   }
 }
