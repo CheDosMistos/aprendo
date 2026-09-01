@@ -21,17 +21,11 @@ Responder a material externo mediante imitación, contraste, continuación o var
 
 ## 1. Call/response como laboratorio de decisión
 
-Aquí `call/response` se usa como **procedimiento pedagógico general** de escucha y respuesta. No se atribuye a una tradición estilística concreta ni pretende resumir sus significados históricos.
+Aquí `call/response` se usa como **TRADICIÓN PEDAGÓGICA + DECISIÓN CURRICULAR RAZONADA**: un procedimiento general que separa información entrante y respuesta y permite restringir memoria, turno y objetivo. No se afirma que sea un método científicamente superior ni se atribuye a una tradición estilística concreta.
 
-Una llamada breve puede provocar:
+Una llamada breve puede provocar imitación, variación, contraste, continuación o una respuesta dinámica. Estas categorías son herramientas de práctica, no una taxonomía universal.
 
-- **imitación:** conservar casi toda la identidad;
-- **variación:** conservar un rasgo y modificar otro;
-- **contraste:** responder con un perfil distinto pero relacionado;
-- **continuación:** tratar la llamada como inicio de una frase mayor;
-- **respuesta dinámica:** conservar ritmo y cambiar energía/espacio.
-
-Responder no equivale a imitar.
+**Responder no equivale a imitar.**
 
 ## 2. Memoria breve antes de vocabulario
 
@@ -53,13 +47,7 @@ Si necesitas tocar durante la llamada para recordarla, reduce su longitud antes 
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — Pista incompleta.**
 
-Diseña una estructura donde algunas capas desaparezcan temporalmente o donde la señal relevante cambie de fuente:
-
-- bajo presente → desaparece → reaparece;
-- count-in sin click posterior;
-- groove estable → silencio → reentrada por cue;
-- acompañamiento denso → sparse → denso;
-- call pregrabado con respuesta libre de duración fija.
+Diseña una estructura donde algunas capas desaparezcan temporalmente o donde la señal relevante cambie de fuente: bajo presente→desaparece→reaparece; count-in sin click posterior; groove estable→silencio→reentrada por cue; acompañamiento denso→sparse→denso; call pregrabado con respuesta libre de duración fija.
 
 La tarea es conservar la representación interna de pulso/forma mientras cambia la cantidad de información disponible.
 
@@ -71,7 +59,9 @@ Por tanto, una pista con cues impredecibles para ti puede evaluar respuesta func
 
 ## 5. Cuando hay otro músico
 
-Con una persona real aparecen capacidades que una pista fija no puede ofrecer por sí sola:
+**EVIDENCIA + INFERENCIA A BATERÍA:** con una persona responsiva aparece una propiedad que una pista fija no ofrece: **contingencia cambiante y posibilidad de influencia bidireccional**. Konvalinka et al. (2010) documentaron adaptación mutua frente a una referencia no responsiva en una tarea de tapping; Goebl & Palmer (2009) observaron ajustes bidireccionales/unidireccionales según feedback en dúos de piano. Keller, Novembre & Hove (2014) integran anticipación, atención y adaptación en su marco de joint action musical.
+
+Esto permite observar, cuando la tarea lo provoca:
 
 - adaptación bidireccional;
 - anticipación de acciones no completamente predeterminadas;
@@ -79,10 +69,9 @@ Con una persona real aparecen capacidades que una pista fija no puede ofrecer po
 - liderazgo y seguimiento variables;
 - recuperación compartida;
 - cambios que surgen por lo que ambos acaban de tocar;
-- negociación de densidad, dinámica, fraseo o tempo;
-- mayor demanda de atención dividida.
+- negociación de densidad, dinámica, fraseo o tempo.
 
-La investigación sobre joint action musical describe precisamente anticipación, atención y adaptación como habilidades nucleares y documenta ajuste temporal mutuo entre intérpretes.
+**Corrección importante:** no afirmamos que tocar con una persona implique siempre «más atención dividida» que una pista compleja. La diferencia definitoria aquí es la **responsividad y contingencia bidireccional potencial**, no una escala universal de carga atencional.
 
 ## 6. Protocolo opcional con otro músico
 
@@ -99,22 +88,15 @@ El liderazgo cambia cada frase. No se permite hablar durante la toma.
 ### Ronda C — sin líder asignado
 Forma simple conocida. Cualquiera puede proponer un cambio musical; el objetivo es que el otro lo detecte, responda y que ambos mantengan la música.
 
-Después compare cada uno por separado:
+Después compara por separado:
 
-`¿QUÉ CREÍ QUE PROPUSO EL OTRO? → ¿QUÉ HICE? → ¿CÓMO CAMBIÓ SU SIGUIENTE ACCIÓN?`
+`ACCIÓN EXTERNA QUE PERCIBÍ → QUÉ CREÍ QUE SIGNIFICABA → QUÉ CAMBIÉ YO → QUÉ HIZO DESPUÉS EL COMPAÑERO → ¿HAY EVIDENCIA RAZONABLE DE RECIPROCIDAD?`
 
-Esta última pregunta es la evidencia clave de reciprocidad.
+La última pregunta mejora la calidad de la evidencia: «hicimos una jam» no demuestra por sí solo adaptación mutua. Si es posible, audio/vídeo y la comparación con la percepción del compañero aportan mejor trazabilidad.
 
 ## 7. Si no tienes acceso a otro músico
 
-No se bloquea el curso. Construye evidencia sólida con:
-
-- varias pistas/stems;
-- orden de cues no memorizado;
-- información parcial;
-- call/response pregrabado;
-- cambios de densidad/dinámica;
-- grabación continua y autoevaluación.
+No se bloquea el curso. Construye evidencia sólida con varias pistas/stems, orden de cues no memorizado, información parcial, call/response pregrabado, cambios de densidad/dinámica, grabación continua y autoevaluación.
 
 Registra explícitamente:
 
@@ -124,7 +106,7 @@ Eso significa que la evidencia interpersonal aún no existe; **no** significa qu
 
 ## Errores frecuentes
 
-- llamar «interacción» a cualquier acompañamiento;
+- llamar «interacción interpersonal» a cualquier acompañamiento;
 - responder siempre imitando;
 - preparar de memoria una respuesta para cada cue;
 - llenar el silencio entre turnos;
