@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { readMusicXmlRecommendedBpm } from '../src/platform/notation/musicXmlTempo';
+import { readMusicXmlRecommendedBpm } from '../src/platform/notation/musicXmlTempo.ts';
 
 test('reads the recommended BPM from MusicXML sound tempo metadata', () => {
   assert.equal(readMusicXmlRecommendedBpm('<direction><sound tempo="120"/></direction>'), 120);
