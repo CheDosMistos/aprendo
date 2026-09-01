@@ -21,9 +21,13 @@ Responder a cambios externos modificando **densidad, dinámica, articulación u 
 
 ## 1. El arreglo distribuye espacio y función
 
-Una batería no existe aislada: su densidad y registro conviven con bajo, voz, guitarras, teclados, percusión y otros elementos. Berklee trata forma, dinámica, articulación y textura como variables centrales del arreglo de sección rítmica; U6 convierte esa observación profesional en decisiones de ejecución.
+Una batería no existe aislada: su densidad y registro conviven con bajo, voz, guitarras, teclados, percusión y otros elementos.
 
-Pregunta:
+**FUENTE INSTITUCIONAL / TRADICIÓN PROFESIONAL:** Berklee incluye forma, stop-time, kicks, intros/endings, articulaciones y dinámica entre contenidos de rhythm section/arranging. Esto documenta la relevancia profesional de esas variables; **no demuestra** que exista una respuesta óptima universal de batería.
+
+**EVIDENCIA CONTEXTUAL:** estudios de interacción musical muestran que dinámica y tempo pueden formar parte de objetivos negociados entre intérpretes. MacRitchie et al. (2018) lo estudiaron en dúos de piano; la transferencia a batería es una inferencia, no una receta.
+
+Por eso U6 formula preguntas, no reglas:
 
 - ¿qué capa necesita estabilidad?;
 - ¿qué evento merece apoyo?;
@@ -33,14 +37,14 @@ Pregunta:
 
 ## 2. Cuatro acciones básicas
 
-Ante un cambio externo puedes:
+**DECISIÓN CURRICULAR RAZONADA:** ante un cambio externo puedes usar cuatro categorías de diagnóstico:
 
 1. **mantener** una capa estable;
 2. **reducir** densidad, dinámica o registro;
 3. **reforzar** selectivamente una figura/llegada;
 4. **preparar** una transición mediante una modificación breve.
 
-No son recetas estilísticas. Son categorías para diagnosticar intención.
+No son una taxonomía científica ni recetas estilísticas. Sirven para obligar a decidir por función antes que por dificultad.
 
 ## 3. Escalera de densidad
 
@@ -54,31 +58,17 @@ Diseña tres versiones propias de un groove que conserven pulso, subdivisión y 
 
 Usa una pista o compañero que introduzca cambios de arreglo. El objetivo no es recorrer A→B→C automáticamente, sino elegir el nivel adecuado a la información recibida.
 
-Después repite con la regla inversa: cuando el acompañamiento se densifique, prueba primero a **reducir** tu parte.
+Después repite con la regla inversa como **experimento de práctica**, no como principio universal: cuando el acompañamiento se densifique, prueba primero a **reducir** tu parte y compara el resultado.
 
 ## 4. Dinámica no es sólo volumen global
 
-Puedes modificar:
+Puedes modificar intensidad global, contraste entre voces, presencia de backbeat, energía de platos, articulación, duración percibida, cantidad de notas u orquestación.
 
-- intensidad global;
-- contraste entre voces;
-- presencia de backbeat;
-- altura y energía de platos;
-- articulación;
-- duración percibida;
-- cantidad de notas.
-
-Dos versiones con el mismo número de golpes pueden ocupar espacios muy distintos.
+Dos versiones con el mismo número de golpes pueden ocupar espacios perceptivos distintos. La elección concreta depende del contexto musical.
 
 ## 5. Figures y transiciones
 
-Reforzar una figure no obliga a reconstruir literalmente cada ataque en el kit. Según contexto puedes:
-
-- coincidir en el punto estructural importante;
-- simplificar la figura conservando su llegada;
-- dejar una capa de tiempo mientras otra voz responde;
-- preparar el cambio antes de la nueva sección;
-- no añadir nada si la figura ya está suficientemente definida por otros instrumentos.
+Reforzar una figure no obliga a reconstruir literalmente cada ataque en el kit. Según contexto puedes coincidir en un punto estructural importante, simplificar conservando la llegada, mantener una capa de tiempo mientras otra voz responde, preparar el cambio o no añadir nada si la figura ya está suficientemente definida.
 
 ## 6. Prueba A/B
 
@@ -99,7 +89,7 @@ No preguntes «¿cuál es más difícil?». Pregunta:
 ## Errores frecuentes
 
 - usar fill como respuesta por defecto;
-- subir volumen cuando el arreglo se densifica;
+- asumir que un arreglo más denso exige automáticamente tocar más fuerte;
 - confundir tocar menos con «no hacer nada»;
 - cambiar demasiadas variables simultáneamente;
 - reforzar todos los ataques de una figure;
