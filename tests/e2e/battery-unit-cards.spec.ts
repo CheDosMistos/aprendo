@@ -87,3 +87,51 @@ test('unit cards use two columns and one contextual action through pending, acti
   await expect(completeAction).toHaveText('Ver unidad');
   await expect(completeAction).toHaveAttribute('href', '/bateria/unidad-2/');
 });
+
+test('phase tabs expose one phase at a time and remain usable on a narrow viewport', async ({ page }, testInfo) => {
+  await login(page, testInfo);
+
+  await page.route(/\/api\/progress\/bateria\/\?limit=1$/, async (route) => {
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({ summary: { completedContentIds: [], needsReviewContentIds: [] } }),
+    });
+  });
+
+  await page.goto('/bateria/');
+
+  const tabs = page.getByRole('tab');
+  await expect(tabs).toHaveCount(7);
+
+  const phase1 = page.getByRole('tab', { name: 'Fase 1', exact: true });
+  const phase2 = page.getByRole('tab', { name: 'Fase 2', exact: true });
+  const phase3 = page.getByRole('tab', { name: 'Fase 3', exact: true });
+  const phase7 = page.getByRole('tab', { name: /Fase 7/ });
+
+  await expect(phase1).toHaveAttribute('aria-selected', 'true');
+  await expect(phase7).toBeDisabled();
+  await expect(page.locator('#fase-1-panel')).toBeVisible();
+  await expect(page.locator('#fase-2-panel')).toBeHidden();
+  await expect(page.locator('[role="tabpanel"]:visible')).toHaveCount(1);
+
+  await phase2.click();
+  await expect(phase2).toHaveAttribute('aria-selected', 'true');
+  await expect(page.locator('#fase-1-panel')).toBeHidden();
+  await expect(page.locator('#fase-2-panel')).toBeVisible();
+  await expect(page).toHaveURL(/#fase-2$/);
+
+  await phase2.press('ArrowRight');
+  await expect(phase3).toHaveAttribute('aria-selected', 'true');
+  await expect(page.locator('#fase-3-panel')).toBeVisible();
+  await expect(page).toHaveURL(/#fase-3$/);
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  const tabList = page.locator('[data-phase-tabs]');
+  const horizontalOverflow = await tabList.evaluate((element) => element.scrollWidth > element.clientWidth);
+  expect(horizontalOverflow).toBe(true);
+
+  const unitGridColumns = await page.locator('#fase-3-panel .unit-grid').evaluate((element) => getComputedStyle(element).gridTemplateColumns);
+  expect(unitGridColumns.trim().split(/\s+/)).toHaveLength(1);
+  await expect(page.locator('[role="tabpanel"]:visible')).toHaveCount(1);
+});
