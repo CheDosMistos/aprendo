@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<score-partwise version="4.0">
+  <work><work-title>70.U8 — Corchea de tresillo = corchea nueva · 120 → 180</work-title></work>
+  <identification>
+    <creator type="composer">Aprendo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO</creator>
+    <rights>Material original Aprendo; no transcripción de una obra.</rights>
+    <encoding><software>Aprendo</software></encoding>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Metric modulation percussion</part-name>
+      <score-instrument id="P1-I38"><instrument-name>Snare Drum</instrument-name></score-instrument>
+      <midi-instrument id="P1-I38"><midi-channel>10</midi-channel><midi-unpitched>39</midi-unpitched></midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>12</divisions>
+        <time><beats>4</beats><beat-type>4</beat-type></time>
+        <clef><sign>percussion</sign><line>2</line></clef>
+        <staff-details><staff-lines>5</staff-lines></staff-details>
+      </attributes>
+      <direction placement="above"><direction-type><words>Pulso antiguo · negra = 120</words></direction-type><sound tempo="120"/></direction>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>1</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>2</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>3</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>4</text></lyric></note>
+    </measure>
+    <measure number="2">
+      <direction placement="above"><direction-type><words>Puente: corchea de tresillo antigua = corchea ordinaria nueva</words></direction-type></direction>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><tuplet type="start" number="1" bracket="yes" show-number="actual"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">continue</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam><notations><tuplet type="stop" number="1"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><tuplet type="start" number="2" bracket="yes" show-number="actual"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">continue</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam><notations><tuplet type="stop" number="2"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><tuplet type="start" number="3" bracket="yes" show-number="actual"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">continue</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam><notations><tuplet type="stop" number="3"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><tuplet type="start" number="4" bracket="yes" show-number="actual"/></notations></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">continue</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>4</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><time-modification><actual-notes>3</actual-notes><normal-notes>2</normal-notes><normal-type>eighth</normal-type></time-modification><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam><notations><tuplet type="stop" number="4"/></notations></note>
+    </measure>
+    <measure number="3">
+      <direction placement="above"><direction-type><words>Reinterpretación: mismas microduraciones, ahora 2 por negra · negra = 180</words></direction-type><sound tempo="180"/></direction>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><articulations><accent/></articulations></notations><lyric><text>1</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><articulations><accent/></articulations></notations><lyric><text>2</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><articulations><accent/></articulations></notations><lyric><text>3</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">begin</beam><notations><articulations><accent/></articulations></notations><lyric><text>4</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>6</duration><instrument id="P1-I38"/><voice>1</voice><type>eighth</type><stem>up</stem><notehead>normal</notehead><beam number="1">end</beam></note>
+    </measure>
+    <measure number="4">
+      <direction placement="above"><direction-type><words>Pulso nuevo estabilizado · negra = 180</words></direction-type></direction>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>1</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>2</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>3</text></lyric></note>
+      <note><unpitched><display-step>C</display-step><display-octave>5</display-octave></unpitched><duration>12</duration><instrument id="P1-I38"/><voice>1</voice><type>quarter</type><stem>up</stem><notehead>normal</notehead><lyric><text>4</text></lyric></note>
+    </measure>
+  </part>
+</score-partwise>
