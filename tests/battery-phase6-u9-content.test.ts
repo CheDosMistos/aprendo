@@ -59,7 +59,8 @@ test('U9 usa grabación para calibrar y separa observación de inferencia',()=>{
 
 test('U9 protege la distinción aprendizaje-rendimiento y la recuperación',()=>{
   assert.match(docs[0],/Rendimiento inmediato ≠ aprendizaje retenido/);
-  assert.match(docs[4],/retención.*recuperación suficientemente separada/is);
+  assert.match(docs[4],/Recuperación posterior cuando la afirmación lo requiera/);
+  assert.match(docs[4],/No existe intervalo universal/);
   assert.match(docs[5],/Si necesitas afirmar retención, remuestrea tras separación/);
   assert.match(docs[0],/10\.1016\/j\.bbr\.2011\.11\.028/);
   assert.match(docs[0],/10\.1038\/s41598-024-65753-3/);
