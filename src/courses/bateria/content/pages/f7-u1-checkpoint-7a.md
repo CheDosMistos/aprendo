@@ -1,5 +1,5 @@
 ---
-contentId: bat-f7-u1-checkpoint-7a
+contentId: bat-f7-u1-check
 courseId: bateria
 phase: 7
 unit: 1
