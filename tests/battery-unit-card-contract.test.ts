@@ -4,10 +4,16 @@ import test from 'node:test';
 
 const source = readFileSync(new URL('../src/pages/bateria/index.astro', import.meta.url), 'utf8');
 
-test('battery unit cards use a two-column card grid with a single-column compact fallback', () => {
-  assert.match(source, /\.unit-grid\{display:grid;grid-template-columns:repeat\(2,minmax\(0,1fr\)\);gap:1rem\}/);
-  assert.match(source, /@media\(max-width:48rem\).*\.unit-grid\{grid-template-columns:1fr\}/s);
+test('battery unit cards use a compact two-column card grid with a single-column mobile fallback', () => {
+  assert.match(source, /\.unit-grid\{display:grid;grid-template-columns:repeat\(2,minmax\(0,1fr\)\);gap:\.85rem\}/);
+  assert.match(source, /\.unit-card\{min-height:16rem;display:flex;flex-direction:column;padding:1rem 1\.05rem/);
+  assert.match(source, /@media\(max-width:48rem\).*\.unit-grid\{grid-template-columns:1fr;gap:\.75rem\}\.unit-card\{min-height:0;padding:1rem\}/s);
   assert.doesNotMatch(source, /repeat\(auto-fit,minmax\(min\(100%,22rem\),1fr\)\)/);
+});
+
+test('battery phase panels do not repeat a redundant phase heading above the cards', () => {
+  assert.doesNotMatch(source, /phase-group__head/);
+  assert.doesNotMatch(source, /phase-count/);
 });
 
 test('battery unit cards use a two-column section index without a visible section heading or state marker', () => {
