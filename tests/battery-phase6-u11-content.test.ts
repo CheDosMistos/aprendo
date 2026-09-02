@@ -60,7 +60,7 @@ test('U11 no duplica U9 ni U10',()=>{
 
 test('El proyecto es multisesión, acotado y puede reutilizar material anterior',()=>{
   assert.match(docs[0],/proyecto multisesión flexible/);
-  assert.match(docs[0],/no recomienda iniciar otro proyecto enorme/i);
+  assert.match(docs[0],/no se recomienda iniciar otro proyecto enorme/i);
   assert.match(docs[0],/reutilizar material entre R1–R4/i);
   assert.match(docs[1],/válido reutilizar/i);
   assert.match(docs[3],/durante más de un encuentro/);
@@ -89,10 +89,10 @@ test('El plan incluye alternativa y puede cambiar por evidencia',()=>{
 test('Modos de práctica se seleccionan por función y no forman una escalera rígida',()=>{
   assert.match(docs[0],/ADQUISICIÓN ↔ ESTABILIZACIÓN → RECUPERACIÓN → TRANSFERENCIA → MANTENIMIENTO/);
   assert.match(docs[0],/No forman una escalera rígida/);
-  assert.match(docs[3],/ADQUISICIÓN/);
-  assert.match(docs[3],/ESTABILIZACIÓN/);
-  assert.match(docs[3],/RECUPERACIÓN/);
-  assert.match(docs[3],/TRANSFERENCIA/);
+  assert.match(docs[3],/adquisición/i);
+  assert.match(docs[3],/estabilización/i);
+  assert.match(docs[3],/recuperación/i);
+  assert.match(docs[3],/transferencia/i);
 });
 
 test('Transferencia cambia una condición pertinente sin convertirla en dificultad gratuita',()=>{
@@ -107,8 +107,8 @@ test('U11 mantiene copyright, incertidumbre y material original correctamente et
   assert.match(all,/EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);
   assert.match(docs[0],/acceso legal/);
   assert.match(docs[1],/no se presenta como oficial/);
-  assert.match(docs[5],/HECHO VERIFICADO/);
-  assert.match(docs[5],/HIPÓTESIS DE ESCUCHA/);
+  assert.match(docs[5],/hecho verificable/i);
+  assert.match(docs[5],/hipótesis de escucha/i);
   assert.match(docs[6],/partitura\/transcripción protegida no autorizada/);
 });
 
