@@ -50,7 +50,7 @@ const sectionTitle = (kind: string, title: string) => {
             role="tab"
             id={`fase-${phase}-tab`}
             aria-controls={available ? `fase-${phase}-panel` : undefined}
-            aria-selected={available ? String(selected) : 'false'}
+            aria-selected={available ? selected : false}
             aria-label={available ? `Fase ${phase}` : `Fase ${phase} — próximamente`}
             data-phase-tab={phase}
             tabindex={available && selected ? 0 : -1}
