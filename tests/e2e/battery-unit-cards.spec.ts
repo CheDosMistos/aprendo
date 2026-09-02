@@ -88,7 +88,7 @@ test('unit cards use two columns and one contextual action through pending, acti
   await expect(completeAction).toHaveAttribute('href', '/bateria/unidad-2/');
 });
 
-test('phase tabs expose one phase at a time and remain usable on a narrow viewport', async ({ page }, testInfo) => {
+test('phase tabs expose one phase at a time and compact cards remain usable on a narrow viewport', async ({ page }, testInfo) => {
   await login(page, testInfo);
 
   await page.route(/\/api\/progress\/bateria\/\?limit=1$/, async (route) => {
@@ -100,6 +100,8 @@ test('phase tabs expose one phase at a time and remain usable on a narrow viewpo
   });
 
   await page.goto('/bateria/');
+
+  await expect(page.locator('.phase-group__head')).toHaveCount(0);
 
   const tabs = page.getByRole('tab');
   await expect(tabs).toHaveCount(7);
@@ -133,5 +135,12 @@ test('phase tabs expose one phase at a time and remain usable on a narrow viewpo
 
   const unitGridColumns = await page.locator('#fase-3-panel .unit-grid').evaluate((element) => getComputedStyle(element).gridTemplateColumns);
   expect(unitGridColumns.trim().split(/\s+/)).toHaveLength(1);
+
+  const mobileCard = page.locator('#fase-3-panel [data-unit-card]').first();
+  const mobileHeadingSize = Number.parseFloat(await mobileCard.locator('h3').evaluate((element) => getComputedStyle(element).fontSize));
+  expect(mobileHeadingSize).toBeGreaterThanOrEqual(21);
+
+  const mobileActionBox = await mobileCard.locator('[data-unit-action]').boundingBox();
+  expect(mobileActionBox?.height ?? 0).toBeGreaterThanOrEqual(44);
   await expect(page.locator('[role="tabpanel"]:visible')).toHaveCount(1);
 });
