@@ -94,7 +94,7 @@ test('U10 controla carga y no convierte todas las variables en novedad simultán
   assert.match(docs[0],/no convierte todas las variables en novedad simultánea/i);
   assert.match(docs[1],/No estudies aquí un estilo nuevo/);
   assert.match(docs[4],/DECISIÓN CURRICULAR RAZONADA.*no un «número óptimo»/is);
-  assert.match(docs[5],/sin cambiar simultáneamente de estilo|cambiar una condición estilística pertinente/i);
+  assert.match(docs[5],/condición estilística pertinente/i);
 });
 
 test('Material original y copyright quedan protegidos sin MusicXML innecesario',()=>{
