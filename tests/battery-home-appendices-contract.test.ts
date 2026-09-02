@@ -13,6 +13,28 @@ test('battery home groups published units by phase', () => {
   assert.match(home, /const phaseUnits = units\.filter\(\(unit\) => unit\.data\.phase === phase\)/);
 });
 
+test('battery home exposes seven accessible phase tabs and one visible phase panel', () => {
+  assert.match(home, /const coursePhases = Array\.from\(\{ length: 7 \}/);
+  assert.match(home, /class="phase-tabs" role="tablist" aria-label="Fases del curso"/);
+  assert.match(home, /role="tab"/);
+  assert.match(home, /aria-controls=\{available \? `fase-\$\{phase\}-panel` : undefined\}/);
+  assert.match(home, /disabled=\{!available\}/);
+  assert.match(home, /role="tabpanel"/);
+  assert.match(home, /data-phase-panel=\{phase\}/);
+  assert.match(home, /hidden=\{phase !== initialPhase\}/);
+  assert.match(home, /for\(const item of panels\)item\.hidden=item!==panel/);
+});
+
+test('battery phase tabs support hash selection, keyboard navigation and responsive horizontal overflow', () => {
+  assert.match(home, /#fase-\$\{phase\}/);
+  assert.match(home, /ArrowRight/);
+  assert.match(home, /ArrowLeft/);
+  assert.match(home, /event\.key==='Home'/);
+  assert.match(home, /event\.key==='End'/);
+  assert.match(home, /@media\(max-width:48rem\).*\.phase-tabs\{display:flex;overflow-x:auto/s);
+  assert.match(home, /\.phase-tab\{flex:0 0 auto;min-width:6\.4rem/);
+});
+
 test('battery home exposes appendices beside progress navigation', () => {
   assert.match(home, /class="course-links"/);
   assert.match(home, /href="\/bateria\/progreso\/">Ver progreso y evidencia<\/a>/);
