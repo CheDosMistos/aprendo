@@ -17,7 +17,7 @@ published: true
 
 ## Qué demuestra esta evaluación
 
-El objetivo es comprobar si el bombo está **disponible como primera voz de pie** a nivel bombo MÍNIMO.
+El objetivo es comprobar si el bombo está **disponible como primera voz de pie** al nivel MÍNIMO PARA AVANZAR.
 
 No mide velocidad máxima ni premia una posición concreta de talón.
 
@@ -73,7 +73,7 @@ Esta evaluación **no demuestra automáticamente**:
 - velocidad alta;
 - repertorio estilístico.
 
-## COMPETENTE EN EL ÁMBITO DE esta unidad
+## COMPETENTE / FUNCIONAL EN ESTA UNIDAD
 
 No es requisito para pasar a Unidad 4/Unidad 5, pero puedes registrar evidencia adicional si:
 
@@ -85,7 +85,7 @@ No es requisito para pasar a Unidad 4/Unidad 5, pero puedes registrar evidencia 
 
 ## Decisión
 
-- **AVANZA:** bombo MÍNIMO está suficientemente disponible; Unidad 4 puede desarrollarse en paralelo y Unidad 5 podrá usar bombo muy simple.
+- **AVANZA:** el bombo está suficientemente disponible al nivel mínimo; Unidad 4 puede desarrollarse en paralelo y Unidad 5 podrá usar bombo muy simple.
 - **AVANZA CON CORRECTIVO:** el patrón es funcional pero una dimensión necesita mantenimiento explícito.
 - **REPITE EL BLOQUE ESPECÍFICO:** el problema principal impide todavía golpes básicos consistentes; no hace falta repetir toda esta unidad.
 

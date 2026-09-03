@@ -17,7 +17,7 @@ published: true
 
 ## Rama paralela: hi-hat de pie
 
-Esta unidad no es “la segunda mitad” de Unidad 3. El mapa hace **bombo y hi-hat de pie ramas paralelas tras setup, ergonomía y ecología del kit**. Esta unidad **no exige bombo** como prerrequisito.
+Esta unidad no es “la segunda mitad” de Unidad 3. El recorrido trata **bombo y hi-hat de pie como ramas paralelas después de setup, ergonomía y ecología del kit**. Esta unidad **no exige bombo** como prerrequisito.
 
 La novedad dominante es hi-hat de pie:
 
@@ -56,11 +56,11 @@ Negras esenciales; 2 y 4 como ampliación de colocación temporal.
 Dos manos en una tarea elemental ya conocida + pie izquierdo en negras.
 
 ### Evaluación — Hi-hat de pie disponible
-Demuestra hi-hat de pie MÍNIMO sin exigir bombo, groove, coordinación básica de cuatro extremidades o independencia avanzada.
+Demuestra el mínimo requerido de hi-hat de pie sin exigir bombo, groove, coordinación de cuatro extremidades o independencia avanzada.
 
 ## Frontera
 
-Una primera tarea de tres extremidades puede aparecer en Lección 4, pero **no certifica coordinación básica de cuatro extremidades**: exposición no equivale a coordinación básica de cuatro extremidades MÍNIMO. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
+Una primera tarea de tres extremidades puede aparecer en Lección 4, pero **no certifica coordinación básica de cuatro extremidades**: exposición no equivale a alcanzar el MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
 
 ## Criterio de salida
 

@@ -35,7 +35,7 @@ No estamos aprendiendo un ritmo nuevo. Estamos transfiriendo material que ya con
 
 ## Frontera importante
 
-Esta unidad trabaja **adaptación técnica entre superficies y kit** y el componente manual de **orquestación de rudimentos**. También prepara la futura orquestación creativa improvisación restringida, pero no declara improvisación restringida MÍNIMO ni orquestación de rudimentos-kit completo antes de disponer de la coordinación básica de cuatro extremidades que fija el mapa.
+Esta unidad trabaja **adaptación técnica entre superficies y kit** y el componente manual de **orquestación de rudimentos**. También prepara futuras tareas de orquestación creativa, pero no declara todavía esas capacidades como funcionales antes de disponer de una coordinación básica de cuatro extremidades.
 
 No introduces todavía como novedad dominante:
 

@@ -52,7 +52,7 @@ La capa nueva es el pie izquierdo en 2/4.
 
 ## FRONTERA
 
-Ejecutar ocasionalmente este ejercicio aporta evidencia hacia coordinación básica de cuatro extremidades, pero **no certifica coordinación básica de cuatro extremidades MÍNIMO** ni independencia avanzada.
+Ejecutar ocasionalmente este ejercicio aporta evidencia hacia la coordinación de cuatro extremidades, pero **no certifica por sí solo el MÍNIMO PARA AVANZAR** ni independencia avanzada.
 
 Unidad 6 realizará la evaluación específica de coordinación básica de cuatro extremidades. Aquí sólo abrimos el puente.
 
@@ -70,7 +70,7 @@ Unidad 6 realizará la evaluación específica de coordinación básica de cuatr
 - puede intentar una frase breve sin perder toda referencia;
 - sabe volver a la versión de tres extremidades;
 - identifica qué capa se degrada;
-- comprende que exposición no equivale a competencia coordinación básica de cuatro extremidades certificada.
+- comprende que exposición no equivale a competencia certificada en coordinación de cuatro extremidades.
 
 ## Registrar esta práctica
 

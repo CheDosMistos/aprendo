@@ -89,7 +89,7 @@ No conviertas esta comprobación en una repetición completa de Unidad 1.
 
 - velocidad alta;
 - cero errores;
-- independencia avanzada independencia avanzada;
+- independencia avanzada;
 - doble pedal;
 - repertorio completo;
 - 5/4 o 7/8;
@@ -117,4 +117,4 @@ Cerrar Hito 5 no declara por sí solo:
 
 ## Cierre de Fase 4
 
-Este Hito cierra la arquitectura de **Transferencia al kit** al nivel previsto. La fase siguiente puede profundizar sonido, coordinación, estilos, repertorio e independencia sin convertir este cierre en una exigencia de perfección.
+Este Hito cierra el recorrido de **Transferencia al kit** al nivel previsto. La fase siguiente puede profundizar sonido, coordinación, estilos, repertorio e independencia sin convertir este cierre en una exigencia de perfección.

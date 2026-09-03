@@ -17,9 +17,9 @@ published: true
 
 ## Qué demuestra esta evaluación
 
-Comprueba si el hi-hat de pie está disponible a nivel **hi-hat de pie MÍNIMO**.
+Comprueba si el hi-hat de pie alcanza el **MÍNIMO PARA AVANZAR**.
 
-No exige bombo. bombo y hi-hat de pie son ramas paralelas tras setup, ergonomía y ecología del kit.
+No exige bombo. Bombo y hi-hat de pie son ramas paralelas tras setup, ergonomía y ecología del kit.
 
 ## Bloque A — Abrir / cerrar / chick
 
@@ -71,7 +71,7 @@ Debe poder demostrarse razonablemente que:
 - una técnica universal de talón;
 - velocidad alta.
 
-## COMPETENTE EN EL ÁMBITO DE esta unidad
+## COMPETENTE / FUNCIONAL EN ESTA UNIDAD
 
 No es requisito para iniciar Unidad 5, pero puede registrarse evidencia adicional si:
 
@@ -83,7 +83,7 @@ No es requisito para iniciar Unidad 5, pero puede registrarse evidencia adiciona
 
 ## Decisión
 
-- **AVANZA:** hi-hat de pie MÍNIMO está suficientemente disponible.
+- **AVANZA:** el hi-hat de pie está suficientemente disponible al nivel mínimo.
 - **AVANZA CON CORRECTIVO:** hi-hat de pie es utilizable pero una dimensión requiere mantenimiento explícito.
 - **REPITE EL BLOQUE ESPECÍFICO:** el problema principal impide todavía aperturas/cierres u ostinato básico estable; no hace falta repetir toda esta unidad.
 

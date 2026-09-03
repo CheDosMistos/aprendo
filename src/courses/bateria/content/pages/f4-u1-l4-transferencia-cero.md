@@ -111,10 +111,10 @@ No demuestra todavía:
 
 - bombo;
 - hi-hat de pie;
-- coordinación básica de cuatro extremidades coordinación de cuatro extremidades;
-- groove y variaciones groove;
-- fills fills;
-- improvisación restringida orquestación creativa.
+- coordinación de cuatro extremidades;
+- groove;
+- fills;
+- orquestación creativa.
 
 Sólo confirma que la entrada física al kit es suficientemente funcional para empezar a transferir de verdad.
 

@@ -45,7 +45,7 @@ Para cada patrón:
 
 No es obligatorio ejecutar A→B sin pausa para superar la evaluación.
 
-## MÍNIMO PARA coordinación básica de cuatro extremidades
+## MÍNIMO PARA AVANZAR
 
 - Patrón A mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
 - Patrón B mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
@@ -60,9 +60,9 @@ No es obligatorio ejecutar A→B sin pausa para superar la evaluación.
 
 ## NO CERTIFICA
 
-- **COMPETENTE/FUNCIONAL**;
-- **COMPETENTE/FUNCIONAL**;
-- **independencia**;
+- coordinación de cuatro extremidades en nivel **COMPETENTE/FUNCIONAL**;
+- groove y variaciones en nivel **COMPETENTE/FUNCIONAL**;
+- independencia avanzada;
 - variaciones de bombo/caja;
 - ghost notes;
 - aperturas de hi-hat como vocabulario musical;
@@ -77,7 +77,7 @@ No es obligatorio ejecutar A→B sin pausa para superar la evaluación.
 
 No existe BPM de aprobado.
 
-La perfección no es requisito: coordinación básica de cuatro extremidades MÍNIMO exige coordinación suficientemente estable para que Unidad 7 pueda trabajar groove y pequeñas variaciones sin convertir cada sesión en reaprendizaje del patrón base.
+La perfección no es requisito: el MÍNIMO PARA AVANZAR exige una coordinación de cuatro extremidades suficientemente estable para que Unidad 7 pueda trabajar groove y pequeñas variaciones sin convertir cada sesión en reaprendizaje del patrón base.
 
 ## Registrar esta práctica
 

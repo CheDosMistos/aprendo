@@ -31,9 +31,9 @@ No se atribuye a una canción, baterista, estilo o método.
 
 ## Frontera curricular
 
-El mapa sitúa groove y variaciones después de una base coordinación básica de cuatro extremidades, pero **introducir no significa declarar funcional**. En esta unidad coordinación básica de cuatro extremidades sigue en desarrollo: el núcleo usa tres extremidades y una primera tarea de cuatro aparece sólo como AMPLIACIÓN.
+El recorrido sitúa groove y variaciones después de una base de coordinación de cuatro extremidades, pero **introducir no significa declarar funcional**. En esta unidad coordinación básica de cuatro extremidades sigue en desarrollo: el núcleo usa tres extremidades y una primera tarea de cuatro aparece sólo como AMPLIACIÓN.
 
-Esta unidad **no certifica coordinación básica de cuatro extremidades MÍNIMO** ni independencia avanzada. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
+Esta unidad **no certifica todavía el MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades** ni independencia avanzada. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
 
 ## Qué vas a construir
 

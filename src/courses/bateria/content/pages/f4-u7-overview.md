@@ -8,16 +8,16 @@ slug: fase-4-unidad-7-introduccion
 kind: unit
 order: 0
 title: "Groove estable y pequeñas variaciones"
-summary: "Convierte coordinación básica de cuatro extremidades mínimo en groove groove y variaciones estable: una variación predeterminada, forma clara y retorno al patrón base."
+summary: "Convierte una coordinación mínima de cuatro extremidades en un groove estable con variaciones: una variación predeterminada, forma clara y retorno al patrón base."
 duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H5, H4, C1, C2, C3, F3, G2, K5, K7]
 rudiments: []
 published: true
 ---
 
-## Objetivo explícito: groove y variaciones MÍNIMO
+## Objetivo explícito: groove estable con una variación controlada
 
-Unidad 5 introdujo la función de groove y Unidad 6 cerró **coordinación básica de cuatro extremidades MÍNIMO**. Ahora la prioridad es demostrar:
+Unidad 5 introdujo la función de groove y Unidad 6 cerró el **MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades**. Ahora la prioridad es demostrar:
 
 > **Mantiene grooves básicos estables.**
 
@@ -41,7 +41,7 @@ La variación ocupa un lugar formal predeterminado y debe volver a A sin perder 
 ### Lección 4 — Grabar, comparar y decidir
 Dos tomas breves para comparar estabilidad, sonido, balance, forma e intención.
 
-### Evaluación — groove y variaciones MÍNIMO
+### Evaluación — groove estable y variación controlada
 Groove estable + pequeña variación controlada + retorno, sin BPM de aprobado.
 
 ## Fronteras

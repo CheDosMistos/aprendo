@@ -94,7 +94,7 @@ Eso no convierte el material Unidad 2 en una composición tuya.
 
 ## Frontera
 
-Una orquestación puede sonar a frase o transición, pero **esta unidad no la certifica como fill fills**. Tampoco entrena independencia avanzada como independencia sistemática.
+Una orquestación puede sonar a frase o transición, pero **esta unidad no la certifica como fill fills**. Tampoco entrena independencia sistemática avanzada.
 
 ## Registrar esta práctica
 

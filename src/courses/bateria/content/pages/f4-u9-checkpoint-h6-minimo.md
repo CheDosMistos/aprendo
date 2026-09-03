@@ -7,7 +7,7 @@ unitSlug: fase-4-unidad-9
 slug: h6-minimo
 kind: checkpoint
 order: 5
-title: "Evaluación — fills MÍNIMO: fill y retorno"
+title: "Evaluación — Fill sencillo y retorno"
 summary: "Demuestra un fill sencillo dentro de una frase conocida y vuelve al groove en el tiempo 1 correcto sin usar BPM como puerta."
 duration: 20–30 min
 competencies: [H6, H5, F3, B8, G5, C1, C2, C3, K2, K5, K7]
@@ -17,7 +17,7 @@ published: true
 
 ## Qué demuestra esta evaluación
 
-El criterio global que puede cerrarse aquí es **fills MÍNIMO**:
+El criterio global que puede cerrarse aquí es el **MÍNIMO PARA AVANZAR en fills**:
 
 > **Inserta fills sencillos sin perder el pulso.**
 
@@ -41,7 +41,7 @@ Después demuestra:
 
 `GROOVE → FILL → 1 → GROOVE`.
 
-## MÍNIMO PARA fills
+## MÍNIMO PARA AVANZAR
 
 Debe observarse razonablemente que:
 
@@ -70,7 +70,7 @@ Puedes usar la versión escrita o una variante de superficies trabajada en Lecci
 
 La calidad de fills no se mide por cuántos toms o platos utilizas.
 
-## independencia avanzada queda abierto
+## La independencia avanzada queda abierta
 
 La ampliación de Lección 4 puede mostrar una primera exposición a un ostinato simple mientras las manos realizan el fill.
 
@@ -83,7 +83,7 @@ Pueden probarse como AMPLIACIÓN sólo si esas métricas ya están funcionales. 
 ## NO CERTIFICA
 
 - fills COMPETENTE/FUNCIONAL;
-- independencia avanzada independencia;
+- independencia avanzada;
 - fills improvisados libres;
 - repertorio;
 - vocabulario estilístico;
@@ -97,4 +97,4 @@ Pueden probarse como AMPLIACIÓN sólo si esas métricas ya están funcionales. 
 - **AVANZA CON CORRECTIVO:** el retorno es funcional, pero una transición o superficie necesita mantenimiento.
 - **REPITE EL BLOQUE ESPECÍFICO:** el fill desplaza sistemáticamente el 1 o hace desaparecer la referencia; no es necesario repetir toda esta unidad.
 
-La siguiente unidad integra setup, ergonomía y ecología del kit–fills + adaptación técnica entre superficies y kit/orquestación de rudimentos dentro del **Hito 5**.
+La siguiente unidad integra configuración, pedales, coordinación, groove, fills y transferencia al kit dentro del **Hito 5**.

@@ -17,7 +17,7 @@ published: true
 
 ## Qué demuestra esta evaluación
 
-Comprueba si **groove y variaciones MÍNIMO** está suficientemente disponible en una condición básica:
+Comprueba si el **MÍNIMO PARA AVANZAR en groove y variaciones** está suficientemente disponible en una condición básica:
 
 > **Mantiene grooves básicos estables.**
 
@@ -41,7 +41,7 @@ Comprueba que la única nota nueva —bombo en `& de 3`— no desorganiza las de
 
 Toca la frase completa. Si aparece un error aislado, prioriza conservar o recuperar una referencia clara y **volver a A**.
 
-## MÍNIMO PARA groove y variaciones
+## MÍNIMO PARA AVANZAR
 
 Debe poder demostrarse razonablemente que:
 
@@ -62,21 +62,21 @@ Debe poder demostrarse razonablemente que:
 
 ## LO QUE NO CERTIFICA
 
-- COMPETENTE/FUNCIONAL;
-- COMPETENTE/FUNCIONAL global;
-- independencia;
+- groove y variaciones en nivel COMPETENTE/FUNCIONAL;
+- coordinación de cuatro extremidades en nivel COMPETENTE/FUNCIONAL global;
+- independencia avanzada;
 - fills;
-- orquestación de rudimentos/orquestación focal de Unidad 8;
+- orquestación focal de rudimentos de Unidad 8;
 - ghost notes o aperturas como vocabulario funcional;
 - feel estilístico específico;
 - repertorio;
 - velocidad alta.
 
-Una variación predeterminada puede aportar evidencia hacia coordinación básica de cuatro extremidades competente, pero **no certifica coordinación básica de cuatro extremidades competente automáticamente**.
+Una variación predeterminada puede aportar evidencia de coordinación competente de cuatro extremidades, pero **no la certifica automáticamente**.
 
 ## Decisión
 
-- **AVANZA:** groove y variaciones MÍNIMO está suficientemente disponible.
+- **AVANZA:** el groove y sus variaciones están suficientemente disponibles al nivel mínimo.
 - **AVANZA CON CORRECTIVO:** el groove es funcional para seguir, pero una transición/capa requiere mantenimiento.
 - **REPITE EL BLOQUE ESPECÍFICO:** un cuello de botella impide todavía sostener groove, variación o retorno; no hace falta repetir toda esta unidad.
 

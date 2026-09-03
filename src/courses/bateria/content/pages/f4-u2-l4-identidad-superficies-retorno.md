@@ -86,4 +86,4 @@ Una toma breve puede ayudarte a comparar si la identidad que creías conservar t
 
 ## Límite curricular
 
-Esta es **preparación manual** para la futura improvisación restringida y desarrollo de adaptación técnica entre superficies y kit/orquestación de rudimentos. No certifica coordinación básica de cuatro extremidades, improvisación restringida MÍNIMO completo ni orquestación de rudimentos-kit competente antes de sus dependencias.
+Esta es **preparación manual** para futuras tareas de improvisación y orquestación en el kit. No certifica todavía coordinación de cuatro extremidades ni competencia completa de orquestación; esas capacidades se desarrollan más adelante.

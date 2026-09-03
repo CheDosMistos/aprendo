@@ -70,7 +70,7 @@ Si usas un rudimento PAS como material base, su identidad y sticking deben verif
 - al menos una sustitución manual→bombo es controlable;
 - puedes volver a A sin reaprender la frase;
 - distingues sustitución de superposición;
-- no conviertes esta tarea en groove groove y variaciones ni coordinación básica de cuatro extremidades certificado;
+- no conviertes esta tarea en groove y variaciones ni en una certificación de coordinación de cuatro extremidades;
 - puedes nombrar el cuello de botella si la frase deja de ser reconocible.
 
 ## Registrar esta práctica

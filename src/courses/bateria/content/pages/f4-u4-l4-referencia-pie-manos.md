@@ -57,7 +57,7 @@ Si la combinación colapsa, **reduce duración antes de aumentar tempo**.
 
 Esta tarea puede implicar dos manos + pie izquierdo, pero **no certifica coordinación básica de cuatro extremidades** ni independencia avanzada.
 
-coordinación básica de cuatro extremidades exige disponibilidad suficiente de bombo y hi-hat de pie conforme al mapa y tendrá su foco explícito en Unidad 6. Aquí sólo observamos si hi-hat de pie puede convivir con material manual conocido.
+La coordinación básica de cuatro extremidades exige disponibilidad suficiente de bombo y hi-hat de pie y tendrá su foco explícito en Unidad 6. Aquí sólo observamos si hi-hat de pie puede convivir con material manual conocido.
 
 ## MÍNIMO PARA AVANZAR
 
