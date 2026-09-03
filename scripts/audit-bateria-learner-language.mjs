@@ -18,6 +18,8 @@ const checks = [
   ['editorial-heading', /^##\s+Arquitectura\b/gi],
   ['codemod-artifact', /\$1|\bel Evaluación\b|\beste Evaluación\b|\bde la unidad de la unidad\b|\bLección \d+\s*[–-]\s*Lección \d+\b|\bUnidad \d+\s*[–-]\s*Unidad \d+\b/g],
   ['lowercase-self-reference', /^(?:esta unidad|el curso|la base documental|el diseño del curso)\b/g],
+  ['semantic-duplicate', /\b(bombo|independencia|coordinación|evaluación|integración|polirritmia|polimetría|subdivisión|pulso|groove|fill|fills)\s+\1\b/gi],
+  ['semantic-grammar-artifact', /\b(?:todos los evaluaciones|todos las evaluaciones|todas los evaluaciones|los evaluaciones|las evaluación|integración de integración|Auditoría los cuatro carriles|adaptación\/orquestación adaptación|hi-hat de pie hi-hat de pie)\b/gi],
 ];
 
 function splitFrontmatter(source) {
