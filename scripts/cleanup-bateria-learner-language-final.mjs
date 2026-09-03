@@ -61,6 +61,7 @@ const replacements = new Map([
     ['En U6 no reinterpretamos una subdivisión como nuevo tempo. **J8** estudiará cuándo una relación interna pasa a definir un nuevo pulso calculable.', 'Aquí no reinterpretamos una subdivisión como nuevo tempo. La unidad de **modulación métrica** estudiará cuándo una relación interna pasa a definir un nuevo pulso calculable.'],
     ['La Biblioteca Maestra relaciona J6 con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. U6 no reproduce ejercicios de esos métodos.', 'Como recursos de ampliación para polirritmia pueden consultarse Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.'],
     ['La auditoría canónica del proyecto incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción J6/J7.', 'La base documental del curso incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción entre polirritmia y polimetría.'],
+    ['La Biblioteca Maestra relaciona polirritmia con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.', 'Como recursos de ampliación para polirritmia pueden consultarse Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.'],
   ]],
   ['f7-u7-overview.md', [
     ['### Polimetría ≠ ciclo trans-barra de J5', '### Polimetría ≠ ciclo que cruza compases'],
@@ -81,6 +82,7 @@ const replacements = new Map([
   ['f7-u9-overview.md', [
     ['El Plan General establece que el cierre de Fase 7 no consiste en “tocar cosas raras”. El alumno debe poder:', 'El cierre de Fase 7 no consiste en “tocar cosas raras”. El alumno debe poder:'],
     ['No se asigna automáticamente ningún método comercial como “método de J9”. La Biblioteca Maestra advierte expresamente que materiales como *Rhythmic Horizons* no deben etiquetarse como J9 sin verificar el contenido concreto. Por tanto, U9 usa material original del curso y remite a recursos externos sólo cuando una lección futura tenga una correspondencia verificada.', 'No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. Materiales como *Rhythmic Horizons* sólo deben recomendarse cuando su contenido concreto corresponda a la tarea. Esta unidad usa material original del curso y remite a recursos externos únicamente cuando exista una correspondencia verificada.'],
+    ['No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. La Biblioteca Maestra advierte expresamente que materiales como *Rhythmic Horizons* no deben etiquetarse como integración progresiva y experimental sin verificar el contenido concreto. Por tanto, esta unidad usa material original del curso y remite a recursos externos sólo cuando una lección futura tenga una correspondencia verificada.', 'No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. Materiales como *Rhythmic Horizons* sólo deben recomendarse cuando su contenido concreto corresponda a la tarea. Esta unidad usa material original del curso y remite a recursos externos únicamente cuando exista una correspondencia verificada.'],
   ]],
 ]);
 
@@ -115,12 +117,14 @@ for (const filename of (await readdir(root)).filter((name) => name.endsWith('.md
   text = text.replace(/\+ Evaluación/g, '+ evaluación');
   text = text.replace(/todos los evaluaciones/g, 'todas las evaluaciones');
   text = text.replace(/Auditoría los cuatro carriles/g, 'Auditoría de los cuatro carriles');
+  text = text.replace(/\badaptación\/orquestación adaptación técnica entre superficies y kit\/orquestación de rudimentos\b/g, 'adaptación y orquestación de material conocido');
   text = text.replace(/\b(bombo) bombo\b/g, '$1');
   text = text.replace(/\b(hi-hat de pie) hi-hat de pie\b/g, '$1');
   text = text.replace(/\bcoordinación coordinación básica de cuatro extremidades\b/g, 'coordinación básica de cuatro extremidades');
   text = text.replace(/\bindependencia independencia avanzada\b/g, 'independencia avanzada');
   text = text.replace(/\bintegración de integración progresiva y experimental\b/g, 'integración progresiva y experimental');
   text = text.replace(/\bmodulación métrica es funcional\b/g, 'La modulación métrica es funcional');
+  text = text.replace(/\btodos los evaluaciones\b/g, 'todas las evaluaciones');
   if (text !== before) {
     await writeFile(filepath, text, 'utf8');
     changed += 1;
