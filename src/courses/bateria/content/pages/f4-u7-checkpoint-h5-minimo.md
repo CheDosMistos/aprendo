@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este Evaluación
+## Qué demuestra esta evaluación
 
 Comprueba si **groove y variaciones MÍNIMO** está suficientemente disponible en una condición básica:
 

@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Diseñar un plan breve que responda al diagnóstico de Lección 1–Lección 2 y pueda **modificarse cuando la evidencia contradiga la estrategia inicial**.
+Diseñar un plan breve que responda al diagnóstico de Lecciones 1–2 y pueda **modificarse cuando la evidencia contradiga la estrategia inicial**.
 
 No necesitas planificar un mes. Empieza con las próximas **2–3 sesiones**.
 

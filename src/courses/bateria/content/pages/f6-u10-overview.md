@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Proyecto sostenido: chart, respuesta y adaptación"
 summary: "Integra navegación, continuidad, respuesta musical, adaptación estilística, feel y autonomía funcional dentro de una forma completa con varias pasadas y decisiones encadenadas."
-duration: 5 lecciones + checkpoint; varias sesiones
+duration: 5 lecciones + Evaluación; varias sesiones
 competencies: [D7, I4, I6, I5, C7, K8, F3, F7, H5, H6]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad está reservada para un **PROYECTO SOSTENIDO DE CHART + INTERACCIÓN + ADAPTACIÓN**.
+Esta unidad está reservada para un **PROYECTO SOSTENIDO DE CHART + INTERACCIÓN + ADAPTACIÓN**.
 
 Hasta ahora has trabajado por separado —aunque conectados— navegación de chart, interacción, transferencia entre estilos, feel/microtiming y autonomía de práctica. La novedad de esta unidad no consiste en volver a explicar esas herramientas. Consiste en sostenerlas **a la vez y durante una forma musical completa**, donde una decisión cambia lo que tendrás que hacer después.
 
@@ -41,7 +41,7 @@ Unidad 6 preguntaba: **¿puedes escuchar información externa y modificar tu eje
 
 Unidad 9 preguntaba: **¿puedes elegir una estrategia o recurso y revisar si funcionó?**
 
-esta unidad pregunta:
+Esta unidad pregunta:
 
 > **¿PUEDES HACER TODO ESO A LO LARGO DE UNA INTERPRETACIÓN COMPLETA SIN QUE CADA PROBLEMA LOCAL ROMPA EL PROYECTO?**
 
@@ -135,7 +135,7 @@ Si no dispones de otro músico, la unidad puede completarse. Registra:
 
 ## Control de carga
 
-esta unidad integra competencias, pero no convierte todas las variables en novedad simultánea.
+Esta unidad integra competencias, pero no convierte todas las variables en novedad simultánea.
 
 ### Pasada 1
 
@@ -156,7 +156,7 @@ Retira o reduce una ayuda si la evidencia de las pasadas anteriores justifica ha
 
 ### drum-set charts y navegación formal
 
-esta unidad no vuelve a enseñar símbolos básicos. El chart se usa como **mapa funcional durante una interpretación sostenida**.
+Esta unidad no vuelve a enseñar símbolos básicos. El chart se usa como **mapa funcional durante una interpretación sostenida**.
 
 ### interpretación de canciones/piezas completas
 
@@ -200,7 +200,7 @@ No se exige perfección en ninguna de ellas.
 
 ## Fronteras
 
-esta unidad:
+Esta unidad:
 
 - no reabre teoría general de autorregulación;
 - no vuelve a enseñar charts básicos;

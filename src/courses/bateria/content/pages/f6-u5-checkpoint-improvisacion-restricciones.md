@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa
 
-Este Evaluación no evalúa cuántos licks conoces, cuánto puedes densificar ni si «dominas» funk o jazz. Evalúa una competencia más transferible:
+Esta evaluación no evalúa cuántos licks conoces, cuánto puedes densificar ni si «dominas» funk o jazz. Evalúa una competencia más transferible:
 
 > **IMPROVISAR O VARIAR MATERIAL DENTRO DE UNA FORMA CORTA CONSERVANDO PULSO, INTENCIÓN Y RESTRICCIONES ACORDADAS.**
 
@@ -89,7 +89,7 @@ Una sola tarea no certifica dominio estilístico general.
 
 ## AVANZADO / AMPLIACIÓN
 
-- repite el Evaluación con el otro laboratorio manteniendo el mismo proceso de decisión;
+- repite la evaluación con el otro laboratorio manteniendo el mismo proceso de decisión;
 - cambia una restricción y predice antes de tocar qué efecto tendrá;
 - limita aún más el vocabulario y busca variedad mediante dinámica, espacio u orquestación;
 - compara dos tomas con decisiones opuestas de densidad;
@@ -97,7 +97,7 @@ Una sola tarea no certifica dominio estilístico general.
 
 ## Frontera explícita
 
-Este Evaluación **NO certifica**:
+Esta evaluación **NO certifica**:
 
 - dominio completo de funk, funk-jazz, bop o jazz;
 - interacción interpersonal avanzada de Unidad 6;

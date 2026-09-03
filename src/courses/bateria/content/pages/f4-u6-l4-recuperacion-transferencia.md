@@ -47,7 +47,7 @@ No hace falta imponer un intervalo fijo de horas o días.
 - B durante una frase breve;
 - en otra vuelta, B primero y A después.
 
-**AMPLIACIÓN:** cuando ambos estén suficientemente estables, puedes pasar A→B en un límite de frase claro. No es requisito del Evaluación.
+**AMPLIACIÓN:** cuando ambos estén suficientemente estables, puedes pasar A→B en un límite de frase claro. No es requisito de la evaluación.
 
 ## Recuperarse de un error
 

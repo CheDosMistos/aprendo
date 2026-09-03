@@ -17,7 +17,7 @@ published: true
 
 ## Qué certifica
 
-Este Evaluación puede certificar:
+Esta evaluación puede certificar:
 
 > **lectura aplicada al kit MÍNIMO en condición preparada: sigue indicaciones elementales de forma y entradas.**
 

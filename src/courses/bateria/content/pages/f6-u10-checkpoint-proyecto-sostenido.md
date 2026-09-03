@@ -97,7 +97,7 @@ Si no hubo otro músico, registra:
 
 `INTERACCIÓN INTERPERSONAL REAL: NO OBSERVADA TODAVÍA`
 
-Eso **no invalida** el resto del Evaluación.
+Eso **no invalida** el resto de la evaluación.
 
 ## COMPETENTE / FUNCIONAL
 

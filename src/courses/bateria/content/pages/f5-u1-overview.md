@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Reentrada funcional y repertorio A"
 summary: "Pasa de la integración breve del Hito 5 a sostener una forma musical más larga sin reaprender el kit ni añadir vocabulario estilístico nuevo."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H5, I3, F3, C1, C2, C3, C4, K2, K5, K7, D7, I4]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: duración + forma + continuidad
 
-Fase 4 terminó demostrando una cadena corta de groove, pequeña variación, fill y retorno. esta unidad no vuelve a enseñar esa cadena.
+Fase 4 terminó demostrando una cadena corta de groove, pequeña variación, fill y retorno. Esta unidad no vuelve a enseñar esa cadena.
 
 > **NO REAPRENDER. SOSTENER DURANTE MÁS TIEMPO.**
 
@@ -46,7 +46,7 @@ El MusicXML de Pieza A es un **esqueleto formal mínimo**, no una partitura comp
 
 Así la lectura ayuda a navegar la forma sin convertirse en una segunda dificultad dominante.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Recuperar sin reaprender
 Comprueba el estado real del Hito 5 y corrige sólo lo que hoy esté interfiriendo.

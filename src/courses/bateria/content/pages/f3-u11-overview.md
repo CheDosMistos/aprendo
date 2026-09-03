@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-Hasta Unidad 10 hemos aprendido a representar, transformar y crear ritmo. esta unidad añade una pregunta más amplia:
+Hasta Unidad 10 hemos aprendido a representar, transformar y crear ritmo. Esta unidad añade una pregunta más amplia:
 
 > **¿qué está haciendo este ritmo dentro de la música?**
 

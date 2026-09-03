@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Unidad 5 enseñó a colocar tres partes iguales **dentro** de un pulso sin mover ese pulso. esta unidad da el siguiente paso: cambia la organización del compás.
+Unidad 5 enseñó a colocar tres partes iguales **dentro** de un pulso sin mover ese pulso. Esta unidad da el siguiente paso: cambia la organización del compás.
 
 > **6/8 PROTOTÍPICO = 2 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 

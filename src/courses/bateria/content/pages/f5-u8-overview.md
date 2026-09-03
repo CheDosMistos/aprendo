@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: time estable + respuestas sencillas
 
-esta unidad introduce una ventana jazz con una prioridad clara:
+Esta unidad introduce una ventana jazz con una prioridad clara:
 
 > **TIME PRIMERO → RESPUESTA DESPUÉS.**
 

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Transferencia entre estilos: principios, carácter e híbridos"
 summary: "Aprende a reconocer qué principio puede viajar entre estilos, qué rasgos deben conservarse para no borrar su carácter y cómo transformar vocabulario con intención."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [I5, I2, I1, F7, G2, G3, H5, H6, E5, C1, C2]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: transferir sin copiar ni borrar
 
-Unidad 6 entrenó a cambiar la ejecución por información musical externa. esta unidad cambia la pregunta:
+Unidad 6 entrenó a cambiar la ejecución por información musical externa. Esta unidad cambia la pregunta:
 
 > **¿QUÉ PUEDE VIAJAR DE UN ESTILO A OTRO Y QUÉ DEBE CAMBIAR PARA QUE LA MÚSICA SIGA TENIENDO CARÁCTER?**
 
@@ -59,7 +59,7 @@ Cadena de trabajo:
 
 No se intenta «hacer jazz con un beat de rock» o «poner un patrón de reggae encima de cualquier canción». La tarea es explicar qué se conserva, qué cambia y por qué.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Invariantes funcionales y rasgos idiomáticos
 Compara dos contextos sin reducirlos a etiquetas: función, subdivisión, densidad, articulación, forma y relación con otros instrumentos.
@@ -81,14 +81,14 @@ Compara dos estilos o contextos, identifica al menos un principio compartido y d
 - **ESTÁNDAR DEL PROYECTO:** `04_MAPA_COMPETENCIAS_Y_DEPENDENCIAS` define transferencia entre estilos y sus niveles; esta unidad no crea una rúbrica paralela.
 - **FUENTE INSTITUCIONAL / TRADICIÓN PROFESIONAL:** Berklee College of Music, `Survey of Drum Styles since the '60s` (PFSS-342), trabaja jazz, rock, funk, fusion, Brazilian, Latin, reggae y otras músicas atendiendo también a influencias entre estilos y aplicación a situaciones reales.
 - **FUENTE INSTITUCIONAL / TRADICIÓN PROFESIONAL:** Berklee Online, `Arranging and Producing Contemporary Music Styles`, estudia influencias estilísticas y propone crear híbridos originales; se usa como apoyo profesional, no como prueba experimental de superioridad pedagógica.
-- **FUENTE COMERCIAL DOCUMENTADA:** Hudson Music, `Groove Essentials`, organiza práctica y play-alongs a través de numerosos estilos. esta unidad no reproduce sus grooves ni partituras.
+- **FUENTE COMERCIAL DOCUMENTADA:** Hudson Music, `Groove Essentials`, organiza práctica y play-alongs a través de numerosos estilos. Esta unidad no reproduce sus grooves ni partituras.
 - **FUENTE COMERCIAL DOCUMENTADA:** John Riley, `The Art of Bop Drumming` (Alfred Music), permanece como recurso específico de jazz ya verificado; no se usa como definición universal de jazz.
 - **DECISIÓN CURRICULAR RAZONADA:** comparar primero función y después realización para entrenar transferencia consciente.
 - **EJERCICIOS:** todo patrón, transformación o híbrido escrito específicamente en esta unidad es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
 
 ## Fronteras
 
-esta unidad no:
+Esta unidad no:
 
 - pretende enseñar por completo rock, funk, jazz, reggae, Brazilian, Afro-Cuban, metal, fusion o progressive;
 - trata una lista de rasgos como definición exhaustiva de un estilo;

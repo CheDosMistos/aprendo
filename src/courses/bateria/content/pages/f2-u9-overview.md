@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Primera vista I: continuidad y recuperación"
 summary: "Introduce forma y lectura de chart con material realmente nuevo, inspección breve, primer intento sin playback y evaluación separada de continuidad, recuperación y precisión."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C3, D5, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 1–Unidad 8 han construido vocabulario suficiente para cambiar la pregunta. Hasta ahora podías analizar, repetir y corregir una línea hasta comprenderla. esta unidad introduce una condición distinta:
+Unidades 1–8 han construido vocabulario suficiente para cambiar la pregunta. Hasta ahora podías analizar, repetir y corregir una línea hasta comprenderla. Esta unidad introduce una condición distinta:
 
 > **PRIMERA VISTA = MATERIAL REALMENTE NUEVO + INSPECCIÓN BREVE + PRIMER INTENTO SIN ENSAYO NI PLAYBACK PREVIO.**
 
@@ -77,7 +77,7 @@ Una única muestra no decide el estado. La evidencia se interpreta con condicion
 
 ## Qué NO añade esta unidad
 
-esta unidad no introduce como foco:
+Esta unidad no introduce como foco:
 
 - símbolos nuevos de lectura;
 - nuevos PAS;
@@ -119,7 +119,7 @@ Estas decisiones **no son una escala de competencia**.
 
 ## MÍNIMO PARA ENTRAR EN esta unidad
 
-lectura de compás y pulso interno/subdivisión binaria y ternaria deben estar suficientemente disponibles **en la tarea concreta** para que la novedad central pueda ser primera vista y no aprender símbolos nuevos. Una fragilidad localizada puede acompañarse de un correctivo; no obliga a rehacer Unidad 1–Unidad 8 completas.
+lectura de compás y pulso interno/subdivisión binaria y ternaria deben estar suficientemente disponibles **en la tarea concreta** para que la novedad central pueda ser primera vista y no aprender símbolos nuevos. Una fragilidad localizada puede acompañarse de un correctivo; no obliga a rehacer Unidades 1–8 completas.
 
 ## Resultado observable de la unidad
 

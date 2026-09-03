@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Charts densos, navegación y decisión"
 summary: "Aprende a extraer prioridades de un chart con más información, preparar con tiempo limitado y conservar continuidad cuando no puedes ejecutar todos los detalles."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [D7, F3, F7, C1, C2, C3, C4, I3, I4, K2, K4]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: leer más sin intentar tocarlo todo
 
-Fase 5 Unidad 2 llevó lectura aplicada al kit a un nivel mínimo mediante charts sencillos y una jerarquía de navegación. esta unidad no repite esa introducción.
+Fase 5 Unidad 2 llevó lectura aplicada al kit a un nivel mínimo mediante charts sencillos y una jerarquía de navegación. Esta unidad no repite esa introducción.
 
 Ahora el problema es otro:
 
@@ -35,7 +35,7 @@ No es una licencia para ignorar figures. Es una estrategia para mantener una eje
 
 ## Material
 
-esta unidad usa **charts y mapas originales de Aprendo** o material externo legalmente accesible y verificado.
+Esta unidad usa **charts y mapas originales de Aprendo** o material externo legalmente accesible y verificado.
 
 No se reconstruyen lead sheets ni charts comerciales protegidos. Los ejemplos originales pueden incluir:
 
@@ -46,7 +46,7 @@ No se reconstruyen lead sheets ni charts comerciales protegidos. Los ejemplos or
 - instrucciones de textura;
 - espacios deliberadamente abiertos a decisión.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Escanear antes de tocar
 Haz una primera lectura orientada a forma, repeticiones, puntos de riesgo y jerarquía de información.

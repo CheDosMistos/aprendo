@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-esta unidad ya ha separado tres capas: **línea rítmica**, **acento/dinámica** y **textura de manos**. Esta lección retira la familiaridad del dibujo anterior y comprueba otra cosa: si puedes **leer una línea nueva de la misma familia, seguir adelante y recuperar el marco tras un error pequeño**.
+Esta unidad ya ha separado tres capas: **línea rítmica**, **acento/dinámica** y **textura de manos**. Esta lección retira la familiaridad del dibujo anterior y comprueba otra cosa: si puedes **leer una línea nueva de la misma familia, seguir adelante y recuperar el marco tras un error pequeño**.
 
 > **UN ERROR LOCAL NO OBLIGA A PERDER EL COMPÁS.**
 
@@ -167,7 +167,7 @@ No se exige:
 - forma y lectura de chart funcional global;
 - aplicación musical de rudimentos funcional;
 - recuperación instantánea tras cualquier error;
-- tresillos, 6/8 o vocabulario de Unidad 5–Unidad 6.
+- tresillos, 6/8 o vocabulario de Unidades 5–6.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
@@ -186,4 +186,4 @@ Como ampliación, realiza una segunda versión expresiva sobre material ya revel
 - **la toma nueva es demasiado densa:** reduce longitud o tempo, no introduzcas otra novedad;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.
 
-El Evaluación de esta unidad utilizará **otra muestra exclusiva**. Esta partitura no se reutilizará como evidencia principal de la puerta de unidad.
+La evaluación de esta unidad utilizará **otra muestra exclusiva**. Esta partitura no se reutilizará como evidencia principal de la puerta de unidad.

@@ -79,4 +79,4 @@ Marca cada afirmación como **sí / parcialmente / todavía no**:
 - 4 min transferencia;
 - 2 min registro.
 
-No necesitas obtener “sí” en todo para abrir el Evaluación; los pendientes deben quedar diagnosticados.
+No necesitas obtener “sí” en todo para abrir la evaluación; los pendientes deben quedar diagnosticados.

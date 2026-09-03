@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa
 
-Este Evaluación no pregunta cuántas combinaciones puedes ejecutar. Evalúa si la independencia **funciona dentro de música**.
+Esta evaluación no pregunta cuántas combinaciones puedes ejecutar. Evalúa si la independencia **funciona dentro de música**.
 
 Criterio aprobado de esta unidad:
 
@@ -87,7 +87,7 @@ Una sola tarea no certifica «independencia avanzada universal».
 
 ## Frontera explícita
 
-Este Evaluación **NO certifica**:
+Esta evaluación **NO certifica**:
 
 - independencia máxima;
 - polirritmia profunda;

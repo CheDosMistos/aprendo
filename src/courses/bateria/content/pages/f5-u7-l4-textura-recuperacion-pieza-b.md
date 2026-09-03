@@ -33,7 +33,7 @@ La reducción puede ser tan simple como conservar una sola capa o dejar un silen
 
 ## Modo repertorio — Pieza B
 
-Pieza B nació en Unidad 4 como **shuffle y ruta predominantemente auditiva**. esta unidad la continúa como repertorio, pero no reescribe su identidad.
+Pieza B nació en Unidad 4 como **shuffle y ruta predominantemente auditiva**. Esta unidad la continúa como repertorio, pero no reescribe su identidad.
 
 > **NO CONVIERTAS PIEZA B EN REGGAE.**
 
@@ -62,4 +62,4 @@ Puedes ejecutar un modelo reggae básico sin perder forma, reducir textura y vol
 
 ## Frontera
 
-esta unidad no certifica reggae “dominado”, no exige todas las variantes de hi-hat, no añade un Evaluación global y no usa BPM como puerta.
+Esta unidad no certifica reggae “dominado”, no exige todas las variantes de hi-hat, no añade un Evaluación global y no usa BPM como puerta.

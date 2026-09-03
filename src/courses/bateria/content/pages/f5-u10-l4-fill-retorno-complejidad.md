@@ -67,7 +67,7 @@ No sumes las casillas en una nota única. El objetivo es descubrir **qué dimens
 
 ## Criterio musical
 
-Rod Morgenstein describe la exploración de firmas impares y manipulación rítmica como una forma de “empujar el límite”, pero subraya que para la mayor parte del trabajo musical sigue siendo más importante ser fiable y sostener grooves básicos. esta unidad adopta exactamente esa jerarquía: la rareza sólo vale si la referencia musical sobrevive.
+Rod Morgenstein describe la exploración de firmas impares y manipulación rítmica como una forma de “empujar el límite”, pero subraya que para la mayor parte del trabajo musical sigue siendo más importante ser fiable y sostener grooves básicos. Esta unidad adopta exactamente esa jerarquía: la rareza sólo vale si la referencia musical sobrevive.
 
 Fuente: [Berklee — Rod Morgenstein](https://www.berklee.edu/people/rod-morgenstein).
 

@@ -60,7 +60,7 @@ Prioridad:
 
 `TIEMPO → FORMA → ENTRADA → DETALLE`.
 
-esta unidad sólo prepara lectura aplicada al kit; todavía no certifica navegación funcional de charts.
+Esta unidad sólo prepara lectura aplicada al kit; todavía no certifica navegación funcional de charts.
 
 ## Paso 4 — recuperar después de perder la cuenta
 

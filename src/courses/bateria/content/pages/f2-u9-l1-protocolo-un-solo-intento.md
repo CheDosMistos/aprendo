@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-esta unidad empieza cambiando **las condiciones de la tarea**, no el vocabulario escrito.
+Esta unidad empieza cambiando **las condiciones de la tarea**, no el vocabulario escrito.
 
 > **UNA MUESTRA forma y lectura de chart DEJA DE SER PRIMERA VISTA EN CUANTO LA PRACTICAS.**
 

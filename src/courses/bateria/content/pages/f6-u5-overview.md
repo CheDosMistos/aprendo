@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Vocabulario aplicado e improvisación estilística"
 summary: "Aprende a elegir, limitar, variar y revisar vocabulario según una función musical y unas restricciones estilísticas, conservando pulso, forma e intención."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [G1, G2, G3, I2, H5, H6, F3, F7, C2, B7, B8]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: elegir antes de tocar más
 
-Hasta aquí has construido vocabulario, control temporal, escucha, lectura, coordinación e independencia funcional. esta unidad cambia el centro de gravedad: **la dificultad ya no consiste principalmente en poder ejecutar una idea, sino en decidir si esa idea pertenece a la música que estás construyendo**.
+Hasta aquí has construido vocabulario, control temporal, escucha, lectura, coordinación e independencia funcional. Esta unidad cambia el centro de gravedad: **la dificultad ya no consiste principalmente en poder ejecutar una idea, sino en decidir si esa idea pertenece a la música que estás construyendo**.
 
 La espiral de esta unidad es:
 
@@ -53,11 +53,11 @@ David Garibaldi y Tower of Power se usan como **referencia documentada de escuch
 
 Usaremos este contexto para estudiar especialmente **continuidad, espacio, frase, interacción implícita con la forma y selección de respuestas**.
 
-*The Art of Bop Drumming*, de John Riley, se cita como **recurso comercial de ampliación** por su trabajo sobre time playing, comping, soloing, brushes, lectura de charts y fundamentos del lenguaje jazz. esta unidad no reproduce sus ejercicios.
+*The Art of Bop Drumming*, de John Riley, se cita como **recurso comercial de ampliación** por su trabajo sobre time playing, comping, soloing, brushes, lectura de charts y fundamentos del lenguaje jazz. Esta unidad no reproduce sus ejercicios.
 
 Estos dos laboratorios **no son cursos completos de funk ni de jazz**, ni representan por sí solos la diversidad de esas tradiciones.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — De la restricción a la elección
 Define qué debe permanecer estable, qué puede variar y qué vocabulario queda deliberadamente fuera.

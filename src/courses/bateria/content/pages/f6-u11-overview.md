@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Proyecto autónomo Proyecto autónomo: diagnosticar, planificar, aprender y revisar"
 summary: "Convierte autonomía en un proceso sostenido y documentado: el alumno selecciona un proyecto adecuado, diseña parte del procedimiento, usa evidencia para cambiar el plan y demuestra transferencia sin confundir autonomía con ausencia de guía."
-duration: 5 lecciones + checkpoint; proyecto multisesión flexible
+duration: 5 lecciones + Evaluación; proyecto multisesión flexible
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad desarrolla la función superior aprobada para **Proyecto autónomo — Proyecto autónomo**.
+Esta unidad desarrolla la función superior aprobada para **Proyecto autónomo — Proyecto autónomo**.
 
 La autonomía aquí no significa practicar sin ayuda ni inventar un método personal desde cero. Significa asumir una parte creciente de las decisiones dentro de un marco con límites, recursos legales y criterios de éxito claros.
 
@@ -67,7 +67,7 @@ La fuente de Fase 6 fija para esta unidad:
 - grabaciones intermedias cuando aporten evidencia;
 - revisión del plan cuando la evidencia contradiga la estrategia inicial.
 
-esta unidad conserva ese contrato y no adelanta el cierre global de Unidad 12.
+Esta unidad conserva ese contrato y no adelanta el cierre global de Unidad 12.
 
 ## Investigación que sustenta el diseño
 
@@ -91,7 +91,7 @@ Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.7
 
 ### ESTÁNDAR DEL PROYECTO
 
-esta unidad no vuelve a investigar desde cero práctica bloqueada, interleaving, feedback, grabación, recuperación o transferencia. Esas herramientas ya están documentadas en el curso. La novedad es **seleccionarlas y revisarlas dentro de un proyecto sostenido**.
+Esta unidad no vuelve a investigar desde cero práctica bloqueada, interleaving, feedback, grabación, recuperación o transferencia. Esas herramientas ya están documentadas en el curso. La novedad es **seleccionarlas y revisarlas dentro de un proyecto sostenido**.
 
 ## Material del proyecto
 
@@ -132,7 +132,7 @@ Este contrato no es una predicción de todo el proyecto. Es la **primera hipóte
 
 ## Modos de trabajo disponibles
 
-esta unidad conserva los modos aprobados:
+Esta unidad conserva los modos aprobados:
 
 `ADQUISICIÓN ↔ ESTABILIZACIÓN → RECUPERACIÓN → TRANSFERENCIA → MANTENIMIENTO`
 
@@ -165,13 +165,13 @@ No se exige documentar cada repetición ni convertir la práctica en burocracia.
 
 ## Reconciliación de nomenclatura
 
-La arquitectura superior redactada antes del desarrollo detallado asociaba el nombre «Evaluación» a esta unidad. Durante la implementación posterior, Unidad 9 y Unidad 10 ya publicaron respectivamente **evaluación final** y **evaluación final**. Para no renombrar retroactivamente checkpoints publicados, esta unidad continúa como **evaluación final**.
+La arquitectura superior redactada antes del desarrollo detallado asociaba el nombre «Evaluación» a esta unidad. Durante la implementación posterior, Unidad 9 y Unidad 10 ya publicaron respectivamente **evaluación final** y **evaluación final**. Para no renombrar retroactivamente evaluaciones publicados, esta unidad continúa como **evaluación final**.
 
 Esto modifica únicamente la etiqueta secuencial, **no la función curricular de esta unidad**.
 
 ## Fronteras
 
-esta unidad:
+Esta unidad:
 
 - no repite Unidad 9 como otra colección de estrategias de práctica;
 - no exige diseñar un proyecto totalmente sin guía;

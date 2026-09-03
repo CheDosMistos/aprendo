@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Repertorio C y simulación de sesión"
 summary: "Integra escucha, chart, memoria, análisis y grabación sobre una pieza original de dificultad adecuada, y aprende a responder cuando la información es incompleta."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [I3, I4, D7, D5, H5, H6, H7, H8, K2, K5, K6, F3]
 rudiments: []
 published: true
@@ -17,13 +17,13 @@ published: true
 
 ## Novedad dominante: aprender con varias fuentes y con información parcial
 
-Hasta ahora cada unidad ha aislado una prioridad. esta unidad cambia la pregunta:
+Hasta ahora cada unidad ha aislado una prioridad. Esta unidad cambia la pregunta:
 
 > **¿PUEDES APRENDER Y SOSTENER UNA PIEZA CUANDO NINGUNA FUENTE TE LO DA TODO?**
 
 La habilidad central es **aprendizaje de repertorio**: combinar escucha, lectura, memoria y análisis sin depender de una sola vía.
 
-esta unidad no adelanta todavía el Hito 7 de autonomía completa. La tarea está preparada y los límites son claros.
+Esta unidad no adelanta todavía el Hito 7 de autonomía completa. La tarea está preparada y los límites son claros.
 
 ## Pieza C — material original Aprendo
 
@@ -56,7 +56,7 @@ Pieza C se aprende desde cuatro perspectivas complementarias:
 
 El objetivo es que cada fuente responda una pregunta diferente.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Pieza C: procedencia, forma y primer mapa
 Escucha antes de mirar el detalle, formula una hipótesis de forma y contrástala después con el chart original.

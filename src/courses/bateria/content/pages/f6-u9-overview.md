@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Autonomía aplicada: diagnosticar, elegir estrategia y verificar"
 summary: "Convierte el ciclo de práctica ya conocido en decisiones propias: identifica una necesidad, elige una estrategia y un recurso con criterio, comprueba el resultado y ajusta sin confundir autonomía con practicar sin ayuda."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [K8, K1, K2, K3, K4, K5, K6, K7, I3, E6, F7, C1, C2, H5]
 rudiments: []
 published: true
@@ -17,9 +17,9 @@ published: true
 
 ## Novedad dominante: elegir con criterio, no practicar sin guía
 
-Unidad 1 abrió la Fase 6 enseñando a observar una ejecución, formular un problema, proponer una prueba y registrar una línea base. Desde entonces Unidad 2–Unidad 8 han aplicado ese proceso a transcripción, charts, independencia, improvisación, interacción, transferencia estilística y feel.
+Unidad 1 abrió la Fase 6 enseñando a observar una ejecución, formular un problema, proponer una prueba y registrar una línea base. Desde entonces Unidades 2–8 han aplicado ese proceso a transcripción, charts, independencia, improvisación, interacción, transferencia estilística y feel.
 
-esta unidad **no vuelve a enseñar desde cero objetivos, diagnóstico, grabación o planificación**. La pregunta nueva es:
+Esta unidad **no vuelve a enseñar desde cero objetivos, diagnóstico, grabación o planificación**. La pregunta nueva es:
 
 > **ANTE UN PROBLEMA REAL, ¿PUEDO ELEGIR ENTRE VARIAS ESTRATEGIAS Y RECURSOS, EXPLICAR POR QUÉ ELIJO UNO, COMPROBAR QUÉ OCURRIÓ Y DECIDIR QUÉ HACER DESPUÉS?**
 
@@ -29,7 +29,7 @@ El mapa superior define Autonomía de aprendizaje:
 - **COMPETENTE / FUNCIONAL:** selecciona estrategias y recursos con criterio dentro del currículo;
 - **AVANZADO:** escucha/lee/analiza una necesidad, diseña práctica, verifica resultado y transfiere la solución.
 
-esta unidad tiene como objetivo dominante producir **evidencia de autonomía FUNCIONAL**. No exige autonomía AVANZADO ni declara el Hito 7.
+Esta unidad tiene como objetivo dominante producir **evidencia de autonomía FUNCIONAL**. No exige autonomía AVANZADO ni declara el Hito 7.
 
 Dependencia superior: `autonomía ← gestión de carga y salud`.
 
@@ -78,7 +78,7 @@ Por eso esta unidad separa:
 
 No toda tarea necesita las tres pruebas en la misma lección. La elección depende de qué se intenta afirmar.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Del síntoma a la estrategia: decidir antes de repetir
 Construye dos o más hipótesis plausibles, compara estrategias posibles y elige una porque responde al problema, no por costumbre.
@@ -99,7 +99,7 @@ Ante una tarea de dificultad adecuada, selecciona estrategia y recurso con crite
 
 Unidad 1 abrió **Proyecto autónomo — Proyecto autónomo** como carril del portafolio. En esta unidad ese carril deja de ser sólo una idea: se realiza un **microciclo acotado de autonomía aplicada**.
 
-No es todavía el proyecto sostenido de Unidad 10. esta unidad trabaja un problema pequeño para que el proceso pueda observarse con claridad; Unidad 10 utilizará estas decisiones dentro de una integración más larga de chart, interacción y adaptación.
+No es todavía el proyecto sostenido de Unidad 10. Esta unidad trabaja un problema pequeño para que el proceso pueda observarse con claridad; Unidad 10 utilizará estas decisiones dentro de una integración más larga de chart, interacción y adaptación.
 
 ## Fuentes y estatus
 
@@ -116,7 +116,7 @@ No es todavía el proyecto sostenido de Unidad 10. esta unidad trabaja un proble
 
 ## Fronteras
 
-esta unidad no:
+Esta unidad no:
 
 - reenseña Unidad 1 como una introducción genérica a «cómo practicar»;
 - afirma que interleaving, espaciado, grabación, práctica lenta o retirada de ayuda sean siempre mejores;

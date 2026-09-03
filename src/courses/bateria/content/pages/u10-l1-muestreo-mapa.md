@@ -27,7 +27,7 @@ Formula una prioridad observable:
 
 `LO OBSERVARÉ MEDIANTE: __________`
 
-Comprueba postura, respiración, hombros y agarre. esta unidad evalúa control; no premia tensión por intentar “salvar” una prueba.
+Comprueba postura, respiración, hombros y agarre. Esta unidad evalúa control; no premia tensión por intentar “salvar” una prueba.
 
 ## 2. Muestreo frío por familias — 12 min
 

@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Función del Evaluación
+## Función de la evaluación
 
 Unidad 8 fijará decisiones en una composición. Antes necesitamos comprobar que puedes **generar y sostener decisiones en tiempo real** bajo una consigna clara.
 
@@ -27,7 +27,7 @@ No necesitas una improvisación abierta, larga ni “original excepcionalmente�
 
 ## Prompt nuevo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-Este motivo no apareció en Lección 1–Lección 5.
+Este motivo no apareció en Lecciones 1–5.
 
 <div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-cp-prompt.musicxml" data-score-title="Unidad 7.evaluación — prompt nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 

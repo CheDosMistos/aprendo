@@ -77,9 +77,9 @@ Esto es un **puente**, no una declaración de que forma y frase/dinámica y acen
 
 5/4, 7/8, quintillos, 3:2 y otras ventanas seguirán creciendo después sin convertirse aquí en requisito del cierre.
 
-## 5. Preparar el Evaluación
+## 5. Preparar la evaluación
 
-Las muestras C y D del Evaluación **no aparecen en esta lección** y no deben buscarse ni escucharse antes del intento.
+Las muestras C y D de la evaluación **no aparecen en esta lección** y no deben buscarse ni escucharse antes del intento.
 
 Llega al Evaluación con una prioridad simple: producir evidencia válida, no «demostrar que ya sabes todo».
 

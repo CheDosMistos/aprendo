@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
-esta unidad no pide una nueva demostración de virtuosismo ni una segunda certificación del Hito 6.
+Esta unidad no pide una nueva demostración de virtuosismo ni una segunda certificación del Hito 6.
 
 Evalúa si ya puedes comenzar Fase 6 con un proceso de aprendizaje **observable y revisable**.
 
@@ -126,7 +126,7 @@ Si el núcleo ya es estable, puedes comprobar una transferencia pequeña:
 - retirar una ayuda y observar qué cambia;
 - recuperar la tarea en otra sesión sin preparación específica extensa.
 
-No añadas complejidad sólo para hacer el Evaluación más difícil.
+No añadas complejidad sólo para hacer la evaluación más difícil.
 
 ## Cuatro decisiones posibles
 
@@ -148,7 +148,7 @@ Fatiga física/auditiva, dificultad excesiva o demasiadas variables simultáneas
 
 ## Frontera explícita
 
-Este Evaluación **NO certifica**:
+Esta evaluación **NO certifica**:
 
 - Hito 7 — Aprendiz autónomo;
 - autonomía FUNCIONAL en contextos variados;

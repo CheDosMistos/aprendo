@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Función del Evaluación
+## Función de la evaluación
 
-Este Evaluación comprueba si agrupaciones dentro de 4/4 ha pasado de una ventana conocida a una capacidad **funcional**.
+Esta evaluación comprueba si agrupaciones dentro de 4/4 ha pasado de una ventana conocida a una capacidad **funcional**.
 
 No busca una ejecución perfecta ni una colección grande de patrones.
 

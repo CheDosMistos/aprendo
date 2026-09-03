@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Compás compuesto I: 6/8"
 summary: "Introduce 6/8 como organización métrica compuesta prototípica de dos pulsos principales, cada uno subdividido ternariamente, separándolo de 3/4 y de los tresillos dentro de 4/4."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, D1, D3, D4, E1, E2, E5, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 5 dejó disponible una idea decisiva: un pulso puede contener **tres partes iguales** sin dejar de ser un único pulso. esta unidad cambia ahora el marco: esas tres partes dejan de ser un *tuplet* ocasional dentro de 4/4 y pasan a formar parte de la **organización métrica ordinaria** de un compás compuesto.
+Unidad 5 dejó disponible una idea decisiva: un pulso puede contener **tres partes iguales** sin dejar de ser un único pulso. Esta unidad cambia ahora el marco: esas tres partes dejan de ser un *tuplet* ocasional dentro de 4/4 y pasan a formar parte de la **organización métrica ordinaria** de un compás compuesto.
 
 > **6/8, EN EL CASO PROTOTÍPICO DE ESTA UNIDAD, SE SIENTE COMO 2 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 
@@ -23,7 +23,7 @@ No vamos a enseñar 6/8 por defecto como seis pulsos equivalentes. Las seis corc
 
 ## Qué debe estar disponible
 
-esta unidad presupone:
+Esta unidad presupone:
 
 - pulso interno suficientemente estable para conservar una referencia temporal principal;
 - subdivisión binaria y ternaria ternaria disponible a una condición cómoda;
@@ -60,7 +60,7 @@ El objetivo no es memorizar una definición verbal. lectura de compás/métrica 
 
 ## Fronteras con Unidad 7 y unidades posteriores
 
-esta unidad convierte 6/8 en una métrica funcional elemental, pero **no convierte en foco**:
+Esta unidad convierte 6/8 en una métrica funcional elemental, pero **no convierte en foco**:
 
 - 9/8 y 12/8 — Unidad 7;
 - sextillos y ornamentación escrita como vocabulario central — Unidad 8;

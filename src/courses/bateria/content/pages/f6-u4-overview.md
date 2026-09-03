@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Independencia funcional avanzada: capas con propósito"
 summary: "Profundiza independencia avanzada sólo después de comprobar puerta de entrada y usa la independencia para resolver funciones musicales concretas, no para acumular combinaciones abstractas."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H7, H4, C2, H5, G2, B7, B8]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: independencia que sirve a la música
 
-En Fase 5 ya apareció una primera independencia contextual: mantener una capa sencilla mientras otra variaba. esta unidad aumenta la separación funcional entre capas, pero sólo si la **la puerta de entrada de la fase** está abierta.
+En Fase 5 ya apareció una primera independencia contextual: mantener una capa sencilla mientras otra variaba. Esta unidad aumenta la separación funcional entre capas, pero sólo si la **la puerta de entrada de la fase** está abierta.
 
 La pregunta central es:
 
@@ -35,7 +35,7 @@ Antes de entrar en la ruta principal comprueba:
 
 Si puerta de entrada no está abierta, esta unidad ofrece una **ruta de consolidación**: estabilizar la capa base, reducir la voz variable y volver a comprobar. No se fuerza una capa avanzada por calendario.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Verificar puerta de entrada y localizar el cuello de botella
 Separa problema temporal, motor, atencional y de representación antes de elegir ejercicio.
@@ -56,7 +56,7 @@ Demuestra una capa estable y otra variable dentro de una tarea musical adecuada,
 
 Dahlgren & Fine, Dawson/Ramsay, Chapin y *The New Breed* permanecen como **herramientas selectivas** registradas en la Biblioteca Maestra.
 
-esta unidad no reproduce ejercicios protegidos ni obliga a completar ningún método. Si una tarea futura remite a un método, debe explicar:
+Esta unidad no reproduce ejercicios protegidos ni obliga a completar ningún método. Si una tarea futura remite a un método, debe explicar:
 
 `FUNCIÓN MUSICAL → CUELLO DE BOTELLA → COMPETENCIA → SECCIÓN/IDEA ADECUADA → RETEST EN MÚSICA`
 

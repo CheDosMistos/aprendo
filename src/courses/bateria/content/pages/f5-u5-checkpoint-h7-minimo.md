@@ -17,7 +17,7 @@ published: true
 
 ## Qué certifica
 
-Este Evaluación puede certificar:
+Esta evaluación puede certificar:
 
 > **independencia avanzada MÍNIMO: mantiene un ostinato simple mientras otra voz varía en una tarea musical concreta.**
 

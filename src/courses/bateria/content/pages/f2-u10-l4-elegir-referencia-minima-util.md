@@ -54,4 +54,4 @@ Trabajar con referencia menos explícita puede aportar evidencia inicial de clic
 
 ## Puente al Evaluación
 
-Elige una condición reducida que produzca una muestra interpretable. El Evaluación comparará esa condición con referencia completa, no buscará el modo más difícil disponible.
+Elige una condición reducida que produzca una muestra interpretable. La evaluación comparará esa condición con referencia completa, no buscará el modo más difícil disponible.

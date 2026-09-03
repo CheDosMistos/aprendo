@@ -69,6 +69,6 @@ Completa estas decisiones:
 
 ## Criterio de avance
 
-El cierre curricular de Fase 1 se decide en el Evaluación: mapa PAS completo basado en evidencia, con los 40 al menos `CONOCIDOS` **o** los pocos pendientes claramente identificados y diagnosticados para refuerzo.
+El cierre curricular de Fase 1 se decide en la evaluación: mapa PAS completo basado en evidencia, con los 40 al menos `CONOCIDOS` **o** los pocos pendientes claramente identificados y diagnosticados para refuerzo.
 
 Las debilidades de lectura, cambios de subdivisión o hábitos K se documentan y continúan en Fase 2; no prolongan automáticamente Fase 1 por sí solas.

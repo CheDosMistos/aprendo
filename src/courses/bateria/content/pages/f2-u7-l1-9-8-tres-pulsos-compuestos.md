@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Unidad 6 dejó una estructura estable de referencia: `6/8 = 2×3` en el caso prototípico trabajado. esta unidad.Lección 1 no cambia la lógica interna del pulso compuesto. Añade **un tercer pulso principal**.
+Unidad 6 dejó una estructura estable de referencia: `6/8 = 2×3` en el caso prototípico trabajado. Esta unidad.Lección 1 no cambia la lógica interna del pulso compuesto. Añade **un tercer pulso principal**.
 
 > **9/8 PROTOTÍPICO = 3 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 

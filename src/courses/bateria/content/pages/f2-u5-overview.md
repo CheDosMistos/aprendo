@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Lenguaje ternario y cambios de subdivisión"
 summary: "Reorganiza un pulso estable en dos, tres y cuatro partes, introduciendo el tresillo en 4/4 y separando cambio de subdivisión, cambio de tempo y compás compuesto."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C3, D1, D2, D3, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 4 dejó una lectura binaria más flexible, con síncopa, acento y recuperación. esta unidad cambia por primera vez de manera central **la organización interna del pulso**: el pulso sigue siendo la referencia mientras su interior puede dividirse en dos, tres o cuatro partes iguales.
+Unidad 4 dejó una lectura binaria más flexible, con síncopa, acento y recuperación. Esta unidad cambia por primera vez de manera central **la organización interna del pulso**: el pulso sigue siendo la referencia mientras su interior puede dividirse en dos, tres o cuatro partes iguales.
 
 > **EL PULSO CONTINÚA; LO QUE CAMBIA ES CÓMO ORGANIZAS SU INTERIOR.**
 
@@ -23,7 +23,7 @@ La unidad no trata las figuras como dibujos intercambiables. La tarea es percept
 
 ## Qué debe estar disponible
 
-esta unidad presupone:
+Esta unidad presupone:
 
 - pulso interno suficientemente estable para sostener un pulso mientras cambia la densidad interna;
 - subdivisión binaria subdivisión binaria y ternaria disponible a una condición cómoda;
@@ -61,7 +61,7 @@ El oído no se reduce a acertar una etiqueta. Cuando algo falle, interesa distin
 
 ## Fronteras con Unidad 6 y unidades posteriores
 
-esta unidad introduce tresillos y cambios 2↔3↔4 lentos y conscientes, pero **no convierte en foco**:
+Esta unidad introduce tresillos y cambios 2↔3↔4 lentos y conscientes, pero **no convierte en foco**:
 
 - 6/8 como organización métrica compuesta — Unidad 6;
 - 9/8 y 12/8 — Unidad 7;

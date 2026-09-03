@@ -61,7 +61,7 @@ Después de la primera escucha se habilitan cuatro bloques. Úsalos de forma sel
 
 ## 2 / 4 / 8 / 16 como expectativa
 
-Las regularidades frecuentes sirven para anticipar y formular hipótesis. esta unidad exige dos pasos:
+Las regularidades frecuentes sirven para anticipar y formular hipótesis. Esta unidad exige dos pasos:
 
 `EXPECTATIVA → COMPROBACIÓN AUDITIVA`
 

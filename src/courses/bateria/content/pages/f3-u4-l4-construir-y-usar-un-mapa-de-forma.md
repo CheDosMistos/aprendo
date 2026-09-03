@@ -92,4 +92,4 @@ Construyes un mapa básico coherente, reconoces al menos una repetición/variaci
 
 ## AVANZADO
 
-Crear un mapa alternativo razonado o trabajar una fuente con límites menos evidentes. No se exige para el Evaluación.
+Crear un mapa alternativo razonado o trabajar una fuente con límites menos evidentes. No se exige para la evaluación.

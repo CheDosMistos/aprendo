@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Interacción: bajo, cues, dinámica y arreglo"
 summary: "Entrena a escuchar información externa, interpretar su función y modificar tu ejecución sin perder tiempo ni forma, distinguiendo simulación de interacción interpersonal real."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [I6, E5, F6, F7, H5, H6, C1, C2, G2, G3]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: cambiar porque la música cambió
 
-Unidad 5 entrenó elección e improvisación bajo restricciones. esta unidad añade una condición nueva: **parte de la información que decide tu siguiente acción ya no procede de ti**.
+Unidad 5 entrenó elección e improvisación bajo restricciones. Esta unidad añade una condición nueva: **parte de la información que decide tu siguiente acción ya no procede de ti**.
 
 La transformación central es:
 
@@ -33,7 +33,7 @@ La relación bajo–batería puede incluir coincidencia, complementariedad, espa
 
 ## Cues: señal no equivale todavía a respuesta
 
-esta unidad separa cinco pasos:
+Esta unidad separa cinco pasos:
 
 `DETECTAR → COMPRENDER FUNCIÓN → DECIDIR → RESPONDER → CONTINUAR LA FORMA`
 
@@ -53,7 +53,7 @@ Por eso distinguimos:
 
 **ESTÁNDAR DEL PROYECTO:** una pista fija puede certificar interacción y ensemble MÍNIMO robusto y componentes funcionales observables, pero **no interacción interpersonal completa**.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Escucha jerárquica: bajo, forma y función
 Separa pulso/subdivisión, línea de bajo, forma y eventos relevantes; decide cuándo coincidir, complementar, mantener o dejar espacio.
@@ -109,7 +109,7 @@ Referencia: **25–30 min, 3–4 días por semana**.
 
 ## Fronteras
 
-esta unidad no:
+Esta unidad no:
 
 - convierte interacción en otra unidad de lectura de charts;
 - enseña un catálogo de fills;

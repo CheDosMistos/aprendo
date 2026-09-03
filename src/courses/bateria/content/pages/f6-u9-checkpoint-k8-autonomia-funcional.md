@@ -57,7 +57,7 @@ El nivel superior MÍNIMO sigue siendo:
 
 > **Puede seguir una lección y reconocer qué necesita repasar.**
 
-esta unidad presupone que esta base ya existe desde etapas anteriores. Si todavía falla, no tiene sentido exigir selección autónoma de estrategias complejas: vuelve a una tarea guiada y localiza qué parte del proceso falta.
+Esta unidad presupone que esta base ya existe desde etapas anteriores. Si todavía falla, no tiene sentido exigir selección autónoma de estrategias complejas: vuelve a una tarea guiada y localiza qué parte del proceso falta.
 
 ## COMPETENTE / FUNCIONAL — objetivo de esta unidad
 
@@ -80,7 +80,7 @@ El nivel superior AVANZADO exige:
 
 > **Escucha/lee/analiza una necesidad, diseña práctica, verifica resultado y transfiere la solución.**
 
-esta unidad puede rozar partes de ese ciclo, pero **no exige ni certifica autonomía AVANZADO global**. La integración sostenida y la convergencia con transcripción real/análisis musical continúan después.
+Esta unidad puede rozar partes de ese ciclo, pero **no exige ni certifica autonomía AVANZADO global**. La integración sostenida y la convergencia con transcripción real/análisis musical continúan después.
 
 ## Dimensiones de observación
 
@@ -103,7 +103,7 @@ Usa sólo las relevantes a la tarea:
 
 **No se promedian estas dimensiones como nota numérica.**
 
-## Validez del Evaluación
+## Validez de la evaluación
 
 Una evidencia fuerte no necesita ser larga; necesita responder a la inferencia correcta.
 
@@ -143,6 +143,6 @@ Evaluación:
 
 ## Procedencia
 
-Todos los protocolos de este Evaluación son **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**. No reproducen ejercicios de métodos comerciales ni transcripciones protegidas.
+Todos los protocolos de esta evaluación son **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**. No reproducen ejercicios de métodos comerciales ni transcripciones protegidas.
 
 > **autonomía FUNCIONAL NO SIGNIFICA PRACTICAR SOLO: SIGNIFICA PODER ELEGIR Y REVISAR TU ESTRATEGIA CON CRITERIO.**

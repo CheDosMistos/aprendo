@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: retencion-recuperacion-material-anterior
 kind: lesson
 order: 2
-title: "esta unidad.Lección 2 — Retención: recuperar material anterior sin enmascarar la prueba"
+title: "Esta unidad.Lección 2 — Retención: recuperar material anterior sin enmascarar la prueba"
 summary: "Comprueba qué reaparece tras separación sin reconstruir justo antes la tarea objetivo, distinguiendo activación segura, rendimiento preparado y recuperación realmente informativa."
 duration: 1–2 sesiones
 competencies: [K4, K5, K6, K8, I3, I4, C7, D7, H7]
@@ -25,7 +25,7 @@ La pregunta es:
 
 ## Calentamiento físico ≠ ensayo específico
 
-esta unidad no pide tocar físicamente en frío.
+Esta unidad no pide tocar físicamente en frío.
 
 Puedes hacer una activación segura de:
 

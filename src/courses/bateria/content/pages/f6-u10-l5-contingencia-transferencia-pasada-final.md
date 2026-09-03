@@ -100,7 +100,7 @@ Durante la pasada:
 
 ## Transferencia estilística controlada
 
-Unidad 7 ya desarrolló transferencia entre estilos. esta unidad no abre otro laboratorio de estilos.
+Unidad 7 ya desarrolló transferencia entre estilos. Esta unidad no abre otro laboratorio de estilos.
 
 Para la pasada final puedes cambiar **una condición estilística pertinente** si el proyecto base está estable.
 
@@ -138,7 +138,7 @@ No necesitas reproducir exactamente todas las condiciones si la transferencia el
 
 ## Criterio de salida
 
-Estás listo para el Evaluación cuando puedes presentar al menos:
+Estás listo para la evaluación cuando puedes presentar al menos:
 
 - una pasada base;
 - una pasada con adaptación externa;

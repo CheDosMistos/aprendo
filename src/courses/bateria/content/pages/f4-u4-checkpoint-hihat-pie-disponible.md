@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este Evaluación
+## Qué demuestra esta evaluación
 
 Comprueba si el hi-hat de pie está disponible a nivel **hi-hat de pie MÍNIMO**.
 

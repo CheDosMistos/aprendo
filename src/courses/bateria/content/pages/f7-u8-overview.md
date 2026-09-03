@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Modulación métrica"
 summary: "Profundiza modulación métrica: conservar una duración puente y reinterpretarla como parte de una nueva unidad de pulso, de modo que el nuevo tempo sea consecuencia calculable de la relación anterior y no un cambio arbitrario de BPM."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J8, J4, C1, C2, C3, C4, D3, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad profundiza **modulación métrica**.
+Esta unidad profundiza **modulación métrica**.
 
 el recorrido del curso fija:
 
@@ -63,13 +63,13 @@ Unidad 4 preguntaba:
 
 > “¿puedo cambiar la densidad sin mover el pulso?”
 
-esta unidad pregunta:
+Esta unidad pregunta:
 
 > “¿puedo usar una densidad como puente para mover el pulso de forma exactamente determinada?”
 
 ## Prerrequisitos
 
-el curso $1:
+El curso $1:
 
 - **R:** subdivisión disponible;
 - **R:** experiencia suficiente con tuplets de 5/7 y cambios de densidad;
@@ -145,7 +145,7 @@ Con `120 BPM`:
 
 `120 × 5/4 = 150 BPM`
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — Qué cambia realmente:** definición, duración puente y contraste con cambio de tempo/subdivisión.
 2. **Lección 2 — Del tresillo al nuevo pulso:** `3:2`, de negra 120 a negra 180, con continuidad audible.
@@ -199,7 +199,7 @@ https://www.alfred.com/products/patterns-in-spanish-patrones-de-ritmo-y-compass-
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando puedes:
+Esta unidad cumple su función cuando puedes:
 
 1. definir modulación métrica con tus palabras;
 2. identificar la duración que se conserva;

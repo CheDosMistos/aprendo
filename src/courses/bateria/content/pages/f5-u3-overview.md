@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: blues y shuffle / groove y variaciones en familia de backbeat
 
-esta unidad abre la primera familia estilística focal de Fase 5.
+Esta unidad abre la primera familia estilística focal de Fase 5.
 
 > **ESTILO ≠ PATRÓN.**
 
@@ -61,7 +61,7 @@ Trabajamos continuidad, economía de movimiento y función del backbeat. Punk **
 ### AMPLIACIÓN — ventana metal
 Sólo articulación/energía sobre material conocido. **No exige doble pedal, blast beat ni patrones rápidos de bombo.**
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Backbeat y rejilla de corcheas
 Construir el groove CORE por capas y sostenerlo sin fills.

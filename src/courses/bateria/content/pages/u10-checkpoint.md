@@ -31,7 +31,7 @@ No se exige comprobar los 40 en una sola sesión.
 
 ## Cobertura de los 40 PAS
 
-Comprueba que tu mapa contiene evidencia para los rudimentos introducidos en Unidad 1–Unidad 9. Si un registro es antiguo o dudoso, muestrea ese rudimento de nuevo; si la evidencia sigue siendo representativa, no repitas por obligación.
+Comprueba que tu mapa contiene evidencia para los rudimentos introducidos en Unidades 1–9. Si un registro es antiguo o dudoso, muestrea ese rudimento de nuevo; si la evidencia sigue siendo representativa, no repitas por obligación.
 
 Para cada PAS registra por separado:
 
@@ -74,7 +74,7 @@ Documenta el estado real de:
 
 Una debilidad aislada en lectura, cambios de subdivisión o hábitos K **no prolonga automáticamente Fase 1**: estos ejes continúan desarrollándose en Fase 2.
 
-Completar este Evaluación no demuestra automáticamente todas las competencias listadas en su frontmatter. Solo cambia evidencia cuando una tarea o registro realmente la observa.
+Completar esta evaluación no demuestra automáticamente todas las competencias listadas en su frontmatter. Solo cambia evidencia cuando una tarea o registro realmente la observa.
 
 ## Qué NO decide el cierre
 

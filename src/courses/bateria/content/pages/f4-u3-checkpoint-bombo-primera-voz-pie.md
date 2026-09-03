@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este Evaluación
+## Qué demuestra esta evaluación
 
 El objetivo es comprobar si el bombo está **disponible como primera voz de pie** a nivel bombo MÍNIMO.
 
@@ -60,7 +60,7 @@ Debe poder demostrarse razonablemente que:
 
 ## LO QUE NO CERTIFICA
 
-Este Evaluación **no demuestra automáticamente**:
+Esta evaluación **no demuestra automáticamente**:
 
 - hi-hat de pie;
 - coordinación básica de cuatro extremidades;

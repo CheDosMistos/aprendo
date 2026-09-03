@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Hasta aquí el curso ha trabajado el interior del pulso principalmente con organización binaria. esta unidad abre otra posibilidad: **repartir el mismo pulso en tres partes iguales**.
+Hasta aquí el curso ha trabajado el interior del pulso principalmente con organización binaria. Esta unidad abre otra posibilidad: **repartir el mismo pulso en tres partes iguales**.
 
 > **TRES NOTAS DENTRO DEL PULSO NO SON TRES PULSOS.**
 

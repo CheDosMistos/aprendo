@@ -17,7 +17,7 @@ published: true
 
 ## Qué comprueba
 
-esta unidad no certifica que ya orquestes libremente todo el drumset. Comprueba algo más pequeño y necesario:
+Esta unidad no certifica que ya orquestes libremente todo el drumset. Comprueba algo más pequeño y necesario:
 
 > **la misma idea manual puede repartirse entre superficies sin dejar de ser reconocible ni perder sistemáticamente el pulso.**
 
@@ -64,7 +64,7 @@ No necesitas una toma perfecta. Necesitas evidencia suficientemente estable para
 
 ## NO CERTIFICA
 
-Este Evaluación **no demuestra**:
+Esta evaluación **no demuestra**:
 
 - técnica de bombo;
 - hi-hat de pie;
@@ -91,4 +91,4 @@ Eso describe competencia local de **adaptación técnica entre superficies y kit
 
 ## Cierre registrado ≠ competencia demostrada
 
-Marcar el Evaluación como completado registra que realizaste la prueba. La evidencia real es la ejecución, el retorno y tu capacidad de diagnosticar qué cambió.
+Marcar la evaluación como completado registra que realizaste la prueba. La evidencia real es la ejecución, el retorno y tu capacidad de diagnosticar qué cambió.

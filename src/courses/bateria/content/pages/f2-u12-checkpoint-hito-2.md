@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación observa el **Hito 2**. No es un examen acumulativo de todos los contenidos de Fase 2 y no exige perfección.
+Esta evaluación observa el **Hito 2**. No es un examen acumulativo de todos los contenidos de Fase 2 y no exige perfección.
 
 ## INFERENCIA
 

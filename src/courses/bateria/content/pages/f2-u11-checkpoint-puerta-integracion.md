@@ -8,14 +8,14 @@ slug: puerta-integracion
 kind: checkpoint
 order: 5
 title: "Puerta de integración"
-summary: "Observa una cadena oído→escritura→ejecución→comparación y una transformación consciente sin convertir el Evaluación en un segundo Hito 2."
+summary: "Observa una cadena oído→escritura→ejecución→comparación y una transformación consciente sin convertir la evaluación en un segundo Hito 2."
 duration: 20–25 min
 competencies: [C1, C2, D1, D6, E1, E2, E3, E4, B7, G1, G2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este Evaluación pregunta si puedes **cambiar de representación conservando suficiente estructura como para localizar dónde aparece un error**.
+Esta evaluación pregunta si puedes **cambiar de representación conservando suficiente estructura como para localizar dónde aparece un error**.
 
 No sustituye el Hito 2 de Unidad 12 y no convierte automáticamente primera vista rítmica, E, aplicación musical de rudimentos o G en `FUNCIONAL`.
 

@@ -128,7 +128,7 @@ Si necesitas reconstruir parte del mapa, eso no invalida automáticamente la com
 
 Evaluación ya certificó **formas y canciones COMPETENTE/FUNCIONAL** cuando existía evidencia suficiente.
 
-esta unidad no vuelve a examinar formas y canciones desde cero. Lo reutiliza dentro de una evidencia más amplia de Hito 6.
+Esta unidad no vuelve a examinar formas y canciones desde cero. Lo reutiliza dentro de una evidencia más amplia de Hito 6.
 
 Por tanto:
 

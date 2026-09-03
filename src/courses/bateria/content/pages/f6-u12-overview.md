@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración, portafolio y Hito 7"
 summary: "Cierra Fase 6 mediante evidencia acumulativa: revisa los cuatro carriles del portafolio, comprueba retención y transferencia no idéntica, compara la línea base de Unidad 1 con el estado final y decide formalmente el Hito 7 sin exigir nivel avanzado universal."
-duration: 4 lecciones + checkpoint final; varias sesiones
+duration: 4 lecciones + Evaluación final; varias sesiones
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4, I5, I6, H7, C7, D7, G3]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad es el **cierre integrador de Fase 6**.
+Esta unidad es el **cierre integrador de Fase 6**.
 
 No añade un nuevo repertorio de técnicas ni convierte el final de fase en un examen de dificultad máxima. Su novedad dominante, fijada por el diseño del curso, es comprobar que las capacidades desarrolladas **sobreviven fuera de ejercicios aislados**.
 
@@ -33,11 +33,11 @@ El Plan General exige:
 
 > **Aprender una pieza al menos parcialmente mediante escucha, transcripción y análisis, no únicamente mediante tutorial.**
 
-esta unidad no repite necesariamente ese proyecto. Revisa la evidencia ya producida y sólo pide una nueva muestra si la anterior es insuficiente o no es interpretable.
+Esta unidad no repite necesariamente ese proyecto. Revisa la evidencia ya producida y sólo pide una nueva muestra si la anterior es insuficiente o no es interpretable.
 
 ### Puerta B — Hito 7: Aprendiz autónomo
 
-El mapa vincula Hito 7 con:
+El curso relaciona Hito 7 con:
 
 `las capacidades de práctica y autonomía + transcripción real + análisis musical`
 
@@ -56,7 +56,7 @@ Pero esta unidad no cambia silenciosamente el contrato de Hito 7:
 
 ## Qué evidencia cuenta
 
-La evidencia puede proceder de Unidad 1–Unidad 11 si sigue siendo interpretable:
+La evidencia puede proceder de Unidades 1–11 si sigue siendo interpretable:
 
 - grabaciones;
 - charts o mapas propios;
@@ -67,7 +67,7 @@ La evidencia puede proceder de Unidad 1–Unidad 11 si sigue siendo interpretabl
 - transferencias;
 - análisis escritos o explicados;
 - interpretaciones completas o fragmentos sustanciales;
-- checkpoints anteriores.
+- evaluaciones anteriores.
 
 **No se repite una tarea sólo para producir otro archivo si ya existe evidencia suficiente.**
 
@@ -93,7 +93,7 @@ No se exige una canción diferente para cada carril.
 
 ## Retención: qué significa aquí
 
-el diseño del curso pide **retención de material anterior sin calentamiento específico excesivo**.
+El diseño del curso pide **retención de material anterior sin calentamiento específico excesivo**.
 
 Eso NO significa empezar físicamente en frío. Puedes realizar una activación corporal y temporal segura.
 
@@ -103,7 +103,7 @@ El sistema del curso no fija 24 h, 48 h ni otro intervalo universal. Se busca se
 
 ## Transferencia no idéntica
 
-esta unidad necesita al menos una tarea donde cambie una condición pertinente sin convertir la prueba en otro currículo.
+Esta unidad necesita al menos una tarea donde cambie una condición pertinente sin convertir la prueba en otro currículo.
 
 Ejemplos:
 
@@ -126,7 +126,7 @@ Unidad 1 abrió Fase 6 con:
 - los cuatro carriles del portafolio abiertos;
 - un siguiente objetivo.
 
-esta unidad vuelve a esa evidencia para preguntar:
+Esta unidad vuelve a esa evidencia para preguntar:
 
 - ¿qué diagnósticos son ahora más precisos?;
 - ¿qué recursos eliges con más criterio?;
@@ -137,7 +137,7 @@ esta unidad vuelve a esa evidencia para preguntar:
 
 No se intenta demostrar que “todo mejoró”. Una comparación honesta puede mostrar avances desiguales.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — Auditoría los cuatro carriles del portafolio: qué evidencia existe y qué falta realmente.**
 2. **Lección 2 — Retención: recuperar material anterior sin enmascarar la prueba.**
@@ -147,21 +147,21 @@ No se intenta demostrar que “todo mejoró”. Una comparación honesta puede m
 
 ## Por qué evaluación final
 
-La implementación publicada ha usado evaluación final en Unidad 9, evaluación final en Unidad 10 y evaluación final en Unidad 11. El cierre continúa la secuencia como **evaluación final**. el diseño del curso denomina esta unidad “Integración, portafolio y Hito 7” y no fija otra letra para este Evaluación final.
+La implementación publicada ha usado evaluación final en Unidad 9, evaluación final en Unidad 10 y evaluación final en Unidad 11. El cierre continúa la secuencia como **evaluación final**. el diseño del curso denomina esta unidad “Integración, portafolio y Hito 7” y no fija otra letra para esta evaluación final.
 
 ## Fuentes y evidencia que esta unidad reutiliza
 
-esta unidad no abre una investigación nueva sobre práctica deliberada, feedback o interferencia contextual. Aplica la base ya verificada en el curso:
+Esta unidad no abre una investigación nueva sobre práctica deliberada, feedback o interferencia contextual. Aplica la base ya verificada en el curso:
 
 - Kantak & Winstein (2012), DOI `10.1016/j.bbr.2011.11.028`: distingue rendimiento durante práctica de aprendizaje inferido mediante retención/transferencia; evidencia motora general, no específica de batería.
 - Biasutti & Concina (2019), DOI `10.3389/fpsyg.2019.01583`: revisión sobre metacognición y autorregulación musical; no prescribe un protocolo único.
 - Varela, Abrami & Upitis (2016), DOI `10.1177/0305735614554639`: revisión sistemática sobre autorregulación en aprendizaje musical; respalda trabajar planificación/monitorización/reflexión explícitas sin justificar una receta universal.
 
-La autoridad curricular para el cierre sigue siendo: Plan General + mapa de competencias + sistema de evaluación + fuente aprobada de Fase 6.
+El cierre conserva las reglas ya establecidas en el Plan General y en el sistema de evaluación.
 
 ## Fronteras
 
-esta unidad:
+Esta unidad:
 
 - no introduce un estilo nuevo;
 - no exige repertorio virtuosístico;
@@ -169,7 +169,7 @@ esta unidad:
 - no convierte BPM en criterio de cierre;
 - no exige porcentajes mínimos inventados;
 - no exige interacción interpersonal si nunca estuvo disponible;
-- no obliga a repetir todos los checkpoints;
+- no obliga a repetir todos los evaluaciones;
 - no declara AVANZADO universal;
 - no usa el tiempo transcurrido como prueba de competencia;
 - no enseña todavía polirritmia profunda, polimetría, modulación métrica, tuplets complejos o el núcleo de Fase 7.

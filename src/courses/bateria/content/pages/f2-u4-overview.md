@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Síncopa II, acentos y lectura aplicada"
 summary: "Amplía la variedad de síncopa en 4/4 manteniendo continuidad y añade acento, dinámica y aplicación aplicación musical de rudimentos sólo después de que la línea rítmica esté comprendida."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C3, D2, D6, B7, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 3 separó **ataque, duración, pulso y marco métrico**. esta unidad no cambia todavía de lenguaje métrico: mantiene principalmente 4/4 y la rejilla binaria, pero aumenta la variedad de síncopa y exige conservar continuidad cuando la lectura deja de parecer un único dibujo conocido.
+Unidad 3 separó **ataque, duración, pulso y marco métrico**. Esta unidad no cambia todavía de lenguaje métrico: mantiene principalmente 4/4 y la rejilla binaria, pero aumenta la variedad de síncopa y exige conservar continuidad cuando la lectura deja de parecer un único dibujo conocido.
 
 > **LA LÍNEA RÍTMICA MANDA; EL RUDIMENTO SIRVE A LA LECTURA, NO AL REVÉS.**
 
@@ -23,9 +23,9 @@ Acentos, dinámica y textura de manos se añaden por capas. Si una línea aún n
 
 ## Qué debe estar disponible
 
-esta unidad presupone subdivisión binaria y ternaria y síncopa/métrica y terminología rítmica suficientemente disponibles para una tarea accesible. No exige perfección, un BPM fijo/alto, aplicación musical de rudimentos funcional global, síncopa variada ya dominada ni primera vista avanzada.
+Esta unidad presupone subdivisión binaria y ternaria y síncopa/métrica y terminología rítmica suficientemente disponibles para una tarea accesible. No exige perfección, un BPM fijo/alto, aplicación musical de rudimentos funcional global, síncopa variada ya dominada ni primera vista avanzada.
 
-Si el Evaluación de Unidad 3 deja un `CONTINUAR + CORRECTIVO`, conserva ese correctivo de forma localizada. Si la comprensión de duración o el marco temporal colapsan globalmente, reduce una sola variable antes de superponer acento o textura de manos.
+Si la evaluación de Unidad 3 deja un `CONTINUAR + CORRECTIVO`, conserva ese correctivo de forma localizada. Si la comprensión de duración o el marco temporal colapsan globalmente, reduce una sola variable antes de superponer acento o textura de manos.
 
 ## Recorrido de Unidad 4
 
@@ -37,7 +37,7 @@ Si el Evaluación de Unidad 3 deja un `CONTINUAR + CORRECTIVO`, conserva ese cor
 
 Esta arquitectura de `4 lecciones + Evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y `20_U4_SINCOPA_II_ACENTOS_Y_LECTURA_APLICADA.md`. No son cinco días obligatorios.
 
-El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y el Evaluación están publicados. Eso no significa que un alumno haya «aprobado esta unidad» por abrir o completar las páginas: la progresión depende de la evidencia registrada y de la decisión del Evaluación.
+El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y la evaluación están publicados. Eso no significa que un alumno haya «aprobado esta unidad» por abrir o completar las páginas: la progresión depende de la evidencia registrada y de la decisión de la evaluación.
 
 ## Modelo conceptual
 
@@ -49,7 +49,7 @@ El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lec
 
 ## Frontera con Unidad 5 y unidades posteriores
 
-esta unidad no convierte en foco:
+Esta unidad no convierte en foco:
 
 - tresillos ni cambios 2↔3↔4 — Unidad 5;
 - 6/8 — Unidad 6;

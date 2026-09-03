@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Charts, navegación y prioridades"
 summary: "Aprende a usar un chart como mapa de decisiones: saber dónde estás, qué viene y qué evento merece atención sin abandonar groove ni pulso."
-duration: Unidad flexible · 4 lecciones + checkpoint 5A
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [D7, D5, F3, H5, I3, C1, C2, C3, C4, K2, K5, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: navegación con chart
 
-Unidad 1 ya te pidió conservar la forma de una pieza original de 24 compases. esta unidad hace algo aparentemente paradójico: **te da menos información escrita**.
+Unidad 1 ya te pidió conservar la forma de una pieza original de 24 compases. Esta unidad hace algo aparentemente paradójico: **te da menos información escrita**.
 
 > **UN CHART NO TE DICE CADA GOLPE. TE AYUDA A SABER DÓNDE ESTÁS, QUÉ VIENE Y QUÉ DEBES PRIORIZAR.**
 
@@ -46,7 +46,7 @@ No significa que un cue escrito sea irrelevante. Significa que omitir un detalle
 
 Este chart deriva exclusivamente de **Pieza A — Forma I**, material original de Aprendo. No es una transcripción ni un lead sheet comercial.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Partitura completa vs. chart
 Compara el esqueleto MusicXML de Unidad 1 con Chart A y descubre qué información desaparece.
@@ -65,7 +65,7 @@ Demuestra que puedes seguir forma y entradas elementales manteniendo groove razo
 
 ## Fronteras
 
-esta unidad **puede certificar lectura aplicada al kit MÍNIMO en condición preparada**.
+Esta unidad **puede certificar lectura aplicada al kit MÍNIMO en condición preparada**.
 
 No certifica lectura aplicada al kit COMPETENTE/FUNCIONAL, sight-reading profesional, repertorio COMPETENTE ni un estilo concreto.
 

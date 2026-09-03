@@ -17,7 +17,7 @@ published: true
 
 ## Qué demuestra esta puerta
 
-esta unidad cierra el segundo foco métrico impar de Fase 3. La salida obligatoria es **7/8 funcional básico** y permite verificar el **MÍNIMO global de métricas impares y mixtas** junto con la evidencia ya obtenida en 5/4.
+Esta unidad cierra el segundo foco métrico impar de Fase 3. La salida obligatoria es **7/8 funcional básico** y permite verificar el **MÍNIMO global de métricas impares y mixtas** junto con la evidencia ya obtenida en 5/4.
 
 Eso no significa declarar automáticamente métricas impares y mixtas COMPETENTE. El nivel competente exige evidencia adicional de lectura, escritura e improvisación en varias métricas impares.
 

@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad no trae una técnica creativa nueva. Su trabajo es **integrar con menos andamiaje** lo que ya has construido en Fase 3.
+Esta unidad no trae una técnica creativa nueva. Su trabajo es **integrar con menos andamiaje** lo que ya has construido en Fase 3.
 
 > **Hito de Fase 3 aprobado:** Crear, escribir, tocar y explicar una breve pieza rítmica propia empleando desarrollo motívico y al menos una transformación consciente.
 
@@ -48,7 +48,7 @@ Elegir 5/4 o 7/8 puede demostrar transferencia de Unidad 9/Unidad 10, pero **la 
 
 Para el mínimo composición de piezas, **1–4 compases coherentes y reproducibles pueden bastar**. Más longitud sólo aporta si cumple una función musical.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Brief final
 Defines qué quieres demostrar: motivo, métrica, transformación, forma, longitud y condiciones.

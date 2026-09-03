@@ -15,13 +15,13 @@ rudiments: []
 published: true
 ---
 
-## Qué comprueba este Evaluación
+## Qué comprueba esta evaluación
 
 No certifica que ya “sepas tocar batería”. Comprueba algo más concreto:
 
 > **que el kit está suficientemente bien dispuesto y entendido como para empezar a transferir material conocido sin que el montaje o la exposición sonora sean el principal obstáculo.**
 
-esta unidad centra **setup, ergonomía y ecología del kit** y sólo inicia adaptación técnica entre superficies y kit/gestión de carga y salud en contexto de kit.
+Esta unidad centra **setup, ergonomía y ecología del kit** y sólo inicia adaptación técnica entre superficies y kit/gestión de carga y salud en contexto de kit.
 
 ## MÍNIMO PARA AVANZAR A Unidad 2
 
@@ -41,7 +41,7 @@ No necesitas marcar todo en una única toma perfecta. El criterio es que la base
 
 ## NO ES REQUISITO
 
-Este Evaluación **no exige**:
+Esta evaluación **no exige**:
 
 - técnica de bombo funcional;
 - hi-hat de pie funcional;
@@ -109,4 +109,4 @@ Pulsar o marcar **“Evaluación completado”** sólo registra que realizaste l
 
 La evidencia es el comportamiento observable: configuración sostenible, acceso, estrategia de seguridad, transferencia manual básica y diagnóstico razonable.
 
-Si aparece dolor u otra señal de alarma, la prioridad es reducir/detener la carga, no “aprobar” el Evaluación.
+Si aparece dolor u otra señal de alarma, la prioridad es reducir/detener la carga, no “aprobar” la evaluación.

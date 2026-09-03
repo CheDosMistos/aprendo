@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "De pad a caja y de caja a superficies"
 summary: "Conserva una frase manual conocida mientras sus ataques empiezan a repartirse entre superficies reales del kit."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [A8, B8, C1, K2, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Cuando la superficie es nueva, el ritmo debe ser viejo
 
-Unidad 1 comprobó una célula completa **en una superficie cada vez**. esta unidad da el siguiente paso: ahora algunos ataques cambian de lugar **dentro de la propia frase**.
+Unidad 1 comprobó una célula completa **en una superficie cada vez**. Esta unidad da el siguiente paso: ahora algunos ataques cambian de lugar **dentro de la propia frase**.
 
 La pregunta es:
 
@@ -35,7 +35,7 @@ No estamos aprendiendo un ritmo nuevo. Estamos transfiriendo material que ya con
 
 ## Frontera importante
 
-esta unidad trabaja **adaptación técnica entre superficies y kit** y el componente manual de **orquestación de rudimentos**. También prepara la futura orquestación creativa improvisación restringida, pero no declara improvisación restringida MÍNIMO ni kit completo antes de disponer de la coordinación coordinación básica de cuatro extremidades que fija el mapa.
+Esta unidad trabaja **adaptación técnica entre superficies y kit** y el componente manual de **orquestación de rudimentos**. También prepara la futura orquestación creativa improvisación restringida, pero no declara improvisación restringida MÍNIMO ni kit completo antes de disponer de la coordinación coordinación básica de cuatro extremidades que fija el mapa.
 
 No introduces todavía como novedad dominante:
 
@@ -45,7 +45,7 @@ No introduces todavía como novedad dominante:
 - groove;
 - fills.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Línea base: misma frase, caja real
 Recuperas material conocido y separas cambio de superficie de cambio de ejecución.

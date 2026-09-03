@@ -17,7 +17,7 @@ published: true
 
 ## Qué certifica
 
-Este Evaluación puede certificar:
+Esta evaluación puede certificar:
 
 > **balance, sonido y orquestación MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
 

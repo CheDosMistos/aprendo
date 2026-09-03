@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: auditoria-portafolio-r1-r4
 kind: lesson
 order: 1
-title: "esta unidad.Lección 1 — Auditoría los cuatro carriles del portafolio: qué evidencia existe y qué falta realmente"
+title: "Esta unidad.Lección 1 — Auditoría los cuatro carriles del portafolio: qué evidencia existe y qué falta realmente"
 summary: "Convierte el portafolio en un mapa de afirmaciones y pruebas: selecciona evidencia representativa, identifica huecos reales y evita repetir tareas sólo para acumular archivos."
 duration: 1–2 sesiones
 competencies: [K1, K5, K6, K8, E6, F7, I3, I4]
@@ -19,9 +19,9 @@ published: true
 
 Antes de volver a tocar, responder una pregunta de evaluación:
 
-> **¿QUÉ PUEDO AFIRMAR YA CON LA EVIDENCIA DE Unidad 1–Unidad 11 Y QUÉ TODAVÍA NECESITA UNA PRUEBA?**
+> **¿QUÉ PUEDO AFIRMAR YA CON LA EVIDENCIA DE Unidades 1–11 Y QUÉ TODAVÍA NECESITA UNA PRUEBA?**
 
-esta unidad no empieza acumulando material nuevo. Empieza reduciendo ruido.
+Esta unidad no empieza acumulando material nuevo. Empieza reduciendo ruido.
 
 ## Evidencia ≠ archivo
 

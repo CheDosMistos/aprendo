@@ -43,7 +43,7 @@ Mantén negras y cambia a corcheas sin mover deliberadamente el pulso. Usa un te
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La siguiente partitura es exclusiva de este Evaluación y aparece oculta antes del primer intento. Pulsa **Empezar** solo cuando estés preparado para verla. Haz una inspección breve y toca antes de repetirla hasta memorizarla.
+La siguiente partitura es exclusiva de esta evaluación y aparece oculta antes del primer intento. Pulsa **Empezar** solo cuando estés preparado para verla. Haz una inspección breve y toca antes de repetirla hasta memorizarla.
 
 <div data-notation-score data-score-src="/bateria/notation/u1/Evaluación-lectura-nueva.musicxml" data-score-title="Evaluación esta unidad — lectura nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 

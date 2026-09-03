@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Función del Evaluación
+## Función de la evaluación
 
-Este Evaluación comprueba si desplazamientos de acento y motivo ha pasado de una ventana previa a una capacidad **funcional**.
+Esta evaluación comprueba si desplazamientos de acento y motivo ha pasado de una ventana previa a una capacidad **funcional**.
 
 El mapa del curso define tres escalones:
 

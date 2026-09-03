@@ -19,7 +19,7 @@ rudiments:
 published: true
 ---
 
-esta unidad abre **Tier 3** sin cambiar la lógica de Fase 1: el objetivo sigue siendo construir representación correcta, no perseguir velocidad. La familia roll gana longitud y continuidad mientras tiempo, lectura y oído avanzan hacia un reto nuevo: cambiar subdivisión sin perder el pulso y reconocer **3+3+2 dentro de 4/4**.
+Esta unidad abre **Tier 3** sin cambiar la lógica de Fase 1: el objetivo sigue siendo construir representación correcta, no perseguir velocidad. La familia roll gana longitud y continuidad mientras tiempo, lectura y oído avanzan hacia un reto nuevo: cambiar subdivisión sin perder el pulso y reconocer **3+3+2 dentro de 4/4**.
 
 ## ESENCIAL AHORA
 
@@ -42,7 +42,7 @@ La ventana avanzada es **agrupaciones dentro de 4/4: agrupación dentro de 4/4**
 
 ## Regla de prerrequisitos
 
-esta unidad aplica la regla transversal del curso: lo ya asentado se usa, lo frágil se activa o corrige localmente y lo nuevo se enseña antes de exigirlo. Por tanto, doubles, pulso, tresillos y resolución **no se reaprenden desde cero** si están disponibles.
+Esta unidad aplica la regla transversal del curso: lo ya asentado se usa, lo frágil se activa o corrige localmente y lo nuevo se enseña antes de exigirlo. Por tanto, doubles, pulso, tresillos y resolución **no se reaprenden desde cero** si están disponibles.
 
 ## Fuente normativa
 

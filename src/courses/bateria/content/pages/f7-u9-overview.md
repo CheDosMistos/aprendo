@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración progresiva y experimentación"
 summary: "Cierra integración progresiva y experimental y Fase 7 integrando recursos avanzados dentro de pulso, forma e intención musical claros, sin convertir la complejidad en un fin en sí mismo."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J9, J1, J2, J3, J4, J5, J6, J7, J8, G1, G2, G3, G4, G6, C1, C2, C3, C4, D4, D6, E2, E5, F2, F3, K1, K2, K3, K5, K8]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad no añade una nueva categoría rítmica. Su función es convertir el vocabulario de los recursos rítmicos trabajados en las unidades anteriores en **decisiones musicales integradas**.
+Esta unidad no añade una nueva categoría rítmica. Su función es convertir el vocabulario de los recursos rítmicos trabajados en las unidades anteriores en **decisiones musicales integradas**.
 
 el recorrido del curso define integración progresiva y experimental así:
 
@@ -92,7 +92,7 @@ Preguntas:
 
 Si no puedes explicar la función del recurso, todavía puede ser un laboratorio válido, pero no lo presentes como integración musical resuelta.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — Forma antes que complejidad:** elegir función, recurso dominante, referencia y salida.
 2. **Lección 2 — Construir una forma integrada:** agrupaciones dentro de 4/4/desplazamientos de acento y motivo/métricas impares y mixtas/tuplets de 5 y 7 y divisiones no estándar en una miniatura legible y reproducible.
@@ -135,7 +135,7 @@ Nada de esto es requisito universal para cerrar Fase 7.
 
 ## Recursos
 
-El recurso principal de esta unidad es **el propio vocabulario construido en Unidad 1–Unidad 8**.
+El recurso principal de esta unidad es **el propio vocabulario construido en Unidades 1–8**.
 
 No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. La Biblioteca Maestra advierte expresamente que materiales como *Rhythmic Horizons* no deben etiquetarse como integración progresiva y experimental sin verificar el contenido concreto. Por tanto, esta unidad usa material original del curso y remite a recursos externos sólo cuando una lección futura tenga una correspondencia verificada.
 
@@ -149,7 +149,7 @@ No se asigna automáticamente ningún método comercial como “método de integ
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando puedes:
+Esta unidad cumple su función cuando puedes:
 
 1. describir la forma antes de tocar;
 2. nombrar correctamente los recursos elegidos;

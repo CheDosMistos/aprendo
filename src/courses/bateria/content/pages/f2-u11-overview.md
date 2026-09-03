@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Integración: escuchar, escribir, leer y aplicar"
 summary: "Cambia entre oído, escritura, lectura, ejecución y transformación conservando la estructura rítmica, sin convertir ninguna representación aislada en el objetivo final."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C3, D1, D2, D3, D4, D6, E1, E2, E3, E4, E5, B7, G1, G2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-esta unidad no añade una nueva familia central. Su novedad es **cambiar de representación sin perder la estructura rítmica**.
+Esta unidad no añade una nueva familia central. Su novedad es **cambiar de representación sin perder la estructura rítmica**.
 
 Dos microciclos organizan la unidad:
 
@@ -27,7 +27,7 @@ y
 
 No todas las modalidades deben aparecer en cada sesión. La transferencia se distribuye a escala de unidad.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Escuchar → escribir → tocar → comparar
 

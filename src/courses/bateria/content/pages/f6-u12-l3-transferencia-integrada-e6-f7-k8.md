@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: transferencia-integrada-e6-f7-k8
 kind: lesson
 order: 3
-title: "esta unidad.Lección 3 — Transferencia no idéntica: integrar transcripción real, análisis musical y autonomía"
+title: "Esta unidad.Lección 3 — Transferencia no idéntica: integrar transcripción real, análisis musical y autonomía"
 summary: "Comprueba si un principio aprendido puede reutilizarse cuando cambia una condición pertinente, integrando escucha/análisis, decisión de práctica y adaptación sin convertir la transferencia en dificultad gratuita."
 duration: 1–2 sesiones
 competencies: [K2, K4, K5, K8, E6, F7, I5, I3, I4, D7, G3]
@@ -172,7 +172,7 @@ No utilices como “variable nueva”:
 - métricas irregulares avanzadas;
 - desplazamientos avanzados que cambien la competencia evaluada.
 
-esta unidad verifica transferencia con las herramientas de Fase 6. No inicia el currículo de Fase 7.
+Esta unidad verifica transferencia con las herramientas de Fase 6. No inicia el currículo de Fase 7.
 
 ## Criterio de avance
 

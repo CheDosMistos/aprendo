@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Duración: ligaduras, puntillos y síncopa I"
 summary: "Separa ataque, duración escrita, pulso y marco métrico: una duración puede continuar sin un nuevo golpe, y la síncopa elemental aparece dentro de un 4/4 que sigue estable."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C3, D1, D2, D6, E2, E3, E4, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 2 enseñó a localizar ataques y silencios dentro de una rejilla temporal. esta unidad cambia la pregunta: ahora una posición escrita puede pertenecer a una duración que **continúa sin producir un nuevo ataque**.
+Unidad 2 enseñó a localizar ataques y silencios dentro de una rejilla temporal. Esta unidad cambia la pregunta: ahora una posición escrita puede pertenecer a una duración que **continúa sin producir un nuevo ataque**.
 
 > **ATAQUE ≠ DURACIÓN ≠ PULSO.**
 
@@ -23,7 +23,7 @@ El 4/4 sigue siendo el marco principal. La novedad no es cambiar de compás ni t
 
 ## Qué debe estar disponible
 
-esta unidad presupone figuras, silencios y compás al menos en MÍNIMO y pulso interno/subdivisión binaria y ternaria/teoría básica del pulso y las figuras suficientemente disponibles para una lectura accesible. cambios de subdivisión puede estar sólo iniciado: el Evaluación de Unidad 2 no exige que sea funcional.
+Esta unidad presupone figuras, silencios y compás al menos en MÍNIMO y pulso interno/subdivisión binaria y ternaria/teoría básica del pulso y las figuras suficientemente disponibles para una lectura accesible. cambios de subdivisión puede estar sólo iniciado: la evaluación de Unidad 2 no exige que sea funcional.
 
 Si vienes con `CONTINUAR + CORRECTIVO`, conserva el correctivo localizado. Si la rejilla de Unidad 2 colapsa globalmente al añadir duración, reduce una sola variable —longitud, densidad, tempo o ayudas— antes de aumentar la novedad.
 
@@ -35,7 +35,7 @@ Si vienes con `CONTINUAR + CORRECTIVO`, conserva el correctivo localizado. Si la
 4. **Oír, escribir y transformar duración** — comprobar la representación desde el sonido, la escritura y una transformación controlada.
 5. **Puerta de duración y síncopa I** — decidir si síncopa/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para Unidad 4.
 
-El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y el Evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión del Evaluación.
+El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y la evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión de la evaluación.
 
 Esta arquitectura de `4 lecciones + Evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y la auditoría longitudinal Unidad 1→Unidad 2→esta unidad. No son cinco días obligatorios.
 
@@ -51,18 +51,18 @@ Esta arquitectura de `4 lecciones + Evaluación` es una **DECISIÓN CURRICULAR R
 
 ## Qué conserva Unidad 4 como novedad
 
-esta unidad no debe absorber el siguiente escalón. Unidad 4 conserva:
+Esta unidad no debe absorber el siguiente escalón. Unidad 4 conserva:
 
 - síncopa más variada;
 - acentos y dinámica con mayor peso;
 - continuidad aplicada sobre vocabulario más amplio;
 - una aplicación aplicación musical de rudimentos más presente sobre líneas ya comprendidas.
 
-Por tanto, Lección 1–Lección 4 de esta unidad no convierten cada célula en un reto rudimental ni introducen acentos complejos para “hacer más difícil” una lectura cuyo objetivo es comprender duración.
+Por tanto, Lecciones 1–4 de esta unidad no convierten cada célula en un reto rudimental ni introducen acentos complejos para “hacer más difícil” una lectura cuyo objetivo es comprender duración.
 
 ## Notación y playback
 
-Las partituras principales serán `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`, MusicXML 4.0 y 4/4 monofónico para pad. esta unidad incorpora deliberadamente ligaduras y, desde Lección 2, puntillos; no introduce tuplets, 6/8, métrica impar ni PAS nuevos.
+Las partituras principales serán `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`, MusicXML 4.0 y 4/4 monofónico para pad. Esta unidad incorpora deliberadamente ligaduras y, desde Lección 2, puntillos; no introduce tuplets, 6/8, métrica impar ni PAS nuevos.
 
 Aprendo puede renderizar `tie`, `tied`, `dot`, `unpitched` y noteheads mediante alphaTab. Aun así, el playback sintetizado es **feedback**, no autoridad conceptual: si una muestra de percusión decae y no hace audible una “duración sostenida”, la evidencia auditiva debe preguntar por **reataque frente a ausencia de reataque**, no fingir que un pad mantiene físicamente el sonido.
 

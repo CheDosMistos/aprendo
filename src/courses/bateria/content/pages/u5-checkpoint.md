@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Decidir si Unidad 6 puede abrirse con una base suficientemente clara. esta unidad no termina cuando todo sale perfecto; termina cuando el material nuevo está correctamente representado y los cuellos de botella importantes están identificados.
+Decidir si Unidad 6 puede abrirse con una base suficientemente clara. Esta unidad no termina cuando todo sale perfecto; termina cuando el material nuevo está correctamente representado y los cuellos de botella importantes están identificados.
 
 Reutiliza evidencia reciente que siga siendo representativa. Remuestrea únicamente estados antiguos, dudosos o contradictorios.
 

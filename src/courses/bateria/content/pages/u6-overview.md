@@ -18,7 +18,7 @@ rudiments:
 published: true
 ---
 
-esta unidad cierra **Tier 3** con tres rudimentos de flam. La menor carga de PAS nuevos deja espacio para observar mejor **preparación de alturas, relación grace/principal, contraste acento/tap y transferencia al 6/8**.
+Esta unidad cierra **Tier 3** con tres rudimentos de flam. La menor carga de PAS nuevos deja espacio para observar mejor **preparación de alturas, relación grace/principal, contraste acento/tap y transferencia al 6/8**.
 
 ## ESENCIAL AHORA
 

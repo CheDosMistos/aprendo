@@ -8,14 +8,14 @@ slug: fase-2-unidad-8-introduccion
 kind: unit
 order: 0
 title: "Sextillos, rolls y ornamentaciones escritas"
-summary: "esta unidad desarrolla tuplets y ornamentación y aplicación musical de rudimentos leyendo sextillos, grace notes y rolls escritos antes de apoyarse en el nombre o la memoria motora del rudimento."
-duration: Unidad flexible · 4 lecciones + checkpoint
+summary: "Esta unidad desarrolla tuplets y ornamentación y aplicación musical de rudimentos leyendo sextillos, grace notes y rolls escritos antes de apoyarse en el nombre o la memoria motora del rudimento."
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [B3, B4, B5, B7, C2, C3, D3, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 7 cerró la generalización de compás compuesto. esta unidad vuelve a poner el foco en **lectura de tuplets y ornamentación escrita** y en **aplicación rudimental**, con paradiddles/flams/drags activas según el material.
+Unidad 7 cerró la generalización de compás compuesto. Esta unidad vuelve a poner el foco en **lectura de tuplets y ornamentación escrita** y en **aplicación rudimental**, con paradiddles/flams/drags activas según el material.
 
 > **VER EL SÍMBOLO → DECODIFICAR SU FUNCIÓN → EJECUTAR → RECONOCER/APLICAR LA FAMILIA.**
 

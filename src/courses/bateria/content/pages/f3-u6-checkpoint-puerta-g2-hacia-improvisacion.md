@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Función del Evaluación
+## Función de la evaluación
 
 Unidad 7 pedirá elegir y usar transformaciones bajo restricciones. Antes necesitamos comprobar que **puedes realizar una transformación deliberada fuera de la presión de improvisar en tiempo real**.
 
@@ -27,7 +27,7 @@ No necesitas combinar varias ni improvisar libremente.
 
 ## Material A nuevo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-Este A no apareció en Lección 1–Lección 5.
+Este A no apareció en Lecciones 1–5.
 
 <div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-cp-transform.musicxml" data-score-title="Unidad 6.evaluación — material A nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 

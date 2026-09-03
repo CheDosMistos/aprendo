@@ -17,7 +17,7 @@ published: true
 
 ## Qué certifica
 
-Este Evaluación puede certificar:
+Esta evaluación puede certificar:
 
 > **formas y canciones COMPETENTE/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis.**
 
@@ -105,7 +105,7 @@ Además de lo anterior:
 
 ## NO CERTIFICA
 
-Este Evaluación **NO CERTIFICA**:
+Esta evaluación **NO CERTIFICA**:
 
 - repertorio COMPETENTE/FUNCIONAL global en varias piezas;
 - **Hito 6**;

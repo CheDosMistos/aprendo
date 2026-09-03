@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Métricas impares y mixtas"
 summary: "Profundiza métricas impares y mixtas: leer, escribir, tocar y combinar 5/4, 7/8 y cambios de compás sin confundir longitud métrica, agrupación interna, desplazamiento o cambio de subdivisión."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J3, J1, C1, C2, C4, C6, D4, D6, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad profundiza **métricas impares y mixtas**.
+Esta unidad profundiza **métricas impares y mixtas**.
 
 El curso ya ha mostrado que `4/4 (3+3+2)` y `7/8` pueden sonar superficialmente emparentados y, sin embargo, **no contienen la misma cantidad de corcheas ni la misma longitud de compás**. Aquí esa distinción deja de ser una ventana introductoria y se convierte en una competencia funcional.
 
@@ -78,7 +78,7 @@ Para aprovechar esta unidad necesitas:
 
 No se exige dominio avanzado de agrupaciones dentro de 4/4 ni desplazamientos de acento y motivo.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — 5/4: cinco negras de verdad:** longitud del compás, referencias `3+2` y `2+3`, lectura y fraseo.
 2. **Lección 2 — 7/8: siete corcheas de verdad:** `2+2+3`, `2+3+2` y `3+2+2`, con contraste explícito frente a `4/4 (3+3+2)`.
@@ -121,11 +121,11 @@ El nivel avanzado **no es requisito para continuar**.
 
 ## Recursos de ampliación ya catalogados
 
-El mapa y la Biblioteca Maestra ya relacionan este territorio con autores como Gary Chaffee y Gavin Harrison. Se consideran **herramientas de ampliación**, no currículo obligatorio. esta unidad no reproduce ejercicios de esos métodos: las partituras y tareas prácticas de esta unidad son material original del curso.
+El mapa y la Biblioteca Maestra ya relacionan este territorio con autores como Gary Chaffee y Gavin Harrison. Se consideran **herramientas de ampliación**, no currículo obligatorio. Esta unidad no reproduce ejercicios de esos métodos: las partituras y tareas prácticas de esta unidad son material original del curso.
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando el alumno puede:
+Esta unidad cumple su función cuando el alumno puede:
 
 1. explicar la diferencia entre agrupación en una barra y cambio real de métrica;
 2. mantener al menos `5/4` y `7/8` en contextos simples;

@@ -19,7 +19,7 @@ rudiments:
 published: true
 ---
 
-esta unidad abre **Tier 4**. El reto deja de ser solo descubrir familias aisladas y pasa a **combinar recursos ya conocidos sin perder pulso, alturas, dinámica ni representación**.
+Esta unidad abre **Tier 4**. El reto deja de ser solo descubrir familias aisladas y pasa a **combinar recursos ya conocidos sin perder pulso, alturas, dinámica ni representación**.
 
 ## ESENCIAL AHORA
 

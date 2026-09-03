@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Función del Evaluación
+## Función de la evaluación
 
-Este Evaluación evalúa la salida superior de esta unidad:
+Esta evaluación evalúa la salida superior de esta unidad:
 
 `OBSERVAR → DEFINIR → ELEGIR → ACTUAR → REGISTRAR → EVALUAR → AJUSTAR → TRANSFERIR`
 
@@ -92,7 +92,7 @@ Cuando sean pertinentes:
 
 ## MÍNIMO PARA AVANZAR
 
-esta unidad se considera superada cuando el alumno:
+Esta unidad se considera superada cuando el alumno:
 
 - completa un proyecto acotado durante más de un encuentro;
 - presenta una línea base y un resultado posterior comparables;
@@ -153,7 +153,7 @@ La interpretación puede ser aceptable, pero no existe evidencia suficiente para
 - material del curso creado para la unidad se identifica como `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`;
 - ayuda externa utilizada se reconoce por su función, no se oculta para aparentar autonomía.
 
-## Fronteras del Evaluación
+## Fronteras de la evaluación
 
 Superar evaluación final:
 

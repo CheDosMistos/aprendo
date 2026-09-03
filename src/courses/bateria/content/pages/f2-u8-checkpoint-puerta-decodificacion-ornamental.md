@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación no introduce una nueva familia rudimental y **no es una prueba formal de primera vista forma y lectura de chart**. La muestra es nueva, pero puedes observarla, analizarla y reducir tempo antes de ejecutar.
+Esta evaluación no introduce una nueva familia rudimental y **no es una prueba formal de primera vista forma y lectura de chart**. La muestra es nueva, pero puedes observarla, analizarla y reducir tempo antes de ejecutar.
 
 La inferencia es:
 
@@ -35,7 +35,7 @@ PAS sigue siendo la autoridad para los 40 rudimentos oficiales:
 - [PAS — International Drum Rudiments](https://pas.org/rudiments/)
 - [PAS — PDF oficial](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-La muestra del Evaluación es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`. No reproduce el Flam #20, Drag #31 ni ningún roll PAS numerado.
+La muestra de la evaluación es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`. No reproduce el Flam #20, Drag #31 ni ningún roll PAS numerado.
 
 No puntúes por «acertar el nombre». Puntúa si puedes **leer función, duración y jerarquía**.
 
@@ -43,7 +43,7 @@ No puntúes por «acertar el nombre». Puntúa si puedes **leer función, duraci
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-Evaluación-decodificacion-ornamental.musicxml" data-score-title="Unidad 8.evaluación — puerta de decodificación ornamental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-Evaluación-decodificacion-ornamental.musicxml" data-score-source-label="MusicXML — fuente de la muestra ornamental del Evaluación"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-Evaluación-decodificacion-ornamental.musicxml" data-score-title="Unidad 8.evaluación — puerta de decodificación ornamental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-Evaluación-decodificacion-ornamental.musicxml" data-score-source-label="MusicXML — fuente de la muestra ornamental de la evaluación"></div>
 
 Antes de habilitar audio, recorre los cuatro compases con esta plantilla:
 
@@ -180,7 +180,7 @@ No se exige:
 - un BPM fijo o alto;
 - dominar todos los Flam, Drag o Roll Rudiments PAS;
 - declarar paradiddles, flams, drags, aplicación musical de rudimentos o tuplets y ornamentación globalmente `FUNCIONAL`;
-- primera vista formal forma y lectura de chart dentro de este Evaluación — **es la novedad de Unidad 9**;
+- primera vista formal forma y lectura de chart dentro de esta evaluación — **es la novedad de Unidad 9**;
 - click reducido, half-time o gaps — Unidad 10;
 - kit o coordinación de cuatro extremidades.
 
@@ -202,4 +202,4 @@ Completar esta puerta **no actualiza automáticamente** el mapa de progreso.
 
 ## Puente a Unidad 9
 
-Unidad 9 podrá convertir la lectura desarrollada hasta aquí en **primera vista formal forma y lectura de chart**: muestra nueva, ventana temporal controlada, ayudas restringidas y evidencia explícita de primera lectura. esta unidad no simula ese criterio anticipadamente.
+Unidad 9 podrá convertir la lectura desarrollada hasta aquí en **primera vista formal forma y lectura de chart**: muestra nueva, ventana temporal controlada, ayudas restringidas y evidencia explícita de primera lectura. Esta unidad no simula ese criterio anticipadamente.

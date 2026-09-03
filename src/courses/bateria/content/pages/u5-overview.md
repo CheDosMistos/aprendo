@@ -20,7 +20,7 @@ rudiments:
 published: true
 ---
 
-esta unidad continúa **Tier 3**. No vuelve a enseñar desde cero doubles, paradiddles ni drags: comprueba que estén disponibles y los combina en material nuevo. El crecimiento transversal de la unidad es la **síncopa elemental**.
+Esta unidad continúa **Tier 3**. No vuelve a enseñar desde cero doubles, paradiddles ni drags: comprueba que estén disponibles y los combina en material nuevo. El crecimiento transversal de la unidad es la **síncopa elemental**.
 
 ## ESENCIAL AHORA
 

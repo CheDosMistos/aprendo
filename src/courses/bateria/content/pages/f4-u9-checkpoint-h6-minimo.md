@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este Evaluación
+## Qué demuestra esta evaluación
 
 El criterio global que puede cerrarse aquí es **fills MÍNIMO**:
 
@@ -74,7 +74,7 @@ La calidad de fills no se mide por cuántos toms o platos utilizas.
 
 La ampliación de Lección 4 puede mostrar una primera exposición a un ostinato simple mientras las manos realizan el fill.
 
-**No forma parte de este Evaluación y esta unidad NO certifica independencia avanzada.**
+**No forma parte de esta evaluación y esta unidad NO certifica independencia avanzada.**
 
 ## 5/4 y 7/8
 

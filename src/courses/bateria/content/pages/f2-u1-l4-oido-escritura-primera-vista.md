@@ -86,7 +86,7 @@ Finalmente cuenta/canta tu compás y tócalo. Si lo que tocas no coincide con lo
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La siguiente línea es **material exclusivo de esta ventana de lectura nueva**. No aparece en Lección 1–Lección 3 y no debes escucharla antes del primer intento.
+La siguiente línea es **material exclusivo de esta ventana de lectura nueva**. No aparece en Lecciones 1–3 y no debes escucharla antes del primer intento.
 
 Antes de pulsar **Empezar**:
 

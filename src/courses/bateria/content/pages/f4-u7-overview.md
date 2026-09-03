@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Groove estable y pequeñas variaciones"
 summary: "Convierte coordinación básica de cuatro extremidades mínimo en groove groove y variaciones estable: una variación predeterminada, forma clara y retorno al patrón base."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H5, H4, C1, C2, C3, F3, G2, K5, K7]
 rudiments: []
 published: true
@@ -27,7 +27,7 @@ La **Variación B** añade una sola nota: bombo en el `&` de 3. Todo lo demás p
 
 La frase principal será **A–A–B–A**: dos compases base, una variación y un retorno explícito al groove base.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Recuperar y sostener Groove A
 Cuatro compases continuos de material ya conocido. No hay ritmo nuevo.
@@ -46,7 +46,7 @@ Groove estable + pequeña variación controlada + retorno, sin BPM de aprobado.
 
 ## Fronteras
 
-esta unidad **no certifica groove y variaciones COMPETENTE/FUNCIONAL, coordinación básica de cuatro extremidades COMPETENTE/FUNCIONAL ni independencia avanzada**. Tampoco introduce fills, variación libre, ghost notes, aperturas obligatorias, estilo o repertorio.
+Esta unidad **no certifica groove y variaciones COMPETENTE/FUNCIONAL, coordinación básica de cuatro extremidades COMPETENTE/FUNCIONAL ni independencia avanzada**. Tampoco introduce fills, variación libre, ghost notes, aperturas obligatorias, estilo o repertorio.
 
 ## Qué se evalúa
 

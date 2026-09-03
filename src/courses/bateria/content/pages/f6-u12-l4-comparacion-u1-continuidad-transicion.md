@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: comparacion-u1-continuidad-transicion
 kind: lesson
 order: 4
-title: "esta unidad.Lección 4 — Unidad 1 → esta unidad: límites, mantenimiento y transición"
+title: "Esta unidad.Lección 4 — Unidad 1 → esta unidad: límites, mantenimiento y transición"
 summary: "Compara la línea base de entrada con el estado final de Fase 6, identifica cambios cualitativos en autonomía y define mantenimiento/correctivos sin presentar el cierre como ausencia de problemas."
 duration: 1–2 sesiones
 competencies: [K1, K2, K5, K6, K7, K8, E6, F7, I3, I4]
@@ -23,7 +23,7 @@ Unidad 1 preguntaba:
 
 > ¿puedo mirar una ejecución propia, describir qué la limita y elegir qué hacer después?
 
-esta unidad pregunta:
+Esta unidad pregunta:
 
 > **¿PUEDO HACER ESO CON MAYOR PRECISIÓN, EVIDENCIA Y TRANSFERENCIA, Y SÉ QUÉ SIGUE NECESITANDO APOYO?**
 

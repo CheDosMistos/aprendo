@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: transferencia-cierre-defensa-decisiones
 kind: lesson
 order: 5
-title: "esta unidad.Lección 5 — Transferir, cerrar y defender las decisiones tomadas"
+title: "Esta unidad.Lección 5 — Transferir, cerrar y defender las decisiones tomadas"
 summary: "Comprueba qué sobrevive fuera de la condición exacta de práctica, reconstruye el ciclo del proyecto y separa resultado musical, calidad de decisión e incertidumbre pendiente."
 duration: 1–2 sesiones
 competencies: [K5, K6, K7, K8, E6, F7, I3, I4]
@@ -108,7 +108,7 @@ Una interpretación final todavía imperfecta puede contener **buen aprendizaje 
 
 ## transcripción real y análisis musical dentro del proyecto
 
-esta unidad no vuelve a enseñar transcripción ni análisis integrado, pero el proyecto debe utilizar esas competencias cuando sean relevantes.
+Esta unidad no vuelve a enseñar transcripción ni análisis integrado, pero el proyecto debe utilizar esas competencias cuando sean relevantes.
 
 ### transcripción real
 
@@ -142,7 +142,7 @@ Puedes haber utilizado:
 
 La pregunta es si puedes explicar **qué función cumplió el recurso y cómo influyó en la siguiente decisión**.
 
-McPherson presenta la autorregulación musical como un conjunto de estrategias adaptativas. esta unidad usa ese marco para evaluar elección y modificación, no aislamiento pedagógico.
+McPherson presenta la autorregulación musical como un conjunto de estrategias adaptativas. Esta unidad usa ese marco para evaluar elección y modificación, no aislamiento pedagógico.
 
 Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.23
 
@@ -160,7 +160,7 @@ Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.23
 - transferencia;
 - comparación con línea base;
 - defensa del proyecto Proyecto autónomo;
-- preparación del Evaluación.
+- preparación de la evaluación.
 
 ## Criterio de avance
 

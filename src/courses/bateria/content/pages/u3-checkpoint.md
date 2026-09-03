@@ -17,7 +17,7 @@ published: true
 
 ## Qué se revisa
 
-esta unidad no se cierra por BPM ni por perfección. Se revisa si existe una representación suficientemente correcta para continuar y qué debe permanecer en estabilización.
+Esta unidad no se cierra por BPM ni por perfección. Se revisa si existe una representación suficientemente correcta para continuar y qué debe permanecer en estabilización.
 
 **No repitas una prueba por calendario si ya existe evidencia reciente y todavía representativa.** Cuando un estado sea dudoso, antiguo o contradictorio, elicita una muestra corta.
 

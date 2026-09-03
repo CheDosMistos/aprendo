@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Agrupaciones dentro de 4/4"
 summary: "Profundiza agrupaciones dentro de 4/4 sin reenseñar 3+3+2 desde cero: conserva el 4/4 y su pulso mientras reorganiza corcheas y semicorcheas en varias particiones, las lee, escribe y convierte en material musical deliberado."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J1, C1, C2, D4, D6, F2, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad abre la profundización real de **Agrupaciones dentro de 4/4**.
+Esta unidad abre la profundización real de **Agrupaciones dentro de 4/4**.
 
 No presenta `3+3+2` como una novedad: esa ventana ya apareció antes y articulación.Unidad 10 trabajó explícitamente la diferencia entre **4/4 agrupado** y **7/8**. Ahora la exigencia sube: el alumno debe mantener una referencia métrica estable mientras cambia deliberadamente la geometría interna del mismo compás.
 
@@ -43,7 +43,7 @@ En ambos casos la barra vuelve a empezar donde corresponde al `4/4`. Los ciclos 
 - motivo/desarrollo motívico: motivo y transformación;
 - articulación.Unidad 10: `agrupación ≠ cambio de compás`.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — Ocho corcheas, varias geometrías:** `3+3+2`, `3+2+3`, `2+3+3`, `5+3` y `3+5` sin abandonar 4/4.
 2. **Lección 2 — Dieciséis semicorcheas:** agrupaciones que suman 16 y mantienen visible el pulso de negra.
@@ -89,7 +89,7 @@ No es una plantilla rígida. La prioridad dominante de la sesión sigue mandando
 
 ## Criterio de salida de unidad
 
-esta unidad alcanza su función cuando el alumno puede, en material de dificultad adecuada:
+Esta unidad alcanza su función cuando el alumno puede, en material de dificultad adecuada:
 
 1. definir **agrupación** sin confundirla con compás irregular ni tuplet;
 2. localizar el pulso de negra y la barra de 4/4;

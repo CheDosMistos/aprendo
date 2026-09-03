@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: cambiar el feel manteniendo pulso y forma
 
-esta unidad introduce una familia nueva sin convertirla en una colección de patrones.
+Esta unidad introduce una familia nueva sin convertirla en una colección de patrones.
 
 > **SHUFFLE ≠ “CORCHEAS ESCRITAS DE OTRA MANERA”.**
 
@@ -56,7 +56,7 @@ Pieza B es **material original de Aprendo**. Se aprende de forma distinta a Piez
 
 La notación de Pieza B es un **esqueleto formal original**, no una transcripción comercial.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Pulso y rejilla ternaria
 Construir la subdivisión ternaria y compararla con una rejilla binaria sin cambiar el pulso.

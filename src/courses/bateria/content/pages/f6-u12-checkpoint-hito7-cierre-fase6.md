@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Función del Evaluación
+## Función de la evaluación
 
-Este Evaluación cierra **Fase 6 — Integración estilística, independencia y repertorio**.
+Esta evaluación cierra **Fase 6 — Integración estilística, independencia y repertorio**.
 
 No busca una demostración máxima de dificultad. Decide si la evidencia acumulada permite afirmar:
 
@@ -112,7 +112,7 @@ Presenta o enlaza:
 8. evidencia interpretable de **análisis musical**;
 9. límites pendientes y **plan de continuidad**.
 
-No vuelvas a ejecutar todos los checkpoints anteriores si estas pruebas ya existen y siguen siendo válidas.
+No vuelvas a ejecutar todos los evaluaciones anteriores si estas pruebas ya existen y siguen siendo válidas.
 
 ## Perfil de salida de apoyo
 
@@ -266,6 +266,6 @@ Cuando las dos puertas están satisfechas y la decisión es:
 
 El alumno sale como músico funcionalmente más adaptable y autónomo, capaz de escuchar, analizar, elegir, practicar, revisar y transferir con menos dependencia de instrucciones cerradas.
 
-La siguiente fase podrá construirse después con su propia arquitectura e investigación. Este Evaluación **no enseña ni certifica su núcleo avanzado**.
+La siguiente fase podrá construirse después con su propia arquitectura e investigación. Esta evaluación **no enseña ni certifica su núcleo avanzado**.
 
 > **AUTONOMÍA NO ES NO NECESITAR AYUDA; ES SABER QUÉ AYUDA NECESITAS, POR QUÉ LA USAS, QUÉ EVIDENCIA PRODUCE Y CUÁNDO DEBES CAMBIARLA.**

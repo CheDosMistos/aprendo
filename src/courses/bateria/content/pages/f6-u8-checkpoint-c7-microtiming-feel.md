@@ -21,7 +21,7 @@ El criterio superior de microtiming y placement en **MÍNIMO PARA AVANZAR** es:
 
 > **Reconoce conceptualmente que precisión métrica y feel no son idénticos.**
 
-esta unidad lo operacionaliza sin crear una rúbrica paralela:
+Esta unidad lo operacionaliza sin crear una rúbrica paralela:
 
 > distingue estabilidad, relación con una referencia, microtiming observado y resultado musical percibido; evita afirmar que una desviación aislada demuestra intención o que existe un offset universal de buen feel.
 
@@ -115,7 +115,7 @@ El mapa superior fija:
 
 > **Manipula microtiming de forma consciente y musical sin perder estabilidad estructural.**
 
-Esto requiere amplitud contextual, control repetible, escucha refinada e integración musical. esta unidad abre y profundiza el eje, pero **no exige este nivel para continuar**.
+Esto requiere amplitud contextual, control repetible, escucha refinada e integración musical. Esta unidad abre y profundiza el eje, pero **no exige este nivel para continuar**.
 
 ## Decisión
 
@@ -128,7 +128,7 @@ Usa el lenguaje aprobado:
 
 ## Fronteras de certificación
 
-Este Evaluación:
+Esta evaluación:
 
 - no certifica dominio profundo de ningún estilo;
 - no exige offsets medidos en ms;

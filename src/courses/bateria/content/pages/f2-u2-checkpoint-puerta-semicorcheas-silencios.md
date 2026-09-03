@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación **no sirve para “aprobar esta unidad”** ni exige demostrar que cambios de subdivisión sea funcional. Su pregunta es más concreta:
+Esta evaluación **no sirve para “aprobar esta unidad”** ni exige demostrar que cambios de subdivisión sea funcional. Su pregunta es más concreta:
 
 > **¿figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados?**
 
@@ -27,7 +27,7 @@ El BPM describe la condición de la muestra; **no define el nivel**. Tampoco se 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es **exclusiva de este Evaluación**. Contiene sólo vocabulario de esta unidad: 4/4 monofónico, ataques y silencios de semicorchea sobre una rejilla de cuatro posiciones. No introduce ligaduras, puntillos ni tuplets.
+La partitura siguiente es **exclusiva de esta evaluación**. Contiene sólo vocabulario de esta unidad: 4/4 monofónico, ataques y silencios de semicorchea sobre una rejilla de cuatro posiciones. No introduce ligaduras, puntillos ni tuplets.
 
 Antes de pulsar **Empezar**:
 
@@ -184,7 +184,7 @@ No se exige:
 - **la lectura funciona con sticking alternado pero colapsa con doubles/diddles:** es evidencia de aplicación/técnica; no degrada figuras, silencios y compás automáticamente;
 - **la evidencia reciente contradice una toma aislada:** elicita una muestra corta antes de cambiar el mapa de progreso.
 
-Completar este Evaluación **no actualiza automáticamente figuras, silencios y compás, subdivisión binaria y ternaria, cambios de subdivisión, relación entre oído y notación ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
+Completar esta evaluación **no actualiza automáticamente figuras, silencios y compás, subdivisión binaria y ternaria, cambios de subdivisión, relación entre oído y notación ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
 
 ## Puente a Unidad 3
 

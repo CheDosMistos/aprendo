@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Lección 1–Lección 3 construyeron una misma idea desde la lectura: **ATAQUE**, **DURACIÓN ESCRITA**, **PULSO** y **MARCO MÉTRICO** no son la misma cosa. Lección 4 comprueba ahora que esa representación no dependa únicamente de reconocer símbolos en una partitura.
+Lecciones 1–3 construyeron una misma idea desde la lectura: **ATAQUE**, **DURACIÓN ESCRITA**, **PULSO** y **MARCO MÉTRICO** no son la misma cosa. Lección 4 comprueba ahora que esa representación no dependa únicamente de reconocer símbolos en una partitura.
 
 > **Primero identifica qué ataques oyes. Después decide qué información aporta la notación sobre la duración.**
 
@@ -39,7 +39,7 @@ Antes de tocar, señala:
 - qué duración atraviesa una posición fuerte;
 - dónde siguen las negras aunque no haya un golpe nuevo.
 
-Haz una sola toma corta. Si la representación visual todavía colapsa, reduce el fragmento; Lección 4 no exige repetir Lección 1–Lección 3 completas.
+Haz una sola toma corta. Si la representación visual todavía colapsa, reduce el fragmento; Lección 4 no exige repetir Lecciones 1–3 completas.
 
 ## 2. OÍR → IDENTIFICAR — 5–6 min
 

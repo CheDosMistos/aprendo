@@ -70,7 +70,7 @@ No son núcleo de esta unidad:
 - recontextualización métrica;
 - improvisación abierta.
 
-Llegarán con mayor profundidad en Unidad 5–Unidad 7.
+Llegarán con mayor profundidad en Unidades 5–7.
 
 ## AMPLIACIÓN
 

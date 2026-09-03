@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Compás compuesto II: 9/8, 12/8 y contraste"
 summary: "Generaliza el modelo compuesto de Unidad 6 a 9/8 y 12/8, refuerza la distinción simple/compuesto y abre grabación y comparación de forma inicial mediante ejemplos métricos claros cuya organización del pulso debe sentirse, leerse y justificarse."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, D4, E1, E2, E5, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 6 dejó una representación concreta y comprobable: en el caso prototípico trabajado, **6/8 se organiza como dos pulsos principales y cada pulso se subdivide en tres corcheas**. esta unidad no abandona ese modelo ni introduce una teoría métrica distinta: lo **generaliza** y obliga a reconocer qué parte de la organización cambia y cuál permanece.
+Unidad 6 dejó una representación concreta y comprobable: en el caso prototípico trabajado, **6/8 se organiza como dos pulsos principales y cada pulso se subdivide en tres corcheas**. Esta unidad no abandona ese modelo ni introduce una teoría métrica distinta: lo **generaliza** y obliga a reconocer qué parte de la organización cambia y cuál permanece.
 
 > **EL MODELO COMPUESTO SE GENERALIZA MANTENIENDO TRES SUBDIVISIONES POR PULSO PRINCIPAL: 6/8 = 2×3, 9/8 = 3×3 Y 12/8 = 4×3 EN LOS CASOS PROTOTÍPICOS DE ESTA UNIDAD.**
 
@@ -23,14 +23,14 @@ La cantidad de corcheas escritas sigue siendo insuficiente para comprender el me
 
 ## Qué debe estar disponible
 
-esta unidad presupone:
+Esta unidad presupone:
 
 - pulso interno suficiente para mantener una referencia temporal principal;
 - subdivisión binaria y ternaria ternaria suficientemente disponible para sostener tres partes iguales dentro de cada pulso;
 - lectura de compás/métrica y terminología rítmica suficientes para comprender el 6/8 prototípico como `2×3` y distinguirlo de 3/4 como `3×2`;
 - capacidad de localizar los dos pulsos grandes de 6/8 aun cuando existan silencios o ataques que no coincidan con todos los apoyos.
 
-No exige que lectura de compás, métrica y terminología rítmica o ninguna otra competencia estén globalmente en `FUNCIONAL`. Si el Evaluación de Unidad 6 terminó con `CONTINUAR + CORRECTIVO`, se conserva únicamente el correctivo localizado mientras se introduce la nueva cantidad de pulsos compuestos.
+No exige que lectura de compás, métrica y terminología rítmica o ninguna otra competencia estén globalmente en `FUNCIONAL`. Si la evaluación de Unidad 6 terminó con `CONTINUAR + CORRECTIVO`, se conserva únicamente el correctivo localizado mientras se introduce la nueva cantidad de pulsos compuestos.
 
 ## Qué cambia y qué no cambia
 
@@ -53,7 +53,7 @@ son **modelos prototípicos de enseñanza para esta unidad**, no una licencia pa
 
 ## Simple y compuesto: la pregunta correcta
 
-esta unidad refuerza una distinción que ya empezó en Unidad 6:
+Esta unidad refuerza una distinción que ya empezó en Unidad 6:
 
 - **métrica simple:** el pulso principal se divide prototípicamente en dos partes iguales;
 - **métrica compuesta:** el pulso principal se divide prototípicamente en tres partes iguales.
@@ -68,7 +68,7 @@ Un patrón de acentos puede crear otra agrupación perceptiva dentro de un comp�
 
 ## grabación y comparación entra sólo de forma inicial
 
-esta unidad es la primera unidad de Fase 2 donde **reconocimiento de métrica, frase y forma** aparece como objetivo explícito, pero únicamente en un alcance inicial y controlado.
+Esta unidad es la primera unidad de Fase 2 donde **reconocimiento de métrica, frase y forma** aparece como objetivo explícito, pero únicamente en un alcance inicial y controlado.
 
 Aquí grabación y comparación significa poder, en **ejemplos claros y breves**:
 
@@ -108,11 +108,11 @@ Cuando el núcleo esté estable puede aparecer una comparación **breve y concep
 - una reagrupación irregular de acentos dentro de un compás regular conocido;
 - un ejemplo claramente presentado como compás genuinamente irregular.
 
-La finalidad es reforzar métrica y terminología rítmica: **agrupación y compás no son sinónimos**. Esta ventana no convierte la métrica impar funcional en centro de esta unidad ni en requisito del Evaluación.
+La finalidad es reforzar métrica y terminología rítmica: **agrupación y compás no son sinónimos**. Esta ventana no convierte la métrica impar funcional en centro de esta unidad ni en requisito de la evaluación.
 
 ## Fronteras con unidades posteriores
 
-esta unidad **no convierte en foco**:
+Esta unidad **no convierte en foco**:
 
 - sextillos y ornamentación escrita como vocabulario central — Unidad 8;
 - primera vista formal Unidad 9;

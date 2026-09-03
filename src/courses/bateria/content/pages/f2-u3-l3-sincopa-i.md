@@ -23,7 +23,7 @@ En esta lección trabajaremos un caso deliberadamente claro: **un ataque aparece
 
 No conviertas todavía “síncopa” en una colección de dibujos. Tampoco vamos a estudiar aún variedad extensa, acentos dinámicos complejos ni textura rudimental: eso pertenece a Unidad 4.
 
-## 1. Recuperación Lección 1–Lección 2 — 3 min
+## 1. Recuperación Lecciones 1–2 — 3 min
 
 Recupera primero la relación entre ataque y duración con el banco de Lección 2. No escuches el playback antes de la toma.
 

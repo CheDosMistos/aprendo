@@ -83,7 +83,7 @@ Usa un segundo motivo sencillo y aplica **la misma operación**. La transferenci
 
 ## No hay porcentaje mágico
 
-Fragmentación, extensión y reducción pueden conservar la identidad con distinta claridad según el motivo y el contexto. esta unidad no fija un umbral numérico universal.
+Fragmentación, extensión y reducción pueden conservar la identidad con distinta claridad según el motivo y el contexto. Esta unidad no fija un umbral numérico universal.
 
 ## MÍNIMO PARA AVANZAR
 

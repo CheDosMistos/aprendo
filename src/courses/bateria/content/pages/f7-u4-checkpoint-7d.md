@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
-el curso $1 tuplets de 5 y 7 y divisiones no estándar como funcional cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar esta unidad.
+El curso $1 tuplets de 5 y 7 y divisiones no estándar como funcional cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar esta unidad.
 
 Se evalúan:
 
@@ -171,7 +171,7 @@ Nivel de ampliación, no requisito:
 - integras relaciones más complejas con otras capas;
 - puedes preparar conscientemente una subdivisión para futuras reinterpretaciones métricas.
 
-La modulación como competencia pertenece a **modulación métrica**, no a este Evaluación.
+La modulación como competencia pertenece a **modulación métrica**, no a esta evaluación.
 
 ## Registro recomendado
 

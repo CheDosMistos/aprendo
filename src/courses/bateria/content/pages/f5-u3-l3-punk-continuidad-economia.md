@@ -59,7 +59,7 @@ No conviertas “economía” en inmovilidad. El criterio es **resultado + ausen
 
 Al final de un bloque preparado, inserta el Fill A conocido `4 &` y aterriza en el siguiente 1.
 
-No añadas un fill nuevo. esta unidad está evaluando continuidad dentro de lenguaje/formato, no vocabulario de fills.
+No añadas un fill nuevo. Esta unidad está evaluando continuidad dentro de lenguaje/formato, no vocabulario de fills.
 
 ## AMPLIACIÓN — doble-time preparado
 

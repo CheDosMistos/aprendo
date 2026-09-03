@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Motivo, identidad, repetición y contraste"
 summary: "Pasa de reconocer motivos a crearlos: construye una idea breve rastreable, repítela, contrástala, hazla volver y explica qué mantiene su identidad."
-duration: Unidad flexible · 4 lecciones + Puerta G1
+duration: Unidad flexible · 4 lecciones + Puerta motivo
 competencies: [G1, C1, D6, F3, D1, D2, D3, D4, D5, E3, E4, E5, K2, K5, K6, K8, B7]
 rudiments: []
 published: true
 ---
 
-Unidad 4 enseñó a **reconocer** motivos y relaciones dentro de una forma. esta unidad cambia el papel: ahora tienes que **crear una idea que pueda sobrevivir a la memoria, la repetición y el contraste**.
+Unidad 4 enseñó a **reconocer** motivos y relaciones dentro de una forma. Esta unidad cambia el papel: ahora tienes que **crear una idea que pueda sobrevivir a la memoria, la repetición y el contraste**.
 
 `CREAR → TOCAR → ESCRIBIR → REPETIR → ESCUCHAR → COMPARAR → CONTRASTAR → RETORNAR → EXPLICAR`
 
@@ -44,11 +44,11 @@ Si no puedes rastrear ninguna relación perceptible, el material puede ser perfe
 
 ## Frontera con Unidad 6
 
-esta unidad trabaja **motivo, repetición y contraste**. Puede mostrar A/A’ y una variación local pequeña para discutir identidad, pero **no sistematiza todavía** desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambios de sticking u otras operaciones de desarrollo motívico.
+Esta unidad trabaja **motivo, repetición y contraste**. Puede mostrar A/A’ y una variación local pequeña para discutir identidad, pero **no sistematiza todavía** desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambios de sticking u otras operaciones de desarrollo motívico.
 
 Eso comienza en Unidad 6.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Crear un motivo que puedas reconocer
 Estudias tres modelos breves y construyes un motivo propio que puedas tocar, escribir y recuperar.

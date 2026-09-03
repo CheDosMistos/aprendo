@@ -21,13 +21,13 @@ El Plan General define literalmente el **Hito 3 — Ciclo completo** así:
 
 > **leer → cantar → tocar → escuchar → escribir**
 
-Este Evaluación conserva esa formulación. Para la acción **cantar**, puedes usar una representación vocal rítmica o conteo funcional si es la opción adecuada para ti y para el material; eso no convierte un sistema concreto de vocalización en requisito universal.
+Esta evaluación conserva esa formulación. Para la acción **cantar**, puedes usar una representación vocal rítmica o conteo funcional si es la opción adecuada para ti y para el material; eso no convierte un sistema concreto de vocalización en requisito universal.
 
 ## Regla crítica
 
-La familia E/E’ es **material nuevo**, no practicado en Lección 1–Lección 4. Las cinco acciones comparten estructura para que el hito no se convierta en cinco pruebas desconectadas.
+La familia E/E’ es **material nuevo**, no practicado en Lecciones 1–4. Las cinco acciones comparten estructura para que el hito no se convierta en cinco pruebas desconectadas.
 
-**No reproduzcas la partitura con el motor antes de completar LEER → CANTAR → TOCAR.** En este Evaluación el control de playback de la partitura inicial se oculta deliberadamente.
+**No reproduzcas la partitura con el motor antes de completar LEER → CANTAR → TOCAR.** En esta evaluación el control de playback de la partitura inicial se oculta deliberadamente.
 
 ---
 
@@ -152,4 +152,4 @@ Aparece una señal de salud/carga según el sistema `06`.
 - puede comparar qué cambió entre representaciones;
 - las ayudas quedan explícitas.
 
-**AVANZADO no es requisito.** Este Evaluación no cierra Fase 3: Unidad 5 comienza el trabajo explícito de identidad motívica, repetición y contraste creativo.
+**AVANZADO no es requisito.** Esta evaluación no cierra Fase 3: Unidad 5 comienza el trabajo explícito de identidad motívica, repetición y contraste creativo.

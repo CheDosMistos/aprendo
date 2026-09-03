@@ -167,7 +167,7 @@ No conviertas independencia extrema en requisito de polirritmia funcional.
 
 ## Recursos de ampliación
 
-Gary Chaffee y Gavin Harrison están catalogados como fuentes primarias pertinentes para polirritmia. Úsalos sólo con una sección concreta verificada y un ejemplar legal. esta unidad no reproduce material protegido ni atribuye sus ejercicios originales a esos autores.
+Gary Chaffee y Gavin Harrison están catalogados como fuentes primarias pertinentes para polirritmia. Úsalos sólo con una sección concreta verificada y un ejemplar legal. Esta unidad no reproduce material protegido ni atribuye sus ejercicios originales a esos autores.
 
 ## Criterio de avance
 

@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
-esta unidad evalúa la capacidad de utilizar un chart con **más densidad de información** que en Fase 5 y tomar decisiones sin sacrificar la continuidad.
+Esta unidad evalúa la capacidad de utilizar un chart con **más densidad de información** que en Fase 5 y tomar decisiones sin sacrificar la continuidad.
 
 El criterio de salida aprobado es:
 
@@ -112,7 +112,7 @@ La evidencia es especialmente sólida cuando además:
 - mantienes dinámica y estructura mientras administras información más densa;
 - tu revisión posterior mejora la siguiente pasada.
 
-El nivel exacto global de lectura aplicada al kit se interpreta según el mapa vigente y la evidencia acumulada; este Evaluación no convierte una única toma en competencia universal.
+El nivel exacto global de lectura aplicada al kit se interpreta según el mapa vigente y la evidencia acumulada; esta evaluación no convierte una única toma en competencia universal.
 
 ## AMPLIACIÓN
 
@@ -138,7 +138,7 @@ El chart actual exige demasiadas decisiones simultáneas. Usa una versión menos
 
 ## Frontera explícita
 
-Este Evaluación **NO certifica**:
+Esta evaluación **NO certifica**:
 
 - sight-reading profesional;
 - ejecución literal de cada símbolo;

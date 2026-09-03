@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Este Evaluación comprueba el nivel de modulación métrica sin confundirlo con:
+Esta evaluación comprueba el nivel de modulación métrica sin confundirlo con:
 
 - tocar dos tempos distintos;
 - cambiar subdivisiones;
@@ -264,6 +264,9 @@ No se exige para Unidad 9.
 # Registro recomendado
 
 Anota después:
+
+Si utilizas escala observacional, conserva la del curso: `0 — no demostrado / 1 — emergente / 2 — estable en esta condición / 3 — flexible`. No la conviertas en una nota global.
+
 
 Si utilizas escala observacional, conserva la del curso: `0 — no demostrado / 1 — emergente / 2 — estable en esta condición / 3 — flexible`. No la conviertas en una nota global.
 

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Bombo: primer control de pedal"
 summary: "Convierte el bombo en una primera voz de pie controlable sin imponer una técnica de talón ni perseguir velocidad."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H2, H1, C1, K2, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Cuando el pie es nuevo, el ritmo debe ser viejo
 
-Unidad 1 dejó el kit accesible. Unidad 2 trasladó frases conocidas entre superficies manuales. esta unidad añade una sola novedad motora dominante: **el pie de bombo**.
+Unidad 1 dejó el kit accesible. Unidad 2 trasladó frases conocidas entre superficies manuales. Esta unidad añade una sola novedad motora dominante: **el pie de bombo**.
 
 La pregunta es:
 
@@ -43,7 +43,7 @@ Por eso evaluaremos:
 
 Heel-down y heel-up pueden compararse como **opciones técnicas de tradición pedagógica**. No necesitas dominar ambas para avanzar.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Pedal, posición y primer golpe simple
 Ajustas la relación con el pedal y aprendes a golpear, volver y preparar el siguiente ataque.
@@ -62,7 +62,7 @@ Demuestras bombo MÍNIMO sin exigir groove, cuatro extremidades, dobles rápidos
 
 ## Frontera importante
 
-esta unidad puede incluir tareas muy simples con manos + bombo, pero eso **no certifica coordinación básica de cuatro extremidades**. Unidad 5 será el foco de primer groove y Unidad 6 el foco explícito de cuatro extremidades.
+Esta unidad puede incluir tareas muy simples con manos + bombo, pero eso **no certifica coordinación básica de cuatro extremidades**. Unidad 5 será el foco de primer groove y Unidad 6 el foco explícito de cuatro extremidades.
 
 ## Seguridad y carga
 

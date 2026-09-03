@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este Evaluación
+## Qué demuestra esta evaluación
 
-esta unidad comprueba que el paso desde una cadena breve a una forma de 24 compases está en marcha.
+Esta unidad comprueba que el paso desde una cadena breve a una forma de 24 compases está en marcha.
 
 <div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 1.evaluación — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
@@ -25,7 +25,7 @@ Mapa:
 
 `INTRO 4 → A 8 → B 8 → OUTRO 4`.
 
-Este Evaluación **NO es Hito 6** y **NO certifica repertorio COMPETENTE/FUNCIONAL**.
+Esta evaluación **NO es Hito 6** y **NO certifica repertorio COMPETENTE/FUNCIONAL**.
 
 ## Tarea
 

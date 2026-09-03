@@ -19,7 +19,7 @@ published: true
 
 > **Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso.**
 
-Este Evaluación no inventa una rúbrica alternativa ni exige dificultad adicional.
+Esta evaluación no inventa una rúbrica alternativa ni exige dificultad adicional.
 
 ## Referencia CORE
 

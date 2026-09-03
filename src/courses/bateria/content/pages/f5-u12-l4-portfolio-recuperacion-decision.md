@@ -118,7 +118,7 @@ No:
 
 ## 8. Preparación del Hito 6
 
-Antes del Evaluación final debes poder responder:
+Antes de la evaluación final debes poder responder:
 
 1. ¿qué evidencia tengo de cada pieza?;
 2. ¿qué ayudas estaban presentes?;

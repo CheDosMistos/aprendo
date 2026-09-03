@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este Evaluación
+## Qué demuestra esta evaluación
 
 La evidencia principal es **improvisación restringida MÍNIMO**:
 

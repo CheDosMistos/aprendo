@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Oído rítmico activo: imitar, segmentar y dictar"
 summary: "Pasa de reconocer o reproducir células a reconstruir material breve mediante segmentación, imitación, escritura y comparación, registrando las ayudas utilizadas."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [E2, E3, E4, D4, C2, K2, K3, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-Unidad 1 instaló el circuito entre oído, notación y ejecución. esta unidad añade una herramienta nueva: **segmentar un estímulo en partes útiles para reconstruirlo y volver después al conjunto**.
+Unidad 1 instaló el circuito entre oído, notación y ejecución. Esta unidad añade una herramienta nueva: **segmentar un estímulo en partes útiles para reconstruirlo y volver después al conjunto**.
 
 `ESCUCHAR → SEGMENTAR → IMITAR → REPRESENTAR → TOCAR → COMPARAR → DIAGNOSTICAR`
 
@@ -31,7 +31,7 @@ La progresión curricular es:
 
 Es una **DECISIÓN CURRICULAR RAZONADA**, no una ley científica.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Escuchar por partes
 Un compás en corcheas. Primero intentas el conjunto; después puedes abrir pulsos individuales como ayuda; finalmente vuelves al compás completo.
@@ -63,7 +63,7 @@ No existe un número universal de escuchas para aprobar. Marcar pulso o vocaliza
 
 ## Lo que todavía NO hacemos
 
-esta unidad sigue usando material original diseñado para la tarea. **transcripción iterativa de una fuente — empieza en Unidad 3.** Tampoco necesitamos slowdown como núcleo todavía.
+Esta unidad sigue usando material original diseñado para la tarea. **transcripción iterativa de una fuente — empieza en Unidad 3.** Tampoco necesitamos slowdown como núcleo todavía.
 
 ## Regla de avance
 

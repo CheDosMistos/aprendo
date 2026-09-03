@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Semicorchea, pocket, articulación y primera independencia funcional"
 summary: "Construye independencia avanzada dentro de música: una capa sencilla permanece estable mientras otra voz varía, con semicorchea, balance y articulación al servicio del groove."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H5, H7, I2, A5, B7, B8, C2, G2, I3, K2, K5, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: independencia avanzada contextual
 
-esta unidad abre la independencia funcional **dentro de groove**, no mediante un sistema abstracto de coordinación.
+Esta unidad abre la independencia funcional **dentro de groove**, no mediante un sistema abstracto de coordinación.
 
 > **INDEPENDENCIA ≠ AÑADIR CAPAS HASTA QUE TODO SEA DIFÍCcil.**
 

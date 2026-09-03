@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Tuplets de 5 y 7"
 summary: "Profundiza tuplets de 5 y 7 y divisiones no estándar: subdividir un pulso en cinco o siete partes iguales, leer la relación escrita y cambiar entre subdivisiones comunes y tuplets sin mover el pulso de referencia."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J4, C1, C2, C3, C4, D3, D6, E2, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad profundiza **tuplets de 5 y 7**.
+Esta unidad profundiza **tuplets de 5 y 7**.
 
 El quintillo no aparece aquí por primera vez. Fase 1 ya abrió una ventana opcional donde cinco ataques equidistantes ocupaban un pulso de negra. Ahora esa experiencia se convierte en una capacidad funcional y se amplía al septillo.
 
@@ -38,7 +38,7 @@ Estas relaciones son las elegidas para esta unidad; no se presentan como las ún
 
 ## Lo que ya debería estar disponible
 
-el curso $1 para tuplets de 5 y 7 y divisiones no estándar:
+El curso $1 para tuplets de 5 y 7 y divisiones no estándar:
 
 - **R:** subdivisión suficientemente disponible;
 - **F:** lectura funcional de tuplets/ornamentación y densidades ya trabajadas.
@@ -69,7 +69,7 @@ En esta unidad el pulso de negra permanece como referencia. No convertimos todav
 
 Los ejercicios principales resuelven sus subdivisiones dentro del pulso o de una frase delimitada. ciclos que cruzan compases estudiará ciclos cuya alineación cambia a través de barras.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — Quintillo funcional:** cinco partes iguales dentro del pulso; lectura, equidistancia y contraste con cuatro semicorcheas.
 2. **Lección 2 — Septillo funcional:** siete partes iguales dentro del mismo pulso; construcción lenta, lectura y control bilateral.
@@ -113,7 +113,7 @@ La última posibilidad pertenece a niveles posteriores; **no se exige en esta un
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando el alumno puede:
+Esta unidad cumple su función cuando el alumno puede:
 
 1. explicar qué relación temporal está leyendo;
 2. ejecutar ejemplos lentos de quintillo y septillo;

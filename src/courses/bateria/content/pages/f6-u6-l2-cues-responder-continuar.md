@@ -29,7 +29,7 @@ Un corte bien tocado seguido de una reentrada perdida sigue siendo una respuesta
 
 ## 2. Qué señales aparecen aquí
 
-esta unidad puede trabajar con count-in, pickup/anacrusa, entrada o reentrada, stop/corte, figure o kick de arreglo, transición, cambio dinámico, ending y señales auditivas o visuales cuando exista otro músico/director.
+Esta unidad puede trabajar con count-in, pickup/anacrusa, entrada o reentrada, stop/corte, figure o kick de arreglo, transición, cambio dinámico, ending y señales auditivas o visuales cuando exista otro músico/director.
 
 Unidad 3 ya entrenó prioridad y navegación en charts. Aquí no se evalúa leer más símbolos: se evalúa **qué haces cuando la señal ocurre**.
 

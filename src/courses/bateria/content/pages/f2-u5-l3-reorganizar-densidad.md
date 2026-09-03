@@ -186,7 +186,7 @@ No se exige:
 
 La tarea empieza a ser funcional cuando puedes reorganizar `2 ↔ 3 ↔ 4` en bloques cortos sin que la negra cambie sistemáticamente de velocidad, identificar qué densidad o transición limita el resultado y mantener control técnico suficiente en ambas direcciones.
 
-Eso **no declara cambios de subdivisión ni tuplets y ornamentación FUNCIONALES globalmente**. Lección 4 cambiará el tipo de representación —oír, escribir, leer y transformar— y el Evaluación decidirá si la organización temporal está suficientemente disponible para abrir Unidad 6.
+Eso **no declara cambios de subdivisión ni tuplets y ornamentación FUNCIONALES globalmente**. Lección 4 cambiará el tipo de representación —oír, escribir, leer y transformar— y la evaluación decidirá si la organización temporal está suficientemente disponible para abrir Unidad 6.
 
 ## AVANZADO EN ESTA TAREA
 

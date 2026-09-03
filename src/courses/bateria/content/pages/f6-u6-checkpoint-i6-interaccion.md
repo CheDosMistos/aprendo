@@ -128,7 +128,7 @@ Requiere más flexibilidad, anticipación, sensibilidad contextual y, para la pa
 - recuperación compartida;
 - adaptación sensible al contexto.
 
-esta unidad no exige este nivel para continuar.
+Esta unidad no exige este nivel para continuar.
 
 ## Decisión
 
@@ -141,7 +141,7 @@ Usa el lenguaje aprobado:
 
 ## Fronteras de certificación
 
-Este Evaluación:
+Esta evaluación:
 
 - **no declara Hito 7**;
 - no certifica dominio estilístico;

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Fills, retorno al groove y primera capa de independencia"
 summary: "Convierte material conocido en transiciones breves y aprende que un fill sólo está completo cuando vuelve al lugar correcto."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H6, H5, F3, B8, G5, C1, C2, C3, K2, K5, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: transición funcional
 
-Unidad 7 estabilizó groove y pequeñas variaciones. Unidad 8 focalizó la orquestación. esta unidad cambia la función del material:
+Unidad 7 estabilizó groove y pequeñas variaciones. Unidad 8 focalizó la orquestación. Esta unidad cambia la función del material:
 
 > **FILL = TRANSICIÓN, NO EXHIBICIÓN.**
 
@@ -32,7 +32,7 @@ Trabajamos sólo dos duraciones:
 
 Fill B reutiliza movimiento manual ya conocido de Unidad 2/Unidad 8. No aparece vocabulario rudimental nuevo.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Fill A: un tiempo y vuelta al 1
 Aprender `entrada → duración → aterrizaje` con el fill mínimo.
@@ -53,11 +53,11 @@ Elegir Fill A o Fill B y demostrar:
 
 ## Fronteras
 
-esta unidad puede certificar **fills MÍNIMO**: insertar un fill sencillo sin perder sistemáticamente el pulso.
+Esta unidad puede certificar **fills MÍNIMO**: insertar un fill sencillo sin perder sistemáticamente el pulso.
 
-esta unidad **no certifica fills COMPETENTE/FUNCIONAL ni independencia avanzada**. La ventana de pie izquierdo es breve, escrita y opcional.
+Esta unidad **no certifica fills COMPETENTE/FUNCIONAL ni independencia avanzada**. La ventana de pie izquierdo es breve, escrita y opcional.
 
-5/4 y 7/8 pueden reaparecer sólo como AMPLIACIÓN si ya están funcionales; no forman parte del Evaluación ni del Hito 5.
+5/4 y 7/8 pueden reaparecer sólo como AMPLIACIÓN si ya están funcionales; no forman parte de la evaluación ni del Hito 5.
 
 ## Qué se evalúa
 

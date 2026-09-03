@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación **no sirve para “aprobar esta unidad”** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. Su pregunta es más concreta:
+Esta evaluación **no sirve para “aprobar esta unidad”** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. Su pregunta es más concreta:
 
 > **¿pulso, subdivisión y cambios de subdivisión y tuplets y ornamentación permiten abrir Unidad 6 sin confundir “tres por pulso” con “seis pulsos iguales” ni perder sistemáticamente la referencia al cambiar 2↔3↔4?**
 
@@ -27,7 +27,7 @@ No se exige cero errores, cambio rápido, primera vista formal forma y lectura d
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es **nueva y exclusiva de este Evaluación**. Sigue en `4/4`: el primer compás contiene cuatro pulsos ternarios y los tres siguientes reorganizan el interior de la negra entre `2`, `3` y `4` partes. No introduce 6/8, sextillos, métrica impar ni una nueva capa técnica.
+La partitura siguiente es **nueva y exclusiva de esta evaluación**. Sigue en `4/4`: el primer compás contiene cuatro pulsos ternarios y los tres siguientes reorganizan el interior de la negra entre `2`, `3` y `4` partes. No introduce 6/8, sextillos, métrica impar ni una nueva capa técnica.
 
 <div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-Evaluación-reorganizacion.musicxml" data-score-title="Unidad 5.evaluación — Puerta de reorganización del pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-Evaluación-reorganizacion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
@@ -171,7 +171,7 @@ No se exige:
 - **cuentas cada ataque como pulso:** vuelve a marcar la negra mientras vocalizas las partes internas;
 - **una muestra aislada contradice varias recientes:** elicita otra muestra breve antes de cambiar el mapa de progreso.
 
-Completar este Evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación, imitación rítmica, relación entre oído y notación ni ninguna otra competencia. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
+Completar esta evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación, imitación rítmica, relación entre oído y notación ni ninguna otra competencia. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
 
 ## Puente a Unidad 6
 

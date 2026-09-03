@@ -21,7 +21,7 @@ El criterio superior de transferencia entre estilos en **MÍNIMO PARA AVANZAR** 
 
 > **Identifica un principio compartido entre estilos.**
 
-esta unidad lo operacionaliza sin crear una rúbrica paralela:
+Esta unidad lo operacionaliza sin crear una rúbrica paralela:
 
 > compara dos contextos, identifica una función o principio compartido, distingue al menos una diferencia de realización y demuestra una transferencia controlada explicando qué conserva y qué transforma.
 
@@ -108,7 +108,7 @@ El mapa superior fija:
 
 > **Combina lenguajes y crea híbridos con intención musical.**
 
-Esto requiere más amplitud, conocimiento contextual y capacidad de combinación deliberada. esta unidad puede abrir esa puerta, pero **no exige este nivel para continuar**.
+Esto requiere más amplitud, conocimiento contextual y capacidad de combinación deliberada. Esta unidad puede abrir esa puerta, pero **no exige este nivel para continuar**.
 
 ## Decisión
 
@@ -121,7 +121,7 @@ Usa el lenguaje aprobado:
 
 ## Fronteras de certificación
 
-Este Evaluación:
+Esta evaluación:
 
 - no certifica dominio completo de ningún estilo;
 - no convierte una grabación en definición de una tradición;

@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Esta lección **entrena el procedimiento de observación**. No es todavía el Evaluación final y no decide por sí sola el Hito 2.
+Esta lección **entrena el procedimiento de observación**. No es todavía la evaluación final y no decide por sí sola el Hito 2.
 
 > **LA MUESTRA A SÓLO ES NUEVA UNA VEZ.**
 

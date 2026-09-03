@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Polirritmia: dos capas, un ciclo común"
 summary: "Profundiza polirritmia: comprender y mantener dos periodicidades simultáneas como 3:2 y 4:3, localizar su ciclo común y distinguir polirritmia de tuplet, ciclo trans-barra y polimetría."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J6, C1, C2, C3, C4, D4, D6, E2, F2, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true
@@ -17,11 +17,11 @@ published: true
 
 ## Función de la unidad
 
-esta unidad profundiza **polirritmia**.
+Esta unidad profundiza **polirritmia**.
 
 El concepto no aparece aquí por primera vez. Fase 1 ya abrió una experiencia accesible de `3:2`; el objetivo actual es convertir aquella ventana en una capacidad funcional: **mantener dos capas a la vez y comprender qué relación temporal comparten**.
 
-el curso $1:
+El curso $1:
 
 - **MÍNIMO:** comprender y ejecutar relaciones sencillas como `3:2` de forma accesible;
 - **COMPETENTE / FUNCIONAL:** mantener dos capas rítmicas y entender su relación común;
@@ -61,7 +61,7 @@ La rejilla de 6 **no es una tercera capa que deba tocarse siempre**. Es una herr
 
 ## Prerrequisitos curriculares
 
-el curso $1 para polirritmia:
+El curso $1 para polirritmia:
 
 - **R:** subdivisión disponible;
 - **R:** teoría de pulso/métrica suficiente para comprender la relación.
@@ -90,7 +90,7 @@ En esta unidad las dos capas comparten un ciclo temporal explícito. **polimetr�
 
 En esta unidad no reinterpretamos una subdivisión como nuevo tempo. **modulación métrica** estudiará cuándo una relación interna pasa a definir un nuevo pulso calculable.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — 3:2 desde la rejilla común:** construir dos y tres por separado y superponerlos sin perder el ciclo.
 2. **Lección 2 — Cambiar el foco sin cambiar la relación:** mantener `3:2`, intercambiar manos/capas y aprender a escuchar cada periodicidad como figura independiente.
@@ -137,13 +137,13 @@ El nivel avanzado **no es requisito para continuar**.
 
 ## Recursos
 
-La Biblioteca Maestra relaciona polirritmia con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. esta unidad no reproduce ejercicios de esos métodos.
+La Biblioteca Maestra relaciona polirritmia con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.
 
-la base documental del curso incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción polirritmia/polimetría.
+La base documental del curso incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción polirritmia/polimetría.
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando el alumno puede:
+Esta unidad cumple su función cuando el alumno puede:
 
 1. explicar una relación `3:2` mediante su ciclo común;
 2. mantener las dos capas durante varios ciclos;

@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Transcripción corta y método de verificación"
 summary: "Introduce transcripción real como reconstrucción iterativa de una fuente: formular hipótesis, escuchar con una pregunta, revisar, tocar y validar sin rellenar dudas por intuición."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [E3, E4, E5, E6, D4, D5, D6, F2, C1, C2, K2, K3, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-Unidad 2 entrenó imitación, segmentación y dictado. esta unidad cambia el contrato:
+Unidad 2 entrenó imitación, segmentación y dictado. Esta unidad cambia el contrato:
 
 `FUENTE → HIPÓTESIS → PREGUNTA → REESCUCHA → REVISIÓN → EJECUCIÓN → VALIDACIÓN`
 
@@ -55,7 +55,7 @@ El objetivo no es llenar todos los huecos. El mínimo de transcripción real exi
 9. revela la solución cuando hayas cerrado tu versión;
 10. compara primera hipótesis, versión final y solución.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Fuente, marco e hipótesis
 Aprendes a no esperar certeza total antes de empezar: construyes un primer mapa de dos compases y etiquetas lo seguro, lo provisional y lo dudoso.

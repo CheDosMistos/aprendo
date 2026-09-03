@@ -47,7 +47,7 @@ El material técnico conocido pasa a ser una espiral secundaria. Puede aparecer 
 
 ## Recorrido aprobado de Unidad 1
 
-La unidad conserva la arquitectura ya fijada:
+El recorrido es:
 
 1. **Punto real de entrada** — comprobar qué está realmente disponible.
 2. **Fluidez binaria sin memorizar dibujos** — aumentar continuidad y densidad de lectura.
@@ -55,7 +55,7 @@ La unidad conserva la arquitectura ya fijada:
 4. **Oído, escritura y primera vista** — cerrar el ciclo sonido ↔ notación con material nuevo.
 5. **Puerta de fluidez binaria** — Evaluación para decidir el siguiente paso.
 
-Las cinco piezas Lección 1–Lección 4 + evaluación forman ya el recorrido completo de Unidad 1. Eso **cierra la estructura de la unidad de la unidad**, pero completar las páginas no equivale a “aprobar”: el Evaluación decide si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según evidencia y salud/carga.
+Las cinco piezas Lecciones 1–4 + evaluación forman ya el recorrido completo de Unidad 1. Eso **cierra la estructura de la unidad**, pero completar las páginas no equivale a “aprobar”: la evaluación decide si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según evidencia y salud/carga.
 
 ## Regla de primera vista
 

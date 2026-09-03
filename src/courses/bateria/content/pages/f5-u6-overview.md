@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Sonido funcional, afinación básica, click y grabación"
 summary: "Construye balance, sonido y orquestación MÍNIMO mediante comparación auditiva, ajuste reversible y grabación diagnóstica, sin convertir la unidad en ingeniería de audio."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H8, A5, H1, C4, I3, I4, K2, K5, K6, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: balance, sonido y orquestación funcional
 
-esta unidad cambia la pregunta. Ya no basta con tocar la figura correcta: hay que **escuchar qué sonido produce realmente el kit, registrar una referencia y tomar una decisión sencilla que pueda comprobarse**.
+Esta unidad cambia la pregunta. Ya no basta con tocar la figura correcta: hay que **escuchar qué sonido produce realmente el kit, registrar una referencia y tomar una decisión sencilla que pueda comprobarse**.
 
 el recorrido del curso fija el nivel mínimo de balance, sonido y orquestación así:
 
@@ -52,7 +52,7 @@ NIOSH advierte que el riesgo auditivo depende de la **intensidad y la duración 
 
 Fuente institucional: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/docs/wp-solutions/2015-184/default.html).
 
-esta unidad no convierte un único número de dB en una frontera universal de seguridad doméstica.
+Esta unidad no convierte un único número de dB en una frontera universal de seguridad doméstica.
 
 ### TRADICIÓN TÉCNICA / FABRICANTE — Evans / D’Addario
 

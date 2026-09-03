@@ -21,7 +21,7 @@ rudiments:
 published: true
 ---
 
-esta unidad continúa directamente desde Unidad 1. No reinicia técnica ni lectura: recupera una pequeña muestra de lo anterior y añade **seis rudimentos PAS**, más vocabulario de lectura y una primera experiencia clara del contraste entre **dos y tres partes iguales por pulso**.
+Esta unidad continúa directamente desde Unidad 1. No reinicia técnica ni lectura: recupera una pequeña muestra de lo anterior y añade **seis rudimentos PAS**, más vocabulario de lectura y una primera experiencia clara del contraste entre **dos y tres partes iguales por pulso**.
 
 ## Los seis rudimentos de esta unidad
 

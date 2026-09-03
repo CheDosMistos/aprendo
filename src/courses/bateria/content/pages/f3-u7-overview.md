@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Improvisación rítmica con restricciones"
 summary: "Usa motivos y transformaciones mientras el tiempo continúa: improvisa bajo una consigna observable, aprende a recuperarte y retira andamiaje de forma gradual."
-duration: Unidad flexible · 5 lecciones + Puerta G3
+duration: Unidad flexible · 5 lecciones + Puerta composición de fills y secciones
 competencies: [G3, G1, G2, C1, C2, F3, K2, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-Unidad 6 te enseñó a transformar una idea **fuera de la presión del tiempo real**. esta unidad cambia una condición: ahora debes decidir mientras el marco continúa.
+Unidad 6 te enseñó a transformar una idea **fuera de la presión del tiempo real**. Esta unidad cambia una condición: ahora debes decidir mientras el marco continúa.
 
 `RECUPERAR VOCABULARIO → FIJAR RESTRICCIÓN → IMPROVISAR SIN PARAR → ESCUCHAR → IDENTIFICAR DECISIONES/ACCIDENTES → AJUSTAR → RETIRAR AYUDA`
 
@@ -38,7 +38,7 @@ No es una estética obligatoria. La retiramos cuando deja de aportar aprendizaje
 
 ## No: “más restricciones = mejor”
 
-La investigación disponible no permite afirmar que aumentar restricciones produzca automáticamente más creatividad, más flow ni más aprendizaje. esta unidad usa una **gradiente de andamiaje** y la va reduciendo.
+La investigación disponible no permite afirmar que aumentar restricciones produzca automáticamente más creatividad, más flow ni más aprendizaje. Esta unidad usa una **gradiente de andamiaje** y la va reduciendo.
 
 `1 motivo + 1 transformación + frase fija`
 ↓
@@ -74,7 +74,7 @@ Durante una toma:
 
 Entre tomas sí puedes volver al **modo laboratorio** para diagnosticar.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Un motivo, una transformación, una frase
 Espacio de búsqueda mínimo: A + una operación desarrollo motívico + longitud fija.
@@ -100,7 +100,7 @@ Improvisas una frase breve bajo una restricción, guardas una toma y señalas qu
 
 **Componer en Unidad 8:** fijar, escribir, ejecutar, escuchar y revisar decisiones.
 
-esta unidad no exige escribir por adelantado una “respuesta correcta”.
+Esta unidad no exige escribir por adelantado una “respuesta correcta”.
 
 ## Evaluación
 

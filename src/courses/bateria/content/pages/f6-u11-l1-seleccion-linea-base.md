@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: seleccionar-proyecto-linea-base
 kind: lesson
 order: 1
-title: "esta unidad.Lección 1 — Elegir un proyecto acotado y construir la línea base"
+title: "Esta unidad.Lección 1 — Elegir un proyecto acotado y construir la línea base"
 summary: "Selecciona material legal y adecuado, define un resultado musical observable y registra una línea base antes de empezar a corregir."
 duration: 1–2 sesiones
 competencies: [K1, K2, K3, K8, I3, I4, F7]
@@ -41,7 +41,7 @@ Elegir algo desproporcionado no demuestra más autonomía. Puede impedir disting
 
 ## Puedes reutilizar material
 
-el diseño del curso de Fase 6 advierte que Unidad 9–esta unidad no deberían convertirse en tres proyectos gigantes consecutivos.
+El diseño del curso de Fase 6 advierte que Unidad 9–esta unidad no deberían convertirse en tres proyectos gigantes consecutivos.
 
 Por tanto, es válido reutilizar:
 

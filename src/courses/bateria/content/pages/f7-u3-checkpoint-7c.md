@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
-Este Evaluación no pregunta si “aguantas un patrón raro”. Evalúa si **métricas impares y mixtas empieza a ser funcional**: comprensión, referencia temporal, lectura/escritura, ejecución, transferencia musical y recuperación.
+Esta evaluación no pregunta si “aguantas un patrón raro”. Evalúa si **métricas impares y mixtas empieza a ser funcional**: comprensión, referencia temporal, lectura/escritura, ejecución, transferencia musical y recuperación.
 
 No se usa un BPM universal como puerta de paso.
 

@@ -17,7 +17,7 @@ published: true
 
 ## Qué certifica
 
-Este Evaluación sí busca el criterio literal de coordinación básica de cuatro extremidades MÍNIMO:
+Esta evaluación sí busca el criterio literal de coordinación básica de cuatro extremidades MÍNIMO:
 
 > **Coordina patrones sencillos sin perder pulso.**
 
@@ -43,7 +43,7 @@ Para cada patrón:
 6. aplica un correctivo de una variable;
 7. recompón las cuatro extremidades y vuelve a probar.
 
-No es obligatorio ejecutar A→B sin pausa para superar el Evaluación.
+No es obligatorio ejecutar A→B sin pausa para superar la evaluación.
 
 ## MÍNIMO PARA Patrón A mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
 - Patrón B mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;

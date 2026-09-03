@@ -63,7 +63,7 @@ El tercer resultado no es un fracaso del aprendizaje: es información.
 
 ## 4. No confundir dificultad con pertinencia
 
-Una versión más compleja no es más auténtica por ser más difícil. esta unidad evalúa si la decisión está justificada por el contexto, no cuántas notas puedes introducir.
+Una versión más compleja no es más auténtica por ser más difícil. Esta unidad evalúa si la decisión está justificada por el contexto, no cuántas notas puedes introducir.
 
 ## 5. Segunda pasada
 

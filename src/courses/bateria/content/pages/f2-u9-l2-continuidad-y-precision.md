@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Una primera vista puede fallar de maneras distintas. esta unidad no acepta una puntuación única que mezcle todo.
+Una primera vista puede fallar de maneras distintas. Esta unidad no acepta una puntuación única que mezcle todo.
 
 > **CONTINUIDAD Y PRECISIÓN SON EVIDENCIAS RELACIONADAS, PERO NO IDÉNTICAS.**
 

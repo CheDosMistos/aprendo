@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación no introduce material nuevo. Observa si el protocolo de primera vista funciona en **dos muestras protegidas e independientes**.
+Esta evaluación no introduce material nuevo. Observa si el protocolo de primera vista funciona en **dos muestras protegidas e independientes**.
 
 > **UNA SOLA LÍNEA NO DEBE DECIDIR forma y lectura de chart. DOS MUESTRAS TAMPOCO CONVIERTEN AUTOMÁTICAMENTE forma y lectura de chart EN FUNCIONAL.**
 
@@ -140,10 +140,10 @@ No se exige:
 - un BPM fijo;
 - forma y lectura de chart `FUNCIONAL` global;
 - superar Hito 2 completo;
-- usar click reducido durante este Evaluación;
+- usar click reducido durante esta evaluación;
 - gaps, half-time o desplazamiento de click.
 
-## Qué actualiza este Evaluación
+## Qué actualiza esta evaluación
 
 La evidencia puede actualizar **sólo las habilidades realmente observadas**. Completar la página no actualiza automáticamente pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, lectura de compás ni forma y lectura de chart.
 

@@ -15,15 +15,15 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
-el curso $1 ciclos que cruzan compases así:
+El curso $1 ciclos que cruzan compases así:
 
 - **MÍNIMO:** mantener una célula mientras cambia su alineación con el compás;
 - **COMPETENTE / FUNCIONAL:** predecir y sentir la resolución de ciclos sencillos;
 - **AVANZADO:** diseñar ciclos largos e integrarlos en forma sin perder referencia.
 
-Por tanto, este Evaluación no se supera sólo por repetir un patrón de memoria.
+Por tanto, esta evaluación no se supera sólo por repetir un patrón de memoria.
 
 Se evalúan:
 

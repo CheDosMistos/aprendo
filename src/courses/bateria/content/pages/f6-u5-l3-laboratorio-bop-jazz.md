@@ -25,7 +25,7 @@ No aprenderás aquí «el patrón correcto de jazz». El laboratorio sirve para 
 
 *The Art of Bop Drumming*, de **John Riley**, es un método comercial publicado por Alfred Music que trabaja, entre otros temas, time playing, comping, soloing, brushes, lectura de charts y fundamentos del lenguaje jazz.
 
-esta unidad lo usa como **referencia externa de ampliación**. No reproduce, reconstruye ni adapta sus ejercicios como si fueran material propio.
+Esta unidad lo usa como **referencia externa de ampliación**. No reproduce, reconstruye ni adapta sus ejercicios como si fueran material propio.
 
 ## 1. Conserva una referencia temporal legible
 

@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad convierte la ventana previa de “siete” en **7/8 funcional básico**. El objetivo es sostener un ciclo de siete corcheas y poder cambiar conscientemente su organización interna sin perder la barra.
+Esta unidad convierte la ventana previa de “siete” en **7/8 funcional básico**. El objetivo es sostener un ciclo de siete corcheas y poder cambiar conscientemente su organización interna sin perder la barra.
 
 > **7/8 ≠ septillo ≠ agrupación de siete notas.**
 
@@ -41,7 +41,7 @@ Y se mantiene la regla superior:
 
 ## Estado métricas impares y mixtas al terminar
 
-Unidad 9 ya aportó 5/4 funcional básico. esta unidad puede cerrar **métricas impares y mixtas MÍNIMO GLOBAL** si también reconoces/cuentas 7/8 y agrupaciones sencillas.
+Unidad 9 ya aportó 5/4 funcional básico. Esta unidad puede cerrar **métricas impares y mixtas MÍNIMO GLOBAL** si también reconoces/cuentas 7/8 y agrupaciones sencillas.
 
 **métricas impares y mixtas COMPETENTE/FUNCIONAL no se concede por calendario:** requiere evidencia de lectura, escritura e improvisación tanto en 5/4 como en 7/8.
 

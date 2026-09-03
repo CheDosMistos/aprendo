@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Primer groove: tres extremidades y puente hacia cuatro"
 summary: "Convierte capas motoras elementales en un groove básico estable antes de exigir coordinación completa de cuatro extremidades."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H5, H2, H4, C1, C2, K2, K5, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Patrón aprendido ≠ groove estable
 
-esta unidad convierte coordinación elemental en una función musical reconocible: **groove**.
+Esta unidad convierte coordinación elemental en una función musical reconocible: **groove**.
 
 El patrón base es deliberadamente simple y original:
 
@@ -33,7 +33,7 @@ No se atribuye a una canción, baterista, estilo o método.
 
 El mapa sitúa groove y variaciones después de una base coordinación básica de cuatro extremidades, pero **introducir no significa declarar funcional**. En esta unidad coordinación básica de cuatro extremidades sigue en desarrollo: el núcleo usa tres extremidades y una primera tarea de cuatro aparece sólo como AMPLIACIÓN.
 
-esta unidad **no certifica coordinación básica de cuatro extremidades MÍNIMO** ni independencia avanzada. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
+Esta unidad **no certifica coordinación básica de cuatro extremidades MÍNIMO** ni independencia avanzada. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
 
 ## Qué vas a construir
 

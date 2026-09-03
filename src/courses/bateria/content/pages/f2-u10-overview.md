@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Referencia temporal menos explícita"
 summary: "Reduce gradualmente la densidad del click sobre lectura ya conocida para observar referencia interna, sin confundir dificultad temporal con dificultad notacional."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C4, C5, D1, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-esta unidad cambia una sola variable central: **la cantidad de información temporal que entrega el metrónomo**.
+Esta unidad cambia una sola variable central: **la cantidad de información temporal que entrega el metrónomo**.
 
 La lectura utilizada debe ser deliberadamente conocida y controlada. Si la línea es nueva o notacionalmente difícil, el resultado deja de decir con claridad si el problema está en metrónomo y click reducido/click desplazado o no obvio o en lectura.
 
@@ -62,7 +62,7 @@ En 4/4, el selector **Referencia** ofrece:
 - `Half-time · 1 y 3 · 4/4`;
 - `Gap · 1 compás sí / 1 no · 4/4`.
 
-Los modos reducidos no se habilitan automáticamente en otros compases. esta unidad no necesita generalizar todavía esta herramienta a toda métrica.
+Los modos reducidos no se habilitan automáticamente en otros compases. Esta unidad no necesita generalizar todavía esta herramienta a toda métrica.
 
 ## Qué NO añade esta unidad
 

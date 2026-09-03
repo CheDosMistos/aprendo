@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: cambiar una variable sin perder la música
 
-esta unidad usa fusion/progressive como **ventana de integración**, no como excusa para acumular rarezas métricas.
+Esta unidad usa fusion/progressive como **ventana de integración**, no como excusa para acumular rarezas métricas.
 
 > **COMPLEJIDAD ≠ MUSICALIDAD.**
 

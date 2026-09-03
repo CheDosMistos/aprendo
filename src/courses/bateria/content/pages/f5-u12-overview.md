@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración y Hito 6"
 summary: "Cierra Fase 5 integrando Pieza A, Pieza B y Pieza C como evidencia de estructura, tiempo, dinámica y recuperación, sin introducir una habilidad aislada nueva."
-duration: Unidad flexible · 4 lecciones + checkpoint final
+duration: Unidad flexible · 4 lecciones + Evaluación final
 competencies: [H5, H6, H7, H8, I2, I3, I4, C1, C2, C3, C4, F3, K2, K5, K6, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: ninguna habilidad aislada
 
-esta unidad no añade un nuevo estilo, patrón, rudimento, compás ni sistema de independencia.
+Esta unidad no añade un nuevo estilo, patrón, rudimento, compás ni sistema de independencia.
 
 Su función es **integrar y producir evidencia**.
 
@@ -49,7 +49,7 @@ No todas las dimensiones tienen que alcanzar el mismo nivel simultáneamente.
 
 > **EL HITO SE JUZGA POR FUNCIÓN MUSICAL SOSTENIDA, NO POR PERFECCIÓN GLOBAL.**
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Protocolo de evidencia y condiciones declaradas
 Define qué se registra, qué ayudas se usan, cómo se documenta la carga de sesión y qué hace una evidencia interpretable.
@@ -68,7 +68,7 @@ Aplica el texto superior sin inventar nuevas puertas numéricas.
 
 ## Qué NO se exige
 
-esta unidad no exige:
+Esta unidad no exige:
 
 - tres tomas perfectas;
 - un BPM prefijado;
@@ -82,15 +82,15 @@ esta unidad no exige:
 
 ## No se crea nueva partitura
 
-esta unidad reutiliza el material ya validado de A/B/C. Crear otro MusicXML sólo para el cierre duplicaría información y desplazaría el foco desde la evidencia hacia material nuevo.
+Esta unidad reutiliza el material ya validado de A/B/C. Crear otro MusicXML sólo para el cierre duplicaría información y desplazaría el foco desde la evidencia hacia material nuevo.
 
 ## Regla de escucha segura
 
 gestión de carga y salud sigue activo. Al tocar piezas completas, aumenta la exposición acumulada del kit.
 
-Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. esta unidad no inventa un nivel universal “seguro” para toda batería, sala o sesión.
+Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. Esta unidad no inventa un nivel universal “seguro” para toda batería, sala o sesión.
 
-## Criterio de avance hacia el Evaluación
+## Criterio de avance hacia la evaluación
 
 Puedes comenzar la evidencia final cuando:
 

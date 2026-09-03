@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Lección 1–Lección 3 han construido una idea común: el pulso puede permanecer mientras su interior se organiza en `2`, `3` o `4` partes iguales. Lección 4 no añade una cuarta densidad. Cambia la pregunta: **¿puedes reconocer y reconstruir la misma organización cuando cambia la representación?**
+Lecciones 1–3 han construido una idea común: el pulso puede permanecer mientras su interior se organiza en `2`, `3` o `4` partes iguales. Lección 4 no añade una cuarta densidad. Cambia la pregunta: **¿puedes reconocer y reconstruir la misma organización cuando cambia la representación?**
 
 > **ESCUCHAR, IMITAR, ESCRIBIR Y LEER SON VÍAS DISTINTAS HACIA UNA MISMA ORGANIZACIÓN TEMPORAL.**
 

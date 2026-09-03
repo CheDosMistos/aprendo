@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación no pregunta cuál es el modo de metrónomo más difícil que puedes soportar. Pregunta si reducir referencia produce una muestra interpretable de control temporal.
+Esta evaluación no pregunta cuál es el modo de metrónomo más difícil que puedes soportar. Pregunta si reducir referencia produce una muestra interpretable de control temporal.
 
 <div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="Unidad 10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
@@ -78,7 +78,7 @@ No mezcles:
 - estado general de competencia;
 - retención.
 
-Completar el Evaluación no convierte click desplazado o no obvio en `FUNCIONAL`.
+Completar la evaluación no convierte click desplazado o no obvio en `FUNCIONAL`.
 
 ## Puente a Unidad 11
 

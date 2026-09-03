@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Desplazamientos de acento y motivo"
 summary: "Profundiza desplazamientos de acento y motivo: conserva compás, pulso y subdivisión mientras una referencia acentual o una célula completa cambia deliberadamente de posición dentro de la cuadrícula."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J2, J1, C1, C2, C4, C6, D4, D6, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad profundiza **desplazamientos de acento/motivo**.
+Esta unidad profundiza **desplazamientos de acento/motivo**.
 
 El alumno ya ha trabajado agrupaciones dentro de 4/4. Ahora la pregunta cambia:
 
@@ -58,7 +58,7 @@ el recorrido del curso fija para desplazamientos de acento y motivo:
 
 No se exige agrupaciones dentro de 4/4 avanzado.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — Desplazar el acento:** una misma línea de semicorcheas con el acento en `1`, `e`, `&` y `a`.
 2. **Lección 2 — Desplazar una célula:** conservar la identidad interna de un motivo mientras cambia su punto de inicio.
@@ -104,7 +104,7 @@ La Biblioteca Maestra identifica *Rhythmic Visions* de Gavin Harrison como recur
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando el alumno puede:
+Esta unidad cumple su función cuando el alumno puede:
 
 1. definir desplazamiento;
 2. mantener la cuadrícula mientras mueve un acento o motivo;

@@ -18,7 +18,7 @@ rudiments:
 published: true
 ---
 
-esta unidad continúa **Tier 4** integrando vocabulario ya disponible. No vuelve a enseñar Flam, Single Paradiddle-diddle o Drag desde cero: los usa como puertas locales y corrige solo el componente que falle.
+Esta unidad continúa **Tier 4** integrando vocabulario ya disponible. No vuelve a enseñar Flam, Single Paradiddle-diddle o Drag desde cero: los usa como puertas locales y corrige solo el componente que falle.
 
 ## ESENCIAL AHORA
 

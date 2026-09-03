@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## AMPLIACIÓN — no requisito del Evaluación esta unidad
+## AMPLIACIÓN — no requisito de la evaluación esta unidad
 
 Esta lección sólo se realiza si el hi-hat de pie de Unidad 4 está suficientemente disponible para que añadirlo no destruya el Groove Base A.
 

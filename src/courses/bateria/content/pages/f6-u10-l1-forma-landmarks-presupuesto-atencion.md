@@ -105,7 +105,7 @@ Un chart saturado puede competir con la escucha. Añade información sólo si ca
 
 ### «Ya memoricé la forma, no necesito chart»
 
-esta unidad evalúa también la capacidad de **usar** un chart funcional. Puedes reducir ayudas más adelante, no eliminar el objeto de la unidad antes de obtener evidencia.
+Esta unidad evalúa también la capacidad de **usar** un chart funcional. Puedes reducir ayudas más adelante, no eliminar el objeto de la unidad antes de obtener evidencia.
 
 ### «Voy a aprovechar para aprender un estilo nuevo»
 

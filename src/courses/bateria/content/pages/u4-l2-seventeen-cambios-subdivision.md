@@ -21,7 +21,7 @@ Introducir correctamente **Seventeen Stroke Roll** y empezar cambios de subdivis
 
 ## 1. Comprobación — 3 min
 
-Pulso, subdivisión binaria y ternaria ya se trabajaron en Unidad 1–Unidad 3. No vuelvas a estudiarlos desde cero. Alterna durante unos compases **2 y 3 partes por pulso** con el mismo click. Si el pulso se desplaza, corrige esa relación brevemente; si permanece estable, continúa.
+Pulso, subdivisión binaria y ternaria ya se trabajaron en Unidades 1–3. No vuelvas a estudiarlos desde cero. Alterna durante unos compases **2 y 3 partes por pulso** con el mismo click. Si el pulso se desplaza, corrige esa relación brevemente; si permanece estable, continúa.
 
 ## 2. Qué es un cambio de subdivisión — 4 min
 

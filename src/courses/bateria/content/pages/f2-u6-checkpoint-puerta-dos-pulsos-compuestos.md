@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación **no sirve para aprobar esta unidad de memoria** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. La inferencia es más concreta:
+Esta evaluación **no sirve para aprobar esta unidad de memoria** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. La inferencia es más concreta:
 
 > **¿lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir la siguiente ampliación del compás compuesto conservando 6/8 como dos pulsos principales subdivididos en tres, incluso con silencios, y pudiendo explicar por qué «seis corcheas» no bastan para definir la métrica?**
 
@@ -184,7 +184,7 @@ Esto **no equivale** a declarar lectura de compás, métrica y terminología rí
 - **un `2+2+2` superficial sustituye mentalmente al 6/8:** retira los acentos y recupera los dos pulsos de negra con puntillo;
 - **una muestra aislada contradice varias evidencias recientes:** obtiene otra muestra breve antes de modificar el mapa de progreso.
 
-Completar este Evaluación **no actualiza automáticamente** ninguna competencia. La plataforma debe conservar la evidencia y las condiciones, no convertir “página terminada” en “habilidad dominada”.
+Completar esta evaluación **no actualiza automáticamente** ninguna competencia. La plataforma debe conservar la evidencia y las condiciones, no convertir “página terminada” en “habilidad dominada”.
 
 ## Puente a Unidad 7
 

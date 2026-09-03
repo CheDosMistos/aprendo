@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Este Evaluación cierra **esta unidad** y aporta la evidencia principal de **Hito 8 — Integración progresiva**.
+Esta evaluación cierra **esta unidad** y aporta la evidencia principal de **Hito 8 — Integración progresiva**.
 
 No exige demostrar los recursos rítmicos trabajados en las unidades anteriores al nivel avanzado ni encadenarlos todos en una sola toma.
 

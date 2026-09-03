@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación **no sirve para “aprobar esta unidad”** y no convierte el curso en una sucesión de exámenes. Su finalidad es más precisa:
+Esta evaluación **no sirve para “aprobar esta unidad”** y no convierte el curso en una sucesión de exámenes. Su finalidad es más precisa:
 
 > **Inferir si pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2 sin depender de memorizar patrones.**
 
@@ -25,7 +25,7 @@ No necesitas cero errores, un tempo fijo, lectura rápida, prescindir del conteo
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es **exclusiva de este Evaluación**. No aparece en Lección 1–Lección 4 y sólo aporta evidencia de primera lectura si no la has practicado ni escuchado antes.
+La partitura siguiente es **exclusiva de esta evaluación**. No aparece en Lecciones 1–4 y sólo aporta evidencia de primera lectura si no la has practicado ni escuchado antes.
 
 Antes de pulsar **Empezar**:
 
@@ -93,7 +93,7 @@ Antes de aumentar novedad comprueba que no haya una señal que obligue a reducir
 - deterioro técnico fuerte por fatiga;
 - tensión persistente.
 
-La prioridad deja de ser completar el Evaluación si aparece una de ellas. Si una señal persiste, corresponde valoración sanitaria; el curso no la diagnostica.
+La prioridad deja de ser completar la evaluación si aparece una de ellas. Si una señal persiste, corresponde valoración sanitaria; el curso no la diagnostica.
 
 Ahora usa la cadena completa:
 
@@ -147,7 +147,7 @@ No se exige:
 - **Evidencia reciente y representativa:** puede reutilizarse; no hace falta repetir por obligación.
 - **Evidencia dudosa o contradictoria:** elicita una muestra corta antes de degradar una competencia estable.
 - **Una toma atípica:** diagnostica y, cuando tenga sentido, retesta antes de cambiar el mapa de progreso.
-- **Completar el Evaluación:** no actualiza automáticamente pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras; la plataforma debe registrar la evidencia concreta y la decisión.
+- **Completar la evaluación:** no actualiza automáticamente pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras; la plataforma debe registrar la evidencia concreta y la decisión.
 
 ## Puente a Unidad 2
 

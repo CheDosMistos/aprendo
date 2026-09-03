@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Llegar a la integración sin volver a empezar Unidad 1–Unidad 9.
+Llegar a la integración sin volver a empezar Unidades 1–9.
 
 La regla es:
 

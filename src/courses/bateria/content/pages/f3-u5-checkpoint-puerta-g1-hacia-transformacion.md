@@ -15,15 +15,15 @@ rudiments: []
 published: true
 ---
 
-## Función del Evaluación
+## Función de la evaluación
 
-Unidad 6 sólo puede estudiar transformaciones si existe primero **algo reconocible que transformar**. Este Evaluación comprueba esa base motivo.
+Unidad 6 sólo puede estudiar transformaciones si existe primero **algo reconocible que transformar**. Esta evaluación comprueba esa base motivo.
 
 No exige todavía desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambio de sticking ni ninguna otra transformación desarrollo motívico concreta.
 
 ## Regla crítica
 
-Tu material principal debe ser **nuevo para este Evaluación**. No reutilices exactamente A de Lección 1–Lección 4.
+Tu material principal debe ser **nuevo para esta evaluación**. No reutilices exactamente A de Lecciones 1–4.
 
 Conserva tu primera versión antes de revisar. La evidencia incluye la diferencia entre intención inicial, ejecución y revisión.
 
@@ -82,7 +82,7 @@ Graba una toma si puedes y conserva la primera antes de hacer una revisión.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-La siguiente partitura contiene dos compases: **C** y después **candidato X**. Este material no apareció en Lección 1–Lección 4.
+La siguiente partitura contiene dos compases: **C** y después **candidato X**. Este material no apareció en Lecciones 1–4.
 
 <div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-cp-clasificacion.musicxml" data-score-title="Unidad 5.evaluación — C y candidato X" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 

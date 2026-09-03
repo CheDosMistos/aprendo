@@ -21,7 +21,7 @@ Completar una vuelta acotada del proceso:
 
 > **OBSERVAR → DEFINIR PROBLEMA → ELEGIR PRUEBA → ELEGIR ESTRATEGIA/RECURSO → PRACTICAR → MEDIR → RECUPERAR → TRANSFERIR → DECIDIR SIGUIENTE PASO**
 
-Unidad 1 abrió Proyecto autónomo. esta unidad lo convierte en **ensayo de autonomía aplicada**.
+Unidad 1 abrió Proyecto autónomo. Esta unidad lo convierte en **ensayo de autonomía aplicada**.
 
 ## Elegir una tarea adecuada
 
@@ -108,7 +108,7 @@ También es información. Si la prueba era coherente, un resultado nulo puede de
 
 ## Relación con transcripción real, análisis musical e formas y canciones
 
-esta unidad puede usar transcripción, análisis o repertorio como **contexto**. Completar este microciclo no certifica automáticamente:
+Esta unidad puede usar transcripción, análisis o repertorio como **contexto**. Completar este microciclo no certifica automáticamente:
 
 - transcripción real FUNCIONAL global;
 - análisis musical FUNCIONAL global;

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Coordinación básica de cuatro extremidades"
 summary: "Convierte la exposición de Unidad 5 en coordinación coordinación básica de cuatro extremidades mínima mediante dos patrones simples y predeterminados."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H4, H2, H3, C2, K2, K3, K5, K7]
 rudiments: []
 published: true
@@ -21,7 +21,7 @@ Por primera vez en Fase 4, la unidad sí busca demostrar:
 
 > **Coordina patrones sencillos sin perder pulso.**
 
-Unidad 5 sólo abrió el puente. esta unidad convierte ese puente en una habilidad observable.
+Unidad 5 sólo abrió el puente. Esta unidad convierte ese puente en una habilidad observable.
 
 ## Coordinación no es todavía independencia
 
@@ -34,7 +34,7 @@ Sólo cambia una capa entre A y B.
 
 independencia avanzada empezará cuando un ostinato se mantenga mientras otra voz varía. **esta unidad no certifica independencia avanzada** ni introduce un sistema exhaustivo de independencia.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Cuatro extremidades como un patrón completo
 El Patrón A deja de ser ampliación y se convierte en tarea central.

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Reentrada desde Hito 6, diagnóstico y portafolio"
 summary: "Convierte la evidencia final de Fase 5 en una línea base de aprendizaje: observa, diagnostica, elige una prioridad y empieza el portafolio los cuatro carriles del portafolio sin repetir el Hito 6."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, I3, I4, E5, E6, F7, C1, C2, C3, C4, H5]
 rudiments: []
 published: true
@@ -19,7 +19,7 @@ published: true
 
 Fase 5 terminó demostrando que puedes sostener varias piezas de dificultad adecuada con estructura, tiempo, dinámica y recuperación ante errores.
 
-esta unidad **no vuelve a examinar el Hito 6**.
+Esta unidad **no vuelve a examinar el Hito 6**.
 
 La pregunta nueva es:
 
@@ -37,13 +37,13 @@ Puedes reutilizar una toma reciente si sus condiciones son conocidas. Si no, reg
 
 ## Ciclo de trabajo de la unidad
 
-esta unidad introduce este ciclo como herramienta, no como fórmula infalible:
+Esta unidad introduce este ciclo como herramienta, no como fórmula infalible:
 
 `OBSERVAR → DEFINIR EL PROBLEMA → ELEGIR UNA ESTRATEGIA → ACTUAR → REGISTRAR → EVALUAR → AJUSTAR → TRANSFERIR`
 
 Durante esta unidad sólo necesitamos completar una primera vuelta corta y honesta.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Una toma, una línea base
 Registra o recupera una ejecución interpretable y aprende a separar lo que ocurrió de la explicación que todavía estás formulando.

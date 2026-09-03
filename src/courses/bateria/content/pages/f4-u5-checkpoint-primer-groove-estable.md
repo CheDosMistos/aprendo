@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué certifica este Evaluación
+## Qué certifica esta evaluación
 
-Este Evaluación aporta evidencia de un **primer groove estable en la condición practicada de tres extremidades**.
+Esta evaluación aporta evidencia de un **primer groove estable en la condición practicada de tres extremidades**.
 
 No convierte automáticamente groove y variaciones en COMPETENTE/FUNCIONAL y **no certifica coordinación básica de cuatro extremidades MÍNIMO**.
 
@@ -64,7 +64,7 @@ No convierte automáticamente groove y variaciones en COMPETENTE/FUNCIONAL y **n
 
 ## AMPLIACIÓN OPCIONAL
 
-Si Unidad 4 está suficientemente disponible, puedes realizar `Puente 4 extremidades A`. Su resultado se registra como **evidencia hacia coordinación básica de cuatro extremidades**, no como requisito de este Evaluación.
+Si Unidad 4 está suficientemente disponible, puedes realizar `Puente 4 extremidades A`. Su resultado se registra como **evidencia hacia coordinación básica de cuatro extremidades**, no como requisito de esta evaluación.
 
 ## Evaluación
 

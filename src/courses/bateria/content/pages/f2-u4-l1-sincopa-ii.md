@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Unidad 3 enseñó un caso deliberadamente claro: un ataque en posición débil puede prolongarse a través de una posición más fuerte sin mover el 4/4. esta unidad.Lección 1 mantiene ese marco y cambia **una sola dimensión dominante**: ahora aparecen **más combinaciones de posiciones débiles y duraciones**.
+Unidad 3 enseñó un caso deliberadamente claro: un ataque en posición débil puede prolongarse a través de una posición más fuerte sin mover el 4/4. Esta unidad.Lección 1 mantiene ese marco y cambia **una sola dimensión dominante**: ahora aparecen **más combinaciones de posiciones débiles y duraciones**.
 
 > **Más variedad no significa más capas. Primero lee la línea; acentos y aplicación musical de rudimentos llegarán después.**
 

@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Lección 1–Lección 3 construyeron y compararon la jerarquía escrita. Lección 4 añade el paso que faltaba: **oír una organización temporal clara, formular una hipótesis métrica y justificarla antes de revelar la respuesta**.
+Lecciones 1–3 construyeron y compararon la jerarquía escrita. Lección 4 añade el paso que faltaba: **oír una organización temporal clara, formular una hipótesis métrica y justificarla antes de revelar la respuesta**.
 
 > **grabación y comparación EMPIEZA AQUÍ COMO RECONOCIMIENTO CONTROLADO, NO COMO ADIVINACIÓN DE COMPASES EN MÚSICA AMBIGUA.**
 

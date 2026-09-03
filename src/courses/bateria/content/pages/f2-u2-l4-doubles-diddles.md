@@ -208,7 +208,7 @@ Completar la lección **no actualiza automáticamente aplicación musical de rud
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia el Evaluación de esta unidad cuando, en material que todavía exige lectura:
+Puedes continuar hacia la evaluación de esta unidad cuando, en material que todavía exige lectura:
 
 - ejecutas una línea corta con sticking simple conservando ataques y silencios;
 - identificas correctamente qué pares de ataques consecutivos admiten una asignación `RR/LL` sin añadir golpes;

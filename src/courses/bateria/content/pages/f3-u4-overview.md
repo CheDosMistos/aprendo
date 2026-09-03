@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Frase, forma y mapa de canción"
 summary: "Cambia la escala de escucha: de células y compases a motivos, frases, secciones, relaciones y transiciones, sin convertir las longitudes frecuentes en leyes."
-duration: Unidad flexible · 4 lecciones + Checkpoint 3A
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [E5, F3, I1, I3, C1, E6, D6, K2, K3, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-Unidad 3 enseñó a reconstruir y verificar una fuente breve. esta unidad pregunta algo distinto: **¿cómo se organiza el tiempo a una escala mayor que la célula?**
+Unidad 3 enseñó a reconstruir y verificar una fuente breve. Esta unidad pregunta algo distinto: **¿cómo se organiza el tiempo a una escala mayor que la célula?**
 
 `ESCUCHAR TODO → PROPONER UNIDADES → RELACIONAR → LOCALIZAR LÍMITES → MAPEAR → ANTICIPAR → COMPROBAR`
 
@@ -34,7 +34,7 @@ Unidad 3 enseñó a reconstruir y verificar una fuente breve. esta unidad pregun
 
 Es frecuente encontrar organización en longitudes regulares, por lo que esas expectativas son útiles como **hipótesis de escucha**. Pero una frase no se define por tener cuatro u ocho compases y una sección no nace automáticamente cada vez que cambia un detalle.
 
-esta unidad incluye material que rompe deliberadamente una expectativa simétrica para obligar a comprobar la fuente.
+Esta unidad incluye material que rompe deliberadamente una expectativa simétrica para obligar a comprobar la fuente.
 
 ## Fuente original antes que repertorio
 
@@ -42,7 +42,7 @@ Las tareas core usan **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO**. Así pod
 
 La aplicación a repertorio real llegará progresivamente y cada obra se verificará por separado.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — De la célula a la frase
 Escuchar dos bloques relacionados y distinguir motivo, frase y cierre.
@@ -75,4 +75,4 @@ En la tarea, `cantar` puede realizarse mediante una representación vocal o cont
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`
 
-El Evaluación **observa el Hito global 3**. No cierra Fase 3 y no sustituye el Hito global 4.
+La evaluación **observa el Hito global 3**. No cierra Fase 3 y no sustituye el Hito global 4.

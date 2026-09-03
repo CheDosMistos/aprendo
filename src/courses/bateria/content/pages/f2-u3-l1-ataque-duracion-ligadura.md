@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Unidad 2 preguntaba principalmente **dónde hay ataque** dentro de una rejilla. esta unidad añade una distinción nueva:
+Unidad 2 preguntaba principalmente **dónde hay ataque** dentro de una rejilla. Esta unidad añade una distinción nueva:
 
 > **ATAQUE ≠ DURACIÓN ≠ PULSO.**
 

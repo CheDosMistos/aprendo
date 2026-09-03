@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Composición rítmica y revisión"
 summary: "Convierte una idea en una versión escrita y reproducible, organízala, transfórmala y aprende a revisar comparando intención, notación y ejecución."
-duration: Unidad flexible · 5 lecciones + Checkpoint 3B
+duration: Unidad flexible · 5 lecciones + Evaluación
 competencies: [G4, G1, G2, D6, F3, C1, C2, K2, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-Unidad 7 tomaba decisiones **mientras el tiempo continuaba**. esta unidad cambia el estatuto de una idea: ahora vas a **fijarla, escribirla, volver a tocarla y revisar una versión**.
+Unidad 7 tomaba decisiones **mientras el tiempo continuaba**. Esta unidad cambia el estatuto de una idea: ahora vas a **fijarla, escribirla, volver a tocarla y revisar una versión**.
 
 `IDEA → V0 → ESCRIBIR → TOCAR/GRABAR → COMPARAR → DIAGNOSTICAR → REVISAR → V1`
 
@@ -67,7 +67,7 @@ Una revisión válida puede:
 
 **Complejidad ≠ calidad.**
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — De la toma a la versión 0
 Seleccionas una idea y la conviertes en 1–2 compases escritos/reproducibles.
@@ -89,7 +89,7 @@ Creas una microcomposición de 1–4 compases, la escribes, la tocas, conservas 
 
 ## 4/4 como entorno core
 
-esta unidad mantiene el núcleo principalmente en **4/4** para que la novedad sea composición y revisión. 5/4 y 7/8 pueden aparecer como ampliación si ya son cómodos, pero su trabajo funcional empieza en Unidad 9/Unidad 10.
+Esta unidad mantiene el núcleo principalmente en **4/4** para que la novedad sea composición y revisión. 5/4 y 7/8 pueden aparecer como ampliación si ya son cómodos, pero su trabajo funcional empieza en Unidad 9/Unidad 10.
 
 ## Herramientas
 

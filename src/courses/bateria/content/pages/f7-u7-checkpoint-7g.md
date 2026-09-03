@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
 el recorrido del curso define polimetría así:
 
@@ -23,7 +23,7 @@ el recorrido del curso define polimetría así:
 - **FUNCIONAL:** mantener capas métricas sencillas con punto de referencia común;
 - **AVANZADO:** diseñar y ejecutar estructuras polimétricas complejas.
 
-Por tanto, el Evaluación no exige complejidad extrema. Sí exige que la palabra **polimetría** corresponda a una capacidad real y distinguible.
+Por tanto, la evaluación no exige complejidad extrema. Sí exige que la palabra **polimetría** corresponda a una capacidad real y distinguible.
 
 No existe un BPM universal de aprobado.
 

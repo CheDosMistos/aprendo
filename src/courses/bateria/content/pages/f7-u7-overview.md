@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Polimetría"
 summary: "Profundiza polimetría: mantener dos organizaciones métricas simultáneas con ciclos de barra distintos, conservar una referencia temporal común y saber dónde vuelven a coincidir sus comienzos."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J7, J5, J6, C1, C2, C3, C4, D4, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad profundiza **polimetría**.
+Esta unidad profundiza **polimetría**.
 
 el recorrido del curso no exige empezar con estructuras extremas. Para polimetría:
 
@@ -56,13 +56,13 @@ No hay cambio de tempo.
 
 ## Prerrequisitos
 
-el curso $1:
+El curso $1:
 
 - **R:** experiencia con ciclos que atraviesan barras;
 - **F:** dos capas rítmicas simultáneas suficientemente funcionales;
 - **R:** métrica y notación disponibles.
 
-esta unidad reutiliza esas capacidades, pero cambia la pregunta estructural.
+Esta unidad reutiliza esas capacidades, pero cambia la pregunta estructural.
 
 ## Fronteras obligatorias
 
@@ -97,7 +97,7 @@ En los ejemplos principales de esta unidad la negra mantiene su duración. No co
 Las dos capas se muestran sobre una línea temporal común. Sigue los acentos y etiquetas de cada métrica: las barras gráficas sirven como referencia visual y no sustituyen los ciclos propios de cada capa.
 
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — 3/4 sobre 4/4:** dos ciclos métricos, una negra común y realineación en 12 negras.
 2. **Lección 2 — Mantener dos métricas:** cambiar foco, voz, dinámica y manos sin perder ninguno de los dos `1`.
@@ -144,7 +144,7 @@ No se exige este nivel para pasar a Unidad 8.
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando puedes:
+Esta unidad cumple su función cuando puedes:
 
 1. explicar qué hace que un ejemplo sea polimétrico;
 2. distinguirlo de 3:2, de un ciclo trans-barra y de métrica mixta;

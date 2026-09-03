@@ -18,7 +18,7 @@ rudiments:
 published: true
 ---
 
-esta unidad completa la **introducción de los 40 rudimentos PAS**. La meta sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`.
+Esta unidad completa la **introducción de los 40 rudimentos PAS**. La meta sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`.
 
 ## ESENCIAL AHORA
 

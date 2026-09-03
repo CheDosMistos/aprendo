@@ -21,7 +21,7 @@ rudiments:
 published: true
 ---
 
-esta unidad **completa Tier 2** de la secuencia pedagógica adoptada para Fase 1. Recupera material de Unidad 1/Unidad 2, añade seis rudimentos PAS y convierte la exposición ternaria de Unidad 2 en trabajo estructurado de **tresillos, acentos y lectura**.
+Esta unidad **completa Tier 2** de la secuencia pedagógica adoptada para Fase 1. Recupera material de Unidad 1/Unidad 2, añade seis rudimentos PAS y convierte la exposición ternaria de Unidad 2 en trabajo estructurado de **tresillos, acentos y lectura**.
 
 ## ESENCIAL AHORA
 
@@ -40,7 +40,7 @@ esta unidad **completa Tier 2** de la secuencia pedagógica adoptada para Fase 1
 
 ## AVANZADO
 
-esta unidad no añade una nueva ventana avanzada central. Si aparece tiempo extra, puedes observar cómo un patrón de acentos cambia la percepción de agrupación **sin llamarlo desplazamiento, cambio de compás ni polirritmia**. No es criterio de avance.
+Esta unidad no añade una nueva ventana avanzada central. Si aparece tiempo extra, puedes observar cómo un patrón de acentos cambia la percepción de agrupación **sin llamarlo desplazamiento, cambio de compás ni polirritmia**. No es criterio de avance.
 
 ## Los seis PAS de esta unidad
 

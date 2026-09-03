@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Feel y microtiming: colocación, sonido y contexto"
 summary: "Distingue estabilidad temporal de feel, analiza relaciones finas de colocación y sonido y aprende a comparar decisiones sin convertir milisegundos en recetas universales."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C7, C1, C2, C4, I2, E5, H5, H6, K5, K8]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: precisión métrica no equivale a feel
 
-Unidad 7 enseñó a transferir principios entre estilos sin borrar su carácter. esta unidad profundiza una dimensión que las unidades anteriores habían reservado expresamente: **cómo se relacionan estabilidad, colocación temporal fina, articulación, intensidad, sonido y contexto cuando una interpretación adquiere un feel concreto**.
+Unidad 7 enseñó a transferir principios entre estilos sin borrar su carácter. Esta unidad profundiza una dimensión que las unidades anteriores habían reservado expresamente: **cómo se relacionan estabilidad, colocación temporal fina, articulación, intensidad, sonido y contexto cuando una interpretación adquiere un feel concreto**.
 
 El mapa superior fija microtiming y placement:
 
@@ -34,7 +34,7 @@ En esta unidad distinguiremos:
 1. **ESTABILIDAD TEMPORAL:** capacidad de mantener una referencia temporal coherente a escala de pulso, subdivisión y forma.
 2. **PRECISIÓN MÉTRICA:** relación de los ataques con una referencia o rejilla utilizada para describir la interpretación.
 3. **MICROTIMING:** diferencias temporales pequeñas entre ataques, voces y/o una referencia; pueden ser intencionales, emergentes, contextuales o producto de variabilidad de ejecución.
-4. **FEEL:** resultado musical percibido que puede depender de timing, articulación, dinámica, timbre, duración, interacción, fraseo, repertorio y contexto. esta unidad no lo reduce a una sola variable.
+4. **FEEL:** resultado musical percibido que puede depender de timing, articulación, dinámica, timbre, duración, interacción, fraseo, repertorio y contexto. Esta unidad no lo reduce a una sola variable.
 
 **DECISIÓN CURRICULAR RAZONADA:** usamos estas distinciones como herramientas de diagnóstico. No constituyen una taxonomía científica universal del feel.
 
@@ -57,7 +57,7 @@ Tocar detrás no significa arrastrar progresivamente el tempo. Tocar delante no 
 
 Además, la evidencia directa con bateristas profesionales muestra que al producir estos perfiles también pueden variar intensidad, timbre y duración. Por eso no asumiremos que el feel reside únicamente en el onset.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Precisión, estabilidad, microtiming y feel
 Construye el mapa conceptual y aprende a describir una interpretación sin convertir cualquier desviación en intención ni cualquier alineación en rigidez.
@@ -98,7 +98,7 @@ Referencia: **25–30 min, 3–4 días por semana**.
 
 ## Fronteras
 
-esta unidad no:
+Esta unidad no:
 
 - prescribe offsets universales en milisegundos;
 - afirma que un estilo debe tocarse siempre delante o detrás;

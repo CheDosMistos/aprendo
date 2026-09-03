@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Entrada al kit: ergonomía, seguridad y mapa de superficies"
 summary: "Prepara el kit para transferir lo ya aprendido sin reiniciar: acceso sostenible, escucha segura y primera adaptación a superficies reales."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [H1, A1, A8, K2, K7]
 rudiments: []
 published: true
@@ -23,7 +23,7 @@ La pregunta de esta unidad es sencilla:
 
 > **¿Está el instrumento suficientemente bien dispuesto y entendido como para empezar a transferir material conocido sin luchar contra el propio montaje?**
 
-esta unidad no enseña todavía groove, fills ni técnica específica de bombo o hi-hat. Primero dejamos una base física y auditiva que no estorbe a Unidad 2–Unidad 4.
+Esta unidad no enseña todavía groove, fills ni técnica específica de bombo o hi-hat. Primero dejamos una base física y auditiva que no estorbe a Unidades 2–4.
 
 ## Qué sí vas a construir
 
@@ -41,7 +41,7 @@ El criterio es observable: **acceso, equilibrio, relajación razonable, ausencia
 
 Tampoco vamos a convertir esta unidad en afinación profesional, microfonía, independencia o técnica avanzada de pedal.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Antes del primer golpe
 Contexto de kit, escucha segura, carga y mapa funcional.

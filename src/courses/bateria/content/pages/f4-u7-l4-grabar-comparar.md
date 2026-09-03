@@ -58,7 +58,7 @@ No subas BPM para esconder una transición incómoda.
 
 Si A–A–B–A ya es estable, puedes elegir **un único acento dinámico fijo** de la mano de tiempo en un lugar formal claro y comparar otra toma.
 
-No añadas notas. Esta ampliación no es requisito del Evaluación.
+No añadas notas. Esta ampliación no es requisito de la evaluación.
 
 ## MÍNIMO PARA AVANZAR
 

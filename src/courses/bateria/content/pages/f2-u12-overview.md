@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Hito 2 y puente a Fase 3"
 summary: "Cierra Fase 2 observando lectura rítmica nueva sin dependencia de memoria previa y registra el perfil que continuará como mantenimiento o puente a Fase 3."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C3, D1, D2, D3, D4, D5, E1, E2, E3, E4, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-esta unidad no introduce una categoría central nueva. Su función es observar el **Hito 2** aprobado:
+Esta unidad no introduce una categoría central nueva. Su función es observar el **Hito 2** aprobado:
 
 > **Leer y reproducir material rítmico nuevo sin depender de que el patrón haya sido previamente memorizado.**
 
@@ -40,9 +40,9 @@ Por eso:
 
 - Lección 2 usa una muestra de entrenamiento A;
 - Lección 3 usa una muestra de entrenamiento B;
-- el Evaluación usa **dos materiales exclusivos C y D**, nunca mostrados antes en esta unidad.
+- la evaluación usa **dos materiales exclusivos C y D**, nunca mostrados antes en esta unidad.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Qué mide y qué no mide el Hito 2
 

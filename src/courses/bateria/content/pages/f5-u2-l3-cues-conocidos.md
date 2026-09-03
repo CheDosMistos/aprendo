@@ -19,7 +19,7 @@ published: true
 
 Responder a un evento escrito **sin abandonar la música que lo rodea**.
 
-esta unidad no añade un fill ni una variación nuevos. Reutiliza dos eventos ya estudiados:
+Esta unidad no añade un fill ni una variación nuevos. Reutiliza dos eventos ya estudiados:
 
 - compás 12: **Fill A** `4 & → B`;
 - compás 16: **Variación B** `& de 3`.

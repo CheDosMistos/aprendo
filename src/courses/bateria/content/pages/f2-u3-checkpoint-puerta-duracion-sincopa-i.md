@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación **no sirve para “aprobar esta unidad”**. Su pregunta es más concreta:
+Esta evaluación **no sirve para “aprobar esta unidad”**. Su pregunta es más concreta:
 
 > **¿síncopa/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para abrir Unidad 4 sin perder el marco temporal cuando una duración atraviesa posiciones internas?**
 
@@ -25,7 +25,7 @@ La evidencia combina una lectura realmente nueva, una microtarea auditiva y una 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es **exclusiva de este Evaluación**. Combina únicamente vocabulario ya trabajado en esta unidad: 4/4, silencios conocidos, ligaduras, puntillos y síncopa elemental. No añade tuplets, otra métrica, acentos complejos ni textura rudimental.
+La partitura siguiente es **exclusiva de esta evaluación**. Combina únicamente vocabulario ya trabajado en esta unidad: 4/4, silencios conocidos, ligaduras, puntillos y síncopa elemental. No añade tuplets, otra métrica, acentos complejos ni textura rudimental.
 
 Antes de pulsar **Empezar**:
 
@@ -164,7 +164,7 @@ No se exige:
 - **lectura estable, oído confuso:** separa evidencia auditiva de duración escrita y usa un contraste uno/dos ataques;
 - **una toma aislada contradice evidencia reciente estable:** elicita otra muestra corta antes de cambiar el mapa de progreso.
 
-Completar este Evaluación **no actualiza automáticamente síncopa, teoría básica del pulso y las figuras, métrica y terminología rítmica, pulso interno, subdivisión binaria y ternaria, relación entre oído y notación ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión.
+Completar esta evaluación **no actualiza automáticamente síncopa, teoría básica del pulso y las figuras, métrica y terminología rítmica, pulso interno, subdivisión binaria y ternaria, relación entre oído y notación ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión.
 
 ## Puente a Unidad 4
 

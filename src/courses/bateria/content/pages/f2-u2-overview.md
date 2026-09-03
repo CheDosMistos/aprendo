@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: Semicorcheas y silencios como lenguaje
 summary: "Convierte la semicorchea en una rejilla temporal legible: ataques y silencios ocupan posiciones concretas, la subdivisión continúa aunque no haya golpe y la técnica se aplica sólo después de comprender la línea."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [C1, C2, C3, C4, D1, D6, E2, E3, E4, F1, B7, K2, K4, K6]
 rudiments: []
 published: true
@@ -21,7 +21,7 @@ Esta unidad parte de la puerta de fluidez binaria de Unidad 1 y aumenta **una di
 
 ## Qué debe estar disponible
 
-esta unidad presupone Unidad 1 o un perfil equivalente: pulso interno/subdivisión binaria y ternaria suficientemente disponibles para sostener lectura binaria elemental, figuras, silencios y compás al menos en MÍNIMO para aumentar densidad y teoría básica del pulso y las figuras suficiente para distinguir pulso, figura, subdivisión y duración.
+Esta unidad presupone Unidad 1 o un perfil equivalente: pulso interno/subdivisión binaria y ternaria suficientemente disponibles para sostener lectura binaria elemental, figuras, silencios y compás al menos en MÍNIMO para aumentar densidad y teoría básica del pulso y las figuras suficiente para distinguir pulso, figura, subdivisión y duración.
 
 Si vienes con un correctivo localizado, esta unidad puede abrirse manteniéndolo visible. Si la densidad nueva hace colapsar un prerrequisito central, reduce una variable —longitud, densidad, tempo o capas—; no reinicies Fase 1 ni Unidad 1 completa por defecto.
 
@@ -33,7 +33,7 @@ Si vienes con un correctivo localizado, esta unidad puede abrirse manteniéndolo
 4. **Doubles/diddles sin alterar la línea** — aplicar textura de manos sólo después de decodificar el ritmo.
 5. **Puerta de semicorcheas y silencios** — decidir cuánta novedad puede abrir Unidad 3.
 
-El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y el Evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión del Evaluación.
+El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y la evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión de la evaluación.
 
 Son unidades de trabajo flexibles, no cinco días obligatorios. La retirada de ayuda conserva la progresión `GUIADO → CON PISTAS → SIN PISTAS → TRANSFERENCIA`; no es una escala de competencia.
 
@@ -47,7 +47,7 @@ Son unidades de trabajo flexibles, no cinco días obligatorios. La retirada de a
 
 ## Qué conserva Unidad 3 como novedad
 
-esta unidad no absorbe silenciosamente el siguiente salto conceptual. Unidad 3 seguirá introduciendo de forma estructurada:
+Esta unidad no absorbe silenciosamente el siguiente salto conceptual. Unidad 3 seguirá introduciendo de forma estructurada:
 
 - **ataque ≠ duración**;
 - ligaduras;

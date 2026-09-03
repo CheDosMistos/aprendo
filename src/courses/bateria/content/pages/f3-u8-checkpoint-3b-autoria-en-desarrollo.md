@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este Evaluación
+## Qué demuestra esta evaluación
 
 Evaluación observa **autoría en desarrollo**.
 
@@ -23,9 +23,9 @@ El mínimo composición de piezas aprobado es:
 
 > **crear 1–4 compases coherentes y reproducibles.**
 
-esta unidad añade una condición propia de su arquitectura: que puedas señalar **al menos una transformación consciente** y revisar tu material mediante comparación.
+Esta unidad añade una condición propia de su arquitectura: que puedas señalar **al menos una transformación consciente** y revisar tu material mediante comparación.
 
-**Este Evaluación no es el Hito 4 final de Fase 3.** Ese cierre permanece en Unidad 12.
+**Esta evaluación no es el Hito 4 final de Fase 3.** Ese cierre permanece en Unidad 12.
 
 ## Semilla opcional — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
@@ -39,7 +39,7 @@ Si usas la semilla, tú decides qué conservar, qué transformar, cuánto dura l
 
 ## Condición de autoría
 
-No copies una composición de Lección 1–Lección 5. Puedes reutilizar **procedimientos** —repetición, transformación, contraste, retorno, revisión— pero el resultado debe ser tu versión.
+No copies una composición de Lecciones 1–5. Puedes reutilizar **procedimientos** —repetición, transformación, contraste, retorno, revisión— pero el resultado debe ser tu versión.
 
 ## Protocolo
 

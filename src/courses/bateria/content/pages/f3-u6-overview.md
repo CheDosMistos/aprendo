@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Transformaciones y desarrollo motívico"
 summary: "Convierte un motivo estable en material derivado: cambia deliberadamente una variable, conserva trazabilidad y explica qué se mantuvo y qué cambió."
-duration: Unidad flexible · 5 lecciones + Puerta G2
+duration: Unidad flexible · 5 lecciones + Puerta desarrollo motívico
 competencies: [G2, G1, C1, C2, D6, F2, B2, B8, J2, K2, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-Unidad 5 dejó una condición imprescindible: existe un **A reconocible, repetible y recuperable**. esta unidad introduce **transformación consciente**.
+Unidad 5 dejó una condición imprescindible: existe un **A reconocible, repetible y recuperable**. Esta unidad introduce **transformación consciente**.
 
 `A ESTABLE → ELEGIR UNA VARIABLE → TRANSFORMAR → ESCRIBIR A’ → TOCAR → COMPARAR → NOMBRAR → EXPLICAR → VOLVER A A`
 
@@ -60,7 +60,7 @@ No existe un porcentaje universal de identidad. Si ya no puedes rastrear una rel
 - recontextualización métrica **no equivale a modulación métrica**;
 - “inversión rítmica” no es término esencial de esta unidad porque puede ser ambiguo sin definir la operación.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — El contrato de transformación: A → A’
 Una variable, una decisión y una explicación rastreable.
@@ -82,7 +82,7 @@ Sobre material nuevo, aplicas **una transformación consciente**, la escribes, l
 
 ## Frontera con Unidad 7
 
-esta unidad estudia operaciones **deliberadas y observables**. No exige improvisación libre ni elegir transformaciones a tiempo real. Eso se introduce en Unidad 7 mediante restricciones.
+Esta unidad estudia operaciones **deliberadas y observables**. No exige improvisación libre ni elegir transformaciones a tiempo real. Eso se introduce en Unidad 7 mediante restricciones.
 
 ## Evaluación
 

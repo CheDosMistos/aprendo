@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
-El Evaluación evalúa **transcripción real MÍNIMO en una tarea preparada**.
+La evaluación evalúa **transcripción real MÍNIMO en una tarea preparada**.
 
 No exige una transcripción completa de canción ni una réplica microscópica de todos los golpes.
 
@@ -163,7 +163,7 @@ El fragmento es demasiado largo, denso o ambiguo para el objetivo actual. Reduce
 
 ## Frontera explícita
 
-Este Evaluación **NO certifica**:
+Esta evaluación **NO certifica**:
 
 - una transcripción completa de canción;
 - oído absoluto ni identificación infalible;

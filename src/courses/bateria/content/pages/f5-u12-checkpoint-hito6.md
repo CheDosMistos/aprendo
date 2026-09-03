@@ -19,7 +19,7 @@ published: true
 
 > **Interpretar varias piezas completas de dificultad adecuada manteniendo estructura, tiempo, dinámica y recuperación ante errores.**
 
-Este texto superior es el criterio principal. esta unidad no lo sustituye por una puntuación, un tempo o una lista de perfección.
+Este texto superior es el criterio principal. Esta unidad no lo sustituye por una puntuación, un tempo o una lista de perfección.
 
 ## Operacionalización de “varias piezas”
 

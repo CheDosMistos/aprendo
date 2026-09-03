@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: tocar menos sin perder referencia ni intención
 
-esta unidad no añade densidad: cambia la pregunta.
+Esta unidad no añade densidad: cambia la pregunta.
 
 > **ESPACIO ≠ AUSENCIA DE PULSO.**
 

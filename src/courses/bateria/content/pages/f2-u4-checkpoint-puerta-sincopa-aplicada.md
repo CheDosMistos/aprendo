@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este Evaluación no pregunta si esta unidad está «perfecta». La inferencia es más concreta:
+Esta evaluación no pregunta si esta unidad está «perfecta». La inferencia es más concreta:
 
 > **¿síncopa y pulso, subdivisión y cambios de subdivisión están suficientemente disponibles para abrir Unidad 5 sin que síncopa variada, un acento controlado o un error localizado destruyan el marco temporal?**
 
@@ -70,7 +70,7 @@ No hace falta reproducir de memoria una definición exacta; sí debes poder dist
 
 ## 3. Evidencia aplicación musical de rudimentos secundaria — 1–2 min
 
-aplicación musical de rudimentos **no es la inferencia principal de este Evaluación**.
+aplicación musical de rudimentos **no es la inferencia principal de esta evaluación**.
 
 Usa la evidencia reciente de Lección 3 si es suficientemente representativa. Sólo si necesitas comprobarla de nuevo, toma **un fragmento ya decodificado** y aplica una textura de manos ya conocida, sin cambiar ataques ni duraciones.
 
@@ -144,6 +144,6 @@ La evidencia es funcional cuando puedes leer el material nuevo básico sin conve
 
 Como ampliación, sobre material **ya revelado**, cambia la ubicación de uno o dos acentos entre ataques existentes o aplica una textura aplicación musical de rudimentos conocida y comprueba que el mapa temporal permanece intacto. Esta ampliación no es requisito para continuar.
 
-Completar este Evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, síncopa, primera vista rítmica, teoría básica del pulso y las figuras, métrica y terminología rítmica ni ninguna otra competencia a `FUNCIONAL` o `DOMINADO`. La decisión depende de la evidencia registrada, no de haber abierto o terminado la página.
+Completar esta evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, síncopa, primera vista rítmica, teoría básica del pulso y las figuras, métrica y terminología rítmica ni ninguna otra competencia a `FUNCIONAL` o `DOMINADO`. La decisión depende de la evidencia registrada, no de haber abierto o terminado la página.
 
-La siguiente unidad reorganizará la subdivisión del pulso. **Este Evaluación no introduce ni evalúa todavía ese contenido.**
+La siguiente unidad reorganizará la subdivisión del pulso. **Esta evaluación no introduce ni evalúa todavía ese contenido.**

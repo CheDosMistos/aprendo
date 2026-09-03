@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: capas con fuente específica
 
-esta unidad no enseña un supuesto **“groove latino”**. Enseña a reconocer de dónde procede una capa, qué función cumple y qué se pierde cuando se traslada al drum set.
+Esta unidad no enseña un supuesto **“groove latino”**. Enseña a reconocer de dónde procede una capa, qué función cumple y qué se pierde cuando se traslada al drum set.
 
 > **BRAZILIAN ≠ AFRO-CUBAN ≠ “LATIN GENÉRICO”.**
 

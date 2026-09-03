@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: integrar, no complicar
 
-esta unidad no añade una técnica nueva. Reúne lo que ya quedó disponible en Unidad 1–Unidad 9.
+Esta unidad no añade una técnica nueva. Reúne lo que ya quedó disponible en Unidades 1–9.
 
 El Hito 5 aprobado es literal:
 
@@ -37,7 +37,7 @@ La prueba no consiste en tocar más rápido ni en añadir más notas.
 - Variación B de Unidad 7;
 - Fill A y retorno al 1 de Unidad 9.
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Recuperar la cadena, no reaprenderla
 Recuperar Groove A, Variación B y Fill A; diagnosticar sólo el elemento que hoy necesite correctivo.

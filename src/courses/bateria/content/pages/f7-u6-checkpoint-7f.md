@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este Evaluación
+## Qué evalúa esta evaluación
 
-el curso $1 polirritmia así:
+El curso $1 polirritmia así:
 
 - **MÍNIMO:** comprende y ejecuta relaciones sencillas como `3:2` de forma accesible;
 - **COMPETENTE / FUNCIONAL:** mantiene dos capas rítmicas y entiende su relación común;

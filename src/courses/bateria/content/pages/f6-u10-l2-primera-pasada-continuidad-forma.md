@@ -91,7 +91,7 @@ No conviertas la waveform o la rejilla de una DAW en juez de musicalidad.
 
 ## Error recovery intencional
 
-Unidad 3 ya enseñó recuperación. esta unidad la aplica en continuidad extensa.
+Unidad 3 ya enseñó recuperación. Esta unidad la aplica en continuidad extensa.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Fallo local autorizado»**
 

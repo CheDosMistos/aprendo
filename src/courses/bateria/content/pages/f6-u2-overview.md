@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Transcripción útil, escucha jerárquica e incertidumbre"
 summary: "Aprende a reconstruir material desde el audio por capas: primero pulso y forma, después subdivisión, función y detalle, dejando explícito qué está verificado y qué sigue siendo hipótesis."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + Evaluación
 competencies: [E1, E2, E3, E4, E5, E6, F3, F7, D4, D6, C2, C3, K3, K5, K8]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: transcribir para aprender, no para adivinar
 
-En Fase 3 y Fase 5 ya escuchaste, analizaste y aprendiste material parcialmente de oído. esta unidad convierte esas habilidades en un **procedimiento explícito y repetible de transcripción**.
+En Fase 3 y Fase 5 ya escuchaste, analizaste y aprendiste material parcialmente de oído. Esta unidad convierte esas habilidades en un **procedimiento explícito y repetible de transcripción**.
 
 La pregunta central es:
 
@@ -44,9 +44,9 @@ Usa uno de estos tipos de fuente:
 - una obra comercial escuchada legalmente, sin copiar ni redistribuir una transcripción protegida;
 - una grabación o recurso con partitura legal disponible para contrastar después.
 
-Para el Evaluación se recomienda un fragmento corto o una sección de dificultad adecuada. **esta unidad no exige una canción completa.**
+Para la evaluación se recomienda un fragmento corto o una sección de dificultad adecuada. **esta unidad no exige una canción completa.**
 
-## Arquitectura
+## Recorrido de la unidad
 
 ### Lección 1 — Del pulso al mapa formal
 Localiza referencia temporal, límites de frase y secciones antes de decidir notas concretas.
@@ -76,7 +76,7 @@ Estas etiquetas no sirven para decorar el documento: cambian lo que puedes afirm
 
 ## Copyright y honestidad
 
-esta unidad no autoriza a reproducir extensamente partituras o transcripciones comerciales.
+Esta unidad no autoriza a reproducir extensamente partituras o transcripciones comerciales.
 
 El curso puede enseñar el procedimiento, utilizar análisis propio, trabajar material original, enlazar fuentes legales y contrastar fragmentos cuando sea legítimo. Una reconstrucción propia **no se presenta como partitura oficial**.
 

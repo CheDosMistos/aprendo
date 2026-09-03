@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Ciclos que cruzan barras"
 summary: "Profundiza ciclos que cruzan compases: mantener una célula periódica que no reinicia en cada barra, seguir su cambio de alineación respecto al 4/4 y predecir dónde vuelve a coincidir con el compás."
-duration: 4 lecciones + checkpoint; varias sesiones
+duration: 4 lecciones + Evaluación; varias sesiones
 competencies: [J5, J1, J2, C1, C2, C3, C4, D4, D6, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-esta unidad profundiza **ciclos que cruzan barras**.
+Esta unidad profundiza **ciclos que cruzan barras**.
 
 Hasta ahora el curso ha trabajado agrupaciones, desplazamientos, métricas impares y tuplets. Aquí aparece una idea distinta:
 
@@ -42,7 +42,7 @@ La barra **no cambia de compás** y el ciclo **no cambia de longitud**.
 
 ## Prerrequisitos curriculares
 
-el curso $1 para ciclos que cruzan compases:
+El curso $1 para ciclos que cruzan compases:
 
 - **R:** agrupación disponible;
 - **R:** desplazamiento disponible;
@@ -76,7 +76,7 @@ Aquí conservamos una sola métrica escrita de referencia. polimetría estudiar�
 
 No redefinimos el tempo. El pulso original sigue siendo la referencia; modulación métrica estudiará cuándo una relación temporal se convierte en una nueva unidad de pulso calculable.
 
-## Arquitectura
+## Recorrido de la unidad
 
 1. **Lección 1 — Ciclo de 3 sobre 4/4:** sentir cómo una célula de tres semicorcheas cambia de posición y vuelve a alinearse.
 2. **Lección 2 — Predecir la resolución:** usar longitud de ciclo, longitud de barra y mínimo común múltiplo para anticipar el reencuentro.
@@ -121,7 +121,7 @@ El nivel avanzado **no es requisito para continuar**.
 
 ## Criterio de salida
 
-esta unidad cumple su función cuando el alumno puede:
+Esta unidad cumple su función cuando el alumno puede:
 
 1. mantener una célula que cruza barras sin reiniciarla;
 2. conservar la sensación de `4/4`;

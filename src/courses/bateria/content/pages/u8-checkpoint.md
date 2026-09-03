@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Decidir si Unidad 9 puede abrirse sin exigir perfección. esta unidad debe dejar evidencia suficiente sobre los tres PAS y un diagnóstico separado de las ventanas de 7/8/agrupación.
+Decidir si Unidad 9 puede abrirse sin exigir perfección. Esta unidad debe dejar evidencia suficiente sobre los tres PAS y un diagnóstico separado de las ventanas de 7/8/agrupación.
 
 Reutiliza evidencia reciente y todavía representativa. Remuestrea únicamente cuando el estado sea antiguo, dudoso o contradictorio.
 
