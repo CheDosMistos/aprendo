@@ -6,7 +6,7 @@ on:
       - chore/learner-facing-language-f1-f7
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   audit:
@@ -14,36 +14,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
-
-      - name: Restore learner content from main
-        if: github.actor != 'github-actions[bot]'
-        run: git checkout origin/main -- src/courses/bateria/content/pages
-
-      - name: Clean learner-facing language
-        if: github.actor != 'github-actions[bot]'
-        run: |
-          node scripts/cleanup-bateria-learner-language.mjs
-          node scripts/cleanup-bateria-learner-language-final.mjs
-
-      - name: Commit cleanup
-        if: github.actor != 'github-actions[bot]'
-        run: |
-          if git diff --quiet; then
-            echo "No cleanup changes to commit."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/courses/bateria/content/pages
-          git commit -m "Finalize learner-facing cleanup from main"
-          git push
 
       - name: Enforce learner-facing language
         run: node scripts/audit-bateria-learner-language.mjs --enforce
