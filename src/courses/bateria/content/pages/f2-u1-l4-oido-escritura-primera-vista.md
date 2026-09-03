@@ -23,7 +23,7 @@ El núcleo es exactamente ese cambio. No conviertas cada modalidad en un objetiv
 
 **ESENCIAL AHORA:** dictado, escritura de un compás, una ventana temprana de lectura nueva, recuperación y registro. **AMPLIACIÓN:** la ventana 3+3+2 únicamente si el núcleo no ha consumido la carga disponible. **AVANZADO:** explicar con precisión dónde se produjo un error y recuperarse sin reiniciar automáticamente.
 
-> **VENTANA CURRICULAR:** aquí puedes experimentar el primer encuentro con una línea nueva y aprender a no contaminarla con playback o ensayo previo. **No se registra todavía como evidencia formal forma y lectura de chart.** La competencia lectura a primera vista elemental— se introduce y observa formalmente en Unidad 9, cuando los prerrequisitos lectura de compás y pulso interno/subdivisión binaria y ternaria permiten aislarla como dificultad central.
+> **VENTANA CURRICULAR:** aquí puedes experimentar el primer encuentro con una línea nueva y aprender a no contaminarla con playback o ensayo previo. **No se registra todavía como evidencia formal forma y lectura de chart.** La competencia forma y lectura de chart —lectura a primera vista elemental— se introduce y observa formalmente en Unidad 9, cuando los prerrequisitos figuras, silencios y compás–lectura de compás y pulso interno/subdivisión binaria y ternaria permiten aislarla como dificultad central.
 
 ## 1. Dictado corto — 4–5 min
 
@@ -68,9 +68,9 @@ Para no adelantar Unidad 2, **no conviertas los silencios de semicorchea en el n
 Usa esta plantilla conceptual antes de escribir la notación final:
 
 ```text
-Pulso: | 1 | 2 | 3 | 4 |
-Ataques: | | | | |
-Silencio | | | | |
+Pulso:   |   1   |   2   |   3   |   4   |
+Ataques: |       |       |       |       |
+Silencio |       |       |       |       |
 ```
 
 Después valida cuatro cosas:

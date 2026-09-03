@@ -66,7 +66,7 @@ Ahora conserva exactamente esa rejilla, pero decide en cada posición:
 
 Por ejemplo:
 
-`1 e & a` 
+`1 e & a`  
 `X · X X`
 
 No interpretes `·` como una espera indefinida. Cuenta también esa posición y deja que el siguiente ataque llegue cuando corresponde.

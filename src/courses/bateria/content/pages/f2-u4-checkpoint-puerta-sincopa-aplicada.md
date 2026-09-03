@@ -103,7 +103,7 @@ La lectura sincopada nueva es suficientemente interpretable, el marco se mantien
 
 ### CONTINUAR + CORRECTIVO
 
-El centro de la inferencia está disponible, pero queda una limitación localizada —por ejemplo una posición sincopada, una ligadura, control de acento, recuperación o aplicación que conviene conservar en recuperación espaciada.
+El centro de la inferencia está disponible, pero queda una limitación localizada —por ejemplo una posición sincopada, una ligadura, control de acento, recuperación o aplicación aplicación musical de rudimentos— que conviene conservar en recuperación espaciada.
 
 ### REDUCIR NOVEDAD
 

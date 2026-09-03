@@ -119,7 +119,7 @@ Estas decisiones **no son una escala de competencia**.
 
 ## MÍNIMO PARA ENTRAR EN esta unidad
 
-lectura de compás y pulso interno/subdivisión binaria y ternaria deben estar suficientemente disponibles **en la tarea concreta** para que la novedad central pueda ser primera vista y no aprender símbolos nuevos. Una fragilidad localizada puede acompañarse de un correctivo; no obliga a rehacer Unidades 1–8 completas.
+figuras, silencios y compás–lectura de compás y pulso interno/subdivisión binaria y ternaria deben estar suficientemente disponibles **en la tarea concreta** para que la novedad central pueda ser primera vista y no aprender símbolos nuevos. Una fragilidad localizada puede acompañarse de un correctivo; no obliga a rehacer Unidades 1–8 completas.
 
 ## Resultado observable de la unidad
 

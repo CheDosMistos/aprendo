@@ -41,7 +41,7 @@ Lo que cambia es qué ataques interpretas como **inicio de grupo**. Un acento ay
 
 Ejemplo:
 
-`3+2+3 = >.. | >. | >..`
+`3+2+3 = > . . | > . | > . .`
 
 La siguiente barra sigue llegando después de ocho corcheas.
 

@@ -66,9 +66,9 @@ El compás describe organización métrica; el shuffle describe un feel/interpre
 ## Fuentes verificadas
 
 - Berklee Online / Larry Finn: los shuffles de entrada se enseñan habitualmente desde un feel de tresillo de corchea y pueden aparecer con distintas convenciones de escritura.
- https://online.berklee.edu/takenote/basic-funk-for-drums/
+  https://online.berklee.edu/takenote/basic-funk-for-drums/
 - musictheory.net: en métrica compuesta cada pulso se divide en tres; 12/8 se clasifica como compuesto cuaternario.
- https://www.musictheory.net/lessons/15
+  https://www.musictheory.net/lessons/15
 
 Estas fuentes sustentan la relación de subdivisión y notación. **No afirman que todo shuffle tenga exactamente la misma microtemporización.**
 

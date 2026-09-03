@@ -47,7 +47,7 @@ Registra por separado qué ocurrió con 5/4 y desplazamiento elemental:
 - ¿pudiste contar o sentir el ejemplo accesible?;
 - ¿puedes decir, aunque necesites ayuda, qué no es cada concepto?;
 
-**Un fallo propio de la ventana no bloquea Unidad 8.** Solo requiere correctivo si revela que un prerrequisito real —por ejemplo pulso/subdivisión pulso interno/subdivisión binaria y ternaria o terminología está demasiado frágil para la tarea.
+**Un fallo propio de la ventana no bloquea Unidad 8.** Solo requiere correctivo si revela que un prerrequisito real —por ejemplo pulso/subdivisión pulso interno/subdivisión binaria y ternaria o terminología métrica y terminología rítmica— está demasiado frágil para la tarea.
 
 ## COMPETENTE
 

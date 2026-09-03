@@ -31,7 +31,7 @@ El mapa superior define Autonomía de aprendizaje:
 
 Esta unidad tiene como objetivo dominante producir **evidencia de autonomía FUNCIONAL**. No exige autonomía AVANZADO ni declara el Hito 7.
 
-Dependencia superior: `autonomía ← gestión de carga y salud`.
+Dependencia superior: `autonomía ← objetivos de práctica–gestión de carga y salud`.
 
 ## La autonomía de esta unidad no es «hacer lo que quieras»
 

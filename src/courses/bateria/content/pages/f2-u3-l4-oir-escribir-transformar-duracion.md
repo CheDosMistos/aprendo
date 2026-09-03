@@ -21,8 +21,8 @@ Lecciones 1–3 construyeron una misma idea desde la lectura: **ATAQUE**, **DURA
 
 Hay una limitación importante: en un pad de ataque breve, oír que **no existe un segundo ataque** no demuestra por sí solo si esa posición está escrita como una ligadura o como un silencio. El audio informa sobre ataques; la notación añade información sobre duración escrita. Esta lección evalúa ambas cosas sin confundirlas.
 
-**ESENCIAL AHORA:** pasar entre sonido → mapa de ataques → escritura de duración → ejecución y localizar dónde aparece el primer error. 
-**AMPLIACIÓN:** retirar una escucha o una ayuda de rejilla cuando la representación ya sea estable. 
+**ESENCIAL AHORA:** pasar entre sonido → mapa de ataques → escritura de duración → ejecución y localizar dónde aparece el primer error.  
+**AMPLIACIÓN:** retirar una escucha o una ayuda de rejilla cuando la representación ya sea estable.  
 **AVANZADO:** transformar una célula manteniendo explícitamente todo lo que no se ha decidido cambiar.
 
 ## 1. Recuperación — 3 min
@@ -80,7 +80,7 @@ Ahora escucha una célula de **dos pulsos**. El primer paso sigue siendo registr
 
 Antes de revelar la respuesta:
 
-1. dibuja `1 & | 2 &`;
+1. dibuja `1  &  |  2  &`;
 2. marca `X` sólo donde oyes un ataque y `·` donde no oyes uno;
 3. comprueba que tu mapa ocupa exactamente dos pulsos;
 4. **después** aplica la consigna de notación de esta tarea: el evento que empieza en `&` de 1 se prolonga mediante ligadura a través de `2`;

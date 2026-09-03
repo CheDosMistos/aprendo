@@ -44,9 +44,9 @@ En la partitura de esta lección el ciclo ocupa **un compás completo de 4/4**:
 Por tanto:
 
 ```text
-rejilla: 1 2 3 4 5 6 7 8 9 10 11 12
-capa 4: X.. X.. X.. X..
-capa 3: X... X... X...
+rejilla:  1  2  3  4  5  6  7  8  9 10 11 12
+capa 4:  X  .  .  X  .  .  X  .  .  X  .  .
+capa 3:  X  .  .  .  X  .  .  .  X  .  .  .
 ```
 
 La capa 4 ataca cada 3 posiciones de la rejilla; la capa 3, cada 4.

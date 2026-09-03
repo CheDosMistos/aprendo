@@ -25,7 +25,7 @@ El mapa superior fija microtiming y placement:
 - **COMPETENTE / FUNCIONAL:** reproduce diferencias básicas de colocación y articulación en estilos estudiados;
 - **AVANZADO:** manipula microtiming de forma consciente y musical sin perder estabilidad estructural.
 
-Dependencias superiores: `R, R, F`.
+Dependencias superiores: `pulso interno, subdivisión binaria y ternaria, blues y shuffle`.
 
 ## Cuatro conceptos que no deben confundirse
 

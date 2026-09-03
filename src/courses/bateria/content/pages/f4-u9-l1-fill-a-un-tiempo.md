@@ -41,7 +41,7 @@ No significa “toca dos notas y para”. Significa que el fill ocupa exactament
 
 Cuenta en voz alta si hace falta:
 
-`1 & 2 & 3 & | 4 & | 1 &...`
+`1 & 2 & 3 & | 4 & | 1 & ...`
 
 El último `1` pertenece al groove siguiente, no al fill.
 

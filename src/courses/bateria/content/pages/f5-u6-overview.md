@@ -19,7 +19,7 @@ published: true
 
 Esta unidad cambia la pregunta. Ya no basta con tocar la figura correcta: hay que **escuchar qué sonido produce realmente el kit, registrar una referencia y tomar una decisión sencilla que pueda comprobarse**.
 
-el recorrido del curso fija el nivel mínimo de balance, sonido y orquestación así:
+El recorrido del curso fija el nivel mínimo de balance, sonido y orquestación así:
 
 > **balance, sonido y orquestación MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
 

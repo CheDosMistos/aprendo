@@ -19,7 +19,7 @@ published: true
 
 Cambiar entre subdivisiones comunes y tuplets de 5/7 sin alterar la negra de referencia.
 
-Éste es el núcleo del nivel **COMPETENTE / FUNCIONAL** que el curso $1 para tuplets de 5 y 7 y divisiones no estándar.
+Éste es el núcleo del nivel **COMPETENTE / FUNCIONAL** que el curso requiere para tuplets de 5 y 7 y divisiones no estándar.
 
 <div data-notation-score data-score-src="/bateria/notation/f7/u4/f7-u4-subdivision-transitions.musicxml" data-score-title="Unidad 4 — Transiciones 2, 3, 4, 5 y 7" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 

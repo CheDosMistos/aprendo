@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa esta evaluación
 
-El curso $1 tuplets de 5 y 7 y divisiones no estándar como funcional cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar esta unidad.
+El curso define tuplets de 5 y 7 y divisiones no estándar como funcional cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar esta unidad.
 
 Se evalúan:
 

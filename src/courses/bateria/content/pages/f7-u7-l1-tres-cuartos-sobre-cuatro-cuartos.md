@@ -137,7 +137,7 @@ Si sólo percibes una cadena de acentos sin barras internas, vuelve a contar cad
 
 Un acento periódico puede producir la misma geometría de ataques, pero para polimetría necesitas mantener **la interpretación métrica**:
 
-`1 2 3 | 1 2 3...`
+`1 2 3 | 1 2 3 ...`
 
 No sólo:
 

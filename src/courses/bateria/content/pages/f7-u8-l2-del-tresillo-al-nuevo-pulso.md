@@ -86,7 +86,7 @@ Mantén esas partes exactamente iguales y deja de reforzar la negra antigua.
 
 Acentúa una unidad sí y una no:
 
-`FUERTE débil | FUERTE débil |...`
+`FUERTE débil | FUERTE débil | ...`
 
 Cada acento es ahora la negra nueva.
 

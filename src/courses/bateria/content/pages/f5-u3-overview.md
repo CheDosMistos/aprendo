@@ -75,7 +75,9 @@ Sostener bloques largos con eficiencia y un Fill A conocido cuando tenga funció
 ### Lección 4 — Pieza A: forma y decisiones de energía
 Aplicar esta unidad a Pieza A con Chart A, dinámica y cues ya conocidos.
 
-## Salida de esta unidad aporta evidencia hacia **blues y shuffle MÍNIMO** y profundiza groove y variaciones dentro de la familia realmente estudiada, pero **no declara rock, pop o punk dominados, ni metal funcional, ni groove y variaciones COMPETENTE/FUNCIONAL global**.
+## Salida de esta unidad
+
+Esta unidad aporta evidencia hacia **blues y shuffle MÍNIMO** y profundiza groove y variaciones dentro de la familia realmente estudiada, pero **no declara rock, pop o punk dominados, ni metal funcional, ni groove y variaciones COMPETENTE/FUNCIONAL global**.
 
 No se crea un Evaluación global nuevo: la arquitectura superior no lo prescribe.
 

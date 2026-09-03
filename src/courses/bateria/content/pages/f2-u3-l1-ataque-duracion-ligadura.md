@@ -23,8 +23,8 @@ Una nota puede iniciar un golpe y su duración escrita puede continuar por otras
 
 En un pad el sonido físico decae rápidamente. Eso no cambia la lectura: la notación puede extender la duración temporal del evento aunque tú sólo ejecutes **un ataque**. La tarea motora es saber dónde golpeas y dónde sigues contando sin reatacar.
 
-**ESENCIAL AHORA:** distinguir ataque de continuación mediante ligaduras sencillas. 
-**AMPLIACIÓN:** aplicar la misma idea dentro de la rejilla de semicorcheas ya conocida. 
+**ESENCIAL AHORA:** distinguir ataque de continuación mediante ligaduras sencillas.  
+**AMPLIACIÓN:** aplicar la misma idea dentro de la rejilla de semicorcheas ya conocida.  
 **AVANZADO:** explicar una línea completa separando nuevos ataques, duraciones y pulso sin añadir dificultad técnica.
 
 No introducimos todavía puntillos ni enseñamos la síncopa como concepto estructurado. Eso queda para Lección 2 y Lección 3.
@@ -71,8 +71,8 @@ En una pareja de corcheas ligadas, toca únicamente la primera. Sigue contando l
 
 Una representación útil es:
 
-`rejilla: 1 &` 
-`acción: X →` 
+`rejilla:   1   &`  
+`acción:    X   →`  
 
 `→` significa **continúa la duración; no reataques**. No es un símbolo de notación oficial: es una ayuda original de esta explicación para separar acción y tiempo.
 

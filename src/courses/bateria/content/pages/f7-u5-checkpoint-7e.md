@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa esta evaluación
 
-El curso $1 ciclos que cruzan compases así:
+El curso define ciclos que cruzan compases así:
 
 - **MÍNIMO:** mantener una célula mientras cambia su alineación con el compás;
 - **COMPETENTE / FUNCIONAL:** predecir y sentir la resolución de ciclos sencillos;

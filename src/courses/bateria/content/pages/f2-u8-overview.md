@@ -53,20 +53,20 @@ Esto es **tuplet**, no compás compuesto. Un `6` sobre un grupo no convierte 4/4
 
 **DECISIÓN CURRICULAR RAZONADA** subordinada al mapa detallado y a la Fase 2 aprobada:
 
-1. **Lección 1 — Sextillo escrito: seis en el tiempo de cuatro** 
- Leer `6:4`, compararlo con semicorcheas ordinarias y conservar el mismo pulso.
+1. **Lección 1 — Sextillo escrito: seis en el tiempo de cuatro**  
+   Leer `6:4`, compararlo con semicorcheas ordinarias y conservar el mismo pulso.
 
-2. **Lección 2 — Flam escrito: grace note y principal** 
- Decodificar una grace note antes de la nota principal; paradiddles/aplicación musical de rudimentos sin copiar una partitura PAS.
+2. **Lección 2 — Flam escrito: grace note y principal**  
+   Decodificar una grace note antes de la nota principal; paradiddles/aplicación musical de rudimentos sin copiar una partitura PAS.
 
-3. **Lección 3 — Drag escrito: double grace y principal** 
- Leer dos grace notes como adorno previo y evitar convertir las tres alturas temporales en golpes equivalentes; flams/aplicación musical de rudimentos.
+3. **Lección 3 — Drag escrito: double grace y principal**  
+   Leer dos grace notes como adorno previo y evitar convertir las tres alturas temporales en golpes equivalentes; flams/aplicación musical de rudimentos.
 
-4. **Lección 4 — Rolls escritos: duración y repetición indicada** 
- Interpretar marcas de tremolo/repetición sobre una duración y contrastar línea simple frente a línea ornamentada; drags/aplicación musical de rudimentos.
+4. **Lección 4 — Rolls escritos: duración y repetición indicada**  
+   Interpretar marcas de tremolo/repetición sobre una duración y contrastar línea simple frente a línea ornamentada; drags/aplicación musical de rudimentos.
 
-5. **Evaluación — Puerta de decodificación ornamental** 
- Una muestra exclusiva combina sextillo, grace simple, double grace y roll escrito. La pregunta no es «¿qué rudimento recuerdas?», sino «¿qué información escrita puedes decodificar y ejecutar?».
+5. **Evaluación — Puerta de decodificación ornamental**  
+   Una muestra exclusiva combina sextillo, grace simple, double grace y roll escrito. La pregunta no es «¿qué rudimento recuerdas?», sino «¿qué información escrita puedes decodificar y ejecutar?».
 
 ## Contratos de notación de la unidad
 

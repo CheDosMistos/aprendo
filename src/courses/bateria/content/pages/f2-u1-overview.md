@@ -45,7 +45,7 @@ El material técnico conocido pasa a ser una espiral secundaria. Puede aparecer 
 - distinción entre fallo de lectura, tiempo, técnica, memoria o comprensión;
 - uso prudente del metrónomo como referencia, no como examen de BPM.
 
-## Recorrido aprobado de Unidad 1
+## Recorrido de la unidad
 
 El recorrido es:
 
@@ -55,7 +55,7 @@ El recorrido es:
 4. **Oído, escritura y primera vista** — cerrar el ciclo sonido ↔ notación con material nuevo.
 5. **Puerta de fluidez binaria** — Evaluación para decidir el siguiente paso.
 
-Las cinco piezas Lecciones 1–4 + evaluación forman ya el recorrido completo de Unidad 1. Eso **cierra la estructura de la unidad**, pero completar las páginas no equivale a “aprobar”: la evaluación decide si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según evidencia y salud/carga.
+Las cuatro lecciones y la evaluación forman el recorrido completo de la unidad. Completar las páginas no equivale a “aprobar”: la evaluación sirve para decidir si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según la evidencia y la salud/carga.
 
 ## Regla de primera vista
 

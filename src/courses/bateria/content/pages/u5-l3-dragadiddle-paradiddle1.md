@@ -68,9 +68,9 @@ Para cada PAS registra:
 
 ## Diagnóstico grabación y autoevaluación
 
-**Síntoma:** el drag está limpio aislado y el paradiddle también, pero juntos aparece tensión. 
-**Hipótesis:** la preparación de alturas entre componentes no está automatizada. 
-**Prueba:** ejercicio original a menor densidad, observando solo alturas. 
+**Síntoma:** el drag está limpio aislado y el paradiddle también, pero juntos aparece tensión.  
+**Hipótesis:** la preparación de alturas entre componentes no está automatizada.  
+**Prueba:** ejercicio original a menor densidad, observando solo alturas.  
 **Retest:** volver a un PAS.
 
 ## Rutina estándar

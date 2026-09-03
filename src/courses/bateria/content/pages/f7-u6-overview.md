@@ -21,7 +21,7 @@ Esta unidad profundiza **polirritmia**.
 
 El concepto no aparece aquí por primera vez. Fase 1 ya abrió una experiencia accesible de `3:2`; el objetivo actual es convertir aquella ventana en una capacidad funcional: **mantener dos capas a la vez y comprender qué relación temporal comparten**.
 
-El curso $1:
+El curso establece:
 
 - **MÍNIMO:** comprender y ejecutar relaciones sencillas como `3:2` de forma accesible;
 - **COMPETENTE / FUNCIONAL:** mantener dos capas rítmicas y entender su relación común;
@@ -51,8 +51,8 @@ Una relación como `3:2` puede analizarse mediante una rejilla mínima de **6 po
 
 ```text
 posiciones: 1 2 3 4 5 6
-capa 3: X. X. X.
-capa 2: X.. X..
+capa 3:    X . X . X .
+capa 2:    X . . X . .
 ```
 
 La primera posición es coincidencia. Después cada capa mantiene su propio intervalo hasta que el ciclo vuelve a empezar.
@@ -61,12 +61,12 @@ La rejilla de 6 **no es una tercera capa que deba tocarse siempre**. Es una herr
 
 ## Prerrequisitos curriculares
 
-El curso $1 para polirritmia:
+El curso requiere para polirritmia:
 
-- **R:** subdivisión disponible;
-- **R:** teoría de pulso/métrica suficiente para comprender la relación.
+- subdivisión disponible;
+- teoría de pulso/métrica suficiente para comprender la relación.
 
-Además conviene que el alumno pueda mantener una referencia estable durante una manipulación rítmica. ciclos que cruzan compases ayuda, pero **no es una dependencia dura de polirritmia** según el recorrido del curso.
+Además conviene que el alumno pueda mantener una referencia estable durante una manipulación rítmica. ciclos que cruzan compases ayuda, pero **no es una dependencia dura de polirritmia** según el curso.
 
 ## Fronteras obligatorias
 

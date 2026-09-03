@@ -63,9 +63,9 @@ Toca el ejercicio original otra vez y cambia una sola variable: dinámica, mano 
 
 ## Diagnóstico grabación y autoevaluación
 
-**Síntoma:** los doubles suenan razonables pero el final se adelanta. 
-**Hipótesis:** la subdivisión se comprime al aproximarse el cierre. 
-**Prueba:** tocar la frase sin doubles sobre la misma rejilla temporal. 
+**Síntoma:** los doubles suenan razonables pero el final se adelanta.  
+**Hipótesis:** la subdivisión se comprime al aproximarse el cierre.  
+**Prueba:** tocar la frase sin doubles sobre la misma rejilla temporal.  
 **Retest:** volver al PAS más lento.
 
 La hipótesis debe comprobarse; no se convierte automáticamente en diagnóstico.

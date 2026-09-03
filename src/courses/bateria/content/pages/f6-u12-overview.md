@@ -37,11 +37,7 @@ Esta unidad no repite necesariamente ese proyecto. Revisa la evidencia ya produc
 
 ### Puerta B — Hito 7: Aprendiz autónomo
 
-El curso relaciona Hito 7 con:
-
-`las capacidades de práctica y autonomía + transcripción real + análisis musical`
-
-No exige que todas esas competencias estén en nivel AVANZADO. La decisión debe apoyarse en evidencia conjunta y funcional.
+Para el Hito 7 se observan conjuntamente las capacidades de práctica y autonomía, la transcripción y el análisis musical. No hace falta que todas alcancen nivel AVANZADO: la decisión se apoya en evidencia conjunta y funcional.
 
 ## Competencias de apoyo ≠ nuevos prerrequisitos duros
 
@@ -49,8 +45,8 @@ La fuente de Fase 6 también espera evidencia acumulada, cuando corresponda, de 
 
 Pero esta unidad no cambia silenciosamente el contrato de Hito 7:
 
-- formas y canciones/repertorio/transferencia entre estilos/interacción y ensemble, independencia avanzada, microtiming y placement, lectura aplicada al kit y composición de fills y secciones ayudan a describir el **perfil de salida**;
-- una carencia de evidencia interpersonal real en interacción y ensemble no invalida por sí sola Hito 7;
+- repertorio, transferencia entre estilos, interacción, independencia, microtiming, lectura aplicada y creatividad ayudan a describir el **perfil de salida**;
+- una carencia de evidencia interpersonal real no invalida por sí sola Hito 7;
 - una competencia de apoyo puede quedar en mantenimiento si el núcleo del hito está demostrado;
 - ningún área se convierte automáticamente en AVANZADA por cerrar la fase.
 
@@ -71,21 +67,21 @@ La evidencia puede proceder de Unidades 1–11 si sigue siendo interpretable:
 
 **No se repite una tarea sólo para producir otro archivo si ya existe evidencia suficiente.**
 
-## los cuatro carriles del portafolio en el cierre
+## Los cuatro carriles del portafolio en el cierre
 
-### Escucha y transcripción — Escucha / transcripción
+### Escucha y transcripción
 
 Debe existir evidencia de que una pieza o fragmento sustancial se aprendió principalmente desde audio y análisis, con transcripción real/análisis musical aplicados y con incertidumbre explícita cuando proceda.
 
-### Chart y lectura — Chart / lectura
+### Chart y lectura
 
 Debe poder localizarse evidencia de navegación, forma, cues/figures y prioridad de información sin sacrificar continuidad.
 
-### Transferencia entre estilos — Transferencia estilística
+### Transferencia entre estilos
 
 Debe existir una adaptación consciente donde se distingan invariantes transferibles y rasgos de contexto que no conviene borrar.
 
-### Proyecto autónomo — Proyecto autónomo
+### Proyecto autónomo
 
 Debe poder reconstruirse un ciclo donde el alumno seleccionó parte del procedimiento, usó recursos con criterio, revisó el plan y comprobó transferencia.
 
@@ -116,9 +112,9 @@ Ejemplos:
 
 No se añade velocidad, densidad o métrica avanzada sólo para hacer la evaluación “más difícil”.
 
-## Comparación Unidad 1 → esta unidad
+## Comparación entre la entrada y el cierre
 
-Unidad 1 abrió Fase 6 con:
+La primera unidad abrió Fase 6 con:
 
 - una línea base;
 - un problema real;
@@ -126,7 +122,7 @@ Unidad 1 abrió Fase 6 con:
 - los cuatro carriles del portafolio abiertos;
 - un siguiente objetivo.
 
-Esta unidad vuelve a esa evidencia para preguntar:
+Este cierre vuelve a esa evidencia para preguntar:
 
 - ¿qué diagnósticos son ahora más precisos?;
 - ¿qué recursos eliges con más criterio?;
@@ -145,9 +141,6 @@ No se intenta demostrar que “todo mejoró”. Una comparación honesta puede m
 4. **Lección 4 — Unidad 1 → esta unidad: límites, mantenimiento y transición sin adelantar Fase 7.**
 5. **Evaluación — Cierre de Fase 6 y decisión formal de Hito 7.**
 
-## Por qué evaluación final
-
-La implementación publicada ha usado evaluación final en Unidad 9, evaluación final en Unidad 10 y evaluación final en Unidad 11. El cierre continúa la secuencia como **evaluación final**. el diseño del curso denomina esta unidad “Integración, portafolio y Hito 7” y no fija otra letra para esta evaluación final.
 
 ## Fuentes y evidencia que esta unidad reutiliza
 

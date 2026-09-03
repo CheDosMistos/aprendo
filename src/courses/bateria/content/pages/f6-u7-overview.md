@@ -27,7 +27,7 @@ La competencia superior transferencia entre estilos fija tres niveles:
 - **COMPETENTE / FUNCIONAL:** reutiliza vocabulario conscientemente sin borrar el carácter estilístico;
 - **AVANZADO:** combina lenguajes y crea híbridos con intención musical.
 
-Dependencias superiores: `R, F, F`.
+Dependencias superiores: `blues y shuffle, análisis musical, desarrollo motívico`.
 
 ## Principio compartido ≠ patrón idéntico
 

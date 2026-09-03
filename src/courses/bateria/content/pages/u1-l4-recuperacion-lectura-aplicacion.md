@@ -58,9 +58,9 @@ Que algo **necesite refuerzo** es una señal de revisión, no un nuevo nivel de 
 
 ## 3. Lectura nueva — unos 6 minutos
 
-La lectura integrada usa ahora **adaptación técnica entre superficies y kit**, que no han aparecido en el diagnóstico ni en la Lección 2. Así esta sección cumple realmente su función de lectura nueva sin introducir figuras nuevas.
+La lectura integrada usa ahora **Moeller–adaptación técnica entre superficies y kit**, que no han aparecido en el diagnóstico ni en la Lección 2. Así esta sección cumple realmente su función de lectura nueva sin introducir figuras nuevas.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml" data-score-title="Lectura nueva — adaptación técnica entre superficies y kit" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml" data-score-title="Lectura nueva — Moeller–adaptación técnica entre superficies y kit" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible" data-score-first-sight="true"></div>
 
 Haz:
 

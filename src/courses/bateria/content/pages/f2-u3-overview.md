@@ -33,7 +33,7 @@ Si vienes con `CONTINUAR + CORRECTIVO`, conserva el correctivo localizado. Si la
 2. **Puntillo: más duración sin más golpes** — ampliar un valor sin inventar ataques.
 3. **Síncopa I: ataque desplazado, marco estable** — introducir síncopa elemental manteniendo el 4/4 y el pulso.
 4. **Oír, escribir y transformar duración** — comprobar la representación desde el sonido, la escritura y una transformación controlada.
-5. **Puerta de duración y síncopa I** — decidir si síncopa/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para Unidad 4.
+5. **Puerta de duración y síncopa I** — decidir si síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para Unidad 4.
 
 El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y la evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión de la evaluación.
 

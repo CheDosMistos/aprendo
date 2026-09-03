@@ -49,10 +49,10 @@ No es una escala científica universal. Es una jerarquía curricular para evitar
 5. Trabaja el problema en modo laboratorio.
 6. Vuelve pronto a `ANTES → PROBLEMA → DESPUÉS`.
 7. Decide qué harás con el apoyo en la próxima pasada:
- - `MANTENER`;
- - `REDUCIR`;
- - `RETIRAR`;
- - `CAMBIAR`.
+   - `MANTENER`;
+   - `REDUCIR`;
+   - `RETIRAR`;
+   - `CAMBIAR`.
 8. Deja por escrito al menos un problema secundario que **no** vas a trabajar todavía.
 
 ## Apoyos legítimos

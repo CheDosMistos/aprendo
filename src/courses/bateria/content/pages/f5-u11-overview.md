@@ -81,7 +81,9 @@ Cuando aparezca demasiada información:
 
 La jerarquía no elimina el detalle. Decide **cuándo** merece atención.
 
-## Fronteras de esta unidad no exige:
+## Fronteras de esta unidad
+
+Esta unidad no exige:
 
 - una toma perfecta;
 - improvisación extensa;

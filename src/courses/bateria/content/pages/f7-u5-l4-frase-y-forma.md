@@ -72,7 +72,7 @@ Sobre un ciclo de 5 corcheas, sustituye uno de los ataques interiores por silenc
 
 Ejemplo conceptual:
 
-`X. X X.`
+`X . X X .`
 
 La longitud del ciclo sigue siendo **5 corcheas** aunque sólo suenen tres ataques.
 

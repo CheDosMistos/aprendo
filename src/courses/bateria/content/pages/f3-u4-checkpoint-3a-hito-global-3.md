@@ -36,7 +36,7 @@ La familia E/E’ es **material nuevo**, no practicado en Lecciones 1–4. Las c
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
 <div data-hito-read-only>
- <div data-notation-score data-score-src="/bateria/notation/f3/u4/f3-u4-cp-read-e.musicxml" data-score-title="Unidad 4.evaluación — lectura nueva E" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+  <div data-notation-score data-score-src="/bateria/notation/f3/u4/f3-u4-cp-read-e.musicxml" data-score-title="Unidad 4.evaluación — lectura nueva E" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 </div>
 
 Antes de tocar:
@@ -122,7 +122,7 @@ No uses una sola nota global. Registra separadamente:
 
 > **El ciclo completo está disponible de forma funcional suficiente para continuar el currículo, aunque una de sus representaciones todavía necesite un correctivo localizado.**
 
-No implica que primera vista rítmica y relación entre oído y notación estén todas “dominadas” al mismo nivel.
+No implica que figuras, silencios y compás–primera vista rítmica y reconocimiento de pulso y subdivisión–relación entre oído y notación estén todas “dominadas” al mismo nivel.
 
 ## DECISIÓN
 

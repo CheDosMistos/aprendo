@@ -96,7 +96,7 @@ Para cada muestra escribe observaciones, no una puntuación única:
 - ¿la subdivisión interna sostuvo los silencios y cambios de densidad?;
 - ¿pudiste cambiar de negra/corchea/semicorchea o de marco simple/compuesto sin perder referencia?
 
-### lectura
+### figuras, silencios y compás–lectura
 
 - ¿decodificaste figuras y silencios?;
 - ¿interpretaste duraciones y agrupaciones conocidas?;
@@ -104,7 +104,7 @@ Para cada muestra escribe observaciones, no una puntuación única:
 - ¿la lectura fue realmente de primera vista?;
 - ¿pudiste continuar o recuperarte sin memorizar primero la secuencia?
 
-### comprensión
+### teoría básica del pulso y las figuras–comprensión
 
 Explica brevemente:
 
@@ -131,7 +131,7 @@ Una sola muestra excepcionalmente buena o mala no obliga a una conclusión globa
 - puedes localizar una variable limitante concreta;
 - aceptas mantener correctivos sin reiniciar la fase completa.
 
-Cumplir este mínimo **no convierte automáticamente pulso, subdivisión y cambios de subdivisión, forma y lectura de chart o métrica y terminología rítmica en FUNCIONALES**. Los niveles se actualizan sólo según la evidencia que realmente sostengan.
+Cumplir este mínimo **no convierte automáticamente pulso, subdivisión y cambios de subdivisión, figuras, silencios y compás–forma y lectura de chart o teoría básica del pulso y las figuras–métrica y terminología rítmica en FUNCIONALES**. Los niveles se actualizan sólo según la evidencia que realmente sostengan.
 
 ## COMPETENTE EN EL HITO
 

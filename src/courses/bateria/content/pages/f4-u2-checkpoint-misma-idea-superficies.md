@@ -72,7 +72,7 @@ Esta evaluación **no demuestra**:
 - groove;
 - fills;
 - improvisación restringida MÍNIMO completo;
-- kit competente;
+- orquestación de rudimentos-kit competente;
 - independencia;
 - velocidad alta;
 - repertorio estilístico.

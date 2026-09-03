@@ -19,7 +19,7 @@ published: true
 
 Esta unidad profundiza **modulación métrica**.
 
-el recorrido del curso fija:
+El curso fija:
 
 - **MÍNIMO PARA AVANZAR:** comprender que una subdivisión puede convertirse en nueva unidad de pulso;
 - **COMPETENTE / FUNCIONAL:** ejecutar modulaciones sencillas con relación calculable y audible;
@@ -69,11 +69,11 @@ Esta unidad pregunta:
 
 ## Prerrequisitos
 
-El curso $1:
+El curso establece:
 
-- **R:** subdivisión disponible;
-- **R:** experiencia suficiente con tuplets de 5/7 y cambios de densidad;
-- **R:** representación métrica y lectura disponibles.
+- subdivisión disponible;
+- experiencia suficiente con tuplets de 5/7 y cambios de densidad;
+- representación métrica y lectura disponibles.
 
 Además, la puerta de entrada de la fase exige referencia de pulso estable durante manipulación rítmica avanzada.
 

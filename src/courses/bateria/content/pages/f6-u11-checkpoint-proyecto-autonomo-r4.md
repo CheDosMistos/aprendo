@@ -46,27 +46,39 @@ No es obligatorio que cada elemento sea un documento separado. Una grabación, u
 
 No se calcula una media matemática. Evalúa cada dimensión de forma cualitativa.
 
-### 1. Selección y alcance — objetivos de práctica/grabación y autoevaluación/el proyecto es legal y abordable;
+### 1. Selección y alcance — objetivos de práctica/grabación y autoevaluación/autonomía
+
+- el proyecto es legal y abordable;
 - la dificultad permite observar aprendizaje y no sólo supervivencia;
 - se delimitan objetivos y exclusiones.
 
-### 2. Diagnóstico — grabación y autoevaluación/diagnóstico de errores/separa observación de explicación;
+### 2. Diagnóstico — grabación y autoevaluación/diagnóstico de errores/análisis musical
+
+- separa observación de explicación;
 - formula hipótesis plausibles;
 - prioriza un cuello de botella por relevancia musical.
 
-### 3. Elección de estrategia y recurso — diagnóstico de errores/práctica espaciada/la intervención responde a una hipótesis;
+### 3. Elección de estrategia y recurso — diagnóstico de errores/práctica espaciada/autonomía
+
+- la intervención responde a una hipótesis;
 - el recurso tiene función explícita;
 - existe al menos una alternativa razonable.
 
-### 4. Monitorización y evidencia — interleaving sensato/las observaciones son interpretables;
+### 4. Monitorización y evidencia — interleaving sensato/recuperación y retención
+
+- las observaciones son interpretables;
 - una grabación o medición sólo se usa cuando responde a una pregunta;
 - una toma favorable no se convierte automáticamente en prueba de retención.
 
-### 5. Ajuste — gestión de carga y salud/puede mantener, cambiar, reducir o retirar una intervención;
+### 5. Ajuste — gestión de carga y salud/autonomía
+
+- puede mantener, cambiar, reducir o retirar una intervención;
 - la decisión se justifica por evidencia y no por costumbre;
 - reconoce cuando todavía no hay información suficiente.
 
-### 6. Recuperación/transferencia — recuperación y retención/comprueba qué sobrevive fuera de la condición exacta de práctica;
+### 6. Recuperación/transferencia — recuperación y retención/autonomía
+
+- comprueba qué sobrevive fuera de la condición exacta de práctica;
 - el cambio de condición sigue siendo pertinente para la habilidad objetivo.
 
 ### 7. Resultado musical — formas y canciones/repertorio y competencias del proyecto

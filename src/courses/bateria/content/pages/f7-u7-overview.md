@@ -19,7 +19,7 @@ published: true
 
 Esta unidad profundiza **polimetría**.
 
-el recorrido del curso no exige empezar con estructuras extremas. Para polimetría:
+El curso no exige empezar con estructuras extremas. Para polimetría:
 
 - **MÍNIMO PARA AVANZAR:** distinguir polimetría de polirritmia y reconocer ejemplos conceptuales;
 - **COMPETENTE / FUNCIONAL:** mantener capas métricas sencillas con punto de referencia común;
@@ -56,11 +56,11 @@ No hay cambio de tempo.
 
 ## Prerrequisitos
 
-El curso $1:
+El curso establece:
 
-- **R:** experiencia con ciclos que atraviesan barras;
-- **F:** dos capas rítmicas simultáneas suficientemente funcionales;
-- **R:** métrica y notación disponibles.
+- experiencia con ciclos que atraviesan barras;
+- dos capas rítmicas simultáneas suficientemente funcionales;
+- métrica y notación disponibles.
 
 Esta unidad reutiliza esas capacidades, pero cambia la pregunta estructural.
 
@@ -95,7 +95,6 @@ En los ejemplos principales de esta unidad la negra mantiene su duración. No co
 ## Nota sobre las partituras
 
 Las dos capas se muestran sobre una línea temporal común. Sigue los acentos y etiquetas de cada métrica: las barras gráficas sirven como referencia visual y no sustituyen los ciclos propios de cada capa.
-
 
 ## Recorrido de la unidad
 

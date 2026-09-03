@@ -70,7 +70,9 @@ Aprender una forma original usando primero escucha, memoria breve y mapa formal.
 ### Lección 4 — Pieza B: forma, shuffle y recuperación
 Sostener una versión funcional de Pieza B y recuperar referencia después de un error local.
 
-## Salida de esta unidad aporta evidencia hacia **blues y shuffle**, profundiza **groove y variaciones/cambios de subdivisión** y abre una ruta de repertorio dominada por **reconocimiento de pulso y subdivisión/grabación y comparación + forma y frase + formas y canciones**.
+## Salida de esta unidad
+
+Esta unidad aporta evidencia hacia **blues y shuffle**, profundiza **groove y variaciones/subdivisión binaria y ternaria–cambios de subdivisión** y abre una ruta de repertorio dominada por **reconocimiento de pulso y subdivisión/grabación y comparación + forma y frase + formas y canciones**.
 
 No declara blues dominado, no certifica groove y variaciones COMPETENTE/FUNCIONAL global y no crea un Evaluación nuevo.
 

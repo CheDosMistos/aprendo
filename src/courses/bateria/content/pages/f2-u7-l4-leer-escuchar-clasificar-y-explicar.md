@@ -52,10 +52,10 @@ El procedimiento es siempre el mismo:
 1. escuchas **4 pulsos de entrada** que fijan la referencia temporal;
 2. escuchas después un estímulo breve;
 3. antes de revelar, anotas:
- - cuántos pulsos principales dura;
- - si cada pulso se divide en `2` o `3` partes;
- - `simple` o `compuesto`;
- - el compás prototípico que corresponde entre las opciones ya estudiadas;
+   - cuántos pulsos principales dura;
+   - si cada pulso se divide en `2` o `3` partes;
+   - `simple` o `compuesto`;
+   - el compás prototípico que corresponde entre las opciones ya estudiadas;
 4. pulsas **Mostrar respuesta** sólo después de formular tu hipótesis.
 
 El metrónomo interno de estos estímulos usa `72` pulsos principales por minuto como **condición de tarea**, no como criterio de competencia.

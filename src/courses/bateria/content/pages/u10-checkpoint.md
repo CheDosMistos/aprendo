@@ -64,13 +64,13 @@ No existe un número matemático obligatorio de pendientes. Un escenario como `3
 
 Documenta el estado real de:
 
-- técnica dobles;
+- técnica postura y relajación–dobles;
 - pulso/subdivisión pulso interno/subdivisión binaria y ternaria/metrónomo y click reducido y grado de introducción de cambios de subdivisión;
 - lectura elemental figuras, silencios y compás;
-- oído dictado;
-- teoría métrica y terminología rítmica;
-- creatividad composición de fills y secciones;
-- hábitos gestión de carga y salud.
+- oído reconocimiento de pulso y subdivisión–dictado;
+- teoría teoría básica del pulso y las figuras–métrica y terminología rítmica;
+- creatividad motivo–composición de fills y secciones;
+- hábitos objetivos de práctica–gestión de carga y salud.
 
 Una debilidad aislada en lectura, cambios de subdivisión o hábitos K **no prolonga automáticamente Fase 1**: estos ejes continúan desarrollándose en Fase 2.
 
@@ -111,7 +111,7 @@ Fase 2 no borra Fase 1:
 
 - técnica continúa en mantenimiento/desarrollo;
 - los PAS pasan de `conocer` a **aplicar**;
-- metrónomo y click reducido ganan profundidad;
+- pulso interno–metrónomo y click reducido ganan profundidad;
 - figuras, silencios y compás pasa a centro de gravedad;
 - oído y creatividad continúan;
 - los PAS pendientes siguen como correctivos, sin deuda por calendario.

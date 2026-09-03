@@ -35,18 +35,18 @@ Ejemplo principal:
 
 - barra: `4/4` subdividida en 16 semicorcheas;
 - ciclo: acento cada 3 semicorcheas;
-- el ciclo sigue `3 + 3 + 3 +...` aunque aparezca una línea de compás;
+- el ciclo sigue `3 + 3 + 3 + ...` aunque aparezca una línea de compás;
 - como `3` no divide a `16`, la posición del acento respecto a la barra cambia.
 
 La barra **no cambia de compás** y el ciclo **no cambia de longitud**.
 
 ## Prerrequisitos curriculares
 
-El curso $1 para ciclos que cruzan compases:
+El curso establece para ciclos que cruzan compases:
 
-- **R:** agrupación disponible;
-- **R:** desplazamiento disponible;
-- **R:** pulso disponible.
+- agrupación disponible;
+- desplazamiento disponible;
+- pulso disponible.
 
 No se exige dominio avanzado. Sí hace falta poder mantener una referencia métrica cuando otra capa llama la atención.
 

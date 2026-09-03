@@ -8,7 +8,7 @@ slug: puerta-de-duracion-y-sincopa-i
 kind: checkpoint
 order: 5
 title: "Puerta de duración y síncopa I"
-summary: "Comprueba con material nuevo, oído y explicación conceptual si síncopa/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir Unidad 4 manteniendo ataque, duración, pulso y marco métrico diferenciados."
+summary: "Comprueba con material nuevo, oído y explicación conceptual si síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir Unidad 4 manteniendo ataque, duración, pulso y marco métrico diferenciados."
 duration: 10–15 min
 competencies: [C1, C2, D2, D6, E2, E4, F1, F2, K2, K4, K6]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 Esta evaluación **no sirve para “aprobar esta unidad”**. Su pregunta es más concreta:
 
-> **¿síncopa/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para abrir Unidad 4 sin perder el marco temporal cuando una duración atraviesa posiciones internas?**
+> **¿síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para abrir Unidad 4 sin perder el marco temporal cuando una duración atraviesa posiciones internas?**
 
 La evidencia combina una lectura realmente nueva, una microtarea auditiva y una explicación conceptual. El BPM describe las condiciones de la muestra; **no define el nivel**.
 
@@ -112,7 +112,7 @@ Si aparece dolor, hormigueo, entumecimiento, pérdida de fuerza, deterioro técn
 
 Aplica la cadena completa:
 
-- **INFERENCIA:** ¿síncopa/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir Unidad 4?;
+- **INFERENCIA:** ¿síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir Unidad 4?;
 - **EVIDENCIA:** Muestra A nueva + Muestra B auditiva + explicación conceptual;
 - **TAREA:** 4/4 monofónico con ligaduras, puntillos y síncopa elemental ya estudiados;
 - **CONDICIONES:** tempo, click, conteo/canto, ayudas, precisión, continuidad, recuperación y carga;

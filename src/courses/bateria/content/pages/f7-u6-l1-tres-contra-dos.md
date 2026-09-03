@@ -39,9 +39,9 @@ La relación no significa “tocar tres golpes y luego dos”. Deben sonar **sim
 El mínimo común múltiplo de 3 y 2 es 6. Por eso podemos representar el ciclo así:
 
 ```text
-rejilla: 1 2 3 4 5 6
-capa 3: X. X. X.
-capa 2: X.. X..
+rejilla:  1 2 3 4 5 6
+capa 3:  X . X . X .
+capa 2:  X . . X . .
 ```
 
 Esto permite ver que:

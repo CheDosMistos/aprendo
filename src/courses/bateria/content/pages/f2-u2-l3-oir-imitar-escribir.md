@@ -75,7 +75,7 @@ Ahora añades una transformación: conservar lo oído el tiempo suficiente para 
 
 Para cada intento dibuja primero una rejilla explícita de dos pulsos:
 
-`1 e & a | 2 e & a`
+`1  e  &  a  |  2  e  &  a`
 
 Debajo de cada posición escribe:
 

@@ -19,7 +19,7 @@ published: true
 
 Esta unidad no añade una nueva categoría rítmica. Su función es convertir el vocabulario de los recursos rítmicos trabajados en las unidades anteriores en **decisiones musicales integradas**.
 
-el recorrido del curso define integración progresiva y experimental así:
+El curso define integración progresiva y experimental así:
 
 - **MÍNIMO PARA AVANZAR:** combinar un recurso avanzado con pulso y forma claros;
 - **COMPETENTE / FUNCIONAL:** integrar varios recursos sin convertir complejidad en fin en sí mismo;
@@ -49,8 +49,8 @@ los recursos rítmicos avanzados de esta fase, improvisación abierta y experime
 integración progresiva y experimental depende de:
 
 - **los recursos rítmicos trabajados en las unidades anteriores según la tarea**, no todos como requisito universal;
-- **R:** experimentación integrada;
-- **F:** forma y fraseo como facilitador;
+- experimentación integrada;
+- forma y fraseo como facilitador;
 - la puerta de entrada de la fase: pulso, subdivisión y cambios de subdivisión y métrica y terminología rítmica suficientemente funcionales para manipular ritmo sin perder referencia.
 
 Si una propuesta necesita polimetría, polimetría debe estar disponible. Si no la necesita, no hay obligación de introducirla artificialmente.

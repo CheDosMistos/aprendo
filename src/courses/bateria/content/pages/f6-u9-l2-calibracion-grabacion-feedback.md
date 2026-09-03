@@ -63,10 +63,10 @@ No escribas la inferencia como si fuera un hecho.
 3. Haz una toma continua sin detenerte por un error pequeño.
 4. Antes de tocar otra vez, escucha/observa una sola vez.
 5. Registra:
- - qué predicción se confirmó;
- - qué predicción no se confirmó;
- - qué apareció y no habías anticipado;
- - qué sigue siendo incierto.
+   - qué predicción se confirmó;
+   - qué predicción no se confirmó;
+   - qué apareció y no habías anticipado;
+   - qué sigue siendo incierto.
 6. Elige **una** corrección.
 7. Realiza una segunda toma.
 8. Decide si la evidencia justifica mantener la corrección, cambiarla o diseñar otra prueba.

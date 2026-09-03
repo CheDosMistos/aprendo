@@ -19,7 +19,7 @@ published: true
 
 Dejar de pensar:
 
-`CON AYUDA = PEOR` 
+`CON AYUDA = PEOR`  
 `SIN AYUDA = MEJOR`
 
 y pasar a:
@@ -52,15 +52,15 @@ No es una escalera obligatoria ni un sistema de nivel. Una ayuda se mantiene, re
 4. Retírala o redúcela **sólo en la dimensión que quieres comprobar**.
 5. Haz una nueva toma.
 6. Compara:
- - qué se mantuvo;
- - qué se perdió;
- - qué error nuevo apareció;
- - si la ausencia de ayuda aportó información útil.
+   - qué se mantuvo;
+   - qué se perdió;
+   - qué error nuevo apareció;
+   - si la ausencia de ayuda aportó información útil.
 7. Decide:
- - `MANTENER AYUDA`;
- - `REDUCIR AYUDA`;
- - `RETIRAR AYUDA`;
- - `RECUPERAR AYUDA Y CORREGIR PRERREQUISITO`.
+   - `MANTENER AYUDA`;
+   - `REDUCIR AYUDA`;
+   - `RETIRAR AYUDA`;
+   - `RECUPERAR AYUDA Y CORREGIR PRERREQUISITO`.
 
 Retirar apoyo y producir un colapso total no es automáticamente «entrenar autonomía».
 
@@ -78,7 +78,7 @@ Si retirar feedback empeora la comprensión sin revelar una dependencia útil, v
 - Si necesitas **recuperar o discriminar** material ya entendido: mezclar tareas puede ser apropiado.
 - Si necesitas **retención**: vuelve a la habilidad después de separación suficiente para que no sea una simple continuación del mismo bloque.
 
-No existe ratio universal `bloqueado: intercalado` ni intervalo fijo de horas o días válido para todas las habilidades.
+No existe ratio universal `bloqueado : intercalado` ni intervalo fijo de horas o días válido para todas las habilidades.
 
 ## Carga y salud
 

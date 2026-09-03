@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa esta evaluación
 
-El curso $1 polirritmia así:
+El curso define polirritmia así:
 
 - **MÍNIMO:** comprende y ejecuta relaciones sencillas como `3:2` de forma accesible;
 - **COMPETENTE / FUNCIONAL:** mantiene dos capas rítmicas y entiende su relación común;

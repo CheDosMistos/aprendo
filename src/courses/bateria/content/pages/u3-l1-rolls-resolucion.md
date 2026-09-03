@@ -25,7 +25,7 @@ Sin calentarlo específicamente, toca una muestra breve de **Five Stroke Roll** 
 
 ## 2. Prerrequisito local drags
 
-Para profundizar en rolls, el curso $1 una base mínima de **singles y redobles + fulcrum y dedos + subdivisión binaria y ternaria**. Si los doubles o la subdivisión todavía se rompen de forma general, haz una exposición correcta a los PAS nuevos, pero reduce el volumen y mantén el correctivo de la base.
+Para profundizar en rolls, el curso requiere una base mínima de **singles y redobles + fulcrum y dedos + subdivisión binaria y ternaria**. Si los doubles o la subdivisión todavía se rompen de forma general, haz una exposición correcta a los PAS nuevos, pero reduce el volumen y mantén el correctivo de la base.
 
 ## 3. Rejilla de densidad y resolución — 5–6 min
 

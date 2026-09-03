@@ -17,7 +17,7 @@ published: true
 
 ## INFERENCIA
 
-> **dictado/relación entre oído y notación están suficientemente disponibles para que Unidad 3 pueda introducir transcripción iterativa— sin que toda la carga recaiga en imitación, memoria o notación básica.**
+> **dictado/relación entre oído y notación están suficientemente disponibles para que Unidad 3 pueda introducir transcripción real —transcripción iterativa— sin que toda la carga recaiga en imitación, memoria o notación básica.**
 
 Esta evaluación **no es una transcripción**, no exige perfección y no usa un número máximo universal de escuchas.
 

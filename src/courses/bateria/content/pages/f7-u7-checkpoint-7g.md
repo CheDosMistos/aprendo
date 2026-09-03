@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa esta evaluación
 
-el recorrido del curso define polimetría así:
+El curso define polimetría así:
 
 - **MÍNIMO:** distinguir polimetría de polirritmia y reconocer ejemplos conceptuales;
 - **FUNCIONAL:** mantener capas métricas sencillas con punto de referencia común;

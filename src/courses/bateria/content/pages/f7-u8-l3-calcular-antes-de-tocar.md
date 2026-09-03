@@ -100,7 +100,7 @@ A 120 BPM:
 
 Conserva la corriente de unidades y acentúa ahora cada cuatro:
 
-`FUERTE débil débil débil | FUERTE débil débil débil |...`
+`FUERTE débil débil débil | FUERTE débil débil débil | ...`
 
 Esos acentos forman la negra nueva a 150 BPM.
 

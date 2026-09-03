@@ -84,11 +84,11 @@ Dibuja seis posiciones de negra:
 
 Debajo marca comienzos de `2/4`:
 
-`X. X. X.`
+`X . X . X .`
 
 Y comienzos de `3/4`:
 
-`X.. X..`
+`X . . X . .`
 
 El siguiente punto, posición 7 del flujo continuo, vuelve a ser `X` para ambas capas.
 

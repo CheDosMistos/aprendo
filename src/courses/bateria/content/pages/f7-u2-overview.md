@@ -50,7 +50,7 @@ La negra de referencia no adquiere un tempo nuevo. modulación métrica estudiar
 
 ## Prerrequisitos curriculares
 
-el recorrido del curso fija para desplazamientos de acento y motivo:
+El recorrido del curso fija para desplazamientos de acento y motivo:
 
 - agrupaciones dentro de 4/4 funcional;
 - subdivisión binaria y ternaria como requisito;

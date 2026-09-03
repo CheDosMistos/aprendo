@@ -8,7 +8,7 @@ slug: puerta-decodificacion-ornamental
 kind: checkpoint
 order: 5
 title: "Puerta de decodificación ornamental"
-summary: "Evaluación diagnóstico de esta unidad: comprueba si tuplets y ornamentación/aplicación musical de rudimentos y drags permiten decodificar sextillo, grace simple, double grace y roll escrito antes de depender del nombre o de la memoria motora."
+summary: "Evaluación diagnóstico de esta unidad: comprueba si tuplets y ornamentación/aplicación musical de rudimentos y paradiddles–drags permiten decodificar sextillo, grace simple, double grace y roll escrito antes de depender del nombre o de la memoria motora."
 duration: 15–20 min
 competencies: [B3, B4, B5, B7, C2, C3, D3, K2, K4, K6]
 rudiments: []

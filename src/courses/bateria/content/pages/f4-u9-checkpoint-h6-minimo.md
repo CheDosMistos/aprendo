@@ -97,4 +97,4 @@ Pueden probarse como AMPLIACIÓN sólo si esas métricas ya están funcionales. 
 - **AVANZA CON CORRECTIVO:** el retorno es funcional, pero una transición o superficie necesita mantenimiento.
 - **REPITE EL BLOQUE ESPECÍFICO:** el fill desplaza sistemáticamente el 1 o hace desaparecer la referencia; no es necesario repetir toda esta unidad.
 
-La siguiente unidad integra fills + adaptación técnica entre superficies y kit/orquestación de rudimentos dentro del **Hito 5**.
+La siguiente unidad integra setup, ergonomía y ecología del kit–fills + adaptación técnica entre superficies y kit/orquestación de rudimentos dentro del **Hito 5**.

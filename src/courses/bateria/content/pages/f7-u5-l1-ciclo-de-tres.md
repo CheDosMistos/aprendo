@@ -27,7 +27,7 @@ Una barra de `4/4` contiene **16 semicorcheas**.
 
 Vamos a tocar un flujo continuo de semicorcheas y a acentuar cada tercera posición:
 
-`A.. A.. A.. A.....`
+`A . . A . . A . . A . . ...`
 
 La regla del ciclo es simple:
 
@@ -95,7 +95,7 @@ y reiniciaras en cada `1`, estarías adaptando la agrupación a la barra.
 
 En esta unidad hacemos otra cosa:
 
-`3 + 3 + 3 + 3 + 3 + 3 +...`
+`3 + 3 + 3 + 3 + 3 + 3 + ...`
 
 sin ajustar el último grupo para que quepa.
 

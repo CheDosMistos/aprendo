@@ -45,7 +45,9 @@ Para cada patrón:
 
 No es obligatorio ejecutar A→B sin pausa para superar la evaluación.
 
-## MÍNIMO PARA Patrón A mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
+## MÍNIMO PARA coordinación básica de cuatro extremidades
+
+- Patrón A mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
 - Patrón B mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
 - la subdivisión interna sigue disponible;
 - las cuatro extremidades conservan sus funciones básicas;

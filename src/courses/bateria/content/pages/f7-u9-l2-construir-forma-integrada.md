@@ -8,7 +8,7 @@ slug: construir-forma-integrada
 kind: lesson
 order: 2
 title: "Construir una forma integrada: agrupación, desplazamiento, métrica y tuplet"
-summary: "Integra tuplets de 5 y 7 y divisiones no estándar en una miniatura formal donde cada fenómeno conserva su identidad y la complejidad termina en una resolución inequívoca."
+summary: "Integra agrupaciones dentro de 4/4–tuplets de 5 y 7 y divisiones no estándar en una miniatura formal donde cada fenómeno conserva su identidad y la complejidad termina en una resolución inequívoca."
 duration: 25–30 min
 competencies: [J9, J1, J2, J3, J4, G2, G4, G6, C1, C2, C3, D4, D6, F2, F3, E2, K2, K3, K5]
 rudiments: []
@@ -19,7 +19,7 @@ published: true
 
 Integrar varios recursos ya estudiados dentro de una forma breve **sin mezclarlos conceptualmente**.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u9/f7-u9-form-first-integration.musicxml" data-score-title="Unidad 9 — Forma primero: integración tuplets de 5 y 7 y divisiones no estándar" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u9/f7-u9-form-first-integration.musicxml" data-score-title="Unidad 9 — Forma primero: integración agrupaciones dentro de 4/4–tuplets de 5 y 7 y divisiones no estándar" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## La miniatura
 

@@ -23,7 +23,7 @@ Unidad 7 tomaba decisiones **mientras el tiempo continuaba**. Esta unidad cambia
 
 ## El mínimo composición de piezas no son “cuatro compases obligatorios”
 
-el recorrido del curso define el mínimo como crear **1–4 compases coherentes y reproducibles**.
+El curso define el mínimo como crear **1–4 compases coherentes y reproducibles**.
 
 Eso significa que una idea de un compás puede ser evidencia suficiente si está realmente fijada, puede reconstruirse y cumple la tarea. Añadir longitud por completismo no mejora automáticamente la composición.
 

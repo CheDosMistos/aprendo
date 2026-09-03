@@ -23,7 +23,7 @@ Acentos, dinámica y textura de manos se añaden por capas. Si una línea aún n
 
 ## Qué debe estar disponible
 
-Esta unidad presupone subdivisión binaria y ternaria y síncopa/métrica y terminología rítmica suficientemente disponibles para una tarea accesible. No exige perfección, un BPM fijo/alto, aplicación musical de rudimentos funcional global, síncopa variada ya dominada ni primera vista avanzada.
+Esta unidad presupone pulso interno–subdivisión binaria y ternaria y síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica suficientemente disponibles para una tarea accesible. No exige perfección, un BPM fijo/alto, aplicación musical de rudimentos funcional global, síncopa variada ya dominada ni primera vista avanzada.
 
 Si la evaluación de Unidad 3 deja un `CONTINUAR + CORRECTIVO`, conserva ese correctivo de forma localizada. Si la comprensión de duración o el marco temporal colapsan globalmente, reduce una sola variable antes de superponer acento o textura de manos.
 

@@ -43,10 +43,10 @@ Una discrepancia aquí **no anula automáticamente** una buena muestra de lectur
 Sin repetir todo el curso, identifica dónde estás en cada núcleo:
 
 - pulso y subdivisión pulso, subdivisión y cambios de subdivisión;
-- lectura lectura de compás;
+- lectura figuras, silencios y compás–lectura de compás;
 - primera vista forma y lectura de chart;
-- fundamentos y terminología métrica y terminología rítmica;
-- oído/escritura relación entre oído y notación como soporte;
+- fundamentos y terminología teoría básica del pulso y las figuras–métrica y terminología rítmica;
+- oído/escritura reconocimiento de pulso y subdivisión–relación entre oído y notación como soporte;
 - referencia reducida click desplazado o no obvio sólo si fue pertinente y estable en su tarea.
 
 No conviertas esta lista en una suma de puntos. Una competencia puede requerir mantenimiento aunque el Hito 2 sea observable.

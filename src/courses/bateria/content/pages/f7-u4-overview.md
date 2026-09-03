@@ -38,10 +38,10 @@ Estas relaciones son las elegidas para esta unidad; no se presentan como las ún
 
 ## Lo que ya debería estar disponible
 
-El curso $1 para tuplets de 5 y 7 y divisiones no estándar:
+El curso establece para tuplets de 5 y 7 y divisiones no estándar:
 
-- **R:** subdivisión suficientemente disponible;
-- **F:** lectura funcional de tuplets/ornamentación y densidades ya trabajadas.
+- subdivisión suficientemente disponible;
+- lectura funcional de tuplets/ornamentación y densidades ya trabajadas.
 
 Además, el curso ya ha practicado cambios `2 ↔ 3 ↔ 4` manteniendo pulso y ha presentado quintillos de forma exploratoria.
 
