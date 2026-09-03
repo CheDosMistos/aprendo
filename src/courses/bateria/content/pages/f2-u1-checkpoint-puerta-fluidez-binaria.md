@@ -109,7 +109,7 @@ La lectura básica nueva está disponible y el problema, si existe, está **loca
 
 ### CONTINUAR + CORRECTIVO
 
-Existe una fragilidad concreta, pero Unidad 2 puede abrirse adaptando esa variable. Ejemplos: contar explícitamente durante silencios, bajar temporalmente densidad o simplificar sticking mientras la lectura de la lectura de figuras, silencios y compás sigue siendo legible.
+Existe una fragilidad concreta, pero Unidad 2 puede abrirse adaptando esa variable. Ejemplos: contar explícitamente durante silencios, bajar temporalmente densidad o simplificar sticking mientras la lectura de la lectura de la lectura de figuras, silencios y compás sigue siendo legible.
 
 ### REDUCIR NOVEDAD
 
