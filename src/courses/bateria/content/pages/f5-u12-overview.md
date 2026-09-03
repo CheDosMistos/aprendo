@@ -86,7 +86,7 @@ Esta unidad reutiliza el material ya validado de A/B/C. Crear otro MusicXML sól
 
 ## Regla de escucha segura
 
-gestión de carga y salud sigue activo. Al tocar piezas completas, aumenta la exposición acumulada del kit.
+La gestión de carga y salud sigue activa. Al tocar piezas completas, aumenta la exposición acumulada del kit.
 
 Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. Esta unidad no inventa un nivel universal “seguro” para toda batería, sala o sesión.
 
