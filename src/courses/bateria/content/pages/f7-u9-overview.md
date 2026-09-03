@@ -42,16 +42,16 @@ El sistema de evaluación resume Hito 8 como:
 
 `explicación + pulso + ejecución + aplicación`
 
-los recursos rítmicos avanzados de esta fase, improvisación abierta y experimental, C y métrica y terminología rítmica/forma y frase están implicados en el hito, pero **no se exige que todas las competencias alcancen el mismo nivel ni que aparezcan simultáneamente en una sola interpretación**.
+Los recursos rítmicos avanzados de esta fase, la improvisación abierta y experimental, el repertorio, la transferencia entre estilos y la forma/frase están implicados en el hito, pero **no se exige que todas las competencias alcancen el mismo nivel ni que aparezcan simultáneamente en una sola interpretación**.
 
 ## Prerrequisitos reales
 
-integración progresiva y experimental depende de:
+La integración progresiva y experimental depende de:
 
 - **los recursos rítmicos trabajados en las unidades anteriores según la tarea**, no todos como requisito universal;
 - experimentación integrada;
 - forma y fraseo como facilitador;
-- la puerta de entrada de la fase: pulso, subdivisión y cambios de subdivisión y métrica y terminología rítmica suficientemente funcionales para manipular ritmo sin perder referencia.
+- la puerta de entrada de la fase: pulso, subdivisión y cambios de subdivisión, junto con una comprensión métrica suficientemente funcional para manipular ritmo sin perder referencia.
 
 Si una propuesta necesita polimetría, polimetría debe estar disponible. Si no la necesita, no hay obligación de introducirla artificialmente.
 
@@ -95,8 +95,8 @@ Si no puedes explicar la función del recurso, todavía puede ser un laboratorio
 ## Recorrido de la unidad
 
 1. **Lección 1 — Forma antes que complejidad:** elegir función, recurso dominante, referencia y salida.
-2. **Lección 2 — Construir una forma integrada:** agrupaciones dentro de 4/4/desplazamientos de acento y motivo/métricas impares y mixtas/tuplets de 5 y 7 y divisiones no estándar en una miniatura legible y reproducible.
-3. **Lección 3 — Capas, transición y resolución:** integrar ciclos que cruzan compases/polirritmia/modulación métrica sin borrar las diferencias conceptuales entre ellos.
+2. **Lección 2 — Construir una forma integrada:** combinar agrupaciones dentro de 4/4, desplazamientos de acento o motivo, métricas impares/mixtas y tuplets en una miniatura legible y reproducible.
+3. **Lección 3 — Capas, transición y resolución:** integrar ciclos que cruzan compases, polirritmia y modulación métrica sin borrar las diferencias conceptuales entre ellos.
 4. **Lección 4 — Proyecto Hito 8:** componer o improvisar una pieza breve, explicarla, tocarla, grabarla, reducirla y revisarla.
 5. **Evaluación — integración progresiva y experimental + Hito 8:** evidencia integrada de comprensión, pulso, ejecución, aplicación y recuperación.
 
