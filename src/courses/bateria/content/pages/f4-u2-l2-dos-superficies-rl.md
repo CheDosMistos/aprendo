@@ -81,4 +81,4 @@ Si el problema sigue siendo de acceso, vuelve al diagnóstico setup, ergonomía 
 
 ## Qué significa curricularmente
 
-Esto es trabajo real de **adaptación técnica entre superficies y kit** y preparación del componente manual de orquestación de rudimentos/improvisación restringida. No demuestra todavía coordinación coordinación básica de cuatro extremidades ni improvisación restringida MÍNIMO completo.
+Esto es trabajo real de **adaptación técnica entre superficies y kit** y preparación del componente manual de orquestación de rudimentos/improvisación restringida. No demuestra todavía coordinación básica de cuatro extremidades ni improvisación restringida MÍNIMO completo.

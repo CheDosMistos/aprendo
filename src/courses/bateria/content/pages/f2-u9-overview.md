@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Primera vista I: continuidad y recuperación"
 summary: "Introduce forma y lectura de chart con material realmente nuevo, inspección breve, primer intento sin playback y evaluación separada de continuidad, recuperación y precisión."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, D5, K2, K4, K6]
 rudiments: []
 published: true

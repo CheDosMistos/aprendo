@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Composición rítmica y revisión"
 summary: "Convierte una idea en una versión escrita y reproducible, organízala, transfórmala y aprende a revisar comparando intención, notación y ejecución."
-duration: Unidad flexible · 5 lecciones + Evaluación
+duration: Unidad flexible · 5 lecciones + evaluación
 competencies: [G4, G1, G2, D6, F3, C1, C2, K2, K5, K6, K8]
 rudiments: []
 published: true

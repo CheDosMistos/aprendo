@@ -53,7 +53,7 @@ El recorrido es:
 2. **Fluidez binaria sin memorizar dibujos** — aumentar continuidad y densidad de lectura.
 3. **Aplicación rudimental sin perder la línea** — usar vocabulario técnico sin sustituir el ritmo por sticking.
 4. **Oído, escritura y primera vista** — cerrar el ciclo sonido ↔ notación con material nuevo.
-5. **Puerta de fluidez binaria** — Evaluación para decidir el siguiente paso.
+5. **Puerta de fluidez binaria** — evaluación para decidir el siguiente paso.
 
 Las cuatro lecciones y la evaluación forman el recorrido completo de la unidad. Completar las páginas no equivale a “aprobar”: la evaluación sirve para decidir si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según la evidencia y la salud/carga.
 

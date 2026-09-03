@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Orquestar vocabulario ya conocido"
 summary: "Convierte frases conocidas en movimiento tímbrico intencional sin perder identidad, pulso ni una base sencilla de pies."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [B8, G5, A8, H4, C1, C2, G2, K2, K5, K7]
 rudiments: []
 published: true

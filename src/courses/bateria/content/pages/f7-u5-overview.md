@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Ciclos que cruzan barras"
 summary: "Profundiza ciclos que cruzan compases: mantener una célula periódica que no reinicia en cada barra, seguir su cambio de alineación respecto al 4/4 y predecir dónde vuelve a coincidir con el compás."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J5, J1, J2, C1, C2, C3, C4, D4, D6, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Proyecto autónomo Proyecto autónomo: diagnosticar, planificar, aprender y revisar"
 summary: "Convierte autonomía en un proceso sostenido y documentado: el alumno selecciona un proyecto adecuado, diseña parte del procedimiento, usa evidencia para cambiar el plan y demuestra transferencia sin confundir autonomía con ausencia de guía."
-duration: 5 lecciones + Evaluación; proyecto multisesión flexible
+duration: 5 lecciones + evaluación; proyecto multisesión flexible
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4]
 rudiments: []
 published: true

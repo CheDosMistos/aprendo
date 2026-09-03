@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Lenguaje ternario y cambios de subdivisión"
 summary: "Reorganiza un pulso estable en dos, tres y cuatro partes, introduciendo el tresillo en 4/4 y separando cambio de subdivisión, cambio de tempo y compás compuesto."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, D1, D2, D3, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
@@ -51,7 +51,7 @@ Estas diferencias no son vocabulario decorativo: evitan que una ejecución apare
 4. **Oír, escribir y transferir 2–3–4** — cambiar de representación: escuchar, imitar, escribir, leer y transformar.
 5. **Puerta de reorganización del pulso** — decidir si pulso, subdivisión y cambios de subdivisión y tuplets y ornamentación permiten abrir Unidad 6 sin confundir “tres por pulso” con “seis pulsos iguales”.
 
-La arquitectura `4 lecciones + Evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y `20_U5_LENGUAJE_TERNARIO_Y_CAMBIOS_DE_SUBDIVISION.md`. No son cinco días obligatorios.
+La arquitectura `4 lecciones + evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y `20_U5_LENGUAJE_TERNARIO_Y_CAMBIOS_DE_SUBDIVISION.md`. No son cinco días obligatorios.
 
 ## Ruta de transferencia
 

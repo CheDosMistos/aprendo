@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Hito 2 y puente a Fase 3"
 summary: "Cierra Fase 2 observando lectura rítmica nueva sin dependencia de memoria previa y registra el perfil que continuará como mantenimiento o puente a Fase 3."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, D1, D2, D3, D4, D5, E1, E2, E3, E4, F1, F2, K2, K4, K6]
 rudiments: []
 published: true

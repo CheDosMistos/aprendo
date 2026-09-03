@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Agrupaciones dentro de 4/4"
 summary: "Profundiza agrupaciones dentro de 4/4 sin reenseñar 3+3+2 desde cero: conserva el 4/4 y su pulso mientras reorganiza corcheas y semicorcheas en varias particiones, las lee, escribe y convierte en material musical deliberado."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J1, C1, C2, D4, D6, F2, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true

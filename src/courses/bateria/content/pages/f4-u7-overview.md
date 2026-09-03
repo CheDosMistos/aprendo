@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Groove estable y pequeñas variaciones"
 summary: "Convierte coordinación básica de cuatro extremidades mínimo en groove groove y variaciones estable: una variación predeterminada, forma clara y retorno al patrón base."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H5, H4, C1, C2, C3, F3, G2, K5, K7]
 rudiments: []
 published: true

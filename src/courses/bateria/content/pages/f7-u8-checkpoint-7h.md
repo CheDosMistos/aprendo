@@ -227,7 +227,7 @@ No necesitas dominar varias modulaciones ni una cifra determinada de BPM.
 
 ## COMPETENTE / FUNCIONAL
 
-modulación métrica es funcional si, de manera reproducible:
+La modulación métrica es funcional si, de manera reproducible:
 
 - ejecutas al menos una modulación sencilla con relación calculable y audible;
 - mantienes la duración puente sin deformarla;
@@ -288,4 +288,4 @@ La frase de cierre de esta unidad es:
 
 > **PUEDO CAMBIAR DE PULSO CONSERVANDO UNA DURACIÓN QUE EXPLICA EXACTAMENTE EL NUEVO TEMPO.**
 
-Con este nivel, modulación métrica queda disponible para la integración de integración progresiva y experimental.
+Con este nivel, modulación métrica queda disponible para la integración progresiva y experimental.

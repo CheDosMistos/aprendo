@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Bombo: primer control de pedal"
 summary: "Convierte el bombo en una primera voz de pie controlable sin imponer una técnica de talón ni perseguir velocidad."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H2, H1, C1, K2, K7]
 rudiments: []
 published: true

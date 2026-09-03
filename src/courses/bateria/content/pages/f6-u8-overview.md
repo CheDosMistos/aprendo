@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Feel y microtiming: colocación, sonido y contexto"
 summary: "Distingue estabilidad temporal de feel, analiza relaciones finas de colocación y sonido y aprende a comparar decisiones sin convertir milisegundos en recetas universales."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C7, C1, C2, C4, I2, E5, H5, H6, K5, K8]
 rudiments: []
 published: true

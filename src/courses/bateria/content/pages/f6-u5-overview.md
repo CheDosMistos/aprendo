@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Vocabulario aplicado e improvisación estilística"
 summary: "Aprende a elegir, limitar, variar y revisar vocabulario según una función musical y unas restricciones estilísticas, conservando pulso, forma e intención."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [G1, G2, G3, I2, H5, H6, F3, F7, C2, B7, B8]
 rudiments: []
 published: true

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Compás compuesto II: 9/8, 12/8 y contraste"
 summary: "Generaliza el modelo compuesto de Unidad 6 a 9/8 y 12/8, refuerza la distinción simple/compuesto y abre grabación y comparación de forma inicial mediante ejemplos métricos claros cuya organización del pulso debe sentirse, leerse y justificarse."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, D4, E1, E2, E5, F2, K2, K4, K6]
 rudiments: []
 published: true
@@ -93,7 +93,7 @@ No significa todavía:
 4. **Leer, escuchar, clasificar y explicar** — transferir entre representación escrita y auditiva; grabación y comparación aparece sólo en ejemplos métricos/fraseológicos claros y acotados.
 5. **Puerta de generalización compuesta** — decidir si lectura de compás/métrica y terminología rítmica y grabación y comparación inicial permiten mantener y justificar la organización compuesta en 6/8, 9/8 y 12/8 antes de introducir la novedad central de Unidad 8.
 
-La arquitectura `4 lecciones + Evaluación` es una **DECISIÓN CURRICULAR RAZONADA** subordinada a `20_FASE_2_ALFABETIZACION_RITMICA_Y_CONTROL_TEMPORAL` y `20B_MAPA_DETALLADO_UNIDADES_FASE_2`. No representa cinco días obligatorios ni cinco exámenes.
+La arquitectura `4 lecciones + evaluación` es una **DECISIÓN CURRICULAR RAZONADA** subordinada a `20_FASE_2_ALFABETIZACION_RITMICA_Y_CONTROL_TEMPORAL` y `20B_MAPA_DETALLADO_UNIDADES_FASE_2`. No representa cinco días obligatorios ni cinco exámenes.
 
 ## Ruta de transferencia
 

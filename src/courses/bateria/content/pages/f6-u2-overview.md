@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Transcripción útil, escucha jerárquica e incertidumbre"
 summary: "Aprende a reconstruir material desde el audio por capas: primero pulso y forma, después subdivisión, función y detalle, dejando explícito qué está verificado y qué sigue siendo hipótesis."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [E1, E2, E3, E4, E5, E6, F3, F7, D4, D6, C2, C3, K3, K5, K8]
 rudiments: []
 published: true

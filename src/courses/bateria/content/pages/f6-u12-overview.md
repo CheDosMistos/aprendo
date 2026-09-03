@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración, portafolio y Hito 7"
 summary: "Cierra Fase 6 mediante evidencia acumulativa: revisa los cuatro carriles del portafolio, comprueba retención y transferencia no idéntica, compara la línea base de Unidad 1 con el estado final y decide formalmente el Hito 7 sin exigir nivel avanzado universal."
-duration: 4 lecciones + Evaluación final; varias sesiones
+duration: 4 lecciones + evaluación final; varias sesiones
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4, I5, I6, H7, C7, D7, G3]
 rudiments: []
 published: true
@@ -41,7 +41,7 @@ Para el Hito 7 se observan conjuntamente las capacidades de práctica y autonom�
 
 ## Competencias de apoyo ≠ nuevos prerrequisitos duros
 
-La fuente de Fase 6 también espera evidencia acumulada, cuando corresponda, de repertorio, transferencia estilística, interacción, independencia, tiempo, lectura y creatividad.
+El diseño de Fase 6 también espera evidencia acumulada, cuando corresponda, de repertorio, transferencia estilística, interacción, independencia, tiempo, lectura y creatividad.
 
 Pero esta unidad no cambia silenciosamente el contrato de Hito 7:
 
@@ -135,7 +135,7 @@ No se intenta demostrar que “todo mejoró”. Una comparación honesta puede m
 
 ## Recorrido de la unidad
 
-1. **Lección 1 — Auditoría los cuatro carriles del portafolio: qué evidencia existe y qué falta realmente.**
+1. **Lección 1 — Auditoría de los cuatro carriles del portafolio: qué evidencia existe y qué falta realmente.**
 2. **Lección 2 — Retención: recuperar material anterior sin enmascarar la prueba.**
 3. **Lección 3 — Transferencia no idéntica + integración transcripción real/análisis musical/autonomía.**
 4. **Lección 4 — Unidad 1 → esta unidad: límites, mantenimiento y transición sin adelantar Fase 7.**
@@ -162,7 +162,7 @@ Esta unidad:
 - no convierte BPM en criterio de cierre;
 - no exige porcentajes mínimos inventados;
 - no exige interacción interpersonal si nunca estuvo disponible;
-- no obliga a repetir todos los evaluaciones;
+- no obliga a repetir todas las evaluaciones;
 - no declara AVANZADO universal;
 - no usa el tiempo transcurrido como prueba de competencia;
 - no enseña todavía polirritmia profunda, polimetría, modulación métrica, tuplets complejos o el núcleo de Fase 7.

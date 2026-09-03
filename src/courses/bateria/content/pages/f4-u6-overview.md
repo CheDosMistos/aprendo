@@ -8,8 +8,8 @@ slug: fase-4-unidad-6-introduccion
 kind: unit
 order: 0
 title: "Coordinación básica de cuatro extremidades"
-summary: "Convierte la exposición de Unidad 5 en coordinación coordinación básica de cuatro extremidades mínima mediante dos patrones simples y predeterminados."
-duration: Unidad flexible · 4 lecciones + Evaluación
+summary: "Convierte la exposición de Unidad 5 en coordinación básica de cuatro extremidades mínima mediante dos patrones simples y predeterminados."
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H4, H2, H3, C2, K2, K3, K5, K7]
 rudiments: []
 published: true

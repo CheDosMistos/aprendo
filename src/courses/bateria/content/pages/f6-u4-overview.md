@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Independencia funcional avanzada: capas con propósito"
 summary: "Profundiza independencia avanzada sólo después de comprobar puerta de entrada y usa la independencia para resolver funciones musicales concretas, no para acumular combinaciones abstractas."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H7, H4, C2, H5, G2, B7, B8]
 rudiments: []
 published: true

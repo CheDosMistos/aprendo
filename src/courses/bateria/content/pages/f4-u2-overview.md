@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "De pad a caja y de caja a superficies"
 summary: "Conserva una frase manual conocida mientras sus ataques empiezan a repartirse entre superficies reales del kit."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [A8, B8, C1, K2, K7]
 rudiments: []
 published: true
@@ -35,7 +35,7 @@ No estamos aprendiendo un ritmo nuevo. Estamos transfiriendo material que ya con
 
 ## Frontera importante
 
-Esta unidad trabaja **adaptación técnica entre superficies y kit** y el componente manual de **orquestación de rudimentos**. También prepara la futura orquestación creativa improvisación restringida, pero no declara improvisación restringida MÍNIMO ni orquestación de rudimentos-kit completo antes de disponer de la coordinación coordinación básica de cuatro extremidades que fija el mapa.
+Esta unidad trabaja **adaptación técnica entre superficies y kit** y el componente manual de **orquestación de rudimentos**. También prepara la futura orquestación creativa improvisación restringida, pero no declara improvisación restringida MÍNIMO ni orquestación de rudimentos-kit completo antes de disponer de la coordinación básica de cuatro extremidades que fija el mapa.
 
 No introduces todavía como novedad dominante:
 

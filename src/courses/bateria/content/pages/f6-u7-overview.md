@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Transferencia entre estilos: principios, carácter e híbridos"
 summary: "Aprende a reconocer qué principio puede viajar entre estilos, qué rasgos deben conservarse para no borrar su carácter y cómo transformar vocabulario con intención."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [I5, I2, I1, F7, G2, G3, H5, H6, E5, C1, C2]
 rudiments: []
 published: true

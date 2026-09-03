@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Métricas impares y mixtas"
 summary: "Profundiza métricas impares y mixtas: leer, escribir, tocar y combinar 5/4, 7/8 y cambios de compás sin confundir longitud métrica, agrupación interna, desplazamiento o cambio de subdivisión."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J3, J1, C1, C2, C4, C6, D4, D6, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Proyecto sostenido: chart, respuesta y adaptación"
 summary: "Integra navegación, continuidad, respuesta musical, adaptación estilística, feel y autonomía funcional dentro de una forma completa con varias pasadas y decisiones encadenadas."
-duration: 5 lecciones + Evaluación; varias sesiones
+duration: 5 lecciones + evaluación; varias sesiones
 competencies: [D7, I4, I6, I5, C7, K8, F3, F7, H5, H6]
 rudiments: []
 published: true

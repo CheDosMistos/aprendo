@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Referencia temporal menos explícita"
 summary: "Reduce gradualmente la densidad del click sobre lectura ya conocida para observar referencia interna, sin confundir dificultad temporal con dificultad notacional."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C4, C5, D1, K2, K4, K6]
 rudiments: []
 published: true

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Hi-hat de pie: cerrar, abrir y sostener referencia"
 summary: "Convierte el pie izquierdo en una referencia simple y controlada sin adelantar independencia ni groove."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H3, H1, C1, K2, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Rama paralela: hi-hat de pie
 
-Esta unidad no es “la segunda mitad” de Unidad 3. El mapa hace **bombo bombo y hi-hat de pie hi-hat de pie ramas paralelas tras setup, ergonomía y ecología del kit**. Esta unidad **no exige bombo** como prerrequisito.
+Esta unidad no es “la segunda mitad” de Unidad 3. El mapa hace **bombo y hi-hat de pie ramas paralelas tras setup, ergonomía y ecología del kit**. Esta unidad **no exige bombo** como prerrequisito.
 
 La novedad dominante es hi-hat de pie:
 

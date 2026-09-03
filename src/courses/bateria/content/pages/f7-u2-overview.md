@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Desplazamientos de acento y motivo"
 summary: "Profundiza desplazamientos de acento y motivo: conserva compás, pulso y subdivisión mientras una referencia acentual o una célula completa cambia deliberadamente de posición dentro de la cuadrícula."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J2, J1, C1, C2, C4, C6, D4, D6, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true

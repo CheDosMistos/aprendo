@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Del código al lenguaje"
 summary: "Convierte la alfabetización rítmica de Fase 2 en un circuito bidireccional entre oído, notación, ejecución, comparación y explicación."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [D4, D5, D6, E1, E2, E3, E4, G1, K5, K6, K8]
 rudiments: []
 published: true

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Fills, retorno al groove y primera capa de independencia"
 summary: "Convierte material conocido en transiciones breves y aprende que un fill sólo está completo cuando vuelve al lugar correcto."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H6, H5, F3, B8, G5, C1, C2, C3, K2, K5, K7]
 rudiments: []
 published: true

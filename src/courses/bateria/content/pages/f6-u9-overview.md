@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Autonomía aplicada: diagnosticar, elegir estrategia y verificar"
 summary: "Convierte el ciclo de práctica ya conocido en decisiones propias: identifica una necesidad, elige una estrategia y un recurso con criterio, comprueba el resultado y ajusta sin confundir autonomía con practicar sin ayuda."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [K8, K1, K2, K3, K4, K5, K6, K7, I3, E6, F7, C1, C2, H5]
 rudiments: []
 published: true

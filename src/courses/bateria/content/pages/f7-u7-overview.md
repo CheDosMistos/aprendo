@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Polimetría"
 summary: "Profundiza polimetría: mantener dos organizaciones métricas simultáneas con ciclos de barra distintos, conservar una referencia temporal común y saber dónde vuelven a coincidir sus comienzos."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J7, J5, J6, C1, C2, C3, C4, D4, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true

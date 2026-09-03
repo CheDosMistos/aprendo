@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Charts densos, navegación y decisión"
 summary: "Aprende a extraer prioridades de un chart con más información, preparar con tiempo limitado y conservar continuidad cuando no puedes ejecutar todos los detalles."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [D7, F3, F7, C1, C2, C3, C4, I3, I4, K2, K4]
 rudiments: []
 published: true

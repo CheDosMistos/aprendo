@@ -21,7 +21,7 @@ Esta evaluación sí busca el criterio literal de coordinación básica de cuatr
 
 > **Coordina patrones sencillos sin perder pulso.**
 
-Se usan dos patrones simples y predeterminados. No se evalúa independencia independencia avanzada.
+Se usan dos patrones simples y predeterminados. No se evalúa independencia avanzada.
 
 ## Patrón A
 
@@ -56,7 +56,7 @@ No es obligatorio ejecutar A→B sin pausa para superar la evaluación.
 - puedes recomponer tras aislar;
 - ergonomía/carga siguen siendo sostenibles;
 - registras ayudas y condición;
-- puedes explicar por qué **coordinación coordinación básica de cuatro extremidades no equivale a independencia independencia avanzada**.
+- puedes explicar por qué **coordinación básica de cuatro extremidades no equivale a independencia avanzada**.
 
 ## NO CERTIFICA
 

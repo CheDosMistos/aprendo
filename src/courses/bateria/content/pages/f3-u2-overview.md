@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Oído rítmico activo: imitar, segmentar y dictar"
 summary: "Pasa de reconocer o reproducir células a reconstruir material breve mediante segmentación, imitación, escritura y comparación, registrando las ayudas utilizadas."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [E2, E3, E4, D4, C2, K2, K3, K5, K6, K8]
 rudiments: []
 published: true

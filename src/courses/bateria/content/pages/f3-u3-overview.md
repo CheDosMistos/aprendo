@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Transcripción corta y método de verificación"
 summary: "Introduce transcripción real como reconstrucción iterativa de una fuente: formular hipótesis, escuchar con una pregunta, revisar, tocar y validar sin rellenar dudas por intuición."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [E3, E4, E5, E6, D4, D5, D6, F2, C1, C2, K2, K3, K5, K6, K8]
 rudiments: []
 published: true

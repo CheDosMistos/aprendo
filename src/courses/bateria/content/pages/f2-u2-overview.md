@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: Semicorcheas y silencios como lenguaje
 summary: "Convierte la semicorchea en una rejilla temporal legible: ataques y silencios ocupan posiciones concretas, la subdivisión continúa aunque no haya golpe y la técnica se aplica sólo después de comprender la línea."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, C4, D1, D6, E2, E3, E4, F1, B7, K2, K4, K6]
 rudiments: []
 published: true

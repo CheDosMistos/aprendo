@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Tuplets de 5 y 7"
 summary: "Profundiza tuplets de 5 y 7 y divisiones no estándar: subdividir un pulso en cinco o siete partes iguales, leer la relación escrita y cambiar entre subdivisiones comunes y tuplets sin mover el pulso de referencia."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J4, C1, C2, C3, C4, D3, D6, E2, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
 published: true

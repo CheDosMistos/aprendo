@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración: escuchar, escribir, leer y aplicar"
 summary: "Cambia entre oído, escritura, lectura, ejecución y transformación conservando la estructura rítmica, sin convertir ninguna representación aislada en el objetivo final."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, D1, D2, D3, D4, D6, E1, E2, E3, E4, E5, B7, G1, G2, K2, K4, K6]
 rudiments: []
 published: true

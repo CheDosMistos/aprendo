@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Síncopa II, acentos y lectura aplicada"
 summary: "Amplía la variedad de síncopa en 4/4 manteniendo continuidad y añade acento, dinámica y aplicación aplicación musical de rudimentos sólo después de que la línea rítmica esté comprendida."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, D2, D6, B7, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
@@ -35,7 +35,7 @@ Si la evaluación de Unidad 3 deja un `CONTINUAR + CORRECTIVO`, conserva ese cor
 4. **Leer, seguir y recuperarse** — afrontar material nuevo de la familia y continuar/reincorporarse tras un error pequeño.
 5. **Puerta de síncopa aplicada y continuidad** — decidir si síncopa y pulso, subdivisión y cambios de subdivisión permiten abrir la reorganización ternaria de Unidad 5.
 
-Esta arquitectura de `4 lecciones + Evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y `20_U4_SINCOPA_II_ACENTOS_Y_LECTURA_APLICADA.md`. No son cinco días obligatorios.
+Esta arquitectura de `4 lecciones + evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y `20_U4_SINCOPA_II_ACENTOS_Y_LECTURA_APLICADA.md`. No son cinco días obligatorios.
 
 El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y la evaluación están publicados. Eso no significa que un alumno haya «aprobado esta unidad» por abrir o completar las páginas: la progresión depende de la evidencia registrada y de la decisión de la evaluación.
 

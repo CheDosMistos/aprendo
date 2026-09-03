@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Sextillos, rolls y ornamentaciones escritas"
 summary: "Esta unidad desarrolla tuplets y ornamentación y aplicación musical de rudimentos leyendo sextillos, grace notes y rolls escritos antes de apoyarse en el nombre o la memoria motora del rudimento."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [B3, B4, B5, B7, C2, C3, D3, K2, K4, K6]
 rudiments: []
 published: true

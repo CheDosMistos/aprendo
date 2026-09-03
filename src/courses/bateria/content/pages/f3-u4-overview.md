@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Frase, forma y mapa de canción"
 summary: "Cambia la escala de escucha: de células y compases a motivos, frases, secciones, relaciones y transiciones, sin convertir las longitudes frecuentes en leyes."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [E5, F3, I1, I3, C1, E6, D6, K2, K3, K5, K6, K8]
 rudiments: []
 published: true

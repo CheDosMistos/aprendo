@@ -109,8 +109,8 @@ La grabación no es obligatoria ni se usa para medir ángulos corporales automá
 
 No demuestra todavía:
 
-- bombo bombo;
-- hi-hat de pie hi-hat de pie;
+- bombo;
+- hi-hat de pie;
 - coordinación básica de cuatro extremidades coordinación de cuatro extremidades;
 - groove y variaciones groove;
 - fills fills;

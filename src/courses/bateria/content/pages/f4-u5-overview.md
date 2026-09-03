@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Primer groove: tres extremidades y puente hacia cuatro"
 summary: "Convierte capas motoras elementales en un groove básico estable antes de exigir coordinación completa de cuatro extremidades."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H5, H2, H4, C1, C2, K2, K5, K7]
 rudiments: []
 published: true

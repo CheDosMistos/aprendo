@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración y Hito 6"
 summary: "Cierra Fase 5 integrando Pieza A, Pieza B y Pieza C como evidencia de estructura, tiempo, dinámica y recuperación, sin introducir una habilidad aislada nueva."
-duration: Unidad flexible · 4 lecciones + Evaluación final
+duration: Unidad flexible · 4 lecciones + evaluación final
 competencies: [H5, H6, H7, H8, I2, I3, I4, C1, C2, C3, C4, F3, K2, K5, K6, K7]
 rudiments: []
 published: true

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Reentrada funcional y repertorio A"
 summary: "Pasa de la integración breve del Hito 5 a sostener una forma musical más larga sin reaprender el kit ni añadir vocabulario estilístico nuevo."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H5, I3, F3, C1, C2, C3, C4, K2, K5, K7, D7, I4]
 rudiments: []
 published: true
@@ -67,7 +67,7 @@ Demuestra que la forma ya organiza tu ejecución, aunque todavía no certifiquem
 
 - un estilo nuevo;
 - un groove nuevo obligatorio;
-- independencia independencia avanzada nueva;
+- independencia avanzada nueva;
 - una velocidad objetivo;
 - repertorio comercial o una transcripción protegida;
 - una nueva prueba global de Hito 5.

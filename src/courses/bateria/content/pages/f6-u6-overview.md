@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Interacción: bajo, cues, dinámica y arreglo"
 summary: "Entrena a escuchar información externa, interpretar su función y modificar tu ejecución sin perder tiempo ni forma, distinguiendo simulación de interacción interpersonal real."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [I6, E5, F6, F7, H5, H6, C1, C2, G2, G3]
 rudiments: []
 published: true

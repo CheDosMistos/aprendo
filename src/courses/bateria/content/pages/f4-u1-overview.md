@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Entrada al kit: ergonomía, seguridad y mapa de superficies"
 summary: "Prepara el kit para transferir lo ya aprendido sin reiniciar: acceso sostenible, escucha segura y primera adaptación a superficies reales."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H1, A1, A8, K2, K7]
 rudiments: []
 published: true

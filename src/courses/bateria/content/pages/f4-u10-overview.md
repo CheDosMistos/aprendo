@@ -31,9 +31,9 @@ La prueba no consiste en tocar más rápido ni en añadir más notas.
 
 - configuración y escucha segura de Unidad 1;
 - adaptación/orquestación adaptación técnica entre superficies y kit/orquestación de rudimentos de Unidad 2/Unidad 8;
-- bombo bombo de Unidad 3;
-- hi-hat de pie hi-hat de pie de Unidad 4;
-- Groove A y coordinación coordinación básica de cuatro extremidades de Unidad 5/Unidad 6;
+- bombo de Unidad 3;
+- hi-hat de pie de Unidad 4;
+- Groove A y coordinación básica de cuatro extremidades de Unidad 5/Unidad 6;
 - Variación B de Unidad 7;
 - Fill A y retorno al 1 de Unidad 9.
 
@@ -58,7 +58,7 @@ Demostrar el Hito superior con una versión accesible y explicar qué material p
 
 - velocidad alta;
 - cero errores;
-- independencia independencia avanzada;
+- independencia avanzada;
 - doble pedal;
 - repertorio completo;
 - 5/4 o 7/8;

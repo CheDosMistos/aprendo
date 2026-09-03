@@ -112,7 +112,7 @@ Presenta o enlaza:
 8. evidencia interpretable de **análisis musical**;
 9. límites pendientes y **plan de continuidad**.
 
-No vuelvas a ejecutar todos los evaluaciones anteriores si estas pruebas ya existen y siguen siendo válidas.
+No vuelvas a ejecutar todas las evaluaciones anteriores si estas pruebas ya existen y siguen siendo válidas.
 
 ## Perfil de salida de apoyo
 

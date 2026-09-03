@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Compás compuesto I: 6/8"
 summary: "Introduce 6/8 como organización métrica compuesta prototípica de dos pulsos principales, cada uno subdividido ternariamente, separándolo de 3/4 y de los tresillos dentro de 4/4."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, D1, D3, D4, E1, E2, E5, F1, F2, K2, K4, K6]
 rudiments: []
 published: true

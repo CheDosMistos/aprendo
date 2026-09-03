@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Sonido funcional, afinación básica, click y grabación"
 summary: "Construye balance, sonido y orquestación MÍNIMO mediante comparación auditiva, ajuste reversible y grabación diagnóstica, sin convertir la unidad en ingeniería de audio."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H8, A5, H1, C4, I3, I4, K2, K5, K6, K7]
 rudiments: []
 published: true

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración progresiva y experimentación"
 summary: "Cierra integración progresiva y experimental y Fase 7 integrando recursos avanzados dentro de pulso, forma e intención musical claros, sin convertir la complejidad en un fin en sí mismo."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J9, J1, J2, J3, J4, J5, J6, J7, J8, G1, G2, G3, G4, G6, C1, C2, C3, C4, D4, D6, E2, E5, F2, F3, K1, K2, K3, K5, K8]
 rudiments: []
 published: true
@@ -137,7 +137,7 @@ Nada de esto es requisito universal para cerrar Fase 7.
 
 El recurso principal de esta unidad es **el propio vocabulario construido en Unidades 1–8**.
 
-No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. Materiales como *Rhythmic Horizons* sólo deben recomendarse cuando su contenido concreto corresponda a la tarea. Esta unidad usa material original del curso y remite a recursos externos únicamente cuando exista una correspondencia verificada.
+No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. La Biblioteca Maestra advierte expresamente que materiales como *Rhythmic Horizons* no deben etiquetarse como integración progresiva y experimental sin verificar el contenido concreto. Por tanto, esta unidad usa material original del curso y remite a recursos externos sólo cuando una lección futura tenga una correspondencia verificada.
 
 ## Práctica estándar de 25–30 min
 

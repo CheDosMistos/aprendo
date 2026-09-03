@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Charts, navegación y prioridades"
 summary: "Aprende a usar un chart como mapa de decisiones: saber dónde estás, qué viene y qué evento merece atención sin abandonar groove ni pulso."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [D7, D5, F3, H5, I3, C1, C2, C3, C4, K2, K5, K7]
 rudiments: []
 published: true

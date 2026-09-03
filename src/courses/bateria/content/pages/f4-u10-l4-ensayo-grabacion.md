@@ -82,7 +82,7 @@ No inventes una procedencia: explica material que realmente hayas trabajado.
 
 El pedal hi-hat aparece en 2 y 4 durante los compases normales de Groove A. En el tiempo 4 del fill no es obligatorio mantenerlo.
 
-**El Hito 5 no es una prueba de independencia independencia avanzada.**
+**El Hito 5 no es una prueba de independencia avanzada.**
 
 ## Tempo
 

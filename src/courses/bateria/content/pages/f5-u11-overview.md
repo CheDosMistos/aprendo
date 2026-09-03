@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Repertorio C y simulación de sesión"
 summary: "Integra escucha, chart, memoria, análisis y grabación sobre una pieza original de dificultad adecuada, y aprende a responder cuando la información es incompleta."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [I3, I4, D7, D5, H5, H6, H7, H8, K2, K5, K6, F3]
 rudiments: []
 published: true

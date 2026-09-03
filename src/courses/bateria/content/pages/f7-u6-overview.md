@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Polirritmia: dos capas, un ciclo común"
 summary: "Profundiza polirritmia: comprender y mantener dos periodicidades simultáneas como 3:2 y 4:3, localizar su ciclo común y distinguir polirritmia de tuplet, ciclo trans-barra y polimetría."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J6, C1, C2, C3, C4, D4, D6, E2, F2, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true
@@ -43,7 +43,7 @@ Ejemplo prototípico:
 - ambas completan su relación en el mismo ciclo temporal;
 - durante el interior del ciclo, sus ataques no coinciden todos.
 
-La literatura reciente ha usado terminología parcialmente inconsistente. La revisión canónica del proyecto recomienda separar polirritmia y polimetría; además, `2:3` y `3:4` son relaciones muy estudiadas, pero **eso no demuestra una secuencia pedagógica universal**. El uso de `3:2` como puerta de esta unidad es una **DECISIÓN CURRICULAR RAZONADA** compatible con esa evidencia.
+La literatura reciente ha usado terminología parcialmente inconsistente. La base documental del curso recomienda separar polirritmia y polimetría; además, `2:3` y `3:4` son relaciones muy estudiadas, pero **eso no demuestra una secuencia pedagógica universal**. El uso de `3:2` como puerta de esta unidad es una **DECISIÓN CURRICULAR RAZONADA** compatible con esa evidencia.
 
 ## La rejilla común
 
@@ -137,7 +137,7 @@ El nivel avanzado **no es requisito para continuar**.
 
 ## Recursos
 
-Como recursos de ampliación para polirritmia pueden consultarse Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.
+La Biblioteca Maestra relaciona polirritmia con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.
 
 La base documental del curso incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción polirritmia/polimetría.
 

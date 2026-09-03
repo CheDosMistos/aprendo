@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Modulación métrica"
 summary: "Profundiza modulación métrica: conservar una duración puente y reinterpretarla como parte de una nueva unidad de pulso, de modo que el nuevo tempo sea consecuencia calculable de la relación anterior y no un cambio arbitrario de BPM."
-duration: 4 lecciones + Evaluación; varias sesiones
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J8, J4, C1, C2, C3, C4, D3, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true

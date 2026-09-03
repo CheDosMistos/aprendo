@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Reentrada desde Hito 6, diagnóstico y portafolio"
 summary: "Convierte la evidencia final de Fase 5 en una línea base de aprendizaje: observa, diagnostica, elige una prioridad y empieza el portafolio los cuatro carriles del portafolio sin repetir el Hito 6."
-duration: Unidad flexible · 4 lecciones + Evaluación
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, I3, I4, E5, E6, F7, C1, C2, C3, C4, H5]
 rudiments: []
 published: true
