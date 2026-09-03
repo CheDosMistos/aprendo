@@ -22,6 +22,10 @@ jobs:
         with:
           node-version-file: .nvmrc
 
+      - name: Restore learner content from main
+        if: github.actor != 'github-actions[bot]'
+        run: git checkout origin/main -- src/courses/bateria/content/pages
+
       - name: Clean learner-facing language
         if: github.actor != 'github-actions[bot]'
         run: node scripts/cleanup-bateria-learner-language.mjs
@@ -36,8 +40,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/courses/bateria/content/pages
-          git commit -m "Clean learner-facing language across phases 1-7"
+          git commit -m "Rebuild learner-facing cleanup from main"
           git push
 
-      - name: Audit learner-facing language
-        run: node scripts/audit-bateria-learner-language.mjs
+      - name: Enforce learner-facing language
+        run: node scripts/audit-bateria-learner-language.mjs --enforce
