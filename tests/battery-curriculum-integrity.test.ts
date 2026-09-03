@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { execFileSync } from 'node:child_process';
+import { spawnSync } from 'node:child_process';
 import test from 'node:test';
 import { COMPETENCY_ID_PATTERN, PAS_RUDIMENTS, PHASE_1_PAS_BY_UNIT, validatePhase1PasPlan } from '../src/courses/bateria/curriculum.ts';
 
@@ -22,10 +22,9 @@ test('competency ID vocabulary includes approved I5/I6 and rejects unknown axis 
 });
 
 test('learner-facing battery content does not leak internal curricular/editorial identifiers', () => {
-  assert.doesNotThrow(() => {
-    execFileSync(process.execPath, ['scripts/audit-bateria-learner-language.mjs', '--enforce'], {
-      encoding: 'utf8',
-      stdio: 'pipe',
-    });
+  const audit = spawnSync(process.execPath, ['scripts/audit-bateria-learner-language.mjs', '--enforce'], {
+    encoding: 'utf8',
   });
+  const diagnostics = [audit.stdout, audit.stderr].filter(Boolean).join('\n').trim();
+  assert.equal(audit.status, 0, diagnostics || 'Learner-language audit failed without diagnostics.');
 });
