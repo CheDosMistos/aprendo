@@ -48,7 +48,7 @@ Al pulsar **Empezar**:
 5. separa después **continuidad/recuperación** de **precisión de decodificación/ejecución**;
 6. pulsa **Finalizar intento** y sólo entonces usa playback como feedback.
 
-## Arquitectura de esta unidad
+## Recorrido de la unidad
 
 ### Lección 1 — Primera vista: protocolo de un solo intento
 

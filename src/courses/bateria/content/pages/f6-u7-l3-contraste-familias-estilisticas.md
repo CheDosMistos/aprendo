@@ -21,7 +21,7 @@ Aplicar la comparación funcional a más de un par de estilos y reconocer qué e
 
 ## 1. La unidad no enseña diez estilos a la vez
 
-El Documento Fundacional prevé rock/pop, blues/shuffle, funk/soul/R&B, jazz, reggae, Afro-Cuban/Brazilian/Latin, punk, metal, fusion y progressive. Esta unidad **no pretende dominar esa lista**.
+El curso contempla rock/pop, blues/shuffle, funk/soul/R&B, jazz, reggae, Afro-Cuban/Brazilian/Latin, punk, metal, fusion y progressive. Esta unidad **no pretende dominar esa lista**.
 
 La estrategia es trabajar con **muestras contrastantes verificadas** y aprender un procedimiento que después pueda reutilizarse.
 

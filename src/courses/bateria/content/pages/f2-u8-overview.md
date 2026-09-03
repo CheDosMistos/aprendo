@@ -49,7 +49,7 @@ MusicXML representa esa relación mediante `time-modification` con `actual-notes
 
 Esto es **tuplet**, no compás compuesto. Un `6` sobre un grupo no convierte 4/4 en 6/8 ni 12/8.
 
-## Arquitectura de esta unidad
+## Recorrido de la unidad
 
 **DECISIÓN CURRICULAR RAZONADA** subordinada al mapa detallado y a la Fase 2 aprobada:
 

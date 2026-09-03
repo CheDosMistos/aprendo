@@ -85,7 +85,7 @@ Comparar ambas tareas ayuda a escuchar qué aporta específicamente desplazamien
 
 ## Recurso opcional
 
-La Biblioteca Maestra cataloga *Rhythmic Visions* de Gavin Harrison como recurso primario de ampliación para desplazamiento, subdivisión e ilusiones rítmicas. No es obligatorio y el curso no reproduce material protegido del método.
+Como recurso de ampliación para desplazamiento, subdivisión e ilusiones rítmicas, puede consultarse *Rhythmic Visions* de Gavin Harrison. No es obligatorio y el curso no reproduce material protegido del método.
 
 ## Criterio de avance
 

@@ -100,7 +100,7 @@ Eso no autoriza todavía a etiquetar el resultado como polimetría o modulación
 
 ## Recurso de ampliación ya catalogado
 
-La Biblioteca Maestra identifica *Rhythmic Visions* de Gavin Harrison como recurso primario pertinente para desplazamientos de acento y motivo, subdivisión e ilusiones rítmicas. Es **ampliación de pago**, no currículo obligatorio, y esta unidad no reproduce sus ejercicios.
+*Rhythmic Visions* de Gavin Harrison es un recurso de ampliación pertinente para desplazamientos de acento y motivo, subdivisión e ilusiones rítmicas. Es **ampliación de pago**, no currículo obligatorio, y esta unidad no reproduce sus ejercicios.
 
 ## Criterio de salida
 

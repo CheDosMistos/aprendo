@@ -57,7 +57,7 @@ Identificar qué hace un material dentro del contexto, no sólo cómo de denso o
 Mapear una estructura completa y volver a escuchar intentando anticipar cambios.
 
 ### Evaluación — Hito global 3
-Se conserva literalmente el hito del Plan General:
+El hito de esta fase se mantiene así:
 
 **leer → cantar → tocar → escuchar → escribir**
 

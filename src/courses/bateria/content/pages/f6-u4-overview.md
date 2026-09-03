@@ -54,7 +54,7 @@ Demuestra una capa estable y otra variable dentro de una tarea musical adecuada,
 
 ## Papel de los métodos
 
-Dahlgren & Fine, Dawson/Ramsay, Chapin y *The New Breed* permanecen como **herramientas selectivas** registradas en la Biblioteca Maestra.
+Dahlgren & Fine, Dawson/Ramsay, Chapin y *The New Breed* permanecen como **herramientas selectivas de ampliación**; no constituyen un recorrido obligatorio.
 
 Esta unidad no reproduce ejercicios protegidos ni obliga a completar ningún método. Si una tarea futura remite a un método, debe explicar:
 

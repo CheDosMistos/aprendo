@@ -121,7 +121,7 @@ El nivel avanzado **no es requisito para continuar**.
 
 ## Recursos de ampliación ya catalogados
 
-El mapa y la Biblioteca Maestra ya relacionan este territorio con autores como Gary Chaffee y Gavin Harrison. Se consideran **herramientas de ampliación**, no currículo obligatorio. Esta unidad no reproduce ejercicios de esos métodos: las partituras y tareas prácticas de esta unidad son material original del curso.
+Como ampliación pueden consultarse autores como Gary Chaffee y Gavin Harrison. Sus métodos son **herramientas de ampliación**, no currículo obligatorio. Esta unidad no reproduce sus ejercicios: las partituras y tareas prácticas son material original del curso.
 
 ## Criterio de salida
 

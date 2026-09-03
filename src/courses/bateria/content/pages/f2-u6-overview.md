@@ -50,7 +50,7 @@ Estas distinciones son parte de lectura de compás/métrica y terminología rít
 4. **Leer, escuchar y reinterpretar sin confundir métrica** — transferir entre lectura, oído, explicación y transformación controlada conservando el compás.
 5. **Puerta de 6/8** — decidir si lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten ampliar el compuesto sin reducirlo a “muchas corcheas” ni confundir 3/4 con 6/8.
 
-La arquitectura `4 lecciones + Evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada del Plan General aprobado, Fase 2, el recorrido del curso y `20_U6_COMPAS_COMPUESTO_I_6_8.md`. No son cinco días obligatorios.
+La organización en **4 lecciones + evaluación** es una decisión didáctica para repartir la carga; no implica cinco días obligatorios.
 
 ## Ruta de transferencia
 

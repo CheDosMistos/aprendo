@@ -185,7 +185,7 @@ No se exige este nivel para pasar a Unidad 9.
 
 Los ejercicios y partituras de esta unidad son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO**.
 
-Como ampliación posterior, la Biblioteca Maestra registra Gary Chaffee, *Patrones de Ritmo y Compás* (Alfred Music), cuya editorial declara trabajo con ritmos impares, compases mixtos, polirritmia y modulación métrica. El libro es un recurso de profundización, no el currículo ni la fuente de los ejercicios originales de esta unidad:
+Como ampliación posterior puede consultarse Gary Chaffee, *Patrones de Ritmo y Compás* (Alfred Music), cuya editorial declara trabajo con ritmos impares, compases mixtos, polirritmia y modulación métrica. El libro es un recurso de profundización, no el currículo ni la fuente de los ejercicios originales de esta unidad:
 
 https://www.alfred.com/products/patterns-in-spanish-patrones-de-ritmo-y-compass-rhythm-meter-patterns-00-28198
 

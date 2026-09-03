@@ -17,7 +17,7 @@ published: true
 
 ## Hito observado
 
-El Plan General define literalmente el **Hito 3 — Ciclo completo** así:
+El **Hito 3 — Ciclo completo** se define así:
 
 > **leer → cantar → tocar → escuchar → escribir**
 

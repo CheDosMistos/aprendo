@@ -48,7 +48,7 @@ Decide:
 
 ## 3. Uso responsable de métodos
 
-La Biblioteca Maestra registra recursos como Dahlgren & Fine, Dawson/Ramsay, Chapin y *The New Breed*.
+Como ampliación, puedes recurrir de forma selectiva a Dahlgren & Fine, Dawson/Ramsay, Chapin y *The New Breed*.
 
 Pueden aportar ideas o sistemas cuando encajan con el cuello de botella y los prerrequisitos, pero esta unidad **no reproduce ejercicios protegidos** ni prescribe completar capítulos por prestigio.
 

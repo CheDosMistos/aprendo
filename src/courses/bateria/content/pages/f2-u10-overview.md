@@ -31,7 +31,7 @@ Si al retirar referencia se desorganizan pulso y subdivisión de forma global:
 
 Es simplemente un ajuste de dificultad.
 
-## Arquitectura de esta unidad
+## Recorrido de la unidad
 
 ### Lección 1 — De cada pulso a 2 y 4
 

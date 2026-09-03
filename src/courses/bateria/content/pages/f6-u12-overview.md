@@ -29,7 +29,7 @@ La pregunta final es:
 
 ### Puerta A — Hito específico de Fase 6
 
-El Plan General exige:
+El cierre de fase exige:
 
 > **Aprender una pieza al menos parcialmente mediante escucha, transcripción y análisis, no únicamente mediante tutorial.**
 
@@ -150,7 +150,7 @@ Esta unidad no abre una investigación nueva sobre práctica deliberada, feedbac
 - Biasutti & Concina (2019), DOI `10.3389/fpsyg.2019.01583`: revisión sobre metacognición y autorregulación musical; no prescribe un protocolo único.
 - Varela, Abrami & Upitis (2016), DOI `10.1177/0305735614554639`: revisión sistemática sobre autorregulación en aprendizaje musical; respalda trabajar planificación/monitorización/reflexión explícitas sin justificar una receta universal.
 
-El cierre conserva las reglas ya establecidas en el Plan General y en el sistema de evaluación.
+El cierre conserva las reglas ya establecidas en el sistema de evaluación.
 
 ## Fronteras
 

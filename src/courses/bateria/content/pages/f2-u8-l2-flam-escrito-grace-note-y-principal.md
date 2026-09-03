@@ -36,7 +36,7 @@ Referencia técnica:
 
 Eso no significa «tócala cuando quieras» ni «no ocupa ningún tiempo físico». Significa que **su función notacional no se contabiliza como una duración métrica ordinaria que añada otro pulso al compás**.
 
-En el objetivo paradiddles del mapa de competencias, el mínimo relevante es distinguir **grace note y principal** y evitar un flam claramente plano.
+Para el flam, el mínimo relevante es distinguir **grace note y principal** y evitar un flam claramente plano.
 
 ### Tres errores distintos
 
