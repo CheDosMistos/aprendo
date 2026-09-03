@@ -41,7 +41,7 @@ El sistema general del curso exige para ritmo avanzado:
 5. escribir o representar;
 6. aplicar.
 
-Además, la regla general del curso establece explícitamente:
+Además, el criterio del curso establece explícitamente:
 
 > **No se considera modulación métrica cualquier cambio de tempo aparente.**
 
@@ -267,7 +267,6 @@ Anota después:
 
 Si utilizas escala observacional, conserva la del curso: `0 — no demostrado / 1 — emergente / 2 — estable en esta condición / 3 — flexible`. No la conviertas en una nota global.
 
-
 - relación trabajada;
 - tempo inicial;
 - tempo calculado;
@@ -288,4 +287,4 @@ La frase de cierre de esta unidad es:
 
 > **PUEDO CAMBIAR DE PULSO CONSERVANDO UNA DURACIÓN QUE EXPLICA EXACTAMENTE EL NUEVO TEMPO.**
 
-Con este nivel, modulación métrica queda disponible para la integración progresiva y experimental.
+Con este nivel, la modulación métrica queda disponible para la integración progresiva y experimental.
