@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-9
 slug: checkpoint-7i
 kind: checkpoint
 order: 5
-title: "Evaluación — integración progresiva y experimental funcional y Hito 8"
-summary: "Cierra Fase 7 evaluando integración progresiva mediante explicación, pulso, ejecución, aplicación, recuperación, lectura/escritura y revisión musical, sin usar BPM como puerta universal."
+title: "Evaluación — Integración progresiva y Hito 8"
+summary: "Cierra Fase 7 evaluando la integración progresiva mediante explicación, pulso, ejecución, aplicación, recuperación, lectura/escritura y revisión musical, sin usar BPM como puerta universal."
 duration: 25–40 min; puede dividirse en dos sesiones
 competencies: [J9, J1, J2, J3, J4, J5, J6, J7, J8, G6, C1, C2, C3, D4, D6, E2, E5, F2, F3, K2, K5, K8]
 rudiments: []
@@ -163,7 +163,7 @@ El material puede tocarse con continuidad y recuperación razonables.
 
 El recurso aparece dentro de una pieza, forma o improvisación y cumple una función musical explicable.
 
-## Auditoría los recursos rítmicos trabajados en las unidades anteriores
+## Revisión de los recursos rítmicos trabajados en las unidades anteriores
 
 No es un examen acumulativo de ocho técnicas. Usa esta tabla como **mapa de mantenimiento**:
 

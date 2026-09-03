@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-8
 slug: checkpoint-7h
 kind: checkpoint
 order: 5
-title: "Evaluación — modulación métrica funcional: modulación métrica calculable y audible"
-summary: "Evalúa modulación métrica sin reducirlo a BPM: definición, duración puente, cálculo, ejecución, lectura/escritura, dirección inversa, recuperación y aplicación musical."
+title: "Evaluación — Modulación métrica: relación calculable y audible"
+summary: "Evalúa la modulación métrica sin reducirla a BPM: definición, duración puente, cálculo, ejecución, lectura/escritura, dirección inversa, recuperación y aplicación musical."
 duration: 25–35 min
 competencies: [J8, J4, C1, C2, C3, C4, D3, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
@@ -41,7 +41,7 @@ El sistema general del curso exige para ritmo avanzado:
 5. escribir o representar;
 6. aplicar.
 
-Además, el documento de evaluación establece explícitamente:
+Además, la regla general del curso establece explícitamente:
 
 > **No se considera modulación métrica cualquier cambio de tempo aparente.**
 
