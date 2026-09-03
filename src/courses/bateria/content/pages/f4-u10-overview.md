@@ -65,7 +65,7 @@ Demostrar el Hito superior con una versión accesible y explicar qué material p
 - afinación profesional;
 - estilo avanzado.
 
-Cerrar el Hito tampoco convierte automáticamente coordinación básica de cuatro extremidades/groove y variaciones/fills en **COMPETENTE/FUNCIONAL**.
+Cerrar el Hito tampoco convierte automáticamente la coordinación básica de cuatro extremidades, el groove y sus variaciones o los fills en nivel **COMPETENTE/FUNCIONAL**.
 
 ## Qué se evalúa
 
