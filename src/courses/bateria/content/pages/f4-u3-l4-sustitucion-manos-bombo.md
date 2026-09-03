@@ -23,7 +23,7 @@ Hoy el bombo no se añade como una capa extra: **sustituye** uno o dos ataques d
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — MISMA REJILLA, NUEVA EXTREMIDAD
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l4-kick-substitution.musicxml" data-score-title="Unidad 3.Lección 4 — Sustitución manual → bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l4-kick-substitution.musicxml" data-score-title="Lección 4 — Sustitución manual → bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura contiene dos compases de ocho corcheas con la misma rejilla temporal:
 

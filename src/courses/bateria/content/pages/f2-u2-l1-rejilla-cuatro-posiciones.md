@@ -25,11 +25,11 @@ No persigas velocidad. El tempo debe permitir distinguir cuatro espacios iguales
 
 ## 1. Recuperación Unidad 1 — 3 min
 
-Recupera **los compases 5–6** del banco de Unidad 1.Lección 2. No los practiques inmediatamente antes y no escuches el playback antes de la toma.
+Recupera **los compases 5–6** del banco de Lección 2. No los practiques inmediatamente antes y no escuches el playback antes de la toma.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Unidad 1.Lección 2 — recuperación para abrir esta unidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Lección 2 — recuperación para abrir esta unidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una sola toma breve con sticking alternado sencillo. Después identifica:
 
@@ -45,7 +45,7 @@ La función de este bloque es recuperar una representación conocida, no volver 
 
 La partitura siguiente es material **nuevo de esta unidad**. Todos sus eventos están organizados sobre una rejilla de semicorcheas en 4/4 y aparecen silencios de semicorchea como parte central del ejercicio.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Unidad 2.Lección 1 — rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Lección 1 — rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120` del archivo es únicamente la referencia técnica que necesita el motor de playback. **No es el tempo de aprobado ni el tempo recomendado para empezar.** Practica a una velocidad donde puedas representar la rejilla con claridad.
 

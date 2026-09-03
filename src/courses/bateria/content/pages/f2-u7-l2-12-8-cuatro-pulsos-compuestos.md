@@ -84,7 +84,7 @@ Lección 3 hará de esta distinción el núcleo. Aquí sólo sirve para impedir 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-title="Unidad 7.Lección 2 — 12/8: cuatro pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-title="Lección 2 — 12/8: cuatro pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes del audio:
 

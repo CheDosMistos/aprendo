@@ -31,7 +31,7 @@ Esta unidad añade una condición propia de su arquitectura: que puedas señalar
 
 Si quieres un punto de partida, el compás 1 contiene una semilla nueva. Los compases 2–4 están deliberadamente vacíos.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-cp-seed.musicxml" data-score-title="Unidad 8.evaluación — semilla opcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-cp-seed.musicxml" data-score-title="Evaluación — semilla opcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 **La semilla es opcional y no es una composición resuelta.** También puedes comenzar desde un motivo propio nuevo.
 

@@ -23,7 +23,7 @@ Distinguir una transformación **paramétrica/de superficie** de un cambio del p
 
 Esta partitura fija sólo los ataques y silencios que deben permanecer constantes durante los experimentos.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l3-parameter-family.musicxml" data-score-title="Unidad 6.Lección 3 — esqueleto temporal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l3-parameter-family.musicxml" data-score-title="Lección 3 — esqueleto temporal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 **Contrato de esta lección:** el MusicXML representa el esqueleto temporal. Las consignas de acento, dinámica y sticking se describen en texto para no fingir que el visor de partituras reproduce de forma fiable una capa que no hemos verificado.
 

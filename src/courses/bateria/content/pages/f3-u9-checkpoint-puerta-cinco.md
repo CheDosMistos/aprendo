@@ -23,7 +23,7 @@ La salida de esta unidad es **5/4 funcional básico; métricas impares y mixtas 
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-cp-reading.musicxml" data-score-title="Unidad 9.evaluación — lectura nueva de 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-cp-reading.musicxml" data-score-title="Evaluación — lectura nueva de 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 No estudies esta partitura antes de la prueba de lectura.
 

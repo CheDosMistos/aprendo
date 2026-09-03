@@ -19,7 +19,7 @@ published: true
 
 Esta unidad comprueba que el paso desde una cadena breve a una forma de 24 compases está en marcha.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 1.evaluación — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Evaluación — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Mapa:
 

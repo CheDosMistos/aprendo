@@ -23,11 +23,11 @@ La novedad dominante sigue siendo **orquestar sin perder identidad**. Los pies n
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — ORQUESTACIÓN + BASE DE PIES
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="Unidad 8.Lección 2 — Orquestación + base de pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="Lección 2 — Orquestación + base de pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Manos:
 
-- ocho corcheas exactamente como Unidad 2.Lección 4;
+- ocho corcheas exactamente como Lección 4;
 - R/L preservado;
 - caja + tom agudo + tom grave;
 - acentos preservados.

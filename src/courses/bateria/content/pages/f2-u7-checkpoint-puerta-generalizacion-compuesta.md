@@ -30,7 +30,7 @@ La convergencia entre ambas es más informativa que acertar una sola tarea. Un B
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-Evaluación-generalizacion-compuesta.musicxml" data-score-title="Unidad 7.evaluación — puerta de generalización compuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-Evaluación-generalizacion-compuesta.musicxml" data-score-source-label="MusicXML — fuente de la muestra escrita de la evaluación"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-checkpoint-generalizacion-compuesta.musicxml" data-score-title="Evaluación — puerta de generalización compuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-checkpoint-generalizacion-compuesta.musicxml" data-score-source-label="MusicXML — fuente de la muestra escrita de la evaluación"></div>
 
 La muestra contiene tres compases reales:
 
@@ -226,7 +226,7 @@ Eso no equivale a declarar lectura de compás, métrica y terminología rítmica
 - **aciertas por contar figuras pero no puedes explicar el pulso:** la evidencia de lectura de compás/métrica y terminología rítmica sigue incompleta;
 - **llamas tresillo a toda división ternaria:** revisa la distinción entre compás compuesto y tuplet;
 - **un patrón de acentos cambia mentalmente el compás:** vuelve a `AGRUPACIÓN / REAGRUPACIÓN ≠ CAMBIO DE COMPÁS`;
-- **una toma contradice varias evidencias recientes:** obtiene otra muestra breve antes de cambiar el mapa de progreso.
+- **una toma contradice varias evidencias recientes:** obtiene otra muestra breve antes de cambiar el nivel registrado.
 
 Completar esta evaluación **no actualiza automáticamente** ninguna competencia.
 

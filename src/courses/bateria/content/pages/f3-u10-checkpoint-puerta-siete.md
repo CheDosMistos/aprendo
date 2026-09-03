@@ -25,7 +25,7 @@ Eso no significa declarar automáticamente métricas impares y mixtas COMPETENTE
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-cp-reading.musicxml" data-score-title="Unidad 10.evaluación — lectura nueva de 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-cp-reading.musicxml" data-score-title="Evaluación — lectura nueva de 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 No estudies esta partitura antes de la prueba de lectura.
 

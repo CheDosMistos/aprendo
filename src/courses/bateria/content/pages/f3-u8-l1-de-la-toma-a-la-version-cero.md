@@ -25,7 +25,7 @@ La novedad no es inventar mucho material. Es **fijar una decisión**.
 
 Este score muestra una frase de dos compases que alguien podría decidir conservar como V0.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l1-version-zero.musicxml" data-score-title="Unidad 8.Lección 1 — ejemplo de versión 0" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l1-version-zero.musicxml" data-score-title="Lección 1 — ejemplo de versión 0" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 **No es “la composición correcta”.** No tienes que copiarla. Sirve para observar qué significa que una versión esté fijada.
 

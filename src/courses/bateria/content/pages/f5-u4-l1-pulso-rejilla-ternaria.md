@@ -19,7 +19,7 @@ published: true
 
 Mantener cuatro pulsos estables mientras cada pulso se divide conscientemente en tres partes iguales.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-l1-triplet-grid.musicxml" data-score-title="Unidad 4.Lección 1 — Rejilla ternaria" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-l1-triplet-grid.musicxml" data-score-title="Lección 1 — Rejilla ternaria" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura muestra **un compás de 4/4 con doce ataques equidistantes**: tres por cada pulso de negra.
 

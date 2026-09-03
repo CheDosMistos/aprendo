@@ -25,13 +25,13 @@ También aporta evidencia de **orquestación de rudimentos en transferencia al k
 
 ## Bloque A — manos conocidas
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Unidad 8.evaluación — Frase Unidad 2 sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Evaluación — Frase Unidad 2 sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Recupera la frase sin pies.
 
 ## Bloque B — orquestación + base de pies
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="Unidad 8.evaluación — Orquestación + pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="Evaluación — Orquestación + pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Añade la base conocida de bombo 1/3 + hi-hat de pie 2/4.
 

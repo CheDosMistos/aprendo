@@ -23,7 +23,7 @@ La regla no es “usar muchos tambores”. La regla es que la frase siga teniend
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — TRAZABILIDAD TÍMBRICA
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Unidad 2.Lección 4 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Lección 4 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La frase mantiene el mismo número y colocación de ataques. Cambia su recorrido por caja y dos toms.
 

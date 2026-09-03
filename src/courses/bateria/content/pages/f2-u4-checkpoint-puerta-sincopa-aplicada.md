@@ -25,7 +25,7 @@ La evidencia principal es una lectura breve **nueva y exclusiva**. aplicación m
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-Evaluación-a.musicxml" data-score-title="Unidad 4.evaluación — muestra exclusiva de síncopa aplicada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-Evaluación-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-checkpoint-a.musicxml" data-score-title="Evaluación — muestra exclusiva de síncopa aplicada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-checkpoint-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Pulsa **Empezar**, haz una inspección breve de compás, subdivisión, silencios, ligaduras y acentos, y realiza **una sola primera toma**. No uses playback antes de terminar.
 

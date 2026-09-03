@@ -55,7 +55,7 @@ Ante un ejemplo claro, responde en este orden:
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-title="Unidad 7.Lección 3 — 3/4 frente a 9/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 3/4–9/8"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-title="Lección 3 — 3/4 frente a 9/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 3/4–9/8"></div>
 
 Antes de habilitar audio:
 
@@ -95,7 +95,7 @@ Eso **no significa que la negra y la negra con puntillo sean el mismo pulso**. S
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-title="Unidad 7.Lección 3 — 4/4 frente a 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 4/4–12/8"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-title="Lección 3 — 4/4 frente a 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 4/4–12/8"></div>
 
 Repite el procedimiento sin convertir el numerador en una regla automática.
 

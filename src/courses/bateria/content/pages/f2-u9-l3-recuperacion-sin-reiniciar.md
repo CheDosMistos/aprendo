@@ -48,7 +48,7 @@ No necesitas saber dónde estará ese punto en esta partitura; todavía está oc
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-title="Unidad 9.Lección 3 — recuperación sin reiniciar" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 3"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-title="Lección 3 — recuperación sin reiniciar" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 3"></div>
 
 Al pulsar **Empezar**:
 

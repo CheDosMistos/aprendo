@@ -27,7 +27,7 @@ No buscamos “ser muy original”. Buscamos que lo que quieres, escribes y toca
 
 Este ejemplo es **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l3-modelo-escritura.musicxml" data-score-title="Unidad 1.Lección 3 — modelo de escritura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l3-modelo-escritura.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l3-modelo-escritura.musicxml" data-score-title="Lección 3 — modelo de escritura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l3-modelo-escritura.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
 
 Léelo y tócalo una vez antes de habilitar audio. Su función es mostrar el tamaño de la tarea, no darte una plantilla que debas copiar.
 

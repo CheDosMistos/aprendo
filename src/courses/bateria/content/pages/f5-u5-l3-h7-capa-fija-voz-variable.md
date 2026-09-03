@@ -19,7 +19,7 @@ published: true
 
 Comprobar por primera vez de forma explícita que una capa puede permanecer funcional mientras otra voz cambia.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l3-h7-context.musicxml" data-score-title="Unidad 5.Lección 3 — Capa fija + voz variable" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l3-h7-context.musicxml" data-score-title="Lección 3 — Capa fija + voz variable" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué permanece y qué cambia
 

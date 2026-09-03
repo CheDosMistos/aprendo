@@ -31,7 +31,7 @@ Recupera **un compás breve de Lección 3** sin escuchar el playback antes de la
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Unidad 3.Lección 3 — recuperación de síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Lección 3 — recuperación de síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de tocar, señala:
 
@@ -193,4 +193,4 @@ Como ampliación opcional, repite C con una escucha menos o crea una segunda ver
 - **la transformación cambia más de una variable:** vuelve a C y decide explícitamente una sola modificación;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.
 
-El siguiente paso es **Unidad 3.evaluación — Puerta de duración y síncopa I**. Será una comprobación breve de material nuevo, oído y comprensión; no un examen de perfección.
+El siguiente paso es **Evaluación — Puerta de duración y síncopa I**. Será una comprobación breve de material nuevo, oído y comprensión; no un examen de perfección.

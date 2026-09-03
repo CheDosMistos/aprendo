@@ -23,7 +23,7 @@ La novedad es espacial/tímbrica. El ritmo sigue siendo el mismo.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — MAPA R/L
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l2-rl-two-surfaces.musicxml" data-score-title="Unidad 2.Lección 2 — R/L entre caja y tom" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l2-rl-two-surfaces.musicxml" data-score-title="Lección 2 — R/L entre caja y tom" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La misma secuencia de corcheas conserva su esqueleto temporal. En esta versión una mano permanece en caja y la otra se desplaza a un tom accesible.
 

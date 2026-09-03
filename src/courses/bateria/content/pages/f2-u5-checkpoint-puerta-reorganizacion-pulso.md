@@ -29,7 +29,7 @@ No se exige cero errores, cambio rápido, primera vista formal forma y lectura d
 
 La partitura siguiente es **nueva y exclusiva de esta evaluación**. Sigue en `4/4`: el primer compás contiene cuatro pulsos ternarios y los tres siguientes reorganizan el interior de la negra entre `2`, `3` y `4` partes. No introduce 6/8, sextillos, métrica impar ni una nueva capa técnica.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-Evaluación-reorganizacion.musicxml" data-score-title="Unidad 5.evaluación — Puerta de reorganización del pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-Evaluación-reorganizacion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-title="Evaluación — Puerta de reorganización del pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Esta lectura es nueva para la puerta, pero **no se registra como evidencia formal de primera vista forma y lectura de chart**. Unidad 9 reservará condiciones específicas para medir primera vista realmente nueva.
 
@@ -169,7 +169,7 @@ No se exige:
 - **lees 3:2 pero no lo reconoces por oído:** el límite es principalmente perceptivo, no de notación;
 - **oyes la célula pero la escribes mal:** separa memoria/representación de subdivisión;
 - **cuentas cada ataque como pulso:** vuelve a marcar la negra mientras vocalizas las partes internas;
-- **una muestra aislada contradice varias recientes:** elicita otra muestra breve antes de cambiar el mapa de progreso.
+- **una muestra aislada contradice varias recientes:** elicita otra muestra breve antes de cambiar el nivel registrado.
 
 Completar esta evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación, imitación rítmica, relación entre oído y notación ni ninguna otra competencia. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
 

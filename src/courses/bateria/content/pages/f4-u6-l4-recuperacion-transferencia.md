@@ -23,11 +23,11 @@ Comprobar que A y B están disponibles como patrones distintos, no sólo como un
 
 ### Patrón A — ya conocido de Unidad 5
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 6.Lección 4 — Patrón A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Lección 4 — Patrón A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ### Patrón B — una sola capa cambia
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="Unidad 6.Lección 4 — Patrón B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="Lección 4 — Patrón B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Recuperación activa
 

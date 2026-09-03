@@ -25,13 +25,13 @@ No existe un porcentaje universal que resuelva esa pregunta. En esta lección te
 
 ## Motivo A — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l2-identidad-a.musicxml" data-score-title="Unidad 5.Lección 2 — motivo A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l2-identidad-a.musicxml" data-score-title="Lección 2 — motivo A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Tócalo y escúchalo hasta poder describir al menos dos rasgos: distribución de ataques/silencios, comienzo, cierre, densidad o agrupación percibida.
 
 ## Candidato X
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l2-identidad-a-prime.musicxml" data-score-title="Unidad 5.Lección 2 — candidato X" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l2-identidad-a-prime.musicxml" data-score-title="Lección 2 — candidato X" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Clasifica primero sin abrir la referencia:
 
@@ -44,7 +44,7 @@ Escribe dos frases:
 
 ## Candidato Y
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l2-identidad-b.musicxml" data-score-title="Unidad 5.Lección 2 — candidato Y" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l2-identidad-b.musicxml" data-score-title="Lección 2 — candidato Y" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Vuelve a clasificar y justificar. No uses sólo “se parece” o “no se parece”. Señala qué rasgos concretos sostienen tu decisión.
 

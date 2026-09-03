@@ -59,7 +59,7 @@ La secuencia métrica es:
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-title="Unidad 8.Lección 4 — línea base frente a roll escrito" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-source-label="MusicXML — fuente del ejercicio roll escrito"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-title="Lección 4 — línea base frente a roll escrito" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-source-label="MusicXML — fuente del ejercicio roll escrito"></div>
 
 Antes de habilitar audio:
 

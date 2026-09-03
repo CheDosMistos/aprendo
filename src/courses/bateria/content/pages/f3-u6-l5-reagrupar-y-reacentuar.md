@@ -23,7 +23,7 @@ Cambiar la organización perceptiva de una corriente estable **sin cambiar silen
 
 La partitura contiene dos compases de corcheas continuas en 4/4. El MusicXML mantiene todas las notas iguales; tú aplicarás las agrupaciones mediante acento y conteo.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l5-regrouping.musicxml" data-score-title="Unidad 6.Lección 5 — corriente estable en 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l5-regrouping.musicxml" data-score-title="Lección 5 — corriente estable en 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Regla crítica
 

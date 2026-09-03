@@ -25,7 +25,7 @@ La regla es:
 
 ## Referencia: Fill B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Unidad 9.Lección 3 — Referencia Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Lección 3 — Referencia Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La versión escrita usa:
 

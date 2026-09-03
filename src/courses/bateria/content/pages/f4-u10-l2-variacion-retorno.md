@@ -25,7 +25,7 @@ La habilidad es:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — FRASE A–A–B–A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Unidad 10.Lección 2 — A–A–B–A de Unidad 7" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Lección 2 — A–A–B–A de Unidad 7" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La variación B añade sólo un bombo en `& de 3`. El resto de capas conserva su función.
 

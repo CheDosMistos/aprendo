@@ -27,7 +27,7 @@ Es un **andamiaje de esta tarea**, no una forma musical universal.
 
 ## Modelo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l3-aaba.musicxml" data-score-title="Unidad 5.Lección 3 — A → A → B → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l3-aaba.musicxml" data-score-title="Lección 3 — A → A → B → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 En el modelo, los compases 1, 2 y 4 son A. El compás 3 es B.
 

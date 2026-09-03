@@ -27,7 +27,7 @@ No necesitas estar seguro de todo para empezar a transcribir.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-transcription data-bpm="72" data-subdivision="2" data-low-pattern="1000100010001000" data-mid-pattern="0010001000100010" data-high-pattern="0100010001000100" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Fuente A · rejilla de corcheas. Grave: 1000100010001000. Media: 0010001000100010. Aguda: 0100010001000100. Esqueleto compuesto: 1110111011101110. 1 = ataque; 0 = silencio. La nomenclatura grave/media/aguda es funcional para esta fuente sintética." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l1-source-a.musicxml" data-answer-score-title="Unidad 3.Lección 1 — esqueleto de la fuente A"></div>
+<div data-rhythm-transcription data-bpm="72" data-subdivision="2" data-low-pattern="1000100010001000" data-mid-pattern="0010001000100010" data-high-pattern="0100010001000100" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Fuente A · rejilla de corcheas. Grave: 1000100010001000. Media: 0010001000100010. Aguda: 0100010001000100. Esqueleto compuesto: 1110111011101110. 1 = ataque; 0 = silencio. La nomenclatura grave/media/aguda es funcional para esta fuente sintética." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l1-source-a.musicxml" data-answer-score-title="Lección 1 — esqueleto de la fuente A"></div>
 
 Los chunks permanecen bloqueados hasta la primera escucha completa.
 

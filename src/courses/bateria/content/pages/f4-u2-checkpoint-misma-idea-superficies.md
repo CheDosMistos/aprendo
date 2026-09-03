@@ -25,7 +25,7 @@ Esta unidad no certifica que ya orquestes libremente todo el drumset. Comprueba 
 
 Usa la frase de Lección 4 o una frase manual que ya conocieras antes de esta unidad.
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Unidad 2.evaluación — Frase de referencia para la prueba" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Evaluación — Frase de referencia para la prueba" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ### A — Base
 

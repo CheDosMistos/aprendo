@@ -23,7 +23,7 @@ Mover una idea respecto al marco temporal **sin mover el marco**.
 
 El primer compás presenta A. El segundo conserva la misma secuencia relativa de ataques, desplazada una corchea hacia la derecha dentro de otro compás de 4/4.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l4-displacement.musicxml" data-score-title="Unidad 6.Lección 4 — origen y desplazamiento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l4-displacement.musicxml" data-score-title="Lección 4 — origen y desplazamiento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Ambos compases son **4/4**.
 

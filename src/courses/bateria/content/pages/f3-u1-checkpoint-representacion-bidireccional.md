@@ -25,7 +25,7 @@ Esta evaluación **no es un examen de transcripción y no es el Hito global 3**.
 
 Estímulo nuevo, **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11001011" data-answer="Muestra auditiva de la evaluación: un compás 4/4 sobre rejilla de corcheas. Compara tu primera respuesta antes de corregirla." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-cp-solucion-auditiva-a.musicxml" data-answer-score-title="Unidad 1.evaluación — solución de la muestra auditiva"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11001011" data-answer="Muestra auditiva de la evaluación: un compás 4/4 sobre rejilla de corcheas. Compara tu primera respuesta antes de corregirla." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-cp-solucion-auditiva-a.musicxml" data-answer-score-title="Evaluación — solución de la muestra auditiva"></div>
 
 Haz la cadena:
 
@@ -47,7 +47,7 @@ Registra:
 
 La siguiente muestra no debe convertirse en memoria antes del primer intento. Pulsa **Empezar** cuando estés preparado.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-title="Unidad 1.evaluación — muestra visual protegida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-title="Evaluación — muestra visual protegida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
 
 1. observa pulso/subdivisión;
 2. toca la lectura en el primer intento;

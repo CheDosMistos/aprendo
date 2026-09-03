@@ -67,7 +67,7 @@ Cuando pulses **Empezar**:
 5. toca la línea de principio a fin con sticking alternado, empezando con derecha;
 6. ante un error pequeño, intenta conservar el pulso y reincorporarte en lugar de detenerte inmediatamente.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="Unidad 1.Lección 1 — lectura real de entrada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="Lección 1 — lectura real de entrada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Después del primer intento
 

@@ -45,7 +45,7 @@ Después:
 5. ante un error pequeño, intenta mantener o recuperar continuidad;
 6. pulsa **Finalizar intento** antes de usar playback.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-Evaluación-a.musicxml" data-score-title="Unidad 2.evaluación — Muestra A nueva de semicorcheas y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u2/f2-u2-Evaluación-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml" data-score-title="Evaluación — Muestra A nueva de semicorcheas y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Registra por separado:
 
@@ -97,7 +97,7 @@ Si esa evidencia es antigua, dudosa o contradictoria, haz una toma corta sobre d
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Unidad 2.Lección 2 — remuestreo opcional de continuidad 2 ↔ 4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Lección 2 — remuestreo opcional de continuidad 2 ↔ 4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Observa sólo si:
 
@@ -182,7 +182,7 @@ No se exige:
 - **2 ↔ 4 desestabiliza el pulso:** aísla el cambio de densidad sin silencios antes de recombinar;
 - **oyes la célula pero la escribes mal:** separa memoria auditiva de notación y usa la rejilla intermedia;
 - **la lectura funciona con sticking alternado pero colapsa con doubles/diddles:** es evidencia de aplicación/técnica; no degrada figuras, silencios y compás automáticamente;
-- **la evidencia reciente contradice una toma aislada:** elicita una muestra corta antes de cambiar el mapa de progreso.
+- **la evidencia reciente contradice una toma aislada:** elicita una muestra corta antes de cambiar el nivel registrado.
 
 Completar esta evaluación **no actualiza automáticamente figuras, silencios y compás, subdivisión binaria y ternaria, cambios de subdivisión, relación entre oído y notación ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
 

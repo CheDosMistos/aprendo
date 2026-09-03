@@ -19,7 +19,7 @@ published: true
 
 Aplicar esta unidad a una forma musical más larga usando material ya validado.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 3.Lección 4 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Lección 4 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Pieza A sigue siendo material original de Aprendo. El score es un **esqueleto formal**, no una transcripción comercial ni una partitura completa de batería.
 

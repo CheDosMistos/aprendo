@@ -51,7 +51,7 @@ Recupera **dos compases de Lección 2** con sticking alternado sencillo. Haz una
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Unidad 2.Lección 2 — recuperación rítmica antes de aplicar textura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Lección 2 — recuperación rítmica antes de aplicar textura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Comprueba sólo tres cosas:
 
@@ -67,7 +67,7 @@ Si hoy la lectura base no está disponible, reduce longitud o tempo. No añadas 
 
 La partitura siguiente contiene **cuatro compases originales en 4/4**. Usa únicamente semicorcheas y silencios de semicorchea ya disponibles en esta unidad y contiene varios pares o grupos de ataques consecutivos que permiten experimentar después con `RR/LL`.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-title="Unidad 2.Lección 4 — línea base para doubles/diddles" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-title="Lección 4 — línea base para doubles/diddles" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120 BPM` del MusicXML es sólo una referencia técnica de playback. **No es tempo objetivo ni criterio de avance.**
 

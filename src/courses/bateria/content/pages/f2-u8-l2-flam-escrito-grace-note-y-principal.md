@@ -50,7 +50,7 @@ No fijamos hoy una distancia universal en milisegundos. La relación depende de 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-title="Unidad 8.Lección 2 — línea base frente a grace note y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-source-label="MusicXML — fuente del ejercicio grace→principal"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-title="Lección 2 — línea base frente a grace note y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-source-label="MusicXML — fuente del ejercicio grace→principal"></div>
 
 Antes de habilitar audio:
 

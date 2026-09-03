@@ -25,7 +25,7 @@ La tarea sigue siendo:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — FILL A Y RETORNO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Unidad 10.Lección 3 — Fill A y retorno de Unidad 9" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Lección 3 — Fill A y retorno de Unidad 9" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Fill A ocupa sólo `4 &`:
 

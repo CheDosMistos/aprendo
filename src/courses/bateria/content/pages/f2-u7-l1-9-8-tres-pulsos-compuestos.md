@@ -92,7 +92,7 @@ Hoy esta diferencia sirve sólo como recordatorio de Unidad 6. El contraste sist
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-title="Unidad 7.Lección 1 — 9/8: tres pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-title="Lección 1 — 9/8: tres pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de habilitar el audio:
 

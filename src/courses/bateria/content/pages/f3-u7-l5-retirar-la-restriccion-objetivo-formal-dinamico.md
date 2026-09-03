@@ -25,7 +25,7 @@ La libertad aumenta, pero no desaparecen pulso, frase ni explicación.
 
 La partitura escribe A en el primer y cuarto compás. Los dos compases centrales quedan silenciosos para tu desarrollo.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l5-form-frame.musicxml" data-score-title="Unidad 7.Lección 5 — marco A, desarrollo y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l5-form-frame.musicxml" data-score-title="Lección 5 — marco A, desarrollo y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 `A → DESARROLLO LIBRE DENTRO DEL MARCO → DESARROLLO → A`
 

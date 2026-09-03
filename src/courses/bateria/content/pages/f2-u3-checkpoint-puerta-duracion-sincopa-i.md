@@ -44,7 +44,7 @@ Después:
 6. ante un error pequeño, intenta mantener o recuperar continuidad;
 7. pulsa **Finalizar intento** antes de usar playback.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-Evaluación-a.musicxml" data-score-title="Unidad 3.evaluación — Muestra A nueva de duración y síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u3/f2-u3-Evaluación-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-checkpoint-a.musicxml" data-score-title="Evaluación — Muestra A nueva de duración y síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u3/f2-u3-checkpoint-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Registra por separado:
 
@@ -162,7 +162,7 @@ No se exige:
 - **la duración está clara pero desaparece el pulso:** externaliza negras/subdivisión durante las posiciones no articuladas;
 - **puntillo correcto, ligadura confusa:** aísla la representación problemática sin degradar automáticamente todo síncopa;
 - **lectura estable, oído confuso:** separa evidencia auditiva de duración escrita y usa un contraste uno/dos ataques;
-- **una toma aislada contradice evidencia reciente estable:** elicita otra muestra corta antes de cambiar el mapa de progreso.
+- **una toma aislada contradice evidencia reciente estable:** elicita otra muestra corta antes de cambiar el nivel registrado.
 
 Completar esta evaluación **no actualiza automáticamente síncopa, teoría básica del pulso y las figuras, métrica y terminología rítmica, pulso interno, subdivisión binaria y ternaria, relación entre oído y notación ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión.
 

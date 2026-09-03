@@ -25,7 +25,7 @@ La prioridad de hoy es:
 
 ## Tarea central — Fill B y recuperación
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Unidad 9.Lección 4 — Fill B y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Lección 4 — Fill B y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca la frase completa.
 
@@ -51,7 +51,7 @@ Aísla únicamente la unión necesaria y vuelve pronto a la frase completa.
 
 Sólo si hi-hat de pie/coordinación básica de cuatro extremidades permanecen estables, prueba este ejercicio preparado:
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l4-left-foot-window.musicxml" data-score-title="Unidad 9.Lección 4 — AMPLIACIÓN: ostinato de pie izquierdo durante Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l4-left-foot-window.musicxml" data-score-title="Lección 4 — AMPLIACIÓN: ostinato de pie izquierdo durante Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La única capa nueva es:
 

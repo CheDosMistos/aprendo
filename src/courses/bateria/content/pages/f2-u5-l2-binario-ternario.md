@@ -66,7 +66,7 @@ Una transición puede conservar bien pulso interno y, sin embargo, deformar el i
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-title="Unidad 5.Lección 2 — cambio 2 ↔ 3 con pulso constante" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-title="Lección 2 — cambio 2 ↔ 3 con pulso constante" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de **Habilitar audio**, identifica visualmente dónde hay corcheas binarias y dónde aparecen tresillos. Haz una pasada propia con una condición cómoda.
 

@@ -19,7 +19,7 @@ published: true
 
 Mantener el mismo groove CORE mientras cambia **una variable expresiva**.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="Unidad 3.Lección 2 — Groove CORE para contraste" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="Lección 2 — Groove CORE para contraste" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Regla de hoy
 

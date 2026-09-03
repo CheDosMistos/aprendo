@@ -91,7 +91,7 @@ Esto no convierte 4/4 en 6/8. Los grupos ternarios siguen siendo tuplets dentro 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-title="Unidad 5.Lección 4 — variante de transferencia 2–3–4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-title="Lección 4 — variante de transferencia 2–3–4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Esta variante es **nueva para esta tarea**, pero no se registra como evidencia formal de primera vista forma y lectura de chart. Unidad 9 reservará condiciones específicas para medir primera vista realmente nueva.
 

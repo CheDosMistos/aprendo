@@ -77,6 +77,6 @@ Esa explicación importa tanto como tocar la variación.
 
 Esto inicia motivo/desarrollo motívico en microdosis. No es composición formal ni desarrollo motívico profundo de Fase 3.
 
-## MÍNIMO PARA EL Evaluación
+## MÍNIMO PARA AVANZAR
 
 Puedes producir al menos una transformación textural y una variación rítmica breve, y describir correctamente la diferencia entre ambas sin perder el marco métrico.

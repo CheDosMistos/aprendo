@@ -29,7 +29,7 @@ No necesitas combinar varias ni improvisar libremente.
 
 Este A no apareció en Lecciones 1–5.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-cp-transform.musicxml" data-score-title="Unidad 6.evaluación — material A nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-cp-transform.musicxml" data-score-title="Evaluación — material A nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Puedes usar este A o crear otro de dificultad equivalente, siempre que conserves una primera versión estable.
 

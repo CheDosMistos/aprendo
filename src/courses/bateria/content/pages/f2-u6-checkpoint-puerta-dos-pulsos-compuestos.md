@@ -27,7 +27,7 @@ El BPM describe la **condición** de la muestra; no define el nivel.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-Evaluación-dos-pulsos.musicxml" data-score-title="Unidad 6.evaluación — muestra exclusiva de dos pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-Evaluación-dos-pulsos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-checkpoint-dos-pulsos.musicxml" data-score-title="Evaluación — muestra exclusiva de dos pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-checkpoint-dos-pulsos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 La muestra contiene cuatro compases de 6/8 y utiliza únicamente corcheas y silencios de corchea ya conocidos. Hay **24 posiciones de corchea: 16 ataques y 8 silencios**. Cada compás ocupa exactamente seis corcheas.
 

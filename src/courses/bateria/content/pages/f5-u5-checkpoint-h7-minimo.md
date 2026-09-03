@@ -25,7 +25,7 @@ No certifica independencia avanzada.
 
 ## Muestra
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-Evaluación-h7.musicxml" data-score-title="Unidad 5 — Evaluación independencia avanzada MÍNIMO" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-checkpoint-h7.musicxml" data-score-title="Unidad 5 — Evaluación independencia avanzada MÍNIMO" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La combinación es nueva respecto a Lección 3, pero utiliza vocabulario conocido. No se presenta como examen de primera vista.
 

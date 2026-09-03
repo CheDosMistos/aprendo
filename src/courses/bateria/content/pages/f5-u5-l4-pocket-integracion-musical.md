@@ -21,7 +21,7 @@ Dejar de pensar `“¿puedo ejecutar A y B?”` y pasar a `“¿puedo sostener u
 
 Reutiliza el score de Lección 3:
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l3-h7-context.musicxml" data-score-title="Unidad 5.Lección 3 — Capa fija + voz variable" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l3-h7-context.musicxml" data-score-title="Lección 3 — Capa fija + voz variable" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Forma original de práctica
 

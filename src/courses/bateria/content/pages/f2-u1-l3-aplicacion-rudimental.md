@@ -48,7 +48,7 @@ Usa de nuevo la partitura de Lección 2. **No es material de primera vista**: pr
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Unidad 1.Lección 2 — línea base ya comprendida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Lección 2 — línea base ya comprendida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Escoge **uno o dos compases** que puedas explicar antes de tocar. Haz primero una versión con sticking alternado sencillo.
 

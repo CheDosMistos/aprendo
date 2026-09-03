@@ -29,7 +29,7 @@ Recupera primero la relación entre ataque y duración con el banco de Lección 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="Unidad 3.Lección 2 — recuperación de duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="Lección 2 — recuperación de duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una toma corta y comprueba dos cosas:
 
@@ -44,7 +44,7 @@ Si una ligadura o un puntillo todavía te hace reatacar automáticamente, reduce
 
 El banco siguiente mantiene **4/4** y usa vocabulario ya conocido. La novedad es la relación métrica: algunos ataques empiezan fuera de una posición fuerte y su duración atraviesa una posición fuerte posterior. El `120` del MusicXML es sólo referencia técnica del motor de playback; **no es un BPM obligatorio ni un criterio de aprobado**.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Unidad 3.Lección 3 — síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Lección 3 — síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Paso A — encuentra el marco antes del efecto
 

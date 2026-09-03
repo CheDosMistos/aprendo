@@ -46,7 +46,7 @@ La competencia flams pide que puedas ejecutar **grace doubles + principal lentam
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-title="Unidad 8.Lección 3 — línea base frente a double grace y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-source-label="MusicXML — fuente del ejercicio double-grace→principal"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-title="Lección 3 — línea base frente a double grace y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-source-label="MusicXML — fuente del ejercicio double-grace→principal"></div>
 
 Antes de habilitar audio:
 

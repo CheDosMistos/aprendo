@@ -50,7 +50,7 @@ En el sextillo de hoy, **seis semicorcheas escritas sustituyen temporalmente el 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-title="Unidad 8.Lección 1 — semicorcheas frente a sextillos 6:4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio 4↔6"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-title="Lección 1 — semicorcheas frente a sextillos 6:4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio 4↔6"></div>
 
 Antes de habilitar audio:
 

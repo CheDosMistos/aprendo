@@ -19,7 +19,7 @@ published: true
 
 Construir y sostener el groove CORE sin fills, observando cómo se relacionan sus capas.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="Unidad 3.Lección 1 — Backbeat de corcheas I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="Lección 1 — Backbeat de corcheas I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué contiene
 

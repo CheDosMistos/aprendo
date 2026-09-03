@@ -23,7 +23,7 @@ Aprender a **no rehacer toda la transcripción en cada escucha**. Cada reescucha
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-transcription data-bpm="70" data-subdivision="2" data-low-pattern="1001000010010000" data-mid-pattern="0010001000001010" data-high-pattern="0100010001000100" data-chunk-beats="2" data-chunk-labels="pulso interno · pulsos 1–2|pulso interno · pulsos 3–4|subdivisión binaria y ternaria · pulsos 1–2|subdivisión binaria y ternaria · pulsos 3–4" data-answer="Fuente B · rejilla de corcheas. Grave: 1001000010010000. Media: 0010001000001010. Aguda: 0100010001000100. Esqueleto compuesto: 1111011011011110. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l2-source-b.musicxml" data-answer-score-title="Unidad 3.Lección 2 — esqueleto de la fuente B"></div>
+<div data-rhythm-transcription data-bpm="70" data-subdivision="2" data-low-pattern="1001000010010000" data-mid-pattern="0010001000001010" data-high-pattern="0100010001000100" data-chunk-beats="2" data-chunk-labels="pulso interno · pulsos 1–2|pulso interno · pulsos 3–4|subdivisión binaria y ternaria · pulsos 1–2|subdivisión binaria y ternaria · pulsos 3–4" data-answer="Fuente B · rejilla de corcheas. Grave: 1001000010010000. Media: 0010001000001010. Aguda: 0100010001000100. Esqueleto compuesto: 1111011011011110. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l2-source-b.musicxml" data-answer-score-title="Lección 2 — esqueleto de la fuente B"></div>
 
 ## 1. Esqueleto antes que orquestación · 6–8 min
 

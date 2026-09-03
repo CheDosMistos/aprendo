@@ -84,7 +84,7 @@ Graba una toma si puedes y conserva la primera antes de hacer una revisión.
 
 La siguiente partitura contiene dos compases: **C** y después **candidato X**. Este material no apareció en Lecciones 1–4.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-cp-clasificacion.musicxml" data-score-title="Unidad 5.evaluación — C y candidato X" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-cp-clasificacion.musicxml" data-score-title="Evaluación — C y candidato X" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Antes de abrir la referencia, clasifica X respecto a C:
 

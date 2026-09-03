@@ -19,7 +19,7 @@ published: true
 
 Contrastar el mapa construido por oído en Lección 3 y convertirlo en una ejecución continua de Pieza B.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-piece-b-form-i.musicxml" data-score-title="Unidad 4.Lección 4 — Pieza B: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-piece-b-form-i.musicxml" data-score-title="Lección 4 — Pieza B: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura es un **esqueleto formal original de Aprendo**. No es una transcripción comercial.
 

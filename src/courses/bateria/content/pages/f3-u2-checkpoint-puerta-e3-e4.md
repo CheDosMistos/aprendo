@@ -25,7 +25,7 @@ Esta evaluación **no es una transcripción**, no exige perfección y no usa un 
 
 Material nuevo, **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
-<div data-rhythm-dictation data-bpm="64" data-subdivision="4" data-pattern="1010000100101000" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="Evidencia A: un compás 4/4 sobre dieciséis posiciones de semicorchea y densidad baja/moderada. Conserva la primera hipótesis antes de corregir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-semicorcheas-a.musicxml" data-answer-score-title="Unidad 2.evaluación — solución de semicorcheas A"></div>
+<div data-rhythm-dictation data-bpm="64" data-subdivision="4" data-pattern="1010000100101000" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="Evidencia A: un compás 4/4 sobre dieciséis posiciones de semicorchea y densidad baja/moderada. Conserva la primera hipótesis antes de corregir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-semicorcheas-a.musicxml" data-answer-score-title="Evaluación — solución de semicorcheas A"></div>
 
 Protocolo:
 
@@ -37,7 +37,7 @@ Registra escuchas completas, chunks, posiciones dudosas, legibilidad y variable 
 
 Ahora la resolución vuelve a corcheas; la novedad es sostener dos compases.
 
-<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1001101010011001" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Evidencia B: dos compases 4/4 en corcheas, distintos de Lección 4 y de Unidad 1. Compara cada compás y la transición después de conservar tu primera hipótesis." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-dos-compases-b.musicxml" data-answer-score-title="Unidad 2.evaluación — solución de dos compases B"></div>
+<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1001101010011001" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Evidencia B: dos compases 4/4 en corcheas, distintos de Lección 4 y de Unidad 1. Compara cada compás y la transición después de conservar tu primera hipótesis." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-dos-compases-b.musicxml" data-answer-score-title="Evaluación — solución de dos compases B"></div>
 
 Protocolo:
 

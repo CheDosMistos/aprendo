@@ -21,7 +21,7 @@ Tocar por primera vez la forma completa del Hito 5 sin añadir vocabulario nuevo
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — HITO 5 INTEGRADO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="Unidad 10.Lección 4 — A → variación → A → fill → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="Lección 4 — A → variación → A → fill → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La forma tiene cinco compases:
 

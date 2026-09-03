@@ -45,7 +45,7 @@ No conviertas una respuesta en sustituto de la otra.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-title="Unidad 9.Lección 2 — continuidad y precisión por separado" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 2"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-title="Lección 2 — continuidad y precisión por separado" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 2"></div>
 
 Antes de **Empezar**:
 

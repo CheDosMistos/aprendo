@@ -43,7 +43,7 @@ No puntúes por «acertar el nombre». Puntúa si puedes **leer función, duraci
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-Evaluación-decodificacion-ornamental.musicxml" data-score-title="Unidad 8.evaluación — puerta de decodificación ornamental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-Evaluación-decodificacion-ornamental.musicxml" data-score-source-label="MusicXML — fuente de la muestra ornamental de la evaluación"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml" data-score-title="Evaluación — puerta de decodificación ornamental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml" data-score-source-label="MusicXML — fuente de la muestra ornamental de la evaluación"></div>
 
 Antes de habilitar audio, recorre los cuatro compases con esta plantilla:
 

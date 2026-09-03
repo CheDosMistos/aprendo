@@ -25,7 +25,7 @@ Fill B ocupa:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE → FILL B → 1
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Unidad 9.Lección 2 — Fill B: dos tiempos y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Lección 2 — Fill B: dos tiempos y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La ruta manual es deliberadamente conocida:
 

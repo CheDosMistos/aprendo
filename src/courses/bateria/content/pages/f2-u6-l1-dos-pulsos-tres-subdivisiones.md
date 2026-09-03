@@ -67,7 +67,7 @@ En 6/8, las corcheas de esta lección son **corcheas ordinarias**. La métrica y
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-title="Unidad 6.Lección 1 — dos pulsos, tres subdivisiones cada uno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-title="Lección 1 — dos pulsos, tres subdivisiones cada uno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de pulsar **Habilitar audio**, sigue el ciclo:
 

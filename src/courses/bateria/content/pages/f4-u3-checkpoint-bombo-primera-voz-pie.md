@@ -31,7 +31,7 @@ Debes poder repetir el golpe sin que el cuerpo tenga que “reiniciarse” por c
 
 ## Bloque B — Patrón básico de bombo
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l3-kick-pulse.musicxml" data-score-title="Unidad 3.evaluación — Negras y corcheas de bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l3-kick-pulse.musicxml" data-score-title="Evaluación — Negras y corcheas de bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca el bloque de negras y después el de corcheas a una condición que te permita evaluar control.
 
@@ -39,7 +39,7 @@ El BPM se registra como condición; **no existe BPM de aprobado**.
 
 ## Bloque C — Sustitución manual → bombo
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l4-kick-substitution.musicxml" data-score-title="Unidad 3.evaluación — Misma rejilla, nueva extremidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l4-kick-substitution.musicxml" data-score-title="Evaluación — Misma rejilla, nueva extremidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca A → B → A y comprueba que la rejilla temporal sigue reconocible cuando el bombo sustituye ataques manuales.
 

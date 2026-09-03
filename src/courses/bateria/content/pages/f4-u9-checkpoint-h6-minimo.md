@@ -29,11 +29,11 @@ No necesitas ejecutar los dos para aprobar el mínimo.
 
 ### Opción A — Fill de 1 tiempo
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Unidad 9.evaluación — Fill A y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Evaluación — Fill A y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ### Opción B — Fill de 2 tiempos
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Unidad 9.evaluación — Fill B y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Evaluación — Fill B y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Antes de tocar, declara qué opción eliges y cuánto dura.
 

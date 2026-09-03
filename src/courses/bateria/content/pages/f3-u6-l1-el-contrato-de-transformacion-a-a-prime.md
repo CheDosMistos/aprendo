@@ -23,7 +23,7 @@ Convertir la relación intuitiva A/A’ de Unidad 5 en una **transformación con
 
 La partitura tiene dos compases. El primero es **A**; el segundo es una **A’ diseñada con una variación local**.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l1-a-a-prime.musicxml" data-score-title="Unidad 6.Lección 1 — A y A’" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l1-a-a-prime.musicxml" data-score-title="Lección 1 — A y A’" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Antes de leer la explicación, escucha y toca ambos.
 

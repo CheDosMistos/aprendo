@@ -21,11 +21,11 @@ Recuperar una frase que ya conoces antes de añadir una nueva capa de coordinaci
 
 ## Material A — acento como opción de timbre
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="Unidad 8.Lección 1 — Acento y opción de timbre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="Lección 1 — Acento y opción de timbre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Material B — identidad sobre tres superficies
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Unidad 8.Lección 1 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Lección 1 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La segunda frase conserva ocho corcheas y sticking alternado R/L, pero las derechas recorren tom agudo y tom grave mientras las izquierdas permanecen en caja.
 

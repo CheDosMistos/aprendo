@@ -25,7 +25,7 @@ Aprender a revisar **después de comparar**, no por impulso de “hacer algo má
 
 Los compases 1–4 son V0. Los compases 5–8 son V1.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l5-v0-v1.musicxml" data-score-title="Unidad 8.Lección 5 — V0 y V1" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l5-v0-v1.musicxml" data-score-title="Lección 5 — V0 y V1" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 V1 **simplifica** una decisión del tercer compás. Es una demostración importante: revisar no significa añadir dificultad.
 

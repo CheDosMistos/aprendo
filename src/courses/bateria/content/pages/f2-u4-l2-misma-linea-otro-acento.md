@@ -27,7 +27,7 @@ Primero toca la línea de Lección 1 sin intentar “hacerla musical” mediante
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="Unidad 4.Lección 2 — línea base sin nueva capa" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="Lección 2 — línea base sin nueva capa" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Comprueba:
 
@@ -44,7 +44,7 @@ Si necesitas volver a descifrar la línea completa, hazlo ahora. **No añadas el
 
 La siguiente partitura conserva el mismo orden de duraciones, silencios y ligaduras que la línea base. Sólo añade símbolos de acento a ataques seleccionados. El `120` del MusicXML sigue siendo referencia técnica de playback, no objetivo de práctica.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-title="Unidad 4.Lección 2 — misma línea, acentos añadidos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-title="Lección 2 — misma línea, acentos añadidos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Paso A — separa dos mapas
 

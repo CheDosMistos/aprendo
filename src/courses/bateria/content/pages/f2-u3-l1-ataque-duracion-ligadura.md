@@ -31,11 +31,11 @@ No introducimos todavía puntillos ni enseñamos la síncopa como concepto estru
 
 ## 1. Recuperación Unidad 2 — 3 min
 
-Recupera **los compases 1–2** de la rejilla de Unidad 2.Lección 1. Haz una sola toma breve sin escuchar antes el playback.
+Recupera **los compases 1–2** de la rejilla de Lección 1. Haz una sola toma breve sin escuchar antes el playback.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Unidad 2.Lección 1 — recuperación antes de introducir duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Lección 1 — recuperación antes de introducir duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Observa sólo tres cosas:
 
@@ -51,7 +51,7 @@ No vuelvas a estudiar Unidad 2. Este bloque sólo recupera la rejilla sobre la q
 
 La partitura siguiente es material nuevo de esta unidad. Introduce **ligaduras**, pero no puntillos, tuplets ni síncopa como objeto de estudio.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="Unidad 3.Lección 1 — ataque y duración mediante ligaduras" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="Lección 1 — ataque y duración mediante ligaduras" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120 BPM` del MusicXML es sólo una referencia técnica de playback. **No es tempo inicial ni criterio de aprobado.** Elige una velocidad donde puedas contar la duración y decidir conscientemente si existe un nuevo ataque.
 

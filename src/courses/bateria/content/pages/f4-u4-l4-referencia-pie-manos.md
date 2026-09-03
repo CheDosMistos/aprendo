@@ -23,7 +23,7 @@ La novedad no son las manos: es **sostener el pie bajo ellas**.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — MANOS VIEJAS + PIE NUEVO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="Unidad 4.Lección 4 — Manos conocidas + hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="Lección 4 — Manos conocidas + hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura usa dos voces:
 

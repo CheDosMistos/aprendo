@@ -42,7 +42,7 @@ Antes de asignar una textura, recupera la línea sincopada de Lección 1 con sti
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="Unidad 4.Lección 3 — línea base antes de aplicar textura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="Lección 3 — línea base antes de aplicar textura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Comprueba por este orden:
 
@@ -60,7 +60,7 @@ No marques todavía una solución de manos. Una línea que sólo puedes tocar de
 
 La partitura siguiente conserva **exactamente la misma estructura temporal de Lección 1**. No añade ni elimina ataques. Los símbolos `R/L` indican una propuesta original de distribución de manos sobre los ataques existentes.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l3-textura-manos.musicxml" data-score-title="Unidad 4.Lección 3 — misma línea, textura de manos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l3-textura-manos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l3-textura-manos.musicxml" data-score-title="Lección 3 — misma línea, textura de manos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l3-textura-manos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Qué es — y qué no es — esta aplicación
 

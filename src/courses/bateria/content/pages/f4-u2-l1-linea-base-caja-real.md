@@ -23,7 +23,7 @@ Si cambias a la vez ritmo, sticking, superficie y dinámica, un error deja de de
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — CONTROL DE IDENTIDAD
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l1-base-snare.musicxml" data-score-title="Unidad 2.Lección 1 — Línea base en caja" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l1-base-snare.musicxml" data-score-title="Lección 1 — Línea base en caja" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura usa una frase elemental de corcheas creada para este curso. No reproduce un ejercicio PAS ni un método comercial.
 

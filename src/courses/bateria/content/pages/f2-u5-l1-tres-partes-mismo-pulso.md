@@ -55,7 +55,7 @@ Si una de las tres notas se vuelve sistemáticamente más larga, no aceleres. Ha
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-title="Unidad 5.Lección 1 — tres partes dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-title="Lección 1 — tres partes dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de pulsar **Habilitar audio**, lee y realiza al menos una pasada propia.
 

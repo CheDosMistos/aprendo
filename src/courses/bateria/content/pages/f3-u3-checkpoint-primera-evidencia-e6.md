@@ -25,7 +25,7 @@ No se exige canción completa, alta velocidad, cero dudas ni reproducción de tr
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-transcription data-bpm="70" data-subdivision="2" data-low-pattern="1001000010000100" data-mid-pattern="0010001000101000" data-high-pattern="0100010001000010" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-allow-slowdown="true" data-answer="Fuente E · rejilla de corcheas. Grave: 1001000010000100. Media: 0010001000101000. Aguda: 0100010001000010. Esqueleto compuesto: 1111011011101110. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-cp-source-e.musicxml" data-answer-score-title="Unidad 3.evaluación — esqueleto de la fuente E"></div>
+<div data-rhythm-transcription data-bpm="70" data-subdivision="2" data-low-pattern="1001000010000100" data-mid-pattern="0010001000101000" data-high-pattern="0100010001000010" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-allow-slowdown="true" data-answer="Fuente E · rejilla de corcheas. Grave: 1001000010000100. Media: 0010001000101000. Aguda: 0100010001000010. Esqueleto compuesto: 1111011011101110. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-cp-source-e.musicxml" data-answer-score-title="Evaluación — esqueleto de la fuente E"></div>
 
 ## Evidencia 1 — marco y primera hipótesis
 

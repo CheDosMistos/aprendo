@@ -31,7 +31,7 @@ Observa:
 
 ## Bloque B — Ostinato simple
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l3-foot-hihat-pulse.musicxml" data-score-title="Unidad 4.evaluación — Pulso de hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l3-foot-hihat-pulse.musicxml" data-score-title="Evaluación — Pulso de hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 - negras = **ESENCIAL AHORA**;
 - tiempos 2 y 4 = **AMPLIACIÓN**.
@@ -40,7 +40,7 @@ El BPM es una condición de ejecución. **No existe BPM de aprobado**.
 
 ## Bloque C — Manos conocidas + pie
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="Unidad 4.evaluación — Manos conocidas + referencia de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="Evaluación — Manos conocidas + referencia de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Combina la tarea manual elemental con el chick en negras durante una frase breve. Si falla, aisla la capa y recompón.
 

@@ -76,7 +76,7 @@ Si los dos últimos ataques llegan bien espaciados pero no sabes dónde cayó el
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-title="Unidad 6.Lección 2 — ataques y silencios dentro de 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-title="Lección 2 — ataques y silencios dentro de 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de habilitar audio:
 

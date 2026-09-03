@@ -21,7 +21,7 @@ Introducir una pequeña variación de groove cambiando **una sola cosa** respect
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — VARIACIÓN B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="Unidad 7.Lección 2 — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="Lección 2 — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Variación B:
 

@@ -58,7 +58,7 @@ No uses la Muestra A como calentamiento para memorizar la B. Entre ambas puedes 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-Evaluación-muestra-a-4-4.musicxml" data-score-title="Unidad 9.evaluación — muestra A de primera vista en 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-Evaluación-muestra-a-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra A"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-checkpoint-muestra-a-4-4.musicxml" data-score-title="Evaluación — muestra A de primera vista en 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-checkpoint-muestra-a-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra A"></div>
 
 ### Registra A
 
@@ -88,7 +88,7 @@ No anticipes el patrón concreto.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-Evaluación-muestra-b-6-8.musicxml" data-score-title="Unidad 9.evaluación — muestra B de primera vista en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-Evaluación-muestra-b-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra B"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-checkpoint-muestra-b-6-8.musicxml" data-score-title="Evaluación — muestra B de primera vista en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-checkpoint-muestra-b-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra B"></div>
 
 ### Registra B
 

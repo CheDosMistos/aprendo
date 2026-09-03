@@ -41,7 +41,7 @@ Si alguna frase no sale, vuelve brevemente a Lección 3 antes de aumentar dificu
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-title="Unidad 6.Lección 4 — transferencia de representación en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-title="Lección 4 — transferencia de representación en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de habilitar audio:
 

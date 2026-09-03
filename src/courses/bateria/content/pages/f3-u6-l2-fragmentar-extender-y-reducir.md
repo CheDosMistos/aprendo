@@ -25,7 +25,7 @@ Los cuatro compases representan, en orden:
 
 `A → FRAGMENTO → EXTENSIÓN → REDUCCIÓN`
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l2-structural-family.musicxml" data-score-title="Unidad 6.Lección 2 — A, fragmento, extensión y reducción" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l2-structural-family.musicxml" data-score-title="Lección 2 — A, fragmento, extensión y reducción" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La finalidad es comparar operaciones; no memorizar esta familia como vocabulario obligatorio.
 

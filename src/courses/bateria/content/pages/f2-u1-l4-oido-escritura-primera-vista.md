@@ -102,7 +102,7 @@ Cuando pulses **Empezar**:
 4. si aparece un error pequeño, intenta conservar o recuperar el pulso antes de decidir si debes parar;
 5. no memorices compás por compás antes de seguir.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-title="Unidad 1.Lección 4 — primera vista controlada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-title="Lección 4 — primera vista controlada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El atributo técnico de primera vista mantiene la partitura oculta y bloquea playback hasta completar el primer intento. Aquí esa protección sirve para enseñar el procedimiento **sin convertir la muestra en una evaluación formal forma y lectura de chart**.
 
@@ -123,7 +123,7 @@ Vuelve ahora a una tarea conocida de Lección 2 sin practicarla inmediatamente a
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Unidad 1.Lección 2 — recuperación diferida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Lección 2 — recuperación diferida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una toma sin playback previo. Después habilita el audio sólo si necesitas comprobar duración o continuidad.
 

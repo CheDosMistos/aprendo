@@ -37,7 +37,7 @@ El BPM documenta la condición. **No es una nota.**
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-title="Unidad 12.Lección 2 — muestra protegida A 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida A"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-title="Lección 2 — muestra protegida A 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida A"></div>
 
 Cuando pulses **Empezar**:
 

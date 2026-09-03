@@ -21,7 +21,7 @@ Coordinar un segundo patrón sencillo de cuatro extremidades cambiando **una sol
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — CUATRO EXTREMIDADES B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="Unidad 6.Lección 3 — Cuatro extremidades B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="Lección 3 — Cuatro extremidades B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Patrón B:
 

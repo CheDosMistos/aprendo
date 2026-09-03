@@ -25,7 +25,7 @@ La habilidad es:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE → FILL A → 1
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Unidad 9.Lección 1 — Fill A: un tiempo y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Lección 1 — Fill A: un tiempo y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 El fill ocupa únicamente el tiempo 4:
 

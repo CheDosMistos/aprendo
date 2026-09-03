@@ -23,7 +23,7 @@ Reconstruir auditivamente un estímulo sencillo de **7/8** sin mirar primero la 
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="1101010" data-stimulus-label="1 compás de 7/8" data-answer="Unidad 10.Lección 4: un compás original de 7/8 sobre siete corcheas. Compara primero el ciclo, después la agrupación propuesta y finalmente ataques/silencios." data-answer-score-src="/bateria/notation/f3/u10/f3-u10-l4-dictation-answer.musicxml" data-answer-score-title="Unidad 10.Lección 4 — solución de dictado 7/8"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="1101010" data-stimulus-label="1 compás de 7/8" data-answer="Lección 4: un compás original de 7/8 sobre siete corcheas. Compara primero el ciclo, después la agrupación propuesta y finalmente ataques/silencios." data-answer-score-src="/bateria/notation/f3/u10/f3-u10-l4-dictation-answer.musicxml" data-answer-score-title="Lección 4 — solución de dictado 7/8"></div>
 
 La etiqueta visible dice **1 compás de 7/8**. El motor sigue calculando temporalmente siete corcheas; no presenta el estímulo como “3.5 pulsos”.
 

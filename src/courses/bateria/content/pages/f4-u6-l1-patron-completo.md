@@ -23,7 +23,7 @@ Pasar de “he probado cuatro extremidades” a sostener un patrón sencillo com
 
 Reutilizamos exactamente el ejercicio de Unidad 5:
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 6.Lección 1 — Patrón A · Puente 4 extremidades" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Lección 1 — Patrón A · Puente 4 extremidades" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Funciones:
 

@@ -45,7 +45,7 @@ Al pulsar **Empezar**:
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-title="Unidad 9.Lección 4 — primera vista en 9/8 conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 4"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-title="Lección 4 — primera vista en 9/8 conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 4"></div>
 
 Haz una sola toma válida:
 

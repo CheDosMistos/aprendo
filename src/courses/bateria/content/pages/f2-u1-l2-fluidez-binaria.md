@@ -29,7 +29,7 @@ Recupera **solo los compases 3–4** de la lectura de entrada de Lección 1, sin
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="Unidad 1.Lección 1 — recuperación breve" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="Lección 1 — recuperación breve" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una sola toma breve. Pregúntate después:
 
@@ -45,7 +45,7 @@ No conviertas esta recuperación en práctica masiva. Su función es comprobar d
 
 La siguiente partitura es un **banco de ocho células de un compás**. Todas están en 4/4 y usan únicamente vocabulario ya disponible en esta unidad: negras, corcheas, semicorcheas accesibles y silencios de negra/corchea. No introduce síncopa estructurada como nuevo concepto.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Unidad 1.Lección 2 — rejilla binaria y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Lección 2 — rejilla binaria y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Trabaja en fragmentos de **uno o dos compases**, no como una página que haya que memorizar de principio a fin.
 

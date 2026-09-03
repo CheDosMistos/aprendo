@@ -33,7 +33,7 @@ Recupera un fragmento breve de la partitura de ligaduras de Lección 1. No escuc
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="Unidad 3.Lección 1 — recuperación ataque/duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="Lección 1 — recuperación ataque/duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una toma corta y comprueba una sola cosa: **¿puedes ver una ligadura y evitar el segundo ataque sin perder la rejilla temporal?**
 
@@ -45,7 +45,7 @@ Si eso todavía colapsa, reduce longitud o ayudas antes de estudiar el puntillo.
 
 El banco siguiente introduce corcheas con puntillo y las compara con una escritura equivalente mediante ligadura. El `120` del MusicXML es sólo referencia técnica del motor de playback; **no es el tempo de aprobado ni el tempo recomendado para empezar**.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="Unidad 3.Lección 2 — puntillo y duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="Lección 2 — puntillo y duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Paso A — construir antes de leer
 

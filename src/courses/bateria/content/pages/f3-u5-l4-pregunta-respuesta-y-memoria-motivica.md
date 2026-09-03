@@ -23,7 +23,7 @@ En esta unidad, pregunta/respuesta significa una relación pedagógica amplia: l
 
 ## Modelo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l4-pregunta-respuesta.musicxml" data-score-title="Unidad 5.Lección 4 — pregunta y respuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l4-pregunta-respuesta.musicxml" data-score-title="Lección 4 — pregunta y respuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Los compases 1–2 funcionan como pregunta y 3–4 como respuesta dentro del diseño del ejercicio.
 

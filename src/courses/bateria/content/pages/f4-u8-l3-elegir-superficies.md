@@ -21,11 +21,11 @@ Tomar una decisión tímbrica consciente sin confundir complejidad física con m
 
 ## Opción A — cambio tímbrico selectivo
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="Unidad 8.Lección 3 — Cambio tímbrico selectivo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="Lección 3 — Cambio tímbrico selectivo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Opción B — recorrido de tres superficies
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Unidad 8.Lección 3 — Recorrido de tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Lección 3 — Recorrido de tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Las dos soluciones son válidas si conservan pulso, identidad e intención.
 

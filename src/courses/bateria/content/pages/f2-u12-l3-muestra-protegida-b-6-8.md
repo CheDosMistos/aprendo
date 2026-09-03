@@ -37,7 +37,7 @@ Si usas metrónomo, piensa en el pulso principal. No conviertas cada corchea en 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-title="Unidad 12.Lección 3 — muestra protegida B 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida B"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-title="Lección 3 — muestra protegida B 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida B"></div>
 
 Procedimiento:
 

@@ -25,19 +25,19 @@ La prueba añade una pequeña variación porque esta unidad debe comprobar que l
 
 ## Bloque A — Groove base
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 7.evaluación — Groove A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Evaluación — Groove A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Sostén Groove A durante una frase breve.
 
 ## Bloque B — Variación B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="Unidad 7.evaluación — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="Evaluación — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Comprueba que la única nota nueva —bombo en `& de 3`— no desorganiza las demás capas.
 
 ## Bloque C — Forma A–A–B–A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Unidad 7.evaluación — A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Evaluación — A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca la frase completa. Si aparece un error aislado, prioriza conservar o recuperar una referencia clara y **volver a A**.
 

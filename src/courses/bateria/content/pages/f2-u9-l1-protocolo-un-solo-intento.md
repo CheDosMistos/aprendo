@@ -54,7 +54,7 @@ Lo que **no** debes hacer es repetir compases o células hasta que la secuencia 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-title="Unidad 9.Lección 1 — primera vista: protocolo de un solo intento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 1"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-title="Lección 1 — primera vista: protocolo de un solo intento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 1"></div>
 
 Al pulsar **Empezar**:
 

@@ -25,7 +25,7 @@ Probar una primera versión de cuatro extremidades manteniendo caja y bombo cono
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — PUENTE 4 EXTREMIDADES A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 5.Lección 4 — Puente 4 extremidades A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Lección 4 — Puente 4 extremidades A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura usa tres voces funcionales:
 

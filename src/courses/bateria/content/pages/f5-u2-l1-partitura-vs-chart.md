@@ -23,7 +23,7 @@ El chart no es una partitura defectuosa. Está diseñado para condensar informac
 
 ## Primero — recupera Pieza A
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 2.Lección 1 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Lección 1 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Este MusicXML de Unidad 1 sigue siendo un **esqueleto formal mínimo**: escribe suficientes eventos para mostrar forma, una Variación B y un Fill A sin notar todas las capas posibles del kit.
 

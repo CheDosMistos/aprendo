@@ -27,7 +27,7 @@ La pregunta vuelve a ser:
 
 ## A y A’ de referencia — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l3-transform-trace.musicxml" data-score-title="Unidad 8.Lección 3 — A y A’ trazables" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l3-transform-trace.musicxml" data-score-title="Lección 3 — A y A’ trazables" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 El segundo compás cambia **una posición local** respecto al primero. Es un modelo de trazabilidad, no una regla de porcentaje de identidad.
 

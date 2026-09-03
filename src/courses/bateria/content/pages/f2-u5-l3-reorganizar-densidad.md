@@ -75,7 +75,7 @@ Si cuatro partes son desiguales, no practiques todavía el cambio triple. Estabi
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-title="Unidad 5.Lección 3 — 2 ↔ 3 ↔ 4: reorganizar densidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-title="Lección 3 — 2 ↔ 3 ↔ 4: reorganizar densidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de **Habilitar audio**, localiza las tres densidades y señala dónde se producen los cambios. Haz una pasada propia a tempo cómodo.
 

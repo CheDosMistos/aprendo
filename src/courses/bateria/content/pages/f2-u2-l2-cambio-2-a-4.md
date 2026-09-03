@@ -51,7 +51,7 @@ Recupera **los compases 3–4 de Lección 1** sin practicarlos inmediatamente an
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Unidad 2.Lección 1 — recuperación de la rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Lección 1 — recuperación de la rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Observa sólo esto:
 
@@ -67,7 +67,7 @@ Si la rejilla de Lección 1 no está disponible hoy, reduce densidad antes de a�
 
 El banco siguiente contiene **ocho compases originales en 4/4**. Alterna pulsos escritos en corcheas —densidad 2— y semicorcheas —densidad 4—; en la rejilla densa aparecen también silencios de semicorchea.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Unidad 2.Lección 2 — banco de cambios 2 ↔ 4 y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Lección 2 — banco de cambios 2 ↔ 4 y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120 BPM` contenido en el MusicXML es **sólo una referencia técnica de playback**. No es tempo recomendado ni puerta de competencia. Elige una velocidad donde puedas percibir el cambio de densidad sin tensarte.
 

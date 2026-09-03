@@ -31,7 +31,7 @@ No introducimos septillos como habilidad nueva. Sólo fijamos la distinción ter
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l1-seven-eight.musicxml" data-score-title="Unidad 10.Lección 1 — siete corcheas en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l1-seven-eight.musicxml" data-score-title="Lección 1 — siete corcheas en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Trabajo
 

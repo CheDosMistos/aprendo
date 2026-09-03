@@ -27,7 +27,7 @@ Recupera una sola línea conocida de Síncopa I. Haz el intento antes de habilit
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Unidad 4.Lección 1 — recuperación de Síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Lección 1 — recuperación de Síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Comprueba únicamente:
 
@@ -43,7 +43,7 @@ Si esto colapsa de forma global, reduce longitud o externaliza subdivisión. Si 
 
 La partitura nueva mantiene 4/4 y vocabulario conocido. La novedad está en que el ataque débil no aparece siempre en el mismo punto: encontrarás relaciones de corchea y semicorchea antes de una duración que atraviesa una posición fuerte. El `120` del MusicXML es sólo referencia técnica del playback.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="Unidad 4.Lección 1 — síncopa II" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="Lección 1 — síncopa II" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Paso A — decodifica antes de tocar
 

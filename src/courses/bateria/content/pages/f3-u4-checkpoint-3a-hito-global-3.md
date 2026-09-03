@@ -36,7 +36,7 @@ La familia E/E’ es **material nuevo**, no practicado en Lecciones 1–4. Las c
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
 <div data-hito-read-only>
-  <div data-notation-score data-score-src="/bateria/notation/f3/u4/f3-u4-cp-read-e.musicxml" data-score-title="Unidad 4.evaluación — lectura nueva E" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+  <div data-notation-score data-score-src="/bateria/notation/f3/u4/f3-u4-cp-read-e.musicxml" data-score-title="Evaluación — lectura nueva E" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 </div>
 
 Antes de tocar:
@@ -83,7 +83,7 @@ Ahora aparece E’: una versión auditiva relacionada con la lectura E. Mantiene
 
 Primero escucha toda la fuente. Los botones por compás son una ayuda que se desbloquea después de la primera escucha completa.
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="1011010010110101" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Solución E’: el compás 1 coincide con la lectura E. En el compás 2 aparece un ataque adicional en la cuarta posición de corchea; el resto de la estructura se conserva. La tarea no era adivinar que habría un cambio, sino escuchar, preservar una primera hipótesis y escribir qué ocurrió." data-answer-score-src="/bateria/notation/f3/u4/f3-u4-cp-heard-e-prime.musicxml" data-answer-score-title="Unidad 4.evaluación — solución auditiva E’"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="1011010010110101" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Solución E’: el compás 1 coincide con la lectura E. En el compás 2 aparece un ataque adicional en la cuarta posición de corchea; el resto de la estructura se conserva. La tarea no era adivinar que habría un cambio, sino escuchar, preservar una primera hipótesis y escribir qué ocurrió." data-answer-score-src="/bateria/notation/f3/u4/f3-u4-cp-heard-e-prime.musicxml" data-answer-score-title="Evaluación — solución auditiva E’"></div>
 
 Antes de revelar, responde:
 

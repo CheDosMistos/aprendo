@@ -19,7 +19,7 @@ published: true
 
 Sostener un bloque más largo con el groove conocido, conservando backbeat, forma y eficiencia física.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="Unidad 3.Lección 3 — CORE para continuidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="Lección 3 — CORE para continuidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Ventana punk, no caricatura
 

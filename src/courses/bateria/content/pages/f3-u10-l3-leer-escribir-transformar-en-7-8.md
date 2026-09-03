@@ -23,7 +23,7 @@ Leer, escribir y transformar material sencillo sin perder el 7/8.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l3-read-transform.musicxml" data-score-title="Unidad 10.Lección 3 — A, A’ y retorno en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l3-read-transform.musicxml" data-score-title="Lección 3 — A, A’ y retorno en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 A’ contiene una variación local. La operación desarrollo motívico ya es conocida; la novedad es conservar siete corcheas y el retorno al inicio del ciclo.
 

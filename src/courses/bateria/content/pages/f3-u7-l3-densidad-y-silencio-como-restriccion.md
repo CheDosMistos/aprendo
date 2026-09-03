@@ -23,7 +23,7 @@ Convertir **densidad y espacio** en decisiones observables durante una improvisa
 
 La partitura toca sólo referencias en los tiempos 1 y 3. **No es una solución de improvisación**: sirve para visualizar un 4/4 espacioso.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l3-density-grid.musicxml" data-score-title="Unidad 7.Lección 3 — marco de densidad y silencio" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l3-density-grid.musicxml" data-score-title="Lección 3 — marco de densidad y silencio" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Silencio musical ≠ bloqueo
 

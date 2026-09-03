@@ -25,7 +25,7 @@ En esta unidad, **motivo** es una idea rítmica breve que podemos reconocer y vo
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-title="Unidad 1.Lección 4 — A y A′" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-title="Lección 4 — A y A′" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
 
 Los dos compases comparten 4/4, rejilla y casi todos los ataques.
 
@@ -76,6 +76,6 @@ Llegarán con mayor profundidad en Unidades 5–7.
 
 Crea una segunda A′ cambiando otra variable, pero vuelve siempre a A entre versiones.
 
-## MÍNIMO PARA EL Evaluación
+## MÍNIMO PARA AVANZAR
 
 Puedes repetir A con estabilidad suficiente, crear una A′ mínima y explicar con precisión qué permaneció y qué cambió.

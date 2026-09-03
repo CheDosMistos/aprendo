@@ -25,7 +25,7 @@ Un motivo no necesita ser complicado ni “originalísimo”. Para esta lección
 
 Cada compás de la siguiente partitura es un motivo independiente. No forman una frase de tres compases.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l1-motivos-modelo.musicxml" data-score-title="Unidad 5.Lección 1 — tres motivos modelo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l1-motivos-modelo.musicxml" data-score-title="Lección 1 — tres motivos modelo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Escúchalos y tócalos por separado. Describe **una característica concreta** de cada uno que te ayude a recordarlo: por ejemplo, dónde aparecen silencios, cómo se agrupan los ataques o cómo termina.
 

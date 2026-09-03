@@ -25,7 +25,7 @@ La tarea de oído está deliberadamente simplificada. Los estímulos establecen 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-title="Unidad 7.Lección 4 — transferencia 6/8, 9/8 y 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-source-label="MusicXML — fuente de la transferencia 6/8–9/8–12/8"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-title="Lección 4 — transferencia 6/8, 9/8 y 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-source-label="MusicXML — fuente de la transferencia 6/8–9/8–12/8"></div>
 
 Antes de habilitar audio:
 

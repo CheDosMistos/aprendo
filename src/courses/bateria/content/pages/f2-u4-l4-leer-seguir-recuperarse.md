@@ -36,7 +36,7 @@ El `<sound tempo="120"/>` es referencia técnica del reproductor, **no un BPM de
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-title="Unidad 4.Lección 4 — lectura nueva y recuperación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-title="Lección 4 — lectura nueva y recuperación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ## 2. Primera toma: leer y continuar — 5–6 min
 

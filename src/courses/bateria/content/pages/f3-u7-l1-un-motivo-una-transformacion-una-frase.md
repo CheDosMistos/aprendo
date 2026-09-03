@@ -27,7 +27,7 @@ La restricción existe para hacer visible composición de fills y secciones, no 
 
 El primer compás es A. El segundo muestra una variante relacionada que puedes tratar como vocabulario inicial.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l1-motif-transform.musicxml" data-score-title="Unidad 7.Lección 1 — motivo y transformación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l1-motif-transform.musicxml" data-score-title="Lección 1 — motivo y transformación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 No tienes que reproducir esos dos compases en orden durante toda la improvisación. Son **vocabulario de partida**.
 

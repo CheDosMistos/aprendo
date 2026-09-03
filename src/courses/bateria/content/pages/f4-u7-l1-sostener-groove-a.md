@@ -21,7 +21,7 @@ Sostener durante cuatro compases el patrón de cuatro extremidades ya conocido, 
 
 ## Material conocido: Groove A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 7.Lección 1 — Groove A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Lección 1 — Groove A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 - ride: corcheas;
 - caja: 2 y 4;

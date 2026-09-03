@@ -25,7 +25,7 @@ Los cuatro compases ejemplifican:
 
 `A → A’ → B → A`
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l2-form-skeleton.musicxml" data-score-title="Unidad 8.Lección 2 — microforma de referencia" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l2-form-skeleton.musicxml" data-score-title="Lección 2 — microforma de referencia" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Es un **ejemplo analítico original**, no una plantilla universal. Tu pieza puede tener 1, 2, 3 o 4 compases si cumple su función.
 

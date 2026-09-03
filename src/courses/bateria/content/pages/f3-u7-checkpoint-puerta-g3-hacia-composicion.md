@@ -29,7 +29,7 @@ No necesitas una improvisación abierta, larga ni “original excepcionalmente�
 
 Este motivo no apareció en Lecciones 1–5.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-cp-prompt.musicxml" data-score-title="Unidad 7.evaluación — prompt nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-cp-prompt.musicxml" data-score-title="Evaluación — prompt nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Puedes usarlo como A o crear un motivo propio de dificultad equivalente.
 

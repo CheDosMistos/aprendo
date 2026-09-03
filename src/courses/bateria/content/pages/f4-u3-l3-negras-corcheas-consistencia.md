@@ -21,7 +21,7 @@ Repetir golpes simples de bombo dentro de **negras y corcheas conocidas** sin co
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — PULSO DE BOMBO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l3-kick-pulse.musicxml" data-score-title="Unidad 3.Lección 3 — Negras y corcheas de bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l3-kick-pulse.musicxml" data-score-title="Lección 3 — Negras y corcheas de bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura contiene dos compases originales de 4/4:
 
