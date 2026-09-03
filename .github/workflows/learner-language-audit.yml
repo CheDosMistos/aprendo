@@ -5,7 +5,7 @@ on:
     branches:
       - chore/learner-facing-language-f1-f7
     paths:
-      - scripts/finalize-f4-learner-language.mjs
+      - scripts/finalize-f7-learner-language.mjs
 
 permissions:
   contents: write
@@ -22,8 +22,8 @@ jobs:
         with:
           node-version-file: .nvmrc
 
-      - name: Repair remaining learner-facing artifacts
-        run: node scripts/finalize-f4-learner-language.mjs
+      - name: Repair final F7 learner-facing wording
+        run: node scripts/finalize-f7-learner-language.mjs
 
       - name: Enforce learner-facing language
         run: node scripts/audit-bateria-learner-language.mjs --enforce
@@ -31,11 +31,11 @@ jobs:
       - name: Commit repaired content
         run: |
           if git diff --quiet; then
-            echo "No remaining semantic repairs."
+            echo "No remaining F7 wording repairs."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/courses/bateria/content/pages
-          git commit -m "Finish F4 learner-facing semantic cleanup"
+          git commit -m "Polish final F7 learner-facing wording"
           git push
