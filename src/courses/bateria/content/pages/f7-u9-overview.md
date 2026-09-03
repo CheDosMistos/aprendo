@@ -137,7 +137,7 @@ Nada de esto es requisito universal para cerrar Fase 7.
 
 El recurso principal de esta unidad es **el propio vocabulario construido en Unidades 1–8**.
 
-No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. La Biblioteca Maestra advierte expresamente que materiales como *Rhythmic Horizons* no deben etiquetarse como integración progresiva y experimental sin verificar el contenido concreto. Por tanto, esta unidad usa material original del curso y remite a recursos externos sólo cuando una lección futura tenga una correspondencia verificada.
+No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. Materiales como *Rhythmic Horizons* sólo deben recomendarse cuando su contenido concreto corresponda a la tarea. Esta unidad usa material original del curso y remite a recursos externos únicamente cuando exista una correspondencia verificada.
 
 ## Práctica estándar de 25–30 min
 

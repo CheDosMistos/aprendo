@@ -137,7 +137,7 @@ El nivel avanzado **no es requisito para continuar**.
 
 ## Recursos
 
-La Biblioteca Maestra relaciona polirritmia con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.
+Como recursos de ampliación para polirritmia pueden consultarse Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. Esta unidad no reproduce ejercicios de esos métodos.
 
 La base documental del curso incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción polirritmia/polimetría.
 

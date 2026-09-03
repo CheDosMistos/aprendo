@@ -30,7 +30,7 @@ La prueba no consiste en tocar más rápido ni en añadir más notas.
 ## Qué reutilizamos
 
 - configuración y escucha segura de Unidad 1;
-- adaptación/orquestación adaptación técnica entre superficies y kit/orquestación de rudimentos de Unidad 2/Unidad 8;
+- adaptación y orquestación de material conocido de Unidad 2/Unidad 8;
 - bombo de Unidad 3;
 - hi-hat de pie de Unidad 4;
 - Groove A y coordinación básica de cuatro extremidades de Unidad 5/Unidad 6;
