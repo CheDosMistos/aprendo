@@ -29,21 +29,21 @@ El curso establece:
 
 La pregunta central es:
 
-> **¿PUEDO OÍR, SENTIR Y EJECUTAR DOS PERIODICIDADES DIFERENTES A LA VEZ SIN QUE UNA DESTRUYA A LA OTRA?**
+> **¿PUEDO OÍR, SENTIR Y EJECUTAR DOS PERIODICIDADES DIFERENTES A LA VEZ SIN QUE UNA ALTERE A LA OTRA?**
 
 ## Definición operativa para polirritmia
 
-En esta unidad llamaremos **polirritmia** a la coexistencia simultánea de dos capas periódicas que distribuyen cantidades diferentes de ataques regulares dentro de un **ciclo temporal común**.
+En esta unidad llamaremos **polirritmia** a la coexistencia simultánea de dos capas periódicas que distribuyen cantidades diferentes de golpes regulares dentro de un **ciclo temporal común**.
 
 Ejemplo prototípico:
 
-- una capa reparte **3** ataques equidistantes;
-- otra reparte **2** ataques equidistantes;
+- una capa reparte **3** golpes equidistantes;
+- otra reparte **2** golpes equidistantes;
 - ambas comienzan juntas;
 - ambas completan su relación en el mismo ciclo temporal;
-- durante el interior del ciclo, sus ataques no coinciden todos.
+- durante el interior del ciclo, sus notas no coinciden todas.
 
-La literatura reciente ha usado terminología parcialmente inconsistente. La base documental del curso recomienda separar polirritmia y polimetría; además, `2:3` y `3:4` son relaciones muy estudiadas, pero **eso no demuestra una secuencia pedagógica universal**. El uso de `3:2` como puerta de esta unidad es una **DECISIÓN CURRICULAR RAZONADA** compatible con esa evidencia.
+La literatura reciente ha usado terminología parcialmente inconsistente. Para mantener una terminología consistente, el curso separa polirritmia y polimetría; además, `2:3` y `3:4` son relaciones muy estudiadas, pero **eso no demuestra una secuencia pedagógica universal**. El uso de `3:2` como puerta de esta unidad es una **DECISIÓN CURRICULAR RAZONADA** compatible con esa evidencia.
 
 ## La rejilla común
 
@@ -66,7 +66,7 @@ El curso requiere para polirritmia:
 - subdivisión disponible;
 - teoría de pulso/métrica suficiente para comprender la relación.
 
-Además conviene que el alumno pueda mantener una referencia estable durante una manipulación rítmica. ciclos que cruzan compases ayuda, pero **no es una dependencia dura de polirritmia** según el curso.
+Además conviene que el alumno pueda mantener una referencia estable durante una manipulación rítmica. El trabajo con ciclos que cruzan compases ayuda, pero **no es una dependencia dura de polirritmia** según el curso.
 
 ## Fronteras obligatorias
 
@@ -84,11 +84,11 @@ En ciclos que cruzan compases una periodicidad repetida cambiaba su alineación 
 
 ### Polirritmia ≠ polimetría
 
-En esta unidad las dos capas comparten un ciclo temporal explícito. **polimetría** estudiará capas métricas donde pueden coexistir organizaciones de barra diferentes y puntos de realineación más amplios.
+En esta unidad las dos capas comparten un ciclo temporal explícito. **Polimetría** estudiará capas métricas donde pueden coexistir organizaciones de barra diferentes y puntos de realineación más amplios.
 
 ### Polirritmia ≠ modulación métrica
 
-En esta unidad no reinterpretamos una subdivisión como nuevo tempo. **modulación métrica** estudiará cuándo una relación interna pasa a definir un nuevo pulso calculable.
+En esta unidad no reinterpretamos una subdivisión como nuevo tempo. **Modulación métrica** estudiará cuándo una relación interna pasa a definir un nuevo pulso calculable.
 
 ## Recorrido de la unidad
 
@@ -147,7 +147,7 @@ Esta unidad cumple su función cuando el alumno puede:
 
 1. explicar una relación `3:2` mediante su ciclo común;
 2. mantener las dos capas durante varios ciclos;
-3. cambiar la atención entre ambas sin destruirlas;
+3. cambiar la atención entre ambas sin alterarlas;
 4. ejecutar al menos una segunda relación sencilla o demostrar su construcción;
 5. leer una representación de dos capas;
 6. recuperar una capa perdida manteniendo la otra como referencia;
