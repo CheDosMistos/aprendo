@@ -43,7 +43,7 @@ Después:
 6. ante un error pequeño, intenta conservar o recuperar la continuidad;
 7. pulsa **Finalizar intento** antes de usar playback.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-Evaluación-a.musicxml" data-score-title="Unidad 1.evaluación — Muestra A de lectura nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-Evaluación-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-checkpoint-a.musicxml" data-score-title="Evaluación — Muestra A de lectura nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-checkpoint-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Registra **cuatro observaciones separadas**:
 
@@ -60,7 +60,7 @@ Recupera ahora una tarea conocida **sin practicarla inmediatamente antes**. Usa 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Unidad 1.Lección 2 — Muestra B de recuperación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Lección 2 — Muestra B de recuperación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una toma sin playback previo. Después habilita el audio sólo si necesitas comprobar lo ocurrido.
 
@@ -109,7 +109,7 @@ La lectura básica nueva está disponible y el problema, si existe, está **loca
 
 ### CONTINUAR + CORRECTIVO
 
-Existe una fragilidad concreta, pero Unidad 2 puede abrirse adaptando esa variable. Ejemplos: contar explícitamente durante silencios, bajar temporalmente densidad o simplificar sticking mientras figuras, silencios y compás sigue siendo legible.
+Existe una fragilidad concreta, pero Unidad 2 puede abrirse adaptando esa variable. Ejemplos: contar explícitamente durante silencios, bajar temporalmente densidad o simplificar sticking mientras la lectura de figuras, silencios y compás sigue siendo legible.
 
 ### REDUCIR NOVEDAD
 
@@ -143,10 +143,10 @@ No se exige:
 ## Cómo usar la evidencia sin sobreinterpretarla
 
 - **Muestra nueva:** después del primer intento deja de ser primera vista.
-- **Muestra recuperada:** informa de esa tarea y esas condiciones, no de toda figuras, silencios y compás por sí sola.
+- **Muestra recuperada:** informa de esa tarea y esas condiciones, no de toda tu capacidad de lectura por sí sola.
 - **Evidencia reciente y representativa:** puede reutilizarse; no hace falta repetir por obligación.
-- **Evidencia dudosa o contradictoria:** elicita una muestra corta antes de degradar una competencia estable.
-- **Una toma atípica:** diagnostica y, cuando tenga sentido, retesta antes de cambiar el mapa de progreso.
+- **Evidencia dudosa o contradictoria:** elicita una muestra corta antes de rebajar una competencia estable.
+- **Una toma atípica:** diagnostica y, cuando tenga sentido, retesta antes de cambiar el nivel registrado.
 - **Completar la evaluación:** no actualiza automáticamente pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras; la plataforma debe registrar la evidencia concreta y la decisión.
 
 ## Puente a Unidad 2
