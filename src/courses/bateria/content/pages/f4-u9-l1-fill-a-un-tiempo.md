@@ -25,7 +25,7 @@ La habilidad es:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE → FILL A → 1
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="40.U9.L1 — Fill A: un tiempo y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Unidad 9.Lección 1 — Fill A: un tiempo y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 El fill ocupa únicamente el tiempo 4:
 
@@ -33,7 +33,7 @@ El fill ocupa únicamente el tiempo 4:
 - `&`: tom agudo — L;
 - siguiente evento obligatorio: **tiempo 1 del compás siguiente**.
 
-Antes del fill, el groove conserva material ya conocido. Para no convertir H7 en una segunda novedad, la versión CORE no exige un ostinato continuo del pie izquierdo durante el fill.
+Antes del fill, el groove conserva material ya conocido. Para no convertir independencia avanzada en una segunda novedad, la versión CORE no exige un ostinato continuo del pie izquierdo durante el fill.
 
 ## Qué significa “dura un tiempo”
 
@@ -41,7 +41,7 @@ No significa “toca dos notas y para”. Significa que el fill ocupa exactament
 
 Cuenta en voz alta si hace falta:
 
-`1 & 2 & 3 & | 4 & | 1 & ...`
+`1 & 2 & 3 & | 4 & | 1 &...`
 
 El último `1` pertenece al groove siguiente, no al fill.
 

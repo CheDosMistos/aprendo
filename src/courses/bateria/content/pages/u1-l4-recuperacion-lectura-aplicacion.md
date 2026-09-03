@@ -8,7 +8,7 @@ slug: leccion-4-recuperacion-lectura-aplicacion
 kind: lesson
 order: 5
 title: Lección 4 — Recuperación, lectura y aplicación musical
-summary: Comprueba qué material de U1 reaparece sin calentamiento específico, lee una línea nueva y utiliza parte de lo aprendido de forma musical.
+summary: Comprueba qué material de esta unidad reaparece sin calentamiento específico, lee una línea nueva y utiliza parte de lo aprendido de forma musical.
 duration: 25–30 min
 competencies: [B1, B2, B3, B4, B5, C1, C2, D1, D6, E1, G1, G2, K4, K5]
 rudiments:
@@ -24,13 +24,13 @@ published: true
 
 ## Objetivo
 
-Comprobar qué material de U1 reaparece **sin calentamiento específico**, leer una línea nueva y utilizar parte de lo aprendido de forma musical.
+Comprobar qué material de esta unidad reaparece **sin calentamiento específico**, leer una línea nueva y utilizar parte de lo aprendido de forma musical.
 
 Esta lección no introduce rudimentos nuevos.
 
 ## 1. Recuperación en frío — unos 5 minutos
 
-Antes de repasar U1, elige dos rudimentos de esta unidad. Si quieres ampliar la prueba, añade un tercero diferente.
+Antes de repasar esta unidad, elige dos rudimentos de esta unidad. Si quieres ampliar la prueba, añade un tercero diferente.
 
 Sin practicarlos varias veces antes:
 
@@ -58,9 +58,9 @@ Que algo **necesite refuerzo** es una señal de revisión, no un nuevo nivel de 
 
 ## 3. Lectura nueva — unos 6 minutos
 
-La lectura integrada usa ahora **A7–A8**, que no han aparecido en el diagnóstico ni en la Lección 2. Así esta sección cumple realmente su función de lectura nueva sin introducir figuras nuevas.
+La lectura integrada usa ahora **adaptación técnica entre superficies y kit**, que no han aparecido en el diagnóstico ni en la Lección 2. Así esta sección cumple realmente su función de lectura nueva sin introducir figuras nuevas.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml" data-score-title="Lectura nueva — A7–A8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml" data-score-title="Lectura nueva — adaptación técnica entre superficies y kit" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible" data-score-first-sight="true"></div>
 
 Haz:
 

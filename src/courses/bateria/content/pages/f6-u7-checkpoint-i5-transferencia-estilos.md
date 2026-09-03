@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-7
 slug: checkpoint-6d-i5-transferencia-estilos
 kind: checkpoint
 order: 5
-title: "Checkpoint 6D — I5 MÍNIMO"
+title: "Evaluación — transferencia entre estilos MÍNIMO"
 summary: "Demuestra que puedes identificar un principio compartido entre estilos y transferir una idea de forma controlada sin confundir función con superficie."
 duration: 15–25 min
 competencies: [I5, I2, I1, F7, G2, G3, H5, H6, E5, C1, C2]
@@ -17,11 +17,11 @@ published: true
 
 ## Qué se intenta demostrar
 
-El criterio superior de I5 en **MÍNIMO PARA AVANZAR** es:
+El criterio superior de transferencia entre estilos en **MÍNIMO PARA AVANZAR** es:
 
 > **Identifica un principio compartido entre estilos.**
 
-U7 lo operacionaliza sin crear una rúbrica paralela:
+esta unidad lo operacionaliza sin crear una rúbrica paralela:
 
 > compara dos contextos, identifica una función o principio compartido, distingue al menos una diferencia de realización y demuestra una transferencia controlada explicando qué conserva y qué transforma.
 
@@ -62,7 +62,7 @@ Esta tarea comprueba que el resultado no depende sólo de memorizar la primera t
 
 Crea 8–16 compases propios combinando un elemento de A y otro de B con una función central declarada.
 
-Esta tarea explora el perfil avanzado de I5, pero **no es requisito para demostrar MÍNIMO**.
+Esta tarea explora el perfil avanzado de transferencia entre estilos, pero **no es requisito para demostrar MÍNIMO**.
 
 ## Dimensiones críticas observables
 
@@ -77,7 +77,7 @@ Compatible con `06_SISTEMA_PRACTICA_Y_EVALUACION`:
 
 No se promedian estas dimensiones como nota numérica.
 
-## MÍNIMO PARA AVANZAR — I5
+## MÍNIMO PARA AVANZAR — transferencia entre estilos
 
 Existe evidencia suficiente cuando:
 
@@ -108,27 +108,27 @@ El mapa superior fija:
 
 > **Combina lenguajes y crea híbridos con intención musical.**
 
-Esto requiere más amplitud, conocimiento contextual y capacidad de combinación deliberada. U7 puede abrir esa puerta, pero **no exige este nivel para continuar**.
+Esto requiere más amplitud, conocimiento contextual y capacidad de combinación deliberada. esta unidad puede abrir esa puerta, pero **no exige este nivel para continuar**.
 
 ## Decisión
 
 Usa el lenguaje aprobado:
 
-- **CONTINUAR** — I5 MÍNIMO está suficientemente demostrado;
+- **CONTINUAR** — transferencia entre estilos MÍNIMO está suficientemente demostrado;
 - **CONTINUAR + CORRECTIVO** — existe una fragilidad localizada, pero el principio compartido y la transferencia básica son observables;
 - **REDUCIR NOVEDAD** — el alumno todavía copia superficies sin poder explicar función/diferencia o pierde sistemáticamente la continuidad;
 - **DETENER CARGA** — sólo cuando corresponda por salud/carga según el sistema general.
 
 ## Fronteras de certificación
 
-Este checkpoint:
+Este Evaluación:
 
 - no certifica dominio completo de ningún estilo;
 - no convierte una grabación en definición de una tradición;
-- no evalúa recetas de microtiming: corresponde a U8;
-- no sustituye el proyecto sostenido de U10;
+- no evalúa recetas de microtiming: corresponde a Unidad 8;
+- no sustituye el proyecto sostenido de Unidad 10;
 - **no declara Hito 7**;
 - no abre el núcleo avanzado de Fase 7;
 - no usa BPM universal de aprobado.
 
-> **CHECKPOINT 6D = PRINCIPIO COMPARTIDO IDENTIFICADO + TRANSFERENCIA CONTROLADA Y EXPLICADA.**
+> **Evaluación = PRINCIPIO COMPARTIDO IDENTIFICADO + TRANSFERENCIA CONTROLADA Y EXPLICADA.**

@@ -8,16 +8,16 @@ slug: puerta-generalizacion-compuesta
 kind: checkpoint
 order: 5
 title: "Puerta de generalización compuesta"
-summary: "Checkpoint diagnóstico de U7: decide si D4/F2, C1/C2 y E5 inicial sostienen la generalización 6/8→9/8→12/8 entre lectura, pulso, subdivisión, escucha y explicación sin depender de contar ataques."
+summary: "Evaluación diagnóstico de esta unidad: decide si lectura de compás/métrica y terminología rítmica, pulso interno/subdivisión binaria y ternaria y grabación y comparación inicial sostienen la generalización 6/8→9/8→12/8 entre lectura, pulso, subdivisión, escucha y explicación sin depender de contar ataques."
 duration: 15–20 min
 competencies: [C1, C2, D4, E1, E2, E5, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este checkpoint no enseña una métrica nueva y **no convierte completar U7 en una promoción automática de competencias**. La inferencia es más concreta:
+Este Evaluación no enseña una métrica nueva y **no convierte completar esta unidad en una promoción automática de competencias**. La inferencia es más concreta:
 
-> **¿D4/F2 y C1/C2 permiten conservar el modelo compuesto `2×3 → 3×3 → 4×3`, y E5 inicial permite reconocer esa organización en estímulos controlados, sin reducir la decisión a cantidad de ataques, numerador o memoria de la lección?**
+> **¿lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten conservar el modelo compuesto `2×3 → 3×3 → 4×3`, y grabación y comparación inicial permite reconocer esa organización en estímulos controlados, sin reducir la decisión a cantidad de ataques, numerador o memoria de la lección?**
 
 La puerta usa dos muestras independientes:
 
@@ -30,7 +30,7 @@ La convergencia entre ambas es más informativa que acertar una sola tarea. Un B
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-checkpoint-generalizacion-compuesta.musicxml" data-score-title="20.U7.CP — puerta de generalización compuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-checkpoint-generalizacion-compuesta.musicxml" data-score-source-label="MusicXML — fuente de la muestra escrita del checkpoint"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-Evaluación-generalizacion-compuesta.musicxml" data-score-title="Unidad 7.evaluación — puerta de generalización compuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-Evaluación-generalizacion-compuesta.musicxml" data-score-source-label="MusicXML — fuente de la muestra escrita del Evaluación"></div>
 
 La muestra contiene tres compases reales:
 
@@ -61,10 +61,10 @@ Condiciones:
 
 Registra por separado:
 
-- **C1:** ¿mantienes 2, 3 y 4 pulsos principales según el compás?;
-- **C2:** ¿las tres subdivisiones internas siguen siendo aproximadamente iguales, también alrededor de silencios?;
-- **D4:** ¿lees cada compás dentro de su jerarquía o terminas siguiendo ataques aislados?;
-- **F2:** ¿puedes explicar por qué `6/8`, `9/8` y `12/8` comparten subdivisión compuesta pero no el mismo número de pulsos?;
+- **pulso interno:** ¿mantienes 2, 3 y 4 pulsos principales según el compás?;
+- **subdivisión binaria y ternaria:** ¿las tres subdivisiones internas siguen siendo aproximadamente iguales, también alrededor de silencios?;
+- **lectura de compás:** ¿lees cada compás dentro de su jerarquía o terminas siguiendo ataques aislados?;
+- **métrica y terminología rítmica:** ¿puedes explicar por qué `6/8`, `9/8` y `12/8` comparten subdivisión compuesta pero no el mismo número de pulsos?;
 - **CONTINUIDAD / RECUPERACIÓN:** ¿un fallo local arrastra el compás siguiente?;
 - **AYUDAS:** click, conteo, canto, marcas o reducción de tempo;
 - **VARIABLE LIMITANTE:** pulso, subdivisión, lectura, comprensión, memoria, ejecución o carga.
@@ -100,7 +100,7 @@ Los acentos pueden crear otra agrupación perceptiva dentro de un metro regular 
 
 Porque en 6/8, 9/8 y 12/8 prototípicos las tres corcheas son subdivisiones ordinarias del pulso compuesto. Un tuplet `3:2` expresa otra relación notacional dentro de un marco donde tres figuras ocupan el tiempo normal de dos.
 
-## 3. Muestra auditiva exclusiva — E5 inicial — 4–5 min
+## 3. Muestra auditiva exclusiva — grabación y comparación inicial — 4–5 min
 
 Cada estímulo es un `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO` generado mediante Web Audio. Escucha los cuatro pulsos de entrada, formula una hipótesis y **no reveles la respuesta hasta haber escrito**:
 
@@ -157,7 +157,7 @@ La finalidad es separar un posible problema de **representación** de uno de lec
 
 Dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente invalidan una muestra como evidencia limpia de competencia. Registra la condición y aplica `DETENER CARGA` cuando corresponda; **salud y capacidad curricular son decisiones distintas**.
 
-Si tempo, lectura, oído y ejecución colapsan a la vez, reduce una variable y obtiene una muestra interpretable. No uses una condición deliberadamente excesiva para concluir que «no sabes 9/8» o «no tienes E5».
+Si tempo, lectura, oído y ejecución colapsan a la vez, reduce una variable y obtiene una muestra interpretable. No uses una condición deliberadamente excesiva para concluir que «no sabes 9/8» o «no tienes grabación y comparación».
 
 ## 6. Decisión — 2–3 min
 
@@ -167,21 +167,21 @@ Aplica:
 
 ### CONTINUAR
 
-La lectura conserva `2×3`, `3×3` y `4×3` a una condición razonable; los silencios no destruyen sistemáticamente el pulso; la explicación diferencia simple/compuesto, agrupación y tuplet; y la muestra auditiva produce un patrón predominantemente coherente de clasificación antes de revelar respuestas. Tiene sentido abrir U8.
+La lectura conserva `2×3`, `3×3` y `4×3` a una condición razonable; los silencios no destruyen sistemáticamente el pulso; la explicación diferencia simple/compuesto, agrupación y tuplet; y la muestra auditiva produce un patrón predominantemente coherente de clasificación antes de revelar respuestas. Tiene sentido abrir Unidad 8.
 
 ### CONTINUAR + CORRECTIVO
 
-La generalización está disponible, pero queda una fragilidad localizada: por ejemplo 12/8 pierde continuidad, 9/8 necesita conteo explícito, A/B requiere una repetición adicional, un silencio desplaza el pulso o la explicación conceptual todavía depende demasiado del numerador. Abre U8 manteniendo un correctivo breve sobre **una variable concreta**.
+La generalización está disponible, pero queda una fragilidad localizada: por ejemplo 12/8 pierde continuidad, 9/8 necesita conteo explícito, A/B requiere una repetición adicional, un silencio desplaza el pulso o la explicación conceptual todavía depende demasiado del numerador. Abre Unidad 8 manteniendo un correctivo breve sobre **una variable concreta**.
 
 ### REDUCIR NOVEDAD
 
-Se confunden repetidamente `2×3`, `3×3` y `4×3`; la lectura deja de conservar la jerarquía al cambiar de compás; simple y compuesto se clasifican por reglas superficiales; o la escucha no permite localizar si el problema es pulso, subdivisión o conteo. Reduce una variable y obtiene otra muestra breve antes de introducir la novedad central de U8.
+Se confunden repetidamente `2×3`, `3×3` y `4×3`; la lectura deja de conservar la jerarquía al cambiar de compás; simple y compuesto se clasifican por reglas superficiales; o la escucha no permite localizar si el problema es pulso, subdivisión o conteo. Reduce una variable y obtiene otra muestra breve antes de introducir la novedad central de Unidad 8.
 
 ### DETENER CARGA
 
 Una señal de salud o fatiga aconseja parar o invalida la muestra. Reduce o detén la carga según el sistema general sin convertirlo en un juicio musical.
 
-## MÍNIMO PARA ABRIR U8
+## MÍNIMO PARA ABRIR Unidad 8
 
 En condiciones razonables y con ayudas registradas cuando hagan falta, la evidencia conjunta debería mostrar que:
 
@@ -203,33 +203,33 @@ No se exige:
 - acertar los cuatro estímulos a la primera;
 - un BPM fijo, universal o alto;
 - reconocimiento métrico general en repertorio ambiguo;
-- declarar E5 globalmente `FUNCIONAL`;
-- primera vista formal D5 — U9;
-- sextillos u ornamentación escrita — **son la novedad de U8, no un requisito de esta puerta**;
-- click reducido, half-time o gaps — U10;
+- declarar grabación y comparación globalmente `FUNCIONAL`;
+- primera vista formal Unidad 9;
+- sextillos u ornamentación escrita — **son la novedad de Unidad 8, no un requisito de esta puerta**;
+- click reducido, half-time o gaps — Unidad 10;
 - shuffle/jazz como objetivo estilístico;
 - kit o coordinación de cuatro extremidades;
 - polirritmia, polimetría o modulación métrica;
-- que C1, C2, D4, E1, E2, E5, F2 o cualquier otra competencia cambie automáticamente de nivel por completar la página.
+- que pulso interno, subdivisión binaria y ternaria, lectura de compás, reconocimiento de pulso y subdivisión, imitación rítmica, grabación y comparación, métrica y terminología rítmica o cualquier otra competencia cambie automáticamente de nivel por completar la página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA PUERTA
 
 La evidencia es funcional **para esta puerta** cuando la jerarquía compuesta se conserva entre lectura, ejecución, explicación y los estímulos auditivos controlados, y cuando un error puede localizarse en una variable concreta en lugar de colapsar en «no entiendo el compás».
 
-Eso no equivale a declarar D4, F2, E5 ni ninguna competencia globalmente `FUNCIONAL`.
+Eso no equivale a declarar lectura de compás, métrica y terminología rítmica, grabación y comparación ni ninguna competencia globalmente `FUNCIONAL`.
 
 ## Cómo interpretar discrepancias
 
-- **lees bien pero A/B se confunde:** el límite es principalmente auditivo/perceptivo en esta condición; mantén E5 como inicial y añade un correctivo;
-- **oyes ×3 pero pierdes silencios al tocar:** revisa C2/continuidad antes de atribuirlo a E5;
+- **lees bien pero A/B se confunde:** el límite es principalmente auditivo/perceptivo en esta condición; mantén grabación y comparación como inicial y añade un correctivo;
+- **oyes ×3 pero pierdes silencios al tocar:** revisa subdivisión binaria y ternaria/continuidad antes de atribuirlo a grabación y comparación;
 - **9/8 funciona y 12/8 se degrada:** reduce longitud o tempo; puede ser continuidad y no comprensión métrica;
-- **aciertas por contar figuras pero no puedes explicar el pulso:** la evidencia de D4/F2 sigue incompleta;
+- **aciertas por contar figuras pero no puedes explicar el pulso:** la evidencia de lectura de compás/métrica y terminología rítmica sigue incompleta;
 - **llamas tresillo a toda división ternaria:** revisa la distinción entre compás compuesto y tuplet;
 - **un patrón de acentos cambia mentalmente el compás:** vuelve a `AGRUPACIÓN / REAGRUPACIÓN ≠ CAMBIO DE COMPÁS`;
 - **una toma contradice varias evidencias recientes:** obtiene otra muestra breve antes de cambiar el mapa de progreso.
 
-Completar este checkpoint **no actualiza automáticamente** ninguna competencia.
+Completar este Evaluación **no actualiza automáticamente** ninguna competencia.
 
-## Puente a U8
+## Puente a Unidad 8
 
-Si la decisión es `CONTINUAR` o `CONTINUAR + CORRECTIVO`, U8 puede introducir su novedad central: **sextillos y ornamentación escrita**, manteniendo como soporte la jerarquía métrica y la precisión de subdivisión construidas hasta aquí. Esta puerta no enseña todavía ese vocabulario.
+Si la decisión es `CONTINUAR` o `CONTINUAR + CORRECTIVO`, Unidad 8 puede introducir su novedad central: **sextillos y ornamentación escrita**, manteniendo como soporte la jerarquía métrica y la precisión de subdivisión construidas hasta aquí. Esta puerta no enseña todavía ese vocabulario.

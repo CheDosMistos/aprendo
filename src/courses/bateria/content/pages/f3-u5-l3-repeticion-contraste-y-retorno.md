@@ -27,7 +27,7 @@ Es un **andamiaje de esta tarea**, no una forma musical universal.
 
 ## Modelo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l3-aaba.musicxml" data-score-title="30.U5.L3 — A → A → B → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l3-aaba.musicxml" data-score-title="Unidad 5.Lección 3 — A → A → B → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 En el modelo, los compases 1, 2 y 4 son A. El compás 3 es B.
 
@@ -40,7 +40,7 @@ Escucha primero la frase completa y después contesta:
 
 ## 1. Establece A · 5–6 min
 
-Usa tu motivo de L1 o crea uno nuevo, pero fija una versión clara antes de continuar.
+Usa tu motivo de Lección 1 o crea uno nuevo, pero fija una versión clara antes de continuar.
 
 Toca:
 
@@ -91,7 +91,7 @@ No borres la primera versión para producir retrospectivamente una ejecución �
 
 ## Variante A → A’ → B → A
 
-Si L2 fue sólida, puedes sustituir la segunda repetición por una relación A’. Hazlo sólo como **discusión perceptiva de identidad**. No conviertas todavía la modificación en un catálogo de transformaciones: eso pertenece a U6.
+Si Lección 2 fue sólida, puedes sustituir la segunda repetición por una relación A’. Hazlo sólo como **discusión perceptiva de identidad**. No conviertas todavía la modificación en un catálogo de transformaciones: eso pertenece a Unidad 6.
 
 ## MÍNIMO PARA AVANZAR
 

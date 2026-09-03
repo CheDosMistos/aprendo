@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-L2 y L3 añadieron notas de adorno antes de una principal. L4 presenta otra lógica escrita:
+Lección 2 y Lección 3 añadieron notas de adorno antes de una principal. Lección 4 presenta otra lógica escrita:
 
 > **UNA MARCA DE ROLL/TREMOLO MODIFICA CÓMO SE REPITE UNA DURACIÓN; NO AÑADE POR SÍ SOLA NUEVOS PULSOS AL COMPÁS.**
 
@@ -59,7 +59,7 @@ La secuencia métrica es:
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-title="20.U8.L4 — línea base frente a roll escrito" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-source-label="MusicXML — fuente del ejercicio roll escrito"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-title="Unidad 8.Lección 4 — línea base frente a roll escrito" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l4-linea-base-vs-roll-escrito.musicxml" data-score-source-label="MusicXML — fuente del ejercicio roll escrito"></div>
 
 Antes de habilitar audio:
 
@@ -77,7 +77,7 @@ Cuatro negras. Úsalas para fijar los cuatro pulsos.
 
 La lectura debe permitirte saber **dónde empieza y dónde termina la zona repetida antes de tocarla**.
 
-## 4. Mecánica B5: continuidad con salida clara — 5–6 min
+## 4. Mecánica drags: continuidad con salida clara — 5–6 min
 
 No persigas máxima densidad. Empieza con dobles o strokes controlados que puedas distribuir uniformemente dentro de los dos pulsos de la blanca.
 
@@ -121,7 +121,7 @@ La pregunta es:
 
 **¿puedes aumentar la densidad interna sin modificar la duración externa?**
 
-Esto conecta B5 con C2.
+Esto conecta drags con subdivisión binaria y ternaria.
 
 ## 7. Escritura y transferencia — 2–3 min
 
@@ -159,7 +159,7 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA PASAR AL CHECKPOINT DE U8
+## MÍNIMO PARA PASAR AL Evaluación DE esta unidad
 
 En condición cómoda:
 
@@ -176,9 +176,9 @@ No se exige:
 
 - dominar los 15 Roll Rudiments PAS;
 - una densidad o BPM universal;
-- primera vista formal D5 — U9;
-- gaps — U10;
-- declarar B5, B7 o D3 globalmente `FUNCIONAL`.
+- primera vista formal Unidad 9;
+- gaps — Unidad 10;
+- declarar drags, aplicación musical de rudimentos o tuplets y ornamentación globalmente `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 

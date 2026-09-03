@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-U9 convierte la ventana temprana de “cinco” en **5/4 funcional básico**. El objetivo no es memorizar un truco de conteo: es conservar un marco de cinco negras mientras lees, escribes, escuchas y creas.
+esta unidad convierte la ventana temprana de “cinco” en **5/4 funcional básico**. El objetivo no es memorizar un truco de conteo: es conservar un marco de cinco negras mientras lees, escribes, escuchas y creas.
 
 > **5/4 ≠ quintillo ≠ agrupación de cinco notas.**
 
@@ -42,7 +42,7 @@ Y una segunda frontera es igual de importante:
 
 ## NO SE CERTIFICA TODAVÍA
 
-U9 no declara J3 globalmente funcional porque todavía falta consolidar otra métrica impar, especialmente 7/8 en U10. Tampoco introduce quintillos funcionales, polirritmia, polimetría ni modulación métrica.
+esta unidad no declara métricas impares y mixtas globalmente funcional porque todavía falta consolidar otra métrica impar, especialmente 7/8 en Unidad 10. Tampoco introduce quintillos funcionales, polirritmia, polimetría ni modulación métrica.
 
 ## Secuencia
 

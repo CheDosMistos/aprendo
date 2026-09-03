@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: integrar, no complicar
 
-U10 no añade una técnica nueva. Reúne lo que ya quedó disponible en U1–U9.
+esta unidad no añade una técnica nueva. Reúne lo que ya quedó disponible en Unidad 1–Unidad 9.
 
 El Hito 5 aprobado es literal:
 
@@ -29,43 +29,43 @@ La prueba no consiste en tocar más rápido ni en añadir más notas.
 
 ## Qué reutilizamos
 
-- configuración y escucha segura de U1;
-- adaptación/orquestación A8/B8 de U2/U8;
-- bombo H2 de U3;
-- hi-hat de pie H3 de U4;
-- Groove A y coordinación H4 de U5/U6;
-- Variación B de U7;
-- Fill A y retorno al 1 de U9.
+- configuración y escucha segura de Unidad 1;
+- adaptación/orquestación adaptación técnica entre superficies y kit/orquestación de rudimentos de Unidad 2/Unidad 8;
+- bombo bombo de Unidad 3;
+- hi-hat de pie hi-hat de pie de Unidad 4;
+- Groove A y coordinación coordinación básica de cuatro extremidades de Unidad 5/Unidad 6;
+- Variación B de Unidad 7;
+- Fill A y retorno al 1 de Unidad 9.
 
 ## Arquitectura
 
-### L1 — Recuperar la cadena, no reaprenderla
+### Lección 1 — Recuperar la cadena, no reaprenderla
 Recuperar Groove A, Variación B y Fill A; diagnosticar sólo el elemento que hoy necesite correctivo.
 
-### L2 — Groove → variación → groove
+### Lección 2 — Groove → variación → groove
 Confirmar que una pequeña variación sigue conservando pulso, subdivisión y forma.
 
-### L3 — Groove → fill → 1 → groove
+### Lección 3 — Groove → fill → 1 → groove
 Confirmar que el fill entra, dura y aterriza sin convertir la transición en exhibición.
 
-### L4 — Ensayo completo, grabación y diagnóstico
+### Lección 4 — Ensayo completo, grabación y diagnóstico
 Tocar la forma integrada `A → VARIACIÓN → A → FILL → A`, revisar una toma y corregir 1–2 prioridades.
 
-### Checkpoint — HITO 5
+### Evaluación — HITO 5
 Demostrar el Hito superior con una versión accesible y explicar qué material previo fue transferido al kit.
 
 ## Qué NO exige el Hito
 
 - velocidad alta;
 - cero errores;
-- independencia H7;
+- independencia independencia avanzada;
 - doble pedal;
 - repertorio completo;
 - 5/4 o 7/8;
 - afinación profesional;
 - estilo avanzado.
 
-Cerrar el Hito tampoco convierte automáticamente H4/H5/H6 en **COMPETENTE/FUNCIONAL**.
+Cerrar el Hito tampoco convierte automáticamente coordinación básica de cuatro extremidades/groove y variaciones/fills en **COMPETENTE/FUNCIONAL**.
 
 ## Qué se evalúa
 

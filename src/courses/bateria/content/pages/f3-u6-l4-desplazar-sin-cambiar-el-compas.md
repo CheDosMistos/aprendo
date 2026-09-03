@@ -23,7 +23,7 @@ Mover una idea respecto al marco temporal **sin mover el marco**.
 
 El primer compás presenta A. El segundo conserva la misma secuencia relativa de ataques, desplazada una corchea hacia la derecha dentro de otro compás de 4/4.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l4-displacement.musicxml" data-score-title="30.U6.L4 — origen y desplazamiento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l4-displacement.musicxml" data-score-title="Unidad 6.Lección 4 — origen y desplazamiento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Ambos compases son **4/4**.
 
@@ -58,11 +58,11 @@ La última A verifica que no has redefinido accidentalmente el uno del compás.
 
 ## Desplazamiento ≠ reagrupación
 
-En L5 cambiaremos cómo una corriente se agrupa o se acentúa. Aquí la operación principal es **trasladar la posición de la idea** respecto al mismo 4/4.
+En Lección 5 cambiaremos cómo una corriente se agrupa o se acentúa. Aquí la operación principal es **trasladar la posición de la idea** respecto al mismo 4/4.
 
-## Ventana J2
+## Ventana desplazamientos de acento y motivo
 
-Esta tarea prepara **J2**, pero **no certifica J2 funcional por sí sola**. El foco curricular de U6 sigue siendo G2.
+Esta tarea prepara **desplazamientos de acento y motivo**, pero **no certifica desplazamientos de acento y motivo funcional por sí sola**. El foco curricular de esta unidad sigue siendo desarrollo motívico.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -71,4 +71,4 @@ Esta tarea prepara **J2**, pero **no certifica J2 funcional por sí sola**. El f
 - escribes origen y versión desplazada;
 - regresas al origen;
 - distingues desplazamiento de cambio de compás;
-- entiendes que esta lección abre una ventana J2, no una certificación completa.
+- entiendes que esta lección abre una ventana desplazamientos de acento y motivo, no una certificación completa.

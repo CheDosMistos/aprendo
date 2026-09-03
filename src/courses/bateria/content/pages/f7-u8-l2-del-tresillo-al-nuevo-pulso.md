@@ -29,7 +29,7 @@ con:
 
 La prioridad no es la cifra 180. Es mantener **idéntica la duración puente** durante toda la transición.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u8/f7-u8-triplet-eighth-to-eighth.musicxml" data-score-title="70.U8 — Corchea de tresillo = corchea nueva · 120 → 180" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u8/f7-u8-triplet-eighth-to-eighth.musicxml" data-score-title="Unidad 8 — Corchea de tresillo = corchea nueva · 120 → 180" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué muestra la partitura
 
@@ -86,7 +86,7 @@ Mantén esas partes exactamente iguales y deja de reforzar la negra antigua.
 
 Acentúa una unidad sí y una no:
 
-`FUERTE débil | FUERTE débil | ...`
+`FUERTE débil | FUERTE débil |...`
 
 Cada acento es ahora la negra nueva.
 
@@ -232,7 +232,7 @@ Debe permanecer homogénea.
 
 El antes y el después deben sonar claramente distintos.
 
-Ésa es la paradoja útil de J8:
+Ésa es la paradoja útil de modulación métrica:
 
 > **algo no cambia para que otra cosa pueda cambiar exactamente.**
 

@@ -27,7 +27,7 @@ No necesitas estar seguro de todo para empezar a transcribir.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-transcription data-bpm="72" data-subdivision="2" data-low-pattern="1000100010001000" data-mid-pattern="0010001000100010" data-high-pattern="0100010001000100" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Fuente A · rejilla de corcheas. Grave: 1000100010001000. Media: 0010001000100010. Aguda: 0100010001000100. Esqueleto compuesto: 1110111011101110. 1 = ataque; 0 = silencio. La nomenclatura grave/media/aguda es funcional para esta fuente sintética." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l1-source-a.musicxml" data-answer-score-title="30.U3.L1 — esqueleto de la fuente A"></div>
+<div data-rhythm-transcription data-bpm="72" data-subdivision="2" data-low-pattern="1000100010001000" data-mid-pattern="0010001000100010" data-high-pattern="0100010001000100" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Fuente A · rejilla de corcheas. Grave: 1000100010001000. Media: 0010001000100010. Aguda: 0100010001000100. Esqueleto compuesto: 1110111011101110. 1 = ataque; 0 = silencio. La nomenclatura grave/media/aguda es funcional para esta fuente sintética." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l1-source-a.musicxml" data-answer-score-title="Unidad 3.Lección 1 — esqueleto de la fuente A"></div>
 
 Los chunks permanecen bloqueados hasta la primera escucha completa.
 
@@ -73,7 +73,7 @@ Si la duda está localizada en un compás, puedes usar su chunk. El contador reg
 
 Toca en pad **lo que realmente escribiste**. No intentes reproducir las tres capas simultáneas.
 
-Si tu partitura no puede tocarse con claridad, eso es información sobre D6, no necesariamente sobre el oído.
+Si tu partitura no puede tocarse con claridad, eso es información sobre primera vista rítmica, no necesariamente sobre el oído.
 
 ## 5. Revela y compara · 3–4 min
 

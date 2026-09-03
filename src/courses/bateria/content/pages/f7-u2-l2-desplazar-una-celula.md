@@ -23,7 +23,7 @@ La condición clave es esta:
 
 > **SI CAMBIA LA FORMA INTERNA DE LA CÉLULA, YA NO ESTÁS OBSERVANDO SÓLO UN DESPLAZAMIENTO.**
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u2/f7-u2-motif-displacement.musicxml" data-score-title="70.U2 — Una célula en cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u2/f7-u2-motif-displacement.musicxml" data-score-title="Unidad 2 — Una célula en cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## La célula de referencia
 
@@ -79,13 +79,13 @@ El resto del compás queda libre para que puedas observar el inicio y el final d
 
 ### Transformación
 
-Si pasa a `X - X X`, has cambiado el orden de ataques y silencio. Eso puede ser una transformación válida de G2, pero ya no es una prueba pura de desplazamiento.
+Si pasa a `X - X X`, has cambiado el orden de ataques y silencio. Eso puede ser una transformación válida de desarrollo motívico, pero ya no es una prueba pura de desplazamiento.
 
-## Frontera con J5
+## Frontera con ciclos que cruzan compases
 
 En este ejercicio cada versión está **contenida dentro del compás**.
 
-Más adelante, J5 mantendrá células cuya repetición no encaja limpiamente con la longitud de la barra, de modo que su alineación cambiará de un compás al siguiente. No hacemos eso todavía.
+Más adelante, ciclos que cruzan compases mantendrá células cuya repetición no encaja limpiamente con la longitud de la barra, de modo que su alineación cambiará de un compás al siguiente. No hacemos eso todavía.
 
 ## Pad y kit
 

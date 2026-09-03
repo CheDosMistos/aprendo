@@ -8,24 +8,24 @@ slug: puerta-de-sincopa-aplicada-y-continuidad
 kind: checkpoint
 order: 5
 title: "Puerta de síncopa aplicada y continuidad"
-summary: "Checkpoint diagnóstico de U4: lectura sincopada nueva en 4/4, acento sin alterar el ritmo y recuperación del marco tras un error localizado."
+summary: "Evaluación diagnóstico de esta unidad: lectura sincopada nueva en 4/4, acento sin alterar el ritmo y recuperación del marco tras un error localizado."
 duration: 10–15 min
 competencies: [C1, C2, C3, D2, D6, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este checkpoint no pregunta si U4 está «perfecta». La inferencia es más concreta:
+Este Evaluación no pregunta si esta unidad está «perfecta». La inferencia es más concreta:
 
-> **¿D2 y C1–C3 están suficientemente disponibles para abrir U5 sin que síncopa variada, un acento controlado o un error localizado destruyan el marco temporal?**
+> **¿síncopa y pulso, subdivisión y cambios de subdivisión están suficientemente disponibles para abrir Unidad 5 sin que síncopa variada, un acento controlado o un error localizado destruyan el marco temporal?**
 
-La evidencia principal es una lectura breve **nueva y exclusiva**. B7 puede aportar evidencia secundaria ya obtenida en L3, pero no manda la decisión. La primera vista sistemática seguirá siendo objetivo central de U9.
+La evidencia principal es una lectura breve **nueva y exclusiva**. aplicación musical de rudimentos puede aportar evidencia secundaria ya obtenida en Lección 3, pero no manda la decisión. La primera vista sistemática seguirá siendo objetivo central de Unidad 9.
 
 ## 1. Evidencia principal: lectura nueva + continuidad — 4–5 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-checkpoint-a.musicxml" data-score-title="20.U4.CP — muestra exclusiva de síncopa aplicada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-checkpoint-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-Evaluación-a.musicxml" data-score-title="Unidad 4.evaluación — muestra exclusiva de síncopa aplicada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-Evaluación-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Pulsa **Empezar**, haz una inspección breve de compás, subdivisión, silencios, ligaduras y acentos, y realiza **una sola primera toma**. No uses playback antes de terminar.
 
@@ -68,18 +68,18 @@ Si al acentuar adelantas o retrasas el golpe, hay un **error temporal además de
 
 No hace falta reproducir de memoria una definición exacta; sí debes poder distinguir las dos variables al analizar tu toma.
 
-## 3. Evidencia B7 secundaria — 1–2 min
+## 3. Evidencia aplicación musical de rudimentos secundaria — 1–2 min
 
-B7 **no es la inferencia principal de este checkpoint**.
+aplicación musical de rudimentos **no es la inferencia principal de este Evaluación**.
 
-Usa la evidencia reciente de L3 si es suficientemente representativa. Sólo si necesitas comprobarla de nuevo, toma **un fragmento ya decodificado** y aplica una textura de manos ya conocida, sin cambiar ataques ni duraciones.
+Usa la evidencia reciente de Lección 3 si es suficientemente representativa. Sólo si necesitas comprobarla de nuevo, toma **un fragmento ya decodificado** y aplica una textura de manos ya conocida, sin cambiar ataques ni duraciones.
 
 La pregunta secundaria es:
 
 - ¿la aplicación conserva timing, lectura y relajación?;
 - ¿o la textura empieza a sustituir la comprensión de la línea?
 
-Si B7 se degrada pero la lectura/continuidad principal está disponible, eso puede justificar un `CONTINUAR + CORRECTIVO`. No se exige B7 funcional global para abrir U5.
+Si aplicación musical de rudimentos se degrada pero la lectura/continuidad principal está disponible, eso puede justificar un `CONTINUAR + CORRECTIVO`. No se exige aplicación musical de rudimentos funcional global para abrir Unidad 5.
 
 No se presenta aquí ninguna nueva partitura PAS ni se reconstruye notación oficial de memoria. La referencia normativa PAS sigue reservada a los rudimentos auténticos cuando corresponda.
 
@@ -103,7 +103,7 @@ La lectura sincopada nueva es suficientemente interpretable, el marco se mantien
 
 ### CONTINUAR + CORRECTIVO
 
-El centro de la inferencia está disponible, pero queda una limitación localizada —por ejemplo una posición sincopada, una ligadura, control de acento, recuperación o aplicación B7— que conviene conservar en recuperación espaciada.
+El centro de la inferencia está disponible, pero queda una limitación localizada —por ejemplo una posición sincopada, una ligadura, control de acento, recuperación o aplicación que conviene conservar en recuperación espaciada.
 
 ### REDUCIR NOVEDAD
 
@@ -113,7 +113,7 @@ La muestra mezcla demasiadas dificultades para saber qué está fallando o el ma
 
 La salud/carga invalida la tarea o aconseja parar. No conviertas esta decisión en una valoración de capacidad musical.
 
-## MÍNIMO PARA ABRIR U5
+## MÍNIMO PARA ABRIR Unidad 5
 
 En una condición razonable y con ayudas registradas cuando hagan falta:
 
@@ -130,8 +130,8 @@ No se exige:
 - cero errores;
 - un BPM fijo o alto;
 - lectura perfecta;
-- B7 funcional global;
-- D5 funcional o primera vista avanzada;
+- aplicación musical de rudimentos funcional global;
+- forma y lectura de chart funcional o primera vista avanzada;
 - tresillos ni cambios 2↔3↔4;
 - 6/8;
 - métrica impar, polirritmia, polimetría o modulación métrica.
@@ -142,8 +142,8 @@ La evidencia es funcional cuando puedes leer el material nuevo básico sin conve
 
 ## AVANZADO EN LA PUERTA
 
-Como ampliación, sobre material **ya revelado**, cambia la ubicación de uno o dos acentos entre ataques existentes o aplica una textura B7 conocida y comprueba que el mapa temporal permanece intacto. Esta ampliación no es requisito para continuar.
+Como ampliación, sobre material **ya revelado**, cambia la ubicación de uno o dos acentos entre ataques existentes o aplica una textura aplicación musical de rudimentos conocida y comprueba que el mapa temporal permanece intacto. Esta ampliación no es requisito para continuar.
 
-Completar este checkpoint **no actualiza automáticamente** C1, C2, C3, D2, D6, F1, F2 ni ninguna otra competencia a `FUNCIONAL` o `DOMINADO`. La decisión depende de la evidencia registrada, no de haber abierto o terminado la página.
+Completar este Evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, síncopa, primera vista rítmica, teoría básica del pulso y las figuras, métrica y terminología rítmica ni ninguna otra competencia a `FUNCIONAL` o `DOMINADO`. La decisión depende de la evidencia registrada, no de haber abierto o terminado la página.
 
-La siguiente unidad reorganizará la subdivisión del pulso. **Este checkpoint no introduce ni evalúa todavía ese contenido.**
+La siguiente unidad reorganizará la subdivisión del pulso. **Este Evaluación no introduce ni evalúa todavía ese contenido.**

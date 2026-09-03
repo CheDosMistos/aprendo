@@ -7,8 +7,8 @@ unitSlug: fase-6-unidad-11
 slug: proyecto-autonomo-r4
 kind: unit
 order: 0
-title: "60.U11 — Proyecto autónomo R4: diagnosticar, planificar, aprender y revisar"
-summary: "Convierte K8 en un proceso sostenido y documentado: el alumno selecciona un proyecto adecuado, diseña parte del procedimiento, usa evidencia para cambiar el plan y demuestra transferencia sin confundir autonomía con ausencia de guía."
+title: "Proyecto autónomo Proyecto autónomo: diagnosticar, planificar, aprender y revisar"
+summary: "Convierte autonomía en un proceso sostenido y documentado: el alumno selecciona un proyecto adecuado, diseña parte del procedimiento, usa evidencia para cambiar el plan y demuestra transferencia sin confundir autonomía con ausencia de guía."
 duration: 5 lecciones + checkpoint; proyecto multisesión flexible
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-U11 desarrolla la función superior aprobada para **R4 — Proyecto autónomo**.
+esta unidad desarrolla la función superior aprobada para **Proyecto autónomo — Proyecto autónomo**.
 
 La autonomía aquí no significa practicar sin ayuda ni inventar un método personal desde cero. Significa asumir una parte creciente de las decisiones dentro de un marco con límites, recursos legales y criterios de éxito claros.
 
@@ -27,17 +27,17 @@ La cadena obligatoria es:
 
 La unidad sólo cumple su función si esa cadena puede reconstruirse después con evidencia.
 
-## Qué cambia respecto a U9 y U10
+## Qué cambia respecto a Unidad 9 y Unidad 10
 
-### U9 — microciclo de autonomía aplicada
+### Unidad 9 — microciclo de autonomía aplicada
 
-U9 entrenó una decisión pequeña: ante un cuello de botella, comparar estrategias, elegir una, comprobar el resultado y decidir si mantenerla o cambiarla.
+Unidad 9 entrenó una decisión pequeña: ante un cuello de botella, comparar estrategias, elegir una, comprobar el resultado y decidir si mantenerla o cambiarla.
 
-### U10 — integración sostenida dentro de la interpretación
+### Unidad 10 — integración sostenida dentro de la interpretación
 
-U10 encadenó chart, continuidad, respuesta, adaptación y recuperación durante varias pasadas completas.
+Unidad 10 encadenó chart, continuidad, respuesta, adaptación y recuperación durante varias pasadas completas.
 
-### U11 — propiedad parcial del proyecto
+### esta unidad — propiedad parcial del proyecto
 
 Ahora el curso deja de fijar automáticamente:
 
@@ -50,14 +50,14 @@ Ahora el curso deja de fijar automáticamente:
 
 El alumno debe tomar esas decisiones y poder justificar **por qué eran razonables con la información disponible en ese momento**.
 
-> **U11 NO EVALÚA SI ADIVINASTE EL PLAN PERFECTO. EVALÚA SI SABES CAMBIAR UN PLAN CUANDO LA EVIDENCIA LO CONTRADICE.**
+> **esta unidad NO EVALÚA SI ADIVINASTE EL PLAN PERFECTO. EVALÚA SI SABES CAMBIAR UN PLAN CUANDO LA EVIDENCIA LO CONTRADICE.**
 
-## Contrato superior de U11
+## Contrato superior de esta unidad
 
 La fuente de Fase 6 fija para esta unidad:
 
-- **novedad dominante:** K8 como proceso observable;
-- **competencias:** K1–K8, E6, F7, I3/I4 y otras según proyecto;
+- **novedad dominante:** autonomía como proceso observable;
+- **competencias:** las capacidades de práctica y autonomía, transcripción real, análisis musical, formas y canciones/repertorio y otras según proyecto;
 - selección de objetivo dentro de límites de dificultad y legalidad;
 - diagnóstico inicial;
 - plan propio de sesiones;
@@ -67,7 +67,7 @@ La fuente de Fase 6 fija para esta unidad:
 - grabaciones intermedias cuando aporten evidencia;
 - revisión del plan cuando la evidencia contradiga la estrategia inicial.
 
-U11 conserva ese contrato y no adelanta el cierre global de U12.
+esta unidad conserva ese contrato y no adelanta el cierre global de Unidad 12.
 
 ## Investigación que sustenta el diseño
 
@@ -91,18 +91,18 @@ Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.7
 
 ### ESTÁNDAR DEL PROYECTO
 
-U11 no vuelve a investigar desde cero práctica bloqueada, interleaving, feedback, grabación, recuperación o transferencia. Esas herramientas ya están documentadas en el curso. La novedad es **seleccionarlas y revisarlas dentro de un proyecto sostenido**.
+esta unidad no vuelve a investigar desde cero práctica bloqueada, interleaving, feedback, grabación, recuperación o transferencia. Esas herramientas ya están documentadas en el curso. La novedad es **seleccionarlas y revisarlas dentro de un proyecto sostenido**.
 
 ## Material del proyecto
 
 El proyecto puede utilizar:
 
-1. una pieza ya trabajada en U9 o U10 que todavía contenga un problema significativo;
+1. una pieza ya trabajada en Unidad 9 o Unidad 10 que todavía contenga un problema significativo;
 2. una pieza diferente de dificultad adecuada con acceso legal;
 3. material original del curso;
 4. un estudio propio claramente identificado.
 
-**No se recomienda iniciar otro proyecto enorme sólo para “hacer U11”.** La fuente superior permite reutilizar material entre R1–R4 si las tareas siguen siendo distinguibles.
+**No se recomienda iniciar otro proyecto enorme sólo para “hacer esta unidad”.** el diseño del curso permite reutilizar material entre los cuatro carriles del portafolio si las tareas siguen siendo distinguibles.
 
 Si se usa repertorio comercial:
 
@@ -111,7 +111,7 @@ Si se usa repertorio comercial:
 - una simplificación se declara como simplificación;
 - una transcripción propia distingue certeza, hipótesis y aproximación cuando corresponda.
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Contrato R4»
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Contrato Proyecto autónomo»
 
 Antes de practicar, completa:
 
@@ -132,7 +132,7 @@ Este contrato no es una predicción de todo el proyecto. Es la **primera hipóte
 
 ## Modos de trabajo disponibles
 
-U11 conserva los modos aprobados:
+esta unidad conserva los modos aprobados:
 
 `ADQUISICIÓN ↔ ESTABILIZACIÓN → RECUPERACIÓN → TRANSFERENCIA → MANTENIMIENTO`
 
@@ -156,32 +156,32 @@ No se exige documentar cada repetición ni convertir la práctica en burocracia.
 
 ## Estructura
 
-1. **L1 — Elegir un proyecto acotado y construir la línea base.**
-2. **L2 — Diagnosticar: problema, hipótesis, recursos y primer plan.**
-3. **L3 — Ejecutar un plan propio sin convertirlo en una obligación rígida.**
-4. **L4 — Auditoría intermedia: cambiar de estrategia cuando la evidencia lo exige.**
-5. **L5 — Transferir, cerrar y defender las decisiones tomadas.**
-6. **Checkpoint 6H — Proyecto autónomo R4: K8 funcional sostenido.**
+1. **Lección 1 — Elegir un proyecto acotado y construir la línea base.**
+2. **Lección 2 — Diagnosticar: problema, hipótesis, recursos y primer plan.**
+3. **Lección 3 — Ejecutar un plan propio sin convertirlo en una obligación rígida.**
+4. **Lección 4 — Auditoría intermedia: cambiar de estrategia cuando la evidencia lo exige.**
+5. **Lección 5 — Transferir, cerrar y defender las decisiones tomadas.**
+6. **Evaluación — Proyecto autónomo Proyecto autónomo: autonomía funcional sostenido.**
 
 ## Reconciliación de nomenclatura
 
-La arquitectura superior redactada antes del desarrollo detallado asociaba el nombre «Checkpoint 6F» a U11. Durante la implementación posterior, U9 y U10 ya publicaron respectivamente **6F** y **6G**. Para no renombrar retroactivamente checkpoints publicados, U11 continúa como **6H**.
+La arquitectura superior redactada antes del desarrollo detallado asociaba el nombre «Evaluación» a esta unidad. Durante la implementación posterior, Unidad 9 y Unidad 10 ya publicaron respectivamente **evaluación final** y **evaluación final**. Para no renombrar retroactivamente checkpoints publicados, esta unidad continúa como **evaluación final**.
 
-Esto modifica únicamente la etiqueta secuencial, **no la función curricular de U11**.
+Esto modifica únicamente la etiqueta secuencial, **no la función curricular de esta unidad**.
 
 ## Fronteras
 
-U11:
+esta unidad:
 
-- no repite U9 como otra colección de estrategias de práctica;
+- no repite Unidad 9 como otra colección de estrategias de práctica;
 - no exige diseñar un proyecto totalmente sin guía;
 - no premia mantener un plan que ya no explica los datos;
 - no considera más horas o más repeticiones como evidencia suficiente;
-- no exige una canción nueva si reutilizar material permite una mejor tarea R4;
+- no exige una canción nueva si reutilizar material permite una mejor tarea Proyecto autónomo;
 - no usa BPM, porcentajes o cero errores como criterio universal;
-- no exige K8 AVANZADO;
+- no exige autonomía AVANZADO;
 - no declara **Hito 7**;
-- no certifica por sí sola todo E6 + F7 acumulado;
+- no certifica por sí sola todo transcripción real + análisis musical acumulado;
 - no abre el núcleo rítmico avanzado de Fase 7.
 
-U12 conserva la revisión completa del portafolio R1–R4, retención, transferencia no idéntica, comparación U1-final y decisión formal sobre Hito 7.
+Unidad 12 conserva la revisión completa del portafolio los cuatro carriles del portafolio, retención, transferencia no idéntica, comparación Unidad 1-final y decisión formal sobre Hito 7.

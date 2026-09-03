@@ -7,7 +7,7 @@ unitSlug: fase-3-unidad-5
 slug: puerta-g1-hacia-transformacion
 kind: checkpoint
 order: 5
-title: "Checkpoint — Puerta G1 hacia transformación"
+title: "Evaluación — Puerta motivo hacia transformación"
 summary: "Demuestra que existe un motivo propio rastreable: A escrito y tocable, repetición, contraste, retorno, explicación de identidad y clasificación razonada de una variante nueva."
 duration: 20–30 min
 competencies: [G1, C1, D6, F3, D4, E3, E5, K2, K5, K6, K8]
@@ -15,15 +15,15 @@ rudiments: []
 published: true
 ---
 
-## Función del checkpoint
+## Función del Evaluación
 
-U6 sólo puede estudiar transformaciones si existe primero **algo reconocible que transformar**. Este checkpoint comprueba esa base G1.
+Unidad 6 sólo puede estudiar transformaciones si existe primero **algo reconocible que transformar**. Este Evaluación comprueba esa base motivo.
 
-No exige todavía desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambio de sticking ni ninguna otra transformación G2 concreta.
+No exige todavía desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambio de sticking ni ninguna otra transformación desarrollo motívico concreta.
 
 ## Regla crítica
 
-Tu material principal debe ser **nuevo para este checkpoint**. No reutilices exactamente A de L1–L4.
+Tu material principal debe ser **nuevo para este Evaluación**. No reutilices exactamente A de Lección 1–Lección 4.
 
 Conserva tu primera versión antes de revisar. La evidencia incluye la diferencia entre intención inicial, ejecución y revisión.
 
@@ -82,9 +82,9 @@ Graba una toma si puedes y conserva la primera antes de hacer una revisión.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-La siguiente partitura contiene dos compases: **C** y después **candidato X**. Este material no apareció en L1–L4.
+La siguiente partitura contiene dos compases: **C** y después **candidato X**. Este material no apareció en Lección 1–Lección 4.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-cp-clasificacion.musicxml" data-score-title="30.U5.CP — C y candidato X" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-cp-clasificacion.musicxml" data-score-title="Unidad 5.evaluación — C y candidato X" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Antes de abrir la referencia, clasifica X respecto a C:
 
@@ -102,7 +102,7 @@ Justifica:
 El diseño pretendido es **RELACIONADO**: C y X conservan los siete primeros lugares de la rejilla; X añade un ataque en la última corchea. La finalidad no es enseñar que “un ataque nuevo siempre significa A’”, sino comprobar que puedes localizar lo conservado y lo cambiado sin usar un porcentaje universal.
 </details>
 
-## Evidencias G1
+## Evidencias motivo
 
 Comprueba que dispones de:
 
@@ -115,7 +115,7 @@ Comprueba que dispones de:
 7. continuidad temporal suficiente;
 8. primera versión preservada antes de revisión.
 
-## MÍNIMO PARA ABRIR U6
+## MÍNIMO PARA ABRIR Unidad 6
 
 - A es reconocible y repetible;
 - puedes escribirlo y volver a tocarlo;
@@ -124,20 +124,20 @@ Comprueba que dispones de:
 - identificas al menos un rasgo de identidad;
 - clasificas C/X con una justificación interpretable;
 - el marco temporal permite entender la frase;
-- no necesitas todavía demostrar G2.
+- no necesitas todavía demostrar desarrollo motívico.
 
 ## DECISIÓN
 
-### CONTINUAR A U6
-G1 está disponible de forma suficiente y existe un motivo rastreable sobre el que aplicar transformaciones conscientes.
+### CONTINUAR A Unidad 6
+motivo está disponible de forma suficiente y existe un motivo rastreable sobre el que aplicar transformaciones conscientes.
 
 ### CONTINUAR + CORRECTIVO
 Una dimensión concreta —notación, memoria, continuidad o explicación— necesita apoyo, pero A sigue siendo reconocible y reutilizable.
 
 ### REDUCIR NOVEDAD
-No puedes todavía establecer una versión A suficientemente estable. Reduce longitud/densidad y repite la Puerta G1 antes de añadir operaciones G2.
+No puedes todavía establecer una versión A suficientemente estable. Reduce longitud/densidad y repite la Puerta motivo antes de añadir operaciones desarrollo motívico.
 
 ### DETENER CARGA
 Aparece una señal de salud/carga según el sistema `06`.
 
-**AVANZADO no es requisito para U6.** Esta puerta verifica identidad motívica básica, no creatividad excepcional ni dominio de transformaciones.
+**AVANZADO no es requisito para Unidad 6.** Esta puerta verifica identidad motívica básica, no creatividad excepcional ni dominio de transformaciones.

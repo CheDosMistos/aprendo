@@ -27,7 +27,7 @@ Una batería no existe aislada: su densidad y registro conviven con bajo, voz, g
 
 **EVIDENCIA CONTEXTUAL:** estudios de interacción musical muestran que dinámica y tempo pueden formar parte de objetivos negociados entre intérpretes. MacRitchie et al. (2018) lo estudiaron en dúos de piano; la transferencia a batería es una inferencia, no una receta.
 
-Por eso U6 formula preguntas, no reglas:
+Por eso esta unidad formula preguntas, no reglas:
 
 - ¿qué capa necesita estabilidad?;
 - ¿qué evento merece apoyo?;

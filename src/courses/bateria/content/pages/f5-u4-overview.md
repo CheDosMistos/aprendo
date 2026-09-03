@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: cambiar el feel manteniendo pulso y forma
 
-U4 introduce una familia nueva sin convertirla en una colección de patrones.
+esta unidad introduce una familia nueva sin convertirla en una colección de patrones.
 
 > **SHUFFLE ≠ “CORCHEAS ESCRITAS DE OTRA MANERA”.**
 
@@ -29,7 +29,7 @@ En 4/4 podemos mantener cuatro pulsos de negra y dividir cada pulso en **tres pa
 
 Esto no convierte 4/4 en 12/8. En **AMPLIACIÓN**, 12/8 se estudia como compás compuesto cuaternario: cuatro pulsos y tres corcheas por pulso.
 
-## Familia de U4
+## Familia de esta unidad
 
 ### CORE — blues / shuffle
 
@@ -41,7 +41,7 @@ Berklee describe los shuffles de entrada como habitualmente basados en un feel d
 
 ### AMPLIACIÓN — half-time shuffle
 
-Sólo aparece cuando el CORE es estable y la coordinación disponible permite explorarlo sin convertir U4 en una unidad de independencia avanzada.
+Sólo aparece cuando el CORE es estable y la coordinación disponible permite explorarlo sin convertir esta unidad en una unidad de independencia avanzada.
 
 ## Pieza B — ruta predominantemente auditiva
 
@@ -58,22 +58,20 @@ La notación de Pieza B es un **esqueleto formal original**, no una transcripci�
 
 ## Arquitectura
 
-### L1 — Pulso y rejilla ternaria
+### Lección 1 — Pulso y rejilla ternaria
 Construir la subdivisión ternaria y compararla con una rejilla binaria sin cambiar el pulso.
 
-### L2 — Shuffle CORE: feel, backbeat y balance
+### Lección 2 — Shuffle CORE: feel, backbeat y balance
 Aplicar una textura shuffle sencilla y controlar relación entre hi-hat, caja y bombo.
 
-### L3 — Pieza B: escuchar antes de mirar
+### Lección 3 — Pieza B: escuchar antes de mirar
 Aprender una forma original usando primero escucha, memoria breve y mapa formal.
 
-### L4 — Pieza B: forma, shuffle y recuperación
+### Lección 4 — Pieza B: forma, shuffle y recuperación
 Sostener una versión funcional de Pieza B y recuperar referencia después de un error local.
 
-## Salida de U4
+## Salida de esta unidad aporta evidencia hacia **blues y shuffle**, profundiza **groove y variaciones/cambios de subdivisión** y abre una ruta de repertorio dominada por **reconocimiento de pulso y subdivisión/grabación y comparación + forma y frase + formas y canciones**.
 
-U4 aporta evidencia hacia **I2**, profundiza **H5/C2–C3** y abre una ruta de repertorio dominada por **E1/E5 + F3 + I3**.
-
-No declara blues dominado, no certifica H5 COMPETENTE/FUNCIONAL global y no crea un checkpoint nuevo.
+No declara blues dominado, no certifica groove y variaciones COMPETENTE/FUNCIONAL global y no crea un Evaluación nuevo.
 
 **No existe BPM de aprobado.**

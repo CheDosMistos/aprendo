@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-L1 amplió la variedad de síncopa sin añadir otra capa. L2 conserva **exactamente la misma estructura temporal** y cambia una sola variable dominante: **qué ataques reciben acento**.
+Lección 1 amplió la variedad de síncopa sin añadir otra capa. Lección 2 conserva **exactamente la misma estructura temporal** y cambia una sola variable dominante: **qué ataques reciben acento**.
 
 > **CAMBIAR EL ACENTO NO CAMBIA EL RITMO.**
 
@@ -23,11 +23,11 @@ Un acento es énfasis relativo sobre un ataque que ya existe. No añade una nota
 
 ## 1. Recuperación de la línea base — 3 min
 
-Primero toca la línea de L1 sin intentar “hacerla musical” mediante acentos añadidos.
+Primero toca la línea de Lección 1 sin intentar “hacerla musical” mediante acentos añadidos.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="20.U4.L2 — línea base sin nueva capa" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-title="Unidad 4.Lección 2 — línea base sin nueva capa" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l1-sincopa-ii.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Comprueba:
 
@@ -44,7 +44,7 @@ Si necesitas volver a descifrar la línea completa, hazlo ahora. **No añadas el
 
 La siguiente partitura conserva el mismo orden de duraciones, silencios y ligaduras que la línea base. Sólo añade símbolos de acento a ataques seleccionados. El `120` del MusicXML sigue siendo referencia técnica de playback, no objetivo de práctica.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-title="20.U4.L2 — misma línea, acentos añadidos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-title="Unidad 4.Lección 2 — misma línea, acentos añadidos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l2-acentos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Paso A — separa dos mapas
 
@@ -65,7 +65,7 @@ En una célula corta:
 4. comprueba que los taps no desaparecen ni se convierten en silencios;
 5. cambia de mano líder si la célula lo permite sin modificar el ritmo.
 
-El objetivo inicial A5 es **contraste simple entre acento y nota no acentuada**, no una jerarquía dinámica fina.
+El objetivo inicial rebote controlado es **contraste simple entre acento y nota no acentuada**, no una jerarquía dinámica fina.
 
 ### Paso C — el acento puede caer en posición débil
 
@@ -117,7 +117,7 @@ Usa un compás ya comprendido.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-No añadas paradiddle, doubles ni otra textura de manos en esta transformación. Esa será la novedad de L3.
+No añadas paradiddle, doubles ni otra textura de manos en esta transformación. Esa será la novedad de Lección 3.
 
 ## 5. Registro — 2 min
 
@@ -139,11 +139,11 @@ Interpreta con:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-Completar la lección **no actualiza automáticamente** A5, D2 ni C1–C3. El BPM sólo describe una condición.
+Completar la lección **no actualiza automáticamente** rebote controlado, síncopa ni pulso, subdivisión y cambios de subdivisión. El BPM sólo describe una condición.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L3 cuando, en una línea ya decodificada y a intensidad cómoda:
+Puedes pasar a Lección 3 cuando, en una línea ya decodificada y a intensidad cómoda:
 
 - distingues ataque de acento;
 - mantienes exactamente el mapa temporal al añadir acentos;
@@ -152,7 +152,7 @@ Puedes pasar a L3 cuando, en una línea ya decodificada y a intensidad cómoda:
 - puedes clasificar por separado un fallo temporal y un fallo dinámico;
 - realizas una transformación de acentos sin modificar ataques/duraciones.
 
-No se exige cero errores, gran volumen, un BPM concreto, dinámica fina, B7 funcional ni retirar todas las ayudas.
+No se exige cero errores, gran volumen, un BPM concreto, dinámica fina, aplicación musical de rudimentos funcional ni retirar todas las ayudas.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
@@ -168,7 +168,7 @@ Como ampliación, crea tres mapas de acento sobre un mismo compás y grábate. C
 - **los taps desaparecen:** baja la intensidad global y conserva golpes bajos audibles/controlados;
 - **cada acento te hace perder la síncopa:** vuelve a tocar la línea sin acentos y añade uno solo;
 - **una mano acentúa mucho mejor:** alterna liderazgo con menor contraste y registra la asimetría sin forzar volumen;
-- **empiezas a pensar en un sticking memorizado:** vuelve al mapa temporal; L3 será quien introduzca textura B7;
+- **empiezas a pensar en un sticking memorizado:** vuelve al mapa temporal; Lección 3 será quien introduzca textura aplicación musical de rudimentos;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.
 
-La siguiente lección conservará otra vez la línea como autoridad y añadirá una textura de manos: **la línea manda: aplicación B7 sobre lectura conocida**.
+La siguiente lección conservará otra vez la línea como autoridad y añadirá una textura de manos: **la línea manda: aplicación aplicación musical de rudimentos sobre lectura conocida**.

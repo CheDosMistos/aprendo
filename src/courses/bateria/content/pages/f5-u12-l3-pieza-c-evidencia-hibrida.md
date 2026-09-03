@@ -83,7 +83,7 @@ Si aparece un error local:
 
 No reinicies salvo que la forma se haya perdido por completo y no puedas localizar una referencia segura.
 
-## 4. H8 sigue activo
+## 4. balance, sonido y orquestación sigue activo
 
 Escucha la grabación y responde:
 
@@ -94,7 +94,7 @@ Escucha la grabación y responde:
 
 Haz como máximo **un ajuste básico y reversible** si el sonido está limitando la lectura musical.
 
-No conviertas U12 en afinación, microfonía o mezcla profesional.
+No conviertas esta unidad en afinación, microfonía o mezcla profesional.
 
 ## 5. Correctivo localizado
 
@@ -124,15 +124,15 @@ La pregunta es:
 
 Si necesitas reconstruir parte del mapa, eso no invalida automáticamente la competencia. Registra cuánto apoyo fue necesario y si recuperaste la pieza funcionalmente.
 
-## 7. Relación con Checkpoint 5D
+## 7. Relación con Evaluación
 
-Checkpoint 5D ya certificó **I3 COMPETENTE/FUNCIONAL** cuando existía evidencia suficiente.
+Evaluación ya certificó **formas y canciones COMPETENTE/FUNCIONAL** cuando existía evidencia suficiente.
 
-U12 no vuelve a examinar I3 desde cero. Lo reutiliza dentro de una evidencia más amplia de Hito 6.
+esta unidad no vuelve a examinar formas y canciones desde cero. Lo reutiliza dentro de una evidencia más amplia de Hito 6.
 
 Por tanto:
 
-- una debilidad local no borra automáticamente 5D;
+- una debilidad local no borra automáticamente evaluación final;
 - una toma especialmente buena tampoco “sube” por sí sola el nivel;
 - interesa la estabilidad de la representación y su uso dentro de música completa.
 

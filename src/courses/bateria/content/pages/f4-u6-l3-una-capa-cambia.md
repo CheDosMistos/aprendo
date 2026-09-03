@@ -21,7 +21,7 @@ Coordinar un segundo patrón sencillo de cuatro extremidades cambiando **una sol
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — CUATRO EXTREMIDADES B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="40.U6.L3 — Cuatro extremidades B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="Unidad 6.Lección 3 — Cuatro extremidades B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Patrón B:
 
@@ -43,11 +43,11 @@ Respecto al Patrón A, **sólo cambia el pie izquierdo**. La rejilla, la caja, e
 
 Si B falla, no añadas otra variación. Diagnostica una capa.
 
-## Por qué esto sigue siendo H4
+## Por qué esto sigue siendo coordinación básica de cuatro extremidades
 
 A y B están completamente escritos y predeterminados. No mantienes un ostinato mientras inventas o transformas libremente otra voz.
 
-**U6 no certifica H7.**
+**esta unidad no certifica independencia avanzada.**
 
 ## Tempo
 

@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-U4 enseñó a **reconocer** motivos y relaciones dentro de una forma. U5 cambia el papel: ahora tienes que **crear una idea que pueda sobrevivir a la memoria, la repetición y el contraste**.
+Unidad 4 enseñó a **reconocer** motivos y relaciones dentro de una forma. esta unidad cambia el papel: ahora tienes que **crear una idea que pueda sobrevivir a la memoria, la repetición y el contraste**.
 
 `CREAR → TOCAR → ESCRIBIR → REPETIR → ESCUCHAR → COMPARAR → CONTRASTAR → RETORNAR → EXPLICAR`
 
@@ -42,28 +42,28 @@ La pregunta útil es:
 
 Si no puedes rastrear ninguna relación perceptible, el material puede ser perfectamente válido como idea nueva, pero no se llama automáticamente desarrollo del motivo anterior.
 
-## Frontera con U6
+## Frontera con Unidad 6
 
-U5 trabaja **G1 — motivo, repetición y contraste**. Puede mostrar A/A’ y una variación local pequeña para discutir identidad, pero **no sistematiza todavía** desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambios de sticking u otras operaciones de G2.
+esta unidad trabaja **motivo, repetición y contraste**. Puede mostrar A/A’ y una variación local pequeña para discutir identidad, pero **no sistematiza todavía** desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambios de sticking u otras operaciones de desarrollo motívico.
 
-Eso comienza en U6.
+Eso comienza en Unidad 6.
 
 ## Arquitectura
 
-### L1 — Crear un motivo que puedas reconocer
+### Lección 1 — Crear un motivo que puedas reconocer
 Estudias tres modelos breves y construyes un motivo propio que puedas tocar, escribir y recuperar.
 
-### L2 — Identidad: mismo, relacionado o nuevo
+### Lección 2 — Identidad: mismo, relacionado o nuevo
 Comparas A con dos candidatos y justificas la relación sin recurrir a porcentajes arbitrarios.
 
-### L3 — Repetición, contraste y retorno
+### Lección 3 — Repetición, contraste y retorno
 Usas `A → A → B → A` como andamiaje para construir una frase con identidad y arco simple.
 
-### L4 — Pregunta, respuesta y memoria motívica
+### Lección 4 — Pregunta, respuesta y memoria motívica
 Mantienes una pregunta A recuperable después de una respuesta y separas memoria, continuidad y relación musical.
 
-### Checkpoint — Puerta G1 hacia transformación
-Creas material propio nuevo, demuestras repetición/contraste/retorno y clasificas una variante externa antes de entrar en G2.
+### Evaluación — Puerta motivo hacia transformación
+Creas material propio nuevo, demuestras repetición/contraste/retorno y clasificas una variante externa antes de entrar en desarrollo motívico.
 
 ## Evaluación
 
@@ -83,4 +83,4 @@ La creatividad no se puntúa por rareza ni por cantidad de notas. Se observan po
 
 ## Regla de avance
 
-Para entrar en U6 no necesitas una obra compleja. Necesitas **un motivo rastreable** sobre el que una transformación consciente pueda operar.
+Para entrar en Unidad 6 no necesitas una obra compleja. Necesitas **un motivo rastreable** sobre el que una transformación consciente pueda operar.

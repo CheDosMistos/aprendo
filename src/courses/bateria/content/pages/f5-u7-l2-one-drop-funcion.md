@@ -31,7 +31,7 @@ Fuentes:
 
 ## Modelo pedagógico Aprendo
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u7/f5-u7-one-drop-steppers.musicxml" data-score-title="50.U7 — One-drop y steppers: contraste funcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u7/f5-u7-one-drop-steppers.musicxml" data-score-title="Unidad 7 — One-drop y steppers: contraste funcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Trabaja **sólo el compás A** al principio.
 
@@ -46,7 +46,7 @@ El modelo conserva una referencia sencilla de hi-hat y concentra bombo + caja en
 - bombo y caja deben sonar como una decisión conjunta, no como dos accidentes;
 - el hi-hat es una referencia didáctica simple: las articulaciones reales pueden variar mucho.
 
-## H7 contextual
+## independencia avanzada contextual
 
 Mantén la capa de referencia y cambia una sola cosa: durante cuatro compases, deja el bombo/caja en 3; durante cuatro, toca sólo la capa de referencia. Vuelve sin perder el compás.
 

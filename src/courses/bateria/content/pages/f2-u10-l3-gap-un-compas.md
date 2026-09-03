@@ -17,7 +17,7 @@ published: true
 
 El gap introduce una ausencia temporal completa de referencia externa durante un compás.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="20.U10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="Unidad 10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ## Protocolo
 
@@ -42,7 +42,7 @@ Un pequeño error recuperado aporta información distinta de un colapso completo
 
 ## Control de dificultad
 
-Si el gap destruye C1/C2:
+Si el gap destruye pulso interno/subdivisión binaria y ternaria:
 
 `GAP → HALF-TIME O CLICK COMPLETO → CORRECTIVO → RETEST`.
 
@@ -50,4 +50,4 @@ Eso no degrada automáticamente tu estado de competencia.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L4 cuando el gap produzca una muestra interpretable: estabilidad razonable o, si falla, una variable limitante localizada y repetible.
+Puedes pasar a Lección 4 cuando el gap produzca una muestra interpretable: estabilidad razonable o, si falla, una variable limitante localizada y repetible.

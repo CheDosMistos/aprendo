@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Observar el paso **E3 → E4** sin confundir dificultad auditiva con dificultad notacional.
+Observar el paso **dictado → relación entre oído y notación** sin confundir dificultad auditiva con dificultad notacional.
 
 Aquí hacemos **dictado rítmico breve diseñado para la tarea**, no transcripción de una batería real.
 
@@ -31,7 +31,7 @@ La recuperación sirve como evidencia separada; no es un requisito ritual para e
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="10100101" data-answer="Dictado A: un compás 4/4 en corcheas. Revela la partitura sólo después de escribir tu hipótesis." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-l2-dictado-a.musicxml" data-answer-score-title="30.U1.L2 — solución del dictado A"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="10100101" data-answer="Dictado A: un compás 4/4 en corcheas. Revela la partitura sólo después de escribir tu hipótesis." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-l2-dictado-a.musicxml" data-answer-score-title="Unidad 1.Lección 2 — solución del dictado A"></div>
 
 Proceso recomendado:
 
@@ -50,7 +50,7 @@ No hay un número universal de escuchas “correctas”. **Registra cuántas nec
 
 Misma métrica y misma rejilla; cambia la densidad. Así una sola variable auditiva aumenta mientras la notación sigue siendo familiar.
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11011010" data-answer="Dictado B: un compás 4/4 en corcheas con mayor densidad. Compara estructura, no sólo un porcentaje de aciertos." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-l2-dictado-b.musicxml" data-answer-score-title="30.U1.L2 — solución del dictado B"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11011010" data-answer="Dictado B: un compás 4/4 en corcheas con mayor densidad. Compara estructura, no sólo un porcentaje de aciertos." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-l2-dictado-b.musicxml" data-answer-score-title="Unidad 1.Lección 2 — solución del dictado B"></div>
 
 ## 4. Comparación localizada · 4–5 min
 

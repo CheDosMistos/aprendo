@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-8
 slug: checkpoint-7h
 kind: checkpoint
 order: 5
-title: "Checkpoint 7H — J8 funcional: modulación métrica calculable y audible"
-summary: "Evalúa J8 sin reducirlo a BPM: definición, duración puente, cálculo, ejecución, lectura/escritura, dirección inversa, recuperación y aplicación musical."
+title: "Evaluación — modulación métrica funcional: modulación métrica calculable y audible"
+summary: "Evalúa modulación métrica sin reducirlo a BPM: definición, duración puente, cálculo, ejecución, lectura/escritura, dirección inversa, recuperación y aplicación musical."
 duration: 25–35 min
 competencies: [J8, J4, C1, C2, C3, C4, D3, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Este checkpoint comprueba el nivel de J8 sin confundirlo con:
+Este Evaluación comprueba el nivel de modulación métrica sin confundirlo con:
 
 - tocar dos tempos distintos;
 - cambiar subdivisiones;
@@ -58,11 +58,11 @@ Tu explicación debe incluir:
 - un pulso nuevo;
 - una relación calculable entre el tempo anterior y el posterior.
 
-Después distingue J8 de:
+Después distingue modulación métrica de:
 
-- J4 — cambio de subdivisión con pulso estable;
-- J6 — polirritmia simultánea;
-- J7 — polimetría simultánea;
+- cambio de subdivisión con pulso estable;
+- polirritmia simultánea;
+- polimetría simultánea;
 - cambio arbitrario de BPM.
 
 ## Prueba 2 — cálculo 3:2
@@ -114,7 +114,7 @@ Secuencia:
 
 ## Prueba 4 — cálculo y ejecución 5:4
 
-**AMPLIACIÓN para MÍNIMO; parte del nivel funcional si ya trabajaste L3.**
+**AMPLIACIÓN para MÍNIMO; parte del nivel funcional si ya trabajaste Lección 3.**
 
 Igualdad:
 
@@ -153,7 +153,7 @@ No vale “volver al tempo que recuerdo”.
 
 ## Prueba 6 — lectura
 
-Lee una de las partituras de U8 y señala:
+Lee una de las partituras de esta unidad y señala:
 
 - tempo inicial;
 - subdivisión que genera el puente;
@@ -214,7 +214,7 @@ No se considera recuperación acelerar o frenar hasta encontrar aproximadamente 
 
 ## MÍNIMO PARA AVANZAR
 
-Cumples el mínimo de J8 si:
+Cumples el mínimo de modulación métrica si:
 
 - comprendes que una subdivisión/duración puede convertirse en nueva unidad de pulso;
 - distingues modulación de cambio arbitrario de tempo y de simple cambio de subdivisión;
@@ -227,7 +227,7 @@ No necesitas dominar varias modulaciones ni una cifra determinada de BPM.
 
 ## COMPETENTE / FUNCIONAL
 
-J8 es funcional si, de manera reproducible:
+modulación métrica es funcional si, de manera reproducible:
 
 - ejecutas al menos una modulación sencilla con relación calculable y audible;
 - mantienes la duración puente sin deformarla;
@@ -249,14 +249,14 @@ Nivel opcional en esta unidad:
 - integras modulaciones con orquestación y repertorio;
 - diseñas estructuras donde varias relaciones cumplen una función formal comprensible.
 
-No se exige para U9.
+No se exige para Unidad 9.
 
 # Fallos que invalidan una demostración
 
 - saltar al BPM final sin conservar puente;
 - cambiar la velocidad de la subdivisión justo antes de la frontera;
 - presentar un tuplet aislado como modulación;
-- presentar `3:2` simultáneo como si fuera automáticamente J8;
+- presentar `3:2` simultáneo como si fuera automáticamente modulación métrica;
 - tocar dos BPM correctos pero sin poder explicar su relación;
 - compensar un error acelerando/frenando;
 - usar una fórmula numérica sin poder decir qué duraciones relaciona.
@@ -265,15 +265,18 @@ No se exige para U9.
 
 Anota después:
 
+Si utilizas escala observacional, conserva la del curso: `0 — no demostrado / 1 — emergente / 2 — estable en esta condición / 3 — flexible`. No la conviertas en una nota global.
+
+
 - relación trabajada;
 - tempo inicial;
 - tempo calculado;
-- claridad del puente `1–5`;
-- claridad del nuevo pulso `1–5`;
-- relajación `1–5`;
-- lectura/escritura `1–5`;
-- recuperación `1–5`;
-- función musical `1–5`;
+- claridad del puente `0–3`;
+- claridad del nuevo pulso `0–3`;
+- relajación `0–3`;
+- lectura/escritura `0–3`;
+- recuperación `0–3`;
+- función musical `0–3`;
 - principal error observado;
 - siguiente microobjetivo.
 
@@ -281,8 +284,8 @@ No conviertas la tabla en una nota global única.
 
 # Hito local
 
-La frase de cierre de U8 es:
+La frase de cierre de esta unidad es:
 
 > **PUEDO CAMBIAR DE PULSO CONSERVANDO UNA DURACIÓN QUE EXPLICA EXACTAMENTE EL NUEVO TEMPO.**
 
-Con este nivel, J8 queda disponible para la integración de J9.
+Con este nivel, modulación métrica queda disponible para la integración de integración progresiva y experimental.

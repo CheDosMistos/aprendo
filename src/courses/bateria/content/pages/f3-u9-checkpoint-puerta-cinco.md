@@ -7,8 +7,8 @@ unitSlug: fase-3-unidad-9
 slug: puerta-cinco
 kind: checkpoint
 order: 6
-title: "Checkpoint — Puerta Cinco: 5/4 funcional básico"
-summary: "Demuestra 5/4 funcional básico con material nuevo sin declarar todavía J3 globalmente funcional."
+title: "Evaluación — Puerta Cinco: 5/4 funcional básico"
+summary: "Demuestra 5/4 funcional básico con material nuevo sin declarar todavía métricas impares y mixtas globalmente funcional."
 duration: 25–30 min
 competencies: [J3, C1, C2, F2, D4, D6, E4, E5, G3, G4, K2, K5, K6, K8]
 rudiments: []
@@ -17,13 +17,13 @@ published: true
 
 ## Qué demuestra esta puerta
 
-La salida de U9 es **5/4 funcional básico; J3 continúa EN DESARROLLO** hasta incorporar otras métricas, especialmente 7/8 en U10.
+La salida de esta unidad es **5/4 funcional básico; métricas impares y mixtas continúa EN DESARROLLO** hasta incorporar otras métricas, especialmente 7/8 en Unidad 10.
 
 ## Material nuevo de lectura
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-cp-reading.musicxml" data-score-title="30.U9.CP — lectura nueva de 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-cp-reading.musicxml" data-score-title="Unidad 9.evaluación — lectura nueva de 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 No estudies esta partitura antes de la prueba de lectura.
 
@@ -53,4 +53,4 @@ Lees, escribes e improvisas/compones material sencillo en 5/4 con ayudas decreci
 
 ## AVANZADO / AMPLIACIÓN
 
-Frases largas, agrupaciones menos previsibles, cambios simples o comparación más autónoma con 5/8. **AVANZADO no es requisito para U10.**
+Frases largas, agrupaciones menos previsibles, cambios simples o comparación más autónoma con 5/8. **AVANZADO no es requisito para Unidad 10.**

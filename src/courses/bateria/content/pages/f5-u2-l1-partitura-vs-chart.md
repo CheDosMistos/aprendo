@@ -23,9 +23,9 @@ El chart no es una partitura defectuosa. Está diseñado para condensar informac
 
 ## Primero — recupera Pieza A
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="50.U2.L1 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 2.Lección 1 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-Este MusicXML de U1 sigue siendo un **esqueleto formal mínimo**: escribe suficientes eventos para mostrar forma, una Variación B y un Fill A sin notar todas las capas posibles del kit.
+Este MusicXML de Unidad 1 sigue siendo un **esqueleto formal mínimo**: escribe suficientes eventos para mostrar forma, una Variación B y un Fill A sin notar todas las capas posibles del kit.
 
 ## Ahora — Chart A
 
@@ -34,10 +34,10 @@ Este MusicXML de U1 sigue siendo un **esqueleto formal mínimo**: escribe sufici
 | Sección | Compases | Dinámica | Indicaciones |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Groove sostenible · prepara A |
-| A1 | 5–8 | mf | Groove |
-| A2 | 9–12 | mf | Compás 12: Fill A `4 &` → B |
-| B1 | 13–16 | f | Compás 16: Variación B `& de 3` |
-| B2 | 17–20 | f | Groove · prepara OUTRO |
+| postura y relajación | 5–8 | mf | Groove |
+| agarre principal | 9–12 | mf | Compás 12: Fill A `4 &` → B |
+| singles y redobles | 13–16 | f | Compás 16: Variación B `& de 3` |
+| dobles | 17–20 | f | Groove · prepara OUTRO |
 | OUTRO | 21–24 | mp | Groove sostenible · final |
 
 ## ¿Qué ha desaparecido?
@@ -56,7 +56,7 @@ Eso debe venir de material ya conocido, memoria, escucha y decisiones sostenible
 
 Sin tocar, señala en ambos soportes:
 
-`INTRO → A1 → A2 → B1 → B2 → OUTRO`.
+`INTRO → postura y relajación → agarre principal → singles y redobles → dobles → OUTRO`.
 
 Después responde antes de tocar: **¿qué sección viene después de ésta?**
 

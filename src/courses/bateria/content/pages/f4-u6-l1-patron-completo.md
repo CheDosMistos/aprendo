@@ -8,7 +8,7 @@ slug: patron-completo
 kind: lesson
 order: 1
 title: "Cuatro extremidades como un patrón completo"
-summary: "Recupera el puente de U5 y conviértelo en una tarea central de coordinación de cuatro extremidades."
+summary: "Recupera el puente de Unidad 5 y conviértelo en una tarea central de coordinación de cuatro extremidades."
 duration: 20–30 min
 competencies: [H4, H2, H3, C2, K2, K7]
 rudiments: []
@@ -21,9 +21,9 @@ Pasar de “he probado cuatro extremidades” a sostener un patrón sencillo com
 
 ## MATERIAL ORIGINAL YA CREADO — PATRÓN A
 
-Reutilizamos exactamente el ejercicio de U5:
+Reutilizamos exactamente el ejercicio de Unidad 5:
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U6.L1 — Patrón A · Puente 4 extremidades" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 6.Lección 1 — Patrón A · Puente 4 extremidades" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Funciones:
 

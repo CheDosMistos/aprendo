@@ -8,7 +8,7 @@ slug: leccion-1-singles-subdivision
 kind: lesson
 order: 1
 title: Lección 1 — Singles agrupados y subdivisión
-summary: Introduce Single Stroke Four y Single Stroke Seven, recupera un rudimento de U1 y conserva el pulso al pasar de dos a tres partes iguales.
+summary: Introduce Single Stroke Four y Single Stroke Seven, recupera un rudimento de Unidad 1 y conserva el pulso al pasar de dos a tres partes iguales.
 duration: 25–30 min
 competencies: [A2, A3, A6, B1, C1, C2, C4, E2, F1, K2, K4, K6]
 rudiments:
@@ -21,9 +21,9 @@ published: true
 
 Construir una primera representación correcta de **Single Stroke Four** y **Single Stroke Seven** y distinguir una **agrupación de golpes** de la subdivisión que la contiene.
 
-## 1. Recuperación de U1 — 2–3 min
+## 1. Recuperación de Unidad 1 — 2–3 min
 
-Elige un rudimento de U1 que no hayas tocado inmediatamente antes. Intenta nombrarlo y ejecutarlo lentamente una vez. **Después** contrástalo con PAS.
+Elige un rudimento de Unidad 1 que no hayas tocado inmediatamente antes. Intenta nombrarlo y ejecutarlo lentamente una vez. **Después** contrástalo con PAS.
 
 No repases los seis: buscamos comprobar disponibilidad retenida, no hacer un examen.
 
@@ -33,13 +33,13 @@ Mantén cuatro pulsos regulares. Primero coloca **dos golpes iguales por pulso**
 
 <div data-notation-score data-score-src="/bateria/notation/u2/binario-ternario.musicxml" data-score-title="Dos y tres partes por pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-La partitura incluye una primera ventana visual al **tresillo de corcheas dentro de 4/4**. Aquí el compás sigue siendo 4/4: lo que cambia es la subdivisión interna del pulso, de dos a tres partes iguales. No necesitas leer tresillos con fluidez todavía; la lectura estructurada se profundizará en U3.
+La partitura incluye una primera ventana visual al **tresillo de corcheas dentro de 4/4**. Aquí el compás sigue siendo 4/4: lo que cambia es la subdivisión interna del pulso, de dos a tres partes iguales. No necesitas leer tresillos con fluidez todavía; la lectura estructurada se profundizará en Unidad 3.
 
 **Pregunta de control:** si pasas de 2 a 3 notas por pulso y el click sigue en el mismo sitio, ¿ha cambiado el pulso? La respuesta es **no**; ha cambiado la subdivisión.
 
 ### Comprobación antes de los singles agrupados
 
-Single Stroke Roll, pulso y subdivisión ya se trabajaron en U1, así que **no los reaprendas**. Haz solo una muestra breve: alterna golpes manteniendo la rejilla y termina voluntariamente un grupo sobre una referencia clara. Si la alternancia o el pulso se rompen de forma general, corrige esa base durante unas pocas repeticiones y vuelve al grupo; si están disponibles, continúa directamente.
+Single Stroke Roll, pulso y subdivisión ya se trabajaron en Unidad 1, así que **no los reaprendas**. Haz solo una muestra breve: alterna golpes manteniendo la rejilla y termina voluntariamente un grupo sobre una referencia clara. Si la alternancia o el pulso se rompen de forma general, corrige esa base durante unas pocas repeticiones y vuelve al grupo; si están disponibles, continúa directamente.
 
 ## 3. Single Stroke Four — 6 min
 
@@ -75,7 +75,7 @@ Puedes explicar estos tres términos así:
 
 No son sinónimos.
 
-## Diagnóstico K2
+## Diagnóstico grabación y autoevaluación
 
 Si un grupo termina tarde:
 
@@ -85,7 +85,7 @@ Por ejemplo: “el último golpe cae detrás del click → quizá estoy cerrando
 
 ## Rutina estándar
 
-- 3 min recuperación U1;
+- 3 min recuperación Unidad 1;
 - 6 min contraste 2/3 + técnica;
 - 6 min Single Stroke Four;
 - 6 min Single Stroke Seven;

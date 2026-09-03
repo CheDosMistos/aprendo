@@ -57,9 +57,9 @@ Escucha si el pulso se acelera o frena cuando aumenta la cantidad de golpes.
 
 ## 4. Lectura diagnóstica
 
-Trabaja únicamente con **A1–A2** del imprimible aprobado de U1. Son dos líneas muy simples para observar desde dónde partes; las lecturas posteriores utilizarán material distinto.
+Trabaja únicamente con **agarre principal** del imprimible aprobado de esta unidad. Son dos líneas muy simples para observar desde dónde partes; las lecturas posteriores utilizarán material distinto.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml" data-score-title="Lectura diagnóstica — A1–A2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml" data-score-title="Lectura diagnóstica — agarre principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
 
 Sigue este orden:
 

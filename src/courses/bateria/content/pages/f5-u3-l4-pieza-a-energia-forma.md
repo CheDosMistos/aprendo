@@ -8,7 +8,7 @@ slug: pieza-a-energia-forma
 kind: lesson
 order: 4
 title: "Pieza A: backbeat, forma y decisiones de energía"
-summary: "Aplica el lenguaje de U3 a Pieza A usando Chart A, dinámica de secciones, cues conocidos y recuperación sin duplicar la pieza ni convertir el género en un patrón."
+summary: "Aplica el lenguaje de esta unidad a Pieza A usando Chart A, dinámica de secciones, cues conocidos y recuperación sin duplicar la pieza ni convertir el género en un patrón."
 duration: 25–35 min
 competencies: [I2, H5, H6, D7, A5, C2, F3, I3, I4, K2, K5, K7]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 ## Objetivo
 
-Aplicar U3 a una forma musical más larga usando material ya validado.
+Aplicar esta unidad a una forma musical más larga usando material ya validado.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="50.U3.L4 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 3.Lección 4 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Pieza A sigue siendo material original de Aprendo. El score es un **esqueleto formal**, no una transcripción comercial ni una partitura completa de batería.
 
@@ -27,13 +27,13 @@ Pieza A sigue siendo material original de Aprendo. El score es un **esqueleto fo
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-| Sección | Compases | Dinámica | Decisión U3 |
+| Sección | Compases | Dinámica | Decisión esta unidad |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Versión sostenible; prepara A |
-| A1 | 5–8 | mf | Backbeat CORE |
-| A2 | 9–12 | mf | Backbeat CORE + Fill A `4 &` → B |
-| B1 | 13–16 | f | Más energía controlada + Variación B `& de 3` |
-| B2 | 17–20 | f | Mantén energía sin acelerar |
+| postura y relajación | 5–8 | mf | Backbeat CORE |
+| agarre principal | 9–12 | mf | Backbeat CORE + Fill A `4 &` → B |
+| singles y redobles | 13–16 | f | Más energía controlada + Variación B `& de 3` |
+| dobles | 17–20 | f | Mantén energía sin acelerar |
 | OUTRO | 21–24 | mp | Reduce energía y conserva forma |
 
 ## Toma por capas
@@ -42,7 +42,7 @@ Pieza A sigue siendo material original de Aprendo. El score es un **esqueleto fo
 Toca una versión suficientemente simple para conservar las 24 barras.
 
 ### Pasada 2 — backbeat CORE
-Usa el groove U3 en A/B cuando sea sostenible.
+Usa el groove esta unidad en A/B cuando sea sostenible.
 
 ### Pasada 3 — energía de secciones
 Añade sólo el contraste `mp / mf / f`.
@@ -71,7 +71,7 @@ No añadas:
 
 La pregunta es: **¿puedes cambiar color/ataque sin perder tiempo y forma?**
 
-## Evidencia de salida U3
+## Evidencia de salida esta unidad
 
 Graba una toma o un bloque largo y revisa:
 
@@ -85,7 +85,7 @@ Graba una toma o un bloque largo y revisa:
 - carga/relajación;
 - si la energía cambió sin acelerar.
 
-## MÍNIMO DE U3
+## MÍNIMO DE esta unidad
 
 Debe observarse razonablemente que:
 
@@ -100,7 +100,7 @@ Debe observarse razonablemente que:
 
 ## Fronteras
 
-Esta evidencia **no declara rock, pop o punk dominados**, no certifica metal funcional, no certifica H5 COMPETENTE/FUNCIONAL global y todavía no equivale a I4 COMPETENTE/FUNCIONAL del Hito 6.
+Esta evidencia **no declara rock, pop o punk dominados**, no certifica metal funcional, no certifica groove y variaciones COMPETENTE/FUNCIONAL global y todavía no equivale a repertorio COMPETENTE/FUNCIONAL del Hito 6.
 
 **No existe BPM de aprobado.**
 

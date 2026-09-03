@@ -25,11 +25,11 @@ La partitura permanece visible durante el trabajo. Retirar ayudas no significa e
 
 ## 1. Recuperación — 3 min
 
-Recupera **solo los compases 3–4** de la lectura de entrada de L1, sin calentarlos primero y sin escuchar el playback antes de intentarlos.
+Recupera **solo los compases 3–4** de la lectura de entrada de Lección 1, sin calentarlos primero y sin escuchar el playback antes de intentarlos.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="20.U1.L1 — recuperación breve" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="Unidad 1.Lección 1 — recuperación breve" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una sola toma breve. Pregúntate después:
 
@@ -37,15 +37,15 @@ Haz una sola toma breve. Pregúntate después:
 - ¿sabías cuál era la subdivisión necesaria antes de tocar?;
 - si te perdiste, ¿pudiste volver a entrar sin reiniciar todo el fragmento?
 
-No conviertas esta recuperación en práctica masiva. Su función es comprobar disponibilidad después de haber dejado pasar tiempo desde L1.
+No conviertas esta recuperación en práctica masiva. Su función es comprobar disponibilidad después de haber dejado pasar tiempo desde Lección 1.
 
 ## 2. NÚCLEO — 10–12 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La siguiente partitura es un **banco de ocho células de un compás**. Todas están en 4/4 y usan únicamente vocabulario ya disponible en U1: negras, corcheas, semicorcheas accesibles y silencios de negra/corchea. No introduce síncopa estructurada como nuevo concepto.
+La siguiente partitura es un **banco de ocho células de un compás**. Todas están en 4/4 y usan únicamente vocabulario ya disponible en esta unidad: negras, corcheas, semicorcheas accesibles y silencios de negra/corchea. No introduce síncopa estructurada como nuevo concepto.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="20.U1.L2 — rejilla binaria y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Unidad 1.Lección 2 — rejilla binaria y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Trabaja en fragmentos de **uno o dos compases**, no como una página que haya que memorizar de principio a fin.
 
@@ -144,11 +144,11 @@ Cierra la observación con la misma cadena usada en el sistema de evaluación:
 - **CONDICIONES:** tempo usado, click convencional, conteo hablado o retirado, partitura visible;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
-Completar la sesión **no actualiza automáticamente** C1, C2, D1, E1/E2 ni las competencias de práctica. La evidencia debe corresponder a lo que realmente observaste.
+Completar la sesión **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, figuras, silencios y compás, reconocimiento de pulso y subdivisión/imitación rítmica ni las competencias de práctica. La evidencia debe corresponder a lo que realmente observaste.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia L3 cuando, con partitura visible y click convencional:
+Puedes continuar hacia Lección 3 cuando, con partitura visible y click convencional:
 
 - lees al menos varias células nuevas del banco sin tener que memorizarlas primero;
 - puedes indicar dónde cae un ataque dentro del pulso o de la subdivisión;
@@ -173,6 +173,6 @@ Usa una corrección localizada:
 - **memorizas el dibujo pero no sabes ubicar ataques:** cambia de compás y vuelve a señalar la rejilla;
 - **el silencio borra el tiempo:** cuenta o canta también durante el silencio;
 - **las semicorcheas se comprimen:** reduce tempo y vuelve a cuatro espacios iguales dentro del pulso;
-- **el ritmo está claro pero las manos interfieren:** mantén sticking alternado simple y reduce exigencia técnica; no concluyas automáticamente que D1 ha fallado.
+- **el ritmo está claro pero las manos interfieren:** mantén sticking alternado simple y reduce exigencia técnica; no concluyas automáticamente que figuras, silencios y compás ha fallado.
 
 La siguiente lección usará una línea ya comprendida para comprobar algo distinto: si una textura rudimental puede aplicarse **sin sustituir el ritmo escrito por el sticking**.

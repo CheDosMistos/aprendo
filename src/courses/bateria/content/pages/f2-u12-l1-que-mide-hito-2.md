@@ -57,6 +57,6 @@ Registra al menos:
 
 No existe una nota total ni un BPM universal de aprobado.
 
-## MÍNIMO PARA L2
+## MÍNIMO PARA Lección 2
 
 Entiendes por qué la novedad del material es una condición de validez y puedes explicar qué harás antes, durante y después de una muestra protegida sin convertir la inspección en ensayo.

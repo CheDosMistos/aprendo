@@ -19,7 +19,7 @@ published: true
 
 Mantener cuatro pulsos estables mientras cada pulso se divide conscientemente en tres partes iguales.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-l1-triplet-grid.musicxml" data-score-title="50.U4.L1 — Rejilla ternaria" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-l1-triplet-grid.musicxml" data-score-title="Unidad 4.Lección 1 — Rejilla ternaria" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura muestra **un compás de 4/4 con doce ataques equidistantes**: tres por cada pulso de negra.
 
@@ -66,9 +66,9 @@ El compás describe organización métrica; el shuffle describe un feel/interpre
 ## Fuentes verificadas
 
 - Berklee Online / Larry Finn: los shuffles de entrada se enseñan habitualmente desde un feel de tresillo de corchea y pueden aparecer con distintas convenciones de escritura.
-  https://online.berklee.edu/takenote/basic-funk-for-drums/
+ https://online.berklee.edu/takenote/basic-funk-for-drums/
 - musictheory.net: en métrica compuesta cada pulso se divide en tres; 12/8 se clasifica como compuesto cuaternario.
-  https://www.musictheory.net/lessons/15
+ https://www.musictheory.net/lessons/15
 
 Estas fuentes sustentan la relación de subdivisión y notación. **No afirman que todo shuffle tenga exactamente la misma microtemporización.**
 

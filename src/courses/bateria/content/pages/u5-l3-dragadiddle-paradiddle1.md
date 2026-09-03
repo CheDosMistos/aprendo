@@ -23,7 +23,7 @@ Conocer correctamente **Single Dragadiddle** y **Drag Paradiddle #1** entendiend
 
 Haz una muestra breve de **Drag (Ruff)** y otra de **Single Paradiddle**.
 
-Si ambos son reconocibles y controlables lentamente, continúa. Si falla uno, aísla solo su variable responsable: grace double/alturas para drag; alternancia/diddle/acento para paradiddle. Retesta y vuelve a U5.
+Si ambos son reconocibles y controlables lentamente, continúa. Si falla uno, aísla solo su variable responsable: grace double/alturas para drag; alternancia/diddle/acento para paradiddle. Retesta y vuelve a esta unidad.
 
 ## 2. Componentes antes de la combinación — 5 min
 
@@ -52,7 +52,7 @@ Después ejecútalo lentamente. No reconstruyas la partitura desde el nombre.
 
 Localiza **36. Drag Paradiddle #1** en PAS. Antes de tocar, compara visualmente con Single Dragadiddle y explica **una diferencia estructural verificable**.
 
-Si la grace double se come la nota principal, baja la altura y separa el ornamento. Si el diddle pierde calidad, prueba B1/B2 sin drag y vuelve a integrarlo.
+Si la grace double se come la nota principal, baja la altura y separa el ornamento. Si el diddle pierde calidad, prueba singles y redobles/dobles sin drag y vuelve a integrarlo.
 
 ## 5. Contraste bilateral — 4 min
 
@@ -66,11 +66,11 @@ Para cada PAS registra:
 - problema principal;
 - variable que probarás en la siguiente recuperación.
 
-## Diagnóstico K2
+## Diagnóstico grabación y autoevaluación
 
-**Síntoma:** el drag está limpio aislado y el paradiddle también, pero juntos aparece tensión.  
-**Hipótesis:** la preparación de alturas entre componentes no está automatizada.  
-**Prueba:** ejercicio original a menor densidad, observando solo alturas.  
+**Síntoma:** el drag está limpio aislado y el paradiddle también, pero juntos aparece tensión. 
+**Hipótesis:** la preparación de alturas entre componentes no está automatizada. 
+**Prueba:** ejercicio original a menor densidad, observando solo alturas. 
 **Retest:** volver a un PAS.
 
 ## Rutina estándar

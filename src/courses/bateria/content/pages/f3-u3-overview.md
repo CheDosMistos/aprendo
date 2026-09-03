@@ -8,20 +8,20 @@ slug: fase-3-unidad-3-introduccion
 kind: unit
 order: 0
 title: "Transcripción corta y método de verificación"
-summary: "Introduce E6 como reconstrucción iterativa de una fuente: formular hipótesis, escuchar con una pregunta, revisar, tocar y validar sin rellenar dudas por intuición."
+summary: "Introduce transcripción real como reconstrucción iterativa de una fuente: formular hipótesis, escuchar con una pregunta, revisar, tocar y validar sin rellenar dudas por intuición."
 duration: Unidad flexible · 4 lecciones + checkpoint
 competencies: [E3, E4, E5, E6, D4, D5, D6, F2, C1, C2, K2, K3, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-U2 entrenó imitación, segmentación y dictado. U3 cambia el contrato:
+Unidad 2 entrenó imitación, segmentación y dictado. esta unidad cambia el contrato:
 
 `FUENTE → HIPÓTESIS → PREGUNTA → REESCUCHA → REVISIÓN → EJECUCIÓN → VALIDACIÓN`
 
 > **Transcribir no significa hacer un dictado más largo.** Significa reconstruir una fuente de manera iterativa y dejar trazable qué crees oír, qué estás proponiendo y qué todavía no sabes.
 
-## Las fuentes de U3
+## Las fuentes de esta unidad
 
 Todas las fuentes nucleares son **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**. Se sintetizan localmente en el navegador con tres registros funcionales:
 
@@ -40,7 +40,7 @@ La solución escrita muestra el **esqueleto compuesto de ataques**, ejecutable e
 - **APROX:** aproximación propia deliberada cuando no necesitas o no puedes resolver más detalle.
 - **DUDA:** información no resuelta que prefieres conservar abierta.
 
-El objetivo no es llenar todos los huecos. El mínimo de E6 exige precisamente poder identificar qué parte es aproximación propia.
+El objetivo no es llenar todos los huecos. El mínimo de transcripción real exige precisamente poder identificar qué parte es aproximación propia.
 
 ## Método de verificación
 
@@ -57,19 +57,19 @@ El objetivo no es llenar todos los huecos. El mínimo de E6 exige precisamente p
 
 ## Arquitectura
 
-### L1 — Fuente, marco e hipótesis
+### Lección 1 — Fuente, marco e hipótesis
 Aprendes a no esperar certeza total antes de empezar: construyes un primer mapa de dos compases y etiquetas lo seguro, lo provisional y lo dudoso.
 
-### L2 — Reconstrucción iterativa por capas
+### Lección 2 — Reconstrucción iterativa por capas
 Centras cada reescucha en una pregunta y separas el esqueleto global de la asignación grave/media/aguda.
 
-### L3 — Slowdown diagnóstico
+### Lección 3 — Slowdown diagnóstico
 El 80 % sólo se habilita después de una escucha a 100 %. Se usa si responde una pregunta y la validación termina de nuevo a velocidad original.
 
-### L4 — Transcripción útil y trazable
+### Lección 4 — Transcripción útil y trazable
 Decides qué nivel de detalle necesita una transcripción para ser útil: esqueleto ejecutable, mapa de capas, incertidumbre y ayudas.
 
-### Checkpoint — Primera evidencia E6
+### Evaluación — Primera evidencia transcripción real
 Una fuente independiente comprueba el proceso completo sin exigir canción completa, alta velocidad ni cero dudas.
 
 ## ESENCIAL AHORA
@@ -88,7 +88,7 @@ Otra fuente equivalente, más detalle de capas o una comparación entre dos nota
 
 ## AVANZADO
 
-Fuentes más largas/densas, articulación fina, contraste de fuentes y primera música externa legal/verificada. No es requisito para U4.
+Fuentes más largas/densas, articulación fina, contraste de fuentes y primera música externa legal/verificada. No es requisito para Unidad 4.
 
 ## Regla de avance
 

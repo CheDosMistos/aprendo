@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-8
 slug: checkpoint-6e-c7-microtiming-feel
 kind: checkpoint
 order: 5
-title: "Checkpoint 6E — C7 MÍNIMO"
+title: "Evaluación — microtiming y placement MÍNIMO"
 summary: "Demuestra que distingues precisión métrica, estabilidad, microtiming y feel y que puedes analizar diferencias sin convertirlas en recetas universales."
 duration: 15–25 min
 competencies: [C7, C1, C2, C4, I2, E5, H5, H6, K5, K8]
@@ -17,11 +17,11 @@ published: true
 
 ## Qué se intenta demostrar
 
-El criterio superior de C7 en **MÍNIMO PARA AVANZAR** es:
+El criterio superior de microtiming y placement en **MÍNIMO PARA AVANZAR** es:
 
 > **Reconoce conceptualmente que precisión métrica y feel no son idénticos.**
 
-U8 lo operacionaliza sin crear una rúbrica paralela:
+esta unidad lo operacionaliza sin crear una rúbrica paralela:
 
 > distingue estabilidad, relación con una referencia, microtiming observado y resultado musical percibido; evita afirmar que una desviación aislada demuestra intención o que existe un offset universal de buen feel.
 
@@ -46,7 +46,7 @@ Registra:
 4. qué otra dimensión sonora cambia;
 5. qué **no puedes afirmar** sólo con esas dos muestras.
 
-No necesitas calcular milisegundos para demostrar C7 MÍNIMO.
+No necesitas calcular milisegundos para demostrar microtiming y placement MÍNIMO.
 
 ## Tarea C — Intención frente a observación
 
@@ -69,7 +69,7 @@ Esta tarea aporta evidencia hacia el criterio **COMPETENTE / FUNCIONAL**:
 
 > **Reproduce diferencias básicas de colocación y articulación en estilos estudiados.**
 
-Pero **no es requisito para demostrar C7 MÍNIMO**.
+Pero **no es requisito para demostrar microtiming y placement MÍNIMO**.
 
 ## Dimensiones críticas observables
 
@@ -84,7 +84,7 @@ Compatible con `06_SISTEMA_PRACTICA_Y_EVALUACION`:
 
 No se promedian estas dimensiones como nota numérica.
 
-## MÍNIMO PARA AVANZAR — C7
+## MÍNIMO PARA AVANZAR — microtiming y placement
 
 Existe evidencia suficiente cuando:
 
@@ -115,28 +115,28 @@ El mapa superior fija:
 
 > **Manipula microtiming de forma consciente y musical sin perder estabilidad estructural.**
 
-Esto requiere amplitud contextual, control repetible, escucha refinada e integración musical. U8 abre y profundiza el eje, pero **no exige este nivel para continuar**.
+Esto requiere amplitud contextual, control repetible, escucha refinada e integración musical. esta unidad abre y profundiza el eje, pero **no exige este nivel para continuar**.
 
 ## Decisión
 
 Usa el lenguaje aprobado:
 
-- **CONTINUAR** — C7 MÍNIMO está suficientemente demostrado;
+- **CONTINUAR** — microtiming y placement MÍNIMO está suficientemente demostrado;
 - **CONTINUAR + CORRECTIVO** — el concepto está claro pero existe una confusión localizada de términos o evidencia;
 - **REDUCIR NOVEDAD** — todavía se identifica feel con “error”, “grid perfecto” o una receta temporal universal;
 - **DETENER CARGA** — sólo cuando corresponda por salud/carga según el sistema general.
 
 ## Fronteras de certificación
 
-Este checkpoint:
+Este Evaluación:
 
 - no certifica dominio profundo de ningún estilo;
 - no exige offsets medidos en ms;
 - no convierte waveform/DAW en juez de groove;
 - no define swing como tresillo fijo;
-- no sustituye el proyecto sostenido de U10;
+- no sustituye el proyecto sostenido de Unidad 10;
 - **no declara Hito 7**;
 - no abre el núcleo avanzado de Fase 7;
 - no usa BPM universal de aprobado.
 
-> **CHECKPOINT 6E = DISTINGUIR PRECISIÓN, ESTABILIDAD Y FEEL + ANALIZAR MICROTIMING SIN INVENTAR UNA RECETA.**
+> **Evaluación = DISTINGUIR PRECISIÓN, ESTABILIDAD Y FEEL + ANALIZAR MICROTIMING SIN INVENTAR UNA RECETA.**

@@ -7,7 +7,7 @@ unitSlug: fase-4-unidad-9
 slug: recuperacion-ventana-h7
 kind: lesson
 order: 4
-title: "Recuperación y ventana H7"
+title: "Recuperación y ventana independencia avanzada"
 summary: "Aprende a salvar el siguiente 1 aunque el fill no sea perfecto y prueba, sólo como ampliación, un ostinato simple de pie izquierdo."
 duration: 20–30 min
 competencies: [H6, H5, F3, H7, H3, H4, C2, K2, K5, K7]
@@ -25,7 +25,7 @@ La prioridad de hoy es:
 
 ## Tarea central — Fill B y recuperación
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="40.U9.L4 — Fill B y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Unidad 9.Lección 4 — Fill B y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca la frase completa.
 
@@ -47,11 +47,11 @@ Después de la toma, clasifica el síntoma:
 
 Aísla únicamente la unión necesaria y vuelve pronto a la frase completa.
 
-## AMPLIACIÓN — ventana H7
+## AMPLIACIÓN — ventana independencia avanzada
 
-Sólo si H3/H4 permanecen estables, prueba este ejercicio preparado:
+Sólo si hi-hat de pie/coordinación básica de cuatro extremidades permanecen estables, prueba este ejercicio preparado:
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l4-left-foot-window.musicxml" data-score-title="40.U9.L4 — AMPLIACIÓN: ostinato de pie izquierdo durante Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l4-left-foot-window.musicxml" data-score-title="Unidad 9.Lección 4 — AMPLIACIÓN: ostinato de pie izquierdo durante Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La única capa nueva es:
 
@@ -59,7 +59,7 @@ La única capa nueva es:
 - las manos ejecutan el Fill B escrito;
 - el bombo mantiene sólo su función básica conocida.
 
-Esto se acerca a la definición de H7 MÍNIMO —un ostinato sencillo mientras otra voz varía—, pero **U9 NO certifica H7**.
+Esto se acerca a la definición de independencia avanzada MÍNIMO —un ostinato sencillo mientras otra voz varía—, pero **esta unidad NO certifica independencia avanzada**.
 
 ¿Por qué no?
 
@@ -72,11 +72,11 @@ Porque la tarea es:
 
 Una exposición no equivale a una competencia funcional.
 
-## Si la ampliación rompe H6
+## Si la ampliación rompe fills
 
 Retira inmediatamente el pie izquierdo y vuelve al CORE.
 
-H7 nunca debe hacer que pierdas la función principal de U9: `fill → 1 → groove`.
+independencia avanzada nunca debe hacer que pierdas la función principal de esta unidad: `fill → 1 → groove`.
 
 ## Tempo
 
@@ -96,9 +96,9 @@ CORE:
 
 AMPLIACIÓN opcional:
 
-- pruebas el ostinato de pie izquierdo sin confundirlo con H7 logrado;
-- lo retiras si desestabiliza H6.
+- pruebas el ostinato de pie izquierdo sin confundirlo con independencia avanzada logrado;
+- lo retiras si desestabiliza fills.
 
 ## Registrar esta práctica
 
-Registra `error → ¿llegué al 1? → diagnóstico → correctivo → resultado`. Si pruebas H7, añade `pie izquierdo: ayuda / neutro / desestabiliza`.
+Registra `error → ¿llegué al 1? → diagnóstico → correctivo → resultado`. Si pruebas independencia avanzada, añade `pie izquierdo: ayuda / neutro / desestabiliza`.

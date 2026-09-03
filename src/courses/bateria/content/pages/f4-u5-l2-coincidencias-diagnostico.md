@@ -29,7 +29,7 @@ En el Groove Base A:
 - **4:** hi-hat + caja;
 - los **&** mantienen sólo la mano de tiempo.
 
-El patrón sigue siendo el de L1. No añadimos notas nuevas.
+El patrón sigue siendo el de Lección 1. No añadimos notas nuevas.
 
 ## Proceso correctivo
 

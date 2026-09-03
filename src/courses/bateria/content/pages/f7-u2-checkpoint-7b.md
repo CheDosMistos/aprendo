@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-2
 slug: checkpoint-7b-j2-funcional
 kind: checkpoint
 order: 5
-title: "Checkpoint 7B — J2 funcional: mover sin perder la referencia"
+title: "Evaluación — desplazamientos de acento y motivo funcional: mover sin perder la referencia"
 summary: "Evalúa definición, control de varias posiciones, conservación de la célula, representación, recuperación y aplicación musical de desplazamientos."
 duration: 25–30 min
 competencies: [J2, J1, C1, C2, D4, D6, G2, G3, G4, G6, K2, K5]
@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Función del checkpoint
+## Función del Evaluación
 
-Este checkpoint comprueba si J2 ha pasado de una ventana previa a una capacidad **funcional**.
+Este Evaluación comprueba si desplazamientos de acento y motivo ha pasado de una ventana previa a una capacidad **funcional**.
 
 El mapa del curso define tres escalones:
 
@@ -32,7 +32,7 @@ Explica:
 1. qué es un desplazamiento;
 2. qué diferencia un desplazamiento de acento de uno de motivo;
 3. por qué mover una célula no cambia automáticamente el compás;
-4. qué diferencia básica separa U2 de J5;
+4. qué diferencia básica separa esta unidad de ciclos que cruzan compases;
 5. por qué una ilusión perceptiva no demuestra modulación métrica.
 
 ### MÍNIMO PARA AVANZAR
@@ -64,7 +64,7 @@ Debes mostrar al menos tres posiciones distintas conservando:
 - compás;
 - subdivisión.
 
-Si cambias simultáneamente la forma de la célula, señala explícitamente que ya has añadido una transformación de G2.
+Si cambias simultáneamente la forma de la célula, señala explícitamente que ya has añadido una transformación de desarrollo motívico.
 
 ## Parte D — Escritura y predicción
 
@@ -103,9 +103,9 @@ No reinicies automáticamente el ejercicio completo.
 - desplaza al menos un acento o célula sin perder el compás;
 - reconoce la referencia original;
 - conserva la identidad del material en un ejemplo simple;
-- distingue J2 de agrupación y de cambio de compás.
+- distingue desplazamientos de acento y motivo de agrupación y de cambio de compás.
 
-Esto permite abrir J3.
+Esto permite abrir métricas impares y mixtas.
 
 ### COMPETENTE / FUNCIONAL
 
@@ -120,7 +120,7 @@ Esto permite abrir J3.
 - integra desplazamientos extensos en groove, fraseo y composición;
 - mantiene capas de referencia más exigentes;
 - crea ambigüedad perceptiva deliberada y resuelve con control;
-- combina J2 con otros recursos sin perder terminología ni función.
+- combina desplazamientos de acento y motivo con otros recursos sin perder terminología ni función.
 
 AVANZADO no es requisito para continuar.
 
@@ -133,6 +133,6 @@ Anota:
 - si el problema fue temporal, técnico o de representación;
 - estrategia de recuperación útil;
 - una aplicación musical conseguida;
-- qué debe mantenerse activo al entrar en J3.
+- qué debe mantenerse activo al entrar en métricas impares y mixtas.
 
-> **HITO LOCAL 7B: PUEDO MOVER EL MATERIAL RESPECTO A LA CUADRÍCULA SIN MOVER LA CUADRÍCULA.**
+> **HITO LOCAL evaluación final: PUEDO MOVER EL MATERIAL RESPECTO A LA CUADRÍCULA SIN MOVER LA CUADRÍCULA.**

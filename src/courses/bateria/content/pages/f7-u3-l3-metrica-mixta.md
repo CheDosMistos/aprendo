@@ -19,7 +19,7 @@ published: true
 
 Atravesar cambios explícitos de compás sin perder la unidad temporal acordada ni convertir el cambio métrico en una aceleración, una pausa o una modulación métrica accidental.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u3/f7-u3-mixed-meter-route.musicxml" data-score-title="70.U3 — Ruta de métrica mixta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u3/f7-u3-mixed-meter-route.musicxml" data-score-title="Unidad 3 — Ruta de métrica mixta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué significa aquí “mantener la referencia”
 
@@ -40,7 +40,7 @@ Cambiar la cantidad de corcheas de una barra **no obliga a cambiar la velocidad 
 
 Aquí no reinterpretamos deliberadamente otra figura como nuevo pulso. Si al entrar en `7/8` haces que una agrupación de tres corcheas pase a durar lo que antes duraban dos, has introducido otra relación temporal que no pertenece al ejercicio.
 
-La modulación métrica se estudiará en J8.
+La modulación métrica se estudiará en modulación métrica.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — D: ruta 8–10–7–8
 

@@ -8,20 +8,20 @@ slug: fase-5-unidad-6-introduccion
 kind: unit
 order: 0
 title: "Sonido funcional, afinación básica, click y grabación"
-summary: "Construye H8 MÍNIMO mediante comparación auditiva, ajuste reversible y grabación diagnóstica, sin convertir la unidad en ingeniería de audio."
+summary: "Construye balance, sonido y orquestación MÍNIMO mediante comparación auditiva, ajuste reversible y grabación diagnóstica, sin convertir la unidad en ingeniería de audio."
 duration: Unidad flexible · 4 lecciones + checkpoint
 competencies: [H8, A5, H1, C4, I3, I4, K2, K5, K6, K7]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: H8 funcional
+## Novedad dominante: balance, sonido y orquestación funcional
 
-U6 cambia la pregunta. Ya no basta con tocar la figura correcta: hay que **escuchar qué sonido produce realmente el kit, registrar una referencia y tomar una decisión sencilla que pueda comprobarse**.
+esta unidad cambia la pregunta. Ya no basta con tocar la figura correcta: hay que **escuchar qué sonido produce realmente el kit, registrar una referencia y tomar una decisión sencilla que pueda comprobarse**.
 
-El mapa de competencias fija el nivel mínimo de H8 así:
+el recorrido del curso fija el nivel mínimo de balance, sonido y orquestación así:
 
-> **H8 MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
+> **balance, sonido y orquestación MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
 
 La arquitectura de Fase 5 añade una condición observable: aplicar **al menos un ajuste razonado y reversible**.
 
@@ -29,7 +29,7 @@ La arquitectura de Fase 5 añade una condición observable: aplicar **al menos u
 
 No hace falta saber microfonear una batería profesionalmente, mezclar una sesión ni afinar por frecuencias prescritas para avanzar.
 
-## Qué cuenta como “ajuste” en U6
+## Qué cuenta como “ajuste” en esta unidad
 
 Puede ser, según el problema observado:
 
@@ -52,7 +52,7 @@ NIOSH advierte que el riesgo auditivo depende de la **intensidad y la duración 
 
 Fuente institucional: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/docs/wp-solutions/2015-184/default.html).
 
-U6 no convierte un único número de dB en una frontera universal de seguridad doméstica.
+esta unidad no convierte un único número de dB en una frontera universal de seguridad doméstica.
 
 ### TRADICIÓN TÉCNICA / FABRICANTE — Evans / D’Addario
 
@@ -68,11 +68,11 @@ Fuentes: [Berklee Online — Practicing Techniques for Musicians](https://online
 
 ## Ruta
 
-1. **L1 — Sonido comparable:** zona de golpe, consistencia y balance básico.
-2. **L2 — Afinación/amortiguación:** comparar antes de decidir; una variable cada vez.
-3. **L3 — Click y backing:** referencia audible sin perseguirla ni competir en volumen.
-4. **L4 — Grabación A/B:** una pregunta, dos tomas y un correctivo prioritario.
-5. **Checkpoint 5C:** H8 MÍNIMO mediante comparación y ajuste reversible.
+1. **Lección 1 — Sonido comparable:** zona de golpe, consistencia y balance básico.
+2. **Lección 2 — Afinación/amortiguación:** comparar antes de decidir; una variable cada vez.
+3. **Lección 3 — Click y backing:** referencia audible sin perseguirla ni competir en volumen.
+4. **Lección 4 — Grabación A/B:** una pregunta, dos tomas y un correctivo prioritario.
+5. **Evaluación:** balance, sonido y orquestación MÍNIMO mediante comparación y ajuste reversible.
 
 ## Fronteras
 

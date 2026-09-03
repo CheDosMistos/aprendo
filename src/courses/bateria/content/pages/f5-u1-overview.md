@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: duración + forma + continuidad
 
-Fase 4 terminó demostrando una cadena corta de groove, pequeña variación, fill y retorno. U1 no vuelve a enseñar esa cadena.
+Fase 4 terminó demostrando una cadena corta de groove, pequeña variación, fill y retorno. esta unidad no vuelve a enseñar esa cadena.
 
 > **NO REAPRENDER. SOSTENER DURANTE MÁS TIEMPO.**
 
@@ -48,26 +48,26 @@ Así la lectura ayuda a navegar la forma sin convertirse en una segunda dificult
 
 ## Arquitectura
 
-### L1 — Recuperar sin reaprender
+### Lección 1 — Recuperar sin reaprender
 Comprueba el estado real del Hito 5 y corrige sólo lo que hoy esté interfiriendo.
 
-### L2 — Ver la forma antes de tocarla entera
+### Lección 2 — Ver la forma antes de tocarla entera
 Construye el mapa `INTRO → A → B → OUTRO` y aprende a anticipar las secciones.
 
-### L3 — Unir secciones
+### Lección 3 — Unir secciones
 Aísla únicamente las transiciones que fallen y vuelve pronto a bloques largos.
 
-### L4 — Primera toma continua y recuperación
+### Lección 4 — Primera toma continua y recuperación
 Toca en modo interpretación: un error local no debe obligarte a abandonar la forma.
 
-### Checkpoint — Repertorio A en desarrollo
-Demuestra que la forma ya organiza tu ejecución, aunque todavía no certifiquemos I4 COMPETENTE/FUNCIONAL.
+### Evaluación — Repertorio A en desarrollo
+Demuestra que la forma ya organiza tu ejecución, aunque todavía no certifiquemos repertorio COMPETENTE/FUNCIONAL.
 
-## Qué NO añade U1
+## Qué NO añade esta unidad
 
 - un estilo nuevo;
 - un groove nuevo obligatorio;
-- independencia H7 nueva;
+- independencia independencia avanzada nueva;
 - una velocidad objetivo;
 - repertorio comercial o una transcripción protegida;
 - una nueva prueba global de Hito 5.

@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Cambiar entre las dos ventanas de U9 sin fabricar un híbrido involuntario ni usar `Latin` como explicación musical.
+Cambiar entre las dos ventanas de esta unidad sin fabricar un híbrido involuntario ni usar `Latin` como explicación musical.
 
 > **TRANSFERIR ≠ MEZCLAR.**
 
@@ -28,7 +28,7 @@ La transferencia que buscamos es cognitiva y técnica: reconocer qué función p
 ### A — Brazilian / samba: laboratorio de capas
 
 - referencia: `Brazilian Rhythms for Drumset` + escucha Berklee;
-- material tocado: el laboratorio original de L2;
+- material tocado: el laboratorio original de Lección 2;
 - función estudiada: condensar capas diferenciadas en una sola batería;
 - prohibición: **no llamarlo patrón auténtico de samba**.
 
@@ -57,7 +57,7 @@ La pausa deliberada impide que el ejercicio se convierta por inercia en un híbr
 | Pregunta | Brazilian / samba | Afro-Cuban / clave |
 | --- | --- | --- |
 | ¿Qué organiza el ejercicio? | relación entre capas del conjunto | orientación de una timeline verificada |
-| ¿Qué material Aprendo es original? | toda la coordinación de L2 | sólo la capa neutral de apoyo |
+| ¿Qué material Aprendo es original? | toda la coordinación de Lección 2 | sólo la capa neutral de apoyo |
 | ¿Qué material procede de tradición documentada? | los roles/instrumentos analizados en las fuentes | la `2-3 son clave` aprendida desde Berklee |
 | ¿Qué NO puedes afirmar? | “esto es el groove de samba” | “esto ya es mambo/salsa” |
 
@@ -75,7 +75,7 @@ Después de cada toma responde sin mirar notas:
 
 No se asigna una canción por llenar el casillero estilístico. Una pieza brasileña o afro-cubana entrará al carril de repertorio sólo cuando se haya verificado **legalidad de acceso, dificultad y vocabulario concreto**.
 
-## Salida mínima de U9
+## Salida mínima de esta unidad
 
 La unidad queda funcional cuando puedes:
 
@@ -85,4 +85,4 @@ La unidad queda funcional cuando puedes:
 - detener una mezcla involuntaria y volver al marco correcto;
 - distinguir claramente material tradicional, fuente externa y ejercicio Aprendo.
 
-No se exige dominio estilístico, velocidad concreta ni independencia avanzada. **No hay checkpoint global nuevo y no existe BPM de aprobado.**
+No se exige dominio estilístico, velocidad concreta ni independencia avanzada. **No hay Evaluación global nuevo y no existe BPM de aprobado.**

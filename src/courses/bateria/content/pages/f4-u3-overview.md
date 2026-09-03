@@ -17,13 +17,13 @@ published: true
 
 ## Cuando el pie es nuevo, el ritmo debe ser viejo
 
-U1 dejó el kit accesible. U2 trasladó frases conocidas entre superficies manuales. U3 añade una sola novedad motora dominante: **el pie de bombo**.
+Unidad 1 dejó el kit accesible. Unidad 2 trasladó frases conocidas entre superficies manuales. esta unidad añade una sola novedad motora dominante: **el pie de bombo**.
 
 La pregunta es:
 
 > **¿Puedes producir y repetir golpes de bombo controlados conservando pulso, sonido y equilibrio sin depender de una receta corporal única?**
 
-El MÍNIMO de H2 no es velocidad: es producir golpes controlados y consistentes en patrones básicos.
+El MÍNIMO de bombo no es velocidad: es producir golpes controlados y consistentes en patrones básicos.
 
 ## Qué vas a construir
 
@@ -45,28 +45,28 @@ Heel-down y heel-up pueden compararse como **opciones técnicas de tradición pe
 
 ## Arquitectura
 
-### L1 — Pedal, posición y primer golpe simple
+### Lección 1 — Pedal, posición y primer golpe simple
 Ajustas la relación con el pedal y aprendes a golpear, volver y preparar el siguiente ataque.
 
-### L2 — Mecánica y sonido: opciones, no dogmas
+### Lección 2 — Mecánica y sonido: opciones, no dogmas
 Comparas una mecánica útil y, si aporta valor, otra; también distingues dejar rebotar la maza de mantenerla contra el parche.
 
-### L3 — Negras y corcheas: consistencia antes que velocidad
+### Lección 3 — Negras y corcheas: consistencia antes que velocidad
 Repites golpes simples dentro de rejillas que ya conoces.
 
-### L4 — Sustitución: una nota de manos pasa al bombo
+### Lección 4 — Sustitución: una nota de manos pasa al bombo
 Conservas una frase conocida mientras uno o dos ataques cambian de extremidad.
 
-### Checkpoint — Bombo disponible como primera voz de pie
-Demuestras H2 MÍNIMO sin exigir groove, cuatro extremidades, dobles rápidos ni doble pedal.
+### Evaluación — Bombo disponible como primera voz de pie
+Demuestras bombo MÍNIMO sin exigir groove, cuatro extremidades, dobles rápidos ni doble pedal.
 
 ## Frontera importante
 
-U3 puede incluir tareas muy simples con manos + bombo, pero eso **no certifica H4**. U5 será el foco de primer groove y U6 el foco explícito de cuatro extremidades.
+esta unidad puede incluir tareas muy simples con manos + bombo, pero eso **no certifica coordinación básica de cuatro extremidades**. Unidad 5 será el foco de primer groove y Unidad 6 el foco explícito de cuatro extremidades.
 
 ## Seguridad y carga
 
-La escucha segura y la gestión de carga de U1 siguen activas. Dolor persistente, hormigueo, entumecimiento, pérdida de fuerza/control o movimientos involuntarios persistentes no se normalizan como “parte de aprender”.
+La escucha segura y la gestión de carga de Unidad 1 siguen activas. Dolor persistente, hormigueo, entumecimiento, pérdida de fuerza/control o movimientos involuntarios persistentes no se normalizan como “parte de aprender”.
 
 ## Criterio de salida
 

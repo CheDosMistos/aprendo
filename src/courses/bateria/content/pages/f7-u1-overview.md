@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-1
 slug: agrupaciones-dentro-de-4-4
 kind: unit
 order: 0
-title: "70.U1 — Agrupaciones dentro de 4/4"
-summary: "Profundiza J1 sin reenseñar 3+3+2 desde cero: conserva el 4/4 y su pulso mientras reorganiza corcheas y semicorcheas en varias particiones, las lee, escribe y convierte en material musical deliberado."
+title: "Agrupaciones dentro de 4/4"
+summary: "Profundiza agrupaciones dentro de 4/4 sin reenseñar 3+3+2 desde cero: conserva el 4/4 y su pulso mientras reorganiza corcheas y semicorcheas en varias particiones, las lee, escribe y convierte en material musical deliberado."
 duration: 4 lecciones + checkpoint; varias sesiones
 competencies: [J1, C1, C2, D4, D6, F2, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 ## Función de la unidad
 
-U1 abre la profundización real de **J1 — Agrupaciones dentro de 4/4**.
+esta unidad abre la profundización real de **Agrupaciones dentro de 4/4**.
 
-No presenta `3+3+2` como una novedad: esa ventana ya apareció antes y F5.U10 trabajó explícitamente la diferencia entre **4/4 agrupado** y **7/8**. Ahora la exigencia sube: el alumno debe mantener una referencia métrica estable mientras cambia deliberadamente la geometría interna del mismo compás.
+No presenta `3+3+2` como una novedad: esa ventana ya apareció antes y articulación.Unidad 10 trabajó explícitamente la diferencia entre **4/4 agrupado** y **7/8**. Ahora la exigencia sube: el alumno debe mantener una referencia métrica estable mientras cambia deliberadamente la geometría interna del mismo compás.
 
 > **LA AGRUPACIÓN ORGANIZA EL MATERIAL DENTRO DEL COMPÁS; NO CAMBIA POR SÍ SOLA EL COMPÁS.**
 
@@ -32,24 +32,24 @@ La unidad trabaja dos escalas:
 - ocho corcheas por compás;
 - dieciséis semicorcheas por compás.
 
-En ambos casos la barra vuelve a empezar donde corresponde al `4/4`. Los ciclos cuya longitud desborda la barra se reservan para **J5**.
+En ambos casos la barra vuelve a empezar donde corresponde al `4/4`. Los ciclos cuya longitud desborda la barra se reservan para **ciclos que cruzan compases**.
 
 ## Qué recupera
 
-- C1: pulso interno;
-- C2: subdivisión binaria;
-- F2: métrica y terminología rítmica;
-- D4: lectura de compás;
-- G1/G2: motivo y transformación;
-- F5.U10: `agrupación ≠ cambio de compás`.
+- pulso interno: pulso interno;
+- subdivisión binaria y ternaria: subdivisión binaria;
+- métrica y terminología rítmica: métrica y terminología rítmica;
+- lectura de compás: lectura de compás;
+- motivo/desarrollo motívico: motivo y transformación;
+- articulación.Unidad 10: `agrupación ≠ cambio de compás`.
 
 ## Arquitectura
 
-1. **L1 — Ocho corcheas, varias geometrías:** `3+3+2`, `3+2+3`, `2+3+3`, `5+3` y `3+5` sin abandonar 4/4.
-2. **L2 — Dieciséis semicorcheas:** agrupaciones que suman 16 y mantienen visible el pulso de negra.
-3. **L3 — Leer, escribir y transformar:** convertir particiones en acentos y acentos en particiones válidas.
-4. **L4 — De patrón a música:** forma, improvisación y aplicación en pad/kit sin convertir complejidad en fin.
-5. **Checkpoint 7A — J1 funcional:** explicar, sentir, ejecutar, representar y aplicar una agrupación nueva.
+1. **Lección 1 — Ocho corcheas, varias geometrías:** `3+3+2`, `3+2+3`, `2+3+3`, `5+3` y `3+5` sin abandonar 4/4.
+2. **Lección 2 — Dieciséis semicorcheas:** agrupaciones que suman 16 y mantienen visible el pulso de negra.
+3. **Lección 3 — Leer, escribir y transformar:** convertir particiones en acentos y acentos en particiones válidas.
+4. **Lección 4 — De patrón a música:** forma, improvisación y aplicación en pad/kit sin convertir complejidad en fin.
+5. **Evaluación — agrupaciones dentro de 4/4 funcional:** explicar, sentir, ejecutar, representar y aplicar una agrupación nueva.
 
 ## ESENCIAL AHORA
 
@@ -77,7 +77,7 @@ No se adelantan todavía ciclos cruzando barras, polimetría ni modulación mét
 
 ## Práctica estándar de 25–30 min
 
-Una sesión típica de U1 puede repartir:
+Una sesión típica de esta unidad puede repartir:
 
 - 3–4 min: pulso + cuadrícula neutra;
 - 10–12 min: agrupación objetivo;
@@ -89,7 +89,7 @@ No es una plantilla rígida. La prioridad dominante de la sesión sigue mandando
 
 ## Criterio de salida de unidad
 
-U1 alcanza su función cuando el alumno puede, en material de dificultad adecuada:
+esta unidad alcanza su función cuando el alumno puede, en material de dificultad adecuada:
 
 1. definir **agrupación** sin confundirla con compás irregular ni tuplet;
 2. localizar el pulso de negra y la barra de 4/4;

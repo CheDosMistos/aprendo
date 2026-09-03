@@ -31,7 +31,7 @@ No introducimos quintillos como habilidad nueva. Sólo los distinguimos terminol
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l1-five-pulses.musicxml" data-score-title="30.U9.L1 — cinco pulsos en 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l1-five-pulses.musicxml" data-score-title="Unidad 9.Lección 1 — cinco pulsos en 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ### Trabajo
 

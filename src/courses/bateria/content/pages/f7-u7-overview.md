@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-7
 slug: polimetria
 kind: unit
 order: 0
-title: "70.U7 — Polimetría"
-summary: "Profundiza J7: mantener dos organizaciones métricas simultáneas con ciclos de barra distintos, conservar una referencia temporal común y saber dónde vuelven a coincidir sus comienzos."
+title: "Polimetría"
+summary: "Profundiza polimetría: mantener dos organizaciones métricas simultáneas con ciclos de barra distintos, conservar una referencia temporal común y saber dónde vuelven a coincidir sus comienzos."
 duration: 4 lecciones + checkpoint; varias sesiones
 competencies: [J7, J5, J6, C1, C2, C3, C4, D4, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 ## Función de la unidad
 
-U7 profundiza **J7 — polimetría**.
+esta unidad profundiza **polimetría**.
 
-El mapa aprobado no exige empezar con estructuras extremas. Para J7:
+el recorrido del curso no exige empezar con estructuras extremas. Para polimetría:
 
 - **MÍNIMO PARA AVANZAR:** distinguir polimetría de polirritmia y reconocer ejemplos conceptuales;
 - **COMPETENTE / FUNCIONAL:** mantener capas métricas sencillas con punto de referencia común;
@@ -31,7 +31,7 @@ La pregunta central es:
 
 ## Definición operativa del curso
 
-En U7 llamaremos **polimetría** a la coexistencia de dos organizaciones métricas recurrentes cuyos **ciclos de barra son distintos**, aunque puedan compartir una unidad temporal y volver a coincidir periódicamente.
+En esta unidad llamaremos **polimetría** a la coexistencia de dos organizaciones métricas recurrentes cuyos **ciclos de barra son distintos**, aunque puedan compartir una unidad temporal y volver a coincidir periódicamente.
 
 Ejemplo principal:
 
@@ -50,31 +50,31 @@ No hay cambio de tempo.
 
 ## Base conceptual y cautela terminológica
 
-**EVIDENCIA / MARCO:** la auditoría canónica del proyecto incorpora la revisión de Nijhuis et al. (2026) para reforzar la separación entre polirritmia y polimetría. La literatura no usa siempre estos términos de manera idéntica; por eso el curso declara su definición operativa y la aplica consistentemente.
+**EVIDENCIA / MARCO:** la base documental del curso incorpora la revisión de Nijhuis et al. (2026) para reforzar la separación entre polirritmia y polimetría. La literatura no usa siempre estos términos de manera idéntica; por eso el curso declara su definición operativa y la aplica consistentemente.
 
 **DECISIÓN CURRICULAR RAZONADA:** empezar con `3/4 ↔ 4/4` y después `2/4 ↔ 3/4` porque permiten ver, calcular y sentir ciclos de realineación sencillos. No se presenta esta secuencia como una progresión científicamente óptima universal.
 
 ## Prerrequisitos
 
-El mapa fija:
+el curso $1:
 
-- **J5-R:** experiencia con ciclos que atraviesan barras;
-- **J6-F:** dos capas rítmicas simultáneas suficientemente funcionales;
-- **F2-R:** métrica y notación disponibles.
+- **R:** experiencia con ciclos que atraviesan barras;
+- **F:** dos capas rítmicas simultáneas suficientemente funcionales;
+- **R:** métrica y notación disponibles.
 
-U7 reutiliza esas capacidades, pero cambia la pregunta estructural.
+esta unidad reutiliza esas capacidades, pero cambia la pregunta estructural.
 
 ## Fronteras obligatorias
 
 ### Polimetría ≠ polirritmia
 
-En J6 dos ritmos podían compartir un mismo ciclo temporal, por ejemplo `3:2`. En J7 cada capa organiza **su propio ciclo métrico recurrente**: tiene su propio `1`, cuenta sus propios pulsos y vuelve a comenzar según su propia longitud de barra.
+En polirritmia dos ritmos podían compartir un mismo ciclo temporal, por ejemplo `3:2`. En polimetría cada capa organiza **su propio ciclo métrico recurrente**: tiene su propio `1`, cuenta sus propios pulsos y vuelve a comenzar según su propia longitud de barra.
 
-### Polimetría ≠ ciclo trans-barra de J5
+### Polimetría ≠ ciclo trans-barra de ciclos que cruzan compases
 
-En J5 conservábamos una métrica principal y una célula repetida cuya alineación cambiaba.
+En ciclos que cruzan compases conservábamos una métrica principal y una célula repetida cuya alineación cambiaba.
 
-En J7 no basta con repetir una célula y acentuarla: **ambas capas deben tratarse como organizaciones métricas**, con jerarquía de pulso y comienzo de barra propios.
+En polimetría no basta con repetir una célula y acentuarla: **ambas capas deben tratarse como organizaciones métricas**, con jerarquía de pulso y comienzo de barra propios.
 
 ### Polimetría ≠ métrica mixta
 
@@ -90,33 +90,24 @@ Una sola capa en `5/4` o `7/8` no es polimetría.
 
 ### Polimetría ≠ modulación métrica
 
-En los ejemplos principales de U7 la negra mantiene su duración. No convertimos una subdivisión en un nuevo pulso ni calculamos un nuevo tempo. Eso será J8.
+En los ejemplos principales de esta unidad la negra mantiene su duración. No convertimos una subdivisión en un nuevo pulso ni calculamos un nuevo tempo. Eso será modulación métrica.
 
-## Nota técnica sobre las partituras de U7
+## Nota sobre las partituras
 
-Aprendo valida actualmente cada compás MusicXML contra **un único compás escrito**, aunque admite varias voces simultáneas.
+Las dos capas se muestran sobre una línea temporal común. Sigue los acentos y etiquetas de cada métrica: las barras gráficas sirven como referencia visual y no sustituyen los ciclos propios de cada capa.
 
-Por eso las partituras de esta unidad usan una **PARTITURA DE TRANSPORTE**:
-
-- una barra global compatible con el visor organiza la línea temporal;
-- dos voces muestran las dos capas;
-- los acentos y etiquetas marcan el `1` real de cada métrica;
-- la duración y los puntos de realineación son exactos;
-- la barra global de transporte **no significa que ambas capas compartan la misma métrica**.
-
-Esta solución es una representación pedagógica original para la infraestructura actual, no una transcripción ni una afirmación de que MusicXML esté codificando dos firmas de compás independientes en el mismo pentagrama.
 
 ## Arquitectura
 
-1. **L1 — 3/4 sobre 4/4:** dos ciclos métricos, una negra común y realineación en 12 negras.
-2. **L2 — Mantener dos métricas:** cambiar foco, voz, dinámica y manos sin perder ninguno de los dos `1`.
-3. **L3 — Leer, escribir y calcular:** generalizar a `2/4 ↔ 3/4`, predecir reencuentros y recuperar una capa perdida.
-4. **L4 — Polimetría musical:** forma, improvisación, composición y transferencia al kit sin convertir el procedimiento en un acertijo matemático.
-5. **Checkpoint 7G — J7 funcional:** distinguir, mantener, calcular, leer, escribir, recuperar y aplicar.
+1. **Lección 1 — 3/4 sobre 4/4:** dos ciclos métricos, una negra común y realineación en 12 negras.
+2. **Lección 2 — Mantener dos métricas:** cambiar foco, voz, dinámica y manos sin perder ninguno de los dos `1`.
+3. **Lección 3 — Leer, escribir y calcular:** generalizar a `2/4 ↔ 3/4`, predecir reencuentros y recuperar una capa perdida.
+4. **Lección 4 — Polimetría musical:** forma, improvisación, composición y transferencia al kit sin convertir el procedimiento en un acertijo matemático.
+5. **Evaluación — polimetría funcional:** distinguir, mantener, calcular, leer, escribir, recuperar y aplicar.
 
 ## ESENCIAL AHORA
 
-- distinguir J7 de J5 y J6;
+- distinguir polimetría de ciclos que cruzan compases y polirritmia;
 - mantener una unidad temporal común;
 - sentir dos comienzos de barra diferentes;
 - sostener un ejemplo sencillo de `3/4 ↔ 4/4`;
@@ -141,7 +132,7 @@ Esta solución es una representación pedagógica original para la infraestructu
 - cambios deliberados de qué capa funciona como referencia perceptiva;
 - diseño compositivo donde la realineación tenga función formal.
 
-No se exige este nivel para pasar a U8.
+No se exige este nivel para pasar a Unidad 8.
 
 ## Práctica estándar de 25–30 min
 
@@ -153,7 +144,7 @@ No se exige este nivel para pasar a U8.
 
 ## Criterio de salida
 
-U7 cumple su función cuando puedes:
+esta unidad cumple su función cuando puedes:
 
 1. explicar qué hace que un ejemplo sea polimétrico;
 2. distinguirlo de 3:2, de un ciclo trans-barra y de métrica mixta;

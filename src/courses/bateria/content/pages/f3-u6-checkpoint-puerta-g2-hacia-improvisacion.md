@@ -7,17 +7,17 @@ unitSlug: fase-3-unidad-6
 slug: puerta-g2-hacia-improvisacion
 kind: checkpoint
 order: 6
-title: "Checkpoint — Puerta G2 hacia improvisación"
-summary: "Demuestra G2 mínimo sobre material nuevo: establece A, aplica una transformación consciente, escribe A’, toca ambas versiones y explica qué se conserva y qué cambia."
+title: "Evaluación — Puerta desarrollo motívico hacia improvisación"
+summary: "Demuestra desarrollo motívico mínimo sobre material nuevo: establece A, aplica una transformación consciente, escribe A’, toca ambas versiones y explica qué se conserva y qué cambia."
 duration: 20–30 min
 competencies: [G2, G1, D6, C1, C2, F2, K2, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-## Función del checkpoint
+## Función del Evaluación
 
-U7 pedirá elegir y usar transformaciones bajo restricciones. Antes necesitamos comprobar que **puedes realizar una transformación deliberada fuera de la presión de improvisar en tiempo real**.
+Unidad 7 pedirá elegir y usar transformaciones bajo restricciones. Antes necesitamos comprobar que **puedes realizar una transformación deliberada fuera de la presión de improvisar en tiempo real**.
 
 El mínimo de esta puerta es deliberadamente estrecho:
 
@@ -27,9 +27,9 @@ No necesitas combinar varias ni improvisar libremente.
 
 ## Material A nuevo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-Este A no apareció en L1–L5.
+Este A no apareció en Lección 1–Lección 5.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-cp-transform.musicxml" data-score-title="30.U6.CP — material A nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-cp-transform.musicxml" data-score-title="Unidad 6.evaluación — material A nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Puedes usar este A o crear otro de dificultad equivalente, siempre que conserves una primera versión estable.
 
@@ -43,7 +43,7 @@ Registra dos rasgos de identidad.
 
 # 2. ELIGE UNA TRANSFORMACIÓN
 
-Elige **una** operación esencial de U6:
+Elige **una** operación esencial de esta unidad:
 
 - variación local;
 - fragmentación;
@@ -85,7 +85,7 @@ Responde:
 4. ¿hubo algún accidente que no quieras contar como transformación?;
 5. ¿puedes aplicar la misma operación a otro motivo sencillo?
 
-## MÍNIMO PARA ABRIR U7
+## MÍNIMO PARA ABRIR Unidad 7
 
 - A es estable y reconocible;
 - aplicas **una transformación consciente**;
@@ -104,12 +104,12 @@ Produces dos variantes distintas, o encadenas dos transformaciones de forma secu
 
 Combinas varias transformaciones, exploras aumentación/disminución o retrogradación con control, o desarrollas una frase más larga.
 
-**AVANZADO no es requisito para U7.**
+**AVANZADO no es requisito para Unidad 7.**
 
 ## DECISIÓN
 
-### CONTINUAR A U7
-G2 mínimo está disponible. Puedes empezar a usar una transformación bajo restricciones temporales.
+### CONTINUAR A Unidad 7
+desarrollo motívico mínimo está disponible. Puedes empezar a usar una transformación bajo restricciones temporales.
 
 ### CONTINUAR + CORRECTIVO
 La operación está comprendida, pero una dimensión concreta —notación, continuidad, retorno o terminología— necesita apoyo localizado.
@@ -120,4 +120,4 @@ A no es estable o la transformación no puede distinguirse del accidente. Reduce
 ### DETENER CARGA
 Aparece una señal de salud/carga según el sistema `06`.
 
-Esta puerta **no certifica improvisación funcional G3**. Sólo verifica que U7 tiene material transformable y una operación consciente sobre la que trabajar.
+Esta puerta **no certifica improvisación funcional composición de fills y secciones**. Sólo verifica que Unidad 7 tiene material transformable y una operación consciente sobre la que trabajar.

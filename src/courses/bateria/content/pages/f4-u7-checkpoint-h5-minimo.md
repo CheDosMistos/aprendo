@@ -7,7 +7,7 @@ unitSlug: fase-4-unidad-7
 slug: h5-minimo
 kind: checkpoint
 order: 5
-title: "Checkpoint — H5 MÍNIMO"
+title: "Evaluación — groove y variaciones MÍNIMO"
 summary: "Comprueba un groove básico estable con una pequeña variación predeterminada y retorno sin perder pulso ni forma."
 duration: 20–30 min
 competencies: [H5, H4, H2, C1, C2, F3, G2, K2, K5, K6, K7]
@@ -15,33 +15,33 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este checkpoint
+## Qué demuestra este Evaluación
 
-Comprueba si **H5 MÍNIMO** está suficientemente disponible en una condición básica:
+Comprueba si **groove y variaciones MÍNIMO** está suficientemente disponible en una condición básica:
 
 > **Mantiene grooves básicos estables.**
 
-La prueba añade una pequeña variación porque U7 debe comprobar que la función del groove sobrevive a un cambio controlado.
+La prueba añade una pequeña variación porque esta unidad debe comprobar que la función del groove sobrevive a un cambio controlado.
 
 ## Bloque A — Groove base
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U7.CP — Groove A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 7.evaluación — Groove A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Sostén Groove A durante una frase breve.
 
 ## Bloque B — Variación B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="40.U7.CP — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="Unidad 7.evaluación — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Comprueba que la única nota nueva —bombo en `& de 3`— no desorganiza las demás capas.
 
 ## Bloque C — Forma A–A–B–A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="40.U7.CP — A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Unidad 7.evaluación — A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca la frase completa. Si aparece un error aislado, prioriza conservar o recuperar una referencia clara y **volver a A**.
 
-## MÍNIMO PARA H5
+## MÍNIMO PARA groove y variaciones
 
 Debe poder demostrarse razonablemente que:
 
@@ -62,22 +62,22 @@ Debe poder demostrarse razonablemente que:
 
 ## LO QUE NO CERTIFICA
 
-- H5 — COMPETENTE/FUNCIONAL;
-- H4 — COMPETENTE/FUNCIONAL global;
-- H7 — independencia;
-- H6 — fills;
-- B8/G5 — orquestación focal de U8;
+- COMPETENTE/FUNCIONAL;
+- COMPETENTE/FUNCIONAL global;
+- independencia;
+- fills;
+- orquestación de rudimentos/orquestación focal de Unidad 8;
 - ghost notes o aperturas como vocabulario funcional;
 - feel estilístico específico;
 - repertorio;
 - velocidad alta.
 
-Una variación predeterminada puede aportar evidencia hacia H4 competente, pero **no certifica H4 competente automáticamente**.
+Una variación predeterminada puede aportar evidencia hacia coordinación básica de cuatro extremidades competente, pero **no certifica coordinación básica de cuatro extremidades competente automáticamente**.
 
 ## Decisión
 
-- **AVANZA:** H5 MÍNIMO está suficientemente disponible.
+- **AVANZA:** groove y variaciones MÍNIMO está suficientemente disponible.
 - **AVANZA CON CORRECTIVO:** el groove es funcional para seguir, pero una transición/capa requiere mantenimiento.
-- **REPITE EL BLOQUE ESPECÍFICO:** un cuello de botella impide todavía sostener groove, variación o retorno; no hace falta repetir toda U7.
+- **REPITE EL BLOQUE ESPECÍFICO:** un cuello de botella impide todavía sostener groove, variación o retorno; no hace falta repetir toda esta unidad.
 
-La siguiente unidad cambia de foco: **U8 — orquestar vocabulario ya conocido**.
+La siguiente unidad cambia de foco: **Unidad 8 — orquestar vocabulario ya conocido**.

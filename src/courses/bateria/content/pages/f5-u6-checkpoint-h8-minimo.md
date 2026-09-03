@@ -7,7 +7,7 @@ unitSlug: fase-5-unidad-6
 slug: h8-minimo
 kind: checkpoint
 order: 5
-title: "Checkpoint 5C — H8 MÍNIMO"
+title: "Evaluación — balance, sonido y orquestación MÍNIMO"
 summary: "Comprueba que puedes reconocer y registrar una diferencia sonora y aplicar un ajuste básico, razonado y reversible."
 duration: 20–30 min
 competencies: [H8, A5, H1, C4, K2, K5, K6, K7]
@@ -17,9 +17,9 @@ published: true
 
 ## Qué certifica
 
-Este checkpoint puede certificar:
+Este Evaluación puede certificar:
 
-> **H8 MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
+> **balance, sonido y orquestación MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
 
 La operacionalización de Fase 5 añade:
 
@@ -95,11 +95,11 @@ Debe observarse razonablemente que:
 
 ## CERTIFICA
 
-- **H8 MÍNIMO en una tarea preparada.**
+- **balance, sonido y orquestación MÍNIMO en una tarea preparada.**
 
 ## NO CERTIFICA
 
-- H8 COMPETENTE/FUNCIONAL global;
+- balance, sonido y orquestación COMPETENTE/FUNCIONAL global;
 - afinación profesional;
 - afinación por frecuencias o notas prescritas;
 - microfonía multipista;
@@ -117,4 +117,4 @@ Debe observarse razonablemente que:
 - **AVANZA CON CORRECTIVO:** el razonamiento es funcional, pero la comparación A/B necesita mejor control de condiciones.
 - **REPITE LA PRUEBA ESPECÍFICA:** no puede aislar qué cambió porque modifica varias variables a la vez.
 
-U7 cambiará el foco a **espacio, offbeat y control de textura**, con reggae como ventana estilística y verificación idiomática específica antes de desarrollar sus lecciones.
+Unidad 7 cambiará el foco a **espacio, offbeat y control de textura**, con reggae como ventana estilística y verificación idiomática específica antes de desarrollar sus lecciones.

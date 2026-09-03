@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Diseñar un plan breve que responda al diagnóstico de L1–L2 y pueda **modificarse cuando la evidencia contradiga la estrategia inicial**.
+Diseñar un plan breve que responda al diagnóstico de Lección 1–Lección 2 y pueda **modificarse cuando la evidencia contradiga la estrategia inicial**.
 
 No necesitas planificar un mes. Empieza con las próximas **2–3 sesiones**.
 
@@ -143,7 +143,7 @@ Si la primera sesión demuestra que la hipótesis era incorrecta, modifica las s
 
 ## 8. Carga y salud siguen dentro del plan
 
-K7 no desaparece al aumentar la autonomía.
+gestión de carga y salud no desaparece al aumentar la autonomía.
 
 Reduce o detén la carga ante dolor, hormigueo, entumecimiento o pérdida de fuerza. Con kit, incluye además gestión prudente de exposición auditiva, pausas y protección cuando corresponda.
 

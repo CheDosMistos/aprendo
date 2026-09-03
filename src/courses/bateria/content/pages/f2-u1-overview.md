@@ -25,10 +25,10 @@ La pregunta cambia. Hasta ahora era importante construir una representación cor
 
 La puerta de entrada de esta fase se apoya sobre cuatro competencias que ya aparecieron antes:
 
-- **C1 — pulso interno**;
-- **C2 — subdivisión binaria y ternaria**, aquí con foco binario;
-- **D1 — figuras, silencios y compás básico**;
-- **F1 — conceptos de pulso, figura, subdivisión y duración**.
+- **pulso interno**;
+- **subdivisión binaria y ternaria**, aquí con foco binario;
+- **figuras, silencios y compás básico**;
+- **conceptos de pulso, figura, subdivisión y duración**.
 
 No tienen que estar perfectas. Necesitan estar suficientemente disponibles para que una línea nueva permita aprender y diagnosticar en lugar de producir varios fallos simultáneos.
 
@@ -45,7 +45,7 @@ El material técnico conocido pasa a ser una espiral secundaria. Puede aparecer 
 - distinción entre fallo de lectura, tiempo, técnica, memoria o comprensión;
 - uso prudente del metrónomo como referencia, no como examen de BPM.
 
-## Recorrido aprobado de 20.U1
+## Recorrido aprobado de Unidad 1
 
 La unidad conserva la arquitectura ya fijada:
 
@@ -53,9 +53,9 @@ La unidad conserva la arquitectura ya fijada:
 2. **Fluidez binaria sin memorizar dibujos** — aumentar continuidad y densidad de lectura.
 3. **Aplicación rudimental sin perder la línea** — usar vocabulario técnico sin sustituir el ritmo por sticking.
 4. **Oído, escritura y primera vista** — cerrar el ciclo sonido ↔ notación con material nuevo.
-5. **Puerta de fluidez binaria** — checkpoint para decidir el siguiente paso.
+5. **Puerta de fluidez binaria** — Evaluación para decidir el siguiente paso.
 
-Las cinco piezas L1–L4 + CP forman ya el recorrido completo de 20.U1. Eso **cierra la arquitectura editorial de la unidad**, pero completar las páginas no equivale a “aprobar”: el checkpoint decide si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según evidencia y salud/carga.
+Las cinco piezas Lección 1–Lección 4 + evaluación forman ya el recorrido completo de Unidad 1. Eso **cierra la estructura de la unidad de la unidad**, pero completar las páginas no equivale a “aprobar”: el Evaluación decide si conviene `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` según evidencia y salud/carga.
 
 ## Regla de primera vista
 

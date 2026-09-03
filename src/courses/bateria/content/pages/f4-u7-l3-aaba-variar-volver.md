@@ -21,7 +21,7 @@ Colocar la Variación B en un punto formal fijo y demostrar el retorno a Groove 
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — FRASE A–A–B–A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="40.U7.L3 — Frase A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Unidad 7.Lección 3 — Frase A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La frase tiene cuatro compases:
 

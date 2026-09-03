@@ -100,7 +100,7 @@ Una línea base no necesita:
 - encontrar todos los defectos;
 - decidir ya la solución.
 
-En U1 la grabación sirve como **feedback aumentado** y como evidencia comparable. No sustituye la escucha musical ni demuestra por sí sola retención.
+En esta unidad la grabación sirve como **feedback aumentado** y como evidencia comparable. No sustituye la escucha musical ni demuestra por sí sola retención.
 
 ## 7. Registro mínimo
 
@@ -117,7 +117,7 @@ Ejemplo:
 - existe una toma o evidencia equivalente suficientemente interpretable;
 - las condiciones principales están declaradas;
 - puedes describir al menos un problema observable sin confundirlo con su causa;
-- eliges una sola prioridad para investigar en L2;
+- eliges una sola prioridad para investigar en Lección 2;
 - la sesión respeta una carga física y auditiva sostenible.
 
 **No existe BPM de aprobado.**

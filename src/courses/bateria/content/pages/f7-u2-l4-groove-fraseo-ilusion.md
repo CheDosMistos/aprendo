@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Aplicar J2 como recurso musical: hacer que una frase parezca temporalmente descentrada **sin perder la referencia real**.
+Aplicar desplazamientos de acento y motivo como recurso musical: hacer que una frase parezca temporalmente descentrada **sin perder la referencia real**.
 
 ## Ilusión no significa cambio real
 
@@ -71,9 +71,9 @@ No conviertas la coordinación adicional en el objetivo dominante.
 
 ## Click desplazado como ampliación
 
-Si C4 está estable, puedes hacer una prueba donde el click se escuche en una posición distinta de la esperada y tú conserves internamente el `1` real.
+Si metrónomo y click reducido está estable, puedes hacer una prueba donde el click se escuche en una posición distinta de la esperada y tú conserves internamente el `1` real.
 
-Eso trabaja también C6, pero no es requisito para aprobar U2.
+Eso trabaja también click con gaps, pero no es requisito para aprobar esta unidad.
 
 ## Improvisación con una sola variable
 
@@ -81,7 +81,7 @@ Durante cuatro compases improvisa cambios tímbricos y dinámicos **sin cambiar 
 
 Después, durante cuatro compases, mantén el material casi idéntico y cambia **sólo el offset**.
 
-Comparar ambas tareas ayuda a escuchar qué aporta específicamente J2.
+Comparar ambas tareas ayuda a escuchar qué aporta específicamente desplazamientos de acento y motivo.
 
 ## Recurso opcional
 

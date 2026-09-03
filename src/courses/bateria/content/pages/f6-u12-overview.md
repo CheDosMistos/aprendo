@@ -7,8 +7,8 @@ unitSlug: fase-6-unidad-12
 slug: integracion-portafolio-hito-7
 kind: unit
 order: 0
-title: "60.U12 — Integración, portafolio y Hito 7"
-summary: "Cierra Fase 6 mediante evidencia acumulativa: revisa R1–R4, comprueba retención y transferencia no idéntica, compara la línea base de U1 con el estado final y decide formalmente el Hito 7 sin exigir nivel avanzado universal."
+title: "Integración, portafolio y Hito 7"
+summary: "Cierra Fase 6 mediante evidencia acumulativa: revisa los cuatro carriles del portafolio, comprueba retención y transferencia no idéntica, compara la línea base de Unidad 1 con el estado final y decide formalmente el Hito 7 sin exigir nivel avanzado universal."
 duration: 4 lecciones + checkpoint final; varias sesiones
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4, I5, I6, H7, C7, D7, G3]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 ## Función de la unidad
 
-U12 es el **cierre integrador de Fase 6**.
+esta unidad es el **cierre integrador de Fase 6**.
 
-No añade un nuevo repertorio de técnicas ni convierte el final de fase en un examen de dificultad máxima. Su novedad dominante, fijada por la fuente superior, es comprobar que las capacidades desarrolladas **sobreviven fuera de ejercicios aislados**.
+No añade un nuevo repertorio de técnicas ni convierte el final de fase en un examen de dificultad máxima. Su novedad dominante, fijada por el diseño del curso, es comprobar que las capacidades desarrolladas **sobreviven fuera de ejercicios aislados**.
 
 La pregunta final es:
 
@@ -33,13 +33,13 @@ El Plan General exige:
 
 > **Aprender una pieza al menos parcialmente mediante escucha, transcripción y análisis, no únicamente mediante tutorial.**
 
-U12 no repite necesariamente ese proyecto. Revisa la evidencia ya producida y sólo pide una nueva muestra si la anterior es insuficiente o no es interpretable.
+esta unidad no repite necesariamente ese proyecto. Revisa la evidencia ya producida y sólo pide una nueva muestra si la anterior es insuficiente o no es interpretable.
 
 ### Puerta B — Hito 7: Aprendiz autónomo
 
 El mapa vincula Hito 7 con:
 
-`K1–K8 + E6 + F7`
+`las capacidades de práctica y autonomía + transcripción real + análisis musical`
 
 No exige que todas esas competencias estén en nivel AVANZADO. La decisión debe apoyarse en evidencia conjunta y funcional.
 
@@ -47,16 +47,16 @@ No exige que todas esas competencias estén en nivel AVANZADO. La decisión debe
 
 La fuente de Fase 6 también espera evidencia acumulada, cuando corresponda, de repertorio, transferencia estilística, interacción, independencia, tiempo, lectura y creatividad.
 
-Pero U12 no cambia silenciosamente el contrato de Hito 7:
+Pero esta unidad no cambia silenciosamente el contrato de Hito 7:
 
-- I3/I4/I5/I6, H7, C7, D7 y G3 ayudan a describir el **perfil de salida**;
-- una carencia de evidencia interpersonal real en I6 no invalida por sí sola Hito 7;
+- formas y canciones/repertorio/transferencia entre estilos/interacción y ensemble, independencia avanzada, microtiming y placement, lectura aplicada al kit y composición de fills y secciones ayudan a describir el **perfil de salida**;
+- una carencia de evidencia interpersonal real en interacción y ensemble no invalida por sí sola Hito 7;
 - una competencia de apoyo puede quedar en mantenimiento si el núcleo del hito está demostrado;
 - ningún área se convierte automáticamente en AVANZADA por cerrar la fase.
 
 ## Qué evidencia cuenta
 
-La evidencia puede proceder de U1–U11 si sigue siendo interpretable:
+La evidencia puede proceder de Unidad 1–Unidad 11 si sigue siendo interpretable:
 
 - grabaciones;
 - charts o mapas propios;
@@ -71,21 +71,21 @@ La evidencia puede proceder de U1–U11 si sigue siendo interpretable:
 
 **No se repite una tarea sólo para producir otro archivo si ya existe evidencia suficiente.**
 
-## R1–R4 en el cierre
+## los cuatro carriles del portafolio en el cierre
 
-### R1 — Escucha / transcripción
+### Escucha y transcripción — Escucha / transcripción
 
-Debe existir evidencia de que una pieza o fragmento sustancial se aprendió principalmente desde audio y análisis, con E6/F7 aplicados y con incertidumbre explícita cuando proceda.
+Debe existir evidencia de que una pieza o fragmento sustancial se aprendió principalmente desde audio y análisis, con transcripción real/análisis musical aplicados y con incertidumbre explícita cuando proceda.
 
-### R2 — Chart / lectura
+### Chart y lectura — Chart / lectura
 
 Debe poder localizarse evidencia de navegación, forma, cues/figures y prioridad de información sin sacrificar continuidad.
 
-### R3 — Transferencia estilística
+### Transferencia entre estilos — Transferencia estilística
 
 Debe existir una adaptación consciente donde se distingan invariantes transferibles y rasgos de contexto que no conviene borrar.
 
-### R4 — Proyecto autónomo
+### Proyecto autónomo — Proyecto autónomo
 
 Debe poder reconstruirse un ciclo donde el alumno seleccionó parte del procedimiento, usó recursos con criterio, revisó el plan y comprobó transferencia.
 
@@ -93,7 +93,7 @@ No se exige una canción diferente para cada carril.
 
 ## Retención: qué significa aquí
 
-La fuente superior pide **retención de material anterior sin calentamiento específico excesivo**.
+el diseño del curso pide **retención de material anterior sin calentamiento específico excesivo**.
 
 Eso NO significa empezar físicamente en frío. Puedes realizar una activación corporal y temporal segura.
 
@@ -103,7 +103,7 @@ El sistema del curso no fija 24 h, 48 h ni otro intervalo universal. Se busca se
 
 ## Transferencia no idéntica
 
-U12 necesita al menos una tarea donde cambie una condición pertinente sin convertir la prueba en otro currículo.
+esta unidad necesita al menos una tarea donde cambie una condición pertinente sin convertir la prueba en otro currículo.
 
 Ejemplos:
 
@@ -116,17 +116,17 @@ Ejemplos:
 
 No se añade velocidad, densidad o métrica avanzada sólo para hacer la evaluación “más difícil”.
 
-## Comparación U1 → U12
+## Comparación Unidad 1 → esta unidad
 
-U1 abrió Fase 6 con:
+Unidad 1 abrió Fase 6 con:
 
 - una línea base;
 - un problema real;
 - una hipótesis o estrategia provisional;
-- R1–R4 abiertos;
+- los cuatro carriles del portafolio abiertos;
 - un siguiente objetivo.
 
-U12 vuelve a esa evidencia para preguntar:
+esta unidad vuelve a esa evidencia para preguntar:
 
 - ¿qué diagnósticos son ahora más precisos?;
 - ¿qué recursos eliges con más criterio?;
@@ -139,19 +139,19 @@ No se intenta demostrar que “todo mejoró”. Una comparación honesta puede m
 
 ## Arquitectura
 
-1. **L1 — Auditoría R1–R4: qué evidencia existe y qué falta realmente.**
-2. **L2 — Retención: recuperar material anterior sin enmascarar la prueba.**
-3. **L3 — Transferencia no idéntica + integración E6/F7/K8.**
-4. **L4 — U1 → U12: límites, mantenimiento y transición sin adelantar Fase 7.**
-5. **Checkpoint 6I — Cierre de Fase 6 y decisión formal de Hito 7.**
+1. **Lección 1 — Auditoría los cuatro carriles del portafolio: qué evidencia existe y qué falta realmente.**
+2. **Lección 2 — Retención: recuperar material anterior sin enmascarar la prueba.**
+3. **Lección 3 — Transferencia no idéntica + integración transcripción real/análisis musical/autonomía.**
+4. **Lección 4 — Unidad 1 → esta unidad: límites, mantenimiento y transición sin adelantar Fase 7.**
+5. **Evaluación — Cierre de Fase 6 y decisión formal de Hito 7.**
 
-## Por qué 6I
+## Por qué evaluación final
 
-La implementación publicada ha usado 6F en U9, 6G en U10 y 6H en U11. El cierre continúa la secuencia como **6I**. La fuente superior denomina U12 “Integración, portafolio y Hito 7” y no fija otra letra para este checkpoint final.
+La implementación publicada ha usado evaluación final en Unidad 9, evaluación final en Unidad 10 y evaluación final en Unidad 11. El cierre continúa la secuencia como **evaluación final**. el diseño del curso denomina esta unidad “Integración, portafolio y Hito 7” y no fija otra letra para este Evaluación final.
 
-## Fuentes y evidencia que U12 reutiliza
+## Fuentes y evidencia que esta unidad reutiliza
 
-U12 no abre una investigación nueva sobre práctica deliberada, feedback o interferencia contextual. Aplica la base ya verificada en el curso:
+esta unidad no abre una investigación nueva sobre práctica deliberada, feedback o interferencia contextual. Aplica la base ya verificada en el curso:
 
 - Kantak & Winstein (2012), DOI `10.1016/j.bbr.2011.11.028`: distingue rendimiento durante práctica de aprendizaje inferido mediante retención/transferencia; evidencia motora general, no específica de batería.
 - Biasutti & Concina (2019), DOI `10.3389/fpsyg.2019.01583`: revisión sobre metacognición y autorregulación musical; no prescribe un protocolo único.
@@ -161,7 +161,7 @@ La autoridad curricular para el cierre sigue siendo: Plan General + mapa de comp
 
 ## Fronteras
 
-U12:
+esta unidad:
 
 - no introduce un estilo nuevo;
 - no exige repertorio virtuosístico;

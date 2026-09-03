@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Comprobar que el kit está listo para empezar U2 mediante una transferencia mínima y controlada.
+Comprobar que el kit está listo para empezar Unidad 2 mediante una transferencia mínima y controlada.
 
 No vas a repartir notas entre varios tambores. Eso sería ya una forma de orquestación y pertenece a la siguiente unidad.
 
@@ -109,12 +109,12 @@ La grabación no es obligatoria ni se usa para medir ángulos corporales automá
 
 No demuestra todavía:
 
-- H2 bombo;
-- H3 hi-hat de pie;
-- H4 coordinación de cuatro extremidades;
-- H5 groove;
-- H6 fills;
-- G5 orquestación creativa.
+- bombo bombo;
+- hi-hat de pie hi-hat de pie;
+- coordinación básica de cuatro extremidades coordinación de cuatro extremidades;
+- groove y variaciones groove;
+- fills fills;
+- improvisación restringida orquestación creativa.
 
 Sólo confirma que la entrada física al kit es suficientemente funcional para empezar a transferir de verdad.
 
@@ -122,4 +122,4 @@ Sólo confirma que la entrada física al kit es suficientemente funcional para e
 
 Registra `problema principal → prueba → efecto → siguiente paso`.
 
-Si el problema sigue siendo de acceso, vuelve a L2. Si es de superficie, U2 lo desarrollará. Si es de tiempo, usa un correctivo de C1 sin reiniciar el currículo.
+Si el problema sigue siendo de acceso, vuelve a Lección 2. Si es de superficie, Unidad 2 lo desarrollará. Si es de tiempo, usa un correctivo de pulso interno sin reiniciar el currículo.

@@ -15,17 +15,17 @@ rudiments: []
 published: true
 ---
 
-L1 hizo visible la jerarquía prototípica de 6/8:
+Lección 1 hizo visible la jerarquía prototípica de 6/8:
 
 `2 PULSOS PRINCIPALES × 3 SUBDIVISIONES`.
 
-L2 mantiene exactamente ese marco y cambia **una sola variable**: algunas posiciones internas dejan de sonar.
+Lección 2 mantiene exactamente ese marco y cambia **una sola variable**: algunas posiciones internas dejan de sonar.
 
 > **UN SILENCIO OCUPA TIEMPO. NO BORRA EL PULSO NI LA POSICIÓN QUE OCUPA.**
 
 La novedad dominante no es aprender otra métrica, otra figura ni otra técnica de manos. Es poder leer `ataque / silencio` dentro de una rejilla ternaria sin convertir el compás en seis pulsos pequeños ni perder el segundo pulso principal.
 
-La comparación sistemática `3/4 ↔ 6/8` sigue reservada para L3.
+La comparación sistemática `3/4 ↔ 6/8` sigue reservada para Lección 3.
 
 ## 1. Recuperación: seis posiciones, dos pulsos — 3 min
 
@@ -70,13 +70,13 @@ Imagina:
 
 El `2` sigue existiendo aunque la primera corchea de ese segundo pulso sea silencio. Debes poder localizar internamente el inicio del segundo grupo antes de tocar sus dos posiciones siguientes.
 
-Si los dos últimos ataques llegan bien espaciados pero no sabes dónde cayó el `2`, la subdivisión puede estar parcialmente conservada mientras la **jerarquía del pulso compuesto** se ha debilitado. Esta distinción será parte del diagnóstico de L2.
+Si los dos últimos ataques llegan bien espaciados pero no sabes dónde cayó el `2`, la subdivisión puede estar parcialmente conservada mientras la **jerarquía del pulso compuesto** se ha debilitado. Esta distinción será parte del diagnóstico de Lección 2.
 
 ## 3. Leer ataques y silencios sin perder 2×3 — 10–12 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-title="20.U6.L2 — ataques y silencios dentro de 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-title="Unidad 6.Lección 2 — ataques y silencios dentro de 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l2-ataques-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de habilitar audio:
 
@@ -116,14 +116,14 @@ Primera pasada:
 
 ### Qué contiene la partitura
 
-- **compás 1:** seis corcheas sonoras — recuperación de L1;
+- **compás 1:** seis corcheas sonoras — recuperación de Lección 1;
 - **compás 2:** `X X · | X X ·` — silencio al final de cada pulso;
 - **compás 3:** `· X X | X · X` — incluye silencio justo al inicio del primer pulso del compás;
 - **compás 4:** `X · X | · X X` — incluye silencio justo al inicio del segundo pulso.
 
 Cada compás conserva seis posiciones de corchea y suma exactamente 6/8.
 
-El asset mantiene la referencia técnica global de playback del curso: `<sound tempo="120"/>`, equivalente aquí a `♩. = 80`. Es una condición de reproducción, **no** un tempo obligatorio de práctica ni un criterio de avance.
+El materiales mantiene la referencia técnica global de playback del curso: `<sound tempo="120"/>`, equivalente aquí a `♩. = 80`. Es una condición de reproducción, **no** un tempo obligatorio de práctica ni un criterio de avance.
 
 ## 4. Continuidad a través del silencio — 5 min
 
@@ -167,19 +167,19 @@ Sabías dónde estaba el pulso y la posición, pero golpeaste donde había silen
 
 El pulso principal seguía localizable, pero las tres posiciones internas dejaron de ser aproximadamente iguales o una posición desapareció.
 
-**Variable probable:** C2 / rejilla ternaria.
+**Variable probable:** subdivisión binaria y ternaria / rejilla ternaria.
 
 ### Pérdida del pulso compuesto
 
 Dejaste de localizar uno o ambos inicios principales y la línea se convirtió en una secuencia de ataques aislados o “seis pequeños pulsos”.
 
-**Variable probable:** C1 + jerarquía D4/F2.
+**Variable probable:** pulso interno + jerarquía lectura de compás/métrica y terminología rítmica.
 
 ### Error de representación
 
 Podías ejecutar la célula al oírla o cantarla, pero la notación de nota/silencio te hizo perder una posición conocida.
 
-**Variable probable:** D4, no necesariamente tiempo básico.
+**Variable probable:** lectura de compás, no necesariamente tiempo básico.
 
 No conviertas estas categorías en diagnósticos clínicos ni en etiquetas permanentes. Son hipótesis de trabajo que deben contrastarse con otra muestra breve.
 
@@ -207,7 +207,7 @@ Decisiones posibles:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L3
+## MÍNIMO PARA AVANZAR A Lección 3
 
 En una condición cómoda y con ayudas razonables cuando hagan falta:
 
@@ -226,13 +226,13 @@ No se exige:
 - cero errores;
 - un BPM fijo o alto;
 - leer silencios complejos de semicorchea;
-- comparación funcional `3/4 ↔ 6/8` — L3;
-- 9/8 o 12/8 — U7;
-- sextillos — U8;
-- primera vista formal D5 — U9;
-- gaps de metrónomo — U10;
+- comparación funcional `3/4 ↔ 6/8` — Lección 3;
+- 9/8 o 12/8 — Unidad 7;
+- sextillos — Unidad 8;
+- primera vista formal Unidad 9;
+- gaps de metrónomo — Unidad 10;
 - dominio estilístico de shuffle/jazz;
-- actualizar automáticamente C1, C2, D4 o F2 por completar la página.
+- actualizar automáticamente pulso interno, subdivisión binaria y ternaria, lectura de compás o métrica y terminología rítmica por completar la página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
@@ -247,7 +247,7 @@ Como ampliación, elige uno de los compases 2–4 y desplaza **un único silenci
 3. canta la rejilla;
 4. toca tu variante.
 
-Esto es **agrupación/variación interna dentro del mismo compás**, no cambio métrico. No transformes todavía la célula en 3/4; ese contraste pertenece a L3.
+Esto es **agrupación/variación interna dentro del mismo compás**, no cambio métrico. No transformes todavía la célula en 3/4; ese contraste pertenece a Lección 3.
 
 ## Si algo se rompe
 

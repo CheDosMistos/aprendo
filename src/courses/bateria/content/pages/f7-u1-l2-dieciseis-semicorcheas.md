@@ -8,7 +8,7 @@ slug: dieciseis-semicorcheas
 kind: lesson
 order: 2
 title: "Dieciséis semicorcheas: agrupar sin borrar la negra"
-summary: "Traslada J1 a una cuadrícula de semicorcheas y conserva una referencia clara de negra mientras los acentos generan grupos asimétricos."
+summary: "Traslada agrupaciones dentro de 4/4 a una cuadrícula de semicorcheas y conserva una referencia clara de negra mientras los acentos generan grupos asimétricos."
 duration: 25–30 min
 competencies: [J1, C1, C2, D4, F2, K2, K5]
 rudiments: []
@@ -19,7 +19,7 @@ published: true
 
 Mantener `4/4` y su pulso de negra mientras repartes las **16 semicorcheas** de la barra en grupos de longitudes diferentes.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u1/f7-u1-sixteenth-groupings.musicxml" data-score-title="70.U1 — Agrupaciones de semicorcheas en 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u1/f7-u1-sixteenth-groupings.musicxml" data-score-title="Unidad 1 — Agrupaciones de semicorcheas en 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Dos capas que deben coexistir
 
@@ -65,7 +65,7 @@ Tras un pequeño error, conserva la voz de negras y vuelve a entrar en el siguie
 
 Una agrupación de cinco semicorcheas **no es un quintillo**.
 
-En `5+5+6`, cada nota sigue siendo una semicorchea ordinaria. Un quintillo pertenece a J4 y exige una relación de tuplet: cinco ataques repartidos en una duración definida respecto a otra subdivisión.
+En `5+5+6`, cada nota sigue siendo una semicorchea ordinaria. Un quintillo pertenece a tuplets de 5 y 7 y divisiones no estándar y exige una relación de tuplet: cinco ataques repartidos en una duración definida respecto a otra subdivisión.
 
 ## Oído
 
@@ -80,7 +80,7 @@ La grabación es feedback, no una nota final.
 
 ## Diagnóstico
 
-Si los acentos destruyen la igualdad de las semicorcheas, reduce primero el contraste dinámico. El problema de J1 es temporal y perceptivo; no merece ocultarse bajo un problema mecánico de acentuación demasiado grande.
+Si los acentos destruyen la igualdad de las semicorcheas, reduce primero el contraste dinámico. El problema de agrupaciones dentro de 4/4 es temporal y perceptivo; no merece ocultarse bajo un problema mecánico de acentuación demasiado grande.
 
 ## Criterio de avance
 

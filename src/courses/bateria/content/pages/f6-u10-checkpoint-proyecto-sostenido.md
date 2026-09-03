@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-10
 slug: checkpoint-proyecto-sostenido
 kind: checkpoint
 order: 6
-title: "Checkpoint 6G — Proyecto sostenido integrado"
+title: "Evaluación — Proyecto sostenido integrado"
 summary: "Evalúa un portafolio de pasadas completas donde chart, continuidad, recuperación, respuesta externa, adaptación y autonomía aplicada funcionan dentro de la misma situación musical."
 duration: portafolio de varias pasadas + revisión
 competencies: [I4, D7, I6, I5, C7, K8, F7, H5, H6]
@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa
 
-Checkpoint 6G no pregunta si una toma quedó libre de errores.
+Evaluación no pregunta si una toma quedó libre de errores.
 
 Pregunta si puedes sostener una situación musical completa en la que debes:
 
@@ -31,7 +31,7 @@ Presenta:
 2. **pasada base completa**;
 3. **pasada con cues/adaptación programada**;
 4. **pasada final o retest**;
-5. registro de **una decisión K8** entre pasadas;
+5. registro de **una decisión autonomía** entre pasadas;
 6. comparación cualitativa entre las tomas;
 7. declaración explícita del tipo de interacción disponible.
 
@@ -51,7 +51,7 @@ Si usaste una obra comercial, no entregues a Aprendo una copia no autorizada de 
 
 ¿Sabes dónde estás, anticipas landmarks y reentras después de una pérdida local?
 
-### Lectura funcional — D7
+### Lectura funcional — lectura aplicada al kit
 
 ¿El chart guía decisiones sin obligarte a descifrar cada detalle como si fuera una partitura lineal?
 
@@ -71,7 +71,7 @@ Si usaste una obra comercial, no entregues a Aprendo una copia no autorizada de 
 
 ¿Qué información externa recibiste y qué cambió realmente por tu respuesta?
 
-### K8 aplicado
+### autonomía aplicado
 
 ¿Elegiste qué reparar, qué dejar para después y qué apoyo mantener/reducir/retirar basándote en evidencia?
 
@@ -89,7 +89,7 @@ Existe evidencia suficiente cuando:
 - mantienes pulso/forma lo bastante estables para que los errores locales no obliguen sistemáticamente a reiniciar;
 - recuperas al menos una pérdida o simplificación sin abandonar toda la interpretación;
 - respondes a información externa predeterminada de manera musicalmente interpretable;
-- realizas al menos una decisión K8 entre pasadas y vuelves al contexto para comprobarla;
+- realizas al menos una decisión autonomía entre pasadas y vuelves al contexto para comprobarla;
 - distingues con honestidad simulación, cue humano e interacción musical real;
 - no conviertes BPM, número de errores o precisión gráfica en criterio único.
 
@@ -97,7 +97,7 @@ Si no hubo otro músico, registra:
 
 `INTERACCIÓN INTERPERSONAL REAL: NO OBSERVADA TODAVÍA`
 
-Eso **no invalida** el resto del checkpoint.
+Eso **no invalida** el resto del Evaluación.
 
 ## COMPETENTE / FUNCIONAL
 
@@ -112,11 +112,11 @@ La evidencia es más sólida cuando, en varias pasadas representativas:
 - puedes transferir el proyecto a una segunda condición pertinente sin perder el núcleo;
 - si hubo otro músico responsivo, se observan al menos episodios claros de influencia en ambas direcciones.
 
-La presencia de otro músico puede aportar evidencia para I6 FUNCIONAL, pero **no se declara automáticamente por haber tocado juntos**: debe existir adaptación observable a otros músicos.
+La presencia de otro músico puede aportar evidencia para interacción y ensemble FUNCIONAL, pero **no se declara automáticamente por haber tocado juntos**: debe existir adaptación observable a otros músicos.
 
 ## AVANZADO
 
-No es requisito para cerrar U10.
+No es requisito para cerrar esta unidad.
 
 Podría observarse cuando:
 
@@ -127,7 +127,7 @@ Podría observarse cuando:
 - transfieres estilo/feel con intención sin borrar la estructura;
 - diseñas y verificas ajustes del proyecto con alta autonomía.
 
-Esto no equivale a declarar K8 AVANZADO global ni Hito 7.
+Esto no equivale a declarar autonomía AVANZADO global ni Hito 7.
 
 ## Cuatro decisiones
 
@@ -149,13 +149,13 @@ Aparecen dolor, fatiga o tensión que hacen insegura una nueva pasada.
 
 ## Fronteras finales
 
-Checkpoint 6G:
+Evaluación:
 
 - no declara **Hito 7**;
-- no certifica por sí solo E6 FUNCIONAL o F7 FUNCIONAL global;
-- no convierte K8 FUNCIONAL en K8 AVANZADO;
-- no redefine el contrato de U11;
-- no consume el cierre global reservado para U12;
+- no certifica por sí solo transcripción real FUNCIONAL o análisis musical FUNCIONAL global;
+- no convierte autonomía FUNCIONAL en autonomía AVANZADO;
+- no redefine el contrato de Unidad 11;
+- no consume el cierre global reservado para Unidad 12;
 - no abre contenido profundo de Fase 7;
 - no exige polirritmia, polimetría o modulación métrica;
 - no exige BPM universal;
@@ -166,8 +166,8 @@ Checkpoint 6G:
 
 ## Procedencia
 
-«Proyecto Horizonte», su chart, sus cues y todos los protocolos de U10 son **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
+«Proyecto Horizonte», su chart, sus cues y todos los protocolos de esta unidad son **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
 No contienen una transcripción de repertorio protegido ni reproducen ejercicios de métodos comerciales.
 
-> **EL RESULTADO DE U10 ES UNA EVIDENCIA DE INTEGRACIÓN SOSTENIDA, NO EL HITO FINAL DE AUTONOMÍA DE FASE 6.**
+> **EL RESULTADO DE esta unidad ES UNA EVIDENCIA DE INTEGRACIÓN SOSTENIDA, NO EL HITO FINAL DE AUTONOMÍA DE FASE 6.**

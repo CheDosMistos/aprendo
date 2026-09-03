@@ -8,14 +8,14 @@ slug: flam-escrito-grace-note-y-principal
 kind: lesson
 order: 2
 title: "Flam escrito: grace note y principal"
-summary: "Decodifica una grace note antes de una nota principal, contrasta línea simple y ornamentada y aplica B3/B7 sin sustituir lectura por memoria del rudimento."
+summary: "Decodifica una grace note antes de una nota principal, contrasta línea simple y ornamentada y aplica paradiddles/aplicación musical de rudimentos sin sustituir lectura por memoria del rudimento."
 duration: 25–30 min
 competencies: [B3, B7, C1, D3, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-L1 añadió una relación tuplet. L2 cambia de problema: una **grace note no es una subdivisión adicional que deba rellenar el compás como una figura ordinaria**.
+Lección 1 añadió una relación tuplet. Lección 2 cambia de problema: una **grace note no es una subdivisión adicional que deba rellenar el compás como una figura ordinaria**.
 
 > **PRIMERO IDENTIFICA GRACE NOTE + PRINCIPAL. DESPUÉS APLICA LA MECÁNICA DE TIPO FLAM.**
 
@@ -36,7 +36,7 @@ Referencia técnica:
 
 Eso no significa «tócala cuando quieras» ni «no ocupa ningún tiempo físico». Significa que **su función notacional no se contabiliza como una duración métrica ordinaria que añada otro pulso al compás**.
 
-En el objetivo B3 del mapa de competencias, el mínimo relevante es distinguir **grace note y principal** y evitar un flam claramente plano.
+En el objetivo paradiddles del mapa de competencias, el mínimo relevante es distinguir **grace note y principal** y evitar un flam claramente plano.
 
 ### Tres errores distintos
 
@@ -50,7 +50,7 @@ No fijamos hoy una distancia universal en milisegundos. La relación depende de 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-title="20.U8.L2 — línea base frente a grace note y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-source-label="MusicXML — fuente del ejercicio grace→principal"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-title="Unidad 8.Lección 2 — línea base frente a grace note y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l2-linea-base-vs-grace-note.musicxml" data-score-source-label="MusicXML — fuente del ejercicio grace→principal"></div>
 
 Antes de habilitar audio:
 
@@ -111,7 +111,7 @@ Describe únicamente lo que ves:
 
 Sólo después relaciona esa función con la familia de flams.
 
-Si tu explicación empieza por «sé hacer un flam» pero no puedes señalar qué nota es grace y cuál principal, **B7 está sustituyendo D3 en vez de apoyarse en ella**.
+Si tu explicación empieza por «sé hacer un flam» pero no puedes señalar qué nota es grace y cuál principal, **aplicación musical de rudimentos está sustituyendo tuplets y ornamentación en vez de apoyarse en ella**.
 
 ## 6. Playback y escucha — 2–3 min
 
@@ -160,7 +160,7 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L3
+## MÍNIMO PARA AVANZAR A Lección 3
 
 En tempo cómodo:
 
@@ -176,11 +176,11 @@ No se exige:
 
 - memorizar todos los Flam Rudiments PAS;
 - velocidad alta;
-- drags — L3;
-- rolls — L4;
-- primera vista formal D5 — U9;
-- click reducido o gaps — U10;
-- actualizar automáticamente B3, B7 o D3 a `FUNCIONAL`.
+- drags — Lección 3;
+- rolls — Lección 4;
+- primera vista formal Unidad 9;
+- click reducido o gaps — Unidad 10;
+- actualizar automáticamente paradiddles, aplicación musical de rudimentos o tuplets y ornamentación a `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 

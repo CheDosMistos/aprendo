@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: diagnostico-hipotesis-primer-plan
 kind: lesson
 order: 2
-title: "U11.L2 — Diagnosticar: problema, hipótesis, recursos y primer plan"
+title: "esta unidad.Lección 2 — Diagnosticar: problema, hipótesis, recursos y primer plan"
 summary: "Convierte la línea base en hipótesis contrastables, compara estrategias plausibles y diseña un primer plan que pueda revisarse con evidencia."
 duration: 1–2 sesiones
 competencies: [K2, K3, K4, K5, K8, E6, F7]
@@ -21,7 +21,7 @@ Pasar de «esto sale mal» a un plan razonado que conecte:
 
 `OBSERVACIÓN → HIPÓTESIS → PRUEBA → ESTRATEGIA → EVIDENCIA ESPERADA`
 
-U9 ya enseñó a comparar estrategias ante un cuello de botella acotado. U11 reutiliza esa competencia dentro de un proyecto más largo y exige que las decisiones se conecten entre sesiones.
+Unidad 9 ya enseñó a comparar estrategias ante un cuello de botella acotado. esta unidad reutiliza esa competencia dentro de un proyecto más largo y exige que las decisiones se conecten entre sesiones.
 
 ## Un diagnóstico útil tiene nivel adecuado
 
@@ -103,7 +103,7 @@ No son niveles de prestigio y no forman una secuencia obligatoria.
 
 ## La evidencia no promete una receta universal
 
-La revisión sistemática de Varela, Abrami & Upitis apoya trabajar autorregulación explícitamente, pero las relaciones encontradas con resultados de aprendizaje musical fueron modestas y heterogéneas. U11 utiliza esa evidencia para justificar el **proceso de decisión**, no para afirmar que exista un formato universal de plan óptimo.
+La revisión sistemática de Varela, Abrami & Upitis apoya trabajar autorregulación explícitamente, pero las relaciones encontradas con resultados de aprendizaje musical fueron modestas y heterogéneas. esta unidad utiliza esa evidencia para justificar el **proceso de decisión**, no para afirmar que exista un formato universal de plan óptimo.
 
 Fuente: https://doi.org/10.1177/0305735614554639
 

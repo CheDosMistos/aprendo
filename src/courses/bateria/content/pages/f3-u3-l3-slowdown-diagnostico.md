@@ -27,7 +27,7 @@ La investigación específica de Fase 3 no permite afirmar que ralentizar sea un
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-transcription data-bpm="68" data-subdivision="4" data-low-pattern="10000000100000001000000010000000" data-mid-pattern="00001000000010000000100000001000" data-high-pattern="00100100001001000010010000100100" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-allow-slowdown="true" data-answer="Fuente C · rejilla de semicorcheas. Grave: 10000000100000001000000010000000. Media: 00001000000010000000100000001000. Aguda: 00100100001001000010010000100100. Esqueleto compuesto: 10101100101011001010110010101100. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l3-source-c.musicxml" data-answer-score-title="30.U3.L3 — esqueleto de la fuente C"></div>
+<div data-rhythm-transcription data-bpm="68" data-subdivision="4" data-low-pattern="10000000100000001000000010000000" data-mid-pattern="00001000000010000000100000001000" data-high-pattern="00100100001001000010010000100100" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-allow-slowdown="true" data-answer="Fuente C · rejilla de semicorcheas. Grave: 10000000100000001000000010000000. Media: 00001000000010000000100000001000. Aguda: 00100100001001000010010000100100. Esqueleto compuesto: 10101100101011001010110010101100. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l3-source-c.musicxml" data-answer-score-title="Unidad 3.Lección 3 — esqueleto de la fuente C"></div>
 
 El botón **Escuchar al 80 %** permanece bloqueado hasta haber escuchado la fuente completa al 100 %.
 

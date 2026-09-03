@@ -8,7 +8,7 @@ slug: click-backing-monitorizacion
 kind: lesson
 order: 3
 title: "Click y backing: referencia sin perseguirla"
-summary: "Integra C4 dentro de H8: click y backing deben ser suficientemente audibles para orientar, no una competición de volumen ni un juez absoluto del tiempo."
+summary: "Integra metrónomo y click reducido dentro de balance, sonido y orquestación: click y backing deben ser suficientemente audibles para orientar, no una competición de volumen ni un juez absoluto del tiempo."
 duration: 20–30 min
 competencies: [H8, C4, H5, I3, I4, K2, K5, K7]
 rudiments: []
@@ -19,7 +19,7 @@ published: true
 
 Usar click o backing track como **referencia funcional de práctica y registro**, conservando musicalidad, balance y escucha segura.
 
-C4 ya estaba activo antes de U6. Aquí no “aprendemos el metrónomo desde cero”; aprendemos a **integrarlo en una condición de kit y grabación**.
+metrónomo y click reducido ya estaba activo antes de esta unidad. Aquí no “aprendemos el metrónomo desde cero”; aprendemos a **integrarlo en una condición de kit y grabación**.
 
 ## CLICK ≠ ALGO QUE HAY QUE PERSEGUIR
 
@@ -89,14 +89,14 @@ Esto es una referencia pedagógica, no una demostración de que una configuraci�
 
 ## AMPLIACIÓN
 
-Sólo si C4 ya es estable:
+Sólo si metrónomo y click reducido ya es estable:
 
 - click cada dos pulsos;
 - click en 2 y 4;
 - pequeños huecos de click;
 - backing con menos información rítmica.
 
-Son herramientas diagnósticas, **no requisitos de Checkpoint 5C**.
+Son herramientas diagnósticas, **no requisitos de Evaluación**.
 
 ## MÍNIMO PARA AVANZAR
 

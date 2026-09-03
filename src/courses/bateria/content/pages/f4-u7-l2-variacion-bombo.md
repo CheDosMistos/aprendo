@@ -21,7 +21,7 @@ Introducir una pequeña variación de groove cambiando **una sola cosa** respect
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — VARIACIÓN B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="40.U7.L2 — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="Unidad 7.Lección 2 — Variación B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Variación B:
 
@@ -49,11 +49,11 @@ Si la nota nueva hace que cambien involuntariamente ride, caja o pie izquierdo, 
 
 El objetivo no es hacer más notas. Es introducir **una variación intencional sin perder la función del groove**.
 
-## Por qué esto no es H7
+## Por qué esto no es independencia avanzada
 
 B está completamente escrito y predeterminado. No mantienes un ostinato mientras inventas libremente otra voz.
 
-**U7 no certifica H7.**
+**esta unidad no certifica independencia avanzada.**
 
 ## Tempo
 

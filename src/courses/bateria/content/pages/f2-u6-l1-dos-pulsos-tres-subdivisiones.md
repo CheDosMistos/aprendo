@@ -15,17 +15,17 @@ rudiments: []
 published: true
 ---
 
-U5 enseñó a colocar tres partes iguales **dentro** de un pulso sin mover ese pulso. U6 da el siguiente paso: cambia la organización del compás.
+Unidad 5 enseñó a colocar tres partes iguales **dentro** de un pulso sin mover ese pulso. esta unidad da el siguiente paso: cambia la organización del compás.
 
 > **6/8 PROTOTÍPICO = 2 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 
 Las seis corcheas escritas no se convierten por defecto en seis pulsos equivalentes. En esta unidad las leeremos como dos grupos de tres: `1-la-li | 2-la-li`, donde `1` y `2` son los pulsos principales y las tres sílabas representan sus subdivisiones.
 
-La novedad dominante de L1 es sólo esta **jerarquía métrica compuesta**. Los silencios internos serán L2; la comparación sistemática 3/4↔6/8 será L3; la transformación y transferencia amplia serán L4.
+La novedad dominante de Lección 1 es sólo esta **jerarquía métrica compuesta**. Los silencios internos serán Lección 2; la comparación sistemática 3/4↔6/8 será Lección 3; la transformación y transferencia amplia serán Lección 4.
 
 ## 1. Del tresillo al compás compuesto — 4 min
 
-Recupera durante unos segundos la sensación ternaria de U5:
+Recupera durante unos segundos la sensación ternaria de Unidad 5:
 
 1. marca un pulso regular;
 2. canta tres partes iguales dentro de cada pulso;
@@ -36,8 +36,8 @@ La sensación interna `tres partes dentro de un pulso` no desaparece. Lo que cam
 
 Distingue:
 
-- **U5 — tresillo en 4/4:** tres corcheas en el tiempo de dos; relación `3:2`; aparece como *tuplet*;
-- **U6 — corcheas en 6/8:** seis corcheas ordinarias en el compás, agrupadas aquí `3+3`; no necesitan relación `3:2`.
+- **Unidad 5 — tresillo en 4/4:** tres corcheas en el tiempo de dos; relación `3:2`; aparece como *tuplet*;
+- **esta unidad — corcheas en 6/8:** seis corcheas ordinarias en el compás, agrupadas aquí `3+3`; no necesitan relación `3:2`.
 
 Si mentalmente sigues oyendo “seis pulsos pequeños” sin poder localizar dos referencias mayores, vuelve a marcar físicamente sólo los dos inicios principales.
 
@@ -67,7 +67,7 @@ En 6/8, las corcheas de esta lección son **corcheas ordinarias**. La métrica y
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-title="20.U6.L1 — dos pulsos, tres subdivisiones cada uno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-title="Unidad 6.Lección 1 — dos pulsos, tres subdivisiones cada uno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l1-dos-pulsos-tres-subdivisiones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de pulsar **Habilitar audio**, sigue el ciclo:
 
@@ -111,7 +111,7 @@ Después habilita audio y úsalo como **feedback posterior**, no como patrón qu
 
 Todos los compases suman exactamente seis corcheas equivalentes.
 
-La marca de tempo del asset es `♩. = 80`. Esto significa **80 pulsos principales de negra con puntillo por minuto**. MusicXML usa además `<sound tempo="120"/>` como equivalencia técnica en negras y como referencia estándar de playback de los assets estáticos del curso. Ninguno de esos valores es criterio de aprobación ni una velocidad prescrita para practicar.
+La marca de tempo del materiales es `♩. = 80`. Esto significa **80 pulsos principales de negra con puntillo por minuto**. MusicXML usa además `<sound tempo="120"/>` como equivalencia técnica en negras y como referencia estándar de playback de los materiales estáticos del curso. Ninguno de esos valores es criterio de aprobación ni una velocidad prescrita para practicar.
 
 ## 4. Pulso principal y bilateralidad — 4–5 min
 
@@ -181,7 +181,7 @@ Registra:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L2
+## MÍNIMO PARA AVANZAR A Lección 2
 
 En una condición cómoda y con ayudas razonables cuando las necesites:
 
@@ -202,9 +202,9 @@ No se exige:
 - comparación funcional 3/4↔6/8;
 - 9/8 o 12/8;
 - sextillos;
-- primera vista formal D5;
+- primera vista formal forma y lectura de chart;
 - dominio estilístico de shuffle/jazz;
-- actualizar automáticamente D4 o F2 por completar esta página.
+- actualizar automáticamente lectura de compás o métrica y terminología rítmica por completar esta página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
@@ -223,7 +223,7 @@ No introduzcas todavía gaps de metrónomo como objetivo. Si retirar la referenc
 ## Si algo se rompe
 
 - **cuentas seis pulsos iguales:** vuelve a dos gestos grandes y canta `1-la-li | 2-la-li`;
-- **las tres corcheas se vuelven desiguales:** reduce tempo y recupera la subdivisión ternaria de U5;
+- **las tres corcheas se vuelven desiguales:** reduce tempo y recupera la subdivisión ternaria de Unidad 5;
 - **confundes 6/8 con tresillos en 4/4:** busca si la notación usa métrica 6/8 ordinaria o un *tuplet* `3:2` dentro de 4/4;
 - **el segundo grupo de tres se acelera:** mantén explícito el segundo pulso principal antes de tocar sus subdivisiones;
 - **la lectura depende del playback:** vuelve a `VER → CONTAR → CANTAR → TOCAR` antes de escuchar;

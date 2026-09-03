@@ -8,7 +8,7 @@ slug: leccion-1-ten-eleven-roll
 kind: lesson
 order: 1
 title: "Lección 1 — Ten y Eleven Stroke Roll: continuidad y cierre"
-summary: Amplía el trabajo de rolls de U4 con dos nuevas estructuras PAS y separa continuidad interna, resolución y relajación.
+summary: Amplía el trabajo de rolls de Unidad 4 con dos nuevas estructuras PAS y separa continuidad interna, resolución y relajación.
 duration: 25–30 min
 competencies: [A3, A6, B1, B5, C1, C2, C4, D1, K2, K4, K6]
 rudiments: [Ten Stroke Roll, Eleven Stroke Roll]
@@ -21,9 +21,9 @@ Conocer correctamente **Ten Stroke Roll** y **Eleven Stroke Roll** y mantener un
 
 ## 1. Comprobación de base — 2–3 min
 
-Haz una toma breve de **Thirteen Stroke Roll o Fifteen Stroke Roll** de U4, sin calentarlo específicamente.
+Haz una toma breve de **Thirteen Stroke Roll o Fifteen Stroke Roll** de Unidad 4, sin calentarlo específicamente.
 
-Esto no es una reenseñanza de B5. Si doubles, subdivisión y resolución siguen disponibles, continúa. Si uno falla de forma general, corrige **solo esa variable** durante unas pocas repeticiones y retesta.
+Esto no es una reenseñanza de drags. Si doubles, subdivisión y resolución siguen disponibles, continúa. Si uno falla de forma general, corrige **solo esa variable** durante unas pocas repeticiones y retesta.
 
 ## 2. Preparación: continuidad y resolución — 5 min
 
@@ -61,11 +61,11 @@ Haz una toma de cada uno y responde:
 
 Toca el ejercicio original otra vez y cambia una sola variable: dinámica, mano de inicio o densidad. La meta es comprobar transferencia, no acumular repeticiones.
 
-## Diagnóstico K2
+## Diagnóstico grabación y autoevaluación
 
-**Síntoma:** los doubles suenan razonables pero el final se adelanta.  
-**Hipótesis:** la subdivisión se comprime al aproximarse el cierre.  
-**Prueba:** tocar la frase sin doubles sobre la misma rejilla temporal.  
+**Síntoma:** los doubles suenan razonables pero el final se adelanta. 
+**Hipótesis:** la subdivisión se comprime al aproximarse el cierre. 
+**Prueba:** tocar la frase sin doubles sobre la misma rejilla temporal. 
 **Retest:** volver al PAS más lento.
 
 La hipótesis debe comprobarse; no se convierte automáticamente en diagnóstico.

@@ -19,7 +19,7 @@ published: true
 
 Mantener claras las notas estructurales mientras aparecen golpes de caja mucho más suaves como textura.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l2-dynamic-hierarchy.musicxml" data-score-title="50.U5.L2 — Jerarquía dinámica" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l2-dynamic-hierarchy.musicxml" data-score-title="Unidad 5.Lección 2 — Jerarquía dinámica" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 En el score, las notas de caja **sin acento** funcionan como referencias de textura/ghost-tap y los golpes acentuados de 2 y 4 representan el backbeat. La partitura marca la jerarquía mediante acentos; el playback sirve para ubicación rítmica y **la diferencia dinámica real debes producirla tú**.
 
@@ -55,9 +55,9 @@ No se prescribe una proporción universal de dB.
 
 Añade bombo y una capa sencilla de time. Si el backbeat pierde identidad, vuelve a A o B.
 
-## Ghost notes no son el objetivo final de U5
+## Ghost notes no son el objetivo final de esta unidad
 
-Si pulso, balance o relajación empeoran, elimina las ghost notes y conserva la función musical. **Checkpoint 5B no las exige.**
+Si pulso, balance o relajación empeoran, elimina las ghost notes y conserva la función musical. **Evaluación no las exige.**
 
 ## MÍNIMO PARA AVANZAR
 

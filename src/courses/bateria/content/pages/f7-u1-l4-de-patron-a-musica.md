@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Convertir J1 en lenguaje musical: no demostrar cuántas agrupaciones conoces, sino **elegir una porque produce una función audible dentro de una frase**.
+Convertir agrupaciones dentro de 4/4 en lenguaje musical: no demostrar cuántas agrupaciones conoces, sino **elegir una porque produce una función audible dentro de una frase**.
 
 ## Dos anclas posibles
 

@@ -29,7 +29,7 @@ Eso **no demuestra** que escribir durante la escucha sea siempre mejor para cual
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11100101" data-answer="Muestra A: un compás 4/4 en corcheas. Aquí puedes marcar ataques, rejilla o notación mientras suena. Conserva el primer esbozo antes de corregir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l3-durante-a.musicxml" data-answer-score-title="30.U2.L3 — solución de la muestra A"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11100101" data-answer="Muestra A: un compás 4/4 en corcheas. Aquí puedes marcar ataques, rejilla o notación mientras suena. Conserva el primer esbozo antes de corregir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l3-durante-a.musicxml" data-answer-score-title="Unidad 2.Lección 3 — solución de la muestra A"></div>
 
 Durante la reproducción puedes:
 
@@ -44,7 +44,7 @@ Después toca lo que quedó escrito y revela la solución.
 
 Misma métrica, misma rejilla y **misma densidad de ataques** que A.
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="10101110" data-answer="Muestra B: un compás 4/4 en corcheas y densidad comparable con A. Aquí intenta escuchar e imitar antes de escribir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l3-despues-b.musicxml" data-answer-score-title="30.U2.L3 — solución de la muestra B"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="10101110" data-answer="Muestra B: un compás 4/4 en corcheas y densidad comparable con A. Aquí intenta escuchar e imitar antes de escribir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l3-despues-b.musicxml" data-answer-score-title="Unidad 2.Lección 3 — solución de la muestra B"></div>
 
 Proceso:
 

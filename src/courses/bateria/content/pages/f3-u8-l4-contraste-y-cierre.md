@@ -21,7 +21,7 @@ Añadir **contraste y cierre** a una pieza breve sin convertirlos en una competi
 
 ## Ejemplo de contraste y cierre — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l4-contrast-closure.musicxml" data-score-title="30.U8.L4 — contraste y cierre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l4-contrast-closure.musicxml" data-score-title="Unidad 8.Lección 4 — contraste y cierre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 El contraste del ejemplo cambia colocación y función; **contraste no significa “más notas” ni “más difícil”**.
 

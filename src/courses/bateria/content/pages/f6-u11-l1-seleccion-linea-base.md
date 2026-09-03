@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: seleccionar-proyecto-linea-base
 kind: lesson
 order: 1
-title: "U11.L1 — Elegir un proyecto acotado y construir la línea base"
+title: "esta unidad.Lección 1 — Elegir un proyecto acotado y construir la línea base"
 summary: "Selecciona material legal y adecuado, define un resultado musical observable y registra una línea base antes de empezar a corregir."
 duration: 1–2 sesiones
 competencies: [K1, K2, K3, K8, I3, I4, F7]
@@ -17,12 +17,12 @@ published: true
 
 ## Objetivo
 
-Iniciar R4 con una elección suficientemente abierta para exigir criterio, pero suficientemente acotada para que el proyecto siga siendo evaluable.
+Iniciar Proyecto autónomo con una elección suficientemente abierta para exigir criterio, pero suficientemente acotada para que el proyecto siga siendo evaluable.
 
 Al terminar esta lección debes poder responder:
 
 - qué material has elegido;
-- por qué es apropiado para U11;
+- por qué es apropiado para esta unidad;
 - qué resultado musical persigues;
 - qué ocurre ahora mismo en una línea base;
 - qué limitaciones reales condicionan el proyecto.
@@ -41,16 +41,16 @@ Elegir algo desproporcionado no demuestra más autonomía. Puede impedir disting
 
 ## Puedes reutilizar material
 
-La fuente superior de Fase 6 advierte que U9–U11 no deberían convertirse en tres proyectos gigantes consecutivos.
+el diseño del curso de Fase 6 advierte que Unidad 9–esta unidad no deberían convertirse en tres proyectos gigantes consecutivos.
 
 Por tanto, es válido reutilizar:
 
-- la pieza trabajada desde audio en R1;
-- el material sostenido de U10;
+- la pieza trabajada desde audio en Escucha y transcripción;
+- el material sostenido de Unidad 10;
 - otro repertorio ya conocido que todavía contenga un problema real;
 - material original del curso.
 
-La tarea de U11 debe ser nueva aunque la música no lo sea: **lo nuevo es que tú gobiernas una parte mayor del procedimiento**.
+La tarea de esta unidad debe ser nueva aunque la música no lo sea: **lo nuevo es que tú gobiernas una parte mayor del procedimiento**.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Semáforo de alcance»
 
@@ -112,7 +112,7 @@ Si el proyecto utiliza una canción real:
 - breve activación relacionada con el material;
 - pasada o fragmento sustancial de línea base;
 - revisión auditiva/visual sólo si aporta información;
-- completar el Contrato R4 inicial.
+- completar el Contrato Proyecto autónomo inicial.
 
 ## Criterio de avance
 

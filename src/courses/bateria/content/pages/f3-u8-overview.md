@@ -15,26 +15,26 @@ rudiments: []
 published: true
 ---
 
-U7 tomaba decisiones **mientras el tiempo continuaba**. U8 cambia el estatuto de una idea: ahora vas a **fijarla, escribirla, volver a tocarla y revisar una versión**.
+Unidad 7 tomaba decisiones **mientras el tiempo continuaba**. esta unidad cambia el estatuto de una idea: ahora vas a **fijarla, escribirla, volver a tocarla y revisar una versión**.
 
 `IDEA → V0 → ESCRIBIR → TOCAR/GRABAR → COMPARAR → DIAGNOSTICAR → REVISAR → V1`
 
-> **Novedad dominante:** G4 — composición rítmica breve.
+> **Novedad dominante:** composición rítmica breve.
 
-## El mínimo G4 no son “cuatro compases obligatorios”
+## El mínimo composición de piezas no son “cuatro compases obligatorios”
 
-El mapa aprobado define el mínimo como crear **1–4 compases coherentes y reproducibles**.
+el recorrido del curso define el mínimo como crear **1–4 compases coherentes y reproducibles**.
 
 Eso significa que una idea de un compás puede ser evidencia suficiente si está realmente fijada, puede reconstruirse y cumple la tarea. Añadir longitud por completismo no mejora automáticamente la composición.
 
 ## Autoría real
 
-Los scores de U8 son **ejemplos, semillas o marcos de análisis**. No existe una composición correcta del curso que debas copiar.
+Los scores de esta unidad son **ejemplos, semillas o marcos de análisis**. No existe una composición correcta del curso que debas copiar.
 
 Tu material puede partir de:
 
-- una toma útil de U7;
-- un motivo propio de U5/U6;
+- una toma útil de Unidad 7;
+- un motivo propio de Unidad 5/Unidad 6;
 - una idea nueva;
 - una semilla opcional del curso cuando la tarea lo indique.
 
@@ -69,27 +69,27 @@ Una revisión válida puede:
 
 ## Arquitectura
 
-### L1 — De la toma a la versión 0
+### Lección 1 — De la toma a la versión 0
 Seleccionas una idea y la conviertes en 1–2 compases escritos/reproducibles.
 
-### L2 — Repetición, retorno y esqueleto formal
+### Lección 2 — Repetición, retorno y esqueleto formal
 Organizas una microforma sin tratar A/A’, contraste o retorno como leyes universales.
 
-### L3 — Una transformación con trazabilidad
-Construyes A’ con una sola transformación G2 y registras `SE CONSERVA / CAMBIA`.
+### Lección 3 — Una transformación con trazabilidad
+Construyes A’ con una sola transformación desarrollo motívico y registras `SE CONSERVA / CAMBIA`.
 
-### L4 — Contraste y cierre
+### Lección 4 — Contraste y cierre
 Creas función de contraste y un final reconocible sin identificar contraste con “más notas”.
 
-### L5 — V0 → V1
+### Lección 5 — V0 → V1
 Grabas, comparas intención/notación/ejecución y haces una revisión consciente.
 
-### Checkpoint 3B — Autoría en desarrollo
+### Evaluación — Autoría en desarrollo
 Creas una microcomposición de 1–4 compases, la escribes, la tocas, conservas una grabación y justificas al menos una transformación y una decisión de revisión.
 
 ## 4/4 como entorno core
 
-U8 mantiene el núcleo principalmente en **4/4** para que la novedad sea composición y revisión. 5/4 y 7/8 pueden aparecer como ampliación si ya son cómodos, pero su trabajo funcional empieza en U9/U10.
+esta unidad mantiene el núcleo principalmente en **4/4** para que la novedad sea composición y revisión. 5/4 y 7/8 pueden aparecer como ampliación si ya son cómodos, pero su trabajo funcional empieza en Unidad 9/Unidad 10.
 
 ## Herramientas
 
@@ -101,10 +101,10 @@ Aprendo reutiliza partitura, grabación y metrónomo. Puedes escribir tu pieza e
 
 - 1–4 compases coherentes y reproducibles;
 - una idea reconocible;
-- al menos una transformación consciente durante el trabajo de U8;
+- al menos una transformación consciente durante el trabajo de esta unidad;
 - representación suficiente para volver a tocarla;
 - una toma grabada;
 - capacidad de distinguir intención, notación y ejecución;
 - explicación de al menos una decisión.
 
-Checkpoint 3B es **autoría en desarrollo**. El Hito 4 final de Fase 3 sigue reservado a U12.
+Evaluación es **autoría en desarrollo**. El Hito 4 final de Fase 3 sigue reservado a Unidad 12.

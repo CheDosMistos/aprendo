@@ -19,13 +19,13 @@ published: true
 
 > **Puedes mover material rítmico breve entre oído, escritura y ejecución con ayudas explícitas, y distinguir la habilidad observada de las ayudas o dificultades incidentales.**
 
-Este checkpoint **no es un examen de transcripción y no es el Hito global 3**.
+Este Evaluación **no es un examen de transcripción y no es el Hito global 3**.
 
 ## EVIDENCIA A — entrada auditiva
 
 Estímulo nuevo, **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11001011" data-answer="Muestra auditiva del checkpoint: un compás 4/4 sobre rejilla de corcheas. Compara tu primera respuesta antes de corregirla." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-cp-solucion-auditiva-a.musicxml" data-answer-score-title="30.U1.CP — solución de la muestra auditiva"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11001011" data-answer="Muestra auditiva del Evaluación: un compás 4/4 sobre rejilla de corcheas. Compara tu primera respuesta antes de corregirla." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-cp-solucion-auditiva-a.musicxml" data-answer-score-title="Unidad 1.evaluación — solución de la muestra auditiva"></div>
 
 Haz la cadena:
 
@@ -47,7 +47,7 @@ Registra:
 
 La siguiente muestra no debe convertirse en memoria antes del primer intento. Pulsa **Empezar** cuando estés preparado.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-title="30.U1.CP — muestra visual protegida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-title="Unidad 1.evaluación — muestra visual protegida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f3/u1/f3-u1-cp-visual-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
 
 1. observa pulso/subdivisión;
 2. toca la lectura en el primer intento;
@@ -71,11 +71,11 @@ No hace falta recitar una definición literal; sí mantener separada la tarea ob
 
 ### CONTINUAR
 
-E3/E4/D6 son suficientemente operativas para entrar en U2, aunque uses ayudas razonables.
+dictado/relación entre oído y notación/primera vista rítmica son suficientemente operativas para entrar en Unidad 2, aunque uses ayudas razonables.
 
 ### CONTINUAR + CORRECTIVO
 
-Existe una fragilidad localizada —oído, memoria, notación, tiempo o ejecución— pero U2 puede trabajarla sin reiniciar la fase.
+Existe una fragilidad localizada —oído, memoria, notación, tiempo o ejecución— pero Unidad 2 puede trabajarla sin reiniciar la fase.
 
 ### REDUCIR NOVEDAD
 

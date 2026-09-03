@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: transcribir para aprender, no para adivinar
 
-En Fase 3 y Fase 5 ya escuchaste, analizaste y aprendiste material parcialmente de oído. U2 convierte esas habilidades en un **procedimiento explícito y repetible de transcripción**.
+En Fase 3 y Fase 5 ya escuchaste, analizaste y aprendiste material parcialmente de oído. esta unidad convierte esas habilidades en un **procedimiento explícito y repetible de transcripción**.
 
 La pregunta central es:
 
@@ -44,26 +44,26 @@ Usa uno de estos tipos de fuente:
 - una obra comercial escuchada legalmente, sin copiar ni redistribuir una transcripción protegida;
 - una grabación o recurso con partitura legal disponible para contrastar después.
 
-Para el checkpoint se recomienda un fragmento corto o una sección de dificultad adecuada. **U2 no exige una canción completa.**
+Para el Evaluación se recomienda un fragmento corto o una sección de dificultad adecuada. **esta unidad no exige una canción completa.**
 
 ## Arquitectura
 
-### L1 — Del pulso al mapa formal
+### Lección 1 — Del pulso al mapa formal
 Localiza referencia temporal, límites de frase y secciones antes de decidir notas concretas.
 
-### L2 — De la subdivisión al groove funcional
+### Lección 2 — De la subdivisión al groove funcional
 Reconstruye la rejilla rítmica y una versión funcional que conserve la relación musical esencial.
 
-### L3 — Articulación, dinámica y detalle con grados de certeza
+### Lección 3 — Articulación, dinámica y detalle con grados de certeza
 Añade capas de información sin presentar como hecho lo que el audio no permite distinguir con seguridad.
 
-### L4 — Contrastar, corregir y documentar
+### Lección 4 — Contrastar, corregir y documentar
 Compara hipótesis con una fuente legal cuando exista, corrige sin borrar el proceso y registra qué cambió.
 
-### Checkpoint 6A — Transcripción funcional
+### Evaluación — Transcripción funcional
 Produce una transcripción útil de un fragmento adecuado, justifica tus decisiones y marca explícitamente lo incierto.
 
-## Cuatro etiquetas epistemológicas de U2
+## Cuatro etiquetas epistemológicas de esta unidad
 
 Cuando corresponda, usa:
 
@@ -76,11 +76,11 @@ Estas etiquetas no sirven para decorar el documento: cambian lo que puedes afirm
 
 ## Copyright y honestidad
 
-U2 no autoriza a reproducir extensamente partituras o transcripciones comerciales.
+esta unidad no autoriza a reproducir extensamente partituras o transcripciones comerciales.
 
 El curso puede enseñar el procedimiento, utilizar análisis propio, trabajar material original, enlazar fuentes legales y contrastar fragmentos cuando sea legítimo. Una reconstrucción propia **no se presenta como partitura oficial**.
 
-## Qué NO hace U2
+## Qué NO hace esta unidad
 
 - no convierte oído en examen de memoria perfecta;
 - no obliga a transcribir una batería completa golpe por golpe;
@@ -88,14 +88,14 @@ El curso puede enseñar el procedimiento, utilizar análisis propio, trabajar ma
 - no penaliza declarar «no puedo determinarlo con seguridad»;
 - no convierte una simplificación funcional en la parte original;
 - no exige velocidad de reproducción concreta ni BPM de aprobado;
-- no certifica todavía E6 FUNCIONAL global ni el Hito 7;
+- no certifica todavía transcripción real FUNCIONAL global ni el Hito 7;
 - no enseña un estilo nuevo ni hace afirmaciones idiomáticas específicas.
 
 ## Práctica estándar
 
 Referencia: **25–30 min, 3–4 días por semana**.
 
-Una sesión típica de U2 puede usar:
+Una sesión típica de esta unidad puede usar:
 
 - 4–5 min — escucha completa y recuperación del contexto;
 - 8–10 min — una capa dominante de la transcripción;
@@ -104,7 +104,7 @@ Una sesión típica de U2 puede usar:
 
 No intentes completar todas las capas en una sesión.
 
-## Criterio de salida de U2
+## Criterio de salida de esta unidad
 
 Al cerrar la unidad debes poder:
 

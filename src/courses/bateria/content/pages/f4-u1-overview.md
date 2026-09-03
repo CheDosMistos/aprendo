@@ -23,7 +23,7 @@ La pregunta de esta unidad es sencilla:
 
 > **¿Está el instrumento suficientemente bien dispuesto y entendido como para empezar a transferir material conocido sin luchar contra el propio montaje?**
 
-U1 no enseña todavía groove, fills ni técnica específica de bombo o hi-hat. Primero dejamos una base física y auditiva que no estorbe a U2–U4.
+esta unidad no enseña todavía groove, fills ni técnica específica de bombo o hi-hat. Primero dejamos una base física y auditiva que no estorbe a Unidad 2–Unidad 4.
 
 ## Qué sí vas a construir
 
@@ -43,20 +43,20 @@ Tampoco vamos a convertir esta unidad en afinación profesional, microfonía, in
 
 ## Arquitectura
 
-### L1 — Antes del primer golpe
+### Lección 1 — Antes del primer golpe
 Contexto de kit, escucha segura, carga y mapa funcional.
 
-### L2 — Asiento, equilibrio y alcance
+### Lección 2 — Asiento, equilibrio y alcance
 Configuras el instrumento sin dogmas geométricos y compruebas cada cambio por su efecto.
 
-### L3 — Escuchar el kit
+### Lección 3 — Escuchar el kit
 Comparas la misma célula sobre superficies diferentes para descubrir rebote, ataque y respuesta propios.
 
-### L4 — Transferencia cero
+### Lección 4 — Transferencia cero
 Tocas una célula ya conocida en una superficie cada vez y diagnosticas si el problema está en acceso, superficie, movimiento o tiempo.
 
-### Checkpoint — Kit listo para transferir
-Compruebas H1 al nivel mínimo necesario para empezar U2 sin exigir todavía pedales, groove o cuatro extremidades.
+### Evaluación — Kit listo para transferir
+Compruebas setup, ergonomía y ecología del kit al nivel mínimo necesario para empezar Unidad 2 sin exigir todavía pedales, groove o cuatro extremidades.
 
 ## Seguridad desde el inicio
 

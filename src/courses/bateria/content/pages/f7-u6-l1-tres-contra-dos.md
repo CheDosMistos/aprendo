@@ -19,7 +19,7 @@ published: true
 
 Mantener una relación **3:2** durante varios ciclos: una capa distribuye tres ataques iguales mientras otra distribuye dos en exactamente el mismo espacio temporal.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u6/f7-u6-polyrhythm-3-2.musicxml" data-score-title="70.U6 — Polirritmia 3:2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u6/f7-u6-polyrhythm-3-2.musicxml" data-score-title="Unidad 6 — Polirritmia 3:2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué significa 3:2 aquí
 
@@ -39,9 +39,9 @@ La relación no significa “tocar tres golpes y luego dos”. Deben sonar **sim
 El mínimo común múltiplo de 3 y 2 es 6. Por eso podemos representar el ciclo así:
 
 ```text
-rejilla:  1 2 3 4 5 6
-capa 3:  X . X . X .
-capa 2:  X . . X . .
+rejilla: 1 2 3 4 5 6
+capa 3: X. X. X.
+capa 2: X.. X..
 ```
 
 Esto permite ver que:
@@ -118,7 +118,7 @@ No escuches sólo “golpes que encajan”. Intenta oír simultáneamente:
 - una corriente de **tres**;
 - el punto de reencuentro.
 
-La competencia J6 empieza cuando ambas capas conservan identidad perceptiva.
+La competencia polirritmia empieza cuando ambas capas conservan identidad perceptiva.
 
 ## Error frecuente: convertir 3:2 en un patrón lineal memorizado
 

@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-4
 slug: checkpoint-7d
 kind: checkpoint
 order: 5
-title: "Checkpoint 7D — J4 funcional: 5 y 7 sin mover el pulso"
+title: "Evaluación — tuplets de 5 y 7 y divisiones no estándar funcional: 5 y 7 sin mover el pulso"
 summary: "Comprueba que puedes explicar, leer, ejecutar y transformar quintillos/septillos y cambiar entre subdivisiones comunes y 5/7 conservando una referencia temporal estable."
 duration: 20–30 min + revisión
 competencies: [J4, C1, C2, C3, C4, D3, D6, E2, G1, G2, G3, G4, G6, K2, K5]
@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa este Evaluación
 
-El mapa define J4 como funcional cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar U4.
+el curso $1 tuplets de 5 y 7 y divisiones no estándar como funcional cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar esta unidad.
 
 Se evalúan:
 
@@ -38,8 +38,8 @@ No hay un BPM universal de aprobado.
 Responde con tus palabras:
 
 1. ¿qué significa dividir un pulso en cinco partes iguales?;
-2. ¿qué significa `5:4` en el ejercicio de U4?;
-3. ¿qué significa `7:4` en el ejercicio de U4?;
+2. ¿qué significa `5:4` en el ejercicio de esta unidad?;
+3. ¿qué significa `7:4` en el ejercicio de esta unidad?;
 4. ¿por qué una frase de cinco golpes no es automáticamente un quintillo?;
 5. ¿por qué `7/8` no es un septillo?;
 6. ¿por qué tocar 5/7 sobre un click no demuestra por sí solo polirritmia ni modulación métrica?
@@ -90,7 +90,7 @@ No se evalúa velocidad máxima. Se evalúa que **la negra no se mueva**.
 
 ## 5. Leer
 
-Lee una de las partituras originales de U4 y explica antes de tocar:
+Lee una de las partituras originales de esta unidad y explica antes de tocar:
 
 - compás;
 - unidad de pulso;
@@ -140,7 +140,7 @@ No añadas golpes para “pagar” notas perdidas.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia U5 si, de forma razonablemente repetible:
+Puedes continuar hacia Unidad 5 si, de forma razonablemente repetible:
 
 - comprendes que 5/7 son subdivisiones del pulso en los ejercicios trabajados;
 - ejecutas ejemplos lentos de quintillo y septillo;
@@ -153,14 +153,14 @@ Esto cumple el nivel mínimo del mapa sin exigir todavía una integración exten
 
 ## COMPETENTE / FUNCIONAL
 
-J4 puede considerarse **funcional** cuando además:
+tuplets de 5 y 7 y divisiones no estándar puede considerarse **funcional** cuando además:
 
 - cambias entre subdivisiones comunes y 5/7 con estabilidad;
 - encadenas varios pulsos sin deriva apreciable del pulso;
 - puedes empezar con ambas manos;
 - lees y escribes ejemplos sencillos;
 - aplicas acento, silencio, sticking u orquestación sin deformar los intervalos;
-- distingues verbalmente J4 de J1, J3, J6 y J8.
+- distingues verbalmente tuplets de 5 y 7 y divisiones no estándar de agrupaciones dentro de 4/4, métricas impares y mixtas, polirritmia y modulación métrica.
 
 ## AVANZADO
 
@@ -171,7 +171,7 @@ Nivel de ampliación, no requisito:
 - integras relaciones más complejas con otras capas;
 - puedes preparar conscientemente una subdivisión para futuras reinterpretaciones métricas.
 
-La modulación como competencia pertenece a **J8**, no a este checkpoint.
+La modulación como competencia pertenece a **modulación métrica**, no a este Evaluación.
 
 ## Registro recomendado
 
@@ -187,4 +187,4 @@ Guarda:
 
 > **PUEDO CAMBIAR EL NÚMERO DE PARTES DENTRO DEL PULSO SIN CAMBIAR EL PULSO.**
 
-Ese es el criterio central de U4.
+Ese es el criterio central de esta unidad.

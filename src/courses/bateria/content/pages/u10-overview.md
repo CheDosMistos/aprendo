@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-U10 no añade ningún rudimento. Su función es comprobar qué material está realmente disponible después de separación, diagnosticar selectivamente lo frágil y cerrar el **Hito 1 — Primer mapa técnico** sin convertirlo en un examen de velocidad ni en un maratón de 40 rudimentos.
+esta unidad no añade ningún rudimento. Su función es comprobar qué material está realmente disponible después de separación, diagnosticar selectivamente lo frágil y cerrar el **Hito 1 — Primer mapa técnico** sin convertirlo en un examen de velocidad ni en un maratón de 40 rudimentos.
 
 ## ESENCIAL AHORA
 
@@ -45,7 +45,7 @@ Cuando exista duda sobre nombre, ritmo, sticking, acentos, grace notes o estruct
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-U10 no reproduce las partituras PAS.
+esta unidad no reproduce las partituras PAS.
 
 ## Orden de la unidad
 

@@ -8,14 +8,14 @@ slug: drag-escrito-double-grace-y-principal
 kind: lesson
 order: 3
 title: "Drag escrito: double grace y principal"
-summary: "Lee dos grace notes antes de una principal, mantiene su jerarquía y aplica B4/B7 sin convertir el adorno en tres notas métricamente equivalentes."
+summary: "Lee dos grace notes antes de una principal, mantiene su jerarquía y aplica flams/aplicación musical de rudimentos sin convertir el adorno en tres notas métricamente equivalentes."
 duration: 25–30 min
 competencies: [B4, B7, C1, D3, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-L2 separó una grace note de su principal. L3 mantiene el mismo principio pero añade una segunda grace:
+Lección 2 separó una grace note de su principal. Lección 3 mantiene el mismo principio pero añade una segunda grace:
 
 > **DOUBLE GRACE + PRINCIPAL ≠ TRES NOTAS ORDINARIAS IGUALES.**
 
@@ -28,25 +28,25 @@ La referencia normativa de la familia es PAS. En el PDF oficial, `Drag` es el ru
 
 La partitura embebida de esta lección **no reproduce el ejercicio PAS #31**. Es material original para aprender a decodificar la función `double grace → principal` dentro de una línea elemental.
 
-## 1. Qué cambia respecto a L2 — 3–4 min
+## 1. Qué cambia respecto a Lección 2 — 3–4 min
 
-En L2:
+En Lección 2:
 
 `1 grace → principal`.
 
-En L3:
+En Lección 3:
 
 `2 grace notes → principal`.
 
 Las dos grace notes siguen siendo adornos previos. No suman dos nuevas subdivisiones métricas ordinarias al compás y no desplazan por definición el lugar de las cuatro principales.
 
-La competencia B4 pide que puedas ejecutar **grace doubles + principal lentamente sin convertirlas en notas iguales**.
+La competencia flams pide que puedas ejecutar **grace doubles + principal lentamente sin convertirlas en notas iguales**.
 
 ## 2. Línea simple → double grace — 6 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-title="20.U8.L3 — línea base frente a double grace y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-source-label="MusicXML — fuente del ejercicio double-grace→principal"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-title="Unidad 8.Lección 3 — línea base frente a double grace y principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l3-linea-base-vs-double-grace.musicxml" data-score-source-label="MusicXML — fuente del ejercicio double-grace→principal"></div>
 
 Antes de habilitar audio:
 
@@ -62,7 +62,7 @@ Antes de cada principal aparecen dos grace notes enlazadas visualmente como un p
 
 La lectura correcta empieza por localizar las cuatro principales. Sólo entonces cuenta cuántos adornos preceden a cada una.
 
-## 3. Mecánica B4 a baja velocidad — 5 min
+## 3. Mecánica flams a baja velocidad — 5 min
 
 Usa el esquema normativo básico verificado en PAS como referencia de manos:
 
@@ -106,7 +106,7 @@ Mira el compás 2 y descríbelo sin decir «drag»:
 
 Después relaciona esa estructura con la familia PAS de drags.
 
-Si sólo puedes tocar cuando ves el nombre `Drag`, pero una línea nueva con double grace te bloquea, el problema es de D3/B7 aunque la memoria motora del rudimento exista.
+Si sólo puedes tocar cuando ves el nombre `Drag`, pero una línea nueva con double grace te bloquea, el problema es de tuplets y ornamentación/aplicación musical de rudimentos aunque la memoria motora del rudimento exista.
 
 ## 6. Transferencia: adorno selectivo — 3–4 min
 
@@ -153,7 +153,7 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L4
+## MÍNIMO PARA AVANZAR A Lección 4
 
 En condición cómoda:
 
@@ -169,10 +169,10 @@ No se exige:
 
 - memorizar todos los Drag Rudiments PAS;
 - velocidad alta;
-- rolls — L4;
-- primera vista formal D5 — U9;
-- gaps — U10;
-- actualizar automáticamente B4, B7 o D3 a `FUNCIONAL`.
+- rolls — Lección 4;
+- primera vista formal Unidad 9;
+- gaps — Unidad 10;
+- actualizar automáticamente flams, aplicación musical de rudimentos o tuplets y ornamentación a `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 

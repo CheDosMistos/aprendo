@@ -23,9 +23,9 @@ Distinguir una transformación **paramétrica/de superficie** de un cambio del p
 
 Esta partitura fija sólo los ataques y silencios que deben permanecer constantes durante los experimentos.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l3-parameter-family.musicxml" data-score-title="30.U6.L3 — esqueleto temporal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l3-parameter-family.musicxml" data-score-title="Unidad 6.Lección 3 — esqueleto temporal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-**Contrato de esta lección:** el MusicXML representa el esqueleto temporal. Las consignas de acento, dinámica y sticking se describen en texto para no fingir que el renderer reproduce de forma fiable una capa que no hemos verificado.
+**Contrato de esta lección:** el MusicXML representa el esqueleto temporal. Las consignas de acento, dinámica y sticking se describen en texto para no fingir que el visor de partituras reproduce de forma fiable una capa que no hemos verificado.
 
 ## Acento
 
@@ -67,9 +67,9 @@ Registra:
 
 Cambiar sticking **no implica necesariamente cambiar el ritmo audible**.
 
-## B8: frontera de pad
+## orquestación de rudimentos: frontera de pad
 
-Aquí B8 aparece sólo como **transformación del material en pad**. No simulamos distribución entre caja, toms, bombo o platos: la orquestación real requiere kit y pertenece a la transferencia posterior.
+Aquí orquestación de rudimentos aparece sólo como **transformación del material en pad**. No simulamos distribución entre caja, toms, bombo o platos: la orquestación real requiere kit y pertenece a la transferencia posterior.
 
 ## 1. Tres versiones, un esqueleto · 10–12 min
 

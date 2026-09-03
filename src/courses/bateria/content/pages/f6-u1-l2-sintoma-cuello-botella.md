@@ -35,7 +35,7 @@ porque un correctivo que sólo funciona aislado todavía no ha resuelto el probl
 
 ## 1. Formula el síntoma
 
-Recupera la observación dominante de L1.
+Recupera la observación dominante de Lección 1.
 
 Debe describir algo que pueda reconocerse de nuevo.
 

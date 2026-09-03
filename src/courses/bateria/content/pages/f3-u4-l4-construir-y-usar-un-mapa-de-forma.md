@@ -74,9 +74,9 @@ No necesitas acertar todos. Registra:
 
 Esta es la conexión práctica con aprender repertorio: un mapa útil permite saber dónde estás y qué puede venir después.
 
-## I3 sin kit
+## formas y canciones sin kit
 
-Aprender repertorio no empieza únicamente cuando puedes tocar una batería completa. Desde el pad puedes desarrollar una parte de I3:
+Aprender repertorio no empieza únicamente cuando puedes tocar una batería completa. Desde el pad puedes desarrollar una parte de formas y canciones:
 
 - localizar secciones;
 - recordar orden;
@@ -86,10 +86,10 @@ Aprender repertorio no empieza únicamente cuando puedes tocar una batería comp
 
 La interpretación completa de canciones sigue reservada para cuando el soporte material lo permita.
 
-## MÍNIMO PARA AVANZAR AL CHECKPOINT 3A
+## MÍNIMO PARA AVANZAR AL Evaluación
 
 Construyes un mapa básico coherente, reconoces al menos una repetición/variación, un contraste y una transición, y puedes anticipar al menos una frontera usando una señal que sabes explicar.
 
 ## AVANZADO
 
-Crear un mapa alternativo razonado o trabajar una fuente con límites menos evidentes. No se exige para el checkpoint.
+Crear un mapa alternativo razonado o trabajar una fuente con límites menos evidentes. No se exige para el Evaluación.

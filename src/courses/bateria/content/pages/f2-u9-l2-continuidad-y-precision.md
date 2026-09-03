@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Una primera vista puede fallar de maneras distintas. U9 no acepta una puntuación única que mezcle todo.
+Una primera vista puede fallar de maneras distintas. esta unidad no acepta una puntuación única que mezcle todo.
 
 > **CONTINUIDAD Y PRECISIÓN SON EVIDENCIAS RELACIONADAS, PERO NO IDÉNTICAS.**
 
@@ -41,11 +41,11 @@ Después de una toma pregunta por separado:
 
 No conviertas una respuesta en sustituto de la otra.
 
-## 2. Muestra protegida L2 — 8–10 min
+## 2. Muestra protegida Lección 2 — 8–10 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-title="20.U9.L2 — continuidad y precisión por separado" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida L2"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-title="Unidad 9.Lección 2 — continuidad y precisión por separado" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l2-continuidad-vs-precision.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 2"></div>
 
 Antes de **Empezar**:
 
@@ -56,7 +56,7 @@ Antes de **Empezar**:
 
 Después de **Empezar**, inspecciona brevemente y toca una sola vez de principio a fin. Pulsa **Finalizar intento** antes de escuchar playback.
 
-Si ya habías visto esta línea en una visita anterior, úsala como práctica y no como nueva evidencia D5.
+Si ya habías visto esta línea en una visita anterior, úsala como práctica y no como nueva evidencia forma y lectura de chart.
 
 ## 3. Registro en dos columnas — 5 min
 
@@ -84,7 +84,7 @@ La descripción concreta permite decidir un correctivo sin inventar una competen
 
 ### Continuidad alta + precisión alta
 
-La muestra respalda D5 en esta condición.
+La muestra respalda forma y lectura de chart en esta condición.
 
 ### Continuidad alta + precisión baja
 
@@ -130,7 +130,7 @@ Decisiones disponibles:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L3
+## MÍNIMO PARA AVANZAR A Lección 3
 
 - completas una muestra nueva sin playback previo;
 - registras continuidad y precisión por separado;
@@ -144,8 +144,8 @@ No se exige:
 - cero errores;
 - porcentaje universal de aciertos;
 - BPM objetivo;
-- click reducido — U10;
-- D5 globalmente `FUNCIONAL`.
+- click reducido — Unidad 10;
+- forma y lectura de chart globalmente `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 

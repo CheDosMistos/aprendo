@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-1
 slug: checkpoint-7a-j1-funcional
 kind: checkpoint
 order: 5
-title: "Checkpoint 7A — J1 funcional: agrupar sin perder 4/4"
+title: "Evaluación — agrupaciones dentro de 4/4 funcional: agrupar sin perder 4/4"
 summary: "Comprueba definición, referencia temporal, ejecución, lectura/escritura, recuperación y aplicación musical de agrupaciones dentro de 4/4 sin convertir BPM en criterio de paso."
 duration: 25–30 min
 competencies: [J1, C1, C2, D4, D6, F2, F3, G3, G4, G6, K2, K5]
@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Función del checkpoint
+## Función del Evaluación
 
-Este checkpoint comprueba si J1 ha pasado de una ventana conocida a una capacidad **funcional**.
+Este Evaluación comprueba si agrupaciones dentro de 4/4 ha pasado de una ventana conocida a una capacidad **funcional**.
 
 No busca una ejecución perfecta ni una colección grande de patrones.
 
@@ -96,7 +96,7 @@ La recuperación cuenta como evidencia; detener la toma ante cada fallo no la de
 - una representación escrita válida;
 - una aplicación breve coherente.
 
-Esto permite abrir J2 sin exigir J1 avanzado.
+Esto permite abrir desplazamientos de acento y motivo sin exigir agrupaciones dentro de 4/4 avanzado.
 
 ### COMPETENTE / FUNCIONAL
 
@@ -124,6 +124,6 @@ Anota:
 - problema principal observado;
 - estrategia de recuperación que funcionó;
 - una evidencia de transferencia;
-- siguiente objetivo para J2.
+- siguiente objetivo para desplazamientos de acento y motivo.
 
-> **HITO LOCAL 7A: PUEDO REORGANIZAR LA SUPERFICIE DE UN 4/4 SIN PERDER SU IDENTIDAD MÉTRICA.**
+> **HITO LOCAL evaluación final: PUEDO REORGANIZAR LA SUPERFICIE DE UN 4/4 SIN PERDER SU IDENTIDAD MÉTRICA.**

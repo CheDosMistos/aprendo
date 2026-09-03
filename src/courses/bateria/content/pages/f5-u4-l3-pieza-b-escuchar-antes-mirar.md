@@ -23,12 +23,12 @@ Pieza B es **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**. No reproduce ni simpli
 
 ## Regla de esta lección
 
-Antes de analizar la notación de Pieza B en L4:
+Antes de analizar la notación de Pieza B en Lección 4:
 
-1. reproduce mentalmente o toca el patrón CORE de U4 durante bloques de 4 compases;
+1. reproduce mentalmente o toca el patrón CORE de esta unidad durante bloques de 4 compases;
 2. usa las señales de dinámica y textura descritas abajo como “guion sonoro”;
 3. construye tu propio mapa;
-4. **sólo después** contrástalo en L4 con el esqueleto formal.
+4. **sólo después** contrástalo en Lección 4 con el esqueleto formal.
 
 La ausencia de una partitura en esta página es intencional: la novedad es usar oído, memoria y anticipación formal.
 
@@ -99,7 +99,7 @@ Registra:
 - intentas recuperar en la siguiente frontera antes de detenerte;
 - mantienes escucha segura.
 
-En L4 comprobarás el mapa real de este material original.
+En Lección 4 comprobarás el mapa real de este material original.
 
 **No existe BPM de aprobado.**
 

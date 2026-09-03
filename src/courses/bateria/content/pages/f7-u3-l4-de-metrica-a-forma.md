@@ -19,7 +19,7 @@ published: true
 
 Usar una métrica impar o mixta para **construir una frase reconocible**, no sólo para demostrar que puedes contar una barra rara.
 
-La competencia J3 se vuelve musical cuando puedes decidir:
+La competencia métricas impares y mixtas se vuelve musical cuando puedes decidir:
 
 - por qué dura así una frase;
 - dónde genera tensión;
@@ -51,8 +51,8 @@ Construye una forma con esta arquitectura:
 ### Restricciones
 
 - conserva una corchea temporalmente estable durante toda la forma;
-- no cruces deliberadamente una célula incompatible a través de barras: eso pertenece a J5;
-- no introduzcas tuplets como variable principal: J4 será la unidad siguiente;
+- no cruces deliberadamente una célula incompatible a través de barras: eso pertenece a ciclos que cruzan compases;
+- no introduzcas tuplets como variable principal: tuplets de 5 y 7 y divisiones no estándar será la unidad siguiente;
 - no cambies el tempo para “hacer encajar” una barra;
 - deja al menos un elemento reconocible entre secciones: sticking, timbre, contorno acentual o dinámica.
 

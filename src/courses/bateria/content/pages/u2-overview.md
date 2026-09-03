@@ -8,7 +8,7 @@ slug: unidad-2-introduccion
 kind: unit
 order: 0
 title: Singles agrupados, paradiddles y primer contraste binario/ternario
-summary: Amplía el mapa PAS con seis rudimentos nuevos, recupera material de U1 y empieza a distinguir dos y tres partes por pulso sin convertir la unidad en una prueba de velocidad.
+summary: Amplía el mapa PAS con seis rudimentos nuevos, recupera material de Unidad 1 y empieza a distinguir dos y tres partes por pulso sin convertir la unidad en una prueba de velocidad.
 duration: Unidad flexible · 3–4 sesiones de referencia
 competencies: [A2, A3, A4, A5, A6, B1, B2, B5, B6, C1, C2, C4, D1, E2, E3, F1, G1, G2, K2, K4, K6]
 rudiments:
@@ -21,9 +21,9 @@ rudiments:
 published: true
 ---
 
-U2 continúa directamente desde U1. No reinicia técnica ni lectura: recupera una pequeña muestra de lo anterior y añade **seis rudimentos PAS**, más vocabulario de lectura y una primera experiencia clara del contraste entre **dos y tres partes iguales por pulso**.
+esta unidad continúa directamente desde Unidad 1. No reinicia técnica ni lectura: recupera una pequeña muestra de lo anterior y añade **seis rudimentos PAS**, más vocabulario de lectura y una primera experiencia clara del contraste entre **dos y tres partes iguales por pulso**.
 
-## Los seis rudimentos de U2
+## Los seis rudimentos de esta unidad
 
 - **Single Stroke Four**
 - **Single Stroke Seven**
@@ -34,7 +34,7 @@ U2 continúa directamente desde U1. No reinicia técnica ni lectura: recupera un
 
 La meta sigue siendo construir una representación correcta. `INTRODUCIDO` es válido; `CONOCIDO` exige reconocer el rudimento, comprender su estructura y poder ejecutarlo lentamente con control razonable.
 
-## Qué cambia respecto a U1
+## Qué cambia respecto a Unidad 1
 
 En esta unidad empiezas a:
 
@@ -59,6 +59,6 @@ Cuando el curso muestre una representación integrada de un recurso externo, la 
 2. **Lección 2 — Extensiones de paradiddle**
 3. **Lección 3 — Paradiddle-diddle y Five Stroke Roll**
 4. **Lección 4 — Recuperación, lectura y contraste**
-5. **Cierre de U2 — ¿puedo continuar?**
+5. **Cierre de esta unidad — ¿puedo continuar?**
 
 Una lección puede ocupar más de una sesión. No hay deuda por calendario y no necesitas cerrar todos los rudimentos como `CONOCIDOS` antes de continuar.

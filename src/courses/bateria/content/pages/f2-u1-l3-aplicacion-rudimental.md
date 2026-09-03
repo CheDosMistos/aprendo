@@ -15,13 +15,13 @@ rudiments: []
 published: true
 ---
 
-Esta lección abre **B7 — aplicación rudimental** de forma prudente. No intenta enseñar un rudimento nuevo ni demostrar que un PAS está dominado.
+Esta lección abre **aplicación rudimental** de forma prudente. No intenta enseñar un rudimento nuevo ni demostrar que un PAS está dominado.
 
 La regla central es:
 
 > **la lectura manda; el rudimento es una textura posible.**
 
-Trabajarás sobre una línea que ya has decodificado en L2. Así podemos observar una variable distinta: si eres capaz de cambiar **sticking, textura o dinámica** sin sustituir el ritmo escrito por una secuencia de manos memorizada.
+Trabajarás sobre una línea que ya has decodificado en Lección 2. Así podemos observar una variable distinta: si eres capaz de cambiar **sticking, textura o dinámica** sin sustituir el ritmo escrito por una secuencia de manos memorizada.
 
 **ESENCIAL AHORA:** los bloques 1–5 con una sola transformación sencilla. **AMPLIACIÓN:** repetir después con liderazgo contrario u otra transformación ya disponible. **AVANZADO:** combinar cambios sólo en intentos separados y cuando siga siendo posible diagnosticar qué ocurre.
 
@@ -44,11 +44,11 @@ Haz una muestra corta y registra sólo lo necesario para decidir si esa textura 
 
 ## 2. Línea base — 5–6 min
 
-Usa de nuevo la partitura de L2. **No es material de primera vista**: precisamente necesitamos una línea ya comprendida para aislar el efecto del sticking.
+Usa de nuevo la partitura de Lección 2. **No es material de primera vista**: precisamente necesitamos una línea ya comprendida para aislar el efecto del sticking.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="20.U1.L2 — línea base ya comprendida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Unidad 1.Lección 2 — línea base ya comprendida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Escoge **uno o dos compases** que puedas explicar antes de tocar. Haz primero una versión con sticking alternado sencillo.
 
@@ -59,7 +59,7 @@ Antes de transformar nada, comprueba que puedes decir:
 - dónde hay ataques y silencios;
 - cuánto dura el compás completo.
 
-Si necesitas reaprender el ritmo durante varios intentos, todavía no es una buena línea para esta lección: cambia a un compás de L2 más disponible.
+Si necesitas reaprender el ritmo durante varios intentos, todavía no es una buena línea para esta lección: cambia a un compás de Lección 2 más disponible.
 
 ## 3. Aplicación — 8–10 min
 
@@ -143,11 +143,11 @@ Cierra con la cadena de evaluación:
 - **CONDICIONES:** tempo, click, partitura visible, sticking base y transformación elegida;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
-Completar la sesión **no actualiza automáticamente** B7, C1, C2, D1 ni el estado del PAS elegido. Solo cuenta la evidencia realmente observada.
+Completar la sesión **no actualiza automáticamente** aplicación musical de rudimentos, pulso interno, subdivisión binaria y ternaria, figuras, silencios y compás ni el estado del PAS elegido. Solo cuenta la evidencia realmente observada.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia L4 cuando:
+Puedes continuar hacia Lección 4 cuando:
 
 - la línea base se mantiene reconocible y temporalmente estable;
 - puedes aplicar **una** transformación simple sin añadir ni eliminar ataques;
@@ -171,9 +171,9 @@ Usa la cadena **SÍNTOMA → HIPÓTESIS → PRUEBA → CORRECCIÓN → EJERCICIO
 
 - **aparecen golpes que no están escritos:** hipótesis: estás convirtiendo el nombre del rudimento en un patrón motor autónomo; prueba la línea con sticking alternado; corrección: asigna las manos sólo a ataques existentes;
 - **el ritmo funciona con alternancia pero cae con la textura:** hipótesis: la carga de manos excede la disponibilidad técnica actual; prueba el mismo fragmento con una transformación más simple; corrección: vuelve a singles o reduce la longitud;
-- **también falla la línea base:** hipótesis: el problema puede estar en lectura/pulso/subdivisión y no en B7; vuelve a rejilla y localiza ataques antes de transformar;
+- **también falla la línea base:** hipótesis: el problema puede estar en lectura/pulso/subdivisión y no en aplicación musical de rudimentos; vuelve a rejilla y localiza ataques antes de transformar;
 - **la mano izquierda degrada sonido o continuidad:** aísla un fragmento breve, baja la exigencia y conserva el mismo ritmo; no compenses acelerando.
 
-Si la textura rudimental destruye la lectura, **volver a sticking simple no es fracaso de D1**. Es un diagnóstico que separa lectura de aplicación técnica.
+Si la textura rudimental destruye la lectura, **volver a sticking simple no es fracaso de figuras, silencios y compás**. Es un diagnóstico que separa lectura de aplicación técnica.
 
 La siguiente lección cambiará de representación: oído, escritura y una primera vista realmente protegida con material nuevo.

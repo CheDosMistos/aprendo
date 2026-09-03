@@ -8,7 +8,7 @@ slug: referencia-pie-manos
 kind: lesson
 order: 4
 title: "Referencia de pie bajo manos conocidas"
-summary: "Mantén una tarea manual elemental mientras el pie izquierdo marca negras, sin convertir la exposición en H4 o independencia."
+summary: "Mantén una tarea manual elemental mientras el pie izquierdo marca negras, sin convertir la exposición en coordinación básica de cuatro extremidades o independencia."
 duration: 20–30 min
 competencies: [H3, C1, C2, K2, K7]
 rudiments: []
@@ -23,14 +23,14 @@ La novedad no son las manos: es **sostener el pie bajo ellas**.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — MANOS VIEJAS + PIE NUEVO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="40.U4.L4 — Manos conocidas + hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="Unidad 4.Lección 4 — Manos conocidas + hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura usa dos voces:
 
 - **voz manual:** ocho corcheas alternadas R/L en caja;
 - **voz de pie:** chick de pedal hi-hat en las cuatro negras.
 
-No hay bombo. No hace falta haber completado H2 para realizar esta tarea.
+No hay bombo. No hace falta haber completado bombo para realizar esta tarea.
 
 ## Proceso: separar → combinar → volver
 
@@ -55,9 +55,9 @@ Si la combinación colapsa, **reduce duración antes de aumentar tempo**.
 
 ## Exposición no es certificación
 
-Esta tarea puede implicar dos manos + pie izquierdo, pero **no certifica H4** ni H7.
+Esta tarea puede implicar dos manos + pie izquierdo, pero **no certifica coordinación básica de cuatro extremidades** ni independencia avanzada.
 
-H4 exige disponibilidad suficiente de H2 y H3 conforme al mapa y tendrá su foco explícito en U6. Aquí sólo observamos si H3 puede convivir con material manual conocido.
+coordinación básica de cuatro extremidades exige disponibilidad suficiente de bombo y hi-hat de pie conforme al mapa y tendrá su foco explícito en Unidad 6. Aquí sólo observamos si hi-hat de pie puede convivir con material manual conocido.
 
 ## MÍNIMO PARA AVANZAR
 

@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Llegar a la integración sin volver a empezar U1–U9.
+Llegar a la integración sin volver a empezar Unidad 1–Unidad 9.
 
 La regla es:
 
@@ -35,7 +35,7 @@ No buscamos una postura milimétrica universal. Buscamos una configuración sost
 
 ## Bloque A — Groove A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U10.L1 — Groove A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 10.Lección 1 — Groove A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Recupera:
 
@@ -48,13 +48,13 @@ No subas el tempo para demostrar que lo recuerdas.
 
 ## Bloque B — Variación B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="40.U10.L1 — Variación B conocida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l2-kick-variation-b.musicxml" data-score-title="Unidad 10.Lección 1 — Variación B conocida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La única diferencia respecto a A es el bombo añadido en `& de 3`.
 
 ## Bloque C — Fill A y retorno
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="40.U10.L1 — Fill A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Unidad 10.Lección 1 — Fill A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Recuerda la función:
 

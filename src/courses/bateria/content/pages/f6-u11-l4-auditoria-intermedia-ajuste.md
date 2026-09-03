@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: auditoria-intermedia-ajuste
 kind: lesson
 order: 4
-title: "U11.L4 — Auditoría intermedia: cambiar de estrategia cuando la evidencia lo exige"
+title: "esta unidad.Lección 4 — Auditoría intermedia: cambiar de estrategia cuando la evidencia lo exige"
 summary: "Compara predicción y resultado, distingue fracaso de hipótesis de fracaso del proyecto y modifica estrategia, recurso o alcance cuando los datos dejan de apoyar el plan inicial."
 duration: 1–2 sesiones
 competencies: [K5, K6, K7, K8, F7, I3, I4]
@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Demostrar la parte más importante de K8 en U11: **modificar el plan por evidencia**, no por aburrimiento, superstición ni obediencia a la primera idea.
+Demostrar la parte más importante de autonomía en esta unidad: **modificar el plan por evidencia**, no por aburrimiento, superstición ni obediencia a la primera idea.
 
 Cadena de esta lección:
 
@@ -75,7 +75,7 @@ Una ayuda cumplió su función y ahora necesitas comprobar si el aprendizaje sob
 
 Haber invertido varias sesiones en una estrategia no la convierte en correcta.
 
-U11 no premia «aguantar» una intervención ineficaz. Premia conservar trazabilidad:
+esta unidad no premia «aguantar» una intervención ineficaz. Premia conservar trazabilidad:
 
 > **LA CAMBIÉ PORQUE LA EVIDENCIA X CONTRADECÍA LA PREDICCIÓN Y.**
 
@@ -94,7 +94,7 @@ La unidad no fija un número universal de intentos.
 
 ## FUENTE MARCO — aprendizaje autodirigido
 
-Parkes describe autogestión, automonitorización y modificación de la propia conducta como componentes de estrategias autodirigidas en contextos musicales. U11 traduce esa idea a una regla curricular: **un plan autónomo debe poder modificarse**, no sólo diseñarse.
+Parkes describe autogestión, automonitorización y modificación de la propia conducta como componentes de estrategias autodirigidas en contextos musicales. esta unidad traduce esa idea a una regla curricular: **un plan autónomo debe poder modificarse**, no sólo diseñarse.
 
 Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.7
 

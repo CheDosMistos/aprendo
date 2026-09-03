@@ -23,7 +23,7 @@ La novedad no es la rejilla: es **mantener tres funciones distintas al mismo tie
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE BASE A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l1-groove-base-a.musicxml" data-score-title="40.U5.L1 — Groove Base A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l1-groove-base-a.musicxml" data-score-title="Unidad 5.Lección 1 — Groove Base A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura usa dos voces:
 

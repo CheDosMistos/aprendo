@@ -8,16 +8,16 @@ slug: fase-5-unidad-5-introduccion
 kind: unit
 order: 0
 title: "Semicorchea, pocket, articulación y primera independencia funcional"
-summary: "Construye H7 dentro de música: una capa sencilla permanece estable mientras otra voz varía, con semicorchea, balance y articulación al servicio del groove."
+summary: "Construye independencia avanzada dentro de música: una capa sencilla permanece estable mientras otra voz varía, con semicorchea, balance y articulación al servicio del groove."
 duration: Unidad flexible · 4 lecciones + checkpoint
 competencies: [H5, H7, I2, A5, B7, B8, C2, G2, I3, K2, K5, K7]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: H7 contextual
+## Novedad dominante: independencia avanzada contextual
 
-U5 abre la independencia funcional **dentro de groove**, no mediante un sistema abstracto de coordinación.
+esta unidad abre la independencia funcional **dentro de groove**, no mediante un sistema abstracto de coordinación.
 
 > **INDEPENDENCIA ≠ AÑADIR CAPAS HASTA QUE TODO SEA DIFÍCcil.**
 
@@ -41,17 +41,17 @@ Por eso la jerarquía será:
 
 ## Ghost notes: textura, no puerta
 
-PAS propone las ghost notes como golpes de caja más suaves que conviven con backbeats destacados. En U5 aparecen sólo después de estabilizar pulso y sonido; **no son requisito para certificar H7 MÍNIMO**.
+PAS propone las ghost notes como golpes de caja más suaves que conviven con backbeats destacados. En esta unidad aparecen sólo después de estabilizar pulso y sonido; **no son requisito para certificar independencia avanzada MÍNIMO**.
 
 Fuente verificada: [PAS — Groove of the Month: Ghost Note Funk](https://pas.org/pas-blog/groove-of-the-month-ghost-note-funk/).
 
 ## Ruta
 
-1. **L1 — Rejilla de semicorcheas:** ubicar cuatro posiciones por pulso sin convertir velocidad en objetivo.
-2. **L2 — Notas principales y textura:** construir jerarquía dinámica; ghost notes como capa opcional/controlada.
-3. **L3 — Capa fija + voz variable:** primera tarea explícita de H7 contextual.
-4. **L4 — Pocket e integración:** sostener la función durante una frase y volver a repertorio.
-5. **Checkpoint 5B:** comprobar H7 MÍNIMO en contexto preparado.
+1. **Lección 1 — Rejilla de semicorcheas:** ubicar cuatro posiciones por pulso sin convertir velocidad en objetivo.
+2. **Lección 2 — Notas principales y textura:** construir jerarquía dinámica; ghost notes como capa opcional/controlada.
+3. **Lección 3 — Capa fija + voz variable:** primera tarea explícita de independencia avanzada contextual.
+4. **Lección 4 — Pocket e integración:** sostener la función durante una frase y volver a repertorio.
+5. **Evaluación:** comprobar independencia avanzada MÍNIMO en contexto preparado.
 
 ## Fronteras
 
@@ -64,6 +64,6 @@ Esta unidad **no**:
 - certifica independencia avanzada;
 - exige una cifra de BPM.
 
-La profundización opcional `ESP-21` sigue fuera del tronco de U5.
+La profundización opcional `ESP-21` sigue fuera del tronco de esta unidad.
 
 **No existe BPM de aprobado.**

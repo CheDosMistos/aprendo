@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Usar B8/G5 ya trabajados sin convertir la orquestación en una segunda novedad dominante.
+Usar orquestación de rudimentos/improvisación restringida ya trabajados sin convertir la orquestación en una segunda novedad dominante.
 
 La regla es:
 
@@ -25,7 +25,7 @@ La regla es:
 
 ## Referencia: Fill B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="40.U9.L3 — Referencia Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Unidad 9.Lección 3 — Referencia Fill B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La versión escrita usa:
 
@@ -33,7 +33,7 @@ La versión escrita usa:
 
 Hoy no creamos una segunda partitura cerrada porque la tarea es tomar **una decisión propia y limitada**.
 
-## Construye una versión B2
+## Construye una versión dobles
 
 Mantén exactamente:
 
@@ -65,13 +65,13 @@ Mover una nota a un tom o plato no la convierte automáticamente en un acento. S
 
 Toca:
 
-`FILL B ESCRITO → GROOVE → FILL B2 → GROOVE`.
+`FILL B ESCRITO → GROOVE → FILL dobles → GROOVE`.
 
 Compara:
 
 `DURACIÓN / PULSO / TIMBRE / MOVIMIENTO / 1 / RECUPERACIÓN`.
 
-Si B2 suena más vistoso pero te hace perder el 1, todavía no es una mejor solución para esta tarea.
+Si dobles suena más vistoso pero te hace perder el 1, todavía no es una mejor solución para esta tarea.
 
 ## Grabación breve
 
@@ -90,4 +90,4 @@ No uses la grabación como juicio global de “qué buen batería soy”.
 
 ## Registrar esta práctica
 
-Registra `B escrito → B2 → qué moví → por qué → efecto sobre el 1`.
+Registra `B escrito → dobles → qué moví → por qué → efecto sobre el 1`.

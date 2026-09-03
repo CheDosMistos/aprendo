@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Fase 2 terminó cuando la notación dejó de ser un dibujo que había que memorizar antes de tocar. En 30.U1 cambia la pregunta:
+Fase 2 terminó cuando la notación dejó de ser un dibujo que había que memorizar antes de tocar. En Unidad 1 cambia la pregunta:
 
 > **¿Puedes reconocer una idea rítmica en más de una representación, moverla entre oído, escritura y ejecución, y explicar qué ayuda necesitaste?**
 
@@ -30,26 +30,26 @@ No todas las tareas recorren siempre el ciclo entero. Una sola variable domina c
 - **Reconocimiento:** identificar una propiedad o escoger entre alternativas.
 - **Imitación:** reproducir por oído una célula breve; no exige escribirla.
 - **Dictado rítmico:** escuchar material breve diseñado para la tarea y representarlo por escrito.
-- **Transcripción:** reconstrucción iterativa de una fuente musical mediante hipótesis, escucha, escritura, comparación y revisión. **Su trabajo estructurado empieza en U3.**
+- **Transcripción:** reconstrucción iterativa de una fuente musical mediante hipótesis, escucha, escritura, comparación y revisión. **Su trabajo estructurado empieza en Unidad 3.**
 - **Análisis:** explicar relaciones observables sin confundir esa explicación con transcribir.
 
 Estas son definiciones operativas del curso.
 
 ## Arquitectura
 
-### L1 — Una idea, varias representaciones
+### Lección 1 — Una idea, varias representaciones
 Notación → ejecución → comparación y sonido → imitación. Aprendes a identificar qué representación limita el intento.
 
-### L2 — Oír, imitar y escribir
+### Lección 2 — Oír, imitar y escribir
 Dos dictados breves con solución escrita oculta. Puedes marcar pulso, vocalizar o esbozar durante la escucha si ayuda. Registras cuántas escuchas utilizas; **no existe un número universal de escuchas para aprobar**.
 
-### L3 — Escribir, tocar, escuchar y revisar
+### Lección 3 — Escribir, tocar, escuchar y revisar
 Creas una célula de un compás y compruebas `INTENCIÓN ↔ PARTITURA ↔ EJECUCIÓN ↔ GRABACIÓN`.
 
-### L4 — Motivo rastreable
+### Lección 4 — Motivo rastreable
 Repites A y produces A′ cambiando una sola variable. El objetivo todavía no es aprender una taxonomía completa de transformaciones.
 
-### Checkpoint — Puerta de representación bidireccional
+### Evaluación — Puerta de representación bidireccional
 Una muestra auditiva y otra visual comprueban la cadena sin convertirla en un examen de transcripción ni en el Hito global 3.
 
 ## ESENCIAL AHORA
@@ -66,7 +66,7 @@ Si el núcleo está estable, puedes probar otra célula equivalente, otra dinám
 
 ## AVANZADO
 
-No es requisito para U1. Transcripción extensa, desarrollo motívico sistemático, improvisación abierta, 5/4 y 7/8 como foco pertenecen a unidades posteriores.
+No es requisito para esta unidad. Transcripción extensa, desarrollo motívico sistemático, improvisación abierta, 5/4 y 7/8 como foco pertenecen a unidades posteriores.
 
 ## Regla de avance
 

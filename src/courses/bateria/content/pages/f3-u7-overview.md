@@ -15,11 +15,11 @@ rudiments: []
 published: true
 ---
 
-U6 te enseñó a transformar una idea **fuera de la presión del tiempo real**. U7 cambia una condición: ahora debes decidir mientras el marco continúa.
+Unidad 6 te enseñó a transformar una idea **fuera de la presión del tiempo real**. esta unidad cambia una condición: ahora debes decidir mientras el marco continúa.
 
 `RECUPERAR VOCABULARIO → FIJAR RESTRICCIÓN → IMPROVISAR SIN PARAR → ESCUCHAR → IDENTIFICAR DECISIONES/ACCIDENTES → AJUSTAR → RETIRAR AYUDA`
 
-> **Novedad dominante:** G3 — improvisar frases cortas respetando una restricción.
+> **Novedad dominante:** improvisar frases cortas respetando una restricción.
 
 ## Qué significa “restricción” aquí
 
@@ -38,7 +38,7 @@ No es una estética obligatoria. La retiramos cuando deja de aportar aprendizaje
 
 ## No: “más restricciones = mejor”
 
-La investigación disponible no permite afirmar que aumentar restricciones produzca automáticamente más creatividad, más flow ni más aprendizaje. U7 usa una **gradiente de andamiaje** y la va reduciendo.
+La investigación disponible no permite afirmar que aumentar restricciones produzca automáticamente más creatividad, más flow ni más aprendizaje. esta unidad usa una **gradiente de andamiaje** y la va reduciendo.
 
 `1 motivo + 1 transformación + frase fija`
 ↓
@@ -50,7 +50,7 @@ La investigación disponible no permite afirmar que aumentar restricciones produ
 ↓
 `objetivo formal o dinámico`
 ↓
-`Puerta G3 con una restricción apropiada`
+`Puerta composición de fills y secciones con una restricción apropiada`
 
 Es una **decisión curricular razonada**, no una ley universal.
 
@@ -61,7 +61,7 @@ Es una **decisión curricular razonada**, no una ley universal.
 - **RECUPERACIÓN:** ¿qué hiciste después de un error?;
 - **CONSIGNA:** ¿la restricción siguió siendo observable?
 
-Una frase sencilla que mantiene el marco puede demostrar más G3 que una frase compleja que obliga a detenerse.
+Una frase sencilla que mantiene el marco puede demostrar más composición de fills y secciones que una frase compleja que obliga a detenerse.
 
 ## Modo interpretación durante la toma
 
@@ -76,31 +76,31 @@ Entre tomas sí puedes volver al **modo laboratorio** para diagnosticar.
 
 ## Arquitectura
 
-### L1 — Un motivo, una transformación, una frase
-Espacio de búsqueda mínimo: A + una operación G2 + longitud fija.
+### Lección 1 — Un motivo, una transformación, una frase
+Espacio de búsqueda mínimo: A + una operación desarrollo motívico + longitud fija.
 
-### L2 — Call and response
+### Lección 2 — Call and response
 Escuchas una llamada y respondes dentro del hueco temporal sin convertir la respuesta en copia obligatoria.
 
-### L3 — Densidad y silencio
+### Lección 3 — Densidad y silencio
 Controlas cuánto tocas. El silencio debe estar dentro del pulso, no ser un bloqueo fuera del tiempo.
 
-### L4 — Dos transformaciones y recuperación
+### Lección 4 — Dos transformaciones y recuperación
 Eliges entre dos operaciones ya conocidas mientras mantienes o recuperas el marco.
 
-### L5 — Retirar la restricción
+### Lección 5 — Retirar la restricción
 La consigna deja de ordenar una operación concreta y pasa a pedir un objetivo formal/dinámico.
 
-### Puerta G3 — hacia composición
-Improvisas una frase breve bajo una restricción, guardas una toma y señalas qué conservarías si quisieras fijarla como composición en U8.
+### Puerta hacia composición
+Improvisas una frase breve bajo una restricción, guardas una toma y señalas qué conservarías si quisieras fijarla como composición en Unidad 8.
 
-## Frontera con U8
+## Frontera con Unidad 8
 
 **Improvisar:** tomar decisiones mientras el tiempo continúa.
 
-**Componer en U8:** fijar, escribir, ejecutar, escuchar y revisar decisiones.
+**Componer en Unidad 8:** fijar, escribir, ejecutar, escuchar y revisar decisiones.
 
-U7 no exige escribir por adelantado una “respuesta correcta”.
+esta unidad no exige escribir por adelantado una “respuesta correcta”.
 
 ## Evaluación
 

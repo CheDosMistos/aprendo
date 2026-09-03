@@ -8,7 +8,7 @@ slug: cambiar-de-densidad
 kind: lesson
 order: 3
 title: "Cambiar de densidad sin mover el pulso"
-summary: "Convierte J4 en competencia funcional alternando 2, 3, 4, 5 y 7 partes por negra mientras el pulso permanece estable y cada transición cae exactamente en su siguiente frontera."
+summary: "Convierte tuplets de 5 y 7 y divisiones no estándar en competencia funcional alternando 2, 3, 4, 5 y 7 partes por negra mientras el pulso permanece estable y cada transición cae exactamente en su siguiente frontera."
 duration: 25–30 min
 competencies: [J4, C1, C2, C3, C4, D3, D6, E2, K2, K5]
 rudiments: []
@@ -19,9 +19,9 @@ published: true
 
 Cambiar entre subdivisiones comunes y tuplets de 5/7 sin alterar la negra de referencia.
 
-Éste es el núcleo del nivel **COMPETENTE / FUNCIONAL** que el mapa exige para J4.
+Éste es el núcleo del nivel **COMPETENTE / FUNCIONAL** que el curso $1 para tuplets de 5 y 7 y divisiones no estándar.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u4/f7-u4-subdivision-transitions.musicxml" data-score-title="70.U4 — Transiciones 2, 3, 4, 5 y 7" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u4/f7-u4-subdivision-transitions.musicxml" data-score-title="Unidad 4 — Transiciones 2, 3, 4, 5 y 7" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué significa realmente “cambiar”
 
@@ -71,7 +71,7 @@ La primera y la última negra son idénticas. Eso permite escuchar si las densid
 
 ## El error que más importa
 
-Puedes producir cinco o siete notas “plausibles” y aun así fallar J4 si, al volver a cuatro, el pulso ha cambiado.
+Puedes producir cinco o siete notas “plausibles” y aun así fallar tuplets de 5 y 7 y divisiones no estándar si, al volver a cuatro, el pulso ha cambiado.
 
 Por eso el criterio no es sólo:
 
@@ -153,7 +153,7 @@ Repite una cadena empezando con derecha y otra empezando con izquierda. En grupo
 
 ## Aplicación al kit
 
-Mantén el plato o hi-hat como referencia sencilla y coloca la subdivisión en caja/toms sólo cuando puedas hacerlo sin crear una segunda tarea de coordinación que oculte J4.
+Mantén el plato o hi-hat como referencia sencilla y coloca la subdivisión en caja/toms sólo cuando puedas hacerlo sin crear una segunda tarea de coordinación que oculte tuplets de 5 y 7 y divisiones no estándar.
 
 La transferencia al kit debe **reutilizar** la relación temporal aprendida, no reiniciarla.
 

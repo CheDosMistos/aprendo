@@ -23,7 +23,7 @@ Hoy el bombo no se añade como una capa extra: **sustituye** uno o dos ataques d
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — MISMA REJILLA, NUEVA EXTREMIDAD
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l4-kick-substitution.musicxml" data-score-title="40.U3.L4 — Sustitución manual → bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l4-kick-substitution.musicxml" data-score-title="Unidad 3.Lección 4 — Sustitución manual → bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura contiene dos compases de ocho corcheas con la misma rejilla temporal:
 
@@ -47,7 +47,7 @@ Si B rompe el tiempo, vuelve a **una sola sustitución** antes de repetir muchas
 
 **DECISIÓN CURRICULAR RAZONADA:** sustituir reduce la carga coordinativa. La extremidad nueva aprende a ocupar un lugar temporal que ya conoces sin exigir todavía independencia de capas.
 
-Esto puede ser exposición a varias extremidades, pero **no certifica H4**.
+Esto puede ser exposición a varias extremidades, pero **no certifica coordinación básica de cuatro extremidades**.
 
 ## Diagnóstico
 
@@ -70,7 +70,7 @@ Si usas un rudimento PAS como material base, su identidad y sticking deben verif
 - al menos una sustitución manual→bombo es controlable;
 - puedes volver a A sin reaprender la frase;
 - distingues sustitución de superposición;
-- no conviertes esta tarea en groove H5 ni H4 certificado;
+- no conviertes esta tarea en groove groove y variaciones ni coordinación básica de cuatro extremidades certificado;
 - puedes nombrar el cuello de botella si la frase deja de ser reconocible.
 
 ## Registrar esta práctica

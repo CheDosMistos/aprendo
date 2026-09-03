@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-U9 empieza cambiando **las condiciones de la tarea**, no el vocabulario escrito.
+esta unidad empieza cambiando **las condiciones de la tarea**, no el vocabulario escrito.
 
-> **UNA MUESTRA D5 DEJA DE SER PRIMERA VISTA EN CUANTO LA PRACTICAS.**
+> **UNA MUESTRA forma y lectura de chart DEJA DE SER PRIMERA VISTA EN CUANTO LA PRACTICAS.**
 
 La partitura de esta lección contiene únicamente elementos ya trabajados: 4/4, negras, corcheas, semicorcheas y silencios accesibles. La novedad es enfrentarte a su combinación sin haberla ensayado.
 
@@ -54,7 +54,7 @@ Lo que **no** debes hacer es repetir compases o células hasta que la secuencia 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-title="20.U9.L1 — primera vista: protocolo de un solo intento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida L1"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-title="Unidad 9.Lección 1 — primera vista: protocolo de un solo intento" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l1-primera-vista-protocolo.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 1"></div>
 
 Al pulsar **Empezar**:
 
@@ -82,7 +82,7 @@ Después formula la inferencia.
 
 No conviertas `tuve tres errores` en `no sé leer`. Tampoco conviertas `no me paré` en `todo fue preciso`.
 
-L2 separará esas dos dimensiones de forma explícita.
+Lección 2 separará esas dos dimensiones de forma explícita.
 
 ## 5. Playback = feedback, no segunda primera vista — 3 min
 
@@ -95,7 +95,7 @@ Compara:
 - continuidad entre compases;
 - densidad de semicorcheas.
 
-Desde ese momento esta partitura **ya no aporta otra muestra independiente de D5**. Puedes repetirla para corregir lectura, pero esa repetición es práctica.
+Desde ese momento esta partitura **ya no aporta otra muestra independiente de forma y lectura de chart**. Puedes repetirla para corregir lectura, pero esa repetición es práctica.
 
 ## 6. Una corrección dominante — 3–4 min
 
@@ -117,7 +117,7 @@ Aplica:
 
 ### Inferencia posible
 
-`El protocolo D5 es utilizable y puedo obtener una muestra sin convertirla en memoria previa.`
+`El protocolo forma y lectura de chart es utilizable y puedo obtener una muestra sin convertirla en memoria previa.`
 
 ### Evidencia
 
@@ -134,7 +134,7 @@ Tempo elegido, click convencional, inspección breve, cero playback previo.
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L2
+## MÍNIMO PARA AVANZAR A Lección 2
 
 - entiendes por qué una misma línea sólo es nueva una vez;
 - distingues inspección breve de ensayo;
@@ -142,14 +142,14 @@ Tempo elegido, click convencional, inspección breve, cero playback previo.
 - intentas conservar continuidad ante un error pequeño;
 - puedes señalar al menos una observación concreta sobre precisión y otra sobre continuidad;
 - tratas el BPM como condición, no como nota;
-- no declaras D5 `FUNCIONAL` por una sola muestra.
+- no declaras forma y lectura de chart `FUNCIONAL` por una sola muestra.
 
 No se exige:
 
 - cero errores;
 - tempo alto;
-- ornamentación U8 dentro de esta muestra;
-- click reducido — U10;
+- ornamentación Unidad 8 dentro de esta muestra;
+- click reducido — Unidad 10;
 - Hito 2 completo.
 
 ## COMPETENTE EN ESTA TAREA

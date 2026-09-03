@@ -7,7 +7,7 @@ unitSlug: fase-3-unidad-8
 slug: checkpoint-3b-autoria-en-desarrollo
 kind: checkpoint
 order: 6
-title: "Checkpoint 3B — Autoría en desarrollo"
+title: "Evaluación — Autoría en desarrollo"
 summary: "Crea, representa, toca y revisa una microcomposición propia de 1–4 compases con motivo reconocible y al menos una transformación consciente."
 duration: 25–30 min
 competencies: [G4, G1, G2, D6, F3, C1, C2, K2, K5, K6, K8]
@@ -15,23 +15,23 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este checkpoint
+## Qué demuestra este Evaluación
 
-Checkpoint 3B observa **autoría en desarrollo**.
+Evaluación observa **autoría en desarrollo**.
 
-El mínimo G4 aprobado es:
+El mínimo composición de piezas aprobado es:
 
 > **crear 1–4 compases coherentes y reproducibles.**
 
-U8 añade una condición propia de su arquitectura: que puedas señalar **al menos una transformación consciente** y revisar tu material mediante comparación.
+esta unidad añade una condición propia de su arquitectura: que puedas señalar **al menos una transformación consciente** y revisar tu material mediante comparación.
 
-**Este checkpoint no es el Hito 4 final de Fase 3.** Ese cierre permanece en U12.
+**Este Evaluación no es el Hito 4 final de Fase 3.** Ese cierre permanece en Unidad 12.
 
 ## Semilla opcional — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
 Si quieres un punto de partida, el compás 1 contiene una semilla nueva. Los compases 2–4 están deliberadamente vacíos.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-cp-seed.musicxml" data-score-title="30.U8.CP — semilla opcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-cp-seed.musicxml" data-score-title="Unidad 8.evaluación — semilla opcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 **La semilla es opcional y no es una composición resuelta.** También puedes comenzar desde un motivo propio nuevo.
 
@@ -39,7 +39,7 @@ Si usas la semilla, tú decides qué conservar, qué transformar, cuánto dura l
 
 ## Condición de autoría
 
-No copies una composición de L1–L5. Puedes reutilizar **procedimientos** —repetición, transformación, contraste, retorno, revisión— pero el resultado debe ser tu versión.
+No copies una composición de Lección 1–Lección 5. Puedes reutilizar **procedimientos** —repetición, transformación, contraste, retorno, revisión— pero el resultado debe ser tu versión.
 
 ## Protocolo
 
@@ -109,7 +109,7 @@ Pieza breve con desarrollo y contraste, cierre funcional, revisión útil y rela
 
 Forma más amplia, varias transformaciones o decisiones métricas/dinámicas complejas con control.
 
-**AVANZADO no es requisito para U9.**
+**AVANZADO no es requisito para Unidad 9.**
 
 ## Lo que NO se evalúa
 

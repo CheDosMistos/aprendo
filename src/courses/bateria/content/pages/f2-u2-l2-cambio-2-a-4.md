@@ -8,18 +8,18 @@ slug: silencios-y-cambio-2-a-4-sin-perder-el-pulso
 kind: lesson
 order: 2
 title: Silencios y cambio 2 ↔ 4 sin perder el pulso
-summary: "Inicia C3 alternando corcheas y semicorcheas dentro del mismo pulso: cambia la densidad, no el tempo, y conserva la rejilla durante silencios y transiciones."
+summary: "Inicia cambios de subdivisión alternando corcheas y semicorcheas dentro del mismo pulso: cambia la densidad, no el tempo, y conserva la rejilla durante silencios y transiciones."
 duration: 25–30 min
 competencies: [C1, C2, C3, C4, D1, F1, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-En L1 hiciste explícitas las cuatro posiciones de semicorchea dentro del pulso. Ahora aparece una dificultad distinta: **cambiar la densidad de subdivisión sin cambiar la velocidad del pulso**.
+En Lección 1 hiciste explícitas las cuatro posiciones de semicorchea dentro del pulso. Ahora aparece una dificultad distinta: **cambiar la densidad de subdivisión sin cambiar la velocidad del pulso**.
 
 > **Pasar de 2 a 4 no acelera la negra; pasar de 4 a 2 no la frena. Cambia cuántos espacios iguales colocas dentro del mismo pulso.**
 
-Esta lección abre **C3 — cambios de subdivisión** de forma deliberadamente pequeña. C3 queda **INICIADO**, no FUNCIONAL: hoy sólo trabajamos cambios binarios sencillos `2 ↔ 4`.
+Esta lección abre **cambios de subdivisión** de forma deliberadamente pequeña. cambios de subdivisión queda **INICIADO**, no FUNCIONAL: hoy sólo trabajamos cambios binarios sencillos `2 ↔ 4`.
 
 **ESENCIAL AHORA:** conservar pulso, localizar el cambio de densidad y mantener la rejilla de cuatro posiciones cuando aparezcan silencios de semicorchea.
 
@@ -43,15 +43,15 @@ No confundas:
 - **ataque:** qué posiciones realmente suenan;
 - **silencio:** una posición o duración sin ataque que sigue perteneciendo al tiempo.
 
-U3 seguirá reservando como novedad estructurada ligaduras, puntillos y la distinción explícita `ataque ≠ duración`. Aquí no usamos esos conceptos como eje nuevo.
+Unidad 3 seguirá reservando como novedad estructurada ligaduras, puntillos y la distinción explícita `ataque ≠ duración`. Aquí no usamos esos conceptos como eje nuevo.
 
 ## 1. Recuperación — 3 min
 
-Recupera **los compases 3–4 de L1** sin practicarlos inmediatamente antes. Haz una sola toma breve antes de habilitar audio.
+Recupera **los compases 3–4 de Lección 1** sin practicarlos inmediatamente antes. Haz una sola toma breve antes de habilitar audio.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="20.U2.L1 — recuperación de la rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Unidad 2.Lección 1 — recuperación de la rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Observa sólo esto:
 
@@ -59,7 +59,7 @@ Observa sólo esto:
 - ¿los silencios dejan intacta tu sensación de cuatro posiciones?;
 - ¿puedes mantener o recuperar la negra después de un error pequeño?
 
-Si la rejilla de L1 no está disponible hoy, reduce densidad antes de añadir cambios. Eso es un correctivo localizado, no una vuelta a U1 completa.
+Si la rejilla de Lección 1 no está disponible hoy, reduce densidad antes de añadir cambios. Eso es un correctivo localizado, no una vuelta a Unidad 1 completa.
 
 ## 2. NÚCLEO — 10–12 min
 
@@ -67,7 +67,7 @@ Si la rejilla de L1 no está disponible hoy, reduce densidad antes de añadir ca
 
 El banco siguiente contiene **ocho compases originales en 4/4**. Alterna pulsos escritos en corcheas —densidad 2— y semicorcheas —densidad 4—; en la rejilla densa aparecen también silencios de semicorchea.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="20.U2.L2 — banco de cambios 2 ↔ 4 y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Unidad 2.Lección 2 — banco de cambios 2 ↔ 4 y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120 BPM` contenido en el MusicXML es **sólo una referencia técnica de playback**. No es tempo recomendado ni puerta de competencia. Elige una velocidad donde puedas percibir el cambio de densidad sin tensarte.
 
@@ -93,7 +93,7 @@ a:
 
 `3 e & a 4 e & a`.
 
-Si el movimiento de negra se acelera al llegar a cuatro subdivisiones, C3 todavía no está describiendo un cambio limpio: has cambiado también C1.
+Si el movimiento de negra se acelera al llegar a cuatro subdivisiones, cambios de subdivisión todavía no está describiendo un cambio limpio: has cambiado también pulso interno.
 
 ### Cambio 4 → 2
 
@@ -156,7 +156,7 @@ Compara después con la versión base:
 - ¿qué permaneció fijo: pulso, posiciones escritas, silencios y duración del compás?;
 - ¿la nueva capa hizo que una transición antes estable dejara de serlo?
 
-Si la transferencia rompe la lectura, vuelve a sticking alternado sin acentos. **No conviertas un fallo de segunda capa en evidencia automática de que C3 ha fallado.**
+Si la transferencia rompe la lectura, vuelve a sticking alternado sin acentos. **No conviertas un fallo de segunda capa en evidencia automática de que cambios de subdivisión ha fallado.**
 
 ## 5. Registro — 2 min
 
@@ -177,11 +177,11 @@ Cierra con la cadena aprobada:
 - **CONDICIONES:** tempo, click, conteo, sticking y ayudas usadas;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA`.
 
-Completar la lección **no actualiza automáticamente C3 ni ninguna otra competencia**. En esta unidad C3 está empezando a desarrollarse; una sesión correcta no basta para declararlo funcional.
+Completar la lección **no actualiza automáticamente cambios de subdivisión ni ninguna otra competencia**. En esta unidad cambios de subdivisión está empezando a desarrollarse; una sesión correcta no basta para declararlo funcional.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia L3 cuando, en material que todavía exige lectura:
+Puedes continuar hacia Lección 3 cuando, en material que todavía exige lectura:
 
 - distingues verbalmente qué significa subdividir una negra en 2 o en 4;
 - ejecutas varias transiciones `2 ↔ 4` sin convertir el cambio de densidad en un cambio deliberado de tempo;
@@ -195,7 +195,7 @@ No se exige un BPM concreto, cero errores ni retirar el click.
 
 En esta tarea concreta, el cambio empieza a ser competente cuando puedes alternar varias arquitecturas `2/4` nuevas, mantener una negra razonablemente estable y conservar las posiciones de silencio sin necesitar preparar cada cambio mediante repetición extensa.
 
-Esto **no equivale a declarar C3 FUNCIONAL de forma global**. Todavía no se exigen cambios `2 ↔ 3 ↔ 4 ↔ 6`, ternario sostenido ni otras condiciones de fases posteriores.
+Esto **no equivale a declarar cambios de subdivisión FUNCIONAL de forma global**. Todavía no se exigen cambios `2 ↔ 3 ↔ 4 ↔ 6`, ternario sostenido ni otras condiciones de fases posteriores.
 
 ## AVANZADO EN ESTA TAREA
 

@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-Hasta U10 hemos aprendido a representar, transformar y crear ritmo. U11 añade una pregunta más amplia:
+Hasta Unidad 10 hemos aprendido a representar, transformar y crear ritmo. esta unidad añade una pregunta más amplia:
 
 > **¿qué está haciendo este ritmo dentro de la música?**
 
@@ -50,4 +50,4 @@ Tocar canciones completas en kit, reconocer todos los intervalos de oído, memor
 3. acordes, centro tonal y tensión/resolución;
 4. bajo–batería como relación;
 5. caso documentado: “Take Five”;
-6. checkpoint de análisis integrado con fuente original.
+6. Evaluación de análisis integrado con fuente original.

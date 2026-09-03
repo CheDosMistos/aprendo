@@ -27,7 +27,7 @@ Usar una polirritmia como **recurso musical intencional** conservando tres cosas
 
 > **La complejidad sólo aporta si puedes seguir oyendo qué función cumple cada capa y dónde resuelve la relación.**
 
-No hace falta aumentar la dificultad para que J6 sea musical.
+No hace falta aumentar la dificultad para que polirritmia sea musical.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — K: una capa estructural y otra expresiva
 
@@ -109,25 +109,25 @@ El silencio no autoriza a reespaciar los otros dos ataques.
 
 Si modificas tanto una capa que ya no conserva periodicidad, quizá sigas teniendo una frase rítmica interesante, pero la etiqueta `3:2` o `4:3` puede dejar de describir con precisión lo que suena.
 
-En U6 preferimos **menos transformación y más claridad analítica**.
+En esta unidad preferimos **menos transformación y más claridad analítica**.
 
-## Frontera con J7 — polimetría
+## Frontera con polimetría
 
 No declares polimetría sólo porque las capas “parezcan estar en compases distintos”.
 
-En los ejercicios centrales de U6:
+En los ejercicios centrales de esta unidad:
 
 - existe un ciclo compartido explícito;
 - la barra de referencia permanece clara;
 - no asignamos a cada capa una barra independiente que deba mantener su propio ciclo métrico a través de varias barras.
 
-Ese cambio de nivel estructural será el objeto de U7.
+Ese cambio de nivel estructural será el objeto de Unidad 7.
 
-## Frontera con J8 — modulación métrica
+## Frontera con modulación métrica
 
 No uses la capa de 3 o 4 para redefinir el tempo de la sección siguiente en esta unidad.
 
-Puedes escuchar la posibilidad, pero la reinterpretación calculada de una subdivisión como nuevo pulso pertenece a J8.
+Puedes escuchar la posibilidad, pero la reinterpretación calculada de una subdivisión como nuevo pulso pertenece a modulación métrica.
 
 ## Oído y análisis propio
 
@@ -163,12 +163,12 @@ Tres niveles:
 2. **mano + pie** si la coordinación lo permite;
 3. **capa de groove + capa polirrítmica** como AMPLIACIÓN, sólo si el groove no desaparece bajo la tarea.
 
-No conviertas independencia extrema en requisito de J6 funcional.
+No conviertas independencia extrema en requisito de polirritmia funcional.
 
 ## Recursos de ampliación
 
-Gary Chaffee y Gavin Harrison están catalogados como fuentes primarias pertinentes para J6. Úsalos sólo con una sección concreta verificada y un ejemplar legal. U6 no reproduce material protegido ni atribuye sus ejercicios originales a esos autores.
+Gary Chaffee y Gavin Harrison están catalogados como fuentes primarias pertinentes para polirritmia. Úsalos sólo con una sección concreta verificada y un ejemplar legal. esta unidad no reproduce material protegido ni atribuye sus ejercicios originales a esos autores.
 
 ## Criterio de avance
 
-Puedes usar `3:2` o `4:3` en una frase o forma breve, cambiar dinámica/timbre de una capa sin deformar el ratio, conservar el ciclo común y explicar por qué el resultado sigue siendo J6 y todavía no J7/J8.
+Puedes usar `3:2` o `4:3` en una frase o forma breve, cambiar dinámica/timbre de una capa sin deformar el ratio, conservar el ciclo común y explicar por qué el resultado sigue siendo polirritmia y todavía no polimetría/modulación métrica.

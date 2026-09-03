@@ -15,13 +15,13 @@ rudiments: []
 published: true
 ---
 
-Este checkpoint no pregunta cuál es el modo de metrónomo más difícil que puedes soportar. Pregunta si reducir referencia produce una muestra interpretable de control temporal.
+Este Evaluación no pregunta cuál es el modo de metrónomo más difícil que puedes soportar. Pregunta si reducir referencia produce una muestra interpretable de control temporal.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="20.U10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="Unidad 10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ## INFERENCIA
 
-C1/C2/C4 y C5 inicial permiten sostener una lectura conocida cuando disminuye la densidad del click, sin que la retirada de ayuda destruya la organización temporal.
+pulso interno/subdivisión binaria y ternaria/metrónomo y click reducido y click desplazado o no obvio inicial permiten sostener una lectura conocida cuando disminuye la densidad del click, sin que la retirada de ayuda destruya la organización temporal.
 
 ## EVIDENCIA
 
@@ -46,7 +46,7 @@ No cambies BPM, sticking ni lectura entre A y B.
 - vocabulario notacional conocido;
 - sin playback previo como guía temporal de la ejecución;
 - BPM cómodo documentado, nunca criterio universal de aprobado;
-- si el modo reducido colapsa C1/C2, vuelve a referencia explícita y registra el dato.
+- si el modo reducido colapsa pulso interno/subdivisión binaria y ternaria, vuelve a referencia explícita y registra el dato.
 
 **DECISIÓN CURRICULAR RAZONADA INFORMADA POR EVIDENCIA EXTRAPOLADA:** el uso de referencia reducida es una herramienta pedagógica; no se presenta como protocolo validado específicamente para bateristas.
 
@@ -74,12 +74,12 @@ No mezcles:
 
 - sesión completada;
 - condición de click utilizada;
-- evidencia C1/C2/C4/C5;
+- evidencia pulso interno/subdivisión binaria y ternaria/metrónomo y click reducido/click desplazado o no obvio;
 - estado general de competencia;
 - retención.
 
-Completar el checkpoint no convierte C5 en `FUNCIONAL`.
+Completar el Evaluación no convierte click desplazado o no obvio en `FUNCIONAL`.
 
-## Puente a U11
+## Puente a Unidad 11
 
-U11 integra escuchar, escribir, leer y aplicar. Si la referencia reducida sigue frágil pero el problema está localizado, puede pasar a mantenimiento/correctivo; U11 no exige que el gap sea perfecto.
+Unidad 11 integra escuchar, escribir, leer y aplicar. Si la referencia reducida sigue frágil pero el problema está localizado, puede pasar a mantenimiento/correctivo; Unidad 11 no exige que el gap sea perfecto.

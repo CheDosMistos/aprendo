@@ -85,7 +85,7 @@ Durante una pasada, introduce deliberadamente un error pequeño:
 
 Tu tarea es **no detenerte** y recuperar primero pulso/forma.
 
-## Ventana I6 — escuchar al arreglo
+## Ventana escuchar al arreglo
 
 Si trabajas con otra persona o un acompañamiento que lo permita, observa:
 
@@ -94,7 +94,7 @@ Si trabajas con otra persona o un acompañamiento que lo permita, observa:
 - si la dinámica colectiva cambia antes que tu parte;
 - si tu fill invade una información más importante.
 
-Esto es una **ventana de interacción**, no certificación de I6 funcional.
+Esto es una **ventana de interacción**, no certificación de interacción y ensemble funcional.
 
 ## Modo laboratorio vs. modo interpretación
 

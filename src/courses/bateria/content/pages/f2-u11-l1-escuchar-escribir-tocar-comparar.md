@@ -46,4 +46,4 @@ Toca cada reconstrucción con liderazgo derecho y luego izquierdo. El cambio de 
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L2 cuando al menos una cadena produzca una comparación interpretable y puedas localizar la representación limitante sin depender únicamente de “acierto/error”.
+Puedes pasar a Lección 2 cuando al menos una cadena produzca una comparación interpretable y puedas localizar la representación limitante sin depender únicamente de “acierto/error”.

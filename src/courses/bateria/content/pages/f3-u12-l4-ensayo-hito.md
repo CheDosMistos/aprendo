@@ -19,7 +19,7 @@ published: true
 
 Hacer un ensayo completo del Hito sin convertirlo en una búsqueda de toma perfecta.
 
-Usa la versión que hayas decidido conservar después de L3.
+Usa la versión que hayas decidido conservar después de Lección 3.
 
 ## Parte A — Ejecución completa
 
@@ -63,9 +63,9 @@ Nombra un rasgo observable.
 ### 3. ¿Qué transformación utilizaste?
 Explica:
 
-**SE CONSERVA →** ...
+**SE CONSERVA →**...
 
-**CAMBIA →** ...
+**CAMBIA →**...
 
 ### 4. ¿Cómo se organiza la pieza?
 Describe frase, repetición, contraste, retorno, espacio, dinámica o cierre sólo si realmente forman parte de tu diseño.

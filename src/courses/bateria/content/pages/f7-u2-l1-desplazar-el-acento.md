@@ -17,9 +17,9 @@ published: true
 
 ## Objetivo
 
-Aislar la forma más limpia de J2: **no cambia ninguna nota de la línea; sólo cambia qué posición recibe el acento**.
+Aislar la forma más limpia de desplazamientos de acento y motivo: **no cambia ninguna nota de la línea; sólo cambia qué posición recibe el acento**.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u2/f7-u2-accent-displacement.musicxml" data-score-title="70.U2 — Desplazamiento de acento por semicorchea" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u2/f7-u2-accent-displacement.musicxml" data-score-title="Unidad 2 — Desplazamiento de acento por semicorchea" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Cuadrícula
 

@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Convertir el brief de L1 en una **V0 completa** que puedas volver a tocar desde su representación.
+Convertir el brief de Lección 1 en una **V0 completa** que puedas volver a tocar desde su representación.
 
 No existe una partitura-solución del curso para esta tarea. La evidencia debe ser tuya.
 
@@ -46,7 +46,7 @@ Puede ser, por ejemplo:
 - cambio de sticking;
 - aumentación/disminución o retrogradación si ya las manejas.
 
-La lista recuerda vocabulario de U6; **no obliga a usar operaciones avanzadas**.
+La lista recuerda vocabulario de Unidad 6; **no obliga a usar operaciones avanzadas**.
 
 ## 3. Registra la trazabilidad
 

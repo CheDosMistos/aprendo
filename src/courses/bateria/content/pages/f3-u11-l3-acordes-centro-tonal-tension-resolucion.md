@@ -8,7 +8,7 @@ slug: acordes-centro-tonal-tension-resolucion
 kind: lesson
 order: 3
 title: "Acordes, centro tonal y tensión/resolución"
-summary: "Usa una progresión original sencilla para escuchar cambio, salida y retorno sin convertir U11 en armonía exhaustiva."
+summary: "Usa una progresión original sencilla para escuchar cambio, salida y retorno sin convertir esta unidad en armonía exhaustiva."
 duration: 25–30 min
 competencies: [E7, F4, F5, F7, K2, K6]
 rudiments: []

@@ -25,7 +25,7 @@ a:
 
 `SÍNTOMA → HIPÓTESIS → PRUEBA → ESTRATEGIA → RETEST`.
 
-U1 ya introdujo esta cadena. En U9 la dificultad nueva es **elegir entre varias respuestas posibles**.
+Unidad 1 ya introdujo esta cadena. En esta unidad la dificultad nueva es **elegir entre varias respuestas posibles**.
 
 ## Diagnóstico no es corrección
 

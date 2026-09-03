@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: auditoria-portafolio-r1-r4
 kind: lesson
 order: 1
-title: "U12.L1 — Auditoría R1–R4: qué evidencia existe y qué falta realmente"
+title: "esta unidad.Lección 1 — Auditoría los cuatro carriles del portafolio: qué evidencia existe y qué falta realmente"
 summary: "Convierte el portafolio en un mapa de afirmaciones y pruebas: selecciona evidencia representativa, identifica huecos reales y evita repetir tareas sólo para acumular archivos."
 duration: 1–2 sesiones
 competencies: [K1, K5, K6, K8, E6, F7, I3, I4]
@@ -19,9 +19,9 @@ published: true
 
 Antes de volver a tocar, responder una pregunta de evaluación:
 
-> **¿QUÉ PUEDO AFIRMAR YA CON LA EVIDENCIA DE U1–U11 Y QUÉ TODAVÍA NECESITA UNA PRUEBA?**
+> **¿QUÉ PUEDO AFIRMAR YA CON LA EVIDENCIA DE Unidad 1–Unidad 11 Y QUÉ TODAVÍA NECESITA UNA PRUEBA?**
 
-U12 no empieza acumulando material nuevo. Empieza reduciendo ruido.
+esta unidad no empieza acumulando material nuevo. Empieza reduciendo ruido.
 
 ## Evidencia ≠ archivo
 
@@ -34,7 +34,7 @@ Una evidencia es útil cuando permite relacionar:
 Ejemplo:
 
 - **afirmación:** puedo navegar un chart funcional sin abandonar la forma;
-- **tarea:** pasada completa de U10;
+- **tarea:** pasada completa de Unidad 10;
 - **condición:** chart visible + cues programados;
 - **resultado:** continuidad y recuperación tras una pérdida local;
 - **límite:** no demuestra todavía la misma navegación con un chart desconocido.
@@ -63,16 +63,16 @@ La información puede ser musicalmente interesante, pero no es necesaria para de
 
 **NO OBSERVADO** no equivale automáticamente a suspenso. Especialmente en interacción interpersonal, puede reflejar ausencia de contexto real.
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Matriz de cierre R1–R4»
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Matriz de cierre los cuatro carriles del portafolio»
 
 Completa sólo las filas que aporten información:
 
 | Carril | Afirmación | Mejor evidencia disponible | Condición | Incertidumbre/límite | Estado | Acción |
 |---|---|---|---|---|---|---|
-| R1 | | | | | | |
-| R2 | | | | | | |
-| R3 | | | | | | |
-| R4 | | | | | | |
+| Escucha y transcripción | | | | | | |
+| Chart y lectura | | | | | | |
+| Transferencia entre estilos | | | | | | |
+| Proyecto autónomo | | | | | | |
 
 En **Acción** usa una de estas decisiones:
 
@@ -82,7 +82,7 @@ En **Acción** usa una de estas decisiones:
 - `REDUCIR AFIRMACIÓN` — la evidencia demuestra menos de lo que estabas diciendo;
 - `NO NECESARIO` — no aporta a la decisión final.
 
-## R1 — Escucha / transcripción
+## Escucha y transcripción — Escucha / transcripción
 
 Localiza evidencia del Hito específico de Fase 6:
 
@@ -96,9 +96,9 @@ La evidencia debe permitir identificar:
 - qué fue certeza, hipótesis o aproximación;
 - si un tutorial se usó, que no fuera la única vía de aprendizaje.
 
-Si U9 ya dejó una muestra clara, **no repitas la transcripción** sólo para U12.
+Si Unidad 9 ya dejó una muestra clara, **no repitas la transcripción** sólo para esta unidad.
 
-## R2 — Chart / lectura
+## Chart y lectura — Chart / lectura
 
 Busca una muestra donde la notación o chart funcionara como herramienta de navegación y decisión.
 
@@ -112,7 +112,7 @@ Interesa especialmente:
 
 No necesitas demostrar lectura de dificultad máxima.
 
-## R3 — Transferencia estilística
+## Transferencia entre estilos — Transferencia estilística
 
 Busca evidencia de que una idea o función fue adaptada a dos contextos documentados distinguiendo:
 
@@ -122,9 +122,9 @@ Busca evidencia de que una idea o función fue adaptada a dos contextos document
 
 Una mera transposición de patrón sin análisis de función no basta para esta afirmación.
 
-## R4 — Proyecto autónomo
+## Proyecto autónomo — Proyecto autónomo
 
-U11 debe aportar un ciclo completo donde puedas mostrar:
+Unidad 11 debe aportar un ciclo completo donde puedas mostrar:
 
 - problema y línea base;
 - estrategia/recurso elegido;
@@ -137,16 +137,16 @@ No necesitas demostrar que tu primera hipótesis fue correcta.
 
 ## Mapear el núcleo de Hito 7
 
-Además de R1–R4, crea un índice breve para:
+Además de los cuatro carriles del portafolio, crea un índice breve para:
 
-`K1 · K2 · K3 · K4 · K5 · K6 · K7 · K8 · E6 · F7`
+`objetivos de práctica · grabación y autoevaluación · diagnóstico de errores · práctica espaciada · interleaving sensato · recuperación y retención · gestión de carga y salud · autonomía · transcripción real · análisis musical`
 
 No hace falta una pieza de evidencia distinta para cada código. Una misma tarea puede apoyar varias competencias si puedes explicar cómo.
 
 Ejemplo:
 
-- una auditoría de U11 puede apoyar K2, K5, K6, K8 y F7;
-- una transcripción de U9 puede apoyar E6, F7, K3 y K5.
+- una auditoría de Unidad 11 puede apoyar grabación y autoevaluación, interleaving sensato, recuperación y retención, autonomía y análisis musical;
+- una transcripción de Unidad 9 puede apoyar transcripción real, análisis musical, diagnóstico de errores y interleaving sensato.
 
 Evita inflar el portafolio asignando diez códigos a una muestra que apenas demuestra uno.
 
@@ -178,7 +178,7 @@ Selecciona la **evidencia mínima que sostenga la afirmación**.
 
 ### MÍNIMO PARA AVANZAR
 
-Tienes R1–R4 auditados, puedes localizar la evidencia directa del Hito específico de Fase 6 y has identificado qué huecos reales necesitan retest o transferencia.
+Tienes los cuatro carriles del portafolio auditados, puedes localizar la evidencia directa del Hito específico de Fase 6 y has identificado qué huecos reales necesitan retest o transferencia.
 
 ### COMPETENTE / FUNCIONAL
 

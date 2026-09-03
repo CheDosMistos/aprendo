@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: ninguna habilidad aislada
 
-U12 no añade un nuevo estilo, patrón, rudimento, compás ni sistema de independencia.
+esta unidad no añade un nuevo estilo, patrón, rudimento, compás ni sistema de independencia.
 
 Su función es **integrar y producir evidencia**.
 
@@ -51,24 +51,24 @@ No todas las dimensiones tienen que alcanzar el mismo nivel simultáneamente.
 
 ## Arquitectura
 
-### L1 — Protocolo de evidencia y condiciones declaradas
+### Lección 1 — Protocolo de evidencia y condiciones declaradas
 Define qué se registra, qué ayudas se usan, cómo se documenta la carga de sesión y qué hace una evidencia interpretable.
 
-### L2 — Pieza A + Pieza B: dos rutas, dos familias
+### Lección 2 — Pieza A + Pieza B: dos rutas, dos familias
 Compara chart/backbeat con escucha/shuffle sin convertir la evaluación en una competición de dificultad.
 
-### L3 — Pieza C: integración híbrida y evidencia retenida
+### Lección 3 — Pieza C: integración híbrida y evidencia retenida
 Usa la tercera pieza para comprobar aprendizaje de repertorio, recuperación y uso deliberado de fuentes.
 
-### L4 — Portfolio final: comparar, corregir y decidir
+### Lección 4 — Portfolio final: comparar, corregir y decidir
 Reúne las tres piezas, identifica la dimensión crítica más débil y decide si corresponde avanzar, mantener o corregir.
 
-### Checkpoint final — Hito 6
+### Evaluación final — Hito 6
 Aplica el texto superior sin inventar nuevas puertas numéricas.
 
 ## Qué NO se exige
 
-U12 no exige:
+esta unidad no exige:
 
 - tres tomas perfectas;
 - un BPM prefijado;
@@ -82,15 +82,15 @@ U12 no exige:
 
 ## No se crea nueva partitura
 
-U12 reutiliza el material ya validado de A/B/C. Crear otro MusicXML sólo para el cierre duplicaría información y desplazaría el foco desde la evidencia hacia material nuevo.
+esta unidad reutiliza el material ya validado de A/B/C. Crear otro MusicXML sólo para el cierre duplicaría información y desplazaría el foco desde la evidencia hacia material nuevo.
 
 ## Regla de escucha segura
 
-K7 sigue activo. Al tocar piezas completas, aumenta la exposición acumulada del kit.
+gestión de carga y salud sigue activo. Al tocar piezas completas, aumenta la exposición acumulada del kit.
 
-Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. U12 no inventa un nivel universal “seguro” para toda batería, sala o sesión.
+Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. esta unidad no inventa un nivel universal “seguro” para toda batería, sala o sesión.
 
-## Criterio de avance hacia el checkpoint
+## Criterio de avance hacia el Evaluación
 
 Puedes comenzar la evidencia final cuando:
 

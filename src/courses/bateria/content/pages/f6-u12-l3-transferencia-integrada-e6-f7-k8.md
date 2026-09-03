@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: transferencia-integrada-e6-f7-k8
 kind: lesson
 order: 3
-title: "U12.L3 — Transferencia no idéntica: integrar E6, F7 y K8"
+title: "esta unidad.Lección 3 — Transferencia no idéntica: integrar transcripción real, análisis musical y autonomía"
 summary: "Comprueba si un principio aprendido puede reutilizarse cuando cambia una condición pertinente, integrando escucha/análisis, decisión de práctica y adaptación sin convertir la transferencia en dificultad gratuita."
 duration: 1–2 sesiones
 competencies: [K2, K4, K5, K8, E6, F7, I5, I3, I4, D7, G3]
@@ -19,7 +19,7 @@ published: true
 
 Realizar al menos una tarea **no idéntica** a la condición de práctica donde pueda observarse si un principio aprendido se reutiliza con criterio.
 
-La cadena de U12 es:
+La cadena de esta unidad es:
 
 `ESCUCHAR/LEER → ANALIZAR FUNCIÓN → IDENTIFICAR PRINCIPIO → ELEGIR ESTRATEGIA → ADAPTAR → TOCAR → EVALUAR`
 
@@ -100,22 +100,22 @@ Registra:
 - qué no se transfirió;
 - qué nueva hipótesis aparece.
 
-## E6 sólo cuando la tarea lo requiere
+## transcripción real sólo cuando la tarea lo requiere
 
-No fuerces una nueva transcripción para “meter E6”.
+No fuerces una nueva transcripción para “meter transcripción real”.
 
-Si la transferencia implica escuchar o reconstruir desde audio, E6 debe conservar:
+Si la transferencia implica escuchar o reconstruir desde audio, transcripción real debe conservar:
 
 - jerarquía de escucha;
 - distinción certeza/hipótesis/aproximación;
 - contraste legal cuando exista;
 - ausencia de atribución falsa.
 
-Si la tarea no necesita transcripción, utiliza la evidencia E6 ya auditada en L1.
+Si la tarea no necesita transcripción, utiliza la evidencia transcripción real ya auditada en Lección 1.
 
-## F7 debe conectar elementos, no enumerarlos
+## análisis musical debe conectar elementos, no enumerarlos
 
-F7 aparece cuando el análisis explica una decisión musical.
+análisis musical aparece cuando el análisis explica una decisión musical.
 
 Ejemplo débil:
 
@@ -129,7 +129,7 @@ La segunda explicación relaciona:
 
 `SUBDIVISIÓN → FORMA → DINÁMICA/ARREGLO → FUNCIÓN → DECISIÓN`
 
-## K8 convierte análisis en acción revisable
+## autonomía convierte análisis en acción revisable
 
 La prueba debe mostrar al menos:
 
@@ -151,15 +151,15 @@ Si la primera prueba falla:
 4. reduce una variable si hace falta;
 5. retest cuando la nueva prueba siga respondiendo a la misma pregunta.
 
-Un fallo informativo puede aportar mejor evidencia de K8 que una toma favorable sin análisis.
+Un fallo informativo puede aportar mejor evidencia de autonomía que una toma favorable sin análisis.
 
 ## Hito específico de Fase 6
 
-Si L1 detectó que la evidencia del Hito específico era débil, esta lección puede ayudar a reforzarla **sólo si el proyecto lo permite de forma natural**.
+Si Lección 1 detectó que la evidencia del Hito específico era débil, esta lección puede ayudar a reforzarla **sólo si el proyecto lo permite de forma natural**.
 
 Por ejemplo: escuchar una sección nueva o una variación del material conocido, reconstruir una parte funcional y explicar cómo el análisis cambió la interpretación.
 
-No es obligatorio crear una segunda transcripción si U9 ya demuestra con claridad el hito.
+No es obligatorio crear una segunda transcripción si Unidad 9 ya demuestra con claridad el hito.
 
 ## Frontera con Fase 7
 
@@ -172,7 +172,7 @@ No utilices como “variable nueva”:
 - métricas irregulares avanzadas;
 - desplazamientos avanzados que cambien la competencia evaluada.
 
-U12 verifica transferencia con las herramientas de Fase 6. No inicia el currículo de Fase 7.
+esta unidad verifica transferencia con las herramientas de Fase 6. No inicia el currículo de Fase 7.
 
 ## Criterio de avance
 
@@ -182,7 +182,7 @@ Realizas una transferencia no idéntica, puedes nombrar el principio que intenta
 
 ### COMPETENTE / FUNCIONAL
 
-Además, F7 conecta estructura/tiempo/función con la decisión, K8 selecciona y revisa la estrategia, y E6 se aplica honestamente cuando la tarea depende de escucha/transcripción.
+Además, análisis musical conecta estructura/tiempo/función con la decisión, autonomía selecciona y revisa la estrategia, y transcripción real se aplica honestamente cuando la tarea depende de escucha/transcripción.
 
 ### AVANZADO
 

@@ -7,8 +7,8 @@ unitSlug: fase-6-unidad-10
 slug: k8-entre-pasadas
 kind: lesson
 order: 3
-title: "Entre pasadas: K8 aplicado al cuello de botella real"
-summary: "Usa la autonomía funcional de U9 para escoger qué corregir, qué apoyo mantener y qué problema dejar temporalmente sin tocar."
+title: "Entre pasadas: autonomía aplicado al cuello de botella real"
+summary: "Usa la autonomía funcional de Unidad 9 para escoger qué corregir, qué apoyo mantener y qué problema dejar temporalmente sin tocar."
 duration: 25–30 min
 competencies: [K8, K2, K5, I4, D7, I6, H5, H6]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 ## Objetivo
 
-Aplicar K8 dentro de un proyecto musical real sin convertir U10 en otra unidad de «aprender a practicar».
+Aplicar autonomía dentro de un proyecto musical real sin convertir esta unidad en otra unidad de «aprender a practicar».
 
-U9 ya desarrolló:
+Unidad 9 ya desarrolló:
 
 `PROBLEMA → HIPÓTESIS → ESTRATEGIAS PLAUSIBLES → RECURSO → ELECCIÓN → EVIDENCIA → MANTENER / CAMBIAR / RETIRAR`
 
@@ -42,17 +42,17 @@ No es una escala científica universal. Es una jerarquía curricular para evitar
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Una intervención, una pasada»
 
-1. Revisa la línea base de L2.
+1. Revisa la línea base de Lección 2.
 2. Elige **un cuello de botella dominante**.
 3. Formula una hipótesis.
 4. Elige una estrategia o apoyo ya conocido.
 5. Trabaja el problema en modo laboratorio.
 6. Vuelve pronto a `ANTES → PROBLEMA → DESPUÉS`.
 7. Decide qué harás con el apoyo en la próxima pasada:
-   - `MANTENER`;
-   - `REDUCIR`;
-   - `RETIRAR`;
-   - `CAMBIAR`.
+ - `MANTENER`;
+ - `REDUCIR`;
+ - `RETIRAR`;
+ - `CAMBIAR`.
 8. Deja por escrito al menos un problema secundario que **no** vas a trabajar todavía.
 
 ## Apoyos legítimos
@@ -81,13 +81,13 @@ Pregunta:
 3. ¿qué predigo que ocurrirá si lo reduzco?
 4. ¿cómo sabré si la retirada ayudó o sólo aumentó la carga?
 
-## Qué NO hace L3
+## Qué NO hace Lección 3
 
 - no enseña de nuevo interleaving;
 - no enseña de nuevo feedback;
 - no crea una teoría nueva de autorregulación;
 - no exige retención/transferencia cuando no responden a la pregunta;
-- no certifica K8 AVANZADO global.
+- no certifica autonomía AVANZADO global.
 
 ## Rutinas
 

@@ -15,21 +15,21 @@ rudiments: []
 published: true
 ---
 
-L1 extendió el modelo compuesto de U6 a tres pulsos:
+Lección 1 extendió el modelo compuesto de Unidad 6 a tres pulsos:
 
 `6/8 = 2×3 → 9/8 = 3×3`.
 
-L2 añade un cuarto pulso principal sin cambiar la organización interna.
+Lección 2 añade un cuarto pulso principal sin cambiar la organización interna.
 
 > **12/8 PROTOTÍPICO = 4 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 
 Doce corcheas escritas describen doce posiciones de subdivisión. La jerarquía principal que trabajamos contiene **cuatro** pulsos de negra con puntillo, no doce pulsos equivalentes.
 
-La novedad dominante es únicamente `3×3 → 4×3`. El contraste sistemático simple/compuesto sigue reservado para L3 y la clasificación auditiva con E5 inicial para la transferencia posterior de U7.
+La novedad dominante es únicamente `3×3 → 4×3`. El contraste sistemático simple/compuesto sigue reservado para Lección 3 y la clasificación auditiva con grabación y comparación inicial para la transferencia posterior de esta unidad.
 
 ## 1. De tres a cuatro pulsos compuestos — 4 min
 
-Recupera primero L1:
+Recupera primero Lección 1:
 
 `1-la-li | 2-la-li | 3-la-li`.
 
@@ -78,13 +78,13 @@ Ambos pueden tener cuatro pulsos principales en los modelos que contrastaremos, 
 - `4/4 = 4×2` en el nivel binario elemental;
 - `12/8 = 4×3` en el caso compuesto trabajado.
 
-L3 hará de esta distinción el núcleo. Aquí sólo sirve para impedir que “cuatro pulsos” se convierta en una definición suficiente del compás.
+Lección 3 hará de esta distinción el núcleo. Aquí sólo sirve para impedir que “cuatro pulsos” se convierta en una definición suficiente del compás.
 
 ## 3. Leer cuatro pulsos compuestos — 10–12 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-title="20.U7.L2 — 12/8: cuatro pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-title="Unidad 7.Lección 2 — 12/8: cuatro pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l2-12-8-cuatro-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes del audio:
 
@@ -128,7 +128,7 @@ El segundo nivel debe caber dentro del primero. No permitas que cantar más síl
 
 Los cuatro compases suman exactamente doce corcheas equivalentes cada uno.
 
-La marca visible es `♩. = 80`, es decir, 80 pulsos principales de negra con puntillo por minuto. El archivo conserva `<sound tempo="120"/>` como equivalencia técnica de playback. Es una condición del asset, no una prescripción de práctica ni una puerta de competencia.
+La marca visible es `♩. = 80`, es decir, 80 pulsos principales de negra con puntillo por minuto. El archivo conserva `<sound tempo="120"/>` como equivalencia técnica de playback. Es una condición del materiales, no una prescripción de práctica ni una puerta de competencia.
 
 ## 4. Continuidad a través de cuatro pulsos — 4–5 min
 
@@ -194,7 +194,7 @@ Decide entre:
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L3
+## MÍNIMO PARA AVANZAR A Lección 3
 
 En una condición cómoda y con ayudas razonables:
 
@@ -213,19 +213,19 @@ No se exige:
 
 - cero errores;
 - un BPM fijo o alto;
-- dominar el contraste simple/compuesto antes de L3;
-- reconocimiento auditivo E5 general;
-- sextillos u ornamentación de U8;
-- primera vista formal D5 de U9;
-- click reducido o gaps de U10;
+- dominar el contraste simple/compuesto antes de Lección 3;
+- reconocimiento auditivo grabación y comparación general;
+- sextillos u ornamentación de Unidad 8;
+- primera vista formal forma y lectura de chart de Unidad 9;
+- click reducido o gaps de Unidad 10;
 - estilo jazz/shuffle;
-- actualizar automáticamente D4, F2 o E5 por completar la página.
+- actualizar automáticamente lectura de compás, métrica y terminología rítmica o grabación y comparación por completar la página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
 La tarea es funcional cuando puedes leer varias frases elementales de 12/8 conservando **cuatro pulsos compuestos**, tres subdivisiones aproximadamente iguales por pulso y continuidad estable hacia el siguiente compás, además de explicar por qué doce corcheas escritas no significan doce pulsos principales.
 
-Esto no declara D4/F2 globalmente `FUNCIONAL`.
+Esto no declara lectura de compás/métrica y terminología rítmica globalmente `FUNCIONAL`.
 
 ## AVANZADO EN ESTA TAREA
 
@@ -235,7 +235,7 @@ Reduce gradualmente el apoyo externo sin cambiar el material:
 2. marca sólo `1` y `3` mientras mantienes internamente `2` y `4`;
 3. retira el gesto externo y conserva mentalmente los cuatro pulsos.
 
-No conviertas esto en gaps de metrónomo: el click reducido pertenece a U10. Aquí sólo disminuye una ayuda gestual propia.
+No conviertas esto en gaps de metrónomo: el click reducido pertenece a Unidad 10. Aquí sólo disminuye una ayuda gestual propia.
 
 ## Si algo se rompe
 

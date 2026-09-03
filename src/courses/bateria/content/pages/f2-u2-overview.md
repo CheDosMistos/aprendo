@@ -15,39 +15,39 @@ rudiments: []
 published: true
 ---
 
-Esta unidad parte de la puerta de fluidez binaria de U1 y aumenta **una dificultad dominante**: la densidad de la rejilla. La meta no es reconocer una colección de figuras por su aspecto, sino poder localizar ataques y silencios dentro de cuatro posiciones iguales por pulso.
+Esta unidad parte de la puerta de fluidez binaria de Unidad 1 y aumenta **una dificultad dominante**: la densidad de la rejilla. La meta no es reconocer una colección de figuras por su aspecto, sino poder localizar ataques y silencios dentro de cuatro posiciones iguales por pulso.
 
 > **El silencio elimina un ataque, no la posición temporal que ese ataque podría ocupar.**
 
 ## Qué debe estar disponible
 
-U2 presupone U1 o un perfil equivalente: C1/C2 suficientemente disponibles para sostener lectura binaria elemental, D1 al menos en MÍNIMO para aumentar densidad y F1 suficiente para distinguir pulso, figura, subdivisión y duración.
+esta unidad presupone Unidad 1 o un perfil equivalente: pulso interno/subdivisión binaria y ternaria suficientemente disponibles para sostener lectura binaria elemental, figuras, silencios y compás al menos en MÍNIMO para aumentar densidad y teoría básica del pulso y las figuras suficiente para distinguir pulso, figura, subdivisión y duración.
 
-Si vienes con un correctivo localizado, U2 puede abrirse manteniéndolo visible. Si la densidad nueva hace colapsar un prerrequisito central, reduce una variable —longitud, densidad, tempo o capas—; no reinicies Fase 1 ni U1 completa por defecto.
+Si vienes con un correctivo localizado, esta unidad puede abrirse manteniéndolo visible. Si la densidad nueva hace colapsar un prerrequisito central, reduce una variable —longitud, densidad, tempo o capas—; no reinicies Fase 1 ni Unidad 1 completa por defecto.
 
-## Recorrido aprobado de 20.U2
+## Recorrido aprobado de Unidad 2
 
 1. **La rejilla de cuatro posiciones** — leer ataques y silencios de semicorchea sin memorizar dibujos.
-2. **Silencios y cambio 2 ↔ 4 sin perder el pulso** — iniciar C3 con cambios binarios conscientes.
+2. **Silencios y cambio 2 ↔ 4 sin perder el pulso** — iniciar cambios de subdivisión con cambios binarios conscientes.
 3. **Oír, imitar y escribir la rejilla** — comprobar que la representación funciona también desde el sonido.
 4. **Doubles/diddles sin alterar la línea** — aplicar textura de manos sólo después de decodificar el ritmo.
-5. **Puerta de semicorcheas y silencios** — decidir cuánta novedad puede abrir U3.
+5. **Puerta de semicorcheas y silencios** — decidir cuánta novedad puede abrir Unidad 3.
 
-El **recorrido editorial de U2 queda completo** cuando estas cuatro lecciones y el checkpoint están publicados. Eso no significa que un alumno haya “aprobado U2” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión del checkpoint.
+El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y el Evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión del Evaluación.
 
 Son unidades de trabajo flexibles, no cinco días obligatorios. La retirada de ayuda conserva la progresión `GUIADO → CON PISTAS → SIN PISTAS → TRANSFERENCIA`; no es una escala de competencia.
 
-## Qué cambia respecto a U1
+## Qué cambia respecto a Unidad 1
 
 - los silencios de semicorchea pasan al centro del trabajo;
 - la rejilla de cuatro posiciones por pulso se vuelve explícita;
-- C3 aparece de forma inicial mediante cambios sencillos 2 ↔ 4;
+- cambios de subdivisión aparece de forma inicial mediante cambios sencillos 2 ↔ 4;
 - oído, imitación y escritura ganan peso sobre células muy cortas;
 - doubles/diddles se usan como aplicación subordinada a una línea ya comprendida.
 
-## Qué conserva U3 como novedad
+## Qué conserva Unidad 3 como novedad
 
-U2 no absorbe silenciosamente el siguiente salto conceptual. U3 seguirá introduciendo de forma estructurada:
+esta unidad no absorbe silenciosamente el siguiente salto conceptual. Unidad 3 seguirá introduciendo de forma estructurada:
 
 - **ataque ≠ duración**;
 - ligaduras;

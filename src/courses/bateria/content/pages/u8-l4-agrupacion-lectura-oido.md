@@ -19,11 +19,11 @@ published: true
 
 **NÚCLEO:** comprender 7/8 y distinguir **compás** de **agrupación interna**.
 
-Leer, escuchar y escribir no son tres novedades independientes: son tres formas de representar y comprobar el mismo núcleo. Si L3 ya abrió 7/8, esta lección actúa como estabilización y transferencia; si L3 omitió la ventana, aquí se realiza la introducción.
+Leer, escuchar y escribir no son tres novedades independientes: son tres formas de representar y comprobar el mismo núcleo. Si Lección 3 ya abrió 7/8, esta lección actúa como estabilización y transferencia; si Lección 3 omitió la ventana, aquí se realiza la introducción.
 
 ## 1. Puerta local — 3 min
 
-Cuenta siete corcheas de forma estable y marca una agrupación `2+2+3`. Si todavía no has trabajado 7/8, hazlo primero de forma guiada. Si pierdes la referencia, corrige C1/C2 antes de añadir variaciones.
+Cuenta siete corcheas de forma estable y marca una agrupación `2+2+3`. Si todavía no has trabajado 7/8, hazlo primero de forma guiada. Si pierdes la referencia, corrige pulso interno/subdivisión binaria y ternaria antes de añadir variaciones.
 
 ## 2. NÚCLEO — Dos agrupaciones, mismo compás — 6–8 min
 
@@ -56,7 +56,7 @@ Después marca `2+2+3` con la voz y vuelve a escuchar mentalmente la misma rejil
 
 Haz VER → CONTAR → CANTAR → TOCAR → ESCUCHAR. No memorices la línea antes de leerla.
 
-La lectura aporta evidencia D1/D4 solo si la línea era realmente nueva y no se ensayó hasta memorizarla.
+La lectura aporta evidencia figuras, silencios y compás/lectura de compás solo si la línea era realmente nueva y no se ensayó hasta memorizarla.
 
 ## 5. APLICACIÓN — Escritura y creatividad — 4–5 min
 
@@ -86,8 +86,8 @@ No marques automáticamente todas las competencias de la lección como disponibl
 - 4–5 min escritura;
 - 2–3 min registro.
 
-Si 7/8 es completamente nuevo porque se omitió en L3, reduce una de las aplicaciones antes que comprimir el núcleo.
+Si 7/8 es completamente nuevo porque se omitió en Lección 3, reduce una de las aplicaciones antes que comprimir el núcleo.
 
 ## Criterio de avance
 
-La ventana de 7/8 no genera examen. Basta con reconocer el marco, mantener una muestra accesible y poder explicar que **agrupación interna ≠ compás**. Si C1/C2 están frágiles, corrige esos prerrequisitos antes de complicar la ventana.
+La ventana de 7/8 no genera examen. Basta con reconocer el marco, mantener una muestra accesible y poder explicar que **agrupación interna ≠ compás**. Si pulso interno/subdivisión binaria y ternaria están frágiles, corrige esos prerrequisitos antes de complicar la ventana.

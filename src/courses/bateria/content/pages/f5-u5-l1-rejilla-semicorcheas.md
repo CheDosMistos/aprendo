@@ -19,7 +19,7 @@ published: true
 
 Sentir y localizar `1 e & a` sin que la mano, el pie o el tempo se conviertan en el centro de la tarea.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l1-sixteenth-grid.musicxml" data-score-title="50.U5.L1 — Rejilla de semicorcheas" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l1-sixteenth-grid.musicxml" data-score-title="Unidad 5.Lección 1 — Rejilla de semicorcheas" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura es una **rejilla pedagógica**, no un groove de funk.
 

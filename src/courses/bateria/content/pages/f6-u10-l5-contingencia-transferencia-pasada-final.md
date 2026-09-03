@@ -49,7 +49,7 @@ Bajista, guitarrista, teclista u otro músico interpreta una parte y **puede cam
 
 Aquí puede existir acoplamiento bidireccional.
 
-**EVIDENCIA EXTRAPOLADA.** La literatura de joint action musical describe anticipación, atención y adaptación como procesos centrales de coordinación y muestra diferencias entre compañeros responsivos y grabaciones. No convierte automáticamente cualquier jam en una prueba válida de I6; la contingencia debe ser observable.
+**EVIDENCIA EXTRAPOLADA.** La literatura de joint action musical describe anticipación, atención y adaptación como procesos centrales de coordinación y muestra diferencias entre compañeros responsivos y grabaciones. No convierte automáticamente cualquier jam en una prueba válida de interacción y ensemble; la contingencia debe ser observable.
 
 Fuentes:
 
@@ -58,13 +58,13 @@ Fuentes:
 
 ## Rama A — sin otro músico
 
-No bloquea U10.
+No bloquea esta unidad.
 
-Realiza la pasada final con una secuencia de cues distinta de L4 y registra:
+Realiza la pasada final con una secuencia de cues distinta de Lección 4 y registra:
 
 `INTERACCIÓN INTERPERSONAL REAL: NO OBSERVADA TODAVÍA`
 
-No rebajes lo que sí has demostrado: navegación, continuidad, respuesta a información externa, adaptación unilateral, recuperación y K8 aplicado siguen siendo evidencia válida.
+No rebajes lo que sí has demostrado: navegación, continuidad, respuesta a información externa, adaptación unilateral, recuperación y autonomía aplicado siguen siendo evidencia válida.
 
 ## Rama B — con persona que lanza cues
 
@@ -100,7 +100,7 @@ Durante la pasada:
 
 ## Transferencia estilística controlada
 
-U7 ya desarrolló I5. U10 no abre otro laboratorio de estilos.
+Unidad 7 ya desarrolló transferencia entre estilos. esta unidad no abre otro laboratorio de estilos.
 
 Para la pasada final puedes cambiar **una condición estilística pertinente** si el proyecto base está estable.
 
@@ -114,7 +114,7 @@ Si cambiar de estilo destruye la navegación o la interacción, vuelve al contex
 
 ## Retirada de ayudas
 
-Revisa el apoyo elegido en L3.
+Revisa el apoyo elegido en Lección 3.
 
 Decide:
 
@@ -138,12 +138,12 @@ No necesitas reproducir exactamente todas las condiciones si la transferencia el
 
 ## Criterio de salida
 
-Estás listo para el checkpoint cuando puedes presentar al menos:
+Estás listo para el Evaluación cuando puedes presentar al menos:
 
 - una pasada base;
 - una pasada con adaptación externa;
 - una pasada final/retest;
-- una decisión K8 entre pasadas;
+- una decisión autonomía entre pasadas;
 - una explicación honesta de si hubo o no interacción interpersonal real.
 
 > **NO HAY QUE INFLAR LA EVIDENCIA: UNA BUENA EVALUACIÓN DICE QUÉ DEMOSTRASTE Y QUÉ TODAVÍA NO SE OBSERVÓ.**

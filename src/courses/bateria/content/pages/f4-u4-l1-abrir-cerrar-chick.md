@@ -57,7 +57,7 @@ Si falla el cierre, prueba una hipótesis antes de repetir muchas veces:
 Ejemplos:
 
 - cierre débil → quizá falta recorrido útil → ajusta una variable y compara;
-- equilibrio cambia → quizá el asiento/distancia no ayuda → vuelve a H1;
+- equilibrio cambia → quizá el asiento/distancia no ayuda → vuelve a setup, ergonomía y ecología del kit;
 - pie se queda rígido → reduce intensidad y comprueba si el cierre sigue siendo suficiente.
 
 ## MÍNIMO PARA AVANZAR
@@ -75,4 +75,4 @@ Dolor persistente, hormigueo, entumecimiento, pérdida de fuerza/control o movim
 
 ## Registrar esta práctica
 
-Anota `problema → cambio → efecto`. Completar la lección no demuestra por sí solo H3 MÍNIMO.
+Anota `problema → cambio → efecto`. Completar la lección no demuestra por sí solo hi-hat de pie MÍNIMO.

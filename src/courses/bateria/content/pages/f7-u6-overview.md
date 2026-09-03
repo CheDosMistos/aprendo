@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-6
 slug: polirritmia
 kind: unit
 order: 0
-title: "70.U6 — Polirritmia: dos capas, un ciclo común"
-summary: "Profundiza J6: comprender y mantener dos periodicidades simultáneas como 3:2 y 4:3, localizar su ciclo común y distinguir polirritmia de tuplet, ciclo trans-barra y polimetría."
+title: "Polirritmia: dos capas, un ciclo común"
+summary: "Profundiza polirritmia: comprender y mantener dos periodicidades simultáneas como 3:2 y 4:3, localizar su ciclo común y distinguir polirritmia de tuplet, ciclo trans-barra y polimetría."
 duration: 4 lecciones + checkpoint; varias sesiones
 competencies: [J6, C1, C2, C3, C4, D4, D6, E2, F2, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
@@ -17,11 +17,11 @@ published: true
 
 ## Función de la unidad
 
-U6 profundiza **J6 — polirritmia**.
+esta unidad profundiza **polirritmia**.
 
 El concepto no aparece aquí por primera vez. Fase 1 ya abrió una experiencia accesible de `3:2`; el objetivo actual es convertir aquella ventana en una capacidad funcional: **mantener dos capas a la vez y comprender qué relación temporal comparten**.
 
-El mapa fija:
+el curso $1:
 
 - **MÍNIMO:** comprender y ejecutar relaciones sencillas como `3:2` de forma accesible;
 - **COMPETENTE / FUNCIONAL:** mantener dos capas rítmicas y entender su relación común;
@@ -31,7 +31,7 @@ La pregunta central es:
 
 > **¿PUEDO OÍR, SENTIR Y EJECUTAR DOS PERIODICIDADES DIFERENTES A LA VEZ SIN QUE UNA DESTRUYA A LA OTRA?**
 
-## Definición operativa para J6
+## Definición operativa para polirritmia
 
 En esta unidad llamaremos **polirritmia** a la coexistencia simultánea de dos capas periódicas que distribuyen cantidades diferentes de ataques regulares dentro de un **ciclo temporal común**.
 
@@ -43,7 +43,7 @@ Ejemplo prototípico:
 - ambas completan su relación en el mismo ciclo temporal;
 - durante el interior del ciclo, sus ataques no coinciden todos.
 
-La literatura reciente ha usado terminología parcialmente inconsistente. La revisión canónica del proyecto recomienda separar polirritmia y polimetría; además, `2:3` y `3:4` son relaciones muy estudiadas, pero **eso no demuestra una secuencia pedagógica universal**. El uso de `3:2` como puerta de U6 es una **DECISIÓN CURRICULAR RAZONADA** compatible con esa evidencia.
+La literatura reciente ha usado terminología parcialmente inconsistente. La revisión canónica del proyecto recomienda separar polirritmia y polimetría; además, `2:3` y `3:4` son relaciones muy estudiadas, pero **eso no demuestra una secuencia pedagógica universal**. El uso de `3:2` como puerta de esta unidad es una **DECISIÓN CURRICULAR RAZONADA** compatible con esa evidencia.
 
 ## La rejilla común
 
@@ -51,8 +51,8 @@ Una relación como `3:2` puede analizarse mediante una rejilla mínima de **6 po
 
 ```text
 posiciones: 1 2 3 4 5 6
-capa 3:    X . X . X .
-capa 2:    X . . X . .
+capa 3: X. X. X.
+capa 2: X.. X..
 ```
 
 La primera posición es coincidencia. Después cada capa mantiene su propio intervalo hasta que el ciclo vuelve a empezar.
@@ -61,18 +61,18 @@ La rejilla de 6 **no es una tercera capa que deba tocarse siempre**. Es una herr
 
 ## Prerrequisitos curriculares
 
-El mapa exige para J6:
+el curso $1 para polirritmia:
 
-- **C2-R:** subdivisión disponible;
-- **F2-R:** teoría de pulso/métrica suficiente para comprender la relación.
+- **R:** subdivisión disponible;
+- **R:** teoría de pulso/métrica suficiente para comprender la relación.
 
-Además conviene que el alumno pueda mantener una referencia estable durante una manipulación rítmica. J5 ayuda, pero **no es una dependencia dura de J6** según el mapa aprobado.
+Además conviene que el alumno pueda mantener una referencia estable durante una manipulación rítmica. ciclos que cruzan compases ayuda, pero **no es una dependencia dura de polirritmia** según el recorrido del curso.
 
 ## Fronteras obligatorias
 
 ### Polirritmia ≠ tuplet aislado
 
-Un tresillo tocado solo no es automáticamente una polirritmia. Puede constituir una de las capas de `3:2`, pero J6 exige que exista realmente otra periodicidad simultánea.
+Un tresillo tocado solo no es automáticamente una polirritmia. Puede constituir una de las capas de `3:2`, pero polirritmia exige que exista realmente otra periodicidad simultánea.
 
 ### Polirritmia ≠ agrupación
 
@@ -80,23 +80,23 @@ Acentuar `3+3+2` dentro de una única corriente de corcheas no demuestra dos cap
 
 ### Polirritmia ≠ ciclo trans-barra
 
-En J5 una periodicidad repetida cambiaba su alineación respecto a la barra. En J6 el fenómeno central es **la simultaneidad de dos ritmos** dentro de una relación común. Un ejercicio puede combinar ambos fenómenos en niveles posteriores, pero no los confundiremos.
+En ciclos que cruzan compases una periodicidad repetida cambiaba su alineación respecto a la barra. En polirritmia el fenómeno central es **la simultaneidad de dos ritmos** dentro de una relación común. Un ejercicio puede combinar ambos fenómenos en niveles posteriores, pero no los confundiremos.
 
 ### Polirritmia ≠ polimetría
 
-En U6 las dos capas comparten un ciclo temporal explícito. **J7** estudiará capas métricas donde pueden coexistir organizaciones de barra diferentes y puntos de realineación más amplios.
+En esta unidad las dos capas comparten un ciclo temporal explícito. **polimetría** estudiará capas métricas donde pueden coexistir organizaciones de barra diferentes y puntos de realineación más amplios.
 
 ### Polirritmia ≠ modulación métrica
 
-En U6 no reinterpretamos una subdivisión como nuevo tempo. **J8** estudiará cuándo una relación interna pasa a definir un nuevo pulso calculable.
+En esta unidad no reinterpretamos una subdivisión como nuevo tempo. **modulación métrica** estudiará cuándo una relación interna pasa a definir un nuevo pulso calculable.
 
 ## Arquitectura
 
-1. **L1 — 3:2 desde la rejilla común:** construir dos y tres por separado y superponerlos sin perder el ciclo.
-2. **L2 — Cambiar el foco sin cambiar la relación:** mantener `3:2`, intercambiar manos/capas y aprender a escuchar cada periodicidad como figura independiente.
-3. **L3 — 4:3 y generalización:** construir una segunda relación sencilla mediante una rejilla común de 12 posiciones y comparar qué cambia y qué permanece.
-4. **L4 — Polirritmia musical:** dinámica, orquestación, composición e improvisación con una capa estructural y otra expresiva.
-5. **Checkpoint 7F — J6 funcional:** comprender, ejecutar, mantener dos capas, cambiar foco, leer, recuperar y aplicar.
+1. **Lección 1 — 3:2 desde la rejilla común:** construir dos y tres por separado y superponerlos sin perder el ciclo.
+2. **Lección 2 — Cambiar el foco sin cambiar la relación:** mantener `3:2`, intercambiar manos/capas y aprender a escuchar cada periodicidad como figura independiente.
+3. **Lección 3 — 4:3 y generalización:** construir una segunda relación sencilla mediante una rejilla común de 12 posiciones y comparar qué cambia y qué permanece.
+4. **Lección 4 — Polirritmia musical:** dinámica, orquestación, composición e improvisación con una capa estructural y otra expresiva.
+5. **Evaluación — polirritmia funcional:** comprender, ejecutar, mantener dos capas, cambiar foco, leer, recuperar y aplicar.
 
 ## ESENCIAL AHORA
 
@@ -106,7 +106,7 @@ En U6 no reinterpretamos una subdivisión como nuevo tempo. **J8** estudiará cu
 - mantener ambas simultáneamente durante varios ciclos;
 - localizar los puntos de coincidencia;
 - cambiar la atención de una capa a otra sin alterar la relación;
-- distinguir J6 de J4, J5 y J7;
+- distinguir polirritmia de tuplets de 5 y 7 y divisiones no estándar, ciclos que cruzan compases y polimetría;
 - recuperar después de perder una capa.
 
 ## AMPLIACIÓN
@@ -123,7 +123,7 @@ En U6 no reinterpretamos una subdivisión como nuevo tempo. **J8** estudiará cu
 - relaciones de mayor complejidad;
 - independencia entre extremidades;
 - integración con groove, forma y orquestación;
-- polirritmia combinada con otros recursos J sin perder claridad auditiva.
+- polirritmia combinada con otros recursos rítmicos avanzados sin perder claridad auditiva.
 
 El nivel avanzado **no es requisito para continuar**.
 
@@ -137,13 +137,13 @@ El nivel avanzado **no es requisito para continuar**.
 
 ## Recursos
 
-La Biblioteca Maestra relaciona J6 con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. U6 no reproduce ejercicios de esos métodos.
+La Biblioteca Maestra relaciona polirritmia con Gary Chaffee y Gavin Harrison. Son **fuentes pedagógicas primarias / herramientas de ampliación**, no autoridad normativa ni prueba de una progresión didáctica superior. esta unidad no reproduce ejercicios de esos métodos.
 
-La auditoría canónica del proyecto incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción J6/J7.
+la base documental del curso incorpora además la revisión de Nijhuis et al. (2026) como evidencia de síntesis para percepción/producción de polirritmos y para afinar la distinción polirritmia/polimetría.
 
 ## Criterio de salida
 
-U6 cumple su función cuando el alumno puede:
+esta unidad cumple su función cuando el alumno puede:
 
 1. explicar una relación `3:2` mediante su ciclo común;
 2. mantener las dos capas durante varios ciclos;

@@ -8,7 +8,7 @@ slug: calcular-antes-de-tocar
 kind: lesson
 order: 3
 title: "Calcular antes de tocar: de 3:2 a 5:4"
-summary: "Generaliza J8 con un procedimiento de cálculo basado en la duración puente y aplica la misma lógica a una modulación 5:4, donde una semicorchea de quintillo antigua se convierte en semicorchea ordinaria nueva."
+summary: "Generaliza modulación métrica con un procedimiento de cálculo basado en la duración puente y aplica la misma lógica a una modulación 5:4, donde una semicorchea de quintillo antigua se convierte en semicorchea ordinaria nueva."
 duration: 25–30 min
 competencies: [J8, J4, C1, C2, C3, C4, D3, D6, F2, G1, G2, K2, K3, K5]
 rudiments: []
@@ -27,7 +27,7 @@ sino:
 
 > **“¿cuántas unidades puente formaban el pulso antiguo y cuántas forman el nuevo?”**
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u8/f7-u8-quintuplet-sixteenth-to-sixteenth.musicxml" data-score-title="70.U8 — Semicorchea de quintillo = semicorchea nueva · 120 → 150" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u8/f7-u8-quintuplet-sixteenth-to-sixteenth.musicxml" data-score-title="Unidad 8 — Semicorchea de quintillo = semicorchea nueva · 120 → 150" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Método universal de esta unidad
 
@@ -100,7 +100,7 @@ A 120 BPM:
 
 Conserva la corriente de unidades y acentúa ahora cada cuatro:
 
-`FUERTE débil débil débil | FUERTE débil débil débil | ...`
+`FUERTE débil débil débil | FUERTE débil débil débil |...`
 
 Esos acentos forman la negra nueva a 150 BPM.
 
@@ -237,7 +237,7 @@ Si el cálculo es correcto pero la ejecución falla:
 3. practica después grupos de `4` sobre esa misma corriente;
 4. vuelve a unir ambos lados.
 
-Si la subdivisión de cinco no es fiable, el problema sigue siendo parcialmente J4, no J8 puro.
+Si la subdivisión de cinco no es fiable, el problema sigue siendo parcialmente tuplets de 5 y 7 y divisiones no estándar, no modulación métrica puro.
 
 ## Criterio de avance
 

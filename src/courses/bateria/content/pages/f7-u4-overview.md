@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-4
 slug: tuplets-de-cinco-y-siete
 kind: unit
 order: 0
-title: "70.U4 — Tuplets de 5 y 7"
-summary: "Profundiza J4: subdividir un pulso en cinco o siete partes iguales, leer la relación escrita y cambiar entre subdivisiones comunes y tuplets sin mover el pulso de referencia."
+title: "Tuplets de 5 y 7"
+summary: "Profundiza tuplets de 5 y 7 y divisiones no estándar: subdividir un pulso en cinco o siete partes iguales, leer la relación escrita y cambiar entre subdivisiones comunes y tuplets sin mover el pulso de referencia."
 duration: 4 lecciones + checkpoint; varias sesiones
 competencies: [J4, C1, C2, C3, C4, D3, D6, E2, G1, G2, G3, G4, G6, K2, K5]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-U4 profundiza **J4 — tuplets de 5 y 7**.
+esta unidad profundiza **tuplets de 5 y 7**.
 
 El quintillo no aparece aquí por primera vez. Fase 1 ya abrió una ventana opcional donde cinco ataques equidistantes ocupaban un pulso de negra. Ahora esa experiencia se convierte en una capacidad funcional y se amplía al septillo.
 
@@ -29,7 +29,7 @@ La pregunta central es:
 
 Un **tuplet** representa una división de un espacio temporal en un número de partes iguales diferente del reparto ordinario indicado por las figuras y el contexto.
 
-En los ejercicios principales de U4 usaremos dos relaciones concretas sobre **un pulso de negra**:
+En los ejercicios principales de esta unidad usaremos dos relaciones concretas sobre **un pulso de negra**:
 
 - **quintillo 5:4 de semicorcheas:** cinco partes iguales ocupan el espacio que normalmente ocuparían cuatro semicorcheas;
 - **septillo 7:4 de semicorcheas:** siete partes iguales ocupan ese mismo espacio de cuatro semicorcheas.
@@ -38,14 +38,14 @@ Estas relaciones son las elegidas para esta unidad; no se presentan como las ún
 
 ## Lo que ya debería estar disponible
 
-El mapa fija para J4:
+el curso $1 para tuplets de 5 y 7 y divisiones no estándar:
 
-- **C2-R:** subdivisión suficientemente disponible;
-- **D3-F:** lectura funcional de tuplets/ornamentación y densidades ya trabajadas.
+- **R:** subdivisión suficientemente disponible;
+- **F:** lectura funcional de tuplets/ornamentación y densidades ya trabajadas.
 
 Además, el curso ya ha practicado cambios `2 ↔ 3 ↔ 4` manteniendo pulso y ha presentado quintillos de forma exploratoria.
 
-Por eso U4 **reactiva brevemente** esos recursos, pero no vuelve a impartirlos desde cero.
+Por eso esta unidad **reactiva brevemente** esos recursos, pero no vuelve a impartirlos desde cero.
 
 ## Fronteras obligatorias
 
@@ -55,27 +55,27 @@ Cinco golpes organizados como frase sobre una cuadrícula existente no son autom
 
 ### Tuplet ≠ métrica impar
 
-`5/4` no es un quintillo y `7/8` no es un septillo. En U3 cambiaba la capacidad de la barra; en U4 la barra puede seguir en `4/4` mientras cambia **la subdivisión dentro del pulso**.
+`5/4` no es un quintillo y `7/8` no es un septillo. En Unidad 3 cambiaba la capacidad de la barra; en esta unidad la barra puede seguir en `4/4` mientras cambia **la subdivisión dentro del pulso**.
 
 ### Tuplet ≠ polirritmia
 
-Tocar un quintillo monofónico sobre un click no convierte automáticamente el ejercicio en una polirritmia `5:4`. J6 estudiará la coexistencia de capas rítmicas y sus relaciones.
+Tocar un quintillo monofónico sobre un click no convierte automáticamente el ejercicio en una polirritmia `5:4`. polirritmia estudiará la coexistencia de capas rítmicas y sus relaciones.
 
 ### Tuplet ≠ modulación métrica
 
-En U4 el pulso de negra permanece como referencia. No convertimos todavía una parte del tuplet en un nuevo pulso. Esa reinterpretación pertenece a J8.
+En esta unidad el pulso de negra permanece como referencia. No convertimos todavía una parte del tuplet en un nuevo pulso. Esa reinterpretación pertenece a modulación métrica.
 
 ### Tuplet ≠ ciclo que cruza barras
 
-Los ejercicios principales resuelven sus subdivisiones dentro del pulso o de una frase delimitada. J5 estudiará ciclos cuya alineación cambia a través de barras.
+Los ejercicios principales resuelven sus subdivisiones dentro del pulso o de una frase delimitada. ciclos que cruzan compases estudiará ciclos cuya alineación cambia a través de barras.
 
 ## Arquitectura
 
-1. **L1 — Quintillo funcional:** cinco partes iguales dentro del pulso; lectura, equidistancia y contraste con cuatro semicorcheas.
-2. **L2 — Septillo funcional:** siete partes iguales dentro del mismo pulso; construcción lenta, lectura y control bilateral.
-3. **L3 — Cambiar de densidad:** `2 → 3 → 4 → 5` y `4 → 5 → 7 → 4` conservando la negra.
-4. **L4 — Vocabulario musical:** acentos, sticking, silencios y orquestación sin destruir la relación temporal.
-5. **Checkpoint 7D — J4 funcional:** explicar, leer, ejecutar, cambiar, recuperar y aplicar.
+1. **Lección 1 — Quintillo funcional:** cinco partes iguales dentro del pulso; lectura, equidistancia y contraste con cuatro semicorcheas.
+2. **Lección 2 — Septillo funcional:** siete partes iguales dentro del mismo pulso; construcción lenta, lectura y control bilateral.
+3. **Lección 3 — Cambiar de densidad:** `2 → 3 → 4 → 5` y `4 → 5 → 7 → 4` conservando la negra.
+4. **Lección 4 — Vocabulario musical:** acentos, sticking, silencios y orquestación sin destruir la relación temporal.
+5. **Evaluación — tuplets de 5 y 7 y divisiones no estándar funcional:** explicar, leer, ejecutar, cambiar, recuperar y aplicar.
 
 ## ESENCIAL AHORA
 
@@ -101,7 +101,7 @@ Los ejercicios principales resuelven sus subdivisiones dentro del pulso o de una
 - superponer o relacionar densidades con otras capas;
 - preparar relaciones que más adelante puedan reinterpretarse en modulación métrica.
 
-La última posibilidad pertenece a niveles posteriores; **no se exige en U4**.
+La última posibilidad pertenece a niveles posteriores; **no se exige en esta unidad**.
 
 ## Práctica estándar de 25–30 min
 
@@ -113,7 +113,7 @@ La última posibilidad pertenece a niveles posteriores; **no se exige en U4**.
 
 ## Criterio de salida
 
-U4 cumple su función cuando el alumno puede:
+esta unidad cumple su función cuando el alumno puede:
 
 1. explicar qué relación temporal está leyendo;
 2. ejecutar ejemplos lentos de quintillo y septillo;

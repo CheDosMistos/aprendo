@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-U3 enseñó a reconstruir y verificar una fuente breve. U4 pregunta algo distinto: **¿cómo se organiza el tiempo a una escala mayor que la célula?**
+Unidad 3 enseñó a reconstruir y verificar una fuente breve. esta unidad pregunta algo distinto: **¿cómo se organiza el tiempo a una escala mayor que la célula?**
 
 `ESCUCHAR TODO → PROPONER UNIDADES → RELACIONAR → LOCALIZAR LÍMITES → MAPEAR → ANTICIPAR → COMPROBAR`
 
@@ -34,7 +34,7 @@ U3 enseñó a reconstruir y verificar una fuente breve. U4 pregunta algo distint
 
 Es frecuente encontrar organización en longitudes regulares, por lo que esas expectativas son útiles como **hipótesis de escucha**. Pero una frase no se define por tener cuatro u ocho compases y una sección no nace automáticamente cada vez que cambia un detalle.
 
-U4 incluye material que rompe deliberadamente una expectativa simétrica para obligar a comprobar la fuente.
+esta unidad incluye material que rompe deliberadamente una expectativa simétrica para obligar a comprobar la fuente.
 
 ## Fuente original antes que repertorio
 
@@ -44,19 +44,19 @@ La aplicación a repertorio real llegará progresivamente y cada obra se verific
 
 ## Arquitectura
 
-### L1 — De la célula a la frase
+### Lección 1 — De la célula a la frase
 Escuchar dos bloques relacionados y distinguir motivo, frase y cierre.
 
-### L2 — Repetición, contraste y transición
+### Lección 2 — Repetición, contraste y transición
 Describir relaciones entre bloques y comprobar que las longitudes regulares son expectativas, no reglas.
 
-### L3 — Riff, ostinato, pickup y fill como función
+### Lección 3 — Riff, ostinato, pickup y fill como función
 Identificar qué hace un material dentro del contexto, no sólo cómo de denso o llamativo suena.
 
-### L4 — Construir y usar un mapa de forma
+### Lección 4 — Construir y usar un mapa de forma
 Mapear una estructura completa y volver a escuchar intentando anticipar cambios.
 
-### Checkpoint 3A — Hito global 3
+### Evaluación — Hito global 3
 Se conserva literalmente el hito del Plan General:
 
 **leer → cantar → tocar → escuchar → escribir**
@@ -75,4 +75,4 @@ En la tarea, `cantar` puede realizarse mediante una representación vocal o cont
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`
 
-El Checkpoint 3A **observa el Hito global 3**. No cierra Fase 3 y no sustituye el Hito global 4.
+El Evaluación **observa el Hito global 3**. No cierra Fase 3 y no sustituye el Hito global 4.

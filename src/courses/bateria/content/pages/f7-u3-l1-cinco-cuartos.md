@@ -19,7 +19,7 @@ published: true
 
 Mantener un compás de `5/4` como **cinco negras reales por barra** y cambiar su agrupación interna sin perder ni añadir una negra.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u3/f7-u3-odd-meter-models.musicxml" data-score-title="70.U3 — Modelos de 5/4 y 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u3/f7-u3-odd-meter-models.musicxml" data-score-title="Unidad 3 — Modelos de 5/4 y 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## La información del compás
 

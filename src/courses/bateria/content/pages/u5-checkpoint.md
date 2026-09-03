@@ -7,7 +7,7 @@ unitSlug: unidad-5
 slug: unidad-5-cierre
 kind: checkpoint
 order: 5
-title: "Cierre de U5 — ¿puedo continuar?"
+title: "Cierre de esta unidad — ¿puedo continuar?"
 summary: Comprueba representación de los cinco PAS, síncopa elemental y combinación drag+diddle sin exigir perfección ni velocidad máxima.
 duration: 15–25 min
 competencies: [B2, B4, B5, B6, C1, C2, C3, D1, D2, D6, E2, E3, F2, K2, K4, K6]
@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Decidir si U6 puede abrirse con una base suficientemente clara. U5 no termina cuando todo sale perfecto; termina cuando el material nuevo está correctamente representado y los cuellos de botella importantes están identificados.
+Decidir si Unidad 6 puede abrirse con una base suficientemente clara. esta unidad no termina cuando todo sale perfecto; termina cuando el material nuevo está correctamente representado y los cuellos de botella importantes están identificados.
 
 Reutiliza evidencia reciente que siga siendo representativa. Remuestrea únicamente estados antiguos, dudosos o contradictorios.
 
@@ -25,8 +25,8 @@ Reutiliza evidencia reciente que siga siendo representativa. Remuestrea únicame
 
 Puedes continuar si:
 
-- reconoces los cinco PAS de U5 y sabes consultar PAS cuando dudas;
-- puedes ejecutar lentamente una muestra razonable de al menos un roll de U5 y un PAS drag+diddle;
+- reconoces los cinco PAS de esta unidad y sabes consultar PAS cuando dudas;
+- puedes ejecutar lentamente una muestra razonable de al menos un roll de esta unidad y un PAS drag+diddle;
 - mantienes el pulso en una síncopa elemental aunque necesites tempo lento;
 - distingues síncopa de agrupación, desplazamiento y cambio de compás;
 - puedes escuchar e imitar una célula corta y escribir una representación elemental;
@@ -66,17 +66,17 @@ Sin ser requisito:
 - tocar los cinco PAS consecutivamente sin error;
 - dominar toda la familia drag+diddle;
 - leer síncopa compleja;
-- convertir D2 o C3 en competencias terminadas dentro de Fase 1.
+- convertir síncopa o cambios de subdivisión en competencias terminadas dentro de Fase 1.
 
 ## Si aparece un cuello de botella
 
-No reinicies U5 completa. Mantén un correctivo breve sobre la variable responsable y continúa las ramas que no dependan de ella. Si aparece dolor o tensión creciente, reduce carga o detente.
+No reinicies esta unidad completa. Mantén un correctivo breve sobre la variable responsable y continúa las ramas que no dependan de ella. Si aparece dolor o tensión creciente, reduce carga o detente.
 
 ## Decisión
 
-**CONTINUAR** — la base necesaria para U6 está disponible.
+**CONTINUAR** — la base necesaria para Unidad 6 está disponible.
 
-**CONTINUAR + CORRECTIVO** — existe una debilidad localizada que seguirá reapareciendo sin bloquear U6.
+**CONTINUAR + CORRECTIVO** — existe una debilidad localizada que seguirá reapareciendo sin bloquear Unidad 6.
 
 **REDUCIR NOVEDAD** — un prerrequisito central necesita otra exposición antes de añadir complejidad.
 

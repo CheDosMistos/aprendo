@@ -7,8 +7,8 @@ unitSlug: fase-3-unidad-2
 slug: puerta-e3-e4-transcripcion
 kind: checkpoint
 order: 5
-title: "Puerta E3/E4 para entrar en transcripción"
-summary: "Separa resolución y longitud para comprobar si imitación y dictado están suficientemente disponibles antes de introducir E6 en U3."
+title: "Puerta dictado/relación entre oído y notación para entrar en transcripción"
+summary: "Separa resolución y longitud para comprobar si imitación y dictado están suficientemente disponibles antes de introducir transcripción real en Unidad 3."
 duration: 15–25 min
 competencies: [E2, E3, E4, D4, C2, K2, K3, K5, K6, K8]
 rudiments: []
@@ -17,15 +17,15 @@ published: true
 
 ## INFERENCIA
 
-> **E3/E4 están suficientemente disponibles para que U3 pueda introducir E6 —transcripción iterativa— sin que toda la carga recaiga en imitación, memoria o notación básica.**
+> **dictado/relación entre oído y notación están suficientemente disponibles para que Unidad 3 pueda introducir transcripción iterativa— sin que toda la carga recaiga en imitación, memoria o notación básica.**
 
-Este checkpoint **no es una transcripción**, no exige perfección y no usa un número máximo universal de escuchas.
+Este Evaluación **no es una transcripción**, no exige perfección y no usa un número máximo universal de escuchas.
 
 ## EVIDENCIA A — mayor resolución
 
 Material nuevo, **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
-<div data-rhythm-dictation data-bpm="64" data-subdivision="4" data-pattern="1010000100101000" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="Evidencia A: un compás 4/4 sobre dieciséis posiciones de semicorchea y densidad baja/moderada. Conserva la primera hipótesis antes de corregir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-semicorcheas-a.musicxml" data-answer-score-title="30.U2.CP — solución de semicorcheas A"></div>
+<div data-rhythm-dictation data-bpm="64" data-subdivision="4" data-pattern="1010000100101000" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="Evidencia A: un compás 4/4 sobre dieciséis posiciones de semicorchea y densidad baja/moderada. Conserva la primera hipótesis antes de corregir." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-semicorcheas-a.musicxml" data-answer-score-title="Unidad 2.evaluación — solución de semicorcheas A"></div>
 
 Protocolo:
 
@@ -37,7 +37,7 @@ Registra escuchas completas, chunks, posiciones dudosas, legibilidad y variable 
 
 Ahora la resolución vuelve a corcheas; la novedad es sostener dos compases.
 
-<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1001101010011001" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Evidencia B: dos compases 4/4 en corcheas, distintos de L4 y de U1. Compara cada compás y la transición después de conservar tu primera hipótesis." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-dos-compases-b.musicxml" data-answer-score-title="30.U2.CP — solución de dos compases B"></div>
+<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1001101010011001" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Evidencia B: dos compases 4/4 en corcheas, distintos de Lección 4 y de Unidad 1. Compara cada compás y la transición después de conservar tu primera hipótesis." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-cp-dos-compases-b.musicxml" data-answer-score-title="Unidad 2.evaluación — solución de dos compases B"></div>
 
 Protocolo:
 
@@ -51,14 +51,14 @@ Elige la limitación dominante y justifícala con una observación concreta:
 
 “No me salió” no basta como diagnóstico.
 
-## Puente conceptual a U3
+## Puente conceptual a Unidad 3
 
-Explica por qué lo que acabas de hacer sigue siendo **dictado/reconstrucción diseñada** y qué añadirá U3 para hablar de **transcripción**.
+Explica por qué lo que acabas de hacer sigue siendo **dictado/reconstrucción diseñada** y qué añadirá Unidad 3 para hablar de **transcripción**.
 
 La idea esencial es:
 
 - aquí el estímulo fue creado y acotado para la tarea;
-- U3 añadirá reconstrucción iterativa de una fuente, hipótesis, comparación y revisión;
+- Unidad 3 añadirá reconstrucción iterativa de una fuente, hipótesis, comparación y revisión;
 - no se trata simplemente de hacer dictados más largos.
 
 No necesitas memorizar esta formulación literal.
@@ -71,7 +71,7 @@ Reconstruyes material breve con ayudas razonables, tu representación es interpr
 
 ### CONTINUAR + CORRECTIVO
 
-Una dimensión concreta sigue frágil, pero U3 puede adaptar longitud, densidad, rejilla provisional o forma de respuesta.
+Una dimensión concreta sigue frágil, pero Unidad 3 puede adaptar longitud, densidad, rejilla provisional o forma de respuesta.
 
 ### REDUCIR NOVEDAD
 
@@ -81,7 +81,7 @@ La reconstrucción breve colapsa globalmente porque una dependencia imprescindib
 
 Aparece una señal de salud/carga según el sistema de práctica y evaluación.
 
-## MÍNIMO PARA AVANZAR A U3
+## MÍNIMO PARA AVANZAR A Unidad 3
 
 - imitas chunks y compases de dificultad adecuada;
 - reconstruyes la estructura esencial de la evidencia A;
@@ -89,6 +89,6 @@ Aparece una señal de salud/carga según el sistema de práctica y evaluación.
 - mantienes pulso/barras suficientemente para diagnosticar;
 - tocas tu propia escritura;
 - distingues la principal fuente de error;
-- entiendes la diferencia operativa entre este dictado y la transcripción de U3.
+- entiendes la diferencia operativa entre este dictado y la transcripción de Unidad 3.
 
 **AVANZADO no es requisito para continuar.**

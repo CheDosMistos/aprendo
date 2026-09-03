@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Introducir **A’** en tu composición mediante **una sola transformación G2 consciente**.
+Introducir **A’** en tu composición mediante **una sola transformación desarrollo motívico consciente**.
 
 La pregunta vuelve a ser:
 
@@ -27,7 +27,7 @@ La pregunta vuelve a ser:
 
 ## A y A’ de referencia — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l3-transform-trace.musicxml" data-score-title="30.U8.L3 — A y A’ trazables" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l3-transform-trace.musicxml" data-score-title="Unidad 8.Lección 3 — A y A’ trazables" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 El segundo compás cambia **una posición local** respecto al primero. Es un modelo de trazabilidad, no una regla de porcentaje de identidad.
 
@@ -45,7 +45,7 @@ Escribe dos rasgos que lo hacen reconocible, por ejemplo:
 
 ## 2. Elige una sola transformación · 5–6 min
 
-Usa una operación ya conocida de U6:
+Usa una operación ya conocida de Unidad 6:
 
 - variación local;
 - fragmentación;

@@ -21,7 +21,7 @@ Tocar por primera vez la forma completa del Hito 5 sin añadir vocabulario nuevo
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — HITO 5 INTEGRADO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="40.U10.L4 — A → variación → A → fill → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="Unidad 10.Lección 4 — A → variación → A → fill → A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La forma tiene cinco compases:
 
@@ -73,16 +73,16 @@ Antes o después de una toma, identifica al menos un origen real:
 
 - patrón manual/pad transferido a superficies;
 - subdivisión/lectura usada para sostener el groove;
-- frase/orquestación U2/U8 reutilizada en el fill;
+- frase/orquestación Unidad 2/Unidad 8 reutilizada en el fill;
 - idea de forma/retorno desarrollada antes del kit.
 
 No inventes una procedencia: explica material que realmente hayas trabajado.
 
-## Frontera H7
+## Frontera independencia avanzada
 
 El pedal hi-hat aparece en 2 y 4 durante los compases normales de Groove A. En el tiempo 4 del fill no es obligatorio mantenerlo.
 
-**El Hito 5 no es una prueba de independencia H7.**
+**El Hito 5 no es una prueba de independencia independencia avanzada.**
 
 ## Tempo
 

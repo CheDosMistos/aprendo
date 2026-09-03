@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: checkpoint-proyecto-autonomo-r4
 kind: checkpoint
 order: 6
-title: "Checkpoint 6H — Proyecto autónomo R4: K8 funcional sostenido"
+title: "Evaluación — Proyecto autónomo Proyecto autónomo: autonomía funcional sostenido"
 summary: "Evalúa un ciclo autónomo multisesión completo: selección, diagnóstico, planificación, recursos, evidencia, ajuste y transferencia, sin declarar todavía Hito 7."
 duration: evaluación + revisión del proyecto
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4]
@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Función del checkpoint
+## Función del Evaluación
 
-Este checkpoint evalúa la salida superior de U11:
+Este Evaluación evalúa la salida superior de esta unidad:
 
 `OBSERVAR → DEFINIR → ELEGIR → ACTUAR → REGISTRAR → EVALUAR → AJUSTAR → TRANSFERIR`
 
@@ -25,7 +25,7 @@ No se aprueba por producir el plan más complejo, practicar más horas o consegu
 
 Se aprueba cuando existe evidencia de que **las decisiones del proyecto forman un ciclo coherente y revisable**.
 
-## Evidencia mínima del portafolio U11
+## Evidencia mínima del portafolio esta unidad
 
 Presenta:
 
@@ -46,42 +46,30 @@ No es obligatorio que cada elemento sea un documento separado. Una grabación, u
 
 No se calcula una media matemática. Evalúa cada dimensión de forma cualitativa.
 
-### 1. Selección y alcance — K1/K2/K8
-
-- el proyecto es legal y abordable;
+### 1. Selección y alcance — objetivos de práctica/grabación y autoevaluación/el proyecto es legal y abordable;
 - la dificultad permite observar aprendizaje y no sólo supervivencia;
 - se delimitan objetivos y exclusiones.
 
-### 2. Diagnóstico — K2/K3/F7
-
-- separa observación de explicación;
+### 2. Diagnóstico — grabación y autoevaluación/diagnóstico de errores/separa observación de explicación;
 - formula hipótesis plausibles;
 - prioriza un cuello de botella por relevancia musical.
 
-### 3. Elección de estrategia y recurso — K3/K4/K8
-
-- la intervención responde a una hipótesis;
+### 3. Elección de estrategia y recurso — diagnóstico de errores/práctica espaciada/la intervención responde a una hipótesis;
 - el recurso tiene función explícita;
 - existe al menos una alternativa razonable.
 
-### 4. Monitorización y evidencia — K5/K6
-
-- las observaciones son interpretables;
+### 4. Monitorización y evidencia — interleaving sensato/las observaciones son interpretables;
 - una grabación o medición sólo se usa cuando responde a una pregunta;
 - una toma favorable no se convierte automáticamente en prueba de retención.
 
-### 5. Ajuste — K7/K8
-
-- puede mantener, cambiar, reducir o retirar una intervención;
+### 5. Ajuste — gestión de carga y salud/puede mantener, cambiar, reducir o retirar una intervención;
 - la decisión se justifica por evidencia y no por costumbre;
 - reconoce cuando todavía no hay información suficiente.
 
-### 6. Recuperación/transferencia — K6/K8
-
-- comprueba qué sobrevive fuera de la condición exacta de práctica;
+### 6. Recuperación/transferencia — recuperación y retención/comprueba qué sobrevive fuera de la condición exacta de práctica;
 - el cambio de condición sigue siendo pertinente para la habilidad objetivo.
 
-### 7. Resultado musical — I3/I4 y competencias del proyecto
+### 7. Resultado musical — formas y canciones/repertorio y competencias del proyecto
 
 Según el material pueden observarse:
 
@@ -95,16 +83,16 @@ Según el material pueden observarse:
 - recuperación ante errores;
 - interacción/adaptación si realmente estuvo disponible.
 
-### 8. E6/F7 aplicados
+### 8. transcripción real/análisis musical aplicados
 
 Cuando sean pertinentes:
 
-- E6 distingue certeza e hipótesis en la escucha/transcripción;
-- F7 relaciona elementos musicales para explicar decisiones, no sólo enumera términos.
+- transcripción real distingue certeza e hipótesis en la escucha/transcripción;
+- análisis musical relaciona elementos musicales para explicar decisiones, no sólo enumera términos.
 
 ## MÍNIMO PARA AVANZAR
 
-U11 se considera superada cuando el alumno:
+esta unidad se considera superada cuando el alumno:
 
 - completa un proyecto acotado durante más de un encuentro;
 - presenta una línea base y un resultado posterior comparables;
@@ -115,7 +103,7 @@ U11 se considera superada cuando el alumno:
 - puede explicar el ciclo completo sin fingir certeza donde no la tiene;
 - no usa BPM, número de repeticiones o ausencia total de errores como único criterio.
 
-Esto constituye **K8 funcional sostenido dentro del proyecto U11**, no independencia pedagógica absoluta.
+Esto constituye **autonomía funcional sostenido dentro del proyecto esta unidad**, no independencia pedagógica absoluta.
 
 ## COMPETENTE / FUNCIONAL
 
@@ -142,13 +130,13 @@ AVANZADO no es requisito para continuar.
 
 ## Decisiones posibles
 
-### CONTINUAR A U12
+### CONTINUAR A Unidad 12
 
 Existe evidencia suficiente del ciclo autónomo completo.
 
 ### CONTINUAR + CORRECTIVO
 
-K8 es funcional, pero una competencia musical de soporte necesita mantenimiento específico.
+autonomía es funcional, pero una competencia musical de soporte necesita mantenimiento específico.
 
 ### REDUCIR ALCANCE Y RETEST
 
@@ -165,17 +153,17 @@ La interpretación puede ser aceptable, pero no existe evidencia suficiente para
 - material del curso creado para la unidad se identifica como `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`;
 - ayuda externa utilizada se reconoce por su función, no se oculta para aparentar autonomía.
 
-## Fronteras del checkpoint
+## Fronteras del Evaluación
 
-Superar 6H:
+Superar evaluación final:
 
 - **NO declara Hito 7**;
-- no sustituye la revisión acumulativa R1–R4 de U12;
-- no certifica automáticamente E6/F7 globales sólo porque aparezcan en este proyecto;
-- no exige K8 AVANZADO;
+- no sustituye la revisión acumulativa los cuatro carriles del portafolio de Unidad 12;
+- no certifica automáticamente transcripción real/análisis musical globales sólo porque aparezcan en este proyecto;
+- no exige autonomía AVANZADO;
 - no exige interacción interpersonal si no estuvo disponible;
 - no exige una canción nueva;
 - no exige un BPM universal, porcentajes mínimos ni cero errores;
 - no adelanta métricas irregulares avanzadas, polirritmia profunda, polimetría o modulación métrica de Fase 7.
 
-> **LA PRUEBA CENTRAL DE U11 NO ES QUE TU PRIMER PLAN FUERA CORRECTO; ES QUE TU PROCESO PRODUZCA DECISIONES MEJORES A MEDIDA QUE APARECE EVIDENCIA.**
+> **LA PRUEBA CENTRAL DE esta unidad NO ES QUE TU PRIMER PLAN FUERA CORRECTO; ES QUE TU PROCESO PRODUZCA DECISIONES MEJORES A MEDIDA QUE APARECE EVIDENCIA.**

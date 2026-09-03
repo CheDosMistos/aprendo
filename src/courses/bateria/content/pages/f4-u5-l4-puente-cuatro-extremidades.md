@@ -8,16 +8,16 @@ slug: puente-cuatro-extremidades
 kind: lesson
 order: 4
 title: "Puente hacia cuatro extremidades"
-summary: "Añade una cuarta extremidad como ampliación controlada sin convertir U5 en la unidad de independencia."
+summary: "Añade una cuarta extremidad como ampliación controlada sin convertir esta unidad en la unidad de independencia."
 duration: 20–30 min
 competencies: [H4, H5, H3, H2, C1, C2, K2, K7]
 rudiments: []
 published: true
 ---
 
-## AMPLIACIÓN — no requisito del checkpoint U5
+## AMPLIACIÓN — no requisito del Evaluación esta unidad
 
-Esta lección sólo se realiza si el hi-hat de pie de U4 está suficientemente disponible para que añadirlo no destruya el Groove Base A.
+Esta lección sólo se realiza si el hi-hat de pie de Unidad 4 está suficientemente disponible para que añadirlo no destruya el Groove Base A.
 
 ## Objetivo
 
@@ -25,7 +25,7 @@ Probar una primera versión de cuatro extremidades manteniendo caja y bombo cono
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — PUENTE 4 EXTREMIDADES A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U5.L4 — Puente 4 extremidades A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 5.Lección 4 — Puente 4 extremidades A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura usa tres voces funcionales:
 
@@ -52,9 +52,9 @@ La capa nueva es el pie izquierdo en 2/4.
 
 ## FRONTERA
 
-Ejecutar ocasionalmente este ejercicio aporta evidencia hacia H4, pero **no certifica H4 MÍNIMO** ni H7.
+Ejecutar ocasionalmente este ejercicio aporta evidencia hacia coordinación básica de cuatro extremidades, pero **no certifica coordinación básica de cuatro extremidades MÍNIMO** ni independencia avanzada.
 
-U6 realizará la evaluación específica de coordinación básica de cuatro extremidades. Aquí sólo abrimos el puente.
+Unidad 6 realizará la evaluación específica de coordinación básica de cuatro extremidades. Aquí sólo abrimos el puente.
 
 ## Si colapsa
 
@@ -70,7 +70,7 @@ U6 realizará la evaluación específica de coordinación básica de cuatro extr
 - puede intentar una frase breve sin perder toda referencia;
 - sabe volver a la versión de tres extremidades;
 - identifica qué capa se degrada;
-- comprende que exposición no equivale a competencia H4 certificada.
+- comprende que exposición no equivale a competencia coordinación básica de cuatro extremidades certificada.
 
 ## Registrar esta práctica
 

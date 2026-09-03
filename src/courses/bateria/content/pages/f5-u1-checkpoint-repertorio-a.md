@@ -7,25 +7,25 @@ unitSlug: fase-5-unidad-1
 slug: repertorio-a-en-desarrollo
 kind: checkpoint
 order: 5
-title: "Checkpoint — Repertorio A en desarrollo"
-summary: "Comprueba que la forma de Pieza A ya organiza tu ejecución sin convertir U1 en una certificación prematura de canción completa."
+title: "Evaluación — Repertorio A en desarrollo"
+summary: "Comprueba que la forma de Pieza A ya organiza tu ejecución sin convertir esta unidad en una certificación prematura de canción completa."
 duration: 20–30 min
 competencies: [H5, I3, I4, F3, C1, C2, K2, K5, K7, D7]
 rudiments: []
 published: true
 ---
 
-## Qué demuestra este checkpoint
+## Qué demuestra este Evaluación
 
-U1 comprueba que el paso desde una cadena breve a una forma de 24 compases está en marcha.
+esta unidad comprueba que el paso desde una cadena breve a una forma de 24 compases está en marcha.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="50.U1.CP — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 1.evaluación — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Mapa:
 
 `INTRO 4 → A 8 → B 8 → OUTRO 4`.
 
-Este checkpoint **NO es Hito 6** y **NO certifica I4 COMPETENTE/FUNCIONAL**.
+Este Evaluación **NO es Hito 6** y **NO certifica repertorio COMPETENTE/FUNCIONAL**.
 
 ## Tarea
 
@@ -61,11 +61,11 @@ Debe poder observarse razonablemente que:
 ## NO CERTIFICA
 
 - Hito 6;
-- I4 COMPETENTE/FUNCIONAL;
-- D7 COMPETENTE/FUNCIONAL;
-- H5 COMPETENTE/FUNCIONAL global;
-- H6 COMPETENTE/FUNCIONAL global;
-- H7 nueva;
+- repertorio COMPETENTE/FUNCIONAL;
+- lectura aplicada al kit COMPETENTE/FUNCIONAL;
+- groove y variaciones COMPETENTE/FUNCIONAL global;
+- fills COMPETENTE/FUNCIONAL global;
+- independencia avanzada nueva;
 - estilo concreto;
 - repertorio comercial;
 - velocidad prefijada.
@@ -78,4 +78,4 @@ Debe poder observarse razonablemente que:
 - **AVANZA CON CORRECTIVO:** el mapa se conserva, pero una unión o la duración continua aún necesita mantenimiento.
 - **REPITE BLOQUE ESPECÍFICO:** todavía no puedes conservar una referencia formal suficiente; repite la sección/unión necesaria, no toda Fase 4.
 
-La siguiente unidad hará explícita una herramienta que aquí sólo hemos empezado a usar: **D7 — charts, navegación y prioridades**.
+La siguiente unidad hará explícita una herramienta que aquí sólo hemos empezado a usar: **charts, navegación y prioridades**.

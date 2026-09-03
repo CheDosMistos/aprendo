@@ -23,7 +23,7 @@ Usar la cadena de diagnóstico del curso sobre **uno o dos** cuellos de botella 
 
 ## 1. Elegir el problema — 3 min
 
-Escoge un máximo de dos casos de L1. No intentes arreglar toda la matriz PAS en una sesión.
+Escoge un máximo de dos casos de Lección 1. No intentes arreglar toda la matriz PAS en una sesión.
 
 Mal objetivo: `mejorar drags`.
 
@@ -85,4 +85,4 @@ Anota:
 
 ## Criterio de avance
 
-Puedes pasar a L3 cuando hayas demostrado al menos una vez que sabes convertir un fallo concreto en una prueba y una decisión posterior. No es necesario que el problema quede resuelto por completo.
+Puedes pasar a Lección 3 cuando hayas demostrado al menos una vez que sabes convertir un fallo concreto en una prueba y una decisión posterior. No es necesario que el problema quede resuelto por completo.

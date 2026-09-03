@@ -21,7 +21,7 @@ Introducir correctamente **Six Stroke Roll** y experimentar **3+3+2 como agrupac
 
 ## 1. Comprobación de base — 3 min
 
-Acentos, taps, corcheas y pulso ya se trabajaron antes. Haz ocho corcheas alternadas y acentúa solo la primera de cada cuatro. Si el acento altera el tempo o endurece los taps, corrige brevemente A4/A5; si está disponible, sigue.
+Acentos, taps, corcheas y pulso ya se trabajaron antes. Haz ocho corcheas alternadas y acentúa solo la primera de cada cuatro. Si el acento altera el tempo o endurece los taps, corrige brevemente movimientos full, down, up y tap/rebote controlado; si está disponible, sigue.
 
 ## 2. Agrupación no es compás — 4 min
 

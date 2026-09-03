@@ -7,27 +7,27 @@ unitSlug: fase-4-unidad-5
 slug: primer-groove-estable
 kind: checkpoint
 order: 5
-title: "Checkpoint — Primer groove estable"
-summary: "Demuestra un primer groove de tres extremidades con continuidad, diagnóstico y recuperación, sin exigir H4 ni independencia."
+title: "Evaluación — Primer groove estable"
+summary: "Demuestra un primer groove de tres extremidades con continuidad, diagnóstico y recuperación, sin exigir coordinación básica de cuatro extremidades ni independencia."
 duration: 20–30 min
 competencies: [H5, H2, H4, C1, C2, K2, K5, K7]
 rudiments: []
 published: true
 ---
 
-## Qué certifica este checkpoint
+## Qué certifica este Evaluación
 
-Este checkpoint aporta evidencia de un **primer groove estable en la condición practicada de tres extremidades**.
+Este Evaluación aporta evidencia de un **primer groove estable en la condición practicada de tres extremidades**.
 
-No convierte automáticamente H5 en COMPETENTE/FUNCIONAL y **no certifica H4 MÍNIMO**.
+No convierte automáticamente groove y variaciones en COMPETENTE/FUNCIONAL y **no certifica coordinación básica de cuatro extremidades MÍNIMO**.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE BASE A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l1-groove-base-a.musicxml" data-score-title="40.U5 — Groove Base A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l1-groove-base-a.musicxml" data-score-title="Unidad 5 — Groove Base A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE BASE A · 4 COMPASES
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l3-groove-base-a-4bars.musicxml" data-score-title="40.U5 — Groove Base A · 4 compases" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l3-groove-base-a-4bars.musicxml" data-score-title="Unidad 5 — Groove Base A · 4 compases" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Tarea mínima
 
@@ -38,7 +38,7 @@ No convierte automáticamente H5 en COMPETENTE/FUNCIONAL y **no certifica H4 MÍ
 5. Aplica un correctivo de una variable.
 6. Repite la frase completa para comprobar transferencia.
 
-## MÍNIMO LOCAL U5
+## MÍNIMO LOCAL esta unidad
 
 - mantienes la rejilla de corcheas;
 - las tres funciones siguen reconocibles;
@@ -52,9 +52,9 @@ No convierte automáticamente H5 en COMPETENTE/FUNCIONAL y **no certifica H4 MÍ
 
 ## NO CERTIFICA
 
-- **H4 — coordinación básica de cuatro extremidades**;
-- **H5 — COMPETENTE/FUNCIONAL**;
-- **H7 — independencia**;
+- **coordinación básica de cuatro extremidades**;
+- **COMPETENTE/FUNCIONAL**;
+- **independencia**;
 - feel estilístico específico;
 - ghost notes;
 - aperturas musicales de hi-hat;
@@ -64,7 +64,7 @@ No convierte automáticamente H5 en COMPETENTE/FUNCIONAL y **no certifica H4 MÍ
 
 ## AMPLIACIÓN OPCIONAL
 
-Si U4 está suficientemente disponible, puedes realizar `Puente 4 extremidades A`. Su resultado se registra como **evidencia hacia H4**, no como requisito de este checkpoint.
+Si Unidad 4 está suficientemente disponible, puedes realizar `Puente 4 extremidades A`. Su resultado se registra como **evidencia hacia coordinación básica de cuatro extremidades**, no como requisito de este Evaluación.
 
 ## Evaluación
 
@@ -72,7 +72,7 @@ Si U4 está suficientemente disponible, puedes realizar `Puente 4 extremidades A
 
 No existe BPM de aprobado.
 
-La perfección no es requisito para continuar: necesitamos una base suficientemente estable para entrar en U6 sin ocultar qué capas siguen frágiles.
+La perfección no es requisito para continuar: necesitamos una base suficientemente estable para entrar en Unidad 6 sin ocultar qué capas siguen frágiles.
 
 ## Registrar esta práctica
 

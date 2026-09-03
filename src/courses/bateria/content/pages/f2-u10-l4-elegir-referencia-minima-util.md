@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-La progresión de U10 no es una escalera obligatoria. El mejor modo es el que produce **información útil y práctica sostenible**.
+La progresión de esta unidad no es una escalera obligatoria. El mejor modo es el que produce **información útil y práctica sostenible**.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="20.U10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="Unidad 10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ## Comparación controlada
 
@@ -48,10 +48,10 @@ Pregunta:
 - ¿la dificultad sigue siendo temporal o la lectura empezó a interferir?;
 - ¿qué correctivo concreto probarías antes de repetir?
 
-## C5 inicial, no graduación
+## click desplazado o no obvio inicial, no graduación
 
-Trabajar con referencia menos explícita puede aportar evidencia inicial de C5. No implica C5 funcional ni autoriza automáticamente tareas más complejas de desplazamiento de click.
+Trabajar con referencia menos explícita puede aportar evidencia inicial de click desplazado o no obvio. No implica click desplazado o no obvio funcional ni autoriza automáticamente tareas más complejas de desplazamiento de click.
 
-## Puente al checkpoint
+## Puente al Evaluación
 
-Elige una condición reducida que produzca una muestra interpretable. El checkpoint comparará esa condición con referencia completa, no buscará el modo más difícil disponible.
+Elige una condición reducida que produzca una muestra interpretable. El Evaluación comparará esa condición con referencia completa, no buscará el modo más difícil disponible.

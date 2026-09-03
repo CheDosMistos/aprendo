@@ -21,7 +21,7 @@ Mantener un time sencillo mientras caja o bombo añaden respuestas breves y cont
 
 ## Qué es comping en esta unidad
 
-La Percussive Arts Society describe el *comping* jazz como acompañamiento o conversación rítmica con solista/banda, habitualmente sobre un patrón estable de ride y hi-hat. En U8 nos quedamos en la versión mínima de esa idea.
+La Percussive Arts Society describe el *comping* jazz como acompañamiento o conversación rítmica con solista/banda, habitualmente sobre un patrón estable de ride y hi-hat. En esta unidad nos quedamos en la versión mínima de esa idea.
 
 Fuente: [PAS — Jazz Comping, Rhythm! Scene 2018](https://pas.org/wp-content/uploads/2024/04/1806.pdf).
 
@@ -31,7 +31,7 @@ Si la respuesta destruye el time, todavía no cumple su función.
 
 ## ESENCIAL AHORA
 
-Trabaja el **compás B** del ejercicio original de U8.
+Trabaja el **compás B** del ejercicio original de esta unidad.
 
 La voz principal permanece estable. La caja aparece sólo en dos puntos preparados del patrón para que puedas escuchar qué cambia y qué no.
 
@@ -51,7 +51,7 @@ La voz principal permanece estable. La caja aparece sólo en dos puntos preparad
 
 La tarea no es “improvisar libremente”, sino mantener la referencia mientras eliges un hueco musicalmente razonable.
 
-## H7 contextual
+## independencia avanzada contextual
 
 El patrón de ride/hi-hat funciona como capa estable y una voz secundaria cambia. Es exactamente el tipo de independencia musical limitada que busca Fase 5.
 

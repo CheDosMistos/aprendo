@@ -19,7 +19,7 @@ rudiments:
 published: true
 ---
 
-U7 abre **Tier 4**. El reto deja de ser solo descubrir familias aisladas y pasa a **combinar recursos ya conocidos sin perder pulso, alturas, dinámica ni representación**.
+esta unidad abre **Tier 4**. El reto deja de ser solo descubrir familias aisladas y pasa a **combinar recursos ya conocidos sin perder pulso, alturas, dinámica ni representación**.
 
 ## ESENCIAL AHORA
 
@@ -46,7 +46,7 @@ PAS prevalece para nombre, ritmo, sticking, acentos, grace notes y rolls:
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-Las partituras de Aprendo en U7 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen los cuatro PAS.
+Las partituras de Aprendo en esta unidad son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen los cuatro PAS.
 
 ## Orden de la unidad
 
@@ -54,6 +54,6 @@ Las partituras de Aprendo en U7 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CU
 2. **Lección 2 — Flam Paradiddle y entrada al 5/4**
 3. **Lección 3 — Pataflafla y Double Drag Tap: combinar sin colapsar**
 4. **Lección 4 — Desplazamiento elemental, lectura y oído**
-5. **Cierre de U7 — ¿puedo continuar?**
+5. **Cierre de esta unidad — ¿puedo continuar?**
 
 La meta de Fase 1 sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`.

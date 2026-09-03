@@ -19,7 +19,7 @@ published: true
 
 Que la pieza deje de parecer una cadena de 24 compases iguales.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="50.U1 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 1 — Pieza A: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura es un **esqueleto formal mínimo**: muestra la base bombo/caja, cues de sección, la Variación B y el Fill A. No intenta escribir todas las capas del kit. Puedes añadir tu capa conocida de time/hi-hat/ride desde memoria si esa versión sigue siendo sostenible.
 
@@ -54,13 +54,13 @@ No esperes a “notar” que ya estás en B.
 
 ## Paso 3 — señales del score
 
-Localiza en la partitura las etiquetas de sección. Úsalas como un primer puente hacia D7: la información escrita te ayuda a navegar, pero no sustituye el pulso.
+Localiza en la partitura las etiquetas de sección. Úsalas como un primer puente hacia lectura aplicada al kit: la información escrita te ayuda a navegar, pero no sustituye el pulso.
 
 Prioridad:
 
 `TIEMPO → FORMA → ENTRADA → DETALLE`.
 
-U1 sólo prepara D7; todavía no certifica navegación funcional de charts.
+esta unidad sólo prepara lectura aplicada al kit; todavía no certifica navegación funcional de charts.
 
 ## Paso 4 — recuperar después de perder la cuenta
 

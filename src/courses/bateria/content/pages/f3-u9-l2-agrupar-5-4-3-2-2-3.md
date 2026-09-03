@@ -28,7 +28,7 @@ Ambas suman cinco negras. La agrupación cambia el fraseo/percepción; **no camb
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l2-five-quarter-grid.musicxml" data-score-title="30.U9.L2 — rejilla neutra de 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l2-five-quarter-grid.musicxml" data-score-title="Unidad 9.Lección 2 — rejilla neutra de 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura fija la corriente temporal. Los acentos y agrupaciones se aplican como consigna textual para no fingir soporte notacional no validado.
 

@@ -26,10 +26,10 @@ Usar Chart A **antes** de que llegue el evento: navegar no es reaccionar tarde, 
 | Sección | Compases | Dinámica | Indicaciones |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Groove sostenible · prepara A |
-| A1 | 5–8 | mf | Groove |
-| A2 | 9–12 | mf | Compás 12: Fill A `4 &` → B |
-| B1 | 13–16 | f | Compás 16: Variación B `& de 3` |
-| B2 | 17–20 | f | Groove · prepara OUTRO |
+| postura y relajación | 5–8 | mf | Groove |
+| agarre principal | 9–12 | mf | Compás 12: Fill A `4 &` → B |
+| singles y redobles | 13–16 | f | Compás 16: Variación B `& de 3` |
+| dobles | 17–20 | f | Groove · prepara OUTRO |
 | OUTRO | 21–24 | mp | Groove sostenible · final |
 
 ## Primero — navegación sin kit
@@ -40,7 +40,7 @@ Recorre el chart y, en cada fila, di en voz alta:
 
 Ejemplo:
 
-`A2 → B1 → Fill A al final del compás 12`.
+`agarre principal → singles y redobles → Fill A al final del compás 12`.
 
 La tarea no es memorizar cada golpe. Es saber qué información merece atención.
 

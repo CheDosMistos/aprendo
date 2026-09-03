@@ -7,8 +7,8 @@ unitSlug: fase-7-unidad-9
 slug: integracion-progresiva-experimental
 kind: unit
 order: 0
-title: "70.U9 — Integración progresiva y experimentación"
-summary: "Cierra J9 y Fase 7 integrando recursos avanzados dentro de pulso, forma e intención musical claros, sin convertir la complejidad en un fin en sí mismo."
+title: "Integración progresiva y experimentación"
+summary: "Cierra integración progresiva y experimental y Fase 7 integrando recursos avanzados dentro de pulso, forma e intención musical claros, sin convertir la complejidad en un fin en sí mismo."
 duration: 4 lecciones + checkpoint; varias sesiones
 competencies: [J9, J1, J2, J3, J4, J5, J6, J7, J8, G1, G2, G3, G4, G6, C1, C2, C3, C4, D4, D6, E2, E5, F2, F3, K1, K2, K3, K5, K8]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 ## Función de la unidad
 
-U9 no añade una nueva categoría rítmica. Su función es convertir el vocabulario de J1–J8 en **decisiones musicales integradas**.
+esta unidad no añade una nueva categoría rítmica. Su función es convertir el vocabulario de los recursos rítmicos trabajados en las unidades anteriores en **decisiones musicales integradas**.
 
-El mapa aprobado define J9 así:
+el recorrido del curso define integración progresiva y experimental así:
 
 - **MÍNIMO PARA AVANZAR:** combinar un recurso avanzado con pulso y forma claros;
 - **COMPETENTE / FUNCIONAL:** integrar varios recursos sin convertir complejidad en fin en sí mismo;
@@ -42,18 +42,18 @@ El sistema de evaluación resume Hito 8 como:
 
 `explicación + pulso + ejecución + aplicación`
 
-J1–J9, G6, C y F2/F3 están implicados en el hito, pero **no se exige que todas las competencias alcancen el mismo nivel ni que aparezcan simultáneamente en una sola interpretación**.
+los recursos rítmicos avanzados de esta fase, improvisación abierta y experimental, C y métrica y terminología rítmica/forma y frase están implicados en el hito, pero **no se exige que todas las competencias alcancen el mismo nivel ni que aparezcan simultáneamente en una sola interpretación**.
 
 ## Prerrequisitos reales
 
-J9 depende de:
+integración progresiva y experimental depende de:
 
-- **J1–J8 según la tarea**, no todos como requisito universal;
-- **G6-R:** experimentación integrada;
-- **F3-F:** forma y fraseo como facilitador;
-- Puerta P7: C1–C3 y F2 suficientemente funcionales para manipular ritmo sin perder referencia.
+- **los recursos rítmicos trabajados en las unidades anteriores según la tarea**, no todos como requisito universal;
+- **R:** experimentación integrada;
+- **F:** forma y fraseo como facilitador;
+- la puerta de entrada de la fase: pulso, subdivisión y cambios de subdivisión y métrica y terminología rítmica suficientemente funcionales para manipular ritmo sin perder referencia.
 
-Si una propuesta necesita polimetría, J7 debe estar disponible. Si no la necesita, no hay obligación de introducirla artificialmente.
+Si una propuesta necesita polimetría, polimetría debe estar disponible. Si no la necesita, no hay obligación de introducirla artificialmente.
 
 ## Principio 1 — La forma manda
 
@@ -94,11 +94,11 @@ Si no puedes explicar la función del recurso, todavía puede ser un laboratorio
 
 ## Arquitectura
 
-1. **L1 — Forma antes que complejidad:** elegir función, recurso dominante, referencia y salida.
-2. **L2 — Construir una forma integrada:** J1/J2/J3/J4 en una miniatura legible y reproducible.
-3. **L3 — Capas, transición y resolución:** integrar J5/J6/J8 sin borrar las diferencias conceptuales entre ellos.
-4. **L4 — Proyecto Hito 8:** componer o improvisar una pieza breve, explicarla, tocarla, grabarla, reducirla y revisarla.
-5. **Checkpoint 7I — J9 + Hito 8:** evidencia integrada de comprensión, pulso, ejecución, aplicación y recuperación.
+1. **Lección 1 — Forma antes que complejidad:** elegir función, recurso dominante, referencia y salida.
+2. **Lección 2 — Construir una forma integrada:** agrupaciones dentro de 4/4/desplazamientos de acento y motivo/métricas impares y mixtas/tuplets de 5 y 7 y divisiones no estándar en una miniatura legible y reproducible.
+3. **Lección 3 — Capas, transición y resolución:** integrar ciclos que cruzan compases/polirritmia/modulación métrica sin borrar las diferencias conceptuales entre ellos.
+4. **Lección 4 — Proyecto Hito 8:** componer o improvisar una pieza breve, explicarla, tocarla, grabarla, reducirla y revisarla.
+5. **Evaluación — integración progresiva y experimental + Hito 8:** evidencia integrada de comprensión, pulso, ejecución, aplicación y recuperación.
 
 ## ESENCIAL AHORA
 
@@ -135,9 +135,9 @@ Nada de esto es requisito universal para cerrar Fase 7.
 
 ## Recursos
 
-El recurso principal de U9 es **el propio vocabulario construido en U1–U8**.
+El recurso principal de esta unidad es **el propio vocabulario construido en Unidad 1–Unidad 8**.
 
-No se asigna automáticamente ningún método comercial como “método de J9”. La Biblioteca Maestra advierte expresamente que materiales como *Rhythmic Horizons* no deben etiquetarse como J9 sin verificar el contenido concreto. Por tanto, U9 usa material original del curso y remite a recursos externos sólo cuando una lección futura tenga una correspondencia verificada.
+No se asigna automáticamente ningún método comercial como “método de integración progresiva y experimental”. La Biblioteca Maestra advierte expresamente que materiales como *Rhythmic Horizons* no deben etiquetarse como integración progresiva y experimental sin verificar el contenido concreto. Por tanto, esta unidad usa material original del curso y remite a recursos externos sólo cuando una lección futura tenga una correspondencia verificada.
 
 ## Práctica estándar de 25–30 min
 
@@ -149,7 +149,7 @@ No se asigna automáticamente ningún método comercial como “método de J9”
 
 ## Criterio de salida
 
-U9 cumple su función cuando puedes:
+esta unidad cumple su función cuando puedes:
 
 1. describir la forma antes de tocar;
 2. nombrar correctamente los recursos elegidos;

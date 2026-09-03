@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-3
 slug: checkpoint-navegacion-y-decision
 kind: checkpoint
 order: 5
-title: "Checkpoint 6B — Navegación y decisión"
+title: "Evaluación — Navegación y decisión"
 summary: "Demuestra lectura funcional con un chart de dificultad adecuada: mantener tiempo y forma, priorizar información y recuperarte cuando un detalle falla."
 duration: 20–30 min
 competencies: [D7, F3, F7, C1, C2, C3, C4, I3, I4, K2, K4]
@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa este Evaluación
 
-U3 evalúa la capacidad de utilizar un chart con **más densidad de información** que en Fase 5 y tomar decisiones sin sacrificar la continuidad.
+esta unidad evalúa la capacidad de utilizar un chart con **más densidad de información** que en Fase 5 y tomar decisiones sin sacrificar la continuidad.
 
 El criterio de salida aprobado es:
 
@@ -101,7 +101,7 @@ Puedes avanzar cuando:
 - justificas al menos una decisión de preparación o interpretación;
 - no dependes de un BPM de aprobado.
 
-## COMPETENTE/FUNCIONAL EN EL CONTEXTO DE U3
+## COMPETENTE/FUNCIONAL EN EL CONTEXTO DE esta unidad
 
 La evidencia es especialmente sólida cuando además:
 
@@ -112,7 +112,7 @@ La evidencia es especialmente sólida cuando además:
 - mantienes dinámica y estructura mientras administras información más densa;
 - tu revisión posterior mejora la siguiente pasada.
 
-El nivel exacto global de D7 se interpreta según el mapa vigente y la evidencia acumulada; este checkpoint no convierte una única toma en competencia universal.
+El nivel exacto global de lectura aplicada al kit se interpreta según el mapa vigente y la evidencia acumulada; este Evaluación no convierte una única toma en competencia universal.
 
 ## AMPLIACIÓN
 
@@ -138,7 +138,7 @@ El chart actual exige demasiadas decisiones simultáneas. Usa una versión menos
 
 ## Frontera explícita
 
-Este checkpoint **NO certifica**:
+Este Evaluación **NO certifica**:
 
 - sight-reading profesional;
 - ejecución literal de cada símbolo;

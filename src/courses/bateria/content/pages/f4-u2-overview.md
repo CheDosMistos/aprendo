@@ -17,7 +17,7 @@ published: true
 
 ## Cuando la superficie es nueva, el ritmo debe ser viejo
 
-U1 comprobó una célula completa **en una superficie cada vez**. U2 da el siguiente paso: ahora algunos ataques cambian de lugar **dentro de la propia frase**.
+Unidad 1 comprobó una célula completa **en una superficie cada vez**. esta unidad da el siguiente paso: ahora algunos ataques cambian de lugar **dentro de la propia frase**.
 
 La pregunta es:
 
@@ -35,7 +35,7 @@ No estamos aprendiendo un ritmo nuevo. Estamos transfiriendo material que ya con
 
 ## Frontera importante
 
-U2 trabaja **A8** y el componente manual de **B8**. También prepara la futura orquestación creativa G5, pero no declara G5 MÍNIMO ni B8-kit completo antes de disponer de la coordinación H4 que fija el mapa.
+esta unidad trabaja **adaptación técnica entre superficies y kit** y el componente manual de **orquestación de rudimentos**. También prepara la futura orquestación creativa improvisación restringida, pero no declara improvisación restringida MÍNIMO ni kit completo antes de disponer de la coordinación coordinación básica de cuatro extremidades que fija el mapa.
 
 No introduces todavía como novedad dominante:
 
@@ -47,24 +47,24 @@ No introduces todavía como novedad dominante:
 
 ## Arquitectura
 
-### L1 — Línea base: misma frase, caja real
+### Lección 1 — Línea base: misma frase, caja real
 Recuperas material conocido y separas cambio de superficie de cambio de ejecución.
 
-### L2 — Dos superficies: R y L cambian de lugar
+### Lección 2 — Dos superficies: R y L cambian de lugar
 Distribuyes las manos sin alterar deliberadamente el esqueleto temporal.
 
-### L3 — Acento y timbre: relación, no identidad
+### Lección 3 — Acento y timbre: relación, no identidad
 Comparas una versión dinámica y una versión tímbrica de la misma frase.
 
-### L4 — Frase con identidad: 2–3 superficies y retorno
+### Lección 4 — Frase con identidad: 2–3 superficies y retorno
 Eliges qué rasgo conservar y construyes una primera ruta manual trazable.
 
-### Checkpoint — Misma idea, varias superficies
+### Evaluación — Misma idea, varias superficies
 Demuestras transferencia manual real sin exigir pies, groove ni independencia.
 
 ## Regla de seguridad y carga
 
-Las decisiones de escucha segura y carga de U1 siguen activas. No aumentes volumen para compensar falta de control y no conviertas grandes recorridos en objetivo visual.
+Las decisiones de escucha segura y carga de Unidad 1 siguen activas. No aumentes volumen para compensar falta de control y no conviertas grandes recorridos en objetivo visual.
 
 ## Criterio de salida
 

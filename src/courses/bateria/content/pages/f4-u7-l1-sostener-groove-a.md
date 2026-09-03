@@ -8,7 +8,7 @@ slug: sostener-groove-a
 kind: lesson
 order: 1
 title: "Recuperar y sostener Groove A"
-summary: "Convierte el patrón conocido de U6 en un groove continuo de cuatro compases, con balance y recuperación."
+summary: "Convierte el patrón conocido de Unidad 6 en un groove continuo de cuatro compases, con balance y recuperación."
 duration: 20–30 min
 competencies: [H5, H4, C1, C2, K2, K5, K7]
 rudiments: []
@@ -21,7 +21,7 @@ Sostener durante cuatro compases el patrón de cuatro extremidades ya conocido, 
 
 ## Material conocido: Groove A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U7.L1 — Groove A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 7.Lección 1 — Groove A conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 - ride: corcheas;
 - caja: 2 y 4;

@@ -17,7 +17,7 @@ published: true
 
 ## Patrón aprendido ≠ groove estable
 
-U5 convierte coordinación elemental en una función musical reconocible: **groove**.
+esta unidad convierte coordinación elemental en una función musical reconocible: **groove**.
 
 El patrón base es deliberadamente simple y original:
 
@@ -31,29 +31,29 @@ No se atribuye a una canción, baterista, estilo o método.
 
 ## Frontera curricular
 
-El mapa sitúa H5 después de una base H4, pero **introducir no significa declarar funcional**. En U5 H4 sigue en desarrollo: el núcleo usa tres extremidades y una primera tarea de cuatro aparece sólo como AMPLIACIÓN.
+El mapa sitúa groove y variaciones después de una base coordinación básica de cuatro extremidades, pero **introducir no significa declarar funcional**. En esta unidad coordinación básica de cuatro extremidades sigue en desarrollo: el núcleo usa tres extremidades y una primera tarea de cuatro aparece sólo como AMPLIACIÓN.
 
-U5 **no certifica H4 MÍNIMO** ni H7. U6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
+esta unidad **no certifica coordinación básica de cuatro extremidades MÍNIMO** ni independencia avanzada. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
 
 ## Qué vas a construir
 
-### L1 — Esqueleto de tres extremidades
+### Lección 1 — Esqueleto de tres extremidades
 Mano de tiempo + caja + bombo en una rejilla conocida.
 
-### L2 — Coincidencias y diagnóstico
+### Lección 2 — Coincidencias y diagnóstico
 Aíslas sólo el punto que falla y vuelves pronto al patrón completo.
 
-### L3 — Continuidad y recuperación
+### Lección 3 — Continuidad y recuperación
 Pasas de demostrar un compás a sostener una frase de cuatro.
 
-### L4 — Puente hacia cuatro extremidades
+### Lección 4 — Puente hacia cuatro extremidades
 AMPLIACIÓN: ride + caja + bombo + chick de hi-hat de pie en 2 y 4.
 
-### Checkpoint — Primer groove estable
+### Evaluación — Primer groove estable
 Demuestras el groove base durante una frase breve, con diagnóstico y recuperación.
 
 ## Qué se evalúa
 
 `PULSO / SUBDIVISIÓN / CONTINUIDAD / BALANCE / SONIDO / RECUPERACIÓN / DIAGNÓSTICO`
 
-No existe BPM de aprobado. Velocidad alta, fills, feel estilístico, variaciones extensas e independencia avanzada quedan fuera de U5.
+No existe BPM de aprobado. Velocidad alta, fills, feel estilístico, variaciones extensas e independencia avanzada quedan fuera de esta unidad.

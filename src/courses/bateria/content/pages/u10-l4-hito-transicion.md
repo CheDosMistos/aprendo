@@ -35,7 +35,7 @@ Si uno falla, registra la variable y sigue. El objetivo es obtener información,
 
 ## 2. Lectura breve nueva — 5 min
 
-Recupera una de las partituras de L3 que **no hayas memorizado** o usa otra línea nueva disponible en el curso. Haz una sola lectura diagnóstica antes de practicarla.
+Recupera una de las partituras de Lección 3 que **no hayas memorizado** o usa otra línea nueva disponible en el curso. Haz una sola lectura diagnóstica antes de practicarla.
 
 ## 3. Oído / imitación — 3 min
 
@@ -69,6 +69,6 @@ Completa estas decisiones:
 
 ## Criterio de avance
 
-El cierre curricular de Fase 1 se decide en el checkpoint: mapa PAS completo basado en evidencia, con los 40 al menos `CONOCIDOS` **o** los pocos pendientes claramente identificados y diagnosticados para refuerzo.
+El cierre curricular de Fase 1 se decide en el Evaluación: mapa PAS completo basado en evidencia, con los 40 al menos `CONOCIDOS` **o** los pocos pendientes claramente identificados y diagnosticados para refuerzo.
 
-Las debilidades de lectura, C3 o hábitos K se documentan y continúan en Fase 2; no prolongan automáticamente Fase 1 por sí solas.
+Las debilidades de lectura, cambios de subdivisión o hábitos K se documentan y continúan en Fase 2; no prolongan automáticamente Fase 1 por sí solas.

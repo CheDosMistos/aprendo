@@ -29,7 +29,7 @@ Trabajaremos cinco particiones:
 
 Todas suman ocho corcheas.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u1/f7-u1-eighth-groupings.musicxml" data-score-title="70.U1 — Ocho corcheas, varias geometrías" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u1/f7-u1-eighth-groupings.musicxml" data-score-title="Unidad 1 — Ocho corcheas, varias geometrías" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué está ocurriendo
 
@@ -41,7 +41,7 @@ Lo que cambia es qué ataques interpretas como **inicio de grupo**. Un acento ay
 
 Ejemplo:
 
-`3+2+3 = > . . | > . | > . .`
+`3+2+3 = >.. | >. | >..`
 
 La siguiente barra sigue llegando después de ocho corcheas.
 
@@ -57,7 +57,7 @@ No se comprimen tres, cinco o siete notas en el tiempo normalmente ocupado por o
 
 ### Agrupación ≠ desplazamiento
 
-Cambiar deliberadamente entre particiones de la misma barra no es todavía el trabajo central de J2. En J2 estudiaremos cómo un acento o motivo cambia de posición respecto a la cuadrícula a través de repeticiones o transformaciones.
+Cambiar deliberadamente entre particiones de la misma barra no es todavía el trabajo central de desplazamientos de acento y motivo. En desplazamientos de acento y motivo estudiaremos cómo un acento o motivo cambia de posición respecto a la cuadrícula a través de repeticiones o transformaciones.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — A: cinco particiones
 

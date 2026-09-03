@@ -23,7 +23,7 @@ En esta unidad, pregunta/respuesta significa una relación pedagógica amplia: l
 
 ## Modelo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l4-pregunta-respuesta.musicxml" data-score-title="30.U5.L4 — pregunta y respuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u5/f3-u5-l4-pregunta-respuesta.musicxml" data-score-title="Unidad 5.Lección 4 — pregunta y respuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Los compases 1–2 funcionan como pregunta y 3–4 como respuesta dentro del diseño del ejercicio.
 
@@ -48,7 +48,7 @@ Antes de crear la respuesta, repite A hasta que puedas:
 
 Crea una segunda frase que pueda funcionar como B o A’ según la relación que quieras establecer.
 
-No necesitas usar una transformación técnica concreta. En U5 basta con que puedas explicar:
+No necesitas usar una transformación técnica concreta. En esta unidad basta con que puedas explicar:
 
 - qué relación intentabas crear;
 - qué conservaste, si conservaste algo;

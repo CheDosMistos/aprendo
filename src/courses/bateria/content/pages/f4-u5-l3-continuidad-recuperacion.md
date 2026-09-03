@@ -21,7 +21,7 @@ Pasar de demostrar un compás aislado a mantener una frase breve con continuidad
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE BASE A · 4 COMPASES
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l3-groove-base-a-4bars.musicxml" data-score-title="40.U5.L3 — Groove Base A · 4 compases" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l3-groove-base-a-4bars.musicxml" data-score-title="Unidad 5.Lección 3 — Groove Base A · 4 compases" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura repite el mismo Groove Base A durante cuatro compases. **No hay variaciones**.
 

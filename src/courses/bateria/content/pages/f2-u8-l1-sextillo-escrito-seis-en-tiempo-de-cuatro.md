@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-U7 trabajó subdivisión ternaria ordinaria dentro de compases compuestos. L1 de U8 introduce otra cosa:
+Unidad 7 trabajó subdivisión ternaria ordinaria dentro de compases compuestos. Lección 1 de esta unidad introduce otra cosa:
 
 > **SEXTILLO 6:4 = TUPLET. NO ES 6/8, 9/8 NI 12/8.**
 
@@ -40,7 +40,7 @@ Referencia técnica:
 
 En la partitura de esta lección, cada compás sigue cerrando exactamente `4/4`. El `6` no crea seis pulsos principales ni cambia la indicación métrica.
 
-### La diferencia con U7
+### La diferencia con Unidad 7
 
 En `12/8`, tres corcheas ordinarias forman prototípicamente cada pulso de negra con puntillo: no necesitan una relación tuplet `3:2`.
 
@@ -50,7 +50,7 @@ En el sextillo de hoy, **seis semicorcheas escritas sustituyen temporalmente el 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-title="20.U8.L1 — semicorcheas frente a sextillos 6:4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio 4↔6"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-title="Unidad 8.Lección 1 — semicorcheas frente a sextillos 6:4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-l1-semicorcheas-vs-sextillos-6-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio 4↔6"></div>
 
 Antes de habilitar audio:
 
@@ -148,9 +148,9 @@ Registra:
 - unidad de pulso;
 - tempo de práctica;
 - si 4 y 6 cierran en el mismo pulso siguiente;
-- igualdad interna C2;
-- estabilidad del cambio C3;
-- lectura del `6:4` D3;
+- igualdad interna subdivisión binaria y ternaria;
+- estabilidad del cambio cambios de subdivisión;
+- lectura del `6:4` tuplets y ornamentación;
 - mano de inicio;
 - tensión o rebote excesivo;
 - ayuda utilizada;
@@ -163,7 +163,7 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L2
+## MÍNIMO PARA AVANZAR A Lección 2
 
 En condición cómoda:
 
@@ -179,12 +179,12 @@ No se exige:
 
 - un BPM fijo o alto;
 - ejecutar sextillos a velocidad de repertorio;
-- flams — L2;
-- drags — L3;
-- rolls — L4;
-- primera vista formal D5 — U9;
-- click reducido o gaps — U10;
-- actualizar automáticamente D3, C2 o C3 a `FUNCIONAL`.
+- flams — Lección 2;
+- drags — Lección 3;
+- rolls — Lección 4;
+- primera vista formal Unidad 9;
+- click reducido o gaps — Unidad 10;
+- actualizar automáticamente tuplets y ornamentación, subdivisión binaria y ternaria o cambios de subdivisión a `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 

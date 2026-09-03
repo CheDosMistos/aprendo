@@ -7,7 +7,7 @@ unitSlug: fase-5-unidad-5
 slug: h7-minimo
 kind: checkpoint
 order: 5
-title: "Checkpoint 5B — H7 MÍNIMO"
+title: "Evaluación — independencia avanzada MÍNIMO"
 summary: "Comprueba que puedes mantener un ostinato sencillo mientras otra voz varía en una tarea musical concreta, sin convertirlo en una prueba de independencia avanzada."
 duration: 20–30 min
 competencies: [H7, H5, C2, I2, A5, K2, K5, K7]
@@ -17,17 +17,17 @@ published: true
 
 ## Qué certifica
 
-Este checkpoint puede certificar:
+Este Evaluación puede certificar:
 
-> **H7 MÍNIMO: mantiene un ostinato simple mientras otra voz varía en una tarea musical concreta.**
+> **independencia avanzada MÍNIMO: mantiene un ostinato simple mientras otra voz varía en una tarea musical concreta.**
 
 No certifica independencia avanzada.
 
 ## Muestra
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-checkpoint-h7.musicxml" data-score-title="50.U5 — Checkpoint 5B H7 MÍNIMO" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-Evaluación-h7.musicxml" data-score-title="Unidad 5 — Evaluación independencia avanzada MÍNIMO" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-La combinación es nueva respecto a L3, pero utiliza vocabulario conocido. No se presenta como examen de primera vista.
+La combinación es nueva respecto a Lección 3, pero utiliza vocabulario conocido. No se presenta como examen de primera vista.
 
 ## Condición
 
@@ -55,15 +55,15 @@ Usa la cadena del sistema de práctica:
 
 `síntoma → hipótesis → prueba → correctivo → recomposición → nueva pasada`.
 
-No repitas toda U5 si el fallo está localizado en una sola coincidencia o transición.
+No repitas toda esta unidad si el fallo está localizado en una sola coincidencia o transición.
 
 ## CERTIFICA
 
-- **H7 MÍNIMO en contexto musical preparado.**
+- **independencia avanzada MÍNIMO en contexto musical preparado.**
 
 ## NO CERTIFICA
 
-- H7 COMPETENTE/FUNCIONAL global;
+- independencia avanzada COMPETENTE/FUNCIONAL global;
 - independencia a cuatro extremidades avanzada;
 - sistemas de Chapin, New Breed o 4-Way Coordination;
 - ghost notes como requisito;
@@ -79,4 +79,4 @@ No repitas toda U5 si el fallo está localizado en una sola coincidencia o trans
 - **AVANZA CON CORRECTIVO:** la función se conserva, pero una transición o balance requiere mantenimiento.
 - **REPITE BLOQUE ESPECÍFICO:** la variación derriba sistemáticamente el ostinato; aisla esa relación y vuelve a recomponer.
 
-U6 cambia el foco a H8 — sonido funcional, afinación básica, click y grabación.
+Unidad 6 cambia el foco a sonido funcional, afinación básica, click y grabación.

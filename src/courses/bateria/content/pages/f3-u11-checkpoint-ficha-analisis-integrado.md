@@ -7,8 +7,8 @@ unitSlug: fase-3-unidad-11
 slug: ficha-analisis-integrado
 kind: checkpoint
 order: 6
-title: "Checkpoint — Ficha de análisis integrado"
-summary: "Integra forma, oído tonal y relación bajo–batería sobre una fuente original nueva antes del hito compositivo de U12."
+title: "Evaluación — Ficha de análisis integrado"
+summary: "Integra forma, oído tonal y relación bajo–batería sobre una fuente original nueva antes del hito compositivo de Unidad 12."
 duration: 25–30 min
 competencies: [I3, E5, E7, F3, F4, F5, F6, F7, K2, K6, K8]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 ## Qué demuestra esta puerta
 
-No certifica “teoría dominada”. Comprueba que los conceptos de U11 ya sirven para **escuchar, organizar y explicar música**.
+No certifica “teoría dominada”. Comprueba que los conceptos de esta unidad ya sirven para **escuchar, organizar y explicar música**.
 
 ## Fuente nueva de evaluación
 
@@ -55,7 +55,7 @@ Sin simular un kit, marca:
 
 Muestra la referencia. Corrige al menos una afirmación o confirma por qué tu descripción alternativa sigue siendo compatible con lo audible.
 
-## MÍNIMO PARA AVANZAR A U12
+## MÍNIMO PARA AVANZAR A Unidad 12
 
 - construyes un mapa funcional;
 - reconoces un cambio tonal evidente y una llegada/retorno;
@@ -67,4 +67,4 @@ Muestra la referencia. Corrige al menos una afirmación o confirma por qué tu d
 
 ## COMPETENTE / AMPLIACIÓN
 
-Repite el método sobre otra obra real de dificultad adecuada y compara qué señales te resultan más fiables. **No es requisito para U12.**
+Repite el método sobre otra obra real de dificultad adecuada y compara qué señales te resultan más fiables. **No es requisito para Unidad 12.**

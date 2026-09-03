@@ -19,7 +19,7 @@ published: true
 
 > **Interpretar varias piezas completas de dificultad adecuada manteniendo estructura, tiempo, dinámica y recuperación ante errores.**
 
-Este texto superior es el criterio principal. U12 no lo sustituye por una puntuación, un tempo o una lista de perfección.
+Este texto superior es el criterio principal. esta unidad no lo sustituye por una puntuación, un tempo o una lista de perfección.
 
 ## Operacionalización de “varias piezas”
 
@@ -52,7 +52,7 @@ Cada pieza debe aportar evidencia suficiente para juzgar, según proceda:
 - **condiciones:** declarar ayudas, simplificaciones y referencias utilizadas;
 - **escucha segura:** gestionar carga y exposición durante las tomas.
 
-No todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.
+No todas las competencias balance, sonido y orquestación, repertorio, C y forma y frase tienen que mostrar el mismo nivel simultáneamente.
 
 ## Evidencia mínima por pieza
 

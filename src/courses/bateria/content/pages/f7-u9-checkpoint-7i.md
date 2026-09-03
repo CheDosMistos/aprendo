@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-9
 slug: checkpoint-7i
 kind: checkpoint
 order: 5
-title: "Checkpoint 7I — J9 funcional y Hito 8"
+title: "Evaluación — integración progresiva y experimental funcional y Hito 8"
 summary: "Cierra Fase 7 evaluando integración progresiva mediante explicación, pulso, ejecución, aplicación, recuperación, lectura/escritura y revisión musical, sin usar BPM como puerta universal."
 duration: 25–40 min; puede dividirse en dos sesiones
 competencies: [J9, J1, J2, J3, J4, J5, J6, J7, J8, G6, C1, C2, C3, D4, D6, E2, E5, F2, F3, K2, K5, K8]
@@ -17,9 +17,9 @@ published: true
 
 ## Propósito
 
-Este checkpoint cierra **U9** y aporta la evidencia principal de **Hito 8 — Integración progresiva**.
+Este Evaluación cierra **esta unidad** y aporta la evidencia principal de **Hito 8 — Integración progresiva**.
 
-No exige demostrar J1–J8 al nivel avanzado ni encadenarlos todos en una sola toma.
+No exige demostrar los recursos rítmicos trabajados en las unidades anteriores al nivel avanzado ni encadenarlos todos en una sola toma.
 
 El criterio rector es:
 
@@ -103,7 +103,7 @@ Escucha una grabación y formula:
 - una corrección concreta;
 - una decisión artística: mantener, simplificar, sustituir o desarrollar el recurso.
 
-## MÍNIMO PARA AVANZAR — J9
+## MÍNIMO PARA AVANZAR — integración progresiva y experimental
 
 Se alcanza cuando el alumno:
 
@@ -114,9 +114,9 @@ Se alcanza cuando el alumno:
 - puede salir o resolver sin detenerse siempre;
 - distingue la complejidad de la función musical.
 
-No se exige que todos J1–J8 estén funcionales simultáneamente.
+No se exige que todos los recursos rítmicos trabajados en las unidades anteriores estén funcionales simultáneamente.
 
-## COMPETENTE / FUNCIONAL — J9
+## COMPETENTE / FUNCIONAL — integración progresiva y experimental
 
 Se alcanza cuando el alumno, en tareas adecuadas:
 
@@ -129,7 +129,7 @@ Se alcanza cuando el alumno, en tareas adecuadas:
 - usa grabación/escucha para revisar una decisión;
 - crea o improvisa material donde la complejidad sirve a una intención reconocible.
 
-## AVANZADO — J9
+## AVANZADO — integración progresiva y experimental
 
 Indicadores opcionales:
 
@@ -163,28 +163,28 @@ El material puede tocarse con continuidad y recuperación razonables.
 
 El recurso aparece dentro de una pieza, forma o improvisación y cumple una función musical explicable.
 
-## Auditoría J1–J8
+## Auditoría los recursos rítmicos trabajados en las unidades anteriores
 
 No es un examen acumulativo de ocho técnicas. Usa esta tabla como **mapa de mantenimiento**:
 
-| Competencia | Estado observado ahora | Próximo uso |
+| Capacidad | Nivel observado | Siguiente acción |
 |---|---|---|
-| J1 agrupaciones | mínimo / funcional / avanzado / repaso | — |
-| J2 desplazamientos | mínimo / funcional / avanzado / repaso | — |
-| J3 métricas impares | mínimo / funcional / avanzado / repaso | — |
-| J4 tuplets | mínimo / funcional / avanzado / repaso | — |
-| J5 ciclos trans-barra | mínimo / funcional / avanzado / repaso | — |
-| J6 polirritmia | mínimo / funcional / avanzado / repaso | — |
-| J7 polimetría | mínimo / funcional / avanzado / repaso | — |
-| J8 modulación métrica | mínimo / funcional / avanzado / repaso | — |
+| Agrupaciones | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Desplazamientos | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Métricas impares y mixtas | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Tuplets | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Ciclos que cruzan compases | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Polirritmia | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Polimetría | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Modulación métrica | mínimo / funcional / avanzado | continuar / mantener / reforzar |
 
-La tabla no crea una tercera escala ni obliga a que todas las filas coincidan.
+El nivel observado y la siguiente acción son dimensiones distintas: reforzar no es un nivel de competencia.
 
 ## Fallos que NO invalidan automáticamente el cierre
 
 - un golpe aislado fuera de lugar si la forma continúa;
 - necesitar un tempo moderado;
-- no usar J7 o J8 en la pieza elegida;
+- no usar polimetría o modulación métrica en la pieza elegida;
 - decidir simplificar después de escuchar;
 - necesitar repetir una evidencia concreta otro día.
 

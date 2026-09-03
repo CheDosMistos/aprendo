@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: cambiar una variable sin perder la música
 
-U10 usa fusion/progressive como **ventana de integración**, no como excusa para acumular rarezas métricas.
+esta unidad usa fusion/progressive como **ventana de integración**, no como excusa para acumular rarezas métricas.
 
 > **COMPLEJIDAD ≠ MUSICALIDAD.**
 
@@ -51,19 +51,19 @@ Trabajaremos **un `7/8` preparado** y una **agrupación `3+3+2` dentro de `4/4`*
 
 ## Ruta
 
-1. **L1 — Métrica ≠ agrupación:** leer y sentir la diferencia entre `4/4 (3+3+2)` y `7/8 (2+2+3)`.
-2. **L2 — Groove en 7/8:** sostener un ciclo sencillo sin contar cada nota como emergencia.
-3. **L3 — Textura en 4/4:** mover una agrupación `3+3+2` por el kit sin cambiar de compás.
-4. **L4 — Fill y retorno:** introducir una variación breve y volver al `1` sin romper frase ni forma; comparar complejidad métrica y coordinativa.
+1. **Lección 1 — Métrica ≠ agrupación:** leer y sentir la diferencia entre `4/4 (3+3+2)` y `7/8 (2+2+3)`.
+2. **Lección 2 — Groove en 7/8:** sostener un ciclo sencillo sin contar cada nota como emergencia.
+3. **Lección 3 — Textura en 4/4:** mover una agrupación `3+3+2` por el kit sin cambiar de compás.
+4. **Lección 4 — Fill y retorno:** introducir una variación breve y volver al `1` sin romper frase ni forma; comparar complejidad métrica y coordinativa.
 
 ## Fronteras
 
 - **FUSION/PROGRESSIVE ≠ COMPÁS IMPAR**;
 - no se adelantan polimetría, modulación métrica ni sistemas extensos de independencia;
 - `5/4` queda disponible como AMPLIACIÓN si el `7/8` ya resulta funcional;
-- no se certifica I5 ni transferencia estilística autónoma;
+- no se certifica transferencia entre estilos ni transferencia estilística autónoma;
 - no existe BPM de aprobado;
-- no hay checkpoint global nuevo.
+- no hay Evaluación global nuevo.
 
 ## Salida mínima
 

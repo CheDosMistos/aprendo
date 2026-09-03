@@ -17,7 +17,7 @@ published: true
 
 Recupera la línea de integración:
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-title="20.U11 — línea de integración 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-source-label="MusicXML — fuente de la línea de integración"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-title="Unidad 11 — línea de integración 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-source-label="MusicXML — fuente de la línea de integración"></div>
 
 Transformar no significa que todo siga siendo idéntico. En esta lección usamos dos categorías distintas.
 
@@ -75,8 +75,8 @@ Esa explicación importa tanto como tocar la variación.
 
 ## Límite creativo
 
-Esto inicia G1/G2 en microdosis. No es composición formal ni desarrollo motívico profundo de Fase 3.
+Esto inicia motivo/desarrollo motívico en microdosis. No es composición formal ni desarrollo motívico profundo de Fase 3.
 
-## MÍNIMO PARA EL CHECKPOINT
+## MÍNIMO PARA EL Evaluación
 
 Puedes producir al menos una transformación textural y una variación rítmica breve, y describir correctamente la diferencia entre ambas sin perder el marco métrico.

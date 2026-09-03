@@ -23,7 +23,7 @@ Si cambias a la vez ritmo, sticking, superficie y dinámica, un error deja de de
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — CONTROL DE IDENTIDAD
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l1-base-snare.musicxml" data-score-title="40.U2.L1 — Línea base en caja" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l1-base-snare.musicxml" data-score-title="Unidad 2.Lección 1 — Línea base en caja" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura usa una frase elemental de corcheas creada para este curso. No reproduce un ejercicio PAS ni un método comercial.
 
@@ -47,7 +47,7 @@ No intentes hacer que la caja “se sienta como el pad”. Busca una ejecución 
 
 ## Diagnóstico
 
-- **TIEMPO:** el patrón ya se desplaza aun sin moverte por el kit → baja densidad o recupera C1.
+- **TIEMPO:** el patrón ya se desplaza aun sin moverte por el kit → baja densidad o recupera pulso interno.
 - **STICKING:** olvidas qué mano corresponde → vuelve a leer/decir R-L antes de añadir movimiento.
 - **SUPERFICIE:** esperas más o menos rebote del que llega → ajusta altura/recorrido.
 - **MOVIMIENTO:** la trayectoria es mayor de lo necesario → reduce recorrido sin sacrificar sonido.
@@ -71,4 +71,4 @@ No hay BPM de aprobado.
 
 ## Registrar esta práctica
 
-Anota `variable observada → ajuste → efecto`. Completar la página no demuestra por sí solo A8 ni B8.
+Anota `variable observada → ajuste → efecto`. Completar la página no demuestra por sí solo adaptación técnica entre superficies y kit ni orquestación de rudimentos.

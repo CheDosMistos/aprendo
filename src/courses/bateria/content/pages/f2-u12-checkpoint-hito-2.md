@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Este checkpoint observa el **Hito 2**. No es un examen acumulativo de todos los contenidos de Fase 2 y no exige perfección.
+Este Evaluación observa el **Hito 2**. No es un examen acumulativo de todos los contenidos de Fase 2 y no exige perfección.
 
 ## INFERENCIA
 
@@ -56,7 +56,7 @@ Una muestra sólo es válida mientras sigue siendo realmente nueva. Si contamina
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-check-muestra-c-4-4.musicxml" data-score-title="20.U12 — Hito 2 muestra C 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-check-muestra-c-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra exclusiva C"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-check-muestra-c-4-4.musicxml" data-score-title="Unidad 12 — Hito 2 muestra C 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-check-muestra-c-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra exclusiva C"></div>
 
 Al pulsar **Empezar**:
 
@@ -74,7 +74,7 @@ Hazla sólo cuando vuelvas a estar en condiciones comparables.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-check-muestra-d-6-8.musicxml" data-score-title="20.U12 — Hito 2 muestra D 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-check-muestra-d-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra exclusiva D"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-check-muestra-d-6-8.musicxml" data-score-title="Unidad 12 — Hito 2 muestra D 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-check-muestra-d-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra exclusiva D"></div>
 
 Procedimiento:
 
@@ -84,19 +84,19 @@ Procedimiento:
 4. mantén la referencia de los dos pulsos principales;
 5. finaliza antes de escuchar.
 
-Después de completar cada primer intento, el playback sirve como feedback. **C y D dejan entonces de aportar nueva evidencia independiente de D5/Hito 2.**
+Después de completar cada primer intento, el playback sirve como feedback. **C y D dejan entonces de aportar nueva evidencia independiente de forma y lectura de chart/Hito 2.**
 
 ## INTERPRETACIÓN MULTIDIMENSIONAL
 
 Para cada muestra escribe observaciones, no una puntuación única:
 
-### C1–C3 — tiempo
+### pulso, subdivisión y cambios de subdivisión — tiempo
 
 - ¿el pulso siguió disponible?;
 - ¿la subdivisión interna sostuvo los silencios y cambios de densidad?;
 - ¿pudiste cambiar de negra/corchea/semicorchea o de marco simple/compuesto sin perder referencia?
 
-### D1–D5 — lectura
+### lectura
 
 - ¿decodificaste figuras y silencios?;
 - ¿interpretaste duraciones y agrupaciones conocidas?;
@@ -104,7 +104,7 @@ Para cada muestra escribe observaciones, no una puntuación única:
 - ¿la lectura fue realmente de primera vista?;
 - ¿pudiste continuar o recuperarte sin memorizar primero la secuencia?
 
-### F1–F2 — comprensión
+### comprensión
 
 Explica brevemente:
 
@@ -131,13 +131,13 @@ Una sola muestra excepcionalmente buena o mala no obliga a una conclusión globa
 - puedes localizar una variable limitante concreta;
 - aceptas mantener correctivos sin reiniciar la fase completa.
 
-Cumplir este mínimo **no convierte automáticamente C1–C3, D1–D5 o F1–F2 en FUNCIONALES**. Los niveles se actualizan sólo según la evidencia que realmente sostengan.
+Cumplir este mínimo **no convierte automáticamente pulso, subdivisión y cambios de subdivisión, forma y lectura de chart o métrica y terminología rítmica en FUNCIONALES**. Los niveles se actualizan sólo según la evidencia que realmente sostengan.
 
 ## COMPETENTE EN EL HITO
 
 La inferencia oficial se sostiene en más de una muestra nueva bajo condiciones razonables, con lectura comprensible, continuidad útil y recuperación ante errores pequeños, sin depender de memoria previa.
 
-## AVANZADO EN ESTE CHECKPOINT
+## AVANZADO EN ESTE Evaluación
 
 Además puedes explicar con precisión dónde apareció cada error, adaptar una estrategia de lectura sin contaminar la primera vista y transferir el protocolo entre marcos simples y compuestos manteniendo relajación y sonido controlados.
 

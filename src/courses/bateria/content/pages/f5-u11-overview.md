@@ -17,13 +17,13 @@ published: true
 
 ## Novedad dominante: aprender con varias fuentes y con información parcial
 
-Hasta ahora cada unidad ha aislado una prioridad. U11 cambia la pregunta:
+Hasta ahora cada unidad ha aislado una prioridad. esta unidad cambia la pregunta:
 
 > **¿PUEDES APRENDER Y SOSTENER UNA PIEZA CUANDO NINGUNA FUENTE TE LO DA TODO?**
 
-La habilidad central es **I3 — aprendizaje de repertorio**: combinar escucha, lectura, memoria y análisis sin depender de una sola vía.
+La habilidad central es **aprendizaje de repertorio**: combinar escucha, lectura, memoria y análisis sin depender de una sola vía.
 
-U11 no adelanta todavía el Hito 7 de autonomía completa. La tarea está preparada y los límites son claros.
+esta unidad no adelanta todavía el Hito 7 de autonomía completa. La tarea está preparada y los límites son claros.
 
 ## Pieza C — material original Aprendo
 
@@ -58,19 +58,19 @@ El objetivo es que cada fuente responda una pregunta diferente.
 
 ## Arquitectura
 
-### L1 — Pieza C: procedencia, forma y primer mapa
+### Lección 1 — Pieza C: procedencia, forma y primer mapa
 Escucha antes de mirar el detalle, formula una hipótesis de forma y contrástala después con el chart original.
 
-### L2 — Aprendizaje híbrido: oído + chart + memoria + análisis
+### Lección 2 — Aprendizaje híbrido: oído + chart + memoria + análisis
 Divide el trabajo por funciones: qué conviene escuchar, qué conviene leer y qué conviene memorizar.
 
-### L3 — Simulación de sesión: información parcial
+### Lección 3 — Simulación de sesión: información parcial
 Recibe una tarea breve donde falta deliberadamente parte de la información. Debes priorizar tiempo, forma, entradas y versión sostenible.
 
-### L4 — Grabación, recuperación y segunda toma
+### Lección 4 — Grabación, recuperación y segunda toma
 Registra una toma completa, diagnostica un problema concreto y aplica un correctivo localizado antes de recomponer la pieza.
 
-### Checkpoint 5D — I3 COMPETENTE/FUNCIONAL
+### Evaluación — formas y canciones COMPETENTE/FUNCIONAL
 Demuestra que puedes aprender Pieza C combinando fuentes y que la competencia se mantiene más allá de un intento favorable.
 
 ## Jerarquía de prioridades
@@ -81,19 +81,17 @@ Cuando aparezca demasiada información:
 
 La jerarquía no elimina el detalle. Decide **cuándo** merece atención.
 
-## Fronteras de U11
-
-U11 no exige:
+## Fronteras de esta unidad no exige:
 
 - una toma perfecta;
 - improvisación extensa;
 - lectura densa a primera vista;
-- interacción I6 funcional con músicos reales;
+- interacción interacción y ensemble funcional con músicos reales;
 - producción o mezcla profesional;
 - velocidad prefijada;
 - memorizar cada golpe del score.
 
-I6 aparece sólo como **ventana**: escuchar bajo, señales y arreglo cuando la referencia disponible lo permita.
+interacción y ensemble aparece sólo como **ventana**: escuchar bajo, señales y arreglo cuando la referencia disponible lo permita.
 
 ## Qué se evalúa
 

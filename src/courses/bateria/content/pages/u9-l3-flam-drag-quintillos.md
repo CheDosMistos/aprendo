@@ -23,7 +23,7 @@ published: true
 
 ## 1. Puerta local — 3 min
 
-Recupera un Flam y un Drag limpios a tempo cómodo. Si uno falla, corrige ese componente; no repitas la explicación completa de U1.
+Recupera un Flam y un Drag limpios a tempo cómodo. Si uno falla, corrige ese componente; no repitas la explicación completa de Unidad 1.
 
 ## 2. NÚCLEO — Integración flam + drag — 5 min
 
@@ -57,7 +57,7 @@ Si Flam Drag todavía consume mucha atención o aparece tensión, **termina aqu�
 
 ## 5. AMPLIACIÓN / VENTANA — Puerta temporal para quintillos — 3 min
 
-Solo si el núcleo está estable, marca negras y ejecuta 2 → 3 → 4 subdivisiones por pulso sin perder el click. Si el pulso desaparece, no añadas cinco todavía: recupera C1/C2.
+Solo si el núcleo está estable, marca negras y ejecuta 2 → 3 → 4 subdivisiones por pulso sin perder el click. Si el pulso desaparece, no añadas cinco todavía: recupera pulso interno/subdivisión binaria y ternaria.
 
 ## 6. AMPLIACIÓN / VENTANA — Qué es un quintillo — 3–4 min
 
@@ -81,6 +81,6 @@ Cuenta cinco sílabas regulares por pulso y alterna manos. Empieza muy lento. El
 
 ## Criterio de avance
 
-El Flam Drag sí pertenece al mapa PAS de U9 y es el criterio central de esta lección.
+El Flam Drag sí pertenece al mapa PAS de esta unidad y es el criterio central de esta lección.
 
 El quintillo **no es puerta de examen** y no necesita hacerse en la misma sesión: registra si puedes sentirlo y explicarlo solo cuando realmente lo hayas trabajado.

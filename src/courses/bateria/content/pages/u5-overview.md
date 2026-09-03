@@ -20,7 +20,7 @@ rudiments:
 published: true
 ---
 
-U5 continúa **Tier 3**. No vuelve a enseñar desde cero doubles, paradiddles ni drags: comprueba que estén disponibles y los combina en material nuevo. El crecimiento transversal de la unidad es la **síncopa elemental**.
+esta unidad continúa **Tier 3**. No vuelve a enseñar desde cero doubles, paradiddles ni drags: comprueba que estén disponibles y los combina en material nuevo. El crecimiento transversal de la unidad es la **síncopa elemental**.
 
 ## ESENCIAL AHORA
 
@@ -41,7 +41,7 @@ U5 continúa **Tier 3**. No vuelve a enseñar desde cero doubles, paradiddles ni
 
 Sin ser criterio de avance, puedes observar cómo una sucesión de ataques fuera del pulso fuerte altera la percepción de frase. **No la llames desplazamiento ni polirritmia** si solo estás redistribuyendo ataques dentro del mismo 4/4.
 
-## Los cinco PAS de U5
+## Los cinco PAS de esta unidad
 
 PAS sigue siendo la fuente normativa para nombre, ritmo, sticking, acentos, grace notes y rolls:
 
@@ -55,6 +55,6 @@ Las partituras integradas en Aprendo son material propio y no representan los ci
 2. **Lección 2 — Síncopa elemental: pulso estable, ataques fuera del tiempo fuerte**
 3. **Lección 3 — Single Dragadiddle y Drag Paradiddle #1**
 4. **Lección 4 — Drag Paradiddle #2, oído y escritura**
-5. **Cierre de U5 — ¿puedo continuar?**
+5. **Cierre de esta unidad — ¿puedo continuar?**
 
 La meta de Fase 1 sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`. Un PAS recién presentado puede permanecer `INTRODUCIDO` si está correctamente representado y su dificultad queda diagnosticada.

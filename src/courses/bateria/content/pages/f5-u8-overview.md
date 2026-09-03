@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: time estable + respuestas sencillas
 
-U8 introduce una ventana jazz con una prioridad clara:
+esta unidad introduce una ventana jazz con una prioridad clara:
 
 > **TIME PRIMERO → RESPUESTA DESPUÉS.**
 
@@ -38,22 +38,22 @@ Fuentes verificadas:
 
 `EST-JAZ-001 — The Art of Bop Drumming` está catalogado para esta rama porque cubre **time playing, comping, brushes, charts y otros fundamentos jazz**. Se utilizará sólo cuando una tarea concreta lo justifique. No hay obligación de completar el libro ni de adelantar bop avanzado.
 
-## Fronteras de U8
+## Fronteras de esta unidad
 
 - **REJILLA TERNARIA ≠ SWING REAL COMPLETO**;
 - **PATRÓN DE RIDE ≠ TODO EL JAZZ**;
 - **COMPING ≠ TOCAR MÁS**;
-- **H7 CONTEXTUAL ≠ INDEPENDENCIA CHAPIN COMPLETA**;
+- **independencia avanzada CONTEXTUAL ≠ INDEPENDENCIA CHAPIN COMPLETA**;
 - brushes son **AMPLIACIÓN**, no requisito;
 - no se exige improvisación jazz extensa;
 - no se usa BPM como puerta de aprobado.
 
 ## Ruta
 
-1. **L1 — Ride y swing:** una rejilla pedagógica para construir time sin convertirla en receta universal.
-2. **L2 — Hi-hat de pie y balance:** integrar 2 y 4 sin que el pie desestabilice el ride.
-3. **L3 — Comping elemental:** mantener time y añadir respuestas pequeñas con una sola voz variable.
-4. **L4 — Navegación jazz preparada:** seguir una mini-forma y responder a cues simples sin abandonar el time.
+1. **Lección 1 — Ride y swing:** una rejilla pedagógica para construir time sin convertirla en receta universal.
+2. **Lección 2 — Hi-hat de pie y balance:** integrar 2 y 4 sin que el pie desestabilice el ride.
+3. **Lección 3 — Comping elemental:** mantener time y añadir respuestas pequeñas con una sola voz variable.
+4. **Lección 4 — Navegación jazz preparada:** seguir una mini-forma y responder a cues simples sin abandonar el time.
 
 ## Salida mínima
 

@@ -8,7 +8,7 @@ slug: salir-volver-y-hacer-musica
 kind: lesson
 order: 4
 title: "Salir, volver y hacer música con la modulación"
-summary: "Integra J8 en forma musical: prepara la duración puente, modula, estabiliza el nuevo pulso, regresa de manera calculable y usa la transición con intención sin convertirla en un truco aislado."
+summary: "Integra modulación métrica en forma musical: prepara la duración puente, modula, estabiliza el nuevo pulso, regresa de manera calculable y usa la transición con intención sin convertirla en un truco aislado."
 duration: 25–30 min
 competencies: [J8, J4, C1, C2, C3, C4, D3, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
@@ -138,7 +138,7 @@ Improvisa una forma breve donde:
 - el nuevo pulso se mantenga al menos una frase corta;
 - exista una resolución clara.
 
-La restricción protege el objetivo de J8 de quedar oculto por fills, orquestación o técnica adicional.
+La restricción protege el objetivo de modulación métrica de quedar oculto por fills, orquestación o técnica adicional.
 
 ## Composición
 
@@ -208,11 +208,11 @@ Usa la modulación para separar dos secciones contrastantes de una pieza origina
 
 La orquestación debe ayudar a entender la transición, no ocultarla.
 
-## Frontera con J9
+## Frontera con integración progresiva y experimental
 
-J9 combinará recursos avanzados de varias familias.
+integración progresiva y experimental combinará recursos avanzados de varias familias.
 
-En U8 no necesitas superponer simultáneamente:
+En esta unidad no necesitas superponer simultáneamente:
 
 - polimetría;
 - polirritmia compleja;
@@ -220,7 +220,7 @@ En U8 no necesitas superponer simultáneamente:
 - compases impares;
 - varias modulaciones encadenadas.
 
-Puedes usar elementos anteriores como contexto, pero la evaluación de esta unidad debe poder aislar **J8**.
+Puedes usar elementos anteriores como contexto, pero la evaluación de esta unidad debe poder aislar **modulación métrica**.
 
 ## Recuperación en forma
 

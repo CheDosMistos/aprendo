@@ -19,7 +19,7 @@ published: true
 
 Intentar la forma completa sin convertir cada error menor en una parada.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="50.U1.L4 — Pieza A: primera toma continua" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Unidad 1.Lección 4 — Pieza A: primera toma continua" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Modo interpretación
 

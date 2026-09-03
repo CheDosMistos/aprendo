@@ -8,16 +8,16 @@ slug: puerta-integracion
 kind: checkpoint
 order: 5
 title: "Puerta de integración"
-summary: "Observa una cadena oído→escritura→ejecución→comparación y una transformación consciente sin convertir el checkpoint en un segundo Hito 2."
+summary: "Observa una cadena oído→escritura→ejecución→comparación y una transformación consciente sin convertir el Evaluación en un segundo Hito 2."
 duration: 20–25 min
 competencies: [C1, C2, D1, D6, E1, E2, E3, E4, B7, G1, G2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este checkpoint pregunta si puedes **cambiar de representación conservando suficiente estructura como para localizar dónde aparece un error**.
+Este Evaluación pregunta si puedes **cambiar de representación conservando suficiente estructura como para localizar dónde aparece un error**.
 
-No sustituye el Hito 2 de U12 y no convierte automáticamente D6, E, B7 o G en `FUNCIONAL`.
+No sustituye el Hito 2 de Unidad 12 y no convierte automáticamente primera vista rítmica, E, aplicación musical de rudimentos o G en `FUNCIONAL`.
 
 ## INFERENCIA
 
@@ -41,7 +41,7 @@ La respuesta revelada no corrige retroactivamente tu primera representación: co
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-title="20.U11 — línea de integración 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-source-label="MusicXML — fuente de la línea de integración"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-title="Unidad 11 — línea de integración 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-source-label="MusicXML — fuente de la línea de integración"></div>
 
 Elige un compás que comprendas y realiza:
 
@@ -57,8 +57,8 @@ No atribuyas la transformación a PAS ni a un método. Es material original deri
 - tempo cómodo si usas metrónomo;
 - playback de la partitura sólo después de tu intento cuando actúe como feedback;
 - sin nueva notación central;
-- sin exigir primera vista formal D5;
-- sin exigir E5 general ni transcripción extensa E6.
+- sin exigir primera vista formal forma y lectura de chart;
+- sin exigir grabación y comparación general ni transcripción extensa transcripción real.
 
 ## DECISIÓN
 
@@ -68,7 +68,7 @@ Las dos cadenas son interpretables y puedes localizar razonablemente la represen
 
 ### CONTINUAR + CORRECTIVO
 
-Una modalidad es frágil —por ejemplo escritura o ejecución— pero el fallo está localizado y puede mantenerse como correctivo al entrar en U12.
+Una modalidad es frágil —por ejemplo escritura o ejecución— pero el fallo está localizado y puede mantenerse como correctivo al entrar en Unidad 12.
 
 ### REDUCIR NOVEDAD
 
@@ -85,8 +85,8 @@ Una muestra parcial sólo actualiza las habilidades realmente observadas. No con
 - una buena ejecución en prueba automática de buen oído;
 - una escritura correcta en prueba automática de ejecución;
 - una transformación lograda en dominio creativo general;
-- completar U11 en superación del Hito 2.
+- completar esta unidad en superación del Hito 2.
 
-## Puente a U12
+## Puente a Unidad 12
 
-U12 comprobará el Hito 2 con **material rítmico nuevo no memorizado previamente**. Las debilidades localizadas de U11 pueden continuar como mantenimiento/correctivo sin convertirse en un examen adicional de fase.
+Unidad 12 comprobará el Hito 2 con **material rítmico nuevo no memorizado previamente**. Las debilidades localizadas de esta unidad pueden continuar como mantenimiento/correctivo sin convertirse en un examen adicional de fase.

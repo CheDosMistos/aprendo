@@ -7,21 +7,21 @@ unitSlug: fase-6-unidad-2
 slug: checkpoint-transcripcion-funcional
 kind: checkpoint
 order: 5
-title: "Checkpoint 6A — Transcripción funcional"
-summary: "Demuestra E6 en nivel mínimo con una reconstrucción útil de un fragmento adecuado, una justificación del proceso y una declaración honesta de incertidumbre."
+title: "Evaluación — Transcripción funcional"
+summary: "Demuestra transcripción real en nivel mínimo con una reconstrucción útil de un fragmento adecuado, una justificación del proceso y una declaración honesta de incertidumbre."
 duration: 20–30 min
 competencies: [E1, E2, E3, E4, E5, E6, F3, F7, D4, D6, C2, C3, K3, K5, K8]
 rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa este Evaluación
 
-El Checkpoint 6A evalúa **E6 MÍNIMO en una tarea preparada**.
+El Evaluación evalúa **transcripción real MÍNIMO en una tarea preparada**.
 
 No exige una transcripción completa de canción ni una réplica microscópica de todos los golpes.
 
-El criterio aprobado de U2 es:
+El criterio aprobado de esta unidad es:
 
 > **PRODUCIR UNA TRANSCRIPCIÓN FUNCIONAL DE UN FRAGMENTO ADECUADO, JUSTIFICAR LAS DECISIONES PRINCIPALES Y MARCAR LO QUE NO SE SABE CON CERTEZA.**
 
@@ -120,9 +120,9 @@ Puedes avanzar cuando:
 - respetas copyright y procedencia;
 - no dependes de un BPM de aprobado.
 
-## COMPETENTE EN EL CONTEXTO DE U2
+## COMPETENTE EN EL CONTEXTO DE esta unidad
 
-La evidencia de U2 es especialmente sólida cuando además:
+La evidencia de esta unidad es especialmente sólida cuando además:
 
 - el mapa formal y el groove funcional sobreviven a varias escuchas sin reajustes arbitrarios;
 - puedes explicar por qué priorizaste unas capas antes que otras;
@@ -131,7 +131,7 @@ La evidencia de U2 es especialmente sólida cuando además:
 - puedes tocar la representación con continuidad sin convertirla en mera lectura mecánica;
 - extraes una estrategia transferible para el siguiente fragmento.
 
-Esto **no equivale todavía a E6 FUNCIONAL global ni a Hito 7**.
+Esto **no equivale todavía a transcripción real FUNCIONAL global ni a Hito 7**.
 
 ## AMPLIACIÓN
 
@@ -163,14 +163,14 @@ El fragmento es demasiado largo, denso o ambiguo para el objetivo actual. Reduce
 
 ## Frontera explícita
 
-Este checkpoint **NO certifica**:
+Este Evaluación **NO certifica**:
 
 - una transcripción completa de canción;
 - oído absoluto ni identificación infalible;
 - reproducción exacta de detalles ocultos por la mezcla;
 - sticking/técnica original sin evidencia;
 - una partitura oficial;
-- E6 FUNCIONAL en cualquier contexto;
+- transcripción real FUNCIONAL en cualquier contexto;
 - Hito 7 — Aprendiz autónomo.
 
 > **LA CALIDAD DE UNA TRANSCRIPCIÓN INCLUYE SABER QUÉ NO PUEDES AFIRMAR TODAVÍA.**

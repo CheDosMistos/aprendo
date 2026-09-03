@@ -27,7 +27,7 @@ Los tres compases presentan:
 
 `A → VARIANTE 1 (reducción/fragmentación) → VARIANTE 2 (variación local)`
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l4-two-transformations.musicxml" data-score-title="30.U7.L4 — A y dos transformaciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l4-two-transformations.musicxml" data-score-title="Unidad 7.Lección 4 — A y dos transformaciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Puedes usar esas variantes o dos transformaciones propias de dificultad equivalente.
 

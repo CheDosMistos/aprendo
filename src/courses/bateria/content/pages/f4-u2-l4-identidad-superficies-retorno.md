@@ -17,13 +17,13 @@ published: true
 
 ## Objetivo
 
-Construir la primera **orquestación manual intencional** de U2 sin fingir que ya existe coordinación completa de kit.
+Construir la primera **orquestación manual intencional** de esta unidad sin fingir que ya existe coordinación completa de kit.
 
 La regla no es “usar muchos tambores”. La regla es que la frase siga teniendo una identidad que puedas explicar.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — TRAZABILIDAD TÍMBRICA
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="40.U2.L4 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Unidad 2.Lección 4 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La frase mantiene el mismo número y colocación de ataques. Cambia su recorrido por caja y dos toms.
 
@@ -86,4 +86,4 @@ Una toma breve puede ayudarte a comparar si la identidad que creías conservar t
 
 ## Límite curricular
 
-Esta es **preparación manual** para la futura G5 y desarrollo de A8/B8. No certifica H4, G5 MÍNIMO completo ni B8-kit competente antes de sus dependencias.
+Esta es **preparación manual** para la futura improvisación restringida y desarrollo de adaptación técnica entre superficies y kit/orquestación de rudimentos. No certifica coordinación básica de cuatro extremidades, improvisación restringida MÍNIMO completo ni kit competente antes de sus dependencias.

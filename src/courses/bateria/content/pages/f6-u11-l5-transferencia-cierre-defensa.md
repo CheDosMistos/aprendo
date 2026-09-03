@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: transferencia-cierre-defensa-decisiones
 kind: lesson
 order: 5
-title: "U11.L5 — Transferir, cerrar y defender las decisiones tomadas"
+title: "esta unidad.Lección 5 — Transferir, cerrar y defender las decisiones tomadas"
 summary: "Comprueba qué sobrevive fuera de la condición exacta de práctica, reconstruye el ciclo del proyecto y separa resultado musical, calidad de decisión e incertidumbre pendiente."
 duration: 1–2 sesiones
 competencies: [K5, K6, K7, K8, E6, F7, I3, I4]
@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Cerrar el proyecto R4 sin convertir una buena toma final en la única prueba de aprendizaje.
+Cerrar el proyecto Proyecto autónomo sin convertir una buena toma final en la única prueba de aprendizaje.
 
 Debes producir tres tipos de evidencia distintos:
 
@@ -38,7 +38,7 @@ Ejemplos posibles:
 - misma función a otra dinámica compatible;
 - mismo principio aplicado a material anterior del portafolio.
 
-**DECISIÓN CURRICULAR RAZONADA:** U11 no prescribe una única prueba porque la variable pertinente depende del proyecto.
+**DECISIÓN CURRICULAR RAZONADA:** esta unidad no prescribe una única prueba porque la variable pertinente depende del proyecto.
 
 ## No confundas transferencia con dificultad extra
 
@@ -54,7 +54,7 @@ No es necesario:
 
 Si el cambio introduce varias competencias nuevas, deja de ser una prueba limpia del aprendizaje objetivo.
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Defensa del proyecto R4»
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Defensa del proyecto Proyecto autónomo»
 
 Reconstruye el proyecto en una página o registro equivalente:
 
@@ -106,11 +106,11 @@ Incluye si elegiste una estrategia razonable, observaste evidencia pertinente y 
 
 Una interpretación final todavía imperfecta puede contener **buen aprendizaje y buenas decisiones**. Del mismo modo, una toma afortunada no demuestra por sí sola un proceso autónomo funcional.
 
-## E6 y F7 dentro del proyecto
+## transcripción real y análisis musical dentro del proyecto
 
-U11 no vuelve a enseñar transcripción ni análisis integrado, pero el proyecto debe utilizar esas competencias cuando sean relevantes.
+esta unidad no vuelve a enseñar transcripción ni análisis integrado, pero el proyecto debe utilizar esas competencias cuando sean relevantes.
 
-### E6
+### transcripción real
 
 Si tu decisión depende de lo que ocurre en la batería de una grabación, debes poder distinguir:
 
@@ -119,7 +119,7 @@ Si tu decisión depende de lo que ocurre en la batería de una grabación, debes
 - aproximación didáctica;
 - fuente publicada/verificada cuando exista legalmente.
 
-### F7
+### análisis musical
 
 La explicación final debe conectar elementos musicales, por ejemplo:
 
@@ -142,7 +142,7 @@ Puedes haber utilizado:
 
 La pregunta es si puedes explicar **qué función cumplió el recurso y cómo influyó en la siguiente decisión**.
 
-McPherson presenta la autorregulación musical como un conjunto de estrategias adaptativas. U11 usa ese marco para evaluar elección y modificación, no aislamiento pedagógico.
+McPherson presenta la autorregulación musical como un conjunto de estrategias adaptativas. esta unidad usa ese marco para evaluar elección y modificación, no aislamiento pedagógico.
 
 Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.23
 
@@ -150,7 +150,7 @@ Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.23
 
 - una pasada o tarea final representativa;
 - una prueba de transferencia pertinente;
-- reconstrucción breve del ciclo R4;
+- reconstrucción breve del ciclo Proyecto autónomo;
 - una limitación pendiente explícita.
 
 ## Rutina estándar
@@ -159,8 +159,8 @@ Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.23
 - interpretación/tarea objetivo;
 - transferencia;
 - comparación con línea base;
-- defensa del proyecto R4;
-- preparación del checkpoint.
+- defensa del proyecto Proyecto autónomo;
+- preparación del Evaluación.
 
 ## Criterio de avance
 
@@ -176,17 +176,17 @@ El proceso es coherente, las ayudas tienen función explícita, separas resultad
 
 Opcionalmente transfieres el principio a un segundo material del portafolio y puedes explicar qué rasgos son realmente generalizables y cuáles pertenecían al contexto original.
 
-## Frontera con U12
+## Frontera con Unidad 12
 
-Esta lección cierra **el proyecto U11**, no la Fase 6.
+Esta lección cierra **el proyecto esta unidad**, no la Fase 6.
 
-U12 todavía debe revisar:
+Unidad 12 todavía debe revisar:
 
-- portafolio R1–R4 completo;
+- portafolio los cuatro carriles del portafolio completo;
 - retención de material anterior;
 - transferencia no idéntica a tareas practicadas;
-- comparación con la línea base de U1;
-- evidencia acumulada de E6 + F7 + K1–K8;
+- comparación con la línea base de Unidad 1;
+- evidencia acumulada de transcripción real + análisis musical + las capacidades de práctica y autonomía;
 - límites pendientes y transición a Fase 7.
 
 Por tanto, aquí todavía **NO SE DECLARA HITO 7**.

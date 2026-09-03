@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-6
 slug: checkpoint-6c-i6-interaccion
 kind: checkpoint
 order: 5
-title: "Checkpoint 6C — I6 MÍNIMO"
+title: "Evaluación — interacción y ensemble MÍNIMO"
 summary: "Demuestra que atiendes a bajo, forma y señales y que modificas una decisión por información musical externa manteniendo continuidad suficiente."
 duration: 15–25 min
 competencies: [I6, E5, F6, F7, H5, H6, C1, C2, G2, G3]
@@ -17,11 +17,11 @@ published: true
 
 ## Qué se intenta demostrar
 
-El criterio superior de I6 en nivel **MÍNIMO PARA AVANZAR** es:
+El criterio superior de interacción y ensemble en nivel **MÍNIMO PARA AVANZAR** es:
 
 > **Atiende a bajo, forma y señales básicas.**
 
-En U6 se operacionaliza sin crear una rúbrica paralela:
+En esta unidad se operacionaliza sin crear una rúbrica paralela:
 
 > ante información musical externa, detecta una señal relevante, comprende suficientemente su función, modifica al menos una decisión de ejecución y mantiene continuidad temporal/formal suficiente.
 
@@ -93,7 +93,7 @@ Compatible con `06_SISTEMA_PRACTICA_Y_EVALUACION`:
 
 No se promedian estas dimensiones como nota numérica.
 
-## MÍNIMO PARA AVANZAR — I6
+## MÍNIMO PARA AVANZAR — interacción y ensemble
 
 Existe evidencia suficiente cuando, en tareas adecuadas:
 
@@ -104,7 +104,7 @@ Existe evidencia suficiente cuando, en tareas adecuadas:
 - puedes explicar qué información utilizaste;
 - distingues claramente una pista fija de interacción interpersonal bidireccional.
 
-Con pistas fijas variadas y bien diseñadas, esto puede certificar **I6 MÍNIMO robusto** y componentes funcionales observables.
+Con pistas fijas variadas y bien diseñadas, esto puede certificar **interacción y ensemble MÍNIMO robusto** y componentes funcionales observables.
 
 ## COMPETENTE / FUNCIONAL — evidencia orientativa
 
@@ -128,27 +128,27 @@ Requiere más flexibilidad, anticipación, sensibilidad contextual y, para la pa
 - recuperación compartida;
 - adaptación sensible al contexto.
 
-U6 no exige este nivel para continuar.
+esta unidad no exige este nivel para continuar.
 
 ## Decisión
 
 Usa el lenguaje aprobado:
 
-- **CONTINUAR** — I6 MÍNIMO está suficientemente demostrado;
+- **CONTINUAR** — interacción y ensemble MÍNIMO está suficientemente demostrado;
 - **CONTINUAR + CORRECTIVO** — existe una fragilidad localizada que no invalida el núcleo;
 - **REDUCIR NOVEDAD** — la atención externa desorganiza de forma sistemática tiempo/forma o la señal no se convierte todavía en decisión;
 - **DETENER CARGA** — sólo cuando corresponda por salud/carga según el sistema general.
 
 ## Fronteras de certificación
 
-Este checkpoint:
+Este Evaluación:
 
 - **no declara Hito 7**;
 - no certifica dominio estilístico;
-- no adelanta U7 como transferencia entre estilos;
-- no convierte U8 en recetas de microtiming;
-- no sustituye el proyecto sostenido de U10;
+- no adelanta Unidad 7 como transferencia entre estilos;
+- no convierte Unidad 8 en recetas de microtiming;
+- no sustituye el proyecto sostenido de Unidad 10;
 - no abre polirritmia profunda, polimetría o modulación métrica de Fase 7;
 - no usa BPM universal de aprobado.
 
-> **CHECKPOINT 6C = RESPUESTA FUNCIONAL OBSERVABLE A INFORMACIÓN EXTERNA + CONTINUIDAD.**
+> **Evaluación = RESPUESTA FUNCIONAL OBSERVABLE A INFORMACIÓN EXTERNA + CONTINUIDAD.**

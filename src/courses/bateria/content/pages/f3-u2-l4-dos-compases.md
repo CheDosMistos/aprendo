@@ -25,7 +25,7 @@ La habilidad objetivo sigue siendo reconstrucción auditiva. Puedes escuchar por
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1101010011010010" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="30.U2.L4: dos compases 4/4 en corcheas. Son relacionados pero no idénticos. Compara cada compás y también la unión A→B." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l4-dos-compases-a.musicxml" data-answer-score-title="30.U2.L4 — solución de dos compases A"></div>
+<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1101010011010010" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Unidad 2.Lección 4: dos compases 4/4 en corcheas. Son relacionados pero no idénticos. Compara cada compás y también la unión A→B." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l4-dos-compases-a.musicxml" data-answer-score-title="Unidad 2.Lección 4 — solución de dos compases A"></div>
 
 Primero escucha **A+B completo**. Los botones de Compás 1 y Compás 2 se habilitan sólo después de esa primera escucha.
 

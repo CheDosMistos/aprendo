@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-L1 separó **ATAQUE** de **DURACIÓN** mediante la ligadura. L2 mantiene exactamente esa idea y cambia sólo la forma de escribirla: el **puntillo amplía una duración en la mitad del valor original**.
+Lección 1 separó **ATAQUE** de **DURACIÓN** mediante la ligadura. Lección 2 mantiene exactamente esa idea y cambia sólo la forma de escribirla: el **puntillo amplía una duración en la mitad del valor original**.
 
 > **El puntillo añade tiempo, no añade un golpe.**
 
@@ -25,19 +25,19 @@ Para que la relación sea visible dentro de una rejilla que ya conoces, la figur
 - la mitad de una corchea es `1` semicorchea;
 - corchea con puntillo = `2 + 1 = 3` posiciones de semicorchea.
 
-En esta lección mantenemos el 4/4 y colocamos la duración punteada **dentro del pulso**. Todavía no convertimos una duración que atraviesa una parte fuerte ni una colección de síncopas en el nuevo problema: eso corresponde a L3.
+En esta lección mantenemos el 4/4 y colocamos la duración punteada **dentro del pulso**. Todavía no convertimos una duración que atraviesa una parte fuerte ni una colección de síncopas en el nuevo problema: eso corresponde a Lección 3.
 
-## 1. Recuperación L1 — 3 min
+## 1. Recuperación Lección 1 — 3 min
 
-Recupera un fragmento breve de la partitura de ligaduras de L1. No escuches el playback antes de la toma.
+Recupera un fragmento breve de la partitura de ligaduras de Lección 1. No escuches el playback antes de la toma.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="20.U3.L1 — recuperación ataque/duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="Unidad 3.Lección 1 — recuperación ataque/duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una toma corta y comprueba una sola cosa: **¿puedes ver una ligadura y evitar el segundo ataque sin perder la rejilla temporal?**
 
-Si eso todavía colapsa, reduce longitud o ayudas antes de estudiar el puntillo. No necesitas repetir L1 completa por defecto.
+Si eso todavía colapsa, reduce longitud o ayudas antes de estudiar el puntillo. No necesitas repetir Lección 1 completa por defecto.
 
 ## 2. NÚCLEO — 10–12 min
 
@@ -45,7 +45,7 @@ Si eso todavía colapsa, reduce longitud o ayudas antes de estudiar el puntillo.
 
 El banco siguiente introduce corcheas con puntillo y las compara con una escritura equivalente mediante ligadura. El `120` del MusicXML es sólo referencia técnica del motor de playback; **no es el tempo de aprobado ni el tempo recomendado para empezar**.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="20.U3.L2 — puntillo y duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="Unidad 3.Lección 2 — puntillo y duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Paso A — construir antes de leer
 
@@ -160,11 +160,11 @@ Interpreta la muestra con la cadena aprobada:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-Completar la lección **no actualiza automáticamente** D2, F1, F2, C1/C2 ni las competencias de práctica. El BPM describe la condición; no define el nivel.
+Completar la lección **no actualiza automáticamente** síncopa, teoría básica del pulso y las figuras, métrica y terminología rítmica, pulso interno/subdivisión binaria y ternaria ni las competencias de práctica. El BPM describe la condición; no define el nivel.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L3 cuando, en material accesible y con las ayudas que todavía necesites:
+Puedes pasar a Lección 3 cuando, en material accesible y con las ayudas que todavía necesites:
 
 - explicas que el puntillo añade la mitad del valor original;
 - representas una corchea con puntillo como `3` posiciones de semicorchea;
@@ -182,7 +182,7 @@ La tarea empieza a ser funcional cuando puedes leer células nuevas con corchea 
 
 ## AVANZADO EN ESTA TAREA
 
-Como ampliación, crea dos pulsos distintos que usen corchea con puntillo, pero mantén cada duración dentro de su pulso y cambia **una sola variable** cada vez. Si empiezas a buscar desplazamientos o duraciones que atraviesen partes fuertes como reto central, ya estás entrando en L3 y debes volver al objetivo de esta lección.
+Como ampliación, crea dos pulsos distintos que usen corchea con puntillo, pero mantén cada duración dentro de su pulso y cambia **una sola variable** cada vez. Si empiezas a buscar desplazamientos o duraciones que atraviesen partes fuertes como reto central, ya estás entrando en Lección 3 y debes volver al objetivo de esta lección.
 
 ## Si algo se rompe
 
@@ -191,6 +191,6 @@ Como ampliación, crea dos pulsos distintos que usen corchea con puntillo, pero 
 - **entiendes `2 + 1`, pero pierdes el pulso:** baja densidad o tempo y externaliza negras/subdivisión;
 - **la ligadura equivalente parece “otro ritmo”:** compara únicamente un pulso y señala ataques antes de ejecutar;
 - **la escritura cambia la duración total:** vuelve a cuatro slots y cuenta unidades antes de dibujar símbolos;
-- **las manos interfieren con la lectura:** usa sticking alternado sencillo; no atribuyas automáticamente el fallo a D2.
+- **las manos interfieren con la lectura:** usa sticking alternado sencillo; no atribuyas automáticamente el fallo a síncopa.
 
 La siguiente lección introducirá **Síncopa I**: ataques y duraciones empezarán a relacionarse con posiciones métricamente débiles/fuertes sin que cambien el pulso ni el compás.

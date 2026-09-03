@@ -30,7 +30,7 @@ Un `7/8` muy simple puede ser técnicamente más fácil que un `4/4` cargado de 
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO.**
 
-1. toca 3 compases del groove de L2;
+1. toca 3 compases del groove de Lección 2;
 2. en el cuarto compás conserva `2+2` y convierte **sólo el grupo final de 3 corcheas** en un fill sencillo;
 3. vuelve al groove en el siguiente `1`;
 4. repite usando exactamente el mismo fill cuatro veces.
@@ -43,7 +43,7 @@ Si el fill provoca que el siguiente compás tenga seis u ocho corcheas “por ac
 
 ## Laboratorio B — mismo problema, 4/4
 
-Usa el `4/4 — 3+3+2` de L3:
+Usa el `4/4 — 3+3+2` de Lección 3:
 
 - conserva el compás;
 - mueve los tres inicios de grupo entre dos superficies;
@@ -67,7 +67,7 @@ No sumes las casillas en una nota única. El objetivo es descubrir **qué dimens
 
 ## Criterio musical
 
-Rod Morgenstein describe la exploración de firmas impares y manipulación rítmica como una forma de “empujar el límite”, pero subraya que para la mayor parte del trabajo musical sigue siendo más importante ser fiable y sostener grooves básicos. U10 adopta exactamente esa jerarquía: la rareza sólo vale si la referencia musical sobrevive.
+Rod Morgenstein describe la exploración de firmas impares y manipulación rítmica como una forma de “empujar el límite”, pero subraya que para la mayor parte del trabajo musical sigue siendo más importante ser fiable y sostener grooves básicos. esta unidad adopta exactamente esa jerarquía: la rareza sólo vale si la referencia musical sobrevive.
 
 Fuente: [Berklee — Rod Morgenstein](https://www.berklee.edu/people/rod-morgenstein).
 
@@ -78,10 +78,10 @@ Fuente: [Berklee — Rod Morgenstein](https://www.berklee.edu/people/rod-morgens
 - desplazamientos avanzados como centro de unidad;
 - sistemas de independencia de alta carga;
 - improvisación progresiva extensa;
-- certificación de I5 o J avanzado.
+- certificación de transferencia entre estilos o J avanzado.
 
-## Salida mínima de U10
+## Salida mínima de esta unidad
 
 Puedes introducir una variable métrica o de agrupación conocida, mantener groove/forma, ejecutar un fill breve con retorno y explicar si un fallo fue principalmente **métrico, coordinativo, formal o de textura**.
 
-No hay checkpoint global nuevo y **no existe BPM de aprobado**.
+No hay Evaluación global nuevo y **no existe BPM de aprobado**.
