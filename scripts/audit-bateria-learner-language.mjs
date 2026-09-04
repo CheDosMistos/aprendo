@@ -10,7 +10,6 @@ const checks = [
   ['unit-shorthand', /\bU(?:1[0-2]|[1-9])\b/g],
   ['lesson-shorthand', /\bL[1-9]\b/g],
   ['checkpoint-code', /\bCheckpoint\s+\d+[A-I]\b/gi],
-  ['checkpoint-letter-code', /\b[1-7][A-I]\b/g],
   ['checkpoint-word', /\bcheckpoints?\b/gi],
   ['checkpoint-shorthand', /\bCP\b/g],
   ['gate-id', /\bP[1-9]\b/g],
