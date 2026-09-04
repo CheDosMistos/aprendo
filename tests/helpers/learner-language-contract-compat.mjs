@@ -161,6 +161,10 @@ function canonicalShadow(markdown) {
       .replace(
         'U1 abrió Proyecto autónomo',
         'U1 abrió R4',
+      )
+      .replace(
+        'COMPETENTE / FUNCIONAL — objetivo de esta unidad',
+        'COMPETENTE / FUNCIONAL — objetivo de U9',
       );
   }
 
