@@ -1,0 +1,95 @@
+name: Diagnose test shards
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  test-shard:
+    if: github.event.pull_request.number == 219
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    strategy:
+      fail-fast: false
+      matrix:
+        group:
+          - core
+          - battery-other
+          - battery-phase6
+          - battery-phase7
+          - course-contracts
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Run ${{ matrix.group }} tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t all_tests < <(find tests -type f -name '*.test.ts' | sort)
+
+          case '${{ matrix.group }}' in
+            core)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep -Ev '^tests/(battery-|course-)' || true)
+              ;;
+            battery-other)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-' | grep -Ev '^tests/battery-phase(6|7)-' || true)
+              ;;
+            battery-phase6)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-phase6-' || true)
+              ;;
+            battery-phase7)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-phase7-' || true)
+              ;;
+            course-contracts)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/course-' || true)
+              ;;
+          esac
+
+          if [ "${#selected[@]}" -eq 0 ]; then
+            echo "No tests selected for ${{ matrix.group }}"
+            exit 1
+          fi
+
+          printf 'Selected %s tests:\n' "${#selected[@]}"
+          printf '  %s\n' "${selected[@]}"
+          node --import ./tests/helpers/learner-language-contract-compat.mjs --test "${selected[@]}"
+
+  learner-language-audit:
+    if: github.event.pull_request.number == 219
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Run learner-language auditor
+        run: node scripts/audit-bateria-learner-language.mjs
