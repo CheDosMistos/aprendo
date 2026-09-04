@@ -82,6 +82,13 @@ function canonicalShadow(markdown) {
     .replace(/\bUnidad\s+(\d+)\b/g, 'U$1')
     .replace(/\bunidad\s+(\d+)\b/g, 'U$1');
 
+  if (phase === 6 && unit === 5) {
+    body = body.replace(
+      'I5 en el objetivo central de U7',
+      'transferencia entre estilos en el objetivo central de U7',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
