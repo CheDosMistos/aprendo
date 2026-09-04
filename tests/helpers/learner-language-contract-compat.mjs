@@ -115,6 +115,13 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 6 && unit === 7) {
+    body = body.replace(
+      'Dependencias superiores: `blues y shuffle, análisis musical, desarrollo motívico`',
+      'Dependencias superiores: `I2-R, F7-F, G2-F`',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
