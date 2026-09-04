@@ -130,10 +130,15 @@ function canonicalShadow(markdown) {
   }
 
   if (phase === 6 && unit === 8) {
-    body = body.replace(
-      'Dependencias superiores: `C1, C2, blues y shuffle`',
-      'Dependencias superiores: `C1-R, C2-R, I2-F`',
-    );
+    body = body
+      .replace(
+        'Dependencias superiores: `C1, C2, blues y shuffle`',
+        'Dependencias superiores: `C1-R, C2-R, I2-F`',
+      )
+      .replace(
+        'no es requisito para demostrar microtiming y placement MÍNIMO',
+        'no es requisito para demostrar C7 MÍNIMO',
+      );
   }
 
   const documentIds = phase >= 1 && phase <= 7
