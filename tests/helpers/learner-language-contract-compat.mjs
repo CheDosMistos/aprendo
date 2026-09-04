@@ -129,6 +129,13 @@ function canonicalShadow(markdown) {
     );
   }
 
+  if (phase === 6 && unit === 8) {
+    body = body.replace(
+      'Dependencias superiores: `C1, C2, blues y shuffle`',
+      'Dependencias superiores: `C1-R, C2-R, I2-F`',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
