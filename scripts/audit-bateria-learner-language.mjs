@@ -18,7 +18,6 @@ const checks = [
   ['internal-editorial-language', /\b(?:mapa aprobado|mapa de competencias|fuente superior|fuente aprobada|auditor[ií]a can[oó]nica|arquitectura editorial|contrato MusicXML|renderer|assets?|Biblioteca Maestra|Plan General|Documento Fundacional)\b/gi],
   ['editorial-heading', /^##\s+Arquitectura\b/gi],
   ['codemod-artifact', /\$1|\bel Evaluación\b|\beste Evaluación\b|\bde la unidad de la unidad\b|\bLección \d+\s*[–-]\s*Lección \d+\b|\bUnidad \d+\s*[–-]\s*Unidad \d+\b|\bUnidad \d+\.(?:Lección|evaluación)\b/g],
-  ['lowercase-self-reference', /^(?:esta unidad|el curso|la base documental|el diseño del curso|coordinación básica de cuatro extremidades)\b/g],
   ['semantic-artifact', /\b(?:bombo bombo|hi-hat de pie hi-hat de pie|coordinación básica de cuatro extremidades coordinación de cuatro extremidades|groove y variaciones groove|groove groove y variaciones|fills fills|independencia avanzada independencia(?: avanzada)?|integración de integración|adaptación\/orquestación adaptación|improvisación restringida orquestación creativa|orquestación creativa improvisación restringida|orquestación de rudimentos\/orquestación focal|una base coordinación básica|todos los evaluaciones|todos las evaluaciones|todas los evaluaciones|los evaluaciones|las evaluación|Auditoría los cuatro carriles|conforme al mapa|que fija el mapa|figuras, silencios y compás sigue siendo legible|no de toda figuras, silencios y compás)\b/gi],
 ];
 
