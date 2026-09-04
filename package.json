@@ -8,7 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "test": "node --test tests/**/*.test.ts",
+    "test": "node --import ./tests/helpers/learner-language-contract-compat.mjs --test tests/**/*.test.ts",
     "test:e2e": "playwright test",
     "provision-user": "node scripts/provision-user.ts",
     "reset-user-password": "node scripts/reset-user-password.ts"
