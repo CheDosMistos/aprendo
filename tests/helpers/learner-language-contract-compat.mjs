@@ -152,6 +152,13 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 6 && unit === 9) {
+    body = body.replace(
+      'autonomía FUNCIONAL',
+      'K8 FUNCIONAL',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
