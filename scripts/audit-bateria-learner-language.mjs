@@ -5,7 +5,13 @@ const pagesDir = path.resolve('src/courses/bateria/content/pages');
 const maxPhase = Number(process.env.BATERIA_LEARNER_LANGUAGE_MAX_PHASE ?? 7);
 
 const checks = [
-  ['competency-id', /\b[A-K][1-9](?:-(?:R|F|C))?\b/g],
+  // Dependency suffixes are curricular and unambiguous.
+  ['competency-dependency-id', /\b[A-K][1-9]-(?:R|F|C)\b/g],
+  // H–K are not pitch names; bare A–G + digit can be legitimate pitch notation (C2, A4, etc.).
+  ['competency-id-unambiguous', /\b[H-K][1-9]\b/g],
+  // Catch ambiguous A–G competency IDs only in clearly curricular/editorial contexts.
+  ['competency-id-contextual', /(?:\bcompetencias?\s+|\bprerrequisitos?\s+|\bpara superar\s+|\bdepende de\s+|\brequiere\s+|\/\s*)[A-G][1-9]\b/gi],
+  ['competency-id-list', /\b[A-G][1-9](?:\s*[,/]\s*[A-K][1-9])+(?:\s*(?:y|e)\s*[A-K][1-9])?\b/g],
   ['unit-document-id', /\b(?:10|20|30|40|50|60|70)\.U\d+\b/g],
   ['unit-shorthand', /\bU(?:1[0-2]|[1-9])\b/g],
   ['lesson-shorthand', /\bL[1-9]\b/g],
