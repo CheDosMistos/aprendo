@@ -45,7 +45,7 @@ Mantén negras y cambia a corcheas sin mover deliberadamente el pulso. Usa un te
 
 La siguiente partitura es exclusiva de esta evaluación y aparece oculta antes del primer intento. Pulsa **Empezar** solo cuando estés preparado para verla. Haz una inspección breve y toca antes de repetirla hasta memorizarla.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/Evaluación-lectura-nueva.musicxml" data-score-title="Evaluación esta unidad — lectura nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/checkpoint-lectura-nueva.musicxml" data-score-title="Evaluación de esta unidad — lectura nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Lo que se observa es si puedes convertir figuras elementales en tiempo sin depender de una memorización previa. Un error aislado no invalida la muestra: observa continuidad y recuperación.
 
