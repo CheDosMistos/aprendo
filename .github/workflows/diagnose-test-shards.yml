@@ -53,10 +53,6 @@ jobs:
               ;;
             battery-phase6)
               mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-phase6-' || true)
-              echo '--- score renderer assertion context ---'
-              sed -n '110,145p' tests/battery-phase6-score-renderer.test.ts
-              echo '--- source score metadata ---'
-              grep -n -E 'ScorePanel|data-pulse|data-score-src|data-score-source-url' src/courses/bateria/content/pages/f6-u1-puente-set-compacto-ii.md || true
               ;;
             battery-phase7)
               mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-phase7-' || true)
@@ -73,6 +69,21 @@ jobs:
 
           printf 'Selected %s tests:\n' "${#selected[@]}"
           printf '  %s\n' "${selected[@]}"
+
+          if [ '${{ matrix.group }}' = 'battery-phase6' ]; then
+            status=0
+            for test_file in "${selected[@]}"; do
+              echo "=== RUN ${test_file} ==="
+              if node --import ./tests/helpers/learner-language-contract-compat.mjs --test "${test_file}"; then
+                echo "=== PASS ${test_file} ==="
+              else
+                echo "=== FAIL ${test_file} ==="
+                status=1
+              fi
+            done
+            exit "$status"
+          fi
+
           node --import ./tests/helpers/learner-language-contract-compat.mjs --test "${selected[@]}"
 
   learner-language-audit:
