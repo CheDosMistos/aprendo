@@ -53,6 +53,10 @@ jobs:
               ;;
             battery-phase6)
               mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-phase6-' || true)
+              echo '--- score renderer assertion context ---'
+              sed -n '110,145p' tests/battery-phase6-score-renderer.test.ts
+              echo '--- source score metadata ---'
+              grep -n -E 'ScorePanel|data-pulse|data-score-src|data-score-source-url' src/courses/bateria/content/pages/f6-u1-puente-set-compacto-ii.md || true
               ;;
             battery-phase7)
               mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-phase7-' || true)
