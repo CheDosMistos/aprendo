@@ -55,6 +55,13 @@ function canonicalShadow(markdown) {
     );
   }
 
+  if (phase === 6 && unit === 6) {
+    metadata = metadata.replace(
+      'title: "Checkpoint — interacción y ensemble MÍNIMO"',
+      'title: "Checkpoint 6C — interacción y ensemble MÍNIMO"',
+    );
+  }
+
   // The shadow exists only to preserve legacy semantic assertions. Technical score
   // references must come exclusively from the real learner page, otherwise semantic
   // replacements such as "Groove" -> "H5" can fabricate nonexistent MusicXML URLs.
