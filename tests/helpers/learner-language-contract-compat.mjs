@@ -179,6 +179,22 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 6 && unit === 10) {
+    body = body
+      .replace(
+        'La novedad de esta unidad no consiste en volver a explicar esas herramientas',
+        'La novedad de U10 no consiste en volver a explicar esas herramientas',
+      )
+      .replace(
+        'Aplicar autonomía dentro de un proyecto musical real sin convertir esta unidad en otra unidad',
+        'Aplicar K8 dentro de un proyecto musical real sin convertir U10 en otra unidad',
+      )
+      .replace(
+        'autonomía aplicado',
+        'K8 aplicado',
+      );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
