@@ -165,6 +165,10 @@ function canonicalShadow(markdown) {
       .replace(
         'COMPETENTE / FUNCIONAL — objetivo de esta unidad',
         'COMPETENTE / FUNCIONAL — objetivo de U9',
+      )
+      .replace(
+        'no certifica E6 FUNCIONAL o análisis musical FUNCIONAL',
+        'no certifica E6 FUNCIONAL o F7 FUNCIONAL',
       );
   }
 
