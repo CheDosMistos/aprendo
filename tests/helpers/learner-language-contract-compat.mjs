@@ -153,10 +153,15 @@ function canonicalShadow(markdown) {
   }
 
   if (phase === 6 && unit === 9) {
-    body = body.replace(
-      'autonomía FUNCIONAL',
-      'K8 FUNCIONAL',
-    );
+    body = body
+      .replace(
+        'autonomía FUNCIONAL',
+        'K8 FUNCIONAL',
+      )
+      .replace(
+        'U1 abrió Proyecto autónomo',
+        'U1 abrió R4',
+      );
   }
 
   const documentIds = phase >= 1 && phase <= 7
