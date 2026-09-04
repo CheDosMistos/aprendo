@@ -64,6 +64,13 @@ function canonicalShadow(markdown) {
     body = body.replace(new RegExp(escapeRegExp(label), 'gi'), id);
   }
 
+  if (phase === 6 && unit === 4) {
+    body = body.replace(
+      'Ruta si puerta de entrada no está abierta',
+      'Ruta si P6 no está abierta',
+    );
+  }
+
   body = body
     .replace(/\btranscripción real\b/gi, 'E6')
     .replace(/\bEvaluaciones\b/g, 'Checkpoints')
