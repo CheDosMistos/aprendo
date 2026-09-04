@@ -45,7 +45,7 @@ No se exige que la subdivisión ternaria sea tan natural como la binaria.
 
 La partitura siguiente no aparece en las lecciones previas de esta unidad y permanece oculta hasta pulsar **Empezar**. Haz una inspección breve del compás y las figuras; después realiza un primer intento antes de repetir.
 
-<div data-notation-score data-score-src="/bateria/notation/u2/Evaluación-lectura-nueva.musicxml" data-score-title="Evaluación esta unidad — lectura nueva con silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u2/checkpoint-lectura-nueva.musicxml" data-score-title="Evaluación de esta unidad — lectura nueva con silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Observa continuidad, relación con el pulso y recuperación ante un error. Después del primer intento deja de ser una prueba de primera vista y pasa a ser práctica de lectura.
 
