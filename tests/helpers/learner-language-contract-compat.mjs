@@ -138,6 +138,10 @@ function canonicalShadow(markdown) {
       .replace(
         'no es requisito para demostrar microtiming y placement MÍNIMO',
         'no es requisito para demostrar C7 MÍNIMO',
+      )
+      .replace(
+        'MÍNIMO PARA AVANZAR — microtiming y placement',
+        'MÍNIMO PARA AVANZAR — C7',
       );
   }
 
