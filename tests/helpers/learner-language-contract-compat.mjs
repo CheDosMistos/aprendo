@@ -97,10 +97,15 @@ function canonicalShadow(markdown) {
   }
 
   if (phase === 6 && unit === 6) {
-    body = body.replace(
-      'interacción y ensemble MÍNIMO robusto',
-      'I6 MÍNIMO robusto',
-    );
+    body = body
+      .replace(
+        'interacción y ensemble MÍNIMO robusto',
+        'I6 MÍNIMO robusto',
+      )
+      .replace(
+        'MÍNIMO PARA AVANZAR — interacción y ensemble',
+        'MÍNIMO PARA AVANZAR — I6',
+      );
   }
 
   const documentIds = phase >= 1 && phase <= 7
