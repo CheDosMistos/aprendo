@@ -24,6 +24,7 @@ const competencyLabels = {
 
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const originalReadFile = fs.promises.readFile.bind(fs.promises);
+const originalReadFileSync = fs.readFileSync.bind(fs);
 
 function canonicalShadow(markdown) {
   const frontmatter = markdown.match(/^---\n([\s\S]*?)\n---\n/);
@@ -53,6 +54,15 @@ function canonicalShadow(markdown) {
 
 fs.promises.readFile = async (...args) => {
   const value = await originalReadFile(...args);
+  if (typeof value !== 'string') return value;
+
+  const target = String(args[0]);
+  const isLearnerPage = /src[\\/]courses[\\/]bateria[\\/]content[\\/]pages[\\/].*\.md$/.test(target);
+  return isLearnerPage ? value + canonicalShadow(value) : value;
+};
+
+fs.readFileSync = (...args) => {
+  const value = originalReadFileSync(...args);
   if (typeof value !== 'string') return value;
 
   const target = String(args[0]);
