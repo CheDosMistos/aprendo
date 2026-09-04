@@ -192,6 +192,10 @@ function canonicalShadow(markdown) {
       .replace(
         'autonomía aplicado',
         'K8 aplicado',
+      )
+      .replace(
+        'no certifica autonomía AVANZADO global',
+        'no certifica K8 AVANZADO global',
       );
   }
 
