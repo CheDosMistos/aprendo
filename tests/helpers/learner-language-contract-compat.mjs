@@ -31,6 +31,11 @@ function canonicalShadow(markdown) {
   const phase = Number(frontmatter?.[1].match(/^phase:\s*(\d+)/m)?.[1] ?? 0);
   let body = frontmatter ? markdown.slice(frontmatter[0].length) : markdown;
 
+  // The shadow exists only to preserve legacy semantic assertions. Technical score
+  // references must come exclusively from the real learner page, otherwise semantic
+  // replacements such as "Groove" -> "H5" can fabricate nonexistent MusicXML URLs.
+  body = body.replace(/\sdata-score-(?:src|source-url)="[^"]*"/g, '');
+
   for (const [id, label] of Object.entries(competencyLabels).sort((a, b) => b[1].length - a[1].length)) {
     body = body.replace(new RegExp(escapeRegExp(label), 'gi'), id);
   }
