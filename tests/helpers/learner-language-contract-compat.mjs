@@ -48,6 +48,13 @@ function canonicalShadow(markdown) {
     );
   }
 
+  if (phase === 6 && unit === 3) {
+    metadata = metadata.replace(
+      'title: "Checkpoint — Navegación y decisión"',
+      'title: "Checkpoint 6B — Navegación y decisión"',
+    );
+  }
+
   // The shadow exists only to preserve legacy semantic assertions. Technical score
   // references must come exclusively from the real learner page, otherwise semantic
   // replacements such as "Groove" -> "H5" can fabricate nonexistent MusicXML URLs.
