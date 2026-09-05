@@ -243,6 +243,10 @@ function canonicalShadow(markdown) {
       .replace(
         'U9 y U10 ya publicaron respectivamente **checkpoint final** y **checkpoint final**',
         'U9 y U10 ya publicaron respectivamente **6F** y **6G**',
+      )
+      .replace(
+        'esta unidad continúa como **checkpoint final**',
+        'U11 continúa como **6H**',
       );
   }
 
