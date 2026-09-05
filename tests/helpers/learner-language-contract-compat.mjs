@@ -119,6 +119,13 @@ function canonicalShadow(markdown) {
     body = body.replace(/\bforma y lectura de chart\b/gi, 'D5');
   }
 
+  if (phase === 2 && unit === 10) {
+    body = body.replace(
+      'Completar esta unidad no convierte automáticamente click desplazado o no obvio en `FUNCIONAL`.',
+      'Completar U10 no convierte automáticamente C5 en `FUNCIONAL`.',
+    );
+  }
+
   if (phase === 6 && unit === 4) {
     body = body.replace(
       'Ruta si puerta de entrada no está abierta',
