@@ -84,6 +84,8 @@ function competencyLabelShadow(text) {
 
 function normalizeCheckpointWords(text) {
   return text
+    .replace(/\bTodas las evaluaciones\b/g, 'Todos los checkpoints')
+    .replace(/\btodas las evaluaciones\b/g, 'todos los checkpoints')
     .replace(/\bEstas evaluaciones\b/g, 'Estos checkpoints')
     .replace(/\bestas evaluaciones\b/g, 'estos checkpoints')
     .replace(/\bLas evaluaciones\b/g, 'Los checkpoints')
@@ -333,6 +335,10 @@ function canonicalShadow(markdown) {
         'COMPETENTE / FUNCIONAL — objetivo de U9',
       )
       .replace(
+        'no certifica transcripción real FUNCIONAL o análisis musical FUNCIONAL',
+        'no certifica E6 FUNCIONAL o F7 FUNCIONAL',
+      )
+      .replace(
         'no certifica E6 FUNCIONAL o análisis musical FUNCIONAL',
         'no certifica E6 FUNCIONAL o F7 FUNCIONAL',
       );
@@ -372,7 +378,7 @@ function canonicalShadow(markdown) {
         'esta unidad — propiedad parcial del proyecto',
         'U11 — propiedad parcial del proyecto',
       )
-      .replace(
+      .replaceAll(
         'el proyecto esta unidad',
         'el proyecto U11',
       )
@@ -413,6 +419,10 @@ function canonicalShadow(markdown) {
         'Para el Hito 7 se observan conjuntamente K1–K8 + E6 + F7.',
       )
       .replace(
+        'las capacidades de práctica y autonomía + transcripción real + análisis musical',
+        'K1–K8 + E6 + F7',
+      )
+      .replace(
         'las capacidades de práctica y autonomía + E6 + análisis musical',
         'K1–K8 + E6 + F7',
       )
@@ -439,6 +449,10 @@ function canonicalShadow(markdown) {
       .replace(
         'autonomía convierte análisis en acción revisable',
         'K8 convierte análisis en acción revisable',
+      )
+      .replace(
+        'transcripción real y análisis musical aparecen integrados en el aprendizaje de repertorio',
+        'E6 y F7 aparecen integrados en el aprendizaje de repertorio',
       )
       .replace(
         'E6 y análisis musical aparecen integrados en el I3',
