@@ -286,6 +286,10 @@ function canonicalShadow(markdown) {
       .replace(
         'análisis musical debe conectar elementos, no enumerarlos',
         'F7 debe conectar elementos, no enumerarlos',
+      )
+      .replace(
+        'autonomía convierte análisis en acción revisable',
+        'K8 convierte análisis en acción revisable',
       );
   }
 
