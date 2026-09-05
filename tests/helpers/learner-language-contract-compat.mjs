@@ -219,6 +219,10 @@ function canonicalShadow(markdown) {
       .replace(
         'esta unidad — propiedad parcial del proyecto',
         'U11 — propiedad parcial del proyecto',
+      )
+      .replace(
+        'el proyecto esta unidad',
+        'el proyecto U11',
       );
   }
 
