@@ -235,6 +235,10 @@ function canonicalShadow(markdown) {
       .replace(
         'U12 conserva la revisión completa del portafolio los cuatro carriles del portafolio',
         'U12 conserva la revisión completa del portafolio R1–R4',
+      )
+      .replace(
+        'no sustituye la revisión acumulativa los cuatro carriles del portafolio de U12',
+        'no sustituye la revisión acumulativa R1–R4 de U12',
       );
   }
 
