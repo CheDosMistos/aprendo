@@ -290,6 +290,10 @@ function canonicalShadow(markdown) {
       .replace(
         'autonomía convierte análisis en acción revisable',
         'K8 convierte análisis en acción revisable',
+      )
+      .replace(
+        'E6 y análisis musical aparecen integrados en el aprendizaje de repertorio',
+        'E6 y F7 aparecen integrados en el aprendizaje de repertorio',
       );
   }
 
