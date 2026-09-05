@@ -239,6 +239,10 @@ function canonicalShadow(markdown) {
       .replace(
         'no sustituye la revisión acumulativa los cuatro carriles del portafolio de U12',
         'no sustituye la revisión acumulativa R1–R4 de U12',
+      )
+      .replace(
+        'U9 y U10 ya publicaron respectivamente **checkpoint final** y **checkpoint final**',
+        'U9 y U10 ya publicaron respectivamente **6F** y **6G**',
       );
   }
 
