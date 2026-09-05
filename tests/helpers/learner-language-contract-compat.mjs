@@ -126,6 +126,10 @@ function canonicalShadow(markdown) {
       .replace(
         'no concluyas automáticamente que figuras, silencios y compás ha fallado',
         'no concluyas automáticamente que D1 ha fallado',
+      )
+      .replace(
+        'Completar la sesión **no actualiza automáticamente** aplicación musical de rudimentos, C1, C2, figuras, silencios y compás ni el estado del PAS elegido',
+        'Completar la sesión **no actualiza automáticamente** B7, C1, C2, D1 ni el estado del PAS elegido',
       );
   }
 
