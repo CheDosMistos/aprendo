@@ -207,10 +207,15 @@ function canonicalShadow(markdown) {
   }
 
   if (phase === 6 && unit === 11) {
-    body = body.replace(
-      'Proyecto autónomo — Proyecto autónomo',
-      'R4 — Proyecto autónomo',
-    );
+    body = body
+      .replace(
+        'Proyecto autónomo — Proyecto autónomo',
+        'R4 — Proyecto autónomo',
+      )
+      .replace(
+        'autonomía como proceso observable',
+        'K8 como proceso observable',
+      );
   }
 
   const documentIds = phase >= 1 && phase <= 7
