@@ -73,7 +73,7 @@ Cuando el perfil acumulado lo permita, el centro de gravedad puede desplazarse h
 - improvisación y transformación;
 - relación entre representación, intención y resultado musical.
 
-Esto es un **puente**, no una declaración de que forma y frase/dinámica y acentuación/transcripción real ya sean funcionales.
+Esto es un **puente**, no una declaración de que forma y fraseo/intervalos y escalas/transcripción de batería ya sean funcionales.
 
 5/4, 7/8, quintillos, 3:2 y otras ventanas seguirán creciendo después sin convertirse aquí en requisito del cierre.
 
