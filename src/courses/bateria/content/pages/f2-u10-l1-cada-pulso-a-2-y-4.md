@@ -23,7 +23,7 @@ La línea no es la novedad. La novedad es que el metrónomo deja de confirmar ca
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="20.U10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="Unidad 10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Primero léela con referencia completa hasta comprobar que la notación no es la variable limitante. No busques velocidad.
 
@@ -55,6 +55,6 @@ Si 2 y 4 destruyen la tarea, vuelve a referencia completa y reduce duración ant
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes ir a L2 cuando una toma breve con 2 y 4 conserva una referencia interna razonable o, si todavía no, cuando el fallo está localizado y puedes describirlo sin confundirlo con lectura.
+Puedes ir a Lección 2 cuando una toma breve con 2 y 4 conserva una referencia interna razonable o, si todavía no, cuando el fallo está localizado y puedes describirlo sin confundirlo con lectura.
 
-No se exige BPM concreto ni estabilidad perfecta. Completar la página no convierte C5 en `FUNCIONAL`.
+No se exige BPM concreto ni estabilidad perfecta. Completar la página no convierte click desplazado o no obvio en `FUNCIONAL`.

@@ -122,4 +122,4 @@ Eso significa que la evidencia interpersonal aún no existe; **no** significa qu
 - explicas por qué una pista fija no demuestra adaptación bidireccional;
 - si existe otro músico, puedes señalar al menos un caso donde tu acción cambió por la suya y observar si hubo respuesta posterior del compañero.
 
-**La ausencia de compañero real no impide Checkpoint 6C. No autoriza a declarar interacción interpersonal completa.**
+**La ausencia de compañero real no impide Evaluación. No autoriza a declarar interacción interpersonal completa.**

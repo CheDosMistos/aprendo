@@ -8,20 +8,20 @@ slug: doubles-diddles-sin-alterar-la-linea
 kind: lesson
 order: 4
 title: Doubles/diddles sin alterar la línea
-summary: "Abre B7 sobre material ya decodificado: cambia la textura de manos mediante RR/LL o diddles sólo cuando dos ataques escritos consecutivos lo permiten, sin añadir golpes ni alterar la arquitectura temporal."
+summary: "Abre aplicación musical de rudimentos sobre material ya decodificado: cambia la textura de manos mediante RR/LL o diddles sólo cuando dos ataques escritos consecutivos lo permiten, sin añadir golpes ni alterar la arquitectura temporal."
 duration: 25–30 min
 competencies: [A1, A2, B1, B2, B7, C1, C2, D1, F1, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-En las tres primeras lecciones de U2 la rejilla temporal ha mandado sobre todo lo demás. L4 conserva esa jerarquía y añade una segunda capa: **qué mano toca cada ataque**.
+En las tres primeras lecciones de esta unidad la rejilla temporal ha mandado sobre todo lo demás. Lección 4 conserva esa jerarquía y añade una segunda capa: **qué mano toca cada ataque**.
 
 > **La línea rítmica manda. El sticking puede cambiar; las posiciones temporales no.**
 
 Un `RR` o `LL` sólo puede ocupar **dos ataques consecutivos que ya existen en la partitura**. No se añade un segundo golpe para «crear» un double, no se rellena un silencio y no se mueve un ataque para que encaje un patrón de manos conocido.
 
-Esta lección abre **B7 — aplicación rudimental** de forma controlada. No enseña ni reconstruye un rudimento PAS concreto. El material rítmico y las propuestas de sticking son `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
+Esta lección abre **aplicación rudimental** de forma controlada. No enseña ni reconstruye un rudimento PAS concreto. El material rítmico y las propuestas de sticking son `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
 
 **ESENCIAL AHORA:** decodificar primero la línea y conservar exactamente su ritmo al cambiar algunas asignaciones de mano.
 
@@ -47,11 +47,11 @@ Por tanto, distingue siempre:
 
 ## 1. Recuperación — 3 min
 
-Recupera **dos compases de L2** con sticking alternado sencillo. Haz una toma breve antes de habilitar el audio.
+Recupera **dos compases de Lección 2** con sticking alternado sencillo. Haz una toma breve antes de habilitar el audio.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="20.U2.L2 — recuperación rítmica antes de aplicar textura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Lección 2 — recuperación rítmica antes de aplicar textura" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Comprueba sólo tres cosas:
 
@@ -65,9 +65,9 @@ Si hoy la lectura base no está disponible, reduce longitud o tempo. No añadas 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente contiene **cuatro compases originales en 4/4**. Usa únicamente semicorcheas y silencios de semicorchea ya disponibles en U2 y contiene varios pares o grupos de ataques consecutivos que permiten experimentar después con `RR/LL`.
+La partitura siguiente contiene **cuatro compases originales en 4/4**. Usa únicamente semicorcheas y silencios de semicorchea ya disponibles en esta unidad y contiene varios pares o grupos de ataques consecutivos que permiten experimentar después con `RR/LL`.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-title="20.U2.L4 — línea base para doubles/diddles" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-title="Lección 4 — línea base para doubles/diddles" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-linea-doubles-diddles.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120 BPM` del MusicXML es sólo una referencia técnica de playback. **No es tempo objetivo ni criterio de avance.**
 
@@ -84,7 +84,7 @@ No memorices la distribución visual. Si pierdes la lectura, cambia de compás y
 
 ## 3. Aplicación — 8–9 min
 
-Ahora abre B7 de forma limitada. Trabaja **un compás cada vez** y cambia una sola pareja de ataques por intento.
+Ahora abre aplicación musical de rudimentos de forma limitada. Trabaja **un compás cada vez** y cambia una sola pareja de ataques por intento.
 
 ### Paso A — localiza un par compatible
 
@@ -132,7 +132,7 @@ La pregunta no es «¿cuántos doubles puedo meter?», sino:
 
 > **¿puedo cambiar la textura sin dejar de obedecer la partitura?**
 
-Si una misma mano empieza a tensarse, reduce tempo o número de pares. B7 nunca justifica sacrificar A1/A2.
+Si una misma mano empieza a tensarse, reduce tempo o número de pares. aplicación musical de rudimentos nunca justifica sacrificar postura y relajación/agarre principal.
 
 ## 4. Transferencia — 4–5 min
 
@@ -164,7 +164,7 @@ Si la versión B rompe el tiempo, vuelve a la A y diagnostica si el problema es:
 - anticipación del sticking;
 - o pérdida real de lectura.
 
-**No conviertas automáticamente un fallo de textura en evidencia de que D1/C2 han fallado.** Primero retira la textura y retesta la línea base.
+**No conviertas automáticamente un fallo de textura en evidencia de que figuras, silencios y compás/subdivisión binaria y ternaria han fallado.** Primero retira la textura y retesta la línea base.
 
 ## Ventana AVANZADO opcional
 
@@ -183,7 +183,7 @@ Esto es **agrupación interna mediante acentos**:
 - no es polimetría;
 - no es modulación métrica.
 
-Es una ventana de experimentación, no un checkpoint. Si interfiere con la aplicación básica de doubles/diddles, elimínala inmediatamente.
+Es una ventana de experimentación, no un Evaluación. Si interfiere con la aplicación básica de doubles/diddles, elimínala inmediatamente.
 
 ## 5. Registro — 2 min
 
@@ -204,11 +204,11 @@ Cierra con la cadena aprobada:
 - **CONDICIONES:** tempo, click, sticking base, transformación aplicada y ayudas usadas;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA`.
 
-Completar la lección **no actualiza automáticamente B7, B1/B2 ni ninguna otra competencia**.
+Completar la lección **no actualiza automáticamente aplicación musical de rudimentos, singles y redobles/dobles ni ninguna otra competencia**.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia el checkpoint de U2 cuando, en material que todavía exige lectura:
+Puedes continuar hacia la evaluación de esta unidad cuando, en material que todavía exige lectura:
 
 - ejecutas una línea corta con sticking simple conservando ataques y silencios;
 - identificas correctamente qué pares de ataques consecutivos admiten una asignación `RR/LL` sin añadir golpes;
@@ -222,7 +222,7 @@ No se exige un BPM concreto, usar muchos doubles ni convertir toda la línea a u
 
 En esta tarea concreta, la aplicación empieza a ser competente cuando puedes elegir de forma consciente varios pares compatibles en material nuevo, cambiar la distribución de manos y conservar el ritmo escrito sin necesidad de reconstruir primero un patrón de sticking memorizado.
 
-Eso **no declara B7 FUNCIONAL de forma global** ni demuestra dominio de doubles, paradiddles u otros rudimentos.
+Eso **no declara aplicación musical de rudimentos FUNCIONAL de forma global** ni demuestra dominio de doubles, paradiddles u otros rudimentos.
 
 ## AVANZADO EN ESTA TAREA
 
@@ -239,6 +239,6 @@ Aplica un correctivo localizado:
 - **el sticking manda sobre la lectura:** vuelve a alternado y decodifica un compás distinto;
 - **el double se comprime o se abre:** reduce tempo y trabaja el par aislado conservando su distancia temporal;
 - **la mano débil se tensa:** reduce densidad o número de pares antes de aumentar velocidad;
-- **la agrupación 5+5+6 cambia tu sensación de compás:** elimínala; no pertenece al mínimo de U2.
+- **la agrupación 5+5+6 cambia tu sensación de compás:** elimínala; no pertenece al mínimo de esta unidad.
 
-La siguiente sesión es el **checkpoint de U2 — Puerta de semicorcheas y silencios**. Allí la evidencia principal volverá a ser material nuevo, oído/escritura y continuidad; no una exhibición de sticking complejo.
+La siguiente sesión es el **Evaluación de esta unidad — Puerta de semicorcheas y silencios**. Allí la evidencia principal volverá a ser material nuevo, oído/escritura y continuidad; no una exhibición de sticking complejo.

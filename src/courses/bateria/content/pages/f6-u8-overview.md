@@ -9,32 +9,32 @@ kind: unit
 order: 0
 title: "Feel y microtiming: colocación, sonido y contexto"
 summary: "Distingue estabilidad temporal de feel, analiza relaciones finas de colocación y sonido y aprende a comparar decisiones sin convertir milisegundos en recetas universales."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C7, C1, C2, C4, I2, E5, H5, H6, K5, K8]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: C7 — precisión métrica no equivale a feel
+## Novedad dominante: precisión métrica no equivale a feel
 
-U7 enseñó a transferir principios entre estilos sin borrar su carácter. U8 profundiza una dimensión que las unidades anteriores habían reservado expresamente: **cómo se relacionan estabilidad, colocación temporal fina, articulación, intensidad, sonido y contexto cuando una interpretación adquiere un feel concreto**.
+Unidad 7 enseñó a transferir principios entre estilos sin borrar su carácter. Esta unidad profundiza una dimensión que las unidades anteriores habían reservado expresamente: **cómo se relacionan estabilidad, colocación temporal fina, articulación, intensidad, sonido y contexto cuando una interpretación adquiere un feel concreto**.
 
-El mapa superior fija C7:
+El mapa superior fija microtiming y placement:
 
 - **MÍNIMO PARA AVANZAR:** reconoce conceptualmente que precisión métrica y feel no son idénticos;
 - **COMPETENTE / FUNCIONAL:** reproduce diferencias básicas de colocación y articulación en estilos estudiados;
 - **AVANZADO:** manipula microtiming de forma consciente y musical sin perder estabilidad estructural.
 
-Dependencias superiores: `C1-R, C2-R, I2-F`.
+Dependencias superiores: `pulso interno, subdivisión binaria y ternaria, blues y shuffle`.
 
 ## Cuatro conceptos que no deben confundirse
 
-En U8 distinguiremos:
+En esta unidad distinguiremos:
 
 1. **ESTABILIDAD TEMPORAL:** capacidad de mantener una referencia temporal coherente a escala de pulso, subdivisión y forma.
 2. **PRECISIÓN MÉTRICA:** relación de los ataques con una referencia o rejilla utilizada para describir la interpretación.
 3. **MICROTIMING:** diferencias temporales pequeñas entre ataques, voces y/o una referencia; pueden ser intencionales, emergentes, contextuales o producto de variabilidad de ejecución.
-4. **FEEL:** resultado musical percibido que puede depender de timing, articulación, dinámica, timbre, duración, interacción, fraseo, repertorio y contexto. U8 no lo reduce a una sola variable.
+4. **FEEL:** resultado musical percibido que puede depender de timing, articulación, dinámica, timbre, duración, interacción, fraseo, repertorio y contexto. Esta unidad no lo reduce a una sola variable.
 
 **DECISIÓN CURRICULAR RAZONADA:** usamos estas distinciones como herramientas de diagnóstico. No constituyen una taxonomía científica universal del feel.
 
@@ -57,24 +57,24 @@ Tocar detrás no significa arrastrar progresivamente el tempo. Tocar delante no 
 
 Además, la evidencia directa con bateristas profesionales muestra que al producir estos perfiles también pueden variar intensidad, timbre y duración. Por eso no asumiremos que el feel reside únicamente en el onset.
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Precisión, estabilidad, microtiming y feel
+### Lección 1 — Precisión, estabilidad, microtiming y feel
 Construye el mapa conceptual y aprende a describir una interpretación sin convertir cualquier desviación en intención ni cualquier alineación en rigidez.
 
-### L2 — Centro, delante y detrás sin perder el tiempo
+### Lección 2 — Centro, delante y detrás sin perder el tiempo
 Compara tres colocaciones relativas manteniendo la misma estructura y vigila que el experimento no se transforme en acelerar o frenar.
 
-### L3 — Timing relativo entre voces + articulación y dinámica
+### Lección 3 — Timing relativo entre voces + articulación y dinámica
 Observa que bombo, caja, hi-hat/plato y otras voces pueden relacionarse entre sí de maneras diferentes; separa onset de intensidad, duración, articulación y sonido.
 
-### L4 — Grabación A/B, contexto y herramientas de análisis
+### Lección 4 — Grabación A/B, contexto y herramientas de análisis
 Compara tomas con oído primero y herramientas después; usa waveform/DAW como feedback descriptivo, no como juez de groove ni como generador de offsets universales.
 
-### Checkpoint 6E — C7 MÍNIMO
+### Evaluación — microtiming y placement MÍNIMO
 Demuestra que puedes distinguir conceptualmente precisión métrica, estabilidad y feel, explicar por qué una desviación aislada no prueba intención y analizar dos ejemplos sin inventar una receta temporal universal.
 
-La reproducción deliberada de colocación/articulación se observa como evidencia hacia **FUNCIONAL**, pero **no se eleva a requisito para certificar C7 MÍNIMO**.
+La reproducción deliberada de colocación/articulación se observa como evidencia hacia **FUNCIONAL**, pero **no se eleva a requisito para certificar microtiming y placement MÍNIMO**.
 
 ## Práctica estándar
 
@@ -87,25 +87,25 @@ Referencia: **25–30 min, 3–4 días por semana**.
 
 ## Fuentes y estatus
 
-- **ESTÁNDAR DEL PROYECTO:** `04_MAPA_COMPETENCIAS_Y_DEPENDENCIAS` define C7, sus dependencias y sus tres niveles; U8 no crea una rúbrica paralela.
+- **ESTÁNDAR DEL PROYECTO:** `04_MAPA_COMPETENCIAS_Y_DEPENDENCIAS` define microtiming y placement, sus dependencias y sus tres niveles; esta unidad no crea una rúbrica paralela.
 - **EVIDENCIA EMPÍRICA DIRECTA EN BATERISTAS:** Danielsen, Witek, Waadeland & Sundt (2015), *Effects of instructed timing and tempo on snare drum sound in drum kit performance*, DOI `10.1121/1.4930950`: bateristas expertos produjeron perfiles laid-back/on/pushed y aparecieron también diferencias de intensidad y timbre.
 - **EVIDENCIA EMPÍRICA DIRECTA EN BATERISTAS:** Câmara, Nymoen, Lartillot & Danielsen (2020), *Timing Is Everything…Or Is It?*, DOI `10.1525/mp.2020.38.1.1`: onset, intensidad y duración contribuyeron a perfiles de timing; la referencia metronómica y la pista instrumental no produjeron exactamente los mismos perfiles.
 - **EVIDENCIA EMPÍRICA DIRECTA EN BATERISTAS:** Câmara, Sioros & Danielsen (2022), *Mapping timing and intensity strategies in drum-kit performance of a simple back-beat pattern*, DOI `10.1080/09298215.2022.2150649`: identifica varias estrategias de onset entre voces, no un único patrón universal.
 - **EVIDENCIA PERCEPTIVA:** Senn, Kilchenmann, von Georgi & Bullerjahn (2016), DOI `10.3389/fpsyg.2016.01487`: manipular la magnitud del microtiming de ejecuciones expertas no demuestra una relación simple “más desviación = más groove”.
-- **EVIDENCIA CONTEXTUAL DE SWING:** Friberg & Sundström (2002), DOI `10.1525/mp.2002.19.3.333`: el swing ratio observado varía con el tempo; U8 no usa el tresillo exacto como definición universal de swing.
+- **EVIDENCIA CONTEXTUAL DE SWING:** Friberg & Sundström (2002), DOI `10.1525/mp.2002.19.3.333`: el swing ratio observado varía con el tempo; esta unidad no usa el tresillo exacto como definición universal de swing.
 - **DECISIÓN CURRICULAR RAZONADA:** oído primero, comparación controlada de una variable y análisis visual después.
-- **EJERCICIOS:** todo protocolo, patrón o transformación escrito específicamente en U8 es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
+- **EJERCICIOS:** todo protocolo, patrón o transformación escrito específicamente en esta unidad es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
 
 ## Fronteras
 
-U8 no:
+Esta unidad no:
 
 - prescribe offsets universales en milisegundos;
 - afirma que un estilo debe tocarse siempre delante o detrás;
 - confunde desviación accidental con microtiming intencional;
 - convierte la rejilla del DAW en criterio de musicalidad;
 - define swing como tresillo fijo;
-- sustituye el proyecto sostenido de chart/interacción/adaptación de U10;
+- sustituye el proyecto sostenido de chart/interacción/adaptación de Unidad 10;
 - declara alcanzado el Hito 7;
 - abre polirritmia, polimetría o modulación métrica profundas de Fase 7;
 - usa BPM universal como criterio de aprobación.

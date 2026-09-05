@@ -8,7 +8,7 @@ slug: construir-forma-integrada
 kind: lesson
 order: 2
 title: "Construir una forma integrada: agrupación, desplazamiento, métrica y tuplet"
-summary: "Integra J1–J4 en una miniatura formal donde cada fenómeno conserva su identidad y la complejidad termina en una resolución inequívoca."
+summary: "Integra agrupaciones dentro de 4/4–tuplets de 5 y 7 y divisiones no estándar en una miniatura formal donde cada fenómeno conserva su identidad y la complejidad termina en una resolución inequívoca."
 duration: 25–30 min
 competencies: [J9, J1, J2, J3, J4, G2, G4, G6, C1, C2, C3, D4, D6, F2, F3, E2, K2, K3, K5]
 rudiments: []
@@ -19,7 +19,7 @@ published: true
 
 Integrar varios recursos ya estudiados dentro de una forma breve **sin mezclarlos conceptualmente**.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u9/f7-u9-form-first-integration.musicxml" data-score-title="70.U9 — Forma primero: integración J1–J4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u9/f7-u9-form-first-integration.musicxml" data-score-title="Unidad 9 — Forma primero: integración agrupaciones dentro de 4/4–tuplets de 5 y 7 y divisiones no estándar" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## La miniatura
 
@@ -35,7 +35,7 @@ No pretende ser una obra completa. Es un **EJERCICIO ORIGINAL CREADO PARA ESTE C
 
 ## Por qué cada compás sigue siendo una categoría distinta
 
-### Compás 1 — J1
+### Compás 1 — agrupaciones dentro de 4/4
 
 Hay 16 semicorcheas dentro de 4/4.
 
@@ -45,13 +45,13 @@ La organización de acentos es:
 
 No ha cambiado el compás.
 
-### Compás 2 — J2
+### Compás 2 — desplazamientos de acento y motivo
 
 La rejilla sigue siendo la misma, pero los comienzos de grupo se desplazan una semicorchea.
 
 El material no se convierte por ello en 7/8 ni en polirritmia.
 
-### Compás 3 — J3
+### Compás 3 — métricas impares y mixtas
 
 Aquí sí cambia la duración escrita del compás:
 
@@ -59,7 +59,7 @@ Aquí sí cambia la duración escrita del compás:
 
 La agrupación `3+2` describe su organización interna, pero la métrica real es 5/4.
 
-### Compás 4 — J4
+### Compás 4 — tuplets de 5 y 7 y divisiones no estándar
 
 Regresa 4/4. El último pulso se divide en cinco partes iguales `5:4`.
 
@@ -88,9 +88,9 @@ El objetivo del chunking es volver al conjunto, no vivir indefinidamente en frag
 
 Después de tocar la miniatura, explica sin mirar notas:
 
-- qué hace que compás 1 sea J1;
+- qué hace que compás 1 sea agrupaciones dentro de 4/4;
 - qué cambia en compás 2;
-- por qué compás 3 es J3;
+- por qué compás 3 es métricas impares y mixtas;
 - qué ocupa exactamente el quintillo de compás 4.
 
 Si una explicación se vuelve ambigua, revisa la categoría antes de añadir más material.
@@ -176,4 +176,4 @@ Cuando haya kit:
 
 ## Criterio de avance
 
-Puedes ejecutar la miniatura manteniendo continuidad, identificar verbalmente J1/J2/J3/J4, recuperar tras un error y crear una variante donde la forma siga siendo más fácil de percibir que la lista de recursos empleados.
+Puedes ejecutar la miniatura manteniendo continuidad, identificar verbalmente agrupaciones dentro de 4/4/desplazamientos de acento y motivo/métricas impares y mixtas/tuplets de 5 y 7 y divisiones no estándar, recuperar tras un error y crear una variante donde la forma siga siendo más fácil de percibir que la lista de recursos empleados.

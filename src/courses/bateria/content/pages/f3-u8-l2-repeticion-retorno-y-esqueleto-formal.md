@@ -25,7 +25,7 @@ Los cuatro compases ejemplifican:
 
 `A → A’ → B → A`
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l2-form-skeleton.musicxml" data-score-title="30.U8.L2 — microforma de referencia" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l2-form-skeleton.musicxml" data-score-title="Lección 2 — microforma de referencia" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Es un **ejemplo analítico original**, no una plantilla universal. Tu pieza puede tener 1, 2, 3 o 4 compases si cumple su función.
 
@@ -79,6 +79,6 @@ A/A’/B, 2/4/8/16 compases y retorno son **herramientas pedagógicas**, no regl
 ## MÍNIMO PARA AVANZAR
 
 - puedes explicar qué función tiene cada segmento;
-- la forma cabe en 1–4 compases si estás trabajando el mínimo G4;
+- la forma cabe en 1–4 compases si estás trabajando el mínimo composición de piezas;
 - repetición y retorno son decisiones, no relleno automático;
 - puedes ejecutar la secuencia completa con continuidad razonable.

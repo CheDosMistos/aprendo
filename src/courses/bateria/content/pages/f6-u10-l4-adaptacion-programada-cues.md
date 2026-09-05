@@ -89,13 +89,13 @@ Modificas lo necesario y conservas el resto.
 
 ### Cue ignorado con criterio
 
-En interacción real puede existir información contradictoria. Una decisión musical avanzada no consiste en obedecer cualquier señal mecánicamente. En la simulación de U10, sin embargo, los cues definidos como parte de la tarea deben atenderse salvo que comprometan seguridad o exista una razón declarada.
+En interacción real puede existir información contradictoria. Una decisión musical avanzada no consiste en obedecer cualquier señal mecánicamente. En la simulación de esta unidad, sin embargo, los cues definidos como parte de la tarea deben atenderse salvo que comprometan seguridad o exista una razón declarada.
 
 ## Feel bajo adaptación
 
-U8 ya estableció que feel no es «desviarse una cantidad de milisegundos».
+Unidad 8 ya estableció que feel no es «desviarse una cantidad de milisegundos».
 
-En U10 comprueba si un cambio de densidad/dinámica conserva:
+En esta unidad comprueba si un cambio de densidad/dinámica conserva:
 
 - relación entre capas;
 - articulación;

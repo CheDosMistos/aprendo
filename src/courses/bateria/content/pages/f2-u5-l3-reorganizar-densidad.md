@@ -15,13 +15,13 @@ rudiments: []
 published: true
 ---
 
-L2 demostró que el pulso puede continuar mientras su interior cambia `2 ↔ 3`. L3 añade una tercera organización conocida de fases anteriores —**cuatro partes iguales**— y la integra en la misma lógica.
+Lección 2 demostró que el pulso puede continuar mientras su interior cambia `2 ↔ 3`. Lección 3 añade una tercera organización conocida de fases anteriores —**cuatro partes iguales**— y la integra en la misma lógica.
 
 > **MÁS ATAQUES DENTRO DEL PULSO NO SIGNIFICA MÁS TEMPO. EL PULSO SIGUE SIENDO LA REFERENCIA.**
 
-La novedad dominante es **encadenar `2 ↔ 3 ↔ 4` de forma lenta y consciente**. No buscamos velocidad máxima, sextillos ni una métrica nueva. Seguimos en 4/4; el compás compuesto será U6.
+La novedad dominante es **encadenar `2 ↔ 3 ↔ 4` de forma lenta y consciente**. No buscamos velocidad máxima, sextillos ni una métrica nueva. Seguimos en 4/4; el compás compuesto será Unidad 6.
 
-**ESENCIAL AHORA:** sostener C1 mientras cambia la densidad interna del pulso.
+**ESENCIAL AHORA:** sostener pulso interno mientras cambia la densidad interna del pulso.
 
 **AMPLIACIÓN:** reducir la longitud de bloques previsibles sin subir tempo.
 
@@ -29,7 +29,7 @@ La novedad dominante es **encadenar `2 ↔ 3 ↔ 4` de forma lenta y consciente*
 
 ## 1. Recuperar 2 ↔ 3 — 3 min
 
-Haz una única pasada breve de L2:
+Haz una única pasada breve de Lección 2:
 
 `2 2 2 2 | 3 3 3 3 | 2 2 2 2`
 
@@ -42,7 +42,7 @@ Comprueba sólo:
 - que puedes volver a 2 sin frenar;
 - que distingues **pulso** de **densidad interna**.
 
-Si hoy esta recuperación ya desorganiza C1, alarga los bloques y reduce tempo antes de añadir `4`. No necesitas “aprobar de nuevo” L2: necesitas una condición válida para introducir una sola capa nueva.
+Si hoy esta recuperación ya desorganiza pulso interno, alarga los bloques y reduce tempo antes de añadir `4`. No necesitas “aprobar de nuevo” Lección 2: necesitas una condición válida para introducir una sola capa nueva.
 
 ## 2. Añadir cuatro partes sin mover la negra — 5–6 min
 
@@ -75,7 +75,7 @@ Si cuatro partes son desiguales, no practiques todavía el cambio triple. Estabi
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-title="20.U5.L3 — 2 ↔ 3 ↔ 4: reorganizar densidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-title="Lección 3 — 2 ↔ 3 ↔ 4: reorganizar densidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l3-2-3-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de **Habilitar audio**, localiza las tres densidades y señala dónde se producen los cambios. Haz una pasada propia a tempo cómodo.
 
@@ -126,11 +126,11 @@ No hace falta convertirlo en azar perfecto. El objetivo es reducir la anticipaci
 
 Para cada secuencia registra tres capas:
 
-- **C1 — PULSO:** ¿la negra permanece estable?;
-- **C2/C3 — INTERIOR:** ¿cada bloque conserva partes razonablemente iguales?;
+- **PULSO:** ¿la negra permanece estable?;
+- **subdivisión binaria y ternaria/INTERIOR:** ¿cada bloque conserva partes razonablemente iguales?;
 - **TÉCNICA:** ¿sonido, bilateralidad y relajación sobreviven al cambio?
 
-Si colapsa C1, **reduce longitud o densidad antes de subir tempo**. Si C1 sobrevive pero una densidad concreta se deforma, trabaja esa organización de forma aislada durante unos pulsos y vuelve a insertarla.
+Si colapsa pulso interno, **reduce longitud o densidad antes de subir tempo**. Si pulso interno sobrevive pero una densidad concreta se deforma, trabaja esa organización de forma aislada durante unos pulsos y vuelve a insertarla.
 
 ### No conviertas densidad en velocidad
 
@@ -158,15 +158,15 @@ Registra:
 - variable limitante principal;
 - decisión: `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA`.
 
-Completar la página **no actualiza automáticamente C1, C2, C3, D3 ni ninguna otra competencia**. El BPM describe la condición; **BPM es condición, no competencia**.
+Completar la página **no actualiza automáticamente pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación ni ninguna otra competencia**. El BPM describe la condición; **BPM es condición, no competencia**.
 
-## MÍNIMO PARA AVANZAR A L4
+## MÍNIMO PARA AVANZAR A Lección 4
 
-Puedes abrir L4 cuando, con una condición cómoda:
+Puedes abrir Lección 4 cuando, con una condición cómoda:
 
 - sostienes una referencia de pulso reconocible al encadenar `2 ↔ 3 ↔ 4` lentamente;
 - realizas cada densidad con una igualdad interna suficiente para distinguir qué parte se deforma;
-- completas al menos una secuencia previsible y otra menos predecible sin perder sistemáticamente C1;
+- completas al menos una secuencia previsible y otra menos predecible sin perder sistemáticamente pulso interno;
 - puedes continuar o recuperarte después de un error local;
 - repites iniciando con ambas manos sin que un lado destruya de forma sistemática sonido o tiempo;
 - explicas por qué **más densidad no equivale a más tempo**.
@@ -179,27 +179,27 @@ No se exige:
 - dominar todas las secuencias propuestas;
 - sextillos;
 - 6/8;
-- primera vista formal D5;
+- primera vista formal forma y lectura de chart;
 - retirar todas las ayudas.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
 La tarea empieza a ser funcional cuando puedes reorganizar `2 ↔ 3 ↔ 4` en bloques cortos sin que la negra cambie sistemáticamente de velocidad, identificar qué densidad o transición limita el resultado y mantener control técnico suficiente en ambas direcciones.
 
-Eso **no declara C3 ni D3 FUNCIONALES globalmente**. L4 cambiará el tipo de representación —oír, escribir, leer y transformar— y el checkpoint decidirá si la organización temporal está suficientemente disponible para abrir U6.
+Eso **no declara cambios de subdivisión ni tuplets y ornamentación FUNCIONALES globalmente**. Lección 4 cambiará el tipo de representación —oír, escribir, leer y transformar— y la evaluación decidirá si la organización temporal está suficientemente disponible para abrir Unidad 6.
 
 ## AVANZADO EN ESTA TAREA
 
 Como ampliación, cambia de densidad cada pulso usando una de las rutas A–C y retira sólo una pista verbal. Mantén el mismo tempo.
 
-No añadas sextillos: **U8** los tratará como vocabulario propio. No conviertas el tresillo en 6/8: **U6** cambiará explícitamente el marco métrico. No uses click reducido ni gaps: **U10** tiene esa función.
+No añadas sextillos: **Unidad 8** los tratará como vocabulario propio. No conviertas el tresillo en 6/8: **Unidad 6** cambiará explícitamente el marco métrico. No uses click reducido ni gaps: **Unidad 10** tiene esa función.
 
 ## Si algo se rompe
 
 - **`4` acelera la negra:** vuelve a cuatro pulsos aislados de semicorcheas con click en negras;
 - **`3` se aplana al venir de `4`:** canta tres posiciones antes de tocar el cambio;
 - **el cambio correcto llega tarde:** alarga cada bloque a dos o cuatro pulsos antes de volver al cambio por pulso;
-- **C1 colapsa con una secuencia menos predecible:** vuelve a la ruta conocida; reduce novedad, no subas BPM;
+- **pulso interno colapsa con una secuencia menos predecible:** vuelve a la ruta conocida; reduce novedad, no subas BPM;
 - **una mano endurece el patrón:** baja altura, tempo o longitud y compara inicios R/L;
 - **el error local arrastra todo el compás:** recupera en el próximo pulso identificable en vez de reiniciar desde cero;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.

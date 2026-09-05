@@ -17,13 +17,13 @@ published: true
 
 ## Objetivo
 
-Dar el primer paso que U1 todavía prohibía: **repartir ataques dentro de la frase**.
+Dar el primer paso que Unidad 1 todavía prohibía: **repartir ataques dentro de la frase**.
 
 La novedad es espacial/tímbrica. El ritmo sigue siendo el mismo.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — MAPA R/L
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l2-rl-two-surfaces.musicxml" data-score-title="40.U2.L2 — R/L entre caja y tom" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l2-rl-two-surfaces.musicxml" data-score-title="Lección 2 — R/L entre caja y tom" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La misma secuencia de corcheas conserva su esqueleto temporal. En esta versión una mano permanece en caja y la otra se desplaza a un tom accesible.
 
@@ -69,7 +69,7 @@ Ejemplo:
 
 `R llega tarde al tom → recorrido demasiado grande → acerco/reduzco trayectoria y comparo`.
 
-Si el problema sigue siendo de acceso, vuelve al diagnóstico H1 de U1.
+Si el problema sigue siendo de acceso, vuelve al diagnóstico setup, ergonomía y ecología del kit de Unidad 1.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -81,4 +81,4 @@ Si el problema sigue siendo de acceso, vuelve al diagnóstico H1 de U1.
 
 ## Qué significa curricularmente
 
-Esto es trabajo real de **A8** y preparación del componente manual de B8/G5. No demuestra todavía coordinación H4 ni G5 MÍNIMO completo.
+Esto es trabajo real de **adaptación técnica entre superficies y kit** y preparación del componente manual de orquestación de rudimentos/improvisación restringida. No demuestra todavía coordinación básica de cuatro extremidades ni improvisación restringida MÍNIMO completo.

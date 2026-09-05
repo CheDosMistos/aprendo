@@ -15,11 +15,11 @@ rudiments: []
 published: true
 ---
 
-U2 preguntaba principalmente **dónde hay ataque** dentro de una rejilla. U3 añade una distinción nueva:
+Unidad 2 preguntaba principalmente **dónde hay ataque** dentro de una rejilla. Esta unidad añade una distinción nueva:
 
 > **ATAQUE ≠ DURACIÓN ≠ PULSO.**
 
-Una nota puede iniciar un golpe y su duración escrita puede continuar por otras posiciones **sin que tengas que volver a tocar**. La ligadura es la primera herramienta de U3 para hacer visible esa diferencia.
+Una nota puede iniciar un golpe y su duración escrita puede continuar por otras posiciones **sin que tengas que volver a tocar**. La ligadura es la primera herramienta de esta unidad para hacer visible esa diferencia.
 
 En un pad el sonido físico decae rápidamente. Eso no cambia la lectura: la notación puede extender la duración temporal del evento aunque tú sólo ejecutes **un ataque**. La tarea motora es saber dónde golpeas y dónde sigues contando sin reatacar.
 
@@ -27,15 +27,15 @@ En un pad el sonido físico decae rápidamente. Eso no cambia la lectura: la not
 **AMPLIACIÓN:** aplicar la misma idea dentro de la rejilla de semicorcheas ya conocida.  
 **AVANZADO:** explicar una línea completa separando nuevos ataques, duraciones y pulso sin añadir dificultad técnica.
 
-No introducimos todavía puntillos ni enseñamos la síncopa como concepto estructurado. Eso queda para L2 y L3.
+No introducimos todavía puntillos ni enseñamos la síncopa como concepto estructurado. Eso queda para Lección 2 y Lección 3.
 
-## 1. Recuperación U2 — 3 min
+## 1. Recuperación Unidad 2 — 3 min
 
-Recupera **los compases 1–2** de la rejilla de 20.U2.L1. Haz una sola toma breve sin escuchar antes el playback.
+Recupera **los compases 1–2** de la rejilla de Lección 1. Haz una sola toma breve sin escuchar antes el playback.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="20.U2.L1 — recuperación antes de introducir duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Lección 1 — recuperación antes de introducir duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Observa sólo tres cosas:
 
@@ -43,15 +43,15 @@ Observa sólo tres cosas:
 - si las posiciones silenciosas siguen teniendo lugar temporal;
 - si un error pequeño te permite continuar o recuperar la línea.
 
-No vuelvas a estudiar U2. Este bloque sólo recupera la rejilla sobre la que añadiremos una nueva pregunta.
+No vuelvas a estudiar Unidad 2. Este bloque sólo recupera la rejilla sobre la que añadiremos una nueva pregunta.
 
 ## 2. NÚCLEO — 10–12 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es material nuevo de U3. Introduce **ligaduras**, pero no puntillos, tuplets ni síncopa como objeto de estudio.
+La partitura siguiente es material nuevo de esta unidad. Introduce **ligaduras**, pero no puntillos, tuplets ni síncopa como objeto de estudio.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="20.U3.L1 — ataque y duración mediante ligaduras" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-title="Lección 1 — ataque y duración mediante ligaduras" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l1-ataque-duracion-ligaduras.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120 BPM` del MusicXML es sólo una referencia técnica de playback. **No es tempo inicial ni criterio de aprobado.** Elige una velocidad donde puedas contar la duración y decidir conscientemente si existe un nuevo ataque.
 
@@ -99,7 +99,7 @@ La ligadura modifica la relación entre notación y acción, no obliga a inventa
 
 ### AMPLIACIÓN — compás 4
 
-El compás 4 lleva la misma idea a dos semicorcheas ligadas dentro de la rejilla de cuatro posiciones que ya conoces de U2.
+El compás 4 lleva la misma idea a dos semicorcheas ligadas dentro de la rejilla de cuatro posiciones que ya conoces de Unidad 2.
 
 No cambies la regla:
 
@@ -151,7 +151,7 @@ Compara:
 
 Escucha antes de revelar la solución y decide si oyes uno o dos ataques dentro del pulso.
 
-<div data-rhythm-dictation data-bpm="56" data-subdivision="2" data-pattern="10" data-answer="Opción A — hay un solo ataque. La segunda posición no contiene reataque; en la lectura de L1 esa ausencia corresponde a la continuación de una ligadura."></div>
+<div data-rhythm-dictation data-bpm="56" data-subdivision="2" data-pattern="10" data-answer="Opción A — hay un solo ataque. La segunda posición no contiene reataque; en la lectura de Lección 1 esa ausencia corresponde a la continuación de una ligadura."></div>
 
 Después:
 
@@ -182,11 +182,11 @@ Interpreta la toma con la cadena aprobada:
 - **CONDICIONES:** tempo elegido, click, conteo, ayudas visibles y playback sólo después del intento;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud/carga.
 
-Completar la lección **no actualiza automáticamente** D2, F1/F2, C1/C2 ni el resto de competencias listadas.
+Completar la lección **no actualiza automáticamente** síncopa, teoría básica del pulso y las figuras/métrica y terminología rítmica, pulso interno/subdivisión binaria y ternaria ni el resto de competencias listadas.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L2 cuando, en material accesible y con ayuda razonable:
+Puedes pasar a Lección 2 cuando, en material accesible y con ayuda razonable:
 
 - localizas qué notas inician un nuevo ataque;
 - interpretas varias ligaduras sencillas sin golpear su segunda parte;
@@ -210,7 +210,7 @@ Sin añadir nueva notación, recorre la partitura completa y describe por separa
 - **golpeas cada cabeza de nota:** marca sólo los inicios reales de ataque y vuelve a una pareja ligada;
 - **dejas de contar cuando no golpeas:** externaliza pulso/subdivisión durante toda la duración;
 - **confundes ligadura con silencio:** recuerda que ambas pueden implicar ausencia de nuevo ataque, pero la ligadura prolonga la duración escrita del evento anterior;
-- **entiendes la ligadura pero las manos interfieren:** conserva sticking alternado sólo sobre ataques reales; no atribuyas automáticamente el fallo a D2;
+- **entiendes la ligadura pero las manos interfieren:** conserva sticking alternado sólo sobre ataques reales; no atribuyas automáticamente el fallo a síncopa;
 - **el audio te parece ambiguo:** úsalo únicamente para contar ataques y vuelve a la partitura para decidir cómo está escrita la duración.
 
 La siguiente lección introduce una segunda forma de representar duración sin añadir ataques: **el puntillo**.

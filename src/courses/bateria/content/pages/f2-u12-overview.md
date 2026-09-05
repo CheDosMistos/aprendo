@@ -9,13 +9,13 @@ kind: unit
 order: 0
 title: "Hito 2 y puente a Fase 3"
 summary: "Cierra Fase 2 observando lectura rítmica nueva sin dependencia de memoria previa y registra el perfil que continuará como mantenimiento o puente a Fase 3."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, D1, D2, D3, D4, D5, E1, E2, E3, E4, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-U12 no introduce una categoría central nueva. Su función es observar el **Hito 2** aprobado:
+Esta unidad no introduce una categoría central nueva. Su función es observar el **Hito 2** aprobado:
 
 > **Leer y reproducir material rítmico nuevo sin depender de que el patrón haya sido previamente memorizado.**
 
@@ -38,29 +38,29 @@ Una partitura protegida aporta evidencia de primera vista/Hito 2 sólo en su **p
 
 Por eso:
 
-- L2 usa una muestra de entrenamiento A;
-- L3 usa una muestra de entrenamiento B;
-- el checkpoint usa **dos assets exclusivos C y D**, nunca mostrados antes en U12.
+- Lección 2 usa una muestra de entrenamiento A;
+- Lección 3 usa una muestra de entrenamiento B;
+- la evaluación usa **dos materiales exclusivos C y D**, nunca mostrados antes en esta unidad.
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Qué mide y qué no mide el Hito 2
+### Lección 1 — Qué mide y qué no mide el Hito 2
 
 Prepara las condiciones de validez, distingue inspección de ensayo y separa continuidad de precisión.
 
-### L2 — Muestra protegida A: métrica simple conocida
+### Lección 2 — Muestra protegida A: métrica simple conocida
 
 Primera vista de material 4/4 original con vocabulario ya trabajado.
 
-### L3 — Muestra protegida B: métrica compuesta conocida
+### Lección 3 — Muestra protegida B: métrica compuesta conocida
 
 Transfiere el protocolo a 6/8 prototípico sin añadir un concepto nuevo de métrica.
 
-### L4 — Diagnóstico adicional y puente F3
+### Lección 4 — Diagnóstico adicional y puente forma y frase
 
 Microtarea de oído/escritura y lectura reflexiva del perfil: qué continúa como mantenimiento y qué prepara análisis, transcripción, desarrollo motívico y creatividad posterior.
 
-### Checkpoint — Hito 2
+### Evaluación — Hito 2
 
 Dos muestras nuevas independientes, una simple y una compuesta, más interpretación multidimensional de la evidencia.
 
@@ -70,8 +70,8 @@ Dos muestras nuevas independientes, una simple y una compuesta, más interpretac
 - BPM fijo;
 - métricas impares;
 - todos los ornamentos PAS;
-- C5 funcional;
-- E6 transcripción extensa;
+- click desplazado o no obvio funcional;
+- transcripción real transcripción extensa;
 - Hito 3 completo;
 - kit.
 

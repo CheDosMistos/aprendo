@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Esta lección **entrena el procedimiento de observación**. No es todavía el checkpoint final y no decide por sí sola el Hito 2.
+Esta lección **entrena el procedimiento de observación**. No es todavía la evaluación final y no decide por sí sola el Hito 2.
 
 > **LA MUESTRA A SÓLO ES NUEVA UNA VEZ.**
 
@@ -37,7 +37,7 @@ El BPM documenta la condición. **No es una nota.**
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-title="20.U12.L2 — muestra protegida A 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida A"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-title="Lección 2 — muestra protegida A 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l2-muestra-a-4-4.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida A"></div>
 
 Cuando pulses **Empezar**:
 
@@ -79,11 +79,11 @@ Después de la toma, explica sin mirar una respuesta escrita:
 
 ## 5. Feedback y correctivo
 
-Ahora sí puedes escuchar la referencia y volver a tocar la línea. Desde este momento **ya no aporta nueva evidencia independiente de D5/Hito 2**.
+Ahora sí puedes escuchar la referencia y volver a tocar la línea. Desde este momento **ya no aporta nueva evidencia independiente de forma y lectura de chart/Hito 2**.
 
 Si repites, etiqueta la repetición como práctica correctiva y elige una sola prioridad dominante.
 
-## MÍNIMO PARA AVANZAR A L3
+## MÍNIMO PARA AVANZAR A Lección 3
 
 - has preservado la novedad del primer intento;
 - produces observaciones separadas de precisión y continuidad;

@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Aplicar el procedimiento de U8 a un motivo rítmico propio ya creado antes de la llegada del kit.
+Aplicar el procedimiento de esta unidad a un motivo rítmico propio ya creado antes de la llegada del kit.
 
 No aparece aquí una partitura fija porque **tu motivo es el material fuente**. Inventar uno nuevo y presentarlo como tu composición anterior rompería la continuidad del curso.
 
@@ -78,9 +78,9 @@ Compara:
 
 ## Si tu motivo necesita refuerzo
 
-No inventes otro para “pasar” la lección. Puedes practicar el protocolo con la frase U2 de tres superficies y volver a tu motivo cuando esté recuperado.
+No inventes otro para “pasar” la lección. Puedes practicar el protocolo con la frase Unidad 2 de tres superficies y volver a tu motivo cuando esté recuperado.
 
-Eso no convierte el material U2 en una composición tuya.
+Eso no convierte el material Unidad 2 en una composición tuya.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -94,7 +94,7 @@ Eso no convierte el material U2 en una composición tuya.
 
 ## Frontera
 
-Una orquestación puede sonar a frase o transición, pero **U8 no la certifica como fill H6**. Tampoco entrena H7 como independencia sistemática.
+Una orquestación puede sonar a frase o transición, pero **esta unidad no la certifica como fill fills**. Tampoco entrena independencia sistemática avanzada.
 
 ## Registrar esta práctica
 

@@ -19,7 +19,7 @@ published: true
 
 Sentir, leer y ejecutar `7/8` como una barra de **siete corcheas**, controlando varias agrupaciones internas y conservando el siguiente `1`.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u3/f7-u3-odd-meter-models.musicxml" data-score-title="70.U3 — Modelos de 5/4 y 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u3/f7-u3-odd-meter-models.musicxml" data-score-title="Unidad 3 — Modelos de 5/4 y 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## La diferencia que ya no puede ser borrosa
 
@@ -28,7 +28,7 @@ El curso ya presentó la comparación entre:
 - `4/4` con superficie `3+3+2`: **8 corcheas**;
 - `7/8`: **7 corcheas**.
 
-En U3 no basta con reconocer la diferencia intelectualmente: debes poder **tocarla, escribirla y recuperarla**.
+En esta unidad no basta con reconocer la diferencia intelectualmente: debes poder **tocarla, escribirla y recuperarla**.
 
 ## Tres agrupaciones iniciales
 

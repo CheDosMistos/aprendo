@@ -23,7 +23,7 @@ Comprender y ejecutar **síncopas elementales** manteniendo el pulso de 4/4, y e
 
 Pulso, 4/4 y corcheas ya se trabajaron antes. Cuenta un compás de corcheas y toca únicamente los pulsos. Después toca únicamente los `&`.
 
-Si la rejilla desaparece cuando dejas de tocar el pulso, recupera durante 1–2 minutos C1/C2. Si está disponible, no vuelvas a estudiar esas definiciones.
+Si la rejilla desaparece cuando dejas de tocar el pulso, recupera durante 1–2 minutos pulso interno/subdivisión binaria y ternaria. Si está disponible, no vuelvas a estudiar esas definiciones.
 
 ## 2. Qué significa síncopa aquí — 4 min
 
@@ -70,7 +70,7 @@ Escribe un compás de 4/4 sobre ocho posiciones de corchea. Conserva cuatro ataq
 
 ## Diagnóstico
 
-Si sabes leer la célula pero al tocar pierdes el pulso, el cuello de botella puede estar en C1/C2/C4. Si mantienes el pulso pero no puedes explicar dónde cae el ataque, el problema puede ser de representación D1/D2. Prueba cada hipótesis por separado.
+Si sabes leer la célula pero al tocar pierdes el pulso, el cuello de botella puede estar en pulso interno/subdivisión binaria y ternaria/metrónomo y click reducido. Si mantienes el pulso pero no puedes explicar dónde cae el ataque, el problema puede ser de representación figuras, silencios y compás/síncopa. Prueba cada hipótesis por separado.
 
 ## Rutina estándar
 

@@ -22,7 +22,7 @@ Sentir y explicar la diferencia entre:
 - ocho corcheas que siguen formando **4/4**, aunque se acentúen `3+3+2`;
 - siete corcheas que forman realmente **7/8**, aquí agrupadas `2+2+3`.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u10/f5-u10-meter-vs-grouping.musicxml" data-score-title="50.U10 — 4/4 agrupado frente a 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u10/f5-u10-meter-vs-grouping.musicxml" data-score-title="Unidad 10 — 4/4 agrupado frente a 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 > **AGRUPAR DISTINTO NO CAMBIA AUTOMÁTICAMENTE EL COMPÁS.**
 

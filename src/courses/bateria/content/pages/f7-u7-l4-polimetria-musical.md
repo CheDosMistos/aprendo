@@ -82,7 +82,7 @@ Vuelve a 4/4 claro en el punto de realineación.
 
 ¿La vuelta a A' se percibe como consecuencia de la estructura o como un corte arbitrario?
 
-El objetivo es integrar J7 en forma, no exhibirlo aislado.
+El objetivo es integrar polimetría en forma, no exhibirlo aislado.
 
 ## Improvisación restringida
 
@@ -146,7 +146,7 @@ Mantén uno de los ciclos como ostinato simple e introduce caja sólo en posicio
 
 Orquesta cada métrica con timbre distinto para hacer perceptibles sus barras.
 
-No añadas coordinación de cuatro extremidades como requisito para considerar J7 funcional si puedes demostrar la competencia con manos, voz y/o dos extremidades.
+No añadas coordinación de cuatro extremidades como requisito para considerar polimetría funcional si puedes demostrar la competencia con manos, voz y/o dos extremidades.
 
 ## Aplicación sin kit
 
@@ -159,9 +159,9 @@ Con pad puedes trabajar plenamente:
 - composición de ciclos;
 - escucha de grabaciones propias.
 
-Esto respeta la decisión del mapa de no restringir artificialmente J7 al kit.
+Esto respeta la decisión del mapa de no restringir artificialmente polimetría al kit.
 
-## Frontera con J8
+## Frontera con modulación métrica
 
 En todos estos ejercicios:
 
@@ -169,7 +169,7 @@ En todos estos ejercicios:
 - no aparece un nuevo tempo calculado;
 - la realineación es consecuencia de ciclos métricos diferentes.
 
-Si tomamos una subdivisión o ataque de una relación previa y lo reinterpretamos como **nuevo pulso**, entraremos en **modulación métrica**, objeto de U8.
+Si tomamos una subdivisión o ataque de una relación previa y lo reinterpretamos como **nuevo pulso**, entraremos en **modulación métrica**, objeto de Unidad 8.
 
 ## Recuperación musical
 
@@ -181,7 +181,7 @@ Si una capa colapsa durante una forma:
 4. reintroduce la capa perdida en un `1` correcto;
 5. continúa hasta la resolución prevista.
 
-No reinicies ambas capas por reflejo: eso borra precisamente la competencia de J7.
+No reinicies ambas capas por reflejo: eso borra precisamente la competencia de polimetría.
 
 ## Criterio de avance
 

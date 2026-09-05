@@ -19,7 +19,7 @@ published: true
 
 Sostener un bloque más largo con el groove conocido, conservando backbeat, forma y eficiencia física.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="50.U3.L3 — CORE para continuidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u3/f5-u3-l1-eighth-backbeat-core.musicxml" data-score-title="Lección 3 — CORE para continuidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Ventana punk, no caricatura
 
@@ -59,7 +59,7 @@ No conviertas “economía” en inmovilidad. El criterio es **resultado + ausen
 
 Al final de un bloque preparado, inserta el Fill A conocido `4 &` y aterriza en el siguiente 1.
 
-No añadas un fill nuevo. U3 está evaluando continuidad dentro de lenguaje/formato, no vocabulario de fills.
+No añadas un fill nuevo. Esta unidad está evaluando continuidad dentro de lenguaje/formato, no vocabulario de fills.
 
 ## AMPLIACIÓN — doble-time preparado
 

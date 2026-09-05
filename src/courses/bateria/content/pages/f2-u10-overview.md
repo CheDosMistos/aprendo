@@ -9,21 +9,21 @@ kind: unit
 order: 0
 title: "Referencia temporal menos explícita"
 summary: "Reduce gradualmente la densidad del click sobre lectura ya conocida para observar referencia interna, sin confundir dificultad temporal con dificultad notacional."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C4, C5, D1, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-U10 cambia una sola variable central: **la cantidad de información temporal que entrega el metrónomo**.
+Esta unidad cambia una sola variable central: **la cantidad de información temporal que entrega el metrónomo**.
 
-La lectura utilizada debe ser deliberadamente conocida y controlada. Si la línea es nueva o notacionalmente difícil, el resultado deja de decir con claridad si el problema está en C4/C5 o en lectura.
+La lectura utilizada debe ser deliberadamente conocida y controlada. Si la línea es nueva o notacionalmente difícil, el resultado deja de decir con claridad si el problema está en metrónomo y click reducido/click desplazado o no obvio o en lectura.
 
 **DECISIÓN CURRICULAR RAZONADA INFORMADA POR EVIDENCIA EXTRAPOLADA:** usar click menos frecuente, posiciones parciales o gaps sencillos es una progresión pedagógica razonable derivada de principios de sincronización sensorimotora y aprendizaje motor. No se presenta como un protocolo cuya superioridad haya sido demostrada específicamente para bateristas.
 
 ## Puerta de entrada
 
-C1/C2 deben estar suficientemente estables **en la tarea concreta**. No se entra en click reducido por calendario.
+pulso interno/subdivisión binaria y ternaria deben estar suficientemente estables **en la tarea concreta**. No se entra en click reducido por calendario.
 
 Si al retirar referencia se desorganizan pulso y subdivisión de forma global:
 
@@ -31,29 +31,29 @@ Si al retirar referencia se desorganizan pulso y subdivisión de forma global:
 
 Es simplemente un ajuste de dificultad.
 
-## Arquitectura de U10
+## Recorrido de la unidad
 
-### L1 — De cada pulso a 2 y 4
+### Lección 1 — De cada pulso a 2 y 4
 
 Compara la misma línea con click convencional y con referencia únicamente en los pulsos 2 y 4 de 4/4. La notación no cambia.
 
-### L2 — Half-time: 1 y 3
+### Lección 2 — Half-time: 1 y 3
 
 Mantén el mismo BPM interno y la misma lectura, pero recibe sólo dos apoyos por compás: 1 y 3.
 
-### L3 — Gap sencillo: un compás con click / uno sin
+### Lección 3 — Gap sencillo: un compás con click / uno sin
 
 El metrónomo desaparece durante un compás completo y vuelve en el siguiente. La pregunta es si tu pulso interno permite que el reencuentro ocurra sin una corrección brusca.
 
-### L4 — Elegir la referencia mínima útil
+### Lección 4 — Elegir la referencia mínima útil
 
 Compara modos y decide cuál ofrece desafío útil sin destruir la tarea. La reducción de ayuda no es una escalera obligatoria ni una insignia de nivel.
 
-### Checkpoint — Puerta de referencia interna inicial
+### Evaluación — Puerta de referencia interna inicial
 
 Observa una misma lectura conocida bajo referencia completa y una condición reducida apropiada. Registra estabilidad, continuidad, corrección al reaparecer el click y variable limitante.
 
-## Modos del metrónomo disponibles en U10
+## Modos del metrónomo disponibles en esta unidad
 
 En 4/4, el selector **Referencia** ofrece:
 
@@ -62,15 +62,15 @@ En 4/4, el selector **Referencia** ofrece:
 - `Half-time · 1 y 3 · 4/4`;
 - `Gap · 1 compás sí / 1 no · 4/4`.
 
-Los modos reducidos no se habilitan automáticamente en otros compases. U10 no necesita generalizar todavía esta herramienta a toda métrica.
+Los modos reducidos no se habilitan automáticamente en otros compases. Esta unidad no necesita generalizar todavía esta herramienta a toda métrica.
 
-## Qué NO añade U10
+## Qué NO añade esta unidad
 
 - símbolos nuevos de lectura;
 - nueva familia PAS;
-- primera vista como dificultad central — U9 ya la introdujo;
-- desplazamiento sistemático del click C6;
-- microtiming profundo C7;
+- primera vista como dificultad central — Unidad 9 ya la introdujo;
+- desplazamiento sistemático del click click con gaps;
+- microtiming profundo microtiming y placement;
 - polirritmia, polimetría o modulación métrica;
 - BPM de aprobado.
 
@@ -96,4 +96,4 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-Completar U10 no convierte automáticamente C5 en `FUNCIONAL`.
+Completar esta unidad no convierte automáticamente click desplazado o no obvio en `FUNCIONAL`.

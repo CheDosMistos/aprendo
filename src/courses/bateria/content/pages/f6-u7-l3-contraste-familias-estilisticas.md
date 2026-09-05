@@ -21,7 +21,7 @@ Aplicar la comparación funcional a más de un par de estilos y reconocer qué e
 
 ## 1. La unidad no enseña diez estilos a la vez
 
-El Documento Fundacional prevé rock/pop, blues/shuffle, funk/soul/R&B, jazz, reggae, Afro-Cuban/Brazilian/Latin, punk, metal, fusion y progressive. U7 **no pretende dominar esa lista**.
+El curso contempla rock/pop, blues/shuffle, funk/soul/R&B, jazz, reggae, Afro-Cuban/Brazilian/Latin, punk, metal, fusion y progressive. Esta unidad **no pretende dominar esa lista**.
 
 La estrategia es trabajar con **muestras contrastantes verificadas** y aprender un procedimiento que después pueda reutilizarse.
 
@@ -73,7 +73,7 @@ No atribuyas una célula propia a una tradición histórica. Si el ejercicio es 
 ## 6. Recursos documentados
 
 - Berklee PFSS-342 estudia jazz, rock, funk, fusion, Brazilian, Latin, reggae y otros estilos junto con sus influencias.
-- Berklee ILPD-211 trabaja time-feels y repertorio de Brasil y Cuba, revisa también otros contextos caribeños y propone crear beats de drumset a partir de patrones de percusión de mano. U7 usa este ejemplo sólo para documentar que la adaptación entre soportes puede ser una práctica pedagógica real; no copia sus patrones.
+- Berklee ILPD-211 trabaja time-feels y repertorio de Brasil y Cuba, revisa también otros contextos caribeños y propone crear beats de drumset a partir de patrones de percusión de mano. Esta unidad usa este ejemplo sólo para documentar que la adaptación entre soportes puede ser una práctica pedagógica real; no copia sus patrones.
 - Hudson Music `Groove Essentials` ofrece un mapa transversal de rock, jazz, funk/R&B, reggae, bossa nova, samba, mambo y otros contextos con play-alongs; permanece como recurso comercial opcional.
 
 ## Errores frecuentes
@@ -82,7 +82,7 @@ No atribuyas una célula propia a una tradición histórica. Si el ejercicio es 
 - decidir por nombre antes de escuchar;
 - copiar una superficie y afirmar que la transferencia está conseguida;
 - atribuir autenticidad por complejidad;
-- usar microtiming como receta antes de U8;
+- usar microtiming como receta antes de Unidad 8;
 - confundir influencia histórica con identidad completa.
 
 ## Rutina estándar

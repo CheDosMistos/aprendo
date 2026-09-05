@@ -21,7 +21,7 @@ Construir una referencia de ride estable y relajada que pueda sostener música, 
 
 ## ESENCIAL AHORA
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u8/f5-u8-time-comping.musicxml" data-score-title="50.U8 — Time jazz y respuesta elemental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u8/f5-u8-time-comping.musicxml" data-score-title="Unidad 8 — Time jazz y respuesta elemental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Trabaja primero el **compás A**.
 

@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: retencion-recuperacion-material-anterior
 kind: lesson
 order: 2
-title: "U12.L2 — Retención: recuperar material anterior sin enmascarar la prueba"
+title: "Esta unidad.Lección 2 — Retención: recuperar material anterior sin enmascarar la prueba"
 summary: "Comprueba qué reaparece tras separación sin reconstruir justo antes la tarea objetivo, distinguiendo activación segura, rendimiento preparado y recuperación realmente informativa."
 duration: 1–2 sesiones
 competencies: [K4, K5, K6, K8, I3, I4, C7, D7, H7]
@@ -25,7 +25,7 @@ La pregunta es:
 
 ## Calentamiento físico ≠ ensayo específico
 
-U12 no pide tocar físicamente en frío.
+Esta unidad no pide tocar físicamente en frío.
 
 Puedes hacer una activación segura de:
 
@@ -77,10 +77,10 @@ Elige material anterior que cumpla:
 
 Puede proceder de:
 
-- R1 — una sección aprendida desde audio;
-- R2 — una forma/chart conocido;
-- R3 — una adaptación estilística ya trabajada;
-- R4 — una solución del proyecto autónomo;
+- Escucha y transcripción — una sección aprendida desde audio;
+- Chart y lectura — una forma/chart conocido;
+- Transferencia entre estilos — una adaptación estilística ya trabajada;
+- Proyecto autónomo — una solución del proyecto autónomo;
 - otra competencia de apoyo que necesite evidencia de mantenimiento.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Recuperación representativa»

@@ -35,7 +35,7 @@ La reproducción alterna:
 
 `LLAMADA 1 → 1 compás silencioso para tu respuesta → LLAMADA 2 → 1 compás silencioso para tu respuesta`
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l2-call-response.musicxml" data-score-title="30.U7.L2 — llamadas y espacios de respuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l2-call-response.musicxml" data-score-title="Lección 2 — llamadas y espacios de respuesta" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Los compases silenciosos **no son pausas fuera del tiempo**: son tu espacio de improvisación dentro de 4/4.
 

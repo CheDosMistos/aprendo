@@ -29,9 +29,9 @@ Mover una nota a un tom puede reforzar un acento, pero no convierte “tom” en
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — ACENTO → OPCIÓN DE TIMBRE
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="40.U2.L3 — Acento convertido en opción de timbre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="Lección 3 — Acento convertido en opción de timbre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-La partitura distribuye algunos ataques acentuados a un tom y mantiene los ataques bajos en caja. Compárala con la versión base de L1.
+La partitura distribuye algunos ataques acentuados a un tom y mantiene los ataques bajos en caja. Compárala con la versión base de Lección 1.
 
 ## Prueba A — Dinámica en caja
 

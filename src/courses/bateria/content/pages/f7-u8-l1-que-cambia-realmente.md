@@ -27,9 +27,9 @@ Al terminar debes poder mirar una transición y contestar tres preguntas:
 2. ¿qué era antes?;
 3. ¿qué pasa a significar después?
 
-## Punto de partida: J4 no era J8
+## Punto de partida: tuplets de 5 y 7 y divisiones no estándar no era modulación métrica
 
-En U4 aprendiste a alternar subdivisiones manteniendo la negra estable.
+En Unidad 4 aprendiste a alternar subdivisiones manteniendo la negra estable.
 
 Por ejemplo, en una negra podían caber:
 
@@ -43,7 +43,7 @@ La regla era:
 
 > **cambia la densidad, no cambia la negra.**
 
-En J8 utilizaremos una de esas subdivisiones como **puente** y construiremos con ella una negra diferente.
+En modulación métrica utilizaremos una de esas subdivisiones como **puente** y construiremos con ella una negra diferente.
 
 ## Dos cambios que pueden sonar parecidos
 
@@ -112,7 +112,7 @@ No memorices esto sin entender el mecanismo. La relación nace de **contar unida
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — B: clasificar sin tocar
 
-Para cada situación, escribe `J8` o `NO J8` y justifica:
+Para cada situación, escribe `modulación métrica` o `NO modulación métrica` y justifica:
 
 1. `120 → 180 BPM` porque lo indica el metrónomo.
 2. corchea de tresillo antigua = corchea nueva; `120 → 180`.
@@ -122,15 +122,15 @@ Para cada situación, escribe `J8` o `NO J8` y justifica:
 
 ### Solución razonada
 
-1. **NO J8:** falta puente explícito.
-2. **J8:** existe igualdad y el nuevo tempo está determinado.
-3. **NO J8:** es cambio de subdivisión con pulso estable.
-4. **NO J8 por sí solo:** es una relación polirrítmica si las capas son simultáneas; podría servir como material preparatorio, pero no hay reinterpretación secuencial del pulso.
-5. **J8:** si la duración se conserva realmente y define el nuevo pulso.
+1. **NO modulación métrica:** falta puente explícito.
+2. **modulación métrica:** existe igualdad y el nuevo tempo está determinado.
+3. **NO modulación métrica:** es cambio de subdivisión con pulso estable.
+4. **NO modulación métrica por sí solo:** es una relación polirrítmica si las capas son simultáneas; podría servir como material preparatorio, pero no hay reinterpretación secuencial del pulso.
+5. **modulación métrica:** si la duración se conserva realmente y define el nuevo pulso.
 
 ## El error más importante
 
-Un alumno puede terminar exactamente a `180 BPM` y aun así fallar J8.
+Un alumno puede terminar exactamente a `180 BPM` y aun así fallar modulación métrica.
 
 Si durante la transición la duración puente se deforma y sólo “aterrizas” después en 180, has hecho dos cosas correctas separadas:
 

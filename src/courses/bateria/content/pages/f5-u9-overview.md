@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: capas con fuente específica
 
-U9 no enseña un supuesto **“groove latino”**. Enseña a reconocer de dónde procede una capa, qué función cumple y qué se pierde cuando se traslada al drum set.
+Esta unidad no enseña un supuesto **“groove latino”**. Enseña a reconocer de dónde procede una capa, qué función cumple y qué se pierde cuando se traslada al drum set.
 
 > **BRAZILIAN ≠ AFRO-CUBAN ≠ “LATIN GENÉRICO”.**
 
@@ -48,10 +48,10 @@ Sería fácil fabricar dos compases plausibles y llamarlos “samba” o “Lati
 
 ## Ruta
 
-1. **L1 — Procedencia antes que patrón:** distinguir familia, función, instrumento y fuente.
-2. **L2 — Samba como sistema de capas:** traducir funciones al kit sin declarar auténtico un ejercicio preparatorio.
-3. **L3 — Clave y capas afro-cubanas:** orientar 2-3/3-2 y sostener una capa de apoyo sin perder la referencia.
-4. **L4 — Transferencia comparada:** cambiar de tradición sin mezclar vocabularios ni borrar la forma.
+1. **Lección 1 — Procedencia antes que patrón:** distinguir familia, función, instrumento y fuente.
+2. **Lección 2 — Samba como sistema de capas:** traducir funciones al kit sin declarar auténtico un ejercicio preparatorio.
+3. **Lección 3 — Clave y capas afro-cubanas:** orientar 2-3/3-2 y sostener una capa de apoyo sin perder la referencia.
+4. **Lección 4 — Transferencia comparada:** cambiar de tradición sin mezclar vocabularios ni borrar la forma.
 
 ## Salida mínima
 
@@ -62,4 +62,4 @@ Puedes reproducir **al menos un elemento esencial correctamente contextualizado*
 - qué instrumento o capa representa;
 - qué parte del ejercicio es tradición documentada y qué parte es adaptación Aprendo.
 
-No se exige dominar samba, mambo, salsa ni el universo “Latin”. **No existe BPM de aprobado y no hay checkpoint global nuevo.**
+No se exige dominar samba, mambo, salsa ni el universo “Latin”. **No existe BPM de aprobado y no hay Evaluación global nuevo.**

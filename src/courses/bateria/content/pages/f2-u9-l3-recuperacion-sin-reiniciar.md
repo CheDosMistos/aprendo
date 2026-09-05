@@ -19,7 +19,7 @@ En modo laboratorio puedes detenerte y corregir. En primera vista, detenerte ant
 
 > **ERROR LOCAL ≠ OBLIGACIÓN DE VOLVER AL PRINCIPIO.**
 
-La habilidad nueva de L3 es conservar suficiente mapa temporal para encontrar un punto de reentrada razonable.
+La habilidad nueva de Lección 3 es conservar suficiente mapa temporal para encontrar un punto de reentrada razonable.
 
 ## 1. Qué significa recuperarse — 3 min
 
@@ -44,11 +44,11 @@ Antes de pulsar **Empezar**, decide una sola regla:
 
 No necesitas saber dónde estará ese punto en esta partitura; todavía está oculta. La estrategia es general, no una memorización de la línea.
 
-## 3. Muestra protegida L3 — 8–10 min
+## 3. Muestra protegida Lección 3 — 8–10 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-title="20.U9.L3 — recuperación sin reiniciar" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida L3"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-title="Lección 3 — recuperación sin reiniciar" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l3-recuperacion-sin-reiniciar.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 3"></div>
 
 Al pulsar **Empezar**:
 
@@ -91,7 +91,7 @@ Usa material **ya conocido**, no la muestra de primera vista, y practica esta se
 
 `TOCAR → OMITIR DELIBERADAMENTE UN ATAQUE → MANTENER PULSO → REENTRAR EN EL SIGUIENTE PULSO`.
 
-Esto es un **ejercicio correctivo**, no evidencia D5. Su función es entrenar la conducta de recuperación sin contaminar una muestra nueva.
+Esto es un **ejercicio correctivo**, no evidencia forma y lectura de chart. Su función es entrenar la conducta de recuperación sin contaminar una muestra nueva.
 
 ## 7. Evidencia y decisión — 2–3 min
 
@@ -101,7 +101,7 @@ No confundas:
 
 - recuperación observada en una muestra;
 - precisión de esa muestra;
-- dominio global de D5.
+- dominio global de forma y lectura de chart.
 
 Decisiones:
 
@@ -110,7 +110,7 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L4
+## MÍNIMO PARA AVANZAR A Lección 4
 
 - intentas continuar ante errores pequeños en vez de reiniciar automáticamente;
 - puedes nombrar un punto de reentrada métrico razonable;
@@ -123,8 +123,8 @@ No se exige:
 
 - recuperar siempre en el siguiente pulso;
 - cero errores;
-- click reducido o gaps — U10;
-- D5 `FUNCIONAL` por una sola toma.
+- click reducido o gaps — Unidad 10;
+- forma y lectura de chart `FUNCIONAL` por una sola toma.
 
 ## COMPETENTE EN ESTA TAREA
 

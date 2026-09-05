@@ -8,7 +8,7 @@ slug: leccion-4-integracion-lectura-oido
 kind: lesson
 order: 4
 title: "Lección 4 — Lectura, oído y recuperación integrada"
-summary: Integra lectura nueva, reconocimiento auditivo de 3+3+2, cambios de subdivisión y recuperación selectiva de los cuatro PAS de U4.
+summary: Integra lectura nueva, reconocimiento auditivo de 3+3+2, cambios de subdivisión y recuperación selectiva de los cuatro PAS de esta unidad.
 duration: 25–30 min
 competencies: [B5, B6, C1, C2, C3, D1, D3, E2, E3, F1, F2, J1, K4, K6]
 rudiments: [Thirteen Stroke Roll, Fifteen Stroke Roll, Seventeen Stroke Roll, Six Stroke Roll]
@@ -18,7 +18,7 @@ published: true
 
 ## Objetivo
 
-Comprobar U4 con material realmente nuevo y sin convertir la sesión en cuatro mini-exámenes de rudimentos.
+Comprobar esta unidad con material realmente nuevo y sin convertir la sesión en cuatro mini-exámenes de rudimentos.
 
 ## Antes de empezar — 2 min
 
@@ -28,11 +28,11 @@ No reaprendas figuras, tresillos, acentos ni 3+3+2. Comprueba solo dos cosas: pu
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/u4/lectura-u4-nueva.musicxml" data-score-title="Lectura U4 — cambios y agrupación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u4/lectura-u4-nueva.musicxml" data-score-title="Lectura esta unidad — cambios y agrupación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Haz **VER → CONTAR → CANTAR → TOCAR → ESCUCHAR**. La línea combina material ya conocido con cambios de densidad y un compás de agrupación 3+3+2. No memorices la partitura antes de leerla.
 
-Si puedes tocarla pero no explicar dónde cambia la subdivisión, la ejecución no demuestra todavía representación suficiente de C3.
+Si puedes tocarla pero no explicar dónde cambia la subdivisión, la ejecución no demuestra todavía representación suficiente de cambios de subdivisión.
 
 ## 2. Escuchar antes de ver — 5 min
 
@@ -46,7 +46,7 @@ Después revela la solución y explica por qué sigue siendo compatible con 4/4.
 
 ## 3. Recuperación selectiva de PAS — 8 min
 
-Elige **dos** de los cuatro PAS de U4 al azar o por contraste. Tócalos sin calentarlos específicamente, consulta PAS y registra:
+Elige **dos** de los cuatro PAS de esta unidad al azar o por contraste. Tócalos sin calentarlos específicamente, consulta PAS y registra:
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
@@ -79,4 +79,4 @@ Marca cada afirmación como **sí / parcialmente / todavía no**:
 - 4 min transferencia;
 - 2 min registro.
 
-No necesitas obtener “sí” en todo para abrir el checkpoint; los pendientes deben quedar diagnosticados.
+No necesitas obtener “sí” en todo para abrir la evaluación; los pendientes deben quedar diagnosticados.

@@ -26,11 +26,11 @@ Al terminar debes poder responder antes de tocar:
 - ¿qué recurso será dominante?;
 - ¿cómo sabré que la idea ha resuelto?;
 
-## J9 no es “J1 + J2 + … + J8”
+## integración progresiva y experimental no es “agrupaciones dentro de 4/4 + desplazamientos de acento y motivo + … + modulación métrica”
 
-Una estructura puede ser plenamente J9 usando sólo dos recursos si están integrados con intención.
+Una estructura puede ser plenamente integración progresiva y experimental usando sólo dos recursos si están integrados con intención.
 
-También puede no ser J9 aunque contenga cinco técnicas, si éstas aparecen como una lista sin relación formal.
+También puede no ser integración progresiva y experimental aunque contenga cinco técnicas, si éstas aparecen como una lista sin relación formal.
 
 Ejemplo:
 
@@ -38,7 +38,7 @@ Ejemplo:
 - compases 5–7: ciclo trans-barra que aumenta tensión;
 - compás 8: resolución clara.
 
-Aquí J5 tiene una **función formal**. No está colocado sólo para demostrar que puedes hacerlo.
+Aquí ciclos que cruzan compases tiene una **función formal**. No está colocado sólo para demostrar que puedes hacerlo.
 
 ## Cuatro decisiones antes de tocar
 
@@ -70,7 +70,7 @@ El recurso puede servir para:
 
 Escoge uno:
 
-`J1 / J2 / J3 / J4 / J5 / J6 / J7 / J8`
+`agrupaciones dentro de 4/4 / desplazamientos de acento y motivo / métricas impares y mixtas / tuplets de 5 y 7 y divisiones no estándar / ciclos que cruzan compases / polirritmia / polimetría / modulación métrica`
 
 No elijas todavía tres “por si acaso”.
 
@@ -92,7 +92,7 @@ Escribe cuatro líneas:
 
 1. **FORMA:** `A A B A`, `4+4`, `3+3+2 compases`, etc.
 2. **FUNCIÓN:** una frase breve: “crear tensión antes del regreso”.
-3. **RECURSO:** uno de J1–J8.
+3. **RECURSO:** uno de los recursos rítmicos trabajados en las unidades anteriores.
 4. **SALIDA:** “resolver en el 1 del compás 8”.
 
 Después toca una versión mínima.
@@ -141,14 +141,14 @@ En modo interpretación, el criterio cambia:
 
 Antes de integrar un recurso, nómbralo correctamente.
 
-- acentos `3+3+2` dentro de 4/4 → J1;
-- misma célula movida de posición → J2;
-- 7/8 real → J3;
-- cinco partes iguales dentro del pulso → J4;
-- célula que continúa cruzando barras → J5;
-- dos capas rítmicas simultáneas → J6;
-- dos ciclos métricos simultáneos → J7;
-- una duración se convierte en nueva unidad de pulso → J8.
+- acentos `3+3+2` dentro de 4/4 → agrupaciones dentro de 4/4;
+- misma célula movida de posición → desplazamientos de acento y motivo;
+- 7/8 real → métricas impares y mixtas;
+- cinco partes iguales dentro del pulso → tuplets de 5 y 7 y divisiones no estándar;
+- célula que continúa cruzando barras → ciclos que cruzan compases;
+- dos capas rítmicas simultáneas → polirritmia;
+- dos ciclos métricos simultáneos → polimetría;
+- una duración se convierte en nueva unidad de pulso → modulación métrica.
 
 Si no sabes qué fenómeno estás usando, vuelve a su unidad antes de integrarlo.
 

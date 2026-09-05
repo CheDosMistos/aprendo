@@ -27,7 +27,7 @@ Fuente de tradición pedagógica: [Alfred Music — Getting to the Heart of the 
 
 ## ESENCIAL AHORA
 
-Vuelve al **compás A** de la partitura de L1.
+Vuelve al **compás A** de la partitura de Lección 1.
 
 1. ride solo;
 2. ride + pie únicamente en `2`;
@@ -48,9 +48,9 @@ Si el hi-hat de pie exige demasiada atención:
 
 No conviertas un `chick` fuerte en objetivo estético universal. El balance depende del contexto, el instrumento y la música.
 
-## H7 contextual
+## independencia avanzada contextual
 
-Aquí H7 significa mantener una capa principal mientras una segunda capa sencilla se añade sin perturbarla. No es independencia abstracta avanzada.
+Aquí independencia avanzada significa mantener una capa principal mientras una segunda capa sencilla se añade sin perturbarla. No es independencia abstracta avanzada.
 
 ### Laboratorio de retirada
 

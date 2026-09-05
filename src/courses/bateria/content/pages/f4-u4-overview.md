@@ -9,17 +9,17 @@ kind: unit
 order: 0
 title: "Hi-hat de pie: cerrar, abrir y sostener referencia"
 summary: "Convierte el pie izquierdo en una referencia simple y controlada sin adelantar independencia ni groove."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H3, H1, C1, K2, K7]
 rudiments: []
 published: true
 ---
 
-## Rama paralela: H3
+## Rama paralela: hi-hat de pie
 
-U4 no es “la segunda mitad” de U3. El mapa hace **H2 bombo y H3 hi-hat de pie ramas paralelas tras H1**. Esta unidad **no exige bombo** como prerrequisito.
+Esta unidad no es “la segunda mitad” de Unidad 3. El recorrido trata **bombo y hi-hat de pie como ramas paralelas después de setup, ergonomía y ecología del kit**. Esta unidad **no exige bombo** como prerrequisito.
 
-La novedad dominante es H3:
+La novedad dominante es hi-hat de pie:
 
 > **mantener aperturas/cierres u ostinatos simples.**
 
@@ -41,26 +41,26 @@ Observaremos:
 
 `CONTROL / SONIDO / TIMING / BALANCE / TENSIÓN / RETORNO`
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Abrir, cerrar y producir chick
+### Lección 1 — Abrir, cerrar y producir chick
 Control aislado del pedal y del estado del hi-hat.
 
-### L2 — Mecánica y presión: opciones, no dogmas
+### Lección 2 — Mecánica y presión: opciones, no dogmas
 Comparas sólo lo que ayude a controlar la tarea.
 
-### L3 — Chick como ostinato simple
+### Lección 3 — Chick como ostinato simple
 Negras esenciales; 2 y 4 como ampliación de colocación temporal.
 
-### L4 — Referencia de pie bajo manos conocidas
+### Lección 4 — Referencia de pie bajo manos conocidas
 Dos manos en una tarea elemental ya conocida + pie izquierdo en negras.
 
-### Checkpoint — Hi-hat de pie disponible
-Demuestra H3 MÍNIMO sin exigir bombo, groove, H4 o H7.
+### Evaluación — Hi-hat de pie disponible
+Demuestra el mínimo requerido de hi-hat de pie sin exigir bombo, groove, coordinación de cuatro extremidades o independencia avanzada.
 
 ## Frontera
 
-Una primera tarea de tres extremidades puede aparecer en L4, pero **no certifica H4**: exposición no equivale a H4 MÍNIMO. U6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
+Una primera tarea de tres extremidades puede aparecer en Lección 4, pero **no certifica coordinación básica de cuatro extremidades**: exposición no equivale a alcanzar el MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.
 
 ## Criterio de salida
 

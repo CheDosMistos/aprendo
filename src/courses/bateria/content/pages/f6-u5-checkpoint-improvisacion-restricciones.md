@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-5
 slug: checkpoint-improvisacion-con-restricciones
 kind: checkpoint
 order: 5
-title: "Checkpoint — Improvisación con restricciones"
+title: "Evaluación — Improvisación con restricciones"
 summary: "Demuestra que puedes elegir, variar, escuchar y revisar vocabulario dentro de una forma corta sin perder pulso, intención ni las restricciones declaradas."
 duration: 20–30 min
 competencies: [G1, G2, G3, I2, H5, H6, F3, F7, C2, B7, B8, K2, K5]
@@ -17,7 +17,7 @@ published: true
 
 ## Qué evalúa
 
-Este checkpoint no evalúa cuántos licks conoces, cuánto puedes densificar ni si «dominas» funk o jazz. Evalúa una competencia más transferible:
+Esta evaluación no evalúa cuántos licks conoces, cuánto puedes densificar ni si «dominas» funk o jazz. Evalúa una competencia más transferible:
 
 > **IMPROVISAR O VARIAR MATERIAL DENTRO DE UNA FORMA CORTA CONSERVANDO PULSO, INTENCIÓN Y RESTRICCIONES ACORDADAS.**
 
@@ -25,7 +25,7 @@ Además debes demostrar que puedes escuchar el resultado, revisar **una decisió
 
 ## Preparación
 
-Elige uno de los dos laboratorios de U5 o un contexto musical propio que permita las mismas condiciones. Antes de tocar declara:
+Elige uno de los dos laboratorios de esta unidad o un contexto musical propio que permita las mismas condiciones. Antes de tocar declara:
 
 - forma corta que vas a conservar;
 - referencia temporal;
@@ -73,7 +73,7 @@ Cambia una variable dominante y repite. Comprueba tanto el objetivo de la revisi
 - puedes decir si la revisión mejoró, empeoró o no modificó el objetivo buscado;
 - no dependes de un BPM universal de aprobado.
 
-## COMPETENTE/FUNCIONAL EN EL CONTEXTO DE U5
+## COMPETENTE/FUNCIONAL EN EL CONTEXTO DE esta unidad
 
 La evidencia es especialmente sólida cuando además:
 
@@ -89,7 +89,7 @@ Una sola tarea no certifica dominio estilístico general.
 
 ## AVANZADO / AMPLIACIÓN
 
-- repite el checkpoint con el otro laboratorio manteniendo el mismo proceso de decisión;
+- repite la evaluación con el otro laboratorio manteniendo el mismo proceso de decisión;
 - cambia una restricción y predice antes de tocar qué efecto tendrá;
 - limita aún más el vocabulario y busca variedad mediante dinámica, espacio u orquestación;
 - compara dos tomas con decisiones opuestas de densidad;
@@ -97,16 +97,16 @@ Una sola tarea no certifica dominio estilístico general.
 
 ## Frontera explícita
 
-Este checkpoint **NO certifica**:
+Esta evaluación **NO certifica**:
 
 - dominio completo de funk, funk-jazz, bop o jazz;
-- interacción interpersonal avanzada de U6;
-- transferencia explícita entre estilos de U7;
-- dominio de feel o microtiming de U8;
+- interacción interpersonal avanzada de Unidad 6;
+- transferencia explícita entre estilos de Unidad 7;
+- dominio de feel o microtiming de Unidad 8;
 - polirritmia profunda, polimetría o modulación métrica de Fase 7;
 - dominio de *Future Sounds* o *The Art of Bop Drumming*;
 - Hito 7.
 
-> **SI PUEDES TOCAR LA IDEA PERO NO PUEDES EXPLICAR POR QUÉ ENTRA, QUÉ CONSERVA Y QUÉ CAMBIARÍAS AL ESCUCHARLA, U5 TODAVÍA NO ESTÁ CERRADA.**
+> **SI PUEDES TOCAR LA IDEA PERO NO PUEDES EXPLICAR POR QUÉ ENTRA, QUÉ CONSERVA Y QUÉ CAMBIARÍAS AL ESCUCHARLA, esta unidad TODAVÍA NO ESTÁ CERRADA.**
 
 **No existe BPM de aprobado.**

@@ -17,7 +17,7 @@ published: true
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-title="20.U11 — línea de integración 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-source-label="MusicXML — fuente de la línea de integración"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-title="Unidad 11 — línea de integración 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u11/f2-u11-linea-integracion-4-4.musicxml" data-score-source-label="MusicXML — fuente de la línea de integración"></div>
 
 ## Ciclo
 
@@ -30,7 +30,7 @@ La escucha final no es un modelo para memorizar antes de tocar; es feedback sobr
 
 ## Escritura de recuperación
 
-Sin mirar durante unos segundos, reconstruye uno de los cuatro compases en tu registro. Después vuelve a la partitura y compara. Esto trabaja D6 como apoyo, no como examen de copia perfecta.
+Sin mirar durante unos segundos, reconstruye uno de los cuatro compases en tu registro. Después vuelve a la partitura y compara. Esto trabaja primera vista rítmica como apoyo, no como examen de copia perfecta.
 
 ## Diagnóstico
 
@@ -44,4 +44,4 @@ Distingue:
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L3 cuando la línea sea suficientemente comprendida para que una futura aplicación rudimental no oculte un problema de lectura.
+Puedes pasar a Lección 3 cuando la línea sea suficientemente comprendida para que una futura aplicación rudimental no oculte un problema de lectura.

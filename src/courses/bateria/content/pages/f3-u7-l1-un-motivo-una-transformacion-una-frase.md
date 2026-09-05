@@ -8,7 +8,7 @@ slug: un-motivo-una-transformacion-una-frase
 kind: lesson
 order: 1
 title: "Un motivo, una transformación, una frase"
-summary: "Primera improvisación G3: parte de un motivo conocido, permite una sola transformación y toma decisiones dentro de una frase de longitud fija sin detener el tiempo."
+summary: "Primera improvisación composición de fills y secciones: parte de un motivo conocido, permite una sola transformación y toma decisiones dentro de una frase de longitud fija sin detener el tiempo."
 duration: 25–30 min
 competencies: [G3, G1, G2, C1, C2, F3, K2, K5, K6]
 rudiments: []
@@ -21,13 +21,13 @@ Improvisar dentro de un espacio de búsqueda pequeño:
 
 `1 MOTIVO + 1 TRANSFORMACIÓN + FRASE FIJA`
 
-La restricción existe para hacer visible G3, no para que la música “deba” sonar siempre así.
+La restricción existe para hacer visible composición de fills y secciones, no para que la música “deba” sonar siempre así.
 
 ## A y una variante disponibles — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
 El primer compás es A. El segundo muestra una variante relacionada que puedes tratar como vocabulario inicial.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l1-motif-transform.musicxml" data-score-title="30.U7.L1 — motivo y transformación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-l1-motif-transform.musicxml" data-score-title="Lección 1 — motivo y transformación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 No tienes que reproducir esos dos compases en orden durante toda la improvisación. Son **vocabulario de partida**.
 
@@ -41,7 +41,7 @@ Antes de tocar escribe:
 
 `LONGITUD DE FRASE: 1 o 2 compases`
 
-Elige una transformación de U6 que ya puedas recuperar. No adquieras una nueva mientras improvisas.
+Elige una transformación de Unidad 6 que ya puedas recuperar. No adquieras una nueva mientras improvisas.
 
 ## 2. Improvisa sin parar · 8–10 min
 

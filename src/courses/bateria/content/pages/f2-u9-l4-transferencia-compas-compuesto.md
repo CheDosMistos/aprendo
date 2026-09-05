@@ -8,18 +8,18 @@ slug: transferencia-compas-compuesto
 kind: lesson
 order: 4
 title: "Transferencia: primera vista en compás compuesto conocido"
-summary: "Aplica el protocolo D5 a una línea nueva en 9/8 prototípico, conservando tres pulsos compuestos y separando la dificultad métrica de la novedad real de primera vista."
+summary: "Aplica el protocolo forma y lectura de chart a una línea nueva en 9/8 prototípico, conservando tres pulsos compuestos y separando la dificultad métrica de la novedad real de primera vista."
 duration: 25–30 min
 competencies: [C1, C2, C3, D4, D5, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Las tres primeras lecciones han usado 4/4 para no mezclar el protocolo D5 con una novedad métrica. L4 comprueba transferencia a un marco **ya conocido**:
+Las tres primeras lecciones han usado 4/4 para no mezclar el protocolo forma y lectura de chart con una novedad métrica. Lección 4 comprueba transferencia a un marco **ya conocido**:
 
 > **9/8 PROTOTÍPICO = 3 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 
-La novedad sigue siendo primera vista. `9/8` no es nuevo: fue trabajado en U7.
+La novedad sigue siendo primera vista. `9/8` no es nuevo: fue trabajado en Unidad 7.
 
 ## 1. Qué debe permanecer estable — 3 min
 
@@ -41,11 +41,11 @@ Al pulsar **Empezar**:
 4. no conviertas nueve corcheas en nueve pulsos;
 5. empieza antes de que la inspección se convierta en ensayo.
 
-## 3. Muestra protegida L4 — 8–10 min
+## 3. Muestra protegida Lección 4 — 8–10 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-title="20.U9.L4 — primera vista en 9/8 conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida L4"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-title="Lección 4 — primera vista en 9/8 conocido" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u9/f2-u9-l4-primera-vista-9-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida Lección 4"></div>
 
 Haz una sola toma válida:
 
@@ -61,15 +61,15 @@ Si ya conoces esta partitura de una visita anterior, no la cuentes como primera 
 
 Separa tres posibles problemas:
 
-### A. D5 / lectura nueva
+### A. forma y lectura de chart / lectura nueva
 
 La métrica está clara, pero la secuencia concreta no se decodifica con suficiente fluidez.
 
-### B. D4 / representación métrica
+### B. lectura de compás / representación métrica
 
 Pierdes el modelo `3×3`, cuentas nueve pulsos equivalentes o dejas de ubicar la negra con puntillo.
 
-### C. C1/C2 / tiempo
+### C. pulso interno/subdivisión binaria y ternaria / tiempo
 
 Comprendes la notación y la métrica, pero la referencia temporal colapsa durante la ejecución.
 
@@ -110,11 +110,11 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA PASAR AL CHECKPOINT DE U9
+## MÍNIMO PARA PASAR AL Evaluación DE esta unidad
 
 - completas una muestra nueva en métrica compuesta conocida sin playback previo;
 - conservas o recuperas el modelo de tres pulsos principales;
-- distingues un problema D5 de una fragilidad métrica D4;
+- distingues un problema forma y lectura de chart de una fragilidad métrica lectura de compás;
 - registras continuidad y precisión por separado;
 - no reutilizas la misma línea como segunda evidencia independiente de primera vista.
 
@@ -122,8 +122,8 @@ No se exige:
 
 - 9/8 a tempo alto;
 - métrica irregular;
-- click reducido — U10;
-- D5 globalmente `FUNCIONAL`;
+- click reducido — Unidad 10;
+- forma y lectura de chart globalmente `FUNCIONAL`;
 - Hito 2 completo.
 
 ## COMPETENTE EN ESTA TAREA

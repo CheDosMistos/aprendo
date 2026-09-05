@@ -30,7 +30,7 @@ En esta lección una buena versión contiene cuatro capas de información:
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-transcription data-bpm="72" data-subdivision="2" data-low-pattern="1000100010010000" data-mid-pattern="0010001000100010" data-high-pattern="0100000101000001" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Fuente D · rejilla de corcheas. Grave: 1000100010010000. Media: 0010001000100010. Aguda: 0100000101000001. Esqueleto compuesto: 1110101111110011. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l4-source-d.musicxml" data-answer-score-title="30.U3.L4 — esqueleto de la fuente D"></div>
+<div data-rhythm-transcription data-bpm="72" data-subdivision="2" data-low-pattern="1000100010010000" data-mid-pattern="0010001000100010" data-high-pattern="0100000101000001" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Fuente D · rejilla de corcheas. Grave: 1000100010010000. Media: 0010001000100010. Aguda: 0100000101000001. Esqueleto compuesto: 1110101111110011. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-l4-source-d.musicxml" data-answer-score-title="Lección 4 — esqueleto de la fuente D"></div>
 
 ## 1. Primera versión · 6–8 min
 
@@ -83,6 +83,6 @@ Después de revelar, separa:
 
 No conviertas una discrepancia tímbrica en “transcripción totalmente incorrecta” si el esqueleto sigue siendo útil.
 
-## MÍNIMO PARA EL CHECKPOINT
+## MÍNIMO PARA AVANZAR
 
 Produces V1 y V2, puedes tocar el esqueleto final y dejas explícita al menos una revisión, aproximación o duda real sin rellenarla por intuición.

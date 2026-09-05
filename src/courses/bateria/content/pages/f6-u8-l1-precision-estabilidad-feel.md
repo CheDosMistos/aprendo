@@ -46,7 +46,7 @@ Dos tomas pueden conservar la misma forma, el mismo tempo aproximado y el mismo 
 
 También pueden sonar diferentes aunque sus ataques principales estén muy cerca de la rejilla.
 
-Esto operacionaliza literalmente C7 MÍNIMO: **reconocer que precisión métrica y feel no son idénticos**.
+Esto operacionaliza literalmente microtiming y placement MÍNIMO: **reconocer que precisión métrica y feel no son idénticos**.
 
 ## 4. Oído antes que pantalla
 
@@ -101,7 +101,7 @@ y puedes separar una observación temporal de una interpretación sobre su funci
 
 ## Fuentes y estatus
 
-- **ESTÁNDAR DEL PROYECTO:** C7 MÍNIMO = reconocer conceptualmente que precisión métrica y feel no son idénticos.
+- **ESTÁNDAR DEL PROYECTO:** microtiming y placement MÍNIMO = reconocer conceptualmente que precisión métrica y feel no son idénticos.
 - **EVIDENCIA:** Danielsen et al. (2015), DOI `10.1121/1.4930950`, y Câmara et al. (2020), DOI `10.1525/mp.2020.38.1.1`, muestran que timing y características del sonido participan conjuntamente en perfiles de timing intencional de bateristas.
 - **DECISIÓN CURRICULAR RAZONADA:** usar etiquetas observación/hipótesis/no determinado para impedir que la pantalla convierta correlaciones locales en recetas.
 - **EJERCICIO:** el protocolo anterior es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.

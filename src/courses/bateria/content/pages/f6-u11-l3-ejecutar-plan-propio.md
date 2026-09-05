@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: ejecutar-plan-propio
 kind: lesson
 order: 3
-title: "U11.L3 — Ejecutar un plan propio sin convertirlo en una obligación rígida"
+title: "Esta unidad.Lección 3 — Ejecutar un plan propio sin convertirlo en una obligación rígida"
 summary: "Sostén el proyecto entre sesiones, alterna modos de práctica según necesidad y registra sólo las decisiones que puedan cambiar el siguiente paso."
 duration: varias sesiones
 competencies: [K3, K4, K5, K6, K7, K8, I3, I4]
@@ -60,7 +60,7 @@ Ejemplo funcional:
 4. contraste con la línea base o con una condición anterior;
 5. decisión siguiente.
 
-**DECISIÓN CURRICULAR RAZONADA:** el orden exacto puede cambiar. U11 evalúa que exista una relación entre problema, intervención y evidencia, no que todas las sesiones tengan la misma plantilla.
+**DECISIÓN CURRICULAR RAZONADA:** el orden exacto puede cambiar. Esta unidad evalúa que exista una relación entre problema, intervención y evidencia, no que todas las sesiones tengan la misma plantilla.
 
 ## Cuándo usar adquisición o estabilización
 
@@ -86,7 +86,7 @@ La recuperación responde a una pregunta distinta:
 
 > **¿ESTO APARECE DE NUEVO SIN HABERLO PREPARADO JUSTO ANTES?**
 
-Puede comprobarse en otro encuentro o tras suficiente separación respecto al correctivo específico. U11 no fija un intervalo universal.
+Puede comprobarse en otro encuentro o tras suficiente separación respecto al correctivo específico. Esta unidad no fija un intervalo universal.
 
 Si una habilidad sólo funciona después de reconstruir todo el ejercicio auxiliar, todavía puede existir dependencia de contexto.
 

@@ -19,7 +19,7 @@ published: true
 
 Evitar que la independencia se convierta en una colección interminable de sistemas abstractos.
 
-La secuencia de U4 es:
+La secuencia de esta unidad es:
 
 `FUNCIÓN MUSICAL → CUELLO DE BOTELLA → EJERCICIO SELECCIONADO → RECOMBINACIÓN → RETEST EN MÚSICA`
 
@@ -48,9 +48,9 @@ Decide:
 
 ## 3. Uso responsable de métodos
 
-La Biblioteca Maestra registra recursos como Dahlgren & Fine, Dawson/Ramsay, Chapin y *The New Breed*.
+Como ampliación, puedes recurrir de forma selectiva a Dahlgren & Fine, Dawson/Ramsay, Chapin y *The New Breed*.
 
-Pueden aportar ideas o sistemas cuando encajan con el cuello de botella y los prerrequisitos, pero U4 **no reproduce ejercicios protegidos** ni prescribe completar capítulos por prestigio.
+Pueden aportar ideas o sistemas cuando encajan con el cuello de botella y los prerrequisitos, pero esta unidad **no reproduce ejercicios protegidos** ni prescribe completar capítulos por prestigio.
 
 Si utilizas legalmente un método externo:
 

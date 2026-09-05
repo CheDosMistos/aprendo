@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-L1–L3 construyeron una misma idea desde la lectura: **ATAQUE**, **DURACIÓN ESCRITA**, **PULSO** y **MARCO MÉTRICO** no son la misma cosa. L4 comprueba ahora que esa representación no dependa únicamente de reconocer símbolos en una partitura.
+Lecciones 1–3 construyeron una misma idea desde la lectura: **ATAQUE**, **DURACIÓN ESCRITA**, **PULSO** y **MARCO MÉTRICO** no son la misma cosa. Lección 4 comprueba ahora que esa representación no dependa únicamente de reconocer símbolos en una partitura.
 
 > **Primero identifica qué ataques oyes. Después decide qué información aporta la notación sobre la duración.**
 
@@ -27,11 +27,11 @@ Hay una limitación importante: en un pad de ataque breve, oír que **no existe 
 
 ## 1. Recuperación — 3 min
 
-Recupera **un compás breve de L3** sin escuchar el playback antes de la toma.
+Recupera **un compás breve de Lección 3** sin escuchar el playback antes de la toma.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="20.U3.L3 — recuperación de síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Lección 3 — recuperación de síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de tocar, señala:
 
@@ -39,7 +39,7 @@ Antes de tocar, señala:
 - qué duración atraviesa una posición fuerte;
 - dónde siguen las negras aunque no haya un golpe nuevo.
 
-Haz una sola toma corta. Si la representación visual todavía colapsa, reduce el fragmento; L4 no exige repetir L1–L3 completas.
+Haz una sola toma corta. Si la representación visual todavía colapsa, reduce el fragmento; Lección 4 no exige repetir Lecciones 1–3 completas.
 
 ## 2. OÍR → IDENTIFICAR — 5–6 min
 
@@ -135,7 +135,7 @@ Después responde antes de tocar:
 - ¿siguen existiendo los mismos dos pulsos?;
 - ¿sigue siendo 4/4 el marco del que procede la célula?
 
-Toca C y D una vez cada una. Si has cambiado además dinámica, sticking, tempo y acentos, la transformación deja de aislar la variable de U3.
+Toca C y D una vez cada una. Si has cambiado además dinámica, sticking, tempo y acentos, la transformación deja de aislar la variable de esta unidad.
 
 ## 6. Registro — 2 min
 
@@ -157,11 +157,11 @@ Cierra con la cadena aprobada:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-Completar la lección **no actualiza automáticamente** D2, D6, E2/E3/E4, F1/F2, C1/C2 ni ninguna otra competencia. Una respuesta correcta aislada tampoco declara el dictado rítmico funcional globalmente.
+Completar la lección **no actualiza automáticamente** síncopa, primera vista rítmica, imitación rítmica/dictado/relación entre oído y notación, teoría básica del pulso y las figuras/métrica y terminología rítmica, pulso interno/subdivisión binaria y ternaria ni ninguna otra competencia. Una respuesta correcta aislada tampoco declara el dictado rítmico funcional globalmente.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar al checkpoint de U3 cuando, con células cortas y ayudas razonables:
+Puedes pasar al Evaluación de esta unidad cuando, con células cortas y ayudas razonables:
 
 - distingues por oído uno frente a dos ataques sin haber visto antes la respuesta;
 - explicas qué puede afirmar el audio y qué necesita información notacional adicional;
@@ -177,11 +177,11 @@ No se exige un BPM concreto, caligrafía perfecta, cero errores, una sola escuch
 
 La tarea empieza a ser funcional cuando puedes pasar de estímulos nuevos de esta dificultad a un mapa de ataques, añadir correctamente una representación de duración cuando la consigna la especifica y volver a ejecutar lo escrito sin desplazar el marco temporal.
 
-Eso **no declara E4 FUNCIONAL de forma global**: frases más largas, métricas distintas y dictados más complejos pertenecen a vueltas posteriores de la espiral.
+Eso **no declara relación entre oído y notación FUNCIONAL de forma global**: frases más largas, métricas distintas y dictados más complejos pertenecen a vueltas posteriores de la espiral.
 
 ## AVANZADO EN ESTA TAREA
 
-Como ampliación opcional, repite C con una escucha menos o crea una segunda versión cambiando la otra variable permitida. Mantén la misma longitud y el mismo vocabulario; no añadas acentos complejos ni texturas rudimentales de U4.
+Como ampliación opcional, repite C con una escucha menos o crea una segunda versión cambiando la otra variable permitida. Mantén la misma longitud y el mismo vocabulario; no añadas acentos complejos ni texturas rudimentales de Unidad 4.
 
 ## Si algo se rompe
 
@@ -193,4 +193,4 @@ Como ampliación opcional, repite C con una escucha menos o crea una segunda ver
 - **la transformación cambia más de una variable:** vuelve a C y decide explícitamente una sola modificación;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.
 
-El siguiente paso es **20.U3.CP — Puerta de duración y síncopa I**. Será una comprobación breve de material nuevo, oído y comprensión; no un examen de perfección.
+El siguiente paso es **Evaluación — Puerta de duración y síncopa I**. Será una comprobación breve de material nuevo, oído y comprensión; no un examen de perfección.

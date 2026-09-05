@@ -69,7 +69,7 @@ Ejemplo:
 - B: otro fill compromete el retorno;
 - C: la transición se recupera bien.
 
-La dimensión crítica puede ser **H6 retorno tras fill**, no “tocar peor en general”.
+La dimensión crítica puede ser **fills retorno tras fill**, no “tocar peor en general”.
 
 ## 4. No promedies una debilidad crítica
 
@@ -118,7 +118,7 @@ No:
 
 ## 8. Preparación del Hito 6
 
-Antes del checkpoint final debes poder responder:
+Antes de la evaluación final debes poder responder:
 
 1. ¿qué evidencia tengo de cada pieza?;
 2. ¿qué ayudas estaban presentes?;
@@ -130,6 +130,6 @@ Antes del checkpoint final debes poder responder:
 
 ## Criterio de avance
 
-Avanza al checkpoint cuando el portfolio permite una decisión argumentada sin depender de promedios, perfección ni complejidad artificial.
+Avanza al Evaluación cuando el portfolio permite una decisión argumentada sin depender de promedios, perfección ni complejidad artificial.
 
 **No existe BPM de aprobado.**

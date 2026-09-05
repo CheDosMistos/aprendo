@@ -21,7 +21,7 @@ Cambiar **textura/orquestación** sobre una agrupación `3+3+2` sin convertir el
 
 ## Vuelve al compás A
 
-El compás A de la partitura de U10 sigue teniendo ocho corcheas. La agrupación se percibe por los ataques/accentos de inicio de grupo:
+El compás A de la partitura de esta unidad sigue teniendo ocho corcheas. La agrupación se percibe por los ataques/accentos de inicio de grupo:
 
 `3 + 3 + 2 = 8 corcheas = 4/4`
 
@@ -58,7 +58,7 @@ Tampoco es modulación métrica: la negra de referencia no cambia de valor.
 
 ## Textura no es complejidad métrica
 
-Mover la agrupación por distintas superficies puede aumentar la **complejidad coordinativa o tímbrica** sin alterar la métrica. Esa distinción será central en L4.
+Mover la agrupación por distintas superficies puede aumentar la **complejidad coordinativa o tímbrica** sin alterar la métrica. Esa distinción será central en Lección 4.
 
 ## AMPLIACIÓN
 

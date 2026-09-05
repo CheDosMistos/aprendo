@@ -8,7 +8,7 @@ slug: leccion-4-integracion-6-8-motivos
 kind: lesson
 order: 4
 title: "Lección 4 — Lectura, oído y transformación de motivos en 6/8"
-summary: Integra lectura nueva, oído y creatividad en 6/8 sin adelantar métricas impares ni desplazamientos de U7.
+summary: Integra lectura nueva, oído y creatividad en 6/8 sin adelantar métricas impares ni desplazamientos de Unidad 7.
 duration: 25–30 min
 competencies: [C1, C2, C3, D1, D2, D3, D6, E2, E3, E4, F1, F2, G1, G2, K2, K4, K6]
 rudiments: []
@@ -21,7 +21,7 @@ Consolidar la representación inicial de 6/8 y transformar un motivo corto cambi
 
 ## 1. Recuperación sin reenseñar — 3 min
 
-Marca dos pulsos principales de 6/8 y subdivide cada uno en tres. Si la organización se conserva, sigue. Si reaparece la sensación de tres pulsos de negra, vuelve durante 1–2 minutos a la explicación de L2.
+Marca dos pulsos principales de 6/8 y subdivide cada uno en tres. Si la organización se conserva, sigue. Si reaparece la sensación de tres pulsos de negra, vuelve durante 1–2 minutos a la explicación de Lección 2.
 
 ## 2. Lectura nueva — 7 min
 
@@ -57,7 +57,7 @@ Mantén 6/8 y la posición de los dos pulsos principales. Explica qué conservas
 
 ## 5. Recuperación PAS — 5 min
 
-Elige **dos** PAS de U6 al azar y haz una toma breve de cada uno sin calentamiento específico. Si falla uno, diagnostica el cuello de botella; no repases automáticamente los tres.
+Elige **dos** PAS de esta unidad al azar y haz una toma breve de cada uno sin calentamiento específico. Si falla uno, diagnostica el cuello de botella; no repases automáticamente los tres.
 
 ## 6. Registro — 2 min
 

@@ -7,19 +7,19 @@ unitSlug: fase-3-unidad-7
 slug: puerta-g3-hacia-composicion
 kind: checkpoint
 order: 6
-title: "Checkpoint — Puerta G3 hacia composición"
-summary: "Demuestra G3 mínimo con una toma breve no preescrita: declara una restricción, improvisa dentro del marco, recupera si hace falta y explica qué conservarías para U8."
+title: "Evaluación — Puerta composición de fills y secciones hacia composición"
+summary: "Demuestra composición de fills y secciones mínimo con una toma breve no preescrita: declara una restricción, improvisa dentro del marco, recupera si hace falta y explica qué conservarías para Unidad 8."
 duration: 20–30 min
 competencies: [G3, G1, G2, C1, C2, F3, K2, K5, K6, K8]
 rudiments: []
 published: true
 ---
 
-## Función del checkpoint
+## Función de la evaluación
 
-U8 fijará decisiones en una composición. Antes necesitamos comprobar que puedes **generar y sostener decisiones en tiempo real** bajo una consigna clara.
+Unidad 8 fijará decisiones en una composición. Antes necesitamos comprobar que puedes **generar y sostener decisiones en tiempo real** bajo una consigna clara.
 
-El mínimo es exactamente el de G3:
+El mínimo es exactamente el de composición de fills y secciones:
 
 > **improvisar una frase corta respetando una restricción.**
 
@@ -27,9 +27,9 @@ No necesitas una improvisación abierta, larga ni “original excepcionalmente�
 
 ## Prompt nuevo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-Este motivo no apareció en L1–L5.
+Este motivo no apareció en Lecciones 1–5.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-cp-prompt.musicxml" data-score-title="30.U7.CP — prompt nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-cp-prompt.musicxml" data-score-title="Evaluación — prompt nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Puedes usarlo como A o crear un motivo propio de dificultad equivalente.
 
@@ -86,15 +86,15 @@ Identifica:
 - cómo te recuperaste;
 - si el accidente contiene una idea que querrías explorar después.
 
-# 5. PUENTE A U8
+# 5. PUENTE A Unidad 8
 
 Sin convertir aún la toma en composición, responde:
 
 `¿QUÉ FRAGMENTO O DECISIÓN CONSERVARÍA SI QUISIERA FIJAR ESTA TOMA POR ESCRITO?`
 
-Esa selección prepara U8, pero no la sustituye.
+Esa selección prepara Unidad 8, pero no la sustituye.
 
-## MÍNIMO PARA ABRIR U8
+## MÍNIMO PARA ABRIR Unidad 8
 
 - declaras una restricción clara;
 - improvisas una frase corta no totalmente preescrita;
@@ -113,12 +113,12 @@ Mantienes pulso, frase/forma y vocabulario durante varias tomas con restriccione
 
 Desarrollas narración, tensión/resolución, mayor libertad o adaptación estilística.
 
-**AVANZADO no es requisito para U8.**
+**AVANZADO no es requisito para Unidad 8.**
 
 ## DECISIÓN
 
-### CONTINUAR A U8
-G3 mínimo está disponible. Ya puedes seleccionar, escribir y revisar decisiones improvisadas.
+### CONTINUAR A Unidad 8
+composición de fills y secciones mínimo está disponible. Ya puedes seleccionar, escribir y revisar decisiones improvisadas.
 
 ### CONTINUAR + CORRECTIVO
 La improvisación cumple la consigna, pero continuidad, cierre, recuperación o explicación requieren apoyo localizado.
@@ -126,4 +126,4 @@ La improvisación cumple la consigna, pero continuidad, cierre, recuperación o 
 ### REDUCIR RESTRICCIÓN/NOVEDAD
 El espacio de búsqueda es demasiado amplio. Vuelve temporalmente a un motivo + una transformación + frase fija.
 
-Esta puerta **no certifica G4 composición funcional**. Sólo prepara el material y las decisiones que U8 aprenderá a fijar y revisar.
+Esta puerta **no certifica composición de piezas composición funcional**. Sólo prepara el material y las decisiones que Unidad 8 aprenderá a fijar y revisar.

@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Charts densos, navegación y decisión"
 summary: "Aprende a extraer prioridades de un chart con más información, preparar con tiempo limitado y conservar continuidad cuando no puedes ejecutar todos los detalles."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [D7, F3, F7, C1, C2, C3, C4, I3, I4, K2, K4]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: leer más sin intentar tocarlo todo
 
-Fase 5 U2 llevó D7 a un nivel mínimo mediante charts sencillos y una jerarquía de navegación. U3 no repite esa introducción.
+Fase 5 Unidad 2 llevó lectura aplicada al kit a un nivel mínimo mediante charts sencillos y una jerarquía de navegación. Esta unidad no repite esa introducción.
 
 Ahora el problema es otro:
 
@@ -35,7 +35,7 @@ No es una licencia para ignorar figures. Es una estrategia para mantener una eje
 
 ## Material
 
-U3 usa **charts y mapas originales de Aprendo** o material externo legalmente accesible y verificado.
+Esta unidad usa **charts y mapas originales de Aprendo** o material externo legalmente accesible y verificado.
 
 No se reconstruyen lead sheets ni charts comerciales protegidos. Los ejemplos originales pueden incluir:
 
@@ -46,21 +46,21 @@ No se reconstruyen lead sheets ni charts comerciales protegidos. Los ejemplos or
 - instrucciones de textura;
 - espacios deliberadamente abiertos a decisión.
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Escanear antes de tocar
+### Lección 1 — Escanear antes de tocar
 Haz una primera lectura orientada a forma, repeticiones, puntos de riesgo y jerarquía de información.
 
-### L2 — Preparación limitada y presupuesto de atención
+### Lección 2 — Preparación limitada y presupuesto de atención
 Decide qué merece ensayo previo cuando no dispones de tiempo para estudiar cada detalle.
 
-### L3 — Figures, cues y opciones de interpretación
+### Lección 3 — Figures, cues y opciones de interpretación
 Distingue lo que debe coincidir con precisión de lo que exige una respuesta musical compatible con el arreglo.
 
-### L4 — Perder detalle sin perder la pieza
+### Lección 4 — Perder detalle sin perder la pieza
 Practica continuidad, puntos de reentrada y recuperación deliberada cuando una lectura local falla.
 
-### Checkpoint 6B — Navegación y decisión
+### Evaluación — Navegación y decisión
 Navega un chart de dificultad adecuada manteniendo forma y priorizando correctamente cuando no puedes ejecutar todo el detalle.
 
 ## Diferencia frente a Fase 5
@@ -76,7 +76,7 @@ En Fase 6 debes además:
 - recuperar una posición fiable;
 - explicar por qué una decisión protege mejor la música.
 
-## Qué NO hace U3
+## Qué NO hace esta unidad
 
 - no convierte el chart en partitura exhaustiva;
 - no exige sight-reading profesional;
@@ -98,7 +98,7 @@ Referencia: **25–30 min, 3–4 días por semana**.
 
 ## Criterio de salida
 
-Al cerrar U3 debes poder:
+Al cerrar esta unidad debes poder:
 
 1. localizar forma, repeticiones y eventos estructurales antes de tocar;
 2. distinguir información crítica de detalle subordinado;

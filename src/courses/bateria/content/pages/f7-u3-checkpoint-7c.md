@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-3
 slug: checkpoint-7c
 kind: checkpoint
 order: 5
-title: "Checkpoint 7C — J3 funcional: métricas impares y mixtas"
+title: "Evaluación — métricas impares y mixtas funcional: métricas impares y mixtas"
 summary: "Comprueba que puedes distinguir, leer, escribir, ejecutar, combinar y recuperar 5/4, 7/8 y cambios de compás sin depender de un BPM universal."
 duration: 20–30 min + revisión
 competencies: [J3, J1, C1, C2, C4, C6, D4, D6, G1, G2, G3, G4, G6, K2, K5]
@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa esta evaluación
 
-Este checkpoint no pregunta si “aguantas un patrón raro”. Evalúa si **J3 empieza a ser funcional**: comprensión, referencia temporal, lectura/escritura, ejecución, transferencia musical y recuperación.
+Esta evaluación no pregunta si “aguantas un patrón raro”. Evalúa si **métricas impares y mixtas empieza a ser funcional**: comprensión, referencia temporal, lectura/escritura, ejecución, transferencia musical y recuperación.
 
 No se usa un BPM universal como puerta de paso.
 
@@ -76,7 +76,7 @@ Seis barras alternando dos agrupaciones distintas.
 
 ### Lectura
 
-Lee una de las partituras originales de U3 y explica antes de tocar:
+Lee una de las partituras originales de esta unidad y explica antes de tocar:
 
 - firma;
 - cantidad de unidades;
@@ -117,7 +117,7 @@ Parar y empezar desde cero puede servir para estudiar, pero **no demuestra todav
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar a U4 si, de forma razonablemente repetible:
+Puedes continuar a Unidad 4 si, de forma razonablemente repetible:
 
 - distingues `4/4 (3+3+2)` de `7/8` por longitud real;
 - mantienes `5/4` y `7/8` en contextos simples;
@@ -129,7 +129,7 @@ Puedes continuar a U4 si, de forma razonablemente repetible:
 
 ## COMPETENTE / FUNCIONAL
 
-J3 puede considerarse **funcional** cuando además:
+métricas impares y mixtas puede considerarse **funcional** cuando además:
 
 - mantienes 2–3 contextos impares o mixtos con continuidad;
 - puedes cambiar agrupación sin cambiar firma y cambiar firma sin confundirlo con agrupación;

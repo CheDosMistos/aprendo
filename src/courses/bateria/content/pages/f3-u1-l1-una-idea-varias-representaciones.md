@@ -35,7 +35,7 @@ No vuelvas a estudiar toda Fase 2.
 
 Este material es **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l1-visual-a.musicxml" data-score-title="30.U1.L1 — lectura visual A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l1-visual-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l1-visual-a.musicxml" data-score-title="Lección 1 — lectura visual A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l1-visual-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
 
 Antes de habilitar el audio:
 
@@ -51,13 +51,13 @@ Clasifica el problema dominante como `LECTURA / PULSO-SUBDIVISIÓN / MOVIMIENTO 
 
 Ahora la entrada es auditiva. La solución visual existe, pero permanece oculta mientras escuchas.
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11010011" data-answer="Un compás de 4/4 sobre rejilla de corcheas. Compara posiciones de ataque y silencio; el contador de escuchas describe la condición del intento, no una nota." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-l1-solucion-auditiva-a.musicxml" data-answer-score-title="30.U1.L1 — solución auditiva A"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11010011" data-answer="Un compás de 4/4 sobre rejilla de corcheas. Compara posiciones de ataque y silencio; el contador de escuchas describe la condición del intento, no una nota." data-answer-score-src="/bateria/notation/f3/u1/f3-u1-l1-solucion-auditiva-a.musicxml" data-answer-score-title="Lección 1 — solución auditiva A"></div>
 
 Proceso:
 
 `ESCUCHAR → localizar pulso si ayuda → IMITAR con voz/manos/pad → REVELAR → COMPARAR`
 
-No escribas todavía una reconstrucción completa. Ese paso será el centro de L2.
+No escribas todavía una reconstrucción completa. Ese paso será el centro de Lección 2.
 
 ## 4. Nombra lo que acabas de hacer · 3–4 min
 

@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-L1 generalizó `6/8 = 2×3` a `9/8 = 3×3`. L2 amplió el mismo modelo a `12/8 = 4×3`. L3 cambia la pregunta: ya no basta con leer un compás compuesto aislado; ahora debes **justificar por qué un ejemplo claro se organiza como simple o compuesto**.
+Lección 1 generalizó `6/8 = 2×3` a `9/8 = 3×3`. Lección 2 amplió el mismo modelo a `12/8 = 4×3`. Lección 3 cambia la pregunta: ya no basta con leer un compás compuesto aislado; ahora debes **justificar por qué un ejemplo claro se organiza como simple o compuesto**.
 
 > **LA PREGUNTA CENTRAL NO ES «¿CUÁNTAS CORCHEAS HAY?», SINO «¿CUÁNTAS SUBDIVISIONES ORDINARIAS ORGANIZAN CADA PULSO PRINCIPAL?».**
 
@@ -26,11 +26,11 @@ En los casos prototípicos de esta lección:
 - `4/4 = 4 pulsos × 2 subdivisiones`;
 - `12/8 = 4 pulsos × 3 subdivisiones`.
 
-La novedad dominante es **clasificar y explicar esa jerarquía escrita**. La clasificación auditiva E5 se reserva deliberadamente para L4.
+La novedad dominante es **clasificar y explicar esa jerarquía escrita**. La clasificación auditiva grabación y comparación se reserva deliberadamente para Lección 4.
 
 ## 1. Simple y compuesto: una decisión jerárquica — 4 min
 
-Usaremos una definición operativa, suficiente para los ejemplos claros de U7:
+Usaremos una definición operativa, suficiente para los ejemplos claros de esta unidad:
 
 - **métrica simple:** cada pulso principal se divide prototípicamente en `2` partes iguales;
 - **métrica compuesta:** cada pulso principal se divide prototípicamente en `3` partes iguales.
@@ -55,7 +55,7 @@ Ante un ejemplo claro, responde en este orden:
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-title="20.U7.L3 — 3/4 frente a 9/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 3/4–9/8"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-title="Lección 3 — 3/4 frente a 9/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-3-4-vs-9-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 3/4–9/8"></div>
 
 Antes de habilitar audio:
 
@@ -95,7 +95,7 @@ Eso **no significa que la negra y la negra con puntillo sean el mismo pulso**. S
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-title="20.U7.L3 — 4/4 frente a 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 4/4–12/8"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-title="Lección 3 — 4/4 frente a 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l3-4-4-vs-12-8.musicxml" data-score-source-label="MusicXML — fuente del contraste 4/4–12/8"></div>
 
 Repite el procedimiento sin convertir el numerador en una regla automática.
 
@@ -125,7 +125,7 @@ Clasifica mentalmente cada afirmación.
 | Hay nueve corcheas escritas | cantidad escrita; no basta por sí sola para sentir tres pulsos |
 | Hay grupos de `2+2+2` dentro de un 6/8 escrito | reagrupación posible; no demuestra cambio automático de compás |
 
-La competencia F2 exige distinguir **evidencia**, **apoyo perceptivo** e **inferencia**.
+La competencia métrica y terminología rítmica exige distinguir **evidencia**, **apoyo perceptivo** e **inferencia**.
 
 ## 5. Transferencia al pad — 4–5 min
 
@@ -177,8 +177,8 @@ Registra por separado:
 - clasificación simple/compuesto;
 - evidencia que utilizaste para justificarla;
 - si dependiste exclusivamente del numerador, beaming o acentos;
-- estabilidad de C1 y C2;
-- claridad terminológica F2;
+- estabilidad de pulso interno y subdivisión binaria y ternaria;
+- claridad terminológica métrica y terminología rítmica;
 - ayuda utilizada;
 - variable limitante;
 - carga y relajación.
@@ -190,7 +190,7 @@ Decisiones posibles:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L4
+## MÍNIMO PARA AVANZAR A Lección 4
 
 En ejemplos escritos claros y con tempo cómodo:
 
@@ -204,15 +204,15 @@ En ejemplos escritos claros y con tempo cómodo:
 
 No se exige:
 
-- reconocimiento auditivo E5 general — empieza de forma controlada en L4;
-- primera vista formal D5 — U9;
-- sextillos — U8;
-- click reducido, half-time o gaps — U10;
+- reconocimiento auditivo grabación y comparación general — empieza de forma controlada en Lección 4;
+- primera vista formal Unidad 9;
+- sextillos — Unidad 8;
+- click reducido, half-time o gaps — Unidad 10;
 - shuffle/jazz como objetivo estilístico;
 - análisis de ejemplos métricamente ambiguos;
 - polirritmia, polimetría o modulación métrica;
 - un BPM fijo o alto;
-- actualizar automáticamente D4 o F2 a `FUNCIONAL` por completar la página.
+- actualizar automáticamente lectura de compás o métrica y terminología rítmica a `FUNCIONAL` por completar la página.
 
 ## COMPETENTE EN ESTA TAREA
 

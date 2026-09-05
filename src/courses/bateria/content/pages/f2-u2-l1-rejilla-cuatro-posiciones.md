@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-U1 comprobó si podías leer material binario elemental sin depender de haber memorizado la página. Aquí aumenta **una sola dificultad principal**: dentro de cada pulso vas a mantener cuatro posiciones iguales aunque algunas no tengan ataque.
+Unidad 1 comprobó si podías leer material binario elemental sin depender de haber memorizado la página. Aquí aumenta **una sola dificultad principal**: dentro de cada pulso vas a mantener cuatro posiciones iguales aunque algunas no tengan ataque.
 
 > **El silencio elimina un ataque, no la posición temporal que ese ataque podría ocupar.**
 
@@ -23,13 +23,13 @@ Usaremos `1 e & a` como rejilla verbal para un pulso dividido en cuatro semicorc
 
 No persigas velocidad. El tempo debe permitir distinguir cuatro espacios iguales, leer qué posiciones suenan y continuar contando las que están en silencio.
 
-## 1. Recuperación U1 — 3 min
+## 1. Recuperación Unidad 1 — 3 min
 
-Recupera **los compases 5–6** del banco de 20.U1.L2. No los practiques inmediatamente antes y no escuches el playback antes de la toma.
+Recupera **los compases 5–6** del banco de Lección 2. No los practiques inmediatamente antes y no escuches el playback antes de la toma.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="20.U1.L2 — recuperación para abrir U2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Lección 2 — recuperación para abrir esta unidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una sola toma breve con sticking alternado sencillo. Después identifica:
 
@@ -37,15 +37,15 @@ Haz una sola toma breve con sticking alternado sencillo. Después identifica:
 - qué subdivisión necesitabas en cada tramo;
 - si un error pequeño te hizo reiniciar o pudiste recuperar la línea.
 
-La función de este bloque es recuperar una representación conocida, no volver a estudiar U1.
+La función de este bloque es recuperar una representación conocida, no volver a estudiar Unidad 1.
 
 ## 2. NÚCLEO — 10–12 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es material **nuevo de U2**. Todos sus eventos están organizados sobre una rejilla de semicorcheas en 4/4 y aparecen silencios de semicorchea como parte central del ejercicio.
+La partitura siguiente es material **nuevo de esta unidad**. Todos sus eventos están organizados sobre una rejilla de semicorcheas en 4/4 y aparecen silencios de semicorchea como parte central del ejercicio.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="20.U2.L1 — rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-title="Lección 1 — rejilla de cuatro posiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/notation/f2/u2/f2-u2-rejilla-cuatro-posiciones.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 El `120` del archivo es únicamente la referencia técnica que necesita el motor de playback. **No es el tempo de aprobado ni el tempo recomendado para empezar.** Practica a una velocidad donde puedas representar la rejilla con claridad.
 
@@ -88,7 +88,7 @@ No intentes memorizar un nombre para cada combinación. Si puedes tocar `X · X 
 
 ### Qué estamos leyendo exactamente
 
-En esta lección la pregunta es **dónde hay ataque dentro de las cuatro posiciones del pulso**. Algunas combinaciones pueden colocar ataques en partes débiles, pero todavía no convertimos la síncopa estructurada, las ligaduras o los puntillos en el nuevo concepto de estudio. Ese salto pertenece a U3.
+En esta lección la pregunta es **dónde hay ataque dentro de las cuatro posiciones del pulso**. Algunas combinaciones pueden colocar ataques en partes débiles, pero todavía no convertimos la síncopa estructurada, las ligaduras o los puntillos en el nuevo concepto de estudio. Ese salto pertenece a Unidad 3.
 
 ## 3. Retirada de ayuda — 5–6 min
 
@@ -158,11 +158,11 @@ Interpreta lo observado con la cadena aprobada:
 - **CONDICIONES:** tempo, click, conteo, partitura visible y uso posterior de playback;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
-Completar la lección **no actualiza automáticamente** C1, C2, D1, E2/E3, F1 ni las competencias de práctica.
+Completar la lección **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, figuras, silencios y compás, imitación rítmica/dictado, teoría básica del pulso y las figuras ni las competencias de práctica.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L2 cuando, en material accesible y con las ayudas que todavía necesites:
+Puedes pasar a Lección 2 cuando, en material accesible y con las ayudas que todavía necesites:
 
 - localizas cuatro posiciones regulares dentro del pulso;
 - lees varias células nuevas con silencios de semicorchea sin memorizarlas primero;
@@ -186,7 +186,7 @@ Como ampliación, empieza un fragmento con mano izquierda o cambia un acento sen
 - **ves un dibujo pero no sabes dónde cae cada ataque:** vuelve a un solo pulso y marca `1 e & a`;
 - **el silencio borra la subdivisión:** vocaliza también la posición silenciosa;
 - **las cuatro posiciones no son iguales:** baja el tempo y toca temporalmente la rejilla completa antes de volver a quitar ataques;
-- **entiendes la célula pero las manos tropiezan:** conserva sticking alternado simple; no atribuyas automáticamente el fallo a D1;
+- **entiendes la célula pero las manos tropiezan:** conserva sticking alternado simple; no atribuyas automáticamente el fallo a figuras, silencios y compás;
 - **el oído distingue dos opciones pero no puedes explicarlas:** reduce la comparación a un solo pulso y vuelve a localizar una posición concreta.
 
-La siguiente lección abrirá C3 de forma prudente: **cambiar entre 2 y 4 subdivisiones por pulso sin perder la referencia temporal**, manteniendo los silencios dentro de la rejilla.
+La siguiente lección abrirá cambios de subdivisión de forma prudente: **cambiar entre 2 y 4 subdivisiones por pulso sin perder la referencia temporal**, manteniendo los silencios dentro de la rejilla.

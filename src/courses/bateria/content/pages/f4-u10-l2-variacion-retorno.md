@@ -8,7 +8,7 @@ slug: variacion-retorno
 kind: lesson
 order: 2
 title: "Groove → variación → groove"
-summary: "Confirma que la pequeña variación de U7 sigue funcionando dentro de una frase antes de añadir el fill del Hito."
+summary: "Confirma que la pequeña variación de Unidad 7 sigue funcionando dentro de una frase antes de añadir el fill del Hito."
 duration: 20–30 min
 competencies: [H5, H4, H2, H3, C1, C2, C3, F3, K2, K5, K7]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Confirmar H5 dentro de la cadena del Hito sin añadir todavía el fill.
+Confirmar groove y variaciones dentro de la cadena del Hito sin añadir todavía el fill.
 
 La habilidad es:
 
@@ -25,7 +25,7 @@ La habilidad es:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — FRASE A–A–B–A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="40.U10.L2 — A–A–B–A de U7" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Lección 2 — A–A–B–A de Unidad 7" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La variación B añade sólo un bombo en `& de 3`. El resto de capas conserva su función.
 

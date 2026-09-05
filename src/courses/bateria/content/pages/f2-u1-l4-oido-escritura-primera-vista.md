@@ -8,14 +8,14 @@ slug: oido-escritura-y-primera-vista
 kind: lesson
 order: 4
 title: Oído, escritura y primera vista
-summary: "Cambia entre sonido, escritura y lectura nueva sin añadir vocabulario notacional: escucha y escribe células binarias, crea un compás válido y realiza una ventana temprana de lectura nueva protegida, sin convertirla todavía en evidencia formal D5."
+summary: "Cambia entre sonido, escritura y lectura nueva sin añadir vocabulario notacional: escucha y escribe células binarias, crea un compás válido y realiza una ventana temprana de lectura nueva protegida, sin convertirla todavía en evidencia formal forma y lectura de chart."
 duration: 25–30 min
 competencies: [C1, C2, D1, D6, E2, E3, E4, F1, K4, K5, K6]
 rudiments: []
 published: true
 ---
 
-Esta lección no añade una nueva figura ni un nuevo rudimento. Comprueba si el mismo vocabulario binario elemental de U1 puede sobrevivir a un **cambio de representación**:
+Esta lección no añade una nueva figura ni un nuevo rudimento. Comprueba si el mismo vocabulario binario elemental de esta unidad puede sobrevivir a un **cambio de representación**:
 
 **ESCUCHAR → RETENER/CANTAR → ESCRIBIR → LEER → TOCAR → COMPROBAR**
 
@@ -23,7 +23,7 @@ El núcleo es exactamente ese cambio. No conviertas cada modalidad en un objetiv
 
 **ESENCIAL AHORA:** dictado, escritura de un compás, una ventana temprana de lectura nueva, recuperación y registro. **AMPLIACIÓN:** la ventana 3+3+2 únicamente si el núcleo no ha consumido la carga disponible. **AVANZADO:** explicar con precisión dónde se produjo un error y recuperarse sin reiniciar automáticamente.
 
-> **VENTANA CURRICULAR:** aquí puedes experimentar el primer encuentro con una línea nueva y aprender a no contaminarla con playback o ensayo previo. **No se registra todavía como evidencia formal D5.** La competencia D5 —lectura a primera vista elemental— se introduce y observa formalmente en U9, cuando los prerrequisitos D1–D4 y C1/C2 permiten aislarla como dificultad central.
+> **VENTANA CURRICULAR:** aquí puedes experimentar el primer encuentro con una línea nueva y aprender a no contaminarla con playback o ensayo previo. **No se registra todavía como evidencia formal forma y lectura de chart.** La competencia forma y lectura de chart —lectura a primera vista elemental— se introduce y observa formalmente en Unidad 9, cuando los prerrequisitos figuras, silencios y compás–lectura de compás y pulso interno/subdivisión binaria y ternaria permiten aislarla como dificultad central.
 
 ## 1. Dictado corto — 4–5 min
 
@@ -34,7 +34,7 @@ Para cada célula:
 1. pulsa **Escuchar dictado**;
 2. marca o siente los cuatro pulsos de negra;
 3. canta o retén la célula antes de escribir;
-4. escríbela como un compás de 4/4 usando el vocabulario de U1;
+4. escríbela como un compás de 4/4 usando el vocabulario de esta unidad;
 5. toca o canta lo que has escrito;
 6. solo entonces pulsa **Mostrar respuesta** y compara.
 
@@ -54,7 +54,7 @@ No te puntúes por copiar exactamente una convención gráfica a la primera. Lo 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-Crea ahora **una célula propia de un solo compás en 4/4**. Debe caber dentro del vocabulario ya disponible en U1.
+Crea ahora **una célula propia de un solo compás en 4/4**. Debe caber dentro del vocabulario ya disponible en esta unidad.
 
 Puedes usar:
 
@@ -63,7 +63,7 @@ Puedes usar:
 - grupos de semicorcheas ya conocidos;
 - silencios de negra y corchea ya trabajados.
 
-Para no adelantar U2, **no conviertas los silencios de semicorchea en el nuevo problema de esta tarea**.
+Para no adelantar Unidad 2, **no conviertas los silencios de semicorchea en el nuevo problema de esta tarea**.
 
 Usa esta plantilla conceptual antes de escribir la notación final:
 
@@ -86,7 +86,7 @@ Finalmente cuenta/canta tu compás y tócalo. Si lo que tocas no coincide con lo
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La siguiente línea es **material exclusivo de esta ventana de lectura nueva**. No aparece en L1–L3 y no debes escucharla antes del primer intento.
+La siguiente línea es **material exclusivo de esta ventana de lectura nueva**. No aparece en Lecciones 1–3 y no debes escucharla antes del primer intento.
 
 Antes de pulsar **Empezar**:
 
@@ -102,9 +102,9 @@ Cuando pulses **Empezar**:
 4. si aparece un error pequeño, intenta conservar o recuperar el pulso antes de decidir si debes parar;
 5. no memorices compás por compás antes de seguir.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-title="20.U1.L4 — primera vista controlada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-title="Lección 4 — primera vista controlada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-El atributo técnico de primera vista mantiene la partitura oculta y bloquea playback hasta completar el primer intento. Aquí esa protección sirve para enseñar el procedimiento **sin convertir la muestra en una evaluación formal D5**.
+El atributo técnico de primera vista mantiene la partitura oculta y bloquea playback hasta completar el primer intento. Aquí esa protección sirve para enseñar el procedimiento **sin convertir la muestra en una evaluación formal forma y lectura de chart**.
 
 Pulsa **Finalizar intento** antes de usar playback. Después puedes escuchar la partitura y repetir libremente como feedback, pero esa repetición ya no cuenta como material nuevo.
 
@@ -115,23 +115,23 @@ Registra dos observaciones distintas:
 
 Una lectura con un error pequeño y buena recuperación no es equivalente a una lectura que acierta los primeros compases y se detiene por completo ante el primer fallo.
 
-Si ya has visto esta partitura en una sesión anterior, **no vuelvas a contarla como material nuevo**. Úsala como práctica. La observación de esta ventana puede orientar correctivos de D1/C1/C2, pero **no actualiza D5**; U9 reservará esa inferencia para muestras formales realmente nuevas.
+Si ya has visto esta partitura en una sesión anterior, **no vuelvas a contarla como material nuevo**. Úsala como práctica. La observación de esta ventana puede orientar correctivos de figuras, silencios y compás/pulso interno/subdivisión binaria y ternaria, pero **no actualiza forma y lectura de chart**; Unidad 9 reservará esa inferencia para muestras formales realmente nuevas.
 
 ## 4. Recuperación — 4–5 min
 
-Vuelve ahora a una tarea conocida de L2 sin practicarla inmediatamente antes. Usa **los compases 7–8** del banco binario como recuperación breve.
+Vuelve ahora a una tarea conocida de Lección 2 sin practicarla inmediatamente antes. Usa **los compases 7–8** del banco binario como recuperación breve.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="20.U1.L2 — recuperación diferida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-title="Lección 2 — recuperación diferida" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u1/f2-u1-rejilla-binaria-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una toma sin playback previo. Después habilita el audio sólo si necesitas comprobar duración o continuidad.
 
 Compara esta recuperación con la ventana de lectura nueva sin mezclarlas:
 
 - si la recuperación funciona y la lectura nueva no, la novedad/decodificación puede ser la variable principal;
-- si ambas pierden el pulso en silencios, vuelve a C1/C2 y a la rejilla temporal;
-- si el ritmo se entiende pero las manos interfieren, simplifica sticking antes de degradar D1.
+- si ambas pierden el pulso en silencios, vuelve a pulso interno/subdivisión binaria y ternaria y a la rejilla temporal;
+- si el ritmo se entiende pero las manos interfieren, simplifica sticking antes de degradar figuras, silencios y compás.
 
 ## 5. AMPLIACIÓN / VENTANA
 
@@ -151,7 +151,7 @@ Puedes marcar el inicio de cada grupo en:
 
 El pulso de negra y el compás **siguen siendo 4/4**. Esto es una **agrupación** de ocho corcheas, no 7/8, no polirritmia y no polimetría.
 
-No lo evalúes ni lo uses como requisito para llegar al checkpoint. Si compite con dictado, escritura o lectura nueva, se elimina primero.
+No lo evalúes ni lo uses como requisito para llegar al Evaluación. Si compite con dictado, escritura o lectura nueva, se elimina primero.
 
 ## 6. Registro — 2 min
 
@@ -159,7 +159,7 @@ No conviertas haber terminado la página en evidencia automática. Registra mues
 
 - dictado: número de escuchas y principal discrepancia entre sonido y escritura;
 - escritura propia: si cerró correctamente el 4/4 y coincidió con lo que tocaste;
-- lectura nueva: **precisión** y **continuidad/recuperación** por separado, como observación preliminar y no como D5 formal;
+- lectura nueva: **precisión** y **continuidad/recuperación** por separado, como observación preliminar y no como forma y lectura de chart formal;
 - recuperación: qué permaneció disponible después de la separación;
 - variable limitante principal y siguiente acción.
 
@@ -171,15 +171,15 @@ Usa la cadena:
 - **CONDICIONES:** tempo, click, número de escuchas, playback bloqueado en el primer intento;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
-Completar la sesión **no actualiza automáticamente** C1, C2, D1, D6, E2, E3 ni E4. Esta ventana tampoco actualiza D5: **U9 introduce formalmente D5** cuando la lectura nueva puede aislarse como dificultad central.
+Completar la sesión **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, figuras, silencios y compás básico, escritura rítmica propia, reconocimiento de subdivisión y acentos, imitación rítmica ni dictado rítmico. Esta ventana tampoco actualiza forma y lectura de chart: **Unidad 9 introduce formalmente forma y lectura de chart** cuando la lectura nueva puede aislarse como dificultad central.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar al checkpoint de 20.U1 cuando:
+Puedes pasar al Evaluación de Unidad 1 cuando:
 
 - puedes escuchar una célula binaria corta y producir una representación escrita razonable después de las repeticiones que necesites;
 - puedes crear un compás propio que cierre correctamente en 4/4 y explicar dónde están sus ataques/silencios;
-- realizas una lectura realmente nueva sin escucharla ni practicarla antes, tratándola como ventana de procedimiento y no como certificación D5;
+- realizas una lectura realmente nueva sin escucharla ni practicarla antes, tratándola como ventana de procedimiento y no como certificación forma y lectura de chart;
 - distingues **precisión** de **continuidad/recuperación** al describir el intento;
 - puedes recuperar una tarea conocida sin convertir primero la recuperación en práctica masiva;
 - no aparece una señal de salud que obligue a detener o reducir carga.
@@ -188,7 +188,7 @@ No se exige un BPM concreto, una lectura nueva perfecta ni completar la ventana 
 
 ## COMPETENTE / FUNCIONAL
 
-La transferencia empieza a ser funcional cuando puedes pasar entre **escuchar, escribir, leer y tocar** el mismo vocabulario básico sin que cada cambio de representación obligue a reaprenderlo desde cero, y cuando un error pequeño no destruye automáticamente la continuidad. Esto describe la integración de representaciones de U1; **no declara D5 funcional**.
+La transferencia empieza a ser funcional cuando puedes pasar entre **escuchar, escribir, leer y tocar** el mismo vocabulario básico sin que cada cambio de representación obligue a reaprenderlo desde cero, y cuando un error pequeño no destruye automáticamente la continuidad. Esto describe la integración de representaciones de esta unidad; **no declara forma y lectura de chart funcional**.
 
 ## AVANZADO EN ESTA TAREA
 
@@ -197,9 +197,9 @@ Como ampliación, describe con lenguaje temporal exacto un error de la lectura n
 ## Si algo se rompe
 
 - **oído correcto pero escritura incoherente:** vuelve a marcar cuatro pulsos y coloca primero los ataques antes de decidir figuras;
-- **la escritura cierra pero al tocar cambia:** compara compás por compás y decide si el error es D6 o ejecución;
+- **la escritura cierra pero al tocar cambia:** compara compás por compás y decide si el error es primera vista rítmica o ejecución;
 - **la lectura nueva se convierte en ensayo:** detén repeticiones y deja de tratar esa partitura como material nuevo;
 - **un error provoca parada total:** reduce longitud y practica reentrada en un pulso claro sin perseguir exactitud perfecta;
 - **la recuperación conocida también colapsa:** vuelve a rejilla, pulso y subdivisión antes de aumentar densidad.
 
-La siguiente pieza de 20.U1 será el **checkpoint — Puerta de fluidez binaria**. No preguntará si “apruebas la unidad”; comprobará si C1/C2/D1/F1 están suficientemente disponibles para aumentar densidad y variedad en U2.
+La siguiente pieza de Unidad 1 será el **Evaluación — Puerta de fluidez binaria**. No preguntará si “apruebas la unidad”; comprobará si pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2.

@@ -8,7 +8,7 @@ slug: microciclo-autonomo
 kind: lesson
 order: 4
 title: "Microciclo autónomo: practicar, recuperar, transferir y decidir"
-summary: "Activa R4 con un problema pequeño y completa un ciclo propio desde la línea base hasta una decisión posterior, sin convertirlo todavía en el proyecto sostenido de U10."
+summary: "Activa Proyecto autónomo con un problema pequeño y completa un ciclo propio desde la línea base hasta una decisión posterior, sin convertirlo todavía en el proyecto sostenido de Unidad 10."
 duration: 25–30 min + recuperación en otro encuentro cuando proceda
 competencies: [K8, K1, K2, K4, K5, K6, K7, I3, E6, F7]
 rudiments: []
@@ -21,7 +21,7 @@ Completar una vuelta acotada del proceso:
 
 > **OBSERVAR → DEFINIR PROBLEMA → ELEGIR PRUEBA → ELEGIR ESTRATEGIA/RECURSO → PRACTICAR → MEDIR → RECUPERAR → TRANSFERIR → DECIDIR SIGUIENTE PASO**
 
-U1 abrió R4. U9 lo convierte en **ensayo de autonomía aplicada**.
+Unidad 1 abrió Proyecto autónomo. Esta unidad lo convierte en **ensayo de autonomía aplicada**.
 
 ## Elegir una tarea adecuada
 
@@ -30,14 +30,14 @@ La tarea debe ser suficientemente musical para que la transferencia importe y su
 Puede proceder de:
 
 - una pieza del repertorio ya trabajada;
-- R1, R2 o R3 si el objetivo de U9 sigue claramente separado de la tarea de transcripción/chart/transferencia original;
+- Escucha y transcripción, Chart y lectura o Transferencia entre estilos si el objetivo de esta unidad sigue claramente separado de la tarea de transcripción/chart/transferencia original;
 - material original Aprendo;
 - una grabación propia;
 - un fragmento legalmente escuchado y trabajado sin reproducir una transcripción protegida.
 
 No necesitas aprender una canción completa ni construir un chart nuevo.
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Microciclo R4»
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Microciclo Proyecto autónomo»
 
 ### 1. Línea base
 Haz una toma o recuperación interpretable. Declara condiciones y no selecciones sólo la mejor toma de varias como si representara todo el estado.
@@ -106,23 +106,23 @@ Aporta evidencia de que la solución no depende exclusivamente de la condición 
 ### No mejora
 También es información. Si la prueba era coherente, un resultado nulo puede debilitar la hipótesis y justificar una estrategia diferente.
 
-## Relación con E6, F7 e I3
+## Relación con transcripción real, análisis musical e formas y canciones
 
-U9 puede usar transcripción, análisis o repertorio como **contexto**. Completar este microciclo no certifica automáticamente:
+Esta unidad puede usar transcripción, análisis o repertorio como **contexto**. Completar este microciclo no certifica automáticamente:
 
-- E6 FUNCIONAL global;
-- F7 FUNCIONAL global;
-- I3 AVANZADO;
+- transcripción real FUNCIONAL global;
+- análisis musical FUNCIONAL global;
+- formas y canciones AVANZADO;
 - una transcripción completa;
 - dominio de una pieza.
 
 El foco evaluado aquí es la capacidad de **seleccionar y revisar el proceso de aprendizaje**.
 
-## Frontera con U10
+## Frontera con Unidad 10
 
-U10 está reservado para un **proyecto sostenido de chart/interacción/adaptación**. Por eso U9 limita deliberadamente la duración y el alcance del problema.
+Unidad 10 está reservado para un **proyecto sostenido de chart/interacción/adaptación**. Por eso esta unidad limita deliberadamente la duración y el alcance del problema.
 
-El microciclo de esta lección sirve para que U10 no tenga que decirte en cada paso qué estrategia usar. No sustituye el proyecto ni anticipa su evaluación integrada.
+El microciclo de esta lección sirve para que Unidad 10 no tenga que decirte en cada paso qué estrategia usar. No sustituye el proyecto ni anticipa su evaluación integrada.
 
 ## Rutinas
 
@@ -134,7 +134,7 @@ El microciclo de esta lección sirve para que U10 no tenga que decirte en cada p
 
 ## Criterio de salida
 
-Puedes continuar al checkpoint cuando:
+Puedes continuar al Evaluación cuando:
 
 - seleccionas una tarea acotada y legalmente utilizable;
 - distingues síntoma, hipótesis, estrategia y recurso;

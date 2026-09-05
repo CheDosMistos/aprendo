@@ -25,7 +25,7 @@ En esta unidad, **motivo** es una idea rítmica breve que podemos reconocer y vo
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-title="30.U1.L4 — A y A′" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-title="Lección 4 — A y A′" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f3/u1/f3-u1-l4-motivo-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio original"></div>
 
 Los dos compases comparten 4/4, rejilla y casi todos los ataques.
 
@@ -45,7 +45,7 @@ El objetivo es distinguir **repetición** de **cambio accidental**. Si cada repe
 
 ## 3. Tu variante mínima · 8–10 min
 
-Parte de A o de tu célula de L3 y modifica **una sola variable**:
+Parte de A o de tu célula de Lección 3 y modifica **una sola variable**:
 
 - convertir un ataque en silencio;
 - convertir un silencio en ataque;
@@ -61,7 +61,7 @@ Si la relación deja de ser reconocible, la nueva idea puede ser válida, pero *
 
 ## 4. Lo que todavía NO hacemos
 
-No son núcleo de U1:
+No son núcleo de esta unidad:
 
 - desplazamiento sistemático;
 - aumentación o disminución;
@@ -70,12 +70,12 @@ No son núcleo de U1:
 - recontextualización métrica;
 - improvisación abierta.
 
-Llegarán con mayor profundidad en U5–U7.
+Llegarán con mayor profundidad en Unidades 5–7.
 
 ## AMPLIACIÓN
 
 Crea una segunda A′ cambiando otra variable, pero vuelve siempre a A entre versiones.
 
-## MÍNIMO PARA EL CHECKPOINT
+## MÍNIMO PARA AVANZAR
 
 Puedes repetir A con estabilidad suficiente, crear una A′ mínima y explicar con precisión qué permaneció y qué cambió.

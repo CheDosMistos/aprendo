@@ -126,12 +126,12 @@ No añadas dificultad avanzada sólo para “subir de nivel” si degrada la pie
 
 Este Hito **no vuelve a examinar todo el currículo**. Antes de dar por cerrada la fase, revisa si ya existen evidencias suficientes de:
 
-- ciclo completo de U4 / Checkpoint 3A;
+- ciclo completo de Unidad 4 / Evaluación;
 - transcripción corta y verificación;
 - forma/mapa;
 - motivo, transformación, improvisación y composición;
-- mínimo J3 de 5/4 y 7/8 según U9/U10;
-- análisis integrado de U11.
+- mínimo métricas impares y mixtas de 5/4 y 7/8 según Unidad 9/Unidad 10;
+- análisis integrado de Unidad 11.
 
 Un hueco previo se convierte en **correctivo localizado**, no en un requisito escondido dentro de esta pieza.
 

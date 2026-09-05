@@ -9,15 +9,15 @@ kind: unit
 order: 0
 title: "Interacción: bajo, cues, dinámica y arreglo"
 summary: "Entrena a escuchar información externa, interpretar su función y modificar tu ejecución sin perder tiempo ni forma, distinguiendo simulación de interacción interpersonal real."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [I6, E5, F6, F7, H5, H6, C1, C2, G2, G3]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: I6 — cambiar porque la música cambió
+## Novedad dominante: cambiar porque la música cambió
 
-U5 entrenó elección e improvisación bajo restricciones. U6 añade una condición nueva: **parte de la información que decide tu siguiente acción ya no procede de ti**.
+Unidad 5 entrenó elección e improvisación bajo restricciones. Esta unidad añade una condición nueva: **parte de la información que decide tu siguiente acción ya no procede de ti**.
 
 La transformación central es:
 
@@ -33,11 +33,11 @@ La relación bajo–batería puede incluir coincidencia, complementariedad, espa
 
 ## Cues: señal no equivale todavía a respuesta
 
-U6 separa cinco pasos:
+Esta unidad separa cinco pasos:
 
 `DETECTAR → COMPRENDER FUNCIÓN → DECIDIR → RESPONDER → CONTINUAR LA FORMA`
 
-Trabajaremos count-ins, pickups, entradas, stops/cortes, figures, transiciones, cambios dinámicos, endings y señales auditivas/visuales. U3 ya enseñó navegación y prioridad de información en charts: aquí la novedad no es leer más símbolos, sino **actuar musicalmente ante información que llega durante la ejecución**.
+Trabajaremos count-ins, pickups, entradas, stops/cortes, figures, transiciones, cambios dinámicos, endings y señales auditivas/visuales. Unidad 3 ya enseñó navegación y prioridad de información en charts: aquí la novedad no es leer más símbolos, sino **actuar musicalmente ante información que llega durante la ejecución**.
 
 ## Pistas y músicos reales no prueban lo mismo
 
@@ -51,30 +51,30 @@ Por eso distinguimos:
 
 **EVIDENCIA:** la literatura de coordinación musical describe anticipación, atención y adaptación como procesos centrales de la acción conjunta. Konvalinka et al. (2010) muestran diferencias entre coordinarse con una persona responsiva y una referencia no responsiva; Goebl & Palmer (2009) documentan ajustes bidireccionales frente a condiciones de feedback reducido en dúos de piano. Son tareas distintas de batería–bajo, por lo que su aplicación aquí es una **INFERENCIA** sobre la frontera ecológica, no una receta instrumental.
 
-**ESTÁNDAR DEL PROYECTO:** una pista fija puede certificar I6 MÍNIMO robusto y componentes funcionales observables, pero **no interacción interpersonal completa**.
+**ESTÁNDAR DEL PROYECTO:** una pista fija puede certificar interacción y ensemble MÍNIMO robusto y componentes funcionales observables, pero **no interacción interpersonal completa**.
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Escucha jerárquica: bajo, forma y función
+### Lección 1 — Escucha jerárquica: bajo, forma y función
 Separa pulso/subdivisión, línea de bajo, forma y eventos relevantes; decide cuándo coincidir, complementar, mantener o dejar espacio.
 
-### L2 — Cues: detectar, decidir, responder y seguir
+### Lección 2 — Cues: detectar, decidir, responder y seguir
 Entrena entradas, cortes, transiciones, cambios dinámicos y endings sin perder el siguiente punto de la forma.
 
-### L3 — Densidad, dinámica y arreglo como decisiones
+### Lección 3 — Densidad, dinámica y arreglo como decisiones
 Modifica cuánto tocas, cuánto ocupas y cómo articulas según una variación externa, sin convertir cada cambio en fill.
 
-### L4 — Call/response, información parcial y compañero real
+### Lección 4 — Call/response, información parcial y compañero real
 Usa imitación, contraste, continuación y variación; compara simulación programada con interacción bidireccional cuando exista otro músico.
 
-### Checkpoint 6C — I6 MÍNIMO
+### Evaluación — interacción y ensemble MÍNIMO
 Atiende a bajo, forma y señales y modifica al menos una decisión de ejecución por información musical externa manteniendo continuidad suficiente.
 
 ## Qué puede certificar una pista fija
 
 Puede aportar evidencia de selección de información relevante, continuidad de pulso y forma, detección de señales programadas, respuesta funcional a cambios externos, memoria breve y recuperación ante información parcial.
 
-Con una batería de tareas suficientemente variada, esta evidencia puede sostener **I6 MÍNIMO robusto y componentes funcionales observables**, conforme al contrato superior de la unidad.
+Con una batería de tareas suficientemente variada, esta evidencia puede sostener **interacción y ensemble MÍNIMO robusto y componentes funcionales observables**, conforme al contrato superior de la unidad.
 
 ## Qué NO puede certificar por sí sola
 
@@ -105,18 +105,18 @@ Referencia: **25–30 min, 3–4 días por semana**.
 - **EVIDENCIA EMPÍRICA:** MacRitchie et al. (2018): negociación de objetivos de tempo/dinámica en dúos de piano; apoya que estas dimensiones pueden ser objeto de ajuste interpersonal, no una respuesta única.
 - **FUENTE INSTITUCIONAL / TRADICIÓN PROFESIONAL:** Berklee incluye forma, stop-time, kicks, intros/endings, articulación, dinámica y textura en formación de rhythm section/arranging; documenta relevancia profesional, no superioridad experimental.
 - **DECISIÓN CURRICULAR RAZONADA:** entrenar la cadena detectar→función→decidir→responder→continuar y separar evidencia con pista de evidencia interpersonal.
-- **EJERCICIOS:** todo patrón, cue, estructura o simulación descrito específicamente en U6 es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
+- **EJERCICIOS:** todo patrón, cue, estructura o simulación descrito específicamente en esta unidad es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
 
 ## Fronteras
 
-U6 no:
+Esta unidad no:
 
 - convierte interacción en otra unidad de lectura de charts;
 - enseña un catálogo de fills;
-- fija recetas universales de microtiming: eso se profundiza en U8;
-- convierte transferencia entre estilos en objetivo dominante: corresponde a U7;
-- sustituye el proyecto sostenido de chart/interacción/adaptación de U10;
-- abre J7/J8/J9 profundos de Fase 7;
+- fija recetas universales de microtiming: eso se profundiza en Unidad 8;
+- convierte transferencia entre estilos en objetivo dominante: corresponde a Unidad 7;
+- sustituye el proyecto sostenido de chart/interacción/adaptación de Unidad 10;
+- abre polimetría/modulación métrica/integración progresiva y experimental profundos de Fase 7;
 - declara alcanzado el Hito 7;
 - usa BPM universal como aprobación.
 

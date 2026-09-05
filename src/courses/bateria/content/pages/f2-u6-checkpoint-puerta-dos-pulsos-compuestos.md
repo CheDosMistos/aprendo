@@ -8,18 +8,18 @@ slug: puerta-de-dos-pulsos-compuestos
 kind: checkpoint
 order: 5
 title: "Puerta de dos pulsos compuestos"
-summary: "Checkpoint diagnóstico de U6: decide si D4/F2 y C1/C2 permiten ampliar el compás compuesto conservando 6/8 como dos pulsos de negra con puntillo, leyéndolo, sintiéndolo y explicándolo sin reducirlo a seis corcheas."
+summary: "Evaluación diagnóstico de esta unidad: decide si lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten ampliar el compás compuesto conservando 6/8 como dos pulsos de negra con puntillo, leyéndolo, sintiéndolo y explicándolo sin reducirlo a seis corcheas."
 duration: 10–15 min
 competencies: [C1, C2, D4, E1, E2, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este checkpoint **no sirve para aprobar U6 de memoria** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. La inferencia es más concreta:
+Esta evaluación **no sirve para aprobar esta unidad de memoria** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. La inferencia es más concreta:
 
-> **¿D4/F2 y C1/C2 permiten abrir la siguiente ampliación del compás compuesto conservando 6/8 como dos pulsos principales subdivididos en tres, incluso con silencios, y pudiendo explicar por qué «seis corcheas» no bastan para definir la métrica?**
+> **¿lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir la siguiente ampliación del compás compuesto conservando 6/8 como dos pulsos principales subdivididos en tres, incluso con silencios, y pudiendo explicar por qué «seis corcheas» no bastan para definir la métrica?**
 
-La evidencia principal es una muestra breve **nueva y exclusiva de esta puerta**. La escucha posterior sirve como transferencia de representación E1/E2 dentro de una condición conocida; **no demuestra E5 general**. Tampoco se registra esta tarea como primera vista formal D5.
+La evidencia principal es una muestra breve **nueva y exclusiva de esta puerta**. La escucha posterior sirve como transferencia de representación reconocimiento de pulso y subdivisión/imitación rítmica dentro de una condición conocida; **no demuestra grabación y comparación general**. Tampoco se registra esta tarea como primera vista formal forma y lectura de chart.
 
 El BPM describe la **condición** de la muestra; no define el nivel.
 
@@ -27,7 +27,7 @@ El BPM describe la **condición** de la muestra; no define el nivel.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-checkpoint-dos-pulsos.musicxml" data-score-title="20.U6.CP — muestra exclusiva de dos pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-checkpoint-dos-pulsos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-checkpoint-dos-pulsos.musicxml" data-score-title="Evaluación — muestra exclusiva de dos pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-checkpoint-dos-pulsos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 La muestra contiene cuatro compases de 6/8 y utiliza únicamente corcheas y silencios de corchea ya conocidos. Hay **24 posiciones de corchea: 16 ataques y 8 silencios**. Cada compás ocupa exactamente seis corcheas.
 
@@ -52,9 +52,9 @@ Condiciones:
 
 Registra por separado:
 
-- **C1 — PULSO PRINCIPAL:** ¿siguen localizables dos apoyos grandes por compás?;
-- **C2 — SUBDIVISIÓN:** ¿las tres posiciones internas de cada pulso permanecen aproximadamente iguales, también cuando hay silencio?;
-- **D4 — LECTURA MÉTRICA:** ¿la línea se lee dentro de 6/8 como `2×3` o terminas contando seis pulsos equivalentes?;
+- **PULSO PRINCIPAL:** ¿siguen localizables dos apoyos grandes por compás?;
+- **SUBDIVISIÓN:** ¿las tres posiciones internas de cada pulso permanecen aproximadamente iguales, también cuando hay silencio?;
+- **LECTURA MÉTRICA:** ¿la línea se lee dentro de 6/8 como `2×3` o terminas contando seis pulsos equivalentes?;
 - **CONTINUIDAD / RECUPERACIÓN:** ¿un fallo local arrastra la jerarquía del compás?;
 - **AYUDAS:** click, conteo, canto, marcas o reducción de tempo;
 - **CARGA / RELAJACIÓN**;
@@ -68,7 +68,7 @@ Sólo después de tu tentativa, habilita audio y aparta la vista de la partitura
 - en una segunda escucha, añade internamente `la-li` entre ambos;
 - comprueba si los silencios hacen que empieces a seguir cada ataque en lugar del pulso principal.
 
-Esta comprobación aporta evidencia secundaria de **E1/E2 en el contexto ya delimitado**. Reconocer aquí los dos apoyos no autoriza a declarar reconocimiento métrico general E5.
+Esta comprobación aporta evidencia secundaria de **reconocimiento de pulso y subdivisión/imitación rítmica en el contexto ya delimitado**. Reconocer aquí los dos apoyos no autoriza a declarar reconocimiento métrico general grabación y comparación.
 
 ## 2. Explicación conceptual — la cantidad escrita no define la métrica — 2–3 min
 
@@ -76,7 +76,7 @@ Responde con tus palabras. No hace falta repetir una definición literal.
 
 ### ¿Por qué seis corcheas no bastan para definir el metro?
 
-Porque la misma cantidad escrita puede organizarse con jerarquías distintas. En el contraste trabajado en U6:
+Porque la misma cantidad escrita puede organizarse con jerarquías distintas. En el contraste trabajado en esta unidad:
 
 - `6/8` prototípico: **dos pulsos principales × tres corcheas** — `2×3`;
 - `3/4` prototípico del contraste: **tres pulsos principales × dos corcheas** — `3×2`.
@@ -93,7 +93,7 @@ No. Puedes superponer una **reagrupación interna / agrupación** mediante acent
 
 > **AGRUPACIÓN ≠ COMPÁS.**
 
-Si puedes tocar la línea pero no explicar estas diferencias, la limitación es principalmente de **F2/comprensión métrica**, no una prueba de que C1 o C2 estén ausentes.
+Si puedes tocar la línea pero no explicar estas diferencias, la limitación es principalmente de **métrica y terminología rítmica/comprensión métrica**, no una prueba de que pulso interno o subdivisión binaria y ternaria estén ausentes.
 
 ## 3. Evidencia secundaria sólo si hace falta — escribir una célula — 1–2 min
 
@@ -125,21 +125,21 @@ Aplica la cadena completa:
 
 ### CONTINUAR
 
-Los dos pulsos principales permanecen suficientemente disponibles, la subdivisión ternaria se conserva a una condición razonable, la lectura nueva puede organizarse como `2×3` y la explicación distingue cantidad escrita, métrica, tuplet y agrupación. Tiene sentido abrir U7 y ampliar el modelo compuesto sin convertir esta puerta en una lección anticipada de la unidad siguiente.
+Los dos pulsos principales permanecen suficientemente disponibles, la subdivisión ternaria se conserva a una condición razonable, la lectura nueva puede organizarse como `2×3` y la explicación distingue cantidad escrita, métrica, tuplet y agrupación. Tiene sentido abrir Unidad 7 y ampliar el modelo compuesto sin convertir esta puerta en una lección anticipada de la unidad siguiente.
 
 ### CONTINUAR + CORRECTIVO
 
-El núcleo `6/8 = 2×3` está disponible, pero queda una fragilidad localizada —por ejemplo un silencio que desplaza el pulso, desigualdad ternaria, confusión puntual con 3/4, explicación incompleta o dependencia excesiva del conteo—. Abre U7 manteniendo un correctivo breve y explícito sobre esa variable.
+El núcleo `6/8 = 2×3` está disponible, pero queda una fragilidad localizada —por ejemplo un silencio que desplaza el pulso, desigualdad ternaria, confusión puntual con 3/4, explicación incompleta o dependencia excesiva del conteo—. Abre Unidad 7 manteniendo un correctivo breve y explícito sobre esa variable.
 
 ### REDUCIR NOVEDAD
 
-La muestra se reorganiza repetidamente como seis pulsos equivalentes, se confunden de forma sistemática `2×3` y `3×2`, la subdivisión deja de ser controlable o lectura y explicación ofrecen evidencia contradictoria que no permite localizar el límite. Reduce una variable, elicita otra muestra breve y no reinicies U6 completa por defecto.
+La muestra se reorganiza repetidamente como seis pulsos equivalentes, se confunden de forma sistemática `2×3` y `3×2`, la subdivisión deja de ser controlable o lectura y explicación ofrecen evidencia contradictoria que no permite localizar el límite. Reduce una variable, elicita otra muestra breve y no reinicies esta unidad completa por defecto.
 
 ### DETENER CARGA
 
 Una señal de salud o fatiga invalida la tarea o aconseja parar. Reduce o detén la carga según el sistema general y no conviertas esta decisión en una valoración de capacidad musical.
 
-## MÍNIMO PARA ABRIR U7
+## MÍNIMO PARA ABRIR Unidad 7
 
 En una condición razonable y con ayudas registradas cuando hagan falta, la evidencia conjunta debería permitirte:
 
@@ -158,34 +158,34 @@ No se exige:
 
 - cero errores;
 - un BPM fijo, universal o alto;
-- primera vista formal D5;
-- reconocimiento métrico general E5;
-- 9/8 o 12/8 — pertenecen a U7 y **no se enseñan en esta puerta**;
-- sextillos — U8;
-- gaps de metrónomo — U10;
+- primera vista formal forma y lectura de chart;
+- reconocimiento métrico general grabación y comparación;
+- 9/8 o 12/8 — pertenecen a Unidad 7 y **no se enseñan en esta puerta**;
+- sextillos — Unidad 8;
+- gaps de metrónomo — Unidad 10;
 - shuffle/jazz como foco estilístico;
 - convertir `2+2+2` en una nueva indicación métrica;
-- que C1, C2, D4, E1, E2, F2 o cualquier otra competencia pase automáticamente a `FUNCIONAL` por completar la página.
+- que pulso interno, subdivisión binaria y ternaria, lectura de compás, reconocimiento de pulso y subdivisión, imitación rítmica, métrica y terminología rítmica o cualquier otra competencia pase automáticamente a `FUNCIONAL` por completar la página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA PUERTA
 
 La evidencia es funcional en esta tarea cuando puedes conservar la jerarquía `2×3` entre ejecución, lectura, escucha y explicación en material elemental de 6/8, reconocer qué variable se rompe cuando algo falla y corregirla sin depender de que cada ataque marque el pulso.
 
-Esto **no equivale** a declarar D4, F2, E1, E2 ni ninguna otra competencia globalmente `FUNCIONAL`.
+Esto **no equivale** a declarar lectura de compás, métrica y terminología rítmica, reconocimiento de pulso y subdivisión, imitación rítmica ni ninguna otra competencia globalmente `FUNCIONAL`.
 
 ## Cómo interpretar discrepancias
 
-- **mantienes dos pulsos pero las tres partes son desiguales:** el límite principal está en C2;
+- **mantienes dos pulsos pero las tres partes son desiguales:** el límite principal está en subdivisión binaria y ternaria;
 - **subdivides bien pero lees un silencio como ataque:** problema localizado de lectura, no de métrica por sí solo;
-- **tocas correctamente pero cuentas seis pulsos:** la ejecución puede estar sostenida por memoria o imitación; revisa D4/F2;
+- **tocas correctamente pero cuentas seis pulsos:** la ejecución puede estar sostenida por memoria o imitación; revisa lectura de compás/métrica y terminología rítmica;
 - **lees `2×3` pero al escuchar sigues sólo los ataques:** conserva dos apoyos grandes y añade después la subdivisión;
 - **confundes 3/4 y 6/8 porque ambos suman seis corcheas:** vuelve a comparar `3×2` frente a `2×3`, no la cantidad total;
 - **llamas tresillo a cualquier grupo de tres:** vuelve a distinguir subdivisión ordinaria del compás y relación de tuplet;
 - **un `2+2+2` superficial sustituye mentalmente al 6/8:** retira los acentos y recupera los dos pulsos de negra con puntillo;
 - **una muestra aislada contradice varias evidencias recientes:** obtiene otra muestra breve antes de modificar el mapa de progreso.
 
-Completar este checkpoint **no actualiza automáticamente** ninguna competencia. La plataforma debe conservar la evidencia y las condiciones, no convertir “página terminada” en “habilidad dominada”.
+Completar esta evaluación **no actualiza automáticamente** ninguna competencia. La plataforma debe conservar la evidencia y las condiciones, no convertir “página terminada” en “habilidad dominada”.
 
-## Puente a U7
+## Puente a Unidad 7
 
 Si la decisión es `CONTINUAR` o `CONTINUAR + CORRECTIVO`, la siguiente unidad puede **ampliar el modelo de compás compuesto**. Esta puerta no desarrolla esa nueva materia: sólo comprueba que la representación prototípica de 6/8 como dos pulsos compuestos es suficientemente estable para continuar.

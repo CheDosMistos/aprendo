@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-12
 slug: comparacion-u1-continuidad-transicion
 kind: lesson
 order: 4
-title: "U12.L4 — U1 → U12: límites, mantenimiento y transición"
+title: "Esta unidad.Lección 4 — Unidad 1 → esta unidad: límites, mantenimiento y transición"
 summary: "Compara la línea base de entrada con el estado final de Fase 6, identifica cambios cualitativos en autonomía y define mantenimiento/correctivos sin presentar el cierre como ausencia de problemas."
 duration: 1–2 sesiones
 competencies: [K1, K2, K5, K6, K7, K8, E6, F7, I3, I4]
@@ -17,13 +17,13 @@ published: true
 
 ## Objetivo
 
-Volver a la línea base de U1 y comparar **cómo aprendes**, no sólo si ahora tocas material más complejo.
+Volver a la línea base de Unidad 1 y comparar **cómo aprendes**, no sólo si ahora tocas material más complejo.
 
-U1 preguntaba:
+Unidad 1 preguntaba:
 
 > ¿puedo mirar una ejecución propia, describir qué la limita y elegir qué hacer después?
 
-U12 pregunta:
+Esta unidad pregunta:
 
 > **¿PUEDO HACER ESO CON MAYOR PRECISIÓN, EVIDENCIA Y TRANSFERENCIA, Y SÉ QUÉ SIGUE NECESITANDO APOYO?**
 
@@ -41,9 +41,9 @@ El cierre no exige que todas las flechas apunten “hacia arriba”. Exige inter
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Delta de autonomía»
 
-Compara U1 y U12 sin puntuación numérica:
+Compara Unidad 1 y esta unidad sin puntuación numérica:
 
-| Dimensión | U1 | U12 | Evidencia del cambio | Estado siguiente |
+| Dimensión | Unidad 1 | esta unidad | Evidencia del cambio | Estado siguiente |
 |---|---|---|---|---|
 | precisión del diagnóstico | | | | |
 | selección de recursos | | | | |
@@ -58,41 +58,41 @@ No sumes columnas ni conviertas la tabla en un porcentaje de autonomía.
 
 ## Ocho preguntas de comparación
 
-### K1 — objetivo
+### objetivo
 
 ¿Tu objetivo actual describe mejor una conducta musical observable y su contexto?
 
-### K2 — diagnóstico
+### diagnóstico
 
 ¿Separás con más claridad síntoma, observación e hipótesis?
 
-### K3 — organización
+### organización
 
 ¿Sabes aislar una parte sin perder de vista cómo volverá a la música?
 
-### K4 — condiciones de práctica
+### condiciones de práctica
 
 ¿Distingues mejor adquisición, estabilización, recuperación, transferencia y mantenimiento?
 
-### K5 — feedback
+### feedback
 
 ¿Usas grabación, metrónomo, chart u otra ayuda para responder preguntas concretas en vez de por rutina?
 
-### K6 — registro
+### registro
 
 ¿Tu registro conserva información que cambia decisiones en vez de acumular datos?
 
-### K7 — carga
+### carga
 
 ¿Reconoces cuándo reducir volumen, dificultad o novedad para proteger salud y calidad de evidencia?
 
-### K8 — autonomía
+### autonomía
 
 ¿Puedes elegir y revisar estrategia/recurso según evidencia dentro de un proyecto musical real?
 
-## E6 y F7 en la comparación
+## transcripción real y análisis musical en la comparación
 
-### E6
+### transcripción real
 
 Compara cómo tratabas al principio la información auditiva con cómo la tratas ahora:
 
@@ -102,13 +102,13 @@ Compara cómo tratabas al principio la información auditiva con cómo la tratas
 - simplificación;
 - distinción entre transcripción propia y fuente publicada.
 
-### F7
+### análisis musical
 
 Pregunta si ahora puedes relacionar con mayor utilidad:
 
 `RITMO/SUBDIVISIÓN ↔ FORMA ↔ DINÁMICA ↔ FUNCIÓN ↔ ESTILO ↔ DECISIÓN`
 
-F7 no se demuestra utilizando más términos, sino tomando mejores decisiones gracias al análisis.
+análisis musical no se demuestra utilizando más términos, sino tomando mejores decisiones gracias al análisis.
 
 ## Clasificar lo pendiente
 
@@ -148,7 +148,7 @@ No programes meses de trabajo detallado. La transición debe dejar espacio para 
 
 Fase 6 prepara para **investigar y aprender material complejo con autonomía creciente**.
 
-Eso es todo lo que U12 necesita declarar sobre la siguiente etapa.
+Eso es todo lo que esta unidad necesita declarar sobre la siguiente etapa.
 
 No se enseñan aquí:
 
@@ -165,7 +165,7 @@ Esos contenidos necesitarán su propia arquitectura, fuentes, prerrequisitos y e
 
 ### MÍNIMO PARA AVANZAR
 
-Comparas U1 y U12 mediante evidencia cualitativa, identificas al menos un cambio funcional en tu proceso, reconoces límites pendientes y propones continuidad sostenible sin convertirlos todos en bloqueos.
+Comparas Unidad 1 y esta unidad mediante evidencia cualitativa, identificas al menos un cambio funcional en tu proceso, reconoces límites pendientes y propones continuidad sostenible sin convertirlos todos en bloqueos.
 
 ### COMPETENTE / FUNCIONAL
 
@@ -178,6 +178,6 @@ Opcionalmente identificas una competencia donde tu percepción de progreso no co
 ## Autoevaluación
 
 - ¿estoy comparando procesos o sólo dificultad de repertorio?
-- ¿qué hago ahora mejor que en U1 cuando algo falla?
+- ¿qué hago ahora mejor que en Unidad 1 cuando algo falla?
 - ¿qué problema sigue siendo real pero no bloquea el hito?
 - ¿qué contenido estoy dejando conscientemente para más adelante?

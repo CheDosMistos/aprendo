@@ -69,7 +69,7 @@ No limites la escucha a «qué ataques coinciden». Atiende también a:
 
 ## 5. Atención dividida
 
-La investigación de ensemble describe una atención que integra acciones propias, acciones ajenas y resultado conjunto. Para U6 lo convertimos en una tarea simple:
+La investigación de ensemble describe una atención que integra acciones propias, acciones ajenas y resultado conjunto. Para esta unidad lo convertimos en una tarea simple:
 
 - una capa propia debe seguir suficientemente estable;
 - una fuente externa recibe atención prioritaria durante un tramo;

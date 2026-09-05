@@ -21,13 +21,13 @@ Comprobar que A y B están disponibles como patrones distintos, no sólo como un
 
 ## Los dos patrones
 
-### Patrón A — ya conocido de U5
+### Patrón A — ya conocido de Unidad 5
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U6.L4 — Patrón A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Lección 4 — Patrón A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ### Patrón B — una sola capa cambia
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="40.U6.L4 — Patrón B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="Lección 4 — Patrón B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Recuperación activa
 
@@ -47,7 +47,7 @@ No hace falta imponer un intervalo fijo de horas o días.
 - B durante una frase breve;
 - en otra vuelta, B primero y A después.
 
-**AMPLIACIÓN:** cuando ambos estén suficientemente estables, puedes pasar A→B en un límite de frase claro. No es requisito del checkpoint.
+**AMPLIACIÓN:** cuando ambos estén suficientemente estables, puedes pasar A→B en un límite de frase claro. No es requisito de la evaluación.
 
 ## Recuperarse de un error
 
@@ -59,11 +59,11 @@ En modo interpretación:
 - vuelve al patrón previsto;
 - analiza después.
 
-## FRONTERA H7
+## FRONTERA independencia avanzada
 
 Alternar **dos patrones fijos** no equivale a mantener una capa estable mientras otra voz varía libremente.
 
-Esta tarea sigue siendo H4. **No certifica H7.**
+Esta tarea sigue siendo coordinación básica de cuatro extremidades. **No certifica independencia avanzada.**
 
 ## MÍNIMO PARA AVANZAR
 

@@ -54,7 +54,7 @@ La tercera columna es **tu adaptación de práctica**, no una afirmación de ins
 
 > **LABORATORIO DE CAPAS ≠ GROOVE DE SAMBA.**
 
-## H7 contextual
+## independencia avanzada contextual
 
 La independencia aquí consiste en conservar dos funciones mientras una tercera aparece o desaparece. No es todavía una orquestación completa de bateria de samba en cuatro extremidades.
 

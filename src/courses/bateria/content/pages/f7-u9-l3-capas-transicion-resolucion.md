@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-9
 slug: capas-transicion-resolucion
 kind: lesson
 order: 3
-title: "Capas, transición y resolución: integrar J5, J6 y J8"
+title: "Capas, transición y resolución: integrar ciclos que cruzan compases, polirritmia y modulación métrica"
 summary: "Construye un arco avanzado que pasa por ciclo trans-barra, polirritmia y modulación métrica sin confundir sus mecanismos ni perder una salida formal clara."
 duration: 25–30 min
 competencies: [J9, J5, J6, J8, G2, G6, C1, C2, C3, D4, F2, F3, E2, K2, K3, K5]
@@ -19,11 +19,11 @@ published: true
 
 Integrar tres fenómenos avanzados manteniendo su identidad:
 
-- **J5:** ciclo que atraviesa barras;
-- **J6:** dos capas rítmicas simultáneas;
-- **J8:** una duración se convierte en nueva unidad de pulso.
+- **ciclos que cruzan compases:** ciclo que atraviesa barras;
+- **polirritmia:** dos capas rítmicas simultáneas;
+- **modulación métrica:** una duración se convierte en nueva unidad de pulso.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u9/f7-u9-advanced-arc.musicxml" data-score-title="70.U9 — Arco avanzado: ciclo, polirritmia y modulación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u9/f7-u9-advanced-arc.musicxml" data-score-title="Unidad 9 — Arco avanzado: ciclo, polirritmia y modulación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## El arco de seis compases
 
@@ -40,7 +40,7 @@ La finalidad no es demostrar que puedes encadenar tres técnicas. La finalidad e
 
 `tensión → cambio de perspectiva → transformación temporal → resolución`
 
-## Tramo 1 — J5 sigue siendo J5
+## Tramo 1 — ciclos que cruzan compases sigue siendo ciclos que cruzan compases
 
 En los dos primeros compases:
 
@@ -50,7 +50,7 @@ En los dos primeros compases:
 
 No hay todavía polirritmia porque la tarea principal no exige dos capas rítmicas independientes simultáneas.
 
-## Tramo 2 — J6 cambia el problema
+## Tramo 2 — polirritmia cambia el problema
 
 En el tercer compás aparecen dos capas:
 
@@ -60,7 +60,7 @@ En el tercer compás aparecen dos capas:
 
 Aquí el problema ya no es “¿dónde cae el próximo acento del ciclo trans-barra?”, sino “¿puedo mantener dos periodicidades simultáneas y entender su relación común?”.
 
-## Tramo 3 — J8 cambia la referencia
+## Tramo 3 — modulación métrica cambia la referencia
 
 El cuarto compás establece corcheas de tresillo.
 
@@ -78,15 +78,15 @@ La duración puente permanece; lo que cambia es qué unidad se interpreta como p
 
 Toca cada tramo por separado y responde:
 
-### J5
+### ciclos que cruzan compases
 
 ¿Qué se mantiene aunque cambie la alineación con la barra?
 
-### J6
+### polirritmia
 
 ¿Cuál es el ciclo común y qué dos capas lo ocupan?
 
-### J8
+### modulación métrica
 
 ¿Qué duración concreta se conserva al cambiar de tempo?
 
@@ -96,7 +96,7 @@ Si respondes las tres preguntas con la misma explicación, estás borrando difer
 
 Practica únicamente:
 
-1. final de J5 → entrada en 3:2;
+1. final de ciclos que cruzan compases → entrada en 3:2;
 2. final de 3:2 → rejilla de tresillo;
 3. rejilla de tresillo → nueva negra a 180;
 4. regreso 180 → 120.
@@ -107,11 +107,11 @@ La integración suele fallar en las **transiciones**, aunque cada bloque aislado
 
 ## Qué queda fuera deliberadamente
 
-Esta miniatura no incorpora J7.
+Esta miniatura no incorpora polimetría.
 
-Eso es intencional. J9 no obliga a introducir polimetría en toda estructura integrada. Añadir `3/4 ↔ 4/4` aquí aumentaría el número de referencias simultáneas sin aportar una función pedagógica clara a este estudio.
+Eso es intencional. integración progresiva y experimental no obliga a introducir polimetría en toda estructura integrada. Añadir `3/4 ↔ 4/4` aquí aumentaría el número de referencias simultáneas sin aportar una función pedagógica clara a este estudio.
 
-En AMPLIACIÓN puedes diseñar otra pieza donde J7 sea el recurso dominante y J5/J6/J8 desaparezcan.
+En AMPLIACIÓN puedes diseñar otra pieza donde polimetría sea el recurso dominante y ciclos que cruzan compases/polirritmia/modulación métrica desaparezcan.
 
 ## Metrónomo y playback
 
@@ -143,23 +143,23 @@ Después, en compases 4–5, cambia de pregunta:
 
 Diseña una variante de seis u ocho compases conservando el arco formal pero cambiando uno de los fenómenos:
 
-- J5 de ciclo 3 → ciclo 5;
-- J6 de 3:2 → 4:3;
-- J8 de 3:2 → 5:4.
+- ciclos que cruzan compases de ciclo 3 → ciclo 5;
+- polirritmia de 3:2 → 4:3;
+- modulación métrica de 3:2 → 5:4.
 
 No cambies los tres a la vez en la primera variante.
 
 ## Recuperación
 
-Si colapsa J5:
+Si colapsa ciclos que cruzan compases:
 
 - conserva barra y vuelve a una capa neutra.
 
-Si colapsa J6:
+Si colapsa polirritmia:
 
 - conserva una capa y reintroduce la segunda en la siguiente frontera común.
 
-Si colapsa J8:
+Si colapsa modulación métrica:
 
 - conserva la duración puente o vuelve explícitamente al tempo anterior; no inventes un tercer tempo intermedio.
 
@@ -169,12 +169,12 @@ La recuperación debe respetar **qué tipo de problema** ha fallado.
 
 Cuando haya kit:
 
-- J5: acentos en toms sobre una referencia simple de plato;
-- J6: una capa en mano/pie y otra en superficie distinta;
-- J8: mantén una orquestación sencilla durante el cambio de referencia.
+- ciclos que cruzan compases: acentos en toms sobre una referencia simple de plato;
+- polirritmia: una capa en mano/pie y otra en superficie distinta;
+- modulación métrica: mantén una orquestación sencilla durante el cambio de referencia.
 
 No añadas coordinación compleja hasta que la relación temporal sobreviva.
 
 ## Criterio de avance
 
-Puedes interpretar el arco con continuidad razonable, explicar por qué cada tramo es J5/J6/J8, practicar sus transiciones, recuperar de un fallo y justificar por qué no has añadido otros recursos innecesarios.
+Puedes interpretar el arco con continuidad razonable, explicar por qué cada tramo es ciclos que cruzan compases/polirritmia/modulación métrica, practicar sus transiciones, recuperar de un fallo y justificar por qué no has añadido otros recursos innecesarios.

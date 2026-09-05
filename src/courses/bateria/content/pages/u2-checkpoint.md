@@ -7,8 +7,8 @@ unitSlug: unidad-2
 slug: cierre-unidad-2
 kind: checkpoint
 order: 5
-title: Cierre de U2 — ¿puedo continuar?
-summary: Decide si tiene sentido empezar U3 mediante una muestra breve observable, sin exigir perfección, velocidad máxima ni dominio completo del ternario.
+title: Cierre de esta unidad — ¿puedo continuar?
+summary: Decide si tiene sentido empezar Unidad 3 mediante una muestra breve observable, sin exigir perfección, velocidad máxima ni dominio completo del ternario.
 duration: 10–15 min
 competencies: [A2, A3, A4, A5, A6, B1, B2, B5, B6, C1, C2, D1, E2, F1, K2, K4, K6]
 rudiments:
@@ -23,19 +23,19 @@ published: true
 
 No necesitas cerrar los seis rudimentos como `CONOCIDOS` ni tocar a una velocidad concreta.
 
-El cierre combina autoevaluación con una **muestra breve observable**. El objetivo es decidir si U3 puede añadir novedad sin ocultar los pendientes reales.
+El cierre combina autoevaluación con una **muestra breve observable**. El objetivo es decidir si Unidad 3 puede añadir novedad sin ocultar los pendientes reales.
 
 ## Microprotocolo observable — 8–10 min
 
 ### 1. Recuperación PAS — 2–3 min
 
-Elige al azar o rota un PAS de U2 sin calentamiento específico. Si esa muestra representa solo una familia, añade una segunda muestra breve de otra familia cuando sea necesario para decidir progresión.
+Elige al azar o rota un PAS de esta unidad sin calentamiento específico. Si esa muestra representa solo una familia, añade una segunda muestra breve de otra familia cuando sea necesario para decidir progresión.
 
 Consulta PAS cuando dudes. Registra únicamente las habilidades observadas: una muestra no actualiza automáticamente los seis PAS de la unidad.
 
 ### 2. Dos y tres partes iguales — 2 min
 
-Mantén el mismo pulso y alterna lentamente entre **dos** y **tres** partes iguales por pulso. Si el cambio destruye el pulso, registra C1/C2 como cuello de botella; no lo conviertas en un problema de sticking.
+Mantén el mismo pulso y alterna lentamente entre **dos** y **tres** partes iguales por pulso. Si el cambio destruye el pulso, registra pulso interno/subdivisión binaria y ternaria como cuello de botella; no lo conviertas en un problema de sticking.
 
 No se exige que la subdivisión ternaria sea tan natural como la binaria.
 
@@ -43,9 +43,9 @@ No se exige que la subdivisión ternaria sea tan natural como la binaria.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente no aparece en las lecciones previas de U2 y permanece oculta hasta pulsar **Empezar**. Haz una inspección breve del compás y las figuras; después realiza un primer intento antes de repetir.
+La partitura siguiente no aparece en las lecciones previas de esta unidad y permanece oculta hasta pulsar **Empezar**. Haz una inspección breve del compás y las figuras; después realiza un primer intento antes de repetir.
 
-<div data-notation-score data-score-src="/bateria/notation/u2/checkpoint-lectura-nueva.musicxml" data-score-title="Checkpoint U2 — lectura nueva con silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u2/checkpoint-lectura-nueva.musicxml" data-score-title="Evaluación de esta unidad — lectura nueva con silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Observa continuidad, relación con el pulso y recuperación ante un error. Después del primer intento deja de ser una prueba de primera vista y pasa a ser práctica de lectura.
 
@@ -59,18 +59,18 @@ Por ejemplo, diferencia un fallo de tiempo de uno de sticking o de lectura antes
 
 ## MÍNIMO PARA CONTINUAR
 
-Puedes abrir U3 cuando, considerando la muestra de hoy y la evidencia reciente todavía representativa:
+Puedes abrir Unidad 3 cuando, considerando la muestra de hoy y la evidencia reciente todavía representativa:
 
-- los seis rudimentos de U2 han sido **presentados correctamente** o sabes cuáles quedan pendientes de exposición;
+- los seis rudimentos de esta unidad han sido **presentados correctamente** o sabes cuáles quedan pendientes de exposición;
 - no mantienes una forma claramente equivocada por no haberla contrastado con PAS;
-- C1/C2 permiten conservar un pulso razonable al trabajar dos y tres partes iguales de forma lenta;
+- pulso interno/subdivisión binaria y ternaria permiten conservar un pulso razonable al trabajar dos y tres partes iguales de forma lenta;
 - puedes abordar material elemental nuevo con negras, corcheas y silencios sin depender por completo de memoria;
 - distingues **pulso**, **subdivisión** y **sticking**;
 - puedes formular al menos un problema como **síntoma → hipótesis → prueba**;
 - no existe una señal de salud que aconseje detener o reducir la carga;
 - sabes qué uno o dos elementos deben seguir reapareciendo en las siguientes unidades.
 
-## Lo que NO bloquea automáticamente U3
+## Lo que NO bloquea automáticamente Unidad 3
 
 - que un rudimento siga en estado de trabajo `NUEVO` o `EN ESTABILIZACIÓN`;
 - que todavía no haya evidencia suficiente para marcarlo `CONOCIDO`;
@@ -91,7 +91,7 @@ Puedes abrir U3 cuando, considerando la muestra de hoy y la evidencia reciente t
 
 **CONTINUAR** — la base relevante está disponible.
 
-**CONTINUAR + CORRECTIVO** — uno o dos elementos quedan en mantenimiento sin impedir U3.
+**CONTINUAR + CORRECTIVO** — uno o dos elementos quedan en mantenimiento sin impedir Unidad 3.
 
 **REDUCIR NOVEDAD** — falla un prerrequisito central de tiempo, lectura básica o control que hace prematuro añadir complejidad.
 
@@ -103,4 +103,4 @@ Si tienes dudas sobre cualquiera de los seis rudimentos, vuelve a la fuente norm
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-U3 seguirá recuperando material anterior. Avanzar no significa abandonar U1 o U2.
+Unidad 3 seguirá recuperando material anterior. Avanzar no significa abandonar Unidad 1 o esta unidad.

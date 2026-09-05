@@ -15,13 +15,13 @@ rudiments: []
 published: true
 ---
 
-U6 dejó una estructura estable de referencia: `6/8 = 2×3` en el caso prototípico trabajado. U7.L1 no cambia la lógica interna del pulso compuesto. Añade **un tercer pulso principal**.
+Unidad 6 dejó una estructura estable de referencia: `6/8 = 2×3` en el caso prototípico trabajado. Esta unidad.Lección 1 no cambia la lógica interna del pulso compuesto. Añade **un tercer pulso principal**.
 
 > **9/8 PROTOTÍPICO = 3 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 
 Las nueve corcheas escritas describen nueve posiciones de subdivisión por compás. No describen por sí solas nueve pulsos equivalentes.
 
-La novedad dominante de hoy es sólo esta generalización `2×3 → 3×3`. **12/8 queda para L2**; el contraste sistemático simple/compuesto queda para L3; la clasificación auditiva y E5 inicial se desarrollarán después dentro de U7.
+La novedad dominante de hoy es sólo esta generalización `2×3 → 3×3`. **12/8 queda para Lección 2**; el contraste sistemático simple/compuesto queda para Lección 3; la clasificación auditiva y grabación y comparación inicial se desarrollarán después dentro de esta unidad.
 
 ## 1. Recuperar 6/8 y añadir un pulso — 4 min
 
@@ -86,13 +86,13 @@ Ambos pueden sentirse con **tres pulsos principales**, pero la subdivisión prot
 - `3/4 = 3×2`;
 - `9/8 = 3×3`.
 
-Hoy esta diferencia sirve sólo como recordatorio de U6. El contraste sistemático simple/compuesto será L3.
+Hoy esta diferencia sirve sólo como recordatorio de Unidad 6. El contraste sistemático simple/compuesto será Lección 3.
 
 ## 3. Leer la jerarquía 3×3 — 10–12 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-title="20.U7.L1 — 9/8: tres pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-title="Lección 1 — 9/8: tres pulsos compuestos" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l1-9-8-tres-pulsos-compuestos.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de habilitar el audio:
 
@@ -136,7 +136,7 @@ Después del intento propio, pulsa **Habilitar audio** y usa el playback como fe
 
 Cada compás ocupa exactamente nueve corcheas equivalentes.
 
-La marca visible del asset es `♩. = 80`: 80 pulsos principales de negra con puntillo por minuto. El MusicXML conserva `<sound tempo="120"/>` como equivalencia técnica en negras para el playback del curso. Esto es una **condición de la muestra**, no una velocidad mínima ni un criterio de competencia.
+La marca visible del materiales es `♩. = 80`: 80 pulsos principales de negra con puntillo por minuto. El MusicXML conserva `<sound tempo="120"/>` como equivalencia técnica en negras para el playback del curso. Esto es una **condición de la muestra**, no una velocidad mínima ni un criterio de competencia.
 
 ## 4. Tres pulsos principales sin apoyo continuo — 4–5 min
 
@@ -200,7 +200,7 @@ Decisión:
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L2
+## MÍNIMO PARA AVANZAR A Lección 2
 
 En una condición cómoda y con ayudas razonables cuando hagan falta:
 
@@ -209,7 +209,7 @@ En una condición cómoda y con ayudas razonables cuando hagan falta:
 - lees una línea elemental sin convertir por defecto nueve corcheas en nueve pulsos equivalentes;
 - reconoces la negra con puntillo como unidad de pulso principal en el caso trabajado;
 - puedes explicar la relación `9/8 = 3×3` sin confundirla con un tuplet `3:2`;
-- recuerdas que `3/4 = 3×2` y `9/8 = 3×3` en los modelos contrastados, sin convertir todavía esa comparación en una prueba formal de L3;
+- recuerdas que `3/4 = 3×2` y `9/8 = 3×3` en los modelos contrastados, sin convertir todavía esa comparación en una prueba formal de Lección 3;
 - puedes repetir la tarea iniciando con derecha o izquierda sin que el cambio de mano modifique la métrica;
 - registras el tempo con unidad explícita cuando usas metrónomo;
 - identificas si la limitación principal fue pulso, subdivisión, lectura, comprensión métrica o ejecución.
@@ -218,20 +218,20 @@ No se exige:
 
 - cero errores;
 - un BPM fijo o alto;
-- 12/8 antes de L2;
-- clasificación sistemática simple/compuesto antes de L3;
-- reconocimiento auditivo E5 general;
-- sextillos u ornamentación de U8;
-- primera vista formal D5 de U9;
-- click reducido o gaps de U10;
+- 12/8 antes de Lección 2;
+- clasificación sistemática simple/compuesto antes de Lección 3;
+- reconocimiento auditivo grabación y comparación general;
+- sextillos u ornamentación de Unidad 8;
+- primera vista formal forma y lectura de chart de Unidad 9;
+- click reducido o gaps de Unidad 10;
 - estilo jazz/shuffle;
-- actualizar automáticamente D4, F2 o E5 por completar esta página.
+- actualizar automáticamente lectura de compás, métrica y terminología rítmica o grabación y comparación por completar esta página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
 La tarea es funcional cuando puedes leer varias frases elementales de 9/8 conservando una jerarquía reconocible de **tres pulsos compuestos**, tres subdivisiones internas aproximadamente iguales y una explicación correcta de por qué nueve corcheas escritas no equivalen a nueve pulsos principales.
 
-Esto describe rendimiento en esta tarea; no declara automáticamente D4/F2 globalmente `FUNCIONAL`.
+Esto describe rendimiento en esta tarea; no declara automáticamente lectura de compás/métrica y terminología rítmica globalmente `FUNCIONAL`.
 
 ## AVANZADO EN ESTA TAREA
 

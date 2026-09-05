@@ -17,9 +17,9 @@ published: true
 
 ## Objetivo
 
-Contrastar el mapa construido por oído en L3 y convertirlo en una ejecución continua de Pieza B.
+Contrastar el mapa construido por oído en Lección 3 y convertirlo en una ejecución continua de Pieza B.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-piece-b-form-i.musicxml" data-score-title="50.U4.L4 — Pieza B: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-piece-b-form-i.musicxml" data-score-title="Lección 4 — Pieza B: Forma I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura es un **esqueleto formal original de Aprendo**. No es una transcripción comercial.
 
@@ -29,11 +29,11 @@ La partitura es un **esqueleto formal original de Aprendo**. No es una transcrip
 
 Total: **24 compases de 4/4**.
 
-Compara este mapa con el que escribiste en L3. La diferencia es información diagnóstica, no un “fallo de oído”.
+Compara este mapa con el que escribiste en Lección 3. La diferencia es información diagnóstica, no un “fallo de oído”.
 
 ## Decisiones de interpretación
 
-| Sección | Compases | Dinámica | Decisión U4 |
+| Sección | Compases | Dinámica | Decisión esta unidad |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Shuffle simplificado; escuchar pulso |
 | A | 5–12 | mf | Shuffle CORE |
@@ -63,9 +63,9 @@ No reinicies automáticamente desde INTRO.
 
 Sólo cuando la toma CORE sea estable, toma **cuatro compases aislados** y explora una sensación half-time manteniendo la rejilla ternaria.
 
-No forma parte del mínimo de U4 y no se usa para declarar H7 funcional.
+No forma parte del mínimo de esta unidad y no se usa para declarar independencia avanzada funcional.
 
-## Evidencia de salida U4
+## Evidencia de salida esta unidad
 
 Graba una toma o dos bloques largos y revisa:
 
@@ -77,9 +77,9 @@ Graba una toma o dos bloques largos y revisa:
 - dinámica de secciones;
 - recuperación;
 - carga/relajación;
-- coincidencias y diferencias entre tu mapa auditivo de L3 y el mapa real.
+- coincidencias y diferencias entre tu mapa auditivo de Lección 3 y el mapa real.
 
-## MÍNIMO DE U4
+## MÍNIMO DE esta unidad
 
 Debe observarse razonablemente que:
 
@@ -93,7 +93,7 @@ Debe observarse razonablemente que:
 
 ## Fronteras
 
-Esta evidencia **no declara blues dominado**, no certifica H5 COMPETENTE/FUNCIONAL global, no convierte half-time shuffle en requisito y no crea un checkpoint adicional.
+Esta evidencia **no declara blues dominado**, no certifica groove y variaciones COMPETENTE/FUNCIONAL global, no convierte half-time shuffle en requisito y no crea un Evaluación adicional.
 
 **No existe BPM de aprobado.**
 

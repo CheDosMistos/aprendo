@@ -7,7 +7,7 @@ unitSlug: fase-4-unidad-8
 slug: g5-b8-transferencia
 kind: checkpoint
 order: 5
-title: "Checkpoint — G5 MÍNIMO / B8 transferencia"
+title: "Evaluación — improvisación restringida MÍNIMO / orquestación de rudimentos transferencia"
 summary: "Comprueba que una frase conocida conserva identidad y pulso al distribuirse por superficies sobre una base sencilla de pies."
 duration: 20–30 min
 competencies: [B8, G5, A8, H4, C1, C2, G2, K2, K5, K7]
@@ -15,23 +15,23 @@ rudiments: []
 published: true
 ---
 
-## Qué demuestra este checkpoint
+## Qué demuestra esta evaluación
 
-La evidencia principal es **G5 MÍNIMO**:
+La evidencia principal es **improvisación restringida MÍNIMO**:
 
 > **Distribuye una frase conocida por superficies.**
 
-También aporta evidencia de **B8 en transferencia al kit** porque el alumno transforma material conocido de forma deliberada sin perder su estructura.
+También aporta evidencia de **orquestación de rudimentos en transferencia al kit** porque el alumno transforma material conocido de forma deliberada sin perder su estructura.
 
 ## Bloque A — manos conocidas
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="40.U8.CP — Frase U2 sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Evaluación — Frase Unidad 2 sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Recupera la frase sin pies.
 
 ## Bloque B — orquestación + base de pies
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="40.U8.CP — Orquestación + pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="Evaluación — Orquestación + pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Añade la base conocida de bombo 1/3 + hi-hat de pie 2/4.
 
@@ -40,7 +40,7 @@ Añade la base conocida de bombo 1/3 + hi-hat de pie 2/4.
 Elige una de estas pruebas:
 
 - aplicar el procedimiento a tu motivo propio de Fase 3;
-- o, si ese motivo todavía necesita recuperación, crear una segunda solución tímbrica de la frase U2 cambiando **sólo 1–2 superficies** y explicar la decisión.
+- o, si ese motivo todavía necesita recuperación, crear una segunda solución tímbrica de la frase Unidad 2 cambiando **sólo 1–2 superficies** y explicar la decisión.
 
 No hace falta escribir una nueva partitura para demostrar la decisión.
 
@@ -64,18 +64,18 @@ Debe poder observarse razonablemente que:
 
 ## NO CERTIFICA
 
-- B8 COMPETENTE/FUNCIONAL global;
-- G5 COMPETENTE/FUNCIONAL;
-- H6 — fills;
-- H7 — independencia;
-- H8 — sonido/afinación completo;
+- orquestación de rudimentos COMPETENTE/FUNCIONAL global;
+- improvisación restringida COMPETENTE/FUNCIONAL;
+- fills;
+- independencia;
+- sonido/afinación completo;
 - vocabulario estilístico;
 - repertorio.
 
 ## Decisión
 
-- **AVANZA:** G5 MÍNIMO y la transferencia B8 están suficientemente disponibles.
+- **AVANZA:** improvisación restringida MÍNIMO y la transferencia orquestación de rudimentos están suficientemente disponibles.
 - **AVANZA CON CORRECTIVO:** identidad/pulso se conservan, pero una transición o el balance con pies requiere mantenimiento.
-- **REPITE EL BLOQUE ESPECÍFICO:** la orquestación todavía borra identidad o rompe sistemáticamente la referencia; no es necesario repetir toda U8.
+- **REPITE EL BLOQUE ESPECÍFICO:** la orquestación todavía borra identidad o rompe sistemáticamente la referencia; no es necesario repetir toda esta unidad.
 
-La siguiente unidad cambia de función: **U9 — fills, retorno al groove y primera capa de independencia**.
+La siguiente unidad cambia de función: **Unidad 9 — fills, retorno al groove y primera capa de independencia**.

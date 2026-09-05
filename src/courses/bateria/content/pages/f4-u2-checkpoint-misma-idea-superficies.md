@@ -7,7 +7,7 @@ unitSlug: fase-4-unidad-2
 slug: misma-idea-varias-superficies
 kind: checkpoint
 order: 5
-title: "Checkpoint — Misma idea, varias superficies"
+title: "Evaluación — Misma idea, varias superficies"
 summary: "Comprueba transferencia manual real manteniendo identidad y pulso sin exigir todavía pies, groove o cuatro extremidades."
 duration: 15–25 min
 competencies: [A8, B8, C1, K2, K5, K7]
@@ -17,15 +17,15 @@ published: true
 
 ## Qué comprueba
 
-U2 no certifica que ya orquestes libremente todo el drumset. Comprueba algo más pequeño y necesario:
+Esta unidad no certifica que ya orquestes libremente todo el drumset. Comprueba algo más pequeño y necesario:
 
 > **la misma idea manual puede repartirse entre superficies sin dejar de ser reconocible ni perder sistemáticamente el pulso.**
 
 ## Prueba breve
 
-Usa la frase de L4 o una frase manual que ya conocieras antes de U2.
+Usa la frase de Lección 4 o una frase manual que ya conocieras antes de esta unidad.
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="40.U2.CP — Frase de referencia para la prueba" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Evaluación — Frase de referencia para la prueba" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ### A — Base
 
@@ -47,7 +47,7 @@ Si aparece un fallo, elige el cuello de botella principal:
 
 Prueba una sola corrección y repite.
 
-## MÍNIMO PARA AVANZAR A U3/U4
+## MÍNIMO PARA AVANZAR A Unidad 3/Unidad 4
 
 - [ ] recuperas una frase manual previamente conocida;
 - [ ] la ejecutas en caja con pulso razonable;
@@ -64,20 +64,20 @@ No necesitas una toma perfecta. Necesitas evidencia suficientemente estable para
 
 ## NO CERTIFICA
 
-Este checkpoint **no demuestra**:
+Esta evaluación **no demuestra**:
 
-- H2 — técnica de bombo;
-- H3 — hi-hat de pie;
-- H4 — coordinación de cuatro extremidades;
-- H5 — groove;
-- H6 — fills;
-- G5 MÍNIMO completo;
-- B8-kit competente;
+- técnica de bombo;
+- hi-hat de pie;
+- coordinación de cuatro extremidades;
+- groove;
+- fills;
+- improvisación restringida MÍNIMO completo;
+- orquestación de rudimentos-kit competente;
 - independencia;
 - velocidad alta;
 - repertorio estilístico.
 
-## COMPETENTE EN EL ÁMBITO DE U2
+## COMPETENTE EN EL ÁMBITO DE esta unidad
 
 Además del mínimo:
 
@@ -87,8 +87,8 @@ Además del mínimo:
 - eliges una distribución por una intención tímbrica sencilla;
 - recuperas tras un error sin reiniciar siempre desde el principio.
 
-Eso describe competencia local de **A8/transferencia manual**, no reetiqueta H4 o G5.
+Eso describe competencia local de **adaptación técnica entre superficies y kit/transferencia manual**, no reetiqueta coordinación básica de cuatro extremidades o improvisación restringida.
 
 ## Cierre registrado ≠ competencia demostrada
 
-Marcar el checkpoint como completado registra que realizaste la prueba. La evidencia real es la ejecución, el retorno y tu capacidad de diagnosticar qué cambió.
+Marcar la evaluación como completado registra que realizaste la prueba. La evidencia real es la ejecución, el retorno y tu capacidad de diagnosticar qué cambió.

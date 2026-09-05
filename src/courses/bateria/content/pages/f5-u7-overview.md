@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: tocar menos sin perder referencia ni intención
 
-U7 no añade densidad: cambia la pregunta.
+Esta unidad no añade densidad: cambia la pregunta.
 
 > **ESPACIO ≠ AUSENCIA DE PULSO.**
 
@@ -52,10 +52,10 @@ En esta unidad distinguimos:
 
 ## Ruta
 
-1. **L1 — Offbeat y silencio activo:** sentir huecos y contratiempos sin perder el pulso.
-2. **L2 — One-drop como función:** estudiar un modelo mínimo y comprender qué hace el espacio.
-3. **L3 — One-drop ↔ steppers:** cambiar una función dominante sin perder forma ni balance.
-4. **L4 — Textura, recuperación y Pieza B:** transferir el principio de espacio sin borrar el lenguaje original del repertorio.
+1. **Lección 1 — Offbeat y silencio activo:** sentir huecos y contratiempos sin perder el pulso.
+2. **Lección 2 — One-drop como función:** estudiar un modelo mínimo y comprender qué hace el espacio.
+3. **Lección 3 — One-drop ↔ steppers:** cambiar una función dominante sin perder forma ni balance.
+4. **Lección 4 — Textura, recuperación y Pieza B:** transferir el principio de espacio sin borrar el lenguaje original del repertorio.
 
 ## Salida mínima
 

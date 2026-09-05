@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-Hasta ahora U2 ha partido principalmente de la notación: **ver → contar → tocar**. Esta lección invierte la dirección para comprobar si la misma rejilla existe también cuando el punto de partida es el sonido.
+Hasta ahora esta unidad ha partido principalmente de la notación: **ver → contar → tocar**. Esta lección invierte la dirección para comprobar si la misma rejilla existe también cuando el punto de partida es el sonido.
 
 > **Oír no es reconocer una respuesta que ya has visto. Primero escucha, localiza e imita; después escribe; sólo entonces compara.**
 
@@ -29,19 +29,19 @@ La unidad aprobada pide conectar `OÍR → IMITAR → ESCRIBIR → TOCAR`. Por e
 
 ## 1. Recuperación — 3 min
 
-Recupera **dos compases de L2** que contengan un cambio `2 ↔ 4`. Haz una sola toma breve y no escuches el playback antes del intento.
+Recupera **dos compases de Lección 2** que contengan un cambio `2 ↔ 4`. Haz una sola toma breve y no escuches el playback antes del intento.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="20.U2.L2 — recuperación breve de cambio 2 ↔ 4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Lección 2 — recuperación breve de cambio 2 ↔ 4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-No conviertas esta parte en una segunda sesión de L2. Sólo comprueba:
+No conviertas esta parte en una segunda sesión de Lección 2. Sólo comprueba:
 
 - si la negra sigue estable al cambiar densidad;
 - si las cuatro posiciones siguen existiendo durante silencios;
 - si puedes describir la arquitectura temporal antes de tocar.
 
-Si esto hoy está muy frágil, reduce longitud o tempo en los dictados. No necesitas cerrar L2 otra vez para trabajar oído con células más cortas.
+Si esto hoy está muy frágil, reduce longitud o tempo en los dictados. No necesitas cerrar Lección 2 otra vez para trabajar oído con células más cortas.
 
 ## 2. OÍR → IMITAR — 6–7 min
 
@@ -141,11 +141,11 @@ Cierra con la cadena aprobada:
 - **CONDICIONES:** BPM del audio, número de escuchas, conteo/gesto usado y momento en que viste la respuesta;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA`.
 
-Completar la lección **no actualiza automáticamente D6, E2, E3, E4 ni ninguna otra competencia**. Una respuesta correcta aislada tampoco demuestra que el dictado rítmico sea funcional globalmente.
+Completar la lección **no actualiza automáticamente primera vista rítmica, imitación rítmica, dictado, relación entre oído y notación ni ninguna otra competencia**. Una respuesta correcta aislada tampoco demuestra que el dictado rítmico sea funcional globalmente.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia L4 cuando, con células muy cortas y ayudas razonables:
+Puedes continuar hacia Lección 4 cuando, con células muy cortas y ayudas razonables:
 
 - imitas por oído al menos varias células de un pulso sin haber visto antes la respuesta;
 - escribes al menos una célula de uno o dos pulsos conservando posiciones, ataques, silencios y duración total;
@@ -159,13 +159,13 @@ No se exige un BPM concreto, caligrafía perfecta ni acertar todas las células 
 
 En esta tarea concreta, el ciclo empieza a ser competente cuando puedes escuchar células nuevas de uno o dos pulsos, retenerlas, representarlas en una rejilla y reproducir lo escrito con una correspondencia razonable, usando pocas escuchas y sin necesitar ver primero la solución.
 
-Eso **no declara E4 FUNCIONAL de forma global**: frases completas, compases más largos y notación más compleja pertenecen a vueltas posteriores de la espiral.
+Eso **no declara relación entre oído y notación FUNCIONAL de forma global**: frases completas, compases más largos y notación más compleja pertenecen a vueltas posteriores de la espiral.
 
 ## AVANZADO EN ESTA TAREA
 
 Como ampliación opcional, repite C o D con una escucha menos o sin conteo hablado continuo. Mantén el mismo vocabulario y un tempo que siga permitiendo diagnosticar el error.
 
-No añadas ternario, ligaduras, puntillos ni una célula más larga sólo para aumentar dificultad. U3 conserva `ataque ≠ duración`, ligaduras, puntillos y síncopa estructurada como siguiente salto conceptual.
+No añadas ternario, ligaduras, puntillos ni una célula más larga sólo para aumentar dificultad. Unidad 3 conserva `ataque ≠ duración`, ligaduras, puntillos y síncopa estructurada como siguiente salto conceptual.
 
 ## Si algo se rompe
 
@@ -178,4 +178,4 @@ Aplica un correctivo localizado:
 - **dependes de ver la respuesta:** ocúltala de nuevo y cambia de célula; verla antes invalida la comprobación de oído;
 - **aparece tensión:** baja tempo o longitud y termina la carga si la señal lo exige.
 
-La siguiente lección volverá a la línea escrita para abrir B7 de forma controlada: **doubles/diddles sin alterar la arquitectura temporal que ya has decodificado**.
+La siguiente lección volverá a la línea escrita para abrir aplicación musical de rudimentos de forma controlada: **doubles/diddles sin alterar la arquitectura temporal que ya has decodificado**.

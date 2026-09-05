@@ -19,7 +19,7 @@ published: true
 
 Pasar de **tocar agrupaciones dadas** a poder representarlas y manipularlas conscientemente.
 
-Para J1 funcional no basta con memorizar el sonido de `3+3+2`. Debes poder recorrer las dos direcciones:
+Para agrupaciones dentro de 4/4 funcional no basta con memorizar el sonido de `3+3+2`. Debes poder recorrer las dos direcciones:
 
 `partición → acentos → sonido`
 
@@ -70,7 +70,7 @@ Sin mirar lo escrito:
 
 El objetivo no es una prueba de memoria perfecta, sino conectar oído, métrica y representación.
 
-## Transformaciones permitidas en U1
+## Transformaciones permitidas en esta unidad
 
 ### Rotar el orden de los tamaños
 
@@ -86,11 +86,11 @@ La barra no cambia de duración.
 
 Una idea de agrupación puede explorarse primero con corcheas y después con semicorcheas, pero no asumas que su dificultad perceptiva o motora será idéntica.
 
-## Frontera con J2
+## Frontera con desplazamientos de acento y motivo
 
 Aquí transformamos **la organización completa de una barra** y volvemos a empezar en la siguiente barra.
 
-J2 profundizará en desplazamientos: un acento o motivo se moverá de posición respecto a una referencia. No necesitamos ese fenómeno para demostrar J1.
+desplazamientos de acento y motivo profundizará en desplazamientos: un acento o motivo se moverá de posición respecto a una referencia. No necesitamos ese fenómeno para demostrar agrupaciones dentro de 4/4.
 
 ## Creatividad con restricción
 

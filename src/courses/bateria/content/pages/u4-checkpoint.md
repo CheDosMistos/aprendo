@@ -7,7 +7,7 @@ unitSlug: unidad-4
 slug: cierre
 kind: checkpoint
 order: 5
-title: "Cierre de U4 — ¿puedo continuar?"
+title: "Cierre de esta unidad — ¿puedo continuar?"
 summary: Comprueba representación, continuidad, cambios de subdivisión y agrupación sin exigir perfección ni velocidad máxima.
 duration: 15–25 min
 competencies: [B5, B6, C1, C2, C3, D1, E2, F2, J1, K2, K4, K6]
@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Decidir si U5 puede abrirse sin convertir U4 en un examen de perfección. El criterio principal es **representación correcta + ejecución lenta controlable + diagnóstico útil**.
+Decidir si Unidad 5 puede abrirse sin convertir esta unidad en un examen de perfección. El criterio principal es **representación correcta + ejecución lenta controlable + diagnóstico útil**.
 
 No repitas por obligación una prueba que ya tenga evidencia reciente y representativa. Remuestrea solo cuando el estado sea antiguo, dudoso o contradictorio.
 
@@ -25,13 +25,13 @@ No repitas por obligación una prueba que ya tenga evidencia reciente y represen
 
 Puedes continuar si, con PAS disponible para verificar detalles:
 
-- reconoces los cuatro PAS de U4 y no inventas su estructura cuando dudas;
+- reconoces los cuatro PAS de esta unidad y no inventas su estructura cuando dudas;
 - al menos una muestra de roll largo mantiene una continuidad razonable sin tensión creciente;
 - comprendes que cambiar subdivisión no obliga a mover el pulso;
 - puedes distinguir **3+3+2 dentro de 4/4** de un cambio de compás;
 - cualquier dificultad importante queda identificada como problema de doubles, tiempo, dinámica, lectura u otra variable concreta.
 
-Un PAS puede seguir como `INTRODUCIDO` si no bloquea críticamente U5. No se exige que los cuatro sean `FUNCIONALES`.
+Un PAS puede seguir como `INTRODUCIDO` si no bloquea críticamente Unidad 5. No se exige que los cuatro sean `FUNCIONALES`.
 
 ## Validez del muestreo
 
@@ -45,7 +45,7 @@ Además del mínimo:
 
 - cambias lentamente entre al menos dos densidades manteniendo el pulso;
 - lees una línea nueva corta con cambios/agrupaciones accesibles;
-- recuperas dos PAS de U4 después de separación sin calentarlos específicamente;
+- recuperas dos PAS de esta unidad después de separación sin calentarlos específicamente;
 - mantienes sonido y relajación razonables en ambas manos.
 
 Una línea cuenta como **nueva** solo si no fue practicada ni mostrada previamente como solución. Después del primer intento pasa a ser práctica de lectura.
@@ -63,18 +63,18 @@ Sin ser requisito:
 - un BPM máximo;
 - tocar los cuatro PAS seguidos sin error;
 - que 3+3+2 sea fluido a cualquier tempo;
-- dominar C3 en una sola unidad;
+- dominar cambios de subdivisión en una sola unidad;
 - perfección de sonido en todos los doubles.
 
 ## Si aparece un cuello de botella
 
-No reinicies U4 completa. Mantén un correctivo pequeño y específico mientras continúan las ramas que no dependan de él. Si el problema es dolor, tensión creciente u otra señal de salud, reduce carga o detente y registra la situación.
+No reinicies esta unidad completa. Mantén un correctivo pequeño y específico mientras continúan las ramas que no dependan de él. Si el problema es dolor, tensión creciente u otra señal de salud, reduce carga o detente y registra la situación.
 
 ## Decisión
 
 **CONTINUAR** — los prerrequisitos relevantes siguen disponibles.
 
-**CONTINUAR + CORRECTIVO** — existe una debilidad localizada, pero U5 puede abrirse.
+**CONTINUAR + CORRECTIVO** — existe una debilidad localizada, pero Unidad 5 puede abrirse.
 
 **REDUCIR NOVEDAD** — un cuello de botella central hace prematuro añadir la siguiente dificultad.
 
@@ -82,4 +82,4 @@ No reinicies U4 completa. Mantén un correctivo pequeño y específico mientras 
 
 ## Registro final
 
-Para cada PAS marca `INTRODUCIDO` o `CONOCIDO` según la evidencia real y añade, si procede, un único problema principal. Registra por separado el estado de C3 y de la ventana 3+3+2; no los conviertas en nuevos estados PAS.
+Para cada PAS marca `INTRODUCIDO` o `CONOCIDO` según la evidencia real y añade, si procede, un único problema principal. Registra por separado el estado de cambios de subdivisión y de la ventana 3+3+2; no los conviertas en nuevos estados PAS.

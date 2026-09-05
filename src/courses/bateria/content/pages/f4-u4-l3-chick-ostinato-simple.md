@@ -23,7 +23,7 @@ Las negras son el material esencial. Los tiempos 2 y 4 aparecen sólo como ampli
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — PULSO DE HI-HAT DE PIE
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l3-foot-hihat-pulse.musicxml" data-score-title="40.U4.L3 — Pulso de hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l3-foot-hihat-pulse.musicxml" data-score-title="Lección 3 — Pulso de hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura contiene dos compases de 4/4:
 
@@ -55,7 +55,7 @@ No hay manos ni bombo. No se añade otra novedad motora.
 
 Practicar cierres en los tiempos 2 y 4 sirve aquí para cambiar la **colocación temporal** de una acción ya conocida.
 
-No significa que U4 esté enseñando un estilo concreto ni que 2 y 4 sea obligatorio para H3 MÍNIMO.
+No significa que esta unidad esté enseñando un estilo concreto ni que 2 y 4 sea obligatorio para hi-hat de pie MÍNIMO.
 
 ## Metrónomo
 

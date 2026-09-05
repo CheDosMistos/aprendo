@@ -23,7 +23,7 @@ El oído se usa para representar las mismas capas. La lectura nueva y la recuper
 
 ## 1. Puerta local — 3 min
 
-Mantén dos pulsos de negra estables y subdivídelos primero en dos y luego en tres. Si no puedes conservar la misma duración total, recupera C1/C2 antes de superponer capas.
+Mantén dos pulsos de negra estables y subdivídelos primero en dos y luego en tres. Si no puedes conservar la misma duración total, recupera pulso interno/subdivisión binaria y ternaria antes de superponer capas.
 
 ## 2. NÚCLEO — Qué significa 3:2 — 5 min
 
@@ -70,9 +70,9 @@ Haz VER → CONTAR → CANTAR → TOCAR → ESCUCHAR. No memorices primero.
 
 ## 6. RECUPERACIÓN — PAS — hasta 5 min
 
-Si queda tiempo útil, elige al azar hasta tres rudimentos de U7–U9 y prueba una muestra lenta sin calentamiento específico. Registra estructura, sonido, relajación y error principal.
+Si queda tiempo útil, elige al azar hasta tres rudimentos de Unidad 7–esta unidad y prueba una muestra lenta sin calentamiento específico. Registra estructura, sonido, relajación y error principal.
 
-Si no realizas esta recuperación hoy, U10 ya tiene recuperación global como función central: **no comprimas la ventana 3:2 para incluirla por obligación**.
+Si no realizas esta recuperación hoy, Unidad 10 ya tiene recuperación global como función central: **no comprimas la ventana 3:2 para incluirla por obligación**.
 
 ## Rutina estándar
 

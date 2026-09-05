@@ -15,11 +15,11 @@ rudiments: []
 published: true
 ---
 
-U4 ya ha separado tres capas: **línea rítmica**, **acento/dinámica** y **textura de manos**. Esta lección retira la familiaridad del dibujo anterior y comprueba otra cosa: si puedes **leer una línea nueva de la misma familia, seguir adelante y recuperar el marco tras un error pequeño**.
+Esta unidad ya ha separado tres capas: **línea rítmica**, **acento/dinámica** y **textura de manos**. Esta lección retira la familiaridad del dibujo anterior y comprueba otra cosa: si puedes **leer una línea nueva de la misma familia, seguir adelante y recuperar el marco tras un error pequeño**.
 
 > **UN ERROR LOCAL NO OBLIGA A PERDER EL COMPÁS.**
 
-La primera toma de la muestra siguiente es evidencia nueva dentro de esta lección. No convierte todavía **D5 — primera vista** en competencia dominante: U9 reservará el protocolo sistemático de primera vista. Aquí la novedad sirve a U4 para observar continuidad y recuperación.
+La primera toma de la muestra siguiente es evidencia nueva dentro de esta lección. No convierte todavía **primera vista** en competencia dominante: Unidad 9 reservará el protocolo sistemático de primera vista. Aquí la novedad sirve a esta unidad para observar continuidad y recuperación.
 
 ## 1. Preparar condiciones — 3 min
 
@@ -36,7 +36,7 @@ El `<sound tempo="120"/>` es referencia técnica del reproductor, **no un BPM de
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-title="20.U4.L4 — lectura nueva y recuperación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-title="Lección 4 — lectura nueva y recuperación" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u4/f2-u4-l4-lectura-nueva.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ## 2. Primera toma: leer y continuar — 5–6 min
 
@@ -122,7 +122,7 @@ No añadas notas ni cambies duración. Compara:
 
 La pregunta no es «¿suena más fuerte?», sino si puedes añadir una capa expresiva **sin perder el mapa temporal recién leído**.
 
-No añadas paradiddle, doubles ni otra textura B7 aquí. L3 ya aisló esa transferencia; L4 mantiene como foco lectura, continuidad y recuperación.
+No añadas paradiddle, doubles ni otra textura aplicación musical de rudimentos aquí. Lección 3 ya aisló esa transferencia; Lección 4 mantiene como foco lectura, continuidad y recuperación.
 
 ## 6. Registro y decisión — 2 min
 
@@ -145,9 +145,9 @@ Registra:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-Completar L4 **no actualiza automáticamente competencias** ni convierte D5 en `CONOCIDO`, `FUNCIONAL` o `DOMINADO` por esta muestra aislada.
+Completar Lección 4 **no actualiza automáticamente competencias** ni convierte forma y lectura de chart en `CONOCIDO`, `FUNCIONAL` o `DOMINADO` por esta muestra aislada.
 
-## MÍNIMO PARA AVANZAR AL CHECKPOINT DE U4
+## MÍNIMO PARA AVANZAR AL Evaluación DE esta unidad
 
 Con ayuda razonable cuando la necesites:
 
@@ -164,10 +164,10 @@ No se exige:
 - cero errores;
 - un BPM fijo o alto;
 - lectura perfecta;
-- D5 funcional global;
-- B7 funcional;
+- forma y lectura de chart funcional global;
+- aplicación musical de rudimentos funcional;
 - recuperación instantánea tras cualquier error;
-- tresillos, 6/8 o vocabulario de U5–U6.
+- tresillos, 6/8 o vocabulario de Unidades 5–6.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
@@ -186,4 +186,4 @@ Como ampliación, realiza una segunda versión expresiva sobre material ya revel
 - **la toma nueva es demasiado densa:** reduce longitud o tempo, no introduzcas otra novedad;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.
 
-El checkpoint de U4 utilizará **otra muestra exclusiva**. Esta partitura no se reutilizará como evidencia principal de la puerta de unidad.
+La evaluación de esta unidad utilizará **otra muestra exclusiva**. Esta partitura no se reutilizará como evidencia principal de la puerta de unidad.

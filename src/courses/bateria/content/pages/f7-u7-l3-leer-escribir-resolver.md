@@ -23,7 +23,7 @@ Pasar de un ejemplo aprendido a una regla transferible:
 
 Trabajaremos `2/4 ↔ 3/4` para comprobar que entiendes el procedimiento y no sólo recuerdas `3/4 ↔ 4/4`.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u7/f7-u7-polymeter-2-4-over-3-4.musicxml" data-score-title="70.U7 — Transporte polimétrico 2/4 sobre 3/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u7/f7-u7-polymeter-2-4-over-3-4.musicxml" data-score-title="Unidad 7 — Transporte polimétrico 2/4 sobre 3/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Calcular con una unidad común
 
@@ -53,7 +53,7 @@ La lógica es la misma aunque cambie la longitud del ciclo global.
 
 ## Leer la partitura de transporte
 
-El archivo embebido usa `3/4` como barra gráfica global porque el renderer actual requiere un único compás escrito por medida.
+El archivo embebido usa `3/4` como barra gráfica global porque el visor de partituras actual requiere un único compás escrito por medida.
 
 Interpreta:
 
@@ -111,7 +111,7 @@ Condiciones:
 - predice cuántas barras completa cada una;
 - comprueba el resultado tocando o vocalizando.
 
-No uses todavía denominadores distintos ni cambios de tempo. Eso añadiría variables que U7 no necesita para demostrar J7.
+No uses todavía denominadores distintos ni cambios de tempo. Eso añadiría variables que esta unidad no necesita para demostrar polimetría.
 
 ## Recuperación: conservar una capa como ancla
 

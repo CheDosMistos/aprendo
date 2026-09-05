@@ -29,9 +29,9 @@ Las tres suman siete corcheas. Cambia la agrupación/fraseo; **no cambia el comp
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l2-seven-eight-grid.musicxml" data-score-title="30.U10.L2 — rejilla neutra de 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l2-seven-eight-grid.musicxml" data-score-title="Lección 2 — rejilla neutra de 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-La partitura fija siete corcheas. La agrupación se aplica como consigna textual para no fingir una capa de acentos que el renderer no haya validado.
+La partitura fija siete corcheas. La agrupación se aplica como consigna textual para no fingir una capa de acentos que el visor de partituras no haya validado.
 
 ## Trabajo
 

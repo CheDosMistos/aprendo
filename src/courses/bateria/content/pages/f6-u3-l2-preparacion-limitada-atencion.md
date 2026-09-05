@@ -78,7 +78,7 @@ Si preparaste mucho una zona que no causó problemas y falló otra estructural, 
 
 ## Ejercicio original creado para este curso
 
-Con un chart de U3:
+Con un chart de esta unidad:
 
 1. elige cinco eventos visibles;
 2. clasifícalos por impacto e incertidumbre;

@@ -21,7 +21,7 @@ Leer y escribir un ciclo que continúa a través de barras y desarrollar un prot
 
 ## Dos coordenadas para cada ataque
 
-En J5 una misma nota puede describirse desde dos referencias:
+En ciclos que cruzan compases una misma nota puede describirse desde dos referencias:
 
 1. **posición métrica:** dónde cae dentro del `4/4`;
 2. **posición de ciclo:** qué lugar ocupa dentro de la célula repetida.
@@ -30,7 +30,7 @@ La habilidad no consiste en elegir una referencia y olvidar la otra, sino en pod
 
 ## Leer sin reiniciar mentalmente
 
-Usa la partitura del ciclo de 3 de L1.
+Usa la partitura del ciclo de 3 de Lección 1.
 
 Antes de tocar cada barra:
 
@@ -72,7 +72,7 @@ Prueba este procedimiento:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — E: reconstrucción
 
-Sin mirar la partitura de L2, reconstruye el ciclo de 5 corcheas sobre `4/4` hasta que vuelva a coincidir con `1`.
+Sin mirar la partitura de Lección 2, reconstruye el ciclo de 5 corcheas sobre `4/4` hasta que vuelva a coincidir con `1`.
 
 ### Criterios
 
@@ -120,7 +120,7 @@ La prioridad es:
 
 ## Error frecuente: usar la línea de compás como salvavidas automático
 
-Reiniciar el ciclo en cada `1` hace que el ejercicio deje de ser J5.
+Reiniciar el ciclo en cada `1` hace que el ejercicio deje de ser ciclos que cruzan compases.
 
 Puedes usar el `1` para recuperar la barra, pero el ciclo debe reentrar en la fase que le corresponda, no necesariamente desde su posición inicial.
 

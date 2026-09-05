@@ -8,16 +8,16 @@ slug: fase-4-unidad-7-introduccion
 kind: unit
 order: 0
 title: "Groove estable y pequeñas variaciones"
-summary: "Convierte H4 mínimo en groove H5 estable: una variación predeterminada, forma clara y retorno al patrón base."
-duration: Unidad flexible · 4 lecciones + checkpoint
+summary: "Convierte una coordinación mínima de cuatro extremidades en un groove estable con variaciones: una variación predeterminada, forma clara y retorno al patrón base."
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H5, H4, C1, C2, C3, F3, G2, K5, K7]
 rudiments: []
 published: true
 ---
 
-## Objetivo explícito: H5 MÍNIMO
+## Objetivo explícito: groove estable con una variación controlada
 
-U5 introdujo la función de groove y U6 cerró **H4 MÍNIMO**. Ahora la prioridad es demostrar:
+Unidad 5 introdujo la función de groove y Unidad 6 cerró el **MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades**. Ahora la prioridad es demostrar:
 
 > **Mantiene grooves básicos estables.**
 
@@ -27,26 +27,26 @@ La **Variación B** añade una sola nota: bombo en el `&` de 3. Todo lo demás p
 
 La frase principal será **A–A–B–A**: dos compases base, una variación y un retorno explícito al groove base.
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Recuperar y sostener Groove A
+### Lección 1 — Recuperar y sostener Groove A
 Cuatro compases continuos de material ya conocido. No hay ritmo nuevo.
 
-### L2 — Una nota cambia: Variación B
+### Lección 2 — Una nota cambia: Variación B
 Se añade únicamente el bombo en `& de 3`.
 
-### L3 — A–A–B–A: variar y volver
+### Lección 3 — A–A–B–A: variar y volver
 La variación ocupa un lugar formal predeterminado y debe volver a A sin perder la referencia.
 
-### L4 — Grabar, comparar y decidir
+### Lección 4 — Grabar, comparar y decidir
 Dos tomas breves para comparar estabilidad, sonido, balance, forma e intención.
 
-### Checkpoint — H5 MÍNIMO
+### Evaluación — groove estable y variación controlada
 Groove estable + pequeña variación controlada + retorno, sin BPM de aprobado.
 
 ## Fronteras
 
-U7 **no certifica H5 COMPETENTE/FUNCIONAL, H4 COMPETENTE/FUNCIONAL ni H7**. Tampoco introduce fills, variación libre, ghost notes, aperturas obligatorias, estilo o repertorio.
+Esta unidad **no certifica groove y variaciones COMPETENTE/FUNCIONAL, coordinación básica de cuatro extremidades COMPETENTE/FUNCIONAL ni independencia avanzada**. Tampoco introduce fills, variación libre, ghost notes, aperturas obligatorias, estilo o repertorio.
 
 ## Qué se evalúa
 

@@ -8,7 +8,7 @@ slug: pies-base-orquestacion
 kind: lesson
 order: 2
 title: "Pies simples bajo manos orquestadas"
-summary: "Mantén bombo 1/3 y hi-hat de pie 2/4 mientras las manos recorren una frase U2 ya conocida."
+summary: "Mantén bombo 1/3 y hi-hat de pie 2/4 mientras las manos recorren una frase Unidad 2 ya conocida."
 duration: 20–30 min
 competencies: [B8, G5, A8, H4, H2, H3, C1, C2, K2, K7]
 rudiments: []
@@ -23,11 +23,11 @@ La novedad dominante sigue siendo **orquestar sin perder identidad**. Los pies n
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — ORQUESTACIÓN + BASE DE PIES
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="40.U8.L2 — Orquestación + base de pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u8/f4-u8-l2-orchestration-feet.musicxml" data-score-title="Lección 2 — Orquestación + base de pies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Manos:
 
-- ocho corcheas exactamente como U2.L4;
+- ocho corcheas exactamente como Lección 4;
 - R/L preservado;
 - caja + tom agudo + tom grave;
 - acentos preservados.

@@ -27,7 +27,7 @@ Formula una prioridad observable:
 
 `LO OBSERVARÉ MEDIANTE: __________`
 
-Comprueba postura, respiración, hombros y agarre. U10 evalúa control; no premia tensión por intentar “salvar” una prueba.
+Comprueba postura, respiración, hombros y agarre. Esta unidad evalúa control; no premia tensión por intentar “salvar” una prueba.
 
 ## 2. Muestreo frío por familias — 12 min
 
@@ -79,7 +79,7 @@ Marca:
 
 - material que puede pasar a mantenimiento;
 - material que necesita otra prueba de retención;
-- **máximo uno o dos** cuellos de botella para L2.
+- **máximo uno o dos** cuellos de botella para Lección 2.
 
 ## Rutina estándar
 
@@ -91,4 +91,4 @@ Marca:
 
 ## Criterio de avance
 
-Puedes pasar a L2 cuando tengas evidencia nueva de varias familias y hayas identificado uno o dos problemas concretos que merezcan diagnóstico. No necesitas completar todavía los 40.
+Puedes pasar a Lección 2 cuando tengas evidencia nueva de varias familias y hayas identificado uno o dos problemas concretos que merezcan diagnóstico. No necesitas completar todavía los 40.

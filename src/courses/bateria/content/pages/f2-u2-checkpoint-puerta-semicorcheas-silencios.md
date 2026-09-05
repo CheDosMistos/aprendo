@@ -8,16 +8,16 @@ slug: puerta-de-semicorcheas-y-silencios
 kind: checkpoint
 order: 5
 title: Puerta de semicorcheas y silencios
-summary: "Decide si D1/C2 y el inicio de C3 permiten avanzar hacia U3 sin depender de dibujos memorizados, mediante lectura nueva protegida, oído→escritura, explicación de silencios y evidencia reciente de 2↔4."
+summary: "Decide si figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados, mediante lectura nueva protegida, oído→escritura, explicación de silencios y evidencia reciente de 2↔4."
 duration: 10–15 min
 competencies: [C1, C2, C3, D1, D6, E2, E4, F1, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este checkpoint **no sirve para “aprobar U2”** ni exige demostrar que C3 sea funcional. Su pregunta es más concreta:
+Esta evaluación **no sirve para “aprobar esta unidad”** ni exige demostrar que cambios de subdivisión sea funcional. Su pregunta es más concreta:
 
-> **¿D1/C2 y el inicio de C3 permiten avanzar hacia U3 sin depender de dibujos memorizados?**
+> **¿figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados?**
 
 La evidencia principal vuelve a lectura, subdivisión, silencios, oído/escritura y continuidad. **No es una exhibición de sticking complejo** y no exige PAS adicionales.
 
@@ -27,7 +27,7 @@ El BPM describe la condición de la muestra; **no define el nivel**. Tampoco se 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es **exclusiva de este checkpoint**. Contiene sólo vocabulario de U2: 4/4 monofónico, ataques y silencios de semicorchea sobre una rejilla de cuatro posiciones. No introduce ligaduras, puntillos ni tuplets.
+La partitura siguiente es **exclusiva de esta evaluación**. Contiene sólo vocabulario de esta unidad: 4/4 monofónico, ataques y silencios de semicorchea sobre una rejilla de cuatro posiciones. No introduce ligaduras, puntillos ni tuplets.
 
 Antes de pulsar **Empezar**:
 
@@ -45,7 +45,7 @@ Después:
 5. ante un error pequeño, intenta mantener o recuperar continuidad;
 6. pulsa **Finalizar intento** antes de usar playback.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml" data-score-title="20.U2.CP — Muestra A nueva de semicorcheas y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml" data-score-title="Evaluación — Muestra A nueva de semicorcheas y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Registra por separado:
 
@@ -77,7 +77,7 @@ La caligrafía no es el criterio. Compara:
 - si cada `X` y cada `·` quedó en el lugar que pretendías;
 - si el error fue principalmente **auditivo**, de **memoria**, de **escritura** o de **ejecución mental de la rejilla**.
 
-Una respuesta correcta aislada no convierte E4 en competencia funcional global.
+Una respuesta correcta aislada no convierte relación entre oído y notación en competencia funcional global.
 
 ## 3. Pregunta conceptual — 1 min
 
@@ -91,13 +91,13 @@ Si puedes señalar una posición concreta —por ejemplo `e` o `a`— y mantener
 
 ## 4. Evidencia reciente 2 ↔ 4 — 1–2 min sólo si hace falta
 
-Si tienes una muestra reciente y representativa de L2 donde alternaste densidades `2 ↔ 4`, **reutilízala**. No hace falta repetir por obligación una tarea que ya informa bien.
+Si tienes una muestra reciente y representativa de Lección 2 donde alternaste densidades `2 ↔ 4`, **reutilízala**. No hace falta repetir por obligación una tarea que ya informa bien.
 
-Si esa evidencia es antigua, dudosa o contradictoria, haz una toma corta sobre dos compases del banco de L2 antes de habilitar playback:
+Si esa evidencia es antigua, dudosa o contradictoria, haz una toma corta sobre dos compases del banco de Lección 2 antes de habilitar playback:
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="20.U2.L2 — remuestreo opcional de continuidad 2 ↔ 4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-title="Lección 2 — remuestreo opcional de continuidad 2 ↔ 4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u2/f2-u2-cambio-2-a-4-silencios.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Observa sólo si:
 
@@ -105,7 +105,7 @@ Observa sólo si:
 - los silencios no borran la subdivisión;
 - puedes mantener o recuperar continuidad tras una imprecisión pequeña.
 
-**C3 no necesita ser FUNCIONAL para avanzar a U3.** Esta muestra sólo comprueba que su inicio sea suficientemente utilizable en el contexto de U2.
+**cambios de subdivisión no necesita ser FUNCIONAL para avanzar a Unidad 3.** Esta muestra sólo comprueba que su inicio sea suficientemente utilizable en el contexto de esta unidad.
 
 ## 5. Salud, carga y decisión — 2–3 min
 
@@ -132,29 +132,29 @@ Si una señal persiste, corresponde valoración sanitaria; el curso no la diagno
 
 Ahora aplica la cadena completa:
 
-- **INFERENCIA:** ¿D1/C2 y el inicio de C3 permiten abrir U3 sin depender de dibujos memorizados?;
+- **INFERENCIA:** ¿figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten abrir Unidad 3 sin depender de dibujos memorizados?;
 - **EVIDENCIA:** Muestra A nueva + Muestra B oído→escritura + explicación conceptual + evidencia reciente 2↔4 cuando sea representativa;
-- **TAREA:** 4/4 monofónico, vocabulario de U2, longitud breve y sin introducir ligaduras/puntillos como novedad;
+- **TAREA:** 4/4 monofónico, vocabulario de esta unidad, longitud breve y sin introducir ligaduras/puntillos como novedad;
 - **CONDICIONES:** tempo, click, conteo/canto, ayudas, continuidad, precisión, recuperación y carga;
 - **DECISIÓN:** una de las cuatro siguientes.
 
 ### CONTINUAR
 
-La rejilla de semicorcheas es suficientemente decodificable en material nuevo, los silencios conservan posición temporal y la evidencia conjunta permite abrir el siguiente problema conceptual de U3.
+La rejilla de semicorcheas es suficientemente decodificable en material nuevo, los silencios conservan posición temporal y la evidencia conjunta permite abrir el siguiente problema conceptual de Unidad 3.
 
 ### CONTINUAR + CORRECTIVO
 
-Existe una fragilidad localizada, pero no invalida U3. Mantén el correctivo visible: rejilla externalizada, conteo durante silencios, menor longitud, una escucha adicional o un trabajo aislado de `2 ↔ 4`, según la variable observada.
+Existe una fragilidad localizada, pero no invalida Unidad 3. Mantén el correctivo visible: rejilla externalizada, conteo durante silencios, menor longitud, una escucha adicional o un trabajo aislado de `2 ↔ 4`, según la variable observada.
 
 ### REDUCIR NOVEDAD
 
-La rejilla no puede decodificarse de forma controlable o una variable central colapsa de manera global. Reduce **una sola** variable —longitud, densidad, tempo o capas— y remuestrea después. No repitas U2 completa por defecto.
+La rejilla no puede decodificarse de forma controlable o una variable central colapsa de manera global. Reduce **una sola** variable —longitud, densidad, tempo o capas— y remuestrea después. No repitas esta unidad completa por defecto.
 
 ### DETENER CARGA
 
 Una señal de salud/carga hace improcedente perseguir progresión curricular en esa sesión. Reduce o detén carga según el sistema general.
 
-## MÍNIMO PARA AVANZAR A U3
+## MÍNIMO PARA AVANZAR A Unidad 3
 
 La evidencia conjunta debería permitirte, con ayuda razonable cuando la necesites:
 
@@ -170,7 +170,7 @@ No se exige:
 
 - cero errores;
 - tempo fijo o alto;
-- **C3 funcional**;
+- **cambios de subdivisión funcional**;
 - PAS adicionales;
 - síncopa formalmente dominada;
 - primera vista avanzada.
@@ -181,17 +181,17 @@ No se exige:
 - **lees ataques pero el tiempo desaparece en silencios:** cuenta/canta y ocupa posiciones sin tocar;
 - **2 ↔ 4 desestabiliza el pulso:** aísla el cambio de densidad sin silencios antes de recombinar;
 - **oyes la célula pero la escribes mal:** separa memoria auditiva de notación y usa la rejilla intermedia;
-- **la lectura funciona con sticking alternado pero colapsa con doubles/diddles:** es evidencia de aplicación/técnica; no degrada D1 automáticamente;
-- **la evidencia reciente contradice una toma aislada:** elicita una muestra corta antes de cambiar el mapa de progreso.
+- **la lectura funciona con sticking alternado pero colapsa con doubles/diddles:** es evidencia de aplicación/técnica; no degrada figuras, silencios y compás automáticamente;
+- **la evidencia reciente contradice una toma aislada:** elicita una muestra corta antes de cambiar el nivel registrado.
 
-Completar este checkpoint **no actualiza automáticamente D1, C2, C3, E4 ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
+Completar esta evaluación **no actualiza automáticamente figuras, silencios y compás, subdivisión binaria y ternaria, cambios de subdivisión, relación entre oído y notación ni ninguna otra competencia**. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
 
-## Puente a 20.U3
+## Puente a Unidad 3
 
-Si la decisión es **CONTINUAR**, U3 puede introducir su salto conceptual reservado: **ataque ≠ duración**, ligaduras, puntillos y síncopa I.
+Si la decisión es **CONTINUAR**, Unidad 3 puede introducir su salto conceptual reservado: **ataque ≠ duración**, ligaduras, puntillos y síncopa I.
 
-Si es **CONTINUAR + CORRECTIVO**, U3 se abre conservando visible la fragilidad localizada.
+Si es **CONTINUAR + CORRECTIVO**, Unidad 3 se abre conservando visible la fragilidad localizada.
 
-Si es **REDUCIR NOVEDAD**, estabiliza la variable central con una tarea breve y vuelve a elicitar evidencia; no reinicies U2 completa.
+Si es **REDUCIR NOVEDAD**, estabiliza la variable central con una tarea breve y vuelve a elicitar evidencia; no reinicies esta unidad completa.
 
 La puerta decide **cuánta novedad tiene sentido introducir**, no si eres o no “buen baterista”.

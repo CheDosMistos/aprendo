@@ -66,7 +66,7 @@ Guarda un registro mínimo:
 
 Ejemplo:
 
-`H1: hi-hat cerrado → vídeo autorizado muestra apertura breve → añado apertura en el & de 4 → confianza alta para esa toma`
+`setup, ergonomía y ecología del kit: hi-hat cerrado → vídeo autorizado muestra apertura breve → añado apertura en el & de 4 → confianza alta para esa toma`
 
 La corrección debe decir qué cambió, no reescribir retrospectivamente el proceso como si nunca hubieras dudado.
 

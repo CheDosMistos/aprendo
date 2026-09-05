@@ -63,13 +63,13 @@ El tercer resultado no es un fracaso del aprendizaje: es información.
 
 ## 4. No confundir dificultad con pertinencia
 
-Una versión más compleja no es más auténtica por ser más difícil. U7 evalúa si la decisión está justificada por el contexto, no cuántas notas puedes introducir.
+Una versión más compleja no es más auténtica por ser más difícil. Esta unidad evalúa si la decisión está justificada por el contexto, no cuántas notas puedes introducir.
 
 ## 5. Segunda pasada
 
 Después de una transferencia exitosa, repite con otra variable y comprueba si el cambio mejora, empeora o simplemente modifica el carácter.
 
-Esto entrena una idea central de I5: **reutilizar conscientemente**.
+Esto entrena una idea central de transferencia entre estilos: **reutilizar conscientemente**.
 
 ## Errores frecuentes
 
@@ -100,5 +100,5 @@ Puedes describir con claridad:
 
 - **DECISIÓN CURRICULAR RAZONADA:** modificar una variable por vez para hacer diagnosticable la transferencia.
 - **FUENTE INSTITUCIONAL / TRADICIÓN PROFESIONAL:** Berklee Online documenta el estudio de características e influencias estilísticas y la creación de ejemplos propios en múltiples estilos.
-- **FUENTE COMERCIAL DOCUMENTADA:** `Groove Essentials` ofrece práctica contrastada en numerosos estilos; U7 toma la idea de amplitud estilística, no sus patrones.
-- **FRONTERA:** el detalle fino de feel/microtiming queda para U8.
+- **FUENTE COMERCIAL DOCUMENTADA:** `Groove Essentials` ofrece práctica contrastada en numerosos estilos; esta unidad toma la idea de amplitud estilística, no sus patrones.
+- **FRONTERA:** el detalle fino de feel/microtiming queda para Unidad 8.

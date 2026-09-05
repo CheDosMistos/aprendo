@@ -92,7 +92,7 @@ Puedes producir o al menos analizar una comparación en la que quede claro que:
 
 `COLOCACIÓN RELATIVA ≠ CAMBIO PROGRESIVO DE TEMPO`.
 
-La ejecución deliberada estable es evidencia hacia C7 FUNCIONAL; **no es requisito del MÍNIMO conceptual**.
+La ejecución deliberada estable es evidencia hacia microtiming y placement FUNCIONAL; **no es requisito del MÍNIMO conceptual**.
 
 ## Fuentes y estatus
 

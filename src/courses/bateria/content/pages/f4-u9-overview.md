@@ -9,15 +9,15 @@ kind: unit
 order: 0
 title: "Fills, retorno al groove y primera capa de independencia"
 summary: "Convierte material conocido en transiciones breves y aprende que un fill sólo está completo cuando vuelve al lugar correcto."
-duration: Unidad flexible · 4 lecciones + checkpoint
+duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H6, H5, F3, B8, G5, C1, C2, C3, K2, K5, K7]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: H6 — transición funcional
+## Novedad dominante: transición funcional
 
-U7 estabilizó groove y pequeñas variaciones. U8 focalizó la orquestación. U9 cambia la función del material:
+Unidad 7 estabilizó groove y pequeñas variaciones. Unidad 8 focalizó la orquestación. Esta unidad cambia la función del material:
 
 > **FILL = TRANSICIÓN, NO EXHIBICIÓN.**
 
@@ -30,34 +30,34 @@ Trabajamos sólo dos duraciones:
 - **Fill A — 1 tiempo:** dos corcheas en `4 &`, R L;
 - **Fill B — 2 tiempos:** cuatro corcheas en `3 & 4 &`, R L R L.
 
-Fill B reutiliza movimiento manual ya conocido de U2/U8. No aparece vocabulario rudimental nuevo.
+Fill B reutiliza movimiento manual ya conocido de Unidad 2/Unidad 8. No aparece vocabulario rudimental nuevo.
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Fill A: un tiempo y vuelta al 1
+### Lección 1 — Fill A: un tiempo y vuelta al 1
 Aprender `entrada → duración → aterrizaje` con el fill mínimo.
 
-### L2 — Fill B: dos tiempos con vocabulario conocido
+### Lección 2 — Fill B: dos tiempos con vocabulario conocido
 Aumentar la duración sin aumentar la densidad ni introducir sticking nuevo.
 
-### L3 — Misma duración, otra orquestación
+### Lección 3 — Misma duración, otra orquestación
 Cambiar 1–2 superficies manteniendo exactamente el mismo ritmo, duración y retorno.
 
-### L4 — Recuperación y ventana H7
+### Lección 4 — Recuperación y ventana independencia avanzada
 Priorizar el siguiente 1 incluso cuando el fill no sale perfecto. Como AMPLIACIÓN, mantener un ostinato sencillo de pie izquierdo durante un fill escrito.
 
-### Checkpoint — H6 MÍNIMO
+### Evaluación — fills MÍNIMO
 Elegir Fill A o Fill B y demostrar:
 
 `GROOVE → FILL → 1 → GROOVE`.
 
 ## Fronteras
 
-U9 puede certificar **H6 MÍNIMO**: insertar un fill sencillo sin perder sistemáticamente el pulso.
+Esta unidad puede certificar **fills MÍNIMO**: insertar un fill sencillo sin perder sistemáticamente el pulso.
 
-U9 **no certifica H6 COMPETENTE/FUNCIONAL ni H7**. La ventana de pie izquierdo es breve, escrita y opcional.
+Esta unidad **no certifica fills COMPETENTE/FUNCIONAL ni independencia avanzada**. La ventana de pie izquierdo es breve, escrita y opcional.
 
-5/4 y 7/8 pueden reaparecer sólo como AMPLIACIÓN si ya están funcionales; no forman parte del checkpoint ni del Hito 5.
+5/4 y 7/8 pueden reaparecer sólo como AMPLIACIÓN si ya están funcionales; no forman parte de la evaluación ni del Hito 5.
 
 ## Qué se evalúa
 

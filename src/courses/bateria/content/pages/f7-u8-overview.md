@@ -7,9 +7,9 @@ unitSlug: fase-7-unidad-8
 slug: modulacion-metrica
 kind: unit
 order: 0
-title: "70.U8 — Modulación métrica"
-summary: "Profundiza J8: conservar una duración puente y reinterpretarla como parte de una nueva unidad de pulso, de modo que el nuevo tempo sea consecuencia calculable de la relación anterior y no un cambio arbitrario de BPM."
-duration: 4 lecciones + checkpoint; varias sesiones
+title: "Modulación métrica"
+summary: "Profundiza modulación métrica: conservar una duración puente y reinterpretarla como parte de una nueva unidad de pulso, de modo que el nuevo tempo sea consecuencia calculable de la relación anterior y no un cambio arbitrario de BPM."
+duration: 4 lecciones + evaluación; varias sesiones
 competencies: [J8, J4, C1, C2, C3, C4, D3, D6, F2, G1, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true
@@ -17,9 +17,9 @@ published: true
 
 ## Función de la unidad
 
-U8 profundiza **J8 — modulación métrica**.
+Esta unidad profundiza **modulación métrica**.
 
-El mapa aprobado fija:
+El curso fija:
 
 - **MÍNIMO PARA AVANZAR:** comprender que una subdivisión puede convertirse en nueva unidad de pulso;
 - **COMPETENTE / FUNCIONAL:** ejecutar modulaciones sencillas con relación calculable y audible;
@@ -31,7 +31,7 @@ La pregunta central es:
 
 ## Definición operativa del curso
 
-En U8 llamaremos **modulación métrica** a un cambio de pulso/tempo en el que una duración perteneciente a la organización anterior se conserva y se **reinterpreta** como una duración de la nueva organización.
+En esta unidad llamaremos **modulación métrica** a un cambio de pulso/tempo en el que una duración perteneciente a la organización anterior se conserva y se **reinterpreta** como una duración de la nueva organización.
 
 Por tanto, el nuevo tempo no se elige libremente: queda determinado por la igualdad que conecta ambos lados.
 
@@ -50,50 +50,50 @@ Si la negra antigua está a `120 BPM`:
 
 La duración puente no cambia. Cambia lo que esa duración **significa dentro del pulso**.
 
-## Por qué J4 es un prerrequisito
+## Por qué tuplets de 5 y 7 y divisiones no estándar es un prerrequisito
 
-U4 enseñó a cambiar entre `2 / 3 / 4 / 5 / 7` partes **sin mover la negra**. En J8 hacemos algo distinto:
+Unidad 4 enseñó a cambiar entre `2 / 3 / 4 / 5 / 7` partes **sin mover la negra**. En modulación métrica hacemos algo distinto:
 
 1. establecemos una subdivisión con precisión;
 2. elegimos una de sus duraciones como puente;
 3. dejamos de conservar la negra antigua;
 4. construimos una negra nueva a partir de esa duración conservada.
 
-U4 preguntaba:
+Unidad 4 preguntaba:
 
 > “¿puedo cambiar la densidad sin mover el pulso?”
 
-U8 pregunta:
+Esta unidad pregunta:
 
 > “¿puedo usar una densidad como puente para mover el pulso de forma exactamente determinada?”
 
 ## Prerrequisitos
 
-El mapa fija:
+El curso establece:
 
-- **C2-R:** subdivisión disponible;
-- **J4-R:** experiencia suficiente con tuplets de 5/7 y cambios de densidad;
-- **F2-R:** representación métrica y lectura disponibles.
+- subdivisión disponible;
+- experiencia suficiente con tuplets de 5/7 y cambios de densidad;
+- representación métrica y lectura disponibles.
 
-Además, la Puerta P7 exige referencia de pulso estable durante manipulación rítmica avanzada.
+Además, la puerta de entrada de la fase exige referencia de pulso estable durante manipulación rítmica avanzada.
 
 ## Fronteras obligatorias
 
 ### Modulación métrica ≠ cambio arbitrario de tempo
 
-Pasar de `120` a `180 BPM` porque el metrónomo lo indica **no demuestra J8**.
+Pasar de `120` a `180 BPM` porque el metrónomo lo indica **no demuestra modulación métrica**.
 
 Debe existir una duración puente que permanezca constante y explique por qué el nuevo tempo es exactamente 180 y no 170, 185 o cualquier otro.
 
 ### Modulación métrica ≠ cambio de subdivisión
 
-En J4:
+En tuplets de 5 y 7 y divisiones no estándar:
 
 `corcheas → tresillos → semicorcheas → quintillos`
 
 pero la negra permanece idéntica.
 
-En J8 la subdivisión elegida se usa para **crear una negra nueva**.
+En modulación métrica la subdivisión elegida se usa para **crear una negra nueva**.
 
 ### Modulación métrica ≠ tuplet
 
@@ -101,15 +101,15 @@ Un tuplet es una división temporal dentro de una referencia. Puede servir de pu
 
 ### Modulación métrica ≠ polirritmia
 
-J6 superpone dos ritmos dentro de una relación temporal común. J8 puede aprovechar relaciones semejantes para calcular un puente, pero su rasgo definitorio es la **reinterpretación secuencial del pulso**.
+polirritmia superpone dos ritmos dentro de una relación temporal común. modulación métrica puede aprovechar relaciones semejantes para calcular un puente, pero su rasgo definitorio es la **reinterpretación secuencial del pulso**.
 
 ### Modulación métrica ≠ polimetría
 
-J7 mantiene simultáneamente ciclos métricos distintos. J8 cambia cuál es la unidad de pulso que organiza la continuación.
+polimetría mantiene simultáneamente ciclos métricos distintos. modulación métrica cambia cuál es la unidad de pulso que organiza la continuación.
 
 ### Modulación métrica ≠ ilusión rítmica
 
-Una figura puede hacer que el oyente perciba temporalmente otro pulso sin que el intérprete haya establecido una nueva unidad métrica real. En U8 sólo hablaremos de modulación cuando la nueva referencia quede definida por una igualdad temporal explícita.
+Una figura puede hacer que el oyente perciba temporalmente otro pulso sin que el intérprete haya establecido una nueva unidad métrica real. En esta unidad sólo hablaremos de modulación cuando la nueva referencia quede definida por una igualdad temporal explícita.
 
 ## Método de cálculo del curso
 
@@ -145,17 +145,17 @@ Con `120 BPM`:
 
 `120 × 5/4 = 150 BPM`
 
-## Arquitectura
+## Recorrido de la unidad
 
-1. **L1 — Qué cambia realmente:** definición, duración puente y contraste con cambio de tempo/subdivisión.
-2. **L2 — Del tresillo al nuevo pulso:** `3:2`, de negra 120 a negra 180, con continuidad audible.
-3. **L3 — Calcular antes de tocar:** método general y ejemplo `5:4`, de negra 120 a negra 150.
-4. **L4 — Salir, volver y hacer música:** modulaciones de ida/vuelta, recuperación, forma, improvisación y transferencia al kit.
-5. **Checkpoint 7H — J8 funcional:** definir, calcular, ejecutar, leer/escribir, recuperar y aplicar.
+1. **Lección 1 — Qué cambia realmente:** definición, duración puente y contraste con cambio de tempo/subdivisión.
+2. **Lección 2 — Del tresillo al nuevo pulso:** `3:2`, de negra 120 a negra 180, con continuidad audible.
+3. **Lección 3 — Calcular antes de tocar:** método general y ejemplo `5:4`, de negra 120 a negra 150.
+4. **Lección 4 — Salir, volver y hacer música:** modulaciones de ida/vuelta, recuperación, forma, improvisación y transferencia al kit.
+5. **Evaluación — modulación métrica funcional:** definir, calcular, ejecutar, leer/escribir, recuperar y aplicar.
 
 ## ESENCIAL AHORA
 
-- distinguir J8 de J4/J6/J7;
+- distinguir modulación métrica de tuplets de 5 y 7 y divisiones no estándar/polirritmia/polimetría;
 - identificar una duración puente;
 - explicar una igualdad temporal;
 - calcular al menos una modulación sencilla;
@@ -179,13 +179,13 @@ Con `120 BPM`:
 - transiciones donde el puente aparece musicalmente antes de convertirse en pulso;
 - diseño compositivo que permita al oyente reconstruir la relación.
 
-No se exige este nivel para pasar a U9.
+No se exige este nivel para pasar a Unidad 9.
 
 ## Fuente y material
 
-Los ejercicios y partituras de U8 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO**.
+Los ejercicios y partituras de esta unidad son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO**.
 
-Como ampliación posterior, la Biblioteca Maestra registra Gary Chaffee, *Patrones de Ritmo y Compás* (Alfred Music), cuya editorial declara trabajo con ritmos impares, compases mixtos, polirritmia y modulación métrica. El libro es un recurso de profundización, no el currículo ni la fuente de los ejercicios originales de esta unidad:
+Como ampliación posterior puede consultarse Gary Chaffee, *Patrones de Ritmo y Compás* (Alfred Music), cuya editorial declara trabajo con ritmos impares, compases mixtos, polirritmia y modulación métrica. El libro es un recurso de profundización, no el currículo ni la fuente de los ejercicios originales de esta unidad:
 
 https://www.alfred.com/products/patterns-in-spanish-patrones-de-ritmo-y-compass-rhythm-meter-patterns-00-28198
 
@@ -199,7 +199,7 @@ https://www.alfred.com/products/patterns-in-spanish-patrones-de-ritmo-y-compass-
 
 ## Criterio de salida
 
-U8 cumple su función cuando puedes:
+Esta unidad cumple su función cuando puedes:
 
 1. definir modulación métrica con tus palabras;
 2. identificar la duración que se conserva;

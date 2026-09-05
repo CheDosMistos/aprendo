@@ -82,7 +82,7 @@ No existe ratio universal `bloqueado : intercalado` ni intervalo fijo de horas o
 
 ## Carga y salud
 
-K8 no anula K7. Una sesión autónoma sigue subordinada a carga sostenible.
+autonomía no anula gestión de carga y salud. Una sesión autónoma sigue subordinada a carga sostenible.
 
 Dolor persistente, hormigueo, entumecimiento o pérdida de fuerza no son una prueba de independencia ni una razón para retirar descansos o apoyo.
 

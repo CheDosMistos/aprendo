@@ -1,0 +1,126 @@
+name: Diagnose test shards
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  test-shard:
+    if: github.event.pull_request.number == 219
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    strategy:
+      fail-fast: false
+      matrix:
+        group:
+          - core
+          - battery-other
+          - course-contracts
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Run ${{ matrix.group }} tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t all_tests < <(find tests -type f -name '*.test.ts' | sort)
+
+          case '${{ matrix.group }}' in
+            core)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep -Ev '^tests/(battery-|course-)' || true)
+              ;;
+            battery-other)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-' | grep -Ev '^tests/battery-phase6-' || true)
+              ;;
+            course-contracts)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/course-' || true)
+              ;;
+          esac
+
+          if [ "${#selected[@]}" -eq 0 ]; then
+            echo "No tests selected for ${{ matrix.group }}"
+            exit 1
+          fi
+
+          printf 'Selected %s tests:\n' "${#selected[@]}"
+          printf '  %s\n' "${selected[@]}"
+          node --import ./tests/helpers/learner-language-contract-compat.mjs --test "${selected[@]}"
+
+  battery-phase6-file:
+    if: github.event.pull_request.number == 219
+    name: Fase 6 / ${{ matrix.test_file }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    strategy:
+      fail-fast: false
+      matrix:
+        test_file:
+          - battery-phase6-u2-content.test.ts
+          - battery-phase6-u3-content.test.ts
+          - battery-phase6-u4-content.test.ts
+          - battery-phase6-u5-content.test.ts
+          - battery-phase6-u6-content.test.ts
+          - battery-phase6-u7-content.test.ts
+          - battery-phase6-u8-content.test.ts
+          - battery-phase6-u9-content.test.ts
+          - battery-phase6-u10-content.test.ts
+          - battery-phase6-u11-content.test.ts
+          - battery-phase6-u12-content.test.ts
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Run ${{ matrix.test_file }}
+        run: node --import ./tests/helpers/learner-language-contract-compat.mjs --test "tests/${{ matrix.test_file }}"
+
+  learner-language-audit:
+    if: github.event.pull_request.number == 219
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Run learner-language auditor
+        run: node scripts/audit-bateria-learner-language.mjs

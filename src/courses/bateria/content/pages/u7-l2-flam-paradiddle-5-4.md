@@ -21,7 +21,7 @@ published: true
 
 **AMPLIACIÓN / VENTANA:** realizar una primera experiencia en **5/4** solo si el núcleo técnico no necesita absorber la mayor parte de la sesión.
 
-> Esta lección tiene un solo eje dominante de novedad: **Flam Paradiddle**. El 5/4 no crea deuda y puede posponerse a otra sesión de U7.
+> Esta lección tiene un solo eje dominante de novedad: **Flam Paradiddle**. El 5/4 no crea deuda y puede posponerse a otra sesión de esta unidad.
 
 ## 1. Puerta local de combinación — 4 min
 
@@ -99,4 +99,4 @@ No necesitas dominar los cuatro conceptos; sí evitar usarlos como sinónimos.
 
 El criterio central pertenece a Flam Paradiddle: puedes localizarlo en PAS, explicar su estructura y producir una muestra lenta razonable con un diagnóstico claro de lo que todavía falla.
 
-El 5/4 **no bloquea U8**. Si haces la ventana, registra por separado si mantienes cinco pulsos y si distingues cambio de compás de agrupación/desplazamiento.
+El 5/4 **no bloquea Unidad 8**. Si haces la ventana, registra por separado si mantienes cinco pulsos y si distingues cambio de compás de agrupación/desplazamiento.

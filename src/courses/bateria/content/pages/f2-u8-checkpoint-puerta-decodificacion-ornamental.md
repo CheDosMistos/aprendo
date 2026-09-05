@@ -8,14 +8,14 @@ slug: puerta-decodificacion-ornamental
 kind: checkpoint
 order: 5
 title: "Puerta de decodificación ornamental"
-summary: "Checkpoint diagnóstico de U8: comprueba si D3/B7 y B3–B5 permiten decodificar sextillo, grace simple, double grace y roll escrito antes de depender del nombre o de la memoria motora."
+summary: "Evaluación diagnóstico de esta unidad: comprueba si tuplets y ornamentación/aplicación musical de rudimentos y paradiddles–drags permiten decodificar sextillo, grace simple, double grace y roll escrito antes de depender del nombre o de la memoria motora."
 duration: 15–20 min
 competencies: [B3, B4, B5, B7, C2, C3, D3, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este checkpoint no introduce una nueva familia rudimental y **no es una prueba formal de primera vista D5**. La muestra es nueva, pero puedes observarla, analizarla y reducir tempo antes de ejecutar.
+Esta evaluación no introduce una nueva familia rudimental y **no es una prueba formal de primera vista forma y lectura de chart**. La muestra es nueva, pero puedes observarla, analizarla y reducir tempo antes de ejecutar.
 
 La inferencia es:
 
@@ -35,7 +35,7 @@ PAS sigue siendo la autoridad para los 40 rudimentos oficiales:
 - [PAS — International Drum Rudiments](https://pas.org/rudiments/)
 - [PAS — PDF oficial](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-La muestra del checkpoint es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`. No reproduce el Flam #20, Drag #31 ni ningún roll PAS numerado.
+La muestra de la evaluación es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`. No reproduce el Flam #20, Drag #31 ni ningún roll PAS numerado.
 
 No puntúes por «acertar el nombre». Puntúa si puedes **leer función, duración y jerarquía**.
 
@@ -43,7 +43,7 @@ No puntúes por «acertar el nombre». Puntúa si puedes **leer función, duraci
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml" data-score-title="20.U8.CP — puerta de decodificación ornamental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml" data-score-source-label="MusicXML — fuente de la muestra ornamental del checkpoint"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml" data-score-title="Evaluación — puerta de decodificación ornamental" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml" data-score-source-label="MusicXML — fuente de la muestra ornamental de la evaluación"></div>
 
 Antes de habilitar audio, recorre los cuatro compases con esta plantilla:
 
@@ -124,16 +124,16 @@ Antes de decir `flam`, `drag` o `roll`, explica cada compás sin nombres rudimen
 
 Después puedes asociar esas funciones a las familias correspondientes.
 
-Si la explicación sólo aparece después de recordar el nombre, la evidencia de D3 sigue incompleta.
+Si la explicación sólo aparece después de recordar el nombre, la evidencia de tuplets y ornamentación sigue incompleta.
 
 ## 5. Evidencia secundaria sólo si hace falta — 1–2 min
 
 Si una única categoría falla, no repitas toda la unidad. Crea una microtarea original que aisle sólo esa variable:
 
 - un pulso `4 ↔ 6` para sextillo;
-- una negra con/sin grace para B3;
-- una negra con/sin double grace para B4;
-- una figura con/sin tremolo para B5.
+- una negra con/sin grace para paradiddles;
+- una negra con/sin double grace para flams;
+- una figura con/sin tremolo para drags.
 
 Etiqueta el resultado `EJERCICIO ORIGINAL PROPIO` y comprueba el cierre métrico cuando corresponda.
 
@@ -145,21 +145,21 @@ Aplica:
 
 ### CONTINUAR
 
-La muestra permite decodificar las cuatro funciones, ejecutarlas con control suficiente y localizar un error sin depender de nombres. Tiene sentido abrir U9, donde aparecerá la **primera vista formal D5**.
+La muestra permite decodificar las cuatro funciones, ejecutarlas con control suficiente y localizar un error sin depender de nombres. Tiene sentido abrir Unidad 9, donde aparecerá la **primera vista formal forma y lectura de chart**.
 
 ### CONTINUAR + CORRECTIVO
 
-La lectura general es suficiente, pero queda una fragilidad localizada: por ejemplo `6:4` mueve el pulso, la grace se aplana, el double grace pierde un ataque o el roll se pasa de su salida. Abre U9 manteniendo un correctivo corto de esa única variable.
+La lectura general es suficiente, pero queda una fragilidad localizada: por ejemplo `6:4` mueve el pulso, la grace se aplana, el double grace pierde un ataque o el roll se pasa de su salida. Abre Unidad 9 manteniendo un correctivo corto de esa única variable.
 
 ### REDUCIR NOVEDAD
 
-La muestra se resuelve principalmente por memoria nominal, se ornamentan pulsos no escritos o varias categorías siguen sin poder explicarse antes de tocar. Reduce la novedad y recupera D3 sobre una función cada vez.
+La muestra se resuelve principalmente por memoria nominal, se ornamentan pulsos no escritos o varias categorías siguen sin poder explicarse antes de tocar. Reduce la novedad y recupera tuplets y ornamentación sobre una función cada vez.
 
 ### DETENER CARGA
 
 Dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente invalidan la muestra como evidencia limpia. Reduce o detén carga sin convertirlo en un juicio sobre competencia.
 
-## MÍNIMO PARA ABRIR U9
+## MÍNIMO PARA ABRIR Unidad 9
 
 En condiciones razonables:
 
@@ -179,9 +179,9 @@ No se exige:
 - cero errores;
 - un BPM fijo o alto;
 - dominar todos los Flam, Drag o Roll Rudiments PAS;
-- declarar B3, B4, B5, B7 o D3 globalmente `FUNCIONAL`;
-- primera vista formal D5 dentro de este checkpoint — **es la novedad de U9**;
-- click reducido, half-time o gaps — U10;
+- declarar paradiddles, flams, drags, aplicación musical de rudimentos o tuplets y ornamentación globalmente `FUNCIONAL`;
+- primera vista formal forma y lectura de chart dentro de esta evaluación — **es la novedad de Unidad 9**;
+- click reducido, half-time o gaps — Unidad 10;
 - kit o coordinación de cuatro extremidades.
 
 ## COMPETENTE / FUNCIONAL EN ESTA PUERTA
@@ -192,14 +192,14 @@ Eso no equivale a promover automáticamente ninguna competencia global.
 
 ## Cómo interpretar discrepancias
 
-- **tocas el flam de memoria pero ornamentas pulsos equivocados:** B3 puede existir técnicamente, pero D3/B7 lector sigue limitado;
-- **lees el double grace pero un golpe desaparece:** problema principalmente mecánico B4;
-- **entiendes el roll pero la salida se desplaza:** revisa C1/C2 y duración antes de culpar a B5;
-- **sextillo correcto aislado pero falla al volver a negras:** revisa C3;
+- **tocas el flam de memoria pero ornamentas pulsos equivocados:** paradiddles puede existir técnicamente, pero tuplets y ornamentación/aplicación musical de rudimentos lector sigue limitado;
+- **lees el double grace pero un golpe desaparece:** problema principalmente mecánico flams;
+- **entiendes el roll pero la salida se desplaza:** revisa pulso interno/subdivisión binaria y ternaria y duración antes de culpar a drags;
+- **sextillo correcto aislado pero falla al volver a negras:** revisa cambios de subdivisión;
 - **todo se degrada al unir los cuatro compases:** reduce continuidad; no concluyas que fallan cuatro competencias a la vez.
 
 Completar esta puerta **no actualiza automáticamente** el mapa de progreso.
 
-## Puente a U9
+## Puente a Unidad 9
 
-U9 podrá convertir la lectura desarrollada hasta aquí en **primera vista formal D5**: muestra nueva, ventana temporal controlada, ayudas restringidas y evidencia explícita de primera lectura. U8 no simula ese criterio anticipadamente.
+Unidad 9 podrá convertir la lectura desarrollada hasta aquí en **primera vista formal forma y lectura de chart**: muestra nueva, ventana temporal controlada, ayudas restringidas y evidencia explícita de primera lectura. Esta unidad no simula ese criterio anticipadamente.

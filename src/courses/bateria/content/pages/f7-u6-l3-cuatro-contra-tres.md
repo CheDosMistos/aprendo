@@ -19,7 +19,7 @@ published: true
 
 Construir y mantener una relación **4:3** durante varios ciclos, reutilizando el método de capa → rejilla común → simultaneidad → retirada de ayuda aprendido con `3:2`.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u6/f7-u6-polyrhythm-4-3.musicxml" data-score-title="70.U6 — Polirritmia 4:3" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u6/f7-u6-polyrhythm-4-3.musicxml" data-score-title="Unidad 6 — Polirritmia 4:3" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué permanece y qué cambia
 
@@ -163,7 +163,7 @@ Una opción progresiva:
 - caja o tom = 3;
 - después bombo = 3 y mano = 4 si la independencia ya lo permite.
 
-No es necesario añadir backbeat, ostinato o forma compleja para demostrar J6 funcional.
+No es necesario añadir backbeat, ostinato o forma compleja para demostrar polirritmia funcional.
 
 ## Criterio de avance
 

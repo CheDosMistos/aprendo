@@ -23,7 +23,7 @@ Construir una representación correcta de **Double Paradiddle** y **Triple Parad
 
 ## 1. Recuperación — 2–3 min
 
-Elige **Single Paradiddle** de U1 o uno de los singles de la Lección 1. Haz una muestra corta antes de practicarlo y anota mentalmente qué reaparece.
+Elige **Single Paradiddle** de Unidad 1 o uno de los singles de la Lección 1. Haz una muestra corta antes de practicarlo y anota mentalmente qué reaparece.
 
 ## 2. Prerrequisitos locales
 
@@ -61,11 +61,11 @@ El objetivo no es tocar una secuencia más larga a toda costa. Si pierdes el lea
 
 Lee una línea nueva con figuras y silencios básicos. No le asignes automáticamente un sticking de paradiddle: la partitura representa ritmo y el sticking es una decisión separada salvo que esté escrito.
 
-<div data-notation-score data-score-src="/bateria/notation/u2/lectura-silencios.musicxml" data-score-title="Lectura U2 — figuras y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/u2/lectura-silencios.musicxml" data-score-title="Lectura esta unidad — figuras y silencios" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Haz **mirar → contar → cantar → tocar → escuchar**.
 
-## 7. Creatividad G2
+## 7. Creatividad desarrollo motívico
 
 Toma una célula sencilla ya conocida y cambia **una sola variable**:
 
@@ -74,7 +74,7 @@ Toma una célula sencilla ya conocida y cambia **una sola variable**:
 
 Haz `A → B → A` y comprueba si la identidad rítmica se conserva.
 
-## Diagnóstico K2
+## Diagnóstico grabación y autoevaluación
 
 Si al cambiar de lead desaparece un acento o se mueve el pulso:
 

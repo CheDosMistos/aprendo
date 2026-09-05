@@ -53,7 +53,7 @@ La presión del pie afecta el estado del hi-hat y el esfuerzo requerido, pero el
 
 Sólo si abierto/cerrado ya son controlables, explora un punto intermedio y comprueba si puedes volver de forma predecible a cerrado.
 
-Esto es una exploración de **rango mecánico/sonoro**, no una lección de openings estilísticos ni un requisito de H3 MÍNIMO.
+Esto es una exploración de **rango mecánico/sonoro**, no una lección de openings estilísticos ni un requisito de hi-hat de pie MÍNIMO.
 
 ## MÍNIMO PARA AVANZAR
 

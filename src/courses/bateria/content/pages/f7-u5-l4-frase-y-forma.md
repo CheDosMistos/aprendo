@@ -127,15 +127,15 @@ Escribe una miniatura de 4–8 barras con:
 
 Etiqueta el material como **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO** si lo incorporas a tus materiales del proyecto.
 
-## Frontera con J6 y J7
+## Frontera con polirritmia y polimetría
 
-### Aún no es J6 por defecto
+### Aún no es polirritmia por defecto
 
-Un patrón acentuado dentro de una sola corriente rítmica puede sugerir dos planos, pero J6 exigirá mantener **dos capas rítmicas** y comprender su relación común.
+Un patrón acentuado dentro de una sola corriente rítmica puede sugerir dos planos, pero polirritmia exigirá mantener **dos capas rítmicas** y comprender su relación común.
 
-### Aún no es J7 por defecto
+### Aún no es polimetría por defecto
 
-El hecho de que un ciclo de 5 atraviese `4/4` no basta para afirmar que existen dos métricas simultáneas completas. J7 estudiará esa distinción de forma explícita.
+El hecho de que un ciclo de 5 atraviese `4/4` no basta para afirmar que existen dos métricas simultáneas completas. polimetría estudiará esa distinción de forma explícita.
 
 ## Recuperación musical
 
