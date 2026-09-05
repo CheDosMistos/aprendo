@@ -274,6 +274,10 @@ function canonicalShadow(markdown) {
       .replace(
         'HITO ESPECÍFICO instrumento y sonido: CUMPLIDO',
         'HITO ESPECÍFICO F6: CUMPLIDO',
+      )
+      .replace(
+        '## Los cuatro carriles del portafolio en el cierre',
+        '## R1 R2 R3 R4 — Los cuatro carriles del portafolio en el cierre',
       );
   }
 
