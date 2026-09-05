@@ -227,6 +227,10 @@ function canonicalShadow(markdown) {
       .replace(
         'reutilizar material entre los cuatro carriles del portafolio',
         'reutilizar material entre R1–R4',
+      )
+      .replace(
+        'autonomía funcional sostenido dentro del proyecto esta unidad',
+        'K8 funcional sostenido dentro del proyecto U11',
       );
   }
 
