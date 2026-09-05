@@ -48,9 +48,9 @@ Pregunta:
 - ¿la dificultad sigue siendo temporal o la lectura empezó a interferir?;
 - ¿qué correctivo concreto probarías antes de repetir?
 
-## click desplazado o no obvio inicial, no graduación
+## Click reducido inicial, no graduación
 
-Trabajar con referencia menos explícita puede aportar evidencia inicial de click desplazado o no obvio. No implica click desplazado o no obvio funcional ni autoriza automáticamente tareas más complejas de desplazamiento de click.
+Trabajar con referencia menos explícita puede aportar evidencia inicial de control con click reducido. No implica control funcional con click reducido ni autoriza automáticamente tareas más complejas de desplazamiento de referencia.
 
 ## Puente al Evaluación
 
