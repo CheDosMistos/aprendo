@@ -130,6 +130,10 @@ function canonicalShadow(markdown) {
       .replace(
         'Completar la sesión **no actualiza automáticamente** aplicación musical de rudimentos, C1, C2, figuras, silencios y compás ni el estado del PAS elegido',
         'Completar la sesión **no actualiza automáticamente** B7, C1, C2, D1 ni el estado del PAS elegido',
+      )
+      .replace(
+        'volver a sticking simple no es fracaso de figuras, silencios y compás',
+        'volver a sticking simple no es fracaso de D1',
       );
   }
 
