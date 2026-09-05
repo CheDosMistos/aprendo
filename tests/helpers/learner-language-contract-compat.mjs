@@ -138,6 +138,13 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 2 && unit === 2) {
+    body = body.replace(
+      '¿figuras, silencios y compás/C2 y el inicio de C3 permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados?',
+      '¿D1/C2 y el inicio de C3 permiten avanzar hacia U3 sin depender de dibujos memorizados?',
+    );
+  }
+
   if (phase === 2 && unit === 10) {
     body = body
       .replace(
