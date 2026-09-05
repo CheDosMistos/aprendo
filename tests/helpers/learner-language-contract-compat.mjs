@@ -197,6 +197,7 @@ function canonicalShadow(markdown) {
   // references and first-sight ownership markers must come exclusively from the real
   // learner page, otherwise the appended shadow creates duplicate notation evidence.
   body = body
+    .replace(/\sdata-notation-score\b/g, '')
     .replace(/\sdata-score-(?:src|source-url)="[^"]*"/g, '')
     .replace(/\sdata-score-first-sight="true"/g, '');
 
