@@ -113,6 +113,10 @@ function canonicalShadow(markdown) {
     body = body.replace(new RegExp(escapeRegExp(label), 'gi'), id);
   }
 
+  if (phase === 2 && unit === 1) {
+    body = body.replace(/\bforma y lectura de chart\b/gi, 'D5');
+  }
+
   if (phase === 6 && unit === 4) {
     body = body.replace(
       'Ruta si puerta de entrada no está abierta',
