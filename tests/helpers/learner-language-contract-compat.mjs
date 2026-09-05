@@ -139,10 +139,15 @@ function canonicalShadow(markdown) {
   }
 
   if (phase === 2 && unit === 10) {
-    body = body.replace(
-      'Completar esta unidad no convierte automáticamente click desplazado o no obvio en `FUNCIONAL`.',
-      'Completar U10 no convierte automáticamente C5 en `FUNCIONAL`.',
-    );
+    body = body
+      .replace(
+        'Completar esta unidad no convierte automáticamente click desplazado o no obvio en `FUNCIONAL`.',
+        'Completar U10 no convierte automáticamente C5 en `FUNCIONAL`.',
+      )
+      .replace(
+        'No implica control funcional con click reducido',
+        'No implica C5 funcional',
+      );
   }
 
   if (phase === 2 && unit === 12) {
