@@ -231,6 +231,10 @@ function canonicalShadow(markdown) {
       .replace(
         'autonomía funcional sostenido dentro del proyecto U11',
         'K8 funcional sostenido dentro del proyecto U11',
+      )
+      .replace(
+        'U12 conserva la revisión completa del portafolio los cuatro carriles del portafolio',
+        'U12 conserva la revisión completa del portafolio R1–R4',
       );
   }
 
