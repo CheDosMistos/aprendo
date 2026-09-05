@@ -278,6 +278,10 @@ function canonicalShadow(markdown) {
       .replace(
         '## Los cuatro carriles del portafolio en el cierre',
         '## R1 R2 R3 R4 — Los cuatro carriles del portafolio en el cierre',
+      )
+      .replace(
+        'No vuelvas a ejecutar todas las checkpoints anteriores',
+        'No vuelvas a ejecutar todos los checkpoints anteriores',
       );
   }
 
