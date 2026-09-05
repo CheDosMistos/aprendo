@@ -282,6 +282,10 @@ function canonicalShadow(markdown) {
       .replace(
         'No vuelvas a ejecutar todas las checkpoints anteriores',
         'No vuelvas a ejecutar todos los checkpoints anteriores',
+      )
+      .replace(
+        'análisis musical debe conectar elementos, no enumerarlos',
+        'F7 debe conectar elementos, no enumerarlos',
       );
   }
 
