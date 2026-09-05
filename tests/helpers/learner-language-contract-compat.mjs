@@ -122,6 +122,10 @@ function canonicalShadow(markdown) {
       .replace(
         'C1/C2/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2',
         'C1/C2/D1/F1 están suficientemente disponibles para aumentar densidad y variedad en U2',
+      )
+      .replace(
+        'no concluyas automáticamente que figuras, silencios y compás ha fallado',
+        'no concluyas automáticamente que D1 ha fallado',
       );
   }
 
