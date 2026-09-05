@@ -272,6 +272,10 @@ function canonicalShadow(markdown) {
         'K1–K8 + E6 + F7',
       )
       .replace(
+        'una carencia de evidencia interpersonal real no invalida por sí sola Hito 7',
+        'una carencia de evidencia interpersonal real en I6 no invalida por sí sola Hito 7',
+      )
+      .replace(
         'HITO ESPECÍFICO instrumento y sonido: CUMPLIDO',
         'HITO ESPECÍFICO F6: CUMPLIDO',
       )
