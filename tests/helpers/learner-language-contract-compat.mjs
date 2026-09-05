@@ -118,7 +118,11 @@ function canonicalShadow(markdown) {
   if (phase === 2 && unit === 1) {
     body = body
       .replace(/\bforma y lectura de chart\b/gi, 'D5')
-      .replace('no sirve para “aprobar esta unidad”', 'no sirve para “aprobar U1”');
+      .replace('no sirve para “aprobar esta unidad”', 'no sirve para “aprobar U1”')
+      .replace(
+        'C1/C2/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2',
+        'C1/C2/D1/F1 están suficientemente disponibles para aumentar densidad y variedad en U2',
+      );
   }
 
   if (phase === 2 && unit === 10) {
