@@ -470,6 +470,13 @@ function canonicalShadow(markdown) {
   body = replaceAliasesWithIds(body);
   body = normalizeContextualReferences(body, { unit, kind, order });
 
+  if (phase === 3 && unit === 2) {
+    body = body.replace(
+      'transcripción iterativa de una fuente — empieza en U3',
+      'E6 — transcripción iterativa de una fuente — empieza en U3',
+    );
+  }
+
   if (phase === 6 && unit === 11) {
     body = body.replace(
       'L5 cierra **el proyecto U11**, no la Fase 6',
