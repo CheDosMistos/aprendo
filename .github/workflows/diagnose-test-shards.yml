@@ -19,7 +19,6 @@ jobs:
         group:
           - core
           - battery-other
-          - battery-phase7
           - course-contracts
 
     steps:
@@ -48,10 +47,7 @@ jobs:
               mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep -Ev '^tests/(battery-|course-)' || true)
               ;;
             battery-other)
-              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-' | grep -Ev '^tests/battery-phase(6|7)-' || true)
-              ;;
-            battery-phase7)
-              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-phase7-' || true)
+              mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/battery-' | grep -Ev '^tests/battery-phase6-' || true)
               ;;
             course-contracts)
               mapfile -t selected < <(printf '%s\n' "${all_tests[@]}" | grep '^tests/course-' || true)
