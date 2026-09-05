@@ -270,6 +270,10 @@ function canonicalShadow(markdown) {
       .replace(
         'las capacidades de práctica y autonomía + E6 + análisis musical',
         'K1–K8 + E6 + F7',
+      )
+      .replace(
+        'HITO ESPECÍFICO instrumento y sonido: CUMPLIDO',
+        'HITO ESPECÍFICO F6: CUMPLIDO',
       );
   }
 
