@@ -261,6 +261,13 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 6 && unit === 12) {
+    body = body.replace(
+      'Para el Hito 7 se observan conjuntamente las capacidades de práctica y autonomía, la transcripción y el análisis musical.',
+      'Para el Hito 7 se observan conjuntamente K1–K8 + E6 + F7.',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
