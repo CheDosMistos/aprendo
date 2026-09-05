@@ -206,6 +206,13 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 6 && unit === 11) {
+    body = body.replace(
+      'Proyecto autónomo — Proyecto autónomo',
+      'R4 — Proyecto autónomo',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
