@@ -105,9 +105,11 @@ function canonicalShadow(markdown) {
   }
 
   // The shadow exists only to preserve legacy semantic assertions. Technical score
-  // references must come exclusively from the real learner page, otherwise semantic
-  // replacements such as "Groove" -> "H5" can fabricate nonexistent MusicXML URLs.
-  body = body.replace(/\sdata-score-(?:src|source-url)="[^"]*"/g, '');
+  // references and first-sight ownership markers must come exclusively from the real
+  // learner page, otherwise the appended shadow creates duplicate notation evidence.
+  body = body
+    .replace(/\sdata-score-(?:src|source-url)="[^"]*"/g, '')
+    .replace(/\sdata-score-first-sight="true"/g, '');
 
   for (const [id, label] of Object.entries(competencyLabels).sort((a, b) => b[1].length - a[1].length)) {
     body = body.replace(new RegExp(escapeRegExp(label), 'gi'), id);
