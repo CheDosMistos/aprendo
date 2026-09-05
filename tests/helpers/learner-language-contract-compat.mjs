@@ -223,6 +223,10 @@ function canonicalShadow(markdown) {
       .replace(
         'el proyecto esta unidad',
         'el proyecto U11',
+      )
+      .replace(
+        'reutilizar material entre los cuatro carriles del portafolio',
+        'reutilizar material entre R1–R4',
       );
   }
 
