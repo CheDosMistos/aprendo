@@ -292,7 +292,7 @@ function canonicalShadow(markdown) {
         'K8 convierte análisis en acción revisable',
       )
       .replace(
-        'E6 y análisis musical aparecen integrados en el aprendizaje de repertorio',
+        'E6 y análisis musical aparecen integrados en el I3',
         'E6 y F7 aparecen integrados en el aprendizaje de repertorio',
       );
   }
