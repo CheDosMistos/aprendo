@@ -469,6 +469,20 @@ function canonicalShadow(markdown) {
   body = replaceAliasesWithIds(body);
   body = normalizeContextualReferences(body, { unit, kind, order });
 
+  if (phase === 6 && unit === 11) {
+    body = body.replace(
+      'L5 cierra **el proyecto U11**, no la Fase 6',
+      'Esta lección cierra **el proyecto U11**, no la Fase 6',
+    );
+  }
+
+  if (phase === 6 && unit === 12) {
+    body = body.replace(
+      'E6 y análisis musical aparecen integrados en el I3',
+      'E6 y F7 aparecen integrados en el aprendizaje de repertorio',
+    );
+  }
+
   // A very small tail encodes historical aggregate relationships rather than a
   // translatable competency label. Keep those explicit and test-only.
   if (phase === 3 && unit === 6) {
