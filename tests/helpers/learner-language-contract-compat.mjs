@@ -247,6 +247,10 @@ function canonicalShadow(markdown) {
       .replace(
         'esta unidad continúa como **checkpoint final**',
         'U11 continúa como **6H**',
+      )
+      .replace(
+        'no la función curricular de esta unidad',
+        'no la función curricular de U11',
       );
   }
 
