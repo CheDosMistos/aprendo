@@ -215,6 +215,10 @@ function canonicalShadow(markdown) {
       .replace(
         'autonomía como proceso observable',
         'K8 como proceso observable',
+      )
+      .replace(
+        'esta unidad — propiedad parcial del proyecto',
+        'U11 — propiedad parcial del proyecto',
       );
   }
 
