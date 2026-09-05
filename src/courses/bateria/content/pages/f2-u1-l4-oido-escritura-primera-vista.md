@@ -171,7 +171,7 @@ Usa la cadena:
 - **CONDICIONES:** tempo, click, número de escuchas, playback bloqueado en el primer intento;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
-Completar la sesión **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, figuras, silencios y compás, primera vista rítmica, imitación rítmica, dictado ni relación entre oído y notación. Esta ventana tampoco actualiza forma y lectura de chart: **Unidad 9 introduce formalmente forma y lectura de chart** cuando la lectura nueva puede aislarse como dificultad central.
+Completar la sesión **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, figuras, silencios y compás básico, escritura rítmica propia, reconocimiento de subdivisión y acentos, imitación rítmica ni dictado rítmico. Esta ventana tampoco actualiza forma y lectura de chart: **Unidad 9 introduce formalmente forma y lectura de chart** cuando la lectura nueva puede aislarse como dificultad central.
 
 ## MÍNIMO PARA AVANZAR
 
