@@ -126,6 +126,13 @@ function canonicalShadow(markdown) {
     );
   }
 
+  if (phase === 2 && unit === 12) {
+    body = body.replace(
+      'no convierte automáticamente pulso, subdivisión y C3, figuras, silencios y compás–forma y lectura de chart o teoría básica del pulso y las figuras–F2 en FUNCIONALES',
+      'no convierte automáticamente C1–C3, D1–D5 o F1–F2 en FUNCIONALES',
+    );
+  }
+
   if (phase === 6 && unit === 4) {
     body = body.replace(
       'Ruta si puerta de entrada no está abierta',
