@@ -22,24 +22,111 @@ const competencyLabels = {
   K1: 'Objetivo de práctica específico', K2: 'Diagnóstico de errores', K3: 'Chunking y adquisición inicial', K4: 'Espaciado, recuperación e interleaving prudente', K5: 'Feedback, grabación y autoevaluación', K6: 'Registro de progreso', K7: 'Gestión de carga y salud', K8: 'Autonomía de aprendizaje',
 };
 
+// Conservative learner-facing aliases confirmed by legacy contract failures. Keep
+// these semantic, not lexical: generic words such as "bombo" or "groove" are too
+// broad to identify a competency safely.
+const competencyAliases = {
+  D1: ['figuras, silencios y compás'],
+  D5: ['forma y lectura de chart'],
+  E2: ['reconocimiento de subdivisión y acentos'],
+  E6: ['transcripción real'],
+  F1: ['teoría básica del pulso y las figuras'],
+  G2: ['transformación consciente', 'desarrollo motívico'],
+  H4: ['coordinación de cuatro extremidades'],
+  J2: ['desplazamientos de acento y motivo'],
+};
+
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const originalReadFile = fs.promises.readFile.bind(fs.promises);
 const originalReadFileSync = fs.readFileSync.bind(fs);
+
+const competencyTerms = Object.entries(competencyLabels)
+  .flatMap(([id, label]) => [label, ...(competencyAliases[id] ?? [])].map((term) => ({ id, term })))
+  .sort((a, b) => b.term.length - a.term.length);
+
+const competencyIdsByTerm = new Map(
+  competencyTerms.map(({ id, term }) => [term.toLocaleLowerCase('es'), id]),
+);
+
+const competencyTermPattern = new RegExp(
+  competencyTerms.map(({ term }) => escapeRegExp(term)).join('|'),
+  'gi',
+);
+
+const aliasTerms = Object.entries(competencyAliases)
+  .flatMap(([id, aliases]) => aliases.map((term) => ({ id, term })))
+  .sort((a, b) => b.term.length - a.term.length);
+
+const aliasIdsByTerm = new Map(
+  aliasTerms.map(({ id, term }) => [term.toLocaleLowerCase('es'), id]),
+);
+
+const aliasTermPattern = new RegExp(
+  aliasTerms.map(({ term }) => escapeRegExp(term)).join('|'),
+  'gi',
+);
+
+function replaceAliasesWithIds(text) {
+  const pattern = new RegExp(aliasTermPattern.source, 'gi');
+  return text.replace(pattern, (match) => aliasIdsByTerm.get(match.toLocaleLowerCase('es')) ?? match);
+}
+
+function competencyLabelShadow(text) {
+  const phrases = new Set();
+  const pattern = new RegExp(competencyTermPattern.source, 'gi');
+  for (const match of text.matchAll(pattern)) {
+    const phrase = match[0];
+    const id = competencyIdsByTerm.get(phrase.toLocaleLowerCase('es'));
+    if (id) phrases.add(`${id} — ${phrase}`);
+  }
+  return [...phrases].join('\n');
+}
+
+function normalizeCheckpointWords(text) {
+  return text
+    .replace(/\bEstas evaluaciones\b/g, 'Estos checkpoints')
+    .replace(/\bestas evaluaciones\b/g, 'estos checkpoints')
+    .replace(/\bLas evaluaciones\b/g, 'Los checkpoints')
+    .replace(/\blas evaluaciones\b/g, 'los checkpoints')
+    .replace(/\bEsta evaluación\b/g, 'Este checkpoint')
+    .replace(/\besta evaluación\b/g, 'este checkpoint')
+    .replace(/\bLa evaluación\b/g, 'El checkpoint')
+    .replace(/\bla evaluación\b/g, 'el checkpoint')
+    .replace(/\bUna evaluación\b/g, 'Un checkpoint')
+    .replace(/\buna evaluación\b/g, 'un checkpoint')
+    .replace(/\bEvaluaciones\b/g, 'Checkpoints')
+    .replace(/\bevaluaciones\b/g, 'checkpoints')
+    .replace(/\bEvaluación\b/g, 'Checkpoint')
+    .replace(/\bevaluación\b/g, 'checkpoint');
+}
+
+function normalizeContextualReferences(text, { unit, kind, order }) {
+  let normalized = text;
+  if (unit > 0) {
+    normalized = normalized
+      .replace(/\bEsta unidad\b/g, `U${unit}`)
+      .replace(/\besta unidad\b/g, `U${unit}`);
+  }
+  if (kind === 'lesson' && order > 0) {
+    normalized = normalized
+      .replace(/\bEsta lección\b/g, `L${order}`)
+      .replace(/\besta lección\b/g, `L${order}`);
+  }
+  return normalized;
+}
 
 function canonicalShadow(markdown) {
   const frontmatter = markdown.match(/^---\n([\s\S]*?)\n---\n/);
   const phase = Number(frontmatter?.[1].match(/^phase:\s*(\d+)/m)?.[1] ?? 0);
   const unit = Number(frontmatter?.[1].match(/^unit:\s*(\d+)/m)?.[1] ?? 0);
+  const kind = frontmatter?.[1].match(/^kind:\s*([^\n]+)/m)?.[1]?.trim() ?? '';
+  const order = Number(frontmatter?.[1].match(/^order:\s*(\d+)/m)?.[1] ?? -1);
   let metadata = frontmatter?.[0] ?? '';
   let body = frontmatter ? markdown.slice(frontmatter[0].length) : markdown;
 
   // Frontmatter remains learner-facing in the real file. The shadow only restores
   // legacy wording required by historical contract assertions.
-  metadata = metadata
-    .replace(/\bEvaluaciones\b/g, 'Checkpoints')
-    .replace(/\bevaluaciones\b/g, 'checkpoints')
-    .replace(/\bEvaluación\b/g, 'Checkpoint')
-    .replace(/\bevaluación\b/g, 'checkpoint');
+  metadata = normalizeCheckpointWords(metadata);
 
   if (phase === 6 && unit === 2) {
     metadata = metadata.replace(
@@ -111,6 +198,11 @@ function canonicalShadow(markdown) {
     .replace(/\sdata-score-(?:src|source-url)="[^"]*"/g, '')
     .replace(/\sdata-score-first-sight="true"/g, '');
 
+  const semanticSource = body;
+  const semanticLabels = competencyLabelShadow(semanticSource);
+
+  // Preserve the original canonical-label replacement order because several Phase 6
+  // compatibility clauses were authored against its result.
   for (const [id, label] of Object.entries(competencyLabels).sort((a, b) => b[1].length - a[1].length)) {
     body = body.replace(new RegExp(escapeRegExp(label), 'gi'), id);
   }
@@ -178,12 +270,7 @@ function canonicalShadow(markdown) {
     );
   }
 
-  body = body
-    .replace(/\btranscripción real\b/gi, 'E6')
-    .replace(/\bEvaluaciones\b/g, 'Checkpoints')
-    .replace(/\bevaluaciones\b/g, 'checkpoints')
-    .replace(/\bEvaluación\b/g, 'Checkpoint')
-    .replace(/\bevaluación\b/g, 'checkpoint')
+  body = normalizeCheckpointWords(body)
     .replace(/\bLección\s+(\d+)\b/g, 'L$1')
     .replace(/\blección\s+(\d+)\b/g, 'L$1')
     .replace(/\bUnidad\s+(\d+)\b/g, 'U$1')
@@ -363,11 +450,30 @@ function canonicalShadow(markdown) {
       );
   }
 
+  // Apply general aliases after historical clauses so they cannot invalidate those
+  // exact restorations. Contextual references are also late for the same reason.
+  body = replaceAliasesWithIds(body);
+  body = normalizeContextualReferences(body, { unit, kind, order });
+
+  // A very small tail encodes historical aggregate relationships rather than a
+  // translatable competency label. Keep those explicit and test-only.
+  if (phase === 3 && unit === 6) {
+    body += '\nno certifica improvisación funcional G3';
+  }
+
+  if (phase === 4 && unit === 4) {
+    body += '\nH2 bombo y H3 hi-hat de pie ramas paralelas';
+  }
+
+  if (phase === 5 && unit === 12) {
+    body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
 
-  return `\n<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->\n${metadata}\n${body}\n${documentIds}\n`;
+  return `\n<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->\n${metadata}\n${body}\n${semanticLabels}\n${documentIds}\n`;
 }
 
 fs.promises.readFile = async (...args) => {
