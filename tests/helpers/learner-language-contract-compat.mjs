@@ -116,7 +116,9 @@ function canonicalShadow(markdown) {
   }
 
   if (phase === 2 && unit === 1) {
-    body = body.replace(/\bforma y lectura de chart\b/gi, 'D5');
+    body = body
+      .replace(/\bforma y lectura de chart\b/gi, 'D5')
+      .replace('no sirve para “aprobar esta unidad”', 'no sirve para “aprobar U1”');
   }
 
   if (phase === 2 && unit === 10) {
