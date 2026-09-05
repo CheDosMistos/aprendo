@@ -298,6 +298,10 @@ function canonicalShadow(markdown) {
       .replace(
         'E6 y análisis musical aparecen integrados en el I3',
         'E6 y F7 aparecen integrados en el aprendizaje de repertorio',
+      )
+      .replace(
+        'Esta unidad verifica transferencia con las herramientas de Fase 6',
+        'U12 verifica transferencia con las herramientas de Fase 6',
       );
   }
 
