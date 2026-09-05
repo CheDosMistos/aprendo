@@ -229,7 +229,7 @@ function canonicalShadow(markdown) {
         'reutilizar material entre R1–R4',
       )
       .replace(
-        'autonomía funcional sostenido dentro del proyecto esta unidad',
+        'autonomía funcional sostenido dentro del proyecto U11',
         'K8 funcional sostenido dentro del proyecto U11',
       );
   }
