@@ -118,6 +118,7 @@ function canonicalShadow(markdown) {
   if (phase === 2 && unit === 1) {
     body = body
       .replace(/\bforma y lectura de chart\b/gi, 'D5')
+      .replace(/\breconocimiento de subdivisión y acentos\b/gi, 'E2')
       .replace('no sirve para “aprobar esta unidad”', 'no sirve para “aprobar U1”')
       .replace(
         'C1/C2/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2',
