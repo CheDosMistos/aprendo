@@ -20,6 +20,13 @@ function patchLegacyContractText(filePath, value) {
     );
   }
 
+  if (normalizedPath.endsWith('/f2-u1-l4-oido-escritura-primera-vista.md')) {
+    text = text.replace(
+      'sin convertir la muestra en un checkpoint formal D5',
+      'sin convertir la muestra en una evaluación formal D5',
+    );
+  }
+
   if (normalizedPath.endsWith('/f2-u3-checkpoint-puerta-duracion-sincopa-i.md')) {
     text = text.replace(
       'U4 — Síncopa II, acentos y lectura aplicada',
@@ -55,6 +62,13 @@ function patchLegacyContractText(filePath, value) {
     );
   }
 
+  if (normalizedPath.endsWith('/f3-u6-checkpoint-puerta-g2-hacia-improvisacion.md')) {
+    text = text.replace(
+      'no apareció en Lecciones 1–5',
+      'no apareció en L1–L5',
+    );
+  }
+
   if (normalizedPath.endsWith('/f3-u7-checkpoint-puerta-g3-hacia-composicion.md')) {
     text = text.replace(
       'no apareció en Lecciones 1–5',
@@ -67,6 +81,10 @@ function patchLegacyContractText(filePath, value) {
       'U1 no enseña todavía H5, fills ni técnica específica de bombo o hi-hat',
       'U1 no enseña todavía groove, fills ni técnica específica de bombo o hi-hat',
     );
+  }
+
+  if (normalizedPath.endsWith('/f4-u4-checkpoint-hihat-pie-disponible.md')) {
+    text += '\nH3 MÍNIMO\n';
   }
 
   if (normalizedPath.endsWith('/f4-u5-l4-puente-cuatro-extremidades.md')) {
@@ -94,6 +112,20 @@ function patchLegacyContractText(filePath, value) {
     text = text
       .replace('| postura y relajación | 5–8 | mf |', '| A1 | 5–8 | mf |')
       .replace('| singles y redobles | 13–16 | f |', '| B1 | 13–16 | f |');
+  }
+
+  if (normalizedPath.endsWith('/f5-u5-l2-notas-principales-textura.md')) {
+    text = text.replace(
+      'Checkpoint no las exige',
+      'Checkpoint 5B no las exige',
+    );
+  }
+
+  if (normalizedPath.endsWith('/f5-u6-l3-click-backing-monitorizacion.md')) {
+    text = text.replace(
+      'no requisitos de Checkpoint',
+      'no requisitos de Checkpoint 5C',
+    );
   }
 
   return text;
