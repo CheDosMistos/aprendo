@@ -719,6 +719,21 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 4 && unit === 8) {
+    if (kind === 'unit') {
+      body += '\nNovedad dominante: B8 / G5\nno certifica B8 COMPETENTE, G5 COMPETENTE, H6 ni H7';
+    }
+    if (kind === 'lesson' && order === 3) {
+      body += '\nCambiar sticking deliberadamente es una decisión de B8';
+    }
+    if (kind === 'lesson' && order === 4) {
+      body += '\nU8 no la certifica como fill H6';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nG5 MÍNIMO\nB8 en transferencia al kit\nB8 COMPETENTE/FUNCIONAL global\nG5 COMPETENTE/FUNCIONAL\nH6 — fills';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
