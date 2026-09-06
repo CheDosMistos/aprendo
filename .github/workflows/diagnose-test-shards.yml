@@ -61,7 +61,7 @@ jobs:
 
           printf 'Selected %s tests:\n' "${#selected[@]}"
           printf '  %s\n' "${selected[@]}"
-          node --import ./tests/helpers/learner-language-contract-compat.mjs --test "${selected[@]}"
+          node --import ./tests/helpers/learner-language-contract-compat.mjs --import ./tests/helpers/learner-language-contract-tail-compat.mjs --test "${selected[@]}"
 
   battery-phase6-file:
     if: github.event.pull_request.number == 219
