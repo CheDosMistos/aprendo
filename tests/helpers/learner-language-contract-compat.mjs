@@ -520,6 +520,14 @@ function canonicalShadow(markdown) {
       .replace(
         'aplicación musical de rudimentos funcional;',
         'B7 funcional;',
+      )
+      .replace(
+        '## 1. Recuperación Lecciones 1–2 — 3 min',
+        '## 1. Recuperación L1–L2 — 3 min',
+      )
+      .replace(
+        'no declara relación entre oído y notación FUNCIONAL de forma global',
+        'no declara E4 FUNCIONAL de forma global',
       );
   }
 
