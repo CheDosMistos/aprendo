@@ -675,12 +675,23 @@ function canonicalShadow(markdown) {
     }
   }
 
-  if (phase === 4 && unit === 3 && kind === 'unit') {
-    body += '\nMÍNIMO de H2 no es velocidad';
+  if (phase === 4 && unit === 3) {
+    if (kind === 'unit') {
+      body += '\nMÍNIMO de H2 no es velocidad';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH2 MÍNIMO';
+    }
   }
 
   if (phase === 4 && unit === 4) {
     body += '\nH2 bombo y H3 hi-hat de pie ramas paralelas';
+    if (kind === 'lesson' && order === 4) {
+      body += '\nno hace falta haber completado H2';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH5 — groove funcional';
+    }
   }
 
   if (phase === 5 && unit === 12) {
