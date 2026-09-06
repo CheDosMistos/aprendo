@@ -485,10 +485,23 @@ function canonicalShadow(markdown) {
   body = normalizeContextualReferences(body, { unit, kind, order });
 
   if (phase === 2 && unit === 2) {
-    body = body.replace(
-      'Completar este checkpoint **no actualiza automáticamente D1, C2, C3, relación entre oído y notación ni ninguna otra competencia**',
-      'Completar este checkpoint **no actualiza automáticamente D1, C2, C3, E4 ni ninguna otra competencia**',
-    );
+    body = body
+      .replace(
+        'Completar este checkpoint **no actualiza automáticamente D1, C2, C3, relación entre oído y notación ni ninguna otra competencia**',
+        'Completar este checkpoint **no actualiza automáticamente D1, C2, C3, E4 ni ninguna otra competencia**',
+      )
+      .replace(
+        'no declara relación entre oído y notación FUNCIONAL de forma global',
+        'no declara E4 FUNCIONAL de forma global',
+      )
+      .replace(
+        'no declara aplicación musical de rudimentos FUNCIONAL de forma global',
+        'no declara B7 FUNCIONAL de forma global',
+      )
+      .replace(
+        'Checkpoint de U2 — Puerta de semicorcheas y silencios',
+        'checkpoint de U2 — Puerta de semicorcheas y silencios',
+      );
   }
 
   if (phase === 2 && unit === 3) {
