@@ -642,6 +642,24 @@ function canonicalShadow(markdown) {
     body += '\nno certifica improvisación funcional G3';
   }
 
+  if (phase === 4 && unit === 1) {
+    body = body
+      .replace(
+        'Eso es evidencia inicial de **adaptación técnica entre superficies y kit**, no dominio de orquestación.',
+        'Eso es evidencia inicial de **A8**, no dominio de orquestación.',
+      )
+      .replace(
+        'No demuestra automáticamente setup, ergonomía y ecología del kit MÍNIMO.',
+        'No demuestra automáticamente H1 MÍNIMO.',
+      );
+    if (kind === 'lesson' && order === 4) {
+      body += '\nH2 bombo\nH3 hi-hat de pie\nH4 coordinación de cuatro extremidades\nH5 groove\nH6 fills\nG5 orquestación creativa';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nno exige H2 H3 H4 H5 H6';
+    }
+  }
+
   if (phase === 4 && unit === 4) {
     body += '\nH2 bombo y H3 hi-hat de pie ramas paralelas';
   }
