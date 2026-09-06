@@ -239,6 +239,7 @@ function canonicalShadow(markdown) {
     body = body
       .replace(/\sdata-rhythm-dictation\b/g, '')
       .replace(/\sdata-score-source-label="[^"]*"/g, '')
+      .replace(/\sdata-(?:subdivision|answer)="[^"]*"/g, '')
       .replace(
         '¿figuras, silencios y compás/C2 y el inicio de C3 permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados?',
         '¿D1/C2 y el inicio de C3 permiten avanzar hacia U3 sin depender de dibujos memorizados?',
