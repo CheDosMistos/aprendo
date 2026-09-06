@@ -482,6 +482,9 @@ function canonicalShadow(markdown) {
 
   if (phase === 2 && unit === 3) {
     body = body
+      .replace(/\sdata-score-(?:feedback|source-label)="[^"]*"/g, '')
+      .replace(/\sdata-rhythm-dictation\b/g, '')
+      .replace(/\sdata-subdivision="[^"]*"/g, '')
       .replace(
         '¿síncopa/F1–F2 y C1/C2 están suficientemente disponibles para abrir U4',
         '¿D2/F1–F2 y C1/C2 están suficientemente disponibles para abrir U4',
