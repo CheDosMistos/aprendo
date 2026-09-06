@@ -777,6 +777,18 @@ function canonicalShadow(markdown) {
     body += '\nNovedad dominante: I2 / H5';
   }
 
+  if (phase === 5 && unit === 5) {
+    if (kind === 'unit') {
+      body += '\nNovedad dominante: H7 contextual';
+    }
+    if (kind === 'lesson' && order === 3) {
+      body += '\nno es la definición de H7 ni de funk\nprepara H7 MÍNIMO';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH7 MÍNIMO: mantiene un ostinato simple mientras otra voz varía';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
