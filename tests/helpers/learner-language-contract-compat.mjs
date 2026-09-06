@@ -471,6 +471,22 @@ function canonicalShadow(markdown) {
   body = replaceAliasesWithIds(body);
   body = normalizeContextualReferences(body, { unit, kind, order });
 
+  if (phase === 2 && unit === 3) {
+    body = body
+      .replace(
+        '¿síncopa/F1–F2 y C1/C2 están suficientemente disponibles para abrir U4',
+        '¿D2/F1–F2 y C1/C2 están suficientemente disponibles para abrir U4',
+      )
+      .replace(
+        'Completar este checkpoint **no actualiza automáticamente síncopa, F1, F2, C1, C2, relación entre oído y notación ni ninguna otra competencia**',
+        'Completar este checkpoint **no actualiza automáticamente D2, F1, F2, C1, C2, E4 ni ninguna otra competencia**',
+      )
+      .replace(
+        'aplicación musical de rudimentos funcional;',
+        'B7 funcional;',
+      );
+  }
+
   if (phase === 3 && unit === 2) {
     body = body.replace(
       'transcripción iterativa de una fuente — empieza en U3',
