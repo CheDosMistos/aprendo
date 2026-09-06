@@ -815,6 +815,9 @@ function canonicalShadow(markdown) {
   }
 
   if (phase === 5 && unit === 12) {
+    if (kind === 'lesson' && order === 3) {
+      body += '\nCheckpoint 5D ya certificó I3 COMPETENTE/FUNCIONAL';
+    }
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
 
