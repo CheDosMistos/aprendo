@@ -253,7 +253,7 @@ function canonicalShadow(markdown) {
         'Completar U10 no convierte automáticamente C5 en `FUNCIONAL`.',
       )
       .replace(
-        'Completar la evaluación no convierte click desplazado o no obvio en `FUNCIONAL`.',
+        'Completar la evaluación no convierte automáticamente click desplazado o no obvio en `FUNCIONAL`.',
         'Completar el checkpoint no convierte C5 en `FUNCIONAL`.',
       )
       .replace(
@@ -501,6 +501,7 @@ function canonicalShadow(markdown) {
 
   if (phase === 2 && unit === 4) {
     body = body
+      .replace(/\sdata-score-(?:feedback|source-label)="[^"]*"/g, '')
       .replace(
         '¿síncopa y pulso, subdivisión y C3 están suficientemente disponibles para abrir U5',
         '¿D2 y C1–C3 están suficientemente disponibles para abrir U5',
