@@ -878,6 +878,13 @@ function canonicalShadow(markdown) {
     body = body.replace(/^- \*\*[AB]:\*\*.*$/gm, '');
   }
 
+  if (phase === 2 && unit === 1 && kind === 'lesson' && order === 4) {
+    body = body.replace(
+      '**sin convertir la muestra en una evaluación formal D5**',
+      'sin convertir la muestra en una evaluación formal D5',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
