@@ -743,6 +743,18 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 4 && unit === 10) {
+    if (kind === 'unit') {
+      body += '\nindependencia H7';
+    }
+    if (kind === 'lesson' && order === 4) {
+      body += '\nEl Hito 5 no es una prueba de independencia H7';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH4 COMPETENTE/FUNCIONAL global\nH5 COMPETENTE/FUNCIONAL global\nH6 COMPETENTE/FUNCIONAL global';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
