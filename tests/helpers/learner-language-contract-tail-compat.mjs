@@ -13,6 +13,13 @@ function patchLegacyContractText(filePath, value) {
   const normalizedPath = String(filePath).replaceAll('\\', '/');
   let text = value;
 
+  if (normalizedPath.endsWith('/f2-u1-checkpoint-puerta-fluidez-binaria.md')) {
+    text = text.replace(
+      '## Puente a U2',
+      '## Puente a 20.U2',
+    );
+  }
+
   if (normalizedPath.endsWith('/f3-u7-checkpoint-puerta-g3-hacia-composicion.md')) {
     text = text.replace(
       'no apareció en Lecciones 1–5',
