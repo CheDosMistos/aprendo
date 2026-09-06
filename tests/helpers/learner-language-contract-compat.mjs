@@ -232,6 +232,10 @@ function canonicalShadow(markdown) {
       .replace(
         'volver a sticking simple no es fracaso de figuras, silencios y compás',
         'volver a sticking simple no es fracaso de D1',
+      )
+      .replace(
+        '**sin convertir la muestra en una evaluación formal D5**',
+        'sin convertir la muestra en una evaluación formal D5',
       );
   }
 
