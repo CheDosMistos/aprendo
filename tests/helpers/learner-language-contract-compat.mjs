@@ -834,6 +834,10 @@ function canonicalShadow(markdown) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
 
+  if (phase === 2 && unit === 1 && kind === 'lesson' && order === 2) {
+    body = body.replace(/^- \*\*[AB]:\*\*.*$/gm, '');
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
