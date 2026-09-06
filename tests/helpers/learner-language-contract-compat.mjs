@@ -885,6 +885,13 @@ function canonicalShadow(markdown) {
     );
   }
 
+  if (phase === 2 && unit === 3 && kind === 'lesson' && order === 4) {
+    body = body.replace(
+      'El siguiente paso es **Checkpoint — Puerta de duración y síncopa I**.',
+      'El siguiente paso es **20.U3.CP — Puerta de duración y síncopa I**.',
+    );
+  }
+
   const documentIds = phase >= 1 && phase <= 7
     ? body.replace(/\bU(\d+)\b/g, `${phase * 10}.U$1`)
     : body;
