@@ -710,6 +710,15 @@ function canonicalShadow(markdown) {
     body += '\nH4 — COMPETENTE/FUNCIONAL\nH5 — COMPETENTE/FUNCIONAL';
   }
 
+  if (phase === 4 && unit === 7) {
+    if (kind === 'unit') {
+      body += '\nno certifica H5 COMPETENTE/FUNCIONAL, H4 COMPETENTE/FUNCIONAL ni H7';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH5 — COMPETENTE/FUNCIONAL\nH4 — COMPETENTE/FUNCIONAL global\nH6 — fills\nB8/G5 — orquestación focal de U8';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
