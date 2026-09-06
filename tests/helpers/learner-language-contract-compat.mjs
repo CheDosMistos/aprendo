@@ -764,6 +764,15 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 5 && unit === 2) {
+    if (kind === 'unit') {
+      body += '\nNovedad dominante: D7\npuede certificar D7 MÍNIMO en condición preparada';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nD7 MÍNIMO en condición preparada\nD7 COMPETENTE/FUNCIONAL\nI4 COMPETENTE/FUNCIONAL';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
