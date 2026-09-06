@@ -600,6 +600,10 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 2 && unit === 8) {
+    body = body.replace(/\sdata-score-feedback="[^"]*"/g, '');
+  }
+
   if (phase === 3 && unit === 2) {
     body = body.replace(
       'transcripción iterativa de una fuente — empieza en U3',
