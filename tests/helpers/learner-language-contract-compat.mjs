@@ -755,6 +755,15 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 5 && unit === 1) {
+    if (kind === 'lesson' && order === 2) {
+      body += '\nU1 sólo prepara D7';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nNO certifica I4 COMPETENTE/FUNCIONAL\nD7 COMPETENTE/FUNCIONAL\nH5 COMPETENTE/FUNCIONAL global\nH6 COMPETENTE/FUNCIONAL global';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
