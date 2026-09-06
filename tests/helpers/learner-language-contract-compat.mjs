@@ -484,6 +484,13 @@ function canonicalShadow(markdown) {
   body = replaceAliasesWithIds(body);
   body = normalizeContextualReferences(body, { unit, kind, order });
 
+  if (phase === 2 && unit === 2) {
+    body = body.replace(
+      'Completar este checkpoint **no actualiza automáticamente D1, C2, C3, relación entre oído y notación ni ninguna otra competencia**',
+      'Completar este checkpoint **no actualiza automáticamente D1, C2, C3, E4 ni ninguna otra competencia**',
+    );
+  }
+
   if (phase === 2 && unit === 3) {
     body = body
       .replace(/\sdata-score-(?:feedback|source-label)="[^"]*"/g, '')
