@@ -649,6 +649,10 @@ function canonicalShadow(markdown) {
       .replaceAll('lectura de compás, F2', 'D4, F2')
       .replaceAll('de el checkpoint', 'del checkpoint')
       .replace(
+        'condición del materiales',
+        'condición del asset',
+      )
+      .replace(
         '## MÍNIMO PARA PASAR AL Checkpoint DE U7',
         '## MÍNIMO PARA PASAR AL CHECKPOINT DE U7',
       );
