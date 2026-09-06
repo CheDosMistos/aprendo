@@ -569,6 +569,14 @@ function canonicalShadow(markdown) {
       .replace(
         '## MÍNIMO PARA AVANZAR AL Checkpoint DE U4',
         '## MÍNIMO PARA AVANZAR AL CHECKPOINT DE U4',
+      )
+      .replace(
+        'aplicación musical de rudimentos funcional global;',
+        'B7 funcional global;',
+      )
+      .replace(
+        'Unidades 5–6',
+        'U5–U6',
       );
   }
 
