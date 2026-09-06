@@ -32,6 +32,7 @@ const competencyAliases = {
   E6: ['transcripción real'],
   F1: ['teoría básica del pulso y las figuras'],
   G2: ['transformación consciente', 'desarrollo motívico'],
+  G3: ['improvisar frases cortas respetando una restricción'],
   H4: ['coordinación de cuatro extremidades'],
   J2: ['desplazamientos de acento y motivo'],
 };
