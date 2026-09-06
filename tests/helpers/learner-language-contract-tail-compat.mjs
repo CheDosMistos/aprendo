@@ -13,6 +13,20 @@ function patchLegacyContractText(filePath, value) {
   const normalizedPath = String(filePath).replaceAll('\\', '/');
   let text = value;
 
+  if (normalizedPath.endsWith('/f3-u7-checkpoint-puerta-g3-hacia-composicion.md')) {
+    text = text.replace(
+      'no apareció en Lecciones 1–5',
+      'no apareció en L1–L5',
+    );
+  }
+
+  if (normalizedPath.endsWith('/f4-u1-overview.md')) {
+    text = text.replace(
+      'U1 no enseña todavía H5, fills ni técnica específica de bombo o hi-hat',
+      'U1 no enseña todavía groove, fills ni técnica específica de bombo o hi-hat',
+    );
+  }
+
   if (normalizedPath.endsWith('/f4-u5-l4-puente-cuatro-extremidades.md')) {
     text = text.replace(
       'no requisito de el checkpoint U5',
