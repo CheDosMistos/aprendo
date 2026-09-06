@@ -253,7 +253,7 @@ function canonicalShadow(markdown) {
         'Completar U10 no convierte automáticamente C5 en `FUNCIONAL`.',
       )
       .replace(
-        'Completar la evaluación no convierte automáticamente click desplazado o no obvio en `FUNCIONAL`.',
+        'Completar la evaluación no convierte click desplazado o no obvio en `FUNCIONAL`.',
         'Completar el checkpoint no convierte C5 en `FUNCIONAL`.',
       )
       .replace(
