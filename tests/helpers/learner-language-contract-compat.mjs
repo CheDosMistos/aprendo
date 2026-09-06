@@ -622,6 +622,10 @@ function canonicalShadow(markdown) {
     );
   }
 
+  if (phase === 3 && unit === 11) {
+    body = body.replace(/\sdata-musical-context\b/g, '');
+  }
+
   if (phase === 6 && unit === 11) {
     body = body.replace(
       'L5 cierra **el proyecto U11**, no la Fase 6',
