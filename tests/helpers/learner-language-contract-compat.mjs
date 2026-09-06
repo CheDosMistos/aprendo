@@ -805,6 +805,15 @@ function canonicalShadow(markdown) {
     body += '\nH7 contextual';
   }
 
+  if (phase === 5 && unit === 11) {
+    if (kind === 'lesson' && order === 3) {
+      body += '\nventana de interacción, no certificación de I6 funcional';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nI3 COMPETENTE/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis\nI4 COMPETENTE/FUNCIONAL global en varias piezas';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
