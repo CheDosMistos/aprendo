@@ -213,6 +213,7 @@ function canonicalShadow(markdown) {
 
   if (phase === 2 && unit === 1) {
     body = body
+      .replace(/\sdata-rhythm-dictation\b/g, '')
       .replace(/\bforma y lectura de chart\b/gi, 'D5')
       .replace(/\breconocimiento de subdivisión y acentos\b/gi, 'E2')
       .replace('no sirve para “aprobar esta unidad”', 'no sirve para “aprobar U1”')
