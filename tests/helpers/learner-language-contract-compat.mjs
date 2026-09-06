@@ -801,6 +801,10 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 5 && unit === 8 && kind === 'lesson' && (order === 2 || order === 3)) {
+    body += '\nH7 contextual';
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
