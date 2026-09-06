@@ -581,7 +581,7 @@ function canonicalShadow(markdown) {
       .replaceAll('reconocimiento de pulso y subdivisión/E3', 'E1/E2')
       .replaceAll('reconocimiento de pulso y subdivisión, E3', 'E1, E2')
       .replaceAll('grabación y comparación', 'E5')
-      .replaceAll('motivo o G2', 'G1 or G2')
+      .replaceAll('motivo o G2', 'G1 o G2')
       .replace(
         '## MÍNIMO PARA AVANZAR A U6.checkpoint',
         '## MÍNIMO PARA AVANZAR A U6.CP',
