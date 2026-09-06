@@ -789,6 +789,18 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 5 && unit === 6) {
+    if (kind === 'unit') {
+      body += '\nNovedad dominante: H8 funcional\nH8 MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución';
+    }
+    if (kind === 'lesson' && order === 3) {
+      body += '\nC4 ya estaba activo antes de U6';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH8 MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
