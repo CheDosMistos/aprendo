@@ -895,7 +895,7 @@ function canonicalShadow(markdown) {
 
   if (phase === 2 && unit === 1 && kind === 'lesson' && order === 4) {
     body = body.replace(
-      '**sin convertir la muestra en una evaluación formal D5**',
+      '**sin convertir la muestra en un checkpoint formal D5**',
       'sin convertir la muestra en una evaluación formal D5',
     );
   }
