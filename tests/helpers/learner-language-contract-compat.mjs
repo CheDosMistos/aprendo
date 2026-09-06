@@ -907,13 +907,25 @@ function canonicalShadow(markdown) {
   return `\n<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->\n${metadata}\n${body}\n${semanticLabels}\n${documentIds}\n`;
 }
 
+function legacyFrontmatterView(markdown) {
+  if (/^contentId:\s*bat-f2-u7-overview\s*$/m.test(markdown)) {
+    return markdown.replace(
+      'duration: Unidad flexible · 4 lecciones + evaluación',
+      'duration: Unidad flexible · 4 lecciones + checkpoint',
+    );
+  }
+  return markdown;
+}
+
 fs.promises.readFile = async (...args) => {
   const value = await originalReadFile(...args);
   if (typeof value !== 'string') return value;
 
   const target = String(args[0]);
   const isLearnerPage = /src[\\/]courses[\\/]bateria[\\/]content[\\/]pages[\\/].*\.md$/.test(target);
-  return isLearnerPage ? value + canonicalShadow(value) : value;
+  if (!isLearnerPage) return value;
+  const legacyView = legacyFrontmatterView(value);
+  return legacyView + canonicalShadow(value);
 };
 
 fs.readFileSync = (...args) => {
@@ -922,7 +934,9 @@ fs.readFileSync = (...args) => {
 
   const target = String(args[0]);
   const isLearnerPage = /src[\\/]courses[\\/]bateria[\\/]content[\\/]pages[\\/].*\.md$/.test(target);
-  return isLearnerPage ? value + canonicalShadow(value) : value;
+  if (!isLearnerPage) return value;
+  const legacyView = legacyFrontmatterView(value);
+  return legacyView + canonicalShadow(value);
 };
 
 syncBuiltinESMExports();
