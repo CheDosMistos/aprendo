@@ -683,6 +683,13 @@ function canonicalShadow(markdown) {
     body = body.replace(/\sdata-musical-context\b/g, '');
   }
 
+  if (phase === 3 && unit === 12) {
+    body = body.replace(
+      'ya tuvo su Checkpoint en U4',
+      'ya tuvo su checkpoint en U4',
+    );
+  }
+
   if (phase === 6 && unit === 11) {
     body = body.replace(
       'L5 cierra **el proyecto U11**, no la Fase 6',
