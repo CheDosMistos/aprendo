@@ -47,7 +47,7 @@ jobs:
     needs: plan_browser
     if: ${{ needs.plan_browser.outputs.scope != 'none' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 14
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
