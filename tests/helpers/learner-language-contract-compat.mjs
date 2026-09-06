@@ -580,6 +580,26 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 2 && unit === 7) {
+    body = body
+      .replace(/\sdata-score-feedback="[^"]*"/g, '')
+      .replace(/\sdata-rhythm-dictation\b/g, '')
+      .replace(/\sdata-(?:bpm|subdivision|pattern)="[^"]*"/g, '')
+      .replace(/grabación y comparación/gi, 'E5')
+      .replaceAll('primera vista formal U9', 'primera vista formal D5 — U9')
+      .replaceAll('lectura de compás/F2', 'D4/F2')
+      .replaceAll('lectura de compás o F2', 'D4 o F2')
+      .replaceAll('lectura de compás, F2', 'D4, F2')
+      .replaceAll('de el checkpoint', 'del checkpoint')
+      .replace(
+        '## MÍNIMO PARA PASAR AL Checkpoint DE U7',
+        '## MÍNIMO PARA PASAR AL CHECKPOINT DE U7',
+      );
+    if (kind === 'lesson') {
+      body = body.replace(/\sdata-score-source-label="[^"]*"/g, '');
+    }
+  }
+
   if (phase === 3 && unit === 2) {
     body = body.replace(
       'transcripción iterativa de una fuente — empieza en U3',
