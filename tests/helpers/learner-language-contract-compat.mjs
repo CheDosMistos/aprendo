@@ -487,6 +487,46 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 2 && unit === 4) {
+    body = body
+      .replace(
+        '¿síncopa y pulso, subdivisión y C3 están suficientemente disponibles para abrir U5',
+        '¿D2 y C1–C3 están suficientemente disponibles para abrir U5',
+      )
+      .replace(
+        'aplicación musical de rudimentos **no es la inferencia principal de este checkpoint**',
+        'B7 **no es la inferencia principal de este checkpoint**',
+      )
+      .replace(
+        'No se exige aplicación musical de rudimentos funcional global para abrir U5',
+        'No se exige B7 funcional global para abrir U5',
+      )
+      .replace(
+        'La línea manda: aplicación aplicación musical de rudimentos sobre lectura conocida',
+        'La línea manda: aplicación B7 sobre lectura conocida',
+      )
+      .replace(
+        'la línea manda: aplicación aplicación musical de rudimentos sobre lectura conocida',
+        'la línea manda: aplicación B7 sobre lectura conocida',
+      )
+      .replace(
+        'primera vista como competencia central U9',
+        'primera vista como competencia central D5 — U9',
+      )
+      .replace(
+        'no actualiza automáticamente aplicación musical de rudimentos',
+        'no actualiza automáticamente B7',
+      )
+      .replace(
+        'No convierte todavía **primera vista** en competencia dominante',
+        'No convierte todavía **D5 — primera vista** en competencia dominante',
+      )
+      .replace(
+        '## MÍNIMO PARA AVANZAR AL Checkpoint DE U4',
+        '## MÍNIMO PARA AVANZAR AL CHECKPOINT DE U4',
+      );
+  }
+
   if (phase === 3 && unit === 2) {
     body = body.replace(
       'transcripción iterativa de una fuente — empieza en U3',
