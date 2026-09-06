@@ -694,6 +694,18 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 4 && unit === 5) {
+    if (kind === 'unit') {
+      body += '\nno certifica H4 MÍNIMO';
+    }
+    if (kind === 'lesson' && order === 4) {
+      body += '\nno certifica H4 MÍNIMO ni H7';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH5 — COMPETENTE/FUNCIONAL';
+    }
+  }
+
   if (phase === 5 && unit === 12) {
     body += '\nNo todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente.';
   }
