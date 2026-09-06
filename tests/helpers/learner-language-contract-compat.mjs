@@ -599,6 +599,10 @@ function canonicalShadow(markdown) {
         'no actualiza automáticamente C2 o D3',
       )
       .replace(
+        'actualizar automáticamente C2 o tuplets y ornamentación',
+        'actualizar automáticamente C2 o D3',
+      )
+      .replace(
         'no actualiza automáticamente C2, C3, tuplets y ornamentación',
         'no actualiza automáticamente C2, C3, D3',
       )
