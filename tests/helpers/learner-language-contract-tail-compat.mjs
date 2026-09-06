@@ -27,6 +27,20 @@ function patchLegacyContractText(filePath, value) {
     );
   }
 
+  const u8FeedbackPages = [
+    '/f2-u8-l1-sextillo-escrito-seis-en-tiempo-de-cuatro.md',
+    '/f2-u8-l2-flam-escrito-grace-note-y-principal.md',
+    '/f2-u8-l3-drag-escrito-double-grace-y-principal.md',
+    '/f2-u8-l4-roll-escrito-duracion-y-repeticion.md',
+    '/f2-u8-checkpoint-puerta-decodificacion-ornamental.md',
+  ];
+  if (u8FeedbackPages.some((suffix) => normalizedPath.endsWith(suffix))) {
+    text = text.replace(
+      'data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url=',
+      'data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url=',
+    );
+  }
+
   if (normalizedPath.endsWith('/f3-u7-checkpoint-puerta-g3-hacia-composicion.md')) {
     text = text.replace(
       'no apareció en Lecciones 1–5',
