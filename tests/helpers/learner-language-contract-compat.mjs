@@ -529,6 +529,10 @@ function canonicalShadow(markdown) {
 
   if (phase === 2 && unit === 5) {
     body = body
+      .replace(/\sdata-score-feedback="[^"]*"/g, '')
+      .replace(/\sdata-score-source-label="[^"]*"/g, '')
+      .replace(/\sdata-rhythm-dictation\b/g, '')
+      .replace(/\sdata-(?:bpm|subdivision|pattern)="[^"]*"/g, '')
       .replace(
         '¿pulso, subdivisión y C3 y tuplets y ornamentación permiten abrir U6',
         '¿C1–C3 y D3 permiten abrir U6',
