@@ -562,6 +562,24 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 2 && unit === 6) {
+    body = body
+      .replace(/\sdata-score-feedback="[^"]*"/g, '')
+      .replace(/\sdata-score-source-label="[^"]*"/g, '')
+      .replaceAll('primera vista formal U9', 'primera vista formal D5 — U9')
+      .replaceAll('lectura de compás/F2', 'D4/F2')
+      .replaceAll('lectura de compás o F2', 'D4 o F2')
+      .replaceAll('lectura de compás, F2', 'D4, F2')
+      .replaceAll('reconocimiento de pulso y subdivisión/E3', 'E1/E2')
+      .replaceAll('reconocimiento de pulso y subdivisión, E3', 'E1, E2')
+      .replaceAll('grabación y comparación', 'E5')
+      .replaceAll('motivo o G2', 'G1 o G2')
+      .replace(
+        '## MÍNIMO PARA AVANZAR A U6.checkpoint',
+        '## MÍNIMO PARA AVANZAR A U6.CP',
+      );
+  }
+
   if (phase === 3 && unit === 2) {
     body = body.replace(
       'transcripción iterativa de una fuente — empieza en U3',
