@@ -527,6 +527,37 @@ function canonicalShadow(markdown) {
       );
   }
 
+  if (phase === 2 && unit === 5) {
+    body = body
+      .replace(
+        '¿pulso, subdivisión y C3 y tuplets y ornamentación permiten abrir U6',
+        '¿C1–C3 y D3 permiten abrir U6',
+      )
+      .replace(
+        'primera vista formal U9',
+        'primera vista formal D5 — U9',
+      )
+      .replace(
+        'no actualiza automáticamente C2 o tuplets y ornamentación',
+        'no actualiza automáticamente C2 o D3',
+      )
+      .replace(
+        'no actualiza automáticamente C2, C3, tuplets y ornamentación',
+        'no actualiza automáticamente C2, C3, D3',
+      )
+      .replace(
+        'no actualiza automáticamente C1, C2, C3, tuplets y ornamentación',
+        'no actualiza automáticamente C1, C2, C3, D3',
+      )
+      .replaceAll('**PULSO:**', '**E1 — PULSO:**')
+      .replaceAll('**SUBDIVISIÓN:**', '**E2 — SUBDIVISIÓN:**')
+      .replaceAll('**REPRESENTACIÓN:**', '**E4 — REPRESENTACIÓN:**')
+      .replace(
+        '## MÍNIMO PARA AVANZAR AL Checkpoint DE U5',
+        '## MÍNIMO PARA AVANZAR AL CHECKPOINT DE U5',
+      );
+  }
+
   if (phase === 3 && unit === 2) {
     body = body.replace(
       'transcripción iterativa de una fuente — empieza en U3',
