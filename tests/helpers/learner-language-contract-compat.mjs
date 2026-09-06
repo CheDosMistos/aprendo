@@ -238,6 +238,7 @@ function canonicalShadow(markdown) {
   if (phase === 2 && unit === 2) {
     body = body
       .replace(/\sdata-rhythm-dictation\b/g, '')
+      .replace(/\sdata-score-source-label="[^"]*"/g, '')
       .replace(
         '¿figuras, silencios y compás/C2 y el inicio de C3 permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados?',
         '¿D1/C2 y el inicio de C3 permiten avanzar hacia U3 sin depender de dibujos memorizados?',
@@ -580,7 +581,7 @@ function canonicalShadow(markdown) {
       .replaceAll('reconocimiento de pulso y subdivisión/E3', 'E1/E2')
       .replaceAll('reconocimiento de pulso y subdivisión, E3', 'E1, E2')
       .replaceAll('grabación y comparación', 'E5')
-      .replaceAll('motivo o G2', 'G1 o G2')
+      .replaceAll('motivo o G2', 'G1 or G2')
       .replace(
         '## MÍNIMO PARA AVANZAR A U6.checkpoint',
         '## MÍNIMO PARA AVANZAR A U6.CP',
