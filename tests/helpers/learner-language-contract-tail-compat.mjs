@@ -20,6 +20,13 @@ function patchLegacyContractText(filePath, value) {
     );
   }
 
+  if (normalizedPath.endsWith('/f2-u3-checkpoint-puerta-duracion-sincopa-i.md')) {
+    text = text.replace(
+      'U4 — Síncopa II, acentos y lectura aplicada',
+      '20.U4 — Síncopa II, acentos y lectura aplicada',
+    );
+  }
+
   if (normalizedPath.endsWith('/f3-u7-checkpoint-puerta-g3-hacia-composicion.md')) {
     text = text.replace(
       'no apareció en Lecciones 1–5',
