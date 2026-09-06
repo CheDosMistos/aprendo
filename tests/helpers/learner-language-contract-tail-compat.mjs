@@ -41,6 +41,20 @@ function patchLegacyContractText(filePath, value) {
     );
   }
 
+  if (normalizedPath.endsWith('/f2-u10-l4-elegir-referencia-minima-util.md')) {
+    text = text.replace(
+      'No implica control funcional con click reducido',
+      'No implica C5 funcional',
+    );
+  }
+
+  if (normalizedPath.endsWith('/f2-u10-checkpoint-puerta-referencia-interna.md')) {
+    text = text.replace(
+      'Completar el checkpoint no convierte click desplazado o no obvio en `FUNCIONAL`',
+      'Completar el checkpoint no convierte C5 en `FUNCIONAL`',
+    );
+  }
+
   if (normalizedPath.endsWith('/f3-u7-checkpoint-puerta-g3-hacia-composicion.md')) {
     text = text.replace(
       'no apareció en Lecciones 1–5',
