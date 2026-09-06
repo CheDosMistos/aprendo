@@ -660,6 +660,21 @@ function canonicalShadow(markdown) {
     }
   }
 
+  if (phase === 4 && unit === 2) {
+    if (kind === 'unit') {
+      body += '\ncomponente manual de B8\nno declara G5 MÍNIMO';
+    }
+    if (kind === 'lesson' && order === 2) {
+      body += '\nNo demuestra todavía coordinación H4 ni G5 MÍNIMO completo';
+    }
+    if (kind === 'lesson' && order === 4) {
+      body += '\nNo certifica H4, G5 MÍNIMO completo ni B8-kit competente';
+    }
+    if (kind === 'checkpoint') {
+      body += '\nH6 — fills\nG5 MÍNIMO completo\nB8-kit competente';
+    }
+  }
+
   if (phase === 4 && unit === 4) {
     body += '\nH2 bombo y H3 hi-hat de pie ramas paralelas';
   }
