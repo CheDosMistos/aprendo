@@ -26,7 +26,7 @@ test('Phase 3 U2 overview exposes segmentation and keeps transcription in U3', a
   await page.goto('/bateria/fase-3-unidad-2/');
   await expect(page.getByRole('heading', { level: 1, name: 'Oído rítmico activo: imitar, segmentar y dictar' })).toBeVisible();
   await expect(page.getByText('ESCUCHAR → SEGMENTAR → IMITAR → REPRESENTAR → TOCAR → COMPARAR → DIAGNOSTICAR', { exact: true })).toBeVisible();
-  await expect(page.getByText(/E6 — transcripción iterativa de una fuente — empieza en U3/)).toBeVisible();
+  await expect(page.getByText(/transcripción iterativa de una fuente — empieza en Unidad 3/)).toBeVisible();
 });
 
 test('U1 dictations keep their original no-chunk counter after the shared widget extension', async ({ page }, testInfo) => {
