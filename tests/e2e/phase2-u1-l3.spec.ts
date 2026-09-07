@@ -52,5 +52,5 @@ test('Phase 2 U1 L3 renders the understood score and PAS normative source withou
   await expect(page.getByText('la lectura manda; el rudimento es una textura posible', { exact: false })).toBeVisible();
   await expect(page.locator('.course-article h2').filter({ hasText: '3. Aplicación' })).toBeVisible();
   await expect(page.getByText('No añadas golpes entre notas.', { exact: false })).toBeVisible();
-  await expect(page.getByText('volver a sticking simple no es fracaso de D1', { exact: false })).toBeVisible();
+  await expect(page.getByText('Vuelve al sticking simple y reduce la exigencia técnica.', { exact: false })).toBeVisible();
 });
