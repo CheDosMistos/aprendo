@@ -79,6 +79,6 @@ test('Phase 2 U2 L4 preserves rhythm before sticking and keeps 5+5+6 optional in
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige un BPM concreto', { exact: false })).toBeVisible();
-  await expect(page.getByText('no declara B7 FUNCIONAL de forma global', { exact: false })).toBeVisible();
-  await expect(page.getByText('checkpoint de U2 — Puerta de semicorcheas y silencios', { exact: false })).toBeVisible();
+  await expect(page.getByText('no declara aplicación musical de rudimentos FUNCIONAL de forma global', { exact: false })).toBeVisible();
+  await expect(page.getByText('Evaluación de esta unidad — Puerta de semicorcheas y silencios', { exact: false })).toBeVisible();
 });

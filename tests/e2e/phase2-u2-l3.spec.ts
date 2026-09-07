@@ -82,6 +82,6 @@ test('Phase 2 U2 L3 exposes the approved hearing-to-writing cycle and multidimen
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige un BPM concreto, caligrafía perfecta', { exact: false })).toBeVisible();
-  await expect(page.getByText('no declara E4 FUNCIONAL de forma global', { exact: false })).toBeVisible();
+  await expect(page.getByText('no declara relación entre oído y notación FUNCIONAL de forma global', { exact: false })).toBeVisible();
   await expect(page.getByText('doubles/diddles sin alterar la arquitectura temporal', { exact: false })).toBeVisible();
 });
