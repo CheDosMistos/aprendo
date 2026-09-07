@@ -39,7 +39,7 @@ test('Phase 2 U2 checkpoint protects the exclusive new sample and keeps the dict
   await page.goto('/bateria/fase-2-unidad-2/puerta-de-semicorcheas-y-silencios/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de semicorcheas y silencios' })).toBeVisible();
-  await expect(page.getByText('¿D1/C2 y el inicio de C3 permiten avanzar hacia U3', { exact: false })).toBeVisible();
+  await expect(page.getByText('¿figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten avanzar hacia Unidad 3', { exact: false })).toBeVisible();
 
   const scores = page.locator('.course-score');
   await expect(scores).toHaveCount(2);
@@ -82,8 +82,8 @@ test('Phase 2 U2 checkpoint uses recent 2↔4 evidence selectively and keeps pro
   await expect(recovery.locator('.course-score__play')).toBeHidden();
   await expect(recovery.getByRole('button', { name: 'Habilitar audio' })).toBeVisible();
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A U3' })).toBeVisible();
-  for (const criterion of ['C3 funcional;', 'PAS adicionales;', 'síncopa formalmente dominada;', 'primera vista avanzada.']) {
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Unidad 3' })).toBeVisible();
+  for (const criterion of ['cambios de subdivisión funcional;', 'PAS adicionales;', 'síncopa formalmente dominada;', 'primera vista avanzada.']) {
     await expect(page.locator('li').filter({ hasText: new RegExp(`^${criterion.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`) })).toBeVisible();
   }
 
@@ -99,6 +99,6 @@ test('Phase 2 U2 checkpoint exposes health/load stop signals without conflating 
   for (const signal of ['dolor;', 'hormigueo;', 'entumecimiento;', 'pérdida de fuerza;', 'tensión persistente.']) {
     await expect(page.locator('li').filter({ hasText: new RegExp(`^${signal.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`) })).toBeVisible();
   }
-  await expect(page.getByText('Completar este checkpoint', { exact: false })).toBeVisible();
-  await expect(page.getByText('no actualiza automáticamente D1, C2, C3, E4', { exact: false })).toBeVisible();
+  await expect(page.getByText('Completar esta evaluación', { exact: false })).toBeVisible();
+  await expect(page.getByText('no actualiza automáticamente figuras, silencios y compás, subdivisión binaria y ternaria, cambios de subdivisión, relación entre oído y notación', { exact: false })).toBeVisible();
 });
