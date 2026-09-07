@@ -77,6 +77,6 @@ test('Phase 2 U2 L1 exposes a four-subdivision hearing task and evidence-based p
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige un BPM concreto', { exact: false })).toBeVisible();
-  await expect(page.getByText('La siguiente lección abrirá C3 de forma prudente', { exact: false })).toBeVisible();
+  await expect(page.getByText('La siguiente lección abrirá cambios de subdivisión de forma prudente', { exact: false })).toBeVisible();
   await expect(page.getByText('cambiar entre 2 y 4 subdivisiones por pulso', { exact: false })).toBeVisible();
 });
