@@ -32,7 +32,8 @@ test('Browser E2E plans risk before installing Node, building or starting browse
   assert.doesNotMatch(planner, /playwright install/);
 
   assert.match(browser, /needs:\s*plan_browser/);
-  assert.match(browser, /needs\.plan_browser\.outputs\.scope != 'none'/);
+  assert.match(browser, /needs\.plan_browser\.outputs\.scope == 'targeted'[\s\S]*needs\.plan_browser\.outputs\.scope == 'cross-browser'/);
+  assert.match(browser, /browser-e2e-full:[\s\S]*needs:\s*plan_browser[\s\S]*needs\.plan_browser\.outputs\.scope == 'full'/);
   assert.match(browser, /Setup Node\.js/);
   assert.match(browser, /cache:\s*npm/);
   assert.match(browser, /Build site/);
@@ -49,10 +50,13 @@ test('Browser E2E has NONE, TARGETED, CROSS_BROWSER and FULL execution paths wit
 
   assert.match(workflow, /Install Chromium for targeted E2E/);
   assert.match(workflow, /npx playwright test --project=chromium-desktop/);
-  assert.match(workflow, /Install Chromium and WebKit for cross-browser or full E2E/);
+  assert.match(workflow, /Install Chromium and WebKit for cross-browser E2E/);
   assert.match(workflow, /tests\/e2e\/critical-smoke\.spec\.ts/);
-  assert.match(workflow, /High-risk Browser E2E change detected: running the complete browser suite/);
-  assert.match(workflow, /npm run test:e2e/);
+  assert.match(workflow, /browser-e2e-full:/);
+  assert.match(workflow, /matrix:[\s\S]*chromium-desktop[\s\S]*chromium-mobile[\s\S]*webkit-tablet/);
+  assert.match(workflow, /Install Chromium/);
+  assert.match(workflow, /Install WebKit/);
+  assert.match(workflow, /npx playwright test --project="\$PLAYWRIGHT_PROJECT"/);
 
   assert.doesNotMatch(workflow, /tests\/e2e\/aprendo\.spec\.ts/);
   assert.doesNotMatch(workflow, /tests\/e2e\/first-sight\.spec\.ts[\s\\]+tests\/e2e\/battery-unit-cards\.spec\.ts/);
