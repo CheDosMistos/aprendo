@@ -43,7 +43,7 @@ test('U12 overview defines Hito 2, exclusive checkpoint assets and Phase 3 bridg
   await page.goto('/bateria/fase-2-unidad-12/');
   await expect(page.getByRole('heading', { level: 1, name: 'Hito 2 y puente a Fase 3' })).toBeVisible();
   await expect(page.getByText('Leer y reproducir material rítmico nuevo sin depender de que el patrón haya sido previamente memorizado.', { exact: true })).toBeVisible();
-  await expect(page.getByText(/checkpoint usa dos assets exclusivos C y D/)).toBeVisible();
+  await expect(page.getByText(/dos materiales exclusivos C y D/)).toBeVisible();
   await expect(page.getByText(/Cerrar Fase 2 no borra debilidades/)).toBeVisible();
 });
 
@@ -86,6 +86,6 @@ test('U12 checkpoint exposes two independent protected samples and preserves qua
   await expect(scores.nth(1).locator('.course-score__play')).toBeHidden();
   await completeFirstAttempt(scores.nth(1));
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA CERRAR FASE 2' })).toBeVisible();
-  await expect(page.getByText(/no convierte automáticamente C1–C3, D1–D5 o F1–F2 en FUNCIONALES/)).toBeVisible();
+  await expect(page.getByText(/no convierte automáticamente pulso, subdivisión y cambios de subdivisión/)).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });
