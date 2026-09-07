@@ -57,8 +57,8 @@ test('Phase 2 U7 L2 preserves four compound beats and leaves systematic contrast
 
   await expect(page.getByText('COMPÁS 12/8 → 4 PULSOS PRINCIPALES → 3 CORCHEAS POR PULSO', { exact: true })).toBeVisible();
   await expect(page.getByText('6/8 = 2×3 → 9/8 = 3×3 → 12/8 = 4×3', { exact: true })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'dominar el contraste simple/compuesto antes de L3' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'reconocimiento auditivo E5 general' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'dominar el contraste simple/compuesto antes de Lección 3' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'reconocimiento auditivo grabación y comparación general' })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
 
@@ -70,8 +70,8 @@ test('Phase 2 U7 L2 exposes pulse-unit conditions and continuity criteria', asyn
   await expect(page.locator('h2').filter({ hasText: '5. Metrónomo y unidad de pulso' })).toBeVisible();
   await expect(page.locator('code').filter({ hasText: '♩. = 60' }).first()).toBeVisible();
   await expect(page.getByText('Significa 60 pulsos principales por minuto y tres corcheas internas por pulso.', { exact: true })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L3' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 3' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'un BPM fijo o alto' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'click reducido o gaps de U10' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'click reducido o gaps de Unidad 10' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });

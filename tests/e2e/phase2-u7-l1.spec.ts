@@ -58,9 +58,9 @@ test('Phase 2 U7 L1 preserves 3x3 hierarchy without teaching later U7 material e
   await expect(page.locator('h2').filter({ hasText: '2. Qué significa 9/8 aquí' })).toBeVisible();
   await expect(page.getByText('COMPÁS 9/8 → 3 PULSOS PRINCIPALES → 3 CORCHEAS POR PULSO', { exact: true })).toBeVisible();
   await expect(page.getByText('6/8 = 2×3 → 9/8 = 3×3', { exact: true })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: '12/8 antes de L2' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'clasificación sistemática simple/compuesto antes de L3' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'reconocimiento auditivo E5 general' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: '12/8 antes de Lección 2' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'clasificación sistemática simple/compuesto antes de Lección 3' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'reconocimiento auditivo grabación y comparación general' })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
 
@@ -71,9 +71,9 @@ test('Phase 2 U7 L1 makes meter-unit conditions and progression criteria explici
   await expect(page.locator('h2').filter({ hasText: '5. Metrónomo: especifica siempre la unidad' })).toBeVisible();
   await expect(page.locator('code').filter({ hasText: '♩. = 60' })).toBeVisible();
   await expect(page.getByText('Eso significa 60 pulsos principales por minuto, con tres corcheas internas por cada click.', { exact: true })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L2' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 2' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'un BPM fijo o alto' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5 de U9' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente D4, F2 o E5 por completar esta página' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal forma y lectura de chart de Unidad 9' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente lectura de compás, métrica y terminología rítmica o grabación y comparación por completar esta página' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });

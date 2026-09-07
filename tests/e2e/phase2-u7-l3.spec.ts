@@ -70,9 +70,9 @@ test('Phase 2 U7 L3 keeps E5 auditory work for L4 and exposes advancement criter
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-7/simple-o-compuesto-justificar-la-jerarquia/');
 
-  await expect(page.locator('p').filter({ hasText: 'La clasificación auditiva E5 se reserva deliberadamente para L4.' })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L4' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'reconocimiento auditivo E5 general' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
+  await expect(page.locator('p').filter({ hasText: 'La clasificación auditiva grabación y comparación se reserva deliberadamente para Lección 4.' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 4' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'reconocimiento auditivo grabación y comparación general' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal Unidad 9' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });
