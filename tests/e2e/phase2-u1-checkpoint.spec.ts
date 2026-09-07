@@ -39,7 +39,7 @@ test('Phase 2 U1 checkpoint protects the new sample and delays recovery playback
   await page.goto('/bateria/fase-2-unidad-1/puerta-de-fluidez-binaria/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de fluidez binaria' })).toBeVisible();
-  await expect(page.getByText('no sirve para “aprobar U1”', { exact: false })).toBeVisible();
+  await expect(page.getByText('no sirve para “aprobar esta unidad”', { exact: false })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2 }).filter({ hasText: '1. Muestra A — lectura nueva' })).toBeVisible();
 
   const scores = page.locator('.course-score');
@@ -88,8 +88,8 @@ test('Phase 2 U1 checkpoint exposes conceptual, health and progression decisions
     await expect(page.getByRole('heading', { level: 3, name: decision, exact: true })).toBeVisible();
   }
 
-  await expect(page.getByText('Completar el checkpoint:', { exact: false })).toBeVisible();
-  await expect(page.getByText('no actualiza automáticamente C1/C2/D1/F1', { exact: false })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'Puente a 20.U2' })).toBeVisible();
+  await expect(page.getByText('Completar la evaluación:', { exact: false })).toBeVisible();
+  await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'Puente a Unidad 2' })).toBeVisible();
   await expect(page.getByText('cuánta novedad tiene sentido introducir', { exact: false })).toBeVisible();
 });
