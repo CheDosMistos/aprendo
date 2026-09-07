@@ -72,10 +72,10 @@ test('Phase 2 U6 L2 diagnoses attack, subdivision and compound-pulse failures se
     await expect(page.getByRole('heading', { level: 3, name: diagnosis, exact: true })).toBeVisible();
   }
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L3' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 3' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'un BPM fijo o alto' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'comparación funcional 3/4 ↔ 6/8 — L3' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5 — U9' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente C1, C2, D4 o F2' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'comparación funcional 3/4 ↔ 6/8 — Lección 3' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal Unidad 9' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente pulso interno, subdivisión binaria y ternaria, lectura de compás o métrica y terminología rítmica' })).toBeVisible();
   await expect(page.getByText('agrupación/variación interna dentro del mismo compás', { exact: false })).toBeVisible();
 });

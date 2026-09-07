@@ -33,7 +33,7 @@ test('Phase 2 U6 checkpoint renders its exclusive 6/8 score and releases playbac
   await page.goto('/bateria/fase-2-unidad-6/puerta-de-dos-pulsos-compuestos/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de dos pulsos compuestos' })).toBeVisible();
-  await expect(page.getByText('¿D4/F2 y C1/C2 permiten abrir la siguiente ampliación del compás compuesto', { exact: false })).toBeVisible();
+  await expect(page.getByText('¿lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir la siguiente ampliación del compás compuesto', { exact: false })).toBeVisible();
 
   const scores = page.locator('.course-score');
   await expect(scores).toHaveCount(1);
@@ -62,8 +62,8 @@ test('Phase 2 U6 checkpoint tests two compound beats across reading and listenin
 
   await expect(page.locator('h3').filter({ hasText: 'Comprobación auditiva sobre la misma muestra' })).toBeVisible();
   await expect(page.getByText('marca únicamente dos apoyos grandes por compás', { exact: false })).toBeVisible();
-  await expect(page.getByText('no autoriza a declarar reconocimiento métrico general E5', { exact: false })).toBeVisible();
-  await expect(page.getByText('Tampoco se registra esta tarea como primera vista formal D5', { exact: false })).toBeVisible();
+  await expect(page.getByText('no autoriza a declarar reconocimiento métrico general grabación y comparación', { exact: false })).toBeVisible();
+  await expect(page.getByText('Tampoco se registra esta tarea como primera vista formal forma y lectura de chart', { exact: false })).toBeVisible();
 });
 
 test('Phase 2 U6 checkpoint preserves the approved conceptual boundaries and multidimensional gate', async ({ page }, testInfo) => {
@@ -76,9 +76,9 @@ test('Phase 2 U6 checkpoint preserves the approved conceptual boundaries and mul
   await expect(page.getByText('Un tresillo dentro de otro marco simple expresa una relación de tuplet', { exact: false })).toBeVisible();
   await expect(page.locator('blockquote').filter({ hasText: 'AGRUPACIÓN ≠ COMPÁS' })).toHaveCount(1);
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U7' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'reconocimiento métrico general E5' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR Unidad 7' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal forma y lectura de chart' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'reconocimiento métrico general grabación y comparación' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: '9/8 o 12/8' })).toContainText('no se enseñan en esta puerta');
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
 
@@ -86,6 +86,6 @@ test('Phase 2 U6 checkpoint preserves the approved conceptual boundaries and mul
     await expect(page.getByRole('heading', { level: 3, name: decision, exact: true })).toBeVisible();
   }
 
-  await expect(page.locator('h2').filter({ hasText: 'Puente a U7' })).toBeVisible();
+  await expect(page.locator('h2').filter({ hasText: 'Puente a Unidad 7' })).toBeVisible();
   await expect(page.getByText('ampliar el modelo de compás compuesto', { exact: false })).toBeVisible();
 });
