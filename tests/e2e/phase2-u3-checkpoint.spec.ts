@@ -39,7 +39,7 @@ test('Phase 2 U3 checkpoint protects the exclusive new score and hides auditory 
   await page.goto('/bateria/fase-2-unidad-3/puerta-de-duracion-y-sincopa-i/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de duración y síncopa I' })).toBeVisible();
-  await expect(page.getByText('¿D2/F1–F2 y C1/C2 están suficientemente disponibles para abrir U4', { exact: false })).toBeVisible();
+  await expect(page.getByText('¿síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para abrir Unidad 4', { exact: false })).toBeVisible();
 
   const scores = page.locator('.course-score');
   await expect(scores).toHaveCount(1);
@@ -83,13 +83,13 @@ test('Phase 2 U3 checkpoint keeps the decision multidimensional and opens only U
     await expect(page.getByRole('heading', { level: 3, name: decision, exact: true })).toBeVisible();
   }
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A U4' })).toBeVisible();
-  for (const criterion of ['cero errores;', 'BPM fijo o alto;', 'síncopa variada;', 'acentos complejos;', 'B7 funcional;', 'primera vista avanzada.']) {
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Unidad 4' })).toBeVisible();
+  for (const criterion of ['cero errores;', 'BPM fijo o alto;', 'síncopa variada;', 'acentos complejos;', 'aplicación musical de rudimentos funcional;', 'primera vista avanzada.']) {
     await expect(page.locator('li').filter({ hasText: new RegExp(`^${criterion.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`) })).toBeVisible();
   }
 
-  await expect(page.getByText('Completar este checkpoint', { exact: false })).toBeVisible();
-  await expect(page.getByText('no actualiza automáticamente D2, F1, F2, C1, C2, E4', { exact: false })).toBeVisible();
-  await expect(page.getByText('20.U4 — Síncopa II, acentos y lectura aplicada', { exact: false })).toBeVisible();
+  await expect(page.getByText('Completar esta evaluación', { exact: false })).toBeVisible();
+  await expect(page.getByText('no actualiza automáticamente síncopa, teoría básica del pulso y las figuras, métrica y terminología rítmica, pulso interno, subdivisión binaria y ternaria, relación entre oído y notación', { exact: false })).toBeVisible();
+  await expect(page.getByText('Unidad 4 — Síncopa II, acentos y lectura aplicada', { exact: false })).toBeVisible();
   await expect(page.getByText('La línea rítmica seguirá mandando; el rudimento servirá a la lectura', { exact: false })).toBeVisible();
 });

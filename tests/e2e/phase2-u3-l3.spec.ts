@@ -78,7 +78,7 @@ test('Phase 2 U3 L3 exposes the weak-to-strong model, continuity work and the L4
   await expect(page.getByText('No se exige cero errores, un BPM concreto', { exact: false })).toBeVisible();
   await expect(page.getByText('La siguiente lección cambiará de representación', { exact: false })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
-  await expect(page.getByText('eso pertenece a U4', { exact: false })).toBeVisible();
+  await expect(page.getByText('eso pertenece a Unidad 4', { exact: false })).toBeVisible();
 
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
