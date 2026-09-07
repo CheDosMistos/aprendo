@@ -56,17 +56,17 @@ test('Phase 2 U5 L4 connects ear imitation writing reading and transformation wi
   await page.goto('/bateria/fase-2-unidad-5/oir-escribir-y-transferir-2-3-4/');
 
   await expect(page.locator('h2').filter({ hasText: '1. Oír e identificar' })).toBeVisible();
-  await expect(page.getByText('E1 — PULSO:', { exact: true })).toBeVisible();
-  await expect(page.getByText('E2 — SUBDIVISIÓN:', { exact: true })).toBeVisible();
+  await expect(page.getByText('PULSO:', { exact: true })).toBeVisible();
+  await expect(page.getByText('SUBDIVISIÓN:', { exact: true })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '2. Escuchar → imitar' })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '3. Escuchar → escribir' })).toBeVisible();
   await expect(page.getByText('ESCUCHA → REPRESENTACIÓN → NOTACIÓN → EJECUCIÓN → COMPARACIÓN', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'Transformación A — 2 → 3' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'Transformación B — 3 → 4' })).toBeVisible();
   await expect(page.getByText('No afirmes equivalencia de ataques:', { exact: false })).toBeVisible();
-  await expect(page.getByText('no se registra como evidencia formal de primera vista D5', { exact: false })).toBeVisible();
+  await expect(page.getByText('no se registra como evidencia formal de primera vista forma y lectura de chart', { exact: false })).toBeVisible();
   await expect(page.getByText('Esto no convierte 4/4 en 6/8.', { exact: false })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR AL CHECKPOINT DE U5' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR AL Evaluación DE esta unidad' })).toBeVisible();
   await expect(page.getByText('un BPM concreto o alto', { exact: false })).toBeVisible();
   await expect(page.getByText('pasen automáticamente a FUNCIONAL', { exact: false })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);

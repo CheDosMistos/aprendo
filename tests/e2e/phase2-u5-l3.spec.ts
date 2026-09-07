@@ -58,14 +58,14 @@ test('Phase 2 U5 L3 keeps density, tempo, technique and later layers separated',
 
   await expect(page.locator('h2').filter({ hasText: '4. De bloques previsibles a cambios menos predecibles' })).toBeVisible();
   await expect(page.getByText('2 | 3 | 4 | 3', { exact: true }).first()).toBeVisible();
-  await expect(page.getByText('C1 — PULSO:', { exact: true })).toBeVisible();
-  await expect(page.getByText('C2/C3 — INTERIOR:', { exact: true })).toBeVisible();
+  await expect(page.getByText('PULSO:', { exact: true })).toBeVisible();
+  await expect(page.getByText('subdivisión binaria y ternaria/INTERIOR:', { exact: true })).toBeVisible();
   await expect(page.getByText('TÉCNICA:', { exact: true })).toBeVisible();
   await expect(page.getByText('reduce longitud o densidad antes de subir tempo', { exact: false })).toBeVisible();
   await expect(page.getByText('BPM es condición, no competencia', { exact: false })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L4' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 4' })).toBeVisible();
   await expect(page.getByText('No añadas sextillos', { exact: false })).toBeVisible();
   await expect(page.getByText('No uses click reducido ni gaps', { exact: false })).toBeVisible();
-  await expect(page.getByText('no actualiza automáticamente C1, C2, C3, D3', { exact: false })).toBeVisible();
+  await expect(page.getByText('no actualiza automáticamente pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación', { exact: false })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });

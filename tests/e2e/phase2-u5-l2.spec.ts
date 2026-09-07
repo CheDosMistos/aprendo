@@ -59,8 +59,8 @@ test('Phase 2 U5 L2 separates pulse from subdivision and exposes bounded binary/
   await expect(page.locator('h2').filter({ hasText: '2. Dos organizaciones, un mismo pulso' })).toBeVisible();
   await expect(page.getByText('PULSO:', { exact: true })).toBeVisible();
   await expect(page.getByText('SUBDIVISIÓN:', { exact: true })).toBeVisible();
-  await expect(page.getByText('2 ↔ 3 ↔ 4 pertenece a L3', { exact: false })).toBeVisible();
-  await expect(page.getByText('U6 trabaja el compás compuesto', { exact: false })).toBeVisible();
+  await expect(page.getByText('2 ↔ 3 ↔ 4 pertenece a Lección 3', { exact: false })).toBeVisible();
+  await expect(page.getByText('Unidad 6 trabaja el compás compuesto', { exact: false })).toBeVisible();
 
   const dictations = page.locator('.rhythm-dictation');
   await expect(dictations).toHaveCount(2);
@@ -74,7 +74,7 @@ test('Phase 2 U5 L2 separates pulse from subdivision and exposes bounded binary/
   await expect(dictations.first().locator('[data-dictation-answer-text]')).toContainText('BINARIA');
   await expect(dictations.nth(1).locator('[data-dictation-answer-text]')).toBeHidden();
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L3' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 3' })).toBeVisible();
   await expect(page.getByText('BPM no es competencia', { exact: false })).toBeVisible();
-  await expect(page.getByText('no actualiza automáticamente C2, C3, D3', { exact: false })).toBeVisible();
+  await expect(page.getByText('no actualiza automáticamente subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación', { exact: false })).toBeVisible();
 });
