@@ -32,7 +32,7 @@ test('Phase 2 U4 L3 renders PAS as normative reference and the course applicatio
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-4/la-linea-manda-aplicacion-b7/');
 
-  await expect(page.getByRole('heading', { level: 1, name: 'La línea manda: aplicación B7 sobre lectura conocida' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'La línea manda: aplicación aplicación musical de rudimentos sobre lectura conocida' })).toBeVisible();
   await expect(page.getByText('LA LÍNEA RÍTMICA MANDA; EL RUDIMENTO SIRVE A LA LECTURA, NO AL REVÉS', { exact: false })).toBeVisible();
   await expect(page.getByRole('link', { name: 'PAS — International Drum Rudiments (PDF oficial)' })).toHaveAttribute('href', pasUrl);
 
@@ -68,11 +68,11 @@ test('Phase 2 U4 L3 keeps decoding before texture and does not claim the U4 line
   await expect(page.getByText('no presentamos esta línea como la partitura PAS #16', { exact: false })).toBeVisible();
   await expect(page.getByText('no afirmamos que tocar esta línea equivalga a ejecutar el Single Paradiddle normativo', { exact: false })).toBeVisible();
   await expect(page.getByText('Una continuación ligada no recibe una nueva letra de mano', { exact: false })).toBeVisible();
-  await expect(page.getByText('Volver al sticking simple no es un fracaso de B7', { exact: false })).toBeVisible();
+  await expect(page.getByText('Volver al sticking simple no es un fracaso de aplicación musical de rudimentos', { exact: false })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige cero errores, un BPM concreto', { exact: false })).toBeVisible();
-  await expect(page.getByText('no actualiza automáticamente B7', { exact: false })).toBeVisible();
+  await expect(page.getByText('no actualiza automáticamente aplicación musical de rudimentos', { exact: false })).toBeVisible();
   await expect(page.getByText('leer, seguir y recuperarse', { exact: true })).toBeVisible();
-  await expect(page.getByText('primera vista como competencia central seguirá reservada para U9', { exact: false })).toBeVisible();
+  await expect(page.getByText('primera vista como competencia central seguirá reservada para Unidad 9', { exact: false })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });

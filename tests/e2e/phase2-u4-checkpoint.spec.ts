@@ -28,7 +28,7 @@ test('Phase 2 U4 checkpoint protects its exclusive sample and releases playback 
   await page.goto('/bateria/fase-2-unidad-4/puerta-de-sincopa-aplicada-y-continuidad/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de síncopa aplicada y continuidad' })).toBeVisible();
-  await expect(page.getByText('¿D2 y C1–C3 están suficientemente disponibles para abrir U5', { exact: false })).toBeVisible();
+  await expect(page.getByText('¿síncopa y pulso, subdivisión y cambios de subdivisión están suficientemente disponibles para abrir Unidad 5', { exact: false })).toBeVisible();
 
   const firstSight = page.locator('.course-score[data-score-first-sight="true"]');
   await expect(firstSight).toHaveCount(1);
@@ -55,15 +55,15 @@ test('Phase 2 U4 checkpoint keeps accent, recovery and B7 evidence separated bef
   await expect(page.getByText('ACENTO ≠ RITMO.', { exact: true })).toBeVisible();
   await expect(page.getByText('mapa temporal', { exact: true })).toBeVisible();
   await expect(page.getByText('mapa dinámico', { exact: true })).toBeVisible();
-  await expect(page.getByText('B7 no es la inferencia principal de este checkpoint', { exact: false })).toBeVisible();
-  await expect(page.getByText('No se exige B7 funcional global para abrir U5', { exact: false })).toBeVisible();
+  await expect(page.getByText('aplicación musical de rudimentos no es la inferencia principal de esta evaluación', { exact: false })).toBeVisible();
+  await expect(page.getByText('No se exige aplicación musical de rudimentos funcional global para abrir Unidad 5', { exact: false })).toBeVisible();
 
   for (const decision of ['CONTINUAR', 'CONTINUAR + CORRECTIVO', 'REDUCIR NOVEDAD', 'DETENER CARGA']) {
     await expect(page.getByRole('heading', { level: 3, name: decision, exact: true })).toBeVisible();
   }
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U5' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'D5 funcional o primera vista avanzada' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR Unidad 5' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'forma y lectura de chart funcional o primera vista avanzada' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'tresillos ni cambios 2↔3↔4' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: '6/8' })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();

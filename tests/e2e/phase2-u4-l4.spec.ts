@@ -51,13 +51,13 @@ test('Phase 2 U4 L4 separates precision continuity and recovery and does not tur
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-4/leer-seguir-y-recuperarse/');
 
-  await expect(page.getByText('No convierte todavía D5 — primera vista en competencia dominante', { exact: false })).toBeVisible();
-  await expect(page.getByText('U9 reservará el protocolo sistemático de primera vista', { exact: false })).toBeVisible();
+  await expect(page.getByText('No convierte todavía primera vista en competencia dominante', { exact: false })).toBeVisible();
+  await expect(page.getByText('Unidad 9 reservará el protocolo sistemático de primera vista', { exact: false })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '3. Diagnóstico: precisión ≠ continuidad ≠ recuperación' })).toBeVisible();
   await expect(page.getByText('no reinicies por defecto', { exact: false })).toBeVisible();
   await expect(page.getByText('Cualquier repetición posterior es relectura/práctica', { exact: false })).toBeVisible();
   await expect(page.getByText('Continuar primero no significa ignorar precisión para siempre', { exact: false })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR AL CHECKPOINT DE U4' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR AL Evaluación DE esta unidad' })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente competencias', { exact: false })).toBeVisible();
   await expect(page.getByText('otra muestra exclusiva', { exact: false })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
