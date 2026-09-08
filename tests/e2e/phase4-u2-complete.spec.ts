@@ -39,7 +39,7 @@ test('F4 U2 overview makes within-phrase transfer and dependency boundaries expl
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Cuando la superficie es nueva, el ritmo debe ser viejo/i).first()).toBeVisible();
   await expect(article.getByText(/algunos ataques cambian de lugar.*dentro de la propia frase/i)).toBeVisible();
-  await expect(article.getByText(/no declara G5 MÍNIMO ni B8-kit completo/i)).toBeVisible();
+  await expect(article.getByText(/no declara todavía esas capacidades como funcionales/i)).toBeVisible();
 });
 
 test('F4 U2 L1 renders a playable snare baseline and one-variable diagnosis', async ({ page }, testInfo) => {
@@ -59,7 +59,7 @@ test('F4 U2 L2 renders two manual surfaces without introducing feet', async ({ p
   const article = page.locator('article.course-article');
   await expect(article.getByText(/La novedad es espacial\/tímbrica\. El ritmo sigue siendo el mismo/)).toBeVisible();
   await expect(article.getByText(/No se usa bombo ni hi-hat de pie/)).toBeVisible();
-  await expect(article.getByText(/No demuestra todavía coordinación H4 ni G5 MÍNIMO completo/)).toBeVisible();
+  await expect(article.getByText(/No demuestra todavía coordinación básica de cuatro extremidades ni improvisación restringida MÍNIMO completo/)).toBeVisible();
 });
 
 test('F4 U2 L3 keeps accent, dynamics and timbre conceptually separate', async ({ page }, testInfo) => {
@@ -79,19 +79,19 @@ test('F4 U2 L4 renders a three-surface traceable route with return', async ({ pa
   const article = page.locator('article.course-article');
   await expect(article.getByText(/TRAZABILIDAD TÍMBRICA/)).toBeVisible();
   await expect(article.getByText(/RITMO \/ STICKING \/ ACENTOS \/ SILENCIOS \/ CONTORNO DINÁMICO/)).toBeVisible();
-  await expect(article.getByText(/No certifica H4, G5 MÍNIMO completo ni B8-kit competente/)).toBeVisible();
+  await expect(article.getByText(/No certifica todavía coordinación de cuatro extremidades ni competencia completa de orquestación/)).toBeVisible();
 });
 
 test('F4 U2 checkpoint exposes transfer minimum without hidden H2-H6 requirements', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-2/misma-idea-varias-superficies/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Misma idea, varias superficies' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Misma idea, varias superficies' })).toBeVisible();
   await expectScoreReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A U3/U4' })).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A Unidad 3/Unidad 4' })).toBeVisible();
   await expect(article.getByText(/TIEMPO \/ ACCESO \/ SUPERFICIE \/ STICKING \/ DINÁMICA/)).toBeVisible();
-  await expect(article.getByText(/H2 — técnica de bombo/)).toBeVisible();
-  await expect(article.getByText(/H6 — fills/)).toBeVisible();
-  await expect(article.getByText(/G5 MÍNIMO completo/)).toBeVisible();
+  await expect(article.getByText(/^técnica de bombo;$/)).toBeVisible();
+  await expect(article.getByText(/^fills;$/)).toBeVisible();
+  await expect(article.getByText(/^improvisación restringida MÍNIMO completo;$/)).toBeVisible();
   await expect(article.getByText(/Cierre registrado ≠ competencia demostrada/)).toBeVisible();
 });
 
@@ -99,5 +99,5 @@ test('F4 U1 zero-transfer boundary remains intact after U2 is added', async ({ p
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-1/transferencia-cero/');
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Todavía no alternes caja\/tom dentro de la misma frase/)).toBeVisible();
-  await expect(article.getByText(/U2 lo desarrollará/)).toBeVisible();
+  await expect(article.getByText(/Unidad 2 lo desarrollará/)).toBeVisible();
 });

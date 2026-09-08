@@ -31,7 +31,7 @@ test('F4 U1 overview exposes transfer principle and safe boundaries', async ({ p
   await expect(page.getByRole('heading', { level: 1, name: 'Entrada al kit: ergonomía, seguridad y mapa de superficies' })).toBeVisible();
   const article = page.locator('article.course-article');
   await expect(article.getByText(/No reiniciar\. Transferir\./i).first()).toBeVisible();
-  await expect(article.getByText(/U1 no enseña todavía groove, fills ni técnica específica de bombo o hi-hat/)).toBeVisible();
+  await expect(article.getByText(/Esta unidad no enseña todavía groove, fills ni técnica específica de bombo o hi-hat/)).toBeVisible();
   await expect(article.getByText(/Nivel y duración importan desde la primera sesión con kit/)).toBeVisible();
   await expect(article.getByText(/No existe un ángulo universal de rodilla/)).toBeVisible();
 });
@@ -52,7 +52,7 @@ test('F4 U1 L2 uses one-variable observable ergonomics', async ({ page }, testIn
   const article = page.locator('article.course-article');
   await expect(article.getByText(/PROBLEMA → CAMBIO → EFECTO/).first()).toBeVisible();
   await expect(article.getByText(/No se fijan centímetros, grados de rodilla ni alturas universales/)).toBeVisible();
-  await expect(article.getByText(/Heel-up, heel-down y otras técnicas pertenecen a U3\/U4/)).toBeVisible();
+  await expect(article.getByText(/Heel-up, heel-down y otras técnicas pertenecen a Unidad 3\/Unidad 4/)).toBeVisible();
   await expect(article.getByText(/cambia una sola variable de montaje/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
@@ -76,20 +76,20 @@ test('F4 U1 L4 performs zero transfer and diagnoses the bottleneck', async ({ pa
   await expect(article.getByText(/ACCESO \/ SUPERFICIE \/ MOVIMIENTO \/ TIEMPO/).first()).toBeVisible();
   await expect(article.getByText(/Todavía no alternes caja\/tom dentro de la misma frase/)).toBeVisible();
   await expect(article.getByText(/No demuestra todavía/)).toBeVisible();
-  await expect(article.getByText(/H5 groove/)).toBeVisible();
+  await expect(article.getByText(/^groove;$/)).toBeVisible();
 });
 
 test('F4 U1 checkpoint exposes H1 minimum and rejects hidden later requirements', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-1/kit-listo-transferir/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Kit listo para transferir' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Kit listo para transferir' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A U2' })).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A Unidad 2' })).toBeVisible();
   await expect(article.getByText(/estrategia básica de escucha segura/)).toBeVisible();
   await expect(article.getByText(/célula manual ya conocida en caja y en otra superficie/)).toBeVisible();
-  await expect(article.getByText(/H2 — técnica de bombo funcional/)).toBeVisible();
-  await expect(article.getByText(/H5 — groove/)).toBeVisible();
-  await expect(article.getByText(/No demuestra automáticamente H1 MÍNIMO/)).toBeVisible();
-  await expect(article.getByText(/COMPETENTE no es requisito para entrar en U2/)).toBeVisible();
+  await expect(article.getByText(/^técnica de bombo funcional;$/)).toBeVisible();
+  await expect(article.getByText(/^groove;$/)).toBeVisible();
+  await expect(article.getByText(/No demuestra automáticamente setup, ergonomía y ecología del kit MÍNIMO/)).toBeVisible();
+  await expect(article.getByText(/COMPETENTE no es requisito para entrar en Unidad 2/)).toBeVisible();
   await expect(page.locator('[data-posture-grader], [data-ergonomic-grader], [data-medical-grader], [data-hearing-grader]')).toHaveCount(0);
 });
 
