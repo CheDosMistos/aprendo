@@ -57,4 +57,4 @@ Las partituras integradas en Aprendo son material propio y no representan los ci
 4. **Lección 4 — Drag Paradiddle #2, oído y escritura**
 5. **Cierre de esta unidad — ¿puedo continuar?**
 
-La meta de Fase 1 sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`. Un PAS recién presentado puede permanecer `INTRODUCIDO` si está correctamente representado y su dificultad queda diagnosticada.
+La meta de Fase 1 sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`. Un PAS recién presentado que todavía no alcance `CONOCIDO` puede seguir **en adquisición** si su estructura está correctamente representada y su dificultad queda diagnosticada; la adquisición es un modo de trabajo, no otro estado PAS.

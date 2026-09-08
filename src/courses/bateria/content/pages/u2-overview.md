@@ -32,7 +32,7 @@ Esta unidad continúa directamente desde Unidad 1. No reinicia técnica ni lectu
 - **Single Paradiddle-diddle**
 - **Five Stroke Roll**
 
-La meta sigue siendo construir una representación correcta. `INTRODUCIDO` es válido; `CONOCIDO` exige reconocer el rudimento, comprender su estructura y poder ejecutarlo lentamente con control razonable.
+La meta sigue siendo construir una representación correcta. Si un rudimento recién presentado aún no alcanza `CONOCIDO`, continúa **en adquisición**: ese modo de trabajo no es un cuarto estado PAS. `CONOCIDO` exige reconocer el rudimento, comprender su estructura y poder ejecutarlo lentamente con control razonable.
 
 ## Qué cambia respecto a Unidad 1
 
