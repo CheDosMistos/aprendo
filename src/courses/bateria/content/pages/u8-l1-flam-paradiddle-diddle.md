@@ -76,4 +76,4 @@ Registra el principal cuello de botella: grace note, altura, double, sticking, l
 
 ## Criterio de avance
 
-Puede quedar `INTRODUCIDO`. Para marcarlo `CONOCIDO` debes identificarlo, leer su estructura en PAS y ejecutar lentamente una muestra razonable con control, sin exigir velocidad máxima.
+Para marcarlo `CONOCIDO` debes identificarlo, leer su estructura en PAS y ejecutar lentamente una muestra razonable con control, sin exigir velocidad máxima. Mientras esa evidencia todavía no sea suficiente, mantenlo **en adquisición** sin asignar un estado PAS adicional.
