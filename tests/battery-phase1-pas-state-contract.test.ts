@@ -12,9 +12,15 @@ const read = (name: string) => readFileSync(`${base}/${name}`, 'utf8');
 
 test('Fase 1 no publica INTRODUCIDO como cuarto estado PAS', () => {
   assert.ok(phase1Docs.length > 0, 'Debe existir contenido publicado de Fase 1');
-  for (const { name, source } of phase1Docs) {
-    assert.doesNotMatch(source, /\bINTRODUCIDO\b/, `${name} no debe presentar INTRODUCIDO como estado PAS`);
-  }
+  const offenders = phase1Docs
+    .filter(({ source }) => /\bINTRODUCIDO\b/.test(source))
+    .map(({ name }) => name);
+
+  assert.deepEqual(
+    offenders,
+    [],
+    `Estos archivos no deben presentar INTRODUCIDO como estado PAS: ${offenders.join(', ')}`,
+  );
 });
 
 test('Fase 1 separa estados PAS de adquisición como modo de trabajo', () => {
