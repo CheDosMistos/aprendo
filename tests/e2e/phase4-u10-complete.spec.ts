@@ -44,7 +44,7 @@ test('F4 U10 overview preserves literal Hito 5 without an advanced gate', async 
   const article = page.locator('article.course-article');
   await expect(article.getByText(hito)).toBeVisible();
   await expect(article.getByText(/INTEGRAR NO ES HACERLO MÁS DIFÍCIL/i)).toBeVisible();
-  await expect(article.getByText(/independencia H7/i)).toBeVisible();
+  await expect(article.getByText(/independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/5\/4 o 7\/8/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
@@ -91,7 +91,7 @@ test('F4 U10 L4 renders the integrated five-bar Hito score', async ({ page }, te
   await expect(article.getByText(/A → VARIACIÓN → A → FILL → A/i)).toBeVisible();
   await expect(article.getByText(/B — Variación: sólo bombo añadido en & de 3/i)).toBeVisible();
   await expect(article.getByText(/Fill A: groove en tiempos 1–3 y fill 4 &/i)).toBeVisible();
-  await expect(article.getByText(/El Hito 5 no es una prueba de independencia H7/i)).toBeVisible();
+  await expect(article.getByText(/El Hito 5 no es una prueba de independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
@@ -105,15 +105,15 @@ test('F4 U10 checkpoint renders Hito score and preserves the literal approved mi
   await expect(article.getByText(/A → VARIACIÓN → A → FILL → A/i)).toBeVisible();
   await expect(article.getByText(/no se exige mantener el pie izquierdo durante el fill/i)).toBeVisible();
   await expect(article.getByText(/grabación o evidencia equivalente/i)).toBeVisible();
-  await expect(article.getByText(/H4 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
-  await expect(article.getByText(/H5 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
-  await expect(article.getByText(/H6 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
+  await expect(article.getByText(/coordinación básica de cuatro extremidades COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
+  await expect(article.getByText(/groove y variaciones COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
+  await expect(article.getByText(/fills COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
 test('F4 U9 checkpoint remains H6-minimum-only after Hito integration', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-9/h6-minimo/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H6 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
-  await expect(article.getByText(/U9 NO certifica H7/i)).toBeVisible();
+  await expect(article.getByText(/fills COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad NO certifica independencia avanzada/i)).toBeVisible();
 });
