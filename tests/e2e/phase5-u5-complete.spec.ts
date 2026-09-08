@@ -33,7 +33,7 @@ test('F5 U5 overview exposes H7 contextual boundaries', async ({ page }, testInf
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-5/');
   await expect(page.getByRole('heading', { level: 1, name: 'Semicorchea, pocket, articulación y primera independencia funcional' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Novedad dominante: H7 contextual/i)).toBeVisible();
+  await expect(article.getByText(/Novedad dominante: independencia avanzada contextual/i)).toBeVisible();
   await expect(article.getByText(/Ghost notes: textura, no puerta/i)).toBeVisible();
   await expect(article.getByText(/ESP-21.*fuera del tronco/i)).toBeVisible();
 });
@@ -51,12 +51,12 @@ test('F5 U5 L2 renders dynamic hierarchy and keeps ghosts optional for H7', asyn
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/BACKBEAT CLARO > TEXTURA SUAVE/i)).toBeVisible();
-  await expect(article.getByText(/Checkpoint 5B no las exige/i)).toBeVisible();
+  await expect(article.getByText(/Evaluación no las exige/i)).toBeVisible();
 });
 
 test('F5 U5 L3 renders the fixed-layer variable-voice H7 task', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-5/h7-capa-fija-voz-variable/');
-  await expect(page.getByRole('heading', { level: 1, name: 'H7 contextual: una capa fija mientras otra voz cambia' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'independencia avanzada contextual: una capa fija mientras otra voz cambia' })).toBeVisible();
   await expectScoresReady(page);
   await expect(page.locator('article.course-article').getByText(/Sólo cambia el bombo/i)).toBeVisible();
 });
@@ -72,10 +72,10 @@ test('F5 U5 L4 reuses the H7 task and preserves Piece B shuffle identity', async
 
 test('F5 U5 Checkpoint 5B renders fresh material and certifies H7 minimum only', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-5/h7-minimo/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint 5B — H7 MÍNIMO' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — independencia avanzada MÍNIMO' })).toBeVisible();
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H7 MÍNIMO: mantiene un ostinato simple mientras otra voz varía/i)).toBeVisible();
+  await expect(article.getByText(/independencia avanzada MÍNIMO: mantiene un ostinato simple mientras otra voz varía/i)).toBeVisible();
   await expect(article.getByText(/No certifica independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });

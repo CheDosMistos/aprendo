@@ -27,7 +27,7 @@ test('F5 U6 overview exposes H8 minimum and engineering boundary', async ({ page
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-6/');
   await expect(page.getByRole('heading', { level: 1, name: 'Sonido funcional, afinación básica, click y grabación' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Novedad dominante: H8 funcional/i)).toBeVisible();
+  await expect(article.getByText(/Novedad dominante: balance, sonido y orquestación funcional/i)).toBeVisible();
   await expect(article.getByText(/SONIDO FUNCIONAL ≠ INGENIERÍA DE AUDIO/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
   await expectNoScores(page);
@@ -71,9 +71,9 @@ test('F5 U6 L4 uses one-question A B recording feedback', async ({ page }, testI
 
 test('F5 U6 Checkpoint 5C certifies H8 minimum only', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-6/h8-minimo/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint 5C — H8 MÍNIMO' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — balance, sonido y orquestación MÍNIMO' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H8 MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución/i)).toBeVisible();
+  await expect(article.getByText(/balance, sonido y orquestación MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución/i)).toBeVisible();
   await expect(article.getByText(/aplica al menos un ajuste básico razonado y reversible/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
   await expectNoScores(page);
