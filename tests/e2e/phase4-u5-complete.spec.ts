@@ -111,7 +111,7 @@ test('F4 U5 checkpoint renders the two required scores and keeps later skills op
 test('F4 U4 remains an H3 checkpoint after groove is introduced', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-4/hihat-pie-disponible/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/hi-hat de pie MÍNIMO/).first()).toBeVisible();
+  await expect(article.getByText(/hi-hat de pie alcanza el[\s\S]*MÍNIMO PARA AVANZAR/).first()).toBeVisible();
   await expect(article.getByText(/^groove funcional;$/)).toBeVisible();
   await expect(article.getByText(/No es requisito para iniciar Unidad 5/i)).toBeVisible();
 });
