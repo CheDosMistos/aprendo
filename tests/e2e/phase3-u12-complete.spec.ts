@@ -30,7 +30,7 @@ test('U12 overview preserves Hito 4 and keeps odd meter optional', async ({ page
   await expect(article.getByText(approvedHito)).toBeVisible();
   await expect(article.getByText(/4\/4, 5\/4 y 7\/8 son opciones válidas/)).toBeVisible();
   await expect(article.getByText(/la métrica impar no es requisito del Hito/)).toBeVisible();
-  await expect(article.getByText(/Hito global 3[\s\S]*ya tuvo su evaluación en Evaluación de Unidad 4/)).toBeVisible();
+  await expect(article.getByText(/Hito global 3[\s\S]*ya tuvo su Evaluación en Unidad 4/)).toBeVisible();
 });
 
 test('U12 L1 defines a bounded brief and uses the existing practice check-in', async ({ page }, testInfo) => {
