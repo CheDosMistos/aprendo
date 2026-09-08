@@ -111,3 +111,7 @@ No mezcles adquisición, dominio y retención en una sola escala.
 ## Registro final
 
 Para cada PAS registra **por separado** estado de trabajo, estado PAS y retención según la evidencia disponible. Unidad 10 utilizará ese mapa sin convertir las tres dimensiones en una sola puntuación.
+
+## Relación con Hito 1
+
+Este cierre aporta **evidencia acumulativa hacia Hito 1**, pero **no certifica Hito 1 por sí solo**. Actualiza únicamente lo realmente observado; el resto conserva su evidencia previa si sigue siendo representativa. La certificación global se realiza en el cierre de Fase 1.

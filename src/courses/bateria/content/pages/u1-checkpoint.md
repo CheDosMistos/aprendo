@@ -95,3 +95,7 @@ La Unidad 2 no borra la Unidad 1: el material anterior seguirá reapareciendo me
 Repite una tarea concreta o divide el trabajo en varias sesiones. No reinicies toda esta unidad por defecto.
 
 No intentes recuperar una sesión perdida haciendo el doble al día siguiente. **No existe deuda de práctica.**
+
+## Relación con Hito 1
+
+Este cierre aporta **evidencia acumulativa hacia Hito 1**, pero **no certifica Hito 1 por sí solo**. Actualiza únicamente lo realmente observado; el resto conserva su evidencia previa si sigue siendo representativa. La certificación global se realiza en el cierre de Fase 1.

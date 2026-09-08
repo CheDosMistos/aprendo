@@ -85,3 +85,7 @@ No reinicies esta unidad completa. Corrige la variable responsable durante un bl
 ## Registro final
 
 Registra cada PAS como `CONOCIDO`, `FUNCIONAL` o `DOMINADO` solo cuando exista evidencia suficiente. Si todavía no alcanza `CONOCIDO`, déjalo **en adquisición** sin asignar un estado PAS adicional. Registra por separado el estado de 6/8 y de transformación de motivos; no son estados PAS.
+
+## Relación con Hito 1
+
+Este cierre aporta **evidencia acumulativa hacia Hito 1**, pero **no certifica Hito 1 por sí solo**. Actualiza únicamente lo realmente observado; el resto conserva su evidencia previa si sigue siendo representativa. La certificación global se realiza en el cierre de Fase 1.

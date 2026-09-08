@@ -104,3 +104,7 @@ Si tienes dudas sobre cualquiera de los seis rudimentos, vuelve a la fuente norm
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
 Unidad 3 seguirá recuperando material anterior. Avanzar no significa abandonar Unidad 1 o esta unidad.
+
+## Relación con Hito 1
+
+Este cierre aporta **evidencia acumulativa hacia Hito 1**, pero **no certifica Hito 1 por sí solo**. Actualiza únicamente lo realmente observado; el resto conserva su evidencia previa si sigue siendo representativa. La certificación global se realiza en el cierre de Fase 1.
