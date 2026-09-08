@@ -62,9 +62,11 @@ Haz una toma corta de cada PAS empezando con la mano prevista por la versión qu
 
 Para cada PAS registra:
 
-- `INTRODUCIDO` o `CONOCIDO` según evidencia;
+- `CONOCIDO`, `FUNCIONAL` o `DOMINADO` solo cuando exista evidencia suficiente; si todavía no alcanza `CONOCIDO`, déjalo **en adquisición**;
 - problema principal;
 - variable que probarás en la siguiente recuperación.
+
+La adquisición describe el trabajo en curso; no es un estado PAS adicional.
 
 ## Diagnóstico grabación y autoevaluación
 
