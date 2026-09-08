@@ -66,7 +66,7 @@ Alterna una toma breve de **Single Flammed Mill** con una de **Flam Accent** o *
 
 ## 6. Registro — 2 min
 
-Registra `INTRODUCIDO` o `CONOCIDO` según evidencia y una sola variable prioritaria.
+Registra `CONOCIDO`, `FUNCIONAL` o `DOMINADO` solo cuando exista evidencia suficiente. Si todavía no alcanza `CONOCIDO`, déjalo **en adquisición** y anota una sola variable prioritaria. La adquisición describe el trabajo en curso; no es un estado PAS adicional.
 
 ## Rutina estándar
 

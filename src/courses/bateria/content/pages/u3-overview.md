@@ -58,4 +58,4 @@ El curso no reconstruye de memoria esas partituras. Los visores de esta unidad m
 4. **Lección 4 — Lectura nueva, dictado e integración**
 5. **Cierre de esta unidad — ¿puedo continuar?**
 
-Como en Unidad 2, `INTRODUCIDO` puede ser el estado real de un PAS recién presentado. No necesitas que los seis queden `CONOCIDOS` antes de abrir Unidad 4 si los pendientes no bloquean de forma crítica el siguiente trabajo.
+Como en Unidad 2, un PAS recién presentado puede seguir **en adquisición** hasta reunir evidencia suficiente para marcarlo `CONOCIDO`. La adquisición describe el trabajo en curso, no un estado PAS adicional. No necesitas que los seis queden `CONOCIDOS` antes de abrir Unidad 4 si los pendientes no bloquean de forma crítica el siguiente trabajo.

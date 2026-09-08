@@ -41,7 +41,7 @@ No se evalúa en esta unidad. La capacidad de mover acentos con libertad, leer t
 
 ## Estados PAS
 
-`INTRODUCIDO` es una etiqueta logística digital: presentado correctamente, todavía en adquisición. Los estados PAS del curso siguen siendo **CONOCIDO → FUNCIONAL → DOMINADO**; `INTRODUCIDO` no crea un cuarto estado.
+Los estados PAS del curso son únicamente **CONOCIDO → FUNCIONAL → DOMINADO**. Si un rudimento ya ha sido presentado correctamente pero todavía no reúne evidencia suficiente para `CONOCIDO`, permanece **en adquisición**. La adquisición describe el trabajo en curso; no es un estado PAS adicional.
 
 ## Cómo interpretar la evidencia
 

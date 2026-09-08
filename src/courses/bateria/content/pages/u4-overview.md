@@ -60,4 +60,4 @@ Las partituras integradas en Aprendo durante esta unidad son material propio y n
 4. **Lección 4 — Lectura, oído y recuperación integrada**
 5. **Cierre de esta unidad — ¿puedo continuar?**
 
-`INTRODUCIDO` sigue siendo válido para material recién presentado. No necesitas convertir los cuatro PAS en `FUNCIONALES` para avanzar.
+El material recién presentado puede seguir **en adquisición** hasta reunir evidencia para `CONOCIDO`; esa expresión describe un modo de trabajo, no un estado PAS adicional. No necesitas convertir los cuatro PAS en `FUNCIONALES` para avanzar.

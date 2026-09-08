@@ -84,4 +84,4 @@ No reinicies esta unidad completa. Mantén un correctivo breve sobre la variable
 
 ## Registro final
 
-Marca cada PAS como `INTRODUCIDO` o `CONOCIDO` según la evidencia real. Registra por separado el estado de síncopa elemental y escritura; no son estados PAS.
+Registra cada PAS como `CONOCIDO`, `FUNCIONAL` o `DOMINADO` solo cuando exista evidencia suficiente. Si todavía no alcanza `CONOCIDO`, déjalo **en adquisición** sin asignar un estado PAS adicional. Registra por separado el estado de síncopa elemental y escritura; no son estados PAS.

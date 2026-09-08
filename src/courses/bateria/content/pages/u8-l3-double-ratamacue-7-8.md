@@ -77,6 +77,6 @@ Si no haces este bloque, Lección 4 comienza exactamente aquí.
 
 ## Criterio de avance
 
-Double Ratamacue puede quedar `INTRODUCIDO` si su estructura es correcta y el límite está diagnosticado.
+Double Ratamacue puede seguir **en adquisición** si su estructura es correcta y el límite está diagnosticado; no lo marques `CONOCIDO` hasta que la evidencia alcance ese criterio. “En adquisición” describe el trabajo pendiente, no un cuarto estado PAS.
 
 La ventana de 7/8 **no bloquea Unidad 9** y ni siquiera necesita realizarse en Lección 3: esta unidad Lección 4 la desarrolla con 7/8 como único eje de novedad si fuera necesario.

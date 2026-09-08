@@ -84,4 +84,4 @@ No reinicies esta unidad completa. Corrige la variable responsable durante un bl
 
 ## Registro final
 
-Marca cada PAS como `INTRODUCIDO` o `CONOCIDO` según evidencia. Registra por separado el estado de 6/8 y de transformación de motivos; no son estados PAS.
+Registra cada PAS como `CONOCIDO`, `FUNCIONAL` o `DOMINADO` solo cuando exista evidencia suficiente. Si todavía no alcanza `CONOCIDO`, déjalo **en adquisición** sin asignar un estado PAS adicional. Registra por separado el estado de 6/8 y de transformación de motivos; no son estados PAS.

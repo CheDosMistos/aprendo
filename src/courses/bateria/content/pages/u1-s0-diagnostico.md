@@ -57,9 +57,9 @@ Escucha si el pulso se acelera o frena cuando aumenta la cantidad de golpes.
 
 ## 4. Lectura diagnóstica
 
-Trabaja únicamente con **postura y relajación–agarre principal** del imprimible aprobado de esta unidad. Son dos líneas muy simples para observar desde dónde partes; las lecturas posteriores utilizarán material distinto.
+Trabaja directamente con la **lectura integrada — postura y relajación–agarre principal** que aparece a continuación. Son dos líneas muy simples para observar desde dónde partes; las lecturas posteriores utilizarán material distinto. El PDF enlazado es una alternativa opcional: no necesitas imprimirlo para realizar la actividad.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml" data-score-title="Lectura diagnóstica — postura y relajación–agarre principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-diagnostico-a1-a2.musicxml" data-score-title="Lectura diagnóstica — postura y relajación–agarre principal" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF opcional"></div>
 
 Sigue este orden:
 

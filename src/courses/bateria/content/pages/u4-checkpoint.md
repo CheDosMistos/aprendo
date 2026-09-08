@@ -31,7 +31,7 @@ Puedes continuar si, con PAS disponible para verificar detalles:
 - puedes distinguir **3+3+2 dentro de 4/4** de un cambio de compás;
 - cualquier dificultad importante queda identificada como problema de doubles, tiempo, dinámica, lectura u otra variable concreta.
 
-Un PAS puede seguir como `INTRODUCIDO` si no bloquea críticamente Unidad 5. No se exige que los cuatro sean `FUNCIONALES`.
+Un PAS que todavía no reúna evidencia suficiente para `CONOCIDO` puede seguir **en adquisición** si no bloquea críticamente Unidad 5. No se exige que los cuatro sean `FUNCIONALES`.
 
 ## Validez del muestreo
 
@@ -82,4 +82,4 @@ No reinicies esta unidad completa. Mantén un correctivo pequeño y específico 
 
 ## Registro final
 
-Para cada PAS marca `INTRODUCIDO` o `CONOCIDO` según la evidencia real y añade, si procede, un único problema principal. Registra por separado el estado de cambios de subdivisión y de la ventana 3+3+2; no los conviertas en nuevos estados PAS.
+Para cada PAS registra únicamente su estado PAS real —`CONOCIDO`, `FUNCIONAL` o `DOMINADO`— cuando exista evidencia suficiente. Si todavía no alcanza `CONOCIDO`, déjalo **en adquisición** y anota, si procede, un único problema principal; “en adquisición” es un modo de trabajo, no un cuarto estado PAS. Registra por separado el estado de cambios de subdivisión y de la ventana 3+3+2; no los conviertas en nuevos estados PAS.
