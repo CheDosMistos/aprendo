@@ -19,7 +19,7 @@ published: true
 
 Preparar una interpretación completa sin convertir el chart en una lista de cada golpe que debes tocar.
 
-U3 ya enseñó a navegar charts. Aquí lo nuevo es **preparar un mapa que siga siendo útil cuando llevas varios minutos tomando decisiones y ya han ocurrido errores o cambios**.
+Unidad 3 ya enseñó a navegar charts. Aquí lo nuevo es **preparar un mapa que siga siendo útil cuando llevas varios minutos tomando decisiones y ya han ocurrido errores o cambios**.
 
 ## Anticipación: qué permite sostener la evidencia
 
@@ -62,7 +62,7 @@ No merece secuestrar atención durante la interpretación.
 
 ### Paso 3 — declara una intención estilística
 
-Elige un lenguaje ya trabajado en U7 y una intención de feel ya reconocible desde U8.
+Elige un lenguaje ya trabajado en Unidad 7 y una intención de feel ya reconocible desde Unidad 8.
 
 No estudies aquí un estilo nuevo.
 
@@ -105,11 +105,11 @@ Un chart saturado puede competir con la escucha. Añade información sólo si ca
 
 ### «Ya memoricé la forma, no necesito chart»
 
-U10 evalúa también la capacidad de **usar** un chart funcional. Puedes reducir ayudas más adelante, no eliminar el objeto de la unidad antes de obtener evidencia.
+Esta unidad evalúa también la capacidad de **usar** un chart funcional. Puedes reducir ayudas más adelante, no eliminar el objeto de la unidad antes de obtener evidencia.
 
 ### «Voy a aprovechar para aprender un estilo nuevo»
 
-No. La novedad dominante de U10 es la integración sostenida. El vocabulario estilístico debe ser suficientemente familiar para que puedas observar la integración.
+No. La novedad dominante de esta unidad es la integración sostenida. El vocabulario estilístico debe ser suficientemente familiar para que puedas observar la integración.
 
 ## Rutinas
 

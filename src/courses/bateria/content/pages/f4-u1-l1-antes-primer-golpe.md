@@ -94,7 +94,7 @@ No conviertas el registro en burocracia.
 1. identifica las superficies y pedales;
 2. define cómo controlarás nivel/duración en esta sesión;
 3. siéntate sin tocar y observa si ya aparece una tensión o alcance incómodo evidente;
-4. registra una sola prioridad para L2.
+4. registra una sola prioridad para Lección 2.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -103,10 +103,10 @@ Puedes explicar:
 - qué superficies principales vas a usar;
 - cómo gestionarás de forma básica la exposición sonora en tu contexto;
 - qué señal corporal haría que redujeras/detuvieras la sesión;
-- cuál es el principal problema de configuración que quieres comprobar en L2.
+- cuál es el principal problema de configuración que quieres comprobar en Lección 2.
 
 No se evalúa memoria terminológica ni volumen.
 
 ## Registrar esta práctica
 
-Usa el registro habitual de Aprendo con un único objetivo observable. **Completar la página no demuestra por sí solo H1 ni K7.**
+Usa el registro habitual de Aprendo con un único objetivo observable. **Completar la página no demuestra por sí solo setup, ergonomía y ecología del kit ni gestión de carga y salud.**

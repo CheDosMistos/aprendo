@@ -31,7 +31,7 @@ test('U9 overview makes 5/4 core and 5/8 expansion explicit', async ({ page }, t
   await expect(page.getByRole('heading', { level: 1, name: 'Cinco: 5/4 funcional; 5/8 como ampliación' })).toBeVisible();
   await expect(page.getByText(/5\/4 ≠ quintillo ≠ agrupación de cinco notas/)).toBeVisible();
   await expect(page.getByText(/agrupación dentro del compás ≠ compás/)).toBeVisible();
-  await expect(page.getByText(/no declara J3 globalmente funcional/i)).toBeVisible();
+  await expect(page.getByText(/no declara métricas impares y mixtas globalmente funcional/i)).toBeVisible();
 });
 
 test('U9 L1 renders real 5/4 and distinguishes quintuplet conceptually', async ({ page }, testInfo) => {
@@ -86,9 +86,9 @@ test('U9 checkpoint certifies only basic functional 5/4', async ({ page }, testI
   await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-9/puerta-cinco/');
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/5\/4 funcional básico; J3 continúa EN DESARROLLO/)).toBeVisible();
+  await expect(article.getByText(/5\/4 funcional básico; métricas impares y mixtas continúa EN DESARROLLO/)).toBeVisible();
   await expect(article.getByText(/5\/4 ≠ quintillo ≠ agrupación de cinco notas/)).toBeVisible();
-  await expect(article.getByText(/AVANZADO no es requisito para U10/)).toBeVisible();
+  await expect(article.getByText(/AVANZADO no es requisito para Unidad 10/)).toBeVisible();
 });
 
 test('U8 remains intact and U9 introduces no odd-meter grader', async ({ page }, testInfo) => {

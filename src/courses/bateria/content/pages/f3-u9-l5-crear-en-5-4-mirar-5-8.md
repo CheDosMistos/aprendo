@@ -21,9 +21,9 @@ Usa vocabulario que ya existe. No aprendas una técnica nueva mientras intentas 
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — semilla opcional**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l5-create-seed-5-4.musicxml" data-score-title="30.U9.L5 — semilla opcional de creación en 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l5-create-seed-5-4.musicxml" data-score-title="Lección 5 — semilla opcional de creación en 5/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
-Puedes ignorar la semilla y trabajar con un motivo propio de U8.
+Puedes ignorar la semilla y trabajar con un motivo propio de Unidad 8.
 
 Elige una tarea:
 
@@ -38,9 +38,9 @@ Si puedes mantener la barra, prueba a reducir el conteo verbal. Si al retirarlo 
 
 ## Parte B — AMPLIACIÓN: 5/8
 
-Esta sección **no forma parte del mínimo de U9**.
+Esta sección **no forma parte del mínimo de esta unidad**.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l5-compare-5-8.musicxml" data-score-title="30.U9.L5 — AMPLIACIÓN comparativa 5/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u9/f3-u9-l5-compare-5-8.musicxml" data-score-title="Lección 5 — AMPLIACIÓN comparativa 5/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 En 5/8 hay cinco **corcheas escritas** por compás. 2+3 y 3+2 corcheas son agrupaciones frecuentes y accesibles, pero no convierten 5/8 y 5/4 en el mismo compás.
 

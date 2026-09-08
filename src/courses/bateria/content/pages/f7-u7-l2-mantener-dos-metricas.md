@@ -23,7 +23,7 @@ El criterio principal será poder mover la atención entre capas sin detener ni 
 
 ## De la geometría a la percepción métrica
 
-En L1 ambas manos podían tocar negras simultáneas y diferenciar sus `1` mediante acentos. Eso construye la geometría.
+En Lección 1 ambas manos podían tocar negras simultáneas y diferenciar sus `1` mediante acentos. Eso construye la geometría.
 
 Ahora necesitas conservar además dos conteos jerárquicos:
 
@@ -126,12 +126,12 @@ Haz el ejercicio sólo con voz + pie, sin baquetas.
 
 Reconstruye cada métrica por separado y vuelve a superponer a tempo menor.
 
-## Relación con J6
+## Relación con polirritmia
 
 La independencia entrenada en polirritmia ayuda, pero el objeto que intentas conservar ha cambiado:
 
-- J6: dos densidades/patrones rítmicos dentro de una relación común;
-- J7: dos **jerarquías de barra** que reinician en momentos diferentes.
+- polirritmia: dos densidades/patrones rítmicos dentro de una relación común;
+- polimetría: dos **jerarquías de barra** que reinician en momentos diferentes.
 
 El cambio de foco es especialmente útil porque una polimetría estable debe poder oírse desde más de una organización métrica.
 

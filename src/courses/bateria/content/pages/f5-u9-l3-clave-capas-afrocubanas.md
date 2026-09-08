@@ -58,7 +58,7 @@ Aprendo **no reconstruye aquí la partitura**: el patrón tradicional se consult
 
 La negra del pie **no se presenta como tumbao, cáscara ni patrón de mambo**. Su única función es comprobar que puedes sostener la orientación mientras aparece otra capa.
 
-## H7 contextual
+## independencia avanzada contextual
 
 Cuando esto sea estable, sustituye la rejilla neutral por **una sola capa verificada** de una fuente legal concreta. No añadas simultáneamente cáscara + tumbao + conga + clave por demostrar independencia.
 

@@ -87,7 +87,7 @@ Por eso la evidencia final debe apoyarse en más de un intento cuando sea razona
 
 No necesitas repetir las tres piezas muchas veces en una sola sesión.
 
-## 6. K7 — carga auditiva y física
+## 6. carga auditiva y física
 
 Las piezas completas acumulan más exposición que un ejercicio de pocos compases.
 

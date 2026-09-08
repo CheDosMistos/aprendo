@@ -69,12 +69,12 @@ test('Phase 2 U2 L2 keeps C3 initial, uses the approved practice blocks and hand
   await expect(page.locator('h2').filter({ hasText: '2. NÚCLEO' })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '3. Continuidad' })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '4. Transferencia' })).toBeVisible();
-  await expect(page.getByText('C3 queda', { exact: false }).first()).toContainText('INICIADO');
-  await expect(page.getByText('C3 queda', { exact: false }).first()).toContainText('no FUNCIONAL');
+  await expect(page.getByText('cambios de subdivisión queda', { exact: false }).first()).toContainText('INICIADO');
+  await expect(page.getByText('cambios de subdivisión queda', { exact: false }).first()).toContainText('no FUNCIONAL');
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige un BPM concreto', { exact: false })).toBeVisible();
-  await expect(page.getByText('no equivale a declarar C3 FUNCIONAL', { exact: false })).toBeVisible();
+  await expect(page.getByText('no equivale a declarar cambios de subdivisión FUNCIONAL de forma global', { exact: false })).toBeVisible();
   await expect(page.getByText('OÍR → IMITAR → ESCRIBIR', { exact: false })).toBeVisible();
 });

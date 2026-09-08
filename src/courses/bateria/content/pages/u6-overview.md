@@ -18,7 +18,7 @@ rudiments:
 published: true
 ---
 
-U6 cierra **Tier 3** con tres rudimentos de flam. La menor carga de PAS nuevos deja espacio para observar mejor **preparación de alturas, relación grace/principal, contraste acento/tap y transferencia al 6/8**.
+Esta unidad cierra **Tier 3** con tres rudimentos de flam. La menor carga de PAS nuevos deja espacio para observar mejor **preparación de alturas, relación grace/principal, contraste acento/tap y transferencia al 6/8**.
 
 ## ESENCIAL AHORA
 
@@ -45,7 +45,7 @@ PAS prevalece para nombre, ritmo, sticking, acentos y grace notes:
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-Las partituras de Aprendo en U6 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen los tres PAS.
+Las partituras de Aprendo en esta unidad son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen los tres PAS.
 
 ## Orden de la unidad
 
@@ -53,6 +53,6 @@ Las partituras de Aprendo en U6 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CU
 2. **Lección 2 — Swiss Army Triplet y entrada al 6/8**
 3. **Lección 3 — Flamacue: acento, tap y preparación**
 4. **Lección 4 — Lectura, oído y transformación de motivos en 6/8**
-5. **Cierre de U6 — ¿puedo continuar?**
+5. **Cierre de esta unidad — ¿puedo continuar?**
 
 La meta sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`.

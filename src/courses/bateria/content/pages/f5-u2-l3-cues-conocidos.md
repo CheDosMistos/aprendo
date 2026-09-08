@@ -19,7 +19,7 @@ published: true
 
 Responder a un evento escrito **sin abandonar la música que lo rodea**.
 
-U2 no añade un fill ni una variación nuevos. Reutiliza dos eventos ya estudiados:
+Esta unidad no añade un fill ni una variación nuevos. Reutiliza dos eventos ya estudiados:
 
 - compás 12: **Fill A** `4 & → B`;
 - compás 16: **Variación B** `& de 3`.
@@ -31,19 +31,19 @@ U2 no añade un fill ni una variación nuevos. Reutiliza dos eventos ya estudiad
 | Sección | Compases | Dinámica | Indicaciones |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Groove sostenible · prepara A |
-| A1 | 5–8 | mf | Groove |
-| A2 | 9–12 | mf | Compás 12: Fill A `4 &` → B |
-| B1 | 13–16 | f | Compás 16: Variación B `& de 3` |
-| B2 | 17–20 | f | Groove · prepara OUTRO |
+| postura y relajación | 5–8 | mf | Groove |
+| agarre principal | 9–12 | mf | Compás 12: Fill A `4 &` → B |
+| singles y redobles | 13–16 | f | Compás 16: Variación B `& de 3` |
+| dobles | 17–20 | f | Groove · prepara OUTRO |
 | OUTRO | 21–24 | mp | Groove sostenible · final |
 
 ## Tarea 1 — leer antes del evento
 
 No esperes al compás 12 para descubrir que hay un fill.
 
-Durante A2, identifica con antelación:
+Durante agarre principal, identifica con antelación:
 
-`ESTOY EN A2 → EL FILL LLEGA EN 12 → DESPUÉS ENTRA B`.
+`ESTOY EN agarre principal → EL FILL LLEGA EN 12 → DESPUÉS ENTRA B`.
 
 Haz lo mismo con la Variación B de compás 16.
 

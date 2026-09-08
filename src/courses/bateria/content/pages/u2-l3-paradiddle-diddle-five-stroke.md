@@ -23,14 +23,14 @@ Introducir correctamente **Single Paradiddle-diddle** y **Five Stroke Roll** y a
 
 ## 1. Recuperación — 2–3 min
 
-Elige un rudimento de L1 o L2 que no hayas tocado inmediatamente antes. Haz una sola muestra y después comprueba la fuente PAS.
+Elige un rudimento de Lección 1 o Lección 2 que no hayas tocado inmediatamente antes. Haz una sola muestra y después comprueba la fuente PAS.
 
 ## 2. Prerrequisitos locales
 
 Esta lección contiene dos ramas distintas:
 
-- para profundizar en **Single Paradiddle-diddle / B2**, A4, A5 y B1 deben tener al menos una base **MÍNIMA**;
-- para profundizar en **Five Stroke Roll / B5**, B1, A3 y C2 deben tener al menos una base **MÍNIMA**.
+- para profundizar en **Single Paradiddle-diddle / dobles**, movimientos full, down, up y tap, rebote controlado y singles y redobles deben tener al menos una base **MÍNIMA**;
+- para profundizar en **Five Stroke Roll / drags**, singles y redobles, fulcrum y dedos y subdivisión binaria y ternaria deben tener al menos una base **MÍNIMA**.
 
 Si una de esas bases todavía es frágil, puedes hacer una exposición breve y correcta al rudimento, pero reduce volumen y profundidad en esa rama y mantén el correctivo del prerrequisito. Esto no bloquea las demás tareas de la lección.
 
@@ -70,9 +70,9 @@ Usa un estímulo auditivo muy corto que no hayas visto escrito antes. Escucha, v
 
 Como apoyo opcional puedes usar [Complete Rhythm Trainer](https://completerhythmtrainer.com/es/), que incluye ejercicios de imitación rítmica. El recurso es externo y no es obligatorio para continuar.
 
-Esto cuenta como E3 únicamente cuando el estímulo es realmente independiente. Repetir un patrón que acabas de construir tú mismo es memoria/transferencia, no una prueba auditiva independiente.
+Esto cuenta como dictado únicamente cuando el estímulo es realmente independiente. Repetir un patrón que acabas de construir tú mismo es memoria/transferencia, no una prueba auditiva independiente.
 
-## 7. Teoría F1
+## 7. Teoría teoría básica del pulso y las figuras
 
 Explica en una frase cada concepto:
 
@@ -82,14 +82,14 @@ Explica en una frase cada concepto:
 
 Una secuencia de manos no determina por sí sola el ritmo.
 
-## Diagnóstico K2
+## Diagnóstico grabación y autoevaluación
 
 Busca el **primer punto concreto** donde la ejecución deja de coincidir con la referencia y prueba una sola hipótesis antes de cambiar varias cosas a la vez.
 
 ## Rutina estándar
 
 - 3 min recuperación;
-- 6 min singles/doubles + C2;
+- 6 min singles/doubles + subdivisión binaria y ternaria;
 - 6 min Single Paradiddle-diddle;
 - 6 min Five Stroke Roll;
 - 3–4 min oído/teoría;

@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Pasar del mapa temporal de L1 a una representación que explique **cómo se organiza rítmicamente la parte**.
+Pasar del mapa temporal de Lección 1 a una representación que explique **cómo se organiza rítmicamente la parte**.
 
 La prioridad es:
 
@@ -89,7 +89,7 @@ Registra:
 
 ## Ejercicio original creado para este curso
 
-Sobre el mismo fragmento de L1:
+Sobre el mismo fragmento de Lección 1:
 
 1. marca la subdivisión dominante;
 2. identifica tres anclajes fiables;

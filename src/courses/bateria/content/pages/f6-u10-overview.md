@@ -7,9 +7,9 @@ unitSlug: fase-6-unidad-10
 slug: proyecto-sostenido-chart-interaccion-adaptacion
 kind: unit
 order: 0
-title: "60.U10 — Proyecto sostenido: chart, respuesta y adaptación"
+title: "Proyecto sostenido: chart, respuesta y adaptación"
 summary: "Integra navegación, continuidad, respuesta musical, adaptación estilística, feel y autonomía funcional dentro de una forma completa con varias pasadas y decisiones encadenadas."
-duration: 5 lecciones + checkpoint; varias sesiones
+duration: 5 lecciones + evaluación; varias sesiones
 competencies: [D7, I4, I6, I5, C7, K8, F3, F7, H5, H6]
 rudiments: []
 published: true
@@ -17,31 +17,31 @@ published: true
 
 ## Función de la unidad
 
-U10 está reservada para un **PROYECTO SOSTENIDO DE CHART + INTERACCIÓN + ADAPTACIÓN**.
+Esta unidad está reservada para un **PROYECTO SOSTENIDO DE CHART + INTERACCIÓN + ADAPTACIÓN**.
 
-Hasta ahora has trabajado por separado —aunque conectados— navegación de chart, interacción, transferencia entre estilos, feel/microtiming y autonomía de práctica. La novedad de U10 no consiste en volver a explicar esas herramientas. Consiste en sostenerlas **a la vez y durante una forma musical completa**, donde una decisión cambia lo que tendrás que hacer después.
+Hasta ahora has trabajado por separado —aunque conectados— navegación de chart, interacción, transferencia entre estilos, feel/microtiming y autonomía de práctica. La novedad de esta unidad no consiste en volver a explicar esas herramientas. Consiste en sostenerlas **a la vez y durante una forma musical completa**, donde una decisión cambia lo que tendrás que hacer después.
 
 La cadena central es:
 
 `PREPARAR → INTERPRETAR FORMA COMPLETA → RESPONDER → ADAPTAR → RECUPERAR → REVISAR → NUEVA PASADA`
 
-**ESTÁNDAR DEL PROYECTO.** U10 construye explícitamente sobre:
+**ESTÁNDAR DEL PROYECTO.** esta unidad construye explícitamente sobre:
 
-- U3: chart como mapa funcional, prioridades y recuperación;
-- U6: bajo/cues/dinámica/arreglo y frontera entre pista e interacción real;
-- U7: transferencia estilística sin borrar el carácter;
-- U8: feel y microtiming sin convertir la rejilla en juez musical;
-- U9: K8 COMPETENTE/FUNCIONAL para elegir estrategias y apoyos con criterio.
+- Unidad 3: chart como mapa funcional, prioridades y recuperación;
+- Unidad 6: bajo/cues/dinámica/arreglo y frontera entre pista e interacción real;
+- Unidad 7: transferencia estilística sin borrar el carácter;
+- Unidad 8: feel y microtiming sin convertir la rejilla en juez musical;
+- Unidad 9: autonomía COMPETENTE/FUNCIONAL para elegir estrategias y apoyos con criterio.
 
-## Qué cambia respecto a U3, U6 y U9
+## Qué cambia respecto a Unidad 3, Unidad 6 y Unidad 9
 
-U3 preguntaba principalmente: **¿puedes navegar y recuperarte dentro de un chart?**
+Unidad 3 preguntaba principalmente: **¿puedes navegar y recuperarte dentro de un chart?**
 
-U6 preguntaba: **¿puedes escuchar información externa y modificar tu ejecución sin perder la música?**
+Unidad 6 preguntaba: **¿puedes escuchar información externa y modificar tu ejecución sin perder la música?**
 
-U9 preguntaba: **¿puedes elegir una estrategia o recurso y revisar si funcionó?**
+Unidad 9 preguntaba: **¿puedes elegir una estrategia o recurso y revisar si funcionó?**
 
-U10 pregunta:
+Esta unidad pregunta:
 
 > **¿PUEDES HACER TODO ESO A LO LARGO DE UNA INTERPRETACIÓN COMPLETA SIN QUE CADA PROBLEMA LOCAL ROMPA EL PROYECTO?**
 
@@ -73,7 +73,7 @@ Fuente: https://doi.org/10.3389/fpsyg.2024.1467434
 
 ## DECISIÓN CURRICULAR RAZONADA — formato del proyecto
 
-La literatura revisada **no establece una duración normativa universal** para un proyecto integrado de batería. Por eso U10 no fija un número de minutos ni un BPM de aprobado.
+La literatura revisada **no establece una duración normativa universal** para un proyecto integrado de batería. Por eso esta unidad no fija un número de minutos ni un BPM de aprobado.
 
 El proyecto tendrá:
 
@@ -135,7 +135,7 @@ Si no dispones de otro músico, la unidad puede completarse. Registra:
 
 ## Control de carga
 
-U10 integra competencias, pero no convierte todas las variables en novedad simultánea.
+Esta unidad integra competencias, pero no convierte todas las variables en novedad simultánea.
 
 ### Pasada 1
 
@@ -154,15 +154,15 @@ Retira o reduce una ayuda si la evidencia de las pasadas anteriores justifica ha
 
 ## Competencias dominantes
 
-### D7 — drum-set charts y navegación formal
+### drum-set charts y navegación formal
 
-U10 no vuelve a enseñar símbolos básicos. El chart se usa como **mapa funcional durante una interpretación sostenida**.
+Esta unidad no vuelve a enseñar símbolos básicos. El chart se usa como **mapa funcional durante una interpretación sostenida**.
 
-### I4 — interpretación de canciones/piezas completas
+### interpretación de canciones/piezas completas
 
 La continuidad, la forma, el tiempo, la dinámica y la recuperación ante errores pasan a evaluarse sobre una forma completa, no sólo sobre un fragmento.
 
-### I6 — interacción musical
+### interacción musical
 
 La unidad integra escucha y respuesta. Pero el nivel que puede observarse depende de la fuente:
 
@@ -171,36 +171,36 @@ La unidad integra escucha y respuesta. Pero el nivel que puede observarse depend
 
 ### Soportes aplicados
 
-- I5: conservar o transferir carácter estilístico;
-- C7: preservar una intención de feel adecuada;
-- K8: elegir qué reparar y qué apoyo mantener/retirar entre pasadas;
-- F7: explicar relaciones entre forma, estilo, interacción y decisiones.
+- transferencia entre estilos: conservar o transferir carácter estilístico;
+- microtiming y placement: preservar una intención de feel adecuada;
+- autonomía: elegir qué reparar y qué apoyo mantener/retirar entre pasadas;
+- análisis musical: explicar relaciones entre forma, estilo, interacción y decisiones.
 
 ## Prerrequisitos reales
 
-Antes de U10 debe existir evidencia suficiente de:
+Antes de esta unidad debe existir evidencia suficiente de:
 
-- U3: navegación y recuperación con chart;
-- U6: I6 MÍNIMO robusto o equivalente en respuesta a información externa;
-- U7: I5 al menos en MÍNIMO;
-- U8: C7 al menos en MÍNIMO;
-- U9: K8 COMPETENTE/FUNCIONAL;
-- H5/I4 de Fase 5 suficientes para sostener una pieza de dificultad adecuada.
+- Unidad 3: navegación y recuperación con chart;
+- Unidad 6: interacción y ensemble MÍNIMO robusto o equivalente en respuesta a información externa;
+- Unidad 7: transferencia entre estilos al menos en MÍNIMO;
+- Unidad 8: microtiming y placement al menos en MÍNIMO;
+- Unidad 9: autonomía COMPETENTE/FUNCIONAL;
+- groove y variaciones/repertorio de Fase 5 suficientes para sostener una pieza de dificultad adecuada.
 
 No se exige perfección en ninguna de ellas.
 
 ## Estructura
 
-1. **L1 — Diseñar la pasada: forma, landmarks y presupuesto de atención.**
-2. **L2 — Primera pasada completa: continuidad antes que reparación local.**
-3. **L3 — Entre pasadas: K8 aplicado al cuello de botella real.**
-4. **L4 — Adaptación programada: cues, densidad, dinámica y arreglo.**
-5. **L5 — Contingencia, transferencia y pasada final.**
-6. **Checkpoint 6G — Portafolio de proyecto sostenido.**
+1. **Lección 1 — Diseñar la pasada: forma, landmarks y presupuesto de atención.**
+2. **Lección 2 — Primera pasada completa: continuidad antes que reparación local.**
+3. **Lección 3 — Entre pasadas: autonomía aplicado al cuello de botella real.**
+4. **Lección 4 — Adaptación programada: cues, densidad, dinámica y arreglo.**
+5. **Lección 5 — Contingencia, transferencia y pasada final.**
+6. **Evaluación — Portafolio de proyecto sostenido.**
 
 ## Fronteras
 
-U10:
+Esta unidad:
 
 - no reabre teoría general de autorregulación;
 - no vuelve a enseñar charts básicos;
@@ -211,9 +211,9 @@ U10:
 - no establece BPM universal ni porcentajes de aprobado;
 - no exige «cero errores»;
 - no declara **Hito 7**;
-- no certifica automáticamente K8 AVANZADO, E6 FUNCIONAL o F7 FUNCIONAL global;
-- no abre J7/J8/J9 ni el trabajo profundo propio de Fase 7.
+- no certifica automáticamente autonomía AVANZADO, transcripción real FUNCIONAL o análisis musical FUNCIONAL global;
+- no abre polimetría/modulación métrica/integración progresiva y experimental ni el trabajo profundo propio de Fase 7.
 
-La función exacta de U11 permanece reservada al documento aprobado de Fase 6 y **no se redefine desde U10**. U12 conserva el cierre integrador global y la evidencia que culminará en Hito 7; U10 sólo aporta parte del portafolio necesario.
+La función exacta de Unidad 11 permanece reservada al documento aprobado de Fase 6 y **no se redefine desde esta unidad**. Unidad 12 conserva el cierre integrador global y la evidencia que culminará en Hito 7; esta unidad sólo aporta parte del portafolio necesario.
 
 > **LA META NO ES TOCAR UNA PASADA PERFECTA: ES CONSERVAR LA MÚSICA MIENTRAS ENCADENAS DECISIONES Y SABES QUÉ CAMBIAR EN LA SIGUIENTE.**

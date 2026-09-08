@@ -8,30 +8,30 @@ slug: puerta-de-reorganizacion-del-pulso
 kind: checkpoint
 order: 5
 title: Puerta de reorganización del pulso
-summary: "Decide si C1–C3 y D3 permiten abrir U6 conservando el pulso al reorganizar 2↔3↔4, distinguiendo pulso de subdivisión y usando lectura, oído, explicación y evidencia de transferencia."
+summary: "Decide si pulso, subdivisión y cambios de subdivisión y tuplets y ornamentación permiten abrir Unidad 6 conservando el pulso al reorganizar 2↔3↔4, distinguiendo pulso de subdivisión y usando lectura, oído, explicación y evidencia de transferencia."
 duration: 10–15 min
 competencies: [C1, C2, C3, D1, D3, E1, E2, E4, F1, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Este checkpoint **no sirve para “aprobar U5”** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. Su pregunta es más concreta:
+Esta evaluación **no sirve para “aprobar esta unidad”** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. Su pregunta es más concreta:
 
-> **¿C1–C3 y D3 permiten abrir U6 sin confundir “tres por pulso” con “seis pulsos iguales” ni perder sistemáticamente la referencia al cambiar 2↔3↔4?**
+> **¿pulso, subdivisión y cambios de subdivisión y tuplets y ornamentación permiten abrir Unidad 6 sin confundir “tres por pulso” con “seis pulsos iguales” ni perder sistemáticamente la referencia al cambiar 2↔3↔4?**
 
 La evidencia principal vuelve a pulso, subdivisión, lectura de tresillos, cambio de densidad, oído y explicación. El BPM describe la **condición** de la muestra; no define el nivel.
 
-No se exige cero errores, cambio rápido, primera vista formal D5 ni conocimiento previo de 6/8. U6 introducirá la organización métrica compuesta como novedad propia.
+No se exige cero errores, cambio rápido, primera vista formal forma y lectura de chart ni conocimiento previo de 6/8. Unidad 6 introducirá la organización métrica compuesta como novedad propia.
 
 ## 1. Muestra A — lectura ternaria y reorganización 2↔3↔4 — 5–6 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La partitura siguiente es **nueva y exclusiva de este checkpoint**. Sigue en `4/4`: el primer compás contiene cuatro pulsos ternarios y los tres siguientes reorganizan el interior de la negra entre `2`, `3` y `4` partes. No introduce 6/8, sextillos, métrica impar ni una nueva capa técnica.
+La partitura siguiente es **nueva y exclusiva de esta evaluación**. Sigue en `4/4`: el primer compás contiene cuatro pulsos ternarios y los tres siguientes reorganizan el interior de la negra entre `2`, `3` y `4` partes. No introduce 6/8, sextillos, métrica impar ni una nueva capa técnica.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-title="20.U5.CP — Puerta de reorganización del pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-title="Evaluación — Puerta de reorganización del pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-Esta lectura es nueva para la puerta, pero **no se registra como evidencia formal de primera vista D5**. U9 reservará condiciones específicas para medir primera vista realmente nueva.
+Esta lectura es nueva para la puerta, pero **no se registra como evidencia formal de primera vista forma y lectura de chart**. Unidad 9 reservará condiciones específicas para medir primera vista realmente nueva.
 
 Antes de habilitar audio:
 
@@ -45,9 +45,9 @@ Antes de habilitar audio:
 
 Registra por separado:
 
-- **C1 — PULSO:** ¿el inicio y final de cada negra siguieron siendo localizables?;
-- **C2/C3 — SUBDIVISIÓN:** ¿las partes internas fueron iguales y el cambio de densidad fue consciente?;
-- **D3 — LECTURA:** ¿el tresillo se entendió como `3:2`, no como tres corcheas ordinarias?;
+- **PULSO:** ¿el inicio y final de cada negra siguieron siendo localizables?;
+- **subdivisión binaria y ternaria/SUBDIVISIÓN:** ¿las partes internas fueron iguales y el cambio de densidad fue consciente?;
+- **LECTURA:** ¿el tresillo se entendió como `3:2`, no como tres corcheas ordinarias?;
 - **CONTINUIDAD / RECUPERACIÓN:** ¿un tropiezo local arrastró el compás o pudiste reincorporarte?;
 - **AYUDAS:** click, conteo, canto o marcas usadas;
 - **VARIABLE LIMITANTE:** pulso, subdivisión, lectura, oído, memoria, ejecución, comprensión o carga.
@@ -71,9 +71,9 @@ Protocolo:
 
 La caligrafía no es el criterio. Separa:
 
-- **E1 — PULSO:** si conservaste dos referencias principales;
-- **E2 — SUBDIVISIÓN:** si mantuviste tres posiciones iguales por pulso;
-- **E4 — REPRESENTACIÓN:** si lo que oíste llegó a una rejilla escrita coherente;
+- **PULSO:** si conservaste dos referencias principales;
+- **SUBDIVISIÓN:** si mantuviste tres posiciones iguales por pulso;
+- **REPRESENTACIÓN:** si lo que oíste llegó a una rejilla escrita coherente;
 - **MEMORIA:** si perdiste información antes de escribirla.
 
 Un error de memoria o escritura no demuestra por sí solo que la subdivisión ternaria esté ausente.
@@ -95,11 +95,11 @@ Ahora añade esta segunda comprobación:
 
 No. Hay seis **ataques/subdivisiones** repartidos dentro de dos pulsos de referencia. Del mismo modo, los tresillos de esta página siguen dentro de `4/4`: **tres por pulso no convierte automáticamente el compás en 6/8**.
 
-Esta distinción prepara U6, pero **no enseña todavía 6/8**. La novedad de la unidad siguiente será cambiar la organización métrica, no sólo volver a tocar grupos de tres.
+Esta distinción prepara Unidad 6, pero **no enseña todavía 6/8**. La novedad de la unidad siguiente será cambiar la organización métrica, no sólo volver a tocar grupos de tres.
 
 ## 4. Evidencia reciente y decisión — 2–3 min
 
-Si L3 o L4 dejaron una muestra reciente y representativa de `2↔3↔4`, úsala como evidencia complementaria. No repitas por obligación una tarea que ya informa bien.
+Si Lección 3 o Lección 4 dejaron una muestra reciente y representativa de `2↔3↔4`, úsala como evidencia complementaria. No repitas por obligación una tarea que ya informa bien.
 
 Si esa evidencia es antigua, dudosa o contradictoria, repite sólo un fragmento breve de la Muestra A en una condición cómoda. Reduce **una variable cada vez**: longitud, tempo, densidad o ayudas. No cambies varias a la vez si quieres saber qué limitaba la ejecución.
 
@@ -122,21 +122,21 @@ Aplica la cadena:
 
 ### CONTINUAR
 
-La referencia de pulso permanece suficientemente disponible, la ternariedad puede leerse/oirse de forma controlable y los cambios `2↔3↔4` no desorganizan sistemáticamente la negra. Tiene sentido abrir la novedad métrica de U6.
+La referencia de pulso permanece suficientemente disponible, la ternariedad puede leerse/oirse de forma controlable y los cambios `2↔3↔4` no desorganizan sistemáticamente la negra. Tiene sentido abrir la novedad métrica de Unidad 6.
 
 ### CONTINUAR + CORRECTIVO
 
-Existe una fragilidad localizada —por ejemplo igualdad ternaria, lectura `3:2`, cambio `3↔4`, oído o memoria—, pero no invalida el siguiente problema. Abre U6 manteniendo un correctivo breve y explícito sobre esa variable.
+Existe una fragilidad localizada —por ejemplo igualdad ternaria, lectura `3:2`, cambio `3↔4`, oído o memoria—, pero no invalida el siguiente problema. Abre Unidad 6 manteniendo un correctivo breve y explícito sobre esa variable.
 
 ### REDUCIR NOVEDAD
 
-La referencia de pulso desaparece de forma repetida, la ternariedad no es todavía controlable o varias representaciones contradicen la misma habilidad central. Reduce una variable y vuelve a elicitar una muestra breve; no reinicies U5 completa por defecto.
+La referencia de pulso desaparece de forma repetida, la ternariedad no es todavía controlable o varias representaciones contradicen la misma habilidad central. Reduce una variable y vuelve a elicitar una muestra breve; no reinicies esta unidad completa por defecto.
 
 ### DETENER CARGA
 
 Una señal de salud/carga hace improcedente perseguir progresión curricular en esa sesión. Reduce o detén la carga según el sistema general.
 
-## MÍNIMO PARA ABRIR U6
+## MÍNIMO PARA ABRIR Unidad 6
 
 En una condición cómoda y con ayudas razonables cuando proceda, la evidencia conjunta debería permitirte:
 
@@ -158,27 +158,27 @@ No se exige:
 - sextillos;
 - 6/8 dominado;
 - 9/8 o 12/8;
-- primera vista formal D5;
-- que C1, C2, C3, D3, E2 o E4 pasen automáticamente a `FUNCIONAL` por completar la página.
+- primera vista formal forma y lectura de chart;
+- que pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación, imitación rítmica o relación entre oído y notación pasen automáticamente a `FUNCIONAL` por completar la página.
 
 ## Cómo interpretar discrepancias
 
-- **el pulso sigue pero el tresillo es desigual:** correctivo de C2 antes de aumentar densidad;
+- **el pulso sigue pero el tresillo es desigual:** correctivo de subdivisión binaria y ternaria antes de aumentar densidad;
 - **el tresillo funciona aislado pero falla al cambiar 2↔3:** trabaja la transición conservando físicamente la negra;
-- **2↔3 funciona pero 3↔4 colapsa:** reduce la muestra a dos pulsos y no degrada automáticamente toda U5;
+- **2↔3 funciona pero 3↔4 colapsa:** reduce la muestra a dos pulsos y no degrada automáticamente toda esta unidad;
 - **lees 3:2 pero no lo reconoces por oído:** el límite es principalmente perceptivo, no de notación;
 - **oyes la célula pero la escribes mal:** separa memoria/representación de subdivisión;
 - **cuentas cada ataque como pulso:** vuelve a marcar la negra mientras vocalizas las partes internas;
-- **una muestra aislada contradice varias recientes:** elicita otra muestra breve antes de cambiar el mapa de progreso.
+- **una muestra aislada contradice varias recientes:** elicita otra muestra breve antes de cambiar el nivel registrado.
 
-Completar este checkpoint **no actualiza automáticamente** C1, C2, C3, D3, E2, E4 ni ninguna otra competencia. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
+Completar esta evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación, imitación rítmica, relación entre oído y notación ni ninguna otra competencia. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
 
-## Puente a 20.U6
+## Puente a Unidad 6
 
-Si la decisión es **CONTINUAR**, U6 puede introducir su salto conceptual reservado: **compás compuesto I — 6/8 como organización métrica prototípica de dos pulsos principales con subdivisión ternaria**.
+Si la decisión es **CONTINUAR**, Unidad 6 puede introducir su salto conceptual reservado: **compás compuesto I — 6/8 como organización métrica prototípica de dos pulsos principales con subdivisión ternaria**.
 
-Si es **CONTINUAR + CORRECTIVO**, U6 se abre conservando visible la fragilidad localizada de U5.
+Si es **CONTINUAR + CORRECTIVO**, Unidad 6 se abre conservando visible la fragilidad localizada de esta unidad.
 
 Si es **REDUCIR NOVEDAD**, estabiliza una sola variable con una tarea breve y vuelve a elicitar evidencia; no reinicies la unidad completa.
 
-La puerta comprueba si la reorganización **dentro del pulso** está suficientemente disponible para que U6 pueda cambiar el **marco métrico** sin confundir ambas cosas.
+La puerta comprueba si la reorganización **dentro del pulso** está suficientemente disponible para que Unidad 6 pueda cambiar el **marco métrico** sin confundir ambas cosas.

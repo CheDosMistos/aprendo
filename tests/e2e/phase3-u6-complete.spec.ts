@@ -79,7 +79,7 @@ test('U6 L4 keeps displacement in 4/4 and treats J2 as a window', async ({ page 
   await expectOneScoreReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByText('DESPLAZAMIENTO DENTRO DE 4/4 ≠ CAMBIO DE COMPÁS', { exact: true })).toBeVisible();
-  await expect(article.getByText(/no certifica J2 funcional por sí sola/i)).toBeVisible();
+  await expect(article.getByText(/no certifica desplazamientos de acento y motivo funcional por sí sola/i)).toBeVisible();
   await expect(article.getByText(/Desplazamiento ≠ reagrupación/i)).toBeVisible();
 });
 
@@ -97,13 +97,13 @@ test('U6 L5 keeps 3+3+2 as grouping inside 4/4', async ({ page }, testInfo) => {
 test('U6 G2 checkpoint requires one conscious transformation and explicitly does not certify G3', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-6/puerta-g2-hacia-improvisacion/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Puerta G2 hacia improvisación' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Puerta desarrollo motívico hacia improvisación' })).toBeVisible();
   await expectOneScoreReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/una transformación consciente bien identificada/i).first()).toBeVisible();
   await expect(article.getByText(/No necesitas combinar varias ni improvisar libremente/i)).toBeVisible();
-  await expect(article.getByText(/AVANZADO no es requisito para U7/)).toBeVisible();
-  await expect(article.getByText(/no certifica improvisación funcional G3/i)).toBeVisible();
+  await expect(article.getByText(/AVANZADO no es requisito para Unidad 7/)).toBeVisible();
+  await expect(article.getByText(/no certifica improvisación funcional composición de fills y secciones/i)).toBeVisible();
 });
 
 test('U5 remains intact and U6 does not introduce an automatic transformation grader', async ({ page }, testInfo) => {

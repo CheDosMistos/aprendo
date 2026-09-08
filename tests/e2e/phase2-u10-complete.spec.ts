@@ -80,5 +80,5 @@ test('U10 reduced modes are disabled outside 4/4 and checkpoint preserves decisi
   await expect(page.getByRole('heading', { level: 2, name: 'INFERENCIA' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'EVIDENCIA' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'DECISIÓN' })).toBeVisible();
-  await expect(page.getByText('Completar el checkpoint no convierte C5 en FUNCIONAL.', { exact: false })).toBeVisible();
+  await expect(page.getByText('Completar la evaluación no convierte click desplazado o no obvio en', { exact: false })).toBeVisible();
 });

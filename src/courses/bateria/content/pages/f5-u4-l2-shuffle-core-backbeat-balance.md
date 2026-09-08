@@ -17,9 +17,9 @@ published: true
 
 ## Objetivo
 
-Transformar la rejilla ternaria de L1 en un groove shuffle sencillo sin perder pulso, backbeat ni balance.
+Transformar la rejilla ternaria de Lección 1 en un groove shuffle sencillo sin perder pulso, backbeat ni balance.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-l2-shuffle-core.musicxml" data-score-title="50.U4.L2 — Shuffle CORE" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u4/f5-u4-l2-shuffle-core.musicxml" data-score-title="Lección 2 — Shuffle CORE" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Groove CORE
 

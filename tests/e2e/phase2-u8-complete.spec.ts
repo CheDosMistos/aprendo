@@ -46,12 +46,12 @@ test('Phase 2 U8 overview exposes the notation-first architecture and keeps D5/U
 
   await expect(page.getByRole('heading', { level: 1, name: 'Sextillos, rolls y ornamentaciones escritas' })).toBeVisible();
   await expect(page.getByText('VER EL SÍMBOLO → DECODIFICAR SU FUNCIÓN → EJECUTAR → RECONOCER/APLICAR LA FAMILIA.', { exact: true })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'Arquitectura de U8' })).toBeVisible();
-  await expect(page.getByText('L1 — Sextillo escrito: seis en el tiempo de cuatro', { exact: true })).toBeVisible();
-  await expect(page.getByText('L2 — Flam escrito: grace note y principal', { exact: true })).toBeVisible();
-  await expect(page.getByText('L3 — Drag escrito: double grace y principal', { exact: true })).toBeVisible();
-  await expect(page.getByText('L4 — Rolls escritos: duración y repetición indicada', { exact: true })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'D5 primera vista formal' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'Recorrido de la unidad' })).toBeVisible();
+  await expect(page.getByText('Lección 1 — Sextillo escrito: seis en el tiempo de cuatro', { exact: true })).toBeVisible();
+  await expect(page.getByText('Lección 2 — Flam escrito: grace note y principal', { exact: true })).toBeVisible();
+  await expect(page.getByText('Lección 3 — Drag escrito: double grace y principal', { exact: true })).toBeVisible();
+  await expect(page.getByText('Lección 4 — Rolls escritos: duración y repetición indicada', { exact: true })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'forma y lectura de chart primera vista formal' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'click reducido, half-time o gaps' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'PAS — PDF oficial de los 40 rudimentos' })).toHaveAttribute('href', 'https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf');
   await expect(page.locator('.course-score')).toHaveCount(0);
@@ -106,14 +106,14 @@ test('Phase 2 U8 checkpoint renders the exclusive four-function sample without p
 
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de decodificación ornamental' })).toBeVisible();
   await expect(page.getByText('¿PUEDES VER UN SÍMBOLO NUEVO EN UNA LÍNEA NUEVA, EXPLICAR QUÉ MODIFICA Y EJECUTARLO SIN NECESITAR QUE EL NOMBRE DEL RUDIMENTO ACTIVE LA RESPUESTA?', { exact: true })).toBeVisible();
-  await expectLoadedFeedbackScore(page, 'MusicXML — fuente de la muestra ornamental del checkpoint', '/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml');
+  await expectLoadedFeedbackScore(page, 'MusicXML — fuente de la muestra ornamental de la evaluación', '/bateria/notation/f2/u8/f2-u8-checkpoint-decodificacion-ornamental.musicxml');
 
   await expect(page.getByRole('heading', { level: 3, name: 'Compás 1 — sextillo selectivo' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'Compás 2 — grace simple selectiva' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'Compás 3 — double grace selectiva' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'Compás 4 — roll escrito con salida' })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U9' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR Unidad 9' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal forma y lectura de chart' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'click reducido, half-time o gaps' })).toBeVisible();
 
   const score = page.locator('.course-score').first();

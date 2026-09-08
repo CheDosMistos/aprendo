@@ -45,9 +45,9 @@ jobs:
 
   browser-e2e:
     needs: plan_browser
-    if: ${{ needs.plan_browser.outputs.scope != 'none' }}
+    if: ${{ needs.plan_browser.outputs.scope == 'targeted' || needs.plan_browser.outputs.scope == 'cross-browser' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 14
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -77,8 +77,8 @@ jobs:
         if: ${{ needs.plan_browser.outputs.scope == 'targeted' }}
         run: npx playwright install --with-deps chromium
 
-      - name: Install Chromium and WebKit for cross-browser or full E2E
-        if: ${{ needs.plan_browser.outputs.scope == 'cross-browser' || needs.plan_browser.outputs.scope == 'full' }}
+      - name: Install Chromium and WebKit for cross-browser E2E
+        if: ${{ needs.plan_browser.outputs.scope == 'cross-browser' }}
         run: npx playwright install --with-deps chromium webkit
 
       - name: Run browser journeys
@@ -125,13 +125,95 @@ jobs:
               npx playwright test tests/e2e/critical-smoke.spec.ts
               ;;
 
-            full)
-              echo 'High-risk Browser E2E change detected: running the complete browser suite.'
-              npm run test:e2e
-              ;;
-
             *)
               echo "Unexpected Browser E2E scope: $BROWSER_SCOPE" >&2
               exit 1
               ;;
           esac
+
+  browser-e2e-full:
+    name: browser-e2e-full (${{ matrix.project }})
+    needs: plan_browser
+    if: ${{ needs.plan_browser.outputs.scope == 'full' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - chromium-desktop
+          - chromium-mobile
+          - webkit-tablet
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Build site
+        run: npm run build
+
+      - name: Cache Playwright browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ matrix.project }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Chromium
+        if: ${{ startsWith(matrix.project, 'chromium') }}
+        run: npx playwright install --with-deps chromium
+
+      - name: Install WebKit
+        if: ${{ matrix.project == 'webkit-tablet' }}
+        run: npx playwright install --with-deps webkit
+
+      - name: Run full browser project
+        env:
+          HOST: 127.0.0.1
+          PORT: 4323
+          APRENDO_DB_PATH: ${{ runner.temp }}/aprendo-e2e.sqlite
+          APRENDO_AVATAR_DIR: ${{ runner.temp }}/aprendo-e2e-avatars
+          E2E_USERNAME: e2e-admin
+          E2E_PASSWORD: ci-e2e-password-2026
+          PLAYWRIGHT_BASE_URL: http://localhost:4323
+          PLAYWRIGHT_PROJECT: ${{ matrix.project }}
+        run: |
+          set -euo pipefail
+
+          printf '%s' "$E2E_PASSWORD" | npm run provision-user -- \
+            --stable-key e2e-admin \
+            --username "$E2E_USERNAME" \
+            --display-name 'E2E administrator' \
+            --role admin
+
+          node dist/server/entry.mjs > "${RUNNER_TEMP}/aprendo-e2e-runtime.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true; cat "${RUNNER_TEMP}/aprendo-e2e-runtime.log" || true' EXIT
+
+          for attempt in 1 2 3 4 5 6 7 8 9 10; do
+            if curl --fail --silent --max-time 2 http://127.0.0.1:4323/api/health/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent --max-time 2 http://127.0.0.1:4323/api/health/ >/dev/null
+
+          echo "Running complete E2E suite for ${PLAYWRIGHT_PROJECT}."
+          npx playwright test --project="$PLAYWRIGHT_PROJECT"
+
+      - name: Upload Playwright failure artifacts
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-test-results-${{ matrix.project }}
+          path: test-results/
+          if-no-files-found: warn
+          retention-days: 7

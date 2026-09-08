@@ -21,7 +21,7 @@ Convertir el desplazamiento en una operación que puedas **predecir y representa
 
 ## Tres preguntas antes de tocar
 
-Para cualquier ejercicio de U2 identifica:
+Para cualquier ejercicio de esta unidad identifica:
 
 1. **qué material se mantiene**;
 2. **cuál es la cuadrícula de referencia**;
@@ -48,7 +48,7 @@ Para cada versión anota debajo la cuadrícula completa del compás.
 - la subdivisión permanece constante;
 - la célula mantiene sus distancias internas;
 - sólo cambia su posición;
-- si una versión rebasa la barra, no la uses todavía: rediseña el ejemplo para mantenerlo dentro de U2.
+- si una versión rebasa la barra, no la uses todavía: rediseña el ejemplo para mantenerlo dentro de esta unidad.
 
 ## Predecir antes de escuchar
 

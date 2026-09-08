@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-L2 comprobó el procedimiento en métrica simple. L3 cambia **el marco métrico**, no la regla de evaluación.
+Lección 2 comprobó el procedimiento en métrica simple. Lección 3 cambia **el marco métrico**, no la regla de evaluación.
 
 > **6/8 PROTOTÍPICO = 2 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 
@@ -37,7 +37,7 @@ Si usas metrónomo, piensa en el pulso principal. No conviertas cada corchea en 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-title="20.U12.L3 — muestra protegida B 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida B"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-title="Lección 3 — muestra protegida B 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u12/f2-u12-l3-muestra-b-6-8.musicxml" data-score-source-label="MusicXML — fuente de la muestra protegida B"></div>
 
 Procedimiento:
 
@@ -75,7 +75,7 @@ Esta comparación orienta el diagnóstico. No crea una media ni una nota total.
 
 Escucha la referencia y corrige sólo la variable dominante. La muestra B queda desde entonces **consumida como evidencia independiente de primera vista**.
 
-## MÍNIMO PARA AVANZAR A L4
+## MÍNIMO PARA AVANZAR A Lección 4
 
 - preservas dos pulsos compuestos razonables en la lectura;
 - distingues errores de precisión de pérdida de continuidad;

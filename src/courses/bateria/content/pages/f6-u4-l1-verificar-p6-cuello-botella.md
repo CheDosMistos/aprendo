@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-4
 slug: verificar-p6-y-localizar-el-cuello-de-botella
 kind: lesson
 order: 1
-title: "Verificar P6 y localizar el cuello de botella"
+title: "Verificar puerta de entrada y localizar el cuello de botella"
 summary: "Comprueba los prerrequisitos de independencia avanzada y distingue si el fallo proviene de tiempo, capa base, voz variable, representación o tensión."
 duration: 20–30 min
 competencies: [H4, H7, C2, H5, K2, K5]
@@ -17,12 +17,12 @@ published: true
 
 ## Objetivo
 
-Comprobar la **Puerta P6** y diagnosticar qué limita una tarea de independencia antes de añadir complejidad.
+Comprobar la **la puerta de entrada de la fase** y diagnosticar qué limita una tarea de independencia antes de añadir complejidad.
 
-P6 exige:
+puerta de entrada exige:
 
-- H4 FUNCIONAL;
-- C2 FUNCIONAL;
+- coordinación básica de cuatro extremidades FUNCIONAL;
+- subdivisión binaria y ternaria FUNCIONAL;
 - ostinato básico mantenido sin colapso de tiempo.
 
 ## 1. Prueba la capa base sola
@@ -94,7 +94,7 @@ Registra:
 
 `QUÉ FALLA PRIMERO → HIPÓTESIS → REDUCCIÓN → RESULTADO`
 
-## Ruta si P6 no está abierta
+## Ruta si puerta de entrada no está abierta
 
 No avances por fuerza. Trabaja temporalmente:
 
@@ -104,7 +104,7 @@ No avances por fuerza. Trabaja temporalmente:
 - conteo/canto previo;
 - recombinación inmediata.
 
-Después vuelve a comprobar P6.
+Después vuelve a comprobar puerta de entrada.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -113,6 +113,6 @@ Después vuelve a comprobar P6.
 - puedes identificar el primer punto de ruptura al combinarlas;
 - eliges una reducción relacionada con el problema;
 - no llamas «falta de independencia» a cualquier error inespecífico;
-- P6 está abierta para la ruta principal o sigues conscientemente la ruta de consolidación.
+- puerta de entrada está abierta para la ruta principal o sigues conscientemente la ruta de consolidación.
 
 **No existe BPM de aprobado.**

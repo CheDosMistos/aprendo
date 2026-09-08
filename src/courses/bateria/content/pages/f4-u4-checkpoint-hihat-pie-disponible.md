@@ -7,19 +7,19 @@ unitSlug: fase-4-unidad-4
 slug: hihat-pie-disponible
 kind: checkpoint
 order: 5
-title: "Checkpoint — Hi-hat de pie disponible"
-summary: "Comprueba H3 MÍNIMO: aperturas/cierres u ostinato simple suficientemente estables, sin exigir bombo, groove o independencia."
+title: "Evaluación — Hi-hat de pie disponible"
+summary: "Comprueba hi-hat de pie MÍNIMO: aperturas/cierres u ostinato simple suficientemente estables, sin exigir bombo, groove o independencia."
 duration: 20–30 min
 competencies: [H3, H1, C1, C2, K2, K5, K7]
 rudiments: []
 published: true
 ---
 
-## Qué demuestra este checkpoint
+## Qué demuestra esta evaluación
 
-Comprueba si el hi-hat de pie está disponible a nivel **H3 MÍNIMO**.
+Comprueba si el hi-hat de pie alcanza el **MÍNIMO PARA AVANZAR**.
 
-No exige bombo. H2 y H3 son ramas paralelas tras H1.
+No exige bombo. Bombo y hi-hat de pie son ramas paralelas tras setup, ergonomía y ecología del kit.
 
 ## Bloque A — Abrir / cerrar / chick
 
@@ -31,7 +31,7 @@ Observa:
 
 ## Bloque B — Ostinato simple
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l3-foot-hihat-pulse.musicxml" data-score-title="40.U4.CP — Pulso de hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l3-foot-hihat-pulse.musicxml" data-score-title="Evaluación — Pulso de hi-hat de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 - negras = **ESENCIAL AHORA**;
 - tiempos 2 y 4 = **AMPLIACIÓN**.
@@ -40,7 +40,7 @@ El BPM es una condición de ejecución. **No existe BPM de aprobado**.
 
 ## Bloque C — Manos conocidas + pie
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="40.U4.CP — Manos conocidas + referencia de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u4/f4-u4-l4-hands-foot-reference.musicxml" data-score-title="Evaluación — Manos conocidas + referencia de pie" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Combina la tarea manual elemental con el chick en negras durante una frase breve. Si falla, aisla la capa y recompón.
 
@@ -48,7 +48,7 @@ Combina la tarea manual elemental con el chick en negras durante una frase breve
 
 Debe poder demostrarse razonablemente que:
 
-- la configuración de H1 sigue siendo sostenible;
+- la configuración de setup, ergonomía y ecología del kit sigue siendo sostenible;
 - abres y cierras el hi-hat de forma controlada;
 - produces chick suficientemente consistente;
 - mantienes negras de pie o un ostinato equivalente muy simple;
@@ -57,23 +57,23 @@ Debe poder demostrarse razonablemente que:
 - aplicas un correctivo modificando una variable;
 - mantienes una tarea manual ya conocida mientras el pie marca referencia durante una frase breve;
 - puedes recuperar aislando/recomponiendo;
-- explicas que esta evidencia corresponde a H3 y **no certifica H4**.
+- explicas que esta evidencia corresponde a hi-hat de pie y **no certifica coordinación básica de cuatro extremidades**.
 
 ## LO QUE NO CERTIFICA
 
-- H2 — técnica de bombo;
-- H4 — coordinación básica de cuatro extremidades;
-- H5 — groove funcional;
-- H7 — independencia;
+- técnica de bombo;
+- coordinación básica de cuatro extremidades;
+- groove funcional;
+- independencia;
 - openings estilísticos complejos;
 - foot splash funcional;
 - ostinatos variados o rápidos;
 - una técnica universal de talón;
 - velocidad alta.
 
-## COMPETENTE EN EL ÁMBITO DE U4
+## COMPETENTE / FUNCIONAL EN ESTA UNIDAD
 
-No es requisito para iniciar U5, pero puede registrarse evidencia adicional si:
+No es requisito para iniciar Unidad 5, pero puede registrarse evidencia adicional si:
 
 - controlas chick en más de una dinámica;
 - mantienes negras y 2/4 con consistencia razonable;
@@ -83,8 +83,8 @@ No es requisito para iniciar U5, pero puede registrarse evidencia adicional si:
 
 ## Decisión
 
-- **AVANZA:** H3 MÍNIMO está suficientemente disponible.
-- **AVANZA CON CORRECTIVO:** H3 es utilizable pero una dimensión requiere mantenimiento explícito.
-- **REPITE EL BLOQUE ESPECÍFICO:** el problema principal impide todavía aperturas/cierres u ostinato básico estable; no hace falta repetir toda U4.
+- **AVANZA:** el hi-hat de pie está suficientemente disponible al nivel mínimo.
+- **AVANZA CON CORRECTIVO:** hi-hat de pie es utilizable pero una dimensión requiere mantenimiento explícito.
+- **REPITE EL BLOQUE ESPECÍFICO:** el problema principal impide todavía aperturas/cierres u ostinato básico estable; no hace falta repetir toda esta unidad.
 
 La perfección no es requisito para continuar.

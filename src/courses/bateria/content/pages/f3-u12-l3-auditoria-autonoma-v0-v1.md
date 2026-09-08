@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Demostrar que puedes usar grabación y diagnóstico con **menos instrucciones paso a paso que en U8**.
+Demostrar que puedes usar grabación y diagnóstico con **menos instrucciones paso a paso que en Unidad 8**.
 
 Conserva V0. No la sobrescribas antes de escucharla.
 

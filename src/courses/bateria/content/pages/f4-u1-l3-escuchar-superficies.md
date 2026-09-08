@@ -90,7 +90,7 @@ La investigación acústica usada por el curso respalda que la tensión y su dis
 
 No implica que debas afinar ahora a una nota concreta ni que exista una frecuencia universal correcta para cada tom.
 
-H8 completo pertenece principalmente a Fase 5.
+balance, sonido y orquestación completo pertenece principalmente a Fase 5.
 
 ## Diagnóstico
 
@@ -101,7 +101,7 @@ Si una superficie se siente difícil:
 Ejemplos:
 
 - “en tom pierdo dobles” → quizá espero demasiado rebote → reduzco altura/densidad y observo la recuperación;
-- “el plato me obliga a golpear raro” → quizá el problema es alcance/ángulo → vuelvo a H1 antes de practicar más;
+- “el plato me obliga a golpear raro” → quizá el problema es alcance/ángulo → vuelvo a setup, ergonomía y ecología del kit antes de practicar más;
 - “en malla suena fuerte aunque el golpe es pequeño” → revisar curva/volumen del módulo sólo si procede, sin confundir sonido electrónico con gesto físico.
 
 ## MÍNIMO PARA AVANZAR
@@ -121,4 +121,4 @@ Anota:
 - una diferencia sonora;
 - un ajuste de movimiento o dinámica que te ayudó.
 
-Eso es evidencia inicial de **A8**, no dominio de orquestación.
+Eso es evidencia inicial de **adaptación técnica entre superficies y kit**, no dominio de orquestación.

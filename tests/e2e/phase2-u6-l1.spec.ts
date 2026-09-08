@@ -70,9 +70,9 @@ test('Phase 2 U6 L1 makes metronome unit and progression criteria explicit witho
   await expect(page.locator('h2').filter({ hasText: '5. Metrónomo: la unidad importa' })).toBeVisible();
   await expect(page.locator('code').filter({ hasText: '♩. = 54' })).toBeVisible();
   await expect(page.getByText('Eso significa 54 pulsos principales por minuto.', { exact: true })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L2' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 2' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'un BPM fijo o alto' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente D4 o F2 por completar esta página' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal forma y lectura de chart' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente lectura de compás o métrica y terminología rítmica por completar esta página' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });

@@ -40,7 +40,7 @@ test('F5 U3 overview makes style-not-pattern and I2 H5 boundaries explicit', asy
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-3/');
   await expect(page.getByRole('heading', { level: 1, name: 'Backbeat, corchea, energía y forma' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Novedad dominante: I2 \/ H5/i)).toBeVisible();
+  await expect(article.getByText(/Novedad dominante: blues y shuffle \/ groove y variaciones en familia de backbeat/i)).toBeVisible();
   await expect(article.getByText(/ESTILO ≠ PATRÓN/i)).toBeVisible();
   await expect(article.getByText(/ENERGÍA ≠ BPM ALTO ≠ VOLUMEN MÁXIMO/i)).toBeVisible();
   await expect(article.getByText(/No exige doble pedal, blast beat ni patrones rápidos de bombo/i)).toBeVisible();
@@ -102,6 +102,6 @@ test('F5 U3 L4 reuses Piece A and Chart A and keeps metal optional', async ({ pa
 test('F5 U2 checkpoint remains D7 prepared-condition only after U3', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-2/d7-minimo/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/D7 MÍNIMO en condición preparada: sigue indicaciones elementales de forma y entradas/i)).toBeVisible();
-  await expect(article.getByText(/D7 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/lectura aplicada al kit MÍNIMO en condición preparada: sigue indicaciones elementales de forma y entradas/i)).toBeVisible();
+  await expect(article.getByText(/lectura aplicada al kit COMPETENTE\/FUNCIONAL/i)).toBeVisible();
 });

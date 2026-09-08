@@ -25,7 +25,7 @@ Los cuatro compases representan, en orden:
 
 `A → FRAGMENTO → EXTENSIÓN → REDUCCIÓN`
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l2-structural-family.musicxml" data-score-title="30.U6.L2 — A, fragmento, extensión y reducción" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u6/f3-u6-l2-structural-family.musicxml" data-score-title="Lección 2 — A, fragmento, extensión y reducción" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La finalidad es comparar operaciones; no memorizar esta familia como vocabulario obligatorio.
 
@@ -83,7 +83,7 @@ Usa un segundo motivo sencillo y aplica **la misma operación**. La transferenci
 
 ## No hay porcentaje mágico
 
-Fragmentación, extensión y reducción pueden conservar la identidad con distinta claridad según el motivo y el contexto. U6 no fija un umbral numérico universal.
+Fragmentación, extensión y reducción pueden conservar la identidad con distinta claridad según el motivo y el contexto. Esta unidad no fija un umbral numérico universal.
 
 ## MÍNIMO PARA AVANZAR
 

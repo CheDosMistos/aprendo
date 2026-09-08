@@ -19,7 +19,7 @@ published: true
 
 Mantener simultáneamente una capa organizada en `3/4` y otra en `4/4`, con **la misma negra temporal**, y sentir dónde vuelven a coincidir sus comienzos de barra.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u7/f7-u7-polymeter-3-4-over-4-4.musicxml" data-score-title="70.U7 — Transporte polimétrico 3/4 sobre 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u7/f7-u7-polymeter-3-4-over-4-4.musicxml" data-score-title="Unidad 7 — Transporte polimétrico 3/4 sobre 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## La relación
 
@@ -38,7 +38,7 @@ Por tanto:
 
 ## Por qué esto no es simplemente 3:4
 
-En U6 `4:3` describía dos cantidades de eventos repartidas dentro de un ciclo común.
+En Unidad 6 `4:3` describía dos cantidades de eventos repartidas dentro de un ciclo común.
 
 Aquí la pregunta es distinta:
 
@@ -135,7 +135,7 @@ Si sólo percibes una cadena de acentos sin barras internas, vuelve a contar cad
 
 ## Error frecuente: convertir 3/4 en “acento cada tres”
 
-Un acento periódico puede producir la misma geometría de ataques, pero para J7 necesitas mantener **la interpretación métrica**:
+Un acento periódico puede producir la misma geometría de ataques, pero para polimetría necesitas mantener **la interpretación métrica**:
 
 `1 2 3 | 1 2 3 ...`
 

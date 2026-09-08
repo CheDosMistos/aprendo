@@ -7,7 +7,7 @@ unitSlug: fase-4-unidad-6
 slug: h4-minimo
 kind: checkpoint
 order: 5
-title: "Checkpoint — H4 MÍNIMO"
+title: "Evaluación — coordinación básica de cuatro extremidades MÍNIMO"
 summary: "Demuestra coordinación básica de cuatro extremidades en dos patrones simples sin convertirla en independencia avanzada."
 duration: 20–30 min
 competencies: [H4, H2, H3, C2, K2, K4, K5, K7]
@@ -17,19 +17,19 @@ published: true
 
 ## Qué certifica
 
-Este checkpoint sí busca el criterio literal de H4 MÍNIMO:
+Esta evaluación sí busca el criterio literal de coordinación básica de cuatro extremidades MÍNIMO:
 
 > **Coordina patrones sencillos sin perder pulso.**
 
-Se usan dos patrones simples y predeterminados. No se evalúa independencia H7.
+Se usan dos patrones simples y predeterminados. No se evalúa independencia avanzada.
 
 ## Patrón A
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U6 — Patrón A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Unidad 6 — Patrón A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Patrón B
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="40.U6 — Patrón B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u6/f4-u6-l3-four-limb-b.musicxml" data-score-title="Unidad 6 — Patrón B" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Tarea mínima
 
@@ -43,9 +43,9 @@ Para cada patrón:
 6. aplica un correctivo de una variable;
 7. recompón las cuatro extremidades y vuelve a probar.
 
-No es obligatorio ejecutar A→B sin pausa para superar el checkpoint.
+No es obligatorio ejecutar A→B sin pausa para superar la evaluación.
 
-## MÍNIMO PARA H4
+## MÍNIMO PARA AVANZAR
 
 - Patrón A mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
 - Patrón B mantiene una referencia temporal reconocible y no pierde sistemáticamente el pulso;
@@ -56,13 +56,13 @@ No es obligatorio ejecutar A→B sin pausa para superar el checkpoint.
 - puedes recomponer tras aislar;
 - ergonomía/carga siguen siendo sostenibles;
 - registras ayudas y condición;
-- puedes explicar por qué **coordinación H4 no equivale a independencia H7**.
+- puedes explicar por qué **coordinación básica de cuatro extremidades no equivale a independencia avanzada**.
 
 ## NO CERTIFICA
 
-- **H4 — COMPETENTE/FUNCIONAL**;
-- **H5 — COMPETENTE/FUNCIONAL**;
-- **H7 — independencia**;
+- coordinación de cuatro extremidades en nivel **COMPETENTE/FUNCIONAL**;
+- groove y variaciones en nivel **COMPETENTE/FUNCIONAL**;
+- independencia avanzada;
 - variaciones de bombo/caja;
 - ghost notes;
 - aperturas de hi-hat como vocabulario musical;
@@ -77,7 +77,7 @@ No es obligatorio ejecutar A→B sin pausa para superar el checkpoint.
 
 No existe BPM de aprobado.
 
-La perfección no es requisito: H4 MÍNIMO exige coordinación suficientemente estable para que U7 pueda trabajar groove y pequeñas variaciones sin convertir cada sesión en reaprendizaje del patrón base.
+La perfección no es requisito: el MÍNIMO PARA AVANZAR exige una coordinación de cuatro extremidades suficientemente estable para que Unidad 7 pueda trabajar groove y pequeñas variaciones sin convertir cada sesión en reaprendizaje del patrón base.
 
 ## Registrar esta práctica
 

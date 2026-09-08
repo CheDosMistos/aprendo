@@ -68,7 +68,7 @@ test('F5 U1 L2 renders the 24-bar formal skeleton and prepares D7', async ({ pag
   await expect(article.getByText(/esqueleto formal mínimo/i)).toBeVisible();
   await expect(article.getByText(/24 compases de 4\/4/i)).toBeVisible();
   await expect(article.getByText(/TIEMPO → FORMA → ENTRADA → DETALLE/i)).toBeVisible();
-  await expect(article.getByText(/U1 sólo prepara D7/i)).toBeVisible();
+  await expect(article.getByText(/Esta unidad sólo prepara lectura aplicada al kit/i)).toBeVisible();
   await expect(article.getByText(/120 BPM únicamente como metadato técnico/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
@@ -100,14 +100,14 @@ test('F5 U1 L4 uses continuous interpretation recovery and recording', async ({ 
 
 test('F5 U1 checkpoint renders Piece A without promoting Hito 6 or I4', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-1/repertorio-a-en-desarrollo/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Repertorio A en desarrollo' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Repertorio A en desarrollo' })).toBeVisible();
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/NO es Hito 6/i)).toBeVisible();
-  await expect(article.getByText(/NO certifica I4 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
-  await expect(article.getByText(/D7 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
-  await expect(article.getByText(/H5 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
-  await expect(article.getByText(/H6 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
+  await expect(article.getByText(/NO certifica repertorio COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/lectura aplicada al kit COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/groove y variaciones COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
+  await expect(article.getByText(/fills COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
@@ -115,6 +115,6 @@ test('F4 Hito 5 remains unchanged when F5 U1 starts', async ({ page }, testInfo)
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-10/hito-5/');
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso/i)).toBeVisible();
-  await expect(article.getByText(/H5 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
-  await expect(article.getByText(/H6 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
+  await expect(article.getByText(/groove y variaciones COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
+  await expect(article.getByText(/fills COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
 });

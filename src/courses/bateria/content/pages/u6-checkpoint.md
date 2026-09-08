@@ -7,8 +7,8 @@ unitSlug: unidad-6
 slug: cierre-u6
 kind: checkpoint
 order: 5
-title: "Cierre de U6 — ¿puedo continuar?"
-summary: Comprueba los tres PAS de U6, la representación inicial de 6/8 y la transformación controlada de motivos sin exigir perfección ni velocidad máxima.
+title: "Cierre de esta unidad — ¿puedo continuar?"
+summary: Comprueba los tres PAS de esta unidad, la representación inicial de 6/8 y la transformación controlada de motivos sin exigir perfección ni velocidad máxima.
 duration: 15–25 min
 competencies: [A4, A5, B3, B6, C1, C2, C3, D1, D2, D3, D6, E2, E3, F2, K2, K4, K6]
 rudiments: [Single Flammed Mill, Swiss Army Triplet, Flamacue]
@@ -17,7 +17,7 @@ published: true
 
 ## Propósito
 
-Decidir si U7 puede abrirse sin convertir U6 en un examen de velocidad. El cierre busca representación correcta, control lento suficiente y diagnóstico útil.
+Decidir si Unidad 7 puede abrirse sin convertir esta unidad en un examen de velocidad. El cierre busca representación correcta, control lento suficiente y diagnóstico útil.
 
 Reutiliza evidencia reciente y todavía representativa. Cuando el estado sea dudoso, antiguo o contradictorio, remuestrea una tarea corta.
 
@@ -25,7 +25,7 @@ Reutiliza evidencia reciente y todavía representativa. Cuando el estado sea dud
 
 Puedes continuar si:
 
-- reconoces los tres PAS de U6 y sabes localizar su notación oficial;
+- reconoces los tres PAS de esta unidad y sabes localizar su notación oficial;
 - al menos una muestra de cada PAS permite reconocer correctamente su estructura;
 - puedes mantener grace note y principal suficientemente diferenciadas a tempo lento;
 - comprendes 6/8 como dos pulsos compuestos subdivididos en tres;
@@ -46,7 +46,7 @@ No se exige que los tres PAS sean `FUNCIONALES`.
 
 Además del mínimo:
 
-- recuperas dos PAS de U6 después de separación sin calentamiento específico;
+- recuperas dos PAS de esta unidad después de separación sin calentamiento específico;
 - mantienes una jerarquía clara entre acentos y taps en una toma breve;
 - lees una línea nueva en 6/8 sin depender de memoria;
 - imitas una célula auditiva corta y sitúas razonablemente sus ataques en la rejilla;
@@ -66,17 +66,17 @@ Sin ser requisito:
 - tocar los tres PAS seguidos sin error;
 - dominar toda la familia de flam;
 - leer 6/8 complejo;
-- trabajar 5/4 o desplazamiento, que pertenecen al crecimiento de U7.
+- trabajar 5/4 o desplazamiento, que pertenecen al crecimiento de Unidad 7.
 
 ## Si aparece un cuello de botella
 
-No reinicies U6 completa. Corrige la variable responsable durante un bloque breve y retesta el conjunto. Si aparece dolor o tensión creciente, reduce carga o detente.
+No reinicies esta unidad completa. Corrige la variable responsable durante un bloque breve y retesta el conjunto. Si aparece dolor o tensión creciente, reduce carga o detente.
 
 ## Decisión
 
-**CONTINUAR** — la base para U7 está disponible.
+**CONTINUAR** — la base para Unidad 7 está disponible.
 
-**CONTINUAR + CORRECTIVO** — una debilidad localizada debe seguir apareciendo, pero no invalida U7.
+**CONTINUAR + CORRECTIVO** — una debilidad localizada debe seguir apareciendo, pero no invalida Unidad 7.
 
 **REDUCIR NOVEDAD** — un prerrequisito central necesita otra exposición antes de añadir complejidad.
 

@@ -23,7 +23,7 @@ Oído y escritura se usan para representar **el mismo concepto**. La lectura fr�
 
 ## 1. Puerta local — 3 min
 
-Marca 4/4 y subdivide en corcheas. Si puedes mantener `1 + 2 + 3 + 4 +` de forma estable, continúa. Si no, recupera solo C1/C2; no reestudies síncopa ni 3+3+2.
+Marca 4/4 y subdivide en corcheas. Si puedes mantener `1 + 2 + 3 + 4 +` de forma estable, continúa. Si no, recupera solo pulso interno/subdivisión binaria y ternaria; no reestudies síncopa ni 3+3+2.
 
 ## 2. NÚCLEO — Original y desplazado — 7 min
 

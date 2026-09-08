@@ -45,7 +45,7 @@ Mantén cinco posiciones por pulso y desplaza un único acento:
 - cantidad de posiciones: 5;
 - única variable principal: posición del acento;
 - pulso: negra estable;
-- objetivo: separar J4 de J2 sin perder de vista que aquí **el desplazamiento se aplica dentro de una rejilla de quintillo ya estable**.
+- objetivo: separar tuplets de 5 y 7 y divisiones no estándar de desplazamientos de acento y motivo sin perder de vista que aquí **el desplazamiento se aplica dentro de una rejilla de quintillo ya estable**.
 
 La técnica de acento puede provenir del vocabulario anterior del curso; no es necesario aprender un movimiento nuevo.
 
@@ -91,7 +91,7 @@ Condiciones:
 - existe al menos un motivo reconocible entre ambas barras;
 - la segunda barra termina con una referencia clara.
 
-No cruces todavía un ciclo incompatible de forma deliberada a través de barras; ése será el centro de J5.
+No cruces todavía un ciclo incompatible de forma deliberada a través de barras; ése será el centro de ciclos que cruzan compases.
 
 ## Improvisación restringida
 
@@ -133,11 +133,11 @@ Graba una versión uniforme y otra musicalizada. Sin mirar:
 
 ### No es automáticamente polirritmia
 
-Acentuar cada cierta posición dentro de un tuplet puede sugerir otra organización, pero no etiquetaremos el resultado como polirritmia sin analizar las capas que realmente coexisten. J6 hará ese trabajo.
+Acentuar cada cierta posición dentro de un tuplet puede sugerir otra organización, pero no etiquetaremos el resultado como polirritmia sin analizar las capas que realmente coexisten. polirritmia hará ese trabajo.
 
 ### No es todavía modulación métrica
 
-Podrías imaginar que una parte del quintillo o septillo se convierte en nueva referencia de pulso, pero **no lo hacemos aquí**. En U4 la negra original permanece estable. J8 estudiará la reinterpretación calculable.
+Podrías imaginar que una parte del quintillo o septillo se convierte en nueva referencia de pulso, pero **no lo hacemos aquí**. En esta unidad la negra original permanece estable. modulación métrica estudiará la reinterpretación calculable.
 
 ## Recuperación musical
 

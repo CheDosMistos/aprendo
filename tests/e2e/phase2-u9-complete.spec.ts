@@ -46,7 +46,7 @@ test('Phase 2 U9 overview defines one-use first sight and separates continuity f
   await page.goto('/bateria/fase-2-unidad-9/');
   await expect(page.getByRole('heading', { level: 1, name: 'Primera vista I: continuidad y recuperación' })).toBeVisible();
   await expect(page.getByText('PRIMERA VISTA = MATERIAL REALMENTE NUEVO + INSPECCIÓN BREVE + PRIMER INTENTO SIN ENSAYO NI PLAYBACK PREVIO.', { exact: true })).toBeVisible();
-  await expect(page.getByText('ESA MISMA PARTITURA → PRÁCTICA DE LECTURA, NO NUEVA EVIDENCIA D5.', { exact: true })).toBeVisible();
+  await expect(page.getByText('ESA MISMA PARTITURA → PRÁCTICA DE LECTURA, NO NUEVA EVIDENCIA forma y lectura de chart.', { exact: true })).toBeVisible();
   await expect(page.getByText('continuidad / recuperación', { exact: true })).toBeVisible();
   await expect(page.getByText('precisión de lectura / ejecución', { exact: true })).toBeVisible();
   await expect(page.locator('.course-score')).toHaveCount(0);
@@ -55,10 +55,10 @@ test('Phase 2 U9 overview defines one-use first sight and separates continuity f
 test('Phase 2 U9 lessons publish four distinct protected first-sight samples and keep playback locked through the first attempt', async ({ page }, testInfo) => {
   await login(page, testInfo);
   const lessons = [
-    ['/bateria/fase-2-unidad-9/protocolo-un-solo-intento/', 'Primera vista: protocolo de un solo intento', 'MusicXML — fuente de la muestra protegida L1'],
-    ['/bateria/fase-2-unidad-9/continuidad-y-precision/', 'Continuidad y precisión: medirlas por separado', 'MusicXML — fuente de la muestra protegida L2'],
-    ['/bateria/fase-2-unidad-9/recuperacion-sin-reiniciar/', 'Recuperación: error local sin reiniciar', 'MusicXML — fuente de la muestra protegida L3'],
-    ['/bateria/fase-2-unidad-9/transferencia-compas-compuesto/', 'Transferencia: primera vista en compás compuesto conocido', 'MusicXML — fuente de la muestra protegida L4'],
+    ['/bateria/fase-2-unidad-9/protocolo-un-solo-intento/', 'Primera vista: protocolo de un solo intento', 'MusicXML — fuente de la muestra protegida Lección 1'],
+    ['/bateria/fase-2-unidad-9/continuidad-y-precision/', 'Continuidad y precisión: medirlas por separado', 'MusicXML — fuente de la muestra protegida Lección 2'],
+    ['/bateria/fase-2-unidad-9/recuperacion-sin-reiniciar/', 'Recuperación: error local sin reiniciar', 'MusicXML — fuente de la muestra protegida Lección 3'],
+    ['/bateria/fase-2-unidad-9/transferencia-compas-compuesto/', 'Transferencia: primera vista en compás compuesto conocido', 'MusicXML — fuente de la muestra protegida Lección 4'],
   ] as const;
 
   for (const [route, heading, sourceLabel] of lessons) {
@@ -78,7 +78,7 @@ test('Phase 2 U9 checkpoint exposes two independent protected samples and both u
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-9/puerta-primera-vista-i/');
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de primera vista I' })).toBeVisible();
-  await expect(page.getByText('UNA SOLA LÍNEA NO DEBE DECIDIR D5. DOS MUESTRAS TAMPOCO CONVIERTEN AUTOMÁTICAMENTE D5 EN FUNCIONAL.', { exact: true })).toBeVisible();
+  await expect(page.getByText('UNA SOLA LÍNEA NO DEBE DECIDIR forma y lectura de chart. DOS MUESTRAS TAMPOCO CONVIERTEN AUTOMÁTICAMENTE forma y lectura de chart EN FUNCIONAL.', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'Muestra A — 4/4' })).toBeVisible();
   await expect(page.getByRole('heading', { level: 2, name: 'Muestra B — 6/8' })).toBeVisible();
 
@@ -90,6 +90,6 @@ test('Phase 2 U9 checkpoint exposes two independent protected samples and both u
   await expect(scores.nth(1).locator('.course-score__play')).toBeHidden();
   await completeFirstAttempt(scores.nth(1));
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U10' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR Unidad 10' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });

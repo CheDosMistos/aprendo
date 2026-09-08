@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Refinar la representación funcional de L2 incorporando información expresiva y detalle **con una política explícita de incertidumbre**.
+Refinar la representación funcional de Lección 2 incorporando información expresiva y detalle **con una política explícita de incertidumbre**.
 
 La transcripción mejora cuando añade información útil, pero también cuando sabe detenerse.
 
@@ -86,9 +86,9 @@ Cuando dudes entre dos lecturas, no elijas por intuición y borres la alternativ
 
 Ejemplo:
 
-`H1: dos semicorcheas suaves de caja`
+`setup, ergonomía y ecología del kit: dos semicorcheas suaves de caja`
 
-`H2: una nota de caja + artefacto de otra capa`
+`bombo: una nota de caja + artefacto de otra capa`
 
 Busca una prueba:
 

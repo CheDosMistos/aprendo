@@ -7,23 +7,23 @@ unitSlug: fase-4-unidad-1
 slug: kit-listo-transferir
 kind: checkpoint
 order: 5
-title: "Checkpoint — Kit listo para transferir"
-summary: "Verifica que el montaje, la escucha segura y la adaptación inicial a superficies permiten empezar U2 sin exigir todavía pedales, groove o coordinación completa."
+title: "Evaluación — Kit listo para transferir"
+summary: "Verifica que el montaje, la escucha segura y la adaptación inicial a superficies permiten empezar Unidad 2 sin exigir todavía pedales, groove o coordinación completa."
 duration: 15–25 min
 competencies: [H1, A1, A8, C1, K2, K7]
 rudiments: []
 published: true
 ---
 
-## Qué comprueba este checkpoint
+## Qué comprueba esta evaluación
 
 No certifica que ya “sepas tocar batería”. Comprueba algo más concreto:
 
 > **que el kit está suficientemente bien dispuesto y entendido como para empezar a transferir material conocido sin que el montaje o la exposición sonora sean el principal obstáculo.**
 
-U1 centra **H1** y sólo inicia A8/K7 en contexto de kit.
+Esta unidad centra **setup, ergonomía y ecología del kit** y sólo inicia adaptación técnica entre superficies y kit/gestión de carga y salud en contexto de kit.
 
-## MÍNIMO PARA AVANZAR A U2
+## MÍNIMO PARA AVANZAR A Unidad 2
 
 Marca la evidencia sólo cuando puedas sostenerla en una prueba real:
 
@@ -37,18 +37,18 @@ Marca la evidencia sólo cuando puedas sostenerla en una prueba real:
 - [ ] puedes tocar una célula manual ya conocida en caja y en otra superficie sin pérdida sistemática del pulso;
 - [ ] si queda un problema, puedes nombrar el cuello de botella principal: `ACCESO / SUPERFICIE / MOVIMIENTO / TIEMPO`.
 
-No necesitas marcar todo en una única toma perfecta. El criterio es que la base sea suficientemente estable para que U2 pueda introducir **transferencia entre superficies** sin depender de una configuración todavía inviable.
+No necesitas marcar todo en una única toma perfecta. El criterio es que la base sea suficientemente estable para que Unidad 2 pueda introducir **transferencia entre superficies** sin depender de una configuración todavía inviable.
 
 ## NO ES REQUISITO
 
-Este checkpoint **no exige**:
+Esta evaluación **no exige**:
 
-- H2 — técnica de bombo funcional;
-- H3 — hi-hat de pie funcional;
-- H4 — coordinación de cuatro extremidades;
-- H5 — groove;
-- H6 — fills;
-- G5 — orquestación creativa;
+- técnica de bombo funcional;
+- hi-hat de pie funcional;
+- coordinación de cuatro extremidades;
+- groove;
+- fills;
+- orquestación creativa;
 - afinación profesional;
 - tocar fuerte;
 - velocidad alta;
@@ -85,9 +85,9 @@ Si algo falla, identifica una categoría principal:
 
 `ACCESO / SUPERFICIE / MOVIMIENTO / TIEMPO`
 
-No necesitas resolver completamente todo cuello de botella antes de continuar si U2 puede trabajarlo de forma segura. Sí necesitas distinguir qué problema estás intentando corregir.
+No necesitas resolver completamente todo cuello de botella antes de continuar si Unidad 2 puede trabajarlo de forma segura. Sí necesitas distinguir qué problema estás intentando corregir.
 
-## COMPETENTE / FUNCIONAL EN H1
+## COMPETENTE / FUNCIONAL EN setup, ergonomía y ecología del kit
 
 Además del mínimo:
 
@@ -97,7 +97,7 @@ Además del mínimo:
 - ajustas el montaje según la tarea en vez de defender una única configuración rígida;
 - integras gestión de carga y exposición sonora sin recordatorios constantes.
 
-COMPETENTE no es requisito para entrar en U2.
+COMPETENTE no es requisito para entrar en Unidad 2.
 
 ## AVANZADO
 
@@ -105,8 +105,8 @@ Optimizar configuración para distintos contextos, superficies, técnica y sonid
 
 ## Cierre registrado ≠ competencia demostrada
 
-Pulsar o marcar **“checkpoint completado”** sólo registra que realizaste la prueba. **No demuestra automáticamente H1 MÍNIMO.**
+Pulsar o marcar **“Evaluación completado”** sólo registra que realizaste la prueba. **No demuestra automáticamente setup, ergonomía y ecología del kit MÍNIMO.**
 
 La evidencia es el comportamiento observable: configuración sostenible, acceso, estrategia de seguridad, transferencia manual básica y diagnóstico razonable.
 
-Si aparece dolor u otra señal de alarma, la prioridad es reducir/detener la carga, no “aprobar” el checkpoint.
+Si aparece dolor u otra señal de alarma, la prioridad es reducir/detener la carga, no “aprobar” la evaluación.

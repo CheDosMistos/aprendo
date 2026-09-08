@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-L1 construyó `6/8 = 2×3`. L2 mantuvo esa jerarquía cuando aparecieron silencios. L3 mostró que seis corcheas escritas no bastan para decidir entre 3/4 y 6/8.
+Lección 1 construyó `6/8 = 2×3`. Lección 2 mantuvo esa jerarquía cuando aparecieron silencios. Lección 3 mostró que seis corcheas escritas no bastan para decidir entre 3/4 y 6/8.
 
-L4 cambia de problema:
+Lección 4 cambia de problema:
 
 > **LA ESTRUCTURA DEBE SOBREVIVIR AL CAMBIO DE REPRESENTACIÓN.**
 
@@ -35,19 +35,19 @@ Sin mirar una partitura anterior, completa verbalmente:
 - seis corcheas escritas por sí solas **no definen** una métrica;
 - una reagrupación o patrón de acentos **no cambia automáticamente** el compás.
 
-Si alguna frase no sale, vuelve brevemente a L3 antes de aumentar dificultad.
+Si alguna frase no sale, vuelve brevemente a Lección 3 antes de aumentar dificultad.
 
 ## 2. Leer una línea nueva accesible — 8–9 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-title="20.U6.L4 — transferencia de representación en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-title="Lección 4 — transferencia de representación en 6/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u6/f2-u6-l4-transferencia-6-8.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de habilitar audio:
 
 `VER → CONTAR → CANTAR → TOCAR → ESCUCHAR`.
 
-Esta línea es nueva, pero **no es una prueba formal de primera vista D5**. La dificultad notacional está controlada para que la transferencia de representación sea la variable principal.
+Esta línea es nueva, pero **no es una prueba formal de primera vista forma y lectura de chart**. La dificultad notacional está controlada para que la transferencia de representación sea la variable principal.
 
 ### VER
 
@@ -98,7 +98,7 @@ La pregunta no es «¿puedo memorizar la línea?», sino:
 
 **¿puedo conservar `2×3` cuando la información llega por oído en lugar de por notación?**
 
-Una reproducción correcta de este ejemplo no demuestra por sí sola reconocimiento métrico general ni E5 funcional. Es una muestra controlada de E1/E2 dentro del material ya conocido.
+Una reproducción correcta de este ejemplo no demuestra por sí sola reconocimiento métrico general ni grabación y comparación funcional. Es una muestra controlada de reconocimiento de pulso y subdivisión/imitación rítmica dentro del material ya conocido.
 
 ## 4. Transformar sin cambiar el compás — 5 min
 
@@ -187,7 +187,7 @@ Decisión:
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A U6.CP
+## MÍNIMO PARA AVANZAR A esta unidad.evaluación
 
 En una condición cómoda y con ayudas razonables cuando hagan falta:
 
@@ -204,14 +204,14 @@ No se exige:
 
 - cero errores;
 - un BPM fijo o alto;
-- reconocimiento métrico general E5 a partir de audio ambiguo;
-- primera vista formal D5 — U9;
-- 9/8 o 12/8 — U7;
-- sextillos — U8;
-- gaps de metrónomo — U10;
+- reconocimiento métrico general grabación y comparación a partir de audio ambiguo;
+- primera vista formal Unidad 9;
+- 9/8 o 12/8 — Unidad 7;
+- sextillos — Unidad 8;
+- gaps de metrónomo — Unidad 10;
 - shuffle/jazz como foco estilístico;
 - convertir la reagrupación `2+2+2` en una nueva indicación métrica;
-- actualizar automáticamente D4, F2, E1, E2, G1 o G2 por completar la página.
+- actualizar automáticamente lectura de compás, métrica y terminología rítmica, reconocimiento de pulso y subdivisión, imitación rítmica, motivo o desarrollo motívico por completar la página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 

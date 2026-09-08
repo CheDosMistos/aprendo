@@ -19,7 +19,7 @@ published: true
 
 Hacer un ensayo completo del Hito sin convertirlo en una búsqueda de toma perfecta.
 
-Usa la versión que hayas decidido conservar después de L3.
+Usa la versión que hayas decidido conservar después de Lección 3.
 
 ## Parte A — Ejecución completa
 

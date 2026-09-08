@@ -59,7 +59,7 @@ test('unit cards use two columns and one contextual action through pending, acti
   await expect(rows.nth(4).locator('.section-kind')).toHaveText('Cierre');
   await expect(rows.nth(0).locator('.section-title')).toHaveText('Singles agrupados y subdivisión');
   await expect(rows.nth(0).locator('.section-title')).not.toContainText('Lección 1');
-  await expect(rows.nth(4).locator('.section-title')).not.toContainText('Cierre');
+  await expect(rows.nth(4).locator('.section-title')).toHaveText('Cierre de esta unidad — ¿puedo continuar?');
 
   const firstGrid = await rows.nth(0).locator('a').evaluate((element) => getComputedStyle(element).gridTemplateColumns);
   expect(firstGrid.trim().split(/\s+/)).toHaveLength(2);
@@ -112,7 +112,7 @@ test('phase tabs expose one phase at a time and compact cards remain usable on a
   const phase7 = page.getByRole('tab', { name: /Fase 7/ });
 
   await expect(phase1).toHaveAttribute('aria-selected', 'true');
-  await expect(phase7).toBeDisabled();
+  await expect(phase7).toBeEnabled();
   await expect(page.locator('#fase-1-panel')).toBeVisible();
   await expect(page.locator('#fase-2-panel')).toBeHidden();
   await expect(page.locator('[role="tabpanel"]:visible')).toHaveCount(1);

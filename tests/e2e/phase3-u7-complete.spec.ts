@@ -89,13 +89,13 @@ test('U7 L5 leaves development bars unwritten and removes only one aid at a time
 test('U7 G3 checkpoint uses fresh prompt and explicitly does not certify G4', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-7/puerta-g3-hacia-composicion/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Puerta G3 hacia composición' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Puerta composición de fills y secciones hacia composición' })).toBeVisible();
   await expectOneScoreReady(page);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/improvisar una frase corta respetando una restricción/i).first()).toBeVisible();
   await expect(article.getByText(/No escribas la respuesta completa antes/i)).toBeVisible();
-  await expect(article.getByText(/AVANZADO no es requisito para U8/)).toBeVisible();
-  await expect(article.getByText(/no certifica G4 composición funcional/i)).toBeVisible();
+  await expect(article.getByText(/AVANZADO no es requisito para Unidad 8/)).toBeVisible();
+  await expect(article.getByText(/no certifica composición de piezas composición funcional/i)).toBeVisible();
 });
 
 test('U6 remains intact and U7 introduces no improvisation grader widget', async ({ page }, testInfo) => {

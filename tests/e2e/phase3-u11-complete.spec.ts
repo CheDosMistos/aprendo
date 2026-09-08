@@ -111,13 +111,13 @@ test('U11 checkpoint exposes four listening modes, hidden reference and U12 mini
   await expect(widget.locator('[data-context-answer-text]')).toContainText(/bloque A — compases 1–4/);
   await expect(widget.locator('[data-context-answer-text]')).toContainText(/bloque B — compases 5–8/);
   const article = page.locator('article.course-article');
-  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A U12' })).toBeVisible();
-  await expect(article.getByText(/No es requisito para U12/)).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A Unidad 12' })).toBeVisible();
+  await expect(article.getByText(/No es requisito para Unidad 12/)).toBeVisible();
 });
 
 test('U10 remains intact and U11 introduces no automatic musical-analysis grader', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-10/puerta-siete/');
-  await expect(page.getByText(/J3 — MÍNIMO GLOBAL/)).toBeVisible();
+  await expect(page.getByText(/MÍNIMO GLOBAL/)).toBeVisible();
   await page.goto('/bateria/fase-3-unidad-11/ficha-analisis-integrado/');
   await expect(page.locator('[data-analysis-grader], [data-tonal-grader], [data-ear-grader]')).toHaveCount(0);
 });

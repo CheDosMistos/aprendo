@@ -27,7 +27,7 @@ Comprueba:
 - subdivisión ternaria cantada o marcada;
 - capacidad de separar nota ornamental y ataque principal.
 
-Si el drag está frágil, corrige únicamente su rebote/altura. Si lo frágil es el ternario, vuelve a contar tres subdivisiones por pulso. No reestudies todo U3/U6.
+Si el drag está frágil, corrige únicamente su rebote/altura. Si lo frágil es el ternario, vuelve a contar tres subdivisiones por pulso. No reestudies todo Unidad 3/Unidad 6.
 
 ## 2. Preparación ternaria — 6 min
 

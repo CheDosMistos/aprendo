@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-5
 slug: checkpoint-7e
 kind: checkpoint
 order: 5
-title: "Checkpoint 7E — J5 funcional: sostener, predecir y resolver"
+title: "Evaluación — ciclos que cruzan compases funcional: sostener, predecir y resolver"
 summary: "Comprueba que puedes mantener ciclos que cruzan barras, conservar la métrica, predecir su realineación, leerlos, escribirlos, recuperarlos y usarlos musicalmente."
 duration: 20–30 min + revisión
 competencies: [J5, J1, J2, C1, C2, C3, C4, D4, D6, E2, F2, G1, G2, G3, G4, G5, G6, K2, K3, K5]
@@ -15,15 +15,15 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa esta evaluación
 
-El mapa define J5 así:
+El curso define ciclos que cruzan compases así:
 
 - **MÍNIMO:** mantener una célula mientras cambia su alineación con el compás;
 - **COMPETENTE / FUNCIONAL:** predecir y sentir la resolución de ciclos sencillos;
 - **AVANZADO:** diseñar ciclos largos e integrarlos en forma sin perder referencia.
 
-Por tanto, este checkpoint no se supera sólo por repetir un patrón de memoria.
+Por tanto, esta evaluación no se supera sólo por repetir un patrón de memoria.
 
 Se evalúan:
 
@@ -51,7 +51,7 @@ Responde con tus palabras:
 
 ## 2. Mantener — ciclo de 3 semicorcheas
 
-Toca el ejercicio de L1 hasta la realineación.
+Toca el ejercicio de Lección 1 hasta la realineación.
 
 Debes conservar:
 
@@ -85,7 +85,7 @@ No basta acertar por contar barras memorizadas: debes conservar la referencia du
 
 ## 5. Leer
 
-Lee una partitura original de U5 y explica antes de tocar:
+Lee una partitura original de esta unidad y explica antes de tocar:
 
 - compás;
 - subdivisión común;
@@ -144,7 +144,7 @@ Explica después qué parte pertenece a la barra y cuál al ciclo.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia U6 si, de forma razonablemente repetible:
+Puedes continuar hacia Unidad 6 si, de forma razonablemente repetible:
 
 - mantienes al menos un ciclo sencillo que cruza barras;
 - no lo reinicias automáticamente en cada `1`;
@@ -153,18 +153,18 @@ Puedes continuar hacia U6 si, de forma razonablemente repetible:
 - reconoces una realineación sencilla;
 - puedes recuperarte de un error sin destruir siempre ambas referencias.
 
-Esto satisface el mínimo de J5 sin exigir diseño avanzado.
+Esto satisface el mínimo de ciclos que cruzan compases sin exigir diseño avanzado.
 
 ## COMPETENTE / FUNCIONAL
 
-J5 puede considerarse **funcional** cuando además:
+ciclos que cruzan compases puede considerarse **funcional** cuando además:
 
 - predices la resolución de ciclos sencillos antes de tocarlos;
 - sientes la resolución al llegar;
 - lees y escribes al menos dos relaciones simples;
 - mantienes barra y ciclo con estabilidad suficiente durante varias barras;
 - aplicas el procedimiento musicalmente;
-- distingues J5 de J1, J2, J6 y J7.
+- distingues ciclos que cruzan compases de agrupaciones dentro de 4/4, desplazamientos de acento y motivo, polirritmia y polimetría.
 
 ## AVANZADO
 

@@ -75,4 +75,4 @@ Anota por separado:
 
 ## Criterio de avance
 
-Puedes pasar a L4 si has producido evidencia de lectura no memorizada, una tarea auditiva y una transformación creativa básica. Ninguna de ellas se convierte en un segundo examen independiente del hito PAS.
+Puedes pasar a Lección 4 si has producido evidencia de lectura no memorizada, una tarea auditiva y una transformación creativa básica. Ninguna de ellas se convierte en un segundo examen independiente del hito PAS.

@@ -25,7 +25,7 @@ Fill B ocupa:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — GROOVE → FILL B → 1
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="40.U9.L2 — Fill B: dos tiempos y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l2-two-beat-fill-return.musicxml" data-score-title="Lección 2 — Fill B: dos tiempos y retorno" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La ruta manual es deliberadamente conocida:
 
@@ -35,11 +35,11 @@ La ruta manual es deliberadamente conocida:
 - `&`: caja — L;
 - siguiente evento: **1 del compás siguiente**.
 
-Es el mismo tipo de movimiento de corcheas y sticking R/L trabajado en U2/U8, ahora con una función formal nueva.
+Es el mismo tipo de movimiento de corcheas y sticking R/L trabajado en Unidad 2/Unidad 8, ahora con una función formal nueva.
 
 ## Lo nuevo no son las manos
 
-La novedad dominante es H6:
+La novedad dominante es fills:
 
 - el fill empieza antes;
 - dura dos tiempos;

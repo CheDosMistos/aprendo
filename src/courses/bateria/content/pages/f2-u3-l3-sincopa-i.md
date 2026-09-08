@@ -15,28 +15,28 @@ rudiments: []
 published: true
 ---
 
-L1 separó **ATAQUE** de **DURACIÓN** mediante ligaduras. L2 mostró que el puntillo puede ampliar esa duración sin añadir golpes. L3 usa ahora ambas ideas para introducir una primera síncopa estructurada sin cambiar de compás.
+Lección 1 separó **ATAQUE** de **DURACIÓN** mediante ligaduras. Lección 2 mostró que el puntillo puede ampliar esa duración sin añadir golpes. Lección 3 usa ahora ambas ideas para introducir una primera síncopa estructurada sin cambiar de compás.
 
 > **La síncopa modifica la relación entre ataque, duración y posiciones métricas; no mueve el 4/4.**
 
 En esta lección trabajaremos un caso deliberadamente claro: **un ataque aparece en una posición débil y su duración continúa a través de una posición métrica más fuerte sin reatacar allí**. El pulso y la subdivisión siguen ocurriendo por debajo.
 
-No conviertas todavía “síncopa” en una colección de dibujos. Tampoco vamos a estudiar aún variedad extensa, acentos dinámicos complejos ni textura rudimental: eso pertenece a U4.
+No conviertas todavía “síncopa” en una colección de dibujos. Tampoco vamos a estudiar aún variedad extensa, acentos dinámicos complejos ni textura rudimental: eso pertenece a Unidad 4.
 
-## 1. Recuperación L1–L2 — 3 min
+## 1. Recuperación Lecciones 1–2 — 3 min
 
-Recupera primero la relación entre ataque y duración con el banco de L2. No escuches el playback antes de la toma.
+Recupera primero la relación entre ataque y duración con el banco de Lección 2. No escuches el playback antes de la toma.
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="20.U3.L2 — recuperación de duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-title="Lección 2 — recuperación de duración" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l2-puntillo-duracion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Haz una toma corta y comprueba dos cosas:
 
 - ¿localizas dónde empieza cada nuevo ataque?;
 - ¿puedes dejar pasar posiciones internas de la duración sin añadir golpes?
 
-Si una ligadura o un puntillo todavía te hace reatacar automáticamente, reduce la longitud y conserva esa corrección mientras entras en L3. No necesitas repetir U3 completa.
+Si una ligadura o un puntillo todavía te hace reatacar automáticamente, reduce la longitud y conserva esa corrección mientras entras en Lección 3. No necesitas repetir esta unidad completa.
 
 ## 2. NÚCLEO — 10–12 min
 
@@ -44,7 +44,7 @@ Si una ligadura o un puntillo todavía te hace reatacar automáticamente, reduce
 
 El banco siguiente mantiene **4/4** y usa vocabulario ya conocido. La novedad es la relación métrica: algunos ataques empiezan fuera de una posición fuerte y su duración atraviesa una posición fuerte posterior. El `120` del MusicXML es sólo referencia técnica del motor de playback; **no es un BPM obligatorio ni un criterio de aprobado**.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="20.U3.L3 — síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-title="Lección 3 — síncopa I" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u3/f2-u3-l3-sincopa-i.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Paso A — encuentra el marco antes del efecto
 
@@ -72,7 +72,7 @@ Por eso la sensación cambia sin que cambie el compás. El alumno debe poder seg
 
 ### Paso C — no confundir conceptos
 
-Un ataque fuera de la negra puede formar parte de una frase sincopada, pero **no vamos a usar “síncopa” como sinónimo automático de cualquier offbeat**. Para mantener una frontera pedagógica clara, el núcleo de L3 usa el caso inequívoco: posición débil + duración que atraviesa una posición métrica fuerte.
+Un ataque fuera de la negra puede formar parte de una frase sincopada, pero **no vamos a usar “síncopa” como sinónimo automático de cualquier offbeat**. Para mantener una frontera pedagógica clara, el núcleo de Lección 3 usa el caso inequívoco: posición débil + duración que atraviesa una posición métrica fuerte.
 
 Tampoco estamos haciendo:
 
@@ -136,7 +136,7 @@ Cambia **una sola variable**: la posición de un ataque.
 5. Toca A y B manteniendo las mismas negras internas.
 6. Explica qué cambió: **posición del ataque y relación con el marco métrico**. Explica también qué no cambió: **pulso, duración total del fragmento y 4/4**.
 
-No añadas ahora acentos, paradiddles, doubles ni una segunda transformación. Si varias cosas cambian a la vez, la tarea deja de comprobar la novedad de L3.
+No añadas ahora acentos, paradiddles, doubles ni una segunda transformación. Si varias cosas cambian a la vez, la tarea deja de comprobar la novedad de Lección 3.
 
 ## 5. Registro — 2 min
 
@@ -158,11 +158,11 @@ Interpreta la muestra con la cadena aprobada:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-Completar la lección **no actualiza automáticamente** D2, F1, F2, C1/C2 ni las competencias de práctica. El BPM sólo describe una condición de la muestra.
+Completar la lección **no actualiza automáticamente** síncopa, teoría básica del pulso y las figuras, métrica y terminología rítmica, pulso interno/subdivisión binaria y ternaria ni las competencias de práctica. El BPM sólo describe una condición de la muestra.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a L4 cuando, en material accesible y con las ayudas que todavía necesites:
+Puedes pasar a Lección 4 cuando, en material accesible y con las ayudas que todavía necesites:
 
 - mantienes el 4/4 como marco estable mientras ocurre una síncopa elemental;
 - localizas un ataque que empieza en posición débil;
@@ -172,7 +172,7 @@ Puedes pasar a L4 cuando, en material accesible y con las ayudas que todavía ne
 - transformas una célula moviendo un ataque y conservando la duración total del fragmento;
 - identificas qué variable limitó el intento.
 
-No se exige cero errores, un BPM concreto, síncopa variada, acentos complejos, B7 funcional ni retirar todas las ayudas.
+No se exige cero errores, un BPM concreto, síncopa variada, acentos complejos, aplicación musical de rudimentos funcional ni retirar todas las ayudas.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
@@ -180,7 +180,7 @@ La tarea empieza a ser funcional cuando puedes leer células nuevas de esta difi
 
 ## AVANZADO EN ESTA TAREA
 
-Como ampliación, crea una segunda transformación equivalente en otro punto del 4/4 y comprueba que el pulso no cambia. Detente ahí: si empiezas a acumular variedades de síncopa, capas dinámicas o texturas rudimentales, ya estás invadiendo U4.
+Como ampliación, crea una segunda transformación equivalente en otro punto del 4/4 y comprueba que el pulso no cambia. Detente ahí: si empiezas a acumular variedades de síncopa, capas dinámicas o texturas rudimentales, ya estás invadiendo Unidad 4.
 
 ## Si algo se rompe
 
@@ -189,7 +189,7 @@ Como ampliación, crea una segunda transformación equivalente en otro punto del
 - **el ataque débil llega tarde o temprano:** baja densidad o tempo y recupera la subdivisión antes de volver al compás completo;
 - **entiendes la célula pero no puedes explicarla:** señala por separado ataque, duración, pulso y marco métrico antes de otra toma;
 - **la transformación cambia la duración total:** vuelve a dos pulsos y suma la rejilla antes de escribir símbolos;
-- **las manos interfieren:** usa sticking alternado sencillo; no conviertas un problema técnico en una conclusión sobre D2;
+- **las manos interfieren:** usa sticking alternado sencillo; no conviertas un problema técnico en una conclusión sobre síncopa;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.
 
 La siguiente lección cambiará de representación: **oír, escribir y transformar duración** para comprobar que la relación ataque/duración no depende sólo de reconocer la partitura visualmente.

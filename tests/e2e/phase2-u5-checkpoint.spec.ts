@@ -33,7 +33,7 @@ test('Phase 2 U5 checkpoint renders its exclusive score and releases playback on
   await page.goto('/bateria/fase-2-unidad-5/puerta-de-reorganizacion-del-pulso/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Puerta de reorganización del pulso' })).toBeVisible();
-  await expect(page.getByText('¿C1–C3 y D3 permiten abrir U6', { exact: false })).toBeVisible();
+  await expect(page.getByText('¿pulso, subdivisión y cambios de subdivisión y tuplets y ornamentación permiten abrir Unidad 6', { exact: false })).toBeVisible();
 
   const scores = page.locator('.course-score');
   await expect(scores).toHaveCount(1);
@@ -78,9 +78,9 @@ test('Phase 2 U5 checkpoint separates subdivision from meter and keeps progressi
   await expect(page.getByText('tres por pulso no convierte automáticamente el compás en 6/8', { exact: false })).toBeVisible();
   await expect(page.getByText('no enseña todavía 6/8', { exact: false })).toBeVisible();
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U6' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR Unidad 6' })).toBeVisible();
   await expect(page.getByText('un BPM fijo, universal o alto', { exact: false })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal forma y lectura de chart' })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
 
   for (const decision of ['CONTINUAR', 'CONTINUAR + CORRECTIVO', 'REDUCIR NOVEDAD', 'DETENER CARGA']) {

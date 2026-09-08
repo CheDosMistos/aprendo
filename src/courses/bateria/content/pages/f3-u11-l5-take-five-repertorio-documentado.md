@@ -48,7 +48,7 @@ Registra:
 
 1. un mapa de grandes bloques/secciones según lo que oyes;
 2. dónde percibes retorno o contraste;
-3. cómo te ayuda el 5/4 ya trabajado en U9;
+3. cómo te ayuda el 5/4 ya trabajado en Unidad 9;
 4. una observación sobre continuidad/densidad de batería;
 5. una observación sobre la capa de bajo;
 6. una relación entre ambas capas que puedas justificar auditivamente;

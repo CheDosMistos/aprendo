@@ -19,7 +19,7 @@ published: true
 
 Ejecutar y leer un **septillo 7:4 de semicorcheas** sobre una negra estable: siete ataques equidistantes ocupan el mismo pulso que normalmente contendría cuatro semicorcheas.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u4/f7-u4-tuplet-pulse-models.musicxml" data-score-title="70.U4 — 4, 5 y 7 dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u4/f7-u4-tuplet-pulse-models.musicxml" data-score-title="Unidad 4 — 4, 5 y 7 dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Qué cambia respecto al quintillo
 
@@ -35,7 +35,7 @@ No aceleramos el **pulso**; aumenta la **densidad de subdivisión**.
 
 ## Frontera inmediata: 7/8 ≠ septillo
 
-En `7/8`, estudiado en U3, una barra contiene siete corcheas escritas y su duración métrica es distinta de una barra de `4/4` al conservar la corchea.
+En `7/8`, estudiado en Unidad 3, una barra contiene siete corcheas escritas y su duración métrica es distinta de una barra de `4/4` al conservar la corchea.
 
 En este septillo:
 

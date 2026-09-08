@@ -67,7 +67,7 @@ Cuando pulses **Empezar**:
 5. toca la línea de principio a fin con sticking alternado, empezando con derecha;
 6. ante un error pequeño, intenta conservar el pulso y reincorporarte en lugar de detenerte inmediatamente.
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="20.U1.L1 — lectura real de entrada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-title="Lección 1 — lectura real de entrada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-lectura-entrada-a.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ### Después del primer intento
 
@@ -107,7 +107,7 @@ Completa mentalmente esta cadena antes de registrar la sesión:
 
 **INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN**
 
-- **Inferencia:** «D1/C1/C2 parecen suficientemente disponibles» o «hay una fragilidad localizada».
+- **Inferencia:** «figuras, silencios y compás/pulso interno/subdivisión binaria y ternaria parecen suficientemente disponibles» o «hay una fragilidad localizada».
 - **Evidencia:** primer intento de una línea realmente nueva + repetición con una condición cambiada.
 - **Tarea:** lectura binaria elemental de 4/4.
 - **Condiciones:** tempo usado, click convencional, sticking alternado, primera toma sin playback.
@@ -119,7 +119,7 @@ En el registro de progreso de Aprendo elige **una variable limitante principal**
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar a la siguiente lección de 20.U1 cuando:
+Puedes pasar a la siguiente lección de Unidad 1 cuando:
 
 - localizas un pulso razonable y sabes qué subdivisión necesitas mantener;
 - puedes abordar esta línea nueva sin memorizarla primero;

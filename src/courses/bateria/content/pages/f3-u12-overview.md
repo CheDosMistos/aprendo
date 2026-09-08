@@ -17,15 +17,15 @@ published: true
 
 ## Función de la unidad
 
-U12 no trae una técnica creativa nueva. Su trabajo es **integrar con menos andamiaje** lo que ya has construido en Fase 3.
+Esta unidad no trae una técnica creativa nueva. Su trabajo es **integrar con menos andamiaje** lo que ya has construido en Fase 3.
 
 > **Hito de Fase 3 aprobado:** Crear, escribir, tocar y explicar una breve pieza rítmica propia empleando desarrollo motívico y al menos una transformación consciente.
 
-Este cierre corresponde al **Hito global 4 — Autor rítmico**. El Hito global 3 — ciclo `leer → cantar/contar cuando proceda → tocar → escuchar → escribir` — ya tuvo su checkpoint en U4.
+Este cierre corresponde al **Hito global 4 — Autor rítmico**. El Hito global 3 — ciclo `leer → cantar/contar cuando proceda → tocar → escuchar → escribir` — ya tuvo su Evaluación en Unidad 4.
 
-## No es “U8 otra vez”
+## No es “Unidad 8 otra vez”
 
-U8 enseñó a fijar V0, escribir, grabar, comparar y revisar. Aquí no repetimos ese curso paso a paso: recuperas esas herramientas para preparar un proyecto final más autónomo.
+Unidad 8 enseñó a fijar V0, escribir, grabar, comparar y revisar. Aquí no repetimos ese curso paso a paso: recuperas esas herramientas para preparar un proyecto final más autónomo.
 
 Si aparece un cuello de botella concreto, lo corriges. **No necesitas volver a completar una unidad entera para poder continuar.**
 
@@ -44,22 +44,22 @@ Si reutilizas material propio, no basta con presentarlo sin trabajo: la versión
 
 **4/4, 5/4 y 7/8 son opciones válidas** si puedes sostenerlas razonablemente.
 
-Elegir 5/4 o 7/8 puede demostrar transferencia de U9/U10, pero **la métrica impar no es requisito del Hito**. Si añade ruido a la autoría, usa 4/4.
+Elegir 5/4 o 7/8 puede demostrar transferencia de Unidad 9/Unidad 10, pero **la métrica impar no es requisito del Hito**. Si añade ruido a la autoría, usa 4/4.
 
-Para el mínimo G4, **1–4 compases coherentes y reproducibles pueden bastar**. Más longitud sólo aporta si cumple una función musical.
+Para el mínimo composición de piezas, **1–4 compases coherentes y reproducibles pueden bastar**. Más longitud sólo aporta si cumple una función musical.
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Brief final
+### Lección 1 — Brief final
 Defines qué quieres demostrar: motivo, métrica, transformación, forma, longitud y condiciones.
 
-### L2 — Pieza candidata
+### Lección 2 — Pieza candidata
 Construyes V0 con motivo y desarrollo rastreables y una representación que permita volver a tocarla.
 
-### L3 — Auditoría autónoma
+### Lección 3 — Auditoría autónoma
 Grabas V0, comparas intención/representación/ejecución y produces V1 sólo si la evidencia justifica un cambio.
 
-### L4 — Ensayo de Hito
+### Lección 4 — Ensayo de Hito
 Tocas, escuchas, compruebas el ciclo oído–escritura–ejecución y ensayas una explicación breve.
 
 ### Hito 4 — Autor rítmico

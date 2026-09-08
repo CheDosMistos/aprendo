@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Integración y Hito 6"
 summary: "Cierra Fase 5 integrando Pieza A, Pieza B y Pieza C como evidencia de estructura, tiempo, dinámica y recuperación, sin introducir una habilidad aislada nueva."
-duration: Unidad flexible · 4 lecciones + checkpoint final
+duration: Unidad flexible · 4 lecciones + evaluación final
 competencies: [H5, H6, H7, H8, I2, I3, I4, C1, C2, C3, C4, F3, K2, K5, K6, K7]
 rudiments: []
 published: true
@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: ninguna habilidad aislada
 
-U12 no añade un nuevo estilo, patrón, rudimento, compás ni sistema de independencia.
+Esta unidad no añade un nuevo estilo, patrón, rudimento, compás ni sistema de independencia.
 
 Su función es **integrar y producir evidencia**.
 
@@ -49,26 +49,26 @@ No todas las dimensiones tienen que alcanzar el mismo nivel simultáneamente.
 
 > **EL HITO SE JUZGA POR FUNCIÓN MUSICAL SOSTENIDA, NO POR PERFECCIÓN GLOBAL.**
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Protocolo de evidencia y condiciones declaradas
+### Lección 1 — Protocolo de evidencia y condiciones declaradas
 Define qué se registra, qué ayudas se usan, cómo se documenta la carga de sesión y qué hace una evidencia interpretable.
 
-### L2 — Pieza A + Pieza B: dos rutas, dos familias
+### Lección 2 — Pieza A + Pieza B: dos rutas, dos familias
 Compara chart/backbeat con escucha/shuffle sin convertir la evaluación en una competición de dificultad.
 
-### L3 — Pieza C: integración híbrida y evidencia retenida
+### Lección 3 — Pieza C: integración híbrida y evidencia retenida
 Usa la tercera pieza para comprobar aprendizaje de repertorio, recuperación y uso deliberado de fuentes.
 
-### L4 — Portfolio final: comparar, corregir y decidir
+### Lección 4 — Portfolio final: comparar, corregir y decidir
 Reúne las tres piezas, identifica la dimensión crítica más débil y decide si corresponde avanzar, mantener o corregir.
 
-### Checkpoint final — Hito 6
+### Evaluación final — Hito 6
 Aplica el texto superior sin inventar nuevas puertas numéricas.
 
 ## Qué NO se exige
 
-U12 no exige:
+Esta unidad no exige:
 
 - tres tomas perfectas;
 - un BPM prefijado;
@@ -82,15 +82,15 @@ U12 no exige:
 
 ## No se crea nueva partitura
 
-U12 reutiliza el material ya validado de A/B/C. Crear otro MusicXML sólo para el cierre duplicaría información y desplazaría el foco desde la evidencia hacia material nuevo.
+Esta unidad reutiliza el material ya validado de A/B/C. Crear otro MusicXML sólo para el cierre duplicaría información y desplazaría el foco desde la evidencia hacia material nuevo.
 
 ## Regla de escucha segura
 
-K7 sigue activo. Al tocar piezas completas, aumenta la exposición acumulada del kit.
+La gestión de carga y salud sigue activa. Al tocar piezas completas, aumenta la exposición acumulada del kit.
 
-Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. U12 no inventa un nivel universal “seguro” para toda batería, sala o sesión.
+Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. Esta unidad no inventa un nivel universal “seguro” para toda batería, sala o sesión.
 
-## Criterio de avance hacia el checkpoint
+## Criterio de avance hacia la evaluación
 
 Puedes comenzar la evidencia final cuando:
 

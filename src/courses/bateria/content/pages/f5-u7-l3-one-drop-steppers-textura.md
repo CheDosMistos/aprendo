@@ -28,7 +28,7 @@ Fuentes:
 - [Hudson Music — Reggae for Drumset](https://hudsonmusic.com/product/reggae-for-drumset/)
 - [Modern Drummer — Reggae 101: The Steppers Beat](https://www.moderndrummer.com/article/february-2019-reggae-101-the-steppers-beat/)
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u7/f5-u7-one-drop-steppers.musicxml" data-score-title="50.U7 — One-drop y steppers: contraste funcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u7/f5-u7-one-drop-steppers.musicxml" data-score-title="Unidad 7 — One-drop y steppers: contraste funcional" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 - **A:** modelo pedagógico one-drop.
 - **B:** misma referencia superior, pero bombo en los cuatro pulsos como contraste steppers.
@@ -50,7 +50,7 @@ Evalúa:
 
 ## Sobre “rockers”
 
-La etiqueta aparece de forma consistente como parte del vocabulario reggae, pero distintas fuentes pedagógicas e históricas no siempre la describen con la misma fórmula de bombo. Por eso U7 **no la convierte en un tercer patrón obligatorio**. Se estudiará sólo cuando una fuente/repertorio concreto permita contextualizarla.
+La etiqueta aparece de forma consistente como parte del vocabulario reggae, pero distintas fuentes pedagógicas e históricas no siempre la describen con la misma fórmula de bombo. Por eso esta unidad **no la convierte en un tercer patrón obligatorio**. Se estudiará sólo cuando una fuente/repertorio concreto permita contextualizarla.
 
 ## Criterio de avance
 

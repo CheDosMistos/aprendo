@@ -18,7 +18,7 @@ rudiments:
 published: true
 ---
 
-U9 completa la **introducción de los 40 rudimentos PAS**. La meta sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`.
+Esta unidad completa la **introducción de los 40 rudimentos PAS**. La meta sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`.
 
 ## ESENCIAL AHORA
 
@@ -47,7 +47,7 @@ PAS prevalece para nombre, ritmo, sticking, acentos y grace notes:
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-Las partituras integradas en U9 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen partituras PAS.
+Las partituras integradas en esta unidad son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen partituras PAS.
 
 ## Orden de la unidad
 
@@ -55,4 +55,4 @@ Las partituras integradas en U9 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CU
 2. **Lección 2 — Inverted Flam Tap y preparación de alturas**
 3. **Lección 3 — Flam Drag y ventana de quintillos**
 4. **Lección 4 — 3:2, lectura, oído y recuperación**
-5. **Cierre de U9 — mapa PAS introducido**
+5. **Cierre de esta unidad — mapa PAS introducido**

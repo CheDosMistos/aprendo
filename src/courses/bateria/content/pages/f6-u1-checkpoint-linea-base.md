@@ -7,17 +7,17 @@ unitSlug: fase-6-unidad-1
 slug: checkpoint-linea-base-fase-6
 kind: checkpoint
 order: 5
-title: "Checkpoint — Línea base de Fase 6"
-summary: "Reúne una línea base interpretable, un diagnóstico provisional, una prueba razonada, el portafolio R1–R4 y un siguiente plan sin fingir que la autonomía ya está certificada."
+title: "Evaluación — Línea base de Fase 6"
+summary: "Reúne una línea base interpretable, un diagnóstico provisional, una prueba razonada, el portafolio los cuatro carriles del portafolio y un siguiente plan sin fingir que la autonomía ya está certificada."
 duration: 20–30 min
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, I3, I4, E5, E6, F7, C1, C2, C3, C4, H5]
 rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa esta evaluación
 
-U1 no pide una nueva demostración de virtuosismo ni una segunda certificación del Hito 6.
+Esta unidad no pide una nueva demostración de virtuosismo ni una segunda certificación del Hito 6.
 
 Evalúa si ya puedes comenzar Fase 6 con un proceso de aprendizaje **observable y revisable**.
 
@@ -68,14 +68,14 @@ Registra:
 
 No hace falta que el problema quede resuelto por completo.
 
-### 5. Portafolio R1–R4 abierto
+### 5. Portafolio los cuatro carriles del portafolio abierto
 
 Debe existir una entrada para:
 
-- R1 — escucha/transcripción;
-- R2 — chart/lectura;
-- R3 — transferencia estilística;
-- R4 — proyecto autónomo.
+- Escucha y transcripción — escucha/transcripción;
+- Chart y lectura — chart/lectura;
+- Transferencia entre estilos — transferencia estilística;
+- Proyecto autónomo — proyecto autónomo.
 
 Cada entrada puede seguir como IDEA o CANDIDATO. No inventes verificación para completar la tabla.
 
@@ -100,13 +100,13 @@ Puedes avanzar cuando:
 - propones una estrategia o prueba razonable;
 - registras qué ocurrió;
 - el trabajo aislado, si lo hubo, vuelve a música;
-- R1–R4 están abiertos y sus estados de verificación son honestos;
+- los cuatro carriles del portafolio están abiertos y sus estados de verificación son honestos;
 - sabes cuál es el siguiente objetivo y por qué;
 - no dependes de una puntuación global ni de un BPM de aprobado.
 
-## COMPETENTE EN EL CONTEXTO DE U1
+## COMPETENTE EN EL CONTEXTO DE esta unidad
 
-La evidencia de U1 es especialmente sólida cuando además:
+La evidencia de esta unidad es especialmente sólida cuando además:
 
 - el diagnóstico es suficientemente específico para descartar al menos una explicación alternativa;
 - la prueba está bien alineada con la hipótesis;
@@ -115,7 +115,7 @@ La evidencia de U1 es especialmente sólida cuando además:
 - el siguiente plan se deriva de la evidencia obtenida;
 - distingues claramente qué sabes, qué supones y qué todavía debes verificar.
 
-Esto **no equivale a K8 FUNCIONAL global**. Describe la calidad del trabajo dentro de esta unidad.
+Esto **no equivale a autonomía FUNCIONAL global**. Describe la calidad del trabajo dentro de esta unidad.
 
 ## AMPLIACIÓN
 
@@ -126,13 +126,13 @@ Si el núcleo ya es estable, puedes comprobar una transferencia pequeña:
 - retirar una ayuda y observar qué cambia;
 - recuperar la tarea en otra sesión sin preparación específica extensa.
 
-No añadas complejidad sólo para hacer el checkpoint más difícil.
+No añadas complejidad sólo para hacer la evaluación más difícil.
 
 ## Cuatro decisiones posibles
 
 ### AVANZAR
 
-La línea base y el proceso permiten continuar hacia U2. Los problemas restantes son material normal de trabajo.
+La línea base y el proceso permiten continuar hacia Unidad 2. Los problemas restantes son material normal de trabajo.
 
 ### MANTENER
 
@@ -148,13 +148,13 @@ Fatiga física/auditiva, dificultad excesiva o demasiadas variables simultáneas
 
 ## Frontera explícita
 
-Este checkpoint **NO certifica**:
+Esta evaluación **NO certifica**:
 
 - Hito 7 — Aprendiz autónomo;
-- K8 FUNCIONAL en contextos variados;
-- E6 FUNCIONAL;
-- F7 FUNCIONAL;
-- I5 o I6;
+- autonomía FUNCIONAL en contextos variados;
+- transcripción real FUNCIONAL;
+- análisis musical FUNCIONAL;
+- transferencia entre estilos o interacción y ensemble;
 - independencia avanzada;
 - dominio de un nuevo estilo.
 

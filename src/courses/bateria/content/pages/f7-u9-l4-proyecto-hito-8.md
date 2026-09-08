@@ -21,7 +21,7 @@ Crear la evidencia principal de **Hito 8**:
 
 `explicación + pulso + ejecución + aplicación`
 
-No es un examen de velocidad ni una obligación de usar J1–J8 en la misma pieza.
+No es un examen de velocidad ni una obligación de usar los recursos rítmicos trabajados en las unidades anteriores en la misma pieza.
 
 ## Formato del proyecto
 
@@ -48,11 +48,11 @@ Tu proyecto debe contener:
 - una explicación verbal breve;
 - una grabación o intento completo sin detenerte por errores menores.
 
-Esto satisface el nivel mínimo de J9 si pulso y forma permanecen claros.
+Esto satisface el nivel mínimo de integración progresiva y experimental si pulso y forma permanecen claros.
 
 ## Condiciones para nivel funcional
 
-Para mostrar J9 funcional, añade:
+Para mostrar integración progresiva y experimental funcional, añade:
 
 - varios recursos avanzados compatibles con la tarea;
 - al menos una transición entre ellos;
@@ -66,7 +66,7 @@ No existe un número universal de recursos requerido. “Varios” significa que
 
 Antes de escribir notas, escribe algo como:
 
-`A4 → B4 → C4 → A4`
+`movimientos full, down, up y tap → flams → metrónomo y click reducido → movimientos full, down, up y tap`
 
 Después asigna una función:
 
@@ -83,9 +83,9 @@ Haz una tabla sencilla:
 
 | Sección | Función | Recurso | Referencia que debe sobrevivir |
 |---|---|---|---|
-| A | establecer | simple / J1 | negra + frase |
-| B | desplazar | J2 o J5 | compás |
-| C | tensión | J6/J7/J8 | ciclo común / duración puente |
+| A | establecer | simple / agrupaciones dentro de 4/4 | negra + frase |
+| B | desplazar | desplazamientos de acento y motivo o ciclos que cruzan compases | compás |
+| C | tensión | polirritmia/polimetría/modulación métrica | ciclo común / duración puente |
 | A | resolver | simplificación | forma |
 
 Esta tabla es un **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**. No es una plantilla normativa externa.
@@ -100,7 +100,7 @@ Graba 30–60 segundos de explicación o dila en voz alta:
 4. qué referencia mantienes;
 5. dónde y cómo resuelve.
 
-Si la explicación necesita frases vagas como “aquí hago algo raro”, vuelve a F2 y a la unidad correspondiente.
+Si la explicación necesita frases vagas como “aquí hago algo raro”, vuelve a métrica y terminología rítmica y a la unidad correspondiente.
 
 ## PASO 4 — Primera interpretación completa
 

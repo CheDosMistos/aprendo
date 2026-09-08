@@ -19,7 +19,7 @@ published: true
 
 Entrar en Fase 5 sin convertir la primera sesión en un examen de todo lo aprendido.
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="50.U1.L1 — Cadena conocida de Hito 5" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="Lección 1 — Cadena conocida de Hito 5" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La cadena ya es conocida:
 
@@ -60,7 +60,7 @@ Puedes declarar conscientemente:
 - `fill simplificado` si conserva duración y retorno;
 - tempo reducido si mejora continuidad y relajación.
 
-Simplificar deliberadamente **no es retroceder**: es controlar la dificultad para observar la nueva variable de U1, que es la forma larga.
+Simplificar deliberadamente **no es retroceder**: es controlar la dificultad para observar la nueva variable de esta unidad, que es la forma larga.
 
 ## Tempo
 

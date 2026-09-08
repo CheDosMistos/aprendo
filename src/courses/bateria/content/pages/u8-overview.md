@@ -18,7 +18,7 @@ rudiments:
 published: true
 ---
 
-U8 continúa **Tier 4** integrando vocabulario ya disponible. No vuelve a enseñar Flam, Single Paradiddle-diddle o Drag desde cero: los usa como puertas locales y corrige solo el componente que falle.
+Esta unidad continúa **Tier 4** integrando vocabulario ya disponible. No vuelve a enseñar Flam, Single Paradiddle-diddle o Drag desde cero: los usa como puertas locales y corrige solo el componente que falle.
 
 ## ESENCIAL AHORA
 
@@ -46,7 +46,7 @@ PAS prevalece para nombre, ritmo, sticking, acentos, grace notes y estructura de
 
 [PAS — International Drum Rudiments](https://pas.org/wp-content/uploads/2024/04/pas-rudiments.pdf)
 
-Las partituras integradas en U8 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen las partituras PAS.
+Las partituras integradas en esta unidad son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO** y no reproducen las partituras PAS.
 
 ## Orden de la unidad
 
@@ -54,6 +54,6 @@ Las partituras integradas en U8 son **EJERCICIOS ORIGINALES CREADOS PARA ESTE CU
 2. **Lección 2 — Single Ratamacue: drag, ternario y resolución**
 3. **Lección 3 — Double Ratamacue y entrada al 7/8**
 4. **Lección 4 — Agrupación, lectura, oído y escritura en 7/8**
-5. **Cierre de U8 — ¿puedo continuar?**
+5. **Cierre de esta unidad — ¿puedo continuar?**
 
 La meta de Fase 1 sigue siendo `CONOCIDO`, no `FUNCIONAL` ni `DOMINADO`.

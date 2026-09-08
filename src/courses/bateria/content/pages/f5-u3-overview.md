@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Novedad dominante: I2 / H5 en familia de backbeat
+## Novedad dominante: blues y shuffle / groove y variaciones en familia de backbeat
 
-U3 abre la primera familia estilística focal de Fase 5.
+Esta unidad abre la primera familia estilística focal de Fase 5.
 
 > **ESTILO ≠ PATRÓN.**
 
@@ -42,7 +42,7 @@ No existe rimshot obligatorio ni BPM objetivo de aprobado.
 
 ## Energía no es velocidad
 
-En U3 tratamos la energía como una relación entre:
+En esta unidad tratamos la energía como una relación entre:
 
 `CONTINUIDAD / ARTICULACIÓN / DINÁMICA / DENSIDAD / SUPERFICIE / FORMA`.
 
@@ -61,24 +61,24 @@ Trabajamos continuidad, economía de movimiento y función del backbeat. Punk **
 ### AMPLIACIÓN — ventana metal
 Sólo articulación/energía sobre material conocido. **No exige doble pedal, blast beat ni patrones rápidos de bombo.**
 
-## Arquitectura
+## Recorrido de la unidad
 
-### L1 — Backbeat y rejilla de corcheas
+### Lección 1 — Backbeat y rejilla de corcheas
 Construir el groove CORE por capas y sostenerlo sin fills.
 
-### L2 — Energía, articulación y dinámica
+### Lección 2 — Energía, articulación y dinámica
 Cambiar una variable expresiva sin acelerar ni tensarse.
 
-### L3 — Ventana punk: continuidad y economía
+### Lección 3 — Ventana punk: continuidad y economía
 Sostener bloques largos con eficiencia y un Fill A conocido cuando tenga función.
 
-### L4 — Pieza A: forma y decisiones de energía
-Aplicar U3 a Pieza A con Chart A, dinámica y cues ya conocidos.
+### Lección 4 — Pieza A: forma y decisiones de energía
+Aplicar esta unidad a Pieza A con Chart A, dinámica y cues ya conocidos.
 
-## Salida de U3
+## Salida de esta unidad
 
-U3 aporta evidencia hacia **I2 MÍNIMO** y profundiza H5 dentro de la familia realmente estudiada, pero **no declara rock, pop o punk dominados, ni metal funcional, ni H5 COMPETENTE/FUNCIONAL global**.
+Esta unidad aporta evidencia hacia **blues y shuffle MÍNIMO** y profundiza groove y variaciones dentro de la familia realmente estudiada, pero **no declara rock, pop o punk dominados, ni metal funcional, ni groove y variaciones COMPETENTE/FUNCIONAL global**.
 
-No se crea un checkpoint global nuevo: la arquitectura superior no lo prescribe.
+No se crea un Evaluación global nuevo: la arquitectura superior no lo prescribe.
 
-**No existe BPM de aprobado.** K7 y la escucha segura permanecen activos.
+**No existe BPM de aprobado.** gestión de carga y salud y la escucha segura permanecen activos.

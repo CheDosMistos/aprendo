@@ -17,7 +17,7 @@ published: true
 
 ## Función de la unidad
 
-U10 convierte la ventana previa de “siete” en **7/8 funcional básico**. El objetivo es sostener un ciclo de siete corcheas y poder cambiar conscientemente su organización interna sin perder la barra.
+Esta unidad convierte la ventana previa de “siete” en **7/8 funcional básico**. El objetivo es sostener un ciclo de siete corcheas y poder cambiar conscientemente su organización interna sin perder la barra.
 
 > **7/8 ≠ septillo ≠ agrupación de siete notas.**
 
@@ -39,12 +39,12 @@ Y se mantiene la regla superior:
 
 7/4 aparece sólo como comparación conceptual y lectura breve. **7/4 no es “7/8 más lento”**: hay que considerar unidad escrita, pulso percibido, agrupación y tempo real.
 
-## Estado J3 al terminar
+## Estado métricas impares y mixtas al terminar
 
-U9 ya aportó 5/4 funcional básico. U10 puede cerrar **J3 MÍNIMO GLOBAL** si también reconoces/cuentas 7/8 y agrupaciones sencillas.
+Unidad 9 ya aportó 5/4 funcional básico. Esta unidad puede cerrar **métricas impares y mixtas MÍNIMO GLOBAL** si también reconoces/cuentas 7/8 y agrupaciones sencillas.
 
-**J3 COMPETENTE/FUNCIONAL no se concede por calendario:** requiere evidencia de lectura, escritura e improvisación tanto en 5/4 como en 7/8.
+**métricas impares y mixtas COMPETENTE/FUNCIONAL no se concede por calendario:** requiere evidencia de lectura, escritura e improvisación tanto en 5/4 como en 7/8.
 
 ## No se introduce
 
-Septillos funcionales, ciclos que cruzan barras, polirritmia, polimetría o modulación métrica no son novedad central de U10.
+Septillos funcionales, ciclos que cruzan barras, polirritmia, polimetría o modulación métrica no son novedad central de esta unidad.

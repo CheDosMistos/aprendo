@@ -19,9 +19,9 @@ published: true
 
 Mantener la misma relación `3:2` mientras cambias **qué capa ocupa el primer plano perceptivo**.
 
-Esto convierte la coordinación inicial de L1 en una competencia más robusta: no basta con reproducir una secuencia combinada; debes poder reconocer y conservar las dos periodicidades.
+Esto convierte la coordinación inicial de Lección 1 en una competencia más robusta: no basta con reproducir una secuencia combinada; debes poder reconocer y conservar las dos periodicidades.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u6/f7-u6-polyrhythm-3-2.musicxml" data-score-title="70.U6 — Polirritmia 3:2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u6/f7-u6-polyrhythm-3-2.musicxml" data-score-title="Unidad 6 — Polirritmia 3:2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## La relación no cambia cuando cambia tu atención
 

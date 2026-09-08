@@ -19,7 +19,7 @@ published: true
 
 Mantener un ciclo de **3 semicorcheas** sobre `4/4` sin reiniciarlo en cada línea de compás y sin perder la barra.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u5/f7-u5-cycle-3-over-4-4.musicxml" data-score-title="70.U5 — Ciclo de 3 semicorcheas sobre 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u5/f7-u5-cycle-3-over-4-4.musicxml" data-score-title="Unidad 5 — Ciclo de 3 semicorcheas sobre 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## El punto de partida
 
@@ -85,7 +85,7 @@ Acentúa cada tercera semicorchea, pero sigue sintiendo la negra.
 
 Deja de pensar la línea de compás como final del patrón. El ciclo atraviesa la barra y continúa con la misma distancia.
 
-## Diferencia con J1
+## Diferencia con agrupaciones dentro de 4/4
 
 Si escribieras dentro de cada barra:
 
@@ -93,13 +93,13 @@ Si escribieras dentro de cada barra:
 
 y reiniciaras en cada `1`, estarías adaptando la agrupación a la barra.
 
-En U5 hacemos otra cosa:
+En esta unidad hacemos otra cosa:
 
 `3 + 3 + 3 + 3 + 3 + 3 + ...`
 
 sin ajustar el último grupo para que quepa.
 
-## Diferencia con J2
+## Diferencia con desplazamientos de acento y motivo
 
 En desplazamiento podrías decidir: “ahora comienzo esta célula una semicorchea más tarde”.
 
@@ -147,7 +147,7 @@ Ignora momentáneamente la barra y comprueba que todos los acentos mantienen dis
 
 ## Error frecuente: convertir el acento en nuevo pulso
 
-El ciclo puede sugerir una pulsación alternativa. En U5 no redefinimos el tempo: la negra original sigue siendo la referencia métrica.
+El ciclo puede sugerir una pulsación alternativa. En esta unidad no redefinimos el tempo: la negra original sigue siendo la referencia métrica.
 
 ## Aplicación al kit
 

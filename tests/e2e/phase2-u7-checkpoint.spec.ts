@@ -41,7 +41,7 @@ test('Phase 2 U7 checkpoint renders exclusive notation and four hidden-answer au
   await expect(score).not.toHaveAttribute('data-score-first-sight', 'true');
   await expect(score.locator('.course-score__status')).toHaveText('Partitura renderizada', { timeout: 15_000 });
   await expect(score.locator('.course-score__play')).toBeHidden();
-  await expect(score.getByRole('link', { name: 'MusicXML — fuente de la muestra escrita del checkpoint' })).toHaveAttribute('href', '/bateria/notation/f2/u7/f2-u7-checkpoint-generalizacion-compuesta.musicxml');
+  await expect(score.getByRole('link', { name: 'MusicXML — fuente de la muestra escrita de la evaluación' })).toHaveAttribute('href', '/bateria/notation/f2/u7/f2-u7-checkpoint-generalizacion-compuesta.musicxml');
 
   const widgets = page.locator('.rhythm-dictation');
   await expect(widgets).toHaveCount(4);
@@ -76,8 +76,8 @@ test('Phase 2 U7 checkpoint exposes all four decisions and keeps U8 novelty outs
   await expect(page.getByRole('heading', { level: 3, name: 'CONTINUAR + CORRECTIVO', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'REDUCIR NOVEDAD', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 3, name: 'DETENER CARGA', exact: true })).toBeVisible();
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR U8' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA ABRIR Unidad 8' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal Unidad 9' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'sextillos u ornamentación escrita' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'click reducido, half-time o gaps' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();

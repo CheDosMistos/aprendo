@@ -21,13 +21,13 @@ Introducir correctamente **Lesson 25** y **Single Drag Tap** y evitar un error c
 
 ## 1. Recuperación — 2–3 min
 
-Haz una muestra breve de **Drag (Ruff)** de U1. Si las dos grace notes dejan de percibirse como ornamento compacto y se convierten en notas principales iguales, baja dificultad antes de añadir combinaciones.
+Haz una muestra breve de **Drag (Ruff)** de Unidad 1. Si las dos grace notes dejan de percibirse como ornamento compacto y se convierten en notas principales iguales, baja dificultad antes de añadir combinaciones.
 
-## 2. Prerrequisito local B4
+## 2. Prerrequisito local flams
 
-B4 se apoya en B1 y A4 como facilitadores. Una debilidad de doubles puede influir, pero no convierte automáticamente la familia drag en una cadena bloqueada por B5.
+flams se apoya en singles y redobles y movimientos full, down, up y tap como facilitadores. Una debilidad de doubles puede influir, pero no convierte automáticamente la familia drag en una cadena bloqueada por drags.
 
-**No reaprendas Drag si ya está disponible.** Usa la muestra inicial para decidir: si el ornamento, el pulso y la preparación de alturas son reconocibles, continúa directamente. Si una de esas bases falla, aísla solo esa variable durante unas pocas repeticiones —rebote/double, grace notes o alturas— y retesta Drag antes de profundizar. La corrección local no obliga a repetir U1 ni toda la lección.
+**No reaprendas Drag si ya está disponible.** Usa la muestra inicial para decidir: si el ornamento, el pulso y la preparación de alturas son reconocibles, continúa directamente. Si una de esas bases falla, aísla solo esa variable durante unas pocas repeticiones —rebote/double, grace notes o alturas— y retesta Drag antes de profundizar. La corrección local no obliga a repetir Unidad 1 ni toda la lección.
 
 ## 3. Lesson 25 — 7 min
 
@@ -47,7 +47,7 @@ Mira por separado ubicación de grace notes, notas principales, acentos, duraci�
 
 Localiza **32. Single Drag Tap** en la misma fuente. PAS lo mantiene como un rudimento distinto; por tanto, cualquier similitud superficial de movimientos **no autoriza a tratarlo como la misma partitura**.
 
-Haz primero conteo/vocalización y después ejecución. Si memorizas las manos pero no puedes explicar dónde caen los ataques, vuelve a C2/D3.
+Haz primero conteo/vocalización y después ejecución. Si memorizas las manos pero no puedes explicar dónde caen los ataques, vuelve a subdivisión binaria y ternaria/tuplets y ornamentación.
 
 ## 5. Comparación explícita — 5 min
 
@@ -59,7 +59,7 @@ Sin escribir de memoria la notación PAS, compara **familia, grace notes, acento
 
 Crea un compás propio en 4/4 usando solo negras, corcheas y un único ornamento de drag aislado. No lo nombres como rudimento PAS. Escribe primero el ritmo principal y añade después el ornamento para comprobar que el compás sigue completo.
 
-## Diagnóstico K2
+## Diagnóstico grabación y autoevaluación
 
 Si el patrón «suena parecido» pero no coincide con PAS, comprueba antes de repetir: sticking, colocación temporal, acento y espacio ocupado por las grace notes. Corrige una variable cada vez.
 

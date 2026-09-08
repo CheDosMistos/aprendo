@@ -31,7 +31,7 @@ No se exige comprobar los 40 en una sola sesión.
 
 ## Cobertura de los 40 PAS
 
-Comprueba que tu mapa contiene evidencia para los rudimentos introducidos en U1–U9. Si un registro es antiguo o dudoso, muestrea ese rudimento de nuevo; si la evidencia sigue siendo representativa, no repitas por obligación.
+Comprueba que tu mapa contiene evidencia para los rudimentos introducidos en Unidades 1–9. Si un registro es antiguo o dudoso, muestrea ese rudimento de nuevo; si la evidencia sigue siendo representativa, no repitas por obligación.
 
 Para cada PAS registra por separado:
 
@@ -64,17 +64,17 @@ No existe un número matemático obligatorio de pendientes. Un escenario como `3
 
 Documenta el estado real de:
 
-- técnica A1–A6;
-- pulso/subdivisión C1/C2/C4 y grado de introducción de C3;
-- lectura elemental D1;
-- oído E1–E3;
-- teoría F1–F2;
-- creatividad G1–G3;
-- hábitos K1–K7.
+- técnica postura y relajación–dobles;
+- pulso/subdivisión pulso interno/subdivisión binaria y ternaria/metrónomo y click reducido y grado de introducción de cambios de subdivisión;
+- lectura elemental figuras, silencios y compás;
+- oído reconocimiento de pulso y subdivisión–dictado;
+- teoría teoría básica del pulso y las figuras–métrica y terminología rítmica;
+- creatividad motivo–composición de fills y secciones;
+- hábitos objetivos de práctica–gestión de carga y salud.
 
-Una debilidad aislada en lectura, C3 o hábitos K **no prolonga automáticamente Fase 1**: estos ejes continúan desarrollándose en Fase 2.
+Una debilidad aislada en lectura, cambios de subdivisión o hábitos K **no prolonga automáticamente Fase 1**: estos ejes continúan desarrollándose en Fase 2.
 
-Completar este checkpoint no demuestra automáticamente todas las competencias listadas en su frontmatter. Solo cambia evidencia cuando una tarea o registro realmente la observa.
+Completar esta evaluación no demuestra automáticamente todas las competencias listadas en su frontmatter. Solo cambia evidencia cuando una tarea o registro realmente la observa.
 
 ## Qué NO decide el cierre
 
@@ -111,8 +111,8 @@ Fase 2 no borra Fase 1:
 
 - técnica continúa en mantenimiento/desarrollo;
 - los PAS pasan de `conocer` a **aplicar**;
-- C1–C4 ganan profundidad;
-- D1 pasa a centro de gravedad;
+- pulso interno–metrónomo y click reducido ganan profundidad;
+- figuras, silencios y compás pasa a centro de gravedad;
 - oído y creatividad continúan;
 - los PAS pendientes siguen como correctivos, sin deuda por calendario.
 

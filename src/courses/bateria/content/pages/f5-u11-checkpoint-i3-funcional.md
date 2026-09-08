@@ -7,7 +7,7 @@ unitSlug: fase-5-unidad-11
 slug: i3-funcional
 kind: checkpoint
 order: 5
-title: "Checkpoint 5D — I3 COMPETENTE/FUNCIONAL"
+title: "Evaluación — formas y canciones COMPETENTE/FUNCIONAL"
 summary: "Comprueba que puedes aprender una pieza adecuada combinando escucha, lectura, memoria y análisis, conservar su forma y recuperar errores sin depender de un único intento favorable."
 duration: 25–35 min
 competencies: [I3, I4, D7, D5, H5, H6, H8, F3, K2, K5, K6]
@@ -17,9 +17,9 @@ published: true
 
 ## Qué certifica
 
-Este checkpoint puede certificar:
+Esta evaluación puede certificar:
 
-> **I3 COMPETENTE/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis.**
+> **formas y canciones COMPETENTE/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis.**
 
 La evidencia se construye con Pieza C o con una evidencia equivalente de dificultad adecuada y procedencia legal.
 
@@ -93,7 +93,7 @@ Hay evidencia de aprendizaje funcional cuando:
 - existe recuperación razonable ante un error local;
 - un correctivo localizado puede reintegrarse a la forma completa.
 
-## COMPETENTE/FUNCIONAL — certificación 5D
+## COMPETENTE/FUNCIONAL — certificación evaluación final
 
 Además de lo anterior:
 
@@ -105,11 +105,11 @@ Además de lo anterior:
 
 ## NO CERTIFICA
 
-Este checkpoint **NO CERTIFICA**:
+Esta evaluación **NO CERTIFICA**:
 
-- I4 COMPETENTE/FUNCIONAL global en varias piezas;
+- repertorio COMPETENTE/FUNCIONAL global en varias piezas;
 - **Hito 6**;
-- I6 interacción musical funcional;
+- interacción y ensemble interacción musical funcional;
 - lectura de sesión avanzada o a primera vista;
 - improvisación extensa;
 - independencia avanzada;
@@ -121,8 +121,8 @@ Este checkpoint **NO CERTIFICA**:
 
 ## Decisión
 
-- **AVANZA:** I3 muestra estabilidad funcional y la pieza puede entrar en la evidencia final de Fase 5.
+- **AVANZA:** formas y canciones muestra estabilidad funcional y la pieza puede entrar en la evidencia final de Fase 5.
 - **AVANZA CON CORRECTIVO:** la combinación de fuentes funciona, pero una transición, recuperación o dimensión secundaria necesita mantenimiento.
-- **MANTÉN U11:** una sola fuente sigue sosteniendo casi todo el aprendizaje o la forma se pierde sistemáticamente ante errores locales.
+- **MANTÉN esta unidad:** una sola fuente sigue sosteniendo casi todo el aprendizaje o la forma se pierde sistemáticamente ante errores locales.
 
-U12 ya no introduce una habilidad aislada: integra Pieza A + Pieza B + Pieza C para el Hito 6.
+Unidad 12 ya no introduce una habilidad aislada: integra Pieza A + Pieza B + Pieza C para el Hito 6.

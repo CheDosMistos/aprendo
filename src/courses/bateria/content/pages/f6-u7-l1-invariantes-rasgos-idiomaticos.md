@@ -102,7 +102,7 @@ Puedes avanzar cuando eres capaz de identificar **al menos un principio comparti
 
 ## Fuentes y estatus
 
-- **ESTÁNDAR DEL PROYECTO:** I5 MÍNIMO = identificar un principio compartido entre estilos.
+- **ESTÁNDAR DEL PROYECTO:** transferencia entre estilos MÍNIMO = identificar un principio compartido entre estilos.
 - **FUENTE INSTITUCIONAL / TRADICIÓN PROFESIONAL:** Berklee PFSS-342 combina escucha, análisis, crítica y estudio de influencias entre estilos.
 - **DECISIÓN CURRICULAR RAZONADA:** separar función y realización como herramienta de comparación.
-- **FRONTERA:** no se evalúan aquí valores finos de microtiming; U8 profundiza ese eje.
+- **FRONTERA:** no se evalúan aquí valores finos de microtiming; Unidad 8 profundiza ese eje.

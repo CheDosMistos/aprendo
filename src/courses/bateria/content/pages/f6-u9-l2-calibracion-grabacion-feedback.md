@@ -77,7 +77,7 @@ Usa el soporte que responda a la pregunta.
 
 - **Audio:** tiempo, balance, dinámica, articulación, continuidad, relación con una pista.
 - **Vídeo:** añade información visual útil para postura, movimientos, preparación o coordinación visible.
-- **DAW/waveform:** puede describir ataques y relaciones temporales; U8 ya estableció que no decide por sí sola feel o musicalidad.
+- **DAW/waveform:** puede describir ataques y relaciones temporales; Unidad 8 ya estableció que no decide por sí sola feel o musicalidad.
 
 Más datos no significan mejor feedback. Si el vídeo no responde a tu hipótesis, no es obligatorio grabar vídeo.
 

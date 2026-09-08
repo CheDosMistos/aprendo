@@ -8,7 +8,7 @@ slug: fill-retorno
 kind: lesson
 order: 3
 title: "Groove → fill → 1 → groove"
-summary: "Confirma el fill breve de U9 y su retorno antes de unirlo con la variación dentro del Hito completo."
+summary: "Confirma el fill breve de Unidad 9 y su retorno antes de unirlo con la variación dentro del Hito completo."
 duration: 20–30 min
 competencies: [H6, H5, H4, F3, B8, G5, C1, C2, C3, K2, K5, K7]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Confirmar H6 dentro de la infraestructura del Hito sin mezclar todavía la pequeña variación en el mismo intento.
+Confirmar fills dentro de la infraestructura del Hito sin mezclar todavía la pequeña variación en el mismo intento.
 
 La tarea sigue siendo:
 
@@ -25,7 +25,7 @@ La tarea sigue siendo:
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — FILL A Y RETORNO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="40.U10.L3 — Fill A y retorno de U9" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u9/f4-u9-l1-one-beat-fill-return.musicxml" data-score-title="Lección 3 — Fill A y retorno de Unidad 9" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Fill A ocupa sólo `4 &`:
 

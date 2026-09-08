@@ -21,11 +21,11 @@ Sostener un groove simple en `7/8` agrupado `2+2+3`, manteniendo referencia de f
 
 ## Punto de partida
 
-Usa el **compás B** de la partitura original de L1. El patrón es deliberadamente sencillo: la dificultad dominante debe ser **sentir el ciclo de siete corcheas**, no resolver una coordinación nueva.
+Usa el **compás B** de la partitura original de Lección 1. El patrón es deliberadamente sencillo: la dificultad dominante debe ser **sentir el ciclo de siete corcheas**, no resolver una coordinación nueva.
 
 > **MÉTRICA NUEVA + COORDINACIÓN NUEVA = MAL DIAGNÓSTICO.**
 
-Por eso U10 cambia una variable principal cada vez.
+Por eso esta unidad cambia una variable principal cada vez.
 
 ## ESENCIAL AHORA — de conteo a frase
 

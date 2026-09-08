@@ -7,23 +7,23 @@ unitSlug: fase-7-unidad-6
 slug: checkpoint-7f
 kind: checkpoint
 order: 5
-title: "Checkpoint 7F — J6 funcional: dos capas, una relación común"
-summary: "Comprueba que puedes explicar, ejecutar, escuchar y recuperar polirritmias sencillas, mantener dos capas simultáneas y distinguir J6 de tuplets aislados, ciclos trans-barra y polimetría."
+title: "Evaluación — polirritmia funcional: dos capas, una relación común"
+summary: "Comprueba que puedes explicar, ejecutar, escuchar y recuperar polirritmias sencillas, mantener dos capas simultáneas y distinguir polirritmia de tuplets aislados, ciclos trans-barra y polimetría."
 duration: 20–30 min + revisión
 competencies: [J6, C1, C2, C3, C4, D4, D6, E2, F2, G2, G3, G4, G6, K2, K3, K5]
 rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa esta evaluación
 
-El mapa define J6 así:
+El curso define polirritmia así:
 
 - **MÍNIMO:** comprende y ejecuta relaciones sencillas como `3:2` de forma accesible;
 - **COMPETENTE / FUNCIONAL:** mantiene dos capas rítmicas y entiende su relación común;
 - **AVANZADO:** integra relaciones complejas, orquestación y aplicación musical.
 
-Por tanto, memorizar la secuencia combinada de golpes de `3:2` no basta para considerar J6 funcional.
+Por tanto, memorizar la secuencia combinada de golpes de `3:2` no basta para considerar polirritmia funcional.
 
 Se evalúan:
 
@@ -43,13 +43,13 @@ No existe un BPM universal de aprobado.
 
 Responde con tus palabras:
 
-1. ¿qué significa `3:2` en los ejercicios de U6?;
+1. ¿qué significa `3:2` en los ejercicios de esta unidad?;
 2. ¿qué duración comparten las dos capas?;
 3. ¿por qué una capa de tresillo tocada sola no demuestra polirritmia?;
 4. ¿para qué sirve la rejilla común de seis?;
-5. ¿qué diferencia hay entre J5 y J6?;
-6. ¿por qué U6 no debe llamarse automáticamente polimetría?;
-7. ¿qué tendría que cambiar para entrar en el territorio de J8?
+5. ¿qué diferencia hay entre ciclos que cruzan compases y polirritmia?;
+6. ¿por qué esta unidad no debe llamarse automáticamente polimetría?;
+7. ¿qué tendría que cambiar para entrar en el territorio de modulación métrica?
 
 ### Evidencia mínima
 
@@ -66,7 +66,7 @@ Sin reproducir primero la partitura:
 5. toca cada capa por separado;
 6. superpón ambas.
 
-Después compara con la partitura original de U6.
+Después compara con la partitura original de esta unidad.
 
 ## 3. Mantener dos capas
 
@@ -109,11 +109,11 @@ Después toca ambas durante al menos varios ciclos o compases a tempo cómodo.
 
 ### Alternativa mínima
 
-Si la coordinación de `4:3` todavía no es funcional, demuestra correctamente su construcción, ejecuta las capas separadas y diagnostica qué transición falta. Esto puede ser suficiente para **MÍNIMO**, pero no para cerrar J6 como plenamente funcional.
+Si la coordinación de `4:3` todavía no es funcional, demuestra correctamente su construcción, ejecuta las capas separadas y diagnostica qué transición falta. Esto puede ser suficiente para **MÍNIMO**, pero no para cerrar polirritmia como plenamente funcional.
 
 ## 6. Leer
 
-Lee una partitura original de U6 y explica antes de tocar:
+Lee una partitura original de esta unidad y explica antes de tocar:
 
 - compás y duración del ciclo;
 - qué voz/capa contiene cada periodicidad;
@@ -163,7 +163,7 @@ Condiciones:
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia U7 si, de forma razonablemente repetible:
+Puedes continuar hacia Unidad 7 si, de forma razonablemente repetible:
 
 - comprendes `3:2` como dos periodicidades en un ciclo compartido;
 - ejecutas una versión accesible de `3:2`;
@@ -177,7 +177,7 @@ Esto cumple el nivel mínimo del mapa.
 
 ## COMPETENTE / FUNCIONAL
 
-J6 puede considerarse **funcional** cuando además:
+polirritmia puede considerarse **funcional** cuando además:
 
 - mantienes dos capas simultáneas durante varios ciclos con estabilidad;
 - puedes cambiar cuál escuchas/cantas/acentúas sin destruir la otra;
@@ -185,7 +185,7 @@ J6 puede considerarse **funcional** cuando además:
 - comprendes y ejecutas o construyes con soltura al menos otra relación sencilla como `4:3`;
 - lees y escribes representaciones básicas;
 - integras una relación en frase o forma breve;
-- explicas con precisión por qué el ejercicio es J6 y no J7.
+- explicas con precisión por qué el ejercicio es polirritmia y no polimetría.
 
 ## AVANZADO
 
@@ -195,7 +195,7 @@ Nivel de ampliación, no requisito:
 - independencia entre varias extremidades;
 - orquestación y groove polirrítmico;
 - integración de varias relaciones en una forma;
-- combinación deliberada con otros recursos J manteniendo claridad estructural.
+- combinación deliberada con otros recursos rítmicos avanzados manteniendo claridad estructural.
 
 ## Registro recomendado
 
@@ -212,4 +212,4 @@ Guarda:
 
 > **PUEDO MANTENER DOS RITMOS DIFERENTES A LA VEZ Y SÉ DÓNDE SE ENCUENTRAN.**
 
-Ese es el criterio central de U6.
+Ese es el criterio central de esta unidad.

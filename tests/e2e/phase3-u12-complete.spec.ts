@@ -30,7 +30,7 @@ test('U12 overview preserves Hito 4 and keeps odd meter optional', async ({ page
   await expect(article.getByText(approvedHito)).toBeVisible();
   await expect(article.getByText(/4\/4, 5\/4 y 7\/8 son opciones válidas/)).toBeVisible();
   await expect(article.getByText(/la métrica impar no es requisito del Hito/)).toBeVisible();
-  await expect(article.getByText(/Hito global 3[\s\S]*ya tuvo su checkpoint en U4/)).toBeVisible();
+  await expect(article.getByText(/Hito global 3[\s\S]*ya tuvo su Evaluación en Unidad 4/)).toBeVisible();
 });
 
 test('U12 L1 defines a bounded brief and uses the existing practice check-in', async ({ page }, testInfo) => {
@@ -104,7 +104,7 @@ test('U12 Hito keeps Phase 4 conditional on kit and does not create a solution s
 
 test('U11 checkpoint remains intact when U12 is added', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-11/ficha-analisis-integrado/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Ficha de análisis integrado' })).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A U12' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Ficha de análisis integrado' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A Unidad 12' })).toBeVisible();
   await expect(page.locator('.musical-context')).toHaveCount(1);
 });

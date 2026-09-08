@@ -70,7 +70,7 @@ Trabaja sólo el fragmento necesario:
 
 Haz pocas repeticiones con atención. Cuando la relación sea comprensible, **vuelve a la pieza completa**.
 
-No conviertas U11 en una colección de bucles desconectados de la forma.
+No conviertas esta unidad en una colección de bucles desconectados de la forma.
 
 ## 5. Toma 2 — condiciones comparables
 

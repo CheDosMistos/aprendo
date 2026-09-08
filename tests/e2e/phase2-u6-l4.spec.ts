@@ -58,7 +58,7 @@ test('Phase 2 U6 L4 transfers 6/8 from reading to listening without claiming gen
   await expect(page.locator('h2').filter({ hasText: '2. Leer una línea nueva accesible' })).toBeVisible();
   await expect(page.locator('h2').filter({ hasText: '3. Escuchar sin seguir cada símbolo' })).toBeVisible();
   await expect(page.locator('p').filter({ hasText: '¿puedo conservar 2×3 cuando la información llega por oído' })).toBeVisible();
-  await expect(page.locator('p').filter({ hasText: 'no demuestra por sí sola reconocimiento métrico general ni E5 funcional' })).toBeVisible();
+  await expect(page.locator('p').filter({ hasText: 'no demuestra por sí sola reconocimiento métrico general ni grabación y comparación funcional' })).toBeVisible();
   await expect(page.locator('.rhythm-dictation')).toHaveCount(0);
 });
 
@@ -73,8 +73,8 @@ test('Phase 2 U6 L4 separates transformation and internal regrouping from meter 
   await expect(page.locator('li').filter({ hasText: 'agrupación/acento superpuesto' })).toContainText('2+2+2');
   await expect(page.getByText('AGRUPACIÓN ≠ COMPÁS', { exact: true }).first()).toBeVisible();
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A U6.CP' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5 — U9' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: '9/8 o 12/8 — U7' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente D4, F2, E1, E2, G1 o G2' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A esta unidad.evaluación' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal Unidad 9' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: '9/8 o 12/8 — Unidad 7' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente lectura de compás, métrica y terminología rítmica, reconocimiento de pulso y subdivisión, imitación rítmica, motivo o desarrollo motívico' })).toBeVisible();
 });

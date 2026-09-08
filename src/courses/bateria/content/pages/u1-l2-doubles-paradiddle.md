@@ -80,9 +80,9 @@ No estudies todavía Double Paradiddle ni Triple Paradiddle; llegarán en la Uni
 
 ## 5. Lectura — 3–4 minutos
 
-Ahora trabaja **A3–A6** del mismo imprimible de U1. Estas cuatro líneas no aparecen en la lectura diagnóstica A1–A2 y mantienen exactamente el mismo vocabulario: negras y corcheas en 4/4.
+Ahora trabaja **fulcrum y dedos–dobles** del mismo imprimible de esta unidad. Estas cuatro líneas no aparecen en la lectura diagnóstica postura y relajación–agarre principal y mantienen exactamente el mismo vocabulario: negras y corcheas en 4/4.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/lectura-practica-a3-a6.musicxml" data-score-title="Lectura de práctica — A3–A6" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/lectura-practica-a3-a6.musicxml" data-score-title="Lectura de práctica — fulcrum y dedos–dobles" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-source-url="/bateria/materiales/u1/lectura-negras-corcheas.pdf" data-score-source-label="Abrir PDF imprimible"></div>
 
 Haz:
 

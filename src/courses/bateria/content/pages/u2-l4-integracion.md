@@ -8,7 +8,7 @@ slug: leccion-4-integracion-recuperacion-contraste
 kind: lesson
 order: 4
 title: Lección 4 — Recuperación, lectura y contraste
-summary: Recupera material de U1 y U2 sin preparación inmediata, integra lectura nueva y decide qué necesita estabilización antes de abrir U3.
+summary: Recupera material de Unidad 1 y esta unidad sin preparación inmediata, integra lectura nueva y decide qué necesita estabilización antes de abrir Unidad 3.
 duration: 25–30 min
 competencies: [B1, B2, B5, B6, C1, C2, D1, E2, E3, F1, G1, G2, K2, K4, K6]
 rudiments: []
@@ -17,14 +17,14 @@ published: true
 
 ## Objetivo
 
-Comprobar qué parte de U1 y U2 puedes recuperar sin repetición inmediata, leer material nuevo y utilizar el diagnóstico para decidir qué continúa en estabilización.
+Comprobar qué parte de Unidad 1 y esta unidad puedes recuperar sin repetición inmediata, leer material nuevo y utilizar el diagnóstico para decidir qué continúa en estabilización.
 
 ## 1. Recuperación fría — 5 min
 
 Selecciona:
 
-- **2 rudimentos de U2**;
-- **1 rudimento de U1**.
+- **2 rudimentos de esta unidad**;
+- **1 rudimento de Unidad 1**.
 
 Para cada uno: nómbralo, intenta una versión lenta y **solo después** abre PAS para comprobarlo.
 
@@ -32,9 +32,9 @@ No hagas un maratón de doce rudimentos. Tres muestras son suficientes para obte
 
 ## 2. Lectura realmente nueva — 5–6 min
 
-La siguiente lectura no aparece en las lecciones anteriores de U2. Combina únicamente vocabulario ya presentado: negras, corcheas y silencios elementales en 4/4.
+La siguiente lectura no aparece en las lecciones anteriores de esta unidad. Combina únicamente vocabulario ya presentado: negras, corcheas y silencios elementales en 4/4.
 
-<div data-notation-score data-score-src="/bateria/notation/u2/lectura-transferencia.musicxml" data-score-title="Lectura de transferencia U2" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u2/lectura-transferencia.musicxml" data-score-title="Lectura de transferencia esta unidad" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Trabaja:
 
@@ -88,7 +88,7 @@ Esto es una microexposición a **desplazamiento de acento dentro de 4/4**. Mover
 
 ## Al terminar
 
-Decide qué ocurre con U2:
+Decide qué ocurre con esta unidad:
 
 - **continuar** y mantener pendientes en revisión;
 - **repetir** una lección concreta;

@@ -19,7 +19,7 @@ published: true
 
 Consolidar el **quintillo 5:4 de semicorcheas** usado en el curso: cinco ataques iguales ocupan exactamente un pulso de negra que, en subdivisión binaria ordinaria, admite cuatro semicorcheas.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u4/f7-u4-tuplet-pulse-models.musicxml" data-score-title="70.U4 — 4, 5 y 7 dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u4/f7-u4-tuplet-pulse-models.musicxml" data-score-title="Unidad 4 — 4, 5 y 7 dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## No es un concepto nuevo; sí una exigencia nueva
 

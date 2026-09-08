@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-7
 slug: checkpoint-7g
 kind: checkpoint
 order: 5
-title: "Checkpoint 7G — J7 funcional: dos métricas, un reencuentro"
+title: "Evaluación — polimetría funcional: dos métricas, un reencuentro"
 summary: "Comprueba que distingues polimetría de fenómenos vecinos, mantienes capas métricas sencillas, sabes dónde vuelven a coincidir y puedes leer, escribir, recuperar y aplicar la relación."
 duration: 20–30 min + revisión
 competencies: [J7, J5, J6, C1, C2, C3, C4, D4, D6, F2, G1, G2, G3, G4, G6, K2, K5]
@@ -15,15 +15,15 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa este checkpoint
+## Qué evalúa esta evaluación
 
-El mapa aprobado define J7 así:
+El curso define polimetría así:
 
 - **MÍNIMO:** distinguir polimetría de polirritmia y reconocer ejemplos conceptuales;
 - **FUNCIONAL:** mantener capas métricas sencillas con punto de referencia común;
 - **AVANZADO:** diseñar y ejecutar estructuras polimétricas complejas.
 
-Por tanto, el checkpoint no exige complejidad extrema. Sí exige que la palabra **polimetría** corresponda a una capacidad real y distinguible.
+Por tanto, la evaluación no exige complejidad extrema. Sí exige que la palabra **polimetría** corresponda a una capacidad real y distinguible.
 
 No existe un BPM universal de aprobado.
 
@@ -34,9 +34,9 @@ Explica con tus palabras:
 1. qué significa que dos capas tengan ciclos métricos distintos;
 2. por qué `3/4 ↔ 4/4` con negra común puede ser polimetría;
 3. por qué `4:3` no es automáticamente el mismo fenómeno;
-4. por qué un acento cada tres semicorcheas sobre `4/4` puede seguir siendo J5 y no J7;
+4. por qué un acento cada tres semicorcheas sobre `4/4` puede seguir siendo ciclos que cruzan compases y no polimetría;
 5. por qué `4/4 → 5/4 → 7/8` es métrica mixta y no polimetría;
-6. por qué en U7 no hay todavía modulación métrica.
+6. por qué en esta unidad no hay todavía modulación métrica.
 
 ### Evidencia mínima
 
@@ -110,7 +110,7 @@ Después ejecuta o vocaliza el ciclo.
 
 ## 6. Leer
 
-Escoge una de las partituras de transporte de U7.
+Escoge una de las partituras de transporte de esta unidad.
 
 Antes de reproducirla explica:
 
@@ -166,7 +166,7 @@ Condiciones:
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes continuar hacia U8 si:
+Puedes continuar hacia Unidad 8 si:
 
 - distingues polimetría de polirritmia en términos funcionales;
 - reconoces `3/4 ↔ 4/4` como ejemplo conceptual cuando se mantienen dos jerarquías métricas;
@@ -178,7 +178,7 @@ Este nivel coincide con el mínimo del mapa; no exige aún independencia complej
 
 ## COMPETENTE / FUNCIONAL
 
-J7 puede considerarse funcional cuando además:
+polimetría puede considerarse funcional cuando además:
 
 - mantienes dos capas métricas sencillas con una unidad temporal común;
 - sabes dónde vuelven a coincidir;
@@ -197,9 +197,9 @@ Opcional en este punto:
 - mantienes jerarquías menos evidentes o varias capas;
 - integras polimetría en formas largas o contexto de ensemble;
 - cambias deliberadamente la capa de referencia perceptiva;
-- combinas J7 con otras competencias avanzadas sin perder claridad terminológica.
+- combinas polimetría con otras competencias avanzadas sin perder claridad terminológica.
 
-No es requisito para entrar en J8.
+No es requisito para entrar en modulación métrica.
 
 ## Registro recomendado
 

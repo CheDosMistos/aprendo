@@ -25,7 +25,7 @@ La novedad es la segmentación, no la notación.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11001101" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="30.U2.L1: un compás 4/4 sobre rejilla de corcheas. Conserva tu primera hipótesis y compara posiciones de ataque/silencio después de revelar." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l1-segmentacion-a.musicxml" data-answer-score-title="30.U2.L1 — solución de segmentación A"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="11001101" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="Lección 1: un compás 4/4 sobre rejilla de corcheas. Conserva tu primera hipótesis y compara posiciones de ataque/silencio después de revelar." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l1-segmentacion-a.musicxml" data-answer-score-title="Lección 1 — solución de segmentación A"></div>
 
 Los botones de ayuda permanecen bloqueados hasta que hayas escuchado **el compás completo al menos una vez**.
 

@@ -8,7 +8,7 @@ slug: pedal-primer-golpe
 kind: lesson
 order: 1
 title: "Pedal, posición y primer golpe simple"
-summary: "Convierte la configuración de U1 en una relación funcional con el pedal y aprende a golpear, volver y preparar."
+summary: "Convierte la configuración de Unidad 1 en una relación funcional con el pedal y aprende a golpear, volver y preparar."
 duration: 20–30 min
 competencies: [H2, H1, C1, K2, K7]
 rudiments: []
@@ -21,7 +21,7 @@ Producir **golpes simples de bombo** con una configuración que te permita volve
 
 Hoy no buscas velocidad ni una técnica de talón concreta.
 
-## Volver a H1 no es retroceder
+## Volver a setup, ergonomía y ecología del kit no es retroceder
 
 Si el pedal parece obligarte a estirar, girar la pierna o perder equilibrio, el primer correctivo no es “practicar más”: revisa asiento, distancia y acceso.
 
@@ -75,4 +75,4 @@ Carga muscular nueva puede sentirse como esfuerzo, pero **dolor persistente, hor
 
 ## Registrar esta práctica
 
-Anota `problema → cambio → efecto`. Completar la página no demuestra por sí solo H2 MÍNIMO.
+Anota `problema → cambio → efecto`. Completar la página no demuestra por sí solo bombo MÍNIMO.

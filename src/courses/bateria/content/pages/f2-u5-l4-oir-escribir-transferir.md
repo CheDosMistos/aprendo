@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-L1–L3 han construido una idea común: el pulso puede permanecer mientras su interior se organiza en `2`, `3` o `4` partes iguales. L4 no añade una cuarta densidad. Cambia la pregunta: **¿puedes reconocer y reconstruir la misma organización cuando cambia la representación?**
+Lecciones 1–3 han construido una idea común: el pulso puede permanecer mientras su interior se organiza en `2`, `3` o `4` partes iguales. Lección 4 no añade una cuarta densidad. Cambia la pregunta: **¿puedes reconocer y reconstruir la misma organización cuando cambia la representación?**
 
 > **ESCUCHAR, IMITAR, ESCRIBIR Y LEER SON VÍAS DISTINTAS HACIA UNA MISMA ORGANIZACIÓN TEMPORAL.**
 
@@ -39,8 +39,8 @@ Trabaja con una referencia de negra cómoda. Para que la tarea sea realmente aud
 
 No juzgues únicamente si acertaste la etiqueta. Registra por separado:
 
-- **E1 — PULSO:** ¿pudiste localizar una negra de referencia estable?;
-- **E2 — SUBDIVISIÓN:** ¿reconociste cuántas partes iguales había dentro de cada pulso?;
+- **PULSO:** ¿pudiste localizar una negra de referencia estable?;
+- **SUBDIVISIÓN:** ¿reconociste cuántas partes iguales había dentro de cada pulso?;
 - **MEMORIA:** ¿la muestra era suficientemente corta como para retenerla?;
 - **EJECUCIÓN DE LA MUESTRA:** ¿la grabación era realmente 2, 3 o 4, o estaba deformada desde el origen?
 
@@ -85,15 +85,15 @@ Si la reproducción no coincide con la muestra, identifica **en qué flecha apar
 
 ### Qué no estamos haciendo
 
-Esto no convierte 4/4 en 6/8. Los grupos ternarios siguen siendo tuplets dentro de un marco simple. Tampoco estamos evaluando transcripción extensa: son células muy breves para iniciar E4 de forma controlada.
+Esto no convierte 4/4 en 6/8. Los grupos ternarios siguen siendo tuplets dentro de un marco simple. Tampoco estamos evaluando transcripción extensa: son células muy breves para iniciar relación entre oído y notación de forma controlada.
 
 ## 4. Leer una variante y transferir — 7–8 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-title="20.U5.L4 — variante de transferencia 2–3–4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-title="Lección 4 — variante de transferencia 2–3–4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l4-transferencia.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-Esta variante es **nueva para esta tarea**, pero no se registra como evidencia formal de primera vista D5. U9 reservará condiciones específicas para medir primera vista realmente nueva.
+Esta variante es **nueva para esta tarea**, pero no se registra como evidencia formal de primera vista forma y lectura de chart. Unidad 9 reservará condiciones específicas para medir primera vista realmente nueva.
 
 Antes de habilitar audio:
 
@@ -167,7 +167,7 @@ Registra al menos:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR AL CHECKPOINT DE U5
+## MÍNIMO PARA AVANZAR AL Evaluación DE esta unidad
 
 En una condición cómoda y con ayudas razonables cuando proceda:
 
@@ -184,7 +184,7 @@ No se exige:
 - cero errores;
 - un BPM concreto o alto;
 - transcripción extensa;
-- primera vista formal D5;
+- primera vista formal forma y lectura de chart;
 - 6/8;
 - sextillos;
 - métrica impar;
@@ -202,8 +202,8 @@ Crea dos células distintas, graba ambas y escúchalas más tarde sin mirar tus 
 
 - **no reconoces 2/3/4 por oído:** vuelve a contrastes de un solo tipo durante cuatro pulsos y marca la negra;
 - **imitas la densidad pero pierdes pulso:** reduce la muestra a uno o dos pulsos;
-- **escribes tres ataques sin tuplet real:** vuelve a la definición 3:2 de L1;
+- **escribes tres ataques sin tuplet real:** vuelve a la definición 3:2 de Lección 1;
 - **la transformación acelera el pulso:** conserva físicamente la negra y cambia sólo el interior;
 - **lees sólo después de escuchar playback:** vuelve a decodificar la variante antes de habilitar audio;
-- **confundes el tresillo de 4/4 con 6/8:** conserva cuatro negras como marco; U6 cambiará explícitamente la organización métrica;
+- **confundes el tresillo de 4/4 con 6/8:** conserva cuatro negras como marco; Unidad 6 cambiará explícitamente la organización métrica;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.

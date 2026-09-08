@@ -15,11 +15,11 @@ rudiments: []
 published: true
 ---
 
-L1 abrió una organización ternaria estable. Ahora aparece la novedad central de U5: **cambiar la organización interna sin mover el pulso que la contiene**.
+Lección 1 abrió una organización ternaria estable. Ahora aparece la novedad central de esta unidad: **cambiar la organización interna sin mover el pulso que la contiene**.
 
 > **EL PULSO CONTINÚA. CAMBIA 2 ↔ 3; NO CAMBIA EL TEMPO.**
 
-En esta lección `2` significa **dos partes iguales dentro de cada pulso** y `3` significa **tres partes iguales dentro de ese mismo pulso**. Todavía no añadimos `4` como tercera densidad —eso será L3— y seguimos en 4/4: **6/8 pertenece a U6**.
+En esta lección `2` significa **dos partes iguales dentro de cada pulso** y `3` significa **tres partes iguales dentro de ese mismo pulso**. Todavía no añadimos `4` como tercera densidad —eso será Lección 3— y seguimos en 4/4: **6/8 pertenece a Unidad 6**.
 
 **ESENCIAL AHORA:** conservar la negra de referencia mientras alternas bloques binarios y ternarios cortos.
 
@@ -36,7 +36,7 @@ Antes de subdividir, fija una sola referencia:
 3. comprueba si puedes anticipar mentalmente dónde llegará el siguiente pulso;
 4. si usas metrónomo, mantenlo en negras y no cambies su BPM durante el ejercicio.
 
-La pregunta de este bloque es sólo **C1 — PULSO**: ¿la distancia entre pulsos permanece razonablemente estable?
+La pregunta de este bloque es sólo **PULSO**: ¿la distancia entre pulsos permanece razonablemente estable?
 
 No evalúes aún si el interior es binario o ternario. Primero necesitamos una referencia común para poder afirmar después que la subdivisión cambió **sin** que cambiara el tempo.
 
@@ -60,13 +60,13 @@ Registra dos cosas **por separado**:
 - **PULSO:** ¿la negra se adelantó o retrasó al cambiar de 2 a 3 o de 3 a 2?;
 - **SUBDIVISIÓN:** aun si el pulso sobrevivió, ¿las dos o tres partes quedaron realmente equidistantes?
 
-Una transición puede conservar bien C1 y, sin embargo, deformar el interior del pulso. También puede ocurrir lo contrario: ataques bastante iguales pero un pulso que acelera. **No son el mismo error y no reciben el mismo correctivo.**
+Una transición puede conservar bien pulso interno y, sin embargo, deformar el interior del pulso. También puede ocurrir lo contrario: ataques bastante iguales pero un pulso que acelera. **No son el mismo error y no reciben el mismo correctivo.**
 
 ## 3. Leer el cambio 2 ↔ 3 — 10–11 min
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-title="20.U5.L2 — cambio 2 ↔ 3 con pulso constante" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-title="Lección 2 — cambio 2 ↔ 3 con pulso constante" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l2-binario-ternario.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de **Habilitar audio**, identifica visualmente dónde hay corcheas binarias y dónde aparecen tresillos. Haz una pasada propia con una condición cómoda.
 
@@ -154,11 +154,11 @@ Anota al menos:
 - variable limitante principal;
 - decisión: `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA`.
 
-Completar esta página **no actualiza automáticamente C2, C3, D3 ni ninguna otra competencia**. El BPM documenta condiciones; **BPM no es competencia**.
+Completar esta página **no actualiza automáticamente subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación ni ninguna otra competencia**. El BPM documenta condiciones; **BPM no es competencia**.
 
-## MÍNIMO PARA AVANZAR A L3
+## MÍNIMO PARA AVANZAR A Lección 3
 
-Puedes abrir L3 cuando, con tempo cómodo y ayudas razonables:
+Puedes abrir Lección 3 cuando, con tempo cómodo y ayudas razonables:
 
 - mantienes una referencia de pulso reconocible durante varios cambios `2 ↔ 3`;
 - produces dos y tres partes razonablemente iguales sin confundir cada ataque con un nuevo pulso;
@@ -175,27 +175,27 @@ No se exige:
 - encadenar todavía `2 ↔ 3 ↔ 4` como tarea central;
 - 6/8;
 - sextillos;
-- primera vista formal D5;
+- primera vista formal forma y lectura de chart;
 - retirar todas las ayudas a la vez.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
-Esta tarea empieza a ser funcional cuando puedes alternar bloques binarios y ternarios cortos conservando el mismo pulso, identificar auditivamente ambas organizaciones y describir por separado la estabilidad de C1 y la exactitud interna de la subdivisión.
+Esta tarea empieza a ser funcional cuando puedes alternar bloques binarios y ternarios cortos conservando el mismo pulso, identificar auditivamente ambas organizaciones y describir por separado la estabilidad de pulso interno y la exactitud interna de la subdivisión.
 
-Eso **no declara C3 ni D3 FUNCIONALES globalmente**: L3 añadirá cuatro partes y aumentará la variedad de cambios; U6 cambiará después el marco métrico.
+Eso **no declara cambios de subdivisión ni tuplets y ornamentación FUNCIONALES globalmente**: Lección 3 añadirá cuatro partes y aumentará la variedad de cambios; Unidad 6 cambiará después el marco métrico.
 
 ## AVANZADO EN ESTA TAREA
 
 Como ampliación opcional, acorta de cuatro pulsos a dos pulsos cada bloque `2 ↔ 3`, manteniendo el mismo tempo. Si el cambio deja de ser diagnosticable, vuelve a bloques de cuatro pulsos.
 
-No añadas `4` para endurecer la tarea: **2 ↔ 3 ↔ 4 pertenece a L3**. No transformes tampoco el ejercicio en 6/8: **U6 trabaja el compás compuesto como otra organización métrica, no como un tresillo prolongado**.
+No añadas `4` para endurecer la tarea: **2 ↔ 3 ↔ 4 pertenece a Lección 3**. No transformes tampoco el ejercicio en 6/8: **Unidad 6 trabaja el compás compuesto como otra organización métrica, no como un tresillo prolongado**.
 
 ## Si algo se rompe
 
 - **aceleras al entrar en ternario:** mantén la negra visible/audible y alarga el bloque antes de volver a cambiar;
 - **frenas al volver a binario:** canta dos partes dentro de la misma duración de negra, sin cambiar el click;
 - **pulso estable pero interior desigual:** trabaja un solo tipo de subdivisión durante varios pulsos antes de reintroducir el cambio;
-- **interior razonable pero pulso desplazado:** reduce densidad/longitud y recupera C1 antes de insistir;
+- **interior razonable pero pulso desplazado:** reduce densidad/longitud y recupera pulso interno antes de insistir;
 - **la mano no dominante altera la transición:** baja altura y tempo, y compara tomas iniciando con cada mano;
 - **dependes del conteo:** retira sólo una pista cuando una toma ya sea estable; no quites todas a la vez;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.

@@ -75,7 +75,7 @@ test('Phase 2 U3 L4 keeps hearing evidence separate from written duration and ex
 
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(page.getByText('No se exige un BPM concreto, caligrafía perfecta', { exact: false })).toBeVisible();
-  await expect(page.getByText('no declara E4 FUNCIONAL de forma global', { exact: false })).toBeVisible();
-  await expect(page.getByText('20.U3.CP — Puerta de duración y síncopa I', { exact: false })).toBeVisible();
+  await expect(page.getByText('no declara relación entre oído y notación FUNCIONAL de forma global', { exact: false })).toBeVisible();
+  await expect(page.getByText('Evaluación — Puerta de duración y síncopa I', { exact: false })).toBeVisible();
   await expect(page.getByText('no actualiza automáticamente', { exact: false })).toBeVisible();
 });

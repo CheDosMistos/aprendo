@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-9
 slug: checkpoint-k8-autonomia-funcional
 kind: checkpoint
 order: 5
-title: "Checkpoint 6F — K8 funcional en una tarea acotada"
+title: "Evaluación — autonomía funcional en una tarea acotada"
 summary: "Comprueba si puedes seleccionar estrategias y recursos con criterio dentro del currículo, obtener evidencia interpretable y ajustar el plan sin declarar todavía el Hito 7."
 duration: 20–30 min + evidencia separada cuando sea necesaria
 competencies: [K8, K1, K2, K4, K5, K6, K7, I3, E6, F7]
@@ -17,11 +17,11 @@ published: true
 
 ## Qué evalúa
 
-El criterio superior de **K8 COMPETENTE / FUNCIONAL** es:
+El criterio superior de **autonomía COMPETENTE / FUNCIONAL** es:
 
 > **SELECCIONA ESTRATEGIAS Y RECURSOS CON CRITERIO DENTRO DEL CURRÍCULO.**
 
-Checkpoint 6F busca evidencia suficiente de ese comportamiento en una tarea acotada.
+Evaluación busca evidencia suficiente de ese comportamiento en una tarea acotada.
 
 No evalúa si el problema elegido queda «perfectamente resuelto». Evalúa si el proceso de decisión es interpretable y se ajusta a la evidencia.
 
@@ -51,17 +51,17 @@ Declara:
 
 y explica qué observación sustenta esa decisión.
 
-## MÍNIMO PARA AVANZAR — K8
+## MÍNIMO PARA AVANZAR — autonomía
 
 El nivel superior MÍNIMO sigue siendo:
 
 > **Puede seguir una lección y reconocer qué necesita repasar.**
 
-U9 presupone que esta base ya existe desde etapas anteriores. Si todavía falla, no tiene sentido exigir selección autónoma de estrategias complejas: vuelve a una tarea guiada y localiza qué parte del proceso falta.
+Esta unidad presupone que esta base ya existe desde etapas anteriores. Si todavía falla, no tiene sentido exigir selección autónoma de estrategias complejas: vuelve a una tarea guiada y localiza qué parte del proceso falta.
 
-## COMPETENTE / FUNCIONAL — objetivo de U9
+## COMPETENTE / FUNCIONAL — objetivo de esta unidad
 
-Puedes registrar K8 FUNCIONAL cuando, con evidencia suficientemente representativa:
+Puedes registrar autonomía FUNCIONAL cuando, con evidencia suficientemente representativa:
 
 - identificas una necesidad concreta;
 - seleccionas estrategia y recurso por su relación con esa necesidad;
@@ -74,13 +74,13 @@ Puedes registrar K8 FUNCIONAL cuando, con evidencia suficientemente representati
 
 No se exige una puntuación numérica ni un BPM concreto.
 
-## AVANZADO — no es requisito de U9
+## AVANZADO — no es requisito de esta unidad
 
 El nivel superior AVANZADO exige:
 
 > **Escucha/lee/analiza una necesidad, diseña práctica, verifica resultado y transfiere la solución.**
 
-U9 puede rozar partes de ese ciclo, pero **no exige ni certifica K8 AVANZADO global**. La integración sostenida y la convergencia con E6/F7 continúan después.
+Esta unidad puede rozar partes de ese ciclo, pero **no exige ni certifica autonomía AVANZADO global**. La integración sostenida y la convergencia con transcripción real/análisis musical continúan después.
 
 ## Dimensiones de observación
 
@@ -103,7 +103,7 @@ Usa sólo las relevantes a la tarea:
 
 **No se promedian estas dimensiones como nota numérica.**
 
-## Validez del checkpoint
+## Validez de la evaluación
 
 Una evidencia fuerte no necesita ser larga; necesita responder a la inferencia correcta.
 
@@ -116,7 +116,7 @@ Una evidencia fuerte no necesita ser larga; necesita responder a la inferencia c
 ## Cuatro decisiones
 
 ### CONTINUAR
-K8 FUNCIONAL está suficientemente apoyado para pasar al proyecto sostenido de U10.
+autonomía FUNCIONAL está suficientemente apoyado para pasar al proyecto sostenido de Unidad 10.
 
 ### CONTINUAR + CORRECTIVO
 La selección de estrategia es razonada, pero existe una debilidad localizada —por ejemplo registro, recuperación o calibración— que puede seguir corrigiéndose en paralelo.
@@ -129,11 +129,11 @@ Aparecen señales de salud o fatiga que hacen inseguro interpretar más práctic
 
 ## Fronteras
 
-Checkpoint 6F:
+Evaluación:
 
 - **no declara Hito 7**;
-- no certifica E6 FUNCIONAL o F7 FUNCIONAL por usar transcripción/análisis como contexto;
-- no sustituye el proyecto sostenido de U10;
+- no certifica transcripción real FUNCIONAL o análisis musical FUNCIONAL por usar transcripción/análisis como contexto;
+- no sustituye el proyecto sostenido de Unidad 10;
 - no exige aprender una canción completa;
 - no exige crear un chart nuevo;
 - no convierte práctica bloqueada, interleaving, espaciado o feedback reducido en condiciones de aprobado;
@@ -143,6 +143,6 @@ Checkpoint 6F:
 
 ## Procedencia
 
-Todos los protocolos de este checkpoint son **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**. No reproducen ejercicios de métodos comerciales ni transcripciones protegidas.
+Todos los protocolos de esta evaluación son **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**. No reproducen ejercicios de métodos comerciales ni transcripciones protegidas.
 
-> **K8 FUNCIONAL NO SIGNIFICA PRACTICAR SOLO: SIGNIFICA PODER ELEGIR Y REVISAR TU ESTRATEGIA CON CRITERIO.**
+> **autonomía FUNCIONAL NO SIGNIFICA PRACTICAR SOLO: SIGNIFICA PODER ELEGIR Y REVISAR TU ESTRATEGIA CON CRITERIO.**

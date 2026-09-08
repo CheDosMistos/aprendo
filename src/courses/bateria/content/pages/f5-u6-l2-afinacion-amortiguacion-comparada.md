@@ -21,7 +21,7 @@ Escuchar una diferencia, realizar **un ajuste pequeño y reversible** y decidir 
 
 > **AFINACIÓN ≠ BUSCAR UNA NOTA UNIVERSAL.**
 
-La salida mínima de U6 no exige afinar por frecuencias prescritas ni memorizar una receta.
+La salida mínima de esta unidad no exige afinar por frecuencias prescritas ni memorizar una receta.
 
 ## Qué fuente estamos usando
 
@@ -83,7 +83,7 @@ Si empeora, volver atrás es una decisión competente.
 
 ## Si no puedes o no debes ajustar físicamente el instrumento
 
-La competencia H8 MÍNIMO también puede demostrarse mediante:
+La competencia balance, sonido y orquestación MÍNIMO también puede demostrarse mediante:
 
 - balance dinámico;
 - consistencia de zona;

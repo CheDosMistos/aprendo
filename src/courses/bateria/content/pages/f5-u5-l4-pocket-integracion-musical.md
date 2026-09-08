@@ -8,7 +8,7 @@ slug: pocket-integracion-musical
 kind: lesson
 order: 4
 title: "Pocket: sostener la función durante una frase"
-summary: "Convierte la tarea H7 en una frase musical: conserva el ostinato, dosifica variación y usa grabación para evaluar relación entre capas."
+summary: "Convierte la tarea independencia avanzada en una frase musical: conserva el ostinato, dosifica variación y usa grabación para evaluar relación entre capas."
 duration: 20–30 min
 competencies: [H5, H7, I2, G2, I3, K2, K5, K7]
 rudiments: []
@@ -19,9 +19,9 @@ published: true
 
 Dejar de pensar `“¿puedo ejecutar A y B?”` y pasar a `“¿puedo sostener una función musical mientras decido cuándo cambia el bombo?”`.
 
-Reutiliza el score de L3:
+Reutiliza el score de Lección 3:
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l3-h7-context.musicxml" data-score-title="50.U5.L3 — Capa fija + voz variable" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-l3-h7-context.musicxml" data-score-title="Lección 3 — Capa fija + voz variable" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Forma original de práctica
 
@@ -67,9 +67,9 @@ No uses una toma favorable como prueba suficiente de competencia retenida.
 
 ## Repertorio B — mantenimiento
 
-Dedica una parte separada de la sesión a Pieza B de U4. **No conviertas su shuffle en funk** para “aplicar U5”. El carril de repertorio se mantiene, pero cada pieza conserva la función musical que ya tenía.
+Dedica una parte separada de la sesión a Pieza B de Unidad 4. **No conviertas su shuffle en funk** para “aplicar esta unidad”. El carril de repertorio se mantiene, pero cada pieza conserva la función musical que ya tenía.
 
-## MÍNIMO PARA IR AL CHECKPOINT
+## MÍNIMO PARA IR AL Evaluación
 
 - sostienes al menos 8 compases sin que la variación destruya el ostinato;
 - el balance sigue intencional;

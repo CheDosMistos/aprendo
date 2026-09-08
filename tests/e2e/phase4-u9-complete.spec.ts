@@ -40,11 +40,11 @@ test('F4 U9 overview makes H6 dominant and H7 a window only', async ({ page }, t
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-9/');
   await expect(page.getByRole('heading', { level: 1, name: 'Fills, retorno al groove y primera capa de independencia' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Novedad dominante: H6 — transición funcional/i)).toBeVisible();
+  await expect(article.getByText(/Novedad dominante: transición funcional/i)).toBeVisible();
   await expect(article.getByText(/FILL = TRANSICIÓN, NO EXHIBICIÓN/i)).toBeVisible();
   await expect(article.getByText(/GROOVE → FILL → 1 → GROOVE/i)).toBeVisible();
-  await expect(article.getByText(/puede certificar H6 MÍNIMO/i)).toBeVisible();
-  await expect(article.getByText(/no certifica H6 COMPETENTE\/FUNCIONAL ni H7/i)).toBeVisible();
+  await expect(article.getByText(/puede certificar[\s\S]*fills MÍNIMO/i)).toBeVisible();
+  await expect(article.getByText(/no certifica fills COMPETENTE\/FUNCIONAL ni independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
@@ -69,7 +69,7 @@ test('F4 U9 L2 renders the two-beat fill with known U2 U8 hand vocabulary', asyn
   await expect(article.getByText(/3 & 4 & → 1/i)).toBeVisible();
   await expect(article.getByText(/tom agudo — R/i)).toBeVisible();
   await expect(article.getByText(/tom grave — R/i)).toBeVisible();
-  await expect(article.getByText(/trabajado en U2\/U8/i)).toBeVisible();
+  await expect(article.getByText(/trabajado en Unidad 2\/Unidad 8/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
@@ -88,33 +88,33 @@ test('F4 U9 L3 reuses Fill B and limits orchestration changes', async ({ page },
 
 test('F4 U9 L4 renders recovery core and optional H7 window', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-9/recuperacion-ventana-h7/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Recuperación y ventana H7' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Recuperación y ventana independencia avanzada' })).toBeVisible();
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/NO CONVERTIR UN ERROR DEL FILL EN LA PÉRDIDA DEL COMPÁS SIGUIENTE/i)).toBeVisible();
-  await expect(article.getByText(/AMPLIACIÓN — ventana H7/i)).toBeVisible();
+  await expect(article.getByText(/AMPLIACIÓN — ventana independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/pedal hi-hat en negras continuas/i)).toBeVisible();
-  await expect(article.getByText(/U9 NO certifica H7/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad NO certifica independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/Una exposición no equivale a una competencia funcional/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
 
 test('F4 U9 checkpoint renders both choices and certifies H6 minimum only', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-9/h6-minimo/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — H6 MÍNIMO: fill y retorno' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Fill sencillo y retorno' })).toBeVisible();
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Inserta fills sencillos sin perder el pulso/i)).toBeVisible();
   await expect(article.getByText(/GROOVE → FILL → 1 → GROOVE/i)).toBeVisible();
   await expect(article.getByText(/No necesitas ejecutar los dos/i)).toBeVisible();
-  await expect(article.getByText(/H6 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
-  await expect(article.getByText(/U9 NO certifica H7/i)).toBeVisible();
+  await expect(article.getByText(/fills COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad NO certifica independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
 test('F4 U8 checkpoint remains explicitly pre-H6 after U9', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-8/g5-b8-transferencia/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H6 — fills/i)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/i)).toBeVisible();
+  await expect(article.getByText(/^fills;$/)).toBeVisible();
+  await expect(article.getByText(/^independencia;$/)).toBeVisible();
 });

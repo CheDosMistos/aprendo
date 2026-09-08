@@ -8,16 +8,16 @@ slug: leer-escuchar-clasificar-y-explicar
 kind: lesson
 order: 4
 title: "Leer, escuchar, clasificar y explicar"
-summary: "Transfiere 6/8, 9/8 y 12/8 entre notación, pulso y oído, e introduce E5 de forma inicial mediante estímulos métricos claros cuyo pulso de referencia está explícitamente establecido."
+summary: "Transfiere 6/8, 9/8 y 12/8 entre notación, pulso y oído, e introduce grabación y comparación de forma inicial mediante estímulos métricos claros cuyo pulso de referencia está explícitamente establecido."
 duration: 25–30 min
 competencies: [C1, C2, D4, E1, E2, E5, F2, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-L1–L3 construyeron y compararon la jerarquía escrita. L4 añade el paso que faltaba: **oír una organización temporal clara, formular una hipótesis métrica y justificarla antes de revelar la respuesta**.
+Lecciones 1–3 construyeron y compararon la jerarquía escrita. Lección 4 añade el paso que faltaba: **oír una organización temporal clara, formular una hipótesis métrica y justificarla antes de revelar la respuesta**.
 
-> **E5 EMPIEZA AQUÍ COMO RECONOCIMIENTO CONTROLADO, NO COMO ADIVINACIÓN DE COMPASES EN MÚSICA AMBIGUA.**
+> **grabación y comparación EMPIEZA AQUÍ COMO RECONOCIMIENTO CONTROLADO, NO COMO ADIVINACIÓN DE COMPASES EN MÚSICA AMBIGUA.**
 
 La tarea de oído está deliberadamente simplificada. Los estímulos establecen primero un pulso de referencia y después presentan subdivisiones regulares. Eso permite preguntar por `×2` o `×3` sin esconder la variable que queremos evaluar detrás de instrumentación, síncopa, fraseo complejo o tempo cambiante.
 
@@ -25,7 +25,7 @@ La tarea de oído está deliberadamente simplificada. Los estímulos establecen 
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-title="20.U7.L4 — transferencia 6/8, 9/8 y 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-source-label="MusicXML — fuente de la transferencia 6/8–9/8–12/8"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-title="Lección 4 — transferencia 6/8, 9/8 y 12/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u7/f2-u7-l4-transfer-6-8-9-8-12-8.musicxml" data-score-source-label="MusicXML — fuente de la transferencia 6/8–9/8–12/8"></div>
 
 Antes de habilitar audio:
 
@@ -62,7 +62,7 @@ El metrónomo interno de estos estímulos usa `72` pulsos principales por minuto
 
 ### Qué sí y qué no demuestra el estímulo
 
-El pulso de entrada hace explícita una referencia que en música real puede necesitar inferirse. Por eso esta tarea sirve como **primer puente hacia E5**, pero no demuestra todavía reconocimiento métrico general en repertorio.
+El pulso de entrada hace explícita una referencia que en música real puede necesitar inferirse. Por eso esta tarea sirve como **primer puente hacia grabación y comparación**, pero no demuestra todavía reconocimiento métrico general en repertorio.
 
 ## 3. Oído A/B: mismas seis subdivisiones escritas, distinta jerarquía — 5 min
 
@@ -79,7 +79,7 @@ A y B contienen **seis ataques regulares**, pero no duran el mismo número de pu
 - en A, seis posiciones ocupan `2×3`;
 - en B, seis posiciones ocupan `3×2`.
 
-Esta comparación recupera por oído la idea central de U6: **cantidad de ataques ≠ organización métrica**.
+Esta comparación recupera por oído la idea central de Unidad 6: **cantidad de ataques ≠ organización métrica**.
 
 ## 4. Oído C/D/E: tres y cuatro pulsos — 5–6 min
 
@@ -114,7 +114,7 @@ Evita respuestas como:
 - «me pareció ternario» sin indicar **qué nivel** es ternario;
 - «es compuesto porque tiene 9» sin relacionarlo con el pulso.
 
-E5 y F2 se apoyan mutuamente aquí: **reconocer** y **explicar** son evidencias distintas.
+grabación y comparación y métrica y terminología rítmica se apoyan mutuamente aquí: **reconocer** y **explicar** son evidencias distintas.
 
 ## 6. Transferencia al pad: escuchar → marcar → tocar — 3–4 min
 
@@ -152,7 +152,7 @@ Registra por separado:
 - si pudiste proponer 6/8, 9/8, 12/8, 3/4 o 4/4 dentro del conjunto cerrado;
 - número de repeticiones usadas antes de responder;
 - nivel de certeza;
-- claridad de la explicación F2;
+- claridad de la explicación métrica y terminología rítmica;
 - estabilidad al transferir al pad;
 - ayuda utilizada;
 - variable limitante;
@@ -165,7 +165,7 @@ Decisiones posibles:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA PASAR AL CHECKPOINT DE U7
+## MÍNIMO PARA PASAR AL Evaluación DE esta unidad
 
 En los ejemplos **claros y acotados** de esta lección:
 
@@ -183,14 +183,14 @@ No se exige:
 - reconocimiento métrico general en repertorio ambiguo;
 - análisis formal profundo;
 - transcripción extensa;
-- primera vista formal D5 — U9;
-- sextillos — U8;
-- click reducido, half-time o gaps — U10;
+- primera vista formal Unidad 9;
+- sextillos — Unidad 8;
+- click reducido, half-time o gaps — Unidad 10;
 - shuffle/jazz como objetivo estilístico;
 - kit o coordinación de cuatro extremidades;
 - polirritmia, polimetría o modulación métrica;
 - un BPM fijo o alto;
-- actualizar automáticamente E5, D4 o F2 a `FUNCIONAL` por completar la página.
+- actualizar automáticamente grabación y comparación, lectura de compás o métrica y terminología rítmica a `FUNCIONAL` por completar la página.
 
 ## COMPETENTE EN ESTA TAREA
 

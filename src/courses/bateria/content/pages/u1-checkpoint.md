@@ -7,7 +7,7 @@ unitSlug: unidad-1
 slug: cierre-unidad-1
 kind: checkpoint
 order: 6
-title: Cierre de U1 — ¿puedo continuar?
+title: Cierre de esta unidad — ¿puedo continuar?
 summary: Decide si tiene sentido empezar la Unidad 2 mediante una muestra breve observable, sin exigir perfección ni convertir BPM en una barrera.
 duration: 8–12 min
 competencies: [A1, A2, A3, B1, B2, C1, C2, D1, K1, K7]
@@ -27,9 +27,9 @@ Este cierre no se basa solo en responder «creo que puedo». Produce una **muest
 
 ## Microprotocolo observable — 6–8 min
 
-### 1. Un PAS de U1 — 2 min
+### 1. Un PAS de esta unidad — 2 min
 
-Elige al azar o rota **uno** de los seis PAS de U1. Consulta PAS si necesitas confirmar la estructura; no reconstruyas la notación de memoria cuando dudes.
+Elige al azar o rota **uno** de los seis PAS de esta unidad. Consulta PAS si necesitas confirmar la estructura; no reconstruyas la notación de memoria cuando dudes.
 
 Haz una muestra lenta y registra solo lo observado: estructura, sonido, relajación y principal variable limitante.
 
@@ -43,9 +43,9 @@ Mantén negras y cambia a corcheas sin mover deliberadamente el pulso. Usa un te
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-La siguiente partitura es exclusiva de este checkpoint y aparece oculta antes del primer intento. Pulsa **Empezar** solo cuando estés preparado para verla. Haz una inspección breve y toca antes de repetirla hasta memorizarla.
+La siguiente partitura es exclusiva de esta evaluación y aparece oculta antes del primer intento. Pulsa **Empezar** solo cuando estés preparado para verla. Haz una inspección breve y toca antes de repetirla hasta memorizarla.
 
-<div data-notation-score data-score-src="/bateria/notation/u1/checkpoint-lectura-nueva.musicxml" data-score-title="Checkpoint U1 — lectura nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
+<div data-notation-score data-score-src="/bateria/notation/u1/checkpoint-lectura-nueva.musicxml" data-score-title="Evaluación de esta unidad — lectura nueva" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true"></div>
 
 Lo que se observa es si puedes convertir figuras elementales en tiempo sin depender de una memorización previa. Un error aislado no invalida la muestra: observa continuidad y recuperación.
 
@@ -61,7 +61,7 @@ Puedes continuar cuando, considerando esta muestra **y la evidencia reciente ya 
 
 - la postura y el movimiento son suficientemente cómodos para seguir trabajando;
 - no hay una señal de salud que aconseje detener o reducir carga;
-- C1/C2 permiten trabajar negras y corcheas con una referencia temporal razonable;
+- pulso interno/subdivisión binaria y ternaria permiten trabajar negras y corcheas con una referencia temporal razonable;
 - puedes abordar una línea elemental realmente nueva sin depender completamente de memoria;
 - sabes consultar y reconocer correctamente los seis rudimentos en la fuente oficial, aunque no todos hayan sido remuestreados hoy;
 - no estás practicando una forma claramente equivocada por no haberla verificado;
@@ -82,7 +82,7 @@ Es perfectamente válido avanzar mientras uno o varios rudimentos siguen necesit
 
 **CONTINUAR** — los prerrequisitos relevantes están disponibles.
 
-**CONTINUAR + CORRECTIVO** — existe una debilidad localizada, pero U2 puede abrirse con esa variable en mantenimiento.
+**CONTINUAR + CORRECTIVO** — existe una debilidad localizada, pero Unidad 2 puede abrirse con esa variable en mantenimiento.
 
 **REDUCIR NOVEDAD** — falla un prerrequisito central y conviene estabilizarlo antes de añadir complejidad.
 
@@ -92,6 +92,6 @@ La Unidad 2 no borra la Unidad 1: el material anterior seguirá reapareciendo me
 
 ## Si algo necesita más tiempo
 
-Repite una tarea concreta o divide el trabajo en varias sesiones. No reinicies toda U1 por defecto.
+Repite una tarea concreta o divide el trabajo en varias sesiones. No reinicies toda esta unidad por defecto.
 
 No intentes recuperar una sesión perdida haciendo el doble al día siguiente. **No existe deuda de práctica.**

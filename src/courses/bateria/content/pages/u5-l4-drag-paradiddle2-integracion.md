@@ -8,7 +8,7 @@ slug: leccion-4-drag-paradiddle-2-integracion
 kind: lesson
 order: 4
 title: "Lección 4 — Drag Paradiddle #2, oído y escritura"
-summary: Introduce Drag Paradiddle #2 y cierra U5 con lectura nueva, imitación auditiva y escritura de una célula sincopada.
+summary: Introduce Drag Paradiddle #2 y cierra esta unidad con lectura nueva, imitación auditiva y escritura de una célula sincopada.
 duration: 25–30 min
 competencies: [A4, A5, B2, B4, B6, C1, C2, C3, D1, D2, D6, E2, E3, E4, F1, F2, G1, G2, K2, K4, K6]
 rudiments: ["Drag Paradiddle #2"]
@@ -17,11 +17,11 @@ published: true
 
 ## Objetivo
 
-Conocer correctamente **Drag Paradiddle #2** y demostrar transferencia de U5 mediante lectura nueva, oído y escritura, sin convertir la sesión en un repaso completo de los cinco PAS.
+Conocer correctamente **Drag Paradiddle #2** y demostrar transferencia de esta unidad mediante lectura nueva, oído y escritura, sin convertir la sesión en un repaso completo de los cinco PAS.
 
 ## 1. Recuperación selectiva — 3 min
 
-Sin calentamiento específico, recupera **uno** de los dos PAS drag+diddle de L3. Si está disponible, sigue. Si falla, identifica si el problema es drag, diddle, acento o tiempo y corrige solo esa variable.
+Sin calentamiento específico, recupera **uno** de los dos PAS drag+diddle de Lección 3. Si está disponible, sigue. Si falla, identifica si el problema es drag, diddle, acento o tiempo y corrige solo esa variable.
 
 ## 2. Drag Paradiddle #2 — 7 min
 
@@ -70,11 +70,11 @@ Después tócala y corrige cualquier diferencia entre intención, escritura y ej
 
 ## 6. Recuperación intercalada — 3 min
 
-Elige **dos** de los cinco PAS de U5, preferentemente de familias distintas, y haz una sola toma de cada uno. No repases los cinco por obligación.
+Elige **dos** de los cinco PAS de esta unidad, preferentemente de familias distintas, y haz una sola toma de cada uno. No repases los cinco por obligación.
 
 ## Diagnóstico final de sesión
 
-Registra una observación de técnica, una de tiempo/lectura y una de representación. Prioriza el cuello de botella que tenga mayor transferencia a U6.
+Registra una observación de técnica, una de tiempo/lectura y una de representación. Prioriza el cuello de botella que tenga mayor transferencia a Unidad 6.
 
 ## Rutina estándar
 

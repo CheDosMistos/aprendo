@@ -19,7 +19,7 @@ published: true
 
 Pasar de “sentir que algún día vuelve” a **predecir dónde se resolverá un ciclo sencillo**.
 
-<div data-notation-score data-score-src="/bateria/notation/f7/u5/f7-u5-cycle-5-eighths-over-4-4.musicxml" data-score-title="70.U5 — Ciclo de 5 corcheas sobre 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f7/u5/f7-u5-cycle-5-eighths-over-4-4.musicxml" data-score-title="Unidad 5 — Ciclo de 5 corcheas sobre 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Dos longitudes que conviven
 
@@ -42,7 +42,7 @@ Por tanto:
 
 ## La matemática describe; el oído confirma
 
-El cálculo evita adivinar, pero J5 no se considera funcional si sólo puedes resolverlo en papel.
+El cálculo evita adivinar, pero ciclos que cruzan compases no se considera funcional si sólo puedes resolverlo en papel.
 
 Debes poder:
 
@@ -151,7 +151,7 @@ Después compara con la partitura original.
 
 ## Error frecuente: confundir “resolución” con frase musical obligatoria
 
-La realineación matemática no obliga a terminar una frase musical exactamente allí. En U5 usamos esa coincidencia como punto estructural porque permite comprender y sentir el ciclo.
+La realineación matemática no obliga a terminar una frase musical exactamente allí. En esta unidad usamos esa coincidencia como punto estructural porque permite comprender y sentir el ciclo.
 
 Más adelante podrás decidir musicalmente si enfatizarla, ocultarla o prolongar la forma.
 

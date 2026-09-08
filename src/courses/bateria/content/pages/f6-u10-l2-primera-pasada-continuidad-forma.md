@@ -54,7 +54,7 @@ No conviertas «nunca parar» en dogma. El sistema del curso distingue:
 2. Elige un contexto temporal/musical que no añada dificultad innecesaria.
 3. Inicia la forma completa.
 4. No detengas la pasada por un error local.
-5. Si aparece sobrecarga, aplica la simplificación prevista en L1.
+5. Si aparece sobrecarga, aplica la simplificación prevista en Lección 1.
 6. Usa landmarks para recuperar posición.
 7. Termina la forma.
 8. Sólo entonces registra problemas.
@@ -91,7 +91,7 @@ No conviertas la waveform o la rejilla de una DAW en juez de musicalidad.
 
 ## Error recovery intencional
 
-U3 ya enseñó recuperación. U10 la aplica en continuidad extensa.
+Unidad 3 ya enseñó recuperación. Esta unidad la aplica en continuidad extensa.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Fallo local autorizado»**
 

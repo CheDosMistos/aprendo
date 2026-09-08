@@ -21,7 +21,7 @@ Introducir correctamente **Thirteen Stroke Roll** y **Fifteen Stroke Roll** sin 
 
 ## 1. Comprobación de prerrequisitos — 3 min
 
-No reaprendas doubles ni rolls cortos. Haz una toma breve de **Nine Stroke Roll** o **Seven Stroke Roll** de U3 y pregúntate:
+No reaprendas doubles ni rolls cortos. Haz una toma breve de **Nine Stroke Roll** o **Seven Stroke Roll** de Unidad 3 y pregúntate:
 
 - ¿los doubles conservan sonido y separación parecidos?
 - ¿la subdivisión permanece estable hasta la resolución?
@@ -55,11 +55,11 @@ Localiza **Fifteen Stroke Roll** en PAS y aplica el mismo protocolo. Compara con
 
 Haz una toma de cada uno separada por unos segundos. Después responde sin tocar:
 
-1. ¿qué parte de tu ejecución depende de B1/A3?
-2. ¿qué parte depende de C2?
+1. ¿qué parte de tu ejecución depende de singles y redobles/fulcrum y dedos?
+2. ¿qué parte depende de subdivisión binaria y ternaria?
 3. ¿qué evidencia te permite saber que la resolución cae donde quieres?
 
-## Diagnóstico K2
+## Diagnóstico grabación y autoevaluación
 
 **Síntoma:** los primeros doubles son cómodos pero los últimos se precipitan. **Hipótesis:** estás acortando internamente la subdivisión al anticipar la resolución. **Prueba:** tocar la línea original con singles y contar en voz alta. **Retest:** volver al PAS con menor dificultad. Es una hipótesis, no un diagnóstico automático.
 

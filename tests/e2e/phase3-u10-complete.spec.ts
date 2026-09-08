@@ -31,8 +31,8 @@ test('U10 overview makes 7/8 core, 7/4 expansion and J3 levels explicit', async 
   await expect(page.getByRole('heading', { level: 1, name: 'Siete: 7/8 funcional; 7/4 como ampliación' })).toBeVisible();
   await expect(page.getByText(/7\/8 ≠ septillo ≠ agrupación de siete notas/)).toBeVisible();
   await expect(page.getByText(/agrupación dentro del compás ≠ compás/)).toBeVisible();
-  await expect(page.getByText(/J3 MÍNIMO GLOBAL/).first()).toBeVisible();
-  await expect(page.getByText(/J3 COMPETENTE\/FUNCIONAL no se concede por calendario/)).toBeVisible();
+  await expect(page.getByText(/métricas impares y mixtas MÍNIMO GLOBAL/).first()).toBeVisible();
+  await expect(page.getByText(/métricas impares y mixtas COMPETENTE\/FUNCIONAL no se concede por calendario/)).toBeVisible();
 });
 
 test('U10 L1 renders real 7/8 and distinguishes septuplet conceptually', async ({ page }, testInfo) => {
@@ -91,10 +91,10 @@ test('U10 checkpoint separates J3 minimum from competent evidence', async ({ pag
   await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-10/puerta-siete/');
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/J3 — MÍNIMO GLOBAL/)).toBeVisible();
-  await expect(article.getByText(/Bloque B — opcional: evidencia para J3 COMPETENTE/)).toBeVisible();
-  await expect(article.getByText(/Sólo si esta evidencia es funcional en ambas métricas puede registrarse J3 COMPETENTE/)).toBeVisible();
-  await expect(article.getByText(/AVANZADO no es requisito para U11/)).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'MÍNIMO GLOBAL' })).toBeVisible();
+  await expect(article.getByText(/Bloque B — opcional: evidencia para métricas impares y mixtas COMPETENTE/)).toBeVisible();
+  await expect(article.getByText(/Sólo si esta evidencia es funcional en ambas métricas puede registrarse métricas impares y mixtas COMPETENTE/)).toBeVisible();
+  await expect(article.getByText(/AVANZADO no es requisito para Unidad 11/)).toBeVisible();
 });
 
 test('U9 remains intact and U10 introduces no odd-meter grader', async ({ page }, testInfo) => {

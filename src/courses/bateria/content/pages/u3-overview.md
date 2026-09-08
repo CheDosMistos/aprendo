@@ -21,7 +21,7 @@ rudiments:
 published: true
 ---
 
-U3 **completa Tier 2** de la secuencia pedagógica adoptada para Fase 1. Recupera material de U1/U2, añade seis rudimentos PAS y convierte la exposición ternaria de U2 en trabajo estructurado de **tresillos, acentos y lectura**.
+Esta unidad **completa Tier 2** de la secuencia pedagógica adoptada para Fase 1. Recupera material de Unidad 1/Unidad 2, añade seis rudimentos PAS y convierte la exposición ternaria de Unidad 2 en trabajo estructurado de **tresillos, acentos y lectura**.
 
 ## ESENCIAL AHORA
 
@@ -40,9 +40,9 @@ U3 **completa Tier 2** de la secuencia pedagógica adoptada para Fase 1. Recuper
 
 ## AVANZADO
 
-U3 no añade una nueva ventana avanzada central. Si aparece tiempo extra, puedes observar cómo un patrón de acentos cambia la percepción de agrupación **sin llamarlo desplazamiento, cambio de compás ni polirritmia**. No es criterio de avance.
+Esta unidad no añade una nueva ventana avanzada central. Si aparece tiempo extra, puedes observar cómo un patrón de acentos cambia la percepción de agrupación **sin llamarlo desplazamiento, cambio de compás ni polirritmia**. No es criterio de avance.
 
-## Los seis PAS de U3
+## Los seis PAS de esta unidad
 
 La fuente normativa para nombre, ritmo, sticking, acentos, grace notes y rolls sigue siendo PAS:
 
@@ -56,6 +56,6 @@ El curso no reconstruye de memoria esas partituras. Los visores de esta unidad m
 2. **Lección 2 — Tresillos, Flam Tap y Flam Accent**
 3. **Lección 3 — Lesson 25 y Single Drag Tap**
 4. **Lección 4 — Lectura nueva, dictado e integración**
-5. **Cierre de U3 — ¿puedo continuar?**
+5. **Cierre de esta unidad — ¿puedo continuar?**
 
-Como en U2, `INTRODUCIDO` puede ser el estado real de un PAS recién presentado. No necesitas que los seis queden `CONOCIDOS` antes de abrir U4 si los pendientes no bloquean de forma crítica el siguiente trabajo.
+Como en Unidad 2, `INTRODUCIDO` puede ser el estado real de un PAS recién presentado. No necesitas que los seis queden `CONOCIDOS` antes de abrir Unidad 4 si los pendientes no bloquean de forma crítica el siguiente trabajo.

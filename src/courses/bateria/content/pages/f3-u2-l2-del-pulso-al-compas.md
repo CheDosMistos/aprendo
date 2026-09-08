@@ -25,7 +25,7 @@ La semicorchea ya es conocida de Fase 2; la novedad es reconocer posiciones más
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-dictation data-bpm="64" data-subdivision="4" data-pattern="1000101001001000" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="30.U2.L2: un compás 4/4 sobre dieciséis posiciones de semicorchea y densidad deliberadamente baja. Compara cada pulso y conserva la primera hipótesis." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l2-semicorcheas-a.musicxml" data-answer-score-title="30.U2.L2 — solución de semicorcheas A"></div>
+<div data-rhythm-dictation data-bpm="64" data-subdivision="4" data-pattern="1000101001001000" data-chunk-beats="1" data-chunk-labels="Pulso 1|Pulso 2|Pulso 3|Pulso 4" data-answer="Lección 2: un compás 4/4 sobre dieciséis posiciones de semicorchea y densidad deliberadamente baja. Compara cada pulso y conserva la primera hipótesis." data-answer-score-src="/bateria/notation/f3/u2/f3-u2-l2-semicorcheas-a.musicxml" data-answer-score-title="Lección 2 — solución de semicorcheas A"></div>
 
 Proceso:
 
@@ -43,7 +43,7 @@ En el papel puedes empezar con una rejilla provisional:
 
 Marca primero ataques y silencios. Convierte después esa hipótesis en notación convencional si ello aporta claridad.
 
-La rejilla provisional no es un fracaso de notación: puede ser un **correctivo localizado** mientras E4 se consolida.
+La rejilla provisional no es un fracaso de notación: puede ser un **correctivo localizado** mientras relación entre oído y notación se consolida.
 
 ## 3. Toca lo que escribiste · 4–5 min
 

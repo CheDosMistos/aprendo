@@ -23,13 +23,13 @@ No buscamos una toma «perfecta». Buscamos información útil.
 
 ## Toma 1 — referencia base
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="40.U7.L4 — Groove A de referencia" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u5/f4-u5-l4-four-limb-bridge-a.musicxml" data-score-title="Lección 4 — Groove A de referencia" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca cuatro compases de Groove A.
 
 ## Toma 2 — variación con retorno
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="40.U7.L4 — A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u7/f4-u7-l3-aaba-phrase.musicxml" data-score-title="Lección 4 — A–A–B–A" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Toca la frase A–A–B–A.
 
@@ -58,7 +58,7 @@ No subas BPM para esconder una transición incómoda.
 
 Si A–A–B–A ya es estable, puedes elegir **un único acento dinámico fijo** de la mano de tiempo en un lugar formal claro y comparar otra toma.
 
-No añadas notas. Esta ampliación no es requisito del checkpoint.
+No añadas notas. Esta ampliación no es requisito de la evaluación.
 
 ## MÍNIMO PARA AVANZAR
 

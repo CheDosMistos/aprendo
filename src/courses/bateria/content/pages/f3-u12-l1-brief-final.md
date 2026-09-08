@@ -23,10 +23,10 @@ Definir un proyecto final **lo bastante concreto para poder terminarlo y evaluar
 
 Puedes usar:
 
-- un motivo propio de U5/U6;
-- material propio generado en U7;
-- una composición propia de U8 que quieras volver a trabajar;
-- una frase propia de U9/U10;
+- un motivo propio de Unidad 5/Unidad 6;
+- material propio generado en Unidad 7;
+- una composición propia de Unidad 8 que quieras volver a trabajar;
+- una frase propia de Unidad 9/Unidad 10;
 - una idea nueva.
 
 Si partes de material anterior, anota de dónde viene. Eso no reduce la autoría: permite ver qué estás recuperando y qué trabajo realizas ahora.
@@ -71,7 +71,7 @@ No. Si la pieza tiene motivo identificable, desarrollo y una transformación con
 
 ## No busques todavía la “versión perfecta”
 
-Hoy sólo necesitas un encargo viable. La escritura completa llega en L2 y la comparación V0/V1 en L3.
+Hoy sólo necesitas un encargo viable. La escritura completa llega en Lección 2 y la comparación V0/V1 en Lección 3.
 
 ## Rutina estándar sugerida
 

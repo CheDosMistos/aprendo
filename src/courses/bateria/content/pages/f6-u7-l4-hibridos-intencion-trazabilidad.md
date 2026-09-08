@@ -21,7 +21,7 @@ Construir una mezcla estilística deliberada sin convertir el híbrido en una su
 
 ## 1. Hibridar no es apilar patrones
 
-El nivel AVANZADO de I5 habla de **combinar lenguajes y crear híbridos con intención musical**. Eso exige poder explicar la función de cada elemento, no sólo nombrar dos estilos.
+El nivel AVANZADO de transferencia entre estilos habla de **combinar lenguajes y crear híbridos con intención musical**. Eso exige poder explicar la función de cada elemento, no sólo nombrar dos estilos.
 
 Usa esta cadena:
 
@@ -98,7 +98,7 @@ Después de escuchar, responde:
 - atribuir una idea original a un artista o tradición;
 - añadir complejidad para hacer visible la mezcla;
 - juzgar sólo por dificultad técnica;
-- convertir el híbrido en trabajo de microtiming de U8.
+- convertir el híbrido en trabajo de microtiming de Unidad 8.
 
 ## Rutina estándar
 
@@ -116,4 +116,4 @@ Puedes crear una combinación breve y explicar:
 
 `QUÉ VIENE DE A → QUÉ VIENE DE B → QUÉ FUNCIÓN CUMPLE → QUÉ RETIRARÍA SI NO FUNCIONA`.
 
-No necesitas alcanzar todavía el nivel AVANZADO de I5 para continuar la unidad.
+No necesitas alcanzar todavía el nivel AVANZADO de transferencia entre estilos para continuar la unidad.

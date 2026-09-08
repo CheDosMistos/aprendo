@@ -21,7 +21,7 @@ Conocer **Swiss Army Triplet** y construir una representación correcta de **6/8
 
 ## 1. Puerta ternaria — 3 min
 
-Recupera un pulso dividido en tres partes iguales usando voz y pad. Si el pulso ternario está disponible, sigue. Si se convierte en tres pulsos independientes, corrige C1/C2 brevemente.
+Recupera un pulso dividido en tres partes iguales usando voz y pad. Si el pulso ternario está disponible, sigue. Si se convierte en tres pulsos independientes, corrige pulso interno/subdivisión binaria y ternaria brevemente.
 
 ## 2. Swiss Army Triplet — 8 min
 

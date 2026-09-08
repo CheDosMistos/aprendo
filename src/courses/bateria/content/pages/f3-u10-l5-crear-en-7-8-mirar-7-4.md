@@ -21,7 +21,7 @@ Usa vocabulario ya conocido; la novedad es la métrica.
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — semilla opcional**
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l5-create-seed-7-8.musicxml" data-score-title="30.U10.L5 — semilla opcional en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l5-create-seed-7-8.musicxml" data-score-title="Lección 5 — semilla opcional en 7/8" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Elige:
 - improvisar una frase corta con una restricción; o
@@ -31,9 +31,9 @@ Puedes mantener una agrupación o cambiarla si el cambio tiene función musical.
 
 ## Parte B — AMPLIACIÓN: 7/4
 
-Esta sección **no forma parte del mínimo de U10**.
+Esta sección **no forma parte del mínimo de esta unidad**.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l5-compare-7-4.musicxml" data-score-title="30.U10.L5 — AMPLIACIÓN comparativa 7/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u10/f3-u10-l5-compare-7-4.musicxml" data-score-title="Lección 5 — AMPLIACIÓN comparativa 7/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 En 7/4 hay siete negras escritas por compás.
 

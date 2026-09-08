@@ -19,11 +19,11 @@ published: true
 
 > **Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso.**
 
-Este checkpoint no inventa una rúbrica alternativa ni exige dificultad adicional.
+Esta evaluación no inventa una rúbrica alternativa ni exige dificultad adicional.
 
 ## Referencia CORE
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="40.U10 — Hito 5 integrado" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u10/f4-u10-hito5-integration.musicxml" data-score-title="Unidad 10 — Hito 5 integrado" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Forma:
 
@@ -44,7 +44,7 @@ Comprueba brevemente:
 - escucha y carga apropiadas al contexto;
 - qué forma vas a tocar.
 
-No conviertas esta comprobación en una repetición completa de U1.
+No conviertas esta comprobación en una repetición completa de Unidad 1.
 
 ## MÍNIMO PARA CERRAR HITO 5
 
@@ -89,7 +89,7 @@ No conviertas esta comprobación en una repetición completa de U1.
 
 - velocidad alta;
 - cero errores;
-- H7 independencia avanzada;
+- independencia avanzada;
 - doble pedal;
 - repertorio completo;
 - 5/4 o 7/8;
@@ -102,11 +102,11 @@ No conviertas esta comprobación en una repetición completa de U1.
 
 Cerrar Hito 5 no declara por sí solo:
 
-- H4 COMPETENTE/FUNCIONAL global;
-- H5 COMPETENTE/FUNCIONAL global;
-- H6 COMPETENTE/FUNCIONAL global;
-- H7;
-- H8 profundo;
+- coordinación básica de cuatro extremidades COMPETENTE/FUNCIONAL global;
+- groove y variaciones COMPETENTE/FUNCIONAL global;
+- fills COMPETENTE/FUNCIONAL global;
+- independencia avanzada;
+- balance, sonido y orquestación profundo;
 - repertorio o dominio estilístico.
 
 ## Decisión
@@ -117,4 +117,4 @@ Cerrar Hito 5 no declara por sí solo:
 
 ## Cierre de Fase 4
 
-Este Hito cierra la arquitectura de **Transferencia al kit** al nivel previsto. La fase siguiente puede profundizar sonido, coordinación, estilos, repertorio e independencia sin convertir este cierre en una exigencia de perfección.
+Este Hito cierra el recorrido de **Transferencia al kit** al nivel previsto. La fase siguiente puede profundizar sonido, coordinación, estilos, repertorio e independencia sin convertir este cierre en una exigencia de perfección.

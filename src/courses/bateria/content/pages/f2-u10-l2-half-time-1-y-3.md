@@ -15,11 +15,11 @@ rudiments: []
 published: true
 ---
 
-L2 no cambia el tempo real de la tarea. Cambia **la frecuencia de confirmación externa**.
+Lección 2 no cambia el tempo real de la tarea. Cambia **la frecuencia de confirmación externa**.
 
-Usa la misma línea controlada de L1:
+Usa la misma línea controlada de Lección 1:
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="20.U10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-title="Unidad 10 — línea controlada 4/4" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u10/f2-u10-linea-controlada-4-4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 ## Protocolo
 
@@ -29,7 +29,7 @@ Usa la misma línea controlada de L1:
 4. cuenta o siente también 2 y 4 aunque no suenen;
 5. registra qué ocurre en el segundo hueco entre clicks.
 
-**No uses el botón ÷2 como sustituto.** Ese botón cambia el BPM configurado; el modo half-time de U10 mantiene el BPM interno y reduce la densidad de referencia.
+**No uses el botón ÷2 como sustituto.** Ese botón cambia el BPM configurado; el modo half-time de esta unidad mantiene el BPM interno y reduce la densidad de referencia.
 
 ## Qué observar
 

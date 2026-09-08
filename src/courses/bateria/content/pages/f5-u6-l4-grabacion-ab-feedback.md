@@ -73,7 +73,7 @@ Responde:
 
 ## Calidad de captura: suficiente, no perfecta
 
-Berklee contempla desde smartphone/micrófono integrado hasta sistemas más complejos según la finalidad de la grabación. Para U6 basta una captura que permita **comparar tus propias tomas**.
+Berklee contempla desde smartphone/micrófono integrado hasta sistemas más complejos según la finalidad de la grabación. Para esta unidad basta una captura que permita **comparar tus propias tomas**.
 
 Fuente: [Berklee Online — How to Record a Video Assignment Without a Backing Track](https://online.berklee.edu/help/en_US/bocce/2400109).
 
@@ -100,9 +100,9 @@ Vuelve a `una variable dominante`.
 
 El objetivo no es seleccionar un ganador; es comprobar una hipótesis.
 
-## Preparación de Checkpoint 5C
+## Preparación de Evaluación
 
-Elige un problema real y pequeño de H8 que puedas demostrar:
+Elige un problema real y pequeño de balance, sonido y orquestación que puedas demostrar:
 
 `BASELINE → DESCRIPCIÓN → AJUSTE REVERSIBLE → TOMA B → DECISIÓN`.
 

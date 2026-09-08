@@ -44,10 +44,10 @@ test('F5 U2 overview makes D7 navigation dominant and exposes Chart A', async ({
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-2/');
   await expect(page.getByRole('heading', { level: 1, name: 'Charts, navegación y prioridades' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Novedad dominante: D7/i)).toBeVisible();
+  await expect(article.getByText(/Novedad dominante: navegación con chart/i)).toBeVisible();
   await expect(article.getByText(/UN CHART NO TE DICE CADA GOLPE/i)).toBeVisible();
   await expect(article.getByText(/TIEMPO → FORMA → ENTRADA → FIGURE\/CUE → DETALLE/i)).toBeVisible();
-  await expect(article.getByText(/puede certificar D7 MÍNIMO en condición preparada/i)).toBeVisible();
+  await expect(article.getByText(/puede certificar lectura aplicada al kit MÍNIMO en condición preparada/i)).toBeVisible();
   await expect(article.getByRole('table')).toHaveCount(1);
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
@@ -102,15 +102,15 @@ test('F5 U2 L4 uses Chart A only and teaches recovery', async ({ page }, testInf
 
 test('F5 U2 checkpoint 5A certifies D7 minimum only', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-2/d7-minimo/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint 5A — D7 MÍNIMO' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — lectura aplicada al kit MÍNIMO' })).toBeVisible();
   await expectNoScores(page);
   const article = page.locator('article.course-article');
   await expect(article.getByRole('table')).toHaveCount(1);
-  await expect(article.getByText(/D7 MÍNIMO en condición preparada: sigue indicaciones elementales de forma y entradas/i)).toBeVisible();
-  await expect(article.getByText(/score completo de U1 no visible durante la toma principal/i)).toBeVisible();
-  await expect(article.getByText(/D7 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/lectura aplicada al kit MÍNIMO en condición preparada: sigue indicaciones elementales de forma y entradas/i)).toBeVisible();
+  await expect(article.getByText(/score completo de Unidad 1 no visible durante la toma principal/i)).toBeVisible();
+  await expect(article.getByText(/lectura aplicada al kit COMPETENTE\/FUNCIONAL/i)).toBeVisible();
   await expect(article.getByText(/sight-reading a primera vista/i)).toBeVisible();
-  await expect(article.getByText(/I4 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/repertorio COMPETENTE\/FUNCIONAL/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
@@ -118,5 +118,5 @@ test('F5 U1 checkpoint remains pre-D7-functional after U2', async ({ page }, tes
   await login(page, testInfo); await page.goto('/bateria/fase-5-unidad-1/repertorio-a-en-desarrollo/');
   const article = page.locator('article.course-article');
   await expect(article.getByText(/NO es Hito 6/i)).toBeVisible();
-  await expect(article.getByText(/D7 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
+  await expect(article.getByText(/lectura aplicada al kit COMPETENTE\/FUNCIONAL/i)).toBeVisible();
 });

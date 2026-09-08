@@ -78,12 +78,12 @@ test('Phase 2 U6 L3 keeps progression multidimensional and later-unit boundaries
   await login(page, testInfo);
   await page.goto(lessonUrl);
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A L4' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA AVANZAR A Lección 4' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'un BPM fijo o alto' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: '9/8 o 12/8 — U7' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'sextillos — U8' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5 — U9' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'gaps de metrónomo — U10' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente D4 o F2' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: '9/8 o 12/8 — Unidad 7' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'sextillos — Unidad 8' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal Unidad 9' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'gaps de metrónomo — Unidad 10' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'actualizar automáticamente lectura de compás o métrica y terminología rítmica' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });

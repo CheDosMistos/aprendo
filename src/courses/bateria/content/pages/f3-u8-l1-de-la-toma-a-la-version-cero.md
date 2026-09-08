@@ -25,7 +25,7 @@ La novedad no es inventar mucho material. Es **fijar una decisión**.
 
 Este score muestra una frase de dos compases que alguien podría decidir conservar como V0.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l1-version-zero.musicxml" data-score-title="30.U8.L1 — ejemplo de versión 0" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l1-version-zero.musicxml" data-score-title="Lección 1 — ejemplo de versión 0" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 **No es “la composición correcta”.** No tienes que copiarla. Sirve para observar qué significa que una versión esté fijada.
 
@@ -33,11 +33,11 @@ Este score muestra una frase de dos compases que alguien podría decidir conserv
 
 Puedes partir de:
 
-- una toma de U7;
+- una toma de Unidad 7;
 - un motivo propio anterior;
 - una idea nueva.
 
-Si no tienes una toma útil de U7, no vuelvas atrás a “aprobar improvisación”. G4 puede empezar desde otro material válido.
+Si no tienes una toma útil de Unidad 7, no vuelvas atrás a “aprobar improvisación”. composición de piezas puede empezar desde otro material válido.
 
 Escribe una frase corta:
 

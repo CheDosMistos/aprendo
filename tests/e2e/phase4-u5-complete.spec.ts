@@ -44,7 +44,7 @@ test('F4 U5 overview presents the neutral three-limb groove and H4 boundary', as
   await expect(article.getByText(/hi-hat cerrado en corcheas/i)).toBeVisible();
   await expect(article.getByText(/caja en 2 y 4/i)).toBeVisible();
   await expect(article.getByText(/bombo en 1 y 3/i)).toBeVisible();
-  await expect(article.getByText(/no certifica H4 MÍNIMO/i)).toBeVisible();
+  await expect(article.getByText(/no certifica todavía el MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
@@ -88,22 +88,22 @@ test('F4 U5 L4 renders optional four-limb bridge without certifying H4', async (
   await expect(page.getByRole('heading', { level: 1, name: 'Puente hacia cuatro extremidades' })).toBeVisible();
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/AMPLIACIÓN — no requisito del checkpoint U5/i)).toBeVisible();
+  await expect(article.getByText(/AMPLIACIÓN — no requisito de la evaluación esta unidad/i)).toBeVisible();
   await expect(article.getByText(/ride en corcheas/i)).toBeVisible();
   await expect(article.getByText(/bombo en 1\/3 y caja en 2\/4/i)).toBeVisible();
   await expect(article.getByText(/chick de hi-hat en 2 y 4/i)).toBeVisible();
-  await expect(article.getByText(/no certifica H4 MÍNIMO ni H7/i)).toBeVisible();
+  await expect(article.getByText(/no certifica por sí solo el MÍNIMO PARA AVANZAR/i)).toBeVisible();
 });
 
 test('F4 U5 checkpoint renders the two required scores and keeps later skills open', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-5/primer-groove-estable/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Primer groove estable' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Primer groove estable' })).toBeVisible();
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/primer groove estable en la condición practicada de tres extremidades/i)).toBeVisible();
-  await expect(article.getByText(/H4 — coordinación básica de cuatro extremidades/)).toBeVisible();
-  await expect(article.getByText(/H5 — COMPETENTE\/FUNCIONAL/)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/)).toBeVisible();
+  await expect(article.getByText(/^coordinación básica de cuatro extremidades$/)).toBeVisible();
+  await expect(article.getByText(/^COMPETENTE\/FUNCIONAL$/)).toBeVisible();
+  await expect(article.getByText(/^independencia$/)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
   await expect(article.getByText(/La perfección no es requisito para continuar/i)).toBeVisible();
 });
@@ -111,7 +111,7 @@ test('F4 U5 checkpoint renders the two required scores and keeps later skills op
 test('F4 U4 remains an H3 checkpoint after groove is introduced', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-4/hihat-pie-disponible/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H3 MÍNIMO/).first()).toBeVisible();
-  await expect(article.getByText(/H5 — groove funcional/)).toBeVisible();
-  await expect(article.getByText(/No es requisito para iniciar U5/i)).toBeVisible();
+  await expect(article.getByText(/hi-hat de pie alcanza el[\s\S]*MÍNIMO PARA AVANZAR/).first()).toBeVisible();
+  await expect(article.getByText(/^groove funcional;$/)).toBeVisible();
+  await expect(article.getByText(/No es requisito para iniciar Unidad 5/i)).toBeVisible();
 });

@@ -8,7 +8,7 @@ slug: recuperar-identidad-superficies
 kind: lesson
 order: 1
 title: "Recuperar identidad sobre tres superficies"
-summary: "Recupera una frase manual conocida de U2 y comprueba que el cambio de superficie no ha borrado su identidad."
+summary: "Recupera una frase manual conocida de Unidad 2 y comprueba que el cambio de superficie no ha borrado su identidad."
 duration: 20–30 min
 competencies: [B8, G5, A8, C1, C2, K2, K7]
 rudiments: []
@@ -21,11 +21,11 @@ Recuperar una frase que ya conoces antes de añadir una nueva capa de coordinaci
 
 ## Material A — acento como opción de timbre
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="40.U8.L1 — Acento y opción de timbre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l3-accent-timbre.musicxml" data-score-title="Lección 1 — Acento y opción de timbre" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Material B — identidad sobre tres superficies
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="40.U8.L1 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u2/f4-u2-l4-three-surfaces.musicxml" data-score-title="Lección 1 — Identidad sobre tres superficies" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La segunda frase conserva ocho corcheas y sticking alternado R/L, pero las derechas recorren tom agudo y tom grave mientras las izquierdas permanecen en caja.
 
@@ -52,7 +52,7 @@ Pregunta:
 
 ## MÍNIMO PARA AVANZAR
 
-- recuperas la frase conocida de U2;
+- recuperas la frase conocida de Unidad 2;
 - mantienes ocho corcheas reconocibles;
 - sticking y recorrido son suficientemente claros;
 - identificas una transición física frágil;

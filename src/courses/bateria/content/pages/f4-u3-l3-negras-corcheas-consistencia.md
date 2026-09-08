@@ -21,7 +21,7 @@ Repetir golpes simples de bombo dentro de **negras y corcheas conocidas** sin co
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — PULSO DE BOMBO
 
-<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l3-kick-pulse.musicxml" data-score-title="40.U3.L3 — Negras y corcheas de bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f4/u3/f4-u3-l3-kick-pulse.musicxml" data-score-title="Lección 3 — Negras y corcheas de bombo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La partitura contiene dos compases originales de 4/4:
 
@@ -61,7 +61,7 @@ El BPM es una **condición de práctica**, no una nota. Baja el tempo si necesit
 - mantienes corcheas sencillas o un equivalente elemental;
 - el sonido no colapsa sistemáticamente al encadenar golpes;
 - puedes detectar el cuello de botella principal;
-- no necesitas velocidad alta para considerar H2 en progreso;
+- no necesitas velocidad alta para considerar bombo en progreso;
 - conservas equilibrio y carga razonables.
 
 ## Registrar esta práctica

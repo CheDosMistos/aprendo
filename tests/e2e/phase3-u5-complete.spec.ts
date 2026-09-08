@@ -31,7 +31,7 @@ test('Phase 3 U5 overview defines G1 authorship and keeps systematic transformat
   await expect(page.getByRole('heading', { level: 1, name: 'Motivo, identidad, repetición y contraste' })).toBeVisible();
   await expect(page.getByText('CREAR → TOCAR → ESCRIBIR → REPETIR → ESCUCHAR → COMPARAR → CONTRASTAR → RETORNAR → EXPLICAR', { exact: true })).toBeVisible();
   await expect(page.getByText(/No existe un porcentaje mágico de identidad/i)).toBeVisible();
-  await expect(page.getByText(/Eso comienza en U6/)).toBeVisible();
+  await expect(page.getByText(/Eso comienza en Unidad 6/)).toBeVisible();
   await expect(page.getByText(/No hay un corrector automático de creatividad/)).toBeVisible();
 });
 
@@ -95,8 +95,8 @@ test('U5 G1 checkpoint uses fresh C X material and does not require a G2 transfo
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-5/puerta-g1-hacia-transformacion/');
   const article = page.locator('article.course-article');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Puerta G1 hacia transformación' })).toBeVisible();
-  await expect(article.getByText(/nuevo para este checkpoint/i)).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Puerta motivo hacia transformación' })).toBeVisible();
+  await expect(article.getByText(/nuevo para esta evaluación/i)).toBeVisible();
   await expect(article.getByText(/Conserva tu primera versión/i)).toBeVisible();
   await expect(article.getByText('A → A → B → A', { exact: true })).toBeVisible();
 
@@ -108,8 +108,8 @@ test('U5 G1 checkpoint uses fresh C X material and does not require a G2 transfo
   await expect(article.getByText(/El diseño pretendido es RELACIONADO/)).toBeHidden();
   await reference.locator('summary').click();
   await expect(article.getByText(/El diseño pretendido es RELACIONADO/)).toBeVisible();
-  await expect(article.getByText(/no necesitas todavía demostrar G2/i)).toBeVisible();
-  await expect(article.getByText(/AVANZADO no es requisito para U6/)).toBeVisible();
+  await expect(article.getByText(/no necesitas todavía demostrar desarrollo motívico/i)).toBeVisible();
+  await expect(article.getByText(/AVANZADO no es requisito para Unidad 6/)).toBeVisible();
 });
 
 test('U4 form widget remains intact and U5 does not introduce a creativity grader widget', async ({ page }, testInfo) => {

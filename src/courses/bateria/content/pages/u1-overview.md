@@ -79,6 +79,6 @@ El curso no reconstruye la partitura oficial. Si existe cualquier duda sobre ord
 3. **Lección 2 — Golpes dobles y Single Paradiddle**
 4. **Lección 3 — Flam, Drag (Ruff) y control de alturas**
 5. **Lección 4 — Recuperación, lectura y aplicación musical**
-6. **Cierre de U1 — ¿puedo continuar?**
+6. **Cierre de esta unidad — ¿puedo continuar?**
 
 Una sesión puede ocupar un día o varios intentos. No existe deuda por calendario.

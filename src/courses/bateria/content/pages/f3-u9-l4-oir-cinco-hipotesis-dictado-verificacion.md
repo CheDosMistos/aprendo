@@ -23,7 +23,7 @@ Reconocer y representar un estímulo sencillo de **5/4** sin ver la respuesta an
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1101010010" data-chunk-beats="5" data-chunk-labels="Compás completo" data-answer="30.U9.L4: un compás original de 5/4 sobre diez corcheas. Compara primero la barra de cinco y después ataques/silencios." data-answer-score-src="/bateria/notation/f3/u9/f3-u9-l4-dictation-answer.musicxml" data-answer-score-title="30.U9.L4 — solución de dictado 5/4"></div>
+<div data-rhythm-dictation data-bpm="68" data-subdivision="2" data-pattern="1101010010" data-chunk-beats="5" data-chunk-labels="Compás completo" data-answer="Lección 4: un compás original de 5/4 sobre diez corcheas. Compara primero la barra de cinco y después ataques/silencios." data-answer-score-src="/bateria/notation/f3/u9/f3-u9-l4-dictation-answer.musicxml" data-answer-score-title="Lección 4 — solución de dictado 5/4"></div>
 
 La solución MusicXML está precargada técnicamente, pero permanece oculta hasta que la reveles.
 

@@ -15,11 +15,11 @@ rudiments: []
 published: true
 ---
 
-Hasta aquí el curso ha trabajado el interior del pulso principalmente con organización binaria. U5 abre otra posibilidad: **repartir el mismo pulso en tres partes iguales**.
+Hasta aquí el curso ha trabajado el interior del pulso principalmente con organización binaria. Esta unidad abre otra posibilidad: **repartir el mismo pulso en tres partes iguales**.
 
 > **TRES NOTAS DENTRO DEL PULSO NO SON TRES PULSOS.**
 
-La novedad de esta lección es sólo esa. No vamos a entrenar todavía cambios 2↔3 como tarea central —eso será L2— ni a presentar 6/8 —eso será U6—. Primero necesitamos una representación ternaria clara, estable y reconocible.
+La novedad de esta lección es sólo esa. No vamos a entrenar todavía cambios 2↔3 como tarea central —eso será Lección 2— ni a presentar 6/8 —eso será Unidad 6—. Primero necesitamos una representación ternaria clara, estable y reconocible.
 
 ## 1. Recuperar el pulso — 3 min
 
@@ -46,7 +46,7 @@ Haz tres pasadas cortas:
 
 Comprueba dos cosas por separado:
 
-- **C1 — PULSO:** ¿los cuatro pulsos siguen llegando con regularidad razonable?;
+- **PULSO:** ¿los cuatro pulsos siguen llegando con regularidad razonable?;
 - **IGUALDAD TERNARIA:** ¿las tres partes ocupan espacios equivalentes o la primera/última se estira?
 
 Si una de las tres notas se vuelve sistemáticamente más larga, no aceleres. Haz más visible el pulso y vuelve a distribuir el espacio.
@@ -55,7 +55,7 @@ Si una de las tres notas se vuelve sistemáticamente más larga, no aceleres. Ha
 
 `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`
 
-<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-title="20.U5.L1 — tres partes dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
+<div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-title="Lección 1 — tres partes dentro del mismo pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-l1-tres-partes.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
 Antes de pulsar **Habilitar audio**, lee y realiza al menos una pasada propia.
 
@@ -133,7 +133,7 @@ Registra brevemente:
 
 Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`.
 
-## MÍNIMO PARA AVANZAR A L2
+## MÍNIMO PARA AVANZAR A Lección 2
 
 Con una condición cómoda y ayudas razonables cuando las necesites:
 
@@ -151,9 +151,9 @@ No se exige:
 - cambios 2↔3 fluidos;
 - 6/8;
 - sextillos;
-- primera vista formal D5;
+- primera vista formal forma y lectura de chart;
 - memorizar la partitura;
-- actualizar automáticamente C2 o D3 por completar esta página.
+- actualizar automáticamente subdivisión binaria y ternaria o tuplets y ornamentación por completar esta página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA TAREA
 
@@ -171,5 +171,5 @@ No introduzcas todavía secuencias sistemáticas 2↔3, 2↔3↔4 ni 6/8. Esas c
 - **cada nota empieza a sentirse como un pulso:** vuelve a marcar negras y coloca tres ataques dentro de cada gesto;
 - **la mano no dominante comprime una posición:** reduce altura/velocidad y compara ambas direcciones;
 - **la lectura depende del audio:** vuelve a ocultar playback, cuenta y decodifica antes de escuchar;
-- **confundes tresillo con 6/8:** verbaliza “4 pulsos en 4/4; 3 subdivisiones dentro de cada pulso”; U6 cambiará el marco métrico de forma explícita;
+- **confundes tresillo con 6/8:** verbaliza “4 pulsos en 4/4; 3 subdivisiones dentro de cada pulso”; Unidad 6 cambiará el marco métrico de forma explícita;
 - **aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente:** reduce o detén la carga según el sistema general.

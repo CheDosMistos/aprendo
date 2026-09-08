@@ -33,7 +33,7 @@ test('Phase 2 U7 L4 renders compound transfer notation and five hidden-answer au
   await page.goto('/bateria/fase-2-unidad-7/leer-escuchar-clasificar-y-explicar/');
 
   await expect(page.getByRole('heading', { level: 1, name: 'Leer, escuchar, clasificar y explicar' })).toBeVisible();
-  await expect(page.getByText('E5 EMPIEZA AQUÍ COMO RECONOCIMIENTO CONTROLADO, NO COMO ADIVINACIÓN DE COMPASES EN MÚSICA AMBIGUA.', { exact: true })).toBeVisible();
+  await expect(page.getByText('grabación y comparación EMPIEZA AQUÍ COMO RECONOCIMIENTO CONTROLADO, NO COMO ADIVINACIÓN DE COMPASES EN MÚSICA AMBIGUA.', { exact: true })).toBeVisible();
 
   const scores = page.locator('.course-score');
   await expect(scores).toHaveCount(1);
@@ -76,9 +76,9 @@ test('Phase 2 U7 L4 keeps E5 bounded and exposes checkpoint criteria', async ({ 
   await login(page, testInfo);
   await page.goto('/bateria/fase-2-unidad-7/leer-escuchar-clasificar-y-explicar/');
 
-  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA PASAR AL CHECKPOINT DE U7' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA PASAR AL Evaluación DE esta unidad' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'reconocimiento métrico general en repertorio ambiguo' })).toBeVisible();
-  await expect(page.locator('li').filter({ hasText: 'primera vista formal D5' })).toBeVisible();
+  await expect(page.locator('li').filter({ hasText: 'primera vista formal Unidad 9' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'sextillos' })).toBeVisible();
   await expect(page.locator('li').filter({ hasText: 'click reducido, half-time o gaps' })).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();

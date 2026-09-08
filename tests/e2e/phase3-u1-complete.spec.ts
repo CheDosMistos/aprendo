@@ -26,14 +26,14 @@ test('Phase 3 U1 overview exposes the representation loop and boundaries', async
   await page.goto('/bateria/fase-3-unidad-1/');
   await expect(page.getByRole('heading', { level: 1, name: 'Del código al lenguaje' })).toBeVisible();
   await expect(page.getByText('OÍR ↔ IMITAR ↔ ESCRIBIR ↔ LEER/TOCAR ↔ COMPARAR ↔ EXPLICAR', { exact: true })).toBeVisible();
-  await expect(page.getByText(/Su trabajo estructurado empieza en U3/)).toBeVisible();
+  await expect(page.getByText(/Su trabajo estructurado empieza en Unidad 3/)).toBeVisible();
 });
 
 test('U1 L1 keeps the auditory notation answer absent until reveal while its resources preload', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-1/una-idea-varias-representaciones/');
 
-  const visual = page.locator('.course-score').filter({ hasText: '30.U1.L1 — lectura visual A' });
+  const visual = page.locator('.course-score').filter({ hasText: 'Lección 1 — lectura visual A' });
   await expect(visual.locator('.course-score__status')).toHaveText('Partitura renderizada', { timeout: 15_000 });
 
   const widget = page.locator('.rhythm-dictation');

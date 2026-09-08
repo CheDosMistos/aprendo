@@ -17,11 +17,11 @@ published: true
 
 ## Objetivo
 
-Transferir la habilidad de **dejar espacio y recuperar referencia** a música más larga sin imponer vocabulario de U7 donde no pertenece.
+Transferir la habilidad de **dejar espacio y recuperar referencia** a música más larga sin imponer vocabulario de esta unidad donde no pertenece.
 
 ## Modo laboratorio
 
-Sobre el modelo de U7:
+Sobre el modelo de esta unidad:
 
 1. 4 compases de groove;
 2. 1 compás con textura reducida;
@@ -33,7 +33,7 @@ La reducción puede ser tan simple como conservar una sola capa o dejar un silen
 
 ## Modo repertorio — Pieza B
 
-Pieza B nació en U4 como **shuffle y ruta predominantemente auditiva**. U7 la continúa como repertorio, pero no reescribe su identidad.
+Pieza B nació en Unidad 4 como **shuffle y ruta predominantemente auditiva**. Esta unidad la continúa como repertorio, pero no reescribe su identidad.
 
 > **NO CONVIERTAS PIEZA B EN REGGAE.**
 
@@ -45,7 +45,7 @@ La transferencia es abstracta y musical:
 - volver a entrar con referencia;
 - controlar textura y dinámica.
 
-No transfieras automáticamente el one-drop, steppers ni una articulación de hi-hat de U7 a Pieza B.
+No transfieras automáticamente el one-drop, steppers ni una articulación de hi-hat de esta unidad a Pieza B.
 
 ## Escucha comparada
 
@@ -56,10 +56,10 @@ Escucha un ejemplo reggae documentado y después Pieza B. En cada uno responde:
 - ¿qué señales indican cambio de sección?
 - ¿qué elemento sería una caricatura si lo copiaras fuera de contexto?
 
-## Evidencia mínima de U7
+## Evidencia mínima de esta unidad
 
 Puedes ejecutar un modelo reggae básico sin perder forma, reducir textura y volver a entrar, y explicar por qué el patrón usado es **un ejemplo contextualizado**, no una definición total del género.
 
 ## Frontera
 
-U7 no certifica reggae “dominado”, no exige todas las variantes de hi-hat, no añade un checkpoint global y no usa BPM como puerta.
+Esta unidad no certifica reggae “dominado”, no exige todas las variantes de hi-hat, no añade un Evaluación global y no usa BPM como puerta.

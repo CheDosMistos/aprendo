@@ -19,7 +19,7 @@ published: true
 
 Convertir las fronteras formales en lugares previsibles, no en sorpresas.
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="50.U1.L3 — Pieza A: transiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u1/f5-u1-piece-a-form-i.musicxml" data-score-title="Lección 3 — Pieza A: transiciones" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 ## Tres uniones
 
