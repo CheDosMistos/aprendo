@@ -42,7 +42,7 @@ test('F4 U6 overview makes H4 minimum explicit and keeps H7 separate', async ({ 
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Coordina patrones sencillos sin perder pulso/i)).toBeVisible();
   await expect(article.getByText(/Sólo cambia una capa/i)).toBeVisible();
-  await expect(article.getByText(/U6 no certifica H7/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad no certifica independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
@@ -51,7 +51,7 @@ test('F4 U6 L1 reuses the U5 four-limb score as the central pattern', async ({ p
   await expect(page.getByRole('heading', { level: 1, name: 'Cuatro extremidades como un patrón completo' })).toBeVisible();
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Reutilizamos exactamente el ejercicio de U5/i)).toBeVisible();
+  await expect(article.getByText(/Reutilizamos exactamente el ejercicio de Unidad 5/i)).toBeVisible();
   await expect(article.getByText(/No hay material rítmico nuevo/i)).toBeVisible();
   await expect(article.getByText(/Recompón las cuatro extremidades pronto/i)).toBeVisible();
   await expectPracticeCheckIn(page);
@@ -77,7 +77,7 @@ test('F4 U6 L3 renders Pattern B with only the left-foot layer changed', async (
   await expect(article.getByText(/bombo: 1 y 3/i)).toBeVisible();
   await expect(article.getByText(/pie izquierdo: chick en negras 1–2–3–4/i)).toBeVisible();
   await expect(article.getByText(/sólo cambia el pie izquierdo/i)).toBeVisible();
-  await expect(article.getByText(/U6 no certifica H7/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad no certifica independencia avanzada/i)).toBeVisible();
 });
 
 test('F4 U6 L4 renders A and B and keeps transfer block-based', async ({ page }, testInfo) => {
@@ -88,25 +88,25 @@ test('F4 U6 L4 renders A and B and keeps transfer block-based', async ({ page },
   await expect(article.getByRole('heading', { name: 'Recuperación activa' })).toBeVisible();
   await expect(article.getByRole('heading', { name: 'Transferencia por bloques' })).toBeVisible();
   await expect(article.getByText(/Alternar dos patrones fijos/i)).toBeVisible();
-  await expect(article.getByText(/No certifica H7/i)).toBeVisible();
+  await expect(article.getByText(/No certifica independencia avanzada/i)).toBeVisible();
 });
 
 test('F4 U6 checkpoint renders both patterns and certifies H4 minimum only', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-6/h4-minimo/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — H4 MÍNIMO' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — coordinación básica de cuatro extremidades MÍNIMO' })).toBeVisible();
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Coordina patrones sencillos sin perder pulso/i)).toBeVisible();
   await expect(article.getByText(/No es obligatorio ejecutar A→B sin pausa/i)).toBeVisible();
-  await expect(article.getByText(/H4 — COMPETENTE\/FUNCIONAL/)).toBeVisible();
-  await expect(article.getByText(/H5 — COMPETENTE\/FUNCIONAL/)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/)).toBeVisible();
+  await expect(article.getByText(/coordinación de cuatro extremidades en nivel[\s\S]*COMPETENTE\/FUNCIONAL/)).toBeVisible();
+  await expect(article.getByText(/groove y variaciones en nivel[\s\S]*COMPETENTE\/FUNCIONAL/)).toBeVisible();
+  await expect(article.getByText(/^independencia avanzada;$/)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
 test('F4 U5 checkpoint remains pre-H4 after U6 introduces certification', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-5/primer-groove-estable/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/no certifica H4 MÍNIMO/i).first()).toBeVisible();
-  await expect(article.getByText(/H5 — COMPETENTE\/FUNCIONAL/)).toBeVisible();
+  await expect(article.getByText(/no certifica coordinación básica de cuatro extremidades MÍNIMO/i).first()).toBeVisible();
+  await expect(article.getByText(/groove y variaciones en COMPETENTE\/FUNCIONAL/i)).toBeVisible();
 });

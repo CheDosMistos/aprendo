@@ -40,9 +40,9 @@ test('F4 U8 overview makes B8 G5 dominant and preserves H6 H7 boundaries', async
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-8/');
   await expect(page.getByRole('heading', { level: 1, name: 'Orquestar vocabulario ya conocido' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Novedad dominante: B8 \/ G5/i)).toBeVisible();
+  await expect(article.getByText(/Novedad dominante: orquestación de rudimentos \/ improvisación restringida/i)).toBeVisible();
   await expect(article.getByText(/Una frase conocida debe seguir siendo reconocible/i)).toBeVisible();
-  await expect(article.getByText(/no certifica B8 COMPETENTE, G5 COMPETENTE, H6 ni H7/i)).toBeVisible();
+  await expect(article.getByText(/no certifica orquestación de rudimentos COMPETENTE, improvisación restringida COMPETENTE, fills ni independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/ACENTO ≠ SUPERFICIE/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
@@ -63,7 +63,7 @@ test('F4 U8 L2 renders known hands plus the stable foot base', async ({ page }, 
   await expect(page.getByRole('heading', { level: 1, name: 'Pies simples bajo manos orquestadas' })).toBeVisible();
   await expectScoresReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/ocho corcheas exactamente como U2\.L4/i)).toBeVisible();
+  await expect(article.getByText(/ocho corcheas exactamente como Lección 4/i)).toBeVisible();
   await expect(article.getByText(/bombo: 1 y 3/i)).toBeVisible();
   await expect(article.getByText(/pedal hi-hat: 2 y 4/i)).toBeVisible();
   await expect(article.getByText(/Los pies no reciben vocabulario nuevo/i)).toBeVisible();
@@ -77,7 +77,7 @@ test('F4 U8 L3 compares two known orchestrations and demands a musical criterion
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/TIMBRE \/ CLARIDAD \/ MOVIMIENTO \/ DINÁMICA \/ FUNCIÓN \/ COSTE FÍSICO/i)).toBeVisible();
-  await expect(article.getByText(/Cambiar sticking deliberadamente es una decisión de B8/i)).toBeVisible();
+  await expect(article.getByText(/Cambiar sticking deliberadamente es una decisión de orquestación de rudimentos/i)).toBeVisible();
   await expect(article.getByText(/un único acento/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
@@ -90,27 +90,27 @@ test('F4 U8 L4 transfers a personal motif without inventing a fixed score', asyn
   await expect(article.getByText(/tu motivo es el material fuente/i)).toBeVisible();
   await expect(article.getByText(/Inventar uno nuevo y presentarlo como tu composición anterior rompería la continuidad/i)).toBeVisible();
   await expect(article.getByText(/VERSIÓN BASE → VERSIÓN ORQUESTADA → VERSIÓN BASE/i)).toBeVisible();
-  await expect(article.getByText(/U8 no la certifica como fill H6/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad no la certifica como fill fills/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
 
 test('F4 U8 checkpoint renders base and full-kit scores and certifies G5 minimum only', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-8/g5-b8-transferencia/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — G5 MÍNIMO / B8 transferencia' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — improvisación restringida MÍNIMO / orquestación de rudimentos transferencia' })).toBeVisible();
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Distribuye una frase conocida por superficies/i)).toBeVisible();
-  await expect(article.getByText(/B8 en transferencia al kit/i)).toBeVisible();
-  await expect(article.getByText(/B8 COMPETENTE\/FUNCIONAL global/i)).toBeVisible();
-  await expect(article.getByText(/G5 COMPETENTE\/FUNCIONAL/i)).toBeVisible();
-  await expect(article.getByText(/H6 — fills/i)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/i)).toBeVisible();
+  await expect(article.getByText(/orquestación de rudimentos en transferencia al kit/i)).toBeVisible();
+  await expect(article.getByText(/^orquestación de rudimentos COMPETENTE\/FUNCIONAL global;$/)).toBeVisible();
+  await expect(article.getByText(/^improvisación restringida COMPETENTE\/FUNCIONAL;$/)).toBeVisible();
+  await expect(article.getByText(/^fills;$/)).toBeVisible();
+  await expect(article.getByText(/^independencia;$/)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
 test('F4 U7 checkpoint remains pre-B8-G5 focal after U8', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-7/h5-minimo/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/B8\/G5 — orquestación focal de U8/)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/)).toBeVisible();
+  await expect(article.getByText(/^orquestación focal de rudimentos de Unidad 8;$/)).toBeVisible();
+  await expect(article.getByText(/^independencia avanzada;$/)).toBeVisible();
 });

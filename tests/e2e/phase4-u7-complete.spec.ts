@@ -43,7 +43,7 @@ test('F4 U7 overview makes H5 minimum explicit and preserves H7 boundary', async
   await expect(article.getByText(/Mantiene grooves básicos estables/i)).toBeVisible();
   await expect(article.getByText(/Variación B/i).first()).toBeVisible();
   await expect(article.getByText(/A–A–B–A/i).first()).toBeVisible();
-  await expect(article.getByText(/no certifica H5 COMPETENTE\/FUNCIONAL, H4 COMPETENTE\/FUNCIONAL ni H7/i)).toBeVisible();
+  await expect(article.getByText(/no certifica groove y variaciones COMPETENTE\/FUNCIONAL, coordinación básica de cuatro extremidades COMPETENTE\/FUNCIONAL ni independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
@@ -66,7 +66,7 @@ test('F4 U7 L2 renders Variation B with one extra kick and no H7 claim', async (
   const article = page.locator('article.course-article');
   await expect(article.getByText(/bombo: 1, 3 y/i)).toBeVisible();
   await expect(article.getByText(/sólo se añade una nota de bombo/i)).toBeVisible();
-  await expect(article.getByText(/U7 no certifica H7/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad no certifica independencia avanzada/i)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
@@ -90,27 +90,27 @@ test('F4 U7 L4 renders both comparison scores and limits feedback to priorities'
   await expect(article.getByText(/Elige 1–2 prioridades/i)).toBeVisible();
   await expect(article.getByText(/OBSERVACIÓN → HIPÓTESIS → CAMBIO DE UNA VARIABLE → NUEVA TOMA/i)).toBeVisible();
   await expect(article.getByText(/segunda variación dinámica/i)).toBeVisible();
-  await expect(article.getByText(/no es requisito del checkpoint/i)).toBeVisible();
+  await expect(article.getByText(/no es requisito de la evaluación/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
 
 test('F4 U7 checkpoint renders A, B and AABA and certifies H5 minimum only', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-7/h5-minimo/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — H5 MÍNIMO' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — groove y variaciones MÍNIMO' })).toBeVisible();
   await expectScoresReady(page, 3);
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Mantiene grooves básicos estables/i)).toBeVisible();
   await expect(article.getByText(/vuelves a A tras la variación/i)).toBeVisible();
-  await expect(article.getByText(/H5 — COMPETENTE\/FUNCIONAL/)).toBeVisible();
-  await expect(article.getByText(/H4 — COMPETENTE\/FUNCIONAL global/)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/)).toBeVisible();
-  await expect(article.getByText(/H6 — fills/)).toBeVisible();
+  await expect(article.getByText(/^groove y variaciones en nivel COMPETENTE\/FUNCIONAL;$/)).toBeVisible();
+  await expect(article.getByText(/^coordinación de cuatro extremidades en nivel COMPETENTE\/FUNCIONAL global;$/)).toBeVisible();
+  await expect(article.getByText(/^independencia avanzada;$/)).toBeVisible();
+  await expect(article.getByText(/^fills;$/)).toBeVisible();
   await expect(article.getByText(/No existe BPM de aprobado/i)).toBeVisible();
 });
 
 test('F4 U6 checkpoint remains H4-minimum-only after U7', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-6/h4-minimo/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H5 — COMPETENTE\/FUNCIONAL/)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/)).toBeVisible();
+  await expect(article.getByText(/groove y variaciones en nivel[\s\S]*COMPETENTE\/FUNCIONAL/)).toBeVisible();
+  await expect(article.getByText(/^independencia avanzada;$/)).toBeVisible();
 });
