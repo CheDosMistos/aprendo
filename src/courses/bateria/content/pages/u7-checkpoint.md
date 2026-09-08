@@ -92,4 +92,4 @@ No reinicies esta unidad completa. Aplica un correctivo corto a la variable resp
 
 ## Registro final
 
-Marca cada PAS como `INTRODUCIDO` o `CONOCIDO` según evidencia. Registra **por separado y como ventana no bloqueante** el estado de 5/4 y desplazamiento elemental.
+Registra cada PAS como `CONOCIDO`, `FUNCIONAL` o `DOMINADO` solo cuando exista evidencia suficiente. Si todavía no alcanza `CONOCIDO`, déjalo **en adquisición** sin asignar un estado PAS adicional. Registra **por separado y como ventana no bloqueante** el estado de 5/4 y desplazamiento elemental.
