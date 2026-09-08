@@ -40,10 +40,10 @@ test('F4 U4 overview exposes H3 minimum as a branch parallel to H2', async ({ pa
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-4/');
   await expect(page.getByRole('heading', { level: 1, name: 'Hi-hat de pie: cerrar, abrir y sostener referencia' })).toBeVisible();
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H2 bombo y H3 hi-hat de pie ramas paralelas/i)).toBeVisible();
+  await expect(article.getByText(/bombo y hi-hat de pie como ramas paralelas/i)).toBeVisible();
   await expect(article.getByText(/mantener aperturas\/cierres u ostinatos simples/i)).toBeVisible();
   await expect(article.getByText(/TRADICIÓN PEDAGÓGICA \/ OPCIONES TÉCNICAS/)).toBeVisible();
-  await expect(article.getByText(/no certifica H4/)).toBeVisible();
+  await expect(article.getByText(/no certifica coordinación básica de cuatro extremidades/)).toBeVisible();
 });
 
 test('F4 U4 L1 isolates open close chick without a score or universal settings', async ({ page }, testInfo) => {
@@ -89,29 +89,29 @@ test('F4 U4 L4 renders two voices without kick and keeps H4 uncertified', async 
   await expect(article.getByText(/ocho corcheas alternadas R\/L/)).toBeVisible();
   await expect(article.getByText(/chick de pedal hi-hat en las cuatro negras/)).toBeVisible();
   await expect(article.getByText(/No hay bombo/)).toBeVisible();
-  await expect(article.getByText(/no hace falta haber completado H2/i)).toBeVisible();
-  await expect(article.getByText(/no certifica H4 ni H7/i)).toBeVisible();
+  await expect(article.getByText(/no hace falta haber completado bombo/i)).toBeVisible();
+  await expect(article.getByText(/no certifica coordinación básica de cuatro extremidades.*independencia avanzada/i)).toBeVisible();
 });
 
 test('F4 U4 checkpoint renders both scores and certifies only H3 minimum', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-4/hihat-pie-disponible/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Hi-hat de pie disponible' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Hi-hat de pie disponible' })).toBeVisible();
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H3 MÍNIMO/).first()).toBeVisible();
+  await expect(article.getByText(/hi-hat de pie alcanza el[\s\S]*MÍNIMO PARA AVANZAR/).first()).toBeVisible();
   await expect(article.getByText(/negras = ESENCIAL AHORA/i)).toBeVisible();
   await expect(article.getByText(/tiempos 2 y 4 = AMPLIACIÓN/i)).toBeVisible();
-  await expect(article.getByText(/H2 — técnica de bombo/)).toBeVisible();
-  await expect(article.getByText(/H4 — coordinación básica de cuatro extremidades/)).toBeVisible();
-  await expect(article.getByText(/H5 — groove funcional/)).toBeVisible();
-  await expect(article.getByText(/H7 — independencia/)).toBeVisible();
+  await expect(article.getByText(/^técnica de bombo;$/)).toBeVisible();
+  await expect(article.getByText(/^coordinación básica de cuatro extremidades;$/)).toBeVisible();
+  await expect(article.getByText(/^groove funcional;$/)).toBeVisible();
+  await expect(article.getByText(/^independencia;$/)).toBeVisible();
   await expect(article.getByText(/La perfección no es requisito para continuar/)).toBeVisible();
 });
 
 test('F4 U3 checkpoint remains H2-only after left-foot branch is introduced', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-3/bombo-primera-voz-pie/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/H2 MÍNIMO/).first()).toBeVisible();
-  await expect(article.getByText(/H3 — hi-hat de pie/)).toBeVisible();
-  await expect(article.getByText(/H4 — coordinación básica de cuatro extremidades/)).toBeVisible();
+  await expect(article.getByText(/bombo está[\s\S]*al nivel MÍNIMO PARA AVANZAR/).first()).toBeVisible();
+  await expect(article.getByText(/^hi-hat de pie;$/)).toBeVisible();
+  await expect(article.getByText(/^coordinación básica de cuatro extremidades;$/)).toBeVisible();
 });

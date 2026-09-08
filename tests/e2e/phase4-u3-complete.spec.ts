@@ -41,9 +41,9 @@ test('F4 U3 overview exposes H2 minimum and rejects a universal pedal technique'
   await expect(page.getByRole('heading', { level: 1, name: 'Bombo: primer control de pedal' })).toBeVisible();
   const article = page.locator('article.course-article');
   await expect(article.getByText(/Cuando el pie es nuevo, el ritmo debe ser viejo/i).first()).toBeVisible();
-  await expect(article.getByText(/MÍNIMO de H2 no es velocidad/)).toBeVisible();
+  await expect(article.getByText(/MÍNIMO de bombo no es velocidad/)).toBeVisible();
   await expect(article.getByText(/no demuestra que heel-down, heel-up, heel-toe, slide.*universalmente superior/i)).toBeVisible();
-  await expect(article.getByText(/no certifica H4/)).toBeVisible();
+  await expect(article.getByText(/no certifica coordinación básica de cuatro extremidades/)).toBeVisible();
 });
 
 test('F4 U3 L1 teaches hit return preparation without a universal geometry', async ({ page }, testInfo) => {
@@ -90,20 +90,20 @@ test('F4 U3 L4 renders substitution without layering or H4 certification', async
   await expect(article.getByText(/no se añade como una capa extra/i)).toBeVisible();
   await expect(article.getByText(/A → B → A/).first()).toBeVisible();
   await expect(article.getByText(/no se añaden ataques/i)).toBeVisible();
-  await expect(article.getByText(/no certifica H4/i)).toBeVisible();
+  await expect(article.getByText(/no certifica coordinación básica de cuatro extremidades/i)).toBeVisible();
   await expect(article.getByText(/distingues sustitución de superposición/i)).toBeVisible();
 });
 
 test('F4 U3 checkpoint renders both scores and certifies only H2 minimum', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-3/bombo-primera-voz-pie/');
-  await expect(page.getByRole('heading', { level: 1, name: 'Checkpoint — Bombo disponible como primera voz de pie' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Bombo disponible como primera voz de pie' })).toBeVisible();
   await expectScoresReady(page, 2);
   const article = page.locator('article.course-article');
   await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR' })).toBeVisible();
   await expect(article.getByText(/no existe BPM de aprobado/i)).toBeVisible();
-  await expect(article.getByText(/H3 — hi-hat de pie/)).toBeVisible();
-  await expect(article.getByText(/H4 — coordinación básica de cuatro extremidades/)).toBeVisible();
-  await expect(article.getByText(/H5 — groove/)).toBeVisible();
+  await expect(article.getByText(/^hi-hat de pie;$/)).toBeVisible();
+  await expect(article.getByText(/^coordinación básica de cuatro extremidades;$/)).toBeVisible();
+  await expect(article.getByText(/^groove;$/)).toBeVisible();
   await expect(article.getByText(/doble pedal/)).toBeVisible();
   await expect(article.getByText(/La perfección no es requisito para continuar/)).toBeVisible();
 });
@@ -111,7 +111,7 @@ test('F4 U3 checkpoint renders both scores and certifies only H2 minimum', async
 test('F4 U2 checkpoint remains manual-only when U3 introduces kick', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-4-unidad-2/misma-idea-varias-superficies/');
   const article = page.locator('article.course-article');
-  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A U3/U4' })).toBeVisible();
-  await expect(article.getByText(/H2 — técnica de bombo/)).toBeVisible();
+  await expect(article.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A Unidad 3/Unidad 4' })).toBeVisible();
+  await expect(article.getByText(/^técnica de bombo;$/)).toBeVisible();
   await expect(page.getByText(/sin exigir todavía pies, groove o cuatro extremidades/i).first()).toBeVisible();
 });
