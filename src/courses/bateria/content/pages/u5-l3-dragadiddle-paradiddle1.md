@@ -19,9 +19,13 @@ published: true
 
 Conocer correctamente **Single Dragadiddle** y **Drag Paradiddle #1** entendiendo que el reto nuevo es **integrar componentes**, no volver a aprender desde cero Drag o Paradiddle.
 
-## 1. Puerta local — 3 min
+**Single Paradiddle se retoma únicamente como prerrequisito de recuperación.** Ya fue introducido en Unidad 1: aquí no se presenta de nuevo ni reinicia su estado PAS.
+
+## 1. Puerta local — recuperación de prerrequisitos — 3 min
 
 Haz una muestra breve de **Drag (Ruff)** y otra de **Single Paradiddle**.
+
+Esta muestra comprueba disponibilidad antes de combinar componentes; no abre un nuevo ciclo de aprendizaje de Single Paradiddle.
 
 Si ambos son reconocibles y controlables lentamente, continúa. Si falla uno, aísla solo su variable responsable: grace double/alturas para drag; alternancia/diddle/acento para paradiddle. Retesta y vuelve a esta unidad.
 

@@ -66,3 +66,7 @@ Usa **SÍNTOMA → HIPÓTESIS → PRUEBA → CORRECCIÓN → EJERCICIO CORRECTIV
 **DETENER CARGA** — aparece dolor, hormigueo, entumecimiento, pérdida de fuerza o deterioro técnico fuerte por fatiga.
 
 Unidad 4 cambia el centro de gravedad hacia rolls más largos y primeros cambios de subdivisión. No necesitas «cerrar perfecto» esta unidad para continuar.
+
+## Relación con Hito 1
+
+Este cierre aporta **evidencia acumulativa hacia Hito 1**, pero **no certifica Hito 1 por sí solo**. Actualiza únicamente lo realmente observado; el resto conserva su evidencia previa si sigue siendo representativa. La certificación global se realiza en el cierre de Fase 1.

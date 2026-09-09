@@ -19,6 +19,18 @@ export interface MetronomePlan {
   ariaLabel: string;
 }
 
+export function metronomeBpmToQuarterBpm(bpm: number, meter: string): number {
+  if (meter === '6/8') return bpm * 1.5;
+  if (meter === '7/8') return bpm / 2;
+  return bpm;
+}
+
+export function quarterBpmToMetronomeBpm(bpm: number, meter: string): number {
+  if (meter === '6/8') return bpm / 1.5;
+  if (meter === '7/8') return bpm * 2;
+  return bpm;
+}
+
 function simplePlan(meter: string, subdivision: number): MetronomePlan {
   const numerator = Number.parseInt(meter.split('/')[0] ?? '4', 10);
   const pulseCount = Number.isFinite(numerator) && numerator > 0 ? numerator : 4;

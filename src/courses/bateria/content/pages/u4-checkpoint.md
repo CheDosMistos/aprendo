@@ -83,3 +83,7 @@ No reinicies esta unidad completa. Mantén un correctivo pequeño y específico 
 ## Registro final
 
 Para cada PAS registra únicamente su estado PAS real —`CONOCIDO`, `FUNCIONAL` o `DOMINADO`— cuando exista evidencia suficiente. Si todavía no alcanza `CONOCIDO`, déjalo **en adquisición** y anota, si procede, un único problema principal; “en adquisición” es un modo de trabajo, no un cuarto estado PAS. Registra por separado el estado de cambios de subdivisión y de la ventana 3+3+2; no los conviertas en nuevos estados PAS.
+
+## Relación con Hito 1
+
+Este cierre aporta **evidencia acumulativa hacia Hito 1**, pero **no certifica Hito 1 por sí solo**. Actualiza únicamente lo realmente observado; el resto conserva su evidencia previa si sigue siendo representativa. La certificación global se realiza en el cierre de Fase 1.
