@@ -8,7 +8,7 @@ slug: oido-escritura-y-primera-vista
 kind: lesson
 order: 4
 title: Oído, escritura y primera vista
-summary: "Cambia entre sonido, escritura y lectura nueva sin añadir vocabulario notacional: escucha y escribe células binarias, crea un compás válido y realiza una ventana temprana de lectura nueva protegida, sin convertirla todavía en evidencia formal forma y lectura de chart."
+summary: "Cambia entre sonido, escritura y lectura nueva sin añadir vocabulario notacional: escucha y escribe células binarias, crea un compás válido y realiza una ventana temprana de lectura nueva protegida, sin convertirla todavía en evidencia formal de lectura a primera vista."
 duration: 25–30 min
 competencies: [C1, C2, D1, D6, E2, E3, E4, F1, K4, K5, K6]
 rudiments: []
@@ -23,7 +23,7 @@ El núcleo es exactamente ese cambio. No conviertas cada modalidad en un objetiv
 
 **ESENCIAL AHORA:** dictado, escritura de un compás, una ventana temprana de lectura nueva, recuperación y registro. **AMPLIACIÓN:** la ventana 3+3+2 únicamente si el núcleo no ha consumido la carga disponible. **AVANZADO:** explicar con precisión dónde se produjo un error y recuperarse sin reiniciar automáticamente.
 
-> **VENTANA CURRICULAR:** aquí puedes experimentar el primer encuentro con una línea nueva y aprender a no contaminarla con playback o ensayo previo. **No se registra todavía como evidencia formal forma y lectura de chart.** La competencia forma y lectura de chart —lectura a primera vista elemental— se introduce y observa formalmente en Unidad 9, cuando los prerrequisitos figuras, silencios y compás–lectura de compás y pulso interno/subdivisión binaria y ternaria permiten aislarla como dificultad central.
+> **VENTANA CURRICULAR:** aquí puedes experimentar el primer encuentro con una línea nueva y aprender a no contaminarla con playback o ensayo previo. **No se registra todavía como evidencia formal de lectura a primera vista.** La lectura a primera vista elemental se introduce y observa formalmente en Unidad 9, cuando la lectura básica, el pulso y la subdivisión están suficientemente disponibles para aislarla como dificultad central.
 
 ## 1. Dictado corto — 4–5 min
 
@@ -104,7 +104,7 @@ Cuando pulses **Empezar**:
 
 <div data-notation-score data-score-src="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-title="Lección 4 — primera vista controlada" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-first-sight="true" data-score-source-url="/bateria/notation/f2/u1/f2-u1-primera-vista-l4.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-El atributo técnico de primera vista mantiene la partitura oculta y bloquea playback hasta completar el primer intento. Aquí esa protección sirve para enseñar el procedimiento **sin convertir la muestra en una evaluación formal forma y lectura de chart**.
+El atributo técnico de primera vista mantiene la partitura oculta y bloquea playback hasta completar el primer intento. Aquí esa protección sirve para enseñar el procedimiento **sin convertir la muestra en una evaluación formal de lectura a primera vista**.
 
 Pulsa **Finalizar intento** antes de usar playback. Después puedes escuchar la partitura y repetir libremente como feedback, pero esa repetición ya no cuenta como material nuevo.
 
@@ -115,7 +115,7 @@ Registra dos observaciones distintas:
 
 Una lectura con un error pequeño y buena recuperación no es equivalente a una lectura que acierta los primeros compases y se detiene por completo ante el primer fallo.
 
-Si ya has visto esta partitura en una sesión anterior, **no vuelvas a contarla como material nuevo**. Úsala como práctica. La observación de esta ventana puede orientar correctivos de figuras, silencios y compás/pulso interno/subdivisión binaria y ternaria, pero **no actualiza forma y lectura de chart**; Unidad 9 reservará esa inferencia para muestras formales realmente nuevas.
+Si ya has visto esta partitura en una sesión anterior, **no vuelvas a contarla como material nuevo**. Úsala como práctica. La observación de esta ventana puede orientar correctivos de lectura básica, pulso o subdivisión, pero **no actualiza todavía la lectura a primera vista formal**; Unidad 9 reservará esa inferencia para muestras formales realmente nuevas.
 
 ## 4. Recuperación — 4–5 min
 
@@ -130,8 +130,8 @@ Haz una toma sin playback previo. Después habilita el audio sólo si necesitas 
 Compara esta recuperación con la ventana de lectura nueva sin mezclarlas:
 
 - si la recuperación funciona y la lectura nueva no, la novedad/decodificación puede ser la variable principal;
-- si ambas pierden el pulso en silencios, vuelve a pulso interno/subdivisión binaria y ternaria y a la rejilla temporal;
-- si el ritmo se entiende pero las manos interfieren, simplifica sticking antes de degradar figuras, silencios y compás.
+- si ambas pierden el pulso en silencios, vuelve a la rejilla temporal, al pulso y a la subdivisión;
+- si el ritmo se entiende pero las manos interfieren, simplifica sticking antes de degradar la lectura básica.
 
 ## 5. AMPLIACIÓN / VENTANA
 
@@ -151,7 +151,7 @@ Puedes marcar el inicio de cada grupo en:
 
 El pulso de negra y el compás **siguen siendo 4/4**. Esto es una **agrupación** de ocho corcheas, no 7/8, no polirritmia y no polimetría.
 
-No lo evalúes ni lo uses como requisito para llegar al Evaluación. Si compite con dictado, escritura o lectura nueva, se elimina primero.
+No lo evalúes ni lo uses como requisito para llegar a la evaluación. Si compite con dictado, escritura o lectura nueva, se elimina primero.
 
 ## 6. Registro — 2 min
 
@@ -159,7 +159,7 @@ No conviertas haber terminado la página en evidencia automática. Registra mues
 
 - dictado: número de escuchas y principal discrepancia entre sonido y escritura;
 - escritura propia: si cerró correctamente el 4/4 y coincidió con lo que tocaste;
-- lectura nueva: **precisión** y **continuidad/recuperación** por separado, como observación preliminar y no como forma y lectura de chart formal;
+- lectura nueva: **precisión** y **continuidad/recuperación** por separado, como observación preliminar y no como primera vista formal;
 - recuperación: qué permaneció disponible después de la separación;
 - variable limitante principal y siguiente acción.
 
@@ -171,15 +171,15 @@ Usa la cadena:
 - **CONDICIONES:** tempo, click, número de escuchas, playback bloqueado en el primer intento;
 - **DECISIÓN:** `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` o `DETENER CARGA` si aparece una señal de salud.
 
-Completar la sesión **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, figuras, silencios y compás básico, escritura rítmica propia, reconocimiento de subdivisión y acentos, imitación rítmica ni dictado rítmico. Esta ventana tampoco actualiza forma y lectura de chart: **Unidad 9 introduce formalmente forma y lectura de chart** cuando la lectura nueva puede aislarse como dificultad central.
+Completar la sesión **no actualiza automáticamente** el pulso interno, la subdivisión, la lectura básica, la escritura rítmica, el reconocimiento auditivo ni el dictado. Esta ventana tampoco actualiza la lectura a primera vista formal: **Unidad 9 la introduce formalmente** cuando la lectura nueva puede aislarse como dificultad central.
 
 ## MÍNIMO PARA AVANZAR
 
-Puedes pasar al Evaluación de Unidad 1 cuando:
+Puedes pasar a la evaluación de Unidad 1 cuando:
 
 - puedes escuchar una célula binaria corta y producir una representación escrita razonable después de las repeticiones que necesites;
 - puedes crear un compás propio que cierre correctamente en 4/4 y explicar dónde están sus ataques/silencios;
-- realizas una lectura realmente nueva sin escucharla ni practicarla antes, tratándola como ventana de procedimiento y no como certificación forma y lectura de chart;
+- realizas una lectura realmente nueva sin escucharla ni practicarla antes, tratándola como ventana de procedimiento y no como certificación de primera vista formal;
 - distingues **precisión** de **continuidad/recuperación** al describir el intento;
 - puedes recuperar una tarea conocida sin convertir primero la recuperación en práctica masiva;
 - no aparece una señal de salud que obligue a detener o reducir carga.
@@ -188,7 +188,7 @@ No se exige un BPM concreto, una lectura nueva perfecta ni completar la ventana 
 
 ## COMPETENTE / FUNCIONAL
 
-La transferencia empieza a ser funcional cuando puedes pasar entre **escuchar, escribir, leer y tocar** el mismo vocabulario básico sin que cada cambio de representación obligue a reaprenderlo desde cero, y cuando un error pequeño no destruye automáticamente la continuidad. Esto describe la integración de representaciones de esta unidad; **no declara forma y lectura de chart funcional**.
+La transferencia empieza a ser funcional cuando puedes pasar entre **escuchar, escribir, leer y tocar** el mismo vocabulario básico sin que cada cambio de representación obligue a reaprenderlo desde cero, y cuando un error pequeño no destruye automáticamente la continuidad. Esto describe la integración de representaciones de esta unidad; **no declara funcional la lectura a primera vista**.
 
 ## AVANZADO EN ESTA TAREA
 
@@ -197,9 +197,9 @@ Como ampliación, describe con lenguaje temporal exacto un error de la lectura n
 ## Si algo se rompe
 
 - **oído correcto pero escritura incoherente:** vuelve a marcar cuatro pulsos y coloca primero los ataques antes de decidir figuras;
-- **la escritura cierra pero al tocar cambia:** compara compás por compás y decide si el error es primera vista rítmica o ejecución;
+- **la escritura cierra pero al tocar cambia:** compara compás por compás y decide si el error es de lectura o de ejecución;
 - **la lectura nueva se convierte en ensayo:** detén repeticiones y deja de tratar esa partitura como material nuevo;
 - **un error provoca parada total:** reduce longitud y practica reentrada en un pulso claro sin perseguir exactitud perfecta;
 - **la recuperación conocida también colapsa:** vuelve a rejilla, pulso y subdivisión antes de aumentar densidad.
 
-La siguiente pieza de Unidad 1 será el **Evaluación — Puerta de fluidez binaria**. No preguntará si “apruebas la unidad”; comprobará si pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2.
+La siguiente pieza de Unidad 1 será la **Evaluación — Puerta de fluidez binaria**. No preguntará si “apruebas la unidad”; comprobará si el pulso, la subdivisión, la lectura básica y la comprensión rítmica están suficientemente disponibles para aumentar densidad y variedad en Unidad 2.
