@@ -17,13 +17,13 @@ published: true
 
 Esta unidad cambia una sola variable central: **la cantidad de información temporal que entrega el metrónomo**.
 
-La lectura utilizada debe ser deliberadamente conocida y controlada. Si la línea es nueva o notacionalmente difícil, el resultado deja de decir con claridad si el problema está en metrónomo y click reducido/click desplazado o no obvio o en lectura.
+La lectura utilizada debe ser deliberadamente conocida y controlada. Si la línea es nueva o notacionalmente difícil, el resultado deja de decir con claridad si el problema está en la referencia temporal reducida o en la lectura.
 
 **DECISIÓN CURRICULAR RAZONADA INFORMADA POR EVIDENCIA EXTRAPOLADA:** usar click menos frecuente, posiciones parciales o gaps sencillos es una progresión pedagógica razonable derivada de principios de sincronización sensorimotora y aprendizaje motor. No se presenta como un protocolo cuya superioridad haya sido demostrada específicamente para bateristas.
 
 ## Puerta de entrada
 
-pulso interno/subdivisión binaria y ternaria deben estar suficientemente estables **en la tarea concreta**. No se entra en click reducido por calendario.
+El pulso interno y la subdivisión deben estar suficientemente estables **en la tarea concreta**. No se entra en click reducido por calendario.
 
 Si al retirar referencia se desorganizan pulso y subdivisión de forma global:
 
@@ -69,8 +69,8 @@ Los modos reducidos no se habilitan automáticamente en otros compases. Esta uni
 - símbolos nuevos de lectura;
 - nueva familia PAS;
 - primera vista como dificultad central — Unidad 9 ya la introdujo;
-- desplazamiento sistemático del click click con gaps;
-- microtiming profundo microtiming y placement;
+- desplazamiento sistemático del click ni gaps más complejos;
+- microtiming profundo, feel o placement;
 - polirritmia, polimetría o modulación métrica;
 - BPM de aprobado.
 
@@ -96,4 +96,4 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-Completar esta unidad no convierte automáticamente click desplazado o no obvio en `FUNCIONAL`.
+Completar esta unidad no convierte automáticamente el control con referencia reducida en `FUNCIONAL`.
