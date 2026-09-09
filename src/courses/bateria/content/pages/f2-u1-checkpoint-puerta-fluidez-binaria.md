@@ -8,7 +8,7 @@ slug: puerta-de-fluidez-binaria
 kind: checkpoint
 order: 5
 title: Puerta de fluidez binaria
-summary: "Decide si pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2 mediante lectura nueva protegida, recuperación separada, explicación de subdivisión y control de salud/carga."
+summary: "Decide si el pulso, la subdivisión y la lectura rítmica básica están suficientemente disponibles para aumentar densidad y variedad en Unidad 2 mediante lectura nueva protegida, recuperación separada, explicación de subdivisión y control de salud/carga."
 duration: 8–12 min
 competencies: [C1, C2, D1, F1]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 Esta evaluación **no sirve para “aprobar esta unidad”** y no convierte el curso en una sucesión de exámenes. Su finalidad es más precisa:
 
-> **Inferir si pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras están suficientemente disponibles para aumentar densidad y variedad en Unidad 2 sin depender de memorizar patrones.**
+> **Inferir si el pulso, la subdivisión y la lectura rítmica básica están suficientemente disponibles para aumentar densidad y variedad en Unidad 2 sin depender de memorizar patrones.**
 
 No necesitas cero errores, un tempo fijo, lectura rápida, prescindir del conteo ni demostrar PAS adicionales. La decisión se apoya en una muestra breve y en evidencia reciente que siga siendo representativa.
 
@@ -67,7 +67,7 @@ Haz una toma sin playback previo. Después habilita el audio sólo si necesitas 
 No mezcles las inferencias:
 
 - **A falla y B funciona:** la novedad/decodificación puede ser la variable principal;
-- **A y B pierden pulso o subdivisión de forma parecida:** pulso interno/subdivisión binaria y ternaria requieren un correctivo más central;
+- **A y B pierden pulso o subdivisión de forma parecida:** esas referencias temporales requieren un correctivo más central;
 - **el ritmo se comprende pero las manos interfieren:** simplifica sticking o demanda técnica antes de atribuir el problema automáticamente a figuras, silencios y compás.
 
 La recuperación informa sobre disponibilidad tras separación; no convierte todo el material anterior en “dominado”.
@@ -97,7 +97,7 @@ La prioridad deja de ser completar la evaluación si aparece una de ellas. Si un
 
 Ahora usa la cadena completa:
 
-- **INFERENCIA:** ¿pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras parecen suficientemente disponibles para aumentar densidad y variedad?;
+- **INFERENCIA:** ¿el pulso, la subdivisión y la lectura rítmica básica parecen suficientemente disponibles para aumentar densidad y variedad?;
 - **EVIDENCIA:** Muestra A nueva + Muestra B recuperada + explicación breve;
 - **TAREA:** lectura binaria elemental en 4/4 dentro del vocabulario de esta unidad;
 - **CONDICIONES:** material nuevo o recuperado, tempo elegido, click usado, conteo, playback protegido y estado de carga;
@@ -113,7 +113,7 @@ Existe una fragilidad concreta, pero Unidad 2 puede abrirse adaptando esa variab
 
 ### REDUCIR NOVEDAD
 
-No puedes decodificar de forma controlable la rejilla básica o **pulso interno/subdivisión binaria y ternaria colapsan de forma global**. Reduce una variable —longitud, densidad, tempo o capas— y remuestrea más adelante. No vuelvas automáticamente a toda Fase 1.
+No puedes decodificar de forma controlable la rejilla básica o **el pulso y la subdivisión colapsan de forma global**. Reduce una variable —longitud, densidad, tempo o capas— y remuestrea más adelante. No vuelvas automáticamente a toda Fase 1.
 
 ### DETENER CARGA
 
@@ -147,7 +147,7 @@ No se exige:
 - **Evidencia reciente y representativa:** puede reutilizarse; no hace falta repetir por obligación.
 - **Evidencia dudosa o contradictoria:** elicita una muestra corta antes de rebajar una competencia estable.
 - **Una toma atípica:** diagnostica y, cuando tenga sentido, retesta antes de cambiar el nivel registrado.
-- **Completar la evaluación:** no actualiza automáticamente pulso interno/subdivisión binaria y ternaria/figuras, silencios y compás/teoría básica del pulso y las figuras; la plataforma debe registrar la evidencia concreta y la decisión.
+- **Completar la evaluación:** no actualiza automáticamente todas las competencias implicadas de tiempo, lectura y teoría rítmica; la plataforma debe registrar la evidencia concreta y la decisión.
 
 ## Puente a Unidad 2
 
