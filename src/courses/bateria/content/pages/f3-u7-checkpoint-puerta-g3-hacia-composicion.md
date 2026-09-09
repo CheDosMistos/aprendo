@@ -7,8 +7,8 @@ unitSlug: fase-3-unidad-7
 slug: puerta-g3-hacia-composicion
 kind: checkpoint
 order: 6
-title: "Evaluación — Puerta composición de fills y secciones hacia composición"
-summary: "Demuestra composición de fills y secciones mínimo con una toma breve no preescrita: declara una restricción, improvisa dentro del marco, recupera si hace falta y explica qué conservarías para Unidad 8."
+title: "Evaluación — Puerta de improvisación hacia la composición"
+summary: "Demuestra un mínimo funcional de improvisación con una toma breve no preescrita: declara una restricción, improvisa dentro del marco, recupera si hace falta y explica qué conservarías para Unidad 8."
 duration: 20–30 min
 competencies: [G3, G1, G2, C1, C2, F3, K2, K5, K6, K8]
 rudiments: []
@@ -19,7 +19,7 @@ published: true
 
 Unidad 8 fijará decisiones en una composición. Antes necesitamos comprobar que puedes **generar y sostener decisiones en tiempo real** bajo una consigna clara.
 
-El mínimo es exactamente el de composición de fills y secciones:
+El mínimo es exactamente el de improvisación con restricciones:
 
 > **improvisar una frase corta respetando una restricción.**
 
@@ -118,7 +118,7 @@ Desarrollas narración, tensión/resolución, mayor libertad o adaptación estil
 ## DECISIÓN
 
 ### CONTINUAR A Unidad 8
-composición de fills y secciones mínimo está disponible. Ya puedes seleccionar, escribir y revisar decisiones improvisadas.
+El mínimo de improvisación está disponible. Ya puedes seleccionar, escribir y revisar decisiones improvisadas.
 
 ### CONTINUAR + CORRECTIVO
 La improvisación cumple la consigna, pero continuidad, cierre, recuperación o explicación requieren apoyo localizado.
@@ -126,4 +126,4 @@ La improvisación cumple la consigna, pero continuidad, cierre, recuperación o 
 ### REDUCIR RESTRICCIÓN/NOVEDAD
 El espacio de búsqueda es demasiado amplio. Vuelve temporalmente a un motivo + una transformación + frase fija.
 
-Esta puerta **no certifica composición de piezas composición funcional**. Sólo prepara el material y las decisiones que Unidad 8 aprenderá a fijar y revisar.
+Esta puerta **no certifica todavía composición rítmica breve**. Sólo prepara el material y las decisiones que Unidad 8 aprenderá a fijar y revisar.
