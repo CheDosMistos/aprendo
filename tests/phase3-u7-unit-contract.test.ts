@@ -55,7 +55,7 @@ test('U7 makes restricted improvisation the focus and separates continuity conte
   assert.match(overview, /CONTENIDO:/);
   assert.match(overview, /RECUPERACIÓN:/);
   assert.match(overview, /CONSIGNA:/);
-  assert.match(overview, /No hay un grader automático de improvisación/i);
+  assert.match(overview, /No hay una evaluación automática de improvisación/i);
   assert.match(overview, /más restricciones = mejor/i);
 });
 
@@ -105,7 +105,7 @@ test('G3 checkpoint uses a fresh prompt and does not certify G4', async () => {
   assert.match(cp, /improvisar una frase corta respetando una restricción/i);
   assert.match(cp, /No escribas la respuesta completa antes/i);
   assert.match(cp, /AVANZADO no es requisito para U8/);
-  assert.match(cp, /no certifica G4 composición funcional/i);
+  assert.match(cp, /no certifica todavía G4/i);
   assert.deepEqual(await xmlPatterns('f3-u7-cp-prompt.musicxml'), ['10010110']);
 });
 
