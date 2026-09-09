@@ -30,7 +30,7 @@ Elige un rudimento de Lección 1 o Lección 2 que no hayas tocado inmediatamente
 Esta lección contiene dos ramas distintas:
 
 - para profundizar en **Single Paradiddle-diddle / dobles**, movimientos full, down, up y tap, rebote controlado y singles y redobles deben tener al menos una base **MÍNIMA**;
-- para profundizar en **Five Stroke Roll / drags**, singles y redobles, fulcrum y dedos y subdivisión binaria y ternaria deben tener al menos una base **MÍNIMA**.
+- para profundizar en **Five Stroke Roll / doubles y resolución**, singles y redobles, fulcrum y dedos y subdivisión binaria y ternaria deben tener al menos una base **MÍNIMA**.
 
 Si una de esas bases todavía es frágil, puedes hacer una exposición breve y correcta al rudimento, pero reduce volumen y profundidad en esa rama y mantén el correctivo del prerrequisito. Esto no bloquea las demás tareas de la lección.
 
