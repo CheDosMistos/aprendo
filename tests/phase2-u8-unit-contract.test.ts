@@ -81,7 +81,7 @@ test('Phase 2 U8 architecture keeps D3/B7 central, orders four lessons plus chec
   assert.doesNotMatch(overviewCompetencies, /\bD5\b/);
   assert.match(overview, /VER EL SÍMBOLO → DECODIFICAR SU FUNCIÓN → EJECUTAR → RECONOCER\/APLICAR LA FAMILIA/);
   assert.match(overview, /PAS es la autoridad normativa/);
-  assert.match(overview, /D5 primera vista formal:\*\* U9/);
+  assert.match(overview, /\*\*primera vista formal:\*\* Unidad 9/);
 
   const expected = [
     ['l1', 1, 'D3'],
@@ -106,8 +106,18 @@ test('Phase 2 U8 architecture keeps D3/B7 central, orders four lessons plus chec
     assert.doesNotMatch(markdown, /data-score-first-sight="true"/);
   }
 
-  assert.match(await readPage('checkpoint'), /no es una prueba formal de primera vista D5/i);
-  assert.match(await readPage('checkpoint'), /primera vista formal D5.*U9/i);
+  const l2 = await readPage('l2');
+  const l3 = await readPage('l3');
+  const l4 = await readPage('l4');
+  const checkpoint = await readPage('checkpoint');
+  assert.match(l2, /familia de flams/i);
+  assert.match(l3, /familia de drags/i);
+  assert.match(l4, /Mecánica de roll: continuidad con salida clara/i);
+  assert.match(checkpoint, /una negra con\/sin grace para flams/);
+  assert.match(checkpoint, /una negra con\/sin double grace para drags/);
+  assert.match(checkpoint, /una figura con\/sin tremolo para rolls/);
+  assert.match(checkpoint, /no es una prueba formal de primera vista/i);
+  assert.match(checkpoint, /primera vista formal.*Unidad 9/i);
 });
 
 test('Phase 2 U8 pages embed only original-course scores with after-attempt feedback and explicit source links', async () => {
@@ -229,9 +239,9 @@ test('Phase 2 U8 checkpoint preserves the evidence chain, bounded decision langu
   assert.match(markdown, /### CONTINUAR \+ CORRECTIVO/);
   assert.match(markdown, /### REDUCIR NOVEDAD/);
   assert.match(markdown, /### DETENER CARGA/);
-  assert.match(markdown, /## MÍNIMO PARA ABRIR U9/);
-  assert.match(markdown, /primera vista formal D5.*U9/i);
-  assert.match(markdown, /click reducido, half-time o gaps.*U10/i);
+  assert.match(markdown, /## MÍNIMO PARA ABRIR Unidad 9/);
+  assert.match(markdown, /primera vista formal.*Unidad 9/i);
+  assert.match(markdown, /click reducido, half-time o gaps.*Unidad 10/i);
   assert.match(markdown, /no actualiza automáticamente/i);
   assert.match(markdown, /Eso no equivale a promover automáticamente ninguna competencia global/);
 });
