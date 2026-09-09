@@ -1,6 +1,10 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildMetronomePlan } from '../src/platform/metronome/meterModel.ts';
+import {
+  buildMetronomePlan,
+  metronomeBpmToQuarterBpm,
+  quarterBpmToMetronomeBpm,
+} from '../src/platform/metronome/meterModel.ts';
 
 test('6/8 is modeled as two compound pulses, not six equal beats', () => {
   const plan = buildMetronomePlan('6/8', 3);
@@ -30,4 +34,16 @@ test('simple meters retain quarter-note pulse and optional subdivision', () => {
   assert.equal(plan.visualCount, 4);
   assert.equal(plan.ticks.length, 16);
   assert.deepEqual(plan.ticks.filter((tick) => tick.role !== 'subdivision').map((tick) => tick.visualIndex), [0, 1, 2, 3]);
+});
+
+test('metronome BPM converts to quarter-note playback tempo without losing pulse semantics', () => {
+  assert.equal(metronomeBpmToQuarterBpm(80, '4/4'), 80);
+  assert.equal(quarterBpmToMetronomeBpm(80, '4/4'), 80);
+
+  assert.equal(metronomeBpmToQuarterBpm(80, '6/8'), 120);
+  assert.equal(quarterBpmToMetronomeBpm(120, '6/8'), 80);
+  assert.equal(metronomeBpmToQuarterBpm(81, '6/8'), 121.5);
+
+  assert.equal(metronomeBpmToQuarterBpm(240, '7/8'), 120);
+  assert.equal(quarterBpmToMetronomeBpm(120, '7/8'), 240);
 });
