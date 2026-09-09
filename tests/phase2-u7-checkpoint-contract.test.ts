@@ -35,9 +35,9 @@ test('Phase 2 U7 checkpoint gates compound generalization without auto-promoting
   }
   assert.doesNotMatch(competencies, /\bD5\b/);
 
-  assert.match(markdown, /¿D4\/F2 y C1\/C2 permiten conservar el modelo compuesto `2×3 → 3×3 → 4×3`/);
+  assert.match(markdown, /¿la lectura y comprensión métrica, junto con el pulso y la subdivisión, permiten conservar el modelo compuesto `2×3 → 3×3 → 4×3`/i);
   assert.match(markdown, /dos muestras independientes/i);
-  assert.match(markdown, /no convierte completar U7 en una promoción automática de competencias/i);
+  assert.match(markdown, /no convierte completar (?:esta unidad|U7) en una promoción automática de competencias/i);
   assert.match(markdown, /Un BPM describe la \*\*condición de la muestra\*\*, nunca el nivel por sí solo/);
 });
 
@@ -89,17 +89,17 @@ test('Phase 2 U7 checkpoint preserves feedback, decision system, and U8 boundary
   assert.equal((markdown.match(/data-notation-score/g) ?? []).length, 1);
   assert.equal((markdown.match(/data-score-feedback="after-attempt"/g) ?? []).length, 1);
   assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 0);
-  assert.match(markdown, /MusicXML — fuente de la muestra escrita del checkpoint/);
+  assert.match(markdown, /MusicXML — fuente de la muestra escrita de (?:la evaluación|el checkpoint)/);
   assert.match(markdown, /INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN/);
   assert.match(markdown, /### CONTINUAR/);
   assert.match(markdown, /### CONTINUAR \+ CORRECTIVO/);
   assert.match(markdown, /### REDUCIR NOVEDAD/);
   assert.match(markdown, /### DETENER CARGA/);
-  assert.match(markdown, /## MÍNIMO PARA ABRIR U8/);
+  assert.match(markdown, /## MÍNIMO PARA ABRIR Unidad 8/);
   assert.match(markdown, /reconocimiento métrico general en repertorio ambiguo/);
-  assert.match(markdown, /primera vista formal D5 — U9/);
-  assert.match(markdown, /sextillos u ornamentación escrita — \*\*son la novedad de U8, no un requisito de esta puerta\*\*/);
-  assert.match(markdown, /click reducido, half-time o gaps — U10/);
+  assert.match(markdown, /primera vista formal Unidad 9/);
+  assert.match(markdown, /sextillos u ornamentación escrita — \*\*son la novedad de Unidad 8, no un requisito de esta puerta\*\*/);
+  assert.match(markdown, /click reducido, half-time o gaps — Unidad 10/);
   assert.match(markdown, /no actualiza automáticamente/);
-  assert.match(markdown, /Eso no equivale a declarar D4, F2, E5 ni ninguna competencia globalmente `FUNCIONAL`/);
+  assert.match(markdown, /Eso no equivale a declarar la lectura, la comprensión métrica, el reconocimiento de métrica, frase y forma ni ninguna competencia globalmente `FUNCIONAL`/);
 });
