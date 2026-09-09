@@ -44,8 +44,8 @@ test('Phase 2 U1 L4 is a representation-transfer lesson with no new PAS and no f
   assert.match(markdown, /no añade una nueva figura ni un nuevo rudimento/i);
   assert.match(markdown, /ESCUCHAR → RETENER\/CANTAR → ESCRIBIR → LEER → TOCAR → COMPROBAR/);
   assert.match(markdown, /VENTANA CURRICULAR/);
-  assert.match(markdown, /No se registra todavía como evidencia formal D5/i);
-  assert.match(markdown, /U9.*introduce.*formalmente D5|D5.*se introduce.*formalmente en U9/i);
+  assert.match(markdown, /No se registra todavía como evidencia formal de lectura a primera vista/i);
+  assert.match(markdown, /lectura a primera vista elemental se introduce y observa formalmente en Unidad 9/i);
   assert.match(markdown, /ESENCIAL AHORA:/);
   assert.match(markdown, /AMPLIACIÓN:/);
   assert.match(markdown, /AVANZADO:/);
@@ -106,12 +106,12 @@ test('Phase 2 U1 L4 early new-reading window is exclusive, protected and not for
   assert.equal(await countPageReferences('f2-u1-primera-vista-l4.musicxml'), 2, 'The exclusive L4 asset should only appear in the L4 score src and source URL');
   assert.match(markdown, /material exclusivo de esta ventana de lectura nueva/i);
   assert.match(markdown, /no debes escucharla antes del primer intento/i);
-  assert.match(markdown, /protección sirve para enseñar el procedimiento.*sin convertir la muestra en una evaluación formal D5/is);
+  assert.match(markdown, /protección sirve para enseñar el procedimiento.*sin convertir la muestra en una evaluación formal de lectura a primera vista/is);
   assert.match(markdown, /Pulsa \*\*Finalizar intento\*\* antes de usar playback/i);
   assert.match(markdown, /\*\*PRECISIÓN:\*\*/);
   assert.match(markdown, /\*\*CONTINUIDAD \/ RECUPERACIÓN:\*\*/);
   assert.match(markdown, /no vuelvas a contarla como material nuevo/i);
-  assert.match(markdown, /no actualiza D5/i);
+  assert.match(markdown, /no actualiza todavía la lectura a primera vista formal/i);
 });
 
 test('Phase 2 U1 L4 protected MusicXML is original, metric-valid and stays inside U1 notation', async () => {
@@ -151,12 +151,12 @@ test('Phase 2 U1 L4 advancement prepares the checkpoint without creating a BPM o
 
   assert.match(markdown, /INFERENCIA:[\s\S]*EVIDENCIA:[\s\S]*TAREA:[\s\S]*CONDICIONES:[\s\S]*DECISIÓN:/);
   assert.match(markdown, /CONTINUAR.*CONTINUAR \+ CORRECTIVO.*REDUCIR NOVEDAD.*DETENER CARGA/s);
-  assert.match(markdown, /Completar la sesión \*\*no actualiza automáticamente\*\* C1, C2, D1, D6, E2, E3 ni E4/i);
-  assert.match(markdown, /Esta ventana tampoco actualiza D5/i);
-  assert.match(markdown, /U9 introduce formalmente D5/i);
+  assert.match(markdown, /Completar la sesión \*\*no actualiza automáticamente\*\* el pulso interno, la subdivisión, la lectura básica, la escritura rítmica, el reconocimiento auditivo ni el dictado/i);
+  assert.match(markdown, /Esta ventana tampoco actualiza la lectura a primera vista formal/i);
+  assert.match(markdown, /Unidad 9 la introduce formalmente/i);
   assert.match(markdown, /## MÍNIMO PARA AVANZAR/);
   assert.match(markdown, /## COMPETENTE \/ FUNCIONAL/);
   assert.match(markdown, /## AVANZADO EN ESTA TAREA/);
   assert.match(markdown, /No se exige un BPM concreto/i);
-  assert.match(markdown, /checkpoint — Puerta de fluidez binaria/i);
+  assert.match(markdown, /Evaluación — Puerta de fluidez binaria/i);
 });
