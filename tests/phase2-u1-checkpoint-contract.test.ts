@@ -36,7 +36,7 @@ test('Phase 2 U1 checkpoint has the approved progression-only contract', async (
   assert.match(data, /^duration:\s*8–12 min\s*$/m);
   assert.match(data, /^competencies:\s*\[C1, C2, D1, F1\]\s*$/m);
   assert.match(data, /^rudiments:\s*\[\]\s*$/m);
-  assert.match(markdown, /no sirve para “aprobar U1”/i);
+  assert.match(markdown, /no sirve para “aprobar esta unidad”/i);
   assert.match(markdown, /el pulso, la subdivisión y la lectura rítmica básica están suficientemente disponibles para aumentar densidad y variedad en Unidad 2/i);
   assert.match(markdown, /sin depender de memorizar patrones/i);
 });
@@ -66,7 +66,7 @@ test('Phase 2 U1 checkpoint first-sight asset is exclusive and playback-protecte
   assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 1);
   assert.match(markdown, /f2-u1-checkpoint-a\.musicxml/);
   assert.equal(await countPageReferences('f2-u1-checkpoint-a.musicxml'), 2, 'Checkpoint asset must only appear as src + source URL in this checkpoint');
-  assert.match(markdown, /exclusiva de este checkpoint/i);
+  assert.match(markdown, /exclusiva de esta evaluación/i);
   assert.match(markdown, /no la has practicado ni escuchado antes/i);
   assert.match(markdown, /Finalizar intento.*antes de usar playback/is);
   assert.match(markdown, /ya no es primera vista/i);
