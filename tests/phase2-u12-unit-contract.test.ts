@@ -86,7 +86,7 @@ test('U12 diagnostic task is additional evidence and bridge keeps Phase 3 bounda
   assert.match(l4, /ESCUCHA \/ MEMORIA \/ ESCRITURA \/ EJECUCIÓN/);
   assert.match(l4, /análisis y forma/);
   assert.match(l4, /transcripción progresivamente más estructurada/);
-  assert.match(l4, /Esto es un \*\*puente\*\*, no una declaración de que F3\/F4\/E6 ya sean funcionales/);
+  assert.match(l4, /Esto es un \*\*puente\*\*, no una declaración de que el análisis y la forma, la transcripción estructurada o el desarrollo creativo posterior sean ya funcionales/);
 });
 
 test('U12 checkpoint uses approved evidence dimensions and learner-facing decision language', async () => {
