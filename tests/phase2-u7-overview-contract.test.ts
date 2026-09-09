@@ -20,7 +20,7 @@ test('Phase 2 U7 overview generalizes compound meter without changing the approv
   assert.match(data, /^slug:\s*fase-2-unidad-7-introduccion\s*$/m);
   assert.match(data, /^kind:\s*unit\s*$/m);
   assert.match(data, /^order:\s*0\s*$/m);
-  assert.match(data, /^duration:\s*Unidad flexible · 4 lecciones \+ evaluación\s*$/m);
+  assert.match(data, /^duration:\s*Unidad flexible · 4 lecciones \+ checkpoint\s*$/m);
   assert.match(data, /^rudiments:\s*\[\]\s*$/m);
 
   const competencies = data.match(/^competencies:.*$/m)?.[0] ?? '';
