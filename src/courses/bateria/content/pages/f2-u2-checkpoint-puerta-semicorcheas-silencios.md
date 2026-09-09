@@ -8,18 +8,18 @@ slug: puerta-de-semicorcheas-y-silencios
 kind: checkpoint
 order: 5
 title: Puerta de semicorcheas y silencios
-summary: "Decide si figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados, mediante lectura nueva protegida, oído→escritura, explicación de silencios y evidencia reciente de 2↔4."
+summary: "Decide si la lectura de figuras y silencios, la subdivisión binaria y el inicio de los cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados, mediante lectura nueva protegida, oído→escritura, explicación de silencios y evidencia reciente de 2↔4."
 duration: 10–15 min
 competencies: [C1, C2, C3, D1, D6, E2, E4, F1, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Esta evaluación **no sirve para “aprobar esta unidad”** ni exige demostrar que cambios de subdivisión sea funcional. Su pregunta es más concreta:
+Esta evaluación **no sirve para “aprobar esta unidad”** ni exige demostrar que los cambios de subdivisión sean funcionales. Su pregunta es más concreta:
 
-> **¿figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados?**
+> **¿La lectura de figuras y silencios, la subdivisión binaria y el inicio de los cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados?**
 
-La evidencia principal vuelve a lectura, subdivisión, silencios, oído/escritura y continuidad. **No es una exhibición de sticking complejo** y no exige PAS adicionales.
+La evidencia principal vuelve a lectura, subdivisión, silencios, oído y escritura, y continuidad. **No es una exhibición de sticking complejo** y no exige PAS adicionales.
 
 El BPM describe la condición de la muestra; **no define el nivel**. Tampoco se exige cero errores, primera vista avanzada ni síncopa formalmente dominada.
 
@@ -105,7 +105,7 @@ Observa sólo si:
 - los silencios no borran la subdivisión;
 - puedes mantener o recuperar continuidad tras una imprecisión pequeña.
 
-**cambios de subdivisión no necesita ser FUNCIONAL para avanzar a Unidad 3.** Esta muestra sólo comprueba que su inicio sea suficientemente utilizable en el contexto de esta unidad.
+**Los cambios de subdivisión no necesitan estar en nivel FUNCIONAL para avanzar a Unidad 3.** Esta muestra sólo comprueba que su inicio sea suficientemente utilizable en el contexto de esta unidad.
 
 ## 5. Salud, carga y decisión — 2–3 min
 
@@ -132,7 +132,7 @@ Si una señal persiste, corresponde valoración sanitaria; el curso no la diagno
 
 Ahora aplica la cadena completa:
 
-- **INFERENCIA:** ¿figuras, silencios y compás/subdivisión binaria y ternaria y el inicio de cambios de subdivisión permiten abrir Unidad 3 sin depender de dibujos memorizados?;
+- **INFERENCIA:** ¿la lectura de figuras y silencios, la subdivisión binaria y el inicio de los cambios de subdivisión permiten abrir Unidad 3 sin depender de dibujos memorizados?;
 - **EVIDENCIA:** Muestra A nueva + Muestra B oído→escritura + explicación conceptual + evidencia reciente 2↔4 cuando sea representativa;
 - **TAREA:** 4/4 monofónico, vocabulario de esta unidad, longitud breve y sin introducir ligaduras/puntillos como novedad;
 - **CONDICIONES:** tempo, click, conteo/canto, ayudas, continuidad, precisión, recuperación y carga;
@@ -170,7 +170,7 @@ No se exige:
 
 - cero errores;
 - tempo fijo o alto;
-- **cambios de subdivisión funcional**;
+- **cambios de subdivisión en nivel FUNCIONAL**;
 - PAS adicionales;
 - síncopa formalmente dominada;
 - primera vista avanzada.

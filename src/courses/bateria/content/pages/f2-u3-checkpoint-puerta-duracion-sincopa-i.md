@@ -8,7 +8,7 @@ slug: puerta-de-duracion-y-sincopa-i
 kind: checkpoint
 order: 5
 title: "Puerta de duración y síncopa I"
-summary: "Comprueba con material nuevo, oído y explicación conceptual si síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir Unidad 4 manteniendo ataque, duración, pulso y marco métrico diferenciados."
+summary: "Comprueba con material nuevo, oído y explicación conceptual si síncopa, teoría rítmica básica, pulso y subdivisión permiten abrir Unidad 4 manteniendo ataque, duración, pulso y marco métrico diferenciados."
 duration: 10–15 min
 competencies: [C1, C2, D2, D6, E2, E4, F1, F2, K2, K4, K6]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 Esta evaluación **no sirve para “aprobar esta unidad”**. Su pregunta es más concreta:
 
-> **¿síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para abrir Unidad 4 sin perder el marco temporal cuando una duración atraviesa posiciones internas?**
+> **¿Síncopa, teoría rítmica básica, pulso y subdivisión están suficientemente disponibles para abrir Unidad 4 sin perder el marco temporal cuando una duración atraviesa posiciones internas?**
 
 La evidencia combina una lectura realmente nueva, una microtarea auditiva y una explicación conceptual. El BPM describe las condiciones de la muestra; **no define el nivel**.
 
@@ -51,7 +51,7 @@ Registra por separado:
 - **PRECISIÓN:** ataques añadidos, omitidos o desplazados;
 - **CONTINUIDAD / RECUPERACIÓN:** si mantuviste la línea o pudiste reincorporarte;
 - **DURACIÓN:** si respetaste ligaduras y puntillos sin inventar reataques;
-- **MARCO TEMPORAL:** si pulso/subdivisión siguieron presentes durante las continuaciones;
+- **MARCO TEMPORAL:** si pulso y subdivisión siguieron presentes durante las continuaciones;
 - **AYUDAS:** click, conteo/canto o marcas realmente usadas;
 - **VARIABLE LIMITANTE:** lectura, pulso, subdivisión, duración, comprensión, ejecución, técnica o carga.
 
@@ -104,7 +104,7 @@ Registra las **CONDICIONES** reales:
 - ayudas visibles;
 - precisión;
 - continuidad y recuperación;
-- ataques añadidos/omitidos;
+- ataques añadidos u omitidos;
 - comprensión de duración;
 - estado de carga.
 
@@ -112,7 +112,7 @@ Si aparece dolor, hormigueo, entumecimiento, pérdida de fuerza, deterioro técn
 
 Aplica la cadena completa:
 
-- **INFERENCIA:** ¿síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir Unidad 4?;
+- **INFERENCIA:** ¿síncopa, teoría rítmica básica, pulso y subdivisión permiten abrir Unidad 4?;
 - **EVIDENCIA:** Muestra A nueva + Muestra B auditiva + explicación conceptual;
 - **TAREA:** 4/4 monofónico con ligaduras, puntillos y síncopa elemental ya estudiados;
 - **CONDICIONES:** tempo, click, conteo/canto, ayudas, precisión, continuidad, recuperación y carga;
@@ -139,7 +139,7 @@ Una señal de salud/carga hace improcedente perseguir progresión curricular en 
 La evidencia conjunta debería permitirte, con ayuda razonable cuando la necesites:
 
 - localizar nuevos ataques en material accesible;
-- mantener pulso/subdivisión mientras una duración continúa;
+- mantener pulso y subdivisión mientras una duración continúa;
 - interpretar ligaduras sencillas sin reatacar su continuación;
 - interpretar puntillos como ampliación de duración;
 - leer síncopa elemental sin mover el 4/4;
@@ -160,7 +160,7 @@ No se exige:
 
 - **lees las figuras pero añades golpes en continuaciones:** vuelve a marcar sólo inicios de ataque;
 - **la duración está clara pero desaparece el pulso:** externaliza negras/subdivisión durante las posiciones no articuladas;
-- **puntillo correcto, ligadura confusa:** aísla la representación problemática sin degradar automáticamente todo síncopa;
+- **puntillo correcto, ligadura confusa:** aísla la representación problemática sin degradar automáticamente toda la síncopa;
 - **lectura estable, oído confuso:** separa evidencia auditiva de duración escrita y usa un contraste uno/dos ataques;
 - **una toma aislada contradice evidencia reciente estable:** elicita otra muestra corta antes de cambiar el nivel registrado.
 
@@ -174,4 +174,4 @@ Si es **CONTINUAR + CORRECTIVO**, Unidad 4 se abre conservando visible la fragil
 
 Si es **REDUCIR NOVEDAD**, estabiliza la variable central con una tarea breve y vuelve a obtener evidencia; no reinicies esta unidad completa.
 
-Unidad 4 podrá ampliar variedad de síncopa, acentos/dinámica y aplicación aplicación musical de rudimentos sobre líneas ya comprendidas. **La línea rítmica seguirá mandando; el rudimento servirá a la lectura.**
+Unidad 4 podrá ampliar variedad de síncopa, acentos/dinámica y aplicación musical de rudimentos sobre líneas ya comprendidas. **La línea rítmica seguirá mandando; el rudimento servirá a la lectura.**

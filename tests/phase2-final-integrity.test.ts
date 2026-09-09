@@ -163,7 +163,7 @@ test('Late Phase 2 keeps reduced reference, integration and Hito 2 as distinct c
     assert.match(u12, new RegExp(dimension));
   }
   assert.match(u12, /BPM y click son condiciones de la tarea/);
-  assert.match(u12, /no convierte automáticamente C1–C3, D1–D5 o F1–F2 en FUNCIONALES/i);
+  assert.match(u12, /no convierte automáticamente en FUNCIONALES todas las competencias implicadas de tiempo, lectura y teoría rítmica/i);
   assert.match(u12, /Fase 3 gana el centro de gravedad/i);
 });
 

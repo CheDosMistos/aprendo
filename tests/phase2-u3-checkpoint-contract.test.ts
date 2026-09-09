@@ -22,17 +22,18 @@ test('Phase 2 U3 checkpoint uses the checkpoint schema and approved inference', 
   assert.match(lesson, /order: 5/);
   assert.match(lesson, /title: "Puerta de duración y síncopa I"/);
   assert.match(lesson, /rudiments: \[\]/);
-  assert.match(lesson, /¿D2\/F1–F2 y C1\/C2 están suficientemente disponibles para abrir U4/);
-  assert.match(lesson, /no sirve para “aprobar U3”/);
-  assert.match(overview, /El \*\*recorrido editorial de U3 queda completo\*\*/);
-  assert.match(overview, /no significa que un alumno haya “aprobado U3”/);
+  assert.match(lesson, /¿Síncopa, teoría rítmica básica, pulso y subdivisión están suficientemente disponibles para abrir Unidad 4/);
+  assert.match(lesson, /no sirve para “aprobar esta unidad”/);
+  assert.match(overview, /El \*\*recorrido editorial de esta unidad queda completo\*\*/);
+  assert.match(overview, /no significa que un alumno haya “aprobado esta unidad”/);
+  assert.doesNotMatch(lesson, /D2\/F1|C1\/C2|\bU4\b|\bB7\b|20\.U4/);
 });
 
 test('Phase 2 U3 checkpoint keeps Sample A exclusive and protected before first sight', () => {
   const asset = '/bateria/notation/f2/u3/f2-u3-checkpoint-a.musicxml';
   assert.match(lesson, new RegExp(`data-score-src="${asset.replaceAll('/', '\\/').replace('.', '\\.')}"[^>]*data-score-first-sight="true"`));
   assert.match(lesson, new RegExp(`data-score-source-url="${asset.replaceAll('/', '\\/').replace('.', '\\.')}"`));
-  assert.match(lesson, /exclusiva de este checkpoint/);
+  assert.match(lesson, /exclusiva de esta evaluación/);
 
   const pageFiles = fs.readdirSync(pagesDir).filter((name) => name.endsWith('.md'));
   const references = pageFiles.reduce((count, name) => {
@@ -63,15 +64,15 @@ test('Phase 2 U3 checkpoint preserves multidimensional conditions, health and fo
     assert.ok(lesson.includes(signal), `missing health/load signal ${signal}`);
   }
   assert.match(lesson, /El BPM describe las condiciones de la muestra; \*\*no define el nivel\*\*/);
-  assert.match(lesson, /Completar este checkpoint \*\*no actualiza automáticamente D2, F1, F2, C1, C2, E4 ni ninguna otra competencia\*\*/);
+  assert.match(lesson, /Completar esta evaluación \*\*no actualiza automáticamente síncopa, teoría básica del pulso y las figuras, métrica y terminología rítmica/);
 });
 
 test('Phase 2 U3 checkpoint keeps the minimum for U4 below mastery and protects U4 novelty', () => {
-  assert.match(lesson, /## MÍNIMO PARA AVANZAR A U4/);
-  for (const nonRequirement of ['cero errores;', 'BPM fijo o alto;', 'síncopa variada;', 'acentos complejos;', 'B7 funcional;', 'primera vista avanzada.']) {
+  assert.match(lesson, /## MÍNIMO PARA AVANZAR A Unidad 4/);
+  for (const nonRequirement of ['cero errores;', 'BPM fijo o alto;', 'síncopa variada;', 'acentos complejos;', 'aplicación musical de rudimentos funcional;', 'primera vista avanzada.']) {
     assert.ok(lesson.includes(nonRequirement), `missing non-requirement ${nonRequirement}`);
   }
-  assert.match(lesson, /20\.U4 — Síncopa II, acentos y lectura aplicada/);
+  assert.match(lesson, /Unidad 4 — Síncopa II, acentos y lectura aplicada/);
   assert.match(lesson, /La línea rítmica seguirá mandando; el rudimento servirá a la lectura/);
   assert.doesNotMatch(lesson, /BPM mínimo|BPM objetivo|aprobar.*BPM/i);
 });
