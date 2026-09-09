@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Transformaciones y desarrollo motívico"
 summary: "Convierte un motivo estable en material derivado: cambia deliberadamente una variable, conserva trazabilidad y explica qué se mantuvo y qué cambió."
-duration: Unidad flexible · 5 lecciones + Puerta desarrollo motívico
+duration: Unidad flexible · 5 lecciones + Puerta de desarrollo motívico
 competencies: [G2, G1, C1, C2, D6, F2, B2, B8, J2, K2, K5, K6, K8]
 rudiments: []
 published: true
@@ -72,12 +72,12 @@ Cambias cuánto material conservas sin usar porcentajes mágicos.
 Mantienes el esqueleto temporal y distingues lo audible de lo motor.
 
 ### Lección 4 — Desplazar sin cambiar el compás
-Mueves A respecto al marco manteniendo 4/4. Es una ventana desplazamientos de acento y motivo, no certifica desplazamientos de acento y motivo funcional por sí sola.
+Mueves A respecto al marco manteniendo 4/4. Es una ventana de desplazamiento de acento y motivo; no certifica por sí sola un nivel funcional en esa competencia.
 
 ### Lección 5 — Reagrupar y reacentuar
 Cambias la percepción de una corriente estable sin cambiar silenciosamente la métrica.
 
-### Evaluación — Puerta desarrollo motívico hacia improvisación
+### Evaluación — Puerta de desarrollo motívico hacia la improvisación
 Sobre material nuevo, aplicas **una transformación consciente**, la escribes, la tocas, la nombras y explicas qué se conserva y qué cambia.
 
 ## Frontera con Unidad 7
@@ -88,8 +88,8 @@ Esta unidad estudia operaciones **deliberadas y observables**. No exige improvis
 
 Se observan por separado identidad de A, operación elegida, exactitud terminológica, trazabilidad, escritura, ejecución, continuidad, retorno a A, accidente frente a decisión, ayudas y transferencia.
 
-**No hay un corrector automático de transformación ni un score global de creatividad.**
+**No hay un corrector automático de transformación ni una puntuación global de creatividad.**
 
 ## Regla de avance
 
-El mínimo desarrollo motívico no es combinar muchas técnicas: es demostrar **una transformación consciente bien identificada** sobre un A estable y poder explicarla.
+El mínimo de desarrollo motívico no es combinar muchas técnicas: es demostrar **una transformación consciente bien identificada** sobre un A estable y poder explicarla.
