@@ -46,9 +46,9 @@ test('U10 keeps 7/8 core, 7/4 expansion and evidence-based J3 levels', async () 
   assert.match(overview, /7\/8 ≠ septillo ≠ agrupación de siete notas/);
   assert.match(overview, /agrupación dentro del compás ≠ compás/);
   assert.match(overview, /7\/4 aparece sólo como comparación/i);
-  assert.match(overview, /J3 MÍNIMO GLOBAL/);
-  assert.match(overview, /J3 COMPETENTE\/FUNCIONAL no se concede por calendario/);
-  assert.match(cp, /Sólo si esta evidencia es funcional en ambas métricas puede registrarse J3 COMPETENTE/);
+  assert.match(overview, /MÍNIMO GLOBAL de J3/);
+  assert.match(overview, /COMPETENTE\/FUNCIONAL de J3 no se concede por calendario/);
+  assert.match(cp, /Sólo si esta evidencia es funcional en ambas métricas puede registrarse el nivel COMPETENTE de J3/);
   assert.match(cp, /AVANZADO no es requisito para U11/);
 });
 
