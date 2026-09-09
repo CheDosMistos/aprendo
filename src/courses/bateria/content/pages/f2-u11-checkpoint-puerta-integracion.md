@@ -17,7 +17,7 @@ published: true
 
 Esta evaluación pregunta si puedes **cambiar de representación conservando suficiente estructura como para localizar dónde aparece un error**.
 
-No sustituye el Hito 2 de Unidad 12 y no convierte automáticamente primera vista rítmica, E, aplicación musical de rudimentos o G en `FUNCIONAL`.
+No sustituye el Hito 2 de Unidad 12 y no convierte automáticamente la lectura a primera vista, las habilidades de oído, la aplicación musical de rudimentos ni la creatividad en `FUNCIONAL`.
 
 ## INFERENCIA
 
@@ -57,8 +57,8 @@ No atribuyas la transformación a PAS ni a un método. Es material original deri
 - tempo cómodo si usas metrónomo;
 - playback de la partitura sólo después de tu intento cuando actúe como feedback;
 - sin nueva notación central;
-- sin exigir primera vista formal forma y lectura de chart;
-- sin exigir grabación y comparación general ni transcripción extensa transcripción real.
+- sin exigir lectura a primera vista formal;
+- sin exigir grabación y comparación general ni transcripción estructurada extensa.
 
 ## DECISIÓN
 
