@@ -42,7 +42,7 @@ Un pequeño error recuperado aporta información distinta de un colapso completo
 
 ## Control de dificultad
 
-Si el gap destruye pulso interno/subdivisión binaria y ternaria:
+Si el gap desorganiza globalmente el pulso interno o la subdivisión:
 
 `GAP → HALF-TIME O CLICK COMPLETO → CORRECTIVO → RETEST`.
 
