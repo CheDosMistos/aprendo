@@ -122,7 +122,7 @@ No uses una sola nota global. Registra separadamente:
 
 > **El ciclo completo está disponible de forma funcional suficiente para continuar el currículo, aunque una de sus representaciones todavía necesite un correctivo localizado.**
 
-No implica que figuras, silencios y compás–primera vista rítmica y reconocimiento de pulso y subdivisión–relación entre oído y notación estén todas “dominadas” al mismo nivel.
+No implica que la lectura de figuras y silencios, la lectura de compás y primera vista rítmica, el reconocimiento de pulso y subdivisión y la relación entre oído y notación estén todas “dominadas” al mismo nivel.
 
 ## DECISIÓN
 
@@ -140,16 +140,16 @@ Varias representaciones básicas colapsan incluso al reducir dificultad y el cir
 
 ### DETENER CARGA
 
-Aparece una señal de salud/carga según el sistema `06`.
+Aparece una señal de salud/carga según el sistema general de práctica y evaluación.
 
 ## MÍNIMO PARA OBSERVAR HITO 3
 
 - lee la frase nueva sin escucharla antes;
-- puede convertirla en una representación vocal/métrica continua al menos parcialmente;
+- puedes convertirla en una representación vocal/métrica continua al menos parcialmente;
 - toca una versión reconocible y temporalmente coherente;
 - escucha E’ y localiza razonablemente la variación;
 - escribe una respuesta interpretable;
-- puede comparar qué cambió entre representaciones;
+- puedes comparar qué cambió entre representaciones;
 - las ayudas quedan explícitas.
 
 **AVANZADO no es requisito.** Esta evaluación no cierra Fase 3: Unidad 5 comienza el trabajo explícito de identidad motívica, repetición y contraste creativo.
