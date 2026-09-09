@@ -7,8 +7,8 @@ unitSlug: fase-3-unidad-10
 slug: puerta-siete
 kind: checkpoint
 order: 6
-title: "Evaluación — Puerta Siete: 7/8 funcional y evidencia métricas impares y mixtas"
-summary: "Verifica 7/8 funcional básico y separa el mínimo global de métricas impares y mixtas de una posible certificación competente."
+title: "Evaluación — Puerta Siete: 7/8 funcional y evidencia de métricas impares y mixtas"
+summary: "Verifica 7/8 funcional básico y separa el mínimo global de métricas impares y mixtas de una posible evidencia de nivel competente."
 duration: 25–30 min
 competencies: [J3, C1, C2, F2, D4, D6, E4, E5, G3, G4, K2, K5, K6, K8]
 rudiments: []
@@ -19,7 +19,7 @@ published: true
 
 Esta unidad cierra el segundo foco métrico impar de Fase 3. La salida obligatoria es **7/8 funcional básico** y permite verificar el **MÍNIMO global de métricas impares y mixtas** junto con la evidencia ya obtenida en 5/4.
 
-Eso no significa declarar automáticamente métricas impares y mixtas COMPETENTE. El nivel competente exige evidencia adicional de lectura, escritura e improvisación en varias métricas impares.
+Eso no significa declarar automáticamente como COMPETENTE la competencia de métricas impares y mixtas. El nivel competente exige evidencia adicional de lectura, escritura e improvisación en varias métricas impares.
 
 ## Material nuevo de lectura
 
@@ -29,7 +29,7 @@ Eso no significa declarar automáticamente métricas impares y mixtas COMPETENTE
 
 No estudies esta partitura antes de la prueba de lectura.
 
-## Bloque A — obligatorio: 7/8 funcional y métricas impares y mixtas MÍNIMO
+## Bloque A — obligatorio: 7/8 funcional y MÍNIMO de métricas impares y mixtas
 
 1. Identifica y cuenta un marco sencillo de 7/8.
 2. Lee el material nuevo manteniendo el ciclo completo.
@@ -42,7 +42,7 @@ No estudies esta partitura antes de la prueba de lectura.
 9. Explica conceptualmente la diferencia con 7/4 sin exigir dominio funcional de 7/4.
 10. Recupera verbalmente qué diferencia hay entre **compás** y **agrupación** también en 5/4.
 
-### MÍNIMO DE esta unidad
+### MÍNIMO DE ESTA UNIDAD
 
 - reconoces y mantienes 7/8 en material sencillo;
 - lees y escribes al menos un ejemplo correcto;
@@ -54,7 +54,7 @@ No estudies esta partitura antes de la prueba de lectura.
 
 Puede registrarse como alcanzado si, además de esta puerta, la evidencia acumulada muestra que reconoces y cuentas **5/4 y 7/8** y distingues sus agrupaciones sencillas del propio compás.
 
-## Bloque B — opcional: evidencia para métricas impares y mixtas COMPETENTE
+## Bloque B — opcional: evidencia para nivel COMPETENTE en métricas impares y mixtas
 
 No es requisito para continuar a Unidad 11.
 
@@ -65,7 +65,7 @@ Con material sencillo y sin preparación específica de los ejemplos:
 3. improvisa una frase breve en cada una manteniendo el marco;
 4. explica qué ayudas necesitaste y dónde apareció el error dominante.
 
-**Sólo si esta evidencia es funcional en ambas métricas puede registrarse métricas impares y mixtas COMPETENTE.** Completar esta unidad por sí solo no concede esa etiqueta.
+**Sólo si esta evidencia es funcional en ambas métricas puede registrarse el nivel COMPETENTE de métricas impares y mixtas.** Completar esta unidad por sí solo no concede esa etiqueta.
 
 ## AVANZADO / AMPLIACIÓN
 
