@@ -8,7 +8,7 @@ slug: aplicar-sin-borrar-la-linea
 kind: lesson
 order: 3
 title: "Aplicar sin borrar la línea"
-summary: "Aplica sticking, liderazgo o doubles selectivos sólo después de comprender la línea; aplicación musical de rudimentos sirve a la lectura y no la sustituye."
+summary: "Aplica sticking, liderazgo o doubles selectivos sólo después de comprender la línea; la aplicación musical de rudimentos sirve a la lectura y no la sustituye."
 duration: 25–30 min
 competencies: [C1, C2, D1, B7, A1, A2, K2, K4, K6]
 rudiments: []
@@ -42,7 +42,7 @@ La tercera aplicación no se presenta como partitura PAS ni como ejercicio ofici
 
 Si el sticking hace que añadas o desplaces ataques no previstos, vuelve a la versión simple.
 
-## Evidencia aplicación musical de rudimentos
+## Evidencia de aplicación musical de rudimentos
 
 La evidencia útil no es “puedo tocar un rudimento”. Es:
 
