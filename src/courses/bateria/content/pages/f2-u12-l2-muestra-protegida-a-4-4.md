@@ -79,11 +79,11 @@ Después de la toma, explica sin mirar una respuesta escrita:
 
 ## 5. Feedback y correctivo
 
-Ahora sí puedes escuchar la referencia y volver a tocar la línea. Desde este momento **ya no aporta nueva evidencia independiente de forma y lectura de chart/Hito 2**.
+Ahora sí puedes escuchar la referencia y volver a tocar la línea. Desde este momento **ya no aporta nueva evidencia independiente de lectura a primera vista para el Hito 2**.
 
 Si repites, etiqueta la repetición como práctica correctiva y elige una sola prioridad dominante.
 
-## MÍNIMO PARA AVANZAR A Lección 3
+## MÍNIMO PARA AVANZAR A LA LECCIÓN 3
 
 - has preservado la novedad del primer intento;
 - produces observaciones separadas de precisión y continuidad;
