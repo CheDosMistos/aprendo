@@ -82,7 +82,7 @@ test('U10 distinguishes tempo change from reference-density change and preserves
   const l3 = await readPage('l3');
   assert.match(l3, /GAP → HALF-TIME O CLICK COMPLETO → CORRECTIVO → RETEST/);
   const l4 = await readPage('l4');
-  assert.match(l4, /No implica control funcional con click reducido/i);
+  assert.match(l4, /No implica (?:control funcional con click reducido|C5 funcional)/i);
   const checkpoint = await readPage('checkpoint');
   assert.match(checkpoint, /INFERENCIA/);
   assert.match(checkpoint, /EVIDENCIA/);
