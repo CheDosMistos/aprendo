@@ -34,7 +34,7 @@ Oído/escritura aporta información diagnóstica adicional, pero **no crea un se
 
 ## Regla de validez
 
-Una partitura protegida aporta evidencia de primera vista/Hito 2 sólo en su **primer encuentro válido**. Después del intento pasa a ser práctica y ya no aporta otra muestra independiente.
+Una partitura protegida aporta evidencia de primera vista para el Hito 2 sólo en su **primer encuentro válido**. Después del intento pasa a ser práctica y ya no aporta otra muestra independiente.
 
 Por eso:
 
@@ -56,7 +56,7 @@ Primera vista de material 4/4 original con vocabulario ya trabajado.
 
 Transfiere el protocolo a 6/8 prototípico sin añadir un concepto nuevo de métrica.
 
-### Lección 4 — Diagnóstico adicional y puente forma y frase
+### Lección 4 — Diagnóstico adicional y puente a Fase 3
 
 Microtarea de oído/escritura y lectura reflexiva del perfil: qué continúa como mantenimiento y qué prepara análisis, transcripción, desarrollo motívico y creatividad posterior.
 
@@ -70,8 +70,8 @@ Dos muestras nuevas independientes, una simple y una compuesta, más interpretac
 - BPM fijo;
 - métricas impares;
 - todos los ornamentos PAS;
-- click desplazado o no obvio funcional;
-- transcripción real transcripción extensa;
+- control funcional con referencia temporal reducida;
+- transcripción extensa;
 - Hito 3 completo;
 - kit.
 
