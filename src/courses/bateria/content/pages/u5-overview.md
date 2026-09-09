@@ -22,7 +22,7 @@ published: true
 
 Esta unidad continúa **Tier 3**. No vuelve a enseñar desde cero doubles, paradiddles ni drags: comprueba que estén disponibles y los combina en material nuevo. El crecimiento transversal de la unidad es la **síncopa elemental**.
 
-**Single Paradiddle no es uno de los cinco PAS nuevos de U5.** Se recupera aquí como prerrequisito ya introducido en U1 para construir las combinaciones drag+diddle. Su estado PAS previo no se reinicia por aparecer en este contexto; solo se actualiza si la nueva evidencia lo justifica.
+**Single Paradiddle no es uno de los cinco PAS nuevos de Unidad 5.** Se recupera aquí como prerrequisito ya introducido en Unidad 1 para construir las combinaciones drag+diddle. Su estado PAS previo no se reinicia por aparecer en este contexto; solo se actualiza si la nueva evidencia lo justifica.
 
 ## ESENCIAL AHORA
 

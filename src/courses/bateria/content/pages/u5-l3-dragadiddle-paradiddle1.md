@@ -19,7 +19,7 @@ published: true
 
 Conocer correctamente **Single Dragadiddle** y **Drag Paradiddle #1** entendiendo que el reto nuevo es **integrar componentes**, no volver a aprender desde cero Drag o Paradiddle.
 
-**Single Paradiddle se retoma únicamente como prerrequisito de recuperación.** Ya fue introducido en U1: aquí no se presenta de nuevo ni reinicia su estado PAS.
+**Single Paradiddle se retoma únicamente como prerrequisito de recuperación.** Ya fue introducido en Unidad 1: aquí no se presenta de nuevo ni reinicia su estado PAS.
 
 ## 1. Puerta local — recuperación de prerrequisitos — 3 min
 

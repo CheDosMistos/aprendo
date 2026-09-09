@@ -14,8 +14,8 @@ test('U5 retoma Single Paradiddle como prerrequisito y no como PAS nuevo', () =>
   assert.doesNotMatch(frontmatter(overview), /\bSingle Paradiddle\b/);
   assert.doesNotMatch(frontmatter(lesson), /\bSingle Paradiddle\b/);
 
-  assert.match(overview, /Single Paradiddle no es uno de los cinco PAS nuevos de U5/i);
-  assert.match(overview, /prerrequisito ya introducido en U1/i);
+  assert.match(overview, /Single Paradiddle no es uno de los cinco PAS nuevos de Unidad 5/i);
+  assert.match(overview, /prerrequisito ya introducido en Unidad 1/i);
   assert.match(overview, /estado PAS previo no se reinicia/i);
 
   assert.match(lesson, /Single Paradiddle se retoma únicamente como prerrequisito de recuperación/i);
