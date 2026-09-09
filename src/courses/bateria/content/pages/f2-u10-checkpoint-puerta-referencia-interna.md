@@ -21,7 +21,7 @@ Esta evaluación no pregunta cuál es el modo de metrónomo más difícil que pu
 
 ## INFERENCIA
 
-pulso interno/subdivisión binaria y ternaria/metrónomo y click reducido y click desplazado o no obvio inicial permiten sostener una lectura conocida cuando disminuye la densidad del click, sin que la retirada de ayuda destruya la organización temporal.
+El pulso interno, la subdivisión y un control inicial con referencia temporal reducida permiten sostener una lectura conocida cuando disminuye la densidad del click, sin que la retirada de ayuda destruya la organización temporal.
 
 ## EVIDENCIA
 
@@ -46,7 +46,7 @@ No cambies BPM, sticking ni lectura entre A y B.
 - vocabulario notacional conocido;
 - sin playback previo como guía temporal de la ejecución;
 - BPM cómodo documentado, nunca criterio universal de aprobado;
-- si el modo reducido colapsa pulso interno/subdivisión binaria y ternaria, vuelve a referencia explícita y registra el dato.
+- si el modo reducido desorganiza globalmente el pulso interno o la subdivisión, vuelve a referencia explícita y registra el dato.
 
 **DECISIÓN CURRICULAR RAZONADA INFORMADA POR EVIDENCIA EXTRAPOLADA:** el uso de referencia reducida es una herramienta pedagógica; no se presenta como protocolo validado específicamente para bateristas.
 
@@ -74,11 +74,11 @@ No mezcles:
 
 - sesión completada;
 - condición de click utilizada;
-- evidencia pulso interno/subdivisión binaria y ternaria/metrónomo y click reducido/click desplazado o no obvio;
+- evidencia de pulso interno, subdivisión y control con referencia reducida;
 - estado general de competencia;
 - retención.
 
-Completar la evaluación no convierte click desplazado o no obvio en `FUNCIONAL`.
+Completar la evaluación no convierte automáticamente el control con referencia reducida en `FUNCIONAL`.
 
 ## Puente a Unidad 11
 
