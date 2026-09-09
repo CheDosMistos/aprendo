@@ -8,7 +8,7 @@ slug: fase-2-unidad-9-introduccion
 kind: unit
 order: 0
 title: "Primera vista I: continuidad y recuperación"
-summary: "Introduce forma y lectura de chart con material realmente nuevo, inspección breve, primer intento sin playback y evaluación separada de continuidad, recuperación y precisión."
+summary: "Introduce lectura a primera vista con material realmente nuevo, inspección breve, primer intento sin playback y evaluación separada de continuidad, recuperación y precisión."
 duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [C1, C2, C3, D5, K2, K4, K6]
 rudiments: []
@@ -23,13 +23,13 @@ El objetivo central es **lectura a primera vista elemental**, apoyada por pulso,
 
 ## Regla de validez de toda esta unidad
 
-Una partitura sólo aporta evidencia de primera vista **en el primer encuentro válido**. Tras ese primer encuentro, **ya no aporta nueva evidencia independiente de forma y lectura de chart**.
+Una partitura sólo aporta evidencia de primera vista **en el primer encuentro válido**. Tras ese primer encuentro, **ya no aporta nueva evidencia independiente de lectura a primera vista**.
 
 Cuando ya la has visto, analizado, tocado o escuchado:
 
-`ESA MISMA PARTITURA → PRÁCTICA DE LECTURA, NO NUEVA EVIDENCIA forma y lectura de chart`.
+`ESA MISMA PARTITURA → PRÁCTICA DE LECTURA, NO NUEVA EVIDENCIA DE PRIMERA VISTA`.
 
-Si vuelves a esta unidad y recuerdas una muestra, no la presentes como primera vista. Puede seguir siendo útil para lectura, continuidad o corrección, pero la inferencia forma y lectura de chart requiere material no practicado o insuficientemente expuesto para haber sido memorizado.
+Si vuelves a esta unidad y recuerdas una muestra, no la presentes como primera vista. Puede seguir siendo útil para lectura, continuidad o corrección, pero la inferencia de lectura a primera vista requiere material no practicado o insuficientemente expuesto para haber sido memorizado.
 
 ## Protocolo común
 
@@ -52,7 +52,7 @@ Al pulsar **Empezar**:
 
 ### Lección 1 — Primera vista: protocolo de un solo intento
 
-Novedad dominante: aprender qué hace válida una muestra forma y lectura de chart y ejecutar una línea elemental nueva sin convertir la inspección en ensayo.
+Novedad dominante: aprender qué hace válida una muestra de primera vista y ejecutar una línea elemental nueva sin convertir la inspección en ensayo.
 
 ### Lección 2 — Continuidad y precisión son evidencias distintas
 
@@ -64,7 +64,7 @@ Novedad dominante: reincorporarse tras una desviación pequeña usando referenci
 
 ### Lección 4 — Transferencia: primera vista en compás compuesto conocido
 
-Novedad dominante: aplicar el mismo protocolo forma y lectura de chart a una métrica ya aprendida —9/8 prototípico— sin introducir una dificultad notacional central nueva.
+Novedad dominante: aplicar el mismo protocolo de primera vista a una métrica ya aprendida —9/8 prototípico— sin introducir una dificultad notacional central nueva.
 
 ### Evaluación — Puerta de primera vista I
 
@@ -117,12 +117,12 @@ Decisiones:
 
 Estas decisiones **no son una escala de competencia**.
 
-## MÍNIMO PARA ENTRAR EN esta unidad
+## MÍNIMO PARA ENTRAR EN ESTA UNIDAD
 
-figuras, silencios y compás–lectura de compás y pulso interno/subdivisión binaria y ternaria deben estar suficientemente disponibles **en la tarea concreta** para que la novedad central pueda ser primera vista y no aprender símbolos nuevos. Una fragilidad localizada puede acompañarse de un correctivo; no obliga a rehacer Unidades 1–8 completas.
+La lectura rítmica básica, la comprensión del compás, el pulso y la subdivisión deben estar suficientemente disponibles **en la tarea concreta** para que la novedad central pueda ser la primera vista y no aprender símbolos nuevos. Una fragilidad localizada puede acompañarse de un correctivo; no obliga a rehacer Unidades 1–8 completas.
 
 ## Resultado observable de la unidad
 
 Al terminar esta unidad deberías poder enfrentarte a una línea breve realmente nueva, inspeccionarla sin ensayarla, iniciar una ejecución razonable, continuar ante errores pequeños y explicar por separado qué ocurrió con continuidad y precisión.
 
-Eso todavía no significa que forma y lectura de chart esté globalmente `FUNCIONAL` ni que el Hito 2 esté superado automáticamente.
+Eso todavía no significa que la lectura a primera vista esté globalmente `FUNCIONAL` ni que el Hito 2 esté superado automáticamente.
