@@ -8,14 +8,14 @@ slug: puerta-decodificacion-ornamental
 kind: checkpoint
 order: 5
 title: "Puerta de decodificación ornamental"
-summary: "Evaluación diagnóstico de esta unidad: comprueba si tuplets y ornamentación/aplicación musical de rudimentos y paradiddles–drags permiten decodificar sextillo, grace simple, double grace y roll escrito antes de depender del nombre o de la memoria motora."
+summary: "Evaluación diagnóstica de esta unidad: comprueba si la lectura de tuplets y ornamentación, su aplicación rudimental y las familias de flams, drags y rolls permiten decodificar sextillo, grace simple, double grace y roll escrito antes de depender del nombre o de la memoria motora."
 duration: 15–20 min
 competencies: [B3, B4, B5, B7, C2, C3, D3, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Esta evaluación no introduce una nueva familia rudimental y **no es una prueba formal de primera vista forma y lectura de chart**. La muestra es nueva, pero puedes observarla, analizarla y reducir tempo antes de ejecutar.
+Esta evaluación no introduce una nueva familia rudimental y **no es una prueba formal de primera vista**. La muestra es nueva, pero puedes observarla, analizarla y reducir tempo antes de ejecutar.
 
 La inferencia es:
 
@@ -124,16 +124,16 @@ Antes de decir `flam`, `drag` o `roll`, explica cada compás sin nombres rudimen
 
 Después puedes asociar esas funciones a las familias correspondientes.
 
-Si la explicación sólo aparece después de recordar el nombre, la evidencia de tuplets y ornamentación sigue incompleta.
+Si la explicación sólo aparece después de recordar el nombre, la evidencia de lectura de tuplets y ornamentación sigue incompleta.
 
 ## 5. Evidencia secundaria sólo si hace falta — 1–2 min
 
 Si una única categoría falla, no repitas toda la unidad. Crea una microtarea original que aisle sólo esa variable:
 
 - un pulso `4 ↔ 6` para sextillo;
-- una negra con/sin grace para paradiddles;
-- una negra con/sin double grace para flams;
-- una figura con/sin tremolo para drags.
+- una negra con/sin grace para flams;
+- una negra con/sin double grace para drags;
+- una figura con/sin tremolo para rolls.
 
 Etiqueta el resultado `EJERCICIO ORIGINAL PROPIO` y comprueba el cierre métrico cuando corresponda.
 
@@ -145,7 +145,7 @@ Aplica:
 
 ### CONTINUAR
 
-La muestra permite decodificar las cuatro funciones, ejecutarlas con control suficiente y localizar un error sin depender de nombres. Tiene sentido abrir Unidad 9, donde aparecerá la **primera vista formal forma y lectura de chart**.
+La muestra permite decodificar las cuatro funciones, ejecutarlas con control suficiente y localizar un error sin depender de nombres. Tiene sentido abrir Unidad 9, donde aparecerá la **primera vista formal**.
 
 ### CONTINUAR + CORRECTIVO
 
@@ -153,7 +153,7 @@ La lectura general es suficiente, pero queda una fragilidad localizada: por ejem
 
 ### REDUCIR NOVEDAD
 
-La muestra se resuelve principalmente por memoria nominal, se ornamentan pulsos no escritos o varias categorías siguen sin poder explicarse antes de tocar. Reduce la novedad y recupera tuplets y ornamentación sobre una función cada vez.
+La muestra se resuelve principalmente por memoria nominal, se ornamentan pulsos no escritos o varias categorías siguen sin poder explicarse antes de tocar. Reduce la novedad y recupera la lectura de tuplets y ornamentación sobre una función cada vez.
 
 ### DETENER CARGA
 
@@ -179,8 +179,8 @@ No se exige:
 - cero errores;
 - un BPM fijo o alto;
 - dominar todos los Flam, Drag o Roll Rudiments PAS;
-- declarar paradiddles, flams, drags, aplicación musical de rudimentos o tuplets y ornamentación globalmente `FUNCIONAL`;
-- primera vista formal forma y lectura de chart dentro de esta evaluación — **es la novedad de Unidad 9**;
+- declarar flams, drags, rolls, aplicación rudimental o lectura de tuplets y ornamentación globalmente `FUNCIONAL`;
+- primera vista formal dentro de esta evaluación — **es la novedad de Unidad 9**;
 - click reducido, half-time o gaps — Unidad 10;
 - kit o coordinación de cuatro extremidades.
 
@@ -192,9 +192,9 @@ Eso no equivale a promover automáticamente ninguna competencia global.
 
 ## Cómo interpretar discrepancias
 
-- **tocas el flam de memoria pero ornamentas pulsos equivocados:** paradiddles puede existir técnicamente, pero tuplets y ornamentación/aplicación musical de rudimentos lector sigue limitado;
-- **lees el double grace pero un golpe desaparece:** problema principalmente mecánico flams;
-- **entiendes el roll pero la salida se desplaza:** revisa pulso interno/subdivisión binaria y ternaria y duración antes de culpar a drags;
+- **tocas el flam de memoria pero ornamentas pulsos equivocados:** la mecánica de flam puede existir, pero la lectura y aplicación del adorno siguen limitadas;
+- **lees el double grace pero un golpe desaparece:** problema principalmente mecánico de drag;
+- **entiendes el roll pero la salida se desplaza:** revisa pulso, subdivisión y duración antes de culpar a la mecánica del roll;
 - **sextillo correcto aislado pero falla al volver a negras:** revisa cambios de subdivisión;
 - **todo se degrada al unir los cuatro compases:** reduce continuidad; no concluyas que fallan cuatro competencias a la vez.
 
@@ -202,4 +202,4 @@ Completar esta puerta **no actualiza automáticamente** el mapa de progreso.
 
 ## Puente a Unidad 9
 
-Unidad 9 podrá convertir la lectura desarrollada hasta aquí en **primera vista formal forma y lectura de chart**: muestra nueva, ventana temporal controlada, ayudas restringidas y evidencia explícita de primera lectura. Esta unidad no simula ese criterio anticipadamente.
+Unidad 9 podrá convertir la lectura desarrollada hasta aquí en **primera vista formal**: muestra nueva, ventana temporal controlada, ayudas restringidas y evidencia explícita de primera lectura. Esta unidad no simula ese criterio anticipadamente.
