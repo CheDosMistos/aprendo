@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Improvisación rítmica con restricciones"
 summary: "Usa motivos y transformaciones mientras el tiempo continúa: improvisa bajo una consigna observable, aprende a recuperarte y retira andamiaje de forma gradual."
-duration: Unidad flexible · 5 lecciones + Puerta composición de fills y secciones
+duration: Unidad flexible · 5 lecciones + Puerta de improvisación
 competencies: [G3, G1, G2, C1, C2, F3, K2, K5, K6, K8]
 rudiments: []
 published: true
@@ -50,7 +50,7 @@ La investigación disponible no permite afirmar que aumentar restricciones produ
 ↓
 `objetivo formal o dinámico`
 ↓
-`Puerta composición de fills y secciones con una restricción apropiada`
+`Puerta de improvisación con una restricción apropiada`
 
 Es una **decisión curricular razonada**, no una ley universal.
 
@@ -61,7 +61,7 @@ Es una **decisión curricular razonada**, no una ley universal.
 - **RECUPERACIÓN:** ¿qué hiciste después de un error?;
 - **CONSIGNA:** ¿la restricción siguió siendo observable?
 
-Una frase sencilla que mantiene el marco puede demostrar más composición de fills y secciones que una frase compleja que obliga a detenerse.
+Una frase sencilla que mantiene el marco puede demostrar más control de improvisación que una frase compleja que obliga a detenerse.
 
 ## Modo interpretación durante la toma
 
@@ -77,7 +77,7 @@ Entre tomas sí puedes volver al **modo laboratorio** para diagnosticar.
 ## Recorrido de la unidad
 
 ### Lección 1 — Un motivo, una transformación, una frase
-Espacio de búsqueda mínimo: A + una operación desarrollo motívico + longitud fija.
+Espacio de búsqueda mínimo: A + una operación de desarrollo motívico + longitud fija.
 
 ### Lección 2 — Call and response
 Escuchas una llamada y respondes dentro del hueco temporal sin convertir la respuesta en copia obligatoria.
@@ -106,7 +106,7 @@ Esta unidad no exige escribir por adelantado una “respuesta correcta”.
 
 Observamos continuidad, recuperación, cumplimiento de consigna, motivo, transformación, repetición/contraste, frase, espacio, dinámica, accidente/decisión y explicación posterior.
 
-**No hay un grader automático de improvisación ni un score de “originalidad”.**
+**No hay una evaluación automática de improvisación ni una puntuación de “originalidad”.**
 
 ## Mínimo de la unidad
 
