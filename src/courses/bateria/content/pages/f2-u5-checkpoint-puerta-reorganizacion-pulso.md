@@ -8,7 +8,7 @@ slug: puerta-de-reorganizacion-del-pulso
 kind: checkpoint
 order: 5
 title: Puerta de reorganización del pulso
-summary: "Decide si pulso, subdivisión y cambios de subdivisión y tuplets y ornamentación permiten abrir Unidad 6 conservando el pulso al reorganizar 2↔3↔4, distinguiendo pulso de subdivisión y usando lectura, oído, explicación y evidencia de transferencia."
+summary: "Decide si el pulso, la subdivisión y los cambios de subdivisión permiten abrir Unidad 6 conservando el pulso al reorganizar 2↔3↔4, distinguiendo pulso de subdivisión y usando lectura, oído, explicación y evidencia de transferencia."
 duration: 10–15 min
 competencies: [C1, C2, C3, D1, D3, E1, E2, E4, F1, F2, K2, K4, K6]
 rudiments: []
@@ -17,11 +17,11 @@ published: true
 
 Esta evaluación **no sirve para “aprobar esta unidad”** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. Su pregunta es más concreta:
 
-> **¿pulso, subdivisión y cambios de subdivisión y tuplets y ornamentación permiten abrir Unidad 6 sin confundir “tres por pulso” con “seis pulsos iguales” ni perder sistemáticamente la referencia al cambiar 2↔3↔4?**
+> **¿El pulso, la subdivisión y los cambios de subdivisión permiten abrir Unidad 6 sin confundir “tres por pulso” con “seis pulsos iguales” ni perder sistemáticamente la referencia al cambiar 2↔3↔4?**
 
 La evidencia principal vuelve a pulso, subdivisión, lectura de tresillos, cambio de densidad, oído y explicación. El BPM describe la **condición** de la muestra; no define el nivel.
 
-No se exige cero errores, cambio rápido, primera vista formal forma y lectura de chart ni conocimiento previo de 6/8. Unidad 6 introducirá la organización métrica compuesta como novedad propia.
+No se exige cero errores, cambio rápido, primera vista formal ni conocimiento previo de 6/8. Unidad 6 introducirá la organización métrica compuesta como novedad propia.
 
 ## 1. Muestra A — lectura ternaria y reorganización 2↔3↔4 — 5–6 min
 
@@ -31,7 +31,7 @@ La partitura siguiente es **nueva y exclusiva de esta evaluación**. Sigue en `4
 
 <div data-notation-score data-score-src="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-title="Evaluación — Puerta de reorganización del pulso" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO" data-score-feedback="after-attempt" data-score-source-url="/bateria/notation/f2/u5/f2-u5-checkpoint-reorganizacion.musicxml" data-score-source-label="MusicXML — fuente del ejercicio"></div>
 
-Esta lectura es nueva para la puerta, pero **no se registra como evidencia formal de primera vista forma y lectura de chart**. Unidad 9 reservará condiciones específicas para medir primera vista realmente nueva.
+Esta lectura es nueva para la puerta, pero **no se registra como evidencia formal de primera vista**. Unidad 9 reservará condiciones específicas para medir primera vista realmente nueva.
 
 Antes de habilitar audio:
 
@@ -46,7 +46,7 @@ Antes de habilitar audio:
 Registra por separado:
 
 - **PULSO:** ¿el inicio y final de cada negra siguieron siendo localizables?;
-- **subdivisión binaria y ternaria/SUBDIVISIÓN:** ¿las partes internas fueron iguales y el cambio de densidad fue consciente?;
+- **SUBDIVISIÓN:** ¿las partes internas fueron iguales y el cambio de densidad fue consciente?;
 - **LECTURA:** ¿el tresillo se entendió como `3:2`, no como tres corcheas ordinarias?;
 - **CONTINUIDAD / RECUPERACIÓN:** ¿un tropiezo local arrastró el compás o pudiste reincorporarte?;
 - **AYUDAS:** click, conteo, canto o marcas usadas;
@@ -158,12 +158,12 @@ No se exige:
 - sextillos;
 - 6/8 dominado;
 - 9/8 o 12/8;
-- primera vista formal forma y lectura de chart;
-- que pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación, imitación rítmica o relación entre oído y notación pasen automáticamente a `FUNCIONAL` por completar la página.
+- primera vista formal;
+- que el pulso, la subdivisión, los cambios de subdivisión, el trabajo con tresillos, la imitación rítmica o la relación entre oído y notación pasen automáticamente a `FUNCIONAL` por completar la página.
 
 ## Cómo interpretar discrepancias
 
-- **el pulso sigue pero el tresillo es desigual:** correctivo de subdivisión binaria y ternaria antes de aumentar densidad;
+- **el pulso sigue pero el tresillo es desigual:** aplica un correctivo de subdivisión antes de aumentar densidad;
 - **el tresillo funciona aislado pero falla al cambiar 2↔3:** trabaja la transición conservando físicamente la negra;
 - **2↔3 funciona pero 3↔4 colapsa:** reduce la muestra a dos pulsos y no degrada automáticamente toda esta unidad;
 - **lees 3:2 pero no lo reconoces por oído:** el límite es principalmente perceptivo, no de notación;
@@ -171,7 +171,7 @@ No se exige:
 - **cuentas cada ataque como pulso:** vuelve a marcar la negra mientras vocalizas las partes internas;
 - **una muestra aislada contradice varias recientes:** elicita otra muestra breve antes de cambiar el nivel registrado.
 
-Completar esta evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, tuplets y ornamentación, imitación rítmica, relación entre oído y notación ni ninguna otra competencia. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
+Completar esta evaluación **no actualiza automáticamente** ninguna competencia. La plataforma debe registrar la evidencia concreta y la decisión, no convertir “terminado” en “dominado”.
 
 ## Puente a Unidad 6
 
