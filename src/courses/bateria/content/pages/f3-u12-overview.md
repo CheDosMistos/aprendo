@@ -46,7 +46,7 @@ Si reutilizas material propio, no basta con presentarlo sin trabajo: la versión
 
 Elegir 5/4 o 7/8 puede demostrar transferencia de Unidad 9/Unidad 10, pero **la métrica impar no es requisito del Hito**. Si añade ruido a la autoría, usa 4/4.
 
-Para el mínimo composición de piezas, **1–4 compases coherentes y reproducibles pueden bastar**. Más longitud sólo aporta si cumple una función musical.
+Para el mínimo de composición rítmica breve, **1–4 compases coherentes y reproducibles pueden bastar**. Más longitud sólo aporta si cumple una función musical.
 
 ## Recorrido de la unidad
 
@@ -89,6 +89,6 @@ Hito 4 evalúa **autoría rítmica**. Los mínimos de transcripción, forma, 5/4
 
 ## Evaluación
 
-No existe un grader automático de creatividad. Se observan por separado motivo, desarrollo, representación, continuidad, revisión, explicación y autonomía.
+No existe una evaluación automática de la creatividad. Se observan por separado motivo, desarrollo, representación, continuidad, revisión, explicación y autonomía.
 
 Una pieza sencilla y controlada puede demostrar más competencia que una pieza compleja que su propio autor no puede reconstruir.
