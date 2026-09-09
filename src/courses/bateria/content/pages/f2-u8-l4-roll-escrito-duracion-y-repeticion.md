@@ -77,7 +77,7 @@ Cuatro negras. Úsalas para fijar los cuatro pulsos.
 
 La lectura debe permitirte saber **dónde empieza y dónde termina la zona repetida antes de tocarla**.
 
-## 4. Mecánica drags: continuidad con salida clara — 5–6 min
+## 4. Mecánica de roll: continuidad con salida clara — 5–6 min
 
 No persigas máxima densidad. Empieza con dobles o strokes controlados que puedas distribuir uniformemente dentro de los dos pulsos de la blanca.
 
@@ -121,7 +121,7 @@ La pregunta es:
 
 **¿puedes aumentar la densidad interna sin modificar la duración externa?**
 
-Esto conecta drags con subdivisión binaria y ternaria.
+Esto conecta la familia de rolls con el control de subdivisión.
 
 ## 7. Escritura y transferencia — 2–3 min
 
@@ -159,7 +159,7 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA PASAR AL Evaluación DE esta unidad
+## MÍNIMO PARA PASAR A LA EVALUACIÓN DE ESTA UNIDAD
 
 En condición cómoda:
 
@@ -178,7 +178,7 @@ No se exige:
 - una densidad o BPM universal;
 - primera vista formal Unidad 9;
 - gaps — Unidad 10;
-- declarar drags, aplicación musical de rudimentos o tuplets y ornamentación globalmente `FUNCIONAL`.
+- declarar rolls, aplicación rudimental o lectura de ornamentación globalmente `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 
