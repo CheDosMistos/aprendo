@@ -8,14 +8,14 @@ slug: transferencia-compas-compuesto
 kind: lesson
 order: 4
 title: "Transferencia: primera vista en compás compuesto conocido"
-summary: "Aplica el protocolo forma y lectura de chart a una línea nueva en 9/8 prototípico, conservando tres pulsos compuestos y separando la dificultad métrica de la novedad real de primera vista."
+summary: "Aplica el protocolo de lectura a primera vista a una línea nueva en 9/8 prototípico, conservando tres pulsos compuestos y separando la dificultad métrica de la novedad real de primera vista."
 duration: 25–30 min
 competencies: [C1, C2, C3, D4, D5, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Las tres primeras lecciones han usado 4/4 para no mezclar el protocolo forma y lectura de chart con una novedad métrica. Lección 4 comprueba transferencia a un marco **ya conocido**:
+Las tres primeras lecciones han usado 4/4 para no mezclar el protocolo de lectura a primera vista con una novedad métrica. Lección 4 comprueba transferencia a un marco **ya conocido**:
 
 > **9/8 PROTOTÍPICO = 3 PULSOS PRINCIPALES × 3 SUBDIVISIONES.**
 
@@ -61,15 +61,15 @@ Si ya conoces esta partitura de una visita anterior, no la cuentes como primera 
 
 Separa tres posibles problemas:
 
-### A. forma y lectura de chart / lectura nueva
+### A. Lectura a primera vista / lectura nueva
 
 La métrica está clara, pero la secuencia concreta no se decodifica con suficiente fluidez.
 
-### B. lectura de compás / representación métrica
+### B. Lectura de compás / representación métrica
 
 Pierdes el modelo `3×3`, cuentas nueve pulsos equivalentes o dejas de ubicar la negra con puntillo.
 
-### C. pulso interno/subdivisión binaria y ternaria / tiempo
+### C. Pulso y subdivisión / tiempo
 
 Comprendes la notación y la métrica, pero la referencia temporal colapsa durante la ejecución.
 
@@ -110,11 +110,11 @@ Decisiones:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-## MÍNIMO PARA PASAR AL Evaluación DE esta unidad
+## MÍNIMO PARA PASAR A LA EVALUACIÓN DE ESTA UNIDAD
 
 - completas una muestra nueva en métrica compuesta conocida sin playback previo;
 - conservas o recuperas el modelo de tres pulsos principales;
-- distingues un problema forma y lectura de chart de una fragilidad métrica lectura de compás;
+- distingues un problema de lectura a primera vista de una fragilidad de representación métrica;
 - registras continuidad y precisión por separado;
 - no reutilizas la misma línea como segunda evidencia independiente de primera vista.
 
@@ -123,7 +123,7 @@ No se exige:
 - 9/8 a tempo alto;
 - métrica irregular;
 - click reducido — Unidad 10;
-- forma y lectura de chart globalmente `FUNCIONAL`;
+- lectura a primera vista globalmente `FUNCIONAL`;
 - Hito 2 completo.
 
 ## COMPETENTE EN ESTA TAREA
