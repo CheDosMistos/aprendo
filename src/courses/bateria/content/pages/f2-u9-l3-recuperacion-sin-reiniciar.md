@@ -91,7 +91,7 @@ Usa material **ya conocido**, no la muestra de primera vista, y practica esta se
 
 `TOCAR → OMITIR DELIBERADAMENTE UN ATAQUE → MANTENER PULSO → REENTRAR EN EL SIGUIENTE PULSO`.
 
-Esto es un **ejercicio correctivo**, no evidencia forma y lectura de chart. Su función es entrenar la conducta de recuperación sin contaminar una muestra nueva.
+Esto es un **ejercicio correctivo**, no evidencia de lectura a primera vista. Su función es entrenar la conducta de recuperación sin contaminar una muestra nueva.
 
 ## 7. Evidencia y decisión — 2–3 min
 
@@ -101,7 +101,7 @@ No confundas:
 
 - recuperación observada en una muestra;
 - precisión de esa muestra;
-- dominio global de forma y lectura de chart.
+- dominio global de la lectura a primera vista.
 
 Decisiones:
 
@@ -124,7 +124,7 @@ No se exige:
 - recuperar siempre en el siguiente pulso;
 - cero errores;
 - click reducido o gaps — Unidad 10;
-- forma y lectura de chart `FUNCIONAL` por una sola toma.
+- lectura a primera vista `FUNCIONAL` por una sola toma.
 
 ## COMPETENTE EN ESTA TAREA
 
