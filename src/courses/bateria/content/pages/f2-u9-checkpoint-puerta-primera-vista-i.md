@@ -8,7 +8,7 @@ slug: puerta-primera-vista-i
 kind: checkpoint
 order: 5
 title: "Puerta de primera vista I"
-summary: "Contrasta dos muestras nuevas e independientes —4/4 y 6/8— para observar forma y lectura de chart, continuidad, precisión y recuperación sin hacer depender la decisión de una sola línea."
+summary: "Contrasta dos muestras nuevas e independientes —4/4 y 6/8— para observar lectura a primera vista, continuidad, precisión y recuperación sin hacer depender la decisión de una sola línea."
 duration: 25–30 min
 competencies: [C1, C2, C3, D4, D5, K2, K4, K6]
 rudiments: []
@@ -17,13 +17,13 @@ published: true
 
 Esta evaluación no introduce material nuevo. Observa si el protocolo de primera vista funciona en **dos muestras protegidas e independientes**.
 
-> **UNA SOLA LÍNEA NO DEBE DECIDIR forma y lectura de chart. DOS MUESTRAS TAMPOCO CONVIERTEN AUTOMÁTICAMENTE forma y lectura de chart EN FUNCIONAL.**
+> **UNA SOLA LÍNEA NO DEBE DECIDIR LA LECTURA A PRIMERA VISTA. DOS MUESTRAS TAMPOCO LA CONVIERTEN AUTOMÁTICAMENTE EN FUNCIONAL.**
 
 Cada muestra sólo es válida como primera vista si realmente no la habías practicado ni escuchado antes.
 
 ## INFERENCIA
 
-`forma y lectura de chart, apoyada por pulso, subdivisión y cambios de subdivisión y lectura de compás, permite enfrentarse a material rítmico elemental realmente nuevo sin convertirlo primero en memoria motora.`
+`La lectura a primera vista, apoyada por pulso, subdivisión, cambios de subdivisión y comprensión del compás, permite enfrentarse a material rítmico elemental realmente nuevo sin convertirlo primero en memoria motora.`
 
 ## EVIDENCIA
 
@@ -96,7 +96,7 @@ Además de continuidad y precisión, observa:
 
 - ¿se mantuvieron dos pulsos compuestos?;
 - ¿un silencio rompió la subdivisión ternaria?;
-- ¿el error fue de forma y lectura de chart o reapareció una fragilidad lectura de compás?
+- ¿el error fue de lectura a primera vista o reapareció una fragilidad de representación métrica?
 
 Una vez finalizada, B también deja de ser evidencia independiente de primera vista.
 
@@ -106,7 +106,7 @@ Interpreta las dos muestras conjuntamente, sin promediarlas en una nota total.
 
 ### CONTINUAR
 
-Las dos muestras muestran un perfil suficientemente estable para seguir desarrollando forma y lectura de chart: la lectura nueva es interpretable, la continuidad razonable y los errores son localizados o recuperables.
+Las dos muestras muestran un perfil suficientemente estable para seguir desarrollando la lectura a primera vista: la lectura nueva es interpretable, la continuidad razonable y los errores son localizados o recuperables.
 
 ### CONTINUAR + CORRECTIVO
 
@@ -114,7 +114,7 @@ El protocolo funciona, pero una dimensión concreta sigue frágil —por ejemplo
 
 ### REDUCIR NOVEDAD
 
-La lectura nueva se convierte sistemáticamente en paradas/reinicios, pulso interno/subdivisión binaria y ternaria colapsan, o la notación conocida deja de poder decodificarse sin memorizarla primero.
+La lectura nueva se convierte sistemáticamente en paradas/reinicios, el pulso o la subdivisión colapsan, o la notación conocida deja de poder decodificarse sin memorizarla primero.
 
 ### DETENER CARGA
 
@@ -122,30 +122,30 @@ Dolor, hormigueo, entumecimiento, pérdida de fuerza o una limitación que haga 
 
 ## MÍNIMO PARA ABRIR Unidad 10
 
-Unidad 10 reduce progresivamente la referencia temporal externa, por lo que el mínimo no es «aprobar forma y lectura de chart» sino disponer de una base temporal suficiente **en tareas conocidas/controladas**.
+Unidad 10 reduce progresivamente la referencia temporal externa, por lo que el mínimo no es «aprobar la lectura a primera vista» sino disponer de una base temporal suficiente **en tareas conocidas/controladas**.
 
 Puedes abrir Unidad 10 cuando:
 
 - realizas las dos muestras sin playback previo;
 - comprendes que cada una sólo vale una vez como primera vista;
 - mantienes una referencia temporal razonable en al menos una parte representativa de ambas;
-- los fallos dominantes pueden describirse y no son un colapso global de pulso interno/subdivisión binaria y ternaria;
+- los fallos dominantes pueden describirse y no son un colapso global de pulso o subdivisión;
 - separas continuidad/recuperación de precisión;
-- distingues fragilidad de forma y lectura de chart de fragilidad métrica lectura de compás;
+- distingues fragilidad de lectura a primera vista de fragilidad de representación métrica;
 - puedes elegir `CONTINUAR`, `CONTINUAR + CORRECTIVO` o `REDUCIR NOVEDAD` con evidencia concreta.
 
 No se exige:
 
 - cero errores;
 - un BPM fijo;
-- forma y lectura de chart `FUNCIONAL` global;
+- lectura a primera vista `FUNCIONAL` global;
 - superar Hito 2 completo;
 - usar click reducido durante esta evaluación;
 - gaps, half-time o desplazamiento de click.
 
 ## Qué actualiza esta evaluación
 
-La evidencia puede actualizar **sólo las habilidades realmente observadas**. Completar la página no actualiza automáticamente pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, lectura de compás ni forma y lectura de chart.
+La evidencia puede actualizar **sólo las habilidades realmente observadas**. Completar la página no actualiza automáticamente el pulso, la subdivisión, los cambios de subdivisión, la comprensión del compás ni la lectura a primera vista.
 
 Si A y B ofrecen resultados contradictorios, registra la diferencia y remuestrea más adelante con material nuevo equivalente; no fuerces una conclusión global.
 
