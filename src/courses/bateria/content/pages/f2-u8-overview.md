@@ -8,14 +8,14 @@ slug: fase-2-unidad-8-introduccion
 kind: unit
 order: 0
 title: "Sextillos, rolls y ornamentaciones escritas"
-summary: "Esta unidad desarrolla tuplets y ornamentación y aplicación musical de rudimentos leyendo sextillos, grace notes y rolls escritos antes de apoyarse en el nombre o la memoria motora del rudimento."
+summary: "Esta unidad desarrolla la lectura de tuplets y ornamentación y su aplicación rudimental mediante sextillos, grace notes y rolls escritos antes de apoyarse en el nombre o la memoria motora del rudimento."
 duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [B3, B4, B5, B7, C2, C3, D3, K2, K4, K6]
 rudiments: []
 published: true
 ---
 
-Unidad 7 cerró la generalización de compás compuesto. Esta unidad vuelve a poner el foco en **lectura de tuplets y ornamentación escrita** y en **aplicación rudimental**, con paradiddles/flams/drags activas según el material.
+Unidad 7 cerró la generalización de compás compuesto. Esta unidad vuelve a poner el foco en **lectura de tuplets y ornamentación escrita** y en **aplicación rudimental**, con flams, drags y rolls activos según el material.
 
 > **VER EL SÍMBOLO → DECODIFICAR SU FUNCIÓN → EJECUTAR → RECONOCER/APLICAR LA FAMILIA.**
 
@@ -24,11 +24,11 @@ El orden importa. Esta unidad no pretende que veas una figura conocida, recuerde
 ## ESENCIAL AHORA
 
 - **tuplets y ornamentación:** leer sextillos y ornamentaciones sencillas;
-- **subdivisión binaria y ternaria/cambios de subdivisión:** conservar subdivisión y cambiar densidad de forma deliberada;
-- **paradiddles:** distinguir grace note y principal en material de tipo flam;
-- **flams:** distinguir double grace y principal en material de tipo drag;
-- **drags:** interpretar formas básicas de repetición/roll según la notación presentada;
-- **aplicación musical de rudimentos:** aplicar esas familias a líneas ya comprendidas sin sustituir lectura por memoria.
+- **subdivisión y cambios de subdivisión:** conservar la igualdad interna y cambiar densidad de forma deliberada;
+- **flams:** distinguir grace note y principal en material de tipo flam;
+- **drags:** distinguir double grace y principal en material de tipo drag;
+- **rolls:** interpretar formas básicas de repetición/roll según la notación presentada;
+- **aplicación rudimental:** aplicar esas familias a líneas ya comprendidas sin sustituir lectura por memoria.
 
 ## Fuente normativa y material original
 
@@ -57,13 +57,13 @@ Esto es **tuplet**, no compás compuesto. Un `6` sobre un grupo no convierte 4/4
    Leer `6:4`, compararlo con semicorcheas ordinarias y conservar el mismo pulso.
 
 2. **Lección 2 — Flam escrito: grace note y principal**  
-   Decodificar una grace note antes de la nota principal; paradiddles/aplicación musical de rudimentos sin copiar una partitura PAS.
+   Decodificar una grace note antes de la nota principal; familia de flams y aplicación rudimental sin copiar una partitura PAS.
 
 3. **Lección 3 — Drag escrito: double grace y principal**  
-   Leer dos grace notes como adorno previo y evitar convertir las tres alturas temporales en golpes equivalentes; flams/aplicación musical de rudimentos.
+   Leer dos grace notes como adorno previo y evitar convertir las tres alturas temporales en golpes equivalentes; familia de drags y aplicación rudimental.
 
 4. **Lección 4 — Rolls escritos: duración y repetición indicada**  
-   Interpretar marcas de tremolo/repetición sobre una duración y contrastar línea simple frente a línea ornamentada; drags/aplicación musical de rudimentos.
+   Interpretar marcas de tremolo/repetición sobre una duración y contrastar línea simple frente a línea ornamentada; familia de rolls y aplicación rudimental.
 
 5. **Evaluación — Puerta de decodificación ornamental**  
    Una muestra exclusiva combina sextillo, grace simple, double grace y roll escrito. La pregunta no es «¿qué rudimento recuerdas?», sino «¿qué información escrita puedes decodificar y ejecutar?».
@@ -87,7 +87,7 @@ No se inventará sticking PAS. Si una tarea propia necesita sticking, se declara
 
 ## Qué no pertenece todavía a esta unidad
 
-- **forma y lectura de chart primera vista formal:** Unidad 9;
+- **primera vista formal:** Unidad 9;
 - click reducido, half-time o gaps: Unidad 10;
 - análisis profundo de repertorio o transcripción extensa;
 - kit y coordinación de cuatro extremidades como requisito;
@@ -118,11 +118,11 @@ Se conserva:
 
 Observaremos por separado:
 
-- **tuplets y ornamentación:** decodificación real de símbolos;
-- **subdivisión binaria y ternaria:** igualdad interna de subdivisión;
+- **lectura de tuplets y ornamentación:** decodificación real de símbolos;
+- **subdivisión:** igualdad interna;
 - **cambios de subdivisión:** transición entre densidades cuando proceda;
-- **paradiddles/flams/drags:** mecánica suficiente para realizar el símbolo sin deformarlo;
-- **aplicación musical de rudimentos:** transferencia a una línea ya comprendida;
+- **flams / drags / rolls:** mecánica suficiente para realizar el símbolo sin deformarlo;
+- **aplicación rudimental:** transferencia a una línea ya comprendida;
 - continuidad y recuperación;
 - sonido y relajación;
 - dependencia de memoria nominal;
@@ -136,4 +136,4 @@ Las decisiones siguen siendo:
 - `REDUCIR NOVEDAD`;
 - `DETENER CARGA`.
 
-Completar una página no cambia automáticamente tuplets y ornamentación, paradiddles, flams, drags ni aplicación musical de rudimentos a `FUNCIONAL`.
+Completar una página no cambia automáticamente la lectura de tuplets y ornamentación, los flams, los drags, los rolls ni la aplicación rudimental a `FUNCIONAL`.
