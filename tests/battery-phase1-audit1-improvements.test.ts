@@ -21,3 +21,16 @@ test('U5 retoma Single Paradiddle como prerrequisito y no como PAS nuevo', () =>
   assert.match(lesson, /Single Paradiddle se retoma únicamente como prerrequisito de recuperación/i);
   assert.match(lesson, /no se presenta de nuevo ni reinicia su estado PAS/i);
 });
+
+test('U1 L4 mantiene la lectura nueva dentro del alcance de pad y alfabetización inicial', () => {
+  const lesson = read('src/courses/bateria/content/pages/u1-l4-recuperacion-lectura-aplicacion.md');
+  const score = read('public/bateria/notation/u1/lectura-transferencia-a7-a8.musicxml');
+
+  assert.match(lesson, /Lectura nueva — negras y corcheas en 4\/4/);
+  assert.doesNotMatch(lesson, /Moeller|adaptación técnica entre superficies y kit/i);
+  assert.match(score, /<work-title>U1 - Lectura nueva - negras y corcheas en 4\/4<\/work-title>/);
+  assert.doesNotMatch(score, /A7-A8|Moeller|kit/i);
+  assert.match(score, /<part-name>Pad<\/part-name>/);
+  assert.match(score, /<type>quarter<\/type>/);
+  assert.match(score, /<type>eighth<\/type>/);
+});
