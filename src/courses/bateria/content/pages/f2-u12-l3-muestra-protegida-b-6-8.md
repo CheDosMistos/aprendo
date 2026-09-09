@@ -75,7 +75,7 @@ Esta comparación orienta el diagnóstico. No crea una media ni una nota total.
 
 Escucha la referencia y corrige sólo la variable dominante. La muestra B queda desde entonces **consumida como evidencia independiente de primera vista**.
 
-## MÍNIMO PARA AVANZAR A Lección 4
+## MÍNIMO PARA AVANZAR A LA LECCIÓN 4
 
 - preservas dos pulsos compuestos razonables en la lectura;
 - distingues errores de precisión de pérdida de continuidad;

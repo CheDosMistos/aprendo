@@ -8,7 +8,7 @@ slug: puerta-generalizacion-compuesta
 kind: checkpoint
 order: 5
 title: "Puerta de generalización compuesta"
-summary: "Evaluación diagnóstico de esta unidad: decide si lectura de compás/métrica y terminología rítmica, pulso interno/subdivisión binaria y ternaria y grabación y comparación inicial sostienen la generalización 6/8→9/8→12/8 entre lectura, pulso, subdivisión, escucha y explicación sin depender de contar ataques."
+summary: "Evaluación diagnóstica de esta unidad: decide si la lectura y comprensión métrica, el pulso y la subdivisión, y el reconocimiento métrico inicial sostienen la generalización 6/8→9/8→12/8 entre lectura, pulso, subdivisión, escucha y explicación sin depender de contar ataques."
 duration: 15–20 min
 competencies: [C1, C2, D4, E1, E2, E5, F2, K2, K4, K6]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 Esta evaluación no enseña una métrica nueva y **no convierte completar esta unidad en una promoción automática de competencias**. La inferencia es más concreta:
 
-> **¿lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten conservar el modelo compuesto `2×3 → 3×3 → 4×3`, y grabación y comparación inicial permite reconocer esa organización en estímulos controlados, sin reducir la decisión a cantidad de ataques, numerador o memoria de la lección?**
+> **¿la lectura y comprensión métrica, junto con el pulso y la subdivisión, permiten conservar el modelo compuesto `2×3 → 3×3 → 4×3`, y el reconocimiento métrico inicial permite reconocer esa organización en estímulos controlados, sin reducir la decisión a cantidad de ataques, numerador o memoria de la lección?**
 
 La puerta usa dos muestras independientes:
 
@@ -61,10 +61,10 @@ Condiciones:
 
 Registra por separado:
 
-- **pulso interno:** ¿mantienes 2, 3 y 4 pulsos principales según el compás?;
-- **subdivisión binaria y ternaria:** ¿las tres subdivisiones internas siguen siendo aproximadamente iguales, también alrededor de silencios?;
-- **lectura de compás:** ¿lees cada compás dentro de su jerarquía o terminas siguiendo ataques aislados?;
-- **métrica y terminología rítmica:** ¿puedes explicar por qué `6/8`, `9/8` y `12/8` comparten subdivisión compuesta pero no el mismo número de pulsos?;
+- **PULSO:** ¿mantienes 2, 3 y 4 pulsos principales según el compás?;
+- **SUBDIVISIÓN:** ¿las tres subdivisiones internas siguen siendo aproximadamente iguales, también alrededor de silencios?;
+- **LECTURA MÉTRICA:** ¿lees cada compás dentro de su jerarquía o terminas siguiendo ataques aislados?;
+- **COMPRENSIÓN MÉTRICA:** ¿puedes explicar por qué `6/8`, `9/8` y `12/8` comparten subdivisión compuesta pero no el mismo número de pulsos?;
 - **CONTINUIDAD / RECUPERACIÓN:** ¿un fallo local arrastra el compás siguiente?;
 - **AYUDAS:** click, conteo, canto, marcas o reducción de tempo;
 - **VARIABLE LIMITANTE:** pulso, subdivisión, lectura, comprensión, memoria, ejecución o carga.
@@ -100,7 +100,7 @@ Los acentos pueden crear otra agrupación perceptiva dentro de un metro regular 
 
 Porque en 6/8, 9/8 y 12/8 prototípicos las tres corcheas son subdivisiones ordinarias del pulso compuesto. Un tuplet `3:2` expresa otra relación notacional dentro de un marco donde tres figuras ocupan el tiempo normal de dos.
 
-## 3. Muestra auditiva exclusiva — grabación y comparación inicial — 4–5 min
+## 3. Muestra auditiva exclusiva — reconocimiento métrico inicial — 4–5 min
 
 Cada estímulo es un `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO` generado mediante Web Audio. Escucha los cuatro pulsos de entrada, formula una hipótesis y **no reveles la respuesta hasta haber escrito**:
 
@@ -157,7 +157,7 @@ La finalidad es separar un posible problema de **representación** de uno de lec
 
 Dolor, hormigueo, entumecimiento, pérdida de fuerza o tensión persistente invalidan una muestra como evidencia limpia de competencia. Registra la condición y aplica `DETENER CARGA` cuando corresponda; **salud y capacidad curricular son decisiones distintas**.
 
-Si tempo, lectura, oído y ejecución colapsan a la vez, reduce una variable y obtiene una muestra interpretable. No uses una condición deliberadamente excesiva para concluir que «no sabes 9/8» o «no tienes grabación y comparación».
+Si tempo, lectura, oído y ejecución colapsan a la vez, reduce una variable y obtiene una muestra interpretable. No uses una condición deliberadamente excesiva para concluir que «no sabes 9/8» o «no reconoces todavía la organización métrica».
 
 ## 6. Decisión — 2–3 min
 
@@ -203,27 +203,27 @@ No se exige:
 - acertar los cuatro estímulos a la primera;
 - un BPM fijo, universal o alto;
 - reconocimiento métrico general en repertorio ambiguo;
-- declarar grabación y comparación globalmente `FUNCIONAL`;
+- declarar el reconocimiento de métrica, frase y forma globalmente `FUNCIONAL`;
 - primera vista formal Unidad 9;
 - sextillos u ornamentación escrita — **son la novedad de Unidad 8, no un requisito de esta puerta**;
 - click reducido, half-time o gaps — Unidad 10;
 - shuffle/jazz como objetivo estilístico;
 - kit o coordinación de cuatro extremidades;
 - polirritmia, polimetría o modulación métrica;
-- que pulso interno, subdivisión binaria y ternaria, lectura de compás, reconocimiento de pulso y subdivisión, imitación rítmica, grabación y comparación, métrica y terminología rítmica o cualquier otra competencia cambie automáticamente de nivel por completar la página.
+- que el pulso, la subdivisión, la lectura y comprensión métrica, el reconocimiento de pulso y subdivisión, la imitación rítmica, el reconocimiento de métrica, frase y forma o cualquier otra competencia cambie automáticamente de nivel por completar la página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA PUERTA
 
 La evidencia es funcional **para esta puerta** cuando la jerarquía compuesta se conserva entre lectura, ejecución, explicación y los estímulos auditivos controlados, y cuando un error puede localizarse en una variable concreta en lugar de colapsar en «no entiendo el compás».
 
-Eso no equivale a declarar lectura de compás, métrica y terminología rítmica, grabación y comparación ni ninguna competencia globalmente `FUNCIONAL`.
+Eso no equivale a declarar la lectura, la comprensión métrica, el reconocimiento de métrica, frase y forma ni ninguna competencia globalmente `FUNCIONAL`.
 
 ## Cómo interpretar discrepancias
 
-- **lees bien pero A/B se confunde:** el límite es principalmente auditivo/perceptivo en esta condición; mantén grabación y comparación como inicial y añade un correctivo;
-- **oyes ×3 pero pierdes silencios al tocar:** revisa subdivisión binaria y ternaria/continuidad antes de atribuirlo a grabación y comparación;
+- **lees bien pero A/B se confunde:** el límite es principalmente auditivo/perceptivo en esta condición; mantén el reconocimiento métrico como inicial y añade un correctivo;
+- **oyes ×3 pero pierdes silencios al tocar:** revisa subdivisión y continuidad antes de atribuirlo al reconocimiento métrico;
 - **9/8 funciona y 12/8 se degrada:** reduce longitud o tempo; puede ser continuidad y no comprensión métrica;
-- **aciertas por contar figuras pero no puedes explicar el pulso:** la evidencia de lectura de compás/métrica y terminología rítmica sigue incompleta;
+- **aciertas por contar figuras pero no puedes explicar el pulso:** la evidencia de lectura y comprensión métrica sigue incompleta;
 - **llamas tresillo a toda división ternaria:** revisa la distinción entre compás compuesto y tuplet;
 - **un patrón de acentos cambia mentalmente el compás:** vuelve a `AGRUPACIÓN / REAGRUPACIÓN ≠ CAMBIO DE COMPÁS`;
 - **una toma contradice varias evidencias recientes:** obtiene otra muestra breve antes de cambiar el nivel registrado.

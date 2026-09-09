@@ -57,4 +57,4 @@ Si 2 y 4 destruyen la tarea, vuelve a referencia completa y reduce duración ant
 
 Puedes ir a Lección 2 cuando una toma breve con 2 y 4 conserva una referencia interna razonable o, si todavía no, cuando el fallo está localizado y puedes describirlo sin confundirlo con lectura.
 
-No se exige BPM concreto ni estabilidad perfecta. Completar la página no convierte click desplazado o no obvio en `FUNCIONAL`.
+No se exige BPM concreto ni estabilidad perfecta. Completar la página no convierte automáticamente el control con referencia reducida en `FUNCIONAL`.

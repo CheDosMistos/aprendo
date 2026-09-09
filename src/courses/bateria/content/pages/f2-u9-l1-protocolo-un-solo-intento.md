@@ -17,7 +17,7 @@ published: true
 
 Esta unidad empieza cambiando **las condiciones de la tarea**, no el vocabulario escrito.
 
-> **UNA MUESTRA forma y lectura de chart DEJA DE SER PRIMERA VISTA EN CUANTO LA PRACTICAS.**
+> **UNA MUESTRA DE LECTURA A PRIMERA VISTA DEJA DE SER PRIMERA VISTA EN CUANTO LA PRACTICAS.**
 
 La partitura de esta lección contiene únicamente elementos ya trabajados: 4/4, negras, corcheas, semicorcheas y silencios accesibles. La novedad es enfrentarte a su combinación sin haberla ensayado.
 
@@ -95,7 +95,7 @@ Compara:
 - continuidad entre compases;
 - densidad de semicorcheas.
 
-Desde ese momento esta partitura **ya no aporta otra muestra independiente de forma y lectura de chart**. Puedes repetirla para corregir lectura, pero esa repetición es práctica.
+Desde ese momento esta partitura **ya no aporta otra muestra independiente de lectura a primera vista**. Puedes repetirla para corregir lectura, pero esa repetición es práctica.
 
 ## 6. Una corrección dominante — 3–4 min
 
@@ -117,7 +117,7 @@ Aplica:
 
 ### Inferencia posible
 
-`El protocolo forma y lectura de chart es utilizable y puedo obtener una muestra sin convertirla en memoria previa.`
+`El protocolo de lectura a primera vista es utilizable y puedo obtener una muestra sin convertirla en memoria previa.`
 
 ### Evidencia
 
@@ -142,7 +142,7 @@ Tempo elegido, click convencional, inspección breve, cero playback previo.
 - intentas conservar continuidad ante un error pequeño;
 - puedes señalar al menos una observación concreta sobre precisión y otra sobre continuidad;
 - tratas el BPM como condición, no como nota;
-- no declaras forma y lectura de chart `FUNCIONAL` por una sola muestra.
+- no declaras la lectura a primera vista `FUNCIONAL` por una sola muestra.
 
 No se exige:
 

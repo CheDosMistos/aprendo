@@ -8,7 +8,7 @@ slug: flam-escrito-grace-note-y-principal
 kind: lesson
 order: 2
 title: "Flam escrito: grace note y principal"
-summary: "Decodifica una grace note antes de una nota principal, contrasta línea simple y ornamentada y aplica paradiddles/aplicación musical de rudimentos sin sustituir lectura por memoria del rudimento."
+summary: "Decodifica una grace note antes de una nota principal, contrasta línea simple y ornamentada y aplica la familia de flams sin sustituir lectura por memoria del rudimento."
 duration: 25–30 min
 competencies: [B3, B7, C1, D3, K2, K4, K6]
 rudiments: []
@@ -111,7 +111,7 @@ Describe únicamente lo que ves:
 
 Sólo después relaciona esa función con la familia de flams.
 
-Si tu explicación empieza por «sé hacer un flam» pero no puedes señalar qué nota es grace y cuál principal, **aplicación musical de rudimentos está sustituyendo tuplets y ornamentación en vez de apoyarse en ella**.
+Si tu explicación empieza por «sé hacer un flam» pero no puedes señalar qué nota es grace y cuál principal, **la memoria motora del rudimento está sustituyendo la lectura de la ornamentación en vez de apoyarse en ella**.
 
 ## 6. Playback y escucha — 2–3 min
 
@@ -180,7 +180,7 @@ No se exige:
 - rolls — Lección 4;
 - primera vista formal Unidad 9;
 - click reducido o gaps — Unidad 10;
-- actualizar automáticamente paradiddles, aplicación musical de rudimentos o tuplets y ornamentación a `FUNCIONAL`.
+- actualizar automáticamente flams, aplicación rudimental o lectura de ornamentación a `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 

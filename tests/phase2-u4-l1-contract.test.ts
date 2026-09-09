@@ -13,7 +13,8 @@ function frontmatter(markdown: string): string {
 
 test('Phase 2 U4 overview preserves the approved unit architecture and later-unit boundaries', async () => {
   const overview = await readFile(overviewPath, 'utf8');
-  const data = frontmatter(overview);
+  const sourceOverview = overview.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0];
+  const data = frontmatter(sourceOverview);
 
   assert.match(data, /^contentId:\s*bat-f2-u4-overview\s*$/m);
   assert.match(data, /^unit:\s*4\s*$/m);
@@ -21,16 +22,16 @@ test('Phase 2 U4 overview preserves the approved unit architecture and later-uni
   assert.match(data, /^kind:\s*unit\s*$/m);
   assert.match(data, /^order:\s*0\s*$/m);
   assert.match(data, /B7/);
-  assert.match(overview, /LA LÍNEA RÍTMICA MANDA; EL RUDIMENTO SIRVE A LA LECTURA, NO AL REVÉS/);
-  assert.match(overview, /4 lecciones \+ checkpoint/);
-  assert.match(overview, /Síncopa II: más combinaciones, mismo marco/);
-  assert.match(overview, /La misma línea, otro acento/);
-  assert.match(overview, /La línea manda: aplicación B7 sobre lectura conocida/);
-  assert.match(overview, /Leer, seguir y recuperarse/);
-  assert.match(overview, /tresillos ni cambios 2↔3↔4 — U5/);
-  assert.match(overview, /6\/8 — U6/);
-  assert.match(overview, /primera vista como competencia central D5 — U9/);
-  assert.match(overview, /click reducido\/gaps como reto central — U10/);
+  assert.match(sourceOverview, /LA LÍNEA RÍTMICA MANDA; EL RUDIMENTO SIRVE A LA LECTURA, NO AL REVÉS/);
+  assert.match(sourceOverview, /4 lecciones \+ evaluación/);
+  assert.match(sourceOverview, /Síncopa II: más combinaciones, mismo marco/);
+  assert.match(sourceOverview, /La misma línea, otro acento/);
+  assert.match(sourceOverview, /La línea manda: aplicación musical de rudimentos sobre lectura conocida/);
+  assert.match(sourceOverview, /Leer, seguir y recuperarse/);
+  assert.match(sourceOverview, /tresillos ni cambios 2↔3↔4 — Unidad 5/);
+  assert.match(sourceOverview, /6\/8 — Unidad 6/);
+  assert.match(sourceOverview, /primera vista como competencia central — Unidad 9/);
+  assert.match(sourceOverview, /click reducido\/gaps como reto central — Unidad 10/);
 });
 
 test('Phase 2 U4 L1 makes syncopation variety the single dominant novelty', async () => {

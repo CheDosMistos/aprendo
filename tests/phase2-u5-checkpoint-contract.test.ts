@@ -29,10 +29,10 @@ test('Phase 2 U5 checkpoint asks the approved pulse-reorganization inference wit
   }
   assert.doesNotMatch(competencies, /\bD4\b|\bD5\b/);
 
-  assert.match(markdown, /¿C1–C3 y D3 permiten abrir U6 sin confundir “tres por pulso” con “seis pulsos iguales” ni perder sistemáticamente la referencia al cambiar 2↔3↔4\?/);
+  assert.match(markdown, /¿El pulso, la subdivisión y los cambios de subdivisión permiten abrir Unidad 6 sin confundir “tres por pulso” con “seis pulsos iguales” ni perder sistemáticamente la referencia al cambiar 2↔3↔4\?/);
   assert.match(markdown, /El BPM describe la \*\*condición\*\* de la muestra; no define el nivel/);
-  assert.match(markdown, /no se registra como evidencia formal de primera vista D5/i);
-  assert.match(markdown, /U9 reservará condiciones específicas para medir primera vista realmente nueva/i);
+  assert.match(markdown, /no se registra como evidencia formal de primera vista/i);
+  assert.match(markdown, /Unidad 9 reservará condiciones específicas para medir primera vista realmente nueva/i);
 });
 
 test('Phase 2 U5 checkpoint uses one exclusive feedback-gated score and one real ternary auditory microtask', async () => {
@@ -49,9 +49,9 @@ test('Phase 2 U5 checkpoint uses one exclusive feedback-gated score and one real
   assert.match(markdown, /data-subdivision="3"/);
   assert.match(markdown, /data-pattern="101011"/);
   assert.match(markdown, /X · X \| · X X — dos pulsos ternarios/);
-  assert.match(markdown, /E1 — PULSO/);
-  assert.match(markdown, /E2 — SUBDIVISIÓN/);
-  assert.match(markdown, /E4 — REPRESENTACIÓN/);
+  assert.match(markdown, /\*\*PULSO:\*\*/);
+  assert.match(markdown, /\*\*SUBDIVISIÓN:\*\*/);
+  assert.match(markdown, /\*\*REPRESENTACIÓN:\*\*/);
 });
 
 test('Phase 2 U5 checkpoint score closes every 4/4 measure and encodes 2 3 4 without 6/8 or sextuplets', async () => {
@@ -98,16 +98,16 @@ test('Phase 2 U5 checkpoint keeps evaluation multidimensional and opens only the
   assert.match(markdown, /### CONTINUAR \+ CORRECTIVO\n/);
   assert.match(markdown, /### REDUCIR NOVEDAD\n/);
   assert.match(markdown, /### DETENER CARGA\n/);
-  assert.match(markdown, /## MÍNIMO PARA ABRIR U6/);
+  assert.match(markdown, /## MÍNIMO PARA ABRIR Unidad 6/);
   assert.match(markdown, /No se exige:[\s\S]*un BPM fijo, universal o alto/);
   assert.match(markdown, /cambios rápidos `2↔3↔4`/);
   assert.match(markdown, /sextillos/);
   assert.match(markdown, /6\/8 dominado/);
-  assert.match(markdown, /primera vista formal D5/);
+  assert.match(markdown, /primera vista formal/);
   assert.match(markdown, /no actualiza automáticamente/i);
 
   assert.match(markdown, /tres por pulso no convierte automáticamente el compás en 6\/8/i);
   assert.match(markdown, /no enseña todavía 6\/8/i);
-  assert.match(markdown, /U6 puede introducir su salto conceptual reservado: \*\*compás compuesto I — 6\/8 como organización métrica prototípica de dos pulsos principales con subdivisión ternaria\*\*/);
+  assert.match(markdown, /Unidad 6 puede introducir su salto conceptual reservado: \*\*compás compuesto I — 6\/8 como organización métrica prototípica de dos pulsos principales con subdivisión ternaria\*\*/);
   assert.doesNotMatch(markdown, /9\/8 o 12\/8[^;\n]*como (objetivo|tarea|ejercicio)/i);
 });

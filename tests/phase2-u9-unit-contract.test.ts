@@ -71,8 +71,8 @@ test('Phase 2 U9 architecture makes D5 central, orders four lessons plus checkpo
   assert.match(data, /^competencies:.*\bD5\b.*$/m);
   assert.match(data, /^rudiments:\s*\[\]\s*$/m);
   assert.match(overview, /PRIMERA VISTA = MATERIAL REALMENTE NUEVO \+ INSPECCIÓN BREVE \+ PRIMER INTENTO SIN ENSAYO NI PLAYBACK PREVIO/);
-  assert.match(overview, /ESA MISMA PARTITURA → PRÁCTICA DE LECTURA, NO NUEVA EVIDENCIA D5/);
-  assert.match(overview, /click reducido, half-time o gaps — \*\*U10\*\*/);
+  assert.match(overview, /ESA MISMA PARTITURA → PRÁCTICA DE LECTURA, NO NUEVA EVIDENCIA DE PRIMERA VISTA/);
+  assert.match(overview, /click reducido, half-time o gaps — \*\*Unidad 10\*\*/);
 
   const expected = [
     ['l1', 1], ['l2', 2], ['l3', 3], ['l4', 4], ['checkpoint', 5],
@@ -190,7 +190,7 @@ test('Phase 2 U9 checkpoint preserves validity chain, separate dimensions, and t
   assert.match(markdown, /### CONTINUAR \+ CORRECTIVO/);
   assert.match(markdown, /### REDUCIR NOVEDAD/);
   assert.match(markdown, /### DETENER CARGA/);
-  assert.match(markdown, /## MÍNIMO PARA ABRIR U10/);
+  assert.match(markdown, /## MÍNIMO PARA ABRIR Unidad 10/);
   assert.match(markdown, /click reducido/);
   assert.match(markdown, /no actualiza automáticamente/i);
   assert.match(markdown, /resultados contradictorios/i);

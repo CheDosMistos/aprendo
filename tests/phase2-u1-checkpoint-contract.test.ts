@@ -36,8 +36,8 @@ test('Phase 2 U1 checkpoint has the approved progression-only contract', async (
   assert.match(data, /^duration:\s*8–12 min\s*$/m);
   assert.match(data, /^competencies:\s*\[C1, C2, D1, F1\]\s*$/m);
   assert.match(data, /^rudiments:\s*\[\]\s*$/m);
-  assert.match(markdown, /no sirve para “aprobar U1”/i);
-  assert.match(markdown, /C1\/C2\/D1\/F1 están suficientemente disponibles para aumentar densidad y variedad en U2/i);
+  assert.match(markdown, /no sirve para “aprobar esta unidad”/i);
+  assert.match(markdown, /el pulso, la subdivisión y la lectura rítmica básica están suficientemente disponibles para aumentar densidad y variedad en Unidad 2/i);
   assert.match(markdown, /sin depender de memorizar patrones/i);
 });
 
@@ -66,7 +66,7 @@ test('Phase 2 U1 checkpoint first-sight asset is exclusive and playback-protecte
   assert.equal((markdown.match(/data-score-first-sight="true"/g) ?? []).length, 1);
   assert.match(markdown, /f2-u1-checkpoint-a\.musicxml/);
   assert.equal(await countPageReferences('f2-u1-checkpoint-a.musicxml'), 2, 'Checkpoint asset must only appear as src + source URL in this checkpoint');
-  assert.match(markdown, /exclusiva de este checkpoint/i);
+  assert.match(markdown, /exclusiva de esta evaluación/i);
   assert.match(markdown, /no la has practicado ni escuchado antes/i);
   assert.match(markdown, /Finalizar intento.*antes de usar playback/is);
   assert.match(markdown, /ya no es primera vista/i);
@@ -136,17 +136,18 @@ test('Phase 2 U1 checkpoint defines sufficient availability without perfection o
   assert.match(markdown, /mantener una continuidad razonable/i);
   assert.match(markdown, /recuperar después de un error pequeño/i);
   assert.match(markdown, /explicar ataques, silencios y subdivisión/i);
-  assert.match(markdown, /Completar el checkpoint:.*no actualiza automáticamente C1\/C2\/D1\/F1/is);
+  assert.match(markdown, /Completar la evaluación:.*no actualiza automáticamente todas las competencias implicadas de tiempo, lectura y teoría rítmica/is);
+  assert.doesNotMatch(markdown, /C1\/C2\/D1\/F1|pulso interno\/subdivisión binaria y ternaria\/figuras, silencios y compás\/teoría básica del pulso y las figuras/i);
   assert.match(markdown, /no.*superar ya el Hito 2 global de Fase 2/is);
 });
 
 test('Phase 2 U1 checkpoint bridges to U2 by controlling novelty rather than pass/fail identity', async () => {
   const markdown = await readFile(checkpointPath, 'utf8');
 
-  assert.match(markdown, /## Puente a 20\.U2/);
+  assert.match(markdown, /## Puente a Unidad 2/);
   assert.match(markdown, /semicorcheas y silencios como lenguaje/i);
-  assert.match(markdown, /abre U2 manteniendo visible la fragilidad localizada/i);
-  assert.match(markdown, /no reinicies U1 completa/i);
+  assert.match(markdown, /abre Unidad 2 manteniendo visible la fragilidad localizada/i);
+  assert.match(markdown, /no reinicies esta unidad completa/i);
   assert.match(markdown, /cuánta novedad tiene sentido introducir/i);
   assert.match(markdown, /no si eres o no “buen baterista”/i);
 });

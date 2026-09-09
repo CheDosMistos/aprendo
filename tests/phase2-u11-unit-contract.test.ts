@@ -32,10 +32,10 @@ test('U11 preserves both approved representation cycles and keeps Hito 2 for U12
   const overview = await page('overview');
   assert.match(overview, /ESCUCHAR → ESCRIBIR → TOCAR → COMPARAR/);
   assert.match(overview, /VER → CONTAR\/CANTAR → TOCAR → ESCUCHAR/);
-  assert.match(overview, /E6 transcripción estructurada extensa no es foco/);
+  assert.match(overview, /la transcripción estructurada extensa no es foco/i);
   assert.match(overview, /5\/4, 7\/8, quintillos y 3:2 son sólo ventanas opcionales/);
   const checkpoint = await page('checkpoint');
-  assert.match(checkpoint, /No sustituye el Hito 2 de U12/);
+  assert.match(checkpoint, /No sustituye el Hito 2 de Unidad 12/);
   assert.match(checkpoint, /material rítmico nuevo no memorizado previamente/);
 });
 
@@ -81,7 +81,7 @@ test('U11 checkpoint uses the approved inference chain and limits conclusions to
   const checkpoint = await page('checkpoint');
   for (const heading of ['INFERENCIA', 'EVIDENCIA A', 'EVIDENCIA B', 'TAREA Y CONDICIONES', 'DECISIÓN']) assert.match(checkpoint, new RegExp(heading));
   assert.match(checkpoint, /Una muestra parcial sólo actualiza las habilidades realmente observadas/);
-  assert.match(checkpoint, /completar U11 en superación del Hito 2/);
+  assert.match(checkpoint, /completar esta unidad en superación del Hito 2/);
   assert.match(checkpoint, /CONTINUAR/);
   assert.match(checkpoint, /CONTINUAR \+ CORRECTIVO/);
   assert.match(checkpoint, /REDUCIR NOVEDAD/);

@@ -82,13 +82,13 @@ test('U10 distinguishes tempo change from reference-density change and preserves
   const l3 = await readPage('l3');
   assert.match(l3, /GAP → HALF-TIME O CLICK COMPLETO → CORRECTIVO → RETEST/);
   const l4 = await readPage('l4');
-  assert.match(l4, /no implica C5 funcional/i);
+  assert.match(l4, /No implica (?:control funcional con click reducido|C5 funcional)/i);
   const checkpoint = await readPage('checkpoint');
   assert.match(checkpoint, /INFERENCIA/);
   assert.match(checkpoint, /EVIDENCIA/);
   assert.match(checkpoint, /TAREA/);
   assert.match(checkpoint, /CONDICIONES/);
   assert.match(checkpoint, /DECISIÓN/);
-  assert.match(checkpoint, /Completar el checkpoint no convierte C5 en `FUNCIONAL`/);
-  assert.match(checkpoint, /Puente a U11/);
+  assert.match(checkpoint, /Completar la evaluación no convierte automáticamente el control con referencia reducida en `FUNCIONAL`/);
+  assert.match(checkpoint, /Puente a Unidad 11/);
 });

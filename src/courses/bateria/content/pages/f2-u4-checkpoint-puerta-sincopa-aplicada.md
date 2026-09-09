@@ -8,7 +8,7 @@ slug: puerta-de-sincopa-aplicada-y-continuidad
 kind: checkpoint
 order: 5
 title: "Puerta de síncopa aplicada y continuidad"
-summary: "Evaluación diagnóstico de esta unidad: lectura sincopada nueva en 4/4, acento sin alterar el ritmo y recuperación del marco tras un error localizado."
+summary: "Evaluación diagnóstica de esta unidad: lectura sincopada nueva en 4/4, acento sin alterar el ritmo y recuperación del marco tras un error localizado."
 duration: 10–15 min
 competencies: [C1, C2, C3, D2, D6, F1, F2, K2, K4, K6]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 Esta evaluación no pregunta si esta unidad está «perfecta». La inferencia es más concreta:
 
-> **¿síncopa y pulso, subdivisión y cambios de subdivisión están suficientemente disponibles para abrir Unidad 5 sin que síncopa variada, un acento controlado o un error localizado destruyan el marco temporal?**
+> **¿Síncopa, pulso, subdivisión y cambios de subdivisión están suficientemente disponibles para abrir Unidad 5 sin que la síncopa variada, un acento controlado o un error localizado destruyan el marco temporal?**
 
-La evidencia principal es una lectura breve **nueva y exclusiva**. aplicación musical de rudimentos puede aportar evidencia secundaria ya obtenida en Lección 3, pero no manda la decisión. La primera vista sistemática seguirá siendo objetivo central de Unidad 9.
+La evidencia principal es una lectura breve **nueva y exclusiva**. La aplicación musical de rudimentos puede aportar evidencia secundaria ya obtenida en Lección 3, pero no manda la decisión. La primera vista sistemática seguirá siendo objetivo central de Unidad 9.
 
 ## 1. Evidencia principal: lectura nueva + continuidad — 4–5 min
 
@@ -68,9 +68,9 @@ Si al acentuar adelantas o retrasas el golpe, hay un **error temporal además de
 
 No hace falta reproducir de memoria una definición exacta; sí debes poder distinguir las dos variables al analizar tu toma.
 
-## 3. Evidencia aplicación musical de rudimentos secundaria — 1–2 min
+## 3. Evidencia secundaria de aplicación musical de rudimentos — 1–2 min
 
-aplicación musical de rudimentos **no es la inferencia principal de esta evaluación**.
+La aplicación musical de rudimentos **no es la inferencia principal de esta evaluación**.
 
 Usa la evidencia reciente de Lección 3 si es suficientemente representativa. Sólo si necesitas comprobarla de nuevo, toma **un fragmento ya decodificado** y aplica una textura de manos ya conocida, sin cambiar ataques ni duraciones.
 
@@ -79,7 +79,7 @@ La pregunta secundaria es:
 - ¿la aplicación conserva timing, lectura y relajación?;
 - ¿o la textura empieza a sustituir la comprensión de la línea?
 
-Si aplicación musical de rudimentos se degrada pero la lectura/continuidad principal está disponible, eso puede justificar un `CONTINUAR + CORRECTIVO`. No se exige aplicación musical de rudimentos funcional global para abrir Unidad 5.
+Si la aplicación musical de rudimentos se degrada pero la lectura/continuidad principal está disponible, eso puede justificar un `CONTINUAR + CORRECTIVO`. No se exige aplicación musical de rudimentos funcional global para abrir Unidad 5.
 
 No se presenta aquí ninguna nueva partitura PAS ni se reconstruye notación oficial de memoria. La referencia normativa PAS sigue reservada a los rudimentos auténticos cuando corresponda.
 
@@ -103,7 +103,7 @@ La lectura sincopada nueva es suficientemente interpretable, el marco se mantien
 
 ### CONTINUAR + CORRECTIVO
 
-El centro de la inferencia está disponible, pero queda una limitación localizada —por ejemplo una posición sincopada, una ligadura, control de acento, recuperación o aplicación aplicación musical de rudimentos— que conviene conservar en recuperación espaciada.
+El centro de la inferencia está disponible, pero queda una limitación localizada —por ejemplo una posición sincopada, una ligadura, control de acento, recuperación o aplicación musical de rudimentos— que conviene conservar en recuperación espaciada.
 
 ### REDUCIR NOVEDAD
 
@@ -142,7 +142,7 @@ La evidencia es funcional cuando puedes leer el material nuevo básico sin conve
 
 ## AVANZADO EN LA PUERTA
 
-Como ampliación, sobre material **ya revelado**, cambia la ubicación de uno o dos acentos entre ataques existentes o aplica una textura aplicación musical de rudimentos conocida y comprueba que el mapa temporal permanece intacto. Esta ampliación no es requisito para continuar.
+Como ampliación, sobre material **ya revelado**, cambia la ubicación de uno o dos acentos entre ataques existentes o aplica una textura rudimental conocida y comprueba que el mapa temporal permanece intacto. Esta ampliación no es requisito para continuar.
 
 Completar esta evaluación **no actualiza automáticamente** pulso interno, subdivisión binaria y ternaria, cambios de subdivisión, síncopa, primera vista rítmica, teoría básica del pulso y las figuras, métrica y terminología rítmica ni ninguna otra competencia a `FUNCIONAL` o `DOMINADO`. La decisión depende de la evidencia registrada, no de haber abierto o terminado la página.
 

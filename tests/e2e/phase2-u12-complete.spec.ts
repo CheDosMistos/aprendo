@@ -86,6 +86,6 @@ test('U12 checkpoint exposes two independent protected samples and preserves qua
   await expect(scores.nth(1).locator('.course-score__play')).toBeHidden();
   await completeFirstAttempt(scores.nth(1));
   await expect(page.getByRole('heading', { level: 2, name: 'MÍNIMO PARA CERRAR FASE 2' })).toBeVisible();
-  await expect(page.getByText(/no convierte automáticamente pulso, subdivisión y cambios de subdivisión/)).toBeVisible();
+  await expect(page.getByText(/no convierte automáticamente en FUNCIONALES todas las competencias implicadas de tiempo, lectura y teoría rítmica/)).toBeVisible();
   await expect(page.getByText('INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN', { exact: true })).toBeVisible();
 });

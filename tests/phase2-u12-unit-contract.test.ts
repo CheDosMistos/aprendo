@@ -86,14 +86,16 @@ test('U12 diagnostic task is additional evidence and bridge keeps Phase 3 bounda
   assert.match(l4, /ESCUCHA \/ MEMORIA \/ ESCRITURA \/ EJECUCIÓN/);
   assert.match(l4, /análisis y forma/);
   assert.match(l4, /transcripción progresivamente más estructurada/);
-  assert.match(l4, /Esto es un \*\*puente\*\*, no una declaración de que F3\/F4\/E6 ya sean funcionales/);
+  assert.match(l4, /Esto es un \*\*puente\*\*, no una declaración de que el análisis y la forma, la transcripción estructurada o el desarrollo creativo posterior sean ya funcionales/);
 });
 
-test('U12 checkpoint uses approved evidence dimensions and non-automatic decision language', async () => {
+test('U12 checkpoint uses approved evidence dimensions and learner-facing decision language', async () => {
   const checkpoint = await page('checkpoint');
   for (const heading of ['INFERENCIA', 'EVIDENCIA CENTRAL', 'TAREA Y CONDICIONES', 'INTERPRETACIÓN MULTIDIMENSIONAL', 'DECISIÓN']) assert.match(checkpoint, new RegExp(heading));
   for (const term of ['pulso y subdivisión', 'continuidad', 'precisión de ataques, silencios y duraciones', 'recuperación tras error localizado', 'comprensión suficiente']) assert.match(checkpoint, new RegExp(term));
-  assert.match(checkpoint, /Cumplir este mínimo \*\*no convierte automáticamente C1–C3, D1–D5 o F1–F2 en FUNCIONALES\*\*/);
+  assert.match(checkpoint, /Cumplir este mínimo \*\*no convierte automáticamente en FUNCIONALES todas las competencias implicadas de tiempo, lectura y teoría rítmica\*\*/);
+  assert.doesNotMatch(checkpoint, /C1–C3|D1–D5|F1–F2|forma y lectura de chart\/Hito 2|AVANZADO EN ESTE Evaluación/);
+  assert.match(checkpoint, /AVANZADO EN ESTE HITO/);
   assert.match(checkpoint, /CONTINUAR/);
   assert.match(checkpoint, /CONTINUAR \+ CORRECTIVO/);
   assert.match(checkpoint, /REDUCIR NOVEDAD/);

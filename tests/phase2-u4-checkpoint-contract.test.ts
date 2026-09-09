@@ -11,13 +11,12 @@ function frontmatter(markdown: string): string {
   return markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? '';
 }
 
-function notes(xml: string): string[] {
-  return [...xml.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1]);
-}
-
 test('Phase 2 U4 checkpoint targets D2 and C1-C3 without making B7 or D5 a hard gate', async () => {
   const markdown = await readFile(pagePath, 'utf8');
   const data = frontmatter(markdown);
+  const body = markdown
+    .slice(markdown.indexOf('---', 3) + 3)
+    .split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0];
 
   assert.match(data, /^contentId:\s*bat-f2-u4-check\s*$/m);
   assert.match(data, /^phase:\s*2\s*$/m);
@@ -33,10 +32,11 @@ test('Phase 2 U4 checkpoint targets D2 and C1-C3 without making B7 or D5 a hard 
     assert.match(data, new RegExp(`\\b${competency}\\b`), `Expected ${competency} in U4 checkpoint`);
   }
 
-  assert.match(markdown, /¿D2 y C1–C3 están suficientemente disponibles para abrir U5/);
-  assert.match(markdown, /B7 \*\*no es la inferencia principal de este checkpoint\*\*/);
-  assert.match(markdown, /No se exige B7 funcional global para abrir U5/);
-  assert.match(markdown, /primera vista sistemática seguirá siendo objetivo central de U9/i);
+  assert.match(markdown, /¿Síncopa, pulso, subdivisión y cambios de subdivisión están suficientemente disponibles para abrir Unidad 5/);
+  assert.match(markdown, /La aplicación musical de rudimentos \*\*no es la inferencia principal de esta evaluación\*\*/);
+  assert.match(markdown, /No se exige aplicación musical de rudimentos funcional global para abrir Unidad 5/);
+  assert.match(markdown, /primera vista sistemática seguirá siendo objetivo central de Unidad 9/i);
+  assert.doesNotMatch(body, /\bB7\b|\bD5\b|\bU5\b|\bU9\b/);
 });
 
 test('Phase 2 U4 checkpoint owns one exclusive first-sight asset distinct from L4', async () => {
@@ -97,9 +97,13 @@ test('Phase 2 U4 checkpoint separates evidence and keeps U5 content outside the 
     assert.match(markdown, new RegExp(`### ${decision.replace('+', '\\+')}`));
   }
 
-  assert.match(markdown, /## MÍNIMO PARA ABRIR U5/);
-  assert.match(markdown, /No se exige:[\s\S]*cero errores;[\s\S]*un BPM fijo o alto;[\s\S]*B7 funcional global;[\s\S]*D5 funcional o primera vista avanzada;[\s\S]*tresillos ni cambios 2↔3↔4;[\s\S]*6\/8;/);
-  assert.match(markdown, /Este checkpoint no introduce ni evalúa todavía ese contenido/);
+  assert.match(markdown, /## MÍNIMO PARA ABRIR Unidad 5/);
+  assert.match(markdown, /No se exige:[\s\S]*cero errores;[\s\S]*un BPM fijo o alto;[\s\S]*aplicación musical de rudimentos funcional global;[\s\S]*forma y lectura de chart funcional o primera vista avanzada;[\s\S]*tresillos ni cambios 2↔3↔4;[\s\S]*6\/8;/);
+  assert.match(markdown, /Esta evaluación no introduce ni evalúa todavía ese contenido/);
   assert.equal((markdown.match(/data-rhythm-dictation/g) ?? []).length, 0);
   assert.match(markdown, /no actualiza automáticamente/i);
 });
+
+function notes(xml: string): string[] {
+  return [...xml.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1]);
+}

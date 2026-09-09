@@ -23,7 +23,7 @@ El 4/4 sigue siendo el marco principal. La novedad no es cambiar de compás ni t
 
 ## Qué debe estar disponible
 
-Esta unidad presupone figuras, silencios y compás al menos en MÍNIMO y pulso interno/subdivisión binaria y ternaria/teoría básica del pulso y las figuras suficientemente disponibles para una lectura accesible. cambios de subdivisión puede estar sólo iniciado: la evaluación de Unidad 2 no exige que sea funcional.
+Esta unidad presupone figuras, silencios y compás al menos en MÍNIMO, junto con pulso y subdivisión —tanto binaria como ternaria— suficientemente disponibles para una lectura accesible. Los cambios de subdivisión pueden estar sólo iniciados: la evaluación de Unidad 2 no exige que sean funcionales.
 
 Si vienes con `CONTINUAR + CORRECTIVO`, conserva el correctivo localizado. Si la rejilla de Unidad 2 colapsa globalmente al añadir duración, reduce una sola variable —longitud, densidad, tempo o ayudas— antes de aumentar la novedad.
 
@@ -33,11 +33,11 @@ Si vienes con `CONTINUAR + CORRECTIVO`, conserva el correctivo localizado. Si la
 2. **Puntillo: más duración sin más golpes** — ampliar un valor sin inventar ataques.
 3. **Síncopa I: ataque desplazado, marco estable** — introducir síncopa elemental manteniendo el 4/4 y el pulso.
 4. **Oír, escribir y transformar duración** — comprobar la representación desde el sonido, la escritura y una transformación controlada.
-5. **Puerta de duración y síncopa I** — decidir si síncopa/teoría básica del pulso y las figuras–métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria están suficientemente disponibles para Unidad 4.
+5. **Puerta de duración y síncopa I** — decidir si síncopa, teoría rítmica básica, pulso y subdivisión están suficientemente disponibles para Unidad 4.
 
 El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y la evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión de la evaluación.
 
-Esta arquitectura de `4 lecciones + evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada de Fase 2 v1.0, 20B y la auditoría longitudinal Unidad 1→Unidad 2→esta unidad. No son cinco días obligatorios.
+Esta arquitectura de `4 lecciones + evaluación` es una **DECISIÓN CURRICULAR RAZONADA** derivada del diseño aprobado de Fase 2 y de la auditoría longitudinal Unidad 1→Unidad 2→esta unidad. No son cinco días obligatorios.
 
 ## Modelo conceptual
 
@@ -56,7 +56,7 @@ Esta unidad no debe absorber el siguiente escalón. Unidad 4 conserva:
 - síncopa más variada;
 - acentos y dinámica con mayor peso;
 - continuidad aplicada sobre vocabulario más amplio;
-- una aplicación aplicación musical de rudimentos más presente sobre líneas ya comprendidas.
+- una aplicación musical de rudimentos más presente sobre líneas ya comprendidas.
 
 Por tanto, Lecciones 1–4 de esta unidad no convierten cada célula en un reto rudimental ni introducen acentos complejos para “hacer más difícil” una lectura cuyo objetivo es comprender duración.
 
@@ -72,4 +72,4 @@ Se conserva la cadena:
 
 `INFERENCIA → EVIDENCIA → TAREA → CONDICIONES → DECISIÓN`.
 
-Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`. BPM describe una condición; no define competencia. Completar una página no actualiza automáticamente síncopa/teoría básica del pulso y las figuras/métrica y terminología rítmica ni el resto del mapa.
+Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`. BPM describe una condición; no define competencia. Completar una página no actualiza automáticamente síncopa, teoría rítmica básica ni el resto de las competencias implicadas.

@@ -8,7 +8,7 @@ slug: puerta-de-dos-pulsos-compuestos
 kind: checkpoint
 order: 5
 title: "Puerta de dos pulsos compuestos"
-summary: "Evaluación diagnóstico de esta unidad: decide si lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten ampliar el compás compuesto conservando 6/8 como dos pulsos de negra con puntillo, leyéndolo, sintiéndolo y explicándolo sin reducirlo a seis corcheas."
+summary: "Evaluación diagnóstica de esta unidad: decide si la lectura, la comprensión métrica, el pulso y la subdivisión permiten ampliar el compás compuesto conservando 6/8 como dos pulsos de negra con puntillo, leyéndolo, sintiéndolo y explicándolo sin reducirlo a seis corcheas."
 duration: 10–15 min
 competencies: [C1, C2, D4, E1, E2, F2, K2, K4, K6]
 rudiments: []
@@ -17,9 +17,9 @@ published: true
 
 Esta evaluación **no sirve para aprobar esta unidad de memoria** ni convierte automáticamente ninguna competencia en `FUNCIONAL`. La inferencia es más concreta:
 
-> **¿lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten abrir la siguiente ampliación del compás compuesto conservando 6/8 como dos pulsos principales subdivididos en tres, incluso con silencios, y pudiendo explicar por qué «seis corcheas» no bastan para definir la métrica?**
+> **¿La lectura, la comprensión métrica, el pulso y la subdivisión permiten abrir la siguiente ampliación del compás compuesto conservando 6/8 como dos pulsos principales subdivididos en tres, incluso con silencios, y pudiendo explicar por qué «seis corcheas» no bastan para definir la métrica?**
 
-La evidencia principal es una muestra breve **nueva y exclusiva de esta puerta**. La escucha posterior sirve como transferencia de representación reconocimiento de pulso y subdivisión/imitación rítmica dentro de una condición conocida; **no demuestra grabación y comparación general**. Tampoco se registra esta tarea como primera vista formal forma y lectura de chart.
+La evidencia principal es una muestra breve **nueva y exclusiva de esta puerta**. La escucha posterior sirve como transferencia entre reconocimiento del pulso, subdivisión e imitación rítmica dentro de una condición conocida; **no demuestra reconocimiento métrico general**. Tampoco se registra esta tarea como primera vista formal.
 
 El BPM describe la **condición** de la muestra; no define el nivel.
 
@@ -68,7 +68,7 @@ Sólo después de tu tentativa, habilita audio y aparta la vista de la partitura
 - en una segunda escucha, añade internamente `la-li` entre ambos;
 - comprueba si los silencios hacen que empieces a seguir cada ataque en lugar del pulso principal.
 
-Esta comprobación aporta evidencia secundaria de **reconocimiento de pulso y subdivisión/imitación rítmica en el contexto ya delimitado**. Reconocer aquí los dos apoyos no autoriza a declarar reconocimiento métrico general grabación y comparación.
+Esta comprobación aporta evidencia secundaria de **reconocimiento del pulso y la subdivisión e imitación rítmica en el contexto ya delimitado**. Reconocer aquí los dos apoyos no autoriza a declarar reconocimiento métrico general.
 
 ## 2. Explicación conceptual — la cantidad escrita no define la métrica — 2–3 min
 
@@ -93,7 +93,7 @@ No. Puedes superponer una **reagrupación interna / agrupación** mediante acent
 
 > **AGRUPACIÓN ≠ COMPÁS.**
 
-Si puedes tocar la línea pero no explicar estas diferencias, la limitación es principalmente de **métrica y terminología rítmica/comprensión métrica**, no una prueba de que pulso interno o subdivisión binaria y ternaria estén ausentes.
+Si puedes tocar la línea pero no explicar estas diferencias, la limitación es principalmente de **comprensión métrica**, no una prueba de que el pulso o la subdivisión estén ausentes.
 
 ## 3. Evidencia secundaria sólo si hace falta — escribir una célula — 1–2 min
 
@@ -158,26 +158,26 @@ No se exige:
 
 - cero errores;
 - un BPM fijo, universal o alto;
-- primera vista formal forma y lectura de chart;
-- reconocimiento métrico general grabación y comparación;
+- primera vista formal;
+- reconocimiento métrico general;
 - 9/8 o 12/8 — pertenecen a Unidad 7 y **no se enseñan en esta puerta**;
 - sextillos — Unidad 8;
 - gaps de metrónomo — Unidad 10;
 - shuffle/jazz como foco estilístico;
 - convertir `2+2+2` en una nueva indicación métrica;
-- que pulso interno, subdivisión binaria y ternaria, lectura de compás, reconocimiento de pulso y subdivisión, imitación rítmica, métrica y terminología rítmica o cualquier otra competencia pase automáticamente a `FUNCIONAL` por completar la página.
+- que el pulso, la subdivisión, la lectura, el reconocimiento auditivo, la imitación rítmica, la comprensión métrica o cualquier otra competencia pase automáticamente a `FUNCIONAL` por completar la página.
 
 ## COMPETENTE / FUNCIONAL EN ESTA PUERTA
 
 La evidencia es funcional en esta tarea cuando puedes conservar la jerarquía `2×3` entre ejecución, lectura, escucha y explicación en material elemental de 6/8, reconocer qué variable se rompe cuando algo falla y corregirla sin depender de que cada ataque marque el pulso.
 
-Esto **no equivale** a declarar lectura de compás, métrica y terminología rítmica, reconocimiento de pulso y subdivisión, imitación rítmica ni ninguna otra competencia globalmente `FUNCIONAL`.
+Esto **no equivale** a declarar globalmente funcional ninguna competencia de lectura, comprensión métrica, reconocimiento auditivo o imitación rítmica.
 
 ## Cómo interpretar discrepancias
 
-- **mantienes dos pulsos pero las tres partes son desiguales:** el límite principal está en subdivisión binaria y ternaria;
+- **mantienes dos pulsos pero las tres partes son desiguales:** el límite principal está en la subdivisión;
 - **subdivides bien pero lees un silencio como ataque:** problema localizado de lectura, no de métrica por sí solo;
-- **tocas correctamente pero cuentas seis pulsos:** la ejecución puede estar sostenida por memoria o imitación; revisa lectura de compás/métrica y terminología rítmica;
+- **tocas correctamente pero cuentas seis pulsos:** la ejecución puede estar sostenida por memoria o imitación; revisa la lectura y la comprensión métrica;
 - **lees `2×3` pero al escuchar sigues sólo los ataques:** conserva dos apoyos grandes y añade después la subdivisión;
 - **confundes 3/4 y 6/8 porque ambos suman seis corcheas:** vuelve a comparar `3×2` frente a `2×3`, no la cantidad total;
 - **llamas tresillo a cualquier grupo de tres:** vuelve a distinguir subdivisión ordinaria del compás y relación de tuplet;

@@ -21,7 +21,7 @@ Esta unidad parte de la puerta de fluidez binaria de Unidad 1 y aumenta **una di
 
 ## Qué debe estar disponible
 
-Esta unidad presupone Unidad 1 o un perfil equivalente: pulso interno/subdivisión binaria y ternaria suficientemente disponibles para sostener lectura binaria elemental, figuras, silencios y compás al menos en MÍNIMO para aumentar densidad y teoría básica del pulso y las figuras suficiente para distinguir pulso, figura, subdivisión y duración.
+Esta unidad presupone Unidad 1 o un perfil equivalente: pulso y subdivisión suficientemente disponibles para sostener lectura binaria elemental; figuras, silencios y compás al menos en MÍNIMO para aumentar densidad; y teoría rítmica básica suficiente para distinguir pulso, figura, subdivisión y duración.
 
 Si vienes con un correctivo localizado, esta unidad puede abrirse manteniéndolo visible. Si la densidad nueva hace colapsar un prerrequisito central, reduce una variable —longitud, densidad, tempo o capas—; no reinicies Fase 1 ni Unidad 1 completa por defecto.
 
@@ -35,13 +35,13 @@ Si vienes con un correctivo localizado, esta unidad puede abrirse manteniéndolo
 
 El **recorrido editorial de esta unidad queda completo** cuando estas cuatro lecciones y la evaluación están publicados. Eso no significa que un alumno haya “aprobado esta unidad” por abrir o completar las páginas: la progresión depende de la evidencia y de la decisión de la evaluación.
 
-Son unidades de trabajo flexibles, no cinco días obligatorios. La retirada de ayuda conserva la progresión `GUIADO → CON PISTAS → SIN PISTAS → TRANSFERENCIA`; no es una escala de competencia.
+Es una unidad de trabajo flexible, no cinco días obligatorios. La retirada de ayuda conserva la progresión `GUIADO → CON PISTAS → SIN PISTAS → TRANSFERENCIA`; no es una escala de competencia.
 
 ## Qué cambia respecto a Unidad 1
 
 - los silencios de semicorchea pasan al centro del trabajo;
 - la rejilla de cuatro posiciones por pulso se vuelve explícita;
-- cambios de subdivisión aparece de forma inicial mediante cambios sencillos 2 ↔ 4;
+- los cambios de subdivisión aparecen de forma inicial mediante cambios sencillos 2 ↔ 4;
 - oído, imitación y escritura ganan peso sobre células muy cortas;
 - doubles/diddles se usan como aplicación subordinada a una línea ya comprendida.
 

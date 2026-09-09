@@ -56,7 +56,7 @@ Antes de **Empezar**:
 
 Después de **Empezar**, inspecciona brevemente y toca una sola vez de principio a fin. Pulsa **Finalizar intento** antes de escuchar playback.
 
-Si ya habías visto esta línea en una visita anterior, úsala como práctica y no como nueva evidencia forma y lectura de chart.
+Si ya habías visto esta línea en una visita anterior, úsala como práctica y no como nueva evidencia de lectura a primera vista.
 
 ## 3. Registro en dos columnas — 5 min
 
@@ -84,7 +84,7 @@ La descripción concreta permite decidir un correctivo sin inventar una competen
 
 ### Continuidad alta + precisión alta
 
-La muestra respalda forma y lectura de chart en esta condición.
+La muestra respalda la lectura a primera vista en esta condición.
 
 ### Continuidad alta + precisión baja
 
@@ -145,7 +145,7 @@ No se exige:
 - porcentaje universal de aciertos;
 - BPM objetivo;
 - click reducido — Unidad 10;
-- forma y lectura de chart globalmente `FUNCIONAL`.
+- lectura a primera vista globalmente `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 

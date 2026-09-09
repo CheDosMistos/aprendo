@@ -39,7 +39,7 @@ Parte de una línea escrita original, representa su subdivisión y comprueba des
 
 ### Lección 3 — Aplicar sin borrar la línea
 
-Una vez decodificada la línea, cambia sticking, liderazgo o doubles selectivos como aplicación aplicación musical de rudimentos. La estructura rítmica manda.
+Una vez decodificada la línea, cambia sticking, liderazgo o doubles selectivos como aplicación musical de rudimentos. La estructura rítmica manda.
 
 ### Lección 4 — Transformar conservando identidad
 
@@ -47,13 +47,13 @@ Crea una variación breve modificando una sola dimensión y explica qué se cons
 
 ### Evaluación — Puerta de integración
 
-Una cadena breve oído→escritura→ejecución→comparación más una transformación consciente. La evidencia informa D/E/aplicación musical de rudimentos/G; no crea un segundo Hito 2.
+Una cadena breve oído→escritura→ejecución→comparación más una transformación consciente. La evidencia informa lectura, oído, aplicación musical de rudimentos y creatividad; no crea un segundo Hito 2.
 
 ## Límites
 
-- grabación y comparación permanece inicial;
-- transcripción real transcripción estructurada extensa no es foco;
-- forma y lectura de chart puede reaparecer como soporte, pero esta unidad no sustituye el protocolo formal de Unidad 9;
+- la grabación y la comparación permanecen en nivel inicial;
+- la transcripción estructurada extensa no es foco;
+- la lectura a primera vista puede reaparecer como soporte, pero esta unidad no sustituye el protocolo formal de Unidad 9;
 - 5/4, 7/8, quintillos y 3:2 son sólo ventanas opcionales si el núcleo está estable;
 - no hay kit obligatorio;
 - no se exige aplicar los 40 PAS;

@@ -100,14 +100,14 @@ test('Formal D5 begins in U9 while earlier new-reading work remains a spiral win
 
   const u1Window = requirePage(docs, 'f2-u1-l4-oido-escritura-primera-vista.md');
   assert.match(u1Window, /VENTANA CURRICULAR/);
-  assert.match(u1Window, /No se registra todavía como evidencia formal D5/i);
-  assert.match(u1Window, /U9.*(?:introduce|introducir).*formalmente D5|D5.*(?:introduce|introducir).*formalmente.*U9/i);
+  assert.match(u1Window, /No se registra todavía como evidencia formal de lectura a primera vista/i);
+  assert.match(u1Window, /lectura a primera vista elemental se introduce y observa formalmente en Unidad 9/i);
   assert.match(u1Window, /data-score-first-sight="true"/, 'Early new-reading window should remain technically protected');
 
   const u9 = requirePage(docs, 'f2-u9-overview.md');
   assert.ok(competencies(frontmatter(u9)).includes('D5'), 'U9 overview must formally assign D5');
-  assert.match(u9, /U9 introduce una condici[oó]n distinta/i);
-  assert.match(u9, /objetivo central es \*\*D5/i);
+  assert.match(u9, /Esta unidad introduce una condici[oó]n distinta/i);
+  assert.match(u9, /objetivo central es \*\*lectura a primera vista elemental/i);
   assert.match(u9, /Hito 2 completo.*cierre de Fase 2/is);
 });
 
@@ -149,13 +149,13 @@ test('Late Phase 2 keeps reduced reference, integration and Hito 2 as distinct c
   const u12 = requirePage(docs, 'f2-u12-checkpoint-hito-2.md');
 
   assert.match(u10, /lectura utilizada debe ser deliberadamente conocida y controlada/i);
-  assert.match(u10, /primera vista como dificultad central.*U9/is);
+  assert.match(u10, /primera vista como dificultad central.*Unidad 9/is);
   assert.ok(!competencies(frontmatter(u10)).includes('D5'), 'U10 must isolate reduced-reference timing rather than retest formal D5');
-  assert.match(u10, /Completar U10 no convierte automáticamente C5 en `FUNCIONAL`/);
+  assert.match(u10, /Completar esta unidad no convierte automáticamente el control con referencia reducida en `FUNCIONAL`/);
 
   assert.match(u11, /cambiar de representaci[oó]n sin perder la estructura r[ií]tmica/i);
   assert.match(u11, /no crea un segundo Hito 2/i);
-  assert.match(u11, /E6 transcripci[oó]n estructurada extensa no es foco/i);
+  assert.match(u11, /la transcripci[oó]n estructurada extensa no es foco/i);
   assert.match(u11, /5\/4, 7\/8, quintillos y 3:2 son s[oó]lo ventanas opcionales/i);
 
   assert.match(u12, /Leer y reproducir material r[ií]tmico nuevo sin depender de que el patr[oó]n haya sido previamente memorizado/);
@@ -163,7 +163,7 @@ test('Late Phase 2 keeps reduced reference, integration and Hito 2 as distinct c
     assert.match(u12, new RegExp(dimension));
   }
   assert.match(u12, /BPM y click son condiciones de la tarea/);
-  assert.match(u12, /no convierte automáticamente C1–C3, D1–D5 o F1–F2 en FUNCIONALES/i);
+  assert.match(u12, /no convierte automáticamente en FUNCIONALES todas las competencias implicadas de tiempo, lectura y teoría rítmica/i);
   assert.match(u12, /Fase 3 gana el centro de gravedad/i);
 });
 

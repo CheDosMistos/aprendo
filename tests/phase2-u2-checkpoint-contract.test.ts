@@ -8,6 +8,7 @@ const lessonPath = path.join(root, 'src/courses/bateria/content/pages/f2-u2-chec
 const scorePath = path.join(root, 'public/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml');
 const pagesDir = path.join(root, 'src/courses/bateria/content/pages');
 const lesson = fs.readFileSync(lessonPath, 'utf8');
+const learnerLesson = lesson.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0];
 const score = fs.readFileSync(scorePath, 'utf8');
 
 function occurrences(text: string, needle: string): number {
@@ -20,15 +21,16 @@ test('Phase 2 U2 checkpoint uses the checkpoint schema and approved inference', 
   assert.match(lesson, /order: 5/);
   assert.match(lesson, /title: Puerta de semicorcheas y silencios/);
   assert.match(lesson, /rudiments: \[\]/);
-  assert.match(lesson, /¿D1\/C2 y el inicio de C3 permiten avanzar hacia U3 sin depender de dibujos memorizados\?/);
-  assert.match(lesson, /no sirve para “aprobar U2”/);
+  assert.match(learnerLesson, /¿La lectura de figuras y silencios, la subdivisión binaria y el inicio de los cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados\?/);
+  assert.match(learnerLesson, /no sirve para “aprobar esta unidad”/);
+  assert.doesNotMatch(learnerLesson, /D1\/C2|\bU3\b|\bL2\b/);
 });
 
 test('Phase 2 U2 checkpoint keeps Sample A exclusive and protected before first sight', () => {
   const asset = '/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml';
   assert.match(lesson, new RegExp(`data-score-src="${asset.replaceAll('/', '\\/').replace('.', '\\.')}"[^>]*data-score-first-sight="true"`));
   assert.match(lesson, new RegExp(`data-score-source-url="${asset.replaceAll('/', '\\/').replace('.', '\\.')}"`));
-  assert.match(lesson, /exclusiva de este checkpoint/);
+  assert.match(lesson, /exclusiva de esta evaluación/);
 
   const pageFiles = fs.readdirSync(pagesDir).filter((name) => name.endsWith('.md'));
   const references = pageFiles.reduce((count, name) => {
@@ -49,8 +51,8 @@ test('Phase 2 U2 checkpoint includes hearing-to-writing and optional recent 2↔
     lesson,
     /data-score-src="\/bateria\/notation\/f2\/u2\/f2-u2-cambio-2-a-4-silencios\.musicxml"[^>]*data-score-feedback="after-attempt"/,
   );
-  assert.match(lesson, /Si tienes una muestra reciente y representativa de L2 donde alternaste densidades `2 ↔ 4`, \*\*reutilízala\*\*/);
-  assert.match(lesson, /C3 no necesita ser FUNCIONAL para avanzar a U3/);
+  assert.match(lesson, /Si tienes una muestra reciente y representativa de Lección 2 donde alternaste densidades `2 ↔ 4`, \*\*reutilízala\*\*/);
+  assert.match(lesson, /Los cambios de subdivisión no necesitan estar en nivel FUNCIONAL para avanzar a Unidad 3/);
 });
 
 test('Phase 2 U2 checkpoint preserves multidimensional conditions, health and decisions', () => {
@@ -64,12 +66,12 @@ test('Phase 2 U2 checkpoint preserves multidimensional conditions, health and de
     assert.ok(lesson.includes(signal), `missing health/load signal ${signal}`);
   }
   assert.match(lesson, /El BPM describe la condición de la muestra; \*\*no define el nivel\*\*/);
-  assert.match(lesson, /Completar este checkpoint \*\*no actualiza automáticamente D1, C2, C3, E4 ni ninguna otra competencia\*\*/);
+  assert.match(lesson, /Completar esta evaluación \*\*no actualiza automáticamente figuras, silencios y compás, subdivisión binaria y ternaria, cambios de subdivisión/);
 });
 
 test('Phase 2 U2 checkpoint keeps the minimum for U3 below mastery and protects U3 novelty', () => {
-  assert.match(lesson, /## MÍNIMO PARA AVANZAR A U3/);
-  assert.match(lesson, /\*\*C3 funcional\*\*/);
+  assert.match(lesson, /## MÍNIMO PARA AVANZAR A Unidad 3/);
+  assert.match(lesson, /\*\*cambios de subdivisión en nivel FUNCIONAL\*\*/);
   assert.match(lesson, /PAS adicionales/);
   assert.match(lesson, /síncopa formalmente dominada/);
   assert.match(lesson, /primera vista avanzada/);
