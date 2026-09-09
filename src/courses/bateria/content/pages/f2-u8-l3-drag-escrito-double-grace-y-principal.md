@@ -8,7 +8,7 @@ slug: drag-escrito-double-grace-y-principal
 kind: lesson
 order: 3
 title: "Drag escrito: double grace y principal"
-summary: "Lee dos grace notes antes de una principal, mantiene su jerarquía y aplica flams/aplicación musical de rudimentos sin convertir el adorno en tres notas métricamente equivalentes."
+summary: "Lee dos grace notes antes de una principal, mantiene su jerarquía y aplica la familia de drags sin convertir el adorno en tres notas métricamente equivalentes."
 duration: 25–30 min
 competencies: [B4, B7, C1, D3, K2, K4, K6]
 rudiments: []
@@ -40,7 +40,7 @@ En Lección 3:
 
 Las dos grace notes siguen siendo adornos previos. No suman dos nuevas subdivisiones métricas ordinarias al compás y no desplazan por definición el lugar de las cuatro principales.
 
-La competencia flams pide que puedas ejecutar **grace doubles + principal lentamente sin convertirlas en notas iguales**.
+La familia de drags pide que puedas ejecutar **grace doubles + principal lentamente sin convertirlas en notas iguales**.
 
 ## 2. Línea simple → double grace — 6 min
 
@@ -62,7 +62,7 @@ Antes de cada principal aparecen dos grace notes enlazadas visualmente como un p
 
 La lectura correcta empieza por localizar las cuatro principales. Sólo entonces cuenta cuántos adornos preceden a cada una.
 
-## 3. Mecánica flams a baja velocidad — 5 min
+## 3. Mecánica de drag a baja velocidad — 5 min
 
 Usa el esquema normativo básico verificado en PAS como referencia de manos:
 
@@ -106,7 +106,7 @@ Mira el compás 2 y descríbelo sin decir «drag»:
 
 Después relaciona esa estructura con la familia PAS de drags.
 
-Si sólo puedes tocar cuando ves el nombre `Drag`, pero una línea nueva con double grace te bloquea, el problema es de tuplets y ornamentación/aplicación musical de rudimentos aunque la memoria motora del rudimento exista.
+Si sólo puedes tocar cuando ves el nombre `Drag`, pero una línea nueva con double grace te bloquea, el problema está en la lectura y aplicación del adorno aunque la memoria motora del rudimento exista.
 
 ## 6. Transferencia: adorno selectivo — 3–4 min
 
@@ -172,7 +172,7 @@ No se exige:
 - rolls — Lección 4;
 - primera vista formal Unidad 9;
 - gaps — Unidad 10;
-- actualizar automáticamente flams, aplicación musical de rudimentos o tuplets y ornamentación a `FUNCIONAL`.
+- actualizar automáticamente drags, aplicación rudimental o lectura de ornamentación a `FUNCIONAL`.
 
 ## COMPETENTE EN ESTA TAREA
 
