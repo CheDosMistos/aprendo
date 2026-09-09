@@ -130,7 +130,7 @@ Este Hito **no vuelve a examinar todo el currículo**. Antes de dar por cerrada 
 - transcripción corta y verificación;
 - forma/mapa;
 - motivo, transformación, improvisación y composición;
-- mínimo métricas impares y mixtas de 5/4 y 7/8 según Unidad 9/Unidad 10;
+- mínimo de métricas impares y mixtas en 5/4 y 7/8 según Unidad 9/Unidad 10;
 - análisis integrado de Unidad 11.
 
 Un hueco previo se convierte en **correctivo localizado**, no en un requisito escondido dentro de esta pieza.
