@@ -17,7 +17,7 @@ published: true
 
 ## INFERENCIA
 
-> **Puedes producir una primera transcripción transcripción real útil de una fuente breve, conservando una hipótesis inicial, revisándola con escuchas dirigidas y distinguiendo qué parte es aproximación propia.**
+> **Puedes producir una primera transcripción real útil de una fuente breve, conservando una hipótesis inicial, revisándola con escuchas dirigidas y distinguiendo qué parte es aproximación propia.**
 
 No se exige canción completa, alta velocidad, cero dudas ni reproducción de tres capas con las manos.
 
@@ -32,7 +32,7 @@ No se exige canción completa, alta velocidad, cero dudas ni reproducción de tr
 Antes de usar chunks o 80 %:
 
 1. escucha la fuente completa al 100 %;
-2. propone pulso, subdivisión y métrica;
+2. propón pulso, subdivisión y métrica;
 3. escribe V1 del esqueleto;
 4. marca `OBS / HIP / APROX / DUDA` donde aporten información.
 
@@ -83,7 +83,7 @@ Selecciona una revisión y explica:
 
 ### CONTINUAR
 
-transcripción real inicial está disponible: produces una transcripción breve razonablemente útil, puedes tocarla y haces explícita la incertidumbre cuando procede.
+La transcripción real inicial está disponible: produces una transcripción breve razonablemente útil, puedes tocarla y haces explícita la incertidumbre cuando procede.
 
 ### CONTINUAR + CORRECTIVO
 
@@ -91,7 +91,7 @@ El proceso funciona pero una dimensión —pulso, subdivisión, memoria, notaci�
 
 ### REDUCIR NOVEDAD
 
-La hipótesis no puede mantenerse ni siquiera con una fuente más simple y las dependencias dictado/relación entre oído y notación/lectura de compás vuelven a ser el cuello de botella principal.
+La hipótesis no puede mantenerse ni siquiera con una fuente más simple y las dependencias de dictado, relación entre oído y notación y lectura del compás vuelven a ser el cuello de botella principal.
 
 ### DETENER CARGA
 
