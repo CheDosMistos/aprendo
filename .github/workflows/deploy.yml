@@ -60,6 +60,16 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
+          cat > ~/.ssh/config <<'EOF'
+          Host *
+            ControlMaster auto
+            ControlPersist 120
+            ControlPath ~/.ssh/control-%C
+            ConnectionAttempts 3
+            ServerAliveInterval 15
+            ServerAliveCountMax 3
+          EOF
+          chmod 600 ~/.ssh/config
 
       - name: Verify VPS runtime prerequisites
         env:
