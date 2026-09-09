@@ -52,6 +52,6 @@ Pregunta:
 
 Trabajar con referencia menos explícita puede aportar evidencia inicial de control con click reducido. No implica control funcional con click reducido ni autoriza automáticamente tareas más complejas de desplazamiento de referencia.
 
-## Puente al Evaluación
+## Puente a la evaluación
 
 Elige una condición reducida que produzca una muestra interpretable. La evaluación comparará esa condición con referencia completa, no buscará el modo más difícil disponible.
