@@ -26,11 +26,11 @@ No vamos a enseñar 6/8 por defecto como seis pulsos equivalentes. Las seis corc
 Esta unidad presupone:
 
 - pulso interno suficientemente estable para conservar una referencia temporal principal;
-- subdivisión binaria y ternaria ternaria disponible a una condición cómoda;
-- tuplets y ornamentación suficiente para que el tresillo básico ya no sea una novedad total;
-- teoría básica del pulso y las figuras/métrica y terminología rítmica suficientes para distinguir pulso, subdivisión, compás, agrupación y *tuplet*.
+- subdivisión ternaria disponible a una condición cómoda;
+- el tresillo básico suficientemente conocido para que deje de ser una novedad total;
+- conceptos básicos de pulso, subdivisión, compás, agrupación y *tuplet* suficientemente disponibles para distinguirlos entre sí.
 
-No exige cambios 2↔3↔4 rápidos, un BPM universal, primera vista formal forma y lectura de chart ni dominio previo de 6/8. Si Unidad 5 terminó con `CONTINUAR + CORRECTIVO`, conserva sólo el correctivo localizado mientras introduces la nueva jerarquía métrica.
+No exige cambios 2↔3↔4 rápidos, un BPM universal, primera vista formal ni dominio previo de 6/8. Si Unidad 5 terminó con `CONTINUAR + CORRECTIVO`, conserva sólo el correctivo localizado mientras introduces la nueva jerarquía métrica.
 
 ## Distinciones que gobiernan toda esta unidad
 
@@ -40,7 +40,7 @@ No exige cambios 2↔3↔4 rápidos, un BPM universal, primera vista formal form
 - **6/8 ≠ 3/4:** ambos pueden contener seis corcheas escritas, pero la jerarquía prototípica será `2×3` frente a `3×2`. El contraste sistemático llega en Lección 3.
 - **AGRUPACIÓN ≠ COMPÁS:** reacentuar una línea no cambia automáticamente la indicación métrica.
 
-Estas distinciones son parte de lectura de compás/métrica y terminología rítmica. Una línea puede sonar regularmente espaciada y, aun así, estar siendo comprendida con una jerarquía métrica equivocada.
+Estas distinciones forman parte de la comprensión métrica y la lectura. Una línea puede sonar regularmente espaciada y, aun así, estar siendo comprendida con una jerarquía métrica equivocada.
 
 ## Recorrido de Unidad 6
 
@@ -48,7 +48,7 @@ Estas distinciones son parte de lectura de compás/métrica y terminología rít
 2. **Ataques y silencios dentro de 6/8** — conservar los dos pulsos principales mientras algunas posiciones internas dejan de sonar.
 3. **3/4 y 6/8: misma cantidad escrita, distinta métrica** — comparar `3×2` y `2×3` sin reducir la diferencia a una cuestión gráfica.
 4. **Leer, escuchar y reinterpretar sin confundir métrica** — transferir entre lectura, oído, explicación y transformación controlada conservando el compás.
-5. **Puerta de 6/8** — decidir si lectura de compás/métrica y terminología rítmica y pulso interno/subdivisión binaria y ternaria permiten ampliar el compuesto sin reducirlo a “muchas corcheas” ni confundir 3/4 con 6/8.
+5. **Puerta de 6/8** — decidir si la comprensión métrica, la lectura, el pulso y la subdivisión permiten ampliar el compuesto sin reducirlo a “muchas corcheas” ni confundir 3/4 con 6/8.
 
 La organización en **4 lecciones + evaluación** es una decisión didáctica para repartir la carga; no implica cinco días obligatorios.
 
@@ -56,7 +56,7 @@ La organización en **4 lecciones + evaluación** es una decisión didáctica pa
 
 `SENTIR 2×3 → LEER → SILENCIAR SIN PERDER → COMPARAR 3/4↔6/8 → ESCUCHAR/EXPLICAR`
 
-El objetivo no es memorizar una definición verbal. lectura de compás/métrica y terminología rítmica deben conectarse con percepción, lectura y ejecución: poder localizar los pulsos principales, explicar la subdivisión y detectar cuándo se está contando cada corchea como si fuera un pulso equivalente.
+El objetivo no es memorizar una definición verbal. La comprensión métrica y la lectura deben conectarse con percepción y ejecución: poder localizar los pulsos principales, explicar la subdivisión y detectar cuándo se está contando cada corchea como si fuera un pulso equivalente.
 
 ## Fronteras con Unidad 7 y unidades posteriores
 
@@ -103,4 +103,4 @@ Cuando sea útil se registran por separado:
 - ayudas utilizadas;
 - variable limitante.
 
-Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`. Completar páginas no actualiza automáticamente lectura de compás/métrica y terminología rítmica, y un tempo más alto no compensa una jerarquía métrica equivocada.
+Las decisiones siguen siendo `CONTINUAR`, `CONTINUAR + CORRECTIVO`, `REDUCIR NOVEDAD` y `DETENER CARGA`. Completar páginas no convierte automáticamente en funcionales la lectura ni la comprensión métrica, y un tempo más alto no compensa una jerarquía métrica equivocada.
