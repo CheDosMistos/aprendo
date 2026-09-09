@@ -21,7 +21,7 @@ Unidad 7 tomaba decisiones **mientras el tiempo continuaba**. Esta unidad cambia
 
 > **Novedad dominante:** composición rítmica breve.
 
-## El mínimo composición de piezas no son “cuatro compases obligatorios”
+## El mínimo de composición rítmica breve no son “cuatro compases obligatorios”
 
 El curso define el mínimo como crear **1–4 compases coherentes y reproducibles**.
 
@@ -29,7 +29,7 @@ Eso significa que una idea de un compás puede ser evidencia suficiente si está
 
 ## Autoría real
 
-Los scores de esta unidad son **ejemplos, semillas o marcos de análisis**. No existe una composición correcta del curso que debas copiar.
+Las partituras de esta unidad son **ejemplos, semillas o marcos de análisis**. No existe una composición correcta del curso que debas copiar.
 
 Tu material puede partir de:
 
@@ -76,7 +76,7 @@ Seleccionas una idea y la conviertes en 1–2 compases escritos/reproducibles.
 Organizas una microforma sin tratar A/A’, contraste o retorno como leyes universales.
 
 ### Lección 3 — Una transformación con trazabilidad
-Construyes A’ con una sola transformación desarrollo motívico y registras `SE CONSERVA / CAMBIA`.
+Construyes A’ con una sola transformación de desarrollo motívico y registras `SE CONSERVA / CAMBIA`.
 
 ### Lección 4 — Contraste y cierre
 Creas función de contraste y un final reconocible sin identificar contraste con “más notas”.
@@ -87,7 +87,7 @@ Grabas, comparas intención/notación/ejecución y haces una revisión conscient
 ### Evaluación — Autoría en desarrollo
 Creas una microcomposición de 1–4 compases, la escribes, la tocas, conservas una grabación y justificas al menos una transformación y una decisión de revisión.
 
-## 4/4 como entorno core
+## 4/4 como entorno central
 
 Esta unidad mantiene el núcleo principalmente en **4/4** para que la novedad sea composición y revisión. 5/4 y 7/8 pueden aparecer como ampliación si ya son cómodos, pero su trabajo funcional empieza en Unidad 9/Unidad 10.
 
@@ -95,7 +95,7 @@ Esta unidad mantiene el núcleo principalmente en **4/4** para que la novedad se
 
 Aprendo reutiliza partitura, grabación y metrónomo. Puedes escribir tu pieza en papel o con una herramienta externa como MuseScore si te resulta útil.
 
-**No necesitas un editor de partituras dentro de Aprendo y no existe un grader automático de composición/originalidad.**
+**No necesitas un editor de partituras dentro de Aprendo y no existe una evaluación automática de composición/originalidad.**
 
 ## Mínimo para avanzar
 
@@ -107,4 +107,4 @@ Aprendo reutiliza partitura, grabación y metrónomo. Puedes escribir tu pieza e
 - capacidad de distinguir intención, notación y ejecución;
 - explicación de al menos una decisión.
 
-Evaluación es **autoría en desarrollo**. El Hito 4 final de Fase 3 sigue reservado a Unidad 12.
+La evaluación es **autoría en desarrollo**. El Hito 4 final de Fase 3 sigue reservado a Unidad 12.
