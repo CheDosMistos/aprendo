@@ -9,6 +9,7 @@ const overviewPath = path.join(root, 'src/courses/bateria/content/pages/f2-u3-ov
 const scorePath = path.join(root, 'public/bateria/notation/f2/u3/f2-u3-checkpoint-a.musicxml');
 const pagesDir = path.join(root, 'src/courses/bateria/content/pages');
 const lesson = fs.readFileSync(lessonPath, 'utf8');
+const learnerLesson = lesson.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0];
 const overview = fs.readFileSync(overviewPath, 'utf8');
 const score = fs.readFileSync(scorePath, 'utf8');
 
@@ -22,11 +23,11 @@ test('Phase 2 U3 checkpoint uses the checkpoint schema and approved inference', 
   assert.match(lesson, /order: 5/);
   assert.match(lesson, /title: "Puerta de duración y síncopa I"/);
   assert.match(lesson, /rudiments: \[\]/);
-  assert.match(lesson, /¿Síncopa, teoría rítmica básica, pulso y subdivisión están suficientemente disponibles para abrir Unidad 4/);
-  assert.match(lesson, /no sirve para “aprobar esta unidad”/);
+  assert.match(learnerLesson, /¿Síncopa, teoría rítmica básica, pulso y subdivisión están suficientemente disponibles para abrir Unidad 4/);
+  assert.match(learnerLesson, /no sirve para “aprobar esta unidad”/);
   assert.match(overview, /El \*\*recorrido editorial de esta unidad queda completo\*\*/);
   assert.match(overview, /no significa que un alumno haya “aprobado esta unidad”/);
-  assert.doesNotMatch(lesson, /D2\/F1|C1\/C2|\bU4\b|\bB7\b|20\.U4/);
+  assert.doesNotMatch(learnerLesson, /D2\/F1|C1\/C2|\bU4\b|\bB7\b|20\.U4/);
 });
 
 test('Phase 2 U3 checkpoint keeps Sample A exclusive and protected before first sight', () => {

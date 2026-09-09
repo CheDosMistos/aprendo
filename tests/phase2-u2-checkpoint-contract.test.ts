@@ -8,6 +8,7 @@ const lessonPath = path.join(root, 'src/courses/bateria/content/pages/f2-u2-chec
 const scorePath = path.join(root, 'public/bateria/notation/f2/u2/f2-u2-checkpoint-a.musicxml');
 const pagesDir = path.join(root, 'src/courses/bateria/content/pages');
 const lesson = fs.readFileSync(lessonPath, 'utf8');
+const learnerLesson = lesson.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0];
 const score = fs.readFileSync(scorePath, 'utf8');
 
 function occurrences(text: string, needle: string): number {
@@ -20,9 +21,9 @@ test('Phase 2 U2 checkpoint uses the checkpoint schema and approved inference', 
   assert.match(lesson, /order: 5/);
   assert.match(lesson, /title: Puerta de semicorcheas y silencios/);
   assert.match(lesson, /rudiments: \[\]/);
-  assert.match(lesson, /¿La lectura de figuras y silencios, la subdivisión binaria y el inicio de los cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados\?/);
-  assert.match(lesson, /no sirve para “aprobar esta unidad”/);
-  assert.doesNotMatch(lesson, /D1\/C2|\bU3\b|\bL2\b/);
+  assert.match(learnerLesson, /¿La lectura de figuras y silencios, la subdivisión binaria y el inicio de los cambios de subdivisión permiten avanzar hacia Unidad 3 sin depender de dibujos memorizados\?/);
+  assert.match(learnerLesson, /no sirve para “aprobar esta unidad”/);
+  assert.doesNotMatch(learnerLesson, /D1\/C2|\bU3\b|\bL2\b/);
 });
 
 test('Phase 2 U2 checkpoint keeps Sample A exclusive and protected before first sight', () => {

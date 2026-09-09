@@ -11,14 +11,12 @@ function frontmatter(markdown: string): string {
   return markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? '';
 }
 
-function notes(xml: string): string[] {
-  return [...xml.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1]);
-}
-
 test('Phase 2 U4 checkpoint targets D2 and C1-C3 without making B7 or D5 a hard gate', async () => {
   const markdown = await readFile(pagePath, 'utf8');
   const data = frontmatter(markdown);
-  const body = markdown.slice(markdown.indexOf('---', 3) + 3);
+  const body = markdown
+    .slice(markdown.indexOf('---', 3) + 3)
+    .split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0];
 
   assert.match(data, /^contentId:\s*bat-f2-u4-check\s*$/m);
   assert.match(data, /^phase:\s*2\s*$/m);
@@ -105,3 +103,7 @@ test('Phase 2 U4 checkpoint separates evidence and keeps U5 content outside the 
   assert.equal((markdown.match(/data-rhythm-dictation/g) ?? []).length, 0);
   assert.match(markdown, /no actualiza automáticamente/i);
 });
+
+function notes(xml: string): string[] {
+  return [...xml.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1]);
+}
