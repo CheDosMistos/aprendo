@@ -29,9 +29,9 @@ test('Phase 2 U6 checkpoint asks the approved 6/8 gate inference without promoti
   }
   assert.doesNotMatch(competencies, /\bD5\b|\bE5\b/);
 
-  assert.match(markdown, /¿D4\/F2 y C1\/C2 permiten abrir la siguiente ampliación del compás compuesto conservando 6\/8 como dos pulsos principales subdivididos en tres/);
-  assert.match(markdown, /no demuestra E5 general/i);
-  assert.match(markdown, /Tampoco se registra esta tarea como primera vista formal D5/i);
+  assert.match(markdown, /¿La lectura, la comprensión métrica, el pulso y la subdivisión permiten abrir la siguiente ampliación del compás compuesto conservando 6\/8 como dos pulsos principales subdivididos en tres/);
+  assert.match(markdown, /no demuestra reconocimiento métrico general/i);
+  assert.match(markdown, /Tampoco se registra esta tarea como primera vista formal/i);
   assert.match(markdown, /El BPM describe la \*\*condición\*\* de la muestra; no define el nivel/);
 });
 
@@ -48,7 +48,7 @@ test('Phase 2 U6 checkpoint uses one exclusive feedback-gated score and no extra
   assert.match(markdown, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);
   assert.match(markdown, /playback sólo \*\*después del intento propio\*\*/i);
   assert.match(markdown, /marca únicamente \*\*dos apoyos grandes por compás\*\*/i);
-  assert.match(markdown, /evidencia secundaria de \*\*E1\/E2 en el contexto ya delimitado\*\*/i);
+  assert.match(markdown, /evidencia secundaria de \*\*reconocimiento del pulso y la subdivisión e imitación rítmica en el contexto ya delimitado\*\*/i);
 });
 
 test('Phase 2 U6 checkpoint score is a validated 4-bar 6/8 sample with correct compound playback', async () => {
@@ -98,10 +98,10 @@ test('Phase 2 U6 checkpoint separates meter, grouping and tuplets and opens U7 w
   assert.match(markdown, /### CONTINUAR \+ CORRECTIVO\n/);
   assert.match(markdown, /### REDUCIR NOVEDAD\n/);
   assert.match(markdown, /### DETENER CARGA\n/);
-  assert.match(markdown, /## MÍNIMO PARA ABRIR U7/);
-  assert.match(markdown, /primera vista formal D5/);
-  assert.match(markdown, /reconocimiento métrico general E5/);
-  assert.match(markdown, /9\/8 o 12\/8 — pertenecen a U7 y \*\*no se enseñan en esta puerta\*\*/);
+  assert.match(markdown, /## MÍNIMO PARA ABRIR Unidad 7/);
+  assert.match(markdown, /primera vista formal/);
+  assert.match(markdown, /reconocimiento métrico general/);
+  assert.match(markdown, /9\/8 o 12\/8 — pertenecen a Unidad 7 y \*\*no se enseñan en esta puerta\*\*/);
   assert.match(markdown, /no actualiza automáticamente/i);
   assert.match(markdown, /la siguiente unidad puede \*\*ampliar el modelo de compás compuesto\*\*/i);
 
