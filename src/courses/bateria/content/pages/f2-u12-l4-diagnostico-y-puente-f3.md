@@ -42,12 +42,12 @@ Una discrepancia aquí **no anula automáticamente** una buena muestra de lectur
 
 Sin repetir todo el curso, identifica dónde estás en cada núcleo:
 
-- pulso y subdivisión pulso, subdivisión y cambios de subdivisión;
-- lectura figuras, silencios y compás–lectura de compás;
-- primera vista forma y lectura de chart;
-- fundamentos y terminología teoría básica del pulso y las figuras–métrica y terminología rítmica;
-- oído/escritura reconocimiento de pulso y subdivisión–relación entre oído y notación como soporte;
-- referencia reducida click desplazado o no obvio sólo si fue pertinente y estable en su tarea.
+- pulso, subdivisión y cambios de subdivisión;
+- lectura de figuras, silencios y compás;
+- lectura a primera vista;
+- fundamentos y terminología rítmica;
+- oído y escritura como relación entre escucha y notación;
+- referencia temporal reducida, sólo si fue pertinente y estable en su tarea.
 
 No conviertas esta lista en una suma de puntos. Una competencia puede requerir mantenimiento aunque el Hito 2 sea observable.
 
@@ -73,7 +73,7 @@ Cuando el perfil acumulado lo permita, el centro de gravedad puede desplazarse h
 - improvisación y transformación;
 - relación entre representación, intención y resultado musical.
 
-Esto es un **puente**, no una declaración de que forma y fraseo/intervalos y escalas/transcripción de batería ya sean funcionales.
+Esto es un **puente**, no una declaración de que el análisis y la forma, la transcripción estructurada o el desarrollo creativo posterior sean ya funcionales.
 
 5/4, 7/8, quintillos, 3:2 y otras ventanas seguirán creciendo después sin convertirse aquí en requisito del cierre.
 
@@ -81,9 +81,9 @@ Esto es un **puente**, no una declaración de que forma y fraseo/intervalos y es
 
 Las muestras C y D de la evaluación **no aparecen en esta lección** y no deben buscarse ni escucharse antes del intento.
 
-Llega al Evaluación con una prioridad simple: producir evidencia válida, no «demostrar que ya sabes todo».
+Llega a la evaluación con una prioridad simple: producir evidencia válida, no «demostrar que ya sabes todo».
 
-## MÍNIMO PARA IR AL Evaluación
+## MÍNIMO PARA IR A LA EVALUACIÓN
 
 - distingues evidencia central de diagnóstico adicional;
 - puedes nombrar una fortaleza y una variable limitante sin usar una nota global;
