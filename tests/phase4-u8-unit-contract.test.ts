@@ -52,13 +52,18 @@ test('L1 reuses verified U2 timbre scores and adds no feet', async () => {
   assert.match(l1, /ACENTO ≠ SUPERFICIE/i);
 });
 
-test('L2 adds only the known foot base under the known hand orchestration', async () => {
+test('L2 adds only the known foot base and restores simple multi-voice reading as a non-gating expansion', async () => {
   const l2 = plain(await page('l2'));
+  assert.match(fm(await page('l2')), /competencies: \[[^\]]*D7[^\]]*\]/i);
   assert.match(l2, /f4-u8-l2-orchestration-feet\.musicxml/);
-  assert.match(l2, /ocho corcheas exactamente como U2\.L4/i);
+  assert.match(l2, /ocho corcheas exactamente como en Unidad 2, Lección 4/i);
   assert.match(l2, /bombo: 1 y 3/i);
   assert.match(l2, /pedal hi-hat: 2 y 4/i);
   assert.match(l2, /Los pies no reciben vocabulario nuevo/i);
+  assert.match(l2, /AMPLIACIÓN — lectura sencilla de varias voces/i);
+  assert.match(l2, /no es una prueba de primera vista/i);
+  assert.match(l2, /LECTURA MULTIVOZ DEL MATERIAL CONOCIDO/i);
+  assert.match(l2, /no convierte D7 en requisito del checkpoint de U8/i);
   assert.match(l2, /No existe BPM de aprobado/i);
 });
 
