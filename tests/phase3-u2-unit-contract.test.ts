@@ -64,7 +64,7 @@ test('U2 keeps chunking non-dogmatic and reserves E6 transcription for U3', asyn
   assert.match(overview, /DECISIÓN CURRICULAR RAZONADA/);
   assert.match(overview, /no una ley científica/i);
   assert.match(overview, /no existe un número universal de escuchas/i);
-  assert.match(overview, /E6 — transcripción iterativa de una fuente — empieza en U3/);
+  assert.match(overview, /La transcripción iterativa de una fuente empieza en Unidad 3/);
   assert.match(overview, /vocalizar puede ayudar, pero no es ritual obligatorio/i);
 });
 
