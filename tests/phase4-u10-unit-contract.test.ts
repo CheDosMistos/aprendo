@@ -18,7 +18,8 @@ async function page(key: keyof typeof pages) { return readFile(path.join(pagesRo
 function fm(markdown: string) { return markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? ''; }
 function plain(markdown: string) { return markdown.replace(/[*_`]/g, ''); }
 
-const HITO = 'Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso.';
+const PHASE4_CLOSURE = 'Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso.';
+const GLOBAL_HITO_5 = 'Convierte material conocido de pad en orquestación y coordinación básica.';
 
 test('F4 U10 has overview, four lessons and Hito 5 checkpoint in order', async () => {
   const keys = Object.keys(pages) as (keyof typeof pages)[];
@@ -33,9 +34,12 @@ test('F4 U10 has overview, four lessons and Hito 5 checkpoint in order', async (
   assert.match(fm(await page('checkpoint')), /^contentId:\s*bat-f4-u10-check$/m);
 });
 
-test('overview preserves the literal Hito 5 and adds no new advanced gate', async () => {
+test('overview distinguishes the Phase 4 closure criterion from global Hito 5 and adds no new advanced gate', async () => {
   const overview = plain(await page('overview'));
-  assert.ok(overview.includes(HITO));
+  assert.ok(overview.includes(PHASE4_CLOSURE));
+  assert.ok(overview.includes(GLOBAL_HITO_5));
+  assert.match(overview, /criterio de cierre específico de Fase 4/i);
+  assert.match(overview, /Hito global 5 — Transferencia al kit/i);
   assert.match(overview, /INTEGRAR NO ES HACERLO MÁS DIFÍCIL/i);
   assert.match(overview, /configuración y escucha segura de U1/i);
   assert.match(overview, /Variación B de U7/i);
@@ -84,9 +88,12 @@ test('L4 integrates the exact known functions and uses recording for diagnosis',
   assert.match(l4, /No existe BPM de aprobado/i);
 });
 
-test('checkpoint preserves literal Hito and multidimensional minimum', async () => {
+test('checkpoint preserves the Phase 4 closure criterion and global Hito 5 with a multidimensional minimum', async () => {
   const cp = plain(await page('checkpoint'));
-  assert.ok(cp.includes(HITO));
+  assert.ok(cp.includes(PHASE4_CLOSURE));
+  assert.ok(cp.includes(GLOBAL_HITO_5));
+  assert.match(cp, /Criterio de cierre de Fase 4/i);
+  assert.match(cp, /Hito global 5 — Transferencia al kit/i);
   assert.match(cp, /f4-u10-hito5-integration\.musicxml/);
   assert.match(cp, /A → VARIACIÓN → A → FILL → A/i);
   assert.match(cp, /no se exige mantener el pie izquierdo durante el fill/i);
