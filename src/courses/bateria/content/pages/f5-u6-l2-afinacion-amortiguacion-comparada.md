@@ -83,7 +83,7 @@ Si empeora, volver atrás es una decisión competente.
 
 ## Si no puedes o no debes ajustar físicamente el instrumento
 
-La competencia balance, sonido y orquestación MÍNIMO también puede demostrarse mediante:
+El nivel MÍNIMO de sonido, afinación, grabación, click y monitorización también puede demostrarse mediante:
 
 - balance dinámico;
 - consistencia de zona;
