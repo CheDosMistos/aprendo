@@ -63,7 +63,7 @@ No existe un número universal de escuchas para aprobar. Marcar pulso o vocaliza
 
 ## Lo que todavía NO hacemos
 
-Esta unidad sigue usando material original diseñado para la tarea. **transcripción iterativa de una fuente — empieza en Unidad 3.** Tampoco necesitamos slowdown como núcleo todavía.
+Esta unidad sigue usando material original diseñado para la tarea. **La transcripción iterativa de una fuente empieza en Unidad 3.** Tampoco necesitamos slowdown como núcleo todavía.
 
 ## Regla de avance
 
