@@ -15,11 +15,15 @@ rudiments: []
 published: true
 ---
 
-## Hito superior literal
+## Criterio de cierre de Fase 4
 
 > **Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso.**
 
-Esta evaluación no inventa una rúbrica alternativa ni exige dificultad adicional.
+Este criterio operativo se integra en el **Hito global 5 — Transferencia al kit** del Plan General:
+
+> **Convierte material conocido de pad en orquestación y coordinación básica.**
+
+Esta evaluación no inventa una rúbrica alternativa ni exige dificultad adicional: verifica el criterio de cierre de la fase y evidencia de transferencia de material previo al kit.
 
 ## Referencia CORE
 
