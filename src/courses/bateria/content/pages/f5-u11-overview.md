@@ -70,7 +70,7 @@ Recibe una tarea breve donde falta deliberadamente parte de la información. Deb
 ### Lección 4 — Grabación, recuperación y segunda toma
 Registra una toma completa, diagnostica un problema concreto y aplica un correctivo localizado antes de recomponer la pieza.
 
-### Evaluación — formas y canciones COMPETENTE/FUNCIONAL
+### Evaluación — aprendizaje de repertorio COMPETENTE/FUNCIONAL
 Demuestra que puedes aprender Pieza C combinando fuentes y que la competencia se mantiene más allá de un intento favorable.
 
 ## Jerarquía de prioridades
@@ -88,12 +88,12 @@ Esta unidad no exige:
 - una toma perfecta;
 - improvisación extensa;
 - lectura densa a primera vista;
-- interacción interacción y ensemble funcional con músicos reales;
+- interacción musical funcional con músicos reales;
 - producción o mezcla profesional;
 - velocidad prefijada;
 - memorizar cada golpe del score.
 
-interacción y ensemble aparece sólo como **ventana**: escuchar bajo, señales y arreglo cuando la referencia disponible lo permita.
+La interacción musical aparece sólo como **ventana**: escuchar bajo, señales y arreglo cuando la referencia disponible lo permita.
 
 ## Qué se evalúa
 

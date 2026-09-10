@@ -52,7 +52,7 @@ Cada pieza debe aportar evidencia suficiente para juzgar, según proceda:
 - **condiciones:** declarar ayudas, simplificaciones y referencias utilizadas;
 - **escucha segura:** gestionar carga y exposición durante las tomas.
 
-No todas las competencias groove y variaciones–balance, sonido y orquestación, blues y shuffle–repertorio, C y forma y frase tienen que mostrar el mismo nivel simultáneamente.
+No todas las competencias de groove, fills/orquestación, independencia, sonido/afinación/grabación/monitorización, estilos/repertorio, tiempo y forma/frase tienen que mostrar el mismo nivel simultáneamente.
 
 ## Evidencia mínima por pieza
 

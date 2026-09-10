@@ -100,9 +100,9 @@ Vuelve a `una variable dominante`.
 
 El objetivo no es seleccionar un ganador; es comprobar una hipótesis.
 
-## Preparación de Evaluación
+## Preparación de la evaluación
 
-Elige un problema real y pequeño de balance, sonido y orquestación que puedas demostrar:
+Elige un problema real y pequeño de sonido, balance, afinación, registro o monitorización que puedas demostrar:
 
 `BASELINE → DESCRIPCIÓN → AJUSTE REVERSIBLE → TOMA B → DECISIÓN`.
 

@@ -28,10 +28,11 @@ test('F5 U6 has overview, four lessons and Checkpoint 5C in order', async () => 
   assert.match(fm(await page('check')), /^kind:\s*checkpoint$/m);
 });
 
-test('overview keeps H8 functional and separates source authority', async () => {
+test('overview keeps H8 at minimum and separates source authority', async () => {
   const text = plain(await page('overview'));
-  assert.match(text, /Novedad dominante: H8 funcional/i);
-  assert.match(text, /H8 MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución/i);
+  assert.match(text, /Novedad dominante: H8/i);
+  assert.match(text, /nivel MÍNIMO de H8/i);
+  assert.match(text, /reconocer diferencias básicas de sonido y registrar la propia ejecución/i);
   assert.match(text, /SONIDO FUNCIONAL ≠ INGENIERÍA DE AUDIO/i);
   assert.match(text, /SALUD — NIOSH/i);
   assert.match(text, /TRADICIÓN TÉCNICA \/ FABRICANTE/i);
@@ -57,13 +58,17 @@ test('L2 uses manufacturer guidance without prescribing a universal tuning pitch
   assert.match(text, /MEJORA PARA ESTA TAREA \/ EMPEORA \/ NO ESTÁ CLARO/i);
 });
 
-test('L3 integrates click and backing as monitored references rather than volume targets', async () => {
+test('L3 keeps conventional click core and reduced references optional', async () => {
   const text = plain(await page('l3'));
   assert.match(text, /CLICK ≠ ALGO QUE HAY QUE PERSEGUIR/i);
   assert.match(text, /mínimo nivel que permita seguir la referencia/i);
   assert.match(text, /C4 ya estaba activo antes de U6/i);
+  assert.match(text, /AMPLIACIÓN — referencias menos frecuentes/i);
+  assert.match(text, /click cada dos pulsos/i);
+  assert.match(text, /click en 2 y 4/i);
+  assert.match(text, /pequeños huecos de click/i);
+  assert.match(text, /no requisitos.*Unidad 6/i);
   assert.match(text, /Berklee Online/i);
-  assert.match(text, /no requisitos de Checkpoint 5C/i);
 });
 
 test('L4 uses the course recording protocol as A B evidence', async () => {
@@ -74,15 +79,23 @@ test('L4 uses the course recording protocol as A B evidence', async () => {
   assert.match(text, /Toma B/i);
   assert.match(text, /evidencia de preferencia/i);
   assert.match(text, /smartphone\/micrófono integrado/i);
+  assert.match(text, /sonido, balance, afinación, registro o monitorización/i);
 });
 
 test('Checkpoint 5C certifies H8 minimum only', async () => {
   const text = plain(await page('check'));
-  assert.match(text, /H8 MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución/i);
+  assert.match(text, /nivel MÍNIMO de H8/i);
+  assert.match(text, /reconoce diferencias básicas de sonido y registra su ejecución/i);
   assert.match(text, /aplica al menos un ajuste básico razonado y reversible/i);
+  assert.match(text, /H8 MÍNIMO en una tarea preparada/i);
   assert.match(text, /MANTENER.*REVERTIR.*INCONCLUSO/is);
   assert.match(text, /NO CERTIFICA[\s\S]*afinación profesional/i);
   assert.match(text, /No existe BPM de aprobado/i);
+});
+
+test('U6 never relabels H8 as balance sound and orchestration', async () => {
+  const all = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).join('\n');
+  assert.doesNotMatch(all, /balance, sonido y orquestación/i);
 });
 
 test('U6 intentionally introduces no new notation asset', async () => {

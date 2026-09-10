@@ -51,7 +51,7 @@ La voz principal permanece estable. La caja aparece sólo en dos puntos preparad
 
 La tarea no es “improvisar libremente”, sino mantener la referencia mientras eliges un hueco musicalmente razonable.
 
-## independencia avanzada contextual
+## Independencia contextual
 
 El patrón de ride/hi-hat funciona como capa estable y una voz secundaria cambia. Es exactamente el tipo de independencia musical limitada que busca Fase 5.
 

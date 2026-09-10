@@ -69,7 +69,7 @@ Ejemplo:
 - B: otro fill compromete el retorno;
 - C: la transición se recupera bien.
 
-La dimensión crítica puede ser **fills retorno tras fill**, no “tocar peor en general”.
+La dimensión crítica puede ser **retorno tras fill**, no “tocar peor en general”.
 
 ## 4. No promedies una debilidad crítica
 
@@ -130,6 +130,6 @@ Antes de la evaluación final debes poder responder:
 
 ## Criterio de avance
 
-Avanza al Evaluación cuando el portfolio permite una decisión argumentada sin depender de promedios, perfección ni complejidad artificial.
+Avanza a la evaluación cuando el portfolio permite una decisión argumentada sin depender de promedios, perfección ni complejidad artificial.
 
 **No existe BPM de aprobado.**

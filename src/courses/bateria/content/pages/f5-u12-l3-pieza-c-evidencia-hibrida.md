@@ -83,7 +83,7 @@ Si aparece un error local:
 
 No reinicies salvo que la forma se haya perdido por completo y no puedas localizar una referencia segura.
 
-## 4. balance, sonido y orquestación sigue activo
+## 4. Sonido y grabación siguen activos
 
 Escucha la grabación y responde:
 
@@ -124,15 +124,15 @@ La pregunta es:
 
 Si necesitas reconstruir parte del mapa, eso no invalida automáticamente la competencia. Registra cuánto apoyo fue necesario y si recuperaste la pieza funcionalmente.
 
-## 7. Relación con Evaluación
+## 7. Relación con la evaluación anterior
 
-Evaluación ya certificó **formas y canciones COMPETENTE/FUNCIONAL** cuando existía evidencia suficiente.
+La evaluación de la Unidad 11 ya certificó **aprendizaje de repertorio COMPETENTE/FUNCIONAL** cuando existía evidencia suficiente.
 
-Esta unidad no vuelve a examinar formas y canciones desde cero. Lo reutiliza dentro de una evidencia más amplia de Hito 6.
+Esta unidad no vuelve a examinar el aprendizaje de repertorio desde cero. Lo reutiliza dentro de una evidencia más amplia de Hito 6.
 
 Por tanto:
 
-- una debilidad local no borra automáticamente evaluación final;
+- una debilidad local no borra automáticamente esa certificación;
 - una toma especialmente buena tampoco “sube” por sí sola el nivel;
 - interesa la estabilidad de la representación y su uso dentro de música completa.
 

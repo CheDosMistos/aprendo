@@ -62,10 +62,10 @@ El carril A/B sigue activo, pero esta unidad **no cambia la identidad estilísti
 
 ## AMPLIACIÓN
 
-Si el time permanece sólido, prueba una forma legal más larga o una sección seleccionada de `EST-JAZ-001 — The Art of Bop Drumming` relacionada con charts/time. No es necesario completar el método.
+Si el time permanece sólido, prueba una forma legal más larga o una sección seleccionada de *The Art of Bop Drumming* relacionada con charts/time. No es necesario completar el método.
 
 ## Salida mínima de esta unidad
 
 Mantienes un time sencillo mientras otra voz responde en un contexto limitado y navegas una forma preparada sin perder la referencia.
 
-No hay Evaluación global nuevo y **no existe BPM de aprobado**.
+No hay una evaluación global adicional y **no existe BPM de aprobado**.

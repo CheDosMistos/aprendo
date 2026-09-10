@@ -8,7 +8,7 @@ slug: click-backing-monitorizacion
 kind: lesson
 order: 3
 title: "Click y backing: referencia sin perseguirla"
-summary: "Integra metrónomo y click reducido dentro de balance, sonido y orquestación: click y backing deben ser suficientemente audibles para orientar, no una competición de volumen ni un juez absoluto del tiempo."
+summary: "Integra click convencional y backing dentro del trabajo de sonido y monitorización: deben ser suficientemente audibles para orientar, no una competición de volumen ni un juez absoluto del tiempo."
 duration: 20–30 min
 competencies: [H8, C4, H5, I3, I4, K2, K5, K7]
 rudiments: []
@@ -19,7 +19,7 @@ published: true
 
 Usar click o backing track como **referencia funcional de práctica y registro**, conservando musicalidad, balance y escucha segura.
 
-metrónomo y click reducido ya estaba activo antes de esta unidad. Aquí no “aprendemos el metrónomo desde cero”; aprendemos a **integrarlo en una condición de kit y grabación**.
+El click convencional ya estaba activo antes de esta unidad. Aquí no “aprendemos el metrónomo desde cero”; aprendemos a **integrarlo en una condición de kit y grabación**.
 
 ## CLICK ≠ ALGO QUE HAY QUE PERSEGUIR
 
@@ -87,16 +87,16 @@ Fuentes: [Berklee Online — Practicing Techniques for Musicians](https://online
 
 Esto es una referencia pedagógica, no una demostración de que una configuración concreta de click sea óptima para todas las personas.
 
-## AMPLIACIÓN
+## AMPLIACIÓN — referencias menos frecuentes
 
-Sólo si metrónomo y click reducido ya es estable:
+Sólo si el click convencional ya es estable y la tarea musical lo permite, prueba una única reducción de información cada vez:
 
 - click cada dos pulsos;
 - click en 2 y 4;
 - pequeños huecos de click;
 - backing con menos información rítmica.
 
-Son herramientas diagnósticas, **no requisitos de Evaluación**.
+Estas variantes pertenecen al trabajo de referencias reducidas y son herramientas diagnósticas, **no requisitos de la evaluación de Unidad 6**.
 
 ## MÍNIMO PARA AVANZAR
 

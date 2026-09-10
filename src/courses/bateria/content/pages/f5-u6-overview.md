@@ -8,20 +8,20 @@ slug: fase-5-unidad-6-introduccion
 kind: unit
 order: 0
 title: "Sonido funcional, afinación básica, click y grabación"
-summary: "Construye balance, sonido y orquestación MÍNIMO mediante comparación auditiva, ajuste reversible y grabación diagnóstica, sin convertir la unidad en ingeniería de audio."
+summary: "Construye el nivel MÍNIMO de sonido, afinación, grabación, click y monitorización mediante comparación auditiva, ajuste reversible y grabación diagnóstica, sin convertir la unidad en ingeniería de audio."
 duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H8, A5, H1, C4, I3, I4, K2, K5, K6, K7]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: balance, sonido y orquestación funcional
+## Novedad dominante: sonido, afinación, grabación, click y monitorización
 
 Esta unidad cambia la pregunta. Ya no basta con tocar la figura correcta: hay que **escuchar qué sonido produce realmente el kit, registrar una referencia y tomar una decisión sencilla que pueda comprobarse**.
 
-El recorrido del curso fija el nivel mínimo de balance, sonido y orquestación así:
+El nivel MÍNIMO de sonido, afinación, grabación, click y monitorización exige:
 
-> **balance, sonido y orquestación MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
+> **reconocer diferencias básicas de sonido y registrar la propia ejecución.**
 
 La arquitectura de Fase 5 añade una condición observable: aplicar **al menos un ajuste razonado y reversible**.
 
@@ -72,7 +72,7 @@ Fuentes: [Berklee Online — Practicing Techniques for Musicians](https://online
 2. **Lección 2 — Afinación/amortiguación:** comparar antes de decidir; una variable cada vez.
 3. **Lección 3 — Click y backing:** referencia audible sin perseguirla ni competir en volumen.
 4. **Lección 4 — Grabación A/B:** una pregunta, dos tomas y un correctivo prioritario.
-5. **Evaluación:** balance, sonido y orquestación MÍNIMO mediante comparación y ajuste reversible.
+5. **Evaluación:** demostrar el nivel MÍNIMO mediante comparación, registro y un ajuste reversible.
 
 ## Fronteras
 

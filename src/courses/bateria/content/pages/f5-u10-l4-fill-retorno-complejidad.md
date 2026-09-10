@@ -84,4 +84,4 @@ Fuente: [Berklee — Rod Morgenstein](https://www.berklee.edu/people/rod-morgens
 
 Puedes introducir una variable métrica o de agrupación conocida, mantener groove/forma, ejecutar un fill breve con retorno y explicar si un fallo fue principalmente **métrico, coordinativo, formal o de textura**.
 
-No hay Evaluación global nuevo y **no existe BPM de aprobado**.
+No hay una evaluación global nueva y **no existe BPM de aprobado**.

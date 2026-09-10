@@ -7,7 +7,7 @@ unitSlug: fase-5-unidad-5
 slug: h7-minimo
 kind: checkpoint
 order: 5
-title: "Evaluación — independencia avanzada MÍNIMO"
+title: "Evaluación — independencia MÍNIMO"
 summary: "Comprueba que puedes mantener un ostinato sencillo mientras otra voz varía en una tarea musical concreta, sin convertirlo en una prueba de independencia avanzada."
 duration: 20–30 min
 competencies: [H7, H5, C2, I2, A5, K2, K5, K7]
@@ -19,13 +19,13 @@ published: true
 
 Esta evaluación puede certificar:
 
-> **independencia avanzada MÍNIMO: mantiene un ostinato simple mientras otra voz varía en una tarea musical concreta.**
+> **independencia MÍNIMO: mantiene un ostinato simple mientras otra voz varía en una tarea musical concreta.**
 
-No certifica independencia avanzada.
+No certifica independencia en nivel COMPETENTE/FUNCIONAL ni AVANZADO.
 
 ## Muestra
 
-<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-checkpoint-h7.musicxml" data-score-title="Unidad 5 — Evaluación independencia avanzada MÍNIMO" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f5/u5/f5-u5-checkpoint-h7.musicxml" data-score-title="Unidad 5 — Evaluación independencia MÍNIMO" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 La combinación es nueva respecto a Lección 3, pero utiliza vocabulario conocido. No se presenta como examen de primera vista.
 
@@ -59,11 +59,12 @@ No repitas toda esta unidad si el fallo está localizado en una sola coincidenci
 
 ## CERTIFICA
 
-- **independencia avanzada MÍNIMO en contexto musical preparado.**
+- **independencia MÍNIMO en contexto musical preparado.**
 
 ## NO CERTIFICA
 
-- independencia avanzada COMPETENTE/FUNCIONAL global;
+- independencia COMPETENTE/FUNCIONAL global;
+- independencia AVANZADO;
 - independencia a cuatro extremidades avanzada;
 - sistemas de Chapin, New Breed o 4-Way Coordination;
 - ghost notes como requisito;

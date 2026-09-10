@@ -48,9 +48,9 @@ Si el hi-hat de pie exige demasiada atención:
 
 No conviertas un `chick` fuerte en objetivo estético universal. El balance depende del contexto, el instrumento y la música.
 
-## independencia avanzada contextual
+## Independencia contextual
 
-Aquí independencia avanzada significa mantener una capa principal mientras una segunda capa sencilla se añade sin perturbarla. No es independencia abstracta avanzada.
+Aquí independencia significa mantener una capa principal mientras una segunda capa sencilla se añade sin perturbarla. **No es independencia avanzada.**
 
 ### Laboratorio de retirada
 

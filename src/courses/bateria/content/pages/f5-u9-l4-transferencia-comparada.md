@@ -85,4 +85,4 @@ La unidad queda funcional cuando puedes:
 - detener una mezcla involuntaria y volver al marco correcto;
 - distinguir claramente material tradicional, fuente externa y ejercicio Aprendo.
 
-No se exige dominio estilístico, velocidad concreta ni independencia avanzada. **No hay Evaluación global nuevo y no existe BPM de aprobado.**
+No se exige dominio estilístico, velocidad concreta ni independencia avanzada. **No hay una evaluación global adicional y no existe BPM de aprobado.**

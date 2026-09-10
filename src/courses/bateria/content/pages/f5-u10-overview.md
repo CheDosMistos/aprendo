@@ -63,7 +63,7 @@ Trabajaremos **un `7/8` preparado** y una **agrupación `3+3+2` dentro de `4/4`*
 - `5/4` queda disponible como AMPLIACIÓN si el `7/8` ya resulta funcional;
 - no se certifica transferencia entre estilos ni transferencia estilística autónoma;
 - no existe BPM de aprobado;
-- no hay Evaluación global nuevo.
+- no hay una evaluación global nueva en esta unidad.
 
 ## Salida mínima
 
