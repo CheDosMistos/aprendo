@@ -76,11 +76,23 @@ Compara:
 
 `IDENTIDAD / PULSO / TIMBRE / MOVIMIENTO / BALANCE / INTENCIÓN`.
 
+## AMPLIACIÓN — transferir también desde el oído
+
+Si ya conservas una grabación de tu motivo o de la pieza propia de Fase 3, reutilízala. Si entraste en Fase 4 antes de disponer de esa evidencia, omite esta ventana: **no crea deuda ni bloquea la unidad**.
+
+1. Escucha una vez la grabación sin tocar.
+2. Identifica pulso, subdivisión, acentos principales y contorno de la frase.
+3. Reproduce el motivo en una sola superficie desde lo que recuerdas y oyes.
+4. Contrasta después con tu representación escrita y corrige sólo si has alterado la identidad.
+5. Pasa entonces a la versión orquestada del protocolo principal.
+
+La finalidad no es transcribir de nuevo la pieza: es comprobar que **oído, representación y ejecución siguen describiendo razonablemente el mismo material cuando pasa al kit**.
+
 ## Si tu motivo necesita refuerzo
 
-No inventes otro para “pasar” la lección. Puedes practicar el protocolo con la frase Unidad 2 de tres superficies y volver a tu motivo cuando esté recuperado.
+No inventes otro para “pasar” la lección. Puedes practicar el protocolo con la frase de tres superficies de Unidad 2 y volver a tu motivo cuando esté recuperado.
 
-Eso no convierte el material Unidad 2 en una composición tuya.
+Eso no convierte el material de Unidad 2 en una composición tuya.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -92,9 +104,11 @@ Eso no convierte el material Unidad 2 en una composición tuya.
 - si cambias sticking, lo haces deliberadamente;
 - grabas/escuchas y seleccionas una prioridad real.
 
+La ampliación auditiva no forma parte del mínimo de esta unidad.
+
 ## Frontera
 
-Una orquestación puede sonar a frase o transición, pero **esta unidad no la certifica como fill fills**. Tampoco entrena independencia sistemática avanzada.
+Una orquestación puede sonar a frase o transición, pero **esta unidad no la certifica como fill**. Tampoco entrena independencia sistemática avanzada.
 
 ## Registrar esta práctica
 
