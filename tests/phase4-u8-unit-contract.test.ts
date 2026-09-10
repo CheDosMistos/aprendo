@@ -77,7 +77,7 @@ test('L3 requires a musical reason and preserves accent-surface distinction', as
   assert.match(l3, /No hace falta crear un nuevo MusicXML/i);
 });
 
-test('L4 transfers a real previous personal motif without inventing its score', async () => {
+test('L4 transfers a real previous personal motif without inventing its score and preserves an optional auditory transfer', async () => {
   const l4 = plain(await page('l4'));
   assert.match(l4, /tu motivo es el material fuente/i);
   assert.match(l4, /Inventar uno nuevo y presentarlo como tu composición anterior rompería la continuidad/i);
@@ -85,7 +85,13 @@ test('L4 transfers a real previous personal motif without inventing its score', 
   assert.match(l4, /VERSIÓN BASE → VERSIÓN ORQUESTADA → VERSIÓN BASE/i);
   assert.match(l4, /bombo 1 y 3/i);
   assert.match(l4, /chick de hi-hat 2 y 4/i);
-  assert.match(l4, /U8 no la certifica como fill H6/i);
+  assert.match(l4, /AMPLIACIÓN — transferir también desde el oído/i);
+  assert.match(l4, /Si ya conservas una grabación de tu motivo o de la pieza propia de Fase 3/i);
+  assert.match(l4, /no crea deuda ni bloquea la unidad/i);
+  assert.match(l4, /oído, representación y ejecución siguen describiendo razonablemente el mismo material/i);
+  assert.match(l4, /la ampliación auditiva no forma parte del mínimo/i);
+  assert.match(l4, /esta unidad no la certifica como fill/i);
+  assert.doesNotMatch(l4, /fill fills/i);
   assert.doesNotMatch(l4, /data-notation-score/);
 });
 
