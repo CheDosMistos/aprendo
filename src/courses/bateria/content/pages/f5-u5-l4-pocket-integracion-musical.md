@@ -8,7 +8,7 @@ slug: pocket-integracion-musical
 kind: lesson
 order: 4
 title: "Pocket: sostener la función durante una frase"
-summary: "Convierte la tarea independencia avanzada en una frase musical: conserva el ostinato, dosifica variación y usa grabación para evaluar relación entre capas."
+summary: "Convierte la tarea de independencia contextual en una frase musical: conserva el ostinato, dosifica variación y usa grabación para evaluar relación entre capas."
 duration: 20–30 min
 competencies: [H5, H7, I2, G2, I3, K2, K5, K7]
 rudiments: []
@@ -69,7 +69,7 @@ No uses una toma favorable como prueba suficiente de competencia retenida.
 
 Dedica una parte separada de la sesión a Pieza B de Unidad 4. **No conviertas su shuffle en funk** para “aplicar esta unidad”. El carril de repertorio se mantiene, pero cada pieza conserva la función musical que ya tenía.
 
-## MÍNIMO PARA IR AL Evaluación
+## MÍNIMO PARA PASAR A LA EVALUACIÓN
 
 - sostienes al menos 8 compases sin que la variación destruya el ostinato;
 - el balance sigue intencional;
