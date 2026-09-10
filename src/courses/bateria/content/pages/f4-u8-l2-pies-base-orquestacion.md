@@ -58,7 +58,7 @@ No es una prueba de primera vista: el material rítmico ya es conocido. La noved
 3. Toca una pasada mirando la notación y conservando el pulso.
 4. Si leer hace colapsar el patrón, vuelve a la construcción por capas y prueba de nuevo después.
 
-Esta ampliación introduce lectura elemental de drumset; **no forma parte del requisito del checkpoint de Unidad 8**.
+Esta ampliación introduce lectura elemental de drumset; **no forma parte de los requisitos de la evaluación de Unidad 8**.
 
 ## Diagnóstico
 
