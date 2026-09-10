@@ -7,8 +7,8 @@ unitSlug: fase-5-unidad-5
 slug: h7-capa-fija-voz-variable
 kind: lesson
 order: 3
-title: "independencia avanzada contextual: una capa fija mientras otra voz cambia"
-summary: "Abre la independencia funcional con una tarea musical acotada: time y backbeat permanecen mientras el bombo cambia."
+title: "Independencia contextual: una capa fija mientras otra voz cambia"
+summary: "Abre el nivel MÍNIMO de independencia con una tarea musical acotada: time y backbeat permanecen mientras el bombo cambia."
 duration: 20–30 min
 competencies: [H7, H5, C2, I2, A5, K2, K5, K7]
 rudiments: []
@@ -30,7 +30,7 @@ En ambos compases permanecen:
 
 Sólo cambia el **bombo**.
 
-Esta reducción es intencional: independencia avanzada no necesita nacer con cuatro voces altamente variables.
+Esta reducción es intencional: la independencia no necesita nacer con cuatro voces altamente variables.
 
 ## Protocolo
 
@@ -44,7 +44,7 @@ Si el ostinato se deforma, no “luches” contra todas las capas. Diagnostica q
 
 ## Diferencia con linear drumming
 
-PAS define la interpretación lineal como aquella donde no suenan dos partes a la vez. Es un recurso real y puede aparecer más adelante, pero **no es la definición de independencia avanzada ni de funk**. Nuestro ejercicio permite coincidencias porque la competencia objetivo es conservar una capa mientras otra varía.
+PAS define la interpretación lineal como aquella donde no suenan dos partes a la vez. Es un recurso real y puede aparecer más adelante, pero **no es la definición de independencia ni de funk**. Nuestro ejercicio permite coincidencias porque la competencia objetivo es conservar una capa mientras otra varía.
 
 Fuente de contraste: [PAS — Groove of the Month: Linear Sixteenths](https://pas.org/pas-blog/groove-of-the-month-linear-sixteenths/).
 
@@ -60,7 +60,7 @@ No permanezcas toda la sesión aislando extremidades. En cuanto A/B sea reconoci
 - el cambio no exige tensión creciente;
 - puedes decir qué voz permanecía y cuál variaba.
 
-Esto **prepara** independencia avanzada MÍNIMO; todavía no lo certifica.
+Esto **prepara el nivel MÍNIMO de independencia**; todavía no lo certifica.
 
 ## Registrar esta práctica
 
