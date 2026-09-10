@@ -23,7 +23,7 @@ El criterio de cierre específico de Fase 4 aprobado es:
 
 > **Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso.**
 
-Este criterio se integra en el **Hito global 5 — Transferencia al kit** del Plan General:
+Este criterio se integra en el **Hito global 5 — Transferencia al kit** aprobado:
 
 > **Convierte material conocido de pad en orquestación y coordinación básica.**
 
