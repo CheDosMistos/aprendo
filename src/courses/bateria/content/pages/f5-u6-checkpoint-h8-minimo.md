@@ -7,7 +7,7 @@ unitSlug: fase-5-unidad-6
 slug: h8-minimo
 kind: checkpoint
 order: 5
-title: "Evaluación — balance, sonido y orquestación MÍNIMO"
+title: "Evaluación — sonido, afinación, grabación, click y monitorización MÍNIMO"
 summary: "Comprueba que puedes reconocer y registrar una diferencia sonora y aplicar un ajuste básico, razonado y reversible."
 duration: 20–30 min
 competencies: [H8, A5, H1, C4, K2, K5, K6, K7]
@@ -17,9 +17,9 @@ published: true
 
 ## Qué certifica
 
-Esta evaluación puede certificar:
+Esta evaluación puede certificar el nivel MÍNIMO de sonido, afinación, grabación, click y monitorización:
 
-> **balance, sonido y orquestación MÍNIMO: reconoce diferencias básicas de sonido y registra su ejecución.**
+> **reconoce diferencias básicas de sonido y registra su ejecución.**
 
 La operacionalización de Fase 5 añade:
 
@@ -95,11 +95,11 @@ Debe observarse razonablemente que:
 
 ## CERTIFICA
 
-- **balance, sonido y orquestación MÍNIMO en una tarea preparada.**
+- **sonido, afinación, grabación, click y monitorización MÍNIMO en una tarea preparada.**
 
 ## NO CERTIFICA
 
-- balance, sonido y orquestación COMPETENTE/FUNCIONAL global;
+- sonido, afinación, grabación, click y monitorización COMPETENTE/FUNCIONAL global;
 - afinación profesional;
 - afinación por frecuencias o notas prescritas;
 - microfonía multipista;
