@@ -37,7 +37,7 @@ test('U10 integra las competencias canónicas de chart, repertorio, interacción
 test('U10 construye sobre U3, U6, U7, U8 y U9 sin adjudicar autonomía a U9',()=>{
   for(const dep of ['U3','U6','U7','U8','U9']) assert.match(docs[0],new RegExp(`\\b${dep}\\b`));
   assert.match(docs[0],/repertorio trabajado mediante escucha, transcripción y análisis/i);
-  assert.match(docs[0],/no se da por certificada por haber terminado la U9/i);
+  assert.match(docs[0],/no se da por certificada por haber terminado la Unidad 9/i);
   assert.match(docs[3],/Desde el inicio de Fase 6 ya has utilizado esta lógica/);
   assert.doesNotMatch(docs[3],/U9 ya desarrolló/);
 });
