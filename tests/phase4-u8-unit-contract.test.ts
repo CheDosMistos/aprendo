@@ -52,13 +52,18 @@ test('L1 reuses verified U2 timbre scores and adds no feet', async () => {
   assert.match(l1, /ACENTO ≠ SUPERFICIE/i);
 });
 
-test('L2 adds only the known foot base under the known hand orchestration', async () => {
+test('L2 adds only the known foot base and restores simple multi-voice reading as a non-gating expansion', async () => {
   const l2 = plain(await page('l2'));
+  assert.match(fm(await page('l2')), /competencies: \[[^\]]*D7[^\]]*\]/i);
   assert.match(l2, /f4-u8-l2-orchestration-feet\.musicxml/);
-  assert.match(l2, /ocho corcheas exactamente como U2\.L4/i);
+  assert.match(l2, /ocho corcheas exactamente como en Unidad 2, Lección 4/i);
   assert.match(l2, /bombo: 1 y 3/i);
   assert.match(l2, /pedal hi-hat: 2 y 4/i);
   assert.match(l2, /Los pies no reciben vocabulario nuevo/i);
+  assert.match(l2, /AMPLIACIÓN — lectura sencilla de varias voces/i);
+  assert.match(l2, /no es una prueba de primera vista/i);
+  assert.match(l2, /LECTURA MULTIVOZ DEL MATERIAL CONOCIDO/i);
+  assert.match(l2, /no forma parte de los requisitos de la evaluación de Unidad 8/i);
   assert.match(l2, /No existe BPM de aprobado/i);
 });
 
@@ -72,7 +77,7 @@ test('L3 requires a musical reason and preserves accent-surface distinction', as
   assert.match(l3, /No hace falta crear un nuevo MusicXML/i);
 });
 
-test('L4 transfers a real previous personal motif without inventing its score', async () => {
+test('L4 transfers a real previous personal motif without inventing its score and preserves an optional auditory transfer', async () => {
   const l4 = plain(await page('l4'));
   assert.match(l4, /tu motivo es el material fuente/i);
   assert.match(l4, /Inventar uno nuevo y presentarlo como tu composición anterior rompería la continuidad/i);
@@ -80,7 +85,13 @@ test('L4 transfers a real previous personal motif without inventing its score', 
   assert.match(l4, /VERSIÓN BASE → VERSIÓN ORQUESTADA → VERSIÓN BASE/i);
   assert.match(l4, /bombo 1 y 3/i);
   assert.match(l4, /chick de hi-hat 2 y 4/i);
-  assert.match(l4, /U8 no la certifica como fill H6/i);
+  assert.match(l4, /AMPLIACIÓN — transferir también desde el oído/i);
+  assert.match(l4, /Si ya conservas una grabación de tu motivo o de la pieza propia de Fase 3/i);
+  assert.match(l4, /no crea deuda ni bloquea la unidad/i);
+  assert.match(l4, /oído, representación y ejecución siguen describiendo razonablemente el mismo material/i);
+  assert.match(l4, /la ampliación auditiva no forma parte del mínimo/i);
+  assert.match(l4, /esta unidad no la certifica como fill/i);
+  assert.doesNotMatch(l4, /fill fills/i);
   assert.doesNotMatch(l4, /data-notation-score/);
 });
 

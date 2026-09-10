@@ -57,7 +57,17 @@ Esta unidad puede certificar **fills MÍNIMO**: insertar un fill sencillo sin pe
 
 Esta unidad **no certifica fills COMPETENTE/FUNCIONAL ni independencia avanzada**. La ventana de pie izquierdo es breve, escrita y opcional.
 
-5/4 y 7/8 pueden reaparecer sólo como AMPLIACIÓN si ya están funcionales; no forman parte de la evaluación ni del Hito 5.
+## AMPLIACIÓN — transferir el principio a 5/4 o 7/8
+
+Sólo si ya tienes funcional una de esas métricas, lleva el mismo principio a una frase conocida de 5/4 o 7/8:
+
+1. usa un groove o frase que ya conozcas bien en esa métrica;
+2. inserta un fill breve al final de la frase;
+3. conserva material rítmico deliberadamente simple;
+4. ejecuta también el siguiente tiempo 1 y continúa el groove;
+5. si la métrica irregular se convierte en una segunda novedad dominante, vuelve a 4/4.
+
+La tarea transfiere `fill breve → retorno al 1`; **no enseña 5/4 o 7/8 desde cero**. No requiere MusicXML nuevo y no forma parte de fills MÍNIMO ni del Hito 5.
 
 ## Qué se evalúa
 

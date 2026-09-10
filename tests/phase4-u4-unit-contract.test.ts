@@ -43,6 +43,8 @@ test('overview keeps H3 parallel to H2 and defines the approved minimum', async 
   assert.match(overview, /H2 bombo y H3 hi-hat de pie ramas paralelas/i);
   assert.match(overview, /mantener aperturas\/cierres u ostinatos simples/i);
   assert.match(overview, /Heel-up y heel-down.*TRADICIÓN PEDAGÓGICA \/ OPCIONES TÉCNICAS/i);
+  assert.match(overview, /zildjian\.com\/education\/beginner-drum-set-lessons\/zildjian-drum-set-method-lesson-08/i);
+  assert.match(overview, /demostración pedagógica/i);
   assert.match(overview, /no certifica H4/i);
   assert.match(overview, /no exige bombo/i);
 });
