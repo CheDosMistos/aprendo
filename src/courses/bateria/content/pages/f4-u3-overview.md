@@ -43,6 +43,12 @@ Por eso evaluaremos:
 
 Heel-down y heel-up pueden compararse como **opciones técnicas de tradición pedagógica**. No necesitas dominar ambas para avanzar.
 
+## Demostración audiovisual verificada
+
+Drumeo — **Bass Drum Techniques**: https://www.youtube.com/watch?v=7hnTj--sThM
+
+Úsala para observar heel-down y heel-up y el movimiento general del pedal. Es una **demostración pedagógica**, no evidencia de que una de las dos opciones sea universalmente superior ni un ejercicio obligatorio de esta unidad.
+
 ## Recorrido de la unidad
 
 ### Lección 1 — Pedal, posición y primer golpe simple
