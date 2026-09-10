@@ -62,4 +62,4 @@ Puedes reproducir **al menos un elemento esencial correctamente contextualizado*
 - qué instrumento o capa representa;
 - qué parte del ejercicio es tradición documentada y qué parte es adaptación Aprendo.
 
-No se exige dominar samba, mambo, salsa ni el universo “Latin”. **No existe BPM de aprobado y no hay Evaluación global nuevo.**
+No se exige dominar samba, mambo, salsa ni el universo “Latin”. **No existe BPM de aprobado y no hay una evaluación global adicional.**
