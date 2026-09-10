@@ -38,7 +38,7 @@ Esta unidad incluye material que rompe deliberadamente una expectativa simétric
 
 ## Fuente original antes que repertorio
 
-Las tareas core usan **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO**. Así podemos saber exactamente qué reaparece, qué cambia y dónde está cada frontera sin atribuir intenciones a un músico ni publicar material protegido.
+Las tareas nucleares usan **EJERCICIOS ORIGINALES CREADOS PARA ESTE CURSO**. Así podemos saber exactamente qué reaparece, qué cambia y dónde está cada frontera sin atribuir intenciones a un músico ni publicar material protegido.
 
 La aplicación a repertorio real llegará progresivamente y cada obra se verificará por separado.
 

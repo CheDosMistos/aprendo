@@ -7,7 +7,7 @@ unitSlug: fase-3-unidad-6
 slug: puerta-g2-hacia-improvisacion
 kind: checkpoint
 order: 6
-title: "Evaluación — Puerta desarrollo motívico hacia improvisación"
+title: "Evaluación — Puerta de desarrollo motívico hacia la improvisación"
 summary: "Demuestra desarrollo motívico mínimo sobre material nuevo: establece A, aplica una transformación consciente, escribe A’, toca ambas versiones y explica qué se conserva y qué cambia."
 duration: 20–30 min
 competencies: [G2, G1, D6, C1, C2, F2, K2, K5, K6, K8]
@@ -109,7 +109,7 @@ Combinas varias transformaciones, exploras aumentación/disminución o retrograd
 ## DECISIÓN
 
 ### CONTINUAR A Unidad 7
-desarrollo motívico mínimo está disponible. Puedes empezar a usar una transformación bajo restricciones temporales.
+El desarrollo motívico mínimo está disponible. Puedes empezar a usar una transformación bajo restricciones temporales.
 
 ### CONTINUAR + CORRECTIVO
 La operación está comprendida, pero una dimensión concreta —notación, continuidad, retorno o terminología— necesita apoyo localizado.
@@ -118,6 +118,6 @@ La operación está comprendida, pero una dimensión concreta —notación, cont
 A no es estable o la transformación no puede distinguirse del accidente. Reduce la longitud y repite una sola operación.
 
 ### DETENER CARGA
-Aparece una señal de salud/carga según el sistema `06`.
+Aparece una señal de salud/carga según el sistema general de práctica y evaluación.
 
-Esta puerta **no certifica improvisación funcional composición de fills y secciones**. Sólo verifica que Unidad 7 tiene material transformable y una operación consciente sobre la que trabajar.
+Esta puerta **no certifica todavía una improvisación funcional**. Sólo verifica que Unidad 7 tiene material transformable y una operación consciente sobre la que trabajar.

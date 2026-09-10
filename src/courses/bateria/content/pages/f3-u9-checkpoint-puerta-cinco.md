@@ -8,7 +8,7 @@ slug: puerta-cinco
 kind: checkpoint
 order: 6
 title: "Evaluación — Puerta Cinco: 5/4 funcional básico"
-summary: "Demuestra 5/4 funcional básico con material nuevo sin declarar todavía métricas impares y mixtas globalmente funcional."
+summary: "Demuestra 5/4 funcional básico con material nuevo sin declarar todavía como funcional la competencia global de métricas impares y mixtas."
 duration: 25–30 min
 competencies: [J3, C1, C2, F2, D4, D6, E4, E5, G3, G4, K2, K5, K6, K8]
 rudiments: []
@@ -17,7 +17,7 @@ published: true
 
 ## Qué demuestra esta puerta
 
-La salida de esta unidad es **5/4 funcional básico; métricas impares y mixtas continúa EN DESARROLLO** hasta incorporar otras métricas, especialmente 7/8 en Unidad 10.
+La salida de esta unidad es **5/4 funcional básico; la competencia de métricas impares y mixtas continúa EN DESARROLLO** hasta incorporar otras métricas, especialmente 7/8 en Unidad 10.
 
 ## Material nuevo de lectura
 

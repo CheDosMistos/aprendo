@@ -9,7 +9,7 @@ kind: unit
 order: 0
 title: "Motivo, identidad, repetición y contraste"
 summary: "Pasa de reconocer motivos a crearlos: construye una idea breve rastreable, repítela, contrástala, hazla volver y explica qué mantiene su identidad."
-duration: Unidad flexible · 4 lecciones + Puerta motivo
+duration: Unidad flexible · 4 lecciones + Puerta del motivo
 competencies: [G1, C1, D6, F3, D1, D2, D3, D4, D5, E3, E4, E5, K2, K5, K6, K8, B7]
 rudiments: []
 published: true
@@ -62,7 +62,7 @@ Usas `A → A → B → A` como andamiaje para construir una frase con identidad
 ### Lección 4 — Pregunta, respuesta y memoria motívica
 Mantienes una pregunta A recuperable después de una respuesta y separas memoria, continuidad y relación musical.
 
-### Evaluación — Puerta motivo hacia transformación
+### Evaluación — Puerta del motivo hacia la transformación
 Creas material propio nuevo, demuestras repetición/contraste/retorno y clasificas una variante externa antes de entrar en desarrollo motívico.
 
 ## Evaluación

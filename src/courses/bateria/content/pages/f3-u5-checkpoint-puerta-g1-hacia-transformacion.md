@@ -7,7 +7,7 @@ unitSlug: fase-3-unidad-5
 slug: puerta-g1-hacia-transformacion
 kind: checkpoint
 order: 5
-title: "Evaluación — Puerta motivo hacia transformación"
+title: "Evaluación — Puerta del motivo hacia la transformación"
 summary: "Demuestra que existe un motivo propio rastreable: A escrito y tocable, repetición, contraste, retorno, explicación de identidad y clasificación razonada de una variante nueva."
 duration: 20–30 min
 competencies: [G1, C1, D6, F3, D4, E3, E5, K2, K5, K6, K8]
@@ -17,9 +17,9 @@ published: true
 
 ## Función de la evaluación
 
-Unidad 6 sólo puede estudiar transformaciones si existe primero **algo reconocible que transformar**. Esta evaluación comprueba esa base motivo.
+Unidad 6 sólo puede estudiar transformaciones si existe primero **algo reconocible que transformar**. Esta evaluación comprueba esa base motívica.
 
-No exige todavía desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambio de sticking ni ninguna otra transformación desarrollo motívico concreta.
+No exige todavía desplazamiento, reagrupación, aumentación/disminución, retrogradación, cambio de sticking ni ninguna otra transformación concreta de desarrollo motívico.
 
 ## Regla crítica
 
@@ -102,7 +102,7 @@ Justifica:
 El diseño pretendido es **RELACIONADO**: C y X conservan los siete primeros lugares de la rejilla; X añade un ataque en la última corchea. La finalidad no es enseñar que “un ataque nuevo siempre significa A’”, sino comprobar que puedes localizar lo conservado y lo cambiado sin usar un porcentaje universal.
 </details>
 
-## Evidencias motivo
+## Evidencias del motivo
 
 Comprueba que dispones de:
 
@@ -129,15 +129,15 @@ Comprueba que dispones de:
 ## DECISIÓN
 
 ### CONTINUAR A Unidad 6
-motivo está disponible de forma suficiente y existe un motivo rastreable sobre el que aplicar transformaciones conscientes.
+El motivo está disponible de forma suficiente y existe un motivo rastreable sobre el que aplicar transformaciones conscientes.
 
 ### CONTINUAR + CORRECTIVO
 Una dimensión concreta —notación, memoria, continuidad o explicación— necesita apoyo, pero A sigue siendo reconocible y reutilizable.
 
 ### REDUCIR NOVEDAD
-No puedes todavía establecer una versión A suficientemente estable. Reduce longitud/densidad y repite la Puerta motivo antes de añadir operaciones desarrollo motívico.
+No puedes todavía establecer una versión A suficientemente estable. Reduce longitud/densidad y repite la puerta del motivo antes de añadir operaciones de desarrollo motívico.
 
 ### DETENER CARGA
-Aparece una señal de salud/carga según el sistema `06`.
+Aparece una señal de salud/carga según el sistema general de práctica y evaluación.
 
 **AVANZADO no es requisito para Unidad 6.** Esta puerta verifica identidad motívica básica, no creatividad excepcional ni dominio de transformaciones.

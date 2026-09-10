@@ -42,7 +42,7 @@ Y una segunda frontera es igual de importante:
 
 ## NO SE CERTIFICA TODAVÍA
 
-Esta unidad no declara métricas impares y mixtas globalmente funcional porque todavía falta consolidar otra métrica impar, especialmente 7/8 en Unidad 10. Tampoco introduce quintillos funcionales, polirritmia, polimetría ni modulación métrica.
+Esta unidad no declara todavía como funcional la competencia global de métricas impares y mixtas, porque falta consolidar otra métrica impar, especialmente 7/8 en Unidad 10. Tampoco introduce quintillos funcionales, polirritmia, polimetría ni modulación métrica.
 
 ## Secuencia
 
@@ -53,4 +53,4 @@ Esta unidad no declara métricas impares y mixtas globalmente funcional porque t
 5. crear en 5/4 y comparar 5/8 como ampliación;
 6. Puerta Cinco con material nuevo.
 
-No hay grader automático de “sentir 5/4”. Se evalúan por separado métrica, continuidad, lectura, escritura, oído, creatividad, ayudas y precisión terminológica.
+No hay una evaluación automática de “sentir 5/4”. Se evalúan por separado métrica, continuidad, lectura, escritura, oído, creatividad, ayudas y precisión terminológica.

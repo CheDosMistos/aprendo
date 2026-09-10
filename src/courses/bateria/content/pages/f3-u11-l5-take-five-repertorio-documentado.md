@@ -32,12 +32,12 @@ Para la versión oficial enlazada se ha verificado:
 - saxo alto: **Paul Desmond**;
 - métrica: **5/4**.
 
-La web oficial de Dave Brubeck documenta que el trabajo de Joe Morello con un beat en 5/4 formó parte de la génesis del tema. La Library of Congress también documenta el 5/4 y el papel de Morello.
+La Library of Congress documenta el 5/4 y que Joe Morello aportó el groove. La web oficial actual de Dave Brubeck recoge a Paul Desmond como compositor y que la pieza fue concebida alrededor de un solo de batería para Morello.
 
 ### Fuentes verificadas
 
 - [Escucha oficial — Columbia/Legacy en el canal oficial de Dave Brubeck](https://www.youtube.com/watch?v=QsHc2IGmk60)
-- [Dave Brubeck — historia oficial de Take Five y Time Out](https://www.davebrubeckjazz.com/take-five-%26-time-out)
+- [Dave Brubeck — Time Out: contexto de Take Five](https://www.davebrubeck.com/news/jazziz-magazine-time-out)
 - [Library of Congress — Song Stories: Time Out for Take Five](https://blogs.loc.gov/nls-music-notes/2020/05/song-stories-time-out-for-take-five/)
 
 ## EJEMPLO ANALÍTICO — tu trabajo

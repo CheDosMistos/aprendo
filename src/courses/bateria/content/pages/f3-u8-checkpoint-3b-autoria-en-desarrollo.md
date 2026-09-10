@@ -17,9 +17,9 @@ published: true
 
 ## Qué demuestra esta evaluación
 
-Evaluación observa **autoría en desarrollo**.
+Esta evaluación observa **autoría en desarrollo**.
 
-El mínimo composición de piezas aprobado es:
+El mínimo para composición rítmica breve es:
 
 > **crear 1–4 compases coherentes y reproducibles.**
 
