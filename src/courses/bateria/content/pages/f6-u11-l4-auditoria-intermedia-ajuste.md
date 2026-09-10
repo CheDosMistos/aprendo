@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: auditoria-intermedia-ajuste
 kind: lesson
 order: 4
-title: "Esta unidad.Lección 4 — Auditoría intermedia: cambiar de estrategia cuando la evidencia lo exige"
+title: "Auditoría intermedia: cambiar de estrategia cuando la evidencia lo exige"
 summary: "Compara predicción y resultado, distingue fracaso de hipótesis de fracaso del proyecto y modifica estrategia, recurso o alcance cuando los datos dejan de apoyar el plan inicial."
 duration: 1–2 sesiones
 competencies: [K5, K6, K7, K8, F7, I3, I4]

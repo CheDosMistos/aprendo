@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: ejecutar-plan-propio
 kind: lesson
 order: 3
-title: "Esta unidad.Lección 3 — Ejecutar un plan propio sin convertirlo en una obligación rígida"
+title: "Ejecutar un plan propio sin convertirlo en una obligación rígida"
 summary: "Sostén el proyecto entre sesiones, alterna modos de práctica según necesidad y registra sólo las decisiones que puedan cambiar el siguiente paso."
 duration: varias sesiones
 competencies: [K3, K4, K5, K6, K7, K8, I3, I4]

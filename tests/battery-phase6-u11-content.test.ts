@@ -83,6 +83,9 @@ test('U11 ya no contiene la reconciliación ficticia 6F–6H ni artefactos dupli
   assert.doesNotMatch(real,/Proyecto autónomo Proyecto autónomo/i);
   assert.doesNotMatch(real,/Esta unidad\.Lección/i);
   assert.doesNotMatch(real,/Unidad 9–esta unidad/i);
+  assert.doesNotMatch(real,/proyecto Proyecto autónomo/i);
+  assert.doesNotMatch(real,/proyecto esta unidad/i);
+  assert.doesNotMatch(real,/portafolio los cuatro carriles del portafolio/i);
 });
 
 test('Fuentes marco de autorregulación siguen trazables',()=>{
