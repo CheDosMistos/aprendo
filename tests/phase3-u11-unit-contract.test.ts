@@ -75,7 +75,7 @@ test('Take Five is linked as documented repertoire without reproducing a local s
   assert.match(l5, /## EJEMPLO DOCUMENTADO/); assert.match(l5, /## EJEMPLO ANALÍTICO/);
   assert.match(l5, /Paul Desmond/); assert.match(l5, /Joe Morello/); assert.match(l5, /Eugene Wright/); assert.match(l5, /5\/4/);
   assert.match(l5, /https:\/\/www\.youtube\.com\/watch\?v=QsHc2IGmk60/);
-  assert.match(l5, /davebrubeckjazz\.com/); assert.match(l5, /blogs\.loc\.gov/);
+  assert.match(l5, /davebrubeck\.com/); assert.match(l5, /blogs\.loc\.gov/);
   assert.doesNotMatch(l5, /data-notation-score|\.musicxml/);
   assert.match(l5, /No reproduce aquí la partitura, el audio master ni una transcripción extensa/);
 });
