@@ -44,6 +44,8 @@ test('overview makes H2 minimum and non-dogmatic pedal boundary explicit', async
   assert.match(overview, /MÍNIMO de H2 no es velocidad/i);
   assert.match(overview, /golpes controlados y consistentes en patrones básicos/i);
   assert.match(overview, /no demuestra que heel-down, heel-up, heel-toe, slide.*universalmente superior/i);
+  assert.match(overview, /youtube\.com\/watch\?v=7hnTj--sThM/i);
+  assert.match(overview, /demostración pedagógica/i);
   assert.match(overview, /no certifica H4/i);
 });
 
