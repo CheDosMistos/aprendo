@@ -7,7 +7,7 @@ unitSlug: fase-5-unidad-11
 slug: i3-funcional
 kind: checkpoint
 order: 5
-title: "Evaluación — formas y canciones COMPETENTE/FUNCIONAL"
+title: "Evaluación — aprendizaje de repertorio COMPETENTE/FUNCIONAL"
 summary: "Comprueba que puedes aprender una pieza adecuada combinando escucha, lectura, memoria y análisis, conservar su forma y recuperar errores sin depender de un único intento favorable."
 duration: 25–35 min
 competencies: [I3, I4, D7, D5, H5, H6, H8, F3, K2, K5, K6]
@@ -19,7 +19,7 @@ published: true
 
 Esta evaluación puede certificar:
 
-> **formas y canciones COMPETENTE/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis.**
+> **aprendizaje de repertorio COMPETENTE/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis.**
 
 La evidencia se construye con Pieza C o con una evidencia equivalente de dificultad adecuada y procedencia legal.
 
@@ -93,7 +93,7 @@ Hay evidencia de aprendizaje funcional cuando:
 - existe recuperación razonable ante un error local;
 - un correctivo localizado puede reintegrarse a la forma completa.
 
-## COMPETENTE/FUNCIONAL — certificación evaluación final
+## COMPETENTE/FUNCIONAL — certificación de esta evaluación
 
 Además de lo anterior:
 
@@ -107,9 +107,9 @@ Además de lo anterior:
 
 Esta evaluación **NO CERTIFICA**:
 
-- repertorio COMPETENTE/FUNCIONAL global en varias piezas;
+- interpretación de canciones completas COMPETENTE/FUNCIONAL global en varias piezas;
 - **Hito 6**;
-- interacción y ensemble interacción musical funcional;
+- interacción musical FUNCIONAL;
 - lectura de sesión avanzada o a primera vista;
 - improvisación extensa;
 - independencia avanzada;
@@ -121,7 +121,7 @@ Esta evaluación **NO CERTIFICA**:
 
 ## Decisión
 
-- **AVANZA:** formas y canciones muestra estabilidad funcional y la pieza puede entrar en la evidencia final de Fase 5.
+- **AVANZA:** el aprendizaje de repertorio muestra estabilidad funcional y la pieza puede entrar en la evidencia final de Fase 5.
 - **AVANZA CON CORRECTIVO:** la combinación de fuentes funciona, pero una transición, recuperación o dimensión secundaria necesita mantenimiento.
 - **MANTÉN esta unidad:** una sola fuente sigue sosteniendo casi todo el aprendizaje o la forma se pierde sistemáticamente ante errores locales.
 
