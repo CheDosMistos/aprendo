@@ -8,7 +8,7 @@ slug: fase-3-unidad-3-introduccion
 kind: unit
 order: 0
 title: "Transcripción corta y método de verificación"
-summary: "Introduce transcripción real como reconstrucción iterativa de una fuente: formular hipótesis, escuchar con una pregunta, revisar, tocar y validar sin rellenar dudas por intuición."
+summary: "Introduce la transcripción real como reconstrucción iterativa de una fuente: formular hipótesis, escuchar con una pregunta, revisar, tocar y validar sin rellenar dudas por intuición."
 duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [E3, E4, E5, E6, D4, D5, D6, F2, C1, C2, K2, K3, K5, K6, K8]
 rudiments: []
@@ -45,7 +45,7 @@ El objetivo no es llenar todos los huecos. El mínimo de transcripción real exi
 ## Método de verificación
 
 1. escucha la fuente completa al 100 %;
-2. propone pulso, subdivisión y marco métrico;
+2. propón pulso, subdivisión y marco métrico;
 3. conserva una primera hipótesis;
 4. formula una pregunta concreta;
 5. usa otra escucha completa o un chunk para responderla;
@@ -69,7 +69,7 @@ El 80 % sólo se habilita después de una escucha a 100 %. Se usa si responde un
 ### Lección 4 — Transcripción útil y trazable
 Decides qué nivel de detalle necesita una transcripción para ser útil: esqueleto ejecutable, mapa de capas, incertidumbre y ayudas.
 
-### Evaluación — Primera evidencia transcripción real
+### Evaluación — Primera evidencia de transcripción real
 Una fuente independiente comprueba el proceso completo sin exigir canción completa, alta velocidad ni cero dudas.
 
 ## ESENCIAL AHORA
