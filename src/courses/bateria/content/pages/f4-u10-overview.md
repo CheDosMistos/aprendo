@@ -19,9 +19,15 @@ published: true
 
 Esta unidad no añade una técnica nueva. Reúne lo que ya quedó disponible en Unidades 1–9.
 
-El Hito 5 aprobado es literal:
+El criterio de cierre específico de Fase 4 aprobado es:
 
 > **Mantener un groove básico estable mientras introduce pequeñas variaciones y fills sin perder forma ni pulso.**
+
+Este criterio se integra en el **Hito global 5 — Transferencia al kit** del Plan General:
+
+> **Convierte material conocido de pad en orquestación y coordinación básica.**
+
+Por eso la evaluación exige tanto la ejecución integrada como explicar qué material previo se ha transferido al kit.
 
 La prueba no consiste en tocar más rápido ni en añadir más notas.
 
@@ -51,8 +57,8 @@ Confirmar que el fill entra, dura y aterriza sin convertir la transición en exh
 ### Lección 4 — Ensayo completo, grabación y diagnóstico
 Tocar la forma integrada `A → VARIACIÓN → A → FILL → A`, revisar una toma y corregir 1–2 prioridades.
 
-### Evaluación — HITO 5
-Demostrar el Hito superior con una versión accesible y explicar qué material previo fue transferido al kit.
+### Evaluación — Hito 5: transferencia al kit
+Demostrar el criterio de cierre de Fase 4 y aportar evidencia de transferencia de material previo al kit.
 
 ## Qué NO exige el Hito
 
