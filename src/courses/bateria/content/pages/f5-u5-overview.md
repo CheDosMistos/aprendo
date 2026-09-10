@@ -8,18 +8,18 @@ slug: fase-5-unidad-5-introduccion
 kind: unit
 order: 0
 title: "Semicorchea, pocket, articulación y primera independencia funcional"
-summary: "Construye independencia avanzada dentro de música: una capa sencilla permanece estable mientras otra voz varía, con semicorchea, balance y articulación al servicio del groove."
+summary: "Construye independencia contextual dentro de música: una capa sencilla permanece estable mientras otra voz varía, con semicorchea, balance y articulación al servicio del groove."
 duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [H5, H7, I2, A5, B7, B8, C2, G2, I3, K2, K5, K7]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: independencia avanzada contextual
+## Novedad dominante: independencia contextual dentro del groove
 
-Esta unidad abre la independencia funcional **dentro de groove**, no mediante un sistema abstracto de coordinación.
+Esta unidad abre el trabajo de independencia **dentro de groove**, no mediante un sistema abstracto de coordinación.
 
-> **INDEPENDENCIA ≠ AÑADIR CAPAS HASTA QUE TODO SEA DIFÍCcil.**
+> **INDEPENDENCIA ≠ AÑADIR CAPAS HASTA QUE TODO SEA DIFÍCIL.**
 
 La pregunta es más concreta: ¿puedes conservar una capa sencilla con función musical mientras otra voz cambia, sin perder pulso, balance ni intención?
 
@@ -41,7 +41,7 @@ Por eso la jerarquía será:
 
 ## Ghost notes: textura, no puerta
 
-PAS propone las ghost notes como golpes de caja más suaves que conviven con backbeats destacados. En esta unidad aparecen sólo después de estabilizar pulso y sonido; **no son requisito para certificar independencia avanzada MÍNIMO**.
+PAS propone las ghost notes como golpes de caja más suaves que conviven con backbeats destacados. En esta unidad aparecen sólo después de estabilizar pulso y sonido; **no son requisito para certificar el nivel MÍNIMO de independencia**.
 
 Fuente verificada: [PAS — Groove of the Month: Ghost Note Funk](https://pas.org/pas-blog/groove-of-the-month-ghost-note-funk/).
 
@@ -49,9 +49,9 @@ Fuente verificada: [PAS — Groove of the Month: Ghost Note Funk](https://pas.or
 
 1. **Lección 1 — Rejilla de semicorcheas:** ubicar cuatro posiciones por pulso sin convertir velocidad en objetivo.
 2. **Lección 2 — Notas principales y textura:** construir jerarquía dinámica; ghost notes como capa opcional/controlada.
-3. **Lección 3 — Capa fija + voz variable:** primera tarea explícita de independencia avanzada contextual.
+3. **Lección 3 — Capa fija + voz variable:** primera tarea explícita de independencia contextual.
 4. **Lección 4 — Pocket e integración:** sostener la función durante una frase y volver a repertorio.
-5. **Evaluación:** comprobar independencia avanzada MÍNIMO en contexto preparado.
+5. **Evaluación:** comprobar independencia MÍNIMO en contexto preparado.
 
 ## Fronteras
 
@@ -61,7 +61,7 @@ Esta unidad **no**:
 - exige ghost notes complejas;
 - convierte linear drumming en sinónimo de funk;
 - abre sistemas extensos de `4-Way Coordination`, `The New Breed` o Chapin;
-- certifica independencia avanzada;
+- certifica independencia más allá del nivel MÍNIMO;
 - exige una cifra de BPM.
 
 La profundización opcional `ESP-21` sigue fuera del tronco de esta unidad.
