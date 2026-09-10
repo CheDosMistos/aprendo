@@ -63,7 +63,8 @@ test('L2 adds only the known foot base and restores simple multi-voice reading a
   assert.match(l2, /AMPLIACIÓN — lectura sencilla de varias voces/i);
   assert.match(l2, /no es una prueba de primera vista/i);
   assert.match(l2, /LECTURA MULTIVOZ DEL MATERIAL CONOCIDO/i);
-  assert.match(l2, /no convierte D7 en requisito del checkpoint de U8/i);
+  assert.match(l2, /no forma parte del requisito del checkpoint de Unidad 8/i);
+  assert.doesNotMatch(l2, /\bD7\b/);
   assert.match(l2, /No existe BPM de aprobado/i);
 });
 
