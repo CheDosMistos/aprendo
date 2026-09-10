@@ -41,6 +41,12 @@ Observaremos:
 
 `CONTROL / SONIDO / TIMING / BALANCE / TENSIÓN / RETORNO`
 
+## Demostración audiovisual verificada
+
+Zildjian Education — **Lesson 08: Hi-Hat Foot Techniques**: https://ae.zildjian.com/education/beginner-drum-set-lessons/zildjian-drum-set-method-lesson-08/
+
+La lección muestra heel-up y heel-down aplicados al hi-hat. Se usa como **demostración pedagógica de opciones técnicas**, no como evidencia de superioridad científica de una mecánica ni como requisito de coordinación avanzada.
+
 ## Recorrido de la unidad
 
 ### Lección 1 — Abrir, cerrar y producir chick
