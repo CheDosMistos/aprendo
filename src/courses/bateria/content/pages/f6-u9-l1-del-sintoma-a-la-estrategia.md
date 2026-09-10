@@ -7,101 +7,78 @@ unitSlug: fase-6-unidad-9
 slug: del-sintoma-a-la-estrategia
 kind: lesson
 order: 1
-title: "Del síntoma a la estrategia: decidir antes de repetir"
-summary: "Aprende a construir hipótesis alternativas y a escoger una estrategia porque prueba o corrige una causa plausible, no porque sea tu rutina habitual."
+title: "Elegir la pieza y declarar las fuentes"
+summary: "Selecciona un material legal y abordable, registra qué conoces antes de empezar y delimita una sección que puedas aprender principalmente desde escucha y análisis."
 duration: 20–30 min
-competencies: [K8, K1, K2, K3, K4, K5]
+competencies: [E5, E6, F3, F7, I3, K1, K5, K7]
 rudiments: []
 published: true
 ---
 
 ## Objetivo
 
-Pasar de:
+Preparar un proyecto de repertorio cuya evidencia permita distinguir **lo que ya sabías**, **lo que aprendiste desde el audio** y **qué apoyos utilizaste después**.
 
-`ALGO SALE MAL → REPITO`
+## 1. Selección del material
 
-a:
+Elige una pieza que cumpla cuatro condiciones:
 
-`SÍNTOMA → HIPÓTESIS → PRUEBA → ESTRATEGIA → RETEST`.
+- tienes acceso legal a una grabación suficientemente clara;
+- la dificultad permite aprender música y no sólo sobrevivir;
+- existe una sección con forma y función reconocibles;
+- puedes trabajarla con una carga sostenible durante varias sesiones.
 
-Unidad 1 ya introdujo esta cadena. En esta unidad la dificultad nueva es **elegir entre varias respuestas posibles**.
+No elijas por prestigio ni por dificultad máxima.
 
-## Diagnóstico no es corrección
+## 2. Línea base antes de investigar
 
-Detectar que una entrada llega tarde, que un fill rompe la forma o que un groove pierde sonido no identifica automáticamente la causa.
+Escucha una vez sin tocar y registra brevemente:
 
-Ejemplo:
+- forma o secciones que ya reconoces;
+- pulso y subdivisión probables;
+- función general de la batería;
+- detalles que crees conocer;
+- dudas reales.
 
-**Síntoma:** después de un fill, el retorno al groove es inestable.
+Si ya habías escuchado o tocado la pieza antes, decláralo. **Una línea base honesta vale más que fingir que el material es completamente nuevo.**
 
-Hipótesis distintas podrían ser:
+## 3. Delimita una sección sustancial
 
-- la frase del fill no está representada con claridad;
-- el punto de retorno no está asociado a la forma;
-- la coordinación final exige demasiada atención;
-- la densidad elegida supera el control actual;
-- la tarea sólo funciona cuando se repite varias veces seguidas.
+Escoge una parte suficientemente amplia para que el aprendizaje exija conectar varias decisiones musicales.
 
-Cada hipótesis pide una prueba diferente. «Practicar más el fill» no distingue ninguna.
+No hay un mínimo universal de compases. La sección debe permitir observar, al menos, **forma + tiempo/subdivisión + función baterística + una decisión de interpretación**.
 
-## Matriz de elección
+## 4. Registro de fuentes
 
-Usa esta lógica como **DECISIÓN CURRICULAR RAZONADA**, no como algoritmo infalible:
+Anota qué utilizarás:
 
-| Si el problema dominante parece ser… | Estrategia que puede aportar información | Qué comprobar después |
-|---|---|---|
-| representación confusa | contar/cantar, simplificar, chunk funcional | si puedes recomponer la frase sin perder su estructura |
-| transición concreta | aislar la unión y volver pronto al contexto | si mejora `antes → transición → después` |
-| ejecución frágil pero comprendida | bloque corto y corrección de una variable | si la calidad se conserva al recomponer |
-| recuperación débil | prueba sin calentamiento específico | si la habilidad aparece antes de repetirla |
-| dependencia de una ayuda | retirar una ayuda de forma controlada | qué información faltó cuando la retiraste |
-| percepción incierta | grabación o feedback externo | si observación y sensación coinciden |
-| transferencia pobre | cambiar una condición relevante | si la solución conserva su función |
-| fatiga o múltiples fallos a la vez | reducir carga, densidad o novedad | si reaparece una ejecución interpretable |
+- grabación principal;
+- versión o directo alternativo, si aporta información;
+- partitura, chart o transcripción legal, si existe y decides contrastarla más adelante;
+- tutorial o demostración, si finalmente hace falta.
 
-No conviertas la tabla en una asociación automática. Si una prueba contradice la hipótesis, cambia de hipótesis.
+No llames «partitura oficial» o «transcripción verificada» a un recurso cuya procedencia no hayas comprobado.
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Dos hipótesis antes de una receta»
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Antes de mirar»
 
-1. Elige **un problema real** de material ya suficientemente conocido para poder observar el proceso.
-2. Escribe el síntoma sin explicar todavía la causa.
-3. Formula dos hipótesis plausibles.
-4. Para cada una, diseña una prueba pequeña que podría apoyarla o debilitarla.
-5. Elige **una** prueba y explica por qué ofrece más información ahora.
-6. Ejecuta la prueba.
-7. Decide: `HIPÓTESIS MÁS PLAUSIBLE / MENOS PLAUSIBLE / TODAVÍA INCIERTA`.
-8. Sólo entonces selecciona un correctivo o estrategia de práctica.
-9. Retesta en el contexto musical, no únicamente en el fragmento aislado.
+1. Escucha la sección elegida dos veces sin tocar.
+2. Escribe un mapa mínimo de forma y función.
+3. Marca cada afirmación como:
+   - `OBSERVADO CON BASTANTE SEGURIDAD`;
+   - `HIPÓTESIS`;
+   - `TODAVÍA NO SÉ`.
+4. Sólo después decide qué necesitas volver a escuchar.
 
-## Errores frecuentes
+El ejercicio no pretende demostrar memoria perfecta. Obliga a separar percepción inicial de información adquirida después.
 
-### «Si es difícil, bajo BPM»
-Bajar tempo puede ser útil, pero no prueba que el problema sea velocidad. Si el fallo es forma, escucha o decisión, sólo hacer lo mismo más lento puede dejar intacta la causa.
-
-### «Interleaving es mejor, así que mezclo todo»
-La evidencia sobre interferencia contextual no permite esa regla. Material nuevo o una corrección muy localizada puede beneficiarse de un bloque estable; la mezcla es más útil cuando obliga a recuperar, discriminar o transferir algo ya representado.
-
-### «Chunking significa dividir siempre en cuatro»
-Un chunk puede ser una transición, un motivo, una mano, una función o una sección perceptivamente útil. No existe longitud universal.
-
-## Rutinas
-
-**MÍNIMA:** un síntoma → dos hipótesis → una prueba → una decisión.
-
-**ESTÁNDAR:** repite el ciclo con un retest en contexto y registra por qué mantienes o cambias la estrategia.
-
-**AMPLIADA:** aplica el mismo proceso a un segundo problema distinto y comprueba si eliges la misma estrategia por razones válidas o sólo por hábito.
-
-## Criterio de salida
+## MÍNIMO PARA AVANZAR
 
 Puedes continuar cuando:
 
-- separas síntoma de causa;
-- generas al menos una alternativa plausible;
-- eliges una prueba relacionada con la hipótesis;
-- puedes explicar por qué una estrategia encaja mejor que otra;
-- vuelves a la música para comprobar transferencia del correctivo;
-- aceptas cambiar de hipótesis cuando la evidencia no la sostiene.
+- el material y la fuente son legales para tu uso;
+- has declarado qué conocías antes de empezar;
+- existe una sección de alcance razonable;
+- tienes un mapa inicial con incertidumbre explícita;
+- sabes qué escucharás a continuación y por qué.
 
-> **UNA BUENA ESTRATEGIA NO ES LA QUE SIEMPRE USAS: ES LA QUE RESPONDE AL PROBLEMA QUE REALMENTE ESTÁS PROBANDO.**
+No necesitas haber tocado todavía la sección completa.

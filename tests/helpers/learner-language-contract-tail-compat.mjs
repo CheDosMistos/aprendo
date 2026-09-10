@@ -128,6 +128,43 @@ function patchLegacyContractText(filePath, value) {
     );
   }
 
+  // Phase 6 canonical checkpoint topology. The earlier compatibility layer preserves
+  // a superseded sequential 6E–6I shadow; correct only that test-only shadow here.
+  if (normalizedPath.endsWith('/f6-u8-checkpoint-c7-microtiming-feel.md')) {
+    text = text.replace(
+      'Checkpoint 6E — microtiming y placement MÍNIMO',
+      'Checkpoint — microtiming y placement MÍNIMO',
+    );
+  }
+
+  if (normalizedPath.endsWith('/f6-u9-checkpoint-k8-autonomia-funcional.md')) {
+    text = text.replace(
+      'Checkpoint — Repertorio aprendido mediante escucha, transcripción y análisis',
+      'Checkpoint 6E — Repertorio aprendido mediante escucha, transcripción y análisis',
+    );
+  }
+
+  if (normalizedPath.endsWith('/f6-u10-checkpoint-proyecto-sostenido.md')) {
+    text = text.replace(
+      'Checkpoint 6G — Proyecto sostenido integrado',
+      'Checkpoint — Proyecto sostenido integrado',
+    );
+  }
+
+  if (normalizedPath.endsWith('/f6-u11-checkpoint-proyecto-autonomo-r4.md')) {
+    text = text.replace(
+      'Checkpoint — Proyecto autónomo: autonomía funcional sostenida',
+      'Checkpoint 6F — Proyecto autónomo: autonomía funcional sostenida',
+    );
+  }
+
+  if (normalizedPath.endsWith('/f6-u12-checkpoint-hito7-cierre-fase6.md')) {
+    text = text.replace(
+      'Checkpoint 6I — Cierre de Fase 6 y Hito 7',
+      'Checkpoint — Cierre de Fase 6 y Hito 7',
+    );
+  }
+
   return text;
 }
 

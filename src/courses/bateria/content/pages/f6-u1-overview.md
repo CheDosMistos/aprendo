@@ -8,7 +8,7 @@ slug: fase-6-unidad-1-introduccion
 kind: unit
 order: 0
 title: "Reentrada desde Hito 6, diagnóstico y portafolio"
-summary: "Convierte la evidencia final de Fase 5 en una línea base de aprendizaje: observa, diagnostica, elige una prioridad y empieza el portafolio los cuatro carriles del portafolio sin repetir el Hito 6."
+summary: "Convierte la evidencia final de Fase 5 en una línea base de aprendizaje: observa, diagnostica, elige una prioridad y abre los cuatro carriles del portafolio sin repetir el Hito 6."
 duration: Unidad flexible · 4 lecciones + evaluación
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, I3, I4, E5, E6, F7, C1, C2, C3, C4, H5]
 rudiments: []
@@ -51,7 +51,7 @@ Registra o recupera una ejecución interpretable y aprende a separar lo que ocur
 ### Lección 2 — Del síntoma al cuello de botella
 Clasifica la limitación dominante, formula una hipótesis y diseña una prueba pequeña antes de aplicar un correctivo.
 
-### Lección 3 — Portafolio los cuatro carriles del portafolio
+### Lección 3 — Los cuatro carriles del portafolio
 Abre los cuatro carriles permanentes de Fase 6 y elige materiales provisionales sin convertir la selección de canciones en una obligación prematura.
 
 ### Lección 4 — Primer plan de práctica observable
@@ -62,10 +62,10 @@ Demuestra que puedes formular un problema real, proponer una estrategia razonabl
 
 ## Los cuatro carriles del portafolio
 
-- **Escucha y transcripción — Escucha / transcripción:** aprender material principalmente desde audio y análisis.
-- **Chart y lectura — Chart / lectura:** navegar forma, cues, figures y dinámica sin perder continuidad.
-- **Transferencia entre estilos — Transferencia estilística:** adaptar una idea o función a dos contextos documentados sin borrar sus diferencias.
-- **Proyecto autónomo — Proyecto autónomo:** elegir parte del procedimiento, recursos, orden de trabajo y correctivos dentro de límites establecidos por el curso.
+- **Escucha y transcripción:** aprender material principalmente desde audio y análisis.
+- **Chart y lectura:** navegar forma, señales, figuras y dinámica sin perder continuidad musical.
+- **Transferencia entre estilos:** adaptar una idea o función a dos contextos documentados sin borrar sus diferencias.
+- **Proyecto autónomo:** elegir parte del procedimiento, recursos, orden de trabajo y correctivos dentro de límites establecidos por el curso.
 
 No necesitas cuatro canciones distintas. Un mismo material puede alimentar más de un carril si las tareas siguen claramente separadas.
 
@@ -80,7 +80,7 @@ No son puntuaciones ni compartimentos perfectos. Sirven para evitar diagnóstico
 ## Qué NO hace esta unidad
 
 - no invalida el Hito 6 por una toma floja;
-- no certifica todavía autonomía FUNCIONAL ni el Hito 7;
+- no certifica todavía autonomía funcional ni el Hito 7;
 - no introduce un estilo nuevo;
 - no exige una canción nueva;
 - no exige una transcripción completa;
@@ -96,7 +96,7 @@ La referencia sigue siendo **25–30 min, 3–4 días por semana**.
 Para esta unidad una sesión estándar puede organizarse así:
 
 - 4–5 min — activación y recuperación del material elegido;
-- 8–10 min — observar/probar el cuello de botella dominante;
+- 8–10 min — observar o probar el cuello de botella dominante;
 - 8–10 min — recomponer en música;
 - 3–5 min — grabar, registrar y decidir el siguiente paso.
 
@@ -110,9 +110,9 @@ Al cerrar la unidad debes poder mostrar:
 2. un problema formulado con suficiente precisión;
 3. al menos una hipótesis o estrategia razonada;
 4. un registro de qué probaste y qué ocurrió;
-5. el portafolio los cuatro carriles del portafolio abierto, aunque varios materiales sigan siendo provisionales;
+5. los cuatro carriles del portafolio abiertos, aunque varios materiales sigan siendo provisionales;
 6. un siguiente objetivo concreto.
 
-> **esta unidad PREPARA LA AUTONOMÍA; NO LA DA POR DEMOSTRADA.**
+> **ESTA UNIDAD PREPARA LA AUTONOMÍA; NO LA DA POR DEMOSTRADA.**
 
 **No existe BPM de aprobado.**

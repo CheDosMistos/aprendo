@@ -8,9 +8,9 @@ slug: proyecto-sostenido-chart-interaccion-adaptacion
 kind: unit
 order: 0
 title: "Proyecto sostenido: chart, respuesta y adaptación"
-summary: "Integra navegación, continuidad, respuesta musical, adaptación estilística, feel y autonomía funcional dentro de una forma completa con varias pasadas y decisiones encadenadas."
+summary: "Integra navegación, continuidad, respuesta musical, adaptación estilística y feel dentro de una forma completa con varias pasadas y decisiones encadenadas."
 duration: 5 lecciones + evaluación; varias sesiones
-competencies: [D7, I4, I6, I5, C7, K8, F3, F7, H5, H6]
+competencies: [D7, I3, I4, I5, I6, F3, F7, C1, C2, C7, H5, H6, H7, H8, K8]
 rudiments: []
 published: true
 ---
@@ -19,31 +19,27 @@ published: true
 
 Esta unidad está reservada para un **PROYECTO SOSTENIDO DE CHART + INTERACCIÓN + ADAPTACIÓN**.
 
-Hasta ahora has trabajado por separado —aunque conectados— navegación de chart, interacción, transferencia entre estilos, feel/microtiming y autonomía de práctica. La novedad de esta unidad no consiste en volver a explicar esas herramientas. Consiste en sostenerlas **a la vez y durante una forma musical completa**, donde una decisión cambia lo que tendrás que hacer después.
+Hasta ahora has trabajado navegación de chart, interacción, transferencia entre estilos, feel/microtiming, repertorio aprendido desde el audio y herramientas para revisar tu propia práctica. La novedad no consiste en reenseñar esas capacidades, sino en sostenerlas **a la vez y durante una forma musical completa**.
 
 La cadena central es:
 
 `PREPARAR → INTERPRETAR FORMA COMPLETA → RESPONDER → ADAPTAR → RECUPERAR → REVISAR → NUEVA PASADA`
 
-**ESTÁNDAR DEL PROYECTO.** esta unidad construye explícitamente sobre:
+Esta unidad construye sobre:
 
 - Unidad 3: chart como mapa funcional, prioridades y recuperación;
-- Unidad 6: bajo/cues/dinámica/arreglo y frontera entre pista e interacción real;
+- Unidad 6: bajo, señales, dinámica, arreglo y frontera entre pista e interacción real;
 - Unidad 7: transferencia estilística sin borrar el carácter;
 - Unidad 8: feel y microtiming sin convertir la rejilla en juez musical;
-- Unidad 9: autonomía COMPETENTE/FUNCIONAL para elegir estrategias y apoyos con criterio.
+- Unidad 9: repertorio trabajado mediante escucha, transcripción y análisis, útil como evidencia musical sostenida y como posible material reutilizable.
 
-## Qué cambia respecto a Unidad 3, Unidad 6 y Unidad 9
+## Qué cambia ahora
 
-Unidad 3 preguntaba principalmente: **¿puedes navegar y recuperarte dentro de un chart?**
+Las unidades anteriores permitían observar capacidades relativamente aisladas. Aquí la pregunta es:
 
-Unidad 6 preguntaba: **¿puedes escuchar información externa y modificar tu ejecución sin perder la música?**
+> **¿PUEDES NAVEGAR, ESCUCHAR, ADAPTAR Y RECUPERARTE A LO LARGO DE UNA INTERPRETACIÓN COMPLETA SIN QUE CADA PROBLEMA LOCAL ROMPA EL PROYECTO?**
 
-Unidad 9 preguntaba: **¿puedes elegir una estrategia o recurso y revisar si funcionó?**
-
-Esta unidad pregunta:
-
-> **¿PUEDES HACER TODO ESO A LO LARGO DE UNA INTERPRETACIÓN COMPLETA SIN QUE CADA PROBLEMA LOCAL ROMPA EL PROYECTO?**
+La capacidad de decidir qué corregir entre pasadas sigue activa, pero **no es la novedad dominante ni se da por certificada por haber terminado la Unidad 9**.
 
 ## Investigación que modifica el diseño
 
@@ -67,7 +63,7 @@ Fuente: https://doi.org/10.3389/fpsyg.2016.01548
 
 ### EVIDENCIA — evaluación multidimensional
 
-La revisión sistemática de Moura et al. (2024) encontró sistemas de evaluación musical que combinan categorías técnicas, interpretativas/expresivas y rasgos musicales. Existe heterogeneidad considerable y no hay una rúbrica universal para batería. Esto respalda mantener la evaluación cualitativa multidimensional ya aprobada en el curso.
+La revisión sistemática de Moura et al. (2024) encontró sistemas de evaluación musical que combinan categorías técnicas, interpretativas/expresivas y rasgos musicales. Existe heterogeneidad considerable y no hay una rúbrica universal para batería. Esto respalda mantener la evaluación cualitativa multidimensional ya utilizada en el curso.
 
 Fuente: https://doi.org/10.3389/fpsyg.2024.1467434
 
@@ -78,9 +74,9 @@ La literatura revisada **no establece una duración normativa universal** para u
 El proyecto tendrá:
 
 1. **una forma completa**, suficientemente extensa para que existan varias transiciones, landmarks y oportunidades reales de recuperación;
-2. **varias pasadas completas** en sesiones distintas o suficientemente separadas para comparar decisiones, no sólo un bucle repetido;
+2. **varias pasadas completas** en sesiones distintas o suficientemente separadas para comparar decisiones;
 3. una pasada inicial con carga controlada;
-4. una pasada con cambios/cues predeterminados;
+4. una pasada con cambios o señales predeterminadas;
 5. una pasada final y, cuando sea posible, una variante con interacción humana contingente.
 
 ## Material principal
@@ -104,28 +100,28 @@ El chart **no prescribe cada golpe**. Prescribe función, landmarks y ventanas d
 | C | reducción/espacio | simplificar sin perder forma |
 | B' | retorno contrastante | reconocer landmark y preparar salida |
 | A | restablecer centro | no sobrecargar el regreso |
-| OUTRO | cierre | cue de salida y resolución clara |
+| OUTRO | cierre | señal de salida y resolución clara |
 
-**DECISIÓN CURRICULAR RAZONADA.** La forma de 56 compases proporciona repetición, contraste y varios puntos de transición sin imponer una duración cronológica. No se presenta como formato científicamente óptimo.
+**DECISIÓN CURRICULAR RAZONADA.** La forma de 56 compases proporciona repetición, contraste y varios puntos de transición sin presentarse como formato científicamente óptimo.
 
 ## Recursos
 
-### Núcleo obligatorio
+### Núcleo
 
 - chart funcional del proyecto;
 - batería;
 - una referencia temporal o contexto musical cuando aporte valor;
 - registro breve entre pasadas;
-- lista de cues del curso;
+- lista de señales del curso;
 - grabación sólo cuando responda a una pregunta real.
 
-### Contexto musical real opcional
+### Repertorio real opcional
 
 Puedes sustituir «Proyecto Horizonte» por una pieza real de tu repertorio **si tienes acceso legal a la grabación y elaboras tú un chart funcional para estudio privado**. Aprendo no reproduce aquí una partitura o transcripción protegida.
 
-### Interacción real opcional pero epistemológicamente distinta
+### Interacción real opcional pero distinta
 
-- otra persona que sólo lanza cues: permite evaluar respuesta contingente a una señal humana;
+- otra persona que sólo lanza señales: permite observar respuesta contingente a una señal humana;
 - otro músico que toca una parte y puede reaccionar a ti: permite observar interacción musical bidireccional;
 - pista fija: permite entrenar respuesta a información programada, **no demuestra interacción interpersonal**.
 
@@ -141,68 +137,44 @@ Esta unidad integra competencias, pero no convierte todas las variables en noved
 
 - chart conocido;
 - estilo ya disponible;
-- sin cues inesperados;
+- sin señales inesperadas;
 - objetivo principal: continuidad + forma.
 
 ### Pasada 2
 
-Añade sólo las familias de cues necesarias para que la adaptación sea observable. Por defecto comenzaremos con dinámica y densidad. Esto es una **DECISIÓN CURRICULAR RAZONADA**, no una cifra científica universal.
+Añade sólo las señales necesarias para que la adaptación sea observable. Por defecto comenzaremos con dinámica y densidad. Esto es una **DECISIÓN CURRICULAR RAZONADA**, no una cifra científica universal.
 
 ### Pasada 3
 
 Retira o reduce una ayuda si la evidencia de las pasadas anteriores justifica hacerlo, y añade una condición de transferencia pertinente.
 
-## Competencias dominantes
-
-### drum-set charts y navegación formal
-
-Esta unidad no vuelve a enseñar símbolos básicos. El chart se usa como **mapa funcional durante una interpretación sostenida**.
-
-### interpretación de canciones/piezas completas
-
-La continuidad, la forma, el tiempo, la dinámica y la recuperación ante errores pasan a evaluarse sobre una forma completa, no sólo sobre un fragmento.
-
-### interacción musical
-
-La unidad integra escucha y respuesta. Pero el nivel que puede observarse depende de la fuente:
-
-- con pista/programación: respuesta a información externa;
-- con otro músico responsivo: adaptación interpersonal real.
-
-### Soportes aplicados
-
-- transferencia entre estilos: conservar o transferir carácter estilístico;
-- microtiming y placement: preservar una intención de feel adecuada;
-- autonomía: elegir qué reparar y qué apoyo mantener/retirar entre pasadas;
-- análisis musical: explicar relaciones entre forma, estilo, interacción y decisiones.
-
 ## Prerrequisitos reales
 
 Antes de esta unidad debe existir evidencia suficiente de:
 
-- Unidad 3: navegación y recuperación con chart;
-- Unidad 6: interacción y ensemble MÍNIMO robusto o equivalente en respuesta a información externa;
-- Unidad 7: transferencia entre estilos al menos en MÍNIMO;
-- Unidad 8: microtiming y placement al menos en MÍNIMO;
-- Unidad 9: autonomía COMPETENTE/FUNCIONAL;
-- groove y variaciones/repertorio de Fase 5 suficientes para sostener una pieza de dificultad adecuada.
+- navegación y recuperación con chart;
+- respuesta a información externa y comprensión de los límites de una pista fija;
+- transferencia entre estilos al menos en nivel mínimo;
+- comprensión mínima de microtiming y feel;
+- repertorio suficiente para sostener una forma musical de dificultad adecuada.
 
-No se exige perfección en ninguna de ellas.
+La evidencia de la Unidad 9 puede reutilizarse como material o apoyo, pero **no se presupone que haya certificado autonomía funcional**.
+
+No se exige perfección en ninguna de estas áreas.
 
 ## Estructura
 
 1. **Lección 1 — Diseñar la pasada: forma, landmarks y presupuesto de atención.**
 2. **Lección 2 — Primera pasada completa: continuidad antes que reparación local.**
-3. **Lección 3 — Entre pasadas: autonomía aplicado al cuello de botella real.**
-4. **Lección 4 — Adaptación programada: cues, densidad, dinámica y arreglo.**
+3. **Lección 3 — Entre pasadas: decidir qué corregir y qué conservar.**
+4. **Lección 4 — Adaptación programada: señales, densidad, dinámica y arreglo.**
 5. **Lección 5 — Contingencia, transferencia y pasada final.**
-6. **Evaluación — Portafolio de proyecto sostenido.**
+6. **Evaluación — Proyecto sostenido integrado.**
 
 ## Fronteras
 
 Esta unidad:
 
-- no reabre teoría general de autorregulación;
 - no vuelve a enseñar charts básicos;
 - no redefine desde cero interacción o feel;
 - no exige una canción comercial concreta;
@@ -211,9 +183,9 @@ Esta unidad:
 - no establece BPM universal ni porcentajes de aprobado;
 - no exige «cero errores»;
 - no declara **Hito 7**;
-- no certifica automáticamente autonomía AVANZADO, transcripción real FUNCIONAL o análisis musical FUNCIONAL global;
-- no abre polimetría/modulación métrica/integración progresiva y experimental ni el trabajo profundo propio de Fase 7.
+- no certifica automáticamente autonomía avanzada, transcripción funcional global o análisis musical funcional global;
+- no abre polimetría, modulación métrica ni el núcleo profundo de Fase 7.
 
-La función exacta de Unidad 11 permanece reservada al documento aprobado de Fase 6 y **no se redefine desde esta unidad**. Unidad 12 conserva el cierre integrador global y la evidencia que culminará en Hito 7; esta unidad sólo aporta parte del portafolio necesario.
+La Unidad 11 conserva el proyecto autónomo sostenido y la Unidad 12 conserva el cierre integrador global.
 
 > **LA META NO ES TOCAR UNA PASADA PERFECTA: ES CONSERVAR LA MÚSICA MIENTRAS ENCADENAS DECISIONES Y SABES QUÉ CAMBIAR EN LA SIGUIENTE.**

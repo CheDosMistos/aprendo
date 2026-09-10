@@ -7,102 +7,76 @@ unitSlug: fase-6-unidad-9
 slug: ayudas-con-proposito
 kind: lesson
 order: 3
-title: "Ayudas con propósito: usar, retirar o recuperar soporte"
-summary: "Aprende a elegir metrónomo, audio, chart, grabación, loop u otras ayudas por la información que aportan y a retirarlas sólo cuando hacerlo produce una prueba útil."
-duration: 20–30 min
-competencies: [K8, K4, K5, K3, K7]
+title: "De la reconstrucción a la interpretación"
+summary: "Convierte mapa, transcripción y análisis en una interpretación progresiva, trabajando por capas y volviendo pronto a la forma musical completa."
+duration: 25–30 min
+competencies: [E6, F7, I3, I4, C1, C2, C3, H5, H6, K3, K5]
 rudiments: []
 published: true
 ---
 
 ## Objetivo
 
-Dejar de pensar:
+Hacer que la escucha y la transcripción **cambien lo que tocas**.
 
-`CON AYUDA = PEOR`  
-`SIN AYUDA = MEJOR`
+Una transcripción que nunca entra en la interpretación no demuestra todavía el objetivo de esta unidad.
 
-y pasar a:
+## Del papel o mapa al kit
 
-> **¿QUÉ INFORMACIÓN NECESITO AHORA Y CÓMO COMPROBARÉ SI PUEDO PRESCINDIR DE ELLA?**
+Empieza con la versión funcional más simple que conserve:
 
-El contrato didáctico de Aprendo permite una retirada adaptable:
+1. forma;
+2. pulso y subdivisión;
+3. función del groove;
+4. transiciones indispensables.
 
-`GUIADO → CON PISTAS → SIN PISTAS → NUEVO/TRANSFERENCIA`
+Después añade detalle sólo cuando la estructura siga disponible.
 
-No es una escalera obligatoria ni un sistema de nivel. Una ayuda se mantiene, reduce o recupera según el problema.
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Fuente → decisión → sonido»
 
-## Tipos de ayuda y función
+Elige tres decisiones de tu reconstrucción. Para cada una registra:
 
-| Ayuda | Puede aportar | Riesgo si se usa sin criterio |
+| Lo que oí / analicé | Decisión de interpretación | Qué comprobaré al tocar |
 |---|---|---|
-| metrónomo/click | referencia temporal explícita | perseguir el click sin sostener subdivisión interna |
-| audio de referencia | fraseo, forma, sonido, relación musical | copiar sin analizar la función |
-| chart/partitura | memoria externa, forma, figures, dinámica | depender visualmente de información ya internalizada |
-| loop | repetir un contexto idéntico y localizar una transición | confundir fluidez por repetición con recuperación |
-| ralentización | separar eventos difíciles de percibir | asumir que la mezcla lenta revela con certeza todo lo que ocurre |
-| grabación propia | perspectiva posterior y comparación | acumular tomas sin pregunta diagnóstica |
-| feedback de profesor/compañero | información externa y alternativas | esperar una corrección externa antes de formular una hipótesis propia |
+| | | |
+| | | |
+| | | |
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Ayuda necesaria / ayuda prescindible»
+Ejemplos de decisiones válidas pueden afectar a densidad, articulación, dinámica, orquestación, duración de una nota, función de un fill o relación con una transición.
 
-1. Elige una tarea que actualmente utilice una ayuda concreta.
-2. Escribe qué información esperas recibir de esa ayuda.
-3. Haz una toma con ella.
-4. Retírala o redúcela **sólo en la dimensión que quieres comprobar**.
-5. Haz una nueva toma.
-6. Compara:
-   - qué se mantuvo;
-   - qué se perdió;
-   - qué error nuevo apareció;
-   - si la ausencia de ayuda aportó información útil.
-7. Decide:
-   - `MANTENER AYUDA`;
-   - `REDUCIR AYUDA`;
-   - `RETIRAR AYUDA`;
-   - `RECUPERAR AYUDA Y CORREGIR PRERREQUISITO`.
+No necesitas copiar exactamente un timbre imposible de reproducir en tu kit. Explica qué función intentas conservar.
 
-Retirar apoyo y producir un colapso total no es automáticamente «entrenar autonomía».
+## Trabajo por capas sin perder la música
 
-## Feedback: ni permanente ni prohibido
+Una secuencia útil puede ser:
 
-**EVIDENCIA:** McKay et al. (2022) no respalda una ventaja universal de frecuencias reducidas de feedback.
+`FORMA → GROOVE BASE → TRANSICIÓN → DETALLE LOCAL → FORMA COMPLETA`
 
-**DECISIÓN CURRICULAR RAZONADA:** durante adquisición puede hacer falta feedback frecuente para evitar construir una representación equivocada. Más adelante conviene incluir intentos sin esa ayuda para comprobar qué puede evaluar y recuperar el alumno por sí mismo.
+Si un detalle nuevo rompe repetidamente la continuidad, vuelve a la capa anterior y comprueba si el problema es de representación, coordinación o carga.
 
-Si retirar feedback empeora la comprensión sin revelar una dependencia útil, vuelve a introducirlo.
+No conviertas cada error en una razón para reiniciar desde el principio.
 
-## Espaciado e interleaving: elegirlos por función
+## Análisis que cambia una decisión
 
-- Si necesitas **codificar o corregir** una tarea: un bloque relativamente estable puede ser apropiado.
-- Si necesitas **recuperar o discriminar** material ya entendido: mezclar tareas puede ser apropiado.
-- Si necesitas **retención**: vuelve a la habilidad después de separación suficiente para que no sea una simple continuación del mismo bloque.
+El análisis es funcional cuando permite responder preguntas como:
 
-No existe ratio universal `bloqueado : intercalado` ni intervalo fijo de horas o días válido para todas las habilidades.
+- ¿por qué esta variación aparece aquí y no en cualquier compás?
+- ¿qué sección necesita más o menos densidad?
+- ¿qué transición prepara un cambio formal?
+- ¿qué relación existe entre la batería y el fraseo o arreglo que escuchas?
 
-## Carga y salud
+Enumerar términos sin consecuencia para la interpretación no basta.
 
-autonomía no anula gestión de carga y salud. Una sesión autónoma sigue subordinada a carga sostenible.
+## Uso de ayudas
 
-Dolor persistente, hormigueo, entumecimiento o pérdida de fuerza no son una prueba de independencia ni una razón para retirar descansos o apoyo.
+Metrónomo, loop, ralentización, chart propio, grabación o vídeo pueden ser útiles si responden a una pregunta concreta.
 
-## Rutinas
+Un tutorial puede entrar como contraste cuando tu hipótesis ya existe. Si una explicación externa modifica tu interpretación, anota qué aprendiste de ella y qué habías obtenido previamente desde el audio.
 
-**MÍNIMA:** una ayuda → declarar función → prueba con/sin → decisión.
+## MÍNIMO PARA AVANZAR
 
-**ESTÁNDAR:** compara dos ayudas posibles para el mismo problema y elige la que aporta información más específica.
-
-**AMPLIADA:** recupera la tarea en otro encuentro con menos ayuda y comprueba si la retirada se sostiene sin necesidad de «calentar» primero exactamente el mismo material.
-
-## Criterio de salida
-
-Puedes continuar cuando:
-
-- puedes explicar qué información aporta una ayuda;
-- sabes retirar una ayuda con una pregunta concreta;
-- no interpretas automáticamente dificultad sin ayuda como aprendizaje superior;
-- sabes volver a introducir soporte si falta un prerrequisito;
-- eliges feedback, click, chart o grabación por función y no por costumbre;
-- mantienes carga segura mientras experimentas con independencia.
-
-> **AUTONOMÍA NO ES AUSENCIA DE HERRAMIENTAS: ES PODER ELEGIR CUÁL NECESITAS, PARA QUÉ Y CUÁNDO DEJA DE APORTAR.**
+- puedes tocar una versión reconocible y estructuralmente coherente de la sección;
+- al menos varias decisiones de interpretación pueden rastrearse hasta escucha, transcripción o análisis propios;
+- el trabajo aislado vuelve a la forma;
+- no presentas una aproximación como reproducción auténtica si no puedes verificarla;
+- sabes qué detalle merece la siguiente sesión y cuál puede esperar.

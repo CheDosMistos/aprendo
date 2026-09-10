@@ -7,8 +7,8 @@ unitSlug: fase-6-unidad-10
 slug: k8-entre-pasadas
 kind: lesson
 order: 3
-title: "Entre pasadas: autonomía aplicado al cuello de botella real"
-summary: "Usa la autonomía funcional de Unidad 9 para escoger qué corregir, qué apoyo mantener y qué problema dejar temporalmente sin tocar."
+title: "Entre pasadas: decidir qué corregir y qué conservar"
+summary: "Usa el ciclo de diagnóstico y ajuste ya conocido para escoger qué corregir entre pasadas, qué apoyo mantener y qué problema dejar temporalmente sin tocar."
 duration: 25–30 min
 competencies: [K8, K2, K5, I4, D7, I6, H5, H6]
 rudiments: []
@@ -17,13 +17,13 @@ published: true
 
 ## Objetivo
 
-Aplicar autonomía dentro de un proyecto musical real sin convertir esta unidad en otra unidad de «aprender a practicar».
+Aplicar el ciclo de diagnóstico y ajuste dentro de un proyecto musical sostenido **sin convertir esta lección en otra unidad sobre cómo practicar**.
 
-Unidad 9 ya desarrolló:
+Desde el inicio de Fase 6 ya has utilizado esta lógica:
 
-`PROBLEMA → HIPÓTESIS → ESTRATEGIAS PLAUSIBLES → RECURSO → ELECCIÓN → EVIDENCIA → MANTENER / CAMBIAR / RETIRAR`
+`OBSERVAR → DEFINIR PROBLEMA → ELEGIR UNA INTERVENCIÓN → COMPROBAR → DECIDIR`
 
-Ahora esa cadena tiene una restricción nueva:
+Aquí aparece una restricción nueva:
 
 > **NO TODO LO QUE FALLÓ EN LA PASADA MERECE SER CORREGIDO ANTES DE LA SIGUIENTE.**
 
@@ -34,7 +34,7 @@ Ahora esa cadena tiene una restricción nueva:
 Ordena problemas según cuánto comprometen el proyecto:
 
 1. **estructura/pulso:** pierdes forma o referencia temporal;
-2. **transición/cue:** la pieza continúa pero una decisión crítica llega tarde o no llega;
+2. **transición/señal:** la pieza continúa pero una decisión crítica llega tarde o no llega;
 3. **función estilística:** el groove permanece, pero pierde carácter o relación musical;
 4. **detalle:** ornamentación, fill o articulación local que no compromete lo anterior.
 
@@ -42,7 +42,7 @@ No es una escala científica universal. Es una jerarquía curricular para evitar
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Una intervención, una pasada»
 
-1. Revisa la línea base de Lección 2.
+1. Revisa la pasada anterior.
 2. Elige **un cuello de botella dominante**.
 3. Formula una hipótesis.
 4. Elige una estrategia o apoyo ya conocido.
@@ -65,7 +65,7 @@ Un apoyo puede ser:
 - reducción de densidad;
 - ensayo aislado de una transición;
 - grabación;
-- una pista/stem si responde a la pregunta;
+- una pista o stem si responde a la pregunta;
 - feedback de otra persona.
 
 Un apoyo no es «hacer trampa». El problema es mantenerlo sin saber para qué sirve o retirarlo antes de que puedas interpretar lo que ocurre.
@@ -81,13 +81,13 @@ Pregunta:
 3. ¿qué predigo que ocurrirá si lo reduzco?
 4. ¿cómo sabré si la retirada ayudó o sólo aumentó la carga?
 
-## Qué NO hace Lección 3
+## Qué NO hace esta lección
 
-- no enseña de nuevo interleaving;
-- no enseña de nuevo feedback;
+- no vuelve a enseñar interleaving;
+- no vuelve a enseñar feedback;
 - no crea una teoría nueva de autorregulación;
-- no exige retención/transferencia cuando no responden a la pregunta;
-- no certifica autonomía AVANZADO global.
+- no exige retención o transferencia cuando no responden a la pregunta;
+- no certifica autonomía avanzada global.
 
 ## Rutinas
 
