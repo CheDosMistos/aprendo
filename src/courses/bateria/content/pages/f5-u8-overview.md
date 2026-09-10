@@ -36,14 +36,14 @@ Fuentes verificadas:
 
 ## John Riley: recurso selectivo, no currículo
 
-`EST-JAZ-001 — The Art of Bop Drumming` está catalogado para esta rama porque cubre **time playing, comping, brushes, charts y otros fundamentos jazz**. Se utilizará sólo cuando una tarea concreta lo justifique. No hay obligación de completar el libro ni de adelantar bop avanzado.
+*The Art of Bop Drumming* está catalogado para esta rama porque cubre **time playing, comping, brushes, charts y otros fundamentos jazz**. Se utilizará sólo cuando una tarea concreta lo justifique. No hay obligación de completar el libro ni de adelantar bop avanzado.
 
 ## Fronteras de esta unidad
 
 - **REJILLA TERNARIA ≠ SWING REAL COMPLETO**;
 - **PATRÓN DE RIDE ≠ TODO EL JAZZ**;
 - **COMPING ≠ TOCAR MÁS**;
-- **independencia avanzada CONTEXTUAL ≠ INDEPENDENCIA CHAPIN COMPLETA**;
+- **INDEPENDENCIA CONTEXTUAL ≠ INDEPENDENCIA AVANZADA**;
 - brushes son **AMPLIACIÓN**, no requisito;
 - no se exige improvisación jazz extensa;
 - no se usa BPM como puerta de aprobado.
