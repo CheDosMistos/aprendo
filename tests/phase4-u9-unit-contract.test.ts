@@ -31,7 +31,7 @@ test('F4 U9 has overview, four lessons and checkpoint in order', async () => {
   assert.match(fm(await page('checkpoint')), /^contentId:\s*bat-f4-u9-check$/m);
 });
 
-test('overview makes H6 dominant and keeps H7 as a window only', async () => {
+test('overview makes H6 dominant, keeps H7 as a window and restores the approved odd-meter transfer expansion', async () => {
   const overview = plain(await page('overview'));
   assert.match(overview, /Novedad dominante: H6 — transición funcional/i);
   assert.match(overview, /FILL = TRANSICIÓN, NO EXHIBICIÓN/i);
@@ -40,6 +40,11 @@ test('overview makes H6 dominant and keeps H7 as a window only', async () => {
   assert.match(overview, /GROOVE → FILL → 1 → GROOVE/i);
   assert.match(overview, /puede certificar H6 MÍNIMO/i);
   assert.match(overview, /no certifica H6 COMPETENTE\/FUNCIONAL ni H7/i);
+  assert.match(overview, /AMPLIACIÓN — transferir el principio a 5\/4 o 7\/8/i);
+  assert.match(overview, /fill breve → retorno al 1/i);
+  assert.match(overview, /no enseña 5\/4 o 7\/8 desde cero/i);
+  assert.match(overview, /no requiere MusicXML nuevo/i);
+  assert.match(overview, /no forma parte de fills MÍNIMO ni del Hito 5/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
 
