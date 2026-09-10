@@ -21,7 +21,7 @@ Reproducir desde una fuente verificada la **2-3 son clave** y mantener su orient
 
 ## Contexto documentado
 
-Berklee PULSE presenta la clave como fundamento rítmico de muchos estilos afro-cubanos, distingue son clave y rumba clave y explica las orientaciones `2-3` y `3-2`. También señala que la clave puede estar tocada o sólo implícita, pero sigue organizando el groove.
+Berklee PULSE presenta la clave como fundamento rítmico de muchos estilos afro-cubanos, distingue son clave y rumba clave y trabaja de forma específica la orientación `2-3 son clave`. La clave puede estar tocada o implícita, pero sigue organizando el groove.
 
 La Percussive Arts Society, en `The Movable Clave`, describe una práctica de mambo en la que conviven capas diferenciadas —cáscara, conga backbeat, pulso y bass tumbao— mientras otra extremidad mantiene la `2/3 son clave`.
 
@@ -58,9 +58,9 @@ Aprendo **no reconstruye aquí la partitura**: el patrón tradicional se consult
 
 La negra del pie **no se presenta como tumbao, cáscara ni patrón de mambo**. Su única función es comprobar que puedes sostener la orientación mientras aparece otra capa.
 
-## independencia avanzada contextual
+## Independencia contextual
 
-Cuando esto sea estable, sustituye la rejilla neutral por **una sola capa verificada** de una fuente legal concreta. No añadas simultáneamente cáscara + tumbao + conga + clave por demostrar independencia.
+Cuando esto sea estable, sustituye la rejilla neutral por **una sola capa verificada** de una fuente legal concreta. No añadas simultáneamente cáscara + tumbao + conga + clave por demostrar independencia. Eso pertenecería a un trabajo de independencia más avanzado.
 
 ## Error frecuente
 
