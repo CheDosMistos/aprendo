@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: seleccionar-proyecto-linea-base
 kind: lesson
 order: 1
-title: "Esta unidad.Lección 1 — Elegir un proyecto acotado y construir la línea base"
+title: "Elegir un proyecto acotado y construir la línea base"
 summary: "Selecciona material legal y adecuado, define un resultado musical observable y registra una línea base antes de empezar a corregir."
 duration: 1–2 sesiones
 competencies: [K1, K2, K3, K8, I3, I4, F7]
@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Iniciar Proyecto autónomo con una elección suficientemente abierta para exigir criterio, pero suficientemente acotada para que el proyecto siga siendo evaluable.
+Iniciar el proyecto autónomo con una elección suficientemente abierta para exigir criterio, pero suficientemente acotada para que el proyecto siga siendo evaluable.
 
 Al terminar esta lección debes poder responder:
 
@@ -41,11 +41,11 @@ Elegir algo desproporcionado no demuestra más autonomía. Puede impedir disting
 
 ## Puedes reutilizar material
 
-El diseño del curso de Fase 6 advierte que Unidad 9–esta unidad no deberían convertirse en tres proyectos gigantes consecutivos.
+Los proyectos de esta parte de Fase 6 no necesitan convertirse en tres proyectos gigantes completamente independientes.
 
 Por tanto, es válido reutilizar:
 
-- la pieza trabajada desde audio en Escucha y transcripción;
+- la pieza trabajada desde audio en escucha y transcripción;
 - el material sostenido de Unidad 10;
 - otro repertorio ya conocido que todavía contenga un problema real;
 - material original del curso.
@@ -111,8 +111,8 @@ Si el proyecto utiliza una canción real:
 
 - breve activación relacionada con el material;
 - pasada o fragmento sustancial de línea base;
-- revisión auditiva/visual sólo si aporta información;
-- completar el Contrato Proyecto autónomo inicial.
+- revisión auditiva o visual sólo si aporta información;
+- completar el contrato inicial del proyecto autónomo.
 
 ## Criterio de avance
 

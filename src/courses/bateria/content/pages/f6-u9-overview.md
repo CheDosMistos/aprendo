@@ -7,126 +7,124 @@ unitSlug: fase-6-unidad-9
 slug: fase-6-unidad-9-introduccion
 kind: unit
 order: 0
-title: "Autonomía aplicada: diagnosticar, elegir estrategia y verificar"
-summary: "Convierte el ciclo de práctica ya conocido en decisiones propias: identifica una necesidad, elige una estrategia y un recurso con criterio, comprueba el resultado y ajusta sin confundir autonomía con practicar sin ayuda."
-duration: Unidad flexible · 4 lecciones + evaluación
-competencies: [K8, K1, K2, K3, K4, K5, K6, K7, I3, E6, F7, C1, C2, H5]
+title: "Proyecto de repertorio desde el audio: escuchar, transcribir y analizar"
+summary: "Aprende una parte significativa de una pieza principalmente desde el audio y el análisis, construye una transcripción propia útil, verifica tus hipótesis y demuestra qué decisiones nacieron de ese proceso."
+duration: Unidad flexible · 4 lecciones + evaluación; varias sesiones
+competencies: [E6, F7, I3, I4, K3, K5, K8, C1, C2, C3, H5, H6]
 rudiments: []
 published: true
 ---
 
-## Novedad dominante: elegir con criterio, no practicar sin guía
+## Novedad dominante: usar escucha, transcripción y análisis para aprender repertorio
 
-Unidad 1 abrió la Fase 6 enseñando a observar una ejecución, formular un problema, proponer una prueba y registrar una línea base. Desde entonces Unidades 2–8 han aplicado ese proceso a transcripción, charts, independencia, improvisación, interacción, transferencia estilística y feel.
+La Unidad 2 convirtió la transcripción en un procedimiento explícito. Aquí ese procedimiento deja de trabajar sobre un fragmento corto aislado y se convierte en una **vía real para aprender repertorio**.
 
-Esta unidad **no vuelve a enseñar desde cero objetivos, diagnóstico, grabación o planificación**. La pregunta nueva es:
+El objetivo específico de Fase 6 exige poder:
 
-> **ANTE UN PROBLEMA REAL, ¿PUEDO ELEGIR ENTRE VARIAS ESTRATEGIAS Y RECURSOS, EXPLICAR POR QUÉ ELIJO UNO, COMPROBAR QUÉ OCURRIÓ Y DECIDIR QUÉ HACER DESPUÉS?**
+> **Aprender una pieza al menos parcialmente mediante escucha, transcripción y análisis, no únicamente mediante tutorial.**
 
-El mapa superior define Autonomía de aprendizaje:
+Esta unidad produce evidencia directa de ese objetivo. No exige aprender una canción entera ni copiar cada detalle de batería.
 
-- **MÍNIMO PARA AVANZAR:** puede seguir una lección y reconocer qué necesita repasar;
-- **COMPETENTE / FUNCIONAL:** selecciona estrategias y recursos con criterio dentro del currículo;
-- **AVANZADO:** escucha/lee/analiza una necesidad, diseña práctica, verifica resultado y transfiere la solución.
+## Qué debe cambiar respecto a la Unidad 2
 
-Esta unidad tiene como objetivo dominante producir **evidencia de autonomía FUNCIONAL**. No exige autonomía AVANZADO ni declara el Hito 7.
+En la Unidad 2 aprendiste a reconstruir material siguiendo una jerarquía prudente:
 
-Dependencia superior: `autonomía ← objetivos de práctica–gestión de carga y salud`.
+`PULSO → FORMA → MÉTRICA/SUBDIVISIÓN → FUNCIÓN → ARTICULACIÓN/DINÁMICA → DETALLE → VERIFICACIÓN`
 
-## La autonomía de esta unidad no es «hacer lo que quieras»
+Ahora esa jerarquía se aplica a una pieza o a una sección suficientemente sustancial para que aparezcan **forma, continuidad, decisiones de interpretación y revisión entre sesiones**.
 
-El proceso aprobado del curso se conserva:
+La pregunta ya no es solo «¿puedo escribir lo que oigo?», sino:
 
-`OBSERVAR → DEFINIR PROBLEMA → ELEGIR PRUEBA → ELEGIR ESTRATEGIA → PRACTICAR → MEDIR → RECUPERAR → TRANSFERIR → DECIDIR SIGUIENTE PASO`
+> **¿PUEDO APRENDER A TOCAR UNA PARTE MUSICAL UTILIZANDO LO QUE HE ESCUCHADO, RECONSTRUIDO Y ANALIZADO?**
 
-La novedad está en que el curso deja de indicar automáticamente qué estrategia usar. El alumno debe **seleccionar y justificar** dentro de un repertorio de herramientas ya conocidas.
+## Material de trabajo
 
-Cadena de decisión de esta unidad:
+Elige una pieza de dificultad adecuada con acceso legal a la grabación.
 
-> **PROBLEMA → HIPÓTESIS → ESTRATEGIAS PLAUSIBLES → RECURSO NECESARIO → ELECCIÓN → EVIDENCIA → MANTENER / CAMBIAR / RETIRAR**
+Puede ser material ya conocido parcialmente o una pieza nueva para ti. Lo importante es que deje espacio real para aprender desde el audio y no dependa de una transcripción completa preparada de antemano.
 
-Una estrategia no se elige porque sea famosa, difícil o «científica». Se elige porque aporta información o práctica relevante para la hipótesis actual.
+Si existe partitura, chart, vídeo didáctico o tutorial legal, puede utilizarse **después como contraste o apoyo**. No debe sustituir el proceso auditivo que esta unidad pretende observar.
 
-## Menú de estrategias, no recetario universal
+## Qué cuenta como sección sustancial
 
-Entre las herramientas ya presentes en el curso pueden aparecer:
+No se fija un número universal de compases o minutos. La sección debe ser suficientemente amplia para contener varias decisiones musicales relacionadas, por ejemplo:
 
-- práctica bloqueada durante adquisición o corrección localizada;
-- chunking y trabajo de transiciones;
-- práctica lenta;
-- variación controlada;
-- recuperación sin calentamiento específico;
-- interleaving cuando el material ya está suficientemente representado;
-- metrónomo o referencia temporal más/menos explícita;
-- grabación de audio o vídeo;
-- partitura, chart, mapa formal o referencia auditiva;
-- ralentización o loop cuando el recurso legal lo permita;
-- correctivo original limitado;
-- reducción de carga o novedad.
+- una sección formal completa;
+- un groove con su transición y retorno;
+- una estrofa o estribillo con variaciones relevantes;
+- un fragmento que permita relacionar forma, subdivisión, función, dinámica y orquestación.
 
-**ESTÁNDAR DEL PROYECTO:** ninguna de estas herramientas es universalmente superior. Bloquear puede ayudar a construir una representación; mezclar puede ayudar a recuperar o discriminar; retirar feedback puede ser útil para comprobar autonomía, pero no existe una frecuencia universal óptima; grabarse aporta información sólo si después se observa y se usa para decidir.
-
-## Rendimiento inmediato ≠ aprendizaje retenido
-
-Una toma mejor al final de un bloque demuestra que **esa toma** mejoró bajo esas condiciones. No basta por sí sola para inferir retención.
-
-Por eso esta unidad separa:
-
-- **MEJORA INMEDIATA:** cambia el rendimiento durante o justo después de practicar;
-- **RECUPERACIÓN:** la habilidad reaparece tras separación y sin preparación específica inmediata;
-- **TRANSFERENCIA:** la solución se conserva cuando cambia una condición relevante.
-
-No toda tarea necesita las tres pruebas en la misma lección. La elección depende de qué se intenta afirmar.
+**DECISIÓN CURRICULAR RAZONADA:** el alcance se calibra por interpretabilidad de la evidencia y carga sostenible, no por longitud arbitraria.
 
 ## Recorrido de la unidad
 
-### Lección 1 — Del síntoma a la estrategia: decidir antes de repetir
-Construye dos o más hipótesis plausibles, compara estrategias posibles y elige una porque responde al problema, no por costumbre.
+### Lección 1 — Elegir la pieza y declarar las fuentes
+Define el material, registra qué conoces antes de empezar, escucha sin tocar y delimita qué parte intentarás aprender principalmente desde el audio.
 
-### Lección 2 — Calibración: lo que creías, lo que grabaste y lo que cambió
-Formula una predicción antes de escuchar la toma, separa observación de interpretación y usa grabación/feedback para revisar tu propio diagnóstico.
+### Lección 2 — Del audio al mapa y a una sección sustancial
+Recupera el proceso de la Unidad 2 para construir forma, subdivisión, función y una transcripción propia útil, dejando explícita la incertidumbre.
 
-### Lección 3 — Ayudas con propósito: usar, retirar o recuperar soporte
-Decide cuándo una ayuda añade información, cuándo empieza a ocultar una dependencia y cuándo retirarla demasiado pronto empeora la tarea sin enseñar nada útil.
+### Lección 3 — De la reconstrucción a la interpretación
+Convierte lo transcrito y analizado en ejecución: trabaja por capas, vuelve pronto a la música y documenta qué decisiones se derivan del audio y del análisis.
 
-### Lección 4 — Microciclo autónomo: practicar, recuperar, transferir y decidir
-Activa Proyecto autónomo con un problema acotado y completa una vuelta propia del ciclo de aprendizaje a través de más de un encuentro cuando la retención sea relevante.
+### Lección 4 — Grabar, revisar y demostrar qué aprendiste desde el audio
+Compara una toma con la referencia, corrige hipótesis cuando haga falta y prepara un registro claro del camino de aprendizaje.
 
-### Evaluación — autonomía FUNCIONAL
-Ante una tarea de dificultad adecuada, selecciona estrategia y recurso con criterio, justifica al menos una alternativa descartada, obtiene evidencia interpretable y decide si mantener, cambiar o reducir la intervención.
+### Evaluación — Repertorio aprendido mediante escucha, transcripción y análisis
+Demuestra que una parte significativa del material se aprendió mediante ese proceso y que puedes distinguir escucha propia, hipótesis, apoyos externos y decisiones de interpretación.
 
-## Proyecto autónomo pasa de intención a ensayo de autonomía
+## Tutorial: permitido, pero no como única vía
 
-Unidad 1 abrió **Proyecto autónomo — Proyecto autónomo** como carril del portafolio. En esta unidad ese carril deja de ser sólo una idea: se realiza un **microciclo acotado de autonomía aplicada**.
+La regla no es «prohibido mirar tutoriales».
 
-No es todavía el proyecto sostenido de Unidad 10. Esta unidad trabaja un problema pequeño para que el proceso pueda observarse con claridad; Unidad 10 utilizará estas decisiones dentro de una integración más larga de chart, interacción y adaptación.
+Un tutorial puede:
 
-## Fuentes y estatus
+- aclarar una técnica que el audio no muestra;
+- ofrecer una hipótesis alternativa;
+- servir de contraste después de tu reconstrucción;
+- ayudar a comprobar una decisión si su procedencia es clara.
 
-- **ESTÁNDAR DEL PROYECTO:** `04_MAPA_COMPETENCIAS_Y_DEPENDENCIAS` fija autonomía y sus niveles; `06_SISTEMA_PRACTICA_Y_EVALUACION` fija el ciclo de autonomía, el diagnóstico y la selección prudente de estrategias.
-- **EVIDENCIA / REVISIÓN FOCALIZADA — APRENDIZAJE MOTOR GENERAL:** Kantak & Winstein (2012), DOI `10.1016/j.bbr.2011.11.028`, sustenta distinguir rendimiento durante la práctica de aprendizaje inferido mediante retención/transferencia. No es investigación específica de batería.
-- **EVIDENCIA / METAANÁLISIS — APRENDIZAJE MOTOR GENERAL:** Czyż et al. (2024), DOI `10.1038/s41598-024-65753-3`, encuentra un beneficio medio de alta interferencia contextual para retención con un efecto mucho menor en contextos aplicados. No justifica aleatorizar toda práctica musical.
-- **EVIDENCIA MUSICAL DIRECTA PERO LIMITADA:** Bangert et al. (2014), estudio piloto sobre variabilidad en pianistas, ofrece apoyo sólo parcial; esta unidad no lo convierte en receta de batería.
-- **EVIDENCIA MUSICAL DIRECTA LIMITANTE:** Wiseheart, D'Souza & Chae (2017), DOI `10.1371/journal.pone.0182986`, no encontró efecto de espaciado en el aprendizaje pianístico estudiado; evita presentar el espaciado como fórmula universal específica para música.
-- **EVIDENCIA / METAANÁLISIS — APRENDIZAJE MOTOR GENERAL:** McKay et al. (2022), DOI `10.1016/j.psychsport.2022.102165`, no ofrece apoyo robusto para una ventaja universal de reducir la frecuencia relativa del feedback.
-- **EVIDENCIA / REVISIÓN MUSICAL:** Biasutti & Concina (2019), DOI `10.3389/fpsyg.2019.01583`, revisa metacognición y autorregulación en aprendizaje/interpretación musical y respalda trabajar planificación, monitorización y reflexión; no prescribe un protocolo único para bateristas adultos.
-- **EVIDENCIA / REVISIÓN SISTEMÁTICA MUSICAL:** dos Santos Silva & Marinho (2024), DOI `10.1177/10298649241275614`, sintetiza procesos de autorregulación en músicos avanzados; la literatura está muy concentrada en músicos clásicos y no demuestra que sus estrategias sean idénticas para este alumno o esta tarea.
-- **DECISIÓN CURRICULAR RAZONADA:** esta unidad exige justificar la elección de una estrategia y contrastarla con evidencia observable antes de convertirla en hábito.
-- **EJERCICIOS:** todo protocolo o correctivo escrito específicamente en esta unidad se identifica como `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
+Lo que invalidaría la inferencia central es aprender la parte esencialmente siguiendo un tutorial y añadir después una transcripción decorativa que no intervino en el aprendizaje.
+
+## Evidencia que conviene conservar
+
+No hace falta burocracia extensa. Debe poder reconstruirse:
+
+1. qué fuente de audio utilizaste;
+2. qué sabías antes de empezar;
+3. qué sección elegiste;
+4. qué mapa o transcripción propia construiste;
+5. qué era seguro y qué seguía siendo hipótesis;
+6. qué cambió al tocar y comparar;
+7. qué apoyo externo apareció y para qué se utilizó;
+8. qué decisiones musicales provinieron del proceso auditivo y analítico.
+
+## Práctica estándar
+
+Referencia: **25–30 min, 3–4 días por semana**.
+
+Una sesión puede repartir aproximadamente:
+
+- 4–5 min — escucha completa y recuperación de forma;
+- 8–10 min — una capa dominante de escucha/transcripción;
+- 8–10 min — interpretación y recomposición en contexto;
+- 3–5 min — comparación, registro y siguiente decisión.
+
+No intentes transcribir y corregir todas las capas en una misma sesión.
 
 ## Fronteras
 
 Esta unidad no:
 
-- reenseña Unidad 1 como una introducción genérica a «cómo practicar»;
-- afirma que interleaving, espaciado, grabación, práctica lenta o retirada de ayuda sean siempre mejores;
-- considera que detectar un error implica saber corregirlo;
-- equipara más horas o más repeticiones con más aprendizaje;
-- exige practicar siempre sin ayuda para demostrar autonomía;
-- considera una toma inmediatamente buena como prueba suficiente de retención;
-- usa BPM como criterio universal de dominio;
-- inicia el proyecto sostenido de chart/interacción/adaptación de Unidad 10;
-- declara alcanzado el Hito 7;
-- abre polirritmia, polimetría o modulación métrica profundas de Fase 7.
+- exige una canción completa;
+- exige una transcripción nota por nota de toda la batería;
+- convierte una simplificación funcional en «la parte original»;
+- exige certeza sobre sonidos ocultos por la mezcla;
+- prohíbe toda ayuda visual o tutorial;
+- acepta un tutorial como única vía de aprendizaje;
+- convierte una toma favorable en prueba suficiente de retención;
+- certifica por sí sola autonomía avanzada;
+- usa BPM, porcentajes o cero errores como criterio universal;
+- abre el núcleo rítmico avanzado de Fase 7.
 
-> **AUTONOMÍA FUNCIONAL = PODER ELEGIR QUÉ HACER A CONTINUACIÓN Y TENER UNA RAZÓN OBSERVABLE PARA ESA ELECCIÓN.**
+> **LA TRANSCRIPCIÓN AQUÍ NO ES UN DOCUMENTO FINAL: ES UNA HERRAMIENTA PARA ESCUCHAR MEJOR, TOMAR DECISIONES Y APRENDER MÚSICA.**

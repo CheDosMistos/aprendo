@@ -15,7 +15,7 @@ function frontmatter(doc:string){
   return match[1];
 }
 
-test('Fase 6 U8 publica overview, cuatro lecciones y Checkpoint 6E',()=>{
+test('Fase 6 U8 publica overview, cuatro lecciones y evaluación local sin código alfanumérico',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
     assert.match(fm,/phase: 6\nunit: 8\nunitSlug: fase-6-unidad-8/);
@@ -23,8 +23,8 @@ test('Fase 6 U8 publica overview, cuatro lecciones y Checkpoint 6E',()=>{
     assert.match(fm,new RegExp(`order: ${i}`));
   });
   assert.equal(new Set(docs.map(d=>frontmatter(d).match(/contentId: ([^\n]+)/)?.[1])).size,6);
-  assert.match(docs[0],/4 lecciones \+ checkpoint/);
-  assert.match(docs[5],/Checkpoint 6E/);
+  assert.match(docs[0],/4 lecciones \+ evaluación/);
+  assert.doesNotMatch(docs[5],/Checkpoint 6E/);
 });
 
 test('U8 mantiene C7 como novedad dominante y conserva el contrato superior',()=>{
@@ -72,16 +72,15 @@ test('U8 documenta evidencia específica y límites de generalización',()=>{
   assert.match(docs[0],/10\.1080\/09298215\.2022\.2150649/);
   assert.match(docs[0],/10\.3389\/fpsyg\.2016\.01487/);
   assert.match(docs[0],/10\.1525\/mp\.2002\.19\.3\.333/);
-  assert.match(docs[3],/no establece una receta/i);
 });
 
-test('U8 identifica ejercicios originales y no exige ejecución funcional para C7 MÍNIMO',()=>{
+test('U8 identifica ejercicios originales y no exige ejecución funcional para el mínimo',()=>{
   for(const d of docs.slice(1,6)){if(/EJERCICIO ORIGINAL/.test(d))assert.match(d,/EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);}
   assert.match(docs[5],/no es requisito para demostrar C7 MÍNIMO/i);
   assert.match(docs[5],/Reproduce diferencias básicas de colocación y articulación en estilos estudiados/);
 });
 
-test('Checkpoint 6E conserva niveles, decisiones y fronteras aprobadas',()=>{
+test('La evaluación conserva niveles, decisiones y fronteras aprobadas',()=>{
   assert.match(docs[5],/MÍNIMO PARA AVANZAR — C7/);
   assert.match(docs[5],/COMPETENTE \/ FUNCIONAL/);
   assert.match(docs[5],/AVANZADO/);
@@ -89,7 +88,6 @@ test('Checkpoint 6E conserva niveles, decisiones y fronteras aprobadas',()=>{
   assert.match(docs[5],/CONTINUAR \+ CORRECTIVO/);
   assert.match(docs[5],/REDUCIR NOVEDAD/);
   assert.match(docs[5],/No se promedian estas dimensiones como nota numérica/i);
-  assert.match(docs[5],/no sustituye el proyecto sostenido de U10/i);
   assert.match(docs[5],/no declara Hito 7/i);
   assert.match(docs[5],/no usa BPM universal/i);
 });

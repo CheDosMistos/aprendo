@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: checkpoint-proyecto-autonomo-r4
 kind: checkpoint
 order: 6
-title: "Evaluación — Proyecto autónomo Proyecto autónomo: autonomía funcional sostenido"
+title: "Evaluación — Proyecto autónomo: autonomía funcional sostenida"
 summary: "Evalúa un ciclo autónomo multisesión completo: selección, diagnóstico, planificación, recursos, evidencia, ajuste y transferencia, sin declarar todavía Hito 7."
 duration: evaluación + revisión del proyecto
 competencies: [K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4]
@@ -17,23 +17,23 @@ published: true
 
 ## Función de la evaluación
 
-Esta evaluación evalúa la salida superior de esta unidad:
+Esta evaluación observa un ciclo completo:
 
 `OBSERVAR → DEFINIR → ELEGIR → ACTUAR → REGISTRAR → EVALUAR → AJUSTAR → TRANSFERIR`
 
-No se aprueba por producir el plan más complejo, practicar más horas o conseguir una única toma perfecta.
+No se supera por producir el plan más complejo, practicar más horas o conseguir una única toma perfecta.
 
-Se aprueba cuando existe evidencia de que **las decisiones del proyecto forman un ciclo coherente y revisable**.
+Se supera cuando existe evidencia de que **las decisiones del proyecto forman un ciclo coherente y revisable**.
 
-## Evidencia mínima del portafolio esta unidad
+## Evidencia mínima del proyecto
 
 Presenta:
 
-1. material elegido y justificación de alcance/legalidad;
+1. material elegido y justificación de alcance y legalidad;
 2. línea base;
 3. problema priorizado;
-4. al menos dos hipótesis plausibles en un punto significativo del proyecto;
-5. estrategia/recurso inicial y razón de elección;
+4. al menos dos hipótesis plausibles en un punto significativo;
+5. estrategia o recurso inicial y razón de elección;
 6. registro de una decisión intermedia;
 7. evidencia de que mantuviste, cambiaste, redujiste o retiraste una intervención por una razón observable;
 8. interpretación o tarea final representativa;
@@ -46,76 +46,66 @@ No es obligatorio que cada elemento sea un documento separado. Una grabación, u
 
 No se calcula una media matemática. Evalúa cada dimensión de forma cualitativa.
 
-### 1. Selección y alcance — objetivos de práctica/grabación y autoevaluación/autonomía
+### Selección y alcance
 
 - el proyecto es legal y abordable;
 - la dificultad permite observar aprendizaje y no sólo supervivencia;
 - se delimitan objetivos y exclusiones.
 
-### 2. Diagnóstico — grabación y autoevaluación/diagnóstico de errores/análisis musical
+### Diagnóstico
 
 - separa observación de explicación;
 - formula hipótesis plausibles;
 - prioriza un cuello de botella por relevancia musical.
 
-### 3. Elección de estrategia y recurso — diagnóstico de errores/práctica espaciada/autonomía
+### Elección de estrategia y recurso
 
 - la intervención responde a una hipótesis;
 - el recurso tiene función explícita;
 - existe al menos una alternativa razonable.
 
-### 4. Monitorización y evidencia — interleaving sensato/recuperación y retención
+### Monitorización y evidencia
 
 - las observaciones son interpretables;
 - una grabación o medición sólo se usa cuando responde a una pregunta;
 - una toma favorable no se convierte automáticamente en prueba de retención.
 
-### 5. Ajuste — gestión de carga y salud/autonomía
+### Ajuste
 
-- puede mantener, cambiar, reducir o retirar una intervención;
+- puedes mantener, cambiar, reducir o retirar una intervención;
 - la decisión se justifica por evidencia y no por costumbre;
-- reconoce cuando todavía no hay información suficiente.
+- reconoces cuando todavía no hay información suficiente.
 
-### 6. Recuperación/transferencia — recuperación y retención/autonomía
+### Recuperación y transferencia
 
-- comprueba qué sobrevive fuera de la condición exacta de práctica;
+- compruebas qué sobrevive fuera de la condición exacta de práctica;
 - el cambio de condición sigue siendo pertinente para la habilidad objetivo.
 
-### 7. Resultado musical — formas y canciones/repertorio y competencias del proyecto
+### Resultado musical
 
-Según el material pueden observarse:
+Según el material pueden observarse continuidad, pulso/subdivisión, forma, dinámica, sonido, lectura, estilo/feel, recuperación ante errores e interacción/adaptación cuando realmente estuvieron disponibles.
 
-- continuidad;
-- pulso/subdivisión;
-- forma;
-- dinámica;
-- sonido;
-- lectura;
-- estilo/feel;
-- recuperación ante errores;
-- interacción/adaptación si realmente estuvo disponible.
-
-### 8. transcripción real/análisis musical aplicados
+### Transcripción y análisis aplicados
 
 Cuando sean pertinentes:
 
-- transcripción real distingue certeza e hipótesis en la escucha/transcripción;
-- análisis musical relaciona elementos musicales para explicar decisiones, no sólo enumera términos.
+- la transcripción distingue certeza e hipótesis;
+- el análisis relaciona elementos musicales para explicar decisiones, no sólo enumera términos.
 
 ## MÍNIMO PARA AVANZAR
 
-Esta unidad se considera superada cuando el alumno:
+La unidad se considera superada cuando:
 
-- completa un proyecto acotado durante más de un encuentro;
-- presenta una línea base y un resultado posterior comparables;
-- elige una estrategia y recurso con una razón vinculada al problema;
-- registra evidencia interpretable;
-- demuestra al menos una decisión de ajuste o mantenimiento basada en esa evidencia;
-- realiza una prueba de recuperación o transferencia pertinente;
-- puede explicar el ciclo completo sin fingir certeza donde no la tiene;
-- no usa BPM, número de repeticiones o ausencia total de errores como único criterio.
+- completas un proyecto acotado durante más de un encuentro;
+- presentas una línea base y un resultado posterior comparables;
+- eliges una estrategia y recurso con una razón vinculada al problema;
+- registras evidencia interpretable;
+- demuestras al menos una decisión de ajuste o mantenimiento basada en esa evidencia;
+- realizas una prueba de recuperación o transferencia pertinente;
+- puedes explicar el ciclo completo sin fingir certeza donde no la tienes;
+- no usas BPM, número de repeticiones o ausencia total de errores como único criterio.
 
-Esto constituye **autonomía funcional sostenido dentro del proyecto esta unidad**, no independencia pedagógica absoluta.
+Esto constituye **autonomía funcional sostenida dentro del proyecto**, no independencia pedagógica absoluta.
 
 ## COMPETENTE / FUNCIONAL
 
@@ -133,24 +123,24 @@ Además del mínimo:
 
 Opcionalmente:
 
-- transfiere el principio a un segundo material sin homogeneizar contextos;
-- identifica límites de generalización;
-- diseña una prueba posterior para una incertidumbre todavía abierta;
-- reduce guía externa sin perder calidad diagnóstica ni musical.
+- transfieres el principio a un segundo material sin homogeneizar contextos;
+- identificas límites de generalización;
+- diseñas una prueba posterior para una incertidumbre todavía abierta;
+- reduces guía externa sin perder calidad diagnóstica ni musical.
 
 AVANZADO no es requisito para continuar.
 
 ## Decisiones posibles
 
-### CONTINUAR A Unidad 12
+### CONTINUAR A LA UNIDAD 12
 
 Existe evidencia suficiente del ciclo autónomo completo.
 
 ### CONTINUAR + CORRECTIVO
 
-autonomía es funcional, pero una competencia musical de soporte necesita mantenimiento específico.
+La autonomía es funcional, pero una competencia musical de soporte necesita mantenimiento específico.
 
-### REDUCIR ALCANCE Y RETEST
+### REDUCIR ALCANCE Y VOLVER A PROBAR
 
 El proyecto era demasiado amplio para producir evidencia interpretable. Se conserva el ciclo y se reduce la carga.
 
@@ -160,22 +150,22 @@ La interpretación puede ser aceptable, pero no existe evidencia suficiente para
 
 ## Copyright y honestidad
 
-- no entregues a Aprendo una partitura/transcripción protegida no autorizada;
+- no entregues a Aprendo una partitura o transcripción protegida no autorizada;
 - una transcripción propia no se presenta como oficial;
-- material del curso creado para la unidad se identifica como `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`;
-- ayuda externa utilizada se reconoce por su función, no se oculta para aparentar autonomía.
+- material creado para la unidad se identifica como `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`;
+- la ayuda externa utilizada se reconoce por su función, no se oculta para aparentar autonomía.
 
-## Fronteras de la evaluación
+## Fronteras
 
-Superar evaluación final:
+Superar esta evaluación:
 
 - **NO declara Hito 7**;
-- no sustituye la revisión acumulativa los cuatro carriles del portafolio de Unidad 12;
-- no certifica automáticamente transcripción real/análisis musical globales sólo porque aparezcan en este proyecto;
-- no exige autonomía AVANZADO;
+- no sustituye la revisión acumulativa del portafolio de la Unidad 12;
+- no certifica automáticamente transcripción o análisis globales sólo porque aparezcan en este proyecto;
+- no exige autonomía avanzada;
 - no exige interacción interpersonal si no estuvo disponible;
 - no exige una canción nueva;
 - no exige un BPM universal, porcentajes mínimos ni cero errores;
 - no adelanta métricas irregulares avanzadas, polirritmia profunda, polimetría o modulación métrica de Fase 7.
 
-> **LA PRUEBA CENTRAL DE esta unidad NO ES QUE TU PRIMER PLAN FUERA CORRECTO; ES QUE TU PROCESO PRODUZCA DECISIONES MEJORES A MEDIDA QUE APARECE EVIDENCIA.**
+> **LA PRUEBA CENTRAL NO ES QUE TU PRIMER PLAN FUERA CORRECTO; ES QUE TU PROCESO PRODUZCA DECISIONES MEJORES A MEDIDA QUE APARECE EVIDENCIA.**

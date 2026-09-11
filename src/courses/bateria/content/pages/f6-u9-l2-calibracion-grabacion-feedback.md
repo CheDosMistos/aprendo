@@ -7,109 +7,81 @@ unitSlug: fase-6-unidad-9
 slug: calibracion-grabacion-feedback
 kind: lesson
 order: 2
-title: "Calibración: lo que creías, lo que grabaste y lo que cambió"
-summary: "Usa una toma para contrastar percepción y resultado, separando observación de inferencia y evitando que la grabación se convierta en juez automático."
-duration: 20–30 min
-competencies: [K8, K5, K6, K2, C1, C2, H5]
+title: "Del audio al mapa y a una sección sustancial"
+summary: "Aplica la escucha jerárquica ya aprendida para construir una representación propia útil de una sección musical, distinguiendo certeza, hipótesis y simplificación."
+duration: 25–30 min
+competencies: [E1, E2, E5, E6, F3, F7, D6, C2, C3, K3, K5]
 rudiments: []
 published: true
 ---
 
 ## Objetivo
 
-Aprender a calibrar la autoevaluación mediante esta secuencia:
+Aplicar a repertorio real el procedimiento que ya conoces de la Unidad 2:
 
-> **PREDICCIÓN → TOMA → OBSERVACIÓN → INFERENCIA → AJUSTE → RETEST**
+`PULSO → FORMA → MÉTRICA/SUBDIVISIÓN → FUNCIÓN → ARTICULACIÓN/DINÁMICA → DETALLE → VERIFICACIÓN`
 
-Grabarse no mejora el aprendizaje por sí solo. La grabación es **feedback aumentado**: aporta una perspectiva adicional cuando permite comprobar una pregunta concreta.
+No tienes que recorrer todas las capas cada vez. La jerarquía sirve para impedir que un detalle incierto bloquee la estructura.
 
-## Antes de escuchar: predice
+## 1. Construye primero el mapa
 
-Elige una sola dimensión dominante y escribe qué esperas encontrar.
+Antes de perseguir golpes concretos, identifica:
 
-Ejemplos:
+- dónde empieza y termina la sección;
+- qué frases o bloques se repiten;
+- dónde están las transiciones;
+- qué cambia de función, energía o textura.
 
-- «creo que el fill conserva el pulso pero el retorno entra tarde»;
-- «creo que el hi-hat sube de volumen cuando aumenta la coordinación»;
-- «creo que la colocación de caja cambia, pero la forma sigue estable».
+## 2. Reconstruye la función baterística
 
-Evita:
+Busca una versión que puedas tocar y comparar aunque todavía falten detalles.
 
-- «creo que sonará bien»;
-- «seguro que todo está mal».
+Pregunta:
 
-Una predicción concreta permite comparar **lo que creías** con **lo que ocurrió**.
+- ¿qué voz sostiene la subdivisión?
+- ¿dónde están los apoyos principales?
+- ¿qué relación hay entre bombo, caja y forma?
+- ¿qué fills o transiciones cambian realmente la estructura?
 
-## Escuchar no es explicar
+## 3. Escribe sólo lo que aporta información útil
 
-Después de la toma, separa dos columnas:
+Puedes usar notación, rejilla rítmica, chart propio o una combinación.
 
-### OBSERVACIÓN
-Describe algo audible/visible sin atribuir todavía una causa.
+Cuando corresponda distingue:
 
-`En la segunda transición, el siguiente 1 aparece después de la referencia.`
+- **HECHO VERIFICADO:** confirmado mediante una fuente fiable o evidencia inequívoca;
+- **HIPÓTESIS DE ESCUCHA:** interpretación plausible todavía no confirmada;
+- **APROXIMACIÓN DIDÁCTICA:** simplificación deliberada para aprender o representar una función;
+- **TRANSCRIPCIÓN PUBLICADA/VERIFICADA:** sólo si existe una fuente legal comprobada.
 
-### INFERENCIA
-Propón una explicación provisional.
+Una reconstrucción tuya sigue siendo una **transcripción propia**, no una partitura oficial.
 
-`Quizá pierdo la referencia durante las últimas dos notas del fill.`
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Tres capas y una duda»
 
-No escribas la inferencia como si fuera un hecho.
+Para la sección elegida prepara:
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Calibración A/B»
+1. una capa de forma;
+2. una capa de groove o función;
+3. una capa de articulación, dinámica o transición;
+4. una duda explícita que todavía no vas a resolver por intuición.
 
-1. Selecciona una tarea conocida de duración suficiente para que el problema pueda aparecer.
-2. Escribe una predicción concreta.
-3. Haz una toma continua sin detenerte por un error pequeño.
-4. Antes de tocar otra vez, escucha/observa una sola vez.
-5. Registra:
-   - qué predicción se confirmó;
-   - qué predicción no se confirmó;
-   - qué apareció y no habías anticipado;
-   - qué sigue siendo incierto.
-6. Elige **una** corrección.
-7. Realiza una segunda toma.
-8. Decide si la evidencia justifica mantener la corrección, cambiarla o diseñar otra prueba.
+Toca la reconstrucción contra el audio y anota qué parte deja de encajar.
 
-## ¿Audio o vídeo?
+## 4. Contraste tardío, no sustitución temprana
 
-Usa el soporte que responda a la pregunta.
+Si dispones de chart, transcripción publicada o tutorial legal, úsalo **después de haber producido una hipótesis propia suficiente para compararla**.
 
-- **Audio:** tiempo, balance, dinámica, articulación, continuidad, relación con una pista.
-- **Vídeo:** añade información visual útil para postura, movimientos, preparación o coordinación visible.
-- **DAW/waveform:** puede describir ataques y relaciones temporales; Unidad 8 ya estableció que no decide por sí sola feel o musicalidad.
+Registra:
 
-Más datos no significan mejor feedback. Si el vídeo no responde a tu hipótesis, no es obligatorio grabar vídeo.
+`MI HIPÓTESIS → FUENTE DE CONTRASTE → QUÉ CAMBIÓ → QUÉ SIGUE INCIERTO`
 
-## Evidencia y límite
+No borres la primera versión. El cambio forma parte de la evidencia de aprendizaje.
 
-La investigación sobre autorregulación musical respalda trabajar planificación, monitorización y reflexión, pero la literatura no demuestra que «grabar cada sesión» sea una receta universal para aprender mejor.
+## MÍNIMO PARA AVANZAR
 
-El sistema del curso fija por ello:
-
-- feedback suficiente para construir una representación correcta;
-- retirada o reducción estratégica cuando interesa comprobar evaluación propia;
-- reintroducción de ayuda cuando quitarla sólo añade confusión.
-
-McKay et al. (2022), DOI `10.1016/j.psychsport.2022.102165`, no encuentra apoyo robusto para afirmar que reducir la frecuencia relativa del feedback sea universalmente superior en aprendizaje motor.
-
-## Rutinas
-
-**MÍNIMA:** predicción → una toma → una observación prioritaria → una decisión.
-
-**ESTÁNDAR:** ciclo A/B completo y registro de diferencia entre percepción previa y observación posterior.
-
-**AMPLIADA:** repite el protocolo en otra sesión o condición si la afirmación que quieres hacer requiere comprobar recuperación, no sólo mejora inmediata.
-
-## Criterio de salida
-
-Puedes continuar cuando:
-
-- formulas una predicción observable;
-- distingues observación de inferencia;
-- no conviertes una herramienta visual en juez automático;
-- eliges una corrección a partir de información concreta;
-- puedes decir qué cambió y qué todavía no sabes;
-- entiendes que una toma mejor inmediatamente después no demuestra por sí sola retención.
-
-> **AUTOEVALUARSE MEJOR NO ES SER MÁS DURO CONTIGO: ES HACER QUE TU JUICIO SE PAREZCA MÁS A LA EVIDENCIA DISPONIBLE.**
+- existe un mapa formal utilizable;
+- puedes explicar pulso/subdivisión y función principal;
+- has construido una representación propia suficiente para tocar y comprobar;
+- la incertidumbre está marcada;
+- cualquier fuente externa se distingue de tu reconstrucción;
+- al menos una corrección se deriva de escuchar o contrastar evidencia.

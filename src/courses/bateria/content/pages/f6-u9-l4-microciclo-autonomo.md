@@ -7,141 +7,82 @@ unitSlug: fase-6-unidad-9
 slug: microciclo-autonomo
 kind: lesson
 order: 4
-title: "Microciclo autónomo: practicar, recuperar, transferir y decidir"
-summary: "Activa Proyecto autónomo con un problema pequeño y completa un ciclo propio desde la línea base hasta una decisión posterior, sin convertirlo todavía en el proyecto sostenido de Unidad 10."
-duration: 25–30 min + recuperación en otro encuentro cuando proceda
-competencies: [K8, K1, K2, K4, K5, K6, K7, I3, E6, F7]
+title: "Grabar, revisar y demostrar qué aprendiste desde el audio"
+summary: "Compara una interpretación con la referencia, revisa hipótesis y prepara una cadena de evidencia que muestre qué parte del aprendizaje surgió de escuchar, transcribir y analizar."
+duration: 25–30 min + revisión en otro encuentro cuando proceda
+competencies: [E5, E6, F7, I3, I4, K5, K6, K8, C1, C2, H5]
 rudiments: []
 published: true
 ---
 
 ## Objetivo
 
-Completar una vuelta acotada del proceso:
+Cerrar el proyecto con evidencia interpretable, no con una toma seleccionada porque sea la más favorable.
 
-> **OBSERVAR → DEFINIR PROBLEMA → ELEGIR PRUEBA → ELEGIR ESTRATEGIA/RECURSO → PRACTICAR → MEDIR → RECUPERAR → TRANSFERIR → DECIDIR SIGUIENTE PASO**
+La cadena de revisión es:
 
-Unidad 1 abrió Proyecto autónomo. Esta unidad lo convierte en **ensayo de autonomía aplicada**.
+`ESCUCHA INICIAL → HIPÓTESIS → TRANSCRIPCIÓN/MAPA → INTERPRETACIÓN → GRABACIÓN → COMPARACIÓN → REVISIÓN`
 
-## Elegir una tarea adecuada
+## 1. Graba una toma representativa
 
-La tarea debe ser suficientemente musical para que la transferencia importe y suficientemente pequeña para que puedas identificar qué decisión produjo qué efecto.
+Haz una toma de la sección o del tramo de pieza trabajado en condiciones conocidas.
 
-Puede proceder de:
+No necesitas una toma perfecta. Necesitas una toma que permita observar forma, tiempo, decisiones de interpretación y puntos todavía frágiles.
 
-- una pieza del repertorio ya trabajada;
-- Escucha y transcripción, Chart y lectura o Transferencia entre estilos si el objetivo de esta unidad sigue claramente separado de la tarea de transcripción/chart/transferencia original;
-- material original Aprendo;
-- una grabación propia;
-- un fragmento legalmente escuchado y trabajado sin reproducir una transcripción protegida.
+## 2. Escucha antes de editar tu explicación
 
-No necesitas aprender una canción completa ni construir un chart nuevo.
+Registra primero:
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Microciclo Proyecto autónomo»
+- qué se mantuvo;
+- dónde cambió la forma o el pulso;
+- qué decisión auditiva aparece realmente en la ejecución;
+- qué diferencia entre tu reconstrucción y la referencia sigue siendo relevante;
+- qué detalle es incierto o no merece más carga por ahora.
 
-### 1. Línea base
-Haz una toma o recuperación interpretable. Declara condiciones y no selecciones sólo la mejor toma de varias como si representara todo el estado.
+## 3. Revisa la transcripción o el mapa
 
-### 2. Problema
-Formula una limitación observable.
+Si la ejecución revela que una hipótesis era mala, corrígela.
 
-`La transición B→C pierde continuidad cuando intento responder al cue.`
+Conserva trazabilidad suficiente para poder decir:
 
-No:
+`CREÍA X → ESCUCHÉ/OBSERVÉ Y → AHORA REPRESENTO Z`
 
-`soy malo con los cues`.
+Cambiar de opinión ante nueva evidencia es parte del aprendizaje.
 
-### 3. Dos opciones plausibles
-Propón al menos dos estrategias o recursos razonables.
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Cadena de procedencia»
 
-Ejemplo:
+Elige al menos tres decisiones relevantes de tu interpretación y clasifica su procedencia:
 
-- aislar la transición con la forma contada;
-- mantener la pasada completa y reducir densidad en el evento de riesgo.
+- `ESCUCHA DIRECTA`;
+- `TRANSCRIPCIÓN/RECONSTRUCCIÓN PROPIA`;
+- `ANÁLISIS DE FORMA O FUNCIÓN`;
+- `FUENTE EXTERNA DE CONTRASTE`;
+- `SIMPLIFICACIÓN PROPIA`.
 
-### 4. Elección razonada
-Escoge una y explica:
+Una decisión puede tener más de una procedencia. Lo importante es no fingir que todo salió de oído si no fue así.
 
-- qué hipótesis pone a prueba;
-- qué información conserva;
-- qué coste tiene;
-- qué resultado te haría abandonarla.
+## 4. Tutorial o apoyo externo: declaración honesta
 
-### 5. Intervención breve
-Practica sin cambiar simultáneamente todas las variables.
+Si utilizaste tutorial, vídeo, partitura o transcripción publicada, explica:
 
-### 6. Retest inmediato
-Vuelve al contexto completo. Sirve para comprobar el efecto inmediato, no para declarar retención.
+- cuándo entró en el proceso;
+- qué problema resolvió;
+- qué parte ya habías aprendido antes;
+- qué cambió después.
 
-### 7. Recuperación posterior cuando la afirmación lo requiera
-En otro encuentro suficientemente separado, intenta la tarea sin repetir inmediatamente el mismo correctivo antes.
+La evidencia central sigue siendo válida si la escucha, transcripción y análisis participaron realmente en el aprendizaje y el tutorial **no fue la única vía**.
 
-No existe intervalo universal. El objetivo es que la prueba no sea una mera continuación de la repetición anterior.
+## 5. Retención: sólo afirma lo que has probado
 
-### 8. Transferencia pequeña
-Si la solución parece estable, cambia una condición relevante: otra sección, una variación de dinámica, otra referencia o un contexto musical comparable.
+Una buena toma hoy demuestra rendimiento bajo esas condiciones.
 
-No añadas transferencia si todavía no puedes interpretar la tarea base.
+Si necesitas afirmar que la sección está retenida, recupérala en otro encuentro sin reconstrucción específica extensa inmediatamente antes. No existe un intervalo universal que deba aplicarse a todas las tareas.
 
-### 9. Decisión
-Elige y justifica:
+## MÍNIMO PARA AVANZAR A LA EVALUACIÓN
 
-- `MANTENER ESTRATEGIA`;
-- `CAMBIAR ESTRATEGIA`;
-- `VOLVER A DIAGNOSTICAR`;
-- `PASAR A MANTENIMIENTO`;
-- `REDUCIR NOVEDAD/CARGA`.
-
-## Qué demuestra cada resultado
-
-### Mejora inmediata
-Demuestra que la intervención cambió la ejecución en ese bloque. No prueba retención.
-
-### Recuperación posterior
-Aporta evidencia de disponibilidad después de separación. No convierte una sola toma en garantía permanente.
-
-### Transferencia
-Aporta evidencia de que la solución no depende exclusivamente de la condición exacta entrenada.
-
-### No mejora
-También es información. Si la prueba era coherente, un resultado nulo puede debilitar la hipótesis y justificar una estrategia diferente.
-
-## Relación con transcripción real, análisis musical e formas y canciones
-
-Esta unidad puede usar transcripción, análisis o repertorio como **contexto**. Completar este microciclo no certifica automáticamente:
-
-- transcripción real FUNCIONAL global;
-- análisis musical FUNCIONAL global;
-- formas y canciones AVANZADO;
-- una transcripción completa;
-- dominio de una pieza.
-
-El foco evaluado aquí es la capacidad de **seleccionar y revisar el proceso de aprendizaje**.
-
-## Frontera con Unidad 10
-
-Unidad 10 está reservado para un **proyecto sostenido de chart/interacción/adaptación**. Por eso esta unidad limita deliberadamente la duración y el alcance del problema.
-
-El microciclo de esta lección sirve para que Unidad 10 no tenga que decirte en cada paso qué estrategia usar. No sustituye el proyecto ni anticipa su evaluación integrada.
-
-## Rutinas
-
-**MÍNIMA:** línea base → problema → dos opciones → elegir una → intervención → retest → decisión.
-
-**ESTÁNDAR:** añade recuperación en otro encuentro cuando la habilidad deba mantenerse disponible.
-
-**AMPLIADA:** añade una transferencia pequeña sólo después de que la tarea base sea interpretable.
-
-## Criterio de salida
-
-Puedes continuar al Evaluación cuando:
-
-- seleccionas una tarea acotada y legalmente utilizable;
-- distingues síntoma, hipótesis, estrategia y recurso;
-- comparas al menos dos opciones plausibles;
-- eliges una por su relación con el problema;
-- recoges evidencia suficiente para mantenerla o cambiarla;
-- distingues mejora inmediata de recuperación/transferencia;
-- registras un siguiente paso sostenible.
-
-> **UN CICLO AUTÓNOMO NO TERMINA CUANDO «SALE»: TERMINA CUANDO PUEDES DECIDIR QUÉ HACER DESPUÉS A PARTIR DE LO QUE OBSERVASTE.**
+- existe una toma representativa;
+- puedes mostrar una versión propia de mapa/transcripción y sus revisiones;
+- varias decisiones de interpretación tienen procedencia identificable;
+- sabes qué apoyo externo utilizaste y para qué;
+- reconoces al menos una incertidumbre o limitación pendiente;
+- puedes explicar qué parte de la música aprendiste mediante escucha, transcripción y análisis.

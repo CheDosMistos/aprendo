@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: diagnostico-hipotesis-primer-plan
 kind: lesson
 order: 2
-title: "Esta unidad.Lección 2 — Diagnosticar: problema, hipótesis, recursos y primer plan"
+title: "Diagnosticar: problema, hipótesis, recursos y primer plan"
 summary: "Convierte la línea base en hipótesis contrastables, compara estrategias plausibles y diseña un primer plan que pueda revisarse con evidencia."
 duration: 1–2 sesiones
 competencies: [K2, K3, K4, K5, K8, E6, F7]
@@ -21,7 +21,7 @@ Pasar de «esto sale mal» a un plan razonado que conecte:
 
 `OBSERVACIÓN → HIPÓTESIS → PRUEBA → ESTRATEGIA → EVIDENCIA ESPERADA`
 
-Unidad 9 ya enseñó a comparar estrategias ante un cuello de botella acotado. Esta unidad reutiliza esa competencia dentro de un proyecto más largo y exige que las decisiones se conecten entre sesiones.
+El diagnóstico, la grabación y el ajuste ya aparecieron desde el inicio de Fase 6. Aquí debes **seleccionar y encadenar esas herramientas dentro de un proyecto más largo**, de forma que una decisión de hoy pueda revisarse en sesiones posteriores.
 
 ## Un diagnóstico útil tiene nivel adecuado
 
@@ -47,7 +47,7 @@ Familias posibles:
 
 - representación incompleta de forma o secuencia;
 - subdivisión o referencia temporal inestable;
-- movimiento/técnica insuficiente para la tarea actual;
+- movimiento o técnica insuficiente para la tarea actual;
 - sobrecarga de información;
 - recurso de lectura inadecuado;
 - vocabulario demasiado denso;
@@ -62,13 +62,11 @@ Después pregunta:
 
 Un recurso es útil si modifica información, feedback, restricción o posibilidad de práctica de forma relevante para tu hipótesis.
 
-Ejemplos:
-
 | Hipótesis | Recurso potencial | Qué debería aclarar |
 |---|---|---|
-| pierdo forma | mapa/chart reducido | si la carga de navegación es el cuello |
+| pierdo forma | mapa o chart reducido | si la carga de navegación es el cuello |
 | subdivisión inestable | referencia temporal o subdivisión vocal | si mejora la referencia interna |
-| no oigo un detalle | audio legal ralentizado/loop | si el problema era perceptivo |
+| no oigo un detalle | audio legal ralentizado o loop | si el problema era perceptivo |
 | ejecución distinta de sensación | grabación | si tu autopercepción está bien calibrada |
 | coordinación local | correctivo original acotado | si aislar la capa mejora después la música |
 | dependencia de ayuda | retirada parcial de soporte | si la representación sobrevive sin él |
@@ -126,7 +124,7 @@ Esto evita reinterpretar cualquier resultado como prueba de que tu idea inicial 
 
 - revisar línea base;
 - construir el árbol de hipótesis;
-- seleccionar recurso/estrategia;
+- seleccionar recurso o estrategia;
 - hacer una prueba corta;
 - volver a una condición musical representativa;
 - registrar la decisión para la siguiente sesión.

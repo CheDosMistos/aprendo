@@ -7,7 +7,7 @@ unitSlug: fase-6-unidad-11
 slug: transferencia-cierre-defensa-decisiones
 kind: lesson
 order: 5
-title: "Esta unidad.Lección 5 — Transferir, cerrar y defender las decisiones tomadas"
+title: "Transferir, cerrar y defender las decisiones tomadas"
 summary: "Comprueba qué sobrevive fuera de la condición exacta de práctica, reconstruye el ciclo del proyecto y separa resultado musical, calidad de decisión e incertidumbre pendiente."
 duration: 1–2 sesiones
 competencies: [K5, K6, K7, K8, E6, F7, I3, I4]
@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Cerrar el proyecto Proyecto autónomo sin convertir una buena toma final en la única prueba de aprendizaje.
+Cerrar el proyecto autónomo sin convertir una buena toma final en la única prueba de aprendizaje.
 
 Debes producir tres tipos de evidencia distintos:
 
@@ -54,7 +54,7 @@ No es necesario:
 
 Si el cambio introduce varias competencias nuevas, deja de ser una prueba limpia del aprendizaje objetivo.
 
-## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Defensa del proyecto Proyecto autónomo»
+## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — «Defensa del proyecto autónomo»
 
 Reconstruye el proyecto en una página o registro equivalente:
 
@@ -106,20 +106,20 @@ Incluye si elegiste una estrategia razonable, observaste evidencia pertinente y 
 
 Una interpretación final todavía imperfecta puede contener **buen aprendizaje y buenas decisiones**. Del mismo modo, una toma afortunada no demuestra por sí sola un proceso autónomo funcional.
 
-## transcripción real y análisis musical dentro del proyecto
+## Transcripción y análisis musical dentro del proyecto
 
 Esta unidad no vuelve a enseñar transcripción ni análisis integrado, pero el proyecto debe utilizar esas competencias cuando sean relevantes.
 
-### transcripción real
+### Transcripción
 
 Si tu decisión depende de lo que ocurre en la batería de una grabación, debes poder distinguir:
 
 - hecho verificable;
 - hipótesis de escucha;
 - aproximación didáctica;
-- fuente publicada/verificada cuando exista legalmente.
+- fuente publicada o verificada cuando exista legalmente.
 
-### análisis musical
+### Análisis musical
 
 La explicación final debe conectar elementos musicales, por ejemplo:
 
@@ -150,16 +150,16 @@ Fuente: https://doi.org/10.1093/oxfordhb/9780190056285.013.23
 
 - una pasada o tarea final representativa;
 - una prueba de transferencia pertinente;
-- reconstrucción breve del ciclo Proyecto autónomo;
+- reconstrucción breve del ciclo del proyecto autónomo;
 - una limitación pendiente explícita.
 
 ## Rutina estándar
 
 - recuperación del material sin preparación específica excesiva;
-- interpretación/tarea objetivo;
+- interpretación o tarea objetivo;
 - transferencia;
 - comparación con línea base;
-- defensa del proyecto Proyecto autónomo;
+- defensa del proyecto autónomo;
 - preparación de la evaluación.
 
 ## Criterio de avance
@@ -178,15 +178,15 @@ Opcionalmente transfieres el principio a un segundo material del portafolio y pu
 
 ## Frontera con Unidad 12
 
-Esta lección cierra **el proyecto esta unidad**, no la Fase 6.
+Esta lección cierra **el proyecto autónomo**, no la Fase 6.
 
 Unidad 12 todavía debe revisar:
 
-- portafolio los cuatro carriles del portafolio completo;
+- los cuatro carriles del portafolio completo;
 - retención de material anterior;
 - transferencia no idéntica a tareas practicadas;
 - comparación con la línea base de Unidad 1;
-- evidencia acumulada de transcripción real + análisis musical + las capacidades de práctica y autonomía;
+- evidencia acumulada de transcripción, análisis musical y capacidades de práctica y autonomía;
 - límites pendientes y transición a Fase 7.
 
 Por tanto, aquí todavía **NO SE DECLARA HITO 7**.
