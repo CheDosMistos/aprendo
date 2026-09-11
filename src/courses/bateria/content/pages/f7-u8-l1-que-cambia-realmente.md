@@ -27,7 +27,7 @@ Al terminar debes poder mirar una transición y contestar tres preguntas:
 2. ¿qué era antes?;
 3. ¿qué pasa a significar después?
 
-## Punto de partida: tuplets de 5 y 7 y divisiones no estándar no era modulación métrica
+## Punto de partida: cambiar de subdivisión no era modulación métrica
 
 En Unidad 4 aprendiste a alternar subdivisiones manteniendo la negra estable.
 
