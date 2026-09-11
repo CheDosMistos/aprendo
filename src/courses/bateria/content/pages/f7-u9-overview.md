@@ -51,9 +51,20 @@ La integración progresiva y experimental depende de:
 - **los recursos rítmicos trabajados en las unidades anteriores según la tarea**, no todos como requisito universal;
 - experimentación integrada;
 - forma y fraseo como facilitador;
-- la puerta de entrada de la fase: pulso, subdivisión y cambios de subdivisión, junto con una comprensión métrica suficientemente funcional para manipular ritmo sin perder referencia.
+- pulso, subdivisión y comprensión métrica suficientemente funcionales para manipular ritmo sin perder referencia.
 
 Si una propuesta necesita polimetría, polimetría debe estar disponible. Si no la necesita, no hay obligación de introducirla artificialmente.
+
+## Puerta previa a la profundización
+
+Antes de considerar **integración avanzada funcional** comprueba que:
+
+- pulso y subdivisión sobreviven a la manipulación rítmica elegida;
+- puedes explicar la métrica y la referencia temporal de la tarea antes de añadir complejidad;
+- agrupaciones, desplazamientos, métricas impares y tuplets están funcionales **cuando la propuesta concreta depende de ellos**;
+- cualquier recurso avanzado que decidas integrar está suficientemente comprendido y ejecutable para no convertirse en un patrón memorizado sin referencia.
+
+Esta puerta **no convierte las ocho unidades anteriores en requisitos universales simultáneos**. Hito 8 puede demostrarse con una selección adecuada de recursos; lo obligatorio es que la selección usada sea consciente, temporalmente estable y musicalmente justificable.
 
 ## Principio 1 — La forma manda
 
