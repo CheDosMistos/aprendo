@@ -17,9 +17,9 @@ published: true
 
 ## Función de la unidad
 
-Esta unidad abre la profundización real de **Agrupaciones dentro de 4/4**.
+Esta unidad abre la profundización real de **agrupaciones dentro de 4/4**.
 
-No presenta `3+3+2` como una novedad: esa ventana ya apareció antes y articulación.Unidad 10 trabajó explícitamente la diferencia entre **4/4 agrupado** y **7/8**. Ahora la exigencia sube: el alumno debe mantener una referencia métrica estable mientras cambia deliberadamente la geometría interna del mismo compás.
+No presenta `3+3+2` como una novedad: esa ventana ya apareció antes al comparar **4/4 agrupado** y **7/8**. Ahora la exigencia sube: el alumno debe mantener una referencia métrica estable mientras cambia deliberadamente la geometría interna del mismo compás.
 
 > **LA AGRUPACIÓN ORGANIZA EL MATERIAL DENTRO DEL COMPÁS; NO CAMBIA POR SÍ SOLA EL COMPÁS.**
 
@@ -36,12 +36,12 @@ En ambos casos la barra vuelve a empezar donde corresponde al `4/4`. Los ciclos 
 
 ## Qué recupera
 
-- pulso interno: pulso interno;
-- subdivisión binaria y ternaria: subdivisión binaria;
-- métrica y terminología rítmica: métrica y terminología rítmica;
-- lectura de compás: lectura de compás;
-- motivo/desarrollo motívico: motivo y transformación;
-- articulación.Unidad 10: `agrupación ≠ cambio de compás`.
+- pulso interno;
+- subdivisión binaria;
+- métrica y terminología rítmica;
+- lectura de compás;
+- motivo y transformación;
+- diferencia entre `agrupación` y `cambio de compás`.
 
 ## Recorrido de la unidad
 
