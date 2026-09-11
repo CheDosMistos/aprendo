@@ -64,6 +64,17 @@ El curso establece:
 
 Esta unidad reutiliza esas capacidades, pero cambia la pregunta estructural.
 
+## Puerta previa a la profundización
+
+Antes de considerar **polimetría funcional** comprueba que puedes:
+
+- mantener pulso y subdivisión estables mientras manipulas material rítmico;
+- reconocer y representar una métrica sin perder su referencia temporal;
+- usar de forma funcional, cuando la tarea lo requiera, agrupaciones, desplazamientos, métricas impares y tuplets ya trabajados;
+- conservar una referencia de pulso aunque la superficie rítmica deje de coincidir de forma evidente con ella.
+
+Haber alcanzado el mínimo de la unidad anterior **no sustituye esta comprobación**. Si alguna condición falla, puedes explorar la polimetría como ventana conceptual, pero vuelve a la preparación concreta antes de certificarla como funcional.
+
 ## Fronteras obligatorias
 
 ### Polimetría ≠ polirritmia

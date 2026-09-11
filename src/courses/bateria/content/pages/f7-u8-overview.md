@@ -50,7 +50,7 @@ Si la negra antigua está a `120 BPM`:
 
 La duración puente no cambia. Cambia lo que esa duración **significa dentro del pulso**.
 
-## Por qué tuplets de 5 y 7 y divisiones no estándar es un prerrequisito
+## Por qué quintillos, septillos y otras divisiones no estándar son un prerrequisito
 
 Unidad 4 enseñó a cambiar entre `2 / 3 / 4 / 5 / 7` partes **sin mover la negra**. En modulación métrica hacemos algo distinto:
 
@@ -72,10 +72,19 @@ Esta unidad pregunta:
 El curso establece:
 
 - subdivisión disponible;
-- experiencia suficiente con tuplets de 5/7 y cambios de densidad;
+- experiencia suficiente con quintillos, septillos y cambios de densidad;
 - representación métrica y lectura disponibles.
 
-Además, la puerta de entrada de la fase exige referencia de pulso estable durante manipulación rítmica avanzada.
+## Puerta previa a la profundización
+
+Antes de considerar **modulación métrica funcional** comprueba que puedes:
+
+- mantener pulso y subdivisión estables durante cambios de densidad;
+- explicar la relación entre pulso, subdivisión y métrica sin depender sólo de un BPM memorizado;
+- usar de forma funcional, cuando la tarea lo requiera, agrupaciones, desplazamientos, métricas impares y tuplets ya trabajados;
+- conservar una referencia temporal mientras una subdivisión pasa a cumplir otra función.
+
+Si alguna condición falla, puedes estudiar la idea y el cálculo como ventana conceptual, pero vuelve a la preparación correspondiente antes de certificar una modulación como funcional.
 
 ## Fronteras obligatorias
 
@@ -87,7 +96,7 @@ Debe existir una duración puente que permanezca constante y explique por qué e
 
 ### Modulación métrica ≠ cambio de subdivisión
 
-En tuplets de 5 y 7 y divisiones no estándar:
+En quintillos, septillos y otras divisiones no estándar:
 
 `corcheas → tresillos → semicorcheas → quintillos`
 
@@ -101,11 +110,11 @@ Un tuplet es una división temporal dentro de una referencia. Puede servir de pu
 
 ### Modulación métrica ≠ polirritmia
 
-polirritmia superpone dos ritmos dentro de una relación temporal común. modulación métrica puede aprovechar relaciones semejantes para calcular un puente, pero su rasgo definitorio es la **reinterpretación secuencial del pulso**.
+La polirritmia superpone dos ritmos dentro de una relación temporal común. La modulación métrica puede aprovechar relaciones semejantes para calcular un puente, pero su rasgo definitorio es la **reinterpretación secuencial del pulso**.
 
 ### Modulación métrica ≠ polimetría
 
-polimetría mantiene simultáneamente ciclos métricos distintos. modulación métrica cambia cuál es la unidad de pulso que organiza la continuación.
+La polimetría mantiene simultáneamente ciclos métricos distintos. La modulación métrica cambia cuál es la unidad de pulso que organiza la continuación.
 
 ### Modulación métrica ≠ ilusión rítmica
 
@@ -155,7 +164,7 @@ Con `120 BPM`:
 
 ## ESENCIAL AHORA
 
-- distinguir modulación métrica de tuplets de 5 y 7 y divisiones no estándar/polirritmia/polimetría;
+- distinguir modulación métrica de quintillos/septillos, polirritmia y polimetría;
 - identificar una duración puente;
 - explicar una igualdad temporal;
 - calcular al menos una modulación sencilla;

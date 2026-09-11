@@ -237,7 +237,7 @@ Si el cálculo es correcto pero la ejecución falla:
 3. practica después grupos de `4` sobre esa misma corriente;
 4. vuelve a unir ambos lados.
 
-Si la subdivisión de cinco no es fiable, el problema sigue siendo parcialmente tuplets de 5 y 7 y divisiones no estándar, no modulación métrica puro.
+Si la subdivisión de cinco no es fiable, el problema sigue siendo parcialmente de **quintillos y control de subdivisión**, no de modulación métrica pura.
 
 ## Criterio de avance
 
