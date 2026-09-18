@@ -80,6 +80,14 @@ No mezcles:
 
 Completar la evaluación no convierte automáticamente el control con referencia reducida en `FUNCIONAL`.
 
-## Puente a Unidad 11
+## Retest y puente a Unidad 11
+
+La toma B mide **rendimiento en esta sesión**. No la conviertas por sí sola en aprendizaje retenido. Si esta capacidad importa para tu perfil y la muestra fue interpretable, vuelve a comprobarla más adelante sobre la misma dificultad temporal pero con una línea conocida equivalente, sin practicar el modo reducido justo antes.
+
+- si reaparece sin calentamiento específico, registra evidencia de `RECUPERACIÓN`;
+- si se sostiene con otra línea conocida equivalente, añade evidencia de `TRANSFERENCIA`;
+- si necesita reconstrucción inmediata, vuelve a estabilización/correctivo sin degradar automáticamente todo el control temporal.
+
+Ese retest **sustituye** otra tarea secundaria dentro de la sesión; no añade minutos ni crea una obligación diaria.
 
 Unidad 11 integra escuchar, escribir, leer y aplicar. Si la referencia reducida sigue frágil pero el problema está localizado, puede pasar a mantenimiento/correctivo; Unidad 11 no exige que el gap sea perfecto.
