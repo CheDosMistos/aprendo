@@ -1,0 +1,164 @@
+---
+import { PAS_RUDIMENTS } from '@courses/bateria/curriculum';
+
+interface Props { unit: number; }
+const { unit } = Astro.props;
+
+const phaseFocus = unit <= 4
+  ? 'lectura binaria, duración y síncopa'
+  : unit <= 8
+    ? 'subdivisión compuesta, cambios de densidad y ornamentación'
+    : 'primera vista, referencia interna, integración y Hito 2';
+---
+
+<section
+  class="longitudinal-plan"
+  aria-labelledby="phase2-longitudinal-title"
+  data-phase2-longitudinal
+  data-unit={unit}
+  data-pas-rudiments={JSON.stringify(PAS_RUDIMENTS)}
+>
+  <div class="longitudinal-plan__head">
+    <p class="eyebrow">Práctica longitudinal · Fase 2</p>
+    <h2 id="phase2-longitudinal-title">Lo anterior sigue disponible sin competir con la lectura</h2>
+    <p><strong>Esto no añade un bloque extra.</strong> La referencia sigue siendo 25–30 minutos, 3–4 días por semana. En esta fase el centro de gravedad es <strong>{phaseFocus}</strong>; recuperar técnica o PAS anteriores sustituye parte del trabajo secundario, nunca se acumula al final.</p>
+  </div>
+
+  <div class="longitudinal-plan__grid">
+    <article>
+      <h3>1. Prioridad nueva de Fase 2</h3>
+      <p>La lectura, el pulso y la subdivisión mandan. Primero comprende la línea mediante <strong>VER → CONTAR/CANTAR → TOCAR → ESCUCHAR → ESCRIBIR</strong>. Sticking, acentos, doubles, flams, drags o rolls se aplican después, cuando ayudan a transferir una capacidad sin borrar la estructura rítmica.</p>
+    </article>
+
+    <article>
+      <h3>2. Capacidades de manos que no desaparecen</h3>
+      <p><strong>PAS CONOCIDO no significa capacidad motora dominada.</strong> Relajación, rebote, singles/doubles, alturas, dinámica, bilateralidad, grace notes y continuidad de rolls siguen vivas. En cada sesión técnica elige la capacidad que limita la tarea actual; no repases todas por obligación.</p>
+    </article>
+
+    <article>
+      <h3>3. Recuperación PAS que rota</h3>
+      <p>Los 40 PAS de Fase 1 son vocabulario disponible, no cuarenta deberes permanentes. Prioriza correctivos activos, material todavía frágil y evidencia menos reciente; después comprueba transferencia sobre lectura, dinámica, acentos o cambios de subdivisión cuando corresponda.</p>
+      <div class="recovery-queue" data-recovery-queue>
+        <p class="muted" data-recovery-status>Calculando una muestra a partir de tu evidencia guardada…</p>
+        <ol data-recovery-list></ol>
+      </div>
+      <p class="muted">La muestra sirve para elegir, no para crear deuda. Si el trabajo principal ya exige suficiente técnica, puede sustituir esta recuperación explícita.</p>
+    </article>
+
+    <article>
+      <h3>4. Evidencia que cambia de contexto</h3>
+      <p>No confundas rendimiento después de repetir con aprendizaje. Cuando proceda, recupera sin calentamiento específico y prueba una variación pequeña: otra mano líder, dinámica, subdivisión, tempo cómodo o una línea nueva. Una prueba útil de transferencia vale más que acumular repeticiones idénticas.</p>
+    </article>
+  </div>
+
+  <div class="longitudinal-plan__week">
+    <h3>Distribución adaptable dentro de 3–4 sesiones</h3>
+    <p>No todas las áreas aparecen cada día. La unidad aporta la prioridad principal; técnica heredada, oído, escritura, creatividad y recuperación rotan a escala semanal según la evidencia.</p>
+    <div class="week-grid">
+      <div>
+        <strong>Sesión con material nuevo</strong>
+        <p>Diagnóstico breve → prioridad de lectura/tiempo → área secundaria útil → recuperación o transferencia breve → registro.</p>
+      </div>
+      <div>
+        <strong>Sesión de consolidación</strong>
+        <p>Recupera antes de repetir → localiza la variable limitante → estabiliza o transfiere → vuelve al conjunto → registra qué debe seguir vivo.</p>
+      </div>
+    </div>
+  </div>
+
+  <details class="longitudinal-plan__rules">
+    <summary>Reglas de carga, tempo y referencia temporal</summary>
+    <div>
+      <p><strong>Tempo de calidad.</strong> El BPM describe la condición. Sube sólo mientras lectura, tiempo, sonido, movimiento y relajación sigan suficientemente controlados; si una variable colapsa, reduce tempo, densidad, longitud o ayudas.</p>
+      <p><strong>Continuidad.</strong> Observa cuánto puede sostenerse una tarea sin deterioro claro de tiempo, sonido, lectura o técnica. Esa duración es evidencia contextual, no una cuota universal ni una cifra que deba crecer cada semana.</p>
+      <p><strong>Metrónomo.</strong> La retirada de referencia es progresiva y depende de estabilidad real. Los retos de click reducido o gaps de Unidad 10 no se adelantan por calendario ni se convierten en prueba de valor técnico.</p>
+      <p><strong>Carga.</strong> Un correctivo antiguo entra sustituyendo otra tarea. Si aparece deterioro claro por fatiga, reduce o cambia la carga. Dolor, hormigueo, entumecimiento o pérdida de fuerza no forman parte del entrenamiento normal.</p>
+    </div>
+  </details>
+</section>
+
+<script>
+  interface SkillState {
+    skillId: string;
+    workState: 'new' | 'stabilizing' | null;
+    masteryState: 'known' | 'functional' | 'mastered' | null;
+    retentionState: 'not_checked' | 'checked';
+    limitingVariable: string | null;
+    corrective: string | null;
+    updatedAt: string;
+  }
+  interface SkillResponse { states?: SkillState[]; }
+
+  const priorityFor = (state: SkillState | undefined) => {
+    if (state?.corrective || state?.limitingVariable) return 0;
+    if (!state || state.workState === 'stabilizing' || state.masteryState === null) return 1;
+    if (state.retentionState !== 'checked') return 2;
+    return 3;
+  };
+
+  const reasonFor = (state: SkillState | undefined) => {
+    if (!state) return 'sin evidencia guardada todavía';
+    if (state.corrective || state.limitingVariable) return 'correctivo o variable limitante activa';
+    if (state.workState === 'stabilizing' || state.masteryState === null) return 'todavía necesita estabilización o evidencia';
+    if (state.retentionState !== 'checked') return 'retención todavía no comprobada';
+    return 'evidencia relativamente antigua';
+  };
+
+  for (const root of document.querySelectorAll<HTMLElement>('[data-phase2-longitudinal]')) {
+    const status = root.querySelector<HTMLElement>('[data-recovery-status]');
+    const list = root.querySelector<HTMLOListElement>('[data-recovery-list]');
+    if (!status || !list) continue;
+
+    let rudiments: string[] = [];
+    try {
+      rudiments = JSON.parse(root.dataset.pasRudiments ?? '[]') as string[];
+    } catch {
+      status.textContent = 'No se pudo interpretar el vocabulario PAS.';
+      continue;
+    }
+
+    try {
+      const response = await fetch('/api/progress/skills/?courseId=bateria&skillType=rudiment');
+      const body = await response.json() as SkillResponse;
+      if (!response.ok) throw new Error('load failed');
+      const byId = new Map((body.states ?? []).map((state) => [state.skillId, state]));
+
+      const candidates = rudiments
+        .map((rudiment) => ({ rudiment, state: byId.get(rudiment) }))
+        .sort((a, b) => {
+          const priority = priorityFor(a.state) - priorityFor(b.state);
+          if (priority !== 0) return priority;
+          const aTime = a.state?.updatedAt ? Date.parse(a.state.updatedAt) : 0;
+          const bTime = b.state?.updatedAt ? Date.parse(b.state.updatedAt) : 0;
+          return aTime - bTime;
+        })
+        .slice(0, 3);
+
+      for (const candidate of candidates) {
+        const item = document.createElement('li');
+        const strong = document.createElement('strong');
+        const small = document.createElement('small');
+        strong.textContent = candidate.rudiment;
+        small.textContent = reasonFor(candidate.state);
+        item.append(strong, small);
+        list.append(item);
+      }
+      status.textContent = 'Muestra sugerida para rotar, no lista obligatoria:';
+    } catch {
+      status.textContent = 'No se pudo cargar tu evidencia. Elige manualmente una capacidad o PAS previo que necesite recuperación.';
+    }
+  }
+</script>
+
+<style>
+  .longitudinal-plan{margin-top:2.5rem;padding:clamp(1rem,2.5vw,1.5rem);border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+  .longitudinal-plan__head h2{margin:.2rem 0 .5rem}.longitudinal-plan__head p{max-width:72ch}
+  .longitudinal-plan__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin-top:1.25rem}
+  .longitudinal-plan__grid article,.week-grid>div{padding:1rem;border:1px solid var(--border);border-radius:.7rem;background:var(--bg)}
+  .longitudinal-plan__grid h3,.longitudinal-plan__week h3{margin:0 0 .45rem}.longitudinal-plan__grid p{margin:.4rem 0}
+  .muted{color:var(--muted)}.recovery-queue{margin:.7rem 0;padding:.75rem;border-radius:.6rem;background:var(--surface-2)}
+  .recovery-queue ol{display:grid;gap:.35rem;margin:.45rem 0 0;padding-left:1.25rem}.recovery-queue li strong,.recovery-queue li small{display:block}.recovery-queue li small{color:var(--muted)}
+  .longitudinal-plan__week{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border)}.week-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.week-grid p{margin:.55rem 0 0}
+  .longitudinal-plan__rules{margin-top:1rem;border-top:1px solid var(--border);padding-top:1rem}.longitudinal-plan__rules summary{cursor:pointer;font-weight:750}.longitudinal-plan__rules div{max-width:76ch}
+  @media (max-width:760px){.longitudinal-plan__grid,.week-grid{grid-template-columns:1fr}}
+</style>
