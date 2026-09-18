@@ -1,0 +1,219 @@
+---
+import { PHASE_1_PAS_BY_UNIT } from '@courses/bateria/curriculum';
+
+interface Props { unit: number; }
+const { unit } = Astro.props;
+
+const currentRudiments = [...(PHASE_1_PAS_BY_UNIT[unit] ?? [])];
+const previousRudiments = unit > 1 ? [...(PHASE_1_PAS_BY_UNIT[unit - 1] ?? [])] : [];
+const priorRudiments = Object.entries(PHASE_1_PAS_BY_UNIT)
+  .filter(([key]) => Number(key) < unit)
+  .flatMap(([, rudiments]) => [...rudiments]);
+---
+
+<section
+  class="longitudinal-plan"
+  aria-labelledby="longitudinal-plan-title"
+  data-phase1-longitudinal
+  data-unit={unit}
+  data-prior-rudiments={JSON.stringify(priorRudiments)}
+>
+  <div class="longitudinal-plan__head">
+    <p class="eyebrow">Práctica longitudinal · Fase 1</p>
+    <h2 id="longitudinal-plan-title">Qué sigue vivo mientras avanzas</h2>
+    <p><strong>Esto no añade minutos a la sesión.</strong> Sirve para decidir qué sustituye a qué dentro de tus 25–30 minutos y evitar que cada unidad convierta la práctica en una lista cada vez más larga.</p>
+  </div>
+
+  <div class="longitudinal-plan__grid">
+    <article>
+      <h3>1. Técnica permanente</h3>
+      <p>Un PAS puede pasar a <strong>CONOCIDO</strong> y dejar de ser prioridad. La capacidad motora que lo sostiene no desaparece: relajación y rebote; singles/doubles; alturas y dinámica; grace notes; continuidad de rolls; bilateralidad y economía.</p>
+      <p>Trabaja el foco técnico de la unidad y, si existe, <strong>una variable limitante</strong>. No intentes mantener todos los carriles en cada sesión.</p>
+    </article>
+
+    <article>
+      <h3>2. Vocabulario PAS actual</h3>
+      {currentRudiments.length > 0 ? (
+        <>
+          <p>La novedad principal de esta unidad es:</p>
+          <ul>
+            {currentRudiments.map((rudiment) => <li>{rudiment}</li>)}
+          </ul>
+        </>
+      ) : (
+        <p>Esta unidad no añade PAS nuevos: el tiempo liberado se utiliza para recuperación, diagnóstico, transferencia y cierre del mapa.</p>
+      )}
+    </article>
+
+    <article>
+      <h3>3. Recuperación que rota</h3>
+      {unit === 1 ? (
+        <p>Todavía no hay PAS de unidades anteriores. Usa las recuperaciones internas de U1 para distinguir «me sale después de repetir» de «puedo recuperarlo sin calentarlo justo antes».</p>
+      ) : (
+        <>
+          <p>Antes de ampliar el repaso, prioriza <strong>correctivos activos</strong>, material todavía en estabilización y PAS cuya evidencia sea menos reciente. Después, cuando proceda, comprueba retención sin calentamiento específico.</p>
+          <div class="recovery-queue" data-recovery-queue>
+            <p class="muted" data-recovery-status>Calculando una muestra a partir de tu evidencia guardada…</p>
+            <ol data-recovery-list></ol>
+          </div>
+          <p class="muted">La lista es una ayuda de selección, no una fecha de caducidad. Elige una muestra pequeña que quepa en la sesión; <strong>no practiques toda la cola</strong>. La prioridad usa estado, correctivos y recencia relativa, no un intervalo científico fijo.</p>
+        </>
+      )}
+    </article>
+
+    <article>
+      <h3>4. Tiempo, lectura, oído y aplicación</h3>
+      <p>Mantén la referencia temporal y deja que lectura, oído y creatividad roten según la lección. La recuperación técnica no debe expulsarlas de la semana: cuando entra un PAS antiguo, <strong>sustituye parte del repaso</strong>, no se añade al final.</p>
+      <p class="muted">AMPLIACIÓN: una canción elegida por ti puede usarse solo para localizar pulso, forma, entradas o dinámica. En F1 no es necesario tocar una canción completa para que el repertorio tenga valor pedagógico.</p>
+    </article>
+  </div>
+
+  <div class="longitudinal-plan__week">
+    <h3>Una semana de 3–4 sesiones, no cinco obligaciones</h3>
+    <p>Las páginas de la unidad son material de trabajo, no una equivalencia rígida «una página = un día». Una lección puede ocupar más de una sesión y el cierre <strong>sustituye tiempo de evaluación/recuperación</strong>; no se suma como una quinta sesión obligatoria.</p>
+    <div class="week-grid">
+      <div>
+        <strong>Si haces 3 sesiones</strong>
+        <ol>
+          <li>Adquisición + tiempo/lectura.</li>
+          <li>Estabilización + técnica + oído/creatividad.</li>
+          <li>Recuperación en frío + evaluación breve + aplicación.</li>
+        </ol>
+      </div>
+      <div>
+        <strong>Si haces 4 sesiones</strong>
+        <ol>
+          <li>Adquisición.</li>
+          <li>Estabilización + técnica.</li>
+          <li>Intercalado + transferencia/creatividad.</li>
+          <li>Recuperación + evaluación + aplicación.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <details class="longitudinal-plan__rules">
+    <summary>Reglas para tempo, continuidad y ayudas</summary>
+    <div>
+      <p><strong>Tempo de calidad.</strong> Sube solo mientras tiempo, sonido, relajación, sticking y dinámica sigan suficientemente controlados. Si la calidad se deteriora, baja el tempo, reduce la dificultad o acorta el bloque. El BPM describe una condición de práctica; no es el nivel del alumno.</p>
+      <p><strong>Continuidad.</strong> En una sesión de la unidad, usa una capacidad básica a tempo cómodo durante un bloque sostenido que ya quepa en el tiempo técnico previsto. Registra cuándo aparece el primer deterioro de sonido, tiempo, relajación o movimiento. La duración observada es una condición de la muestra, no una cifra que debas superar cada semana.</p>
+      <p><strong>Metrónomo.</strong> Usa referencia explícita para construir y verificar. Cuando el pulso/subdivisión sean estables, prueba un tramo breve con menos ayuda o sin click y vuelve al click para comprobar. Click reducido, desplazado o con huecos solo aumenta dificultad cuando la referencia interna ya lo permite; no se introduce por calendario.</p>
+      <p><strong>Descanso y carga.</strong> Si aparece deterioro técnico claro por fatiga, reduce o cambia la tarea. Dolor, hormigueo, entumecimiento o pérdida de fuerza no forman parte del entrenamiento normal.</p>
+    </div>
+  </details>
+
+  {previousRudiments.length > 0 && (
+    <p class="longitudinal-plan__previous"><strong>Referencia cercana:</strong> la unidad anterior introdujo {previousRudiments.join(', ')}. Pueden reaparecer, pero no tienen prioridad automática frente a un correctivo más antiguo.</p>
+  )}
+</section>
+
+<script>
+  interface SkillState {
+    skillId: string;
+    workState: 'new' | 'stabilizing' | null;
+    masteryState: 'known' | 'functional' | 'mastered' | null;
+    retentionState: 'not_checked' | 'checked';
+    limitingVariable: string | null;
+    corrective: string | null;
+    updatedAt: string;
+  }
+  interface SkillResponse { states?: SkillState[]; }
+
+  const limitingLabels: Record<string, string> = {
+    time: 'tiempo',
+    sound: 'sonido',
+    relaxation: 'relajación',
+    movement: 'movimiento',
+    sticking: 'sticking',
+    dynamics: 'dinámica',
+    reading: 'lectura',
+    memory: 'recuperación',
+    understanding: 'comprensión',
+    other: 'otra variable',
+  };
+
+  const priorityFor = (state: SkillState | undefined) => {
+    if (state?.corrective || state?.limitingVariable) return 0;
+    if (!state || state.workState === 'stabilizing' || state.masteryState === null) return 1;
+    if (state.retentionState !== 'checked') return 2;
+    return 3;
+  };
+
+  const reasonFor = (state: SkillState | undefined) => {
+    if (!state) return 'sin evidencia guardada todavía';
+    if (state.corrective || state.limitingVariable) {
+      const variable = state.limitingVariable ? limitingLabels[state.limitingVariable] ?? state.limitingVariable : '';
+      return variable ? `correctivo activo · ${variable}` : 'correctivo activo';
+    }
+    if (state.workState === 'stabilizing' || state.masteryState === null) return 'todavía necesita estabilización o evidencia PAS';
+    if (state.retentionState !== 'checked') return 'retención todavía no comprobada';
+    return 'material previo con evidencia más antigua';
+  };
+
+  for (const root of document.querySelectorAll<HTMLElement>('[data-phase1-longitudinal]')) {
+    const status = root.querySelector<HTMLElement>('[data-recovery-status]');
+    const list = root.querySelector<HTMLOListElement>('[data-recovery-list]');
+    if (!status || !list) continue;
+
+    let priorRudiments: string[] = [];
+    try {
+      priorRudiments = JSON.parse(root.dataset.priorRudiments ?? '[]') as string[];
+    } catch {
+      status.textContent = 'No se pudo interpretar la lista de recuperación.';
+      continue;
+    }
+
+    if (priorRudiments.length === 0) {
+      status.textContent = 'Todavía no hay material de unidades anteriores.';
+      continue;
+    }
+
+    try {
+      const response = await fetch('/api/progress/skills/?courseId=bateria&skillType=rudiment');
+      const body = await response.json() as SkillResponse;
+      if (!response.ok) throw new Error('load failed');
+      const byId = new Map((body.states ?? []).map((state) => [state.skillId, state]));
+
+      const candidates = priorRudiments
+        .map((rudiment) => ({ rudiment, state: byId.get(rudiment) }))
+        .sort((a, b) => {
+          const priority = priorityFor(a.state) - priorityFor(b.state);
+          if (priority !== 0) return priority;
+          const aTime = a.state?.updatedAt ? Date.parse(a.state.updatedAt) : 0;
+          const bTime = b.state?.updatedAt ? Date.parse(b.state.updatedAt) : 0;
+          return aTime - bTime;
+        })
+        .slice(0, 3);
+
+      for (const candidate of candidates) {
+        const item = document.createElement('li');
+        const strong = document.createElement('strong');
+        const small = document.createElement('small');
+        strong.textContent = candidate.rudiment;
+        small.textContent = reasonFor(candidate.state);
+        item.append(strong, small);
+        list.append(item);
+      }
+      status.textContent = candidates.length
+        ? 'Muestra sugerida para rotar, no lista obligatoria:'
+        : 'No hay PAS previos que mostrar.';
+    } catch {
+      status.textContent = 'No se pudo cargar tu evidencia. Elige manualmente un PAS previo que lleve más tiempo sin comprobarse.';
+    }
+  }
+</script>
+
+<style>
+  .longitudinal-plan{margin-top:2.5rem;padding:clamp(1rem,2.5vw,1.5rem);border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+  .longitudinal-plan__head h2{margin:.2rem 0 .5rem}.longitudinal-plan__head p{max-width:72ch}
+  .longitudinal-plan__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin-top:1.25rem}
+  .longitudinal-plan__grid article,.week-grid>div{padding:1rem;border:1px solid var(--border);border-radius:.7rem;background:var(--bg)}
+  .longitudinal-plan__grid h3,.longitudinal-plan__week h3{margin:0 0 .45rem}.longitudinal-plan__grid p{margin:.4rem 0}.longitudinal-plan__grid ul{margin:.45rem 0 0;padding-left:1.2rem}
+  .muted,.longitudinal-plan__previous{color:var(--muted)}
+  .recovery-queue{margin:.7rem 0;padding:.75rem;border-radius:.6rem;background:var(--surface-2)}
+  .recovery-queue ol{display:grid;gap:.35rem;margin:.45rem 0 0;padding-left:1.25rem}.recovery-queue li strong,.recovery-queue li small{display:block}.recovery-queue li small{color:var(--muted)}
+  .longitudinal-plan__week{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border)}.week-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.week-grid ol{margin:.55rem 0 0;padding-left:1.25rem}
+  .longitudinal-plan__rules{margin-top:1rem;border-top:1px solid var(--border);padding-top:1rem}.longitudinal-plan__rules summary{cursor:pointer;font-weight:750}.longitudinal-plan__rules div{margin-top:.65rem}.longitudinal-plan__rules p{max-width:76ch}
+  .longitudinal-plan__previous{margin:1rem 0 0;font-size:.92rem}
+  @media(max-width:48rem){.longitudinal-plan__grid,.week-grid{grid-template-columns:1fr}}
+</style>
