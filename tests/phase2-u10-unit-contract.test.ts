@@ -92,3 +92,16 @@ test('U10 distinguishes tempo change from reference-density change and preserves
   assert.match(checkpoint, /Completar la evaluación no convierte automáticamente el control con referencia reducida en `FUNCIONAL`/);
   assert.match(checkpoint, /Puente a Unidad 11/);
 });
+
+
+test('U10 separates immediate reduced-click performance from later recovery and transfer evidence', async () => {
+  const checkpoint = await page('checkpoint');
+  assert.match(checkpoint, /rendimiento en esta sesión/);
+  assert.match(checkpoint, /No la conviertas por sí sola en aprendizaje retenido/);
+  assert.match(checkpoint, /sin practicar el modo reducido justo antes/);
+  assert.match(checkpoint, /`RECUPERACIÓN`/);
+  assert.match(checkpoint, /`TRANSFERENCIA`/);
+  assert.match(checkpoint, /misma dificultad temporal pero con una línea conocida equivalente/);
+  assert.match(checkpoint, /sustituye.*otra tarea secundaria dentro de la sesión/is);
+  assert.match(checkpoint, /no añade minutos ni crea una obligación diaria/i);
+});
