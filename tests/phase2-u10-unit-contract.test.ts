@@ -90,7 +90,7 @@ test('U10 distinguishes tempo change from reference-density change and preserves
   assert.match(checkpoint, /CONDICIONES/);
   assert.match(checkpoint, /DECISIÓN/);
   assert.match(checkpoint, /Completar la evaluación no convierte automáticamente el control con referencia reducida en `FUNCIONAL`/);
-  assert.match(checkpoint, /Puente a Unidad 11/);
+  assert.match(checkpoint, /Retest y puente a Unidad 11/i);
 });
 
 
