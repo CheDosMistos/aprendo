@@ -149,3 +149,14 @@ test('U8 uses existing score and recorder infrastructure without composition gra
   assert.match(layout, /PracticeRecorder/);
   assert.match(layout, /InlineNotationScores/);
 });
+
+test('U8 checkpoint keeps authorship evidence bounded and uses readable version language', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /Crea la primera versión/);
+  assert.match(cp, /versión revisada/);
+  assert.doesNotMatch(cp, /\bV0\b|\bV1\b/);
+  assert.match(cp, /recuperar \*\*el proceso\*\*/i);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /aporta \*\*transferencia\*\*/i);
+  assert.match(cp, /sustituye otra tarea secundaria/i);
+});
