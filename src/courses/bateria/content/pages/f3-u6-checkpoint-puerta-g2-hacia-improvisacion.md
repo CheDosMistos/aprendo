@@ -8,7 +8,7 @@ slug: puerta-g2-hacia-improvisacion
 kind: checkpoint
 order: 6
 title: "Evaluación — Puerta de desarrollo motívico hacia la improvisación"
-summary: "Demuestra desarrollo motívico mínimo sobre material nuevo: establece A, aplica una transformación consciente, escribe A’, toca ambas versiones y explica qué se conserva y qué cambia."
+summary: "Demuestra desarrollo motívico mínimo sobre material nuevo: establece A, aplica una transformación consciente, escribe la variante, toca ambas versiones y explica qué se conserva y qué cambia."
 duration: 20–30 min
 competencies: [G2, G1, D6, C1, C2, F2, K2, K5, K6, K8]
 rudiments: []
@@ -57,7 +57,7 @@ Elige **una** operación esencial de esta unidad:
 
 No elijas varias para “hacerlo más avanzado”.
 
-# 3. PRODUCE A’
+# 3. PRODUCE UNA VARIANTE
 
 Antes de ejecutar, completa:
 
@@ -67,9 +67,9 @@ Antes de ejecutar, completa:
 
 `CAMBIA: …`
 
-Después produce y escribe A’.
+Después produce y escribe la variante.
 
-# 4. TOCA A → A’ → A
+# 4. TOCA MOTIVO → VARIANTE → MOTIVO
 
 Mantén una referencia temporal suficiente para reconocer las tres unidades.
 
@@ -81,7 +81,7 @@ Responde:
 
 1. ¿qué propiedad conservaste?;
 2. ¿qué modificaste deliberadamente?;
-3. ¿la relación A/A’ sigue siendo rastreable?;
+3. ¿la relación A/la variante sigue siendo rastreable?;
 4. ¿hubo algún accidente que no quieras contar como transformación?;
 5. ¿puedes aplicar la misma operación a otro motivo sencillo?
 
@@ -89,7 +89,7 @@ Responde:
 
 - A es estable y reconocible;
 - aplicas **una transformación consciente**;
-- A’ es representable y ejecutable;
+- la variante es representable y ejecutable;
 - nombras correctamente la operación;
 - explicas `SE CONSERVA / CAMBIA`;
 - mantienes referencia temporal suficiente;
@@ -121,3 +121,11 @@ A no es estable o la transformación no puede distinguirse del accidente. Reduce
 Aparece una señal de salud/carga según el sistema general de práctica y evaluación.
 
 Esta puerta **no certifica todavía una improvisación funcional**. Sólo verifica que Unidad 7 tiene material transformable y una operación consciente sobre la que trabajar.
+
+## Transferencia de la transformación
+
+La pregunta final —aplicar la misma operación a otro motivo sencillo— es la comprobación más útil para evitar aprender sólo una pareja de ejemplos. Hazla cuando la transformación básica ya sea comprensible, sin repetir inmediatamente el ejemplo de esta puerta.
+
+Si puedes reconocer la operación y aplicarla a otro motivo, aporta evidencia de **transferencia**. Si sólo funciona después de reconstruir paso a paso el ejemplo anterior, sigue necesitando estabilización.
+
+No practiques todas las transformaciones en cada sesión. Haz volver únicamente una operación que sea relevante para la improvisación o composición actual, y deja que sustituya otra tarea secundaria.
