@@ -107,3 +107,18 @@ test('Phase 2 U4 checkpoint separates evidence and keeps U5 content outside the 
 function notes(xml: string): string[] {
   return [...xml.matchAll(/<note>([\s\S]*?)<\/note>/g)].map((match) => match[1]);
 }
+
+
+test('Phase 2 U4 checkpoint keeps inherited rudiment work bounded and evidence-driven', async () => {
+  const markdown = await readFile(checkpointPath, 'utf8');
+
+  assert.match(markdown, /No conviertas esta comprobación en un repaso acumulativo de PAS/);
+  assert.match(markdown, /una sola capacidad o textura/);
+  assert.match(markdown, /correctivo activo, variable limitante, evidencia frágil o necesidad real de transferencia/);
+  assert.match(markdown, /Si no existe esa razón, omite esta capa/);
+  assert.match(markdown, /sin ensayo técnico específico justo antes/);
+  assert.match(markdown, /`RECUPERACIÓN`/);
+  assert.match(markdown, /`TRANSFERENCIA`/);
+  assert.match(markdown, /sustituye.*otra tarea técnica secundaria/is);
+  assert.match(markdown, /no obliga a mantener todos los rudimentos activos a la vez/i);
+});
