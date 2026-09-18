@@ -43,7 +43,7 @@ No copies una composición de Lecciones 1–5. Puedes reutilizar **procedimiento
 
 ## Protocolo
 
-### 1. Crea V0 · 7–8 min
+### 1. Crea la primera versión · 7–8 min
 
 Escribe una pieza de **1–4 compases**.
 
@@ -65,7 +65,7 @@ Completa:
 
 `CAMBIA: …`
 
-### 3. Toca y graba V0 · 4–5 min
+### 3. Toca y graba la primera versión · 4–5 min
 
 Mantén una referencia temporal razonable. Un error local no invalida toda la pieza; registra qué ocurrió.
 
@@ -83,13 +83,13 @@ Decide si el principal problema es de representación, ejecución o composición
 
 Opción A:
 
-`CREO V1 PORQUE: …`
+`CREO UNA VERSIÓN REVISADA PORQUE: …`
 
 Opción B:
 
-`MANTENGO V0 PORQUE: …`
+`MANTENGO LA PRIMERA VERSIÓN PORQUE: …`
 
-Si haces V1, **conserva V0**.
+Si haces una versión revisada, **conserva la primera versión**.
 
 ## MÍNIMO
 
@@ -110,6 +110,14 @@ Pieza breve con desarrollo y contraste, cierre funcional, revisión útil y rela
 Forma más amplia, varias transformaciones o decisiones métricas/dinámicas complejas con control.
 
 **AVANZADO no es requisito para Unidad 9.**
+
+## Evidencia posterior de autoría
+
+Una composición terminada hoy no necesita entrar automáticamente en mantenimiento. Conserva la primera versión, la grabación y la revisión porque permiten comprobar el proceso.
+
+Más adelante puedes recuperar **el proceso**, no necesariamente la misma pieza: partir de un motivo, representarlo, tocarlo, escuchar el resultado y decidir una revisión. Si puedes reconstruir una pieza anterior sin haberla ensayado justo antes, eso aporta evidencia de **recuperación**; si aplicas el mismo proceso a material nuevo, aporta **transferencia**.
+
+Si lectura, continuidad, dinámica o técnica de manos limitan la composición, intégralas en el propio material cuando sea posible. Sólo abre un correctivo separado cuando la dificultad no pueda resolverse dentro de la pieza; ese correctivo sustituye otra tarea secundaria.
 
 ## Lo que NO se evalúa
 
