@@ -94,7 +94,7 @@ test('U12 turns the Phase 2 exit profile into bounded longitudinal work', async 
   const l4 = await page('l4');
   assert.match(l4, /una cola pequeña de trabajo longitudinal, no en una lista de todo lo estudiado/);
   for (const state of ['MANTENIMIENTO', 'CORRECTIVO', 'RECUPERACIÓN', 'TRANSFERENCIA']) {
-    assert.match(l4, new RegExp(`\\`${state}\\``));
+    assert.ok(l4.includes('`' + state + '`'), `Expected longitudinal state ${state}`);
   }
   assert.match(l4, /No arrastres todo a Fase 3/);
   assert.match(l4, /correctivos activos y variables limitantes/);
