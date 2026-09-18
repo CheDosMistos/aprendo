@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import CourseArticleLayout from '@courses/bateria/components/CourseArticleLayout.astro';
+import Phase1LongitudinalPractice from '@courses/bateria/components/Phase1LongitudinalPractice.astro';
 import {
   getBateriaContent,
   routeFor,
@@ -32,8 +33,10 @@ const unitLabel = `Fase ${entry.data.phase} · Unidad ${entry.data.unit}`;
 >
   <Content />
 
-  <section slot="after" class="session-list" aria-labelledby="session-list-title">
-    <h2 id="session-list-title">Sesiones</h2>
+  <div slot="after">
+    {entry.data.phase === 1 && <Phase1LongitudinalPractice unit={entry.data.unit} />}
+    <section class="session-list" aria-labelledby="session-list-title">
+      <h2 id="session-list-title">Sesiones</h2>
     <div class="session-grid">
       {sessions.map((session) => (
         <a class="session-card" href={routeFor(session)}>
@@ -49,8 +52,9 @@ const unitLabel = `Fase ${entry.data.phase} · Unidad ${entry.data.unit}`;
           {session.data.duration && <small>{session.data.duration}</small>}
         </a>
       ))}
-    </div>
-  </section>
+      </div>
+    </section>
+  </div>
 </CourseArticleLayout>
 
 <style>
