@@ -51,16 +51,22 @@ Sin repetir todo el curso, identifica dónde estás en cada núcleo:
 
 No conviertas esta lista en una suma de puntos. Una competencia puede requerir mantenimiento aunque el Hito 2 sea observable.
 
-## 3. Qué pasa con las debilidades al cerrar Fase 2
+## 3. Qué pasa con las habilidades al cerrar Fase 2
 
-Cerrar una fase **no borra una fragilidad** y tampoco obliga a permanecer indefinidamente en ella.
+Cerrar una fase **no borra una fragilidad** y tampoco obliga a permanecer indefinidamente en ella. Convierte el perfil acumulado en una cola pequeña de trabajo longitudinal, no en una lista de todo lo estudiado.
 
-Usa:
+Clasifica cada necesidad real como:
 
 - `MANTENIMIENTO` cuando la habilidad está disponible pero necesita reaparición periódica;
 - `CORRECTIVO` cuando hay una variable localizada que merece trabajo breve y dirigido;
+- `RECUPERACIÓN` cuando necesitas comprobar qué sigue disponible sin calentamiento específico;
+- `TRANSFERENCIA` cuando conviene comprobar la misma capacidad en otra representación, métrica, dinámica, sticking o contexto conocido;
 - `REDUCIR NOVEDAD` cuando la nueva carga impide observar la habilidad objetivo;
 - `DETENER CARGA` cuando la tensión, dolor o deterioro hacen que seguir practicando deje de ser una decisión razonable.
+
+**No arrastres todo a Fase 3.** Prioriza correctivos activos y variables limitantes; después evidencia pendiente de recuperación/transferencia y, por último, mantenimiento que lleve relativamente más tiempo sin comprobarse. La recencia es una ayuda de selección, no un calendario científico fijo.
+
+Todo lo que vuelva **sustituye trabajo dentro de los 25–30 minutos**. No se añade al final de la sesión ni obliga a practicar todas las áreas cada día.
 
 ## 4. Puente a Fase 3
 
