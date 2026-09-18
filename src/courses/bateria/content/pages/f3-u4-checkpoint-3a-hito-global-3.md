@@ -25,7 +25,7 @@ Esta evaluación conserva esa formulación. Para la acción **cantar**, puedes u
 
 ## Regla crítica
 
-La familia E/E’ es **material nuevo**, no practicado en Lecciones 1–4. Las cinco acciones comparten estructura para que el hito no se convierta en cinco pruebas desconectadas.
+La familia de material de lectura y su variante auditiva es **material nuevo**, no practicado en Lecciones 1–4. Las cinco acciones comparten estructura para que el hito no se convierta en cinco pruebas desconectadas.
 
 **No reproduzcas la partitura con el motor antes de completar LEER → CANTAR → TOCAR.** En esta evaluación el control de playback de la partitura inicial se oculta deliberadamente.
 
@@ -73,35 +73,35 @@ Prioridades:
 3. recuperación si aparece un error pequeño;
 4. sonido/relajación suficientes para que la técnica no oculte la representación.
 
-No hay BPM universal de aprobado. Puedes usar un tempo cómodo y documentarlo.
+No hay un tempo universal de aprobado. Puedes usar un tempo cómodo y documentarlo.
 
 ---
 
 # 4. ESCUCHAR
 
-Ahora aparece E’: una versión auditiva relacionada con la lectura E. Mantiene el primer compás y contiene **una variación localizada en el segundo**.
+Ahora aparece E’: una versión auditiva relacionada con la lectura inicial. Mantiene el primer compás y contiene **una variación localizada en el segundo**.
 
 Primero escucha toda la fuente. Los botones por compás son una ayuda que se desbloquea después de la primera escucha completa.
 
-<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="1011010010110101" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Solución E’: el compás 1 coincide con la lectura E. En el compás 2 aparece un ataque adicional en la cuarta posición de corchea; el resto de la estructura se conserva. La tarea no era adivinar que habría un cambio, sino escuchar, preservar una primera hipótesis y escribir qué ocurrió." data-answer-score-src="/bateria/notation/f3/u4/f3-u4-cp-heard-e-prime.musicxml" data-answer-score-title="Evaluación — solución auditiva E’"></div>
+<div data-rhythm-dictation data-bpm="72" data-subdivision="2" data-pattern="1011010010110101" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-answer="Solución E’: el compás 1 coincide con la lectura inicial. En el compás 2 aparece un ataque adicional en la cuarta posición de corchea; el resto de la estructura se conserva. La tarea no era adivinar que habría un cambio, sino escuchar, preservar una primera hipótesis y escribir qué ocurrió." data-answer-score-src="/bateria/notation/f3/u4/f3-u4-cp-heard-e-prime.musicxml" data-answer-score-title="Evaluación — solución auditiva E’"></div>
 
 Antes de revelar, responde:
 
-- ¿E’ es idéntica a E?;
+- ¿la variante auditiva es idéntica a la lectura inicial?;
 - si no, ¿en qué compás localizas la diferencia?;
 - ¿qué posición crees que cambió?;
 - ¿necesitaste escuchar un compás por separado?
 
 # 5. ESCRIBIR
 
-Escribe E’ completa o, si tu marco está claro, conserva E como base y **anota con precisión la modificación que crees haber oído**.
+Escribe la variante auditiva completa o, si tu marco está claro, conserva la lectura inicial como base y **anota con precisión la modificación que crees haber oído**.
 
 Conserva la primera respuesta antes de revelar.
 
 Después:
 
 1. toca lo que has escrito;
-2. vuelve a escuchar E’ completa;
+2. vuelve a escuchar la variante auditiva completa;
 3. revela la solución;
 4. compara tu primera respuesta, tu revisión y la referencia.
 
@@ -153,3 +153,11 @@ Aparece una señal de salud/carga según el sistema general de práctica y evalu
 - las ayudas quedan explícitas.
 
 **AVANZADO no es requisito.** Esta evaluación no cierra Fase 3: Unidad 5 comienza el trabajo explícito de identidad motívica, repetición y contraste creativo.
+
+## Qué ocurre con una representación más débil
+
+Si una parte del ciclo queda como correctivo —por ejemplo lectura, representación vocal, ejecución, escucha o escritura— no repitas el Hito completo por obligación. Haz volver **sólo esa relación** dentro de una tarea posterior apropiada.
+
+Primero intenta recuperarla sin practicar exactamente la misma muestra. Si vuelve a funcionar, registra evidencia de **recuperación**. Si además funciona dentro de un motivo, una transformación, una improvisación o una composición posterior, registra **transferencia**.
+
+El correctivo ocupa el lugar de otra tarea secundaria. Las cinco acciones del Hito no se convierten en cinco deberes diarios.
