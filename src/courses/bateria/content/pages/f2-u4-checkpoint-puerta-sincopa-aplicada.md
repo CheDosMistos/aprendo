@@ -74,10 +74,16 @@ La aplicación musical de rudimentos **no es la inferencia principal de esta eva
 
 Usa la evidencia reciente de Lección 3 si es suficientemente representativa. Sólo si necesitas comprobarla de nuevo, toma **un fragmento ya decodificado** y aplica una textura de manos ya conocida, sin cambiar ataques ni duraciones.
 
+No conviertas esta comprobación en un repaso acumulativo de PAS. Elige **una sola capacidad o textura** que tenga una razón diagnóstica: correctivo activo, variable limitante, evidencia frágil o necesidad real de transferencia. Si no existe esa razón, omite esta capa.
+
 La pregunta secundaria es:
 
 - ¿la aplicación conserva timing, lectura y relajación?;
 - ¿o la textura empieza a sustituir la comprensión de la línea?
+
+Cuando remuestrees, la línea rítmica debe seguir mandando. Si una capacidad de manos reaparece sobre otra línea ya comprendida sin ensayo técnico específico justo antes, registra evidencia de `RECUPERACIÓN`; si además conserva timing y lectura al cambiar dinámica, mano líder o contexto rítmico conocido, añade `TRANSFERENCIA`.
+
+Ese trabajo **sustituye** otra tarea técnica secundaria dentro del presupuesto de práctica. No se añade al final de la sesión y no obliga a mantener todos los rudimentos activos a la vez.
 
 Si la aplicación musical de rudimentos se degrada pero la lectura/continuidad principal está disponible, eso puede justificar un `CONTINUAR + CORRECTIVO`. No se exige aplicación musical de rudimentos funcional global para abrir Unidad 5.
 

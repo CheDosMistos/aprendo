@@ -89,6 +89,20 @@ test('U12 diagnostic task is additional evidence and bridge keeps Phase 3 bounda
   assert.match(l4, /Esto es un \*\*puente\*\*, no una declaración de que el análisis y la forma, la transcripción estructurada o el desarrollo creativo posterior sean ya funcionales/);
 });
 
+
+test('U12 turns the Phase 2 exit profile into bounded longitudinal work', async () => {
+  const l4 = await page('l4');
+  assert.match(l4, /una cola pequeña de trabajo longitudinal, no en una lista de todo lo estudiado/);
+  for (const state of ['MANTENIMIENTO', 'CORRECTIVO', 'RECUPERACIÓN', 'TRANSFERENCIA']) {
+    assert.ok(l4.includes('`' + state + '`'), `Expected longitudinal state ${state}`);
+  }
+  assert.match(l4, /No arrastres todo a Fase 3/);
+  assert.match(l4, /correctivos activos y variables limitantes/);
+  assert.match(l4, /La recencia es una ayuda de selección, no un calendario científico fijo/);
+  assert.match(l4, /sustituye trabajo dentro de los 25–30 minutos/);
+  assert.match(l4, /No se añade al final de la sesión ni obliga a practicar todas las áreas cada día/);
+});
+
 test('U12 checkpoint uses approved evidence dimensions and learner-facing decision language', async () => {
   const checkpoint = await page('checkpoint');
   for (const heading of ['INFERENCIA', 'EVIDENCIA CENTRAL', 'TAREA Y CONDICIONES', 'INTERPRETACIÓN MULTIDIMENSIONAL', 'DECISIÓN']) assert.match(checkpoint, new RegExp(heading));
