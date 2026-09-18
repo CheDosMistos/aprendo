@@ -63,9 +63,11 @@ test('phase 1 checkpoints expose progressive PAS evidence without changing the P
   assert.match(curriculum, /10: \[\]/);
 });
 
-test('repertoire remains an optional transfer/listening opportunity in pad-only phase 1', () => {
+test('phase 1 separates didactic listening from practice repertoire', () => {
   const guide = read('src/courses/bateria/components/Phase1LongitudinalPractice.astro');
 
-  assert.match(guide, /AMPLIACIÓN: una canción elegida por ti puede usarse solo para localizar pulso, forma, entradas o dinámica/);
-  assert.match(guide, /En F1 no es necesario tocar una canción completa/);
+  assert.match(guide, /AUDICIÓN DIDÁCTICA · AMPLIACIÓN/);
+  assert.match(guide, /No es repertorio de práctica/);
+  assert.match(guide, /en F1 no necesitas aprender ni tocar esas canciones/);
+  assert.match(guide, /fuera de tus gustos habituales para ampliar oído y referencias/);
 });
