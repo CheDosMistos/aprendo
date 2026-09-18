@@ -87,6 +87,19 @@ Una muestra parcial sólo actualiza las habilidades realmente observadas. No con
 - una transformación lograda en dominio creativo general;
 - completar esta unidad en superación del Hito 2.
 
+## Qué evidencia merece volver después
+
+Esta puerta integra modalidades **en esta sesión**. No conviertas una cadena recién practicada en prueba de retención de todas sus partes.
+
+Al terminar, conserva como trabajo longitudinal sólo lo que cambie una decisión:
+
+- una modalidad claramente limitante puede quedar como `CORRECTIVO`;
+- una cadena que hoy fue estable puede comprobarse más adelante como `RECUPERACIÓN`, empezando sin repetir justo antes la misma secuencia;
+- si la estructura sobrevive al cambiar una sola representación, textura o condición conocida, esa muestra aporta `TRANSFERENCIA`;
+- si no hay fragilidad ni una pregunta diagnóstica pendiente, no programes un repaso por obligación.
+
+La comprobación posterior debe ser breve y **sustituir** otra tarea secundaria dentro de los 25–30 minutos. No acumules oído, escritura, lectura, técnica y creatividad como cinco deberes diarios.
+
 ## Puente a Unidad 12
 
 Unidad 12 comprobará el Hito 2 con **material rítmico nuevo no memorizado previamente**. Las debilidades localizadas de esta unidad pueden continuar como mantenimiento/correctivo sin convertirse en un examen adicional de fase.
