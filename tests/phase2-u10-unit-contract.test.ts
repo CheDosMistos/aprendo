@@ -95,7 +95,7 @@ test('U10 distinguishes tempo change from reference-density change and preserves
 
 
 test('U10 separates immediate reduced-click performance from later recovery and transfer evidence', async () => {
-  const checkpoint = await page('checkpoint');
+  const checkpoint = await readPage('checkpoint');
   assert.match(checkpoint, /rendimiento en esta sesión/);
   assert.match(checkpoint, /No la conviertas por sí sola en aprendizaje retenido/);
   assert.match(checkpoint, /sin practicar el modo reducido justo antes/);
