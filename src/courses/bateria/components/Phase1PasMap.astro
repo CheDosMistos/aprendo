@@ -1,15 +1,24 @@
 ---
-import { PAS_RUDIMENTS } from '@courses/bateria/curriculum';
+import { PAS_RUDIMENTS, type PasRudiment } from '@courses/bateria/curriculum';
 
-interface Props { sourceContentId: string; }
-const { sourceContentId } = Astro.props;
+interface Props {
+  sourceContentId: string;
+  rudiments?: readonly PasRudiment[];
+  title?: string;
+}
+
+const {
+  sourceContentId,
+  rudiments = PAS_RUDIMENTS,
+  title = rudiments.length === PAS_RUDIMENTS.length ? 'Estado de los 40 PAS' : 'Mapa PAS introducido hasta ahora',
+} = Astro.props;
 ---
 
 <section class="pas-map" aria-labelledby="pas-map-title" data-pas-map data-source-content-id={sourceContentId}>
   <div class="pas-map__head">
     <div>
       <p class="eyebrow">Mapa técnico · Fase 1</p>
-      <h2 id="pas-map-title">Estado de los 40 PAS</h2>
+      <h2 id="pas-map-title">{title}</h2>
       <p>Registra evidencia, no una nota. <strong>CONOCIDO</strong> es la meta inicial; FUNCIONAL y DOMINADO pueden llegar mucho después.</p>
     </div>
     <p class="pas-map__status" data-map-status role="status" aria-live="polite">Cargando estado…</p>
@@ -22,7 +31,7 @@ const { sourceContentId } = Astro.props;
   </div>
 
   <div class="pas-map__list">
-    {PAS_RUDIMENTS.map((rudiment, index) => (
+    {rudiments.map((rudiment, index) => (
       <details class="pas-row" data-rudiment={rudiment}>
         <summary>
           <span class="pas-row__number">{index + 1}</span>
