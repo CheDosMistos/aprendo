@@ -135,3 +135,12 @@ test('U4 form widget is separate, locks block help until one full listen and doe
   assert.match(component, /formBlockListenCount/);
   assert.doesNotMatch(component, /data-rhythm-transcription/);
 });
+
+test('U4 checkpoint returns only the weak representation instead of repeating the whole Hito', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /no repitas el Hito completo por obligación/i);
+  assert.match(cp, /sólo esa relación/i);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /registra \*\*transferencia\*\*/i);
+  assert.match(cp, /no se convierten en cinco deberes diarios/i);
+});
