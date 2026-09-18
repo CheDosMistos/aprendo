@@ -69,9 +69,9 @@ Explica:
 
 Conserva evidencia de:
 
-`BORRADOR/V0 → GRABACIÓN → COMPARACIÓN → DECISIÓN → VERSIÓN FINAL`
+`BORRADOR → GRABACIÓN → COMPARACIÓN → DECISIÓN → VERSIÓN FINAL`
 
-Un cambio de ejecución no cuenta automáticamente como revisión compositiva; una revisión puede también simplificar o decidir mantener V0.
+Un cambio de ejecución no cuenta automáticamente como revisión compositiva; una revisión puede también simplificar o decidir mantener el borrador.
 
 ### 9. Ciclo oído ↔ escritura ↔ ejecución
 
@@ -93,7 +93,7 @@ El Hito puede registrarse como alcanzado cuando:
 - puedes explicar una decisión de revisión;
 - oído, representación y ejecución describen razonablemente la misma pieza.
 
-No se exige BPM alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional.
+No se exige tempo alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional.
 
 ## COMPETENTE / FUNCIONAL
 
@@ -141,8 +141,23 @@ El formulario de cierre que aparece debajo registra el estado de esta sesión. *
 
 Si tienes la evidencia mínima, registra el cierre. Si algo concreto falta, usa “Cierre con pendientes identificados” o “Necesito revisar antes de cerrar” y vuelve sólo al elemento necesario.
 
+## Perfil de salida hacia la siguiente fase
+
+No arrastres toda Fase 3 como una lista de mantenimiento. Al cerrar, conserva una **cola pequeña y cambiante** formada sólo por lo que todavía necesita atención:
+
+1. una dificultad activa o capacidad que esté limitando otras tareas;
+2. una capacidad cuya recuperación todavía no hayas comprobado;
+3. una oportunidad clara de transferencia a material nuevo;
+4. de forma ocasional, una capacidad estable cuya evidencia sea relativamente antigua.
+
+La antigüedad de la evidencia es una orientación, no un calendario científico fijo. Cuando algo vuelva, debe sustituir otra tarea secundaria dentro de los 25–30 minutos disponibles.
+
+Lectura, oído, transcripción, técnica de manos, composición y métricas impares **no se convierten en seis bloques permanentes**. Una misma tarea musical puede aportar evidencia de varias capacidades si realmente las pone en juego.
+
 ## Qué ocurre después
 
 Cerrar Fase 3 no obliga a disponer ya de una batería. **Fase 4 — Transferencia al kit se activa cuando exista kit.**
 
-Mientras sólo haya pad, puedes mantener y ampliar lectura, oído, técnica de manos, composición, transcripción, 5/4, 7/8 y experimentación sin simular sistemáticamente coordinación de drumset.
+Mientras sólo haya pad, puedes mantener y ampliar lectura, oído, técnica de manos, composición, transcripción, 5/4, 7/8 y experimentación sin simular sistemáticamente coordinación de batería completa.
+
+Cuando llegue el kit, las capacidades de pad no desaparecen: pasan a servir de base para pies, coordinación de cuatro extremidades, grooves, fills, orquestación y repertorio. Lo que ya sea estable puede mantenerse dentro de esas tareas nuevas; sólo una dificultad concreta necesita volver temporalmente a trabajo aislado.
