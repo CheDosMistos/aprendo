@@ -54,3 +54,11 @@ Lees, escribes e improvisas/compones material sencillo en 5/4 con ayudas decreci
 ## AVANZADO / AMPLIACIÓN
 
 Frases largas, agrupaciones menos previsibles, cambios simples o comparación más autónoma con 5/8. **AVANZADO no es requisito para Unidad 10.**
+
+## Recuperar cinco al entrar en siete
+
+No conviertas 5/4 en un bloque diario de mantenimiento. Al trabajar 7/8 en la unidad siguiente, recupera ocasionalmente una frase sencilla en 5/4 **sin practicarla justo antes** cuando necesites comprobar que el marco sigue disponible.
+
+Si reconoces y mantienes de nuevo 5/4, aporta evidencia de **recuperación**. Si puedes leer, escribir o crear una frase nueva manteniendo el compás y distinguiendo su agrupación interna, aporta **transferencia**.
+
+Esta comprobación debe ser breve y sustituir otra tarea secundaria. Si 5/4 sigue estable, deja de ocupar prioridad y vuelve a él sólo cuando exista una razón musical o diagnóstica.
