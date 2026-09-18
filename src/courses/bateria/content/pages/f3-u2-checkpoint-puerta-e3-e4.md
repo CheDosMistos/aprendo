@@ -92,3 +92,11 @@ Aparece una señal de salud/carga según el sistema de práctica y evaluación.
 - entiendes la diferencia operativa entre este dictado y la transcripción de Unidad 3.
 
 **AVANZADO no es requisito para continuar.**
+
+## Qué merece volver después
+
+No repitas estos dos dictados por calendario. Si oído, memoria o notación quedan como dificultad dominante, comprueba más adelante una muestra equivalente **sin ensayar primero esta misma solución**.
+
+Una reconstrucción que reaparece sin preparación específica aporta evidencia de **recuperación**. Si puedes reconstruir material comparable con otra longitud, subdivisión o forma de respuesta, aporta además evidencia de **transferencia**.
+
+Si no queda una dificultad concreta ni una pregunta útil, continúa con la transcripción de Unidad 3. Esta comprobación sustituye otra tarea secundaria; no amplía la sesión.
