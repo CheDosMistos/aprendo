@@ -110,7 +110,7 @@ function notes(xml: string): string[] {
 
 
 test('Phase 2 U4 checkpoint keeps inherited rudiment work bounded and evidence-driven', async () => {
-  const markdown = await readFile(checkpointPath, 'utf8');
+  const markdown = await readFile(pagePath, 'utf8');
 
   assert.match(markdown, /No conviertas esta comprobación en un repaso acumulativo de PAS/);
   assert.match(markdown, /una sola capacidad o textura/);
