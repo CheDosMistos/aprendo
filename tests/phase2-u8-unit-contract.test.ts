@@ -248,7 +248,7 @@ test('Phase 2 U8 checkpoint preserves the evidence chain, bounded decision langu
 
 
 test('U8 separates freshly decoded ornamentation from later retrieval and transfer', async () => {
-  const checkpoint = await page('checkpoint');
+  const checkpoint = await readPage('checkpoint');
   assert.match(checkpoint, /no convierte una respuesta recién practicada en aprendizaje retenido/i);
   assert.match(checkpoint, /no practiques justo antes el nombre ni el sticking del rudimento/i);
   assert.match(checkpoint, /SÍMBOLO → QUÉ MODIFICA → QUÉ DURA → CÓMO TERMINA/);
