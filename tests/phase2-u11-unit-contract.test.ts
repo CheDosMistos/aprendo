@@ -87,3 +87,16 @@ test('U11 checkpoint uses the approved inference chain and limits conclusions to
   assert.match(checkpoint, /REDUCIR NOVEDAD/);
   assert.match(checkpoint, /DETENER CARGA/);
 });
+
+
+test('U11 converts integrated session performance into bounded longitudinal evidence', async () => {
+  const checkpoint = await page('checkpoint');
+  assert.match(checkpoint, /No conviertas una cadena recién practicada en prueba de retención de todas sus partes/);
+  assert.match(checkpoint, /`CORRECTIVO`/);
+  assert.match(checkpoint, /`RECUPERACIÓN`/);
+  assert.match(checkpoint, /sin repetir justo antes la misma secuencia/);
+  assert.match(checkpoint, /`TRANSFERENCIA`/);
+  assert.match(checkpoint, /no programes un repaso por obligación/);
+  assert.match(checkpoint, /sustituir.*otra tarea secundaria dentro de los 25–30 minutos/is);
+  assert.match(checkpoint, /No acumules oído, escritura, lectura, técnica y creatividad como cinco deberes diarios/);
+});
