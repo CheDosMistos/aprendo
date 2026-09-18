@@ -103,7 +103,7 @@ test('Hito minimum matches approved evidence and does not add perfection or adva
     'condiciones/ayudas',
     'decisión de revisión',
   ]) assert.match(hito, new RegExp(phrase, 'i'));
-  assert.match(hito, /No se exige BPM alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional/);
+  assert.match(hito, /No se exige tempo alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional/);
   assert.match(hito, /COMPETENTE no es requisito para reconocer el Hito mínimo/);
 });
 
@@ -121,4 +121,16 @@ test('U12 contains no local notation solution or automatic creativity grader', a
   const publicF3 = path.resolve('public/bateria/notation/f3');
   const units = await readdir(publicF3);
   assert.ok(!units.includes('u12'));
+});
+
+test('Hito 4 leaves a bounded longitudinal queue and bridges pad capacities into kit work', async () => {
+  const hito = await page('hito');
+  assert.match(hito, /cola pequeña y cambiante/i);
+  assert.match(hito, /dificultad activa|capacidad que esté limitando/i);
+  assert.match(hito, /recuperación todavía no hayas comprobado/i);
+  assert.match(hito, /oportunidad clara de transferencia/i);
+  assert.match(hito, /La antigüedad de la evidencia es una orientación, no un calendario científico fijo/i);
+  assert.match(hito, /no se convierten en seis bloques permanentes/i);
+  assert.match(hito, /pies, coordinación de cuatro extremidades, grooves, fills, orquestación y repertorio/i);
+  assert.match(hito, /sólo una dificultad concreta necesita volver temporalmente a trabajo aislado/i);
 });
