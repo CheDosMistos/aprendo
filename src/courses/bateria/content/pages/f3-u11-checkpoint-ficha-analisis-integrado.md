@@ -68,3 +68,11 @@ Muestra la referencia. Corrige al menos una afirmación o confirma por qué tu d
 ## COMPETENTE / AMPLIACIÓN
 
 Repite el método sobre otra obra real de dificultad adecuada y compara qué señales te resultan más fiables. **No es requisito para Unidad 12.**
+
+## Del análisis al repertorio
+
+Esta evaluación usa una fuente original para comprobar el método. Una obra real puede servir después como **ejemplo de escucha y análisis** sin convertirse automáticamente en repertorio que debas aprender a tocar.
+
+Para que una pieza pase a repertorio de práctica hay que valorar su coste global: tempo, métrica, densidad, coordinación, continuidad, forma, transiciones, dificultad de oído y recursos legales disponibles. Mientras sólo haya pad, escuchar, mapear, anticipar y analizar una obra ya constituye trabajo musical válido.
+
+Si vuelves más adelante a otra fuente sin repetir inmediatamente este procedimiento paso a paso y puedes construir un mapa útil, tienes evidencia de **recuperación**. Si el método funciona en una obra diferente, aporta **transferencia**.
