@@ -245,3 +245,16 @@ test('Phase 2 U8 checkpoint preserves the evidence chain, bounded decision langu
   assert.match(markdown, /no actualiza automáticamente/i);
   assert.match(markdown, /Eso no equivale a promover automáticamente ninguna competencia global/);
 });
+
+
+test('U8 separates freshly decoded ornamentation from later retrieval and transfer', async () => {
+  const checkpoint = await page('checkpoint');
+  assert.match(checkpoint, /no convierte una respuesta recién practicada en aprendizaje retenido/i);
+  assert.match(checkpoint, /no practiques justo antes el nombre ni el sticking del rudimento/i);
+  assert.match(checkpoint, /SÍMBOLO → QUÉ MODIFICA → QUÉ DURA → CÓMO TERMINA/);
+  assert.match(checkpoint, /`RECUPERACIÓN`/);
+  assert.match(checkpoint, /`TRANSFERENCIA`/);
+  assert.match(checkpoint, /sólo funciona al nombrar o ensayar previamente el patrón/i);
+  assert.match(checkpoint, /sustituye.*otra tarea técnica secundaria/is);
+  assert.match(checkpoint, /no se añade al presupuesto de práctica ni obliga a revisar flams, drags y rolls cada día/i);
+});
