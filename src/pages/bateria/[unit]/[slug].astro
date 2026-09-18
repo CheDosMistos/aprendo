@@ -5,6 +5,7 @@ import PracticeCheckIn from '@courses/bateria/components/PracticeCheckIn.astro';
 import Phase1PasMap from '@courses/bateria/components/Phase1PasMap.astro';
 import RudimentNotationAutoEmbed from '@courses/bateria/components/RudimentNotationAutoEmbed.astro';
 import CourseScoreReferences from '@platform/components/CourseScoreReferences.astro';
+import { PHASE_1_PAS_BY_UNIT } from '@courses/bateria/curriculum';
 import {
   getBateriaContent,
   routeFor,
@@ -54,7 +55,13 @@ const kindLabel = entry.data.kind === 'diagnostic'
 const checkInKind = entry.data.kind === 'diagnostic' || entry.data.kind === 'lesson' || entry.data.kind === 'checkpoint'
   ? entry.data.kind
   : undefined;
-const showPhase1PasMap = entry.data.contentId === 'bat-f1-u10-check';
+const showPhase1PasMap = entry.data.phase === 1 && entry.data.kind === 'checkpoint';
+const phase1PasRudiments = showPhase1PasMap
+  ? Object.entries(PHASE_1_PAS_BY_UNIT)
+      .filter(([unitNumber]) => Number(unitNumber) <= entry.data.unit)
+      .flatMap(([, rudiments]) => [...rudiments])
+  : [];
+const isFinalPhase1Checkpoint = entry.data.contentId === 'bat-f1-u10-check';
 const hasPasRudiments = entry.data.rudiments.length > 0;
 const embedsRudimentScores = entry.data.kind === 'lesson'
   && hasPasRudiments
@@ -79,7 +86,25 @@ const embedsRudimentScores = entry.data.kind === 'lesson'
 
   {(showPhase1PasMap || checkInKind) && (
     <div slot="after">
-      {showPhase1PasMap && <Phase1PasMap sourceContentId={entry.data.contentId} />}
+      {showPhase1PasMap && (
+        isFinalPhase1Checkpoint ? (
+          <Phase1PasMap
+            sourceContentId={entry.data.contentId}
+            rudiments={phase1PasRudiments}
+            title="Estado de los 40 PAS"
+          />
+        ) : (
+          <details class="phase1-pas-evidence">
+            <summary>Actualizar mapa PAS con lo que realmente has observado</summary>
+            <p>El mapa incluye únicamente los PAS introducidos hasta esta unidad. Actualiza solo los que hayas muestreado o para los que exista evidencia suficiente; los demás conservan su estado previo.</p>
+            <Phase1PasMap
+              sourceContentId={entry.data.contentId}
+              rudiments={phase1PasRudiments}
+              title="Mapa PAS introducido hasta ahora"
+            />
+          </details>
+        )
+      )}
       {checkInKind && (
         <PracticeCheckIn
           courseId={entry.data.courseId}
@@ -91,3 +116,28 @@ const embedsRudimentScores = entry.data.kind === 'lesson'
     </div>
   )}
 </CourseArticleLayout>
+
+
+<style>
+  .phase1-pas-evidence {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .phase1-pas-evidence > summary {
+    cursor: pointer;
+    font-weight: 750;
+  }
+
+  .phase1-pas-evidence > p {
+    max-width: 72ch;
+    color: var(--muted);
+  }
+
+  .phase1-pas-evidence :global(.pas-map) {
+    margin-top: 1rem;
+  }
+</style>
