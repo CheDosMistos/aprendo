@@ -154,3 +154,13 @@ test('course layout mounts dictation and transcription widgets together', async 
   assert.match(layout, /<RhythmDictationWidgets \/>/);
   assert.match(layout, /<RhythmTranscriptionWidgets \/>/);
 });
+
+test('U3 checkpoint uses readable uncertainty labels and delayed transcription evidence', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /primera versión/);
+  assert.match(cp, /observación.*hipótesis.*aproximación.*duda/is);
+  assert.doesNotMatch(cp, /\bOBS\b|\bHIP\b|\bAPROX\b|\bDUDA\b|\bV1\b|\bV2\b/);
+  assert.match(cp, /otra fuente breve equivalente/);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /aporta \*\*transferencia\*\*/i);
+});
