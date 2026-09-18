@@ -200,6 +200,22 @@ Eso no equivale a promover automáticamente ninguna competencia global.
 
 Completar esta puerta **no actualiza automáticamente** el mapa de progreso.
 
+## Evidencia posterior: símbolo → acción sin cebado nominal
+
+Esta puerta comprueba decodificación y ejecución **ahora**; no convierte una respuesta recién practicada en aprendizaje retenido. Si una función queda suficientemente estable, no la repases por calendario. Recupérala más adelante sólo cuando aporte información.
+
+Para una comprobación longitudinal:
+
+1. usa una línea breve conocida o equivalente que contenga **una sola** de las funciones ya estudiadas;
+2. no practiques justo antes el nombre ni el sticking del rudimento;
+3. explica primero `SÍMBOLO → QUÉ MODIFICA → QUÉ DURA → CÓMO TERMINA`;
+4. ejecuta después y registra si la mecánica apareció sin depender del nombre;
+5. cambia una sola condición —orientación de manos, dinámica o posición del símbolo— cuando quieras comprobar transferencia.
+
+Si la función reaparece sin cebado específico, registra evidencia de `RECUPERACIÓN`. Si conserva lectura y jerarquía al cambiar una condición, añade `TRANSFERENCIA`. Si sólo funciona al nombrar o ensayar previamente el patrón, vuelve a estabilización/correctivo sin concluir que toda la familia rudimental está ausente.
+
+Esta comprobación **sustituye** otra tarea técnica secundaria; no se añade al presupuesto de práctica ni obliga a revisar flams, drags y rolls cada día.
+
 ## Puente a Unidad 9
 
 Unidad 9 podrá convertir la lectura desarrollada hasta aquí en **primera vista formal**: muestra nueva, ventana temporal controlada, ayudas restringidas y evidencia explícita de primera lectura. Esta unidad no simula ese criterio anticipadamente.
