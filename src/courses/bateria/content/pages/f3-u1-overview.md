@@ -72,4 +72,4 @@ No es requisito para esta unidad. Transcripción extensa, desarrollo motívico s
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`
 
-No hay BPM de aprobado y no necesitas completar la unidad sin errores.
+No hay un tempo de aprobado y no necesitas completar la unidad sin errores.
