@@ -44,26 +44,26 @@ test('U12 L1 defines a bounded brief and uses the existing practice check-in', a
   await expect(page.getByText(/Completar esta sesión no demuestra automáticamente todas las competencias/)).toBeVisible();
 });
 
-test('U12 L2 requires own V0 and traceable development without a notation solution', async ({ page }, testInfo) => {
+test('U12 L2 requires an own first version and traceable development without a notation solution', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-12/pieza-candidata-v0/');
   const article = page.locator('article.course-article');
   await expect(article.getByText(/No existe una partitura-solución del curso/)).toBeVisible();
   await expect(article.getByText(/SE CONSERVA →/)).toBeVisible();
   await expect(article.getByText(/CAMBIA →/)).toBeVisible();
-  await expect(article.getByText(/V0/).first()).toBeVisible();
+  await expect(article.getByText(/primera versión/i).first()).toBeVisible();
   await expect(article.locator('[data-notation-score]')).toHaveCount(0);
   await expect(page.locator('[data-creativity-grader], [data-composition-grader], [data-hito-grader]')).toHaveCount(0);
 });
 
-test('U12 L3 separates intention, representation and execution and preserves V0', async ({ page }, testInfo) => {
+test('U12 L3 separates intention, representation and execution and preserves the first version', async ({ page }, testInfo) => {
   await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-12/auditoria-autonoma-v0-v1/');
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/Conserva V0/).first()).toBeVisible();
+  await expect(article.getByText(/Conserva la primera versión/).first()).toBeVisible();
   await expect(article.getByRole('heading', { name: 'INTENCIÓN', exact: true })).toBeVisible();
   await expect(article.getByRole('heading', { name: 'REPRESENTACIÓN', exact: true })).toBeVisible();
   await expect(article.getByRole('heading', { name: 'EJECUCIÓN', exact: true })).toBeVisible();
-  await expect(article.getByText(/V1 sólo existe si cambias deliberadamente/)).toBeVisible();
-  await expect(article.getByText(/mantener V0 porque no existe razón suficiente/)).toBeVisible();
+  await expect(article.getByText(/La versión revisada sólo existe si cambias deliberadamente/)).toBeVisible();
+  await expect(article.getByText(/mantener la primera versión porque no existe razón suficiente/)).toBeVisible();
   await expect(article.getByText(/Registrar una ayuda no invalida la toma/)).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Registrar esta práctica' })).toBeVisible();
 });
