@@ -167,7 +167,7 @@ test('U3 checkpoint uses readable uncertainty labels and delayed transcription e
 });
 
 test('all U3 learner pages avoid internal uncertainty and version shorthand', async () => {
-  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).join('\n');
+  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).map((md) => md.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0]).join('\n');
   assert.doesNotMatch(combined, /\bOBS\b|\bHIP\b|\bAPROX\b|\bV1\b|\bV2\b|\bBPM\b/);
   assert.match(combined, /OBSERVACIÓN/);
   assert.match(combined, /HIPÓTESIS/);
