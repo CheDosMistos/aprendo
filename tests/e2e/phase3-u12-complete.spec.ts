@@ -85,7 +85,7 @@ test('U12 Hito 4 exposes the approved minimum without perfection or hidden odd-m
   const article = page.locator('article.course-article');
   await expect(article.getByText(approvedHito)).toBeVisible();
   await expect(article.getByRole('heading', { name: 'MÍNIMO — HITO 4 ALCANZADO' })).toBeVisible();
-  await expect(article.getByText(/No se exige BPM alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional/)).toBeVisible();
+  await expect(article.getByText(/No se exige tempo alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional/)).toBeVisible();
   await expect(article.getByText(/COMPETENTE no es requisito para reconocer el Hito mínimo/)).toBeVisible();
   await expect(article.getByText(/Pulsar “Cierre registrado” no demuestra automáticamente el Hito/)).toBeVisible();
   await expect(page.getByLabel('Cierre registrado')).toBeVisible();
@@ -107,4 +107,13 @@ test('U11 checkpoint remains intact when U12 is added', async ({ page }, testInf
   await expect(page.getByRole('heading', { level: 1, name: 'Evaluación — Ficha de análisis integrado' })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'MÍNIMO PARA AVANZAR A Unidad 12' })).toBeVisible();
   await expect(page.locator('.musical-context')).toHaveCount(1);
+});
+
+test('U12 Hito exposes the bounded longitudinal exit profile before Phase 4', async ({ page }, testInfo) => {
+  await login(page, testInfo); await page.goto('/bateria/fase-3-unidad-12/hito-4-autor-ritmico/');
+  const article = page.locator('article.course-article');
+  await expect(article.getByRole('heading', { name: 'Perfil de salida hacia la siguiente fase' })).toBeVisible();
+  await expect(article.getByText(/cola pequeña y cambiante/i)).toBeVisible();
+  await expect(article.getByText(/no se convierten en seis bloques permanentes/i)).toBeVisible();
+  await expect(article.getByText(/coordinación de cuatro extremidades, grooves, fills, orquestación y repertorio/i)).toBeVisible();
 });
