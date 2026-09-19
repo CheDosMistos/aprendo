@@ -99,7 +99,7 @@ Si haces una versión revisada, **conserva la primera versión**.
 - representación suficiente para volver a tocar;
 - ejecución/grabación con continuidad razonable;
 - comparación intención / notación / ejecución;
-- una decisión de revisión o justificación de mantener V0.
+- una decisión de revisión o justificación de mantener la primera versión.
 
 ## COMPETENTE
 
