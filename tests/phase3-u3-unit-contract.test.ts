@@ -46,11 +46,11 @@ async function page(name: keyof typeof pages) {
   return readFile(path.join(pageRoot, pages[name]), 'utf8');
 }
 function fm(md: string) {
-  return md.match(/^---\\s*\\n([\\s\\S]*?)\\n---/)?.[1] ?? '';
+  return md.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? '';
 }
 function learnerVisible(md: string) {
   const withoutShadow = md.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0] ?? md;
-  return withoutShadow.replace(/^---\\s*\\n[\\s\\S]*?\\n---\\s*/, '');
+  return withoutShadow.replace(/^---\s*\n[\s\S]*?\n---\s*/, '');
 }
 function measures(xml: string) {
   return [...xml.matchAll(/<measure\b[^>]*>([\s\S]*?)<\/measure>/g)].map((m) => m[1] ?? '');
