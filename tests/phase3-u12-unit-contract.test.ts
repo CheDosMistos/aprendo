@@ -136,3 +136,11 @@ test('Hito 4 leaves a bounded longitudinal queue and bridges pad capacities into
   assert.match(hito, /pies, coordinación de cuatro extremidades, grooves, fills, orquestación y repertorio/i);
   assert.match(hito, /sólo una dificultad concreta necesita volver temporalmente a trabajo aislado/i);
 });
+
+test('U12 learner pages avoid version and tempo shorthand', async () => {
+  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).join('\n');
+  assert.doesNotMatch(combined, /\bV0\b|\bV1\b|\bBPM\b/);
+  assert.match(combined, /primera versión/i);
+  assert.match(combined, /versión revisada/i);
+  assert.match(combined, /tempo/i);
+});
