@@ -74,9 +74,10 @@ test('U8 overview keeps G4 minimum at 1–4 bars and separates intention notatio
   assert.match(overview, /Hito 4.*U12/is);
 });
 
-test('L1 fixes a real V0 without presenting the course example as the correct composition', async () => {
+test('L1 fixes a real first version without presenting the course example as the correct composition', async () => {
   const l1 = await page('l1');
-  assert.match(l1, /VERSIÓN 0 \(V0\)/);
+  assert.match(l1, /primera versión/i);
+  assert.doesNotMatch(l1, /\bV0\b|\bV1\b/);
   assert.match(l1, /No es “la composición correcta”/);
   assert.match(l1, /1 o 2 compases/);
   assert.match(l1, /desde la representación/i);
@@ -95,7 +96,7 @@ test('L2 uses A A-prime B A as an example, not a universal formal law', async ()
 
 test('L3 uses one traceable transformation and no universal identity percentage', async () => {
   const l3 = await page('l3');
-  assert.match(l3, /una sola transformación G2 consciente/i);
+  assert.match(l3, /una sola transformación desarrollo motívico consciente/i);
   assert.match(l3, /SE CONSERVA:/);
   assert.match(l3, /CAMBIA:/);
   assert.match(l3, /no una regla de porcentaje/i);
@@ -113,15 +114,16 @@ test('L4 distinguishes contrast from density or difficulty', async () => {
   assert.equal((patterns[0]!.match(/1/g) ?? []).length, (patterns[2]!.match(/1/g) ?? []).length);
 });
 
-test('L5 preserves V0 and makes V1 a diagnosed revision that may simplify', async () => {
+test('L5 preserves the first version and makes the revised version a diagnosed change that may simplify', async () => {
   const l5 = await page('l5');
-  assert.match(l5, /V0 — CONSERVADA/);
+  assert.match(l5, /PRIMERA VERSIÓN — CONSERVADA/);
   assert.match(l5, /INTENCIÓN:/);
   assert.match(l5, /NOTACIÓN:/);
   assert.match(l5, /EJECUCIÓN:/);
-  assert.match(l5, /Un error de ejecución no crea automáticamente V1/i);
+  assert.match(l5, /Un error de ejecución no crea automáticamente una versión revisada/i);
   assert.match(l5, /simplifica/i);
-  assert.match(l5, /NO CAMBIO V0/);
+  assert.match(l5, /NO CAMBIO LA PRIMERA VERSIÓN/);
+  assert.doesNotMatch(l5, /\bV0\b|\bV1\b/);
   const { patterns } = await xmlData('f3-u8-l5-v0-v1.musicxml');
   assert.deepEqual(patterns, ['1010', '1011', '0101', '1001', '1010', '1011', '0100', '1001']);
   assert.equal(hamming(patterns.slice(0, 4).join(''), patterns.slice(4).join('')), 1);
