@@ -130,3 +130,12 @@ test('dictation widget keeps U1 compatibility and adds locked, counted chunks fo
   assert.match(component, /Escuchas: \$\{listenCount\}/);
   assert.match(component, /preloadNotationResources\(\[answerScoreSrc\]\)/);
 });
+
+test('U2 checkpoint only schedules later dictation when there is a diagnostic reason', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /No repitas estos dos dictados por calendario/);
+  assert.match(cp, /sin ensayar primero esta misma solución/);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /evidencia de \*\*transferencia\*\*/i);
+  assert.match(cp, /sustituye otra tarea secundaria/i);
+});

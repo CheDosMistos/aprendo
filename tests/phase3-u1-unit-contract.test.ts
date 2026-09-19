@@ -121,3 +121,12 @@ test('dictation widget supports visible listen count and preloads notation befor
   assert.match(component, /data-notation-score/);
   assert.match(component, /ensureAnswerScore/);
 });
+
+test('U1 checkpoint separates current performance from delayed recovery and transfer', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /Esta puerta describe lo que puedes hacer hoy/);
+  assert.match(cp, /sin practicar esta misma prueba justo antes/);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /evidencia de \*\*transferencia\*\*/i);
+  assert.match(cp, /sustituye otra tarea secundaria/i);
+});

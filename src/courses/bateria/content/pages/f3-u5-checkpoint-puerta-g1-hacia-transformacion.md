@@ -141,3 +141,11 @@ No puedes todavía establecer una versión A suficientemente estable. Reduce lon
 Aparece una señal de salud/carga según el sistema general de práctica y evaluación.
 
 **AVANZADO no es requisito para Unidad 6.** Esta puerta verifica identidad motívica básica, no creatividad excepcional ni dominio de transformaciones.
+
+## Recuperación del motivo en trabajo posterior
+
+El retorno al motivo dentro de esta evaluación ya comprueba memoria a corto plazo dentro de una frase. Para saber si la idea sigue disponible después, recupérala en otra sesión o úsala como punto de partida de una transformación **sin ensayarla de forma específica justo antes**.
+
+Si el motivo reaparece reconocible, tienes evidencia de **recuperación**. Si conserva su identidad al cambiar dinámica, mano líder, acento, subdivisión compatible o contexto creativo, aporta además **transferencia**.
+
+No mantengas todos los motivos creados como repertorio obligatorio. Conserva sólo los que tengan una función posterior o revelen una dificultad concreta; cuando vuelvan, sustituyen otra tarea secundaria.

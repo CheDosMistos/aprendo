@@ -23,7 +23,7 @@ En esta lección una buena versión contiene cuatro capas de información:
 
 1. esqueleto rítmico tocable en pad;
 2. mapa funcional `grave / media / aguda`;
-3. `APROX` y `DUDA` donde proceda;
+3. `APROXIMACIÓN` y `DUDA` donde proceda;
 4. registro de ayudas y revisiones.
 
 ## Fuente D
@@ -46,9 +46,9 @@ Añade información de capas sólo donde sea suficientemente útil y defendible.
 
 Ejemplos:
 
-- `OBS: grave en inicio de compás`;
-- `HIP: media en esta posición`;
-- `APROX: mantengo sólo el esqueleto en este pulso`;
+- `OBSERVACIÓN: grave en inicio de compás`;
+- `HIPÓTESIS: media en esta posición`;
+- `APROXIMACIÓN: mantengo sólo el esqueleto en este pulso`;
 - `DUDA: media/aguda`.
 
 **Una aproximación declarada puede ser mejor que un detalle inventado.**
@@ -57,18 +57,18 @@ Ejemplos:
 
 Conserva dos versiones:
 
-- **V1:** primera hipótesis;
-- **V2:** versión revisada.
+- **Primera versión:** primera hipótesis escrita;
+- **Versión revisada:** resultado después de contrastar y corregir.
 
 Junto a cada cambio importante escribe una razón breve:
 
-`V1 → V2 porque al escuchar ______ observé ______.`
+`PRIMERA VERSIÓN → VERSIÓN REVISADA porque al escuchar ______ observé ______.`
 
 No hace falta registrar cada nota correcta; sí las revisiones que cambian tu interpretación.
 
 ## 4. Ejecución en pad · 3–4 min
 
-Toca el esqueleto de V2 en pad manteniendo el marco temporal.
+Toca el esqueleto de la versión revisada en pad manteniendo el marco temporal.
 
 La ejecución no pretende reproducir tres capas simultáneas. Su función es comprobar que tu representación rítmica es legible y musicalmente operativa.
 
@@ -85,4 +85,4 @@ No conviertas una discrepancia tímbrica en “transcripción totalmente incorre
 
 ## MÍNIMO PARA AVANZAR
 
-Produces V1 y V2, puedes tocar el esqueleto final y dejas explícita al menos una revisión, aproximación o duda real sin rellenarla por intuición.
+Produces una primera versión y una versión revisada, puedes tocar el esqueleto final y dejas explícita al menos una revisión, aproximación o duda real sin rellenarla por intuición.

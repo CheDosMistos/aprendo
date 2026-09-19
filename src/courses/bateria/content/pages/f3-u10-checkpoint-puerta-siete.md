@@ -70,3 +70,11 @@ Con material sencillo y sin preparación específica de los ejemplos:
 ## AVANZADO / AMPLIACIÓN
 
 Cambios métricos simples, agrupaciones menos previsibles, 7/4 más autónomo, frases largas o reducción fuerte de ayudas. **AVANZADO no es requisito para Unidad 11.**
+
+## Después de esta puerta
+
+5/4 y 7/8 ya pueden aparecer como contextos disponibles para lectura, oído, improvisación, composición o análisis. **No se convierten en dos ejercicios obligatorios de mantenimiento.**
+
+Cuando quieras comprobar retención, usa material sencillo sin preparación específica inmediatamente anterior. Cuando quieras comprobar transferencia, cambia una sola condición útil: lectura nueva, otra agrupación, una frase propia o un contexto musical diferente.
+
+Si una métrica queda claramente más frágil, trabaja esa dificultad de forma localizada. Si ambas funcionan, deja que reaparezcan de manera espaciada dentro de tareas musicales posteriores en vez de reservarles un bloque fijo.

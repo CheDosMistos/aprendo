@@ -69,4 +69,4 @@ Esta unidad sigue usando material original diseñado para la tarea. **La transcr
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`
 
-No hay BPM de aprobado ni porcentaje único de exactitud.
+No hay un tempo de aprobado ni porcentaje único de exactitud.

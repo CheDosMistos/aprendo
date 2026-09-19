@@ -35,10 +35,10 @@ La solución escrita muestra el **esqueleto compuesto de ataques**, ejecutable e
 
 ## Cuatro etiquetas para no inventar
 
-- **OBS:** observación auditiva provisional que sostienes con suficiente claridad.
-- **HIP:** hipótesis todavía pendiente de contraste.
-- **APROX:** aproximación propia deliberada cuando no necesitas o no puedes resolver más detalle.
-- **DUDA:** información no resuelta que prefieres conservar abierta.
+- **Observación:** información auditiva provisional que sostienes con suficiente claridad.
+- **Hipótesis:** propuesta todavía pendiente de contraste.
+- **Aproximación:** simplificación propia deliberada cuando no necesitas o no puedes resolver más detalle.
+- **Duda:** información no resuelta que prefieres conservar abierta.
 
 El objetivo no es llenar todos los huecos. El mínimo de transcripción real exige precisamente poder identificar qué parte es aproximación propia.
 
@@ -78,7 +78,7 @@ Una fuente independiente comprueba el proceso completo sin exigir canción compl
 - reescuchas con una pregunta cuando sea posible;
 - separar esqueleto y capas;
 - registrar chunks/slowdown;
-- distinguir OBS / HIP / APROX / DUDA;
+- distinguir observación / hipótesis / aproximación / duda;
 - tocar lo escrito;
 - validar al 100 %.
 
@@ -94,4 +94,4 @@ Fuentes más largas/densas, articulación fina, contraste de fuentes y primera m
 
 `CONTINUAR / CONTINUAR + CORRECTIVO / REDUCIR NOVEDAD / DETENER CARGA`
 
-No existe un número universal de escuchas, compases o BPM que convierta una transcripción en válida.
+No existe un número universal de escuchas, compases o tempos que convierta una transcripción en válida.

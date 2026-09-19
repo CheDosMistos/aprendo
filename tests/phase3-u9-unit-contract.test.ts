@@ -46,7 +46,7 @@ test('U9 keeps 5/4 core, 5/8 expansion and J3 globally developing', async () => 
   assert.match(overview, /5\/4 ≠ quintillo ≠ agrupación de cinco notas/);
   assert.match(overview, /agrupación dentro del compás ≠ compás/);
   assert.match(overview, /5\/8 aparece sólo.*comparación/is);
-  assert.match(cp, /J3 continúa EN DESARROLLO/);
+  assert.match(cp, /competencia de métricas impares y mixtas continúa EN DESARROLLO/);
   assert.match(cp, /AVANZADO no es requisito para U10/);
 });
 
@@ -86,4 +86,13 @@ test('U9 does not smuggle J4 or an odd-meter grader into the core', async () => 
   assert.doesNotMatch(combined, /data-odd-meter-grader|data-meter-grader/);
   const layout = await readFile(path.resolve('src/courses/bateria/components/CourseArticleLayout.astro'), 'utf8');
   assert.match(layout, /PracticeRecorder/); assert.match(layout, /InlineNotationScores/); assert.match(layout, /RhythmDictationWidgets/);
+});
+
+test('U9 retrieves 5/4 later without creating a daily maintenance block', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /No conviertas 5\/4 en un bloque diario de mantenimiento/i);
+  assert.match(cp, /sin practicarla justo antes/i);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /aporta \*\*transferencia\*\*/i);
+  assert.match(cp, /sustituir otra tarea secundaria/i);
 });

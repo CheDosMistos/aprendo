@@ -148,3 +148,11 @@ test('U6 reuses existing notation and recorder infrastructure without a transfor
   assert.match(layout, /PracticeRecorder/);
   assert.match(layout, /InlineNotationScores/);
 });
+
+test('U6 checkpoint tests transformation on another motif instead of drilling every operation', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /aplicar la misma operación a otro motivo sencillo/i);
+  assert.match(cp, /evidencia de \*\*transferencia\*\*/i);
+  assert.match(cp, /No practiques todas las transformaciones en cada sesión/i);
+  assert.match(cp, /sustituya otra tarea secundaria/i);
+});

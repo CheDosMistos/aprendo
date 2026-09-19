@@ -7,7 +7,7 @@ unitSlug: fase-3-unidad-12
 slug: auditoria-autonoma-v0-v1
 kind: lesson
 order: 3
-title: "Auditoría autónoma: V0 → grabación → decisión → V1"
+title: "Auditoría autónoma: primera versión → grabación → decisión → versión revisada"
 summary: "Usa una toma completa para distinguir problemas de representación, ejecución y composición y decidir qué revisar."
 duration: 25–30 min
 competencies: [G2, G4, D6, F3, C1, K2, K5, K6, K8]
@@ -19,14 +19,14 @@ published: true
 
 Demostrar que puedes usar grabación y diagnóstico con **menos instrucciones paso a paso que en Unidad 8**.
 
-Conserva V0. No la sobrescribas antes de escucharla.
+Conserva la primera versión. No la sobrescribas antes de escucharla.
 
 ## 1. Declara las condiciones
 
 Antes de grabar anota lo que realmente usarás:
 
 - metrónomo: sí/no;
-- BPM si procede;
+- tempo si procede;
 - conteo/vocalización: sí/no;
 - lectura visible: sí/no;
 - número de intentos previos relevantes;
@@ -34,7 +34,7 @@ Antes de grabar anota lo que realmente usarás:
 
 Registrar una ayuda no invalida la toma. Ocultarla impide saber qué evidencia tienes.
 
-## 2. Toma V0 en modo interpretación
+## 2. Toma de la primera versión en modo interpretación
 
 Toca la pieza completa.
 
@@ -79,9 +79,9 @@ Al escuchar, decides que una parte debería ser distinta para servir mejor a tu 
 
 **Acción:** revisar y actualizar la representación.
 
-## 5. Decide si existe V1
+## 5. Decide si hace falta una versión revisada
 
-V1 sólo existe si cambias deliberadamente la pieza o su representación después de comparar.
+La versión revisada sólo existe si cambias deliberadamente la pieza o su representación después de comparar.
 
 Una revisión válida puede:
 
@@ -91,13 +91,13 @@ Una revisión válida puede:
 - dejar más espacio;
 - cambiar una transformación;
 - ajustar dinámica;
-- mantener V0 porque no existe razón suficiente para cambiarla.
+- mantener la primera versión porque no existe razón suficiente para cambiarla.
 
-Si mantienes V0, escribe **por qué la comparación no justifica una revisión compositiva**.
+Si mantienes la primera versión, escribe **por qué la comparación no justifica una revisión compositiva**.
 
 ## 6. Segunda toma
 
-Si hay V1, tócala y grábala completa. Si mantienes V0, haz otra toma después del correctivo que hayas elegido.
+Si hay una versión revisada, tócala y grábala completa. Si mantienes la primera versión, haz otra toma después del correctivo que hayas elegido.
 
 Compara:
 
@@ -109,12 +109,12 @@ Compara:
 
 Conservas:
 
-- V0;
+- primera versión;
 - al menos una grabación completa;
 - condiciones/ayudas reales;
 - diagnóstico principal;
 - distinción entre representación, ejecución y decisión compositiva;
-- V1 o decisión justificada de mantener V0;
+- versión revisada o decisión justificada de mantener la primera versión;
 - una toma posterior para comparar.
 
 No necesitas una toma sin errores ni un tempo alto.

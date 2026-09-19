@@ -71,7 +71,7 @@ No. Si la pieza tiene motivo identificable, desarrollo y una transformación con
 
 ## No busques todavía la “versión perfecta”
 
-Hoy sólo necesitas un encargo viable. La escritura completa llega en Lección 2 y la comparación V0/V1 en Lección 3.
+Hoy sólo necesitas un encargo viable. La escritura completa llega en Lección 2 y la comparación entre la primera versión y la versión revisada en Lección 3.
 
 ## Rutina estándar sugerida
 

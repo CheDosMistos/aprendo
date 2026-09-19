@@ -21,11 +21,11 @@ published: true
 
 No se exige canción completa, alta velocidad, cero dudas ni reproducción de tres capas con las manos.
 
-## Fuente E — muestra independiente
+## Fuente independiente — muestra de evaluación
 
 **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO**
 
-<div data-rhythm-transcription data-bpm="70" data-subdivision="2" data-low-pattern="1001000010000100" data-mid-pattern="0010001000101000" data-high-pattern="0100010001000010" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-allow-slowdown="true" data-answer="Fuente E · rejilla de corcheas. Grave: 1001000010000100. Media: 0010001000101000. Aguda: 0100010001000010. Esqueleto compuesto: 1111011011101110. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-cp-source-e.musicxml" data-answer-score-title="Evaluación — esqueleto de la fuente E"></div>
+<div data-rhythm-transcription data-bpm="70" data-subdivision="2" data-low-pattern="1001000010000100" data-mid-pattern="0010001000101000" data-high-pattern="0100010001000010" data-chunk-beats="4" data-chunk-labels="Compás 1|Compás 2" data-allow-slowdown="true" data-answer="Fuente de evaluación · rejilla de corcheas. Grave: 1001000010000100. Media: 0010001000101000. Aguda: 0100010001000010. Esqueleto compuesto: 1111011011101110. 1 = ataque; 0 = silencio." data-answer-score-src="/bateria/notation/f3/u3/f3-u3-cp-source-e.musicxml" data-answer-score-title="Evaluación — esqueleto de la fuente independiente"></div>
 
 ## Evidencia 1 — marco y primera hipótesis
 
@@ -33,10 +33,10 @@ Antes de usar chunks o 80 %:
 
 1. escucha la fuente completa al 100 %;
 2. propón pulso, subdivisión y métrica;
-3. escribe V1 del esqueleto;
-4. marca `OBS / HIP / APROX / DUDA` donde aporten información.
+3. escribe tu **primera versión** del esqueleto;
+4. marca con palabras completas qué consideras **observación**, **hipótesis**, **aproximación** o **duda**, cuando esa distinción aporte información.
 
-Conserva V1 sin borrarla.
+Conserva la primera versión sin borrarla.
 
 ## Evidencia 2 — revisión dirigida
 
@@ -48,11 +48,11 @@ Formula al menos una pregunta concreta y decide qué recurso necesitas:
 
 Registra los contadores. **No hay un máximo universal de ayudas para aprobar.** Importa que puedas explicar para qué las usaste.
 
-Si utilizas 80 %, vuelve después al 100 % antes de cerrar V2.
+Si utilizas 80 %, vuelve después al 100 % antes de cerrar la versión revisada.
 
-## Evidencia 3 — V2 y ejecución
+## Evidencia 3 — versión revisada y ejecución
 
-Crea una versión revisada V2 y toca su esqueleto completo en pad.
+Crea una versión revisada y toca su esqueleto completo en pad.
 
 Comprueba:
 
@@ -73,7 +73,7 @@ Compara por dimensiones:
 - continuidad;
 - aproximaciones;
 - dudas;
-- cambios V1→V2.
+- cambios entre la primera versión y la versión revisada.
 
 Selecciona una revisión y explica:
 
@@ -99,14 +99,22 @@ Aparece una señal de salud/carga según el sistema general.
 
 ## MÍNIMO PARA AVANZAR A Unidad 4
 
-- V1 existe antes de revelar;
+- existe una primera versión antes de revelar;
 - reconstruyes una parte sustancial del fragmento de dos compases;
 - el marco temporal es razonable;
 - identificas una aproximación propia o una duda cuando proceda;
 - las ayudas quedan registradas;
 - si usaste 80 %, vuelves al 100 %;
-- V2 es tocable en pad;
-- comparas V1, V2 y solución;
+- la versión revisada es tocable en pad;
+- comparas la primera versión, la versión revisada y la solución;
 - puedes explicar una revisión.
 
 **AVANZADO no es requisito para continuar.**
+
+## Evidencia posterior de transcripción
+
+Esta primera transcripción demuestra el proceso en esta sesión. Para comprobar aprendizaje estable, vuelve más adelante a **otra fuente breve equivalente**, sin transcribirla ni practicar una solución inmediatamente antes.
+
+Si puedes formular una primera hipótesis, revisarla y cerrar una versión útil de nuevo, tienes evidencia de **recuperación**. Si el proceso funciona además con otra densidad, longitud o distribución de capas, aporta **transferencia**.
+
+No conviertas todas las fuentes anteriores en deberes permanentes. Sólo vuelve a esta capacidad cuando exista una dificultad concreta o una pregunta diagnóstica; el trabajo sustituye otra tarea secundaria.

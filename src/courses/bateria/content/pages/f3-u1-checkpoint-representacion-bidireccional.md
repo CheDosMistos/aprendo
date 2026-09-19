@@ -94,4 +94,14 @@ Aparece una señal de salud/carga que obliga a interrumpir la práctica.
 - produces una A′ mínima y explicable;
 - mantienes un marco temporal suficiente para diagnosticar.
 
-No se exige perfección ni un BPM fijo.
+No se exige perfección ni un tempo fijo.
+
+## Comprobación posterior
+
+Esta puerta describe lo que puedes hacer hoy; no convierte automáticamente ese rendimiento en aprendizaje estable. Más adelante, cuando la unidad actual lo permita, recupera una muestra breve equivalente **sin practicar esta misma prueba justo antes**.
+
+- Si puedes volver a mover material entre oído, escritura y ejecución, tienes evidencia de **recuperación**.
+- Si además funciona con otra dinámica, otra mano líder o una célula nueva de dificultad comparable, tienes evidencia de **transferencia**.
+- Si una dificultad concreta reaparece, conviértela en correctivo localizado.
+
+La comprobación posterior sustituye otra tarea secundaria dentro del tiempo disponible; no se añade al final de la sesión.

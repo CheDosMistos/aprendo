@@ -17,7 +17,7 @@ published: true
 
 Unidad 7 tomaba decisiones **mientras el tiempo continuaba**. Esta unidad cambia el estatuto de una idea: ahora vas a **fijarla, escribirla, volver a tocarla y revisar una versión**.
 
-`IDEA → V0 → ESCRIBIR → TOCAR/GRABAR → COMPARAR → DIAGNOSTICAR → REVISAR → V1`
+`IDEA → PRIMERA VERSIÓN → ESCRIBIR → TOCAR/GRABAR → COMPARAR → DIAGNOSTICAR → REVISAR → VERSIÓN REVISADA`
 
 > **Novedad dominante:** composición rítmica breve.
 
@@ -38,13 +38,13 @@ Tu material puede partir de:
 - una idea nueva;
 - una semilla opcional del curso cuando la tarea lo indique.
 
-## V0 y V1
+## Primera versión y versión revisada
 
-**V0** es la primera versión que decides fijar. Se conserva.
+**La primera versión** es la primera versión que decides fijar. Se conserva.
 
-**V1** sólo existe si, después de comparar, decides cambiar algo y actualizas la representación.
+**La versión revisada** sólo existe si, después de comparar, decides cambiar algo y actualizas la representación.
 
-No borres V0 para fingir que la primera decisión nunca existió.
+No borres la primera versión para fingir que la primera decisión nunca existió.
 
 ## Tres capas que no mezclamos
 
@@ -63,7 +63,7 @@ Una revisión válida puede:
 - dejar más espacio;
 - hacer más claro un retorno;
 - cambiar una transformación;
-- mantener V0 porque la comparación no justifica cambiarla.
+- mantener la primera versión porque la comparación no justifica cambiarla.
 
 **Complejidad ≠ calidad.**
 
@@ -81,7 +81,7 @@ Construyes A’ con una sola transformación de desarrollo motívico y registras
 ### Lección 4 — Contraste y cierre
 Creas función de contraste y un final reconocible sin identificar contraste con “más notas”.
 
-### Lección 5 — V0 → V1
+### Lección 5 — Primera versión → versión revisada
 Grabas, comparas intención/notación/ejecución y haces una revisión consciente.
 
 ### Evaluación — Autoría en desarrollo

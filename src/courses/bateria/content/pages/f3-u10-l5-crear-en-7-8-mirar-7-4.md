@@ -39,7 +39,7 @@ En 7/4 hay siete negras escritas por compás.
 
 > **7/4 no es automáticamente “7/8 más lento”.**
 
-Compara unidad escrita, pulso percibido, agrupación y tempo real. El mismo BPM de playback no demuestra equivalencia perceptiva.
+Compara unidad escrita, pulso percibido, agrupación y tempo real. El mismo tempo de reproducción no demuestra equivalencia perceptiva.
 
 ## MÍNIMO PARA AVANZAR
 

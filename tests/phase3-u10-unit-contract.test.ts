@@ -48,7 +48,7 @@ test('U10 keeps 7/8 core, 7/4 expansion and evidence-based J3 levels', async () 
   assert.match(overview, /7\/4 aparece sólo como comparación/i);
   assert.match(overview, /MÍNIMO GLOBAL de J3/);
   assert.match(overview, /COMPETENTE\/FUNCIONAL de J3 no se concede por calendario/);
-  assert.match(cp, /Sólo si esta evidencia es funcional en ambas métricas puede registrarse el nivel COMPETENTE de J3/);
+  assert.match(cp, /Sólo si esta evidencia es funcional en ambas métricas puede registrarse el nivel COMPETENTE de métricas impares y mixtas/);
   assert.match(cp, /AVANZADO no es requisito para U11/);
 });
 
@@ -92,4 +92,13 @@ test('U10 does not smuggle J4+ or an odd-meter grader into the core', async () =
   assert.doesNotMatch(combined, /data-odd-meter-grader|data-meter-grader/);
   const layout = await readFile(path.resolve('src/courses/bateria/components/CourseArticleLayout.astro'), 'utf8');
   assert.match(layout, /PracticeRecorder/); assert.match(layout, /InlineNotationScores/); assert.match(layout, /RhythmDictationWidgets/);
+});
+
+test('U10 keeps 5/4 and 7/8 as reusable contexts rather than permanent exercises', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /No se convierten en dos ejercicios obligatorios de mantenimiento/i);
+  assert.match(cp, /sin preparación específica inmediatamente anterior/i);
+  assert.match(cp, /comprobar retención/i);
+  assert.match(cp, /comprobar transferencia/i);
+  assert.match(cp, /dentro de tareas musicales posteriores/i);
 });

@@ -48,6 +48,10 @@ async function page(name: keyof typeof pages) {
 function fm(md: string) {
   return md.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? '';
 }
+function learnerVisible(md: string) {
+  const withoutShadow = md.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0] ?? md;
+  return withoutShadow.replace(/^---\s*\n[\s\S]*?\n---\s*/, '');
+}
 function measures(xml: string) {
   return [...xml.matchAll(/<measure\b[^>]*>([\s\S]*?)<\/measure>/g)].map((m) => m[1] ?? '');
 }
@@ -75,13 +79,14 @@ test('Phase 3 U3 has overview, four lessons and checkpoint in order', async () =
   assert.match(fm(await page('checkpoint')), /^contentId:\s*bat-f3-u3-check$/m);
 });
 
-test('U3 defines E6 as iterative verification and preserves uncertainty', async () => {
-  const overview = await page('overview');
+test('U3 defines iterative verification and preserves uncertainty with readable labels', async () => {
+  const overview = learnerVisible(await page('overview'));
   assert.match(overview, /Transcribir no significa hacer un dictado más largo/);
   assert.match(overview, /FUENTE → HIPÓTESIS → PREGUNTA → REESCUCHA → REVISIÓN → EJECUCIÓN → VALIDACIÓN/);
-  for (const label of ['OBS', 'HIP', 'APROX', 'DUDA']) assert.match(overview, new RegExp(`\\*\\*${label}:`));
+  for (const label of ['Observación', 'Hipótesis', 'Aproximación', 'Duda']) assert.match(overview, new RegExp(`\\*\\*${label}:`, 'i'));
   assert.match(overview, /identificar qué parte es aproximación propia/i);
-  assert.match(overview, /No existe un número universal de escuchas, compases o BPM/i);
+  assert.match(overview, /No existe un número universal de escuchas, compases o tempos/i);
+  assert.doesNotMatch(overview, /(?<![\p{L}\p{N}])(?:OBS|HIP|APROX|V1|V2|BPM)(?![\p{L}\p{N}])/gu);
 });
 
 test('each source page declares exact three-layer data and its OR matches the written composite', async () => {
@@ -153,4 +158,25 @@ test('course layout mounts dictation and transcription widgets together', async 
   assert.match(layout, /RhythmTranscriptionWidgets/);
   assert.match(layout, /<RhythmDictationWidgets \/>/);
   assert.match(layout, /<RhythmTranscriptionWidgets \/>/);
+});
+
+test('U3 checkpoint uses readable uncertainty labels and delayed transcription evidence', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /primera versión/);
+  assert.match(cp, /observación.*hipótesis.*aproximación.*duda/is);
+  assert.doesNotMatch(cp, /\bOBS\b|\bHIP\b|\bAPROX\b|\bDUDA\b|\bV1\b|\bV2\b/);
+  assert.match(cp, /otra fuente breve equivalente/);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /aporta \*\*transferencia\*\*/i);
+});
+
+test('all U3 learner pages avoid internal uncertainty and version shorthand', async () => {
+  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).map(learnerVisible).join('\n');
+  assert.doesNotMatch(combined, /(?<![\p{L}\p{N}])(?:OBS|HIP|APROX|V1|V2|BPM)(?![\p{L}\p{N}])/u);
+  assert.match(combined, /OBSERVACIÓN/);
+  assert.match(combined, /HIPÓTESIS/);
+  assert.match(combined, /APROXIMACIÓN/);
+  assert.match(combined, /DUDA/);
+  assert.match(combined, /primera versión/i);
+  assert.match(combined, /versión revisada/i);
 });
