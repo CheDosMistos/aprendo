@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Dar forma a V0 usando **repetición, relación, contraste y retorno** sin añadir material por obligación.
+Dar forma a la primera versión usando **repetición, relación, contraste y retorno** sin añadir material por obligación.
 
 ## Microforma de referencia — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
