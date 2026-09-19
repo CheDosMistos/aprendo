@@ -48,9 +48,9 @@ Dibuja dos compases de 4/4 sobre rejilla de corcheas y escribe **el esqueleto de
 
 Marca junto a fragmentos concretos:
 
-- `OBS` si lo consideras suficientemente claro;
-- `HIP` si lo estás proponiendo;
-- `APROX` si decides simplificar;
+- `OBSERVACIÓN` si lo consideras suficientemente claro;
+- `HIPÓTESIS` si lo estás proponiendo;
+- `APROXIMACIÓN` si decides simplificar;
 - `DUDA` si no lo resuelves todavía.
 
 Conserva esta versión. No la borres al revisar.
@@ -85,7 +85,7 @@ Compara:
 2. ataques del esqueleto;
 3. diferencias entre compases;
 4. asignación de capas;
-5. etiquetas OBS/HIP/APROX/DUDA.
+5. etiquetas OBSERVACIÓN / HIPÓTESIS / APROXIMACIÓN / DUDA.
 
 ## MÍNIMO PARA AVANZAR
 

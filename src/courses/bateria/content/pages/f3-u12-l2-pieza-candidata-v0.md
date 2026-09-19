@@ -7,7 +7,7 @@ unitSlug: fase-3-unidad-12
 slug: pieza-candidata-v0
 kind: lesson
 order: 2
-title: "Pieza candidata: motivo → desarrollo → V0"
+title: "Pieza candidata: motivo → desarrollo → primera versión"
 summary: "Construye una primera versión completa y reproducible del proyecto final conservando la trazabilidad del motivo."
 duration: 25–30 min
 competencies: [G1, G2, G4, D6, F3, C1, K2, K6]
@@ -17,7 +17,7 @@ published: true
 
 ## Objetivo
 
-Convertir el brief de Lección 1 en una **V0 completa** que puedas volver a tocar desde su representación.
+Convertir el brief de Lección 1 en una **primera versión completa** que puedas volver a tocar desde su representación.
 
 No existe una partitura-solución del curso para esta tarea. La evidencia debe ser tuya.
 
@@ -72,7 +72,7 @@ Usa únicamente lo que tu intención necesite:
 
 No existe una forma obligatoria A–A’–B–A ni una longitud “correcta”.
 
-## 5. Escribe V0 completa
+## 5. Escribe la primera versión completa
 
 Tu representación puede ser:
 
@@ -95,7 +95,7 @@ Si la respuesta es no, aclara la representación antes de complicar la ejecució
 
 ## MÍNIMO PARA AVANZAR
 
-Conservas una **V0** que contiene:
+Conservas una **primera versión** que contiene:
 
 - pieza propia breve y completa;
 - motivo A identificable;
@@ -105,4 +105,4 @@ Conservas una **V0** que contiene:
 - representación suficientemente clara;
 - una ejecución completa posible en pad.
 
-Todavía no necesitas decidir que V0 es la versión final.
+Todavía no necesitas decidir que la primera versión es la versión final.

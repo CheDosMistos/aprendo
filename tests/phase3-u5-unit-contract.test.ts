@@ -135,3 +135,12 @@ test('U5 uses existing notation/recorder infrastructure rather than an automatic
   assert.match(layout, /PracticeRecorder/);
   assert.match(layout, /InlineNotationScores/);
 });
+
+test('U5 keeps later motif retrieval selective and embedded in musical use', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /sin ensayarla de forma específica justo antes/i);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /aporta además \*\*transferencia\*\*/i);
+  assert.match(cp, /No mantengas todos los motivos creados como repertorio obligatorio/i);
+  assert.match(cp, /sustituyen otra tarea secundaria/i);
+});

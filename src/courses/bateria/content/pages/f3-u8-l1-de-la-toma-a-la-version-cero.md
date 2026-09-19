@@ -17,13 +17,13 @@ published: true
 
 ## Objetivo
 
-Convertir una idea en una **VERSIÓN 0 (V0)** de 1–2 compases que puedas representar y volver a tocar.
+Convertir una idea en una **primera versión** de 1–2 compases que puedas representar y volver a tocar.
 
 La novedad no es inventar mucho material. Es **fijar una decisión**.
 
-## Ejemplo de V0 — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
+## Ejemplo de primera versión — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
-Este score muestra una frase de dos compases que alguien podría decidir conservar como V0.
+Este score muestra una frase de dos compases que alguien podría decidir conservar como primera versión.
 
 <div data-notation-score data-score-src="/bateria/notation/f3/u8/f3-u8-l1-version-zero.musicxml" data-score-title="Lección 1 — ejemplo de versión 0" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
@@ -45,7 +45,7 @@ Escribe una frase corta:
 
 `RASGO QUE QUIERO CONSERVAR: …`
 
-## 2. Fija V0 · 7–8 min
+## 2. Fija la primera versión · 7–8 min
 
 Decide una versión de **1 o 2 compases**.
 
@@ -69,7 +69,7 @@ Pregunta:
 
 Si la respuesta es no, mejora la representación antes de añadir material.
 
-## 4. Graba V0 · 5–6 min
+## 4. Graba la primera versión · 5–6 min
 
 Conserva una toma y registra por separado:
 
@@ -81,9 +81,9 @@ Todavía no estás obligado a revisar la pieza. Primero necesitamos una versión
 
 ## Error frecuente
 
-Cambiar la frase cada vez que la tocas y seguir llamando a todo “V0”.
+Cambiar la frase cada vez que la tocas y seguir llamando a todo “primera versión”.
 
-Una V0 puede interpretarse con pequeñas diferencias, pero debe conservar suficiente identidad para ser reproducible.
+Una primera versión puede interpretarse con pequeñas diferencias, pero debe conservar suficiente identidad para ser reproducible.
 
 ## MÍNIMO PARA AVANZAR
 

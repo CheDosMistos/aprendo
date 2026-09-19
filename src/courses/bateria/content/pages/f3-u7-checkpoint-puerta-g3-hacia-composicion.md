@@ -25,11 +25,11 @@ El mínimo es exactamente el de improvisación con restricciones:
 
 No necesitas una improvisación abierta, larga ni “original excepcionalmente”.
 
-## Prompt nuevo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
+## Motivo de partida nuevo — EJERCICIO ORIGINAL CREADO PARA ESTE CURSO
 
 Este motivo no apareció en Lecciones 1–5.
 
-<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-cp-prompt.musicxml" data-score-title="Evaluación — prompt nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
+<div data-notation-score data-score-src="/bateria/notation/f3/u7/f3-u7-cp-prompt.musicxml" data-score-title="Evaluación — motivo de partida nuevo" data-score-badge="EJERCICIO ORIGINAL CREADO PARA ESTE CURSO"></div>
 
 Puedes usarlo como A o crear un motivo propio de dificultad equivalente.
 
@@ -127,3 +127,11 @@ La improvisación cumple la consigna, pero continuidad, cierre, recuperación o 
 El espacio de búsqueda es demasiado amplio. Vuelve temporalmente a un motivo + una transformación + frase fija.
 
 Esta puerta **no certifica todavía composición rítmica breve**. Sólo prepara el material y las decisiones que Unidad 8 aprenderá a fijar y revisar.
+
+## Qué merece recuperarse
+
+No conviertas cada improvisación en una pieza que debas conservar. Guarda una toma cuando aporte evidencia o contenga una idea útil.
+
+Más adelante, una restricción ya conocida puede reaparecer **sin ensayar una respuesta concreta antes**. Si puedes volver a improvisar manteniendo o recuperando el marco, tienes evidencia de **recuperación**. Si la misma capacidad funciona con otro motivo, otra duración de frase o una consigna más ligera, aporta **transferencia**.
+
+La continuidad, el vocabulario técnico y la referencia temporal se comprueban dentro de la improvisación cuando sea posible; no necesitan convertirse automáticamente en ejercicios paralelos.

@@ -25,7 +25,7 @@ Este cierre corresponde al **Hito global 4 — Autor rítmico**. El Hito global 
 
 ## No es “Unidad 8 otra vez”
 
-Unidad 8 enseñó a fijar V0, escribir, grabar, comparar y revisar. Aquí no repetimos ese curso paso a paso: recuperas esas herramientas para preparar un proyecto final más autónomo.
+Unidad 8 enseñó a fijar una primera versión, escribir, grabar, comparar y revisar. Aquí no repetimos ese curso paso a paso: recuperas esas herramientas para preparar un proyecto final más autónomo.
 
 Si aparece un cuello de botella concreto, lo corriges. **No necesitas volver a completar una unidad entera para poder continuar.**
 
@@ -54,10 +54,10 @@ Para el mínimo de composición rítmica breve, **1–4 compases coherentes y re
 Defines qué quieres demostrar: motivo, métrica, transformación, forma, longitud y condiciones.
 
 ### Lección 2 — Pieza candidata
-Construyes V0 con motivo y desarrollo rastreables y una representación que permita volver a tocarla.
+Construyes una primera versión con motivo y desarrollo rastreables y una representación que permita volver a tocarla.
 
 ### Lección 3 — Auditoría autónoma
-Grabas V0, comparas intención/representación/ejecución y produces V1 sólo si la evidencia justifica un cambio.
+Grabas la primera versión, comparas intención/representación/ejecución y produces una versión revisada sólo si la evidencia justifica un cambio.
 
 ### Lección 4 — Ensayo de Hito
 Tocas, escuchas, compruebas el ciclo oído–escritura–ejecución y ensayas una explicación breve.
@@ -81,7 +81,7 @@ Presentas el paquete final de evidencia.
 
 ## No se exige
 
-BPM alto, cero errores, kit, polirritmia, polimetría, modulación métrica, transcripción larga, varias transformaciones, notación editorial ni “originalidad excepcional”.
+tempo alto, cero errores, kit, polirritmia, polimetría, modulación métrica, transcripción larga, varias transformaciones, notación editorial ni “originalidad excepcional”.
 
 ## Cerrar el Hito no reexamina toda Fase 3
 

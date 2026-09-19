@@ -62,23 +62,25 @@ test('L1 defines a bounded brief instead of rewarding complexity', async () => {
   assert.match(l1, /4\/4 puede demostrar perfectamente el Hito/);
 });
 
-test('L2 requires own V0 and traceable development without a course solution score', async () => {
+test('L2 requires an own first version and traceable development without a course solution score', async () => {
   const l2 = await page('l2');
   assert.match(l2, /No existe una partitura-solución del curso/);
   assert.match(l2, /SE CONSERVA →/);
   assert.match(l2, /CAMBIA →/);
-  assert.match(l2, /V0/);
+  assert.match(l2, /primera versión/i);
+  assert.doesNotMatch(l2, /\bV0\b|\bV1\b/);
   assert.match(l2, /representación suficientemente clara/);
   assert.doesNotMatch(l2, /data-notation-score|\.musicxml/);
 });
 
-test('L3 preserves V0 and distinguishes representation, execution and compositional revision', async () => {
+test('L3 preserves the first version and distinguishes representation, execution and compositional revision', async () => {
   const l3 = await page('l3');
-  assert.match(l3, /Conserva V0/);
+  assert.match(l3, /Conserva la primera versión/);
   assert.match(l3, /INTENCIÓN/); assert.match(l3, /REPRESENTACIÓN/); assert.match(l3, /EJECUCIÓN/);
   assert.match(l3, /Representación[\s\S]*Ejecución[\s\S]*Decisión compositiva/);
-  assert.match(l3, /V1 sólo existe si cambias deliberadamente/);
-  assert.match(l3, /mantener V0 porque no existe razón suficiente/);
+  assert.match(l3, /La versión revisada sólo existe si cambias deliberadamente/);
+  assert.match(l3, /mantener la primera versión porque no existe razón suficiente/);
+  assert.doesNotMatch(l3, /\bV0\b|\bV1\b|\bBPM\b/);
   assert.match(l3, /Registrar una ayuda no invalida la toma/);
 });
 
@@ -103,7 +105,7 @@ test('Hito minimum matches approved evidence and does not add perfection or adva
     'condiciones/ayudas',
     'decisión de revisión',
   ]) assert.match(hito, new RegExp(phrase, 'i'));
-  assert.match(hito, /No se exige BPM alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional/);
+  assert.match(hito, /No se exige tempo alto, cero errores, métrica impar, varias transformaciones, kit ni originalidad excepcional/);
   assert.match(hito, /COMPETENTE no es requisito para reconocer el Hito mínimo/);
 });
 
@@ -121,4 +123,24 @@ test('U12 contains no local notation solution or automatic creativity grader', a
   const publicF3 = path.resolve('public/bateria/notation/f3');
   const units = await readdir(publicF3);
   assert.ok(!units.includes('u12'));
+});
+
+test('Hito 4 leaves a bounded longitudinal queue and bridges pad capacities into kit work', async () => {
+  const hito = await page('hito');
+  assert.match(hito, /cola pequeña y cambiante/i);
+  assert.match(hito, /dificultad activa|capacidad que esté limitando/i);
+  assert.match(hito, /recuperación todavía no hayas comprobado/i);
+  assert.match(hito, /oportunidad clara de transferencia/i);
+  assert.match(hito, /La antigüedad de la evidencia es una orientación, no un calendario científico fijo/i);
+  assert.match(hito, /no se convierten en seis bloques permanentes/i);
+  assert.match(hito, /pies, coordinación de cuatro extremidades, grooves, fills, orquestación y repertorio/i);
+  assert.match(hito, /sólo una dificultad concreta necesita volver temporalmente a trabajo aislado/i);
+});
+
+test('U12 learner pages avoid version and tempo shorthand', async () => {
+  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).map((md) => md.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0]).join('\n');
+  assert.doesNotMatch(combined, /\bV0\b|\bV1\b|\bBPM\b/);
+  assert.match(combined, /primera versión/i);
+  assert.match(combined, /versión revisada/i);
+  assert.match(combined, /tempo/i);
 });

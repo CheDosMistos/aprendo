@@ -37,12 +37,12 @@ test('Phase 3 U8 overview defines G4 minimum, revision loop and authorship bound
   await expect(article.getByText(/Hito 4.*Unidad 12/i)).toBeVisible();
 });
 
-test('U8 L1 renders V0 example but keeps the student composition open', async ({ page }, testInfo) => {
+test('U8 L1 renders a first-version example but keeps the student composition open', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-8/de-la-toma-a-la-version-cero/');
   await expectOneScoreReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/VERSIÓN 0 \(V0\)/)).toBeVisible();
+  await expect(article.getByText(/primera versión/i).first()).toBeVisible();
   await expect(article.getByText(/No es “la composición correcta”/)).toBeVisible();
   await expect(article.getByText(/desde la representación/i)).toBeVisible();
 });
@@ -76,15 +76,15 @@ test('U8 L4 renders contrast and closure without complexity proxy', async ({ pag
   await expect(article.getByText(/Cierre no significa obligatoriamente/i)).toBeVisible();
 });
 
-test('U8 L5 renders V0 and V1 and separates execution error from composition revision', async ({ page }, testInfo) => {
+test('U8 L5 renders first and revised versions and separates execution error from composition revision', async ({ page }, testInfo) => {
   await login(page, testInfo);
   await page.goto('/bateria/fase-3-unidad-8/version-cero-a-version-uno-grabar-comparar-revisar/');
   await expectOneScoreReady(page);
   const article = page.locator('article.course-article');
-  await expect(article.getByText(/V0 — CONSERVADA/)).toBeVisible();
-  await expect(article.getByText(/Un error de ejecución no crea automáticamente V1/i)).toBeVisible();
-  await expect(article.getByText(/V1 simplifica/i)).toBeVisible();
-  await expect(article.getByText(/NO CAMBIO V0/)).toBeVisible();
+  await expect(article.getByText(/PRIMERA VERSIÓN — CONSERVADA/)).toBeVisible();
+  await expect(article.getByText(/Un error de ejecución no crea automáticamente una versión revisada/i)).toBeVisible();
+  await expect(article.getByText(/La versión revisada simplifica/i)).toBeVisible();
+  await expect(article.getByText(/NO CAMBIO LA PRIMERA VERSIÓN/)).toBeVisible();
 });
 
 test('U8 Checkpoint 3B leaves three bars open and does not claim final Hito 4', async ({ page }, testInfo) => {

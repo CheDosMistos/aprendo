@@ -117,3 +117,12 @@ test('U7 reuses existing recorder/notation infrastructure and adds no creativity
   assert.match(layout, /PracticeRecorder/);
   assert.match(layout, /InlineNotationScores/);
 });
+
+test('U7 keeps improvisation retrieval selective and tests transfer by changing context', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /No conviertas cada improvisación en una pieza que debas conservar/i);
+  assert.match(cp, /sin ensayar una respuesta concreta antes/i);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /aporta \*\*transferencia\*\*/i);
+  assert.match(cp, /no necesitan convertirse automáticamente en ejercicios paralelos/i);
+});

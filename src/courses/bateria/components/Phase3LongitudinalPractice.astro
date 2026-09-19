@@ -1,0 +1,74 @@
+---
+interface Props { unit: number; }
+const { unit } = Astro.props;
+
+const phaseFocus = unit <= 4
+  ? 'oído, representación, transcripción y forma'
+  : unit <= 8
+    ? 'motivo, transformación, improvisación y composición'
+    : 'métricas impares, análisis musical e integración de autoría';
+---
+
+<section class="longitudinal-plan" aria-labelledby="phase3-longitudinal-title" data-phase3-longitudinal data-unit={unit}>
+  <div class="longitudinal-plan__head">
+    <p class="eyebrow">Práctica longitudinal · Fase 3</p>
+    <h2 id="phase3-longitudinal-title">Mantén lo anterior dentro de la música que estás construyendo</h2>
+    <p><strong>Esto no añade otro bloque de práctica.</strong> La referencia sigue siendo 25–30 minutos, 3–4 días por semana. El centro de esta parte de la fase es <strong>{phaseFocus}</strong>. Una capacidad anterior sólo vuelve si limita la tarea, necesita comprobarse después de un tiempo o puede transferirse de forma útil al material actual.</p>
+  </div>
+
+  <div class="longitudinal-plan__grid">
+    <article>
+      <h3>1. La tarea musical actual manda</h3>
+      <p>No mantengas lectura, técnica, rudimentos, oído y creatividad como cinco deberes diarios. Empieza por el objetivo de la unidad. Si una capacidad anterior funciona dentro de esa tarea, ya está recibiendo práctica y no necesita un ejercicio duplicado.</p>
+    </article>
+    <article>
+      <h3>2. Recupera sólo con una razón</h3>
+      <p>Haz volver material anterior cuando exista una dificultad concreta, cuando quieras comprobar si sigue disponible sin repasarlo justo antes o cuando el nuevo contexto permita probarlo de otra manera. Si no existe una pregunta útil, no programes una revisión por obligación.</p>
+    </article>
+    <article>
+      <h3>3. Transfiere dentro del material creativo</h3>
+      <p>Siempre que no oculte el objetivo principal, una idea que estés escuchando, leyendo, improvisando o componiendo puede servir para comprobar una capacidad anterior: otra mano líder, una dinámica distinta, un acento, un rudimento conocido, otra subdivisión o una referencia temporal menos explícita. Así la técnica sirve a la música en vez de competir con ella.</p>
+    </article>
+    <article>
+      <h3>4. Separa práctica reciente de aprendizaje</h3>
+      <p>Que algo salga después de repetirlo demuestra rendimiento en ese momento. Cuando sea útil, vuelve a comprobarlo más adelante sin ensayo específico inmediatamente anterior. Si reaparece en el mismo tipo de tarea, aporta evidencia de recuperación; si funciona además en un contexto diferente, aporta evidencia de transferencia.</p>
+    </article>
+  </div>
+
+  <div class="longitudinal-plan__week">
+    <h3>Cómo encajarlo en 3–4 sesiones</h3>
+    <p>La distribución es adaptable. No todas las áreas tienen que aparecer cada día ni existe un calendario fijo de repasos.</p>
+    <div class="week-grid">
+      <div>
+        <strong>Cuando hay material nuevo</strong>
+        <p>Comprende la tarea → detecta la dificultad dominante → trabaja la novedad → integra una capacidad anterior sólo si ayuda → vuelve al conjunto → registra qué merece reaparecer.</p>
+      </div>
+      <div>
+        <strong>Cuando consolidas</strong>
+        <p>Intenta recuperar antes de repasar → identifica qué se conserva y qué falla → corrige una variable → prueba de nuevo en contexto → decide si necesita otra comprobación o puede salir de la prioridad.</p>
+      </div>
+    </div>
+  </div>
+
+  <details class="longitudinal-plan__rules">
+    <summary>Reglas para no convertir el mantenimiento en deuda</summary>
+    <div>
+      <p><strong>Sustituir, no añadir.</strong> Si recuperas una capacidad de Fase 1 o Fase 2, ocupa el lugar de otra tarea secundaria dentro del tiempo disponible.</p>
+      <p><strong>Tempo de calidad.</strong> El tempo describe una condición de práctica, no el nivel del alumno. Auméntalo sólo mientras tiempo, sonido, lectura, intención y relajación sigan suficientemente controlados.</p>
+      <p><strong>Continuidad.</strong> Observa cuánto sostienes la tarea antes de que aparezca un deterioro claro. Esa duración es información contextual, no una cuota universal.</p>
+      <p><strong>Referencia temporal.</strong> Reduce metrónomo, conteo u otras ayudas cuando la estabilidad lo permita; no las retires por calendario.</p>
+      <p><strong>Carga.</strong> Si la fatiga degrada claramente el movimiento o la atención, reduce o cambia la tarea. Dolor, hormigueo, entumecimiento o pérdida de fuerza no forman parte del entrenamiento normal.</p>
+    </div>
+  </details>
+</section>
+
+<style>
+  .longitudinal-plan{margin-top:2.5rem;padding:clamp(1rem,2.5vw,1.5rem);border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+  .longitudinal-plan__head h2{margin:.2rem 0 .5rem}.longitudinal-plan__head p{max-width:72ch}
+  .longitudinal-plan__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin-top:1.25rem}
+  .longitudinal-plan__grid article,.week-grid>div{padding:1rem;border:1px solid var(--border);border-radius:.7rem;background:var(--bg)}
+  .longitudinal-plan__grid h3,.longitudinal-plan__week h3{margin:0 0 .45rem}.longitudinal-plan__grid p{margin:.4rem 0}
+  .longitudinal-plan__week{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--border)}.week-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.week-grid p{margin:.55rem 0 0}
+  .longitudinal-plan__rules{margin-top:1rem;border-top:1px solid var(--border);padding-top:1rem}.longitudinal-plan__rules summary{cursor:pointer;font-weight:750}.longitudinal-plan__rules div{max-width:76ch}
+  @media (max-width:760px){.longitudinal-plan__grid,.week-grid{grid-template-columns:1fr}}
+</style>

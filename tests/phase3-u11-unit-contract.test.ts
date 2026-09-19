@@ -103,3 +103,12 @@ test('MusicalContextWidgets is generic, layer-aware and non-grading', async () =
   const layout = await readFile(path.resolve('src/courses/bateria/components/CourseArticleLayout.astro'), 'utf8');
   assert.match(layout, /MusicalContextWidgets/);
 });
+
+test('U11 separates listening-analysis examples from practice repertoire and tests transfer', async () => {
+  const cp = await page('checkpoint');
+  assert.match(cp, /ejemplo de escucha y análisis/i);
+  assert.match(cp, /sin convertirse automáticamente en repertorio que debas aprender a tocar/i);
+  assert.match(cp, /tempo, métrica, densidad, coordinación, continuidad, forma, transiciones, dificultad de oído y recursos legales/i);
+  assert.match(cp, /evidencia de \*\*recuperación\*\*/i);
+  assert.match(cp, /aporta \*\*transferencia\*\*/i);
+});

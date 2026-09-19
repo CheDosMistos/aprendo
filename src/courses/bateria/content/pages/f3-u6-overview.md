@@ -56,7 +56,7 @@ No existe un porcentaje universal de identidad. Si ya no puedes rastrear una rel
 - desplazar un motivo dentro de 4/4 **no convierte** el ejemplo en compás irregular;
 - `3+3+2 dentro de 4/4 ≠ 7/8` si el marco métrico sigue siendo 4/4;
 - cambiar sticking puede cambiar la organización motora sin cambiar el ritmo audible;
-- aumentación/disminución no significa tocar el mismo patrón con otro BPM;
+- aumentación/disminución no significa tocar el mismo patrón con otro tempo;
 - recontextualización métrica **no equivale a modulación métrica**;
 - “inversión rítmica” no es término esencial de esta unidad porque puede ser ambiguo sin definir la operación.
 
