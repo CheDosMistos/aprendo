@@ -86,7 +86,7 @@ test('U3 defines iterative verification and preserves uncertainty with readable 
   for (const label of ['Observación', 'Hipótesis', 'Aproximación', 'Duda']) assert.match(overview, new RegExp(`\\*\\*${label}:`, 'i'));
   assert.match(overview, /identificar qué parte es aproximación propia/i);
   assert.match(overview, /No existe un número universal de escuchas, compases o tempos/i);
-  assert.doesNotMatch(overview, /\bOBS\b|\bHIP\b|\bAPROX\b|\bV1\b|\bV2\b|\bBPM\b/g);
+  assert.doesNotMatch(overview, /(?<![\p{L}\p{N}])(?:OBS|HIP|APROX|V1|V2|BPM)(?![\p{L}\p{N}])/gu);
 });
 
 test('each source page declares exact three-layer data and its OR matches the written composite', async () => {
@@ -172,7 +172,7 @@ test('U3 checkpoint uses readable uncertainty labels and delayed transcription e
 
 test('all U3 learner pages avoid internal uncertainty and version shorthand', async () => {
   const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).map(learnerVisible).join('\n');
-  assert.doesNotMatch(combined, /\bOBS\b|\bHIP\b|\bAPROX\b|\bV1\b|\bV2\b|\bBPM\b/);
+  assert.doesNotMatch(combined, /(?<![\p{L}\p{N}])(?:OBS|HIP|APROX|V1|V2|BPM)(?![\p{L}\p{N}])/u);
   assert.match(combined, /OBSERVACIÓN/);
   assert.match(combined, /HIPÓTESIS/);
   assert.match(combined, /APROXIMACIÓN/);
