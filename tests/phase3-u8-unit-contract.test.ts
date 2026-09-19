@@ -162,3 +162,10 @@ test('U8 checkpoint keeps authorship evidence bounded and uses readable version 
   assert.match(cp, /aporta \*\*transferencia\*\*/i);
   assert.match(cp, /sustituye otra tarea secundaria/i);
 });
+
+test('U8 learner pages do not require V0 V1 shorthand', async () => {
+  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).join('\n');
+  assert.doesNotMatch(combined, /\bV0\b|\bV1\b|\bBPM\b/);
+  assert.match(combined, /primera versión/i);
+  assert.match(combined, /versión revisada/i);
+});
