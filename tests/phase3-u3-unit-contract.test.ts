@@ -46,7 +46,11 @@ async function page(name: keyof typeof pages) {
   return readFile(path.join(pageRoot, pages[name]), 'utf8');
 }
 function fm(md: string) {
-  return md.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] ?? '';
+  return md.match(/^---\\s*\\n([\\s\\S]*?)\\n---/)?.[1] ?? '';
+}
+function learnerVisible(md: string) {
+  const withoutShadow = md.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0] ?? md;
+  return withoutShadow.replace(/^---\\s*\\n[\\s\\S]*?\\n---\\s*/, '');
 }
 function measures(xml: string) {
   return [...xml.matchAll(/<measure\b[^>]*>([\s\S]*?)<\/measure>/g)].map((m) => m[1] ?? '');
@@ -76,7 +80,7 @@ test('Phase 3 U3 has overview, four lessons and checkpoint in order', async () =
 });
 
 test('U3 defines iterative verification and preserves uncertainty with readable labels', async () => {
-  const overview = await page('overview');
+  const overview = learnerVisible(await page('overview'));
   assert.match(overview, /Transcribir no significa hacer un dictado más largo/);
   assert.match(overview, /FUENTE → HIPÓTESIS → PREGUNTA → REESCUCHA → REVISIÓN → EJECUCIÓN → VALIDACIÓN/);
   for (const label of ['Observación', 'Hipótesis', 'Aproximación', 'Duda']) assert.match(overview, new RegExp(`\\*\\*${label}:`, 'i'));
@@ -167,7 +171,7 @@ test('U3 checkpoint uses readable uncertainty labels and delayed transcription e
 });
 
 test('all U3 learner pages avoid internal uncertainty and version shorthand', async () => {
-  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).map((md) => md.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0]).join('\n');
+  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).map(learnerVisible).join('\n');
   assert.doesNotMatch(combined, /\bOBS\b|\bHIP\b|\bAPROX\b|\bV1\b|\bV2\b|\bBPM\b/);
   assert.match(combined, /OBSERVACIÓN/);
   assert.match(combined, /HIPÓTESIS/);
