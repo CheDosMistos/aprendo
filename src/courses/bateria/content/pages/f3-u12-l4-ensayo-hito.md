@@ -85,7 +85,7 @@ Antes de pasar al Hito comprueba que puedes aportar:
 - [ ] desarrollo motívico rastreable;
 - [ ] al menos una transformación consciente;
 - [ ] `SE CONSERVA / CAMBIA`;
-- [ ] V0 conservada;
+- [ ] primera versión conservada;
 - [ ] grabación usada para comparar/revisar;
 - [ ] versión final decidida;
 - [ ] toma completa en pad;
