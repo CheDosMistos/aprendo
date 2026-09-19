@@ -82,7 +82,7 @@ test('U3 defines iterative verification and preserves uncertainty with readable 
   for (const label of ['Observación', 'Hipótesis', 'Aproximación', 'Duda']) assert.match(overview, new RegExp(`\\*\\*${label}:`, 'i'));
   assert.match(overview, /identificar qué parte es aproximación propia/i);
   assert.match(overview, /No existe un número universal de escuchas, compases o tempos/i);
-  assert.doesNotMatch(overview, /\\bOBS\\b|\\bHIP\\b|\\bAPROX\\b|\\bV1\\b|\\bV2\\b|\\bBPM\\b/);
+  assert.doesNotMatch(overview, /\bOBS\b|\bHIP\b|\bAPROX\b|\bV1\b|\bV2\b|\bBPM\b/g);
 });
 
 test('each source page declares exact three-layer data and its OR matches the written composite', async () => {
