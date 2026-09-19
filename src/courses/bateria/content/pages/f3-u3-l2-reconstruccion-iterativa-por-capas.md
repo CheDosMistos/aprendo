@@ -40,7 +40,7 @@ No intentes resolver simultáneamente todas las capas si eso destruye el marco.
 
 Formula una pregunta sobre el registro grave y vuelve a escuchar.
 
-Puedes marcar sobre tu rejilla sólo las posiciones que atribuyes a esa capa. Si una posición no es clara, usa `HIP` o `DUDA`.
+Puedes marcar sobre tu rejilla sólo las posiciones que atribuyes a esa capa. Si una posición no es clara, usa `HIPÓTESIS` o `DUDA`.
 
 ## 3. Capas media y aguda · 6–8 min
 
