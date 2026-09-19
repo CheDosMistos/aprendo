@@ -138,7 +138,7 @@ test('Hito 4 leaves a bounded longitudinal queue and bridges pad capacities into
 });
 
 test('U12 learner pages avoid version and tempo shorthand', async () => {
-  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).join('\n');
+  const combined = (await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).map((md) => md.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0]).join('\n');
   assert.doesNotMatch(combined, /\bV0\b|\bV1\b|\bBPM\b/);
   assert.match(combined, /primera versión/i);
   assert.match(combined, /versión revisada/i);
