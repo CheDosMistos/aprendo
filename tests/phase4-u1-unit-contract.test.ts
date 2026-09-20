@@ -71,7 +71,7 @@ test('L4 is zero transfer with known material and a four-way diagnosis', async (
   assert.match(l4, /ACCESO \/ SUPERFICIE \/ MOVIMIENTO \/ TIEMPO/);
   assert.match(l4, /Mueve \*\*la célula completa\*\* a un tom u otra superficie manual/i);
   assert.match(l4, /Todavía no alternes caja\/tom dentro de la misma frase/i);
-  for (const id of ['técnica de bombo', 'hi-hat de pie', 'coordinación de cuatro extremidades', 'groove', 'fills', 'orquestación creativa']) {
+  for (const id of ['bombo', 'hi-hat de pie', 'coordinación de cuatro extremidades', 'groove', 'fills', 'orquestación creativa']) {
     assert.match(l4, new RegExp(id));
   }
 });

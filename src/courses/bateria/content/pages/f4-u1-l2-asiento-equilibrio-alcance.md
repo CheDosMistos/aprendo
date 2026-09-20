@@ -90,7 +90,7 @@ Hoy sólo preguntas:
 - ¿la distancia me obliga a deslizarme en el asiento?;
 - ¿el hi-hat o bombo condicionan demasiado la colocación del resto del kit?
 
-Heel-up, heel-down y otras técnicas pertenecen a Unidad 3/Unidad 4 cuando el objetivo sea control de pedal.
+Heel-up, heel-down y otras técnicas pertenecen a las Unidades 3 y 4 cuando el objetivo sea control de pedal.
 
 ## EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — UNA VARIABLE
 
