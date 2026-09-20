@@ -28,10 +28,10 @@ El score completo puede consultarse durante laboratorio. En la toma principal se
 | Sección | Compases | Dinámica | Indicaciones |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Groove sostenible · prepara A |
-| postura y relajación | 5–8 | mf | Groove |
-| agarre principal | 9–12 | mf | Compás 12: Fill A `4 &` → B |
-| singles y redobles | 13–16 | f | Compás 16: Variación B `& de 3` |
-| dobles | 17–20 | f | Groove · prepara OUTRO |
+| A · primera mitad | 5–8 | mf | Groove |
+| A · segunda mitad | 9–12 | mf | Compás 12: Fill A `4 &` → B |
+| B · primera mitad | 13–16 | f | Compás 16: Variación B `& de 3` |
+| B · segunda mitad | 17–20 | f | Groove · prepara OUTRO |
 | OUTRO | 21–24 | mp | Groove sostenible · final |
 
 ## Modo interpretación
