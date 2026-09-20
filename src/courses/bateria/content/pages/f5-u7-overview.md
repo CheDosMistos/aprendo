@@ -41,6 +41,12 @@ En esta unidad distinguimos:
 - **DECISIÓN CURRICULAR:** usar esos contrastes para estudiar espacio, offbeat, textura y recuperación;
 - **EJERCICIO ORIGINAL:** toda partitura Aprendo es un modelo pedagógico propio, nunca una transcripción atribuida a una grabación histórica.
 
+## Regla longitudinal
+
+La ventana reggae sirve para estudiar espacio, función y textura; **no convierte offbeat, one-drop y steppers en tres deberes de mantenimiento**. Durante la unidad, el modelo completo o la tarea musical elegida manda y los componentes se aíslan sólo cuando revelan un cuello de botella.
+
+Después, este vocabulario reaparece cuando una escucha, una pieza o una pregunta de transferencia lo necesite. Si hace falta un correctivo aislado, **sustituye una tarea secundaria** y vuelve pronto al contexto completo para comprobar si la corrección transfirió.
+
 ## Qué no haremos
 
 - no reduciremos reggae a “poner bombo y caja en un sitio”;

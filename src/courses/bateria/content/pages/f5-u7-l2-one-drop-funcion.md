@@ -46,7 +46,7 @@ El modelo conserva una referencia sencilla de hi-hat y concentra bombo + caja en
 - bombo y caja deben sonar como una decisión conjunta, no como dos accidentes;
 - el hi-hat es una referencia didáctica simple: las articulaciones reales pueden variar mucho.
 
-## independencia avanzada contextual
+## Independencia contextual
 
 Mantén la capa de referencia y cambia una sola cosa: durante cuatro compases, deja el bombo/caja en 3; durante cuatro, toca sólo la capa de referencia. Vuelve sin perder el compás.
 
