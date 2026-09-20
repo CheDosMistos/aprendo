@@ -71,7 +71,7 @@ Después recompón los dos compases pronto.
 
 ## Tempo
 
-El MusicXML usa 120 BPM como referencia técnica de reproducción. Ajusta el tempo real para poder observar entrada, duración y retorno.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Ajusta el tempo real para poder observar entrada, duración y retorno.
 
 **No existe BPM de aprobado.**
 
