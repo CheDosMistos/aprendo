@@ -39,7 +39,7 @@ Un principio puede conservarse mientras cambian superficie, orquestación, densi
 
 ## Rasgo idiomático: lo que no conviene borrar por accidente
 
-Un estilo no se reduce a un groove aislado. Para esta esta unidad se observarán, según el caso:
+Un estilo no se reduce a un groove aislado. Para esta unidad se observarán, según el caso:
 
 - organización métrica y subdivisión macroscópica;
 - función de las voces del kit;
