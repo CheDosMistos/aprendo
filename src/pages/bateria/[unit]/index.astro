@@ -4,6 +4,7 @@ import CourseArticleLayout from '@courses/bateria/components/CourseArticleLayout
 import Phase1LongitudinalPractice from '@courses/bateria/components/Phase1LongitudinalPractice.astro';
 import Phase2LongitudinalPractice from '@courses/bateria/components/Phase2LongitudinalPractice.astro';
 import Phase3LongitudinalPractice from '@courses/bateria/components/Phase3LongitudinalPractice.astro';
+import Phase4LongitudinalPractice from '@courses/bateria/components/Phase4LongitudinalPractice.astro';
 import {
   getBateriaContent,
   routeFor,
@@ -39,6 +40,7 @@ const unitLabel = `Fase ${entry.data.phase} · Unidad ${entry.data.unit}`;
     {entry.data.phase === 1 && <Phase1LongitudinalPractice unit={entry.data.unit} />}
     {entry.data.phase === 2 && <Phase2LongitudinalPractice unit={entry.data.unit} />}
     {entry.data.phase === 3 && <Phase3LongitudinalPractice unit={entry.data.unit} />}
+    {entry.data.phase === 4 && <Phase4LongitudinalPractice unit={entry.data.unit} />}
     <section class="session-list" aria-labelledby="session-list-title">
       <h2 id="session-list-title">Sesiones</h2>
     <div class="session-grid">
