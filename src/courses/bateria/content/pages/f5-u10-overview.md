@@ -49,6 +49,12 @@ Y además:
 
 Trabajaremos **un `7/8` preparado** y una **agrupación `3+3+2` dentro de `4/4`**. No se pretende demostrar dominio de progressive ni fusion; se pretende transferir habilidades ya conocidas a dos marcos que exigen reorganizar la referencia.
 
+## Regla longitudinal
+
+El objetivo no es conservar después un ejercicio de `7/8` y otro de `3+3+2` como dos deberes permanentes. En cada sesión manda la **pregunta de transferencia**: métrica, agrupación, textura, fill o retorno.
+
+Si una variable concreta falla, aísla sólo esa dimensión durante un correctivo breve, haz que el correctivo **sustituya una tarea secundaria** y vuelve pronto al groove o a la frase completa. Este vocabulario reaparece más adelante cuando una pieza, una composición o una pregunta rítmica lo necesite.
+
 ## Ruta
 
 1. **Lección 1 — Métrica ≠ agrupación:** leer y sentir la diferencia entre `4/4 (3+3+2)` y `7/8 (2+2+3)`.
