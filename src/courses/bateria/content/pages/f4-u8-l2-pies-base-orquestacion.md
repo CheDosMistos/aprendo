@@ -68,7 +68,7 @@ Aislar una coincidencia es un **correctivo**, no la nueva forma del ejercicio.
 
 ## Tempo
 
-El archivo usa 120 BPM como referencia técnica. Ajusta el tempo real hasta poder escuchar y observar todas las capas.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Ajusta el tempo real hasta poder escuchar y observar todas las capas con calidad.
 
 **No existe BPM de aprobado.**
 

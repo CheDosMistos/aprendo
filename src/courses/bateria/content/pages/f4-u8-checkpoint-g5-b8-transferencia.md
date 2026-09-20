@@ -75,7 +75,7 @@ Debe poder observarse razonablemente que:
 ## Decisión
 
 - **AVANZA:** improvisación restringida MÍNIMO y la transferencia orquestación de rudimentos están suficientemente disponibles.
-- **AVANZA CON CORRECTIVO:** identidad/pulso se conservan, pero una transición o el balance con pies requiere mantenimiento.
+- **AVANZA CON CORRECTIVO:** identidad y pulso se conservan, pero una transición o el balance con pies necesita un correctivo breve. Ese trabajo sustituye una tarea secundaria y termina volviendo a la orquestación completa; no crea una rutina adicional.
 - **REPITE EL BLOQUE ESPECÍFICO:** la orquestación todavía borra identidad o rompe sistemáticamente la referencia; no es necesario repetir toda esta unidad.
 
 La siguiente unidad cambia de función: **Unidad 9 — fills, retorno al groove y primera capa de independencia**.

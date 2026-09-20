@@ -31,13 +31,14 @@ test('F4 U8 has overview, four lessons and checkpoint in order', async () => {
   assert.match(fm(await page('checkpoint')), /^contentId:\s*bat-f4-u8-check$/m);
 });
 
-test('overview makes B8 G5 dominant and keeps H6 H7 outside U8', async () => {
+test('overview makes orchestration dominant and keeps fills and independence outside U8', async () => {
   const overview = plain(await page('overview'));
-  assert.match(overview, /Novedad dominante: B8 \/ G5/i);
+  assert.match(overview, /Novedad dominante: orquestación de rudimentos \/ improvisación restringida/i);
   assert.match(overview, /Una frase conocida debe seguir siendo reconocible/i);
   assert.match(overview, /bombo en 1 y 3/i);
   assert.match(overview, /chick de hi-hat de pie en 2 y 4/i);
-  assert.match(overview, /no certifica B8 COMPETENTE, G5 COMPETENTE, H6 ni H7/i);
+  assert.match(overview, /no certifica orquestación de rudimentos COMPETENTE, improvisación restringida COMPETENTE, fills ni independencia avanzada/i);
+  assert.match(overview, /La orquestación es ahora la tarea principal/i);
   assert.match(overview, /ACENTO ≠ SUPERFICIE/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
@@ -72,7 +73,7 @@ test('L3 requires a musical reason and preserves accent-surface distinction', as
   assert.match(l3, /f4-u2-l3-accent-timbre\.musicxml/);
   assert.match(l3, /f4-u2-l4-three-surfaces\.musicxml/);
   assert.match(l3, /TIMBRE \/ CLARIDAD \/ MOVIMIENTO \/ DINÁMICA \/ FUNCIÓN \/ COSTE FÍSICO/i);
-  assert.match(l3, /Cambiar sticking deliberadamente es una decisión de B8/i);
+  assert.match(l3, /Cambiar sticking deliberadamente es una decisión de orquestación/i);
   assert.match(l3, /un único acento/i);
   assert.match(l3, /No hace falta crear un nuevo MusicXML/i);
 });
@@ -95,17 +96,18 @@ test('L4 transfers a real previous personal motif without inventing its score an
   assert.doesNotMatch(l4, /data-notation-score/);
 });
 
-test('checkpoint certifies G5 minimum and transfer evidence without H6 H7', async () => {
+test('checkpoint certifies restricted improvisation minimum and transfer evidence without fills or independence', async () => {
   const cp = plain(await page('checkpoint'));
-  assert.match(cp, /G5 MÍNIMO/i);
+  assert.match(cp, /improvisación restringida MÍNIMO/i);
   assert.match(cp, /Distribuye una frase conocida por superficies/i);
-  assert.match(cp, /B8 en transferencia al kit/i);
+  assert.match(cp, /orquestación de rudimentos en transferencia al kit/i);
   assert.match(cp, /f4-u2-l4-three-surfaces\.musicxml/);
   assert.match(cp, /f4-u8-l2-orchestration-feet\.musicxml/);
-  assert.match(cp, /B8 COMPETENTE\/FUNCIONAL global/i);
-  assert.match(cp, /G5 COMPETENTE\/FUNCIONAL/i);
-  assert.match(cp, /H6 — fills/i);
-  assert.match(cp, /H7 — independencia/i);
+  assert.match(cp, /orquestación de rudimentos COMPETENTE\/FUNCIONAL global/i);
+  assert.match(cp, /improvisación restringida COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /fills/i);
+  assert.match(cp, /independencia/i);
+  assert.match(cp, /no crea una rutina adicional/i);
   assert.match(cp, /No existe BPM de aprobado/i);
 });
 
@@ -137,7 +139,7 @@ test('U8 score preserves U2 hand identity and adds the known two-foot base', asy
 
 test('U7 remains H5-minimum-only when U8 adds orchestration', async () => {
   const u7 = plain(await readFile(path.join(pagesRoot, 'f4-u7-checkpoint-h5-minimo.md'), 'utf8'));
-  assert.match(u7, /H5 — COMPETENTE\/FUNCIONAL/i);
-  assert.match(u7, /H7 — independencia/i);
-  assert.match(u7, /B8\/G5 — orquestación focal de U8/i);
+  assert.match(u7, /groove y variaciones en nivel COMPETENTE\/FUNCIONAL/i);
+  assert.match(u7, /independencia avanzada/i);
+  assert.match(u7, /orquestación focal de rudimentos de Unidad 8/i);
 });
