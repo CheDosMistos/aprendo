@@ -9,7 +9,7 @@ const names=[
 ];
 const docs=names.map(n=>readFileSync(`${base}/${n}`,'utf8'));
 
-test('Fase 6 U5 publica overview, cuatro lecciones y checkpoint',()=>{for(const d of docs){assert.match(d,/phase: 6\nunit: 5\nunitSlug: fase-6-unidad-5/);assert.match(d,/published: true/);}assert.match(docs[0],/4 lecciones \+ checkpoint/);});
+test('Fase 6 U5 publica overview, cuatro lecciones y checkpoint',()=>{for(const d of docs){assert.match(d,/phase: 6\nunit: 5\nunitSlug: fase-6-unidad-5/);assert.match(d,/published: true/);}assert.match(docs[0],/4 lecciones \+ evaluación/);});
 
 test('U5 entrena selección bajo restricciones y revisión audible',()=>{assert.match(docs[0],/VOCABULARIO CONOCIDO → RESTRICCIÓN MUSICAL → ELECCIÓN → VARIACIÓN → ESCUCHA → AJUSTE/);assert.match(docs[1],/qué debe permanecer estable/i);assert.match(docs[4],/INTENCIÓN → TOMA → ESCUCHA → DIAGNÓSTICO → UNA REVISIÓN → RETEST/);assert.match(docs[5],/segunda toma/i);});
 
@@ -17,4 +17,4 @@ test('U5 mantiene laboratorios estilísticos como contexto, no como certificaci�
 
 test('U5 respeta copyright y atribución',()=>{assert.match(docs[0],/no reproduce ejercicios de \*Future Sounds\*/i);assert.match(docs[2],/No se transcribe aquí ninguna parte protegida/i);assert.match(docs[3],/No reproduce, reconstruye ni adapta sus ejercicios/i);for(const d of docs.slice(1,5)){if(/EJERCICIO ORIGINAL/.test(d))assert.match(d,/EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);}});
 
-test('U5 preserva fronteras de U6 U7 U8 Fase 7 e Hito 7',()=>{assert.match(docs[0],/interacción interpersonal explícita de U6/);assert.match(docs[0],/transferencia entre estilos.*U7/i);assert.match(docs[0],/feel\/microtiming de U8/);assert.match(docs[5],/polirritmia profunda, polimetría o modulación métrica de Fase 7/);assert.match(docs[5],/Hito 7/);assert.match(docs[5],/No existe BPM de aprobado/);});
+test('U5 preserva fronteras de U6 U7 U8 Fase 7 e Hito 7',()=>{assert.match(docs[0],/interacción interpersonal explícita de Unidad 6/);assert.match(docs[0],/transferencia entre estilos.*Unidad 7/i);assert.match(docs[0],/feel\/microtiming de Unidad 8/);assert.match(docs[5],/polirritmia profunda, polimetría o modulación métrica de Fase 7/);assert.match(docs[5],/Hito 7/);assert.match(docs[5],/No existe BPM de aprobado/);assert.match(docs[0],/no se convierte en un bloque separado/i);assert.match(docs[5],/sustituya una tarea secundaria/i);});

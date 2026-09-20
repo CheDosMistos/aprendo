@@ -86,6 +86,12 @@ Improvisa o varía material dentro de una forma corta conservando pulso, intenci
 - no declara alcanzado el Hito 7;
 - no usa un BPM universal como criterio de aprobación.
 
+## Cómo seguirá vivo este trabajo
+
+La improvisación con restricciones no se convierte en un bloque separado que debas mantener por obligación. Sus decisiones de espacio, densidad, articulación y retorno deben reaparecer dentro de repertorio, interacción o proyectos cuando la música las necesite.
+
+Si una decisión concreta se vuelve frágil, aísla sólo esa variable durante un correctivo breve. Ese trabajo **sustituye una tarea secundaria** y después vuelve a una forma musical completa para comprobar si la revisión mejoró la función.
+
 ## Práctica estándar
 
 Referencia: **25–30 min, 3–4 días por semana**.

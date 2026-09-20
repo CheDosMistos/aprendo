@@ -87,6 +87,12 @@ La evidencia es especialmente sólida cuando además:
 
 Una sola tarea no certifica dominio estilístico general.
 
+## Después de esta unidad
+
+No programes «improvisación» como otro deber diario separado del repertorio. Recupera este proceso cuando una pieza o proyecto necesite elegir y variar material sin perder forma e intención.
+
+Si una decisión falla de manera localizada, haz que el correctivo **sustituya una tarea secundaria**, cambia una sola variable y vuelve después al contexto musical.
+
 ## AVANZADO / AMPLIACIÓN
 
 - repite la evaluación con el otro laboratorio manteniendo el mismo proceso de decisión;
@@ -107,6 +113,6 @@ Esta evaluación **NO certifica**:
 - dominio de *Future Sounds* o *The Art of Bop Drumming*;
 - Hito 7.
 
-> **SI PUEDES TOCAR LA IDEA PERO NO PUEDES EXPLICAR POR QUÉ ENTRA, QUÉ CONSERVA Y QUÉ CAMBIARÍAS AL ESCUCHARLA, esta unidad TODAVÍA NO ESTÁ CERRADA.**
+> **SI PUEDES TOCAR LA IDEA PERO NO PUEDES EXPLICAR POR QUÉ ENTRA, QUÉ CONSERVA Y QUÉ CAMBIARÍAS AL ESCUCHARLA, ESTA UNIDAD TODAVÍA NO ESTÁ CERRADA.**
 
 **No existe BPM de aprobado.**
