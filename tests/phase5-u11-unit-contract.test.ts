@@ -38,8 +38,6 @@ test('overview defines original Piece C and hybrid-learning boundaries', async (
   assert.match(t, /sustituya una tarea secundaria/i);
   assert.match(t, /TIEMPO → FORMA → ENTRADAS → GROOVE\/FEEL → DINÁMICA → FIGURES\/FILLS → DETALLE/i);
   assert.match(t, /No existe BPM de aprobado/i);
-  assert.match(t, /no crea mantenimiento paralelo/i);
-  assert.match(t, /no necesita convertirse en una pieza de práctica diaria/i);
 });
 
 test('L1 listens first, embeds the original formal reference and preserves the 32-bar map', async () => {
@@ -84,6 +82,8 @@ test('unit evaluation certifies functional repertoire learning but not global co
   assert.match(t, /interpretación de canciones completas COMPETENTE\/FUNCIONAL global en varias piezas/i);
   assert.match(t, /Hito 6/i);
   assert.match(t, /No existe BPM de aprobado/i);
+  assert.match(t, /no crea mantenimiento paralelo/i);
+  assert.match(t, /no necesita convertirse en una pieza de práctica diaria/i);
 });
 
 test('U11 Piece C reference is original, five-line, 120 BPM and exactly 32 complete 4/4 measures', async () => {
