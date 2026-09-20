@@ -117,4 +117,10 @@ Debe observarse razonablemente que:
 - **AVANZA CON CORRECTIVO:** el razonamiento es funcional, pero la comparación A/B necesita mejor control de condiciones.
 - **REPITE LA PRUEBA ESPECÍFICA:** no puede aislar qué cambió porque modifica varias variables a la vez.
 
+## Después de esta unidad
+
+No repitas una comparación A/B, una afinación o una configuración de click por obligación en cada sesión. En las unidades siguientes, esta capacidad reaparece dentro del repertorio y de las tareas estilísticas cuando exista una pregunta concreta de sonido, balance, registro o monitorización.
+
+Si la tarea musical ya ofrece evidencia suficiente de un sonido funcional, no hace falta recertificarlo por separado. Si aparece un problema, aísla sólo la variable relevante, haz que el correctivo **sustituya una tarea secundaria** y vuelve después al contexto musical completo.
+
 Unidad 7 cambiará el foco a **espacio, offbeat y control de textura**, con reggae como ventana estilística y verificación idiomática específica antes de desarrollar sus lecciones.

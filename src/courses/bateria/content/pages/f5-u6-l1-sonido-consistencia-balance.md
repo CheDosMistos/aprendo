@@ -81,7 +81,7 @@ Escucha una vez sin tocar y anota sólo **1–2 problemas prioritarios**.
 
 NIOSH señala que la sobreexposición musical depende del **nivel y la duración**. Con batería acústica, no subas el volumen de monitores o auriculares sólo para “ganarle” al kit. Reduce exposición, introduce pausas silenciosas y usa protección adecuada cuando proceda.
 
-Fuente: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/docs/wp-solutions/2015-184/default.html).
+Fuente: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/publications/numbered/2015-184.html).
 
 ## MÍNIMO PARA AVANZAR
 
