@@ -69,6 +69,10 @@ Sólo si ya tienes funcional una de esas métricas, lleva el mismo principio a u
 
 La tarea transfiere `fill breve → retorno al 1`; **no enseña 5/4 o 7/8 desde cero**. No requiere MusicXML nuevo y no forma parte de fills MÍNIMO ni del Hito 5.
 
+## Regla longitudinal
+
+El fill se practica **dentro de su función de transición**: groove → fill → retorno. Groove, orquestación y pedales reaparecen porque la tarea los necesita, no como una lista adicional de mantenimiento. Si una unión concreta falla, aísla esa unión, sustituye una tarea secundaria y vuelve pronto a la frase completa.
+
 ## Qué se evalúa
 
 `ENTRADA / DURACIÓN / PULSO / SUBDIVISIÓN / FORMA / SUPERFICIE / ATERRIZAJE AL 1 / CONTINUIDAD / RECUPERACIÓN / RELAJACIÓN`
