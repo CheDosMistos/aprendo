@@ -51,7 +51,7 @@ test('L2 uses observable ergonomics instead of universal geometry', async () => 
   assert.match(l2, /Un ajuste sólo cuenta como mejora si mejora la tarea/i);
   assert.match(l2, /No se fijan centímetros, grados de rodilla ni alturas universales/i);
   assert.match(l2, /PROBLEMA → CAMBIO → EFECTO/);
-  assert.match(l2, /Heel-up, heel-down y otras técnicas pertenecen a U3\/U4/i);
+  assert.match(l2, /Heel-up, heel-down y otras técnicas pertenecen a las Unidades 3 y 4/i);
   assert.match(l2, /cambia una sola variable de montaje/i);
 });
 

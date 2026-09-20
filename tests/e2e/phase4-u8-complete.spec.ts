@@ -90,7 +90,7 @@ test('F4 U8 L4 transfers a personal motif without inventing a fixed score', asyn
   await expect(article.getByText(/tu motivo es el material fuente/i)).toBeVisible();
   await expect(article.getByText(/Inventar uno nuevo y presentarlo como tu composición anterior rompería la continuidad/i)).toBeVisible();
   await expect(article.getByText(/VERSIÓN BASE → VERSIÓN ORQUESTADA → VERSIÓN BASE/i)).toBeVisible();
-  await expect(article.getByText(/esta unidad no la certifica como fill fills/i)).toBeVisible();
+  await expect(article.getByText(/esta unidad no la certifica como fill/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });
 
