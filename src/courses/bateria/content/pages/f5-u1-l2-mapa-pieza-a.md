@@ -75,7 +75,7 @@ No pares automáticamente para volver al compás 1.
 
 ## Tempo
 
-El score usa 120 BPM únicamente como metadato técnico exigido por el contrato actual del curso. Ajusta el tempo real para disponer del margen necesario para anticipar la forma.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Ajusta el tempo real para disponer del margen necesario para anticipar la forma.
 
 **No existe BPM de aprobado.**
 
