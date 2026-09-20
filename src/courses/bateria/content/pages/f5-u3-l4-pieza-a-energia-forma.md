@@ -30,10 +30,10 @@ Pieza A sigue siendo material original de Aprendo. El score es un **esqueleto fo
 | Sección | Compases | Dinámica | Decisión esta unidad |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Versión sostenible; prepara A |
-| postura y relajación | 5–8 | mf | Backbeat CORE |
-| agarre principal | 9–12 | mf | Backbeat CORE + Fill A `4 &` → B |
-| singles y redobles | 13–16 | f | Más energía controlada + Variación B `& de 3` |
-| dobles | 17–20 | f | Mantén energía sin acelerar |
+| A · primera mitad | 5–8 | mf | Backbeat CORE |
+| A · segunda mitad | 9–12 | mf | Backbeat CORE + Fill A `4 &` → B |
+| B · primera mitad | 13–16 | f | Más energía controlada + Variación B `& de 3` |
+| B · segunda mitad | 17–20 | f | Mantén energía sin acelerar |
 | OUTRO | 21–24 | mp | Reduce energía y conserva forma |
 
 ## Toma por capas
