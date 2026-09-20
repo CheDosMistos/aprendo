@@ -17,7 +17,7 @@ published: true
 
 ## Novedad dominante: independencia que sirve a la música
 
-En Fase 5 ya apareció una primera independencia contextual: mantener una capa sencilla mientras otra variaba. Esta unidad aumenta la separación funcional entre capas, pero sólo si la **la puerta de entrada de la fase** está abierta.
+En Fase 5 ya apareció una primera independencia contextual: mantener una capa sencilla mientras otra variaba. Esta unidad aumenta la separación funcional entre capas, pero sólo si la **puerta de entrada de la fase** está abierta.
 
 La pregunta central es:
 
@@ -25,7 +25,7 @@ La pregunta central es:
 
 La complejidad mecánica no es el objetivo. Una coordinación difícil que no mejora groove, comping, textura, fraseo o repertorio no tiene prioridad automática.
 
-## la puerta de entrada de la fase — requisito antes de profundizar independencia avanzada
+## Puerta de entrada de la fase — requisito antes de profundizar independencia avanzada
 
 Antes de entrar en la ruta principal comprueba:
 
@@ -33,7 +33,7 @@ Antes de entrar en la ruta principal comprueba:
 - **subdivisión binaria y ternaria FUNCIONAL**;
 - un ostinato básico mantenido sin colapso de tiempo.
 
-Si puerta de entrada no está abierta, esta unidad ofrece una **ruta de consolidación**: estabilizar la capa base, reducir la voz variable y volver a comprobar. No se fuerza una capa avanzada por calendario.
+Si la puerta de entrada no está abierta, esta unidad ofrece una **ruta de consolidación**: estabilizar la capa base, reducir la voz variable y volver a comprobar. No se fuerza una capa avanzada por calendario.
 
 ## Recorrido de la unidad
 
@@ -73,6 +73,12 @@ Los ejercicios de esta unidad son originales del curso.
 - no abandona tiempo, sonido o relajación para mantener una combinación;
 - no exige un estilo concreto.
 
+## Cómo seguirá viva la independencia
+
+La independencia avanzada no se convierte en un sistema técnico permanente separado de la música. Cuando una combinación ya está disponible, debe reaparecer dentro de groove, comping, textura, interacción o repertorio cuando cumpla una función real.
+
+Si una capa concreta limita la tarea, aísla sólo ese cuello de botella durante un bloque breve. El correctivo **sustituye una tarea secundaria** y después vuelve al contexto musical completo para comprobar si la mejora transfirió.
+
 ## Práctica estándar
 
 Referencia: **25–30 min, 3–4 días por semana**.
@@ -86,7 +92,7 @@ Referencia: **25–30 min, 3–4 días por semana**.
 
 Al cerrar esta unidad debes poder:
 
-1. demostrar que puerta de entrada está abierta o identificar con precisión qué falta;
+1. demostrar que la puerta de entrada está abierta o identificar con precisión qué falta;
 2. mantener una capa funcional estable mientras otra varía;
 3. reducir complejidad sin perder la función musical;
 4. localizar qué capa causa el colapso;

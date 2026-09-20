@@ -17,9 +17,9 @@ published: true
 
 ## Objetivo
 
-Comprobar la **la puerta de entrada de la fase** y diagnosticar qué limita una tarea de independencia antes de añadir complejidad.
+Comprobar la **puerta de entrada de la fase** y diagnosticar qué limita una tarea de independencia antes de añadir complejidad.
 
-puerta de entrada exige:
+La puerta de entrada exige:
 
 - coordinación básica de cuatro extremidades FUNCIONAL;
 - subdivisión binaria y ternaria FUNCIONAL;
@@ -94,7 +94,7 @@ Registra:
 
 `QUÉ FALLA PRIMERO → HIPÓTESIS → REDUCCIÓN → RESULTADO`
 
-## Ruta si puerta de entrada no está abierta
+## Ruta si la puerta de entrada no está abierta
 
 No avances por fuerza. Trabaja temporalmente:
 
@@ -104,7 +104,7 @@ No avances por fuerza. Trabaja temporalmente:
 - conteo/canto previo;
 - recombinación inmediata.
 
-Después vuelve a comprobar puerta de entrada.
+Después vuelve a comprobar la puerta de entrada.
 
 ## MÍNIMO PARA AVANZAR
 
@@ -113,6 +113,6 @@ Después vuelve a comprobar puerta de entrada.
 - puedes identificar el primer punto de ruptura al combinarlas;
 - eliges una reducción relacionada con el problema;
 - no llamas «falta de independencia» a cualquier error inespecífico;
-- puerta de entrada está abierta para la ruta principal o sigues conscientemente la ruta de consolidación.
+- la puerta de entrada está abierta para la ruta principal o sigues conscientemente la ruta de consolidación.
 
 **No existe BPM de aprobado.**
