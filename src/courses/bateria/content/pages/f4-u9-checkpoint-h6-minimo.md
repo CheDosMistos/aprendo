@@ -94,7 +94,7 @@ Pueden probarse como AMPLIACIÓN sólo si esas métricas ya están funcionales. 
 ## Decisión
 
 - **AVANZA:** el fill elegido entra, dura y devuelve al groove con pulso/forma suficientemente reconocibles.
-- **AVANZA CON CORRECTIVO:** el retorno es funcional, pero una transición o superficie necesita mantenimiento.
+- **AVANZA CON CORRECTIVO:** el retorno es utilizable para seguir, pero una transición o superficie necesita un correctivo breve. Ese correctivo sustituye una tarea secundaria y termina retestando `groove → fill → 1 → groove`; no crea mantenimiento paralelo.
 - **REPITE EL BLOQUE ESPECÍFICO:** el fill desplaza sistemáticamente el 1 o hace desaparecer la referencia; no es necesario repetir toda esta unidad.
 
 La siguiente unidad integra configuración, pedales, coordinación, groove, fills y transferencia al kit dentro del **Hito 5**.

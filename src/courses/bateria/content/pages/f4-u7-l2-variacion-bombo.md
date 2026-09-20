@@ -57,7 +57,7 @@ B está completamente escrito y predeterminado. No mantienes un ostinato mientra
 
 ## Tempo
 
-El MusicXML usa 120 BPM como referencia técnica del curso. El tempo real de práctica se ajusta en la interfaz. **No existe BPM de aprobado.**
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Ajusta el tempo real de práctica a una condición de calidad. **No existe BPM de aprobado.**
 
 ## MÍNIMO PARA AVANZAR
 

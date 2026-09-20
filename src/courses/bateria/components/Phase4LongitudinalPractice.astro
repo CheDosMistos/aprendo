@@ -1,0 +1,73 @@
+---
+interface Props { unit: number; }
+const { unit } = Astro.props;
+const focus =
+  unit <= 2 ? 'ergonomía, superficies y transferencia manual'
+  : unit <= 4 ? 'pedales y equilibrio'
+  : unit <= 7 ? 'coordinación, groove, continuidad y variación'
+  : 'orquestación, fills e integración';
+---
+
+<section class="longitudinal-practice" data-phase4-longitudinal data-unit={unit} aria-labelledby="phase4-longitudinal-title">
+  <p class="eyebrow">Práctica longitudinal · Fase 4</p>
+  <h2 id="phase4-longitudinal-title">Transfiere al kit sin convertir cada capacidad en un bloque nuevo</h2>
+  <p>
+    El foco actual es <strong>{focus}</strong>. La referencia sigue siendo <strong>25–30 min, 3–4 días por semana</strong>.
+    Esto <strong>no añade otro bloque de práctica</strong>: el trabajo anterior reaparece dentro de la tarea de kit cuando aporta información útil.
+  </p>
+
+  <div class="longitudinal-grid">
+    <article>
+      <h3>La tarea de kit manda</h3>
+      <p>
+        No mantengas por separado manos, bombo, hi-hat, coordinación, lectura, oído y creatividad como siete deberes diarios.
+        Si la tarea actual ya exige una capacidad anterior, esa ejecución cuenta como evidencia de esa capacidad.
+      </p>
+    </article>
+    <article>
+      <h3>Recupera con una pregunta concreta</h3>
+      <p>
+        Haz volver material anterior cuando limita la tarea, necesita una comprobación posterior sin ensayo inmediato o permite una transferencia real.
+        Si no hay una pregunta diagnóstica o musical útil, no programes el repaso por obligación.
+      </p>
+    </article>
+    <article>
+      <h3>Transfiere antes de aislar</h3>
+      <p>
+        Una frase de pad puede reaparecer en caja, otras superficies, con una nota sustituida por bombo, bajo un pie izquierdo sencillo o dentro de un groove.
+        Aísla una extremidad o transición sólo cuando el conjunto revela un cuello de botella y <strong>vuelve pronto al contexto completo</strong>.
+      </p>
+    </article>
+    <article>
+      <h3>La carga también decide la sesión</h3>
+      <p>
+        La llegada del kit aumenta alcance, coordinación, trabajo de pies y exposición sonora. Si aparece fatiga que degrada claramente control, sonido,
+        equilibrio o relajación, reduce novedad o volumen. Dolor persistente, hormigueo, entumecimiento o pérdida de fuerza/control no se entrenan atravesándolos.
+      </p>
+    </article>
+  </div>
+
+  <h3>Cómo encajarlo en 3–4 sesiones</h3>
+  <p>
+    Empieza por la prioridad dominante de la unidad. Recupera primero cuando quieras comprobar disponibilidad real; corrige una sola variable si aparece un cuello
+    de botella; recompón el patrón o frase; y decide al final qué merece reaparecer. Una capacidad estable sale de prioridad y vuelve sólo por una razón musical,
+    diagnóstica o de recuperación.
+  </p>
+
+  <div class="rules">
+    <p><strong>Sustituir, no añadir.</strong> Un correctivo o una recuperación ocupa tiempo que habría ido a trabajo secundario.</p>
+    <p><strong>Tempo de calidad.</strong> El tempo describe la condición; no define por sí solo el nivel.</p>
+    <p><strong>Continuidad.</strong> En groove, variaciones y fills, aprende también a conservar o recuperar la referencia tras un error local.</p>
+    <p><strong>Kit ≠ abandonar pad.</strong> El pad puede seguir siendo útil para aislar una dificultad manual, pero no debe competir automáticamente con la tarea musical del kit.</p>
+    <p><strong>Escucha y carga.</strong> La sostenibilidad física y auditiva tiene prioridad sobre completar el plan del día.</p>
+  </div>
+</section>
+
+<style>
+.longitudinal-practice{margin:2rem 0;padding:1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+.eyebrow{margin:0 0 .35rem;color:var(--muted);font-size:.78rem;font-weight:750;letter-spacing:.06em;text-transform:uppercase}
+.longitudinal-practice h2{margin:.25rem 0 1rem}.longitudinal-practice h3{margin:1rem 0 .4rem}
+.longitudinal-practice p{line-height:1.6}.longitudinal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:.8rem}
+.longitudinal-grid article,.rules{padding:1rem;border:1px solid var(--border);border-radius:var(--radius)}
+.rules p{margin:.45rem 0}
+</style>

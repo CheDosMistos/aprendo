@@ -116,8 +116,12 @@ Cerrar Hito 5 no declara por sí solo:
 ## Decisión
 
 - **HITO 5 CERRADO:** groove, variación, fill, retorno, pulso y forma son suficientemente observables en integración; los errores locales son compatibles con continuidad/recuperación.
-- **AVANZA CON CORRECTIVO:** la forma se conserva, pero un componente concreto necesita mantenimiento paralelo.
+- **AVANZA CON CORRECTIVO:** la forma se conserva, pero un componente concreto necesita un correctivo breve. Ese correctivo sustituye una tarea secundaria y después se retesta dentro de la forma integrada; no crea mantenimiento paralelo.
 - **REPITE EL BLOQUE ESPECÍFICO:** una unión concreta hace desaparecer sistemáticamente pulso o forma; no es necesario repetir toda Fase 4.
+
+## Evidencia integrada
+
+Una ejecución del Hito puede aportar a la vez evidencia sobre pedales, coordinación, groove, variación, fill, retorno y transferencia. Eso **no eleva automáticamente el nivel global** de cada capacidad, pero evita repetir pruebas separadas sin una pregunta concreta. Sólo se aísla una capacidad cuando la ejecución integrada no permite observarla o cuando limita claramente la tarea.
 
 ## Cierre de Fase 4
 

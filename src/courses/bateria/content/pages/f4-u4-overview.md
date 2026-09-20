@@ -64,6 +64,12 @@ Dos manos en una tarea elemental ya conocida + pie izquierdo en negras.
 ### Evaluación — Hi-hat de pie disponible
 Demuestra el mínimo requerido de hi-hat de pie sin exigir bombo, groove, coordinación de cuatro extremidades o independencia avanzada.
 
+## Cómo seguirá vivo el hi-hat de pie
+
+Al terminar esta unidad, el pie izquierdo no se convierte en un segundo bloque técnico diario junto al bombo. En las unidades siguientes reaparece **dentro de groove, coordinación y continuidad** cuando la tarea lo necesita.
+
+Si cierre, tiempo, presión o equilibrio limitan el patrón completo, aísla brevemente el pie izquierdo. Ese correctivo **sustituye una tarea secundaria; no se añade automáticamente**. Después vuelve pronto al contexto completo para comprobar si la corrección transfirió.
+
 ## Frontera
 
 Una primera tarea de tres extremidades puede aparecer en Lección 4, pero **no certifica coordinación básica de cuatro extremidades**: exposición no equivale a alcanzar el MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades. Unidad 6 seguirá siendo el foco de coordinación básica de cuatro extremidades.

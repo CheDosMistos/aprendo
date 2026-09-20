@@ -59,7 +59,7 @@ No hace falta buscar una toma “perfecta”. Busca una evidencia útil.
 
 ## Tempo
 
-El MusicXML usa 120 BPM como referencia técnica. El tempo real se ajusta a una condición en la que la variación siga siendo observable.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. El tempo real se ajusta a una condición en la que la variación siga siendo observable.
 
 **No existe BPM de aprobado.**
 

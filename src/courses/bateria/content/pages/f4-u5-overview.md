@@ -52,6 +52,10 @@ AMPLIACIÓN: ride + caja + bombo + chick de hi-hat de pie en 2 y 4.
 ### Evaluación — Primer groove estable
 Demuestras el groove base durante una frase breve, con diagnóstico y recuperación.
 
+## Regla longitudinal
+
+Desde aquí, bombo, hi-hat y manos dejan de ser tres deberes separados: **el groove es la tarea principal**. Si una capa concreta falla, se aísla sólo para resolver ese cuello de botella y se vuelve pronto al groove completo. El correctivo sustituye trabajo secundario; no se suma automáticamente a la sesión.
+
 ## Qué se evalúa
 
 `PULSO / SUBDIVISIÓN / CONTINUIDAD / BALANCE / SONIDO / RECUPERACIÓN / DIAGNÓSTICO`

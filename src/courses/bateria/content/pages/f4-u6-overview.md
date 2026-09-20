@@ -51,6 +51,10 @@ Recuperar ambos patrones y cambiar por bloques, no mediante variación libre.
 ### Evaluación — coordinación básica de cuatro extremidades MÍNIMO
 Ejecutar A y B por separado conservando pulso, recuperación y diagnóstico.
 
+## Regla longitudinal
+
+Los dos patrones son tareas completas de coordinación. No añadas además rutinas obligatorias separadas de cada extremidad. Si una capa limita A o B, aísla el cuello de botella, corrígelo y **recompón las cuatro extremidades pronto**.
+
 ## Qué se evalúa
 
 `PULSO / SUBDIVISIÓN / CUATRO CAPAS / BALANCE / RECUPERACIÓN / DIAGNÓSTICO / TENSIÓN`

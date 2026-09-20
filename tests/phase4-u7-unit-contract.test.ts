@@ -37,7 +37,8 @@ test('overview makes H5 minimum explicit and keeps competent H5 H4 and H7 open',
   assert.match(overview, /Mantiene grooves básicos estables/i);
   assert.match(overview, /Variación B/i);
   assert.match(overview, /A–A–B–A/i);
-  assert.match(overview, /no certifica H5 COMPETENTE\/FUNCIONAL, H4 COMPETENTE\/FUNCIONAL ni H7/i);
+  assert.match(overview, /no certifica groove y variaciones COMPETENTE\/FUNCIONAL, coordinación básica de cuatro extremidades COMPETENTE\/FUNCIONAL ni independencia avanzada/i);
+  assert.match(overview, /El groove pasa a ser el contexto principal/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
 
@@ -58,8 +59,8 @@ test('L2 changes exactly one kick event and keeps H7 separate', async () => {
   assert.match(l2, /bombo: 1, 3 y & de 3/i);
   assert.match(l2, /pie izquierdo: chick en 2 y 4/i);
   assert.match(l2, /sólo se añade una nota de bombo en el & de 3/i);
-  assert.match(l2, /U7 no certifica H7/i);
-  assert.match(l2, /120 BPM como referencia técnica del curso/i);
+  assert.match(l2, /esta unidad no certifica independencia avanzada/i);
+  assert.match(l2, /120 BPM.*no es un objetivo ni una referencia de nivel/i);
 });
 
 test('L3 makes the variation formal and requires return to A', async () => {
@@ -88,13 +89,14 @@ test('checkpoint certifies H5 minimum only and preserves later-unit boundaries',
   assert.match(cp, /f4-u7-l2-kick-variation-b\.musicxml/);
   assert.match(cp, /f4-u7-l3-aaba-phrase\.musicxml/);
   assert.match(cp, /vuelves a A tras la variación/i);
-  assert.match(cp, /H5 — COMPETENTE\/FUNCIONAL/i);
-  assert.match(cp, /H4 — COMPETENTE\/FUNCIONAL global/i);
-  assert.match(cp, /H7 — independencia/i);
-  assert.match(cp, /H6 — fills/i);
-  assert.match(cp, /B8\/G5 — orquestación focal de U8/i);
+  assert.match(cp, /groove y variaciones en nivel COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /coordinación de cuatro extremidades en nivel COMPETENTE\/FUNCIONAL global/i);
+  assert.match(cp, /independencia avanzada/i);
+  assert.match(cp, /fills/i);
+  assert.match(cp, /orquestación focal de rudimentos de Unidad 8/i);
   assert.match(cp, /No existe BPM de aprobado/i);
   assert.match(cp, /La perfección no es requisito/i);
+  assert.match(cp, /no crea una rutina adicional permanente/i);
 });
 
 test('Variation B score is original, complete and adds one kick to Groove A', async () => {
@@ -137,6 +139,6 @@ test('AABA score has four complete measures, B only in measure 3, and return A i
 
 test('U6 remains H4-minimum-only after U7 adds H5 certification', async () => {
   const u6 = plain(await readFile(path.join(pagesRoot, 'f4-u6-checkpoint-h4-minimo.md'), 'utf8'));
-  assert.match(u6, /H5 — COMPETENTE\/FUNCIONAL/i);
-  assert.match(u6, /H7 — independencia/i);
+  assert.match(u6, /groove y variaciones en nivel COMPETENTE\/FUNCIONAL/i);
+  assert.match(u6, /independencia avanzada/i);
 });

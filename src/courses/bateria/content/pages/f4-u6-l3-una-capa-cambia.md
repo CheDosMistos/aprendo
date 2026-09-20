@@ -51,7 +51,7 @@ A y B están completamente escritos y predeterminados. No mantienes un ostinato 
 
 ## Tempo
 
-El MusicXML usa 120 BPM como referencia técnica del curso. El tempo real de práctica se ajusta en la interfaz a una condición en la que puedas observar las cuatro capas.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Ajusta el tempo real de práctica a una condición en la que puedas observar y coordinar las cuatro capas con calidad.
 
 No existe BPM de aprobado.
 

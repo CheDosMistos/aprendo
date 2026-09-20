@@ -37,7 +37,8 @@ test('overview makes H4 minimum explicit and separates it from H7', async () => 
   assert.match(overview, /Patrón A/i);
   assert.match(overview, /Patrón B/i);
   assert.match(overview, /Sólo cambia una capa/i);
-  assert.match(overview, /U6 no certifica H7/i);
+  assert.match(overview, /esta unidad no certifica independencia avanzada/i);
+  assert.match(overview, /No añadas además rutinas obligatorias separadas de cada extremidad/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
 
@@ -66,8 +67,8 @@ test('L3 changes only the left-foot layer and keeps H7 open', async () => {
   assert.match(l3, /bombo: 1 y 3/i);
   assert.match(l3, /pie izquierdo: chick en negras 1–2–3–4/i);
   assert.match(l3, /sólo cambia el pie izquierdo/i);
-  assert.match(l3, /U6 no certifica H7/i);
-  assert.match(l3, /120 BPM como referencia técnica del curso/i);
+  assert.match(l3, /esta unidad no certifica independencia avanzada/i);
+  assert.match(l3, /120 BPM.*no es un objetivo ni una referencia de nivel/i);
 });
 
 test('L4 tests retrieval and transfer by fixed blocks, not free variation', async () => {
@@ -77,7 +78,7 @@ test('L4 tests retrieval and transfer by fixed blocks, not free variation', asyn
   assert.match(l4, /no practiques inmediatamente el patrón que vas a probar/i);
   assert.match(l4, /Transferencia por bloques/i);
   assert.match(l4, /Alternar dos patrones fijos/i);
-  assert.match(l4, /No certifica H7/i);
+  assert.match(l4, /No certifica independencia avanzada/i);
 });
 
 test('checkpoint certifies H4 minimum but not competent H4 H5 or H7', async () => {
@@ -86,11 +87,12 @@ test('checkpoint certifies H4 minimum but not competent H4 H5 or H7', async () =
   assert.match(cp, /f4-u5-l4-four-limb-bridge-a\.musicxml/);
   assert.match(cp, /f4-u6-l3-four-limb-b\.musicxml/);
   assert.match(cp, /No es obligatorio ejecutar A→B sin pausa/i);
-  assert.match(cp, /H4 — COMPETENTE\/FUNCIONAL/i);
-  assert.match(cp, /H5 — COMPETENTE\/FUNCIONAL/i);
-  assert.match(cp, /H7 — independencia/i);
+  assert.match(cp, /coordinación de cuatro extremidades en nivel COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /groove y variaciones en nivel COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /independencia avanzada/i);
   assert.match(cp, /No existe BPM de aprobado/i);
   assert.match(cp, /La perfección no es requisito/i);
+  assert.match(cp, /No añadas por defecto una rutina extra de coordinación/i);
 });
 
 test('Pattern B score is original, reference-tempo compliant and metrically complete in three voices', async () => {
@@ -118,6 +120,6 @@ test('Pattern B score is original, reference-tempo compliant and metrically comp
 
 test('U5 checkpoint still does not certify H4 minimum after U6 is added', async () => {
   const u5 = plain(await readFile(path.join(pagesRoot, 'f4-u5-checkpoint-primer-groove-estable.md'), 'utf8'));
-  assert.match(u5, /no certifica H4 MÍNIMO/i);
-  assert.match(u5, /H5 — COMPETENTE\/FUNCIONAL/i);
+  assert.match(u5, /no certifica coordinación básica de cuatro extremidades MÍNIMO/i);
+  assert.match(u5, /COMPETENTE\/FUNCIONAL/i);
 });

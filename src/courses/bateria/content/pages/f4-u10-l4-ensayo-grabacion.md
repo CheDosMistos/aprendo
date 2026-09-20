@@ -86,7 +86,7 @@ El pedal hi-hat aparece en 2 y 4 durante los compases normales de Groove A. En e
 
 ## Tempo
 
-El MusicXML usa 120 BPM como referencia técnica. Ajusta la práctica a un tempo donde puedas integrar las funciones sin tensión innecesaria.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Ajusta la práctica a un tempo donde puedas integrar las funciones sin tensión innecesaria.
 
 **No existe BPM de aprobado.**
 

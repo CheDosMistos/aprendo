@@ -72,7 +72,7 @@ No cambies simultáneamente sticking, superficies y tempo.
 
 ## Tempo
 
-El archivo usa 120 BPM como referencia técnica. La práctica real debe ocurrir a un tempo donde puedas escuchar la subdivisión y anticipar el 1.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. La práctica real debe ocurrir a un tempo donde puedas escuchar la subdivisión y anticipar el 1.
 
 **No existe BPM de aprobado.**
 

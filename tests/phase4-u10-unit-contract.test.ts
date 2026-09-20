@@ -41,10 +41,11 @@ test('overview distinguishes the Phase 4 closure criterion from global Hito 5 an
   assert.match(overview, /criterio de cierre específico de Fase 4/i);
   assert.match(overview, /Hito global 5 — Transferencia al kit/i);
   assert.match(overview, /INTEGRAR NO ES HACERLO MÁS DIFÍCIL/i);
-  assert.match(overview, /configuración y escucha segura de U1/i);
-  assert.match(overview, /Variación B de U7/i);
-  assert.match(overview, /Fill A y retorno al 1 de U9/i);
-  assert.match(overview, /independencia H7/i);
+  assert.match(overview, /configuración y escucha segura de Unidad 1/i);
+  assert.match(overview, /Variación B de Unidad 7/i);
+  assert.match(overview, /Fill A y retorno al 1 de Unidad 9/i);
+  assert.match(overview, /independencia avanzada/i);
+  assert.match(overview, /No vuelvas a evaluar configuración, bombo, hi-hat, coordinación, groove y fills como seis bloques independientes/i);
   assert.match(overview, /5\/4 o 7\/8/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
@@ -59,7 +60,7 @@ test('L1 recovers three known components instead of reteaching the phase', async
   assert.equal((l1.match(/data-notation-score/g) ?? []).length, 3);
 });
 
-test('L2 isolates H5 before the fill is added', async () => {
+test('L2 isolates groove and variation before the fill is added', async () => {
   const l2 = plain(await page('l2'));
   assert.match(l2, /GROOVE → PEQUEÑA VARIACIÓN → GROOVE/i);
   assert.match(l2, /f4-u7-l3-aaba-phrase\.musicxml/);
@@ -68,7 +69,7 @@ test('L2 isolates H5 before the fill is added', async () => {
   assert.match(l2, /No existe BPM de aprobado/i);
 });
 
-test('L3 isolates H6 with the known one-beat fill', async () => {
+test('L3 isolates the known one-beat fill before integration', async () => {
   const l3 = plain(await page('l3'));
   assert.match(l3, /GROOVE → FILL → 1 → GROOVE/i);
   assert.match(l3, /f4-u9-l1-one-beat-fill-return\.musicxml/);
@@ -84,7 +85,7 @@ test('L4 integrates the exact known functions and uses recording for diagnosis',
   assert.match(l4, /bombo añadido en & de 3/i);
   assert.match(l4, /Fill A: groove en tiempos 1–3 y fill 4 &/i);
   assert.match(l4, /PULSO \/ SUBDIVISIÓN \/ GROOVE \/ VARIACIÓN \/ FILL \/ 1 \/ BALANCE \/ RECUPERACIÓN \/ TENSIÓN/i);
-  assert.match(l4, /El Hito 5 no es una prueba de independencia H7/i);
+  assert.match(l4, /El Hito 5 no es una prueba de independencia avanzada/i);
   assert.match(l4, /No existe BPM de aprobado/i);
 });
 
@@ -99,9 +100,11 @@ test('checkpoint preserves the Phase 4 closure criterion and global Hito 5 with 
   assert.match(cp, /no se exige mantener el pie izquierdo durante el fill/i);
   assert.match(cp, /explicas al menos un material previo/i);
   assert.match(cp, /grabación o evidencia equivalente/i);
-  assert.match(cp, /H4 COMPETENTE\/FUNCIONAL global/i);
-  assert.match(cp, /H5 COMPETENTE\/FUNCIONAL global/i);
-  assert.match(cp, /H6 COMPETENTE\/FUNCIONAL global/i);
+  assert.match(cp, /coordinación básica de cuatro extremidades COMPETENTE\/FUNCIONAL global/i);
+  assert.match(cp, /groove y variaciones COMPETENTE\/FUNCIONAL global/i);
+  assert.match(cp, /fills COMPETENTE\/FUNCIONAL global/i);
+  assert.match(cp, /no crea mantenimiento paralelo/i);
+  assert.match(cp, /Una ejecución del Hito puede aportar a la vez evidencia/i);
   assert.match(cp, /No existe BPM de aprobado/i);
 });
 
@@ -131,9 +134,9 @@ test('integrated Hito score is five complete measures with known layers and one 
   assert.match(xml, /<measure number="5">[\s\S]*?<lyric><text>1<\/text><\/lyric>/);
 });
 
-test('U9 checkpoint remains H6-minimum-only when U10 integrates Hito 5', async () => {
+test('U9 checkpoint remains fills-minimum-only when U10 integrates Hito 5', async () => {
   const u9 = plain(await readFile(path.join(pagesRoot, 'f4-u9-checkpoint-h6-minimo.md'), 'utf8'));
-  assert.match(u9, /H6 MÍNIMO/i);
-  assert.match(u9, /H6 COMPETENTE\/FUNCIONAL/i);
-  assert.match(u9, /U9 NO certifica H7/i);
+  assert.match(u9, /MÍNIMO PARA AVANZAR en fills/i);
+  assert.match(u9, /fills COMPETENTE\/FUNCIONAL/i);
+  assert.match(u9, /NO certifica independencia avanzada/i);
 });

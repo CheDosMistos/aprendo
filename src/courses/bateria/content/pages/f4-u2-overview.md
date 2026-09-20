@@ -62,6 +62,12 @@ Eliges qué rasgo conservar y construyes una primera ruta manual trazable.
 ### Evaluación — Misma idea, varias superficies
 Demuestras transferencia manual real sin exigir pies, groove ni independencia.
 
+## Cómo reaparecerá esta capacidad
+
+Esta transferencia manual no se convierte en un bloque fijo de mantenimiento. Más adelante reaparecerá **dentro de orquestación, groove, fills o una tarea creativa** cuando esas tareas necesiten mover una idea entre superficies.
+
+Si una ruta manual concreta se deteriora y limita la tarea actual, puedes aislarla brevemente. Ese correctivo **sustituye una tarea secundaria; no se añade automáticamente** a la sesión. Después vuelve a la versión base y al contexto completo para comprobar si la corrección transfirió.
+
 ## Regla de seguridad y carga
 
 Las decisiones de escucha segura y carga de Unidad 1 siguen activas. No aumentes volumen para compensar falta de control y no conviertas grandes recorridos en objetivo visual.

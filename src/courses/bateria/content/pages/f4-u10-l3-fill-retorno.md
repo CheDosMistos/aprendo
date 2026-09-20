@@ -63,7 +63,7 @@ No añadas Variación B durante este correctivo.
 
 ## Tempo
 
-120 BPM pertenece al archivo como referencia técnica. Practica a una velocidad donde puedas anticipar y oír el 1 posterior.
+La partitura incluye un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Practica a una velocidad donde puedas anticipar y oír el 1 posterior.
 
 **No existe BPM de aprobado.**
 

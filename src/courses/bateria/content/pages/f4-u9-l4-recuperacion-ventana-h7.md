@@ -80,7 +80,7 @@ independencia avanzada nunca debe hacer que pierdas la función principal de est
 
 ## Tempo
 
-Ambos archivos usan 120 BPM sólo como referencia técnica. Ajusta el tempo real para conservar forma, relajación y retorno.
+Las partituras incluyen un tempo de reproducción de 120 BPM, pero **no es un objetivo ni una referencia de nivel**. Ajusta el tempo real para conservar forma, relajación y retorno.
 
 No existe BPM de aprobado.
 

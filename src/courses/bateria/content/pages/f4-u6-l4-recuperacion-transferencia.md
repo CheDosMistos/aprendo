@@ -73,6 +73,10 @@ Esta tarea sigue siendo coordinación básica de cuatro extremidades. **No certi
 - identificas qué patrón/capa es más frágil;
 - no introduces nuevas variaciones para compensar una dificultad.
 
+## Después de comprobar A y B
+
+Si ambos patrones están disponibles, no necesitan reaparecer como dos ejercicios obligatorios en cada sesión. Más adelante se recuperan cuando una tarea de groove, variación o continuidad los necesite, o cuando exista una pregunta concreta sobre su disponibilidad.
+
 ## Registrar esta práctica
 
 Anota `patrón solicitado → primer intento → ayuda necesaria → recuperación → transferencia`.

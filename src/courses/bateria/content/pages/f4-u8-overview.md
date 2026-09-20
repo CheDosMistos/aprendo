@@ -60,6 +60,10 @@ Esta unidad **no certifica orquestación de rudimentos COMPETENTE, improvisació
 
 `ACENTO ≠ SUPERFICIE` sigue vigente. Mover más notas no equivale a mejor orquestación.
 
+## Regla longitudinal
+
+La orquestación es ahora la tarea principal. La frase de manos y la base de pies reaparecen dentro de ella; no necesitan convertirse además en bloques diarios independientes. Si una transición física o una capa de pies limita la frase, aísla sólo ese problema y vuelve pronto a la versión orquestada completa.
+
 ## Qué se evalúa
 
 `IDENTIDAD / PULSO / SUBDIVISIÓN / TIMBRE / MOVIMIENTO / BALANCE / PIES / TRANSICIONES / RELAJACIÓN / DECISIÓN MUSICAL`

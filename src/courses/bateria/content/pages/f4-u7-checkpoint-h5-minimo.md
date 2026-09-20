@@ -77,7 +77,7 @@ Una variación predeterminada puede aportar evidencia de coordinación competent
 ## Decisión
 
 - **AVANZA:** el groove y sus variaciones están suficientemente disponibles al nivel mínimo.
-- **AVANZA CON CORRECTIVO:** el groove es funcional para seguir, pero una transición/capa requiere mantenimiento.
+- **AVANZA CON CORRECTIVO:** el groove es utilizable para seguir, pero una transición o capa necesita un correctivo breve. Ese correctivo sustituye una tarea secundaria y termina volviendo al groove completo; no crea una rutina adicional permanente.
 - **REPITE EL BLOQUE ESPECÍFICO:** un cuello de botella impide todavía sostener groove, variación o retorno; no hace falta repetir toda esta unidad.
 
 La siguiente unidad cambia de foco: **Unidad 8 — orquestar vocabulario ya conocido**.

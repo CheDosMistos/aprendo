@@ -52,7 +52,7 @@ test('F4 U1 L2 uses one-variable observable ergonomics', async ({ page }, testIn
   const article = page.locator('article.course-article');
   await expect(article.getByText(/PROBLEMA → CAMBIO → EFECTO/).first()).toBeVisible();
   await expect(article.getByText(/No se fijan centímetros, grados de rodilla ni alturas universales/)).toBeVisible();
-  await expect(article.getByText(/Heel-up, heel-down y otras técnicas pertenecen a Unidad 3\/Unidad 4/)).toBeVisible();
+  await expect(article.getByText(/Heel-up, heel-down y otras técnicas pertenecen a las Unidades 3 y 4/)).toBeVisible();
   await expect(article.getByText(/cambia una sola variable de montaje/i)).toBeVisible();
   await expectPracticeCheckIn(page);
 });

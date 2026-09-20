@@ -31,15 +31,16 @@ test('F4 U9 has overview, four lessons and checkpoint in order', async () => {
   assert.match(fm(await page('checkpoint')), /^contentId:\s*bat-f4-u9-check$/m);
 });
 
-test('overview makes H6 dominant, keeps H7 as a window and restores the approved odd-meter transfer expansion', async () => {
+test('overview makes fills dominant, keeps independence as a window and restores the approved odd-meter transfer expansion', async () => {
   const overview = plain(await page('overview'));
-  assert.match(overview, /Novedad dominante: H6 — transición funcional/i);
+  assert.match(overview, /Novedad dominante: transición funcional/i);
   assert.match(overview, /FILL = TRANSICIÓN, NO EXHIBICIÓN/i);
   assert.match(overview, /Fill A — 1 tiempo/i);
   assert.match(overview, /Fill B — 2 tiempos/i);
   assert.match(overview, /GROOVE → FILL → 1 → GROOVE/i);
-  assert.match(overview, /puede certificar H6 MÍNIMO/i);
-  assert.match(overview, /no certifica H6 COMPETENTE\/FUNCIONAL ni H7/i);
+  assert.match(overview, /puede certificar fills MÍNIMO/i);
+  assert.match(overview, /no certifica fills COMPETENTE\/FUNCIONAL ni independencia avanzada/i);
+  assert.match(overview, /El fill se practica dentro de su función de transición/i);
   assert.match(overview, /AMPLIACIÓN — transferir el principio a 5\/4 o 7\/8/i);
   assert.match(overview, /fill breve → retorno al 1/i);
   assert.match(overview, /no enseña 5\/4 o 7\/8 desde cero/i);
@@ -85,23 +86,24 @@ test('L4 prioritizes recovery and labels H7 as optional exposure', async () => {
   assert.match(l4, /NO CONVERTIR UN ERROR DEL FILL EN LA PÉRDIDA DEL COMPÁS SIGUIENTE/i);
   assert.match(l4, /f4-u9-l2-two-beat-fill-return\.musicxml/);
   assert.match(l4, /f4-u9-l4-left-foot-window\.musicxml/);
-  assert.match(l4, /AMPLIACIÓN — ventana H7/i);
+  assert.match(l4, /AMPLIACIÓN — ventana independencia avanzada/i);
   assert.match(l4, /pedal hi-hat en negras continuas/i);
-  assert.match(l4, /U9 NO certifica H7/i);
+  assert.match(l4, /esta unidad NO certifica independencia avanzada/i);
   assert.match(l4, /Una exposición no equivale a una competencia funcional/i);
   assert.equal((l4.match(/data-notation-score/g) ?? []).length, 2);
 });
 
-test('checkpoint certifies H6 minimum only and requires the return to groove', async () => {
+test('checkpoint certifies fills minimum only and requires the return to groove', async () => {
   const cp = plain(await page('checkpoint'));
-  assert.match(cp, /H6 MÍNIMO/i);
+  assert.match(cp, /MÍNIMO PARA AVANZAR en fills/i);
   assert.match(cp, /Inserta fills sencillos sin perder el pulso/i);
   assert.match(cp, /GROOVE → FILL → 1 → GROOVE/i);
   assert.match(cp, /No necesitas ejecutar los dos/i);
   assert.match(cp, /f4-u9-l1-one-beat-fill-return\.musicxml/);
   assert.match(cp, /f4-u9-l2-two-beat-fill-return\.musicxml/);
-  assert.match(cp, /H6 COMPETENTE\/FUNCIONAL/i);
-  assert.match(cp, /U9 NO certifica H7/i);
+  assert.match(cp, /fills COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /NO certifica independencia avanzada/i);
+  assert.match(cp, /no crea mantenimiento paralelo/i);
   assert.match(cp, /No existe BPM de aprobado/i);
   assert.equal((cp.match(/data-notation-score/g) ?? []).length, 2);
 });
@@ -128,7 +130,7 @@ test('CORE scores contain the following measure and omit Pedal Hi-Hat', async ()
   assert.equal((l2.match(/<lyric><text>L<\/text><\/lyric>/g) ?? []).length, 2);
 });
 
-test('H7 window score adds one continuous quarter-note left-foot layer', async () => {
+test('independence window score adds one continuous quarter-note left-foot layer', async () => {
   const xml = await readFile(path.join(notationRoot, 'f4-u9-l4-left-foot-window.musicxml'), 'utf8');
   assert.match(xml, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — AMPLIACIÓN/);
   assert.match(xml, /<instrument-name>Pedal Hi-Hat<\/instrument-name>/);
@@ -140,6 +142,6 @@ test('H7 window score adds one continuous quarter-note left-foot layer', async (
 
 test('U8 checkpoint remains explicitly pre-H6 after U9', async () => {
   const u8 = plain(await readFile(path.join(pagesRoot, 'f4-u8-checkpoint-g5-b8-transferencia.md'), 'utf8'));
-  assert.match(u8, /H6 — fills/i);
-  assert.match(u8, /H7 — independencia/i);
+  assert.match(u8, /fills/i);
+  assert.match(u8, /independencia/i);
 });
