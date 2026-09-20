@@ -73,6 +73,10 @@ Demostrar el criterio de cierre de Fase 4 y aportar evidencia de transferencia d
 
 Cerrar el Hito tampoco convierte automáticamente la coordinación básica de cuatro extremidades, el groove y sus variaciones o los fills en nivel **COMPETENTE/FUNCIONAL**.
 
+## Regla longitudinal de cierre
+
+La forma integrada es la tarea principal y sirve también para observar capacidades anteriores en contexto. **No vuelvas a evaluar configuración, bombo, hi-hat, coordinación, groove y fills como seis bloques independientes** si la propia ejecución ya aporta evidencia suficiente. Si aparece un cuello de botella, corrige sólo ese componente y vuelve a la forma completa.
+
 ## Qué se evalúa
 
 `CONFIGURACIÓN / ESCUCHA SEGURA / PULSO / SUBDIVISIÓN / PEDALES / COORDINACIÓN / GROOVE / VARIACIÓN / FILL / RETORNO / FORMA / BALANCE / RECUPERACIÓN / TRANSFERENCIA`

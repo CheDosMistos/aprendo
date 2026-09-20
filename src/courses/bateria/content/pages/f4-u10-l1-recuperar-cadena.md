@@ -68,7 +68,7 @@ Después de una pasada, clasifica:
 - **FRÁGIL:** necesita un correctivo breve;
 - **NO DISPONIBLE HOY:** simplifica la versión y trabaja sólo esa unión antes de recomponer.
 
-Un fallo local no invalida un cierre anterior.
+Un fallo local no invalida un cierre anterior. El correctivo elegido **sustituye una tarea secundaria de la sesión**; no se añade automáticamente a todo lo demás.
 
 ## MÍNIMO PARA AVANZAR
 
