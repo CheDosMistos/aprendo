@@ -48,6 +48,10 @@ Groove estable + pequeña variación controlada + retorno, sin BPM de aprobado.
 
 Esta unidad **no certifica groove y variaciones COMPETENTE/FUNCIONAL, coordinación básica de cuatro extremidades COMPETENTE/FUNCIONAL ni independencia avanzada**. Tampoco introduce fills, variación libre, ghost notes, aperturas obligatorias, estilo o repertorio.
 
+## Regla longitudinal
+
+El groove pasa a ser el contexto principal para recuperar coordinación, bombo y hi-hat. Una capa estable no necesita además un bloque diario propio. Si una variación revela un cuello de botella, aísla sólo esa transición y vuelve a la forma completa para comprobar que la corrección transfirió.
+
 ## Qué se evalúa
 
 `PULSO / SUBDIVISIÓN / GROOVE / BOMBO NUEVO / BALANCE / FORMA / RETORNO / RECUPERACIÓN / TENSIÓN`
