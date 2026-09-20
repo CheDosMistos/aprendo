@@ -77,7 +77,7 @@ No repitas toda esta unidad si el fallo está localizado en una sola coincidenci
 ## Decisión
 
 - **AVANZA:** la capa estable sobrevive a la variación y existe recuperación funcional.
-- **AVANZA CON CORRECTIVO:** la función se conserva, pero una transición o balance requiere mantenimiento.
+- **AVANZA CON CORRECTIVO:** la función se conserva, pero una transición o balance necesita un correctivo breve. Ese trabajo sustituye una tarea secundaria y después se retesta dentro del groove completo; no crea mantenimiento paralelo.
 - **REPITE BLOQUE ESPECÍFICO:** la variación derriba sistemáticamente el ostinato; aisla esa relación y vuelve a recomponer.
 
 Unidad 6 cambia el foco a sonido funcional, afinación básica, click y grabación.

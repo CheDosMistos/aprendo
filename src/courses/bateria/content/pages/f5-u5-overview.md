@@ -45,6 +45,12 @@ PAS propone las ghost notes como golpes de caja más suaves que conviven con bac
 
 Fuente verificada: [PAS — Groove of the Month: Ghost Note Funk](https://pas.org/pas-blog/groove-of-the-month-ghost-note-funk/).
 
+## Regla longitudinal
+
+La independencia contextual es la tarea principal de esta unidad. La rejilla de semicorcheas, la jerarquía dinámica y las ghost notes sólo reaparecen en la medida en que ayudan a sostener esa función musical; no crean tres bloques técnicos diarios nuevos.
+
+Si una coincidencia o transición concreta rompe la capa estable, aísla sólo esa relación durante un correctivo breve, haz que ese trabajo **sustituya una tarea secundaria** y vuelve pronto al groove completo para comprobar transferencia.
+
 ## Ruta
 
 1. **Lección 1 — Rejilla de semicorcheas:** ubicar cuatro posiciones por pulso sin convertir velocidad en objetivo.
@@ -64,6 +70,6 @@ Esta unidad **no**:
 - certifica independencia más allá del nivel MÍNIMO;
 - exige una cifra de BPM.
 
-La profundización opcional `ESP-21` sigue fuera del tronco de esta unidad.
+La profundización opcional de especialización en independencia sigue fuera del tronco de esta unidad.
 
 **No existe BPM de aprobado.**

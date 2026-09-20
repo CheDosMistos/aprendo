@@ -29,17 +29,19 @@ test('F5 U5 has overview, four lessons and Checkpoint 5B in order', async () => 
   assert.match(fm(await page('check')), /^kind:\s*checkpoint$/m);
 });
 
-test('overview makes H7 contextual and protects specialization boundary', async () => {
+test('overview makes independence contextual and protects specialization boundary', async () => {
   const text = plain(await page('overview'));
-  assert.match(text, /Novedad dominante: H7 contextual/i);
-  assert.doesNotMatch(text, /Novedad dominante: H7 avanzada/i);
-  assert.doesNotMatch(text, /Construye H7 avanzada/i);
+  assert.match(text, /Novedad dominante: independencia contextual dentro del groove/i);
+  assert.doesNotMatch(text, /independencia avanzada como novedad dominante/i);
   assert.match(text, /INDEPENDENCIA ≠ AÑADIR CAPAS/i);
   assert.match(text, /a menudo.*feel de semicorchea/is);
   assert.match(text, /Ghost notes: textura, no puerta/i);
   assert.match(text, /no.*linear drumming.*sinónimo de funk/is);
-  assert.match(text, /ESP-21.*fuera del tronco/i);
+  assert.match(text, /especialización en independencia.*fuera del tronco/i);
+  assert.match(text, /no crean tres bloques técnicos diarios nuevos/i);
+  assert.match(text, /sustituya una tarea secundaria/i);
   assert.match(text, /No existe BPM de aprobado/i);
+  assert.match(text, /no crea mantenimiento paralelo/i);
 });
 
 test('L1 treats sixteenth notes as a grid rather than a genre definition', async () => {
@@ -56,7 +58,7 @@ test('L2 makes ghost notes subordinate to pulse, backbeat and dynamic hierarchy'
   assert.match(text, /sin acento.*textura\/ghost-tap/is);
   assert.match(text, /BACKBEAT CLARO > TEXTURA SUAVE/i);
   assert.match(text, /PAS.*Ghost Note Funk/is);
-  assert.match(text, /Checkpoint 5B no las exige/i);
+  assert.match(text, /La evaluación de esta unidad no las exige/i);
 });
 
 test('L3 changes one voice while time and backbeat remain fixed', async () => {
@@ -64,24 +66,24 @@ test('L3 changes one voice while time and backbeat remain fixed', async () => {
   assert.match(text, /f5-u5-l3-h7-context\.musicxml/);
   assert.match(text, /hi-hat en corcheas.*backbeat.*2 y 4/is);
   assert.match(text, /Sólo cambia el bombo/i);
-  assert.match(text, /no es la definición de H7 ni de funk/i);
-  assert.match(text, /prepara H7 MÍNIMO/i);
-  assert.doesNotMatch(text, /Abre H7 funcional/i);
+  assert.match(text, /no es la definición de independencia ni de funk/i);
+  assert.match(text, /prepara el nivel MÍNIMO de independencia/i);
+  assert.doesNotMatch(text, /independencia avanzada funcional/i);
 });
 
-test('L4 integrates H7 without changing Piece B style', async () => {
+test('L4 integrates independence without changing Piece B style or adding maintenance debt', async () => {
   const text = plain(await page('l4'));
   assert.match(text, /A 4 compases → B 4 → A 4 → B 4/i);
   assert.match(text, /Pocket como relación/i);
   assert.match(text, /No conviertas su shuffle en funk/i);
-  assert.doesNotMatch(text, /tarea H7 avanzada/i);
+  assert.match(text, /no añadas automáticamente un bloque separado/i);
+  assert.match(text, /ocupa tiempo que habría ido a otra tarea secundaria/i);
   assert.match(text, /No existe BPM de aprobado/i);
 });
 
-test('Checkpoint 5B certifies H7 minimum only', async () => {
+test('unit evaluation certifies minimum independence only', async () => {
   const text = plain(await page('check'));
-  assert.match(text, /H7 MÍNIMO: mantiene un ostinato simple mientras otra voz varía/i);
-  assert.doesNotMatch(text, /H7 avanzada MÍNIMO/i);
+  assert.match(text, /independencia MÍNIMO: mantiene un ostinato simple mientras otra voz varía/i);
   assert.match(text, /f5-u5-checkpoint-h7\.musicxml/);
   assert.match(text, /NO CERTIFICA[\s\S]*independencia a cuatro extremidades avanzada/i);
   assert.match(text, /ghost notes como requisito/i);

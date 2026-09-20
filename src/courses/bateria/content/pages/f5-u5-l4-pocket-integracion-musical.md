@@ -65,9 +65,11 @@ Graba una pasada breve. Elige **una** pregunta antes de escuchar:
 
 No uses una toma favorable como prueba suficiente de competencia retenida.
 
-## Repertorio B — mantenimiento
+## Repertorio B — recuperación contextual
 
-Dedica una parte separada de la sesión a Pieza B de Unidad 4. **No conviertas su shuffle en funk** para “aplicar esta unidad”. El carril de repertorio se mantiene, pero cada pieza conserva la función musical que ya tenía.
+Pieza B sigue disponible como repertorio, pero **no añadas automáticamente un bloque separado** sólo para conservarla. Hazla reaparecer cuando quieras comprobar retención de forma/shuffle o cuando sea una tarea secundaria útil; si entra en la sesión, ocupa tiempo que habría ido a otra tarea secundaria.
+
+**No conviertas su shuffle en funk** para “aplicar esta unidad”. Cada pieza conserva la función musical que ya tenía.
 
 ## MÍNIMO PARA PASAR A LA EVALUACIÓN
 
