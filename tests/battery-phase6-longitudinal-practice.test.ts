@@ -50,5 +50,5 @@ test('F6 protects retention and transfer from pseudo-precise calendars', async (
 test('F6 learner-facing longitudinal language avoids internal competency codes', async () => {
   const guide = await readFile(guidePath, 'utf8');
   assert.doesNotMatch(guide, /(?<![\p{L}\p{N}])(?:H[1-9]|K[1-9]|A[1-9]|B[1-9]|C[1-9]|D[1-9]|E[1-9]|F[1-9]|G[1-9]|J[1-9])(?![\p{L}\p{N}])/u);
-  assert.match(guide, /proyecto, evidencia/i);
+  assert.match(guide, /problema, proyecto o evidencia/i);
 });

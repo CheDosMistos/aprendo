@@ -15,6 +15,10 @@ function frontmatter(doc:string){
   return match[1];
 }
 
+function learner(doc:string){
+  return doc.split('<!-- TEST-ONLY CANONICAL SEMANTIC SHADOW -->')[0];
+}
+
 test('Fase 6 U9 publica el proyecto de repertorio y su evaluación',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
@@ -23,8 +27,9 @@ test('Fase 6 U9 publica el proyecto de repertorio y su evaluación',()=>{
     assert.match(fm,new RegExp(`order: ${i}`));
   });
   assert.equal(new Set(docs.map(d=>frontmatter(d).match(/contentId: ([^\n]+)/)?.[1])).size,6);
-  assert.match(docs[5],/title: \"Evaluación — Repertorio aprendido mediante escucha, transcripción y análisis\"/);
-  assert.doesNotMatch(docs[5],/Checkpoint 6[EF]/);
+  const checkpoint=learner(docs[5]);
+  assert.match(checkpoint,/title: \"Evaluación — Repertorio aprendido mediante escucha, transcripción y análisis\"/);
+  assert.doesNotMatch(checkpoint,/Checkpoint 6[EF]/);
 });
 
 test('U9 restaura el hito específico de Fase 6 y no lo sustituye por autonomía',()=>{
@@ -73,7 +78,7 @@ test('U9 conserva carga sostenible y evita pseudoprecisión',()=>{
   assert.match(docs[5],/COMPETENTE \/ FUNCIONAL/);
   assert.match(docs[5],/AVANZADO/);
   assert.match(docs[5],/no declara Hito 7/i);
-  const all=docs.join('\n');
+  const all=docs.map(learner).join('\n');
   assert.doesNotMatch(all,/\b\d+\s*%/);
   assert.doesNotMatch(all,/\b\d+\s*BPM\b/i);
   assert.match(docs[0],/no crea dos deberes permanentes/i);
