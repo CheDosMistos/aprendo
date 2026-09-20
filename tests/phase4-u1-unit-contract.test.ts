@@ -33,7 +33,7 @@ test('F4 U1 has overview, four lessons and checkpoint in order', async () => {
 test('F4 U1 preserves the approved transfer principle and keeps U1 bounded', async () => {
   const overview = await page('overview');
   assert.match(overview, /No reiniciar\. Transferir\./i);
-  assert.match(overview, /U1 no enseña todavía groove, fills ni técnica específica de bombo o hi-hat/i);
+  assert.match(overview, /Esta unidad no enseña todavía groove, fills ni técnica específica de bombo o hi-hat/i);
   assert.match(overview, /No existe un ángulo universal de rodilla, una altura de caja perfecta ni una geometría que debas copiar/i);
 });
 
@@ -60,7 +60,7 @@ test('L3 keeps rhythm constant and compares one surface at a time', async () => 
   assert.match(l3, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — LABORATORIO DE SUPERFICIES/);
   assert.match(l3, /misma célula completa en una superficie cada vez/i);
   assert.match(l3, /No hay BPM de aprobado/i);
-  assert.match(l3, /Eso es evidencia inicial de \*\*A8\*\*, no dominio de orquestación/i);
+  assert.match(l3, /Eso es evidencia inicial de \*\*adaptación técnica entre superficies y kit\*\*, no dominio de orquestación/i);
   assert.doesNotMatch(l3, /data-notation-score|\.musicxml/);
 });
 
@@ -71,21 +71,23 @@ test('L4 is zero transfer with known material and a four-way diagnosis', async (
   assert.match(l4, /ACCESO \/ SUPERFICIE \/ MOVIMIENTO \/ TIEMPO/);
   assert.match(l4, /Mueve \*\*la célula completa\*\* a un tom u otra superficie manual/i);
   assert.match(l4, /Todavía no alternes caja\/tom dentro de la misma frase/i);
-  for (const id of ['H2 bombo', 'H3 hi-hat de pie', 'H4 coordinación de cuatro extremidades', 'H5 groove', 'H6 fills', 'G5 orquestación creativa']) {
+  for (const id of ['técnica de bombo', 'hi-hat de pie', 'coordinación de cuatro extremidades', 'groove', 'fills', 'orquestación creativa']) {
     assert.match(l4, new RegExp(id));
   }
 });
 
 test('checkpoint tests H1 readiness without hidden later-phase requirements', async () => {
   const cp = await page('checkpoint');
-  assert.match(cp, /MÍNIMO PARA AVANZAR A U2/);
+  assert.match(cp, /MÍNIMO PARA AVANZAR A Unidad 2/);
   assert.match(cp, /asiento y piezas principales están ajustados de forma sostenible/i);
   assert.match(cp, /estrategia básica de escucha segura/i);
   assert.match(cp, /célula manual ya conocida en caja y en otra superficie/i);
   assert.match(cp, /ACCESO \/ SUPERFICIE \/ MOVIMIENTO \/ TIEMPO/);
-  assert.match(cp, /no exige[\s\S]*H2[\s\S]*H3[\s\S]*H4[\s\S]*H5[\s\S]*H6/i);
-  assert.match(cp, /No demuestra automáticamente H1 MÍNIMO/i);
-  assert.match(cp, /COMPETENTE no es requisito para entrar en U2/i);
+  assert.match(cp, /no exige[\s\S]*técnica de bombo[\s\S]*hi-hat de pie[\s\S]*coordinación de cuatro extremidades[\s\S]*groove[\s\S]*fills/i);
+  assert.match(cp, /No demuestra automáticamente setup, ergonomía y ecología del kit MÍNIMO/i);
+  assert.match(cp, /COMPETENTE no es requisito para entrar en Unidad 2/i);
+  assert.match(cp, /no añadas un repaso de ergonomía por obligación/i);
+  assert.match(cp, /regresa pronto a la tarea musical/i);
 });
 
 test('F4 U1 creates no posture grader, medical diagnosis or mandatory photo workflow', async () => {

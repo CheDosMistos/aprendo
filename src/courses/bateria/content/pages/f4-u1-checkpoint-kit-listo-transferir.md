@@ -39,6 +39,12 @@ Marca la evidencia sólo cuando puedas sostenerla en una prueba real:
 
 No necesitas marcar todo en una única toma perfecta. El criterio es que la base sea suficientemente estable para que Unidad 2 pueda introducir **transferencia entre superficies** sin depender de una configuración todavía inviable.
 
+## Qué evidencia debe reaparecer después
+
+No mantengas esta evaluación como un bloque diario de «postura correcta». En las unidades siguientes, el montaje se vuelve a comprobar **si una tarea real** revela pérdida de equilibrio, alcance forzado, tensión, dificultad de pedal o un cambio relevante de contexto.
+
+Si aparece uno de esos síntomas, vuelve a `PROBLEMA → CAMBIO → EFECTO`, prueba el ajuste y regresa pronto a la tarea musical que lo hizo visible. Si no hay una pregunta concreta, no añadas un repaso de ergonomía por obligación.
+
 ## NO ES REQUISITO
 
 Esta evaluación **no exige**:

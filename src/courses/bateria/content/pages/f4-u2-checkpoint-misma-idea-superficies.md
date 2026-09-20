@@ -89,6 +89,12 @@ Además del mínimo:
 
 Eso describe competencia local de **adaptación técnica entre superficies y kit/transferencia manual**, no reetiqueta coordinación básica de cuatro extremidades o improvisación restringida.
 
+## Después de esta unidad
+
+No programes «transferencia entre superficies» como deber independiente sólo para conservarla. En unidades posteriores, recupérala cuando la tarea de kit la necesite y comprueba que la frase conserva su identidad. Si falla, aísla el cuello de botella durante un bloque corto, vuelve a la versión base y después regresa al contexto completo.
+
+El trabajo aislado **sustituye una tarea secundaria; no se suma por defecto** al presupuesto de práctica.
+
 ## Cierre registrado ≠ competencia demostrada
 
 Marcar la evaluación como completado registra que realizaste la prueba. La evidencia real es la ejecución, el retorno y tu capacidad de diagnosticar qué cambió.

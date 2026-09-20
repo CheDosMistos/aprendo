@@ -45,12 +45,11 @@ test('U2 is true within-phrase manual transfer and does not duplicate U1', async
   assert.match(overview, /No estamos aprendiendo un ritmo nuevo/i);
 });
 
-test('U2 keeps B8 and G5 dependency boundary explicit', async () => {
+test('U2 keeps later coordination and creative-orchestration boundaries explicit', async () => {
   const all = plain((await Promise.all((Object.keys(pages) as (keyof typeof pages)[]).map(page))).join('\n'));
-  assert.match(all, /componente manual de B8/i);
-  assert.match(all, /no declara G5 MÍNIMO/i);
-  assert.match(all, /No certifica H4, G5 MÍNIMO completo ni B8-kit competente/i);
-  assert.doesNotMatch(all, /G5 (?:queda|está) (?:aprobado|dominado|certificado)/i);
+  assert.match(all, /componente manual de orquestación de rudimentos/i);
+  assert.match(all, /no declara todavía esas capacidades como funcionales/i);
+  assert.match(all, /No certifica todavía coordinación de cuatro extremidades ni competencia completa de orquestación/i);
 });
 
 test('L1 uses known material and one-variable diagnosis', async () => {
@@ -66,7 +65,7 @@ test('L2 distributes R and L without feet or a new rhythm', async () => {
   assert.match(l2, /repartir ataques dentro de la frase/i);
   assert.match(l2, /La novedad es espacial\/tímbrica\. El ritmo sigue siendo el mismo/i);
   assert.match(l2, /No se usa bombo ni hi-hat de pie/i);
-  assert.match(l2, /No demuestra todavía coordinación H4 ni G5 MÍNIMO completo/i);
+  assert.match(l2, /No demuestra todavía coordinación básica de cuatro extremidades ni improvisación restringida MÍNIMO completo/i);
 });
 
 test('L3 distinguishes accent, dynamics and timbre', async () => {
@@ -84,18 +83,20 @@ test('L4 preserves traceable identity and return without certifying H4/G5', asyn
   assert.match(l4, /RITMO \/ STICKING \/ ACENTOS \/ SILENCIOS \/ CONTORNO DINÁMICO/);
   assert.match(l4, /Usa sólo una regla por intento/i);
   assert.match(l4, /vuelve a la versión base en caja/i);
-  assert.match(l4, /No certifica H4, G5 MÍNIMO completo ni B8-kit competente/i);
+  assert.match(l4, /No certifica todavía coordinación de cuatro extremidades ni competencia completa de orquestación/i);
 });
 
 test('checkpoint advances to U3/U4 without hidden feet, groove or independence requirements', async () => {
   const cp = plain(await page('checkpoint'));
-  assert.match(cp, /MÍNIMO PARA AVANZAR A U3\/U4/);
+  assert.match(cp, /MÍNIMO PARA AVANZAR A Unidad 3\/Unidad 4/);
   assert.match(cp, /al menos dos superficies manuales/i);
   assert.match(cp, /TIEMPO \/ ACCESO \/ SUPERFICIE \/ STICKING \/ DINÁMICA/);
-  for (const excluded of ['H2 — técnica de bombo', 'H3 — hi-hat de pie', 'H4 — coordinación de cuatro extremidades', 'H5 — groove', 'H6 — fills', 'G5 MÍNIMO completo', 'B8-kit competente']) {
+  for (const excluded of ['técnica de bombo', 'hi-hat de pie', 'coordinación de cuatro extremidades', 'groove', 'fills', 'improvisación restringida MÍNIMO completo', 'orquestación de rudimentos-kit competente']) {
     assert.match(cp, new RegExp(excluded));
   }
   assert.match(cp, /Cierre registrado ≠ competencia demostrada/i);
+  assert.match(cp, /no programes .transferencia entre superficies. como deber independiente/i);
+  assert.match(cp, /sustituye una tarea secundaria; no se suma por defecto/i);
 });
 
 test('all four U2 scores are original, complete 4/4 eighth-note measures and use hands only', async () => {

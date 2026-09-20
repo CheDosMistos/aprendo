@@ -58,6 +58,12 @@ Tocas una célula ya conocida en una superficie cada vez y diagnosticas si el pr
 ### Evaluación — Kit listo para transferir
 Compruebas setup, ergonomía y ecología del kit al nivel mínimo necesario para empezar Unidad 2 sin exigir todavía pedales, groove o cuatro extremidades.
 
+## Una configuración útil no es una postura congelada
+
+El montaje de hoy es una **hipótesis de trabajo**, no una posición que debas conservar para siempre. Más adelante vuelve a comprobarlo cuando una tarea nueva revele un problema de acceso, equilibrio, tensión, sonido o uso de pedales, o cuando cambie el instrumento o su disposición.
+
+Si la tarea funciona de forma sostenible, no conviertas el setup en una comprobación obligatoria en cada sesión. La ergonomía reaparece **cuando existe una pregunta concreta que resolver**.
+
 ## Seguridad desde el inicio
 
 La protección auditiva no se pospone a una futura unidad de sonido. **Nivel y duración importan desde la primera sesión con kit**. En un contexto ruidoso, reduce exposición y utiliza protección adecuada; en electrónica, controla también el nivel de auriculares/monitorización.
