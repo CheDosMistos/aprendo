@@ -33,8 +33,13 @@ test('overview defines original Piece C and hybrid-learning boundaries', async (
   assert.match(t, /Pieza C es una pieza original de 32 compases en 4\/4/i);
   assert.match(t, /INTRO 4 → A 8 → B 8 → A' 8 → OUTRO 4/i);
   assert.match(t, /NINGUNA FUENTE ES “LA MÚSICA ENTERA”/i);
+  assert.match(t, /Pieza C es la tarea principal/i);
+  assert.match(t, /no son cinco bloques que deban completarse en cada sesión/i);
+  assert.match(t, /sustituya una tarea secundaria/i);
   assert.match(t, /TIEMPO → FORMA → ENTRADAS → GROOVE\/FEEL → DINÁMICA → FIGURES\/FILLS → DETALLE/i);
   assert.match(t, /No existe BPM de aprobado/i);
+  assert.match(t, /no crea mantenimiento paralelo/i);
+  assert.match(t, /no necesita convertirse en una pieza de práctica diaria/i);
 });
 
 test('L1 listens first, embeds the original formal reference and preserves the 32-bar map', async () => {
@@ -59,7 +64,7 @@ test('L3 treats partial information as a prepared musical task, not blind improv
   const t = plain(await page('l3'));
   assert.match(t, /INFORMACIÓN PARCIAL ≠ IMPROVISACIÓN A CIEGAS/i);
   assert.match(t, /TIEMPO → FORMA → ENTRADA\/CUE → DINÁMICA → GROOVE → DETALLE/i);
-  assert.match(t, /ventana de interacción, no certificación de I6 funcional/i);
+  assert.match(t, /ventana de interacción, no certificación de interacción y ensemble funcional/i);
   assert.match(t, /No se evalúa densidad ni BPM/i);
 });
 
@@ -72,11 +77,11 @@ test('L4 uses recording as feedback and one localized diagnostic chain', async (
   assert.match(t, /No se exige producción profesional, una toma perfecta ni BPM prefijado/i);
 });
 
-test('Checkpoint 5D certifies I3 functional but not I4 global or Hito 6', async () => {
+test('unit evaluation certifies functional repertoire learning but not global complete-piece performance or Hito 6', async () => {
   const t = plain(await page('check'));
-  assert.match(t, /I3 COMPETENTE\/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis/i);
+  assert.match(t, /aprendizaje de repertorio COMPETENTE\/FUNCIONAL: aprende una pieza adecuada combinando escucha, lectura, memoria y análisis/i);
   assert.match(t, /FUNCIONAL ≠ PERFECTO\. FUNCIONAL ≠ UNA TOMA BUENA/i);
-  assert.match(t, /I4 COMPETENTE\/FUNCIONAL global en varias piezas/i);
+  assert.match(t, /interpretación de canciones completas COMPETENTE\/FUNCIONAL global en varias piezas/i);
   assert.match(t, /Hito 6/i);
   assert.match(t, /No existe BPM de aprobado/i);
 });
