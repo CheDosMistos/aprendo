@@ -171,6 +171,12 @@ No se exige perfección en ninguna de estas áreas.
 5. **Lección 5 — Contingencia, transferencia y pasada final.**
 6. **Evaluación — Proyecto sostenido integrado.**
 
+## Regla longitudinal del proyecto
+
+La pasada completa es la tarea principal. Chart, interacción, transferencia estilística, feel, recuperación y autonomía reaparecen dentro de ella; no se convierten en seis bloques técnicos separados.
+
+Si una dimensión concreta rompe la interpretación, aísla sólo ese cuello de botella durante un correctivo breve. Ese trabajo **sustituye una tarea secundaria** y después vuelve a una pasada completa para comprobar transferencia. Una misma pasada puede aportar evidencia sobre varias capacidades sin obligarte a recertificarlas por separado.
+
 ## Fronteras
 
 Esta unidad:

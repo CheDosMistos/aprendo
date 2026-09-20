@@ -15,7 +15,7 @@ function frontmatter(doc:string){
   return match[1];
 }
 
-test('Fase 6 U9 publica el proyecto de repertorio y corresponde a Checkpoint 6E',()=>{
+test('Fase 6 U9 publica el proyecto de repertorio y su evaluación',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
     assert.match(fm,/phase: 6\nunit: 9\nunitSlug: fase-6-unidad-9/);
@@ -23,8 +23,8 @@ test('Fase 6 U9 publica el proyecto de repertorio y corresponde a Checkpoint 6E'
     assert.match(fm,new RegExp(`order: ${i}`));
   });
   assert.equal(new Set(docs.map(d=>frontmatter(d).match(/contentId: ([^\n]+)/)?.[1])).size,6);
-  assert.match(docs[5],/Checkpoint 6E — Repertorio aprendido mediante escucha, transcripción y análisis/);
-  assert.doesNotMatch(docs[5],/Checkpoint 6F/);
+  assert.match(docs[5],/title: \"Evaluación — Repertorio aprendido mediante escucha, transcripción y análisis\"/);
+  assert.doesNotMatch(docs[5],/Checkpoint 6[EF]/);
 });
 
 test('U9 restaura el hito específico de Fase 6 y no lo sustituye por autonomía',()=>{
@@ -34,7 +34,7 @@ test('U9 restaura el hito específico de Fase 6 y no lo sustituye por autonomía
   assert.doesNotMatch(docs[0],/objetivo dominante.*autonomía FUNCIONAL/i);
 });
 
-test('U9 culmina el procedimiento de transcripción ya aprendido en U2',()=>{
+test('U9 culmina el procedimiento de transcripción ya aprendido en Unidad 2',()=>{
   assert.match(docs[0],/PULSO → FORMA → MÉTRICA\/SUBDIVISIÓN → FUNCIÓN → ARTICULACIÓN\/DINÁMICA → DETALLE → VERIFICACIÓN/);
   assert.match(docs[0],/aplica a una pieza o a una sección suficientemente sustancial/i);
   assert.match(docs[2],/HECHO VERIFICADO/);
@@ -76,4 +76,6 @@ test('U9 conserva carga sostenible y evita pseudoprecisión',()=>{
   const all=docs.join('\n');
   assert.doesNotMatch(all,/\b\d+\s*%/);
   assert.doesNotMatch(all,/\b\d+\s*BPM\b/i);
+  assert.match(docs[0],/no crea dos deberes permanentes/i);
+  assert.match(docs[5],/sustituya una tarea secundaria/i);
 });

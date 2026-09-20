@@ -16,7 +16,7 @@ function frontmatter(doc:string){
   return match[1];
 }
 
-test('Fase 6 U10 publica proyecto sostenido y evaluación local sin inventar 6G',()=>{
+test('Fase 6 U10 publica proyecto sostenido y evaluación local sin numeración interna visible',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
     assert.match(fm,/phase: 6\nunit: 10\nunitSlug: fase-6-unidad-10/);
@@ -28,14 +28,17 @@ test('Fase 6 U10 publica proyecto sostenido y evaluación local sin inventar 6G'
   assert.doesNotMatch(docs[6],/Checkpoint 6G/);
 });
 
-test('U10 integra las competencias canónicas de chart, repertorio, interacción y adaptación',()=>{
+test('U10 integra chart, repertorio, interacción, adaptación y feel sin depender de códigos visibles',()=>{
   assert.match(frontmatter(docs[0]),/competencies: \[D7, I3, I4, I5, I6, F3, F7, C1, C2, C7, H5, H6, H7, H8, K8\]/);
-  const all=docs.join('\n');
-  for(const code of ['D7','I3','I4','I5','I6','F7','H5','H7','H8']) assert.match(all,new RegExp(`\\b${code}\\b`));
+  assert.match(docs[0],/navegación de chart/i);
+  assert.match(docs[0],/interacción/i);
+  assert.match(docs[0],/transferencia entre estilos/i);
+  assert.match(docs[0],/feel\/microtiming/i);
+  assert.match(docs[0],/repertorio trabajado mediante escucha, transcripción y análisis/i);
 });
 
-test('U10 construye sobre U3, U6, U7, U8 y U9 sin adjudicar autonomía a U9',()=>{
-  for(const dep of ['U3','U6','U7','U8','U9']) assert.match(docs[0],new RegExp(`\\b${dep}\\b`));
+test('U10 construye sobre Unidades 3, 6, 7, 8 y 9 sin adjudicar autonomía a Unidad 9',()=>{
+  for(const dep of ['Unidad 3','Unidad 6','Unidad 7','Unidad 8','Unidad 9']) assert.match(docs[0],new RegExp(dep));
   assert.match(docs[0],/repertorio trabajado mediante escucha, transcripción y análisis/i);
   assert.match(docs[0],/no es la novedad dominante ni se da por certificada por haber terminado la Unidad 9/i);
   assert.match(docs[3],/Desde el inicio de Fase 6 ya has utilizado esta lógica/);
@@ -77,10 +80,13 @@ test('Material original, copyright y evaluación cualitativa quedan protegidos',
 });
 
 test('U10 conserva fronteras con U11, U12, Hito 7 y Fase 7',()=>{
-  assert.match(docs[0],/U11 conserva el proyecto autónomo sostenido/);
-  assert.match(docs[0],/U12 conserva el cierre integrador global/);
+  assert.match(docs[0],/La Unidad 11 conserva el proyecto autónomo sostenido/);
+  assert.match(docs[0],/la Unidad 12 conserva el cierre integrador global/);
   assert.match(docs[6],/no declara \*\*Hito 7\*\*/i);
   assert.match(docs[6],/no abre contenido profundo de Fase 7/i);
+  assert.match(docs[0],/La pasada completa es la tarea principal/i);
+  assert.match(docs[6],/no crea mantenimiento paralelo/i);
+  assert.match(docs[6],/Evidencia integrada/i);
 });
 
 test('Referencias centrales de investigación son trazables',()=>{

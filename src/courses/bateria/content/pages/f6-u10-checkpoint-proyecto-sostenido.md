@@ -114,13 +114,19 @@ Esto no equivale a declarar autonomía avanzada global ni Hito 7.
 El proyecto sostenido está suficientemente integrado para pasar a la siguiente unidad.
 
 ### CONTINUAR + CORRECTIVO
-La forma completa funciona, pero una debilidad localizada continúa en paralelo.
+La forma completa funciona, pero una debilidad localizada necesita un correctivo breve. Ese trabajo sustituye una tarea secundaria y después se retesta dentro de una pasada completa; no crea mantenimiento paralelo.
 
 ### REDUCIR NOVEDAD
 La tarea combina tantas variables que ya no puedes identificar qué causa el colapso. Conserva la forma y retira una fuente de novedad.
 
 ### DETENER CARGA
 Aparecen dolor, fatiga o tensión que hacen insegura una nueva pasada.
+
+## Evidencia integrada
+
+Una misma pasada puede aportar evidencia sobre navegación, continuidad, respuesta externa, adaptación, feel y decisiones de práctica. Eso no eleva automáticamente el nivel global de cada capacidad, pero evita repetir pruebas separadas cuando el proyecto ya permite observarlas con claridad.
+
+Aísla una capacidad sólo cuando la pasada integrada no permite interpretarla o cuando limita de forma clara la música.
 
 ## Fronteras finales
 

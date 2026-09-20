@@ -99,6 +99,12 @@ No hace falta burocracia extensa. Debe poder reconstruirse:
 7. qué apoyo externo apareció y para qué se utilizó;
 8. qué decisiones musicales provinieron del proceso auditivo y analítico.
 
+## Cómo seguirá vivo este proyecto
+
+Aprender una pieza desde audio no crea dos deberes permanentes —«mantener la pieza» y «seguir transcribiendo»—. Cuando la evidencia del objetivo ya es suficiente, el material sale de prioridad y vuelve por una pregunta concreta de retención, transferencia o interpretación.
+
+Si una capa de escucha, representación o ejecución limita el proyecto, aísla sólo esa pregunta. El correctivo **sustituye una tarea secundaria** y después vuelve a la sección musical completa para comprobar si la corrección cambió realmente lo que tocas.
+
 ## Práctica estándar
 
 Referencia: **25–30 min, 3–4 días por semana**.

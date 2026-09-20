@@ -87,6 +87,12 @@ Podría observarse si el mismo proceso se aplica con mayor independencia a mater
 
 No es requisito para continuar.
 
+## Después de esta unidad
+
+No mantengas por separado la pieza y la transcripción sólo para conservar evidencia. Recupera el material cuando necesites comprobar retención, revisar una hipótesis o transferir el proceso a otro contexto.
+
+Si queda una fragilidad localizada, haz que el correctivo **sustituya una tarea secundaria** y vuelve después a la interpretación. No añadas automáticamente otra rutina de transcripción o repertorio.
+
 ## Decisiones posibles
 
 ### CONTINUAR
@@ -95,7 +101,7 @@ El objetivo específico de Fase 6 está demostrado con evidencia suficiente.
 
 ### CONTINUAR + CORRECTIVO
 
-El aprendizaje desde audio está claro, pero una debilidad localizada de representación, forma, interpretación o trazabilidad debe seguir trabajándose.
+El aprendizaje desde audio está claro, pero una debilidad localizada de representación, forma, interpretación o trazabilidad necesita un correctivo breve que sustituya una tarea secundaria y vuelva después a la música.
 
 ### RECONSTRUIR EVIDENCIA
 
