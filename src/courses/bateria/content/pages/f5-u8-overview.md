@@ -38,6 +38,12 @@ Fuentes verificadas:
 
 *The Art of Bop Drumming* está catalogado para esta rama porque cubre **time playing, comping, brushes, charts y otros fundamentos jazz**. Se utilizará sólo cuando una tarea concreta lo justifique. No hay obligación de completar el libro ni de adelantar bop avanzado.
 
+## Regla longitudinal
+
+El **time y la forma** son el contexto principal de esta unidad. Ride, hi-hat de pie y comping no se convierten en tres bloques técnicos diarios independientes: se integran progresivamente dentro de la misma tarea musical.
+
+Si una capa concreta rompe el time o la navegación, aísla sólo esa relación durante un correctivo breve, haz que el correctivo **sustituya una tarea secundaria** y vuelve pronto a la forma completa. Después de esta unidad, el vocabulario jazz reaparece cuando una pieza, una escucha o una pregunta de transferencia lo necesite; no por obligación de mantenimiento.
+
 ## Fronteras de esta unidad
 
 - **REJILLA TERNARIA ≠ SWING REAL COMPLETO**;
