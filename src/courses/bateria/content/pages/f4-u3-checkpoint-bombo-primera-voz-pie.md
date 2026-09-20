@@ -83,10 +83,14 @@ No es requisito para pasar a Unidad 4/Unidad 5, pero puedes registrar evidencia 
 - sustituyes más de una nota conocida por bombo manteniendo forma;
 - recuperas tras un golpe fallido sin reiniciar siempre desde cero.
 
+## Recuperación posterior
+
+En Unidad 5 y posteriores, la evidencia de bombo debe reaparecer principalmente **dentro de la tarea de kit**. Si el bombo falla allí, identifica una pregunta concreta, aísla sólo el cuello de botella y retesta después el patrón completo. No programes técnica de bombo aislada por obligación cuando ya está funcionando dentro de la tarea actual.
+
 ## Decisión
 
 - **AVANZA:** el bombo está suficientemente disponible al nivel mínimo; Unidad 4 puede desarrollarse en paralelo y Unidad 5 podrá usar bombo muy simple.
-- **AVANZA CON CORRECTIVO:** el patrón es funcional pero una dimensión necesita mantenimiento explícito.
+- **AVANZA CON CORRECTIVO:** el patrón es utilizable pero una dimensión necesita un correctivo breve. Ese trabajo sustituye una tarea secundaria y después vuelve al contexto completo; no crea un bloque diario adicional de bombo.
 - **REPITE EL BLOQUE ESPECÍFICO:** el problema principal impide todavía golpes básicos consistentes; no hace falta repetir toda esta unidad.
 
 La perfección no es requisito para continuar.

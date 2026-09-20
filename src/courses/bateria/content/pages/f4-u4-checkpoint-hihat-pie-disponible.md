@@ -81,10 +81,14 @@ No es requisito para iniciar Unidad 5, pero puede registrarse evidencia adiciona
 - la tarea manual permanece estable durante frases más largas;
 - recuperas tras un error sin reiniciar siempre.
 
+## Recuperación posterior y relación con el bombo
+
+Bombo y hi-hat de pie siguen siendo ramas distintas, pero **no se mantienen como dos deberes diarios independientes**. Desde Unidad 5 deben reaparecer preferentemente dentro de la misma tarea musical cuando corresponda. Si una de las dos voces limita el patrón, aísla sólo ese cuello de botella y retesta después la combinación completa.
+
 ## Decisión
 
 - **AVANZA:** el hi-hat de pie está suficientemente disponible al nivel mínimo.
-- **AVANZA CON CORRECTIVO:** hi-hat de pie es utilizable pero una dimensión requiere mantenimiento explícito.
+- **AVANZA CON CORRECTIVO:** hi-hat de pie es utilizable pero una dimensión necesita un correctivo breve. Ese trabajo sustituye una tarea secundaria y después vuelve al contexto completo; no crea un bloque diario adicional de pedal.
 - **REPITE EL BLOQUE ESPECÍFICO:** el problema principal impide todavía aperturas/cierres u ostinato básico estable; no hace falta repetir toda esta unidad.
 
 La perfección no es requisito para continuar.

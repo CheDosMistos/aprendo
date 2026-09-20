@@ -70,6 +70,12 @@ Demuestras bombo MÍNIMO sin exigir groove, cuatro extremidades, dobles rápidos
 
 Esta unidad puede incluir tareas muy simples con manos + bombo, pero eso **no certifica coordinación básica de cuatro extremidades**. Unidad 5 será el foco de primer groove y Unidad 6 el foco explícito de cuatro extremidades.
 
+## Cómo seguirá vivo el bombo
+
+Al terminar esta unidad, el bombo no se convierte en un bloque técnico obligatorio al comienzo de cada sesión. En las unidades siguientes reaparece **dentro de groove, coordinación, variaciones y fills** cuando la tarea musical lo necesita.
+
+Si un problema concreto de golpe, retorno, tiempo o equilibrio limita esa tarea, aísla el bombo durante un bloque breve. Ese correctivo **sustituye una tarea secundaria; no se añade automáticamente**. Después vuelve pronto al patrón completo para comprobar transferencia.
+
 ## Seguridad y carga
 
 La escucha segura y la gestión de carga de Unidad 1 siguen activas. Dolor persistente, hormigueo, entumecimiento, pérdida de fuerza/control o movimientos involuntarios persistentes no se normalizan como “parte de aprender”.

@@ -38,15 +38,15 @@ test('F4 U3 has overview, four lessons and checkpoint in order', async () => {
   assert.match(fm(await page('checkpoint')), /^contentId:\s*bat-f4-u3-check$/m);
 });
 
-test('overview makes H2 minimum and non-dogmatic pedal boundary explicit', async () => {
+test('overview makes kick minimum and non-dogmatic pedal boundary explicit', async () => {
   const overview = plain(await page('overview'));
   assert.match(overview, /Cuando el pie es nuevo, el ritmo debe ser viejo/i);
-  assert.match(overview, /MÍNIMO de H2 no es velocidad/i);
+  assert.match(overview, /MÍNIMO de bombo no es velocidad/i);
   assert.match(overview, /golpes controlados y consistentes en patrones básicos/i);
   assert.match(overview, /no demuestra que heel-down, heel-up, heel-toe, slide.*universalmente superior/i);
   assert.match(overview, /youtube\.com\/watch\?v=7hnTj--sThM/i);
   assert.match(overview, /demostración pedagógica/i);
-  assert.match(overview, /no certifica H4/i);
+  assert.match(overview, /no certifica coordinación básica de cuatro extremidades/i);
 });
 
 test('L1 teaches single hit return and one-variable setup without universal geometry', async () => {
@@ -80,27 +80,29 @@ test('L3 uses simple kick quarters and eighths without BPM as pass mark', async 
   assert.match(l3, /BPM es una condición de práctica, no una nota/i);
 });
 
-test('L4 substitutes rather than layers and explicitly avoids H4 certification', async () => {
+test('L4 substitutes rather than layers and avoids premature four-limb certification', async () => {
   const l4 = plain(await page('l4'));
   assert.match(l4, /f4-u3-l4-kick-substitution\.musicxml/);
   assert.match(l4, /no se añade como una capa extra: sustituye/i);
   assert.match(l4, /A → B → A/);
   assert.match(l4, /no se añaden ataques/i);
-  assert.match(l4, /no certifica H4/i);
+  assert.match(l4, /no certifica coordinación básica de cuatro extremidades/i);
   assert.match(l4, /distingues sustitución de superposición/i);
 });
 
-test('checkpoint certifies only H2 minimum and leaves later kit skills open', async () => {
+test('checkpoint certifies only kick minimum and leaves later kit skills open', async () => {
   const cp = plain(await page('checkpoint'));
   assert.match(cp, /MÍNIMO PARA AVANZAR/);
   assert.match(cp, /f4-u3-l3-kick-pulse\.musicxml/);
   assert.match(cp, /f4-u3-l4-kick-substitution\.musicxml/);
   assert.match(cp, /no existe BPM de aprobado/i);
-  for (const excluded of ['H3 — hi-hat de pie', 'H4 — coordinación básica de cuatro extremidades', 'H5 — groove', 'H7 — independencia', 'dobles rápidos', 'doble pedal', 'heel-toe o slide funcional']) {
+  for (const excluded of ['hi-hat de pie', 'coordinación básica de cuatro extremidades', 'groove', 'independencia', 'dobles rápidos', 'doble pedal', 'heel-toe o slide funcional']) {
     assert.match(cp, new RegExp(excluded, 'i'));
   }
-  assert.match(cp, /No es requisito para pasar a U4\/U5/i);
+  assert.match(cp, /No es requisito para pasar a Unidad 4\/Unidad 5/i);
   assert.match(cp, /La perfección no es requisito para continuar/i);
+  assert.match(cp, /no crea un bloque diario adicional de bombo/i);
+  assert.match(cp, /No programes técnica de bombo aislada por obligación/i);
 });
 
 test('kick pulse score is original, metrically complete and kick-only', async () => {
@@ -136,7 +138,7 @@ test('substitution score preserves eight eighth-note attacks while changing only
 
 test('U2 manual boundary remains intact when U3 introduces kick', async () => {
   const u2 = plain(await readFile(path.join(pagesRoot, 'f4-u2-checkpoint-misma-idea-superficies.md'), 'utf8'));
-  assert.match(u2, /MÍNIMO PARA AVANZAR A U3\/U4/);
-  assert.match(u2, /H2 — técnica de bombo/);
+  assert.match(u2, /MÍNIMO PARA AVANZAR A Unidad 3\/Unidad 4/);
+  assert.match(u2, /técnica de bombo/);
   assert.match(u2, /sin exigir todavía pies, groove o cuatro extremidades/i);
 });
