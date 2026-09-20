@@ -138,7 +138,7 @@ Existe evidencia suficiente del ciclo autónomo completo.
 
 ### CONTINUAR + CORRECTIVO
 
-La autonomía es funcional, pero una competencia musical de soporte necesita mantenimiento específico.
+La autonomía es funcional, pero una competencia musical de soporte necesita un correctivo breve. Ese trabajo **sustituye una tarea secundaria del proyecto** y después vuelve a la tarea musical integrada; no crea una rutina paralela de mantenimiento.
 
 ### REDUCIR ALCANCE Y VOLVER A PROBAR
 

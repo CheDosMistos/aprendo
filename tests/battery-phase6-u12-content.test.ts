@@ -16,7 +16,7 @@ function frontmatter(doc:string){
   return match[1];
 }
 
-test('Fase 6 U12 publica cierre final sin inventar Checkpoint 6I',()=>{
+test('Fase 6 U12 publica cierre final sin numeración interna visible',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
     assert.match(fm,/phase: 6\nunit: 12\nunitSlug: fase-6-unidad-12/);
@@ -28,10 +28,10 @@ test('Fase 6 U12 publica cierre final sin inventar Checkpoint 6I',()=>{
   assert.match(docs[5],/HITO 7: APRUEBA/);
 });
 
-test('U12 conserva K1–K8 + E6 + F7 como núcleo contractual mediante el shadow de tests',()=>{
-  const all=docs.join('\n');
-  for(const code of ['K1','K2','K3','K4','K5','K6','K7','K8','E6','F7']) assert.match(all,new RegExp(`\\b${code}\\b`));
+test('U12 conserva el núcleo contractual sin depender de códigos visibles',()=>{
   assert.match(frontmatter(docs[0]),/competencies: \[K1, K2, K3, K4, K5, K6, K7, K8, E6, F7, I3, I4, I5, I6, H7, C7, D7, G3\]/);
+  assert.match(docs[5],/definir objetivos, diagnosticar, organizar material, elegir condiciones de práctica/i);
+  assert.match(docs[5],/transcribir material útil y conectar el análisis con decisiones musicales/i);
 });
 
 test('U12 preserva las dos puertas: objetivo específico de F6 y Hito 7',()=>{
@@ -67,6 +67,9 @@ test('Competencias de apoyo no se convierten en puertas duras nuevas',()=>{
   assert.match(docs[0],/Competencias de apoyo ≠ nuevos prerrequisitos duros/);
   assert.match(docs[0],/no cambia silenciosamente el contrato de Hito 7/i);
   assert.match(docs[5],/no se convierten silenciosamente en una segunda fórmula normativa/);
+  assert.match(docs[5],/prioriza \*\*un hueco concreto\*\*/i);
+  assert.match(docs[5],/no crea una lista paralela/i);
+  assert.match(docs[5],/No se recertifican por obligación/i);
 });
 
 test('Ausencia de interacción interpersonal real no bloquea Hito 7',()=>{
