@@ -38,10 +38,10 @@ No significa que un cue escrito sea irrelevante. Significa que omitir un detalle
 | Sección | Compases | Dinámica | Indicaciones |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Groove sostenible · prepara entrada A |
-| postura y relajación | 5–8 | mf | Groove · conserva forma |
-| agarre principal | 9–12 | mf | Groove · compás 12: Fill A `4 &` → entra B |
-| singles y redobles | 13–16 | f | Groove · compás 16: Variación B `& de 3` |
-| dobles | 17–20 | f | Groove · prepara OUTRO |
+| A · primera mitad | 5–8 | mf | Groove · conserva forma |
+| A · segunda mitad | 9–12 | mf | Groove · compás 12: Fill A `4 &` → entra B |
+| B · primera mitad | 13–16 | f | Groove · compás 16: Variación B `& de 3` |
+| B · segunda mitad | 17–20 | f | Groove · prepara OUTRO |
 | OUTRO | 21–24 | mp | Groove sostenible · final de forma |
 
 Este chart deriva exclusivamente de **Pieza A — Forma I**, material original de Aprendo. No es una transcripción ni un lead sheet comercial.
