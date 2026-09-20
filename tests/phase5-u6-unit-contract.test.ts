@@ -40,8 +40,6 @@ test('overview keeps sound work at minimum and separates source authority', asyn
   assert.match(text, /no crean cinco rutinas permanentes nuevas/i);
   assert.match(text, /sustituye una tarea secundaria/i);
   assert.match(text, /No existe BPM de aprobado/i);
-  assert.match(text, /No repitas una comparación A\/B, una afinación o una configuración de click por obligación/i);
-  assert.match(text, /sustituya una tarea secundaria/i);
 });
 
 test('L1 establishes comparable sound and one-variable diagnosis', async () => {
@@ -95,6 +93,8 @@ test('unit evaluation certifies minimum sound and recording only', async () => {
   assert.match(text, /MANTENER.*REVERTIR.*INCONCLUSO/is);
   assert.match(text, /NO CERTIFICA[\s\S]*afinación profesional/i);
   assert.match(text, /No existe BPM de aprobado/i);
+  assert.match(text, /No repitas una comparación A\/B, una afinación o una configuración de click por obligación/i);
+  assert.match(text, /sustituya una tarea secundaria/i);
 });
 
 test('U6 never relabels H8 as balance sound and orchestration', async () => {
