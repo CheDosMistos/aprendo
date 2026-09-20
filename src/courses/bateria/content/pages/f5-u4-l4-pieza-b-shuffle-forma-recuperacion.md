@@ -93,7 +93,13 @@ Debe observarse razonablemente que:
 
 ## Fronteras
 
-Esta evidencia **no declara blues dominado**, no certifica groove y variaciones COMPETENTE/FUNCIONAL global, no convierte half-time shuffle en requisito y no crea un Evaluación adicional.
+Esta evidencia **no declara blues dominado**, no certifica groove y variaciones COMPETENTE/FUNCIONAL global, no convierte half-time shuffle en requisito y no crea una evaluación adicional.
+
+## Después de esta unidad
+
+Si Pieza B ya puede sostenerse con una versión adecuada, no mantengas el shuffle como un bloque técnico fijo sólo por haberlo estudiado. Hazlo reaparecer cuando una pieza, una comparación de feel o una pregunta diagnóstica necesiten esa referencia ternaria.
+
+Si vuelve a fallar una capa concreta, aísla sólo ese cuello de botella, sustituye una tarea secundaria y retesta después la pieza o el contexto musical completo.
 
 **No existe BPM de aprobado.**
 

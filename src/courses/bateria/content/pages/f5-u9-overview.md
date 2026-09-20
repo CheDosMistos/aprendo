@@ -46,6 +46,12 @@ Sería fácil fabricar dos compases plausibles y llamarlos “samba” o “Lati
 
 > **EJERCICIO ORIGINAL CREADO PARA ESTE CURSO — NO ES UN PATRÓN TRADICIONAL NI UNA TRANSCRIPCIÓN.**
 
+## Regla longitudinal
+
+Las dos ventanas se comparan para aprender procedencia, función y transferencia; **no crean dos rutinas estilísticas permanentes**. En una sesión puede dominar una sola fuente, una sola capa o la comparación entre ambas, según la pregunta musical.
+
+Si una coordinación concreta limita la tarea, aísla sólo esa relación, haz que el correctivo **sustituya una tarea secundaria** y vuelve después a la fuente o al laboratorio contextualizado. Mantener la separación entre tradiciones tiene prioridad sobre “repasarlas todas”.
+
 ## Ruta
 
 1. **Lección 1 — Procedencia antes que patrón:** distinguir familia, función, instrumento y fuente.

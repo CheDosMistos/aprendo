@@ -44,13 +44,19 @@ La regla es:
 
 `ESCUCHAR → DESCRIBIR → CAMBIAR UNA VARIABLE → VOLVER A REGISTRAR → DECIDIR`.
 
+## Regla longitudinal
+
+El sonido se observa **dentro de una tarea musical ya conocida o del repertorio actual**. Afinación, amortiguación, grabación, click y monitorización son herramientas de diagnóstico y ajuste; no crean cinco rutinas permanentes nuevas.
+
+Abre un bloque específico sólo cuando exista una pregunta concreta de sonido, balance, registro o escucha. Si hace falta aislar esa variable, el correctivo **sustituye una tarea secundaria** y después vuelve al groove o a la pieza para comprobar si el cambio mejora la función musical.
+
 ## Fuentes y autoridad
 
 ### SALUD — NIOSH
 
 NIOSH advierte que el riesgo auditivo depende de la **intensidad y la duración de la exposición**, y recomienda reducir niveles cuando sea posible, aprovechar pausas en zonas silenciosas y usar protección adecuada cuando proceda.
 
-Fuente institucional: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/docs/wp-solutions/2015-184/default.html).
+Fuente institucional: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/publications/numbered/2015-184.html).
 
 Esta unidad no convierte un único número de dB en una frontera universal de seguridad doméstica.
 

@@ -38,6 +38,8 @@ test('overview preserves the literal Hito 6 and the three-piece operationalizati
   assert.match(t, /Pieza C/i);
   assert.match(t, /decisión curricular del curso, no un estándar científico ni una regla universal/i);
   assert.match(t, /no tienen que tocarse en una única sesión/i);
+  assert.match(t, /portfolio distribuido, no tres deberes diarios/i);
+  assert.match(t, /sustituya una tarea secundaria/i);
   assert.match(t, /al menos dos familias estilísticas/i);
   assert.match(t, /No existe BPM de aprobado/i);
 });
@@ -47,7 +49,8 @@ test('L1 requires declared conditions and safe session load without a mandatory 
   assert.match(t, /EVIDENCIA SIN CONDICIONES DECLARADAS = EVIDENCIA DIFÍCIL DE INTERPRETAR/i);
   assert.match(t, /PIEZA → CONDICIONES → EVIDENCIA → DIMENSIÓN CRÍTICA → RECUPERACIÓN → DECISIÓN/i);
   assert.match(t, /COMPARABLE ≠ IDÉNTICO/i);
-  assert.match(t, /CARGA AUDITIVA = NIVEL × DURACIÓN/i);
+  assert.match(t, /el riesgo de exposición depende conjuntamente del nivel y de la duración/i);
+  assert.match(t, /No es una multiplicación física literal ni una fórmula para calcular dosis/i);
   assert.match(t, /No existe BPM de aprobado ni media numérica obligatoria/i);
 });
 
@@ -61,12 +64,12 @@ test('L2 preserves A chart/backbeat and B listening/shuffle as two different rou
   assert.match(t, /No hagas una media numérica entre ambas/i);
 });
 
-test('L3 reuses Checkpoint 5D, hybrid sources, H8 and separated evidence', async () => {
+test('L3 reuses prior repertoire-learning evidence, hybrid sources, sound and separated evidence', async () => {
   const t = plain(await page('l3'));
   assert.match(t, /RECUPERACIÓN ACTIVA ANTES DE REESTUDIO/i);
   assert.match(t, /COMBINAR FUENTES ≠ DEPENDER DE TODAS TODO EL TIEMPO/i);
   assert.match(t, /FORMA → TIEMPO → CONTINUIDAD → DINÁMICA → RECUPERACIÓN → SONIDO\/BALANCE → DETALLE/i);
-  assert.match(t, /Checkpoint 5D ya certificó I3 COMPETENTE\/FUNCIONAL/i);
+  assert.match(t, /La evaluación de la Unidad 11 ya certificó aprendizaje de repertorio COMPETENTE\/FUNCIONAL/i);
   assert.match(t, /Segunda evidencia separada/i);
   assert.match(t, /No existe BPM de aprobado/i);
 });
@@ -89,7 +92,9 @@ test('final checkpoint preserves Hito 6, boundaries and non-universal three-piec
   assert.match(t, hito6);
   assert.match(t, /TRES PIEZAS ES UNA DECISIÓN CURRICULAR DE ESTE CURSO, NO UN ESTÁNDAR CIENTÍFICO NI UNA REGLA UNIVERSAL/i);
   assert.match(t, /no tienen que tocarse en una única sesión/i);
-  assert.match(t, /No todas las competencias H5–H8, I2–I4, C y F3 tienen que mostrar el mismo nivel simultáneamente/i);
+  assert.match(t, /No todas las competencias de groove, fills\/orquestación, independencia, sonido\/afinación\/grabación\/monitorización, estilos\/repertorio, tiempo y forma\/frase tienen que mostrar el mismo nivel simultáneamente/i);
+  assert.match(t, /Una interpretación completa puede aportar simultáneamente evidencia/i);
+  assert.match(t, /no crea una lista paralela de mantenimiento diario/i);
   assert.match(t, /RECUPERACIÓN ANTE ERRORES ES PARTE DEL HITO, NO UNA EXCEPCIÓN A OCULTAR/i);
   assert.match(t, /tres tomas perfectas/i);
   assert.match(t, /BPM prefijado/i);

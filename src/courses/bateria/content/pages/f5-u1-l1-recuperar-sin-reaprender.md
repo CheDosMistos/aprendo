@@ -64,7 +64,7 @@ Simplificar deliberadamente **no es retroceder**: es controlar la dificultad par
 
 ## Tempo
 
-El archivo conserva 120 BPM como metadato técnico de Fase 4. No tienes que practicarlo a esa velocidad.
+La partitura conserva un tempo de reproducción de 120 BPM de Fase 4, pero **no es un objetivo ni una referencia de nivel**. No tienes que practicarla a esa velocidad.
 
 **No existe BPM de aprobado.**
 

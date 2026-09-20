@@ -75,7 +75,7 @@ Debe poder observarse razonablemente que:
 ## Decisión
 
 - **AVANZA:** la forma ya organiza la ejecución y las transiciones principales son suficientemente previsibles.
-- **AVANZA CON CORRECTIVO:** el mapa se conserva, pero una unión o la duración continua aún necesita mantenimiento.
+- **AVANZA CON CORRECTIVO:** el mapa se conserva, pero una unión o la duración continua aún necesita un correctivo breve. Ese trabajo **sustituye una tarea secundaria** y termina volviendo a una pasada larga; no crea una rutina paralela de mantenimiento.
 - **REPITE BLOQUE ESPECÍFICO:** todavía no puedes conservar una referencia formal suficiente; repite la sección/unión necesaria, no toda Fase 4.
 
 La siguiente unidad hará explícita una herramienta que aquí sólo hemos empezado a usar: **charts, navegación y prioridades**.

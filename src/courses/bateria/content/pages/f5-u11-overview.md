@@ -56,6 +56,12 @@ Pieza C se aprende desde cuatro perspectivas complementarias:
 
 El objetivo es que cada fuente responda una pregunta diferente.
 
+## Regla longitudinal
+
+**Pieza C es la tarea principal.** Escucha, chart, memoria, análisis y grabación no son cinco bloques que deban completarse en cada sesión: usa la fuente que responda a la pregunta actual y deja fuera las que no aporten información útil.
+
+Si una transición, un cue o una dimensión de sonido limita la pieza, aísla sólo ese problema, haz que el correctivo **sustituya una tarea secundaria** y vuelve pronto a la forma completa. La evidencia separada puede obtenerse más tarde o en otra sesión; no se añade como deuda al presupuesto de 25–30 minutos.
+
 ## Recorrido de la unidad
 
 ### Lección 1 — Pieza C: procedencia, forma y primer mapa

@@ -37,10 +37,10 @@ No es una prueba de sight-reading profesional.
 | Sección | Compases | Dinámica | Indicaciones |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Groove sostenible · prepara A |
-| postura y relajación | 5–8 | mf | Groove |
-| agarre principal | 9–12 | mf | Compás 12: Fill A `4 &` → B |
-| singles y redobles | 13–16 | f | Compás 16: Variación B `& de 3` |
-| dobles | 17–20 | f | Groove · prepara OUTRO |
+| A · primera mitad | 5–8 | mf | Groove |
+| A · segunda mitad | 9–12 | mf | Compás 12: Fill A `4 &` → B |
+| B · primera mitad | 13–16 | f | Compás 16: Variación B `& de 3` |
+| B · segunda mitad | 17–20 | f | Groove · prepara OUTRO |
 | OUTRO | 21–24 | mp | Groove sostenible · final |
 
 ## Evidencia mínima
@@ -86,7 +86,7 @@ Después de la toma, diagnostica. Durante ella, intenta continuar.
 ## Decisión
 
 - **AVANZA:** la navegación preparada es suficientemente estable.
-- **AVANZA CON CORRECTIVO:** forma y recuperación funcionan, pero un cue, dinámica o transición necesita mantenimiento.
+- **AVANZA CON CORRECTIVO:** forma y recuperación funcionan, pero un cue, dinámica o transición necesita un correctivo breve. Ese trabajo **sustituye una tarea secundaria** y vuelve después a la navegación completa; no crea una rutina paralela de mantenimiento.
 - **REPITE BLOQUE ESPECÍFICO:** se pierde sistemáticamente la estructura o no puede recuperarse una referencia útil; no hace falta repetir toda esta unidad.
 
 La siguiente unidad cambia el foco hacia una familia estilística concreta; antes de desarrollarla deberán verificarse sus fuentes idiomáticas.

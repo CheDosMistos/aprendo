@@ -39,6 +39,12 @@ Preferiblemente, la evidencia debe incluir al menos **dos familias estilísticas
 
 Las tres piezas **no tienen que tocarse en una única sesión**.
 
+## Regla longitudinal de cierre
+
+A, B y C son un **portfolio distribuido**, no tres deberes diarios. Una sesión puede centrarse en una sola pieza, en una recuperación diferida o en una dimensión crítica común; no hace falta recorrer las tres para que el trabajo sea válido.
+
+Si aparece un cuello de botella, corrige sólo esa dimensión, haz que el correctivo **sustituya una tarea secundaria** y vuelve a la pieza completa. La ejecución integrada puede aportar evidencia sobre groove, fills, sonido, lectura, memoria y recuperación sin volver a certificar cada capacidad en un bloque separado.
+
 ## Qué debe poder observarse
 
 En el conjunto de evidencias deben aparecer:
@@ -88,7 +94,7 @@ Esta unidad reutiliza el material ya validado de A/B/C. Crear otro MusicXML sól
 
 La gestión de carga y salud sigue activa. Al tocar piezas completas, aumenta la exposición acumulada del kit.
 
-Gestiona **nivel × duración**, introduce pausas y usa protección auditiva cuando corresponda. Esta unidad no inventa un nivel universal “seguro” para toda batería, sala o sesión.
+Gestiona conjuntamente **nivel y duración de exposición**, introduce pausas y usa protección auditiva cuando corresponda. Esta unidad no inventa un nivel universal “seguro” para toda batería, sala o sesión.
 
 ## Criterio de avance hacia la evaluación
 

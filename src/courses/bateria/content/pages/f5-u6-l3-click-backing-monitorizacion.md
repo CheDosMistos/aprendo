@@ -46,7 +46,7 @@ Si para oírlo necesitas subir continuamente el volumen por encima de una bater�
 
 NIOSH recomienda controlar nivel y duración de la exposición musical, reducir niveles cuando sea viable y aprovechar descansos en zonas silenciosas.
 
-Fuente: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/docs/wp-solutions/2015-184/default.html).
+Fuente: [NIOSH — Reducing the Risk of Hearing Disorders among Musicians](https://www.cdc.gov/niosh/publications/numbered/2015-184.html).
 
 ## Secuencia CORE
 

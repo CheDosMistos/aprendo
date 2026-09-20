@@ -31,19 +31,19 @@ Esta unidad no añade un fill ni una variación nuevos. Reutiliza dos eventos ya
 | Sección | Compases | Dinámica | Indicaciones |
 |---|---:|---|---|
 | INTRO | 1–4 | mp | Groove sostenible · prepara A |
-| postura y relajación | 5–8 | mf | Groove |
-| agarre principal | 9–12 | mf | Compás 12: Fill A `4 &` → B |
-| singles y redobles | 13–16 | f | Compás 16: Variación B `& de 3` |
-| dobles | 17–20 | f | Groove · prepara OUTRO |
+| A · primera mitad | 5–8 | mf | Groove |
+| A · segunda mitad | 9–12 | mf | Compás 12: Fill A `4 &` → B |
+| B · primera mitad | 13–16 | f | Compás 16: Variación B `& de 3` |
+| B · segunda mitad | 17–20 | f | Groove · prepara OUTRO |
 | OUTRO | 21–24 | mp | Groove sostenible · final |
 
 ## Tarea 1 — leer antes del evento
 
 No esperes al compás 12 para descubrir que hay un fill.
 
-Durante agarre principal, identifica con antelación:
+Durante A · segunda mitad, identifica con antelación:
 
-`ESTOY EN agarre principal → EL FILL LLEGA EN 12 → DESPUÉS ENTRA B`.
+`ESTOY EN A · segunda mitad → EL FILL LLEGA EN 12 → DESPUÉS ENTRA B`.
 
 Haz lo mismo con la Variación B de compás 16.
 

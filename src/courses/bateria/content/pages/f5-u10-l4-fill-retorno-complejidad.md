@@ -78,7 +78,7 @@ Fuente: [Berklee — Rod Morgenstein](https://www.berklee.edu/people/rod-morgens
 - desplazamientos avanzados como centro de unidad;
 - sistemas de independencia de alta carga;
 - improvisación progresiva extensa;
-- certificación de transferencia entre estilos o J avanzado.
+- certificación de transferencia entre estilos o ritmo avanzado.
 
 ## Salida mínima de esta unidad
 

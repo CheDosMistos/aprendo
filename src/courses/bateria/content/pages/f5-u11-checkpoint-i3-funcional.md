@@ -122,7 +122,9 @@ Esta evaluación **NO CERTIFICA**:
 ## Decisión
 
 - **AVANZA:** el aprendizaje de repertorio muestra estabilidad funcional y la pieza puede entrar en la evidencia final de Fase 5.
-- **AVANZA CON CORRECTIVO:** la combinación de fuentes funciona, pero una transición, recuperación o dimensión secundaria necesita mantenimiento.
+- **AVANZA CON CORRECTIVO:** la combinación de fuentes funciona, pero una transición, recuperación o dimensión secundaria necesita un correctivo breve. Ese trabajo sustituye una tarea secundaria y después se retesta dentro de la pieza completa; no crea mantenimiento paralelo.
 - **MANTÉN esta unidad:** una sola fuente sigue sosteniendo casi todo el aprendizaje o la forma se pierde sistemáticamente ante errores locales.
+
+Pieza C pasa a formar parte del portfolio final, pero no necesita convertirse en una pieza de práctica diaria. Recupera su evidencia cuando corresponda comprobar retención o integración.
 
 Unidad 12 ya no introduce una habilidad aislada: integra Pieza A + Pieza B + Pieza C para el Hito 6.

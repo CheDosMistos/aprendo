@@ -30,9 +30,10 @@ test('F5 U3 has overview and four lessons in order with no invented checkpoint',
   assert.doesNotMatch(joined, /^kind:\s*checkpoint$/m);
 });
 
-test('overview makes I2 H5 dominant and rejects style clichés', async () => {
+test('overview makes backbeat language dominant and rejects style clichés', async () => {
   const overview = plain(await page('overview'));
-  assert.match(overview, /Novedad dominante: I2 \/ H5/i);
+  assert.match(overview, /Novedad dominante: rock\/pop como familia de backbeat \+ ventanas de energía/i);
+  assert.match(overview, /blues\/shuffle se trabaja de forma específica en la unidad siguiente/i);
   assert.match(overview, /ESTILO ≠ PATRÓN/i);
   assert.match(overview, /arquetipo pedagógico/i);
   assert.match(overview, /ENERGÍA ≠ BPM ALTO ≠ VOLUMEN MÁXIMO/i);
@@ -81,8 +82,8 @@ test('L4 integrates Piece A and Chart A while keeping metal optional', async () 
   assert.match(l4, /f5-u1-piece-a-form-i\.musicxml/);
   assert.match(l4, /Chart A — navegación/i);
   assert.match(l4, /INTRO.*mp/is);
-  assert.match(l4, /A1.*mf/is);
-  assert.match(l4, /B1.*f/is);
+  assert.match(l4, /A · primera mitad.*mf/is);
+  assert.match(l4, /B · primera mitad.*f/is);
   assert.match(l4, /TIEMPO → FORMA → FEEL → DINÁMICA → CUE → DETALLE/i);
   assert.match(l4, /Ventana metal — AMPLIACIÓN/i);
   assert.match(l4, /No añadas:[\s\S]*doble pedal/i);
@@ -106,9 +107,9 @@ test('U3 core score is original, audible, metrically complete and two identical 
   assert.equal((xml.match(/<backup><duration>48<\/duration><\/backup>/g) ?? []).length, 2);
 });
 
-test('U2 D7 checkpoint remains prepared-condition only after U3', async () => {
+test('U2 chart-reading checkpoint remains prepared-condition only after U3', async () => {
   const u2 = plain(await readFile(path.join(pagesRoot, 'f5-u2-checkpoint-d7-minimo.md'), 'utf8'));
-  assert.match(u2, /D7 MÍNIMO en condición preparada/i);
-  assert.match(u2, /D7 COMPETENTE\/FUNCIONAL/i);
-  assert.match(u2, /I4 COMPETENTE\/FUNCIONAL/i);
+  assert.match(u2, /lectura aplicada al kit MÍNIMO en condición preparada/i);
+  assert.match(u2, /lectura aplicada al kit COMPETENTE\/FUNCIONAL/i);
+  assert.match(u2, /repertorio COMPETENTE\/FUNCIONAL/i);
 });

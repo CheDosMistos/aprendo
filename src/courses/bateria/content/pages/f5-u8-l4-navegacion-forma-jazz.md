@@ -58,7 +58,9 @@ Puedes practicarla con voz antes de tocar: canta la figura, deja el ride estable
 
 ## Repertorio
 
-El carril A/B sigue activo, pero esta unidad **no cambia la identidad estilística de las piezas ya elegidas**. Si el repertorio disponible no es jazz, usa la mini-forma original o un play-along legal adecuado para practicar navegación.
+Pieza A y Pieza B siguen disponibles, pero **no añadas automáticamente bloques separados de ambas** a esta sesión. Recupéralas sólo si necesitas comprobar retención, forma o una transferencia concreta; si entran, sustituyen otra tarea secundaria.
+
+Esta unidad **no cambia la identidad estilística de las piezas ya elegidas**. Si el repertorio disponible no es jazz, usa la mini-forma original o un play-along legal adecuado para practicar navegación.
 
 ## AMPLIACIÓN
 

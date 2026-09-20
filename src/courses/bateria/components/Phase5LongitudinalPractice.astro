@@ -1,0 +1,73 @@
+---
+interface Props { unit: number; }
+const { unit } = Astro.props;
+const focus =
+  unit <= 2 ? 'continuidad, repertorio y navegación'
+  : unit <= 6 ? 'feel, independencia contextual y sonido'
+  : unit <= 10 ? 'lenguajes, textura y transferencia estilística'
+  : 'aprendizaje híbrido, repertorio e integración';
+---
+
+<section class="longitudinal-practice" data-phase5-longitudinal data-unit={unit} aria-labelledby="phase5-longitudinal-title">
+  <p class="eyebrow">Práctica longitudinal · Fase 5</p>
+  <h2 id="phase5-longitudinal-title">Haz crecer el repertorio sin convertir cada estilo en una deuda de mantenimiento</h2>
+  <p>
+    El foco actual es <strong>{focus}</strong>. La referencia sigue siendo <strong>25–30 min, 3–4 días por semana</strong>.
+    Esta capa <strong>no añade otro bloque de práctica</strong>: organiza qué material merece ocupar el tiempo disponible.
+  </p>
+
+  <div class="longitudinal-grid">
+    <article>
+      <h3>La pieza o tarea musical manda</h3>
+      <p>
+        Groove, fills, coordinación, lectura, oído, sonido y vocabulario estilístico reaparecen dentro de una pieza o tarea cuando cumplen una función real.
+        No conviertas cada capacidad ni cada estilo conocido en un deber diario separado.
+      </p>
+    </article>
+    <article>
+      <h3>Recupera por una razón</h3>
+      <p>
+        Haz volver material anterior cuando limita la tarea actual, quieres comprobar su disponibilidad después de un intervalo sin ensayo inmediato o permite una transferencia útil.
+        Una capacidad estable sale de prioridad; no programes el repaso sólo para conservar una lista.
+      </p>
+    </article>
+    <article>
+      <h3>Estilo nuevo ≠ rutina nueva permanente</h3>
+      <p>
+        Una ventana de shuffle, reggae, jazz, samba, lenguaje afro-cubano o métrica irregular amplía tus decisiones musicales, pero no crea automáticamente seis rutinas de mantenimiento.
+        Compara, transfiere y recupera esos lenguajes cuando la música o una pregunta diagnóstica los necesite.
+      </p>
+    </article>
+    <article>
+      <h3>Repertorio con coste real</h3>
+      <p>
+        Antes de convertir una audición en pieza de práctica, considera tempo, feel, compás, coordinación, densidad, dinámica, continuidad, duración, forma, transiciones,
+        dificultad auditiva, memoria, adaptabilidad y recursos legales. <strong>Audición didáctica ≠ repertorio de práctica.</strong>
+      </p>
+    </article>
+  </div>
+
+  <h3>Cómo encajarlo en 3–4 sesiones</h3>
+  <p>
+    Empieza por la pieza, forma o función dominante de la unidad. Recupera material anterior sólo si responde a una pregunta concreta; si aparece un cuello de botella,
+    aísla una variable durante un correctivo breve, haz que ese correctivo <strong>sustituya una tarea secundaria</strong> y vuelve pronto al contexto musical completo.
+    La evidencia integrada puede informar sobre varias capacidades sin obligarte a recertificarlas por separado.
+  </p>
+
+  <div class="rules">
+    <p><strong>Sustituir, no añadir.</strong> Repertorio, estilos y correctivos compiten por el mismo presupuesto de práctica.</p>
+    <p><strong>Tempo de calidad.</strong> El tempo es una condición de la ejecución, no una definición automática de nivel.</p>
+    <p><strong>Continuidad y recuperación.</strong> Un error local no obliga a reiniciar: conserva la referencia, recupera la forma y diagnostica después.</p>
+    <p><strong>Variar con propósito.</strong> Cambia una variable cuando quieras observar adaptación o transferencia; no añadas dificultad sólo para “subir nivel”.</p>
+    <p><strong>Escucha y carga.</strong> La sostenibilidad física y auditiva tiene prioridad sobre completar el plan; más repertorio no siempre significa mejor práctica.</p>
+  </div>
+</section>
+
+<style>
+.longitudinal-practice{margin:2rem 0;padding:1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+.eyebrow{margin:0 0 .35rem;color:var(--muted);font-size:.78rem;font-weight:750;letter-spacing:.06em;text-transform:uppercase}
+.longitudinal-practice h2{margin:.25rem 0 1rem}.longitudinal-practice h3{margin:1rem 0 .4rem}
+.longitudinal-practice p{line-height:1.6}.longitudinal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:.8rem}
+.longitudinal-grid article,.rules{padding:1rem;border:1px solid var(--border);border-radius:var(--radius)}
+.rules p{margin:.45rem 0}
+</style>

@@ -57,7 +57,7 @@ Añade bombo y una capa sencilla de time. Si el backbeat pierde identidad, vuelv
 
 ## Ghost notes no son el objetivo final de esta unidad
 
-Si pulso, balance o relajación empeoran, elimina las ghost notes y conserva la función musical. **Evaluación no las exige.**
+Si pulso, balance o relajación empeoran, elimina las ghost notes y conserva la función musical. **La evaluación de esta unidad no las exige.**
 
 ## MÍNIMO PARA AVANZAR
 

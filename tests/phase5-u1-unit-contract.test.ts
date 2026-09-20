@@ -59,7 +59,7 @@ test('L2 teaches form and D7 preparation through a minimal formal skeleton', asy
   assert.match(l2, /24 compases de 4\/4/i);
   assert.match(l2, /TIEMPO → FORMA → ENTRADA → DETALLE/i);
   assert.match(l2, /U1 sólo prepara D7/i);
-  assert.match(l2, /120 BPM únicamente como metadato técnico/i);
+  assert.match(l2, /tempo de reproducción de 120 BPM.*no es un objetivo ni una referencia de nivel/is);
   assert.match(l2, /No existe BPM de aprobado/i);
 });
 
@@ -78,7 +78,7 @@ test('L4 uses interpretation mode recording and recovery rather than perfection'
   assert.match(l4, /UN ERROR LOCAL NO DEBE CONVERTIRSE AUTOMÁTICAMENTE EN PÉRDIDA DE FORMA/i);
   assert.match(l4, /LO QUE CREO QUE HAGO ↔ LO QUE REALMENTE SUENA/i);
   assert.match(l4, /PULSO \/ FORMA \/ TRANSICIONES \/ BALANCE \/ RECUPERACIÓN \/ TENSIÓN/i);
-  assert.match(l4, /120 BPM únicamente como metadato técnico/i);
+  assert.match(l4, /tempo de reproducción de 120 BPM.*no es un objetivo ni una referencia de nivel/is);
   assert.match(l4, /No existe BPM de aprobado/i);
 });
 
@@ -91,6 +91,8 @@ test('checkpoint keeps Hito 6 I4 D7 and global H5 H6 outside U1 certification', 
   assert.match(cp, /H6 COMPETENTE\/FUNCIONAL global/i);
   assert.match(cp, /estilo concreto/i);
   assert.match(cp, /No existe BPM de aprobado/i);
+  assert.match(cp, /sustituye una tarea secundaria/i);
+  assert.match(cp, /no crea una rutina paralela de mantenimiento/i);
 });
 
 test('Piece A is a 24-measure original formal skeleton with section cues, one known fill and one known variation', async () => {
