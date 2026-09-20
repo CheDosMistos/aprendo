@@ -56,6 +56,12 @@ Pieza B es **material original de Aprendo**. Se aprende de forma distinta a Piez
 
 La notación de Pieza B es un **esqueleto formal original**, no una transcripción comercial.
 
+## Regla longitudinal
+
+En esta unidad, **Pieza B es el contexto principal**. La rejilla ternaria y el shuffle CORE reaparecen dentro de la pieza cuando ayudan a sostener feel, forma y recuperación; no se convierten además en dos rutinas diarias independientes.
+
+Si el feel, el balance o una frontera de sección limitan la ejecución, aísla sólo esa variable durante un correctivo breve, haz que ese trabajo **sustituya una tarea secundaria** y vuelve pronto a Pieza B para comprobar si la corrección transfirió.
+
 ## Recorrido de la unidad
 
 ### Lección 1 — Pulso y rejilla ternaria
@@ -72,8 +78,8 @@ Sostener una versión funcional de Pieza B y recuperar referencia después de un
 
 ## Salida de esta unidad
 
-Esta unidad aporta evidencia hacia **blues y shuffle**, profundiza **groove y variaciones/subdivisión binaria y ternaria–cambios de subdivisión** y abre una ruta de repertorio dominada por **reconocimiento de pulso y subdivisión/grabación y comparación + forma y frase + formas y canciones**.
+Esta unidad aporta evidencia sobre **blues y shuffle**, profundiza el cambio entre subdivisión binaria y ternaria y abre una ruta de repertorio guiada por oído: localizar pulso y feel, reconocer la forma, contrastar el mapa y sostener la pieza.
 
-No declara blues dominado, no certifica groove y variaciones COMPETENTE/FUNCIONAL global y no crea un Evaluación nuevo.
+No declara blues dominado, no certifica groove y variaciones COMPETENTE/FUNCIONAL global y no crea una evaluación global nueva.
 
 **No existe BPM de aprobado.**

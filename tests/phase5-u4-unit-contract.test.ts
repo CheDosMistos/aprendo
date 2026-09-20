@@ -37,7 +37,9 @@ test('overview preserves approved U4 boundaries and listening-first repertoire B
   assert.match(overview, /CORE — blues \/ shuffle/i);
   assert.match(overview, /AMPLIACIÓN — half-time shuffle/i);
   assert.match(overview, /Pieza B — ruta predominantemente auditiva/i);
-  assert.match(overview, /no crea un checkpoint nuevo/i);
+  assert.match(overview, /no crea una evaluación global nueva/i);
+  assert.match(overview, /Pieza B es el contexto principal/i);
+  assert.match(overview, /no se convierten además en dos rutinas diarias independientes/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
 
@@ -78,8 +80,10 @@ test('L4 reveals original Piece B map after the listening-first lesson and keeps
   assert.match(l4, /Total: 24 compases/i);
   assert.match(l4, /PULSO → FORMA → FEEL → BALANCE → DETALLE/i);
   assert.match(l4, /AMPLIACIÓN — half-time shuffle/i);
-  assert.match(l4, /no crea un checkpoint adicional/i);
+  assert.match(l4, /no crea una evaluación adicional/i);
   assert.match(l4, /no declara blues dominado/i);
+  assert.match(l4, /no mantengas el shuffle como un bloque técnico fijo/i);
+  assert.match(l4, /sustituye una tarea secundaria/i);
 });
 
 test('U4 notation is original, audible and uses explicit 3:2 timing where needed', async () => {

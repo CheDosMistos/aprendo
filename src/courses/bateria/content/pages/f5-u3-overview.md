@@ -79,6 +79,6 @@ Aplicar esta unidad a Pieza A con Chart A, dinámica y cues ya conocidos.
 
 Esta unidad aporta evidencia inicial sobre **vocabulario rock/pop de backbeat** y profundiza groove y variaciones dentro de la familia realmente estudiada, pero **no declara rock, pop o punk dominados, ni metal funcional, ni groove y variaciones COMPETENTE/FUNCIONAL global**. El blues/shuffle se trabaja de forma específica en la unidad siguiente.
 
-No se crea un Evaluación global nuevo: la arquitectura superior no lo prescribe.
+No se crea una evaluación global nueva: la arquitectura superior no la prescribe.
 
-**No existe BPM de aprobado.** gestión de carga y salud y la escucha segura permanecen activos.
+**No existe BPM de aprobado.** La gestión de carga, la salud y la escucha segura permanecen activas.
