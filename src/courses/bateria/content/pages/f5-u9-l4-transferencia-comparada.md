@@ -73,7 +73,9 @@ Después de cada toma responde sin mirar notas:
 
 ## Repertorio y forma
 
-No se asigna una canción por llenar el casillero estilístico. Una pieza brasileña o afro-cubana entrará al carril de repertorio sólo cuando se haya verificado **legalidad de acceso, dificultad y vocabulario concreto**.
+No se asigna una canción por llenar el casillero estilístico. Una pieza brasileña o afro-cubana entrará al repertorio de práctica sólo cuando se haya verificado **legalidad de acceso, dificultad y vocabulario concreto**.
+
+Después de esta unidad, tampoco mantengas ambos laboratorios por obligación. Recupéralos cuando una escucha, una pieza o una pregunta de transferencia requieran esa tradición concreta; si entran en la sesión, sustituyen otra tarea secundaria.
 
 ## Salida mínima de esta unidad
 
