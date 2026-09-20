@@ -90,7 +90,7 @@ Después registra sólo:
 - dinámica;
 - recuperación;
 - función del chart;
-- un punto de mantenimiento.
+- un siguiente punto prioritario.
 
 No corrijas todavía B.
 
@@ -104,7 +104,7 @@ Registra:
 - forma por escucha;
 - dinámica;
 - recuperación;
-- un punto de mantenimiento.
+- un siguiente punto prioritario.
 
 No es obligatorio tocar A y B consecutivamente.
 

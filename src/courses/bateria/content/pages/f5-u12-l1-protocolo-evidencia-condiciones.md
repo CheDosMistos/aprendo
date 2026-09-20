@@ -91,9 +91,7 @@ No necesitas repetir las tres piezas muchas veces en una sola sesión.
 
 Las piezas completas acumulan más exposición que un ejercicio de pocos compases.
 
-La regla práctica sigue siendo:
-
-`CARGA AUDITIVA = NIVEL × DURACIÓN`
+La regla práctica es cualitativa: **el riesgo de exposición depende conjuntamente del nivel y de la duración**. No es una multiplicación física literal ni una fórmula para calcular dosis.
 
 Por tanto:
 

@@ -54,6 +54,12 @@ Cada pieza debe aportar evidencia suficiente para juzgar, según proceda:
 
 No todas las competencias de groove, fills/orquestación, independencia, sonido/afinación/grabación/monitorización, estilos/repertorio, tiempo y forma/frase tienen que mostrar el mismo nivel simultáneamente.
 
+## Evidencia integrada
+
+Una interpretación completa puede aportar simultáneamente evidencia sobre varias de esas capacidades. No vuelvas a examinarlas como bloques separados si la propia pieza ya permite observarlas con claridad.
+
+Si una capacidad concreta queda oculta o limita de forma recurrente la música, aísla sólo esa pregunta, haz que el correctivo **sustituya una tarea secundaria** y retesta después la pieza. El cierre del hito no crea una lista paralela de mantenimiento diario.
+
 ## Evidencia mínima por pieza
 
 Registra:
@@ -128,6 +134,6 @@ Cumplir Hito 6 significa haber alcanzado el perfil de **baterista funcional** de
 
 No significa ser un baterista avanzado ni dominar el repertorio estilístico completo.
 
-Fase 6 podrá ampliar repertorio, lectura, independencia, interacción, transcripción, improvisación y adaptación entre géneros sin borrar el mantenimiento de lo construido aquí.
+Fase 6 podrá ampliar repertorio, lectura, independencia, interacción, transcripción, improvisación y adaptación entre géneros manteniendo de forma **selectiva y contextual** lo construido aquí.
 
 **No existe BPM de aprobado.**
