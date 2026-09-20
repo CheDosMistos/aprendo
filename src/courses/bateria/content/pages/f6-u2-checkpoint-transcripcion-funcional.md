@@ -133,6 +133,12 @@ La evidencia de esta unidad es especialmente sólida cuando además:
 
 Esto **no equivale todavía a transcripción real FUNCIONAL global ni a Hito 7**.
 
+## Después de esta unidad
+
+No programes transcripción como una rutina paralela sólo para «mantenerla». Recupera el proceso cuando una pieza, una duda auditiva o un proyecto de repertorio necesiten reconstruir información desde el audio.
+
+Si aparece un cuello de botella concreto, aísla esa capa, haz que el correctivo **sustituya una tarea secundaria** y vuelve después a la música para comprobar transferencia.
+
 ## AMPLIACIÓN
 
 Si el núcleo ya es sólido:

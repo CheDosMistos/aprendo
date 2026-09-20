@@ -16,13 +16,13 @@ const text = Object.fromEntries(
   Object.entries(files).map(([key, path]) => [key, readFileSync(path, 'utf8')]),
 ) as Record<keyof typeof files, string>;
 
-test('Fase 6 U2 publica overview, cuatro lecciones y Checkpoint 6A con metadatos coherentes', () => {
+test('Fase 6 U2 publica overview, cuatro lecciones y evaluación con metadatos coherentes', () => {
   for (const [key, content] of Object.entries(text)) {
     assert.match(content, /^---\n[\s\S]*\nphase: 6\nunit: 2\nunitSlug: fase-6-unidad-2\n/m, key);
     assert.match(content, /published: true/, key);
   }
-  assert.match(text.overview, /duration: Unidad flexible · 4 lecciones \+ checkpoint/);
-  assert.match(text.checkpoint, /Checkpoint 6A — Transcripción funcional/);
+  assert.match(text.overview, /duration: Unidad flexible · 4 lecciones \+ evaluación/);
+  assert.match(text.checkpoint, /title: "Evaluación — Transcripción funcional"/);
 });
 
 test('U2 conserva la jerarquía de escucha aprobada y la política de incertidumbre', () => {
@@ -41,10 +41,12 @@ test('U2 no presenta reconstrucciones propias como partituras oficiales ni inven
   assert.match(text.checkpoint, /no inventes una fuente/i);
 });
 
-test('Checkpoint 6A certifica sólo E6 mínimo y no adelanta Hito 7', () => {
-  assert.match(text.checkpoint, /E6 MÍNIMO en una tarea preparada/);
+test('La evaluación certifica transcripción mínima sin adelantar Hito 7', () => {
+  assert.match(text.checkpoint, /transcripción real MÍNIMO en una tarea preparada/);
   assert.match(text.checkpoint, /NO certifica/);
-  assert.match(text.checkpoint, /E6 FUNCIONAL en cualquier contexto/);
+  assert.match(text.checkpoint, /transcripción real FUNCIONAL en cualquier contexto/);
   assert.match(text.checkpoint, /Hito 7 — Aprendiz autónomo/);
   assert.match(text.checkpoint, /No existe BPM de aprobado/);
+  assert.match(text.overview, /no se convierte.*en un bloque permanente/is);
+  assert.match(text.checkpoint, /sustituya una tarea secundaria/i);
 });
