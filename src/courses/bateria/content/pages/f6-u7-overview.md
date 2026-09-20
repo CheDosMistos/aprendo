@@ -86,6 +86,12 @@ Compara dos estilos o contextos, identifica al menos un principio compartido y d
 - **DECISIÓN CURRICULAR RAZONADA:** comparar primero función y después realización para entrenar transferencia consciente.
 - **EJERCICIOS:** todo patrón, transformación o híbrido escrito específicamente en esta unidad es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
 
+## Cómo seguirá viva la transferencia
+
+La transferencia entre estilos no se convierte en una rutina permanente de «cambiar de estilo» por obligación. Más adelante reaparecerá cuando un repertorio, arreglo o proyecto necesite reutilizar un principio en otro contexto sin borrar su carácter.
+
+Si una transformación concreta falla, aísla sólo la variable responsable. El correctivo **sustituye una tarea secundaria** y después vuelve a una situación musical completa para comprobar si la función se conserva.
+
 ## Fronteras
 
 Esta unidad no:

@@ -117,6 +117,12 @@ El mapa superior fija:
 
 Esto requiere amplitud contextual, control repetible, escucha refinada e integración musical. Esta unidad abre y profundiza el eje, pero **no exige este nivel para continuar**.
 
+## Después de esta unidad
+
+No programes medición de microtiming como mantenimiento automático. Recupera estas herramientas sólo cuando una pregunta musical necesite distinguir estabilidad, colocación, articulación o feel.
+
+Si una comparación concreta requiere laboratorio, cambia una sola variable, haz que el correctivo **sustituya una tarea secundaria** y vuelve después al contexto musical. La medición describe; no sustituye la escucha ni crea por sí sola una meta de ejecución.
+
 ## Decisión
 
 Usa el lenguaje aprobado:

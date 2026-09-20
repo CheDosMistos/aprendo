@@ -110,6 +110,12 @@ El mapa superior fija:
 
 Esto requiere más amplitud, conocimiento contextual y capacidad de combinación deliberada. Esta unidad puede abrir esa puerta, pero **no exige este nivel para continuar**.
 
+## Después de esta unidad
+
+No mantengas dos estilos en rotación sólo para «no perderlos». Recupera la comparación cuando exista una pregunta real de repertorio, arreglo, improvisación o proyecto.
+
+Si una transferencia concreta resulta frágil, trabaja una sola variable, haz que el correctivo **sustituya una tarea secundaria** y vuelve después a los dos contextos completos para comprobar qué se conservó y qué cambió.
+
 ## Decisión
 
 Usa el lenguaje aprobado:

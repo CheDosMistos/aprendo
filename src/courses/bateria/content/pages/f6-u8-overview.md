@@ -76,6 +76,12 @@ Demuestra que puedes distinguir conceptualmente precisión métrica, estabilidad
 
 La reproducción deliberada de colocación/articulación se observa como evidencia hacia **FUNCIONAL**, pero **no se eleva a requisito para certificar microtiming y placement MÍNIMO**.
 
+## Cómo seguirá vivo el análisis de feel
+
+El trabajo de microtiming no se convierte en una rutina diaria de medir offsets o mirar una rejilla. Reaparecerá cuando una interpretación, estilo o proyecto plantee una pregunta concreta sobre colocación, articulación, estabilidad o feel.
+
+Si una relación temporal necesita aislamiento, compara una sola variable y haz que ese laboratorio **sustituya una tarea secundaria**. Después vuelve a tocar música completa y escucha antes de decidir si la medición aporta información útil.
+
 ## Práctica estándar
 
 Referencia: **25–30 min, 3–4 días por semana**.
