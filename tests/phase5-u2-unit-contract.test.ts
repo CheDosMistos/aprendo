@@ -32,11 +32,11 @@ test('F5 U2 has overview, four lessons and checkpoint 5A in order', async () => 
 
 test('overview makes D7 chart navigation dominant and preserves the decision hierarchy', async () => {
   const overview = plain(await page('overview'));
-  assert.match(overview, /Novedad dominante: D7/i);
+  assert.match(overview, /Novedad dominante: navegación con chart/i);
   assert.match(overview, /UN CHART NO TE DICE CADA GOLPE/i);
   assert.match(overview, /TIEMPO → FORMA → ENTRADA → FIGURE\/CUE → DETALLE/i);
   assert.match(overview, /EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/i);
-  assert.match(overview, /puede certificar D7 MÍNIMO en condición preparada/i);
+  assert.match(overview, /puede certificar lectura aplicada al kit MÍNIMO en condición preparada/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
 
@@ -82,14 +82,16 @@ test('L4 makes Chart A the only written aid in the main take and teaches recover
 
 test('checkpoint certifies D7 minimum only in a prepared condition', async () => {
   const cp = plain(await page('checkpoint'));
-  assert.match(cp, /D7 MÍNIMO en condición preparada/i);
+  assert.match(cp, /lectura aplicada al kit MÍNIMO en condición preparada/i);
   assert.match(cp, /sigue indicaciones elementales de forma y entradas/i);
   assert.match(cp, /score completo de U1 no visible durante la toma principal/i);
   assert.match(cp, /TIEMPO → FORMA → ENTRADA → FIGURE\/CUE → DETALLE/i);
-  assert.match(cp, /D7 COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /lectura aplicada al kit COMPETENTE\/FUNCIONAL/i);
   assert.match(cp, /sight-reading a primera vista/i);
-  assert.match(cp, /I4 COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /repertorio COMPETENTE\/FUNCIONAL/i);
   assert.match(cp, /No existe BPM de aprobado/i);
+  assert.match(cp, /sustituye una tarea secundaria/i);
+  assert.match(cp, /no crea una rutina paralela de mantenimiento/i);
 });
 
 test('U2 creates no new MusicXML and keeps U1 Piece A as the only score reference', async () => {
@@ -104,5 +106,5 @@ test('U2 creates no new MusicXML and keeps U1 Piece A as the only score referenc
 test('U1 remains repertorio A in development and does not become D7 functional retroactively', async () => {
   const u1 = plain(await readFile(path.join(pagesRoot, 'f5-u1-checkpoint-repertorio-a.md'), 'utf8'));
   assert.match(u1, /NO es Hito 6/i);
-  assert.match(u1, /D7 COMPETENTE\/FUNCIONAL/i);
+  assert.match(u1, /lectura aplicada al kit COMPETENTE\/FUNCIONAL/i);
 });
