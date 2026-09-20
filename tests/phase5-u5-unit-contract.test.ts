@@ -41,7 +41,6 @@ test('overview makes independence contextual and protects specialization boundar
   assert.match(text, /no crean tres bloques técnicos diarios nuevos/i);
   assert.match(text, /sustituya una tarea secundaria/i);
   assert.match(text, /No existe BPM de aprobado/i);
-  assert.match(text, /no crea mantenimiento paralelo/i);
 });
 
 test('L1 treats sixteenth notes as a grid rather than a genre definition', async () => {
@@ -88,6 +87,7 @@ test('unit evaluation certifies minimum independence only', async () => {
   assert.match(text, /NO CERTIFICA[\s\S]*independencia a cuatro extremidades avanzada/i);
   assert.match(text, /ghost notes como requisito/i);
   assert.match(text, /No existe BPM de aprobado/i);
+  assert.match(text, /no crea mantenimiento paralelo/i);
 });
 
 test('U5 notation is original, 120-reference, five-line and metrically bounded', async () => {
