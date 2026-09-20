@@ -38,7 +38,7 @@ test('F4 U5 has overview, four lessons and checkpoint in order', async () => {
   assert.match(fm(await page('checkpoint')), /^contentId:\s*bat-f4-u5-check$/m);
 });
 
-test('overview defines a neutral three-limb groove and keeps H4 uncertified', async () => {
+test('overview defines a neutral three-limb groove and keeps four-limb coordination uncertified', async () => {
   const overview = plain(await page('overview'));
   assert.match(overview, /PATRÓN APRENDIDO ≠ GROOVE ESTABLE/i);
   assert.match(overview, /hi-hat cerrado en corcheas/i);
@@ -46,7 +46,8 @@ test('overview defines a neutral three-limb groove and keeps H4 uncertified', as
   assert.match(overview, /bombo en 1 y 3/i);
   assert.match(overview, /tres extremidades activas/i);
   assert.match(overview, /No se atribuye a una canción, baterista, estilo o método/i);
-  assert.match(overview, /no certifica H4 MÍNIMO/i);
+  assert.match(overview, /no certifica todavía el MÍNIMO PARA AVANZAR en coordinación de cuatro extremidades/i);
+  assert.match(overview, /el groove es la tarea principal/i);
   assert.match(overview, /No existe BPM de aprobado/i);
 });
 
@@ -82,12 +83,12 @@ test('L3 turns one bar into four-bar continuity and recovery', async () => {
 
 test('L4 is optional four-limb exposure and does not certify H4', async () => {
   const l4 = plain(await page('l4'));
-  assert.match(l4, /AMPLIACIÓN — no requisito del checkpoint U5/i);
+  assert.match(l4, /AMPLIACIÓN — no requisito de la evaluación esta unidad/i);
   assert.match(l4, /f4-u5-l4-four-limb-bridge-a\.musicxml/);
   assert.match(l4, /mano derecha.*ride en corcheas/is);
   assert.match(l4, /bombo en 1\/3 y caja en 2\/4/is);
   assert.match(l4, /pie izquierdo.*chick de hi-hat en 2 y 4/is);
-  assert.match(l4, /no certifica H4 MÍNIMO ni H7/i);
+  assert.match(l4, /no certifica por sí solo el MÍNIMO PARA AVANZAR ni independencia avanzada/i);
 });
 
 test('checkpoint evaluates a local first groove without overstating H4 or H5', async () => {
@@ -95,11 +96,12 @@ test('checkpoint evaluates a local first groove without overstating H4 or H5', a
   assert.match(cp, /primer groove estable en la condición practicada de tres extremidades/i);
   assert.match(cp, /f4-u5-l1-groove-base-a\.musicxml/);
   assert.match(cp, /f4-u5-l3-groove-base-a-4bars\.musicxml/);
-  assert.match(cp, /no certifica H4 MÍNIMO/i);
-  assert.match(cp, /H5 — COMPETENTE\/FUNCIONAL/i);
-  assert.match(cp, /H7 — independencia/i);
+  assert.match(cp, /no certifica coordinación básica de cuatro extremidades MÍNIMO/i);
+  assert.match(cp, /COMPETENTE\/FUNCIONAL/i);
+  assert.match(cp, /independencia/i);
   assert.match(cp, /No existe BPM de aprobado/i);
   assert.match(cp, /La perfección no es requisito para continuar/i);
+  assert.match(cp, /No mantengas por separado .manos., .bombo. y .hi-hat./i);
 });
 
 test('Groove Base A score is original, complete and has three sounding limbs', async () => {
@@ -157,7 +159,7 @@ test('four-limb bridge score contains ride, snare, kick and pedal hi-hat in thre
 
 test('U4 remains an H3 checkpoint and does not become groove certification', async () => {
   const u4 = plain(await readFile(path.join(pagesRoot, 'f4-u4-checkpoint-hihat-pie-disponible.md'), 'utf8'));
-  assert.match(u4, /H3 MÍNIMO/);
-  assert.match(u4, /H5 — groove funcional/i);
-  assert.match(u4, /No es requisito para iniciar U5/i);
+  assert.match(u4, /hi-hat de pie alcanza el MÍNIMO PARA AVANZAR/i);
+  assert.match(u4, /groove funcional/i);
+  assert.match(u4, /No es requisito para iniciar Unidad 5/i);
 });

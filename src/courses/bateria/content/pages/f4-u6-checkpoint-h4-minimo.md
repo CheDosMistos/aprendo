@@ -79,6 +79,10 @@ No existe BPM de aprobado.
 
 La perfección no es requisito: el MÍNIMO PARA AVANZAR exige una coordinación de cuatro extremidades suficientemente estable para que Unidad 7 pueda trabajar groove y pequeñas variaciones sin convertir cada sesión en reaprendizaje del patrón base.
 
+## Después de esta unidad
+
+La coordinación de cuatro extremidades se mantiene preferentemente **dentro de grooves y tareas musicales posteriores**. Si una extremidad o transición vuelve a limitar la tarea, aísla sólo ese problema, sustituye una tarea secundaria y retesta después el patrón completo. No añadas por defecto una rutina extra de coordinación a todas las sesiones.
+
 ## Registrar esta práctica
 
 Anota `A/B → condición → continuidad → fallo → recuperación → correctivo → segundo intento`.

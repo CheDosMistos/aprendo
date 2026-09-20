@@ -74,6 +74,10 @@ No existe BPM de aprobado.
 
 La perfección no es requisito para continuar: necesitamos una base suficientemente estable para entrar en Unidad 6 sin ocultar qué capas siguen frágiles.
 
+## Después de esta unidad
+
+No mantengas por separado «manos», «bombo» y «hi-hat» sólo porque ya se hayan estudiado. Cuando el groove los integra con calidad suficiente, esa ejecución aporta evidencia sobre las capas que contiene. Recupera una capa aislada sólo si limita el groove o si necesitas comprobarla con una pregunta concreta.
+
 ## Registrar esta práctica
 
 Anota `condición → frase → fallo → recuperación → correctivo → segundo intento`.
