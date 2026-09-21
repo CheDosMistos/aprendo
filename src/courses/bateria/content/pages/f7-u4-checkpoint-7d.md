@@ -15,9 +15,9 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa esta evaluación
+## Qué evalúa
 
-El curso define tuplets de 5 y 7 y divisiones no estándar como funcional cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar esta unidad.
+El curso considera funcional este trabajo con tuplets de 5 y 7 cuando puedes **cambiar entre tuplets y subdivisiones comunes con estabilidad**. Por tanto, tocar un quintillo aislado no basta para cerrar esta unidad.
 
 Se evalúan:
 
@@ -153,14 +153,14 @@ Esto cumple el nivel mínimo del mapa sin exigir todavía una integración exten
 
 ## COMPETENTE / FUNCIONAL
 
-tuplets de 5 y 7 y divisiones no estándar puede considerarse **funcional** cuando además:
+El trabajo con tuplets de 5 y 7 puede considerarse **funcional** cuando además:
 
 - cambias entre subdivisiones comunes y 5/7 con estabilidad;
 - encadenas varios pulsos sin deriva apreciable del pulso;
 - puedes empezar con ambas manos;
 - lees y escribes ejemplos sencillos;
 - aplicas acento, silencio, sticking u orquestación sin deformar los intervalos;
-- distingues verbalmente tuplets de 5 y 7 y divisiones no estándar de agrupaciones dentro de 4/4, métricas impares y mixtas, polirritmia y modulación métrica.
+- distingues verbalmente los tuplets de 5 y 7 de agrupaciones dentro de 4/4, métricas impares y mixtas, polirritmia y modulación métrica.
 
 ## AVANZADO
 
@@ -172,6 +172,10 @@ Nivel de ampliación, no requisito:
 - puedes preparar conscientemente una subdivisión para futuras reinterpretaciones métricas.
 
 La modulación como competencia pertenece a **modulación métrica**, no a esta evaluación.
+
+## Después de esta unidad
+
+Si quintillos y septillos ya están disponibles con suficiente evidencia, dejan de ocupar un bloque fijo. Reaparecen dentro de cambios de densidad, vocabulario, polirritmia o modulación métrica sólo cuando la tarea los necesita. Un correctivo específico sustituye otra tarea secundaria; no se acumula por encima del presupuesto normal.
 
 ## Registro recomendado
 
