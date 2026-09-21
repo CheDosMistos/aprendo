@@ -1,0 +1,55 @@
+---
+interface Props { unit: number; }
+const { unit } = Astro.props;
+const focus =
+  unit <= 2 ? 'agrupaciones y desplazamientos'
+  : unit <= 4 ? 'métricas impares/mixtas y tuplets'
+  : unit <= 6 ? 'ciclos que cruzan compases y polirritmia'
+  : unit <= 8 ? 'polimetría y modulación métrica'
+  : 'integración progresiva, experimentación y Hito 8';
+---
+
+<section class="longitudinal-practice" data-phase7-longitudinal data-unit={unit} aria-labelledby="phase7-longitudinal-title">
+  <p class="eyebrow">Práctica longitudinal · Fase 7</p>
+  <h2 id="phase7-longitudinal-title">Ritmo avanzado sin convertir la complejidad en deuda de práctica</h2>
+  <p>
+    El foco actual es <strong>{focus}</strong>. La referencia sigue siendo <strong>25–30 min, 3–4 días por semana</strong>.
+    Esta capa <strong>no añade otro bloque de práctica</strong>: decide qué fenómeno merece la prioridad y qué capacidades anteriores sólo necesitan reaparecer dentro de la tarea musical.
+  </p>
+  <div class="longitudinal-grid">
+    <article>
+      <h3>La tarea musical manda</h3>
+      <p>Una agrupación, un desplazamiento, una polirritmia o una modulación se aísla sólo mientras limita la ejecución o la comprensión. Cuando ya está disponible, vuelve a frase, forma, improvisación, composición o repertorio; no permanece como rutina diaria por inercia.</p>
+    </article>
+    <article>
+      <h3>Secuencia de profundidad ≠ nueve rutinas</h3>
+      <p>El orden de la fase protege dependencias y terminología. No obliga a conservar nueve laboratorios simultáneos. Una capacidad con evidencia suficiente sale de la prioridad dominante y pasa a recuperación, transferencia o mantenimiento cuando la música la necesite.</p>
+    </article>
+    <article>
+      <h3>Puerta relevante, no lista completa</h3>
+      <p>Antes de profundizar una tarea comprueba pulso, subdivisión, representación métrica y los prerrequisitos que esa tarea realmente usa. No necesitas demostrar todas las unidades anteriores al mismo nivel para estudiar un recurso que no depende de ellas.</p>
+    </article>
+    <article>
+      <h3>Nombrar antes de mezclar</h3>
+      <p>Agrupación, compás irregular, tuplet, desplazamiento, ciclo que cruza compases, polirritmia, polimetría y modulación métrica no son sinónimos. Si combinas recursos, debes poder explicar qué fenómeno ocurre y qué referencia temporal conserva cada uno.</p>
+    </article>
+  </div>
+  <h3>Cómo encajarlo en 3–4 sesiones</h3>
+  <p>Empieza por una referencia temporal clara y una pregunta concreta. Aísla sólo el cuello de botella, vuelve pronto a una frase o forma completa y usa una toma posterior para comprobar recuperación o transferencia. El curso <strong>no fija un calendario universal de repasos</strong> ni exige practicar todos los recursos de la fase cada semana.</p>
+  <div class="rules">
+    <p><strong>Sustituir, no añadir.</strong> Un correctivo avanzado ocupa tiempo que sale de otra tarea secundaria; no se suma por encima del presupuesto normal.</p>
+    <p><strong>Complejidad con función.</strong> Más capas, notas o relaciones no significan automáticamente más nivel musical.</p>
+    <p><strong>Retención ≠ preparación inmediata.</strong> Una ejecución lograda justo después de ensayar no demuestra por sí sola disponibilidad posterior.</p>
+    <p><strong>Tempo de calidad.</strong> El tempo es una condición de trabajo; pulso, sonido, relajación, comprensión, recuperación y aplicación siguen contando.</p>
+    <p><strong>Hito 8 no exige ocho técnicas simultáneas.</strong> La evidencia final debe mostrar explicación, referencia temporal, ejecución y aplicación con una selección adecuada de recursos.</p>
+  </div>
+</section>
+
+<style>
+.longitudinal-practice{margin:2rem 0;padding:1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+.eyebrow{margin:0 0 .35rem;color:var(--muted);font-size:.78rem;font-weight:750;letter-spacing:.06em;text-transform:uppercase}
+.longitudinal-practice h2{margin:.25rem 0 1rem}.longitudinal-practice h3{margin:1rem 0 .4rem}
+.longitudinal-practice p{line-height:1.6}.longitudinal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:.8rem}
+.longitudinal-grid article,.rules{padding:1rem;border:1px solid var(--border);border-radius:var(--radius)}
+.rules p{margin:.45rem 0}
+</style>
