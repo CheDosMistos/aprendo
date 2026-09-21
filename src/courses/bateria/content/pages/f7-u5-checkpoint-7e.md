@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa esta evaluación
+## Qué evalúa
 
 El curso define ciclos que cruzan compases así:
 
@@ -175,6 +175,10 @@ Nivel de ampliación, no requisito:
 - integras resoluciones dentro de formas extensas;
 - ocultas o enfatizas alineaciones con intención;
 - mantienes la referencia incluso cuando la superficie genera ambigüedad fuerte.
+
+## Después de esta unidad
+
+Cuando un ciclo sencillo ya puede mantenerse, predecirse y recuperarse, deja de ser prioridad diaria. Reaparece como recurso formal o como prerrequisito de una tarea posterior cuando sea pertinente; no se conserva como laboratorio paralelo por obligación.
 
 ## Registro recomendado
 

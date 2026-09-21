@@ -165,20 +165,20 @@ El recurso aparece dentro de una pieza, forma o improvisación y cumple una func
 
 ## Revisión de los recursos rítmicos trabajados en las unidades anteriores
 
-No es un examen acumulativo de ocho técnicas. Usa esta tabla como **mapa de mantenimiento**:
+No es un examen acumulativo de ocho técnicas ni una lista de ocho rutinas de mantenimiento. Usa esta tabla como **mapa de estado** para decidir qué recurso necesita realmente la música actual:
 
-| Capacidad | Nivel observado | Siguiente acción |
+| Capacidad | Nivel observado | Acción si limita una tarea actual |
 |---|---|---|
-| Agrupaciones | mínimo / funcional / avanzado | continuar / mantener / reforzar |
-| Desplazamientos | mínimo / funcional / avanzado | continuar / mantener / reforzar |
-| Métricas impares y mixtas | mínimo / funcional / avanzado | continuar / mantener / reforzar |
-| Tuplets | mínimo / funcional / avanzado | continuar / mantener / reforzar |
-| Ciclos que cruzan compases | mínimo / funcional / avanzado | continuar / mantener / reforzar |
-| Polirritmia | mínimo / funcional / avanzado | continuar / mantener / reforzar |
-| Polimetría | mínimo / funcional / avanzado | continuar / mantener / reforzar |
-| Modulación métrica | mínimo / funcional / avanzado | continuar / mantener / reforzar |
+| Agrupaciones | mínimo / funcional / avanzado | usar / recuperar / reforzar |
+| Desplazamientos | mínimo / funcional / avanzado | usar / recuperar / reforzar |
+| Métricas impares y mixtas | mínimo / funcional / avanzado | usar / recuperar / reforzar |
+| Tuplets | mínimo / funcional / avanzado | usar / recuperar / reforzar |
+| Ciclos que cruzan compases | mínimo / funcional / avanzado | usar / recuperar / reforzar |
+| Polirritmia | mínimo / funcional / avanzado | usar / recuperar / reforzar |
+| Polimetría | mínimo / funcional / avanzado | usar / recuperar / reforzar |
+| Modulación métrica | mínimo / funcional / avanzado | usar / recuperar / reforzar |
 
-El nivel observado y la siguiente acción son dimensiones distintas: reforzar no es un nivel de competencia.
+El nivel observado y la siguiente acción son dimensiones distintas: reforzar no es un nivel de competencia. Las capacidades con evidencia suficiente salen de la prioridad dominante y pueden permanecer en reserva hasta que una pieza, improvisación, análisis o proyecto vuelva a necesitarlas.
 
 ## Fallos que NO invalidan automáticamente el cierre
 

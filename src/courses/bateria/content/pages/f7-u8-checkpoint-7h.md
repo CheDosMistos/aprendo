@@ -261,6 +261,10 @@ No se exige para Unidad 9.
 - compensar un error acelerando/frenando;
 - usar una fórmula numérica sin poder decir qué duraciones relaciona.
 
+# Después de esta unidad
+
+Una modulación métrica comprendida y ejecutable sale de la prioridad dominante. No mantengas una rutina diaria de modulaciones sólo para conservar la etiqueta: recupérala cuando una forma, transición o proyecto integrado la necesite. Si el puente se vuelve frágil, aísla esa relación y sustituye temporalmente una tarea secundaria.
+
 # Registro recomendado
 
 Anota después:
