@@ -44,7 +44,7 @@ Usa uno de estos tipos de fuente:
 - una obra comercial escuchada legalmente, sin copiar ni redistribuir una transcripción protegida;
 - una grabación o recurso con partitura legal disponible para contrastar después.
 
-Para la evaluación se recomienda un fragmento corto o una sección de dificultad adecuada. **esta unidad no exige una canción completa.**
+Para la evaluación se recomienda un fragmento corto o una sección de dificultad adecuada. **Esta unidad no exige una canción completa.**
 
 ## Recorrido de la unidad
 
@@ -90,6 +90,12 @@ El curso puede enseñar el procedimiento, utilizar análisis propio, trabajar ma
 - no exige velocidad de reproducción concreta ni BPM de aprobado;
 - no certifica todavía transcripción real FUNCIONAL global ni el Hito 7;
 - no enseña un estilo nuevo ni hace afirmaciones idiomáticas específicas.
+
+## Cómo seguirá viva esta capacidad
+
+La transcripción no se convierte, al cerrar esta unidad, en un bloque permanente que debas practicar aparte todos los días. Más adelante reaparecerá dentro del aprendizaje de repertorio desde audio, el análisis y los proyectos autónomos cuando la música la necesite.
+
+Si una capa concreta de escucha o representación limita el proyecto actual, aísla sólo esa pregunta durante un bloque breve. Ese trabajo **sustituye una tarea secundaria** y después vuelve al audio y a la ejecución para comprobar si la corrección realmente transfirió.
 
 ## Práctica estándar
 

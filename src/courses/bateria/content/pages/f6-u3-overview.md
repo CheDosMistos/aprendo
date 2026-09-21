@@ -87,6 +87,12 @@ En Fase 6 debes además:
 - no usa material comercial reconstruido de memoria;
 - no crea un BPM de aprobado.
 
+## Cómo reaparecerá la navegación
+
+La lectura con chart no se convierte en un bloque fijo de mantenimiento separado del repertorio. Más adelante reaparecerá dentro de proyectos sostenidos, interacción y adaptación cuando la música necesite navegar forma, cues o figures.
+
+Si una dificultad concreta del chart limita la tarea actual, aísla sólo ese punto durante un correctivo breve. Ese trabajo **sustituye una tarea secundaria** y después vuelve a una pasada continua para comprobar si la decisión protege realmente tiempo y forma.
+
 ## Práctica estándar
 
 Referencia: **25–30 min, 3–4 días por semana**.

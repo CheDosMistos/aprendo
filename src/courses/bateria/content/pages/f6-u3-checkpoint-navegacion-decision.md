@@ -114,6 +114,12 @@ La evidencia es especialmente sólida cuando además:
 
 El nivel exacto global de lectura aplicada al kit se interpreta según el mapa vigente y la evidencia acumulada; esta evaluación no convierte una única toma en competencia universal.
 
+## Después de esta unidad
+
+No mantengas «lectura de chart» como deber independiente por inercia. Recupera esta capacidad cuando un proyecto, ensayo simulado o repertorio necesite navegación real.
+
+Si una figure, cue o punto de reentrada se convierte en cuello de botella, trabaja sólo esa decisión, haz que el correctivo **sustituya una tarea secundaria** y vuelve después a la forma completa.
+
 ## AMPLIACIÓN
 
 - reduce el tiempo de preparación sin eliminarlo por completo;

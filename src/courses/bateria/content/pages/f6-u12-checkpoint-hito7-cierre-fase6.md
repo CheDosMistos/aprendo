@@ -172,6 +172,12 @@ Usa esta decisión cuando falta evidencia nuclear o ésta no permite todavía un
 
 `AÚN NO` no reinicia Fase 6. Identifica el hueco concreto y prescribe una nueva prueba o correctivo acotado.
 
+## Regla longitudinal del cierre
+
+Si falta evidencia nuclear, prioriza **un hueco concreto**. El correctivo elegido sustituye una tarea de menor prioridad y después vuelve a una prueba integrada; no crea una lista paralela de todas las competencias de Fase 6.
+
+Las capacidades que ya disponen de evidencia suficiente pasan a mantenimiento, reserva o futura especialización según corresponda. No se recertifican por obligación sólo porque otra dimensión necesite trabajo.
+
 ## Decisiones de continuidad
 
 Después de la decisión del hito, clasifica cada pendiente:

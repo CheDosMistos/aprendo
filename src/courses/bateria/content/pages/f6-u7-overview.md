@@ -39,7 +39,7 @@ Un principio puede conservarse mientras cambian superficie, orquestación, densi
 
 ## Rasgo idiomático: lo que no conviene borrar por accidente
 
-Un estilo no se reduce a un groove aislado. Para esta esta unidad se observarán, según el caso:
+Un estilo no se reduce a un groove aislado. Para esta unidad se observarán, según el caso:
 
 - organización métrica y subdivisión macroscópica;
 - función de las voces del kit;
@@ -85,6 +85,12 @@ Compara dos estilos o contextos, identifica al menos un principio compartido y d
 - **FUENTE COMERCIAL DOCUMENTADA:** John Riley, `The Art of Bop Drumming` (Alfred Music), permanece como recurso específico de jazz ya verificado; no se usa como definición universal de jazz.
 - **DECISIÓN CURRICULAR RAZONADA:** comparar primero función y después realización para entrenar transferencia consciente.
 - **EJERCICIOS:** todo patrón, transformación o híbrido escrito específicamente en esta unidad es `EJERCICIO ORIGINAL CREADO PARA ESTE CURSO`.
+
+## Cómo seguirá viva la transferencia
+
+La transferencia entre estilos no se convierte en una rutina permanente de «cambiar de estilo» por obligación. Más adelante reaparecerá cuando un repertorio, arreglo o proyecto necesite reutilizar un principio en otro contexto sin borrar su carácter.
+
+Si una transformación concreta falla, aísla sólo la variable responsable. El correctivo **sustituye una tarea secundaria** y después vuelve a una situación musical completa para comprobar si la función se conserva.
 
 ## Fronteras
 

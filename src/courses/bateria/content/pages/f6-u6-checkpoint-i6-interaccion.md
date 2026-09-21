@@ -130,6 +130,12 @@ Requiere más flexibilidad, anticipación, sensibilidad contextual y, para la pa
 
 Esta unidad no exige este nivel para continuar.
 
+## Después de esta unidad
+
+No conviertas la práctica con pistas, cues o call-response en un bloque permanente por defecto. Recupera esta capacidad cuando un proyecto musical necesite escuchar información externa y adaptar una decisión.
+
+Si una respuesta concreta es frágil, trabaja sólo ese cuello de botella, haz que el correctivo **sustituya una tarea secundaria** y vuelve después a la forma completa. La falta de interacción interpersonal real puede seguir registrada como evidencia todavía no observada; no se compensa acumulando más simulaciones idénticas.
+
 ## Decisión
 
 Usa el lenguaje aprobado:

@@ -1,0 +1,74 @@
+---
+interface Props { unit: number; }
+const { unit } = Astro.props;
+const focus =
+  unit <= 3 ? 'diagnóstico, transcripción y navegación'
+  : unit <= 6 ? 'independencia funcional, improvisación e interacción'
+  : unit <= 8 ? 'transferencia estilística, feel y microtiming'
+  : unit <= 10 ? 'repertorio desde audio e integración sostenida'
+  : 'proyecto autónomo, retención y cierre de fase';
+---
+
+<section class="longitudinal-practice" data-phase6-longitudinal data-unit={unit} aria-labelledby="phase6-longitudinal-title">
+  <p class="eyebrow">Práctica longitudinal · Fase 6</p>
+  <h2 id="phase6-longitudinal-title">Construye autonomía sin convertir cada competencia avanzada en una deuda de práctica</h2>
+  <p>
+    El foco actual es <strong>{focus}</strong>. La referencia sigue siendo <strong>25–30 min, 3–4 días por semana</strong>.
+    Esta capa <strong>no añade otro bloque de práctica</strong>: organiza qué problema, proyecto o evidencia merece ocupar el tiempo disponible.
+  </p>
+
+  <div class="longitudinal-grid">
+    <article>
+      <h3>El proyecto musical manda</h3>
+      <p>
+        Transcripción, chart, independencia, interacción, transferencia estilística, feel y repertorio reaparecen cuando el proyecto actual los necesita.
+        No conviertas cada competencia estudiada en un deber diario separado.
+      </p>
+    </article>
+    <article>
+      <h3>Portafolio ≠ cuatro rutinas simultáneas</h3>
+      <p>
+        Los carriles de escucha/transcripción, chart/lectura, transferencia entre estilos y proyecto autónomo organizan evidencia; no obligan a practicar cuatro bloques en cada sesión.
+        Un mismo material puede alimentar varios carriles si las preguntas y evidencias permanecen claramente diferenciadas.
+      </p>
+    </article>
+    <article>
+      <h3>Autonomía ≠ practicar sin ayuda</h3>
+      <p>
+        Ser más autónomo significa elegir recursos, ayudas, orden de trabajo y correctivos con una razón observable, comprobar el resultado y cambiar el plan cuando la evidencia lo contradice.
+        Una ayuda útil no pierde valor por venir de un profesor, método, chart, grabación o herramienta.
+      </p>
+    </article>
+    <article>
+      <h3>Métodos y recursos: resolver, no coleccionar</h3>
+      <p>
+        Un libro, sistema o ejercicio externo entra sólo si responde a un cuello de botella concreto y sus prerrequisitos son adecuados.
+        El trabajo aislado <strong>sustituye una tarea secundaria</strong> y debe volver pronto a la música para comprobar si hubo transferencia.
+      </p>
+    </article>
+  </div>
+
+  <h3>Cómo encajarlo en 3–4 sesiones</h3>
+  <p>
+    Empieza por la prioridad dominante del proyecto. Formula una pregunta diagnóstica, prueba una intervención pequeña y vuelve al contexto musical completo.
+    Recupera material anterior cuando necesites comprobar disponibilidad real o transferencia, procurando que la prueba esté suficientemente separada del ensayo específico para aportar información.
+    El curso <strong>no fija un intervalo universal de horas o días</strong>.
+  </p>
+
+  <div class="rules">
+    <p><strong>Sustituir, no añadir.</strong> Portafolio, repertorio, métodos, correctivos y proyectos compiten por el mismo presupuesto de práctica.</p>
+    <p><strong>Retención ≠ preparación inmediata.</strong> Una buena pasada justo después de ensayar no demuestra por sí sola aprendizaje retenido.</p>
+    <p><strong>Evidencia integrada.</strong> Un proyecto puede informar sobre varias capacidades sin obligarte a recertificarlas una por una.</p>
+    <p><strong>Incertidumbre explícita.</strong> En escucha y transcripción, distingue lo verificado, lo plausible y la simplificación didáctica.</p>
+    <p><strong>Tempo de calidad y carga sostenible.</strong> El tempo es una condición; la salud física y auditiva tiene prioridad sobre completar el plan.</p>
+  </div>
+</section>
+
+<style>
+.longitudinal-practice{margin:2rem 0;padding:1.25rem;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface)}
+.eyebrow{margin:0 0 .35rem;color:var(--muted);font-size:.78rem;font-weight:750;letter-spacing:.06em;text-transform:uppercase}
+.longitudinal-practice h2{margin:.25rem 0 1rem}.longitudinal-practice h3{margin:1rem 0 .4rem}
+.longitudinal-practice p{line-height:1.6}.longitudinal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:.8rem}
+.longitudinal-grid article,.rules{padding:1rem;border:1px solid var(--border);border-radius:var(--radius)}
+.rules p{margin:.45rem 0}
+</style>

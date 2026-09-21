@@ -84,6 +84,12 @@ Con una batería de tareas suficientemente variada, esta evidencia puede sostene
 - recuperación compartida ante un error no programado;
 - interacción espontánea equivalente a tocar con músicos.
 
+## Cómo reaparecerá la interacción
+
+La interacción no se mantiene como un laboratorio aislado todos los días. Más adelante reaparecerá dentro de repertorio, charts y proyectos sostenidos cuando exista información externa a la que responder.
+
+Si una señal, una relación con el bajo o una decisión de densidad limita la tarea, aísla sólo esa pregunta. El correctivo **sustituye una tarea secundaria** y después vuelve a una pasada continua para comprobar respuesta y continuidad.
+
 ## Práctica estándar
 
 Referencia: **25–30 min, 3–4 días por semana**.

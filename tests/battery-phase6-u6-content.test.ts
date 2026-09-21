@@ -15,7 +15,7 @@ function frontmatter(doc:string){
   return match[1];
 }
 
-test('Fase 6 U6 publica overview, cuatro lecciones y Checkpoint 6C',()=>{
+test('Fase 6 U6 publica overview, cuatro lecciones y evaluación',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
     assert.match(fm,/phase: 6\nunit: 6\nunitSlug: fase-6-unidad-6/);
@@ -23,8 +23,8 @@ test('Fase 6 U6 publica overview, cuatro lecciones y Checkpoint 6C',()=>{
     assert.match(fm,new RegExp(`order: ${i}`));
   });
   assert.equal(new Set(docs.map(d=>frontmatter(d).match(/contentId: ([^\n]+)/)?.[1])).size,6);
-  assert.match(docs[0],/4 lecciones \+ checkpoint/);
-  assert.match(docs[5],/Checkpoint 6C/);
+  assert.match(docs[0],/4 lecciones \+ evaluación/);
+  assert.match(docs[5],/title: \"Evaluación — interacción y ensemble MÍNIMO\"/);
 });
 
 test('U6 mantiene I6 como novedad sin adelantar C7 de U8',()=>{
@@ -52,7 +52,7 @@ test('U6 separa evidencia simulada de reciprocidad interpersonal',()=>{
   assert.match(docs[0],/Goebl & Palmer \(2009\)/);
   assert.match(docs[4],/contingencia cambiante y posibilidad de influencia bidireccional/i);
   assert.match(docs[4],/INTERACCIÓN INTERPERSONAL REAL: NO OBSERVADA TODAVÍA/);
-  assert.match(docs[5],/I6 MÍNIMO robusto/);
+  assert.match(docs[5],/interacción y ensemble MÍNIMO robusto/);
 });
 
 test('U6 etiqueta heurísticas y atribuciones con precisión epistemológica',()=>{
@@ -66,19 +66,21 @@ test('U6 etiqueta heurísticas y atribuciones con precisión epistemológica',()
 
 test('U6 usa material original y respeta fronteras curriculares',()=>{
   for(const d of docs.slice(1,6)){if(/EJERCICIO ORIGINAL/.test(d))assert.match(d,/EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);}
-  assert.match(docs[0],/U7/);
-  assert.match(docs[0],/U8/);
-  assert.match(docs[0],/U10/);
+  assert.match(docs[0],/Unidad 7/);
+  assert.match(docs[0],/Unidad 8/);
+  assert.match(docs[0],/Unidad 10/);
   assert.match(docs[5],/no declara Hito 7/i);
   assert.match(docs[5],/No existe BPM|no usa BPM universal/i);
 });
 
-test('Checkpoint 6C conserva niveles aprobados sin rúbrica paralela',()=>{
-  assert.match(docs[5],/MÍNIMO PARA AVANZAR — I6/);
+test('La evaluación conserva niveles aprobados sin rúbrica paralela',()=>{
+  assert.match(docs[5],/MÍNIMO PARA AVANZAR — interacción y ensemble/);
   assert.match(docs[5],/COMPETENTE \/ FUNCIONAL/);
   assert.match(docs[5],/AVANZADO/);
   assert.match(docs[5],/CONTINUAR/);
   assert.match(docs[5],/CONTINUAR \+ CORRECTIVO/);
   assert.match(docs[5],/REDUCIR NOVEDAD/);
   assert.match(docs[5],/No se promedian estas dimensiones como nota numérica/i);
+  assert.match(docs[0],/La interacción no se mantiene como un laboratorio aislado/i);
+  assert.match(docs[5],/sustituya una tarea secundaria/i);
 });

@@ -15,7 +15,7 @@ function frontmatter(doc:string){
   return match[1];
 }
 
-test('Fase 6 U7 publica overview, cuatro lecciones y Checkpoint 6D',()=>{
+test('Fase 6 U7 publica overview, cuatro lecciones y evaluación',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
     assert.match(fm,/phase: 6\nunit: 7\nunitSlug: fase-6-unidad-7/);
@@ -23,13 +23,13 @@ test('Fase 6 U7 publica overview, cuatro lecciones y Checkpoint 6D',()=>{
     assert.match(fm,new RegExp(`order: ${i}`));
   });
   assert.equal(new Set(docs.map(d=>frontmatter(d).match(/contentId: ([^\n]+)/)?.[1])).size,6);
-  assert.match(docs[0],/4 lecciones \+ checkpoint/);
-  assert.match(docs[5],/Checkpoint 6D/);
+  assert.match(docs[0],/4 lecciones \+ evaluación/);
+  assert.match(docs[5],/title: \"Evaluación — transferencia entre estilos MÍNIMO\"/);
 });
 
-test('U7 mantiene I5 como novedad dominante y respeta sus dependencias',()=>{
+test('U7 mantiene transferencia entre estilos como novedad dominante y respeta sus dependencias',()=>{
   assert.match(frontmatter(docs[0]),/competencies: \[I5, I2, I1, F7, G2, G3, H5, H6, E5, C1, C2\]/);
-  assert.match(docs[0],/Dependencias superiores: `I2-R, F7-F, G2-F`/);
+  assert.match(docs[0],/Dependencias superiores: `blues y shuffle, análisis musical, desarrollo motívico`/);
   assert.match(docs[0],/MÍNIMO PARA AVANZAR/i);
   assert.match(docs[0],/identifica un principio compartido entre estilos/i);
 });
@@ -58,7 +58,7 @@ test('U7 evita caricaturizar estilos y atribuir material original',()=>{
 
 test('U7 abre híbridos sin convertirlos en requisito mínimo',()=>{
   assert.match(docs[4],/combinar lenguajes y crear híbridos con intención musical/i);
-  assert.match(docs[4],/No necesitas alcanzar todavía el nivel AVANZADO de I5/i);
+  assert.match(docs[4],/No necesitas alcanzar todavía el nivel AVANZADO de transferencia entre estilos/i);
   assert.match(docs[5],/Híbrido opcional/i);
   assert.match(docs[5],/no es requisito para demostrar MÍNIMO/i);
 });
@@ -66,19 +66,21 @@ test('U7 abre híbridos sin convertirlos en requisito mínimo',()=>{
 test('U7 documenta fuentes y mantiene fronteras U8 U10 Fase 7 e Hito 7',()=>{
   assert.match(docs[0],/Berklee College of Music/);
   assert.match(docs[0],/Hudson Music/);
-  assert.match(docs[0],/U8/);
-  assert.match(docs[0],/U10/);
+  assert.match(docs[0],/Unidad 8/);
+  assert.match(docs[0],/Unidad 10/);
   assert.match(docs[0],/Fase 7/);
   assert.match(docs[5],/no declara Hito 7/i);
   assert.match(docs[5],/no usa BPM universal/i);
 });
 
-test('Checkpoint 6D conserva niveles aprobados sin rúbrica paralela',()=>{
-  assert.match(docs[5],/MÍNIMO PARA AVANZAR — I5/);
+test('La evaluación conserva niveles aprobados sin rúbrica paralela',()=>{
+  assert.match(docs[5],/MÍNIMO PARA AVANZAR — transferencia entre estilos/);
   assert.match(docs[5],/COMPETENTE \/ FUNCIONAL/);
   assert.match(docs[5],/AVANZADO/);
   assert.match(docs[5],/CONTINUAR/);
   assert.match(docs[5],/CONTINUAR \+ CORRECTIVO/);
   assert.match(docs[5],/REDUCIR NOVEDAD/);
   assert.match(docs[5],/No se promedian estas dimensiones como nota numérica/i);
+  assert.match(docs[0],/no se convierte en una rutina permanente/i);
+  assert.match(docs[5],/sustituya una tarea secundaria/i);
 });

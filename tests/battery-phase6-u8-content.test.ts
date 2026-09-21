@@ -27,9 +27,9 @@ test('Fase 6 U8 publica overview, cuatro lecciones y evaluación local sin códi
   assert.doesNotMatch(docs[5],/Checkpoint 6E/);
 });
 
-test('U8 mantiene C7 como novedad dominante y conserva el contrato superior',()=>{
+test('U8 mantiene microtiming y feel como novedad dominante y conserva el contrato superior',()=>{
   assert.match(frontmatter(docs[0]),/competencies: \[C7, C1, C2, C4, I2, E5, H5, H6, K5, K8\]/);
-  assert.match(docs[0],/Dependencias superiores: `C1-R, C2-R, I2-F`/);
+  assert.match(docs[0],/Dependencias superiores: `pulso interno, subdivisión binaria y ternaria, blues y shuffle`/);
   assert.match(docs[0],/MÍNIMO PARA AVANZAR.*precisión métrica y feel no son idénticos/is);
   assert.match(docs[0],/COMPETENTE \/ FUNCIONAL.*colocación y articulación/is);
   assert.match(docs[0],/AVANZADO.*microtiming.*estabilidad estructural/is);
@@ -76,12 +76,12 @@ test('U8 documenta evidencia específica y límites de generalización',()=>{
 
 test('U8 identifica ejercicios originales y no exige ejecución funcional para el mínimo',()=>{
   for(const d of docs.slice(1,6)){if(/EJERCICIO ORIGINAL/.test(d))assert.match(d,/EJERCICIO ORIGINAL CREADO PARA ESTE CURSO/);}
-  assert.match(docs[5],/no es requisito para demostrar C7 MÍNIMO/i);
+  assert.match(docs[5],/no es requisito para demostrar microtiming y placement MÍNIMO/i);
   assert.match(docs[5],/Reproduce diferencias básicas de colocación y articulación en estilos estudiados/);
 });
 
 test('La evaluación conserva niveles, decisiones y fronteras aprobadas',()=>{
-  assert.match(docs[5],/MÍNIMO PARA AVANZAR — C7/);
+  assert.match(docs[5],/MÍNIMO PARA AVANZAR — microtiming y placement/);
   assert.match(docs[5],/COMPETENTE \/ FUNCIONAL/);
   assert.match(docs[5],/AVANZADO/);
   assert.match(docs[5],/CONTINUAR/);
@@ -90,4 +90,6 @@ test('La evaluación conserva niveles, decisiones y fronteras aprobadas',()=>{
   assert.match(docs[5],/No se promedian estas dimensiones como nota numérica/i);
   assert.match(docs[5],/no declara Hito 7/i);
   assert.match(docs[5],/no usa BPM universal/i);
+  assert.match(docs[0],/no se convierte en una rutina diaria de medir offsets/i);
+  assert.match(docs[5],/sustituya una tarea secundaria/i);
 });

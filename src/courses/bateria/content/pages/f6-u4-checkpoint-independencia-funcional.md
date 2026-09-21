@@ -25,7 +25,7 @@ Criterio aprobado de esta unidad:
 
 ## Condición previa
 
-Antes de usar la ruta principal debe estar abierta puerta de entrada:
+Antes de usar la ruta principal debe estar abierta la puerta de entrada:
 
 - coordinación básica de cuatro extremidades FUNCIONAL;
 - subdivisión binaria y ternaria FUNCIONAL;
@@ -55,7 +55,7 @@ Después de un bloque de aislamiento vuelve al groove, comping, textura o fragme
 
 ## MÍNIMO PARA AVANZAR
 
-- puerta de entrada está abierta para esta tarea;
+- la puerta de entrada está abierta para esta tarea;
 - la capa base se mantiene funcional y temporalmente estable;
 - la voz secundaria varía sin colapso de pulso;
 - sonido y dinámica siguen siendo controlables;
@@ -76,6 +76,12 @@ La evidencia es especialmente sólida cuando además:
 - puedes decidir conscientemente no usar una combinación aunque seas capaz de tocarla.
 
 Una sola tarea no certifica «independencia avanzada universal».
+
+## Después de esta unidad
+
+No mantengas un sistema de independencia como rutina separada sólo porque ya puedas ejecutarlo. Recupera estas capas cuando una tarea musical necesite esa separación funcional.
+
+Si una combinación vuelve a limitar groove, comping, interacción o repertorio, aísla sólo la capa responsable, haz que el correctivo **sustituya una tarea secundaria** y vuelve después a la música completa.
 
 ## AMPLIACIÓN
 

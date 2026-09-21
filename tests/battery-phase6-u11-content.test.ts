@@ -16,7 +16,7 @@ function frontmatter(doc:string){
   return match[1];
 }
 
-test('Fase 6 U11 publica proyecto autónomo y corresponde a Checkpoint 6F',()=>{
+test('Fase 6 U11 publica proyecto autónomo y su evaluación',()=>{
   docs.forEach((d,i)=>{
     const fm=frontmatter(d);
     assert.match(fm,/phase: 6\nunit: 11\nunitSlug: fase-6-unidad-11/);
@@ -24,7 +24,7 @@ test('Fase 6 U11 publica proyecto autónomo y corresponde a Checkpoint 6F',()=>{
     assert.match(fm,new RegExp(`order: ${i}`));
   });
   assert.equal(new Set(docs.map(d=>frontmatter(d).match(/contentId: ([^\n]+)/)?.[1])).size,7);
-  assert.match(docs[6],/Checkpoint 6F — Proyecto autónomo: autonomía funcional sostenida/);
+  assert.match(docs[6],/title: \"Evaluación — Proyecto autónomo: autonomía funcional sostenida\"/);
   assert.doesNotMatch(docs[6],/Checkpoint 6H/);
 });
 
@@ -35,11 +35,11 @@ test('U11 conserva el contrato de proyecto autónomo y K1–K8',()=>{
   assert.match(docs[6],/OBSERVAR → DEFINIR → ELEGIR → ACTUAR → REGISTRAR → EVALUAR → AJUSTAR → TRANSFERIR/);
 });
 
-test('U11 diferencia el proyecto auditivo de U9, la integración de U10 y su propiedad parcial',()=>{
-  assert.match(docs[0],/U9 — aprender repertorio desde audio/);
-  assert.match(docs[0],/U10 — integración sostenida dentro de la interpretación/);
+test('U11 diferencia el proyecto auditivo de Unidad 9, la integración de Unidad 10 y su propiedad parcial',()=>{
+  assert.match(docs[0],/Unidad 9 — aprender repertorio desde audio/);
+  assert.match(docs[0],/Unidad 10 — integración sostenida dentro de la interpretación/);
   assert.match(docs[0],/Ahora — propiedad parcial del proyecto/);
-  assert.doesNotMatch(docs[0],/U9 — microciclo de autonomía aplicada/);
+  assert.doesNotMatch(docs[0],/Unidad 9 — microciclo de autonomía aplicada/);
 });
 
 test('U11 selecciona, diagnostica, planifica y cambia el plan por evidencia',()=>{
@@ -75,6 +75,8 @@ test('U11 certifica autonomía funcional sostenida pero no Hito 7',()=>{
   assert.match(docs[6],/NO declara Hito 7/);
   assert.match(docs[0],/no declara \*\*Hito 7\*\*/);
   assert.doesNotMatch(docs[6],/Hito 7:\s*APRUEBA/i);
+  assert.match(docs[6],/sustituye una tarea secundaria del proyecto/i);
+  assert.match(docs[6],/no crea una rutina paralela de mantenimiento/i);
 });
 
 test('U11 ya no contiene la reconciliación ficticia 6F–6H ni artefactos duplicados',()=>{
