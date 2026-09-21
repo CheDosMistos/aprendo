@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-4
 slug: checkpoint-7d
 kind: checkpoint
 order: 5
-title: "Evaluación — tuplets de 5 y 7 y divisiones no estándar funcional: 5 y 7 sin mover el pulso"
+title: "Evaluación — tuplets de 5 y 7: subdividir sin mover el pulso"
 summary: "Comprueba que puedes explicar, leer, ejecutar y transformar quintillos/septillos y cambiar entre subdivisiones comunes y 5/7 conservando una referencia temporal estable."
 duration: 20–30 min + revisión
 competencies: [J4, C1, C2, C3, C4, D3, D6, E2, G1, G2, G3, G4, G6, K2, K5]
