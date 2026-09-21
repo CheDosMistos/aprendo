@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa esta evaluación
+## Qué evalúa
 
 El curso define polirritmia así:
 
@@ -196,6 +196,10 @@ Nivel de ampliación, no requisito:
 - orquestación y groove polirrítmico;
 - integración de varias relaciones en una forma;
 - combinación deliberada con otros recursos rítmicos avanzados manteniendo claridad estructural.
+
+## Después de esta unidad
+
+Una polirritmia funcional no crea un bloque permanente de 3:2 o 4:3. La capacidad vuelve dentro de independencia, composición, improvisación o integración cuando cumple una función; si una capa concreta se degrada, el correctivo sustituye una tarea secundaria y después vuelve a la forma musical.
 
 ## Registro recomendado
 

@@ -7,7 +7,7 @@ unitSlug: fase-7-unidad-3
 slug: checkpoint-7c
 kind: checkpoint
 order: 5
-title: "Evaluación — métricas impares y mixtas funcional: métricas impares y mixtas"
+title: "Evaluación — métricas impares y mixtas: cambiar de compás sin perder la referencia"
 summary: "Comprueba que puedes distinguir, leer, escribir, ejecutar, combinar y recuperar 5/4, 7/8 y cambios de compás sin depender de un BPM universal."
 duration: 20–30 min + revisión
 competencies: [J3, J1, C1, C2, C4, C6, D4, D6, G1, G2, G3, G4, G6, K2, K5]
@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa esta evaluación
+## Qué evalúa
 
 Esta evaluación no pregunta si “aguantas un patrón raro”. Evalúa si **métricas impares y mixtas empieza a ser funcional**: comprensión, referencia temporal, lectura/escritura, ejecución, transferencia musical y recuperación.
 
@@ -145,6 +145,10 @@ Nivel de ampliación, no requisito:
 - puedes reducir mucho las ayudas externas;
 - usas cambios métricos por intención musical y no sólo como dificultad;
 - recuperas errores sin que la forma global resulte ambigua.
+
+## Después de esta unidad
+
+Si la métrica impar o mixta ya dispone de evidencia suficiente, sale de la prioridad dominante. No necesitas mantener 5/4, 7/8 y cambios de compás como tres rutinas independientes: recupéralos dentro de lectura, forma, repertorio o una tarea posterior cuando aporten información útil.
 
 ## Registro recomendado
 

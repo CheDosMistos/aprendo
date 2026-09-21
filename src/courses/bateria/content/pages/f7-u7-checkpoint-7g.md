@@ -15,7 +15,7 @@ rudiments: []
 published: true
 ---
 
-## Qué evalúa esta evaluación
+## Qué evalúa
 
 El curso define polimetría así:
 
@@ -200,6 +200,10 @@ Opcional en este punto:
 - combinas polimetría con otras competencias avanzadas sin perder claridad terminológica.
 
 No es requisito para entrar en modulación métrica.
+
+## Después de esta unidad
+
+La polimetría no necesita mantenerse como ejercicio diario una vez existe evidencia suficiente. Reaparece cuando una composición, análisis o proyecto integrado utiliza realmente dos organizaciones métricas; si no, puede quedar en reserva sin bloquear la continuación.
 
 ## Registro recomendado
 

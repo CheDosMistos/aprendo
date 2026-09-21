@@ -124,6 +124,10 @@ Esto permite abrir métricas impares y mixtas.
 
 AVANZADO no es requisito para continuar.
 
+## Después de esta unidad
+
+Si existe evidencia suficiente, los desplazamientos salen de la prioridad dominante. No se añade una rutina fija de desplazamientos mientras estudias métricas: el recurso reaparece cuando una frase, groove o composición lo necesita. Si falla, aísla sólo la posición problemática y vuelve después a la música.
+
 ## Registro final
 
 Anota:
@@ -133,6 +137,6 @@ Anota:
 - si el problema fue temporal, técnico o de representación;
 - estrategia de recuperación útil;
 - una aplicación musical conseguida;
-- qué debe mantenerse activo al entrar en métricas impares y mixtas.
+- qué tendría que reaparecer si una dificultad concreta limita la siguiente unidad.
 
-> **HITO LOCAL evaluación final: PUEDO MOVER EL MATERIAL RESPECTO A LA CUADRÍCULA SIN MOVER LA CUADRÍCULA.**
+> **HITO LOCAL: PUEDO MOVER EL MATERIAL RESPECTO A LA CUADRÍCULA SIN MOVER LA CUADRÍCULA.**

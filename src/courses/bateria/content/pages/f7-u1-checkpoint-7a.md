@@ -115,6 +115,10 @@ Esto permite abrir desplazamientos de acento y motivo sin exigir agrupaciones de
 
 El nivel AVANZADO no es requisito para continuar.
 
+## Después de esta unidad
+
+Si existe evidencia suficiente, las agrupaciones salen de la prioridad dominante. No se convierten en un bloque diario permanente: reaparecen dentro de desplazamientos, frase, composición o repertorio cuando cumplen una función. Si vuelven a limitar una tarea, el correctivo sustituye una tarea secundaria y después regresa al contexto musical.
+
 ## Registro final
 
 Anota:
@@ -126,4 +130,4 @@ Anota:
 - una evidencia de transferencia;
 - siguiente objetivo para desplazamientos de acento y motivo.
 
-> **HITO LOCAL evaluación final: PUEDO REORGANIZAR LA SUPERFICIE DE UN 4/4 SIN PERDER SU IDENTIDAD MÉTRICA.**
+> **HITO LOCAL: PUEDO REORGANIZAR LA SUPERFICIE DE UN 4/4 SIN PERDER SU IDENTIDAD MÉTRICA.**
