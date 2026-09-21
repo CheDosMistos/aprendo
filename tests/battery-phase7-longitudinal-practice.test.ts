@@ -21,7 +21,7 @@ test('F7 sequence protects dependencies without creating nine permanent routines
   assert.match(guide, /Secuencia de profundidad ≠ nueve rutinas/i);
   assert.match(guide, /sale de la prioridad dominante/i);
   assert.match(guide, /Puerta relevante, no lista completa/i);
-  assert.match(guide, /no exige practicar todos los recursos de la fase cada semana/i);
+  assert.match(guide, /ni exige practicar todos los recursos de la fase cada semana/i);
 });
 
 test('F7 keeps advanced-rhythm terminology distinct', async () => {
